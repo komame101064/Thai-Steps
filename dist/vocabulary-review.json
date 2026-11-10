@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-10",
+  "entries": 5000,
+  "meanings": 7411,
+  "senseCorrectionsReviewed": 993,
+  "headwordsWithCorrections": 917,
+  "primaryChecked": 1876,
+  "referenceMeanings": 5153,
+  "coverage": "全件の形式・参照整合性を点検。日本語語義の個別見直しは記載の範囲。全語の辞書照合・ネイティブ校閲は未完了。",
+  "checks": [
+    "5000の固有見出し・ID",
+    "読み・訳・品詞・分類・頻度の欠損",
+    "語義番号と修正対象英語語義の一致",
+    "対義語・類義語の参照先・重複・自己参照",
+    "参考訳をテスト対象から除外"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "thai-steps",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Thai grammar and vocabulary learning for Japanese speakers",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "start": "node tools/serve.mjs",
+    "test": "node tools/run-tests.mjs"
+  },
+  "engines": {"node": ">=18"}
+}

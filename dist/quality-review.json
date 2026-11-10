@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-10",
+  "registeredUniqueHeadwords": 5077,
+  "recordsChecked": 5207,
+  "meaningsCheckedForRequiredFields": 7624,
+  "examplesCheckedForRequiredFields": 7624,
+  "missingRequiredExampleFields": 0,
+  "editoriallyRevisedMeaningsThisPass": 52,
+  "editoriallyRevisedExampleTranslationsThisPass": 53,
+  "originLabelsRemovedForInheritedWords": 58,
+  "runtimeFixes": [
+    "テーマ別テストのやり直しで語義を保持",
+    "保存済み学習記録の異常値を読み込み時に補正",
+    "選択肢にない解答を受け付けない"
+  ],
+  "checks": [
+    "頻度・並べ替え・お気に入り・復習",
+    "500・1000・3000語の範囲と検索",
+    "22テーマのカード・テスト",
+    "一般語・スラングの分離",
+    "語義と用例・音声ボタンの対応",
+    "語源の参照先と同綴語の区別"
+  ],
+  "fullLinguisticReviewComplete": false,
+  "limitation": "全件について日本語訳・発音・用例の正確性を個別に保証するものではありません。未校閲の参考訳が残ります。"
+}

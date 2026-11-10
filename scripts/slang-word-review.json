@@ -1,0 +1,246 @@
+{
+  "tl-10001": {
+    "id": "tl-10001",
+    "th": "ชิล",
+    "ro": "chiu",
+    "frequency": 8,
+    "frequencyEstimated": true,
+    "frequencyBasis": "editorial",
+    "corpusRank": 110001,
+    "pos": "形容詞・状態語",
+    "category": "スラング｜友達の日常",
+    "meanings": [
+      {
+        "ja": "気楽な・のんびりした",
+        "en": "",
+        "pos": "形容詞・状態語",
+        "use": "この学習欄で扱う意味",
+        "checked": true,
+        "sourceSense": 1,
+        "speechStyle": "口語",
+        "note": "英語 chill 由来。くつろいだ場面で使う。会話では chiu と発音されることが多く、ชิว（chiu）とも書く。",
+        "isSlang": true
+      }
+    ],
+    "relations": {
+      "related": [
+        "tl-05041"
+      ]
+    },
+    "relationDetails": {},
+    "tags": [
+      "colloquial"
+    ],
+    "kind": "expression",
+    "bucket": 5000,
+    "collection": "slang",
+    "speechStyle": "口語",
+    "adult": false,
+    "editorial": true
+  },
+  "tl-10003": {
+    "id": "tl-10003",
+    "th": "โคตร",
+    "ro": "khôot",
+    "frequency": 8,
+    "frequencyEstimated": true,
+    "frequencyBasis": "editorial",
+    "corpusRank": 110003,
+    "pos": "副詞・強調語",
+    "category": "スラング｜粗い言葉",
+    "meanings": [
+      {
+        "ja": "めちゃくちゃ・ものすごく",
+        "en": "",
+        "pos": "副詞・強調語",
+        "use": "この学習欄で扱う意味",
+        "checked": true,
+        "sourceSense": 1,
+        "speechStyle": "粗い口語",
+        "note": "強い俗語の強調。親しくない人や仕事では避ける。",
+        "isSlang": true
+      }
+    ],
+    "relations": {},
+    "relationDetails": {},
+    "tags": [
+      "colloquial",
+      "vulgar"
+    ],
+    "kind": "expression",
+    "bucket": 5000,
+    "collection": "slang",
+    "speechStyle": "粗い口語",
+    "adult": false,
+    "editorial": true
+  },
+  "tl-10020": {
+    "id": "tl-10020",
+    "th": "จัดเต็ม",
+    "ro": "càt tem",
+    "frequency": 7,
+    "frequencyEstimated": true,
+    "frequencyBasis": "editorial",
+    "corpusRank": 110020,
+    "pos": "定型表現",
+    "category": "スラング｜友達の日常",
+    "meanings": [
+      {
+        "ja": "思いきりやる・盛大にやる",
+        "en": "",
+        "pos": "定型表現",
+        "use": "この学習欄で扱う意味",
+        "checked": true,
+        "sourceSense": 1,
+        "speechStyle": "口語・スラング",
+        "note": "食事・服装・遊びなどで手加減せず楽しむ感じ。 食事だけでなく服装・準備・遊びなどにも使う。",
+        "isSlang": true
+      }
+    ],
+    "relations": {},
+    "relationDetails": {},
+    "tags": [
+      "colloquial",
+      "slang"
+    ],
+    "kind": "expression",
+    "bucket": 5000,
+    "collection": "slang",
+    "speechStyle": "口語・スラング",
+    "adult": false,
+    "editorial": true
+  },
+  "tl-22761": {
+    "id": "tl-22761",
+    "th": "แขวน",
+    "ro": "khwɛ̌ɛn",
+    "frequency": 6,
+    "frequencyEstimated": true,
+    "corpusRank": 2441,
+    "pos": "動詞",
+    "category": "スラング｜一般",
+    "meanings": [
+      {
+        "ja": "棚上げする・保留する",
+        "en": "to suspend, shelve",
+        "pos": "動詞",
+        "use": "少なめの用法",
+        "checked": true,
+        "sourceSense": 2,
+        "registerTags": [
+          "slang"
+        ],
+        "isSlang": true,
+        "speechStyle": "口語・スラング",
+        "note": "案件・計画などをひとまず保留にする意味。物を掛けるという一般語義とは区別する。"
+      }
+    ],
+    "relations": {
+      "related": [
+        "tl-02421"
+      ]
+    },
+    "tags": [
+      "slang"
+    ],
+    "kind": "word",
+    "example": {
+      "th": "ช่วยแขวนเสื้อในตู้ให้หน่อย",
+      "en": "Please hang the shirt in the wardrobe."
+    },
+    "bucket": 3000,
+    "relationDetails": {},
+    "speechStyle": "口語・スラング",
+    "generalHidden": false,
+    "collection": "slang",
+    "sourceWord": "tl-02421",
+    "frequencyBasis": "editorial"
+  },
+  "tl-21410": {
+    "id": "tl-21410",
+    "th": "ฟิว",
+    "ro": "fiu",
+    "frequency": 7,
+    "frequencyEstimated": true,
+    "corpusRank": 1101,
+    "pos": "名詞",
+    "category": "スラング｜一般",
+    "meanings": [
+      {
+        "ja": "感じ・雰囲気",
+        "en": "feel, vibe",
+        "pos": "名詞",
+        "use": "よく使う意味",
+        "checked": true,
+        "sourceSense": 1,
+        "reviewed": "2026-11-10",
+        "registerTags": [
+          "slang"
+        ],
+        "isSlang": true,
+        "speechStyle": "口語・スラング",
+        "note": "英語 feel 由来の「感じ・雰囲気」。表記・発音に揺れがあり、チャットなどで使う。"
+      }
+    ],
+    "relations": {
+      "related": [
+        "tl-04960"
+      ]
+    },
+    "tags": [
+      "slang"
+    ],
+    "kind": "word",
+    "example": {
+      "th": "ร้านนี้ฟิวดีมาก",
+      "en": "This shop has a great vibe."
+    },
+    "bucket": 2000,
+    "relationDetails": {},
+    "speechStyle": "口語・スラング",
+    "generalHidden": false,
+    "collection": "slang",
+    "sourceWord": "tl-04960",
+    "frequencyBasis": "editorial"
+  },
+  "tl-10042": {
+    "id": "tl-10042",
+    "th": "แซ่บ",
+    "ro": "sɛ̂p",
+    "frequency": 8,
+    "frequencyEstimated": true,
+    "frequencyBasis": "editorial",
+    "corpusRank": 110042,
+    "pos": "形容詞・状態語",
+    "category": "スラング｜ほめる・反応",
+    "meanings": [
+      {
+        "ja": "魅力的な・セクシーで刺激的な",
+        "en": "",
+        "pos": "形容詞・状態語",
+        "use": "この学習欄で扱う意味",
+        "checked": true,
+        "sourceSense": 1,
+        "speechStyle": "口語・スラング",
+        "note": "この欄は人物などをほめる俗語の意味。料理の「おいしい・辛くてうまい」と分ける。",
+        "isSlang": true
+      }
+    ],
+    "relations": {
+      "related": [
+        "tl-04975"
+      ]
+    },
+    "relationDetails": {},
+    "tags": [
+      "colloquial",
+      "slang"
+    ],
+    "kind": "expression",
+    "bucket": 5000,
+    "collection": "slang",
+    "speechStyle": "口語・スラング",
+    "adult": false,
+    "editorial": true
+  }
+}

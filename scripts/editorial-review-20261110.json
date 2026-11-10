@@ -1,0 +1,795 @@
+{
+  "date": "2026-11-10",
+  "meaningCorrections": 52,
+  "exampleJapaneseCorrections": 53,
+  "notesAndPartOfSpeechCorrections": 13,
+  "coverage": "以下52語義と対応用例、および ตี の基本義用例の日本語訳を編集確認。全件ネイティブ校閲を意味しません。",
+  "references": [
+    "https://en.wiktionary.org/wiki/ซึ่ง",
+    "https://en.wiktionary.org/wiki/ตี",
+    "https://kotobank.jp/thjaword/นำ",
+    "https://kotobank.jp/thjaword/ตี"
+  ],
+  "changes": [
+    {
+      "id": "tl-00192",
+      "th": "เล่น",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "遊びのために",
+        "example": "私は寝る前に楽しんで読む."
+      },
+      "after": {
+        "meaning": "気軽に・遊びで〜する（動詞の後）",
+        "example": "寝る前に、楽しみで本を読みます。"
+      },
+      "thaiExample": "ผมอ่านหนังสือเล่นก่อนนอน",
+      "romanExample": "phǒm àan nǎng sʉ̌ʉ lên kɔ̀ɔn nɔɔn"
+    },
+    {
+      "id": "tl-00192",
+      "th": "เล่น",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "冗談よ",
+        "example": "冗談じゃない?"
+      },
+      "after": {
+        "meaning": "冗談を言う・ふざける",
+        "example": "冗談でしょ？"
+      },
+      "thaiExample": "พูดเล่นใช่ไหม",
+      "romanExample": "phûut lên châi mǎi"
+    },
+    {
+      "id": "tl-00669",
+      "th": "ร้อย",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "糸・弦",
+        "example": "おばあちゃんは一日中珠を織り続けています."
+      },
+      "after": {
+        "meaning": "糸を通す・数珠つなぎにする",
+        "example": "祖母は一日中、座ってビーズに糸を通しています。"
+      },
+      "thaiExample": "ยายนั่งร้อยลูกปัดทั้งวัน",
+      "romanExample": "yaai nâng rɔ́ɔi lûuk pàt tháng wan"
+    },
+    {
+      "id": "tl-00115",
+      "th": "ขอ",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "メイ...",
+        "example": "頑張って!"
+      },
+      "after": {
+        "meaning": "〜でありますように・〜を願う",
+        "example": "幸運を祈るよ。"
+      },
+      "thaiExample": "ขอให้โชคดีนะ",
+      "romanExample": "khɔ̌ɔ hâi chôok dii ná"
+    },
+    {
+      "id": "tl-00451",
+      "th": "น้อง",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "あなた(ジュニア)",
+        "example": "どこに行くの?"
+      },
+      "after": {
+        "meaning": "君・あなた（年下への呼びかけ）",
+        "example": "どこに行くの？（年下への呼びかけ）"
+      },
+      "thaiExample": "น้องจะไปไหน",
+      "romanExample": "nɔ́ɔng cà pai nǎi"
+    },
+    {
+      "id": "tl-00451",
+      "th": "น้อง",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "ジュニア(名前前の)",
+        "example": "ナムです チーム新人です"
+      },
+      "after": {
+        "meaning": "年下の人の名前に添える呼び方",
+        "example": "こちらはナーム、うちのチームの新人です。"
+      },
+      "thaiExample": "นี่น้องน้ำ เด็กใหม่ในทีมเรา",
+      "romanExample": "nîi nɔ́ɔng náam dèk mài nai thiim rao"
+    },
+    {
+      "id": "tl-00190",
+      "th": "เดิน",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "走る・走る(時間の機械)",
+        "example": "時計が動かない."
+      },
+      "after": {
+        "meaning": "動く・作動する（時計など）",
+        "example": "時計がもう動かなくなりました。"
+      },
+      "thaiExample": "นาฬิกาไม่เดินแล้ว",
+      "romanExample": "naa lí kaa mâi dəən lɛ́ɛo"
+    },
+    {
+      "id": "tl-00139",
+      "th": "งาน",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "Cf.イベントについて",
+        "example": "今年は3つの大きなイベントがあります."
+      },
+      "after": {
+        "meaning": "行事・催しを数える類別詞",
+        "example": "今年は大きなイベントが3件あります。"
+      },
+      "thaiExample": "ปีนี้มีงานใหญ่สามงาน",
+      "romanExample": "pii níi mii ngaan yài sǎam ngaan"
+    },
+    {
+      "id": "tl-00340",
+      "th": "ร้าน",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "Cf.商店",
+        "example": "ここには2つのコーヒーショップがあります."
+      },
+      "after": {
+        "meaning": "店を数える類別詞",
+        "example": "この辺にはカフェが2軒あります。"
+      },
+      "thaiExample": "แถวนี้มีร้านกาแฟสองร้าน",
+      "romanExample": "thɛ̌ɛo níi mii ráan kaa fɛɛ sɔ̌ɔng ráan"
+    },
+    {
+      "id": "tl-00160",
+      "th": "รับ",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "捕まえる(ボール・吹く)",
+        "example": "彼はすべてのボールを捕まえる."
+      },
+      "after": {
+        "meaning": "受け止める（ボール・打撃など）",
+        "example": "彼はどのボールも受け止めます。"
+      },
+      "thaiExample": "เขารับได้ทุกลูกเลย",
+      "romanExample": "khǎo ráp dâai thúk lûuk ləəi"
+    },
+    {
+      "id": "tl-00160",
+      "th": "รับ",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "ピックアップ(人・電話)",
+        "example": "ママは学校から迎えに行く"
+      },
+      "after": {
+        "meaning": "迎える・迎えに行く／電話に出る",
+        "example": "母が学校まで私を迎えに来ます。"
+      },
+      "thaiExample": "แม่มารับผมที่โรงเรียน",
+      "romanExample": "mɛ̂ɛ maa ráp phǒm thîi roong riian"
+    },
+    {
+      "id": "tl-00205",
+      "th": "นั่ง",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "車,バス,列車,飛行機",
+        "example": "私は毎日車で仕事に行く."
+      },
+      "after": {
+        "meaning": "乗り物に乗って行く",
+        "example": "毎日、車に乗って仕事に行きます。"
+      },
+      "thaiExample": "ผมนั่งรถไปทำงานทุกวัน",
+      "romanExample": "phǒm nâng rót pai tham ngaan thúk wan"
+    },
+    {
+      "id": "tl-00147",
+      "th": "ท่าน",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "(名前の前に)尊敬すべき先生",
+        "example": "教授は内側で待っています."
+      },
+      "after": {
+        "meaning": "役職・肩書きの前に添える敬称",
+        "example": "先生は中で待っていらっしゃいます。"
+      },
+      "thaiExample": "ท่านอาจารย์รออยู่ข้างใน",
+      "romanExample": "thân aa caan rɔɔ yùu khâang nai"
+    },
+    {
+      "id": "tl-00147",
+      "th": "ท่าน",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "彼は・彼女は(尊敬する)",
+        "example": "ママは外で 医者へ行った"
+      },
+      "after": {
+        "meaning": "あの方・その方（敬意を込めて）",
+        "example": "母は不在です。病院へ行っています。"
+      },
+      "thaiExample": "แม่ไม่อยู่ ท่านไปหาหมอ",
+      "romanExample": "mɛ̂ɛ mâi yùu thân pai hǎa mɔ̌ɔ"
+    },
+    {
+      "id": "tl-00147",
+      "th": "ท่าน",
+      "sourceSense": 4,
+      "before": {
+        "meaning": "敬虔な人のために",
+        "example": "今日は3人のゲストが来ました."
+      },
+      "after": {
+        "meaning": "人を敬って数える類別詞",
+        "example": "今日はお客様が3名いらっしゃいました。"
+      },
+      "thaiExample": "วันนี้มีแขกมาสามท่าน",
+      "romanExample": "wan níi mii khɛ̀ɛk maa sǎam thân"
+    },
+    {
+      "id": "tl-00188",
+      "th": "เสีย",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "(分)強調・最終性",
+        "example": "まず食べなさい."
+      },
+      "after": {
+        "meaning": "動作を促したり完了を強めたりする語",
+        "example": "先にご飯を食べなさい。"
+      },
+      "thaiExample": "กินข้าวเสียก่อน",
+      "romanExample": "kin khâao sǐia kɔ̀ɔn"
+    },
+    {
+      "id": "tl-00188",
+      "th": "เสีย",
+      "sourceSense": 4,
+      "before": {
+        "meaning": "(機械・車両)破損・不使用;(食品)故障",
+        "example": "車が壊れてるから 徒歩で仕事に行かないと"
+      },
+      "after": {
+        "meaning": "故障している／腐っている（食べ物）",
+        "example": "車が故障したので、歩いて仕事に行かないといけません。"
+      },
+      "thaiExample": "รถเสีย ต้องเดินไปทำงาน",
+      "romanExample": "rót sǐia tɔ̂ɔng dəən pai tham ngaan"
+    },
+    {
+      "id": "tl-00188",
+      "th": "เสีย",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "消える(ユーフェミズム)",
+        "example": "彼の父親は去世した."
+      },
+      "after": {
+        "meaning": "亡くなる（婉曲な言い方）",
+        "example": "あの人のお父さんは、もう亡くなりました。"
+      },
+      "thaiExample": "พ่อของเขาเสียแล้ว",
+      "romanExample": "phɔ̂ɔ khɔ̌ɔng khǎo sǐia lɛ́ɛo"
+    },
+    {
+      "id": "tl-00215",
+      "th": "สำคัญ",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "問題・カウント",
+        "example": "誰が来るかは関係ない"
+      },
+      "after": {
+        "meaning": "重要である・大切である",
+        "example": "誰が来るかは重要ではありません。"
+      },
+      "thaiExample": "ไม่สำคัญว่าใครจะมา",
+      "romanExample": "mâi sǎm khan wâa khrai cà maa"
+    },
+    {
+      "id": "tl-00121",
+      "th": "ตาย",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "ほら ほっ!",
+        "example": "鍵を忘れた"
+      },
+      "after": {
+        "meaning": "しまった・大変だ（驚きの声）",
+        "example": "しまった、鍵を忘れた。"
+      },
+      "thaiExample": "ตายแล้ว ฉันลืมกุญแจ",
+      "romanExample": "taai lɛ́ɛo chǎn lʉʉm kun cɛɛ"
+    },
+    {
+      "id": "tl-00121",
+      "th": "ตาย",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "極端な死",
+        "example": "今日はひどく暑い."
+      },
+      "after": {
+        "meaning": "死ぬほど・ものすごく（強調）",
+        "example": "今日は死ぬほど暑い。"
+      },
+      "thaiExample": "วันนี้ร้อนจะตาย",
+      "romanExample": "wan níi rɔ́ɔn cà taai"
+    },
+    {
+      "id": "tl-00534",
+      "th": "เท่าไหร่",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "much(マイナスで)",
+        "example": "この映画はあまり面白くない."
+      },
+      "after": {
+        "meaning": "それほど・あまり（否定と使う）",
+        "example": "この映画はあまり面白くない。"
+      },
+      "thaiExample": "หนังเรื่องนี้ไม่สนุกเท่าไหร่",
+      "romanExample": "nǎng rʉ̂ʉang níi mâi sà nùk thâo rài"
+    },
+    {
+      "id": "tl-00534",
+      "th": "เท่าไหร่",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "(相関性)",
+        "example": "早くなるほど良い"
+      },
+      "after": {
+        "meaning": "〜すればするほど（比較の組み合わせ）",
+        "example": "早ければ早いほどいい。"
+      },
+      "thaiExample": "ยิ่งเร็วเท่าไหร่ยิ่งดีเท่านั้น",
+      "romanExample": "yîng reo thâo rài yîng dii thâo nán"
+    },
+    {
+      "id": "tl-00265",
+      "th": "มือ",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "(手...)プレーヤー・-ist",
+        "example": "彼はバンドのギタリストだ."
+      },
+      "after": {
+        "meaning": "演奏者・ある分野の担い手（複合語）",
+        "example": "彼はそのバンドのギタリストです。"
+      },
+      "thaiExample": "เขาเป็นมือกีตาร์ของวง",
+      "romanExample": "khǎo pen mʉʉ kii tâa khɔ̌ɔng wong"
+    },
+    {
+      "id": "tl-00104",
+      "th": "งั้น",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "(笑)そうか?",
+        "example": "行くつもりはないの?"
+      },
+      "after": {
+        "meaning": "そう・そういうこと（確認）",
+        "example": "じゃあ、行かないってこと？"
+      },
+      "thaiExample": "คุณไม่ไปงั้นเหรอ",
+      "romanExample": "khun mâi pai ngán rə̌ə"
+    },
+    {
+      "id": "tl-00104",
+      "th": "งั้น",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "(不そう)そうでなければ・または他の",
+        "example": "急いで,遅刻しない."
+      },
+      "after": {
+        "meaning": "そうしないと・さもないと",
+        "example": "急いで行って。そうしないと遅れるよ。"
+      },
+      "thaiExample": "รีบไป ไม่งั้นจะสาย",
+      "romanExample": "rîip pai mâi ngán cà sǎai"
+    },
+    {
+      "id": "tl-00329",
+      "th": "ค่า",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "料金",
+        "example": "料金はいくらですか?"
+      },
+      "after": {
+        "meaning": "〜代・〜料（費用を表す語の前）",
+        "example": "交通費はいくらですか？"
+      },
+      "thaiExample": "ค่ารถเท่าไหร่",
+      "romanExample": "khâa rót thâo rài"
+    },
+    {
+      "id": "tl-00329",
+      "th": "ค่า",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "読み込み・値(測定)",
+        "example": "医者は機械から値を読み取ります."
+      },
+      "after": {
+        "meaning": "測定値・数値",
+        "example": "医師は機械の測定値を読み取ります。"
+      },
+      "thaiExample": "หมออ่านค่าจากเครื่อง",
+      "romanExample": "mɔ̌ɔ àan khâa càak khrʉ̂ʉang"
+    },
+    {
+      "id": "tl-00349",
+      "th": "รูป",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "形",
+        "example": "ママは顔の形にした."
+      },
+      "after": {
+        "meaning": "形・形状",
+        "example": "母は料理を人の顔の形にしました。"
+      },
+      "thaiExample": "แม่ทำอาหารเป็นรูปหน้าคน",
+      "romanExample": "mɛ̂ɛ tham aa hǎan pen rûup nâa khon"
+    },
+    {
+      "id": "tl-00349",
+      "th": "รูป",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "修道士のための写真",
+        "example": "5人の修道士が家に来た."
+      },
+      "after": {
+        "meaning": "僧侶や写真を数える類別詞",
+        "example": "僧侶が5人、家に来ました。"
+      },
+      "thaiExample": "มีพระห้ารูปมาที่บ้าน",
+      "romanExample": "mii phrá hâa rûup maa thîi bâan"
+    },
+    {
+      "id": "tl-00291",
+      "th": "หาย",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "回復し回復する",
+        "example": "彼は完全に回復した."
+      },
+      "after": {
+        "meaning": "治る・回復する",
+        "example": "あの人はもうすっかり回復しました。"
+      },
+      "thaiExample": "เขาหายดีแล้ว",
+      "romanExample": "khǎo hǎai dii lɛ́ɛo"
+    },
+    {
+      "id": "tl-00291",
+      "th": "หาย",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "退屈し,心配し,緊張しなくていい",
+        "example": "話すと神経が消えた."
+      },
+      "after": {
+        "meaning": "気持ち・症状がおさまる",
+        "example": "話し始めたら、緊張がなくなりました。"
+      },
+      "thaiExample": "พอเริ่มพูดก็หายตื่นเต้น",
+      "romanExample": "phɔɔ rə̂əm phûut kɔ̂ɔ hǎai tʉ̀ʉn tên"
+    },
+    {
+      "id": "tl-00343",
+      "th": "เท่า",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "と...と等しい",
+        "example": "私はあなたほど上手ではない."
+      },
+      "after": {
+        "meaning": "〜と同じくらい・〜に等しい",
+        "example": "私はあなたほど上手ではありません。"
+      },
+      "thaiExample": "ฉันไม่เก่งเท่าคุณ",
+      "romanExample": "chǎn mâi kèng thâo khun"
+    },
+    {
+      "id": "tl-00343",
+      "th": "เท่า",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "折りたたみ",
+        "example": "彼の家は私より3倍大きい."
+      },
+      "after": {
+        "meaning": "〜倍",
+        "example": "あの人の家は、私の家の3倍の大きさです。"
+      },
+      "thaiExample": "บ้านเขาใหญ่กว่าบ้านฉันสามเท่า",
+      "romanExample": "bâan khǎo yài kwàa bâan chǎn sǎam thâo"
+    },
+    {
+      "id": "tl-00541",
+      "th": "ขับ",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "運転して追い出せ",
+        "example": "彼は村から追い出された."
+      },
+      "after": {
+        "meaning": "追い出す・追放する",
+        "example": "あの人は村から追い出されました。"
+      },
+      "thaiExample": "เขาถูกขับออกจากหมู่บ้าน",
+      "romanExample": "khǎo thùuk khàp ɔ̀ɔk càak mùu bâan"
+    },
+    {
+      "id": "tl-00375",
+      "th": "ยืน",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "待って",
+        "example": "どちらの側を取ろうか?"
+      },
+      "after": {
+        "meaning": "味方につく・支持する（組み合わせ）",
+        "example": "あなたは誰の味方につくの？"
+      },
+      "thaiExample": "คุณจะยืนข้างใคร",
+      "romanExample": "khun cà yʉʉn khâang khrai"
+    },
+    {
+      "id": "tl-00383",
+      "th": "ถือ",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "考慮して",
+        "example": "今日も平局だ"
+      },
+      "after": {
+        "meaning": "〜とみなす・〜と考える",
+        "example": "今日は引き分けということにしよう。"
+      },
+      "thaiExample": "ถือว่าวันนี้เราเสมอกัน",
+      "romanExample": "thʉ̌ʉ wâa wan níi rao sà mə̌ə kan"
+    },
+    {
+      "id": "tl-00383",
+      "th": "ถือ",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "気をつけろ冒涜する",
+        "example": "気にしないで"
+      },
+      "after": {
+        "meaning": "気にする・腹を立てる",
+        "example": "私は気にしないよ。"
+      },
+      "thaiExample": "ฉันไม่ถือหรอก",
+      "romanExample": "chǎn mâi thʉ̌ʉ rɔ̀ɔk"
+    },
+    {
+      "id": "tl-00426",
+      "th": "นั่นแหละ",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "本当にかれは・(真理を)確証なされる.",
+        "example": "この人だ"
+      },
+      "after": {
+        "meaning": "まさにそれ・その通り（強調）",
+        "example": "まさにこの人だよ。"
+      },
+      "thaiExample": "ก็คนนี้นั่นแหละ",
+      "romanExample": "kɔ̂ɔ khon níi nân lɛ̀"
+    },
+    {
+      "id": "tl-00444",
+      "th": "ครู",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "私は・私は(自分自身の教師)",
+        "example": "私は (教師) みんなが読めることを望みます"
+      },
+      "after": {
+        "meaning": "先生（教師が自分を指す言い方）",
+        "example": "先生は、みんなに本を読んでほしいです。"
+      },
+      "thaiExample": "ครูอยากให้ทุกคนอ่านหนังสือ",
+      "romanExample": "khruu yàak hâi thúk khon àan nǎng sʉ̌ʉ"
+    },
+    {
+      "id": "tl-00624",
+      "th": "ตี",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "戦い・喧嘩",
+        "example": "学校で2人の子供が喧嘩した."
+      },
+      "after": {
+        "meaning": "殴り合う・けんかする",
+        "example": "子ども2人が学校でけんかをしました。"
+      },
+      "thaiExample": "เด็กสองคนตีกันที่โรงเรียน",
+      "romanExample": "dèk sɔ̌ɔng khon tii kan thîi roong riian"
+    },
+    {
+      "id": "tl-00624",
+      "th": "ตี",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "午前1時5分",
+        "example": "彼は午前1時に帰宅した."
+      },
+      "after": {
+        "meaning": "午前1〜5時を表す時刻の語",
+        "example": "あの人は午前1時に帰宅しました。"
+      },
+      "thaiExample": "เขากลับบ้านตอนตีหนึ่ง",
+      "romanExample": "khǎo klàp bâan tɔɔn tii nʉ̀ng"
+    },
+    {
+      "id": "tl-00524",
+      "th": "ปาก",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "言語・人の言葉",
+        "example": "彼が言う言葉も信じないで."
+      },
+      "after": {
+        "meaning": "人の言うこと・言葉",
+        "example": "あの人の言うことを信じないでね。"
+      },
+      "thaiExample": "อย่าไปเชื่อปากเขานะ",
+      "romanExample": "yàa pai chʉ̂ʉa pàak khǎo ná"
+    },
+    {
+      "id": "tl-00524",
+      "th": "ปาก",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "証人の場合",
+        "example": "警察には2人の目撃者がいる."
+      },
+      "after": {
+        "meaning": "証人を数える類別詞",
+        "example": "警察には証人が2人います。"
+      },
+      "thaiExample": "ตำรวจมีพยานสองปาก",
+      "romanExample": "tam rùuat mii phá yaan sɔ̌ɔng pàak"
+    },
+    {
+      "id": "tl-00742",
+      "th": "รุ่น",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "世代・クラス・パッチ",
+        "example": "この世代の子供たちは我々よりずっと賢い."
+      },
+      "after": {
+        "meaning": "世代・同期・同じ期の集まり",
+        "example": "今の世代の子たちは、私たちよりずっと優秀です。"
+      },
+      "thaiExample": "เด็กรุ่นนี้เก่งกว่าเราเยอะ",
+      "romanExample": "dèk rûn níi kèng kwàa rao yə́"
+    },
+    {
+      "id": "tl-00140",
+      "th": "ซึ่ง",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "引き起こす",
+        "example": "嘘はトラブルをもたらす."
+      },
+      "after": {
+        "meaning": "〜を（硬めの文で目的語を導く）",
+        "example": "うそをつくことは、問題を引き起こします。"
+      },
+      "thaiExample": "การโกหกนำมาซึ่งปัญหา",
+      "romanExample": "kaan koo hòk nam maa sʉ̂ng pan hǎa"
+    },
+    {
+      "id": "tl-00107",
+      "th": "เมื่อ",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "戻った",
+        "example": "私は2日前に到着した."
+      },
+      "after": {
+        "meaning": "〜前に・〜の頃に",
+        "example": "私は2日前に到着しました。"
+      },
+      "thaiExample": "ผมมาถึงเมื่อสองวันก่อน",
+      "romanExample": "phǒm maa thʉ̌ng mʉ̂ʉa sɔ̌ɔng wan kɔ̀ɔn"
+    },
+    {
+      "id": "tl-00107",
+      "th": "เมื่อ",
+      "sourceSense": 3,
+      "before": {
+        "meaning": "それ以来",
+        "example": "あなたが来ないから,私も来ない."
+      },
+      "after": {
+        "meaning": "〜なのだから（組み合わせ）",
+        "example": "あなたが行かないのだから、私も行きません。"
+      },
+      "thaiExample": "ในเมื่อคุณไม่ไป ผมก็ไม่ไป",
+      "romanExample": "nai mʉ̂ʉa khun mâi pai phǒm kɔ̂ɔ mâi pai"
+    },
+    {
+      "id": "tl-01170",
+      "th": "จุด",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "ライトを燃やして",
+        "example": "パパは料理のために火をつけた."
+      },
+      "after": {
+        "meaning": "火をつける・点火する",
+        "example": "父は料理をするために火をつけました。"
+      },
+      "thaiExample": "พ่อจุดไฟทำอาหาร",
+      "romanExample": "phɔ̂ɔ cùt fai tham aa hǎan"
+    },
+    {
+      "id": "tl-01152",
+      "th": "นำ",
+      "sourceSense": 2,
+      "before": {
+        "meaning": "鉛・ガイド",
+        "example": "彼は私たちを家に連れて行った."
+      },
+      "after": {
+        "meaning": "導く・先導する・案内する",
+        "example": "あの人は私たちを家へ案内しました。"
+      },
+      "thaiExample": "เขานำเราไปที่บ้าน",
+      "romanExample": "khǎo nam rao pai thîi bâan"
+    },
+    {
+      "id": "tl-02697",
+      "th": "ฟาด",
+      "sourceSense": 1,
+      "before": {
+        "meaning": "ストライク・ハック",
+        "example": "彼は杖で蛇を打った."
+      },
+      "after": {
+        "meaning": "強く打つ・たたきつける",
+        "example": "あの人は棒でヘビを強くたたきました。"
+      },
+      "thaiExample": "เขาฟาดงูด้วยไม้",
+      "romanExample": "khǎo fâat nguu dûuai máai"
+    },
+    {
+      "id": "tl-02721",
+      "th": "ทุบ",
+      "sourceSense": 1,
+      "before": {
+        "meaning": "スマッシュ・ポンド",
+        "example": "彼はテーブルを強く打った."
+      },
+      "after": {
+        "meaning": "強くたたく・たたき壊す",
+        "example": "あの人はテーブルをとても強くたたきました。"
+      },
+      "thaiExample": "เขาทุบโต๊ะแรงมาก",
+      "romanExample": "khǎo thúp tó rɛɛng mâak"
+    }
+  ]
+}

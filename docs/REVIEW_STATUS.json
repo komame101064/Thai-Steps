@@ -1,0 +1,108 @@
+{
+  "exportDate": "2026-11-11",
+  "sourceCommit": "3ccc33c09c30d570bf731656b6eeee56b785c338",
+  "appSnapshot": "published-version-18-equivalent",
+  "sourceRecords": 5207,
+  "sourceUniqueHeadwords": 5077,
+  "sourceSenses": 7624,
+  "reviewPatchRecordsRecovered": 5207,
+  "parts": [
+    {
+      "file": "scripts/full-review/part-1.json",
+      "expectedRecords": 870,
+      "recoveredRecords": 870,
+      "recoveredSenses": 1572,
+      "complete": true
+    },
+    {
+      "file": "scripts/full-review/part-2.json",
+      "expectedRecords": 870,
+      "recoveredRecords": 870,
+      "recoveredSenses": 1335,
+      "complete": true
+    },
+    {
+      "file": "scripts/full-review/part-3.json",
+      "expectedRecords": 870,
+      "recoveredRecords": 870,
+      "recoveredSenses": 1253,
+      "complete": true
+    },
+    {
+      "file": "scripts/full-review/part-4.json",
+      "expectedRecords": 870,
+      "recoveredRecords": 870,
+      "recoveredSenses": 1259,
+      "complete": true
+    },
+    {
+      "file": "scripts/full-review/part-5.json",
+      "expectedRecords": 870,
+      "recoveredRecords": 870,
+      "recoveredSenses": 1132,
+      "complete": true
+    },
+    {
+      "file": "scripts/full-review/part-6.json",
+      "expectedRecords": 857,
+      "recoveredRecords": 857,
+      "recoveredSenses": 1073,
+      "complete": true
+    }
+  ],
+  "allPatchFilesRecovered": true,
+  "reviewPatchesAppliedToDist": false,
+  "nativeSpeakerReview": false,
+  "audioListeningVerified": false,
+  "pendingSourceChecks": [
+    {
+      "id": "tl-00419",
+      "th": "ห้า",
+      "sourceSense": 2,
+      "issue": "Surprise interjection ห้า with falling hâa is not attested in Thai Wiktionary entry; source may represent nonstandard spelling of หา/ห๊ะ/ห๊า. Verify recording or modern native use before marking reading checked."
+    },
+    {
+      "id": "tl-02259",
+      "th": "เน้น",
+      "sourceSense": 2,
+      "issue": "Source gloss seriously/for real and อร่อยเน้นๆ example appear questionable. Thai Wiktionary supports emphatic adverb but not this lexicalized meaning/example; needs native usage evidence or replacement before quiz inclusion."
+    },
+    {
+      "id": "tl-02192",
+      "th": "ทรง",
+      "sourceSense": 1,
+      "issue": "王室敬語の用例として ท่านทรงรอ… の対象人物・待遇が不明。王族の正式呼称を含む用例への辞書照合が必要。"
+    },
+    {
+      "id": "tl-05054",
+      "th": "แคป",
+      "sourceSense": 1,
+      "issue": "แคป khɛ̂ɛp の母音長・声調を借用語の実際の発音と照合する必要あり。"
+    },
+    {
+      "id": "tl-03108",
+      "th": "สูท",
+      "sourceSense": 2,
+      "issue": "ホテルのsuiteを สูท とする綴り・発音は辞書で追加照合が必要。通常のスーツの語義と同綴として扱う元データの妥当性を未確認。"
+    },
+    {
+      "id": "tl-03381",
+      "th": "ตูด",
+      "sourceSense": 2,
+      "issue": "ตูด を人への arsehole という侮辱名詞として使うこのタイ語用例の自然さ・一般性は追加資料での確認が必要。原文を自然な一般表現として保証しない。"
+    },
+    {
+      "id": "tl-05113",
+      "th": "วุฒิ",
+      "sourceSense": 1,
+      "issue": "วุฒิฯ を上院議員個人の呼称として使う省略形の自然さと読みは未確定。辞書は主に資格・成熟を表す構成要素として収録。完全な役職名を用いる説明へ要変更。"
+    },
+    {
+      "id": "tl-10029",
+      "th": "เฟล",
+      "sourceSense": 1,
+      "issue": "意味・用例の対応は確認。ローマ字 feel の語末 l は既存のタイ語音表記体系と一致しないが、英語に寄せる発音もあり、今回の辞書照合では標準的なタイ語形の読みを確定できなかった。発音は追加確認。"
+    }
+  ],
+  "note": "公開版相当の本体と、未反映の校閲パッチを分けて収録。内容の統合・再検証はClaudeへの引き継ぎ作業です。"
+}

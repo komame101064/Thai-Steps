@@ -1,0 +1,388 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 69,
+      "sha256": "ac0aaaf45d45fb466e5d8435d08543c8b9d01da7067ef9145255b716f088dd7b"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "size": 106,
+      "sha256": "376bb43e128b0a53dfef876119d31034b2c969f94e294cbb4a22fea100e979ff"
+    },
+    {
+      "path": "CLAUDE.md",
+      "size": 3287,
+      "sha256": "843bdc50639cd311f770ced5d7c0a5d4ce6090bd2c1e375190eb9cbf89d4433f"
+    },
+    {
+      "path": "README.md",
+      "size": 2753,
+      "sha256": "7fd5b163f4e4a06479f6356c4bbb1324c6afacb2b9a1a2322582b76ece636e99"
+    },
+    {
+      "path": "dist/app.js",
+      "size": 23851,
+      "sha256": "bb8fc510bdee7583271a32f351b869b8d1829ce2e9d733ebeb4600f8e48b09d8"
+    },
+    {
+      "path": "dist/clarity.css",
+      "size": 22196,
+      "sha256": "ee191f2e42fb715eee3e7677f7d5530a03f017c23292c246d0ca5779fb3235a1"
+    },
+    {
+      "path": "dist/data.js",
+      "size": 31026,
+      "sha256": "48b8d68f1d93445f90e738f2e4b896d80b85aafb02b29f5c6145f10bb235d7ab"
+    },
+    {
+      "path": "dist/expansion.js",
+      "size": 27379,
+      "sha256": "42e32f35ffb513d1a0ccba5cd2f34330398878ad5a34397019998af7b50e59a2"
+    },
+    {
+      "path": "dist/fonts/LICENSE.txt",
+      "size": 5208,
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125"
+    },
+    {
+      "path": "dist/fonts/NotoLoopedThai-Bold.ttf",
+      "size": 70556,
+      "sha256": "63112a2b7bb342442993c71c0e8d52e3dacd9606eabfa344a436c9578cb74f35"
+    },
+    {
+      "path": "dist/fonts/NotoLoopedThai-Regular.ttf",
+      "size": 65536,
+      "sha256": "a13ebdee881ce1dcc84067c266345c86d2ace50cb599d2df02a1aa835552c1aa"
+    },
+    {
+      "path": "dist/fonts/NotoSans-Bold.ttf",
+      "size": 515752,
+      "sha256": "e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5"
+    },
+    {
+      "path": "dist/fonts/NotoSans-Regular.ttf",
+      "size": 512672,
+      "sha256": "89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d"
+    },
+    {
+      "path": "dist/icon-180.png",
+      "size": 9592,
+      "sha256": "c7e6a0f2acf82dff169bfeaa00f2cf5ef448d63ec734531a58d106961bed6dd3"
+    },
+    {
+      "path": "dist/icon-192.png",
+      "size": 10052,
+      "sha256": "29711916321ec8d51c9a4827b3bacf9f2a4ba5892543cada21b0e7f46896ddad"
+    },
+    {
+      "path": "dist/icon-512.png",
+      "size": 30795,
+      "sha256": "e8b7222b72b6f2f3bdd64b7362d4bfbf6658b8c08d83f4fffc763ff9adcf1c5b"
+    },
+    {
+      "path": "dist/icon.svg",
+      "size": 1077,
+      "sha256": "5928e88c548be54ea16fadb88361ea42eed98ad1a8299a577f2c5ecac4ff7675"
+    },
+    {
+      "path": "dist/index.html",
+      "size": 2538,
+      "sha256": "4d6a38e91839db79cd11b17960ccab0d14926ca6e87e9bee5113b116e49b5f13"
+    },
+    {
+      "path": "dist/kana-search.js",
+      "size": 157623,
+      "sha256": "b1f1fe16dc2907168f414a210d1b416b0fb230f04c674281bec7127aac252f41"
+    },
+    {
+      "path": "dist/kantan-license.txt",
+      "size": 1099,
+      "sha256": "0e041530615aae3edfc465b2a1b460c76eeefe4d543deb847f066da7b0371ccb"
+    },
+    {
+      "path": "dist/origin-review.json",
+      "size": 1212,
+      "sha256": "59a277f3cb8a9c61934baab932156d4c3f9ee0bd27ec98536645b89579ac749f"
+    },
+    {
+      "path": "dist/polish.css",
+      "size": 22038,
+      "sha256": "403cdb2caad151f473af59f6433230b3a02e0c97d7f16746f748b0af28f42b67"
+    },
+    {
+      "path": "dist/quality-review.json",
+      "size": 1085,
+      "sha256": "4cfea2f4635a91e252d037be7fa7146bdbc6dcc49a5ef96ceb1cf150595a5d4b"
+    },
+    {
+      "path": "dist/readings.js",
+      "size": 5126,
+      "sha256": "26a84876ad7ff514a57148afa4d5a260fe5fa73b4032809bd43df8572d086eb4"
+    },
+    {
+      "path": "dist/sense-examples.json",
+      "size": 2270195,
+      "sha256": "da8bfc88a39cc5e35bcc3e72540ad5960540fe7bc0505731bfbd82b4e26a5f0a"
+    },
+    {
+      "path": "dist/site.webmanifest",
+      "size": 343,
+      "sha256": "78f2d4e4f65e178d7b616a2415f04264171d4c423a8306078bc8cb29193e20f5"
+    },
+    {
+      "path": "dist/slang-bank.json",
+      "size": 164319,
+      "sha256": "04aeaa9373800df9e4719e18c8f27eda583a7b65be4f3e3e1c1ae35b6b92a2f8"
+    },
+    {
+      "path": "dist/slang-examples.json",
+      "size": 83702,
+      "sha256": "5b212c2d86cb72b21368fa33c748918ae83aa1ae147c9ae3343af763c5947bbe"
+    },
+    {
+      "path": "dist/sources.html",
+      "size": 11179,
+      "sha256": "ed1a355cfa9cc5af46cb2f1aab607260fe61a65a70a7f09d32c82a1b98760e66"
+    },
+    {
+      "path": "dist/structures.js",
+      "size": 10138,
+      "sha256": "e04cb2958a0a91dba57dc221ad87418bd1d0510b07cf3db55dc63fdc1a69b13e"
+    },
+    {
+      "path": "dist/style.css",
+      "size": 12386,
+      "sha256": "a1576c6208343a4fde1d35f3a313870620acd28e257a4b0095738c9d676ac72f"
+    },
+    {
+      "path": "dist/thaireader-attribution.txt",
+      "size": 9479,
+      "sha256": "c87a457d69dfbc163701c79fed346fb12f475fde38bf5fbcc6c3e98ecf99b62e"
+    },
+    {
+      "path": "dist/vocabulary-review.json",
+      "size": 644,
+      "sha256": "0c5f83c2ac0914d8b1d75ba7492e8882bea70908f6bce80083f98321bca37691"
+    },
+    {
+      "path": "dist/vocabulary.js",
+      "size": 20090,
+      "sha256": "25acccc9ab0bbf5b8526383c1ca07a08a3f83288af54eb8963737a730e331962"
+    },
+    {
+      "path": "dist/word-bank.json",
+      "size": 4656499,
+      "sha256": "7e2027e9b276aa175c8148fb7091a5fe344c748bc158f9079e68e3e8833d80da"
+    },
+    {
+      "path": "dist/word-origins.js",
+      "size": 580150,
+      "sha256": "b65ba5d152b70506d20ce7c5569a0242887067400beff99a6eacfed6f3043605"
+    },
+    {
+      "path": "dist/word-topics.js",
+      "size": 247491,
+      "sha256": "f99cd50541e48c424c8e9546a8fc4d4c7e9c708df623738845b792cc9c1b72a8"
+    },
+    {
+      "path": "dist/words-app.js",
+      "size": 40147,
+      "sha256": "36219caf18cafb693acf476490fc325d49845b2d67c35e0446c6e1787974c650"
+    },
+    {
+      "path": "dist/words.css",
+      "size": 17844,
+      "sha256": "6291095effd99c4e83aa170299d425024baa54431328142c017991dee14bfb15"
+    },
+    {
+      "path": "dist/workspace.css",
+      "size": 9346,
+      "sha256": "50be94ff836bfffb38fa60d81c2e16ef6027e3b5293c3603f0b18fd99d0f4801"
+    },
+    {
+      "path": "docs/HANDOFF_JA.md",
+      "size": 10881,
+      "sha256": "5260cf04da2b9db56e91601840b41686115c03eed461c9d3e719ca0e8ba0030b"
+    },
+    {
+      "path": "docs/REVIEW_STATUS.json",
+      "size": 4152,
+      "sha256": "f699d200330ef5b0b1b09f831b82b3d7dbdfabe60943b6e56dbb5d16bdc080a4"
+    },
+    {
+      "path": "package.json",
+      "size": 309,
+      "sha256": "c2cbb8257850e81d6afa49450343501da8dc0c3d78fefdcb83b58ad54111b3ac"
+    },
+    {
+      "path": "scripts/apply-full-review.py",
+      "size": 4822,
+      "sha256": "9e3fb7eed506737e1a7bd1c5e11bd00470d446d35588148bcc40386eca8d946b"
+    },
+    {
+      "path": "scripts/build-friends-slang.py",
+      "size": 10425,
+      "sha256": "09fd7c2aef0eeba9f178a96e2ab39842d3fa2a2667e3315770bdcf180f662c9f"
+    },
+    {
+      "path": "scripts/build-kana-search.py",
+      "size": 5354,
+      "sha256": "000f33982f4d44b29e5cdd1aeae84353f4a9c5c2c0d4e8522990bbf7336e3626"
+    },
+    {
+      "path": "scripts/build-sense-examples.py",
+      "size": 3262,
+      "sha256": "65ccc01dc12fe934fb6ad91af5553a96e78f1960ac85d9eadcbff96c741ef456"
+    },
+    {
+      "path": "scripts/build-word-origins.py",
+      "size": 6391,
+      "sha256": "3dfdf4348d80aaf8a9bd2c9c641036d87b85bd49c85e0238306ba7ce21763378"
+    },
+    {
+      "path": "scripts/build-word-topics.py",
+      "size": 20553,
+      "sha256": "fd69268aa8209da54032147a835131fb33a7120e924a4d44eaa8ad81401c223c"
+    },
+    {
+      "path": "scripts/editorial-review-20261110.json",
+      "size": 27392,
+      "sha256": "ffbe3c911b3c3b666e74aaa09d14a76ec53f1b43d674ea2c6a53643af8153784"
+    },
+    {
+      "path": "scripts/example-ja-reviewed.json",
+      "size": 24218,
+      "sha256": "20d3d7f6425e1a2cfdca896b8bf0dfbf3717e093a7839ebb91cc55907de897d8"
+    },
+    {
+      "path": "scripts/friends-slang.tsv",
+      "size": 37602,
+      "sha256": "16433d93a909de4695c3e6bebcf1e506e07dfed8ee865335d6541f5d0556e804"
+    },
+    {
+      "path": "scripts/full-review/grammar.json",
+      "size": 14625,
+      "sha256": "d53e47d2369f99edf604b5226865e27408b7c9d7c1dfa986ab627c016129ed14"
+    },
+    {
+      "path": "scripts/full-review/part-1.json",
+      "size": 352373,
+      "sha256": "380f7c677a69f5e3e3b45de5d043882dbc550382e045cbb9591aba899d3669a6"
+    },
+    {
+      "path": "scripts/full-review/part-2.json",
+      "size": 387042,
+      "sha256": "1c21211e82f9a3dfdbbd432760482a9bf7dd88b6318bf363af9e70ad77442c6a"
+    },
+    {
+      "path": "scripts/full-review/part-3.json",
+      "size": 388958,
+      "sha256": "9d92bcfc84d9b95e12c6df96b06f85da52106d6521e4ac5daf37abacfa2d05e6"
+    },
+    {
+      "path": "scripts/full-review/part-4.json",
+      "size": 329358,
+      "sha256": "95533e99f1917cbeea1034f408c91d40ade5259fed4e524a4ad2448859a54443"
+    },
+    {
+      "path": "scripts/full-review/part-5.json",
+      "size": 372527,
+      "sha256": "9ea73e041ce46a8c4a5916b299c0c908186feb88952bedbae588d77810d4ab06"
+    },
+    {
+      "path": "scripts/full-review/part-6.json",
+      "size": 311344,
+      "sha256": "9c32afe698e14f009cf433ff020d5d84d39e433042765254c02c7e251f1a0591"
+    },
+    {
+      "path": "scripts/legacy-slang-reviewed.tsv",
+      "size": 4739,
+      "sha256": "86f63ad1427abd01fb145be9c5b77380fc015471e66109d1e21a96a421c5fdba"
+    },
+    {
+      "path": "scripts/review-overrides.json",
+      "size": 173722,
+      "sha256": "c06b73665589b78bf88d709e31cb59d36626cc3b12cd16b453fc00bd293cb05c"
+    },
+    {
+      "path": "scripts/review-vocabulary.py",
+      "size": 2390,
+      "sha256": "378e4d5d29aa0a62df2b2af8c3e464f6aa01479d80618aea69ca881d80cda12e"
+    },
+    {
+      "path": "scripts/slang-example-review.json",
+      "size": 96768,
+      "sha256": "f410b17b8edee5b35ac62e4d3ad3d7e66e9b72a795fb3d44d5a23826d8f2782e"
+    },
+    {
+      "path": "scripts/slang-word-review.json",
+      "size": 6506,
+      "sha256": "97894e13d4038780bf45dbab181e9726f132fa4ad6295df1fcf00c89274cbf7a"
+    },
+    {
+      "path": "scripts/source-snapshots/expansion-candidates-20000.json.gz",
+      "size": 1231388,
+      "sha256": "334e4ccf1cf02bc0100b1e81b2c22154f279bbe5cda0f6d8b694d7b7a292638d"
+    },
+    {
+      "path": "scripts/source-snapshots/wiktionary-origins.json.gz",
+      "size": 2064407,
+      "sha256": "87375833aa4f7fa40070d0ab5f8871752b3f8c5b9040f4b7e83bbf7c34676136"
+    },
+    {
+      "path": "tests/examples.test.cjs",
+      "size": 2596,
+      "sha256": "7254b92bb74ed02886bebda5389487199628f4d98686d2d4f239ea155d2d38b3"
+    },
+    {
+      "path": "tests/levels-search.test.cjs",
+      "size": 3038,
+      "sha256": "ba38333d1eb85bf340ebb253216f15ad886bd30a8d504d94f4028d92906496da"
+    },
+    {
+      "path": "tests/origins.test.cjs",
+      "size": 2395,
+      "sha256": "73302c6a31be5cdaaf14e0f6934ead8e5663749f3332210a94d275eac575af10"
+    },
+    {
+      "path": "tests/refinement.test.cjs",
+      "size": 3068,
+      "sha256": "638284ffe00a11963a70a428dc98945bece5a353f7c58d2c3bf59ac629d62741"
+    },
+    {
+      "path": "tests/slang.test.cjs",
+      "size": 3920,
+      "sha256": "9ef5069279bb2ed319e139fcb44ffa23b37e14f37291ea6ac7d6857c92a87ec7"
+    },
+    {
+      "path": "tests/topics.test.cjs",
+      "size": 4021,
+      "sha256": "e2063014419a64e51902dda8234771aa6c32e54234eb673cd414280355b9feb7"
+    },
+    {
+      "path": "tests/words.test.cjs",
+      "size": 4698,
+      "sha256": "13ea65a26a15a71235e67a3492278435150e5e467f8f28f758e3c556f265a9b9"
+    },
+    {
+      "path": "tools/run-tests.mjs",
+      "size": 525,
+      "sha256": "b659208fdc4adf83df1e10b342bf5e0c1557bb5089f08a0ba7b1fffd01e7d683"
+    },
+    {
+      "path": "tools/run_tests.py",
+      "size": 593,
+      "sha256": "9e50d4a283b75cc9225aa52dfe8ef34075e5d0a2b24e20c6ceea186c21837413"
+    },
+    {
+      "path": "tools/serve.mjs",
+      "size": 1600,
+      "sha256": "f537c75252ce21758bd77c401fcc664d29b183f8d5c95b0cbc48794a3fcb5b55"
+    }
+  ],
+  "sourceCommit": "3ccc33c09c30d570bf731656b6eeee56b785c338",
+  "distMatchesPublicSource": true,
+  "testsPassed": 7,
+  "notes": "README/CLAUDE/docs/tools/package.json are transfer-only additions. Audit JSON files may be newer than the public source. No credentials or user learning records included."
+}
