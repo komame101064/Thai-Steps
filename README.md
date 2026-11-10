@@ -33,13 +33,13 @@ npm test
 
 Pythonから起動する場合は `python tools/run_tests.py` でも実行できます。
 
-このZIPの公開版相当のコードについて、2026-11-11の引き継ぎ時に7テストを実行し、すべて成功しました。言語データの全件正確性を保証するテストではありません。
+現在8テスト（校閲統合の検証 `tests/review.test.cjs` を含む）がすべて成功します。言語データの全件正確性を保証するテストではありません。`main` へのpushでテスト後にGitHub Pagesへ `dist/` を公開します（`.github/workflows/pages.yml`）。
 
 ## フォルダ
 
 - `dist/`：そのまま配信できるHTML・CSS・JavaScript・フォント・アイコン・データ
 - `scripts/`：データ生成・整備用コードと編集用データ
-- `scripts/full-review/`：未反映の全件校閲パッチ。アプリは直接読み込みません
+- `scripts/full-review/`：全件校閲パッチ（統合済み）と適用記録 `applied-changes.json`。アプリは直接読み込みません
 - `tests/`：Node.jsの回帰テスト
 - `docs/`：機能・データ仕様・校閲の引き継ぎ情報
 - `.openai/hosting.json`：元のSites用設定（参考）。独自ホスティングで必須ではありません
@@ -51,7 +51,7 @@ Pythonから起動する場合は `python tools/run_tests.py` でも実行でき
 - 動くアプリ本体はソースコミット `3ccc33c09c30d570bf731656b6eeee56b785c338` を基準としています。
 - 元の公開URL：https://thai-grammar-path-kimoto.viridjewel.chatgpt.site
 - 由来ラベルの「中国由来」への統一を含みます。歴史的な区分は詳細に表示します。
-- 全件校閲の大規模パッチは **未反映** です。回収範囲と未解決点は `docs/REVIEW_STATUS.json` を参照してください。
+- 全件校閲パッチは **dist へ統合済み** です（7,624語義のうち7,616を確認済み、8語義は `needs-source` として「要確認」表示・出題対象外）。集計は `dist/full-review.json`、未解決点は `docs/REVIEW_STATUS.json` を参照してください。AIによる校閲で、母語話者の認証・音声の実聴ではありません。
 - 新しい2万語が教材に登録された状態ではありません。公開見出しは重複を除いて5,077語です。
 
 ## ライセンス

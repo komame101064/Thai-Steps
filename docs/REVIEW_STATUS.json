@@ -51,7 +51,7 @@
     }
   ],
   "allPatchFilesRecovered": true,
-  "reviewPatchesAppliedToDist": false,
+  "reviewPatchesAppliedToDist": true,
   "nativeSpeakerReview": false,
   "audioListeningVerified": false,
   "pendingSourceChecks": [
@@ -104,5 +104,11 @@
       "issue": "意味・用例の対応は確認。ローマ字 feel の語末 l は既存のタイ語音表記体系と一致しないが、英語に寄せる発音もあり、今回の辞書照合では標準的なタイ語形の読みを確定できなかった。発音は追加確認。"
     }
   ],
-  "note": "公開版相当の本体と、未反映の校閲パッチを分けて収録。内容の統合・再検証はClaudeへの引き継ぎ作業です。"
+  "note": "校閲パッチはdistへ統合済み。pendingSourceChecksの8語義は要確認のまま出題から除外しており、処理が残課題です。",
+  "appliedInCommit": "7e477de",
+  "appliedSummary": {
+    "reviewedSenses": 7616,
+    "needsSourceSenses": 8,
+    "report": "dist/full-review.json"
+  }
 }
