@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-11",
+  "method": "AIによる判断。根拠は docs/HANDOFF_JA.md 6節の引き継ぎ時の辞書照合。この作業環境からは出典サイトへ接続できず、再照合はしていません。",
+  "note": "exclude は学習欄・テスト・テーマから外し、元の語義と用例を excluded-senses.json に保管します。単語IDと残る語義の sourceSense は変えません。revise は内容を直しますが needs-source のまま出題しません。",
+  "decisions": [
+    {
+      "id": "tl-03108", "th": "สูท", "sourceSense": 2, "action": "exclude",
+      "reason": "ホテルのsuiteを衣服のสูทの語義として扱った取り違えの疑い。タイ語版Wiktionaryのสูทは衣服（ほか別語源の料理人）で、ホテルの部屋の語義はない。",
+      "sources": ["https://th.wiktionary.org/wiki/สูท"]
+    },
+    {
+      "id": "tl-03381", "th": "ตูด", "sourceSense": 2, "action": "exclude",
+      "reason": "英語の対人侮辱arseholeを当てた語義と用例。辞書の身体部位の語義と区別できる根拠がなく、一般的な罵りとして教えない。お尻の基本義と別項目のรูตูดは保持。",
+      "sources": ["https://th.wiktionary.org/wiki/ตูด"]
+    },
+    {
+      "id": "tl-00419", "th": "ห้า", "sourceSense": 2, "action": "exclude",
+      "reason": "「えっ？」の間投詞はหา（ห๊ะ）との混同の疑い。ห้าの辞書項目は数字5のみ。",
+      "sources": ["https://th.wiktionary.org/wiki/ห้า"]
+    },
+    {
+      "id": "tl-05113", "th": "วุฒิ", "sourceSense": 1, "action": "exclude",
+      "reason": "วุฒิฯ を上院議員個人の呼称とする省略用法が辞書で確認できない。上院議員は สมาชิกวุฒิสภา。学歴・資格の語義2は保持。",
+      "sources": ["https://th.wiktionary.org/wiki/วุฒิ", "https://kotobank.jp/thjaword/วุฒิ"]
+    },
+    {
+      "id": "tl-02192", "th": "ทรง", "sourceSense": 1, "action": "revise",
+      "meaningPatch": {
+        "note": "王族の動作を表す動詞の前に付ける王室用語です（例：ทรงงาน）。一般の目上の人への敬語としては使いません。"
+      },
+      "examplePatch": {
+        "ja": "殿下はすでに中でお待ちです。"
+      },
+      "issue": "英語 His Highness を「陛下」と訳していた誤りを「殿下」に修正。ただし用例 ท่านทรงรอ… の主語の待遇（ท่าน と ทรง の組み合わせ）は未照合のため要確認のまま。",
+      "sources": ["https://th.wiktionary.org/wiki/ทรง"]
+    },
+    {
+      "id": "tl-02259", "th": "เน้น", "sourceSense": 2, "action": "revise",
+      "meaningPatch": {
+        "ja": "強調して・力を込めて",
+        "en": "emphatically",
+        "registerTags": [],
+        "speechStyle": "標準語（口語限定ではない）"
+      },
+      "examplePatch": {
+        "th": "เขาพูดเน้นทีละคำ",
+        "ro": "khǎo phûut nén thii lá kham",
+        "ja": "彼は一語ずつ強調して話した。",
+        "en": "He spoke, stressing each word.",
+        "speechStyle": "標準的な用例文",
+        "sourceExample": "thai-steps-review-20261111"
+      },
+      "issue": "元の「真剣に」と อร่อยเน้นๆ は不自然として、辞書の副詞義「強調して」と พูดเน้น 型の用例に差し替え。新しい用例はThai Stepsで作成したもので、元資料の引用ではない。母語話者の確認がないため要確認のまま。",
+      "sources": ["https://th.wiktionary.org/wiki/เน้น"]
+    },
+    {
+      "id": "tl-05054", "th": "แคป", "sourceSense": 1, "action": "revise",
+      "wordPatch": {"ro": "khɛ́p"},
+      "meaningPatch": {"ro": "khɛ́p"},
+      "examplePatch": {"ro": "khɛ́p wái kɔ̀ɔn dǐiao hǎai"},
+      "issue": "辞書表記の短母音・高声調 khɛ́p に変更（旧 khɛ̂ɛp）。この環境から出典を再照合できなかったため要確認のまま。",
+      "sources": ["https://phaasaathai.com/w/khaep-joo/"]
+    },
+    {
+      "id": "tl-10029", "th": "เฟล", "sourceSense": 1, "action": "keep",
+      "issue": "意味・用例の対応は確認済み。ローマ字 feel の語末 l はタイ語の音表記と合わず、標準的な読みが未確定。発音の追加確認が必要。",
+      "sources": ["https://pojnanukrian.com/เฟล"]
+    }
+  ]
+}

@@ -51,7 +51,7 @@ Pythonから起動する場合は `python tools/run_tests.py` でも実行でき
 - 動くアプリ本体はソースコミット `3ccc33c09c30d570bf731656b6eeee56b785c338` を基準としています。
 - 元の公開URL：https://thai-grammar-path-kimoto.viridjewel.chatgpt.site
 - 由来ラベルの「中国由来」への統一を含みます。歴史的な区分は詳細に表示します。
-- 全件校閲パッチは **dist へ統合済み** です（7,624語義のうち7,616を確認済み、8語義は `needs-source` として「要確認」表示・出題対象外）。集計は `dist/full-review.json`、未解決点は `docs/REVIEW_STATUS.json` を参照してください。AIによる校閲で、母語話者の認証・音声の実聴ではありません。
+- 全件校閲パッチは **dist へ統合済み** です（7,624語義のうち7,616を確認済み。疑義のあった8語義のうち4つを除外して保管し、4つは `needs-source` として「要確認」表示・出題対象外）。集計は `dist/full-review.json`、未解決点は `docs/REVIEW_STATUS.json` を参照してください。AIによる校閲で、母語話者の認証・音声の実聴ではありません。
 - 新しい2万語が教材に登録された状態ではありません。公開見出しは重複を除いて5,077語です。
 
 ## ライセンス

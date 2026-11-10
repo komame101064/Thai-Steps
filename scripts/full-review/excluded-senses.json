@@ -1,0 +1,166 @@
+[
+  {
+    "id": "tl-03108",
+    "th": "สูท",
+    "sourceSense": 2,
+    "reason": "ホテルのsuiteを衣服のสูทの語義として扱った取り違えの疑い。タイ語版Wiktionaryのสูทは衣服（ほか別語源の料理人）で、ホテルの部屋の語義はない。",
+    "sources": [
+      "https://th.wiktionary.org/wiki/สูท"
+    ],
+    "decided": "2026-11-11",
+    "meaning": {
+      "ja": "スイートルーム（ホテル）",
+      "en": "suite (hotel room)",
+      "pos": "名詞",
+      "use": "少なめの用法",
+      "checked": false,
+      "sourceSense": 2,
+      "registerTags": [],
+      "isSlang": false,
+      "speechStyle": "標準語（口語限定ではない）",
+      "reviewStatus": "needs-source",
+      "reviewed": "2026-11-10",
+      "reviewMethod": "AIによる個別校閲",
+      "reviewSources": [
+        "https://th.wiktionary.org/wiki/สูท",
+        "https://www.dusit.com/dusitprincess-srinakarinbangkok/th/accommodation/one-bedroom-suite/"
+      ]
+    },
+    "example": {
+      "th": "เราจองห้องสูทไว้สองคืน",
+      "ro": "rao cɔɔng hɔ̂ɔng sùut wái sɔ̌ɔng khʉʉn",
+      "ja": "スイートルームを2泊予約しました。",
+      "en": "We booked a suite for two nights.",
+      "checked": false,
+      "sourceExample": "ex-5daa4d48",
+      "speechStyle": "標準的な用例文",
+      "reviewStatus": "needs-source",
+      "reviewed": "2026-11-10",
+      "reviewMethod": "AIによる個別校閲"
+    }
+  },
+  {
+    "id": "tl-03381",
+    "th": "ตูด",
+    "sourceSense": 2,
+    "reason": "英語の対人侮辱arseholeを当てた語義と用例。辞書の身体部位の語義と区別できる根拠がなく、一般的な罵りとして教えない。お尻の基本義と別項目のรูตูดは保持。",
+    "sources": [
+      "https://th.wiktionary.org/wiki/ตูด"
+    ],
+    "decided": "2026-11-11",
+    "meaning": {
+      "ja": "嫌なやつ（侮辱としての用法・要確認）",
+      "en": "arsehole (insult)",
+      "pos": "名詞",
+      "use": "少なめの用法",
+      "checked": false,
+      "sourceSense": 2,
+      "registerTags": [
+        "colloquial",
+        "vulgar"
+      ],
+      "isSlang": true,
+      "speechStyle": "粗い口語",
+      "reviewStatus": "needs-source",
+      "reviewed": "2026-11-10",
+      "reviewMethod": "AIによる個別校閲",
+      "reviewSources": [
+        "https://en.wiktionary.org/wiki/ตูด"
+      ]
+    },
+    "example": {
+      "th": "ไอ้ตูดนั่นขโมยเงินฉันไป",
+      "ro": "âi tùut nân khà mooi ngəən chǎn pai",
+      "ja": "あの嫌なやつが私のお金を盗みました。",
+      "en": "That arsehole stole my money.",
+      "checked": false,
+      "sourceExample": "ex-2308390b",
+      "speechStyle": "粗い口語",
+      "reviewStatus": "needs-source",
+      "reviewed": "2026-11-10",
+      "reviewMethod": "AIによる個別校閲"
+    }
+  },
+  {
+    "id": "tl-00419",
+    "th": "ห้า",
+    "sourceSense": 2,
+    "reason": "「えっ？」の間投詞はหา（ห๊ะ）との混同の疑い。ห้าの辞書項目は数字5のみ。",
+    "sources": [
+      "https://th.wiktionary.org/wiki/ห้า"
+    ],
+    "decided": "2026-11-11",
+    "meaning": {
+      "ja": "えっ？・何？（驚き・聞き返し）",
+      "en": "huh?, what? (surprise)",
+      "pos": "間投詞",
+      "use": "少なめの用法",
+      "checked": false,
+      "sourceSense": 2,
+      "reviewed": "2026-11-10",
+      "registerTags": [
+        "colloquial"
+      ],
+      "isSlang": false,
+      "speechStyle": "口語",
+      "reviewStatus": "needs-source",
+      "reviewMethod": "AIによる個別校閲",
+      "reviewSources": [
+        "https://th.wiktionary.org/wiki/ห้า"
+      ]
+    },
+    "example": {
+      "th": "ห้า จริงเหรอ",
+      "ro": "hâa cing rə̌ə",
+      "ja": "えっ、本当？",
+      "en": "What? Really?",
+      "checked": false,
+      "sourceExample": "ex-da8c4d2d",
+      "speechStyle": "口語",
+      "reviewStatus": "needs-source",
+      "reviewed": "2026-11-10",
+      "reviewMethod": "AIによる個別校閲"
+    }
+  },
+  {
+    "id": "tl-05113",
+    "th": "วุฒิ",
+    "sourceSense": 1,
+    "reason": "วุฒิฯ を上院議員個人の呼称とする省略用法が辞書で確認できない。上院議員は สมาชิกวุฒิสภา。学歴・資格の語義2は保持。",
+    "sources": [
+      "https://th.wiktionary.org/wiki/วุฒิ",
+      "https://kotobank.jp/thjaword/วุฒิ"
+    ],
+    "decided": "2026-11-11",
+    "meaning": {
+      "ja": "上院議員（省略形の一部）",
+      "en": "(วุฒิฯ) senator",
+      "pos": "名詞",
+      "use": "よく使う意味",
+      "checked": false,
+      "sourceSense": 1,
+      "registerTags": [],
+      "isSlang": false,
+      "speechStyle": "標準語（口語限定ではない）",
+      "note": "上院議員の完全な呼称は สมาชิกวุฒิสภา（sà maa chík wút thí sà phaa）です。この省略形の呼びかけ用法は追加確認中です。",
+      "reviewStatus": "needs-source",
+      "reviewed": "2026-11-10",
+      "reviewMethod": "AIによる個別校閲",
+      "reviewSources": [
+        "https://kotobank.jp/thjaword/วุฒิ"
+      ]
+    },
+    "example": {
+      "th": "ท่านวุฒิฯ มาถึงแล้ว",
+      "ro": "thân wút thí maa thʉ̌ng lɛ́ɛo",
+      "ja": "上院議員が到着した.",
+      "en": "The senator has arrived.",
+      "checked": false,
+      "sourceExample": "ex-e157775d",
+      "speechStyle": "標準的な用例文",
+      "reviewStatus": "needs-source",
+      "reviewed": "2026-11-10",
+      "reviewMethod": "AIによる個別校閲"
+    }
+  }
+]

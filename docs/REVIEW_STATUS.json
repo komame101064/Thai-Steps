@@ -56,59 +56,64 @@
   "audioListeningVerified": false,
   "pendingSourceChecks": [
     {
-      "id": "tl-00419",
-      "th": "ห้า",
-      "sourceSense": 2,
-      "issue": "Surprise interjection ห้า with falling hâa is not attested in Thai Wiktionary entry; source may represent nonstandard spelling of หา/ห๊ะ/ห๊า. Verify recording or modern native use before marking reading checked."
-    },
-    {
       "id": "tl-02259",
       "th": "เน้น",
       "sourceSense": 2,
-      "issue": "Source gloss seriously/for real and อร่อยเน้นๆ example appear questionable. Thai Wiktionary supports emphatic adverb but not this lexicalized meaning/example; needs native usage evidence or replacement before quiz inclusion."
+      "issue": "元の「真剣に」と อร่อยเน้นๆ は不自然として、辞書の副詞義「強調して」と พูดเน้น 型の用例に差し替え。新しい用例はThai Stepsで作成したもので、元資料の引用ではない。母語話者の確認がないため要確認のまま。"
     },
     {
       "id": "tl-02192",
       "th": "ทรง",
       "sourceSense": 1,
-      "issue": "王室敬語の用例として ท่านทรงรอ… の対象人物・待遇が不明。王族の正式呼称を含む用例への辞書照合が必要。"
+      "issue": "英語 His Highness を「陛下」と訳していた誤りを「殿下」に修正。ただし用例 ท่านทรงรอ… の主語の待遇（ท่าน と ทรง の組み合わせ）は未照合のため要確認のまま。"
     },
     {
       "id": "tl-05054",
       "th": "แคป",
       "sourceSense": 1,
-      "issue": "แคป khɛ̂ɛp の母音長・声調を借用語の実際の発音と照合する必要あり。"
-    },
-    {
-      "id": "tl-03108",
-      "th": "สูท",
-      "sourceSense": 2,
-      "issue": "ホテルのsuiteを สูท とする綴り・発音は辞書で追加照合が必要。通常のスーツの語義と同綴として扱う元データの妥当性を未確認。"
-    },
-    {
-      "id": "tl-03381",
-      "th": "ตูด",
-      "sourceSense": 2,
-      "issue": "ตูด を人への arsehole という侮辱名詞として使うこのタイ語用例の自然さ・一般性は追加資料での確認が必要。原文を自然な一般表現として保証しない。"
-    },
-    {
-      "id": "tl-05113",
-      "th": "วุฒิ",
-      "sourceSense": 1,
-      "issue": "วุฒิฯ を上院議員個人の呼称として使う省略形の自然さと読みは未確定。辞書は主に資格・成熟を表す構成要素として収録。完全な役職名を用いる説明へ要変更。"
+      "issue": "辞書表記の短母音・高声調 khɛ́p に変更（旧 khɛ̂ɛp）。この環境から出典を再照合できなかったため要確認のまま。"
     },
     {
       "id": "tl-10029",
       "th": "เฟล",
       "sourceSense": 1,
-      "issue": "意味・用例の対応は確認。ローマ字 feel の語末 l は既存のタイ語音表記体系と一致しないが、英語に寄せる発音もあり、今回の辞書照合では標準的なタイ語形の読みを確定できなかった。発音は追加確認。"
+      "issue": "意味・用例の対応は確認済み。ローマ字 feel の語末 l はタイ語の音表記と合わず、標準的な読みが未確定。発音の追加確認が必要。"
     }
   ],
-  "note": "校閲パッチはdistへ統合済み。pendingSourceChecksの8語義は要確認のまま出題から除外しており、処理が残課題です。",
+  "note": "校閲パッチはdistへ統合済み。疑義8語義のうち4つを除外（excluded-senses.jsonに保管）、4つは要確認のまま出題から除外しています。",
   "appliedInCommit": "7e477de",
   "appliedSummary": {
     "reviewedSenses": 7616,
-    "needsSourceSenses": 8,
-    "report": "dist/full-review.json"
-  }
+    "needsSourceSenses": 4,
+    "report": "dist/full-review.json",
+    "excludedSenses": 4,
+    "activeSenses": 7620,
+    "decisions": "scripts/full-review/pending-decisions.json"
+  },
+  "excludedSenses": [
+    {
+      "id": "tl-03108",
+      "th": "สูท",
+      "sourceSense": 2,
+      "reason": "ホテルのsuiteを衣服のสูทの語義として扱った取り違えの疑い。タイ語版Wiktionaryのสูทは衣服（ほか別語源の料理人）で、ホテルの部屋の語義はない。"
+    },
+    {
+      "id": "tl-03381",
+      "th": "ตูด",
+      "sourceSense": 2,
+      "reason": "英語の対人侮辱arseholeを当てた語義と用例。辞書の身体部位の語義と区別できる根拠がなく、一般的な罵りとして教えない。お尻の基本義と別項目のรูตูดは保持。"
+    },
+    {
+      "id": "tl-00419",
+      "th": "ห้า",
+      "sourceSense": 2,
+      "reason": "「えっ？」の間投詞はหา（ห๊ะ）との混同の疑い。ห้าの辞書項目は数字5のみ。"
+    },
+    {
+      "id": "tl-05113",
+      "th": "วุฒิ",
+      "sourceSense": 1,
+      "reason": "วุฒิฯ を上院議員個人の呼称とする省略用法が辞書で確認できない。上院議員は สมาชิกวุฒิสภา。学歴・資格の語義2は保持。"
+    }
+  ]
 }

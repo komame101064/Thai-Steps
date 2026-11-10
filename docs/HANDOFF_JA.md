@@ -90,6 +90,14 @@ CSSは複数ファイルを重ねています。見た目の変更前に読み�
 
 ## 6. 親側で確認した疑義・未反映の判断
 
+> **2026-11-11 処理済み：** 下記8語義の判断は `scripts/full-review/pending-decisions.json` に記録し、`scripts/resolve-pending-senses.py` で適用しました。
+> - **除外（4）：** สูท#2、ตูด#2、ห้า#2、วุฒิ#1。学習欄・テスト・テーマ・由来・関連語の表示から外しました。元の語義と用例は理由・出典つきで `scripts/full-review/excluded-senses.json` に保管しています。単語IDと残る語義の `sourceSense` は変えていません。学習記録は単語ID単位なので影響しません。
+> - **修正したが要確認のまま（3）：** ทรง#1（用例の訳を「陛下」から「殿下」へ。王室専用の注記を追加）、เน้น#2（副詞「強調して」と用例 เขาพูดเน้นทีละคำ へ差し替え。Thai Steps作成の用例で `sourceExample: thai-steps-review-20261111`）、แคป（読みを khɛ́p へ）。
+> - **保留（1）：** เฟล の読み。
+>
+> この判断は下記の引き継ぎメモの辞書照合に基づきます。処理した作業環境からは出典サイトへ接続できず、再照合はしていません。要確認の4語義は出典を確認できたら `pending-decisions.json` を更新して再実行してください。
+> `build-sense-examples.py` などで元資料から dist を再生成した場合は、`apply-full-review.py` → `resolve-pending-senses.py` → `build-word-topics.py` → `build-kana-search.py` の順に再適用してください。
+
 下記の判断は統合前のメモです。実装時にはパッチ内の判断と再照合してください。
 
 - `tl-03108` สูท・語義2：ホテルのsuiteを衣服のสูทの意味として扱った取り違え。タイ語版Wiktionaryのสูทは衣服／別語源の料理人。ホテルの部屋をこの語の用例として教えない。https://th.wiktionary.org/wiki/สูท
