@@ -132,6 +132,8 @@ def capped(w,lv):
     if len(_syl(w['ro']))<2 and w['th'] not in MONO_COMMON:lv=min(lv,w['frequencyPrior'],4)
     return max(1,lv)
 MONO_COMMON={'ไทย','จีน','ลาว','นึง'}
+# Closed sets get one value so they stay together in the study ranges (corpus counts split them: ตุลาคม 2, มกราคม 7).
+FREQ_SET={m:7 for m in 'มกราคม กุมภาพันธ์ มีนาคม เมษายน พฤษภาคม มิถุนายน กรกฎาคม สิงหาคม กันยายน ตุลาคม พฤศจิกายน ธันวาคม'.split()}
 # Reviewed by hand (2026-11-12): added words the corpora rate 7+ but that are mostly written, news or web-page
 # words (site footers, forms, place names in listings), or whose taught sense is not the counted one.
 FREQ_REVIEW={
@@ -153,6 +155,7 @@ for w in words:
     else:lv=prior;freq_stat['textbookFallback']+=1
     w['frequencyPrior']=prior;w['frequency']=capped(w,lv)
     if w['th'] in FREQ_REVIEW:w['frequency']=min(w['frequency'],FREQ_REVIEW[w['th']][0]);freq_stat['reviewedByHand']+=1
+    if w['th'] in FREQ_SET:w['frequency']=FREQ_SET[w['th']];freq_stat['setForClosedSet']+=1
 # Reduplicated forms (Xๆ) and compounds: never above the base word / any part. Repeat until stable.
 index={}
 for x in base_general+words:
@@ -162,6 +165,7 @@ for x in base_general+words:
 for _ in range(6):
     changed=0
     for w in sorted(words,key=lambda x:len(x['th'])):
+        if w['th'] in FREQ_SET:continue  # a closed set is not capped by its spelling parts (ตุลา+คม)
         lim=None
         if 'ๆ' in w['th']:
             b=index.get(w['th'].replace('ๆ','').strip())
