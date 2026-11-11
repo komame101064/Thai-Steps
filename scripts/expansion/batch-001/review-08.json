@@ -1,0 +1,555 @@
+[
+ {
+  "id": "tl-23508",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23513",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23514",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23515",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23516",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23519",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23526",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23530",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23531",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23532",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23533",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23534",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23536",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23538",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23539",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23542",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23544",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認: ธนบุรี の標準の読みは ธน-บุ-รี（thon bù rii）。出典ヒントの tá-ná- は誤りで、著者の読みが正しい"
+  ]
+ },
+ {
+  "id": "tl-23545",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23546",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23547",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23551",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23552",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23555",
+  "verdict": "fix",
+  "issues": [
+   "語義1の例文のroで น้ำมนต์ は複合語なので náam mon ではなく nám mon（辞書の表記規則に合わせる）"
+  ],
+  "fixed": {
+   "id": "tl-23555",
+   "th": "สิริ",
+   "action": "add",
+   "ro": "sì rì",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "吉祥・めでたさ・幸運",
+     "en": "auspiciousness, good fortune",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "เขาไปรดน้ำมนต์เพื่อเป็นสิริมงคลแก่ตัว",
+      "ro": "khǎo pai rót nám mon phʉ̂ʉa pen sì rì mong khon kɛ̀ɛ tuua",
+      "ja": "あの人は縁起をかついで聖水をかけてもらいに行きました。",
+      "en": "He went to be sprinkled with holy water for good fortune.",
+      "origin": "source"
+     },
+     "note": "ふつう สิริมงคล（吉祥）のような複合語で使います。"
+    },
+    {
+     "sourceSense": 2,
+     "ja": "合計して〜になる（享年など）",
+     "en": "to total, amount to (esp. age at death)",
+     "pos": "動詞",
+     "use": "少なめの用法",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ท่านตายด้วยโรคหัวใจ สิริอายุได้ 67 ปี",
+      "ro": "thân taai dûuai rôok hǔua cai sì rì aa yú dâai hòk sìp cèt pii",
+      "ja": "その方は心臓病で亡くなり、享年67歳でした。",
+      "en": "He died of heart disease at the age of 67.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-23557",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23560",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23564",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23566",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23567",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23568",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23571",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23572",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23576",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23578",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23580",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23582",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23583",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23585",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23586",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23588",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23589",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23592",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23595",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23596",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23597",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23599",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23600",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23601",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23606",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23607",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23610",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23613",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23614",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23616",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23617",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23618",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23620",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23621",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23624",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23631",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認: สวรรคต の標準の読みは สะ-หวัน-คด（sà wǎn khót）。出典ヒントの -rá- は誤りで、著者の読みが正しい"
+  ]
+ },
+ {
+  "id": "tl-23633",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23634",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23636",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23638",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23639",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23640",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23641",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23643",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23646",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23647",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23649",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23650",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23651",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23652",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23656",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23660",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23662",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23663",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23664",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23665",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23667",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23668",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23669",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23670",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23671",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23673",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23674",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23675",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23678",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23684",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23685",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23686",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23689",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23691",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23692",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23694",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23695",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23697",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23701",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23704",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23705",
+  "verdict": "ok",
+  "issues": []
+ }
+]

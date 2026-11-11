@@ -1,0 +1,544 @@
+[
+ {
+  "id": "tl-22705",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22711",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22715",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22716",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22722",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22724",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22726",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22728",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22730",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22734",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22736",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22737",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22740",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22741",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22743",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22746",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22747",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22748",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22752",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22756",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22758",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22762",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22763",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22764",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22766",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22768",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22770",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22771",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22773",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22774",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22775",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22779",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22781",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22782",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22783",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22789",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22790",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22794",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22802",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22805",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22808",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22810",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22812",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22813",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22815",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22816",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22817",
+  "verdict": "fix",
+  "issues": [
+   "見出し語と例文のroで เจ้า が câo になっている。辞書では単独の เจ้า は câao、พระเจ้า は phrá câao（原典ヒントも長母音）なので câao に修正。"
+  ],
+  "fixed": {
+   "id": "tl-22817",
+   "th": "พระผู้เป็นเจ้า",
+   "action": "add",
+   "ro": "phrá phûu pen câao",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "神・主（キリスト教やヒンドゥー教などの）",
+     "en": "God, the Lord",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ชาวคริสต์เชื่อในพระผู้เป็นเจ้า",
+      "ro": "chaao khrít chʉ̂ʉa nai phrá phûu pen câao",
+      "ja": "キリスト教徒は神を信じています。",
+      "en": "Christians believe in God.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-22819",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22825",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22826",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22828",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認：เพ่ง は綴りは長母音形だが実際の発音は短母音。辞書の เก่ง kèng・เล่น lên と同じ扱いで phêng は妥当（原典ヒントの長母音は採らない）。"
+  ]
+ },
+ {
+  "id": "tl-22830",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22833",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22834",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22835",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22842",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22845",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22846",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22847",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22850",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22855",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22856",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22858",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22860",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22862",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22871",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22872",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22876",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22878",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22880",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22886",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22889",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認：原典ヒント ka:n-wá は誤り。คารวะ は คา-ระ-วะ の3音節で khaa rá wá が正しい。"
+  ]
+ },
+ {
+  "id": "tl-22890",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22892",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22895",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認：辞書の แห่ง は hɛ̀ng。ハウス表記どおりで妥当。"
+  ]
+ },
+ {
+  "id": "tl-22897",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22902",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22904",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22906",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22908",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22910",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22912",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認：複合語内の น้ำ は nám とするハウス表記（น้ำตา nám taa など）に一致。妥当。"
+  ]
+ },
+ {
+  "id": "tl-22913",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22914",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22915",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22916",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22918",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認：原典ヒントは音節欠落。ริษยา は ริด-สะ-หยา の3音節で rít sà yǎa が正しい。"
+  ]
+ },
+ {
+  "id": "tl-22919",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22921",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22923",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22930",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22932",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22934",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22941",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22942",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22947",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22950",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認：辞書の ช่าง は châang（綴りの長さで表記）。ハウス表記どおりで妥当。"
+  ]
+ },
+ {
+  "id": "tl-22951",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22954",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22957",
+  "verdict": "ok",
+  "issues": []
+ }
+]
