@@ -1,0 +1,117 @@
+[
+ {
+  "id": "tl-60084",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60085",
+  "verdict": "fix",
+  "issues": [
+   "noteの映画副題「ทิ้งยังไงให้เหลือแต่เธอ」は正式題名と一致せず確認できないため削除し、題名は「ฮาวทูทิ้ง」のみとした",
+   "例文訳「この新年は」が不自然、หน่อยの「少し」も反映して修正"
+  ],
+  "fixed": {
+   "id": "tl-60085",
+   "th": "ฮาวทูทิ้ง",
+   "action": "add",
+   "ro": "haao thuu thíng",
+   "kind": "word",
+   "category": "スラング｜友達の日常",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（不要な物を）断捨離する・思い切って処分する",
+     "pos": "動詞",
+     "speechStyle": "口語・スラング",
+     "note": "2019年のタイ映画『ฮาวทูทิ้ง』（邦題『ハッピー・オールド・イヤー』）の題名から、2019〜2020年ごろ広まった流行語。今は少し古いが、片付けの話では通じる。",
+     "example": {
+      "th": "ปีใหม่นี้ขอฮาวทูทิ้งเสื้อผ้าเก่าหน่อย",
+      "ro": "pii mài níi khɔ̌ɔ haao thuu thíng sʉ̂ʉa phâa kào nɔ̀ɔi",
+      "ja": "新年だし、古い服を少し断捨離したいな。",
+      "context": "年末の片付けについての雑談",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60086",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60087",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60088",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60089",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60091",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60092",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60093",
+  "verdict": "reject",
+  "issues": [
+   "既存のスラング項目と重複（tl-10050 เม้าท์）。重複登録しない。"
+  ]
+ },
+ {
+  "id": "tl-60094",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60095",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60097",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60098",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60099",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60100",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60102",
+  "verdict": "ok",
+  "issues": []
+ }
+]

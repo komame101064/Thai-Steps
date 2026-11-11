@@ -44,3 +44,8 @@ Same shape as SPEC.md, with these differences:
     e.g. 「友人同士の恋愛話」) and `"origin":"authored"`. No `use`/`registerTags` on slang senses.
   - Set phrases (定型文) such as มีแฟนยัง are `"kind":"expression"`, pos 定型表現; the example
     shows the phrase inside a short exchange or sentence.
+
+editorial-004 is fad slang (流行語) from any period — 1990s to now. For each item that you add,
+the note must say roughly when it was popular and whether it now sounds dated, and you also
+write the era separately (see the task) so the app can show 「流行語・2010年代前半」. Skip an
+item when you cannot place it in time with reasonable confidence.

@@ -1,0 +1,114 @@
+[
+ {
+  "id": "tl-60063",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60064",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60065",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60066",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60067",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60068",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60069",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60070",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60071",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60072",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60073",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60074",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60076",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60077",
+  "verdict": "fix",
+  "issues": [
+   "noteに現在古く聞こえるかの記述がなく（editorial-004の要件）、補った"
+  ],
+  "fixed": {
+   "id": "tl-60077",
+   "th": "ตุย",
+   "action": "add",
+   "ro": "tui",
+   "kind": "word",
+   "category": "スラング｜友達の日常",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "死ぬ（ふざけた言い方）",
+     "pos": "動詞",
+     "speechStyle": "口語・スラング",
+     "note": "ตาย（死ぬ）をくだけて言い換えた語で、2020年前後にネットで広まった。今も冗談で使うが流行のピークは過ぎ、少し古めの響き。疲れた・ショックだなどの誇張に使い、実際の死を話す場面では不謹慎になる。",
+     "example": {
+      "th": "ทำงานทั้งวัน เหนื่อยจะตุยแล้ว",
+      "ro": "tham ngaan tháng wan nʉ̀ʉai cà tui lɛ́ɛo",
+      "ja": "一日中働いて、疲れて死にそう。",
+      "context": "友人へのチャット",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60079",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60080",
+  "verdict": "ok",
+  "issues": []
+ }
+]
