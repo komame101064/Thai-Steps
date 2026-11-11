@@ -529,3 +529,11 @@ html body .w-parts-plus{font-weight:700;color:#7d8c74;font-size:18px}
 .x-seg button{white-space:nowrap}
 /* Six range chips (必須・基本・日常・実用・発展・全部): an even 3×2 grid on phones */
 @media (max-width:640px){.x-levels .x-chips{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.x-levels .x-chips button{width:100%;min-width:0}}
+/* 2026-11-12 simplification: three deck tabs in one row, compact range chips */
+.x-seg{grid-template-columns:repeat(3,1fr)}
+.x-levels .x-chips button{height:auto;min-height:34px;padding:4px 6px;display:flex;align-items:center;justify-content:center;gap:4px}
+.x-levels .x-chips button span{font-weight:700}
+.x-levels .x-chips button b{font-weight:500;font-size:11px;opacity:.8}
+.x-levels .x-chips button[aria-pressed=true] b{opacity:1}
+.x-dict-label{margin-bottom:8px}
+html body .x-levels .x-chips button{flex-direction:row;align-items:baseline;justify-content:center;gap:4px;min-height:34px;padding:6px 4px;border-radius:10px}
