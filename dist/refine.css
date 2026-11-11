@@ -254,3 +254,6 @@ html body .word-audio button:first-child{width:30px;padding:0;justify-content:ce
 html body .word-item{align-items:start;padding:12px 12px}
 html body .word-meaning b{font-size:14px;color:var(--x-ink)}
 html body .word-role{font-size:10px;padding:1px 6px}
+/* Inline readings in explanations: romanization only, set inline with the sentence. */
+html body .thai-reading{display:inline;margin:0 1px;vertical-align:baseline;line-height:inherit}
+html body .thai-reading .inline-ro{display:inline;line-height:inherit;color:var(--x-green);font-weight:650;font-family:'Steps Latin',sans-serif;font-size:1em;overflow-wrap:anywhere}
