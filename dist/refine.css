@@ -208,3 +208,4 @@ footer{color:var(--x-muted);font-size:11px}
 .x-lesson-end .ui-icon{width:18px;height:18px}
 .x-passed{font-size:11px;color:var(--x-green);font-weight:600;white-space:nowrap}
 @media(max-width:650px){.x-lesson-row{padding:11px 12px;gap:10px}.x-lesson-body b{font-size:14px}}
+.w-meta .w-trend-badge{font-size:9px;line-height:1.6;border:1px solid #b9d3c6;border-radius:4px;background:#e9f3ee;color:#1f5a45;padding:1px 5px}
