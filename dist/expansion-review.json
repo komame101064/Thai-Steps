@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-11",
+  "method": "AIによる作成と、別担当のAIによる点検",
+  "nativeReview": false,
+  "batches": [
+    {
+      "batch": "batch-001",
+      "candidates": 1000,
+      "published": 990,
+      "fixedByReviewer": 18,
+      "acceptedAsWritten": 972,
+      "skippedByAuthor": 9,
+      "rejectedByReviewer": 1,
+      "consistencyFlags": 29
+    }
+  ],
+  "published": 990,
+  "senses": 1208
+}
