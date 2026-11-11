@@ -1,0 +1,601 @@
+[
+ {
+  "id": "tl-26899",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26901",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26902",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26903",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26904",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26905",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26906",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26907",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26908",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26909",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26910",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26911",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26912",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26913",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26914",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26915",
+  "verdict": "ok",
+  "issues": [
+   "例文（猫が爪で腕をつかむ）は辞書の典型用法（แมวขยุ้ม…）に合い妥当と判断"
+  ]
+ },
+ {
+  "id": "tl-26916",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26917",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26918",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26919",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26920",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26922",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26923",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26924",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26926",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26928",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26929",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26930",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26932",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26933",
+  "verdict": "fix",
+  "issues": [
+   "語義2の出典例文「音楽はラナート・エーク一台だけ」は事実として疑わしい（ラコーン・チャートリーの伴奏は笛・太鼓・ゴング類が中心）ため、自作の例文に差し替え",
+   "語義1・2自体は妥当"
+  ],
+  "fixed": {
+   "id": "tl-26933",
+   "th": "ชาตรี",
+   "action": "add",
+   "ro": "chaa trii",
+   "kind": "word",
+   "category": "人・家族",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "男らしい（男）",
+     "en": "manly; a manly man",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาเป็นชายชาตรีที่กล้าหาญ",
+      "ro": "khǎo pen chaai chaa trii thîi klâa hǎan",
+      "ja": "彼は勇敢で男らしい男だ。",
+      "en": "He is a brave, manly man.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "ラコーン・チャートリー（伝統舞踊劇の一種）",
+     "en": "lakhon chatri (a form of traditional Thai dance drama)",
+     "pos": "名詞",
+     "use": "少なめの用法",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ละครชาตรีเป็นละครรำแบบโบราณของไทย",
+      "ro": "lá khɔɔn chaa trii pen lá khɔɔn ram bɛ̀ɛp boo raan khɔ̌ɔng thai",
+      "ja": "ラコーン・チャートリーはタイの古い形式の舞踊劇だ。",
+      "en": "Lakhon chatri is an old form of Thai dance drama.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「男らしい」の意味では主に ชายชาตรี の形で使う。"
+  }
+ },
+ {
+  "id": "tl-26934",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26935",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26936",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26937",
+  "verdict": "ok",
+  "issues": [
+   "口語ラベルは重複形 ดึกๆ の話し言葉的性格から妥当"
+  ]
+ },
+ {
+  "id": "tl-26938",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26939",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26940",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26941",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26942",
+  "verdict": "ok",
+  "issues": [
+   "改まった表現ラベル妥当"
+  ]
+ },
+ {
+  "id": "tl-26943",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26944",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26945",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26946",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26947",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26948",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26950",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26951",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26952",
+  "verdict": "ok",
+  "issues": [
+   "口語ラベル（侮蔑的な語）は許容範囲"
+  ]
+ },
+ {
+  "id": "tl-26953",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26954",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26955",
+  "verdict": "ok",
+  "issues": [
+   "改まった表現ラベル妥当。読み than 確認"
+  ]
+ },
+ {
+  "id": "tl-26956",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26957",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26959",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26960",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26962",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26963",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26964",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26965",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26966",
+  "verdict": "ok",
+  "issues": [
+   "古めの表現ラベル妥当"
+  ]
+ },
+ {
+  "id": "tl-26968",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26969",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26970",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26971",
+  "verdict": "ok",
+  "issues": [
+   "改まった表現ラベル妥当"
+  ]
+ },
+ {
+  "id": "tl-26972",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26973",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26974",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26975",
+  "verdict": "ok",
+  "issues": [
+   "ผักชี＝パクチー（コリアンダー）で正しい"
+  ]
+ },
+ {
+  "id": "tl-26976",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26977",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26978",
+  "verdict": "ok",
+  "issues": [
+   "改まった表現ラベル妥当"
+  ]
+ },
+ {
+  "id": "tl-26979",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26980",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26981",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26982",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26983",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26984",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26986",
+  "verdict": "ok",
+  "issues": [
+   "改まった表現ラベル妥当（日常は ทิศตะวันตกเฉียงเหนือ）"
+  ]
+ },
+ {
+  "id": "tl-26987",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26988",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26989",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26990",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26991",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26992",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26994",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26995",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26996",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26997",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26998",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26999",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27001",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27002",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27003",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27004",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27005",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27006",
+  "verdict": "ok",
+  "issues": [
+   "口語「〜一点張り」の意味・例文とも妥当"
+  ]
+ },
+ {
+  "id": "tl-27007",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27010",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27011",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27013",
+  "verdict": "fix",
+  "issues": [
+   "口語限定の語ではない（報道・書き言葉でも使う、กามวิตถาร など）ため標準語ラベルに変更",
+   "性的な含意が強いことを注記に追加",
+   "読み wít tà thǎan は一般的な発音（วิด-ตะ-ถาน）で妥当、語義も妥当"
+  ],
+  "fixed": {
+   "id": "tl-27013",
+   "th": "วิตถาร",
+   "action": "add",
+   "ro": "wít tà thǎan",
+   "kind": "word",
+   "category": "性質・状態",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "常軌を逸した・変態的な",
+     "en": "bizarre, perverted",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "อย่าทำอะไรวิตถารแบบนั้น",
+      "ro": "yàa tham à rai wít tà thǎan bɛ̀ɛp nán",
+      "ja": "そんな常軌を逸したことをするな。",
+      "en": "Don't do such bizarre things.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "性的に「変態的な」の意味で使われることが多い。"
+  }
+ }
+]
