@@ -87,7 +87,6 @@ footer{color:var(--x-muted);font-size:11px}
 .w-reference{color:var(--x-brass)}
 
 /* Home */
-.x-search-home{margin-bottom:18px}
 .x-home{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0 0 26px}
 .x-card{display:flex;flex-direction:column;gap:12px;padding:18px 20px;background:var(--x-surface);border:1px solid var(--x-line);border-radius:14px}
 .x-card-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
@@ -167,3 +166,12 @@ footer{color:var(--x-muted);font-size:11px}
 .w-detail-ro,.w-quiz-card .w-detail-ro{color:var(--x-green-2)}
 .field{border-color:#a9bba6;color:var(--x-text)}
 .field::placeholder{color:#66786a}
+
+/* Dictionary search block (home and words page). */
+.x-dict{margin:0 0 14px}
+.x-dict-label{display:block;font-size:13px;font-weight:700;color:var(--x-ink);margin:0 0 6px;letter-spacing:.04em}
+.x-dict .x-search{margin:0}
+.x-dict-home{margin-bottom:18px}
+#word-browse[hidden]{display:none}
+.w-list-divider{padding:10px 16px;font-size:12px;font-weight:700;color:var(--x-muted);background:var(--x-bg);border-bottom:1px solid #dde4d3;border-top:1px solid #dde4d3}
+.w-list-divider:first-child{border-top:0;border-radius:12px 12px 0 0}
