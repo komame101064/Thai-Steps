@@ -14,6 +14,13 @@ vm.runInContext('this.t={load:loadWordBank,results:dictionaryResults,setLevel:n=
  assert.equal(ths('น้ำ')[0],'น้ำ');assert.equal(ths('กิน')[0],'กิน');
  // Romanization with or without tone marks, and katakana pronunciation.
  assert.equal(ths('kin')[0],'กิน');assert.equal(ths('khrɔ̂ɔp khruua')[0],'ครอบครัว');assert(top('カーオ',10).includes('ข้าว'));
+ // English: exact gloss first, simple inflections, multi-word glosses; romanization homophones do not crowd out English hits.
+ assert.deepEqual(top('eat',2).sort(),['กิน','ทาน'].sort());assert(top('man',3).includes('ผู้ชาย'));assert(!top('man',3).includes('มัน'));
+ assert.equal(ths('eating')[0],'กิน');assert.equal(ths('cats')[0],'แมว');assert.equal(ths('thank you')[0],'ขอบคุณ');assert.equal(ths('dog')[0],'หมา');
+ assert(ths('to eat').length<30,'multi-word English must not match every syllable "to"');assert(!top('go',10).includes('เงิน'));
+ const hit=t.results('water').find(x=>x.w.th==='น้ำ');assert.equal(hit.via,'en');assert(hit.en.includes('water'));
+ // A romanized query that is also a rare English gloss stays a romanization match first.
+ assert.equal(ths('kin')[0],'กิน');assert.equal(ths('khrɔ̂ɔp')[0],'ครอบ');
  // The dictionary ignores the study range and theme filters.
  t.setLevel(500);t.setTopic('food');assert.equal(ths('家族')[0],'ครอบครัว');assert(ths('ありがとう').includes('ขอบคุณ'));
- console.log('PASS: dictionary search ranks exact meanings/headwords first, then compounds, then theme-only matches; Thai, romanization and katakana; independent of study filters.')})().catch(e=>{console.error(e);process.exit(1)});
+ console.log('PASS: dictionary search ranks exact meanings/headwords first, then compounds, then theme-only matches; Thai, romanization, katakana and English glosses; independent of study filters.')})().catch(e=>{console.error(e);process.exit(1)});
