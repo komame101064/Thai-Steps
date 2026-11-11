@@ -1,0 +1,655 @@
+[
+ {
+  "id": "tl-22959",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22960",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22961",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22964",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22968",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22971",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22974",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22975",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22979",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22982",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22985",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22987",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22990",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22991",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22992",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22996",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22998",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22999",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23000",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23002",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23005",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23006",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23007",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23008",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23009",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23010",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23013",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23014",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23020",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23021",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23024",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23026",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23027",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23032",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23033",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23034",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23036",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23039",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23040",
+  "verdict": "fix",
+  "issues": [
+   "例文の和訳「駆け寄っていった」は เดิน（歩く）と合わないため「歩み寄っていった」に修正"
+  ],
+  "fixed": {
+   "id": "tl-23040",
+   "th": "รี่",
+   "action": "add",
+   "ro": "rîi",
+   "kind": "word",
+   "category": "移動・道案内",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "まっすぐに・つかつかと（向かう）",
+     "en": "straight toward, making a beeline",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พอเห็นแม่ เด็กก็เดินรี่เข้าไปหา",
+      "ro": "phɔɔ hěn mɛ̂ɛ dèk kɔ̂ɔ dəən rîi khâo pai hǎa",
+      "ja": "母親を見つけると、子どもはまっすぐ歩み寄っていった。",
+      "en": "As soon as the child saw the mother, the child headed straight to her.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "เดินรี่เข้ามา・รี่เข้าไป のように移動の動詞と一緒に使う。"
+  }
+ },
+ {
+  "id": "tl-23041",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23047",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23048",
+  "verdict": "fix",
+  "issues": [
+   "語義1の「下弦」は下弦の月（半月）を指し ข้างแรม 全体と合わないため訳語を修正",
+   "例文の和訳「下弦十五日」も不自然なので修正"
+  ],
+  "fixed": {
+   "id": "tl-23048",
+   "th": "แรม",
+   "action": "add",
+   "ro": "rɛɛm",
+   "kind": "word",
+   "category": "時間",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "月が欠けていく期間（陰暦の月の後半）",
+     "en": "waning moon period (second half of the lunar month)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "คืนนี้เป็นคืนแรม 15 ค่ำ ท้องฟ้ามืดมาก",
+      "ro": "khʉʉn níi pen khʉʉn rɛɛm sìp hâa khâm thɔ́ɔng fáa mʉ̂ʉt mâak",
+      "ja": "今夜は月が欠けていく期間の15日目（新月）の夜で、空がとても暗い。",
+      "en": "Tonight is the 15th night of the waning moon, and the sky is very dark.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "泊まる・夜を明かす（旅先で）",
+     "en": "to stay overnight (away from home)",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เราพักแรมในป่าหนึ่งคืน",
+      "ro": "rao phák rɛɛm nai pàa nʉ̀ng khʉʉn",
+      "ja": "私たちは森の中で一晩泊まりました。",
+      "en": "We stayed overnight in the forest for one night.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 3,
+     "ja": "RAM・メモリ（コンピューター）",
+     "en": "RAM (computer memory)",
+     "pos": "名詞",
+     "use": "少なめの用法",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "คอมพิวเตอร์เครื่องนี้มีแรมน้อยเกินไป",
+      "ro": "khɔm phiu tə̂ə khrʉ̂ʉang níi mii rɛɛm nɔ́ɔi kəən pai",
+      "ja": "このパソコンはメモリが少なすぎます。",
+      "en": "This computer has too little RAM.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「泊まる」の意味では พักแรม・ค้างแรม の形で使うのがふつう。"
+  }
+ },
+ {
+  "id": "tl-23049",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23050",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23059",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23061",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23066",
+  "verdict": "reject",
+  "issues": [
+   "読み cék は正しい（原資料の読みは別語のもので誤り）が、中国系の人への蔑称であり学習語として載せる価値が低いため不採用"
+  ]
+ },
+ {
+  "id": "tl-23071",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23081",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23083",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23084",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23091",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23093",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23094",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23095",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23097",
+  "verdict": "fix",
+  "issues": [
+   "「問いただす」は詰問の含みが強く、ไต่ถาม（事情や様子を尋ねる）の語感と合わないため訳語を修正"
+  ],
+  "fixed": {
+   "id": "tl-23097",
+   "th": "ไต่ถาม",
+   "action": "add",
+   "ro": "tài thǎam",
+   "kind": "word",
+   "category": "挨拶・会話",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "尋ねる・詳しく聞く",
+     "en": "to inquire, ask about",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ตำรวจไต่ถามพยานที่อยู่ในเหตุการณ์",
+      "ro": "tam rùuat tài thǎam phá yaan thîi yùu nai hèet kaan",
+      "ja": "警察は現場に居合わせた証人に事情を尋ねた。",
+      "en": "The police questioned the witnesses who were at the scene.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-23099",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23100",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23101",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23102",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23103",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23104",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23105",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23109",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23110",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23111",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23112",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23115",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23116",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23119",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23121",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23122",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23129",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23135",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23146",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23148",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23152",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23153",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23160",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23161",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23164",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23166",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23170",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23179",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23180",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23181",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23182",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23184",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23189",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23194",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23195",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23200",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23201",
+  "verdict": "fix",
+  "issues": [
+   "例文の和訳「食べる分だけ」は原文にない限定なので修正"
+  ],
+  "fixed": {
+   "id": "tl-23201",
+   "th": "ข่า",
+   "action": "add",
+   "ro": "khàa",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ガランガル・ナンキョウ（ショウガに似た香味野菜）",
+     "en": "galangal",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ที่บ้านเราปลูกข่าไว้กินเองไม่ต้องเสียเงินซื้อ",
+      "ro": "thîi bâan rao plùuk khàa wái kin eeng mâi tɔ̂ɔng sǐia ngəən sʉ́ʉ",
+      "ja": "うちではガランガルを自分たちで食べるために育てているので、買わずに済みます。",
+      "en": "At home we grow our own galangal, so we don't have to pay for it.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-23202",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23204",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23207",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23212",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23219",
+  "verdict": "ok",
+  "issues": [
+   "原資料の読み sǎy:-dtom は誤り。綴りと辞書上の標準発音（สะ-แตม）から sà tɛɛm で妥当と判断"
+  ]
+ },
+ {
+  "id": "tl-23221",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23224",
+  "verdict": "ok",
+  "issues": []
+ }
+]

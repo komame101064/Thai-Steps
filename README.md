@@ -39,6 +39,7 @@ Pythonから起動する場合は `python tools/run_tests.py` でも実行でき
 
 - `dist/`：そのまま配信できるHTML・CSS・JavaScript・フォント・アイコン・データ
 - `scripts/`：データ生成・整備用コードと編集用データ
+- `scripts/expansion/`：追加語の作成仕様（SPEC.md）・点検手順（REVIEW.md）・検証スクリプトと、回ごとの作成・点検結果
 - `scripts/full-review/`：全件校閲パッチ（統合済み）と適用記録 `applied-changes.json`。アプリは直接読み込みません
 - `tests/`：Node.jsの回帰テスト
 - `docs/`：機能・データ仕様・校閲の引き継ぎ情報
@@ -52,7 +53,7 @@ Pythonから起動する場合は `python tools/run_tests.py` でも実行でき
 - 元の公開URL：https://thai-grammar-path-kimoto.viridjewel.chatgpt.site
 - 由来ラベルの「中国由来」への統一を含みます。歴史的な区分は詳細に表示します。
 - 全件校閲パッチは **dist へ統合済み** です（7,624語義のうち7,616を確認済み。疑義のあった8語義のうち4つを除外して保管し、4つは `needs-source` として「要確認」表示・出題対象外）。集計は `dist/full-review.json`、未解決点は `docs/REVIEW_STATUS.json` を参照してください。AIによる校閲で、母語話者の認証・音声の実聴ではありません。
-- 新しい2万語が教材に登録された状態ではありません。公開見出しは重複を除いて5,077語です。
+- 2万語には達していません。公開見出しは重複を除いて6,067語です（元の5,077語＋第1回の追加990語）。追加語はAIが作成し、別担当のAIが1語ずつ点検したもので、母語話者の確認は入っていません。手順は `docs/HANDOFF_JA.md` の7節を参照してください。
 
 ## ライセンス
 

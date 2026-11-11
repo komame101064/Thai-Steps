@@ -5,3 +5,4 @@ __pycache__/
 .env.*
 !.env.example
 .DS_Store
+scripts/expansion/batch-*/*.chunk*.json

@@ -116,7 +116,30 @@ CSSは複数ファイルを重ねています。見た目の変更前に読み�
 
 ## 7. 2万語への拡張
 
-`scripts/source-snapshots/expansion-candidates-20000.json.gz` は候補データで、学習教材ではありません。追加候補には日本語訳・声調付きローマ字・用例の個別確認が必要です。未確認候補を公開語数に含めてはいけません。
+`scripts/source-snapshots/expansion-candidates-20000.json.gz` は候補データで、学習教材ではありません。未登録の候補は14,923語で、英語の語義・別方式のローマ字・タイ語の用例しか持ちません。未確認の候補を公開語数に含めてはいけません。
+
+### 追加の手順（第1回 batch-001 で実施）
+
+1. 候補を頻度表の順位順に選び、100語ずつに分ける（語義の説明がない候補は除く）。
+2. `scripts/expansion/SPEC.md` に従って、日本語訳・声調付きローマ字・語義ごとの用例を作る。自信のない語は見送る。結果は `scripts/expansion/batch-XXX/part-NN.json`。
+3. `python3 scripts/expansion/validate.py batch-XXX` で機械検証する。エラーは0件にする。「flags」は元資料の読みとの食い違いなどの注意点で、点検者が1件ずつ判断する。
+4. `scripts/expansion/REVIEW.md` に従って、作成者とは別の担当が全件を点検する（ok／fix／reject）。結果は `review-NN.json`。
+5. `python3 scripts/build-expansion.py` → `build-word-topics.py` → `build-kana-search.py`。点検で合格した語だけが `dist/word-bank-more.json` と `dist/more-examples.json` に入る。集計は `dist/expansion-review.json`。
+6. `dist/index.html` の `?v=` を更新し、テストと画面を確認する。
+
+### 守ること
+
+- **元の5,000件（`word-bank.json`）は変更しない。** 追加語は別ファイルで、アプリは存在すれば読み込む。
+- **公開IDは `tl-(40000＋頻度表の順位)`。** 作成・点検ファイル内のIDは `tl-(20000＋順位)` だが、スラング帳が `tl-2xxxx` を85件使っているため、公開時に振り替える。IDは学習記録のキーなので、公開後は変えない。
+- **500・1,000・3,000語の学習範囲には入れない。** 追加語は `bucket: 20000` で、「全語」にだけ入る（`tests/expansion.test.cjs` で固定）。
+- **頻度は推定。** 教科書系の頻度表の順位から2〜5を割り当て、`frequencyEstimated: true`・`frequencyBasis: "textbook"` を付ける。会話での頻度ではない。
+- **用例の出典を区別する。** 候補源の文をそのまま使った用例は `sourceExample: "newthai-v2.4"`、作成した用例は `thai-steps-batch-XXX`。
+- **AIによる作成・点検で、母語話者の校閲ではない。** 点検者の指摘率は低く（第1回は1,000語中、修正18・見送り1）、見落としがある前提で扱う。
+- 候補は書き言葉寄りで、文語・改まった語・王室語が約4分の1を占める。区分を正直に付ける。
+
+### 第1回の結果（2026-11-11）
+
+候補1,000語のうち990語を追加（語義1,208）。作成時の見送り9語、点検での見送り1語（蔑称）、点検での修正18語。公開見出しは6,067語。残りの候補は約13,900語。
 
 ## 8. 音声・記録・公開
 

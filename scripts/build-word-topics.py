@@ -2,6 +2,8 @@
 import json,re,pathlib,collections
 P=pathlib.Path(__file__).resolve().parents[1]
 W=json.loads((P/'dist/word-bank.json').read_text())
+MORE=P/'dist/word-bank-more.json'
+if MORE.exists():W+=json.loads(MORE.read_text())  # reviewed expansion entries
 TOPICS=[('body','体・健康','口・手・鼻、体の部位や体調の表現'),('food','食べ物・飲み物','食材・料理・飲み物、食事の言い方'),('sports','スポーツ・運動','競技・運動、試合やトレーニング'),('animals','動物・生き物','身近な動物、鳥・魚・虫'),('nature','自然・天気','空・雨・植物、季節や自然'),('travel','旅行・交通','乗り物・移動、旅先で使う言葉'),('home','家・暮らし','部屋・家具・道具、毎日の暮らし'),('clothes','服・身だしなみ','服・靴・アクセサリー、おしゃれ'),('people','人・家族','家族・友人、人の呼び方や関係'),('feelings','気持ち・性格','感情・人柄、人との付き合い'),('work','仕事・学校','働く・学ぶ、職業や学校生活'),('shopping','お金・買い物','値段・支払い、店でのやり取り'),('leisure','趣味・娯楽','映画・音楽・ゲーム、休日の楽しみ'),('tech','スマホ・IT','スマホ・ネット、機器やアプリ'),('society','社会・文化','社会の仕組み、文化や行事'),('time','時間・日付','時刻・曜日、過去や未来'),('numbers','数字・量・比較','数・量・単位、多い・少ない'),('actions','日常の動作','する・使う・動く、基本の動詞'),('description','様子・状態','大きい・小さい、物事の状態'),('conversation','あいさつ・会話','あいさつ・返事、人に話しかける'),('grammar','文法・つなぎ言葉','助詞・疑問詞、文を組み立てる表現'),('other','その他の言葉','特定の場面に限らない言葉')]
 # Curated anchors avoid confusing short body/food words with grammatical or figurative senses.
 ANCHORS={
@@ -70,7 +72,7 @@ for w in W:
   matched=[m['sourceSense'] for m in normal if pattern and re.search(pattern,m['en'],re.I)]
   per[topic]=matched or [normal[0]['sourceSense']]
  SENSES[w['id']]=per
-assert len(INDEX)==4969,len(INDEX)
+assert len(INDEX)==sum(any(not m.get('isSlang') for m in w['meanings']) for w in W),len(INDEX)
 assert all(t in {t[0] for t in TOPICS} for ts in INDEX.values() for t in ts)
 (P/'dist/word-topics.js').write_text('// Thematic browsing index; multiple common senses may belong to more than one topic.\nconst WORD_TOPICS='+json.dumps([{'id':t,'label':label,'description':desc} for t,label,desc in TOPICS],ensure_ascii=False,separators=(',',':'))+';\nconst WORD_TOPIC_INDEX='+json.dumps(INDEX,ensure_ascii=False,separators=(',',':'))+';\nconst WORD_TOPIC_SENSES='+json.dumps(SENSES,ensure_ascii=False,separators=(',',':'))+';\n')
 for t,label,_ in TOPICS:

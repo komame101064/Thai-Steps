@@ -1,0 +1,595 @@
+[
+ {
+  "id": "tl-20106",
+  "verdict": "fix",
+  "issues": [
+   "第2義「自由・独立」は現代では稀で、通常は ไท と綴る（เป็นไท）。例文の อยากเป็นไทย は「タイ人でありたい」と読まれ誤解を招くため第2義を削除"
+  ],
+  "fixed": {
+   "id": "tl-20106",
+   "th": "ไทย",
+   "action": "add",
+   "ro": "thai",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "タイ・タイの",
+     "en": "Thailand; Thai",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาอยู่เมืองไทยมาสิบปีแล้ว",
+      "ro": "khǎo yùu mʉʉang thai maa sìp pii lɛ́ɛo",
+      "ja": "あの人はタイに住んでもう十年になります。",
+      "en": "He has lived in Thailand for ten years now.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-20155",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20263",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20285",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20295",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20297",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20309",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20318",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20331",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20355",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認：เช่น は辞書の表記 chên に合わせた chên níi が正しい（発音上も短母音）。変更不要"
+  ]
+ },
+ {
+  "id": "tl-20356",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20386",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20388",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20403",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20405",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20411",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認：เช่น は辞書の表記 chên に合わせた chên nán が正しい（発音上も短母音）。変更不要"
+  ]
+ },
+ {
+  "id": "tl-20425",
+  "verdict": "fix",
+  "issues": [
+   "例文の王室語法が不正確：王妃には เสด็จพระราชดำเนิน を用い、後続動詞も ทรงเปิด とすべき。主語を เจ้าหญิง に替え ทรงเปิด に修正"
+  ],
+  "fixed": {
+   "id": "tl-20425",
+   "th": "เสด็จ",
+   "action": "add",
+   "ro": "sà dèt",
+   "kind": "word",
+   "category": "社会・制度",
+   "note": "王族の移動に使う王室用語で、王族への敬称・呼称としても使われる。",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "行かれる・来られる・お出ましになる（王族が）",
+     "en": "to go, come, proceed (of royalty)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "royal"
+     ],
+     "speechStyle": "王室の敬語",
+     "example": {
+      "th": "เจ้าหญิงเสด็จไปทรงเปิดโรงพยาบาลแห่งใหม่",
+      "ro": "câo yǐng sà dèt pai song pə̀ət roong phá yaa baan hɛ̀ng mài",
+      "ja": "王女が新しい病院の開院式にお出ましになった。",
+      "en": "The princess went to open the new hospital.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-20499",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20546",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20560",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20584",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20602",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20615",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20628",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20631",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20634",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20653",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20657",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20693",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20700",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20702",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20703",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20735",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20740",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20742",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20755",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20764",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20778",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20787",
+  "verdict": "fix",
+  "issues": [
+   "例文で王の子を องค์ で数えながら裸の กุมาร を使うのは不自然（พระราชกุมาร・พระราชโอรส とすべき）。物語文での自然な用例に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-20787",
+   "th": "กุมาร",
+   "action": "add",
+   "ro": "kù maan",
+   "kind": "word",
+   "category": "人・家族",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "男の子・王子（文語）",
+     "en": "boy, young prince (literary)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "literary"
+     ],
+     "speechStyle": "文語",
+     "example": {
+      "th": "ในนิทานเรื่องนี้ กุมารน้อยอาศัยอยู่ในป่ากับแม่",
+      "ro": "nai ní thaan rʉ̂ʉang níi kù maan nɔ́ɔi aa sǎi yùu nai pàa kàp mɛ̂ɛ",
+      "ja": "この物語では、幼い男の子が母と森で暮らしていた。",
+      "en": "In this tale, the little boy lived in the forest with his mother.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-20814",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20824",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20830",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20842",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20845",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20848",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20858",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20879",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20890",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20916",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20955",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20961",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20970",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20974",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20979",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20991",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20995",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21033",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21047",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21054",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21058",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21059",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21069",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21081",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21090",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21105",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21124",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21126",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21127",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21133",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21137",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21138",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21149",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21150",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21158",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21181",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21188",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21203",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21212",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21248",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21249",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21258",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21292",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21304",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21314",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21319",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21321",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21326",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21332",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21335",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21344",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21347",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21349",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21378",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21400",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21403",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21404",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21406",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21407",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21417",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21421",
+  "verdict": "ok",
+  "issues": []
+ }
+]
