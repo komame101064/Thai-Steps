@@ -1,0 +1,2115 @@
+[
+ {
+  "id": "tl-28564",
+  "th": "รี้",
+  "action": "skip",
+  "skipReason": "単独ではほぼ使わず、「รี้พล（軍勢）」などの文語的な結合形のため。"
+ },
+ {
+  "id": "tl-28565",
+  "th": "รูด",
+  "action": "add",
+  "ro": "rûut",
+  "kind": "word",
+  "category": "日常の動作",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（カーテンなどを）滑らせて引く・しごく",
+    "en": "to pull along, slide (a curtain); strip off",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วยรูดม่านให้หน่อย",
+     "ro": "chûuai rûut mâan hâi nɔ̀ɔi",
+     "ja": "カーテンを引いてくれる？",
+     "en": "Could you draw the curtain?",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（カードを）通す・カードで払う",
+    "en": "to swipe (a card)",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันรูดบัตรเครดิตจ่ายค่าอาหาร",
+     "ro": "chǎn rûut bàt khree dìt càai khâa aa hǎan",
+     "ja": "私はクレジットカードで食事代を払った。",
+     "en": "I paid for the meal by credit card.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28566",
+  "th": "รู้คิด",
+  "action": "add",
+  "ro": "rúu khít",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "分別がある・物事をよく考えられる",
+    "en": "to be thoughtful, sensible",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลูกชายของฉันเริ่มรู้คิดแล้ว",
+     "ro": "lûuk chaai khɔ̌ɔng chǎn rə̂əm rúu khít lɛ́ɛo",
+     "ja": "息子は物事を考えられるようになってきた。",
+     "en": "My son is starting to think sensibly.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28567",
+  "th": "ร่น",
+  "action": "add",
+  "ro": "rôn",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（日程・距離を）縮める・繰り上げる",
+    "en": "to shorten, move up (a date)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บริษัทร่นกำหนดส่งงานเข้ามาอีกสองวัน",
+     "ro": "bɔɔ rí sàt rôn kam nòt sòng ngaan khâo maa ìik sɔ̌ɔng wan",
+     "ja": "会社は提出期限をさらに2日繰り上げた。",
+     "en": "The company moved the deadline up by another two days.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "後退する・後ろへ下がる",
+    "en": "to retreat, move back",
+    "pos": "動詞",
+    "use": "少なめの用法",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ทหารร่นถอยกลับไปที่ค่าย",
+     "ro": "thá hǎan rôn thɔ̌ɔi klàp pai thîi khâai",
+     "ja": "兵士たちは陣地まで後退した。",
+     "en": "The soldiers fell back to the camp.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28568",
+  "th": "ร่มผ้า",
+  "action": "add",
+  "ro": "rôm phâa",
+  "kind": "word",
+  "category": "体・健康",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "衣服の下（の体）",
+    "en": "the part of the body under one's clothes",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หมัดจะไม่กัดทะลุผ้าเหมือนกับยุง แต่จะแทรกตัวเข้าไปในร่มผ้า",
+     "ro": "màt cà mâi kàt thá lú phâa mʉ̌ʉan kàp yung tɛ̀ɛ cà sɛ̂ɛk tuua khâo pai nai rôm phâa",
+     "ja": "ノミは蚊のように服越しに刺すことはなく、服の下に潜り込む。",
+     "en": "Fleas don't bite through clothes like mosquitoes; they crawl in under them.",
+     "origin": "source"
+    },
+    "note": "主に「ในร่มผ้า（服の下に）」の形で使う。"
+   }
+  ]
+ },
+ {
+  "id": "tl-28569",
+  "th": "ลงข่าว",
+  "action": "add",
+  "ro": "long khàao",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（新聞などに）ニュースを載せる・報道する",
+    "en": "to publish news, report",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หนังสือพิมพ์ทุกฉบับลงข่าวเรื่องนี้",
+     "ro": "nǎng sʉ̌ʉ phim thúk chà bàp long khàao rʉ̂ʉang níi",
+     "ja": "すべての新聞がこのことを報じた。",
+     "en": "Every newspaper reported this story.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28571",
+  "th": "ลอดช่อง",
+  "action": "add",
+  "ro": "lɔ̂ɔt chɔ̂ɔng",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ロートチョン（緑色の米粉の麺をココナッツミルクで食べる甘味）",
+    "en": "lod chong (green rice-flour noodles in coconut milk)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันชอบกินลอดช่องน้ำกะทิ",
+     "ro": "chǎn chɔ̂ɔp kin lɔ̂ɔt chɔ̂ɔng nám kà thí",
+     "ja": "私はココナッツミルクのロートチョンが好きです。",
+     "en": "I like lod chong in coconut milk.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28572",
+  "th": "ลอยหน้า",
+  "action": "add",
+  "ro": "lɔɔi nâa",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（悪びれず）平然と顔を上げる・しゃあしゃあとする",
+    "en": "to hold one's head up brazenly",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอลอยหน้าให้การต่อตำรวจอย่างไม่สะทกสะท้าน",
+     "ro": "thəə lɔɔi nâa hâi kaan tɔ̀ɔ tam rùuat yàang mâi sà thók sà tháan",
+     "ja": "彼女は少しも動じず、平然とした顔で警察に供述した。",
+     "en": "She gave her statement to the police brazenly, without the least fear.",
+     "origin": "source"
+    },
+    "note": "「ลอยหน้าลอยตา」の形でもよく使う。"
+   }
+  ]
+ },
+ {
+  "id": "tl-28573",
+  "th": "ละเหี่ย",
+  "action": "add",
+  "ro": "lá hìia",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "うんざりする・気がめいる・ぐったりする",
+    "en": "to feel weary, be dispirited",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คนกรุงแสนจะละเหี่ยกับสภาพรถติดทุกวัน",
+     "ro": "khon krung sɛ̌ɛn cà lá hìia kàp sà phâap rót tìt thúk wan",
+     "ja": "都会の人々は毎日の渋滞にすっかりうんざりしている。",
+     "en": "City people are utterly weary of the daily traffic jams.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28574",
+  "th": "ละโมบ",
+  "action": "add",
+  "ro": "lá môop",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "強欲な・欲深い",
+    "en": "greedy, avaricious",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาเป็นคนละโมบ อยากได้ในสิ่งที่มิควรได้",
+     "ro": "khǎo pen khon lá môop yàak dâai nai sìng thîi mí khuuan dâai",
+     "ja": "あの人は欲深く、得るべきでないものまで欲しがる。",
+     "en": "He is greedy and wants things he should not have.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28575",
+  "th": "ลูกน้ำ",
+  "action": "add",
+  "ro": "lûuk náam",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ボウフラ（蚊の幼虫）",
+    "en": "mosquito larva",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ในโอ่งมีลูกน้ำเต็มไปหมด",
+     "ro": "nai òong mii lûuk náam tem pai mòt",
+     "ja": "水がめの中はボウフラだらけだ。",
+     "en": "The water jar is full of mosquito larvae.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "コンマ（,）",
+    "en": "comma",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตรงนี้ต้องใส่ลูกน้ำ",
+     "ro": "trong níi tɔ̂ɔng sài lûuk náam",
+     "ja": "ここにはコンマを入れなければならない。",
+     "en": "You need to put a comma here.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28576",
+  "th": "ลูกบ้าน",
+  "action": "add",
+  "ro": "lûuk bâan",
+  "kind": "word",
+  "category": "社会・制度",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（村・住宅地の）住民",
+    "en": "villager, resident (of a village or housing estate)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผู้ใหญ่บ้านเรียกลูกบ้านมาประชุม",
+     "ro": "phûu yài bâan rîiak lûuk bâan maa prà chum",
+     "ja": "村長は住民を集めて会議を開いた。",
+     "en": "The village headman called the villagers to a meeting.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28578",
+  "th": "ล่วงละเมิด",
+  "action": "add",
+  "ro": "lûuang lá mə̂ət",
+  "kind": "word",
+  "category": "社会・制度",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（権利・規則を）侵害する・犯す",
+    "en": "to violate, infringe",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ไม่มีใครมีสิทธิ์ล่วงละเมิดสิทธิของผู้อื่น",
+     "ro": "mâi mii khrai mii sìt lûuang lá mə̂ət sìt thí khɔ̌ɔng phûu ʉ̀ʉn",
+     "ja": "他人の権利を侵害する権利は誰にもない。",
+     "en": "No one has the right to violate the rights of others.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "性的に暴行する・虐待する",
+    "en": "to sexually abuse",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ชายคนนี้ถูกจับข้อหาล่วงละเมิดทางเพศเด็ก",
+     "ro": "chaai khon níi thùuk càp khɔ̂ɔ hǎa lûuang lá mə̂ət thaang phêet dèk",
+     "ja": "この男は子どもへの性的虐待の容疑で逮捕された。",
+     "en": "This man was arrested on charges of sexually abusing children.",
+     "origin": "authored"
+    },
+    "note": "この意味では「ล่วงละเมิดทางเพศ」の形で使う。"
+   }
+  ]
+ },
+ {
+  "id": "tl-28579",
+  "th": "วงเวียน",
+  "action": "add",
+  "ro": "wong wiian",
+  "kind": "word",
+  "category": "移動・道案内",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ロータリー・環状交差点",
+    "en": "roundabout, traffic circle",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ถึงวงเวียนแล้วเลี้ยวซ้าย",
+     "ro": "thʉ̌ng wong wiian lɛ́ɛo líiao sáai",
+     "ja": "ロータリーに着いたら左に曲がって。",
+     "en": "Turn left when you reach the roundabout.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "コンパス（製図用）",
+    "en": "compass (for drawing circles)",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นักเรียนใช้วงเวียนวาดวงกลม",
+     "ro": "nák riian chái wong wiian wâat wong klom",
+     "ja": "生徒はコンパスで円を描いた。",
+     "en": "The student drew a circle with a compass.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28580",
+  "th": "วดี",
+  "action": "skip",
+  "skipReason": "文語的で、主に人名に使われるため。"
+ },
+ {
+  "id": "tl-28581",
+  "th": "วัดวา",
+  "action": "add",
+  "ro": "wát waa",
+  "kind": "word",
+  "category": "社会・制度",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "お寺（総称）",
+    "en": "temples (collectively)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เมืองนี้มีวัดวาอารามมากมาย",
+     "ro": "mʉʉang níi mii wát waa aa raam mâak maai",
+     "ja": "この町にはお寺がたくさんある。",
+     "en": "This town has many temples.",
+     "origin": "authored"
+    },
+    "note": "主に「วัดวาอาราม」の形で使う。"
+   }
+  ]
+ },
+ {
+  "id": "tl-28582",
+  "th": "วันแล้ววันเล่า",
+  "action": "add",
+  "ro": "wan lɛ́ɛo wan lâo",
+  "kind": "expression",
+  "category": "時間",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "来る日も来る日も",
+    "en": "day after day",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอพูดอยู่เช่นนี้วันแล้ววันเล่า จนฉันรู้สึกน่าเบื่อหน่าย",
+     "ro": "thəə phûut yùu chên níi wan lɛ́ɛo wan lâo con chǎn rúu sʉ̀k nâa bʉ̀ʉa nàai",
+     "ja": "彼女が来る日も来る日もこう言い続けるので、私はうんざりしてしまった。",
+     "en": "She kept saying this day after day until I got fed up.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28583",
+  "th": "วิกาล",
+  "action": "add",
+  "ro": "wí kaan",
+  "kind": "word",
+  "category": "時間",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "夜・夜間",
+    "en": "night, nighttime",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ขโมยเข้าบ้านในยามวิกาล",
+     "ro": "khà mooi khâo bâan nai yaam wí kaan",
+     "ja": "泥棒が夜中に家に入った。",
+     "en": "A thief broke into the house at night.",
+     "origin": "source"
+    },
+    "note": "主に「ยามวิกาล（夜間）」の形で使う。"
+   }
+  ]
+ },
+ {
+  "id": "tl-28584",
+  "th": "วิหารทิศ",
+  "action": "skip",
+  "skipReason": "寺院建築の専門用語のため。"
+ },
+ {
+  "id": "tl-28585",
+  "th": "วี่วัน",
+  "action": "skip",
+  "skipReason": "原資料の語義が乏しく、現代の用法を確定できないため。"
+ },
+ {
+  "id": "tl-28586",
+  "th": "ศิลปศาสตร์",
+  "action": "add",
+  "ro": "sǐn lá pà sàat",
+  "kind": "word",
+  "category": "仕事・学習",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "教養学・人文系の学問（リベラルアーツ）",
+    "en": "liberal arts",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาเรียนคณะศิลปศาสตร์",
+     "ro": "khǎo riian khá ná sǐn lá pà sàat",
+     "ja": "あの人は教養学部で学んでいる。",
+     "en": "He studies in the Faculty of Liberal Arts.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28587",
+  "th": "สกล",
+  "action": "skip",
+  "skipReason": "文語的で、主に地名・人名（สกลนคร など）に使われるため。"
+ },
+ {
+  "id": "tl-28588",
+  "th": "สมน้ำหน้า",
+  "action": "add",
+  "ro": "sǒm nám nâa",
+  "kind": "word",
+  "category": "挨拶・会話",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ざまあみろ・自業自得だ",
+    "en": "serves (someone) right",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ขี้เกียจท่องหนังสือ สอบตกก็สมน้ำหน้า",
+     "ro": "khîi kìiat thɔ̂ɔng nǎng sʉ̌ʉ sɔ̀ɔp tòk kɔ̂ɔ sǒm nám nâa",
+     "ja": "勉強をさぼって試験に落ちたのは自業自得だ。",
+     "en": "You were too lazy to study, so failing the exam serves you right.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28589",
+  "th": "สรณคมน์",
+  "action": "skip",
+  "skipReason": "仏教の専門用語のため。"
+ },
+ {
+  "id": "tl-28590",
+  "th": "สรรพางค์",
+  "action": "skip",
+  "skipReason": "「ทั่วสรรพางค์กาย」などの文語表現に限られるため。"
+ },
+ {
+  "id": "tl-28592",
+  "th": "สอดไส้",
+  "action": "add",
+  "ro": "sɔ̀ɔt sâi",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（中に）具を詰める・挟む",
+    "en": "to fill, stuff (with a filling)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้ขายขนมปังสอดไส้ครีม",
+     "ro": "ráan níi khǎai khà nǒm pang sɔ̀ɔt sâi khriim",
+     "ja": "この店はクリーム入りのパンを売っている。",
+     "en": "This shop sells cream-filled bread.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（偽物などを）こっそり紛れ込ませる",
+    "en": "to slip in, smuggle in (among other things)",
+    "pos": "動詞",
+    "use": "少なめの用法",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "มีคนสอดไส้ของปลอมไว้ในกล่อง",
+     "ro": "mii khon sɔ̀ɔt sâi khɔ̌ɔng plɔɔm wái nai klɔ̀ɔng",
+     "ja": "誰かが箱の中に偽物を紛れ込ませていた。",
+     "en": "Someone slipped fakes into the box.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28593",
+  "th": "สะบั้น",
+  "action": "add",
+  "ro": "sà bân",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ぷっつりと（切れる）",
+    "en": "(break) off completely, snap",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ความสัมพันธ์ของทั้งสองคนขาดสะบั้นลง",
+     "ro": "khwaam sǎm phan khɔ̌ɔng tháng sɔ̌ɔng khon khàat sà bân long",
+     "ja": "二人の関係はぷっつりと切れてしまった。",
+     "en": "The relationship between the two snapped completely.",
+     "origin": "authored"
+    },
+    "note": "主に「ขาดสะบั้น」の形で使う。"
+   }
+  ]
+ },
+ {
+  "id": "tl-28594",
+  "th": "สะแก",
+  "action": "skip",
+  "skipReason": "植物名（樹木の一種）で学習価値が低いため。"
+ },
+ {
+  "id": "tl-28595",
+  "th": "สังคมวิทยา",
+  "action": "add",
+  "ro": "sǎng khom wít thá yaa",
+  "kind": "word",
+  "category": "仕事・学習",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "社会学",
+    "en": "sociology",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันเรียนสังคมวิทยาที่มหาวิทยาลัย",
+     "ro": "chǎn riian sǎng khom wít thá yaa thîi má hǎa wít thá yaa lai",
+     "ja": "私は大学で社会学を学んでいる。",
+     "en": "I study sociology at university.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28596",
+  "th": "สังวร",
+  "action": "add",
+  "ro": "sǎng wɔɔn",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（言動を）慎む・心に留めて自戒する",
+    "en": "to be mindful, restrain oneself",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ทุกคนควรสังวรในคำพูดของตัวเอง",
+     "ro": "thúk khon khuuan sǎng wɔɔn nai kham phûut khɔ̌ɔng tuua eeng",
+     "ja": "誰もが自分の言葉を慎むべきだ。",
+     "en": "Everyone should be mindful of their own words.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28597",
+  "th": "สังวาล",
+  "action": "skip",
+  "skipReason": "王室の装身具の名称で、専門的なため。"
+ },
+ {
+  "id": "tl-28598",
+  "th": "สิบๆ",
+  "action": "add",
+  "ro": "sìp sìp",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何十もの",
+    "en": "dozens of, tens of",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันโทรหาเขาสิบๆ ครั้งแล้ว",
+     "ro": "chǎn thoo hǎa khǎo sìp sìp khráng lɛ́ɛo",
+     "ja": "私はあの人にもう何十回も電話した。",
+     "en": "I have called him dozens of times.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28599",
+  "th": "สิ้นชีพ",
+  "action": "add",
+  "ro": "sîn chîip",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "死ぬ・命を落とす",
+    "en": "to die, perish",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "เขาสิ้นชีพในสงคราม",
+     "ro": "khǎo sîn chîip nai sǒng khraam",
+     "ja": "あの人は戦争で命を落とした。",
+     "en": "He died in the war.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28600",
+  "th": "สีมา",
+  "action": "skip",
+  "skipReason": "寺院の境界標を指す仏教の専門用語のため。"
+ },
+ {
+  "id": "tl-28601",
+  "th": "สีห์",
+  "action": "skip",
+  "skipReason": "文語・詩語でのみ使われるため。"
+ },
+ {
+  "id": "tl-28602",
+  "th": "สื่อสารมวลชน",
+  "action": "add",
+  "ro": "sʉ̀ʉ sǎan muuan chon",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "マスコミ・マスメディア",
+    "en": "mass communication, mass media",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาทำงานด้านสื่อสารมวลชน",
+     "ro": "khǎo tham ngaan dâan sʉ̀ʉ sǎan muuan chon",
+     "ja": "あの人はマスコミの仕事をしている。",
+     "en": "He works in mass media.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28603",
+  "th": "สุรเสียง",
+  "action": "skip",
+  "skipReason": "主に「พระสุรเสียง」の形の王室用語で、単独の用法を確定できないため。"
+ },
+ {
+  "id": "tl-28604",
+  "th": "สเด็จ",
+  "action": "skip",
+  "skipReason": "เสด็จ の誤記と見られるため。"
+ },
+ {
+  "id": "tl-28605",
+  "th": "ส่งท้าย",
+  "action": "add",
+  "ro": "sòng tháai",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "締めくくる・（旧年を）送る",
+    "en": "to round off, see off (the old year)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เราจัดงานเลี้ยงส่งท้ายปีเก่า",
+     "ro": "rao càt ngaan líiang sòng tháai pii kào",
+     "ja": "私たちは旧年を送るパーティーを開いた。",
+     "en": "We held a party to see out the old year.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28606",
+  "th": "หนังใหญ่",
+  "action": "add",
+  "ro": "nǎng yài",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ナンヤイ（大型の影絵芝居）",
+    "en": "nang yai (grand shadow play)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หนังใหญ่เป็นการแสดงเก่าแก่ของไทย",
+     "ro": "nǎng yài pen kaan sà dɛɛng kào kɛ̀ɛ khɔ̌ɔng thai",
+     "ja": "ナンヤイはタイの古い芸能だ。",
+     "en": "Nang yai is an old Thai performing art.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28607",
+  "th": "หนีเสือ",
+  "action": "skip",
+  "skipReason": "タイ古典音楽の曲名で学習価値が低いため。"
+ },
+ {
+  "id": "tl-28608",
+  "th": "หน้าดิน",
+  "action": "add",
+  "ro": "nâa din",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "表土・地表",
+    "en": "topsoil, ground surface",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฝนตกหนักทำให้หน้าดินถูกชะไป",
+     "ro": "fǒn tòk nàk tham hâi nâa din thùuk chá pai",
+     "ja": "大雨で表土が流された。",
+     "en": "The heavy rain washed away the topsoil.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28609",
+  "th": "หน้าปัด",
+  "action": "add",
+  "ro": "nâa pàt",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（時計・計器の）文字盤",
+    "en": "dial, face (of a watch or gauge)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หน้าปัดนาฬิกาเรือนนี้สวยมาก",
+     "ro": "nâa pàt naa lí kaa rʉʉan níi sǔuai mâak",
+     "ja": "この時計の文字盤はとてもきれいだ。",
+     "en": "The face of this watch is very beautiful.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28610",
+  "th": "หยกๆ",
+  "action": "add",
+  "ro": "yòk yòk",
+  "kind": "word",
+  "category": "時間",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ついさっき（〜したばかり）",
+    "en": "just now",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ฉันเพิ่งกินข้าวมาหยกๆ",
+     "ro": "chǎn phə̂əng kin khâao maa yòk yòk",
+     "ja": "私はついさっきご飯を食べたばかりだ。",
+     "en": "I only just ate.",
+     "origin": "authored"
+    },
+    "note": "「เพิ่ง…หยกๆ」の形で使う。"
+   }
+  ]
+ },
+ {
+  "id": "tl-28611",
+  "th": "หยอกเย้า",
+  "action": "add",
+  "ro": "yɔ̀ɔk yáo",
+  "kind": "word",
+  "category": "日常の動作",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "からかう・ふざけてじゃれる",
+    "en": "to tease playfully",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พ่อชอบหยอกเย้าลูกสาวคนเล็ก",
+     "ro": "phɔ̂ɔ chɔ̂ɔp yɔ̀ɔk yáo lûuk sǎao khon lék",
+     "ja": "父は末の娘をからかうのが好きだ。",
+     "en": "Dad likes teasing his youngest daughter.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28612",
+  "th": "หย่อม",
+  "action": "add",
+  "ro": "yɔ̀ɔm",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（草などの）ひとかたまり・一か所",
+    "en": "patch, clump",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สนามมีหญ้าขึ้นเป็นหย่อมๆ",
+     "ro": "sà nǎam mii yâa khʉ̂n pen yɔ̀ɔm yɔ̀ɔm",
+     "ja": "グラウンドには草がところどころに生えている。",
+     "en": "Grass grows in patches on the field.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（気象の）〜域",
+    "en": "area (of low pressure)",
+    "pos": "名詞",
+    "use": "少なめの用法",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หย่อมความกดอากาศต่ำทำให้ฝนตกหนัก",
+     "ro": "yɔ̀ɔm khwaam kòt aa kàat tàm tham hâi fǒn tòk nàk",
+     "ja": "低気圧域が大雨をもたらしている。",
+     "en": "A low-pressure area is causing heavy rain.",
+     "origin": "authored"
+    },
+    "note": "天気予報の「หย่อมความกดอากาศต่ำ（低気圧域）」で使う。"
+   }
+  ]
+ },
+ {
+  "id": "tl-28613",
+  "th": "หวาดไหว",
+  "action": "add",
+  "ro": "wàat wǎi",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（量が多くて）こなしきれる",
+    "en": "to be able to cope with (a large amount)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "อาหารเยอะจนกินไม่หวาดไหว",
+     "ro": "aa hǎan yə́ con kin mâi wàat wǎi",
+     "ja": "料理が多すぎて食べきれない。",
+     "en": "There is so much food we can't finish it.",
+     "origin": "authored"
+    },
+    "note": "主に否定形「ไม่หวาดไหว」で使う。"
+   }
+  ]
+ },
+ {
+  "id": "tl-28614",
+  "th": "หัวขวาน",
+  "action": "add",
+  "ro": "hǔua khwǎan",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "キツツキ",
+    "en": "woodpecker",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นกหัวขวานกำลังเจาะต้นไม้",
+     "ro": "nók hǔua khwǎan kam lang cɔ̀ tôn máai",
+     "ja": "キツツキが木をつついている。",
+     "en": "A woodpecker is pecking at the tree.",
+     "origin": "authored"
+    },
+    "note": "ふつう「นกหัวขวาน」と言う。"
+   }
+  ]
+ },
+ {
+  "id": "tl-28615",
+  "th": "หัวนอน",
+  "action": "add",
+  "ro": "hǔua nɔɔn",
+  "kind": "word",
+  "category": "家・場所",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "枕元・ベッドの頭側",
+    "en": "head of the bed",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันวางโทรศัพท์ไว้ที่หัวนอน",
+     "ro": "chǎn waang thoo rá sàp wái thîi hǔua nɔɔn",
+     "ja": "私は携帯電話を枕元に置いている。",
+     "en": "I keep my phone at the head of the bed.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28616",
+  "th": "หัวเราะๆ",
+  "action": "skip",
+  "skipReason": "反復形の臨時的な用法で、独立した語として扱いにくいため。"
+ },
+ {
+  "id": "tl-28617",
+  "th": "หัวเรือใหญ่",
+  "action": "add",
+  "ro": "hǔua rʉʉa yài",
+  "kind": "word",
+  "category": "仕事・学習",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "中心人物・取りまとめ役",
+    "en": "leader, person in charge",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผมเชิญเขามาเป็นหัวเรือใหญ่ของงานนี้โดยเฉพาะ",
+     "ro": "phǒm chəən khǎo maa pen hǔua rʉʉa yài khɔ̌ɔng ngaan níi dooi chà phɔ́",
+     "ja": "この催しの取りまとめ役として、私はわざわざあの人を招いた。",
+     "en": "I specifically invited him to lead this event.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28619",
+  "th": "อยู่จริงๆ",
+  "action": "skip",
+  "skipReason": "「อยู่」＋「จริงๆ」の連語で、独立した語ではないため。"
+ },
+ {
+  "id": "tl-28620",
+  "th": "อลวน",
+  "action": "add",
+  "ro": "on lá won",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "混乱した・めちゃくちゃな",
+    "en": "chaotic, confused",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วงนี้ชีวิตฉันอลวนไปหมด",
+     "ro": "chûuang níi chii wít chǎn on lá won pai mòt",
+     "ja": "最近、私の生活はめちゃくちゃだ。",
+     "en": "My life has been total chaos lately.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28621",
+  "th": "อวดรู้",
+  "action": "add",
+  "ro": "ùuat rúu",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "知ったかぶりをする",
+    "en": "to act like a know-it-all",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาชอบอวดรู้ทุกเรื่อง",
+     "ro": "khǎo chɔ̂ɔp ùuat rúu thúk rʉ̂ʉang",
+     "ja": "あの人は何でも知ったかぶりをする。",
+     "en": "He acts like a know-it-all about everything.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28622",
+  "th": "อัฐ",
+  "action": "skip",
+  "skipReason": "旧貨幣単位の古語のため。"
+ },
+ {
+  "id": "tl-28623",
+  "th": "อันธพาล",
+  "action": "add",
+  "ro": "an thá phaan",
+  "kind": "word",
+  "category": "社会・制度",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ごろつき・チンピラ",
+    "en": "thug, hooligan",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอถูกพวกอันธพาลในซอยจี้เอาสร้อยไปเมื่อคืนนี้",
+     "ro": "thəə thùuk phûuak an thá phaan nai sɔɔi cîi ao sɔ̂ɔi pai mʉ̂ʉa khʉʉn níi",
+     "ja": "彼女は昨夜、路地でチンピラに脅されてネックレスを奪われた。",
+     "en": "Last night thugs in the lane robbed her of her necklace.",
+     "origin": "source"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "乱暴な・不良じみた",
+    "en": "rowdy, thuggish",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลูกชายของเขามีนิสัยอันธพาลเป็นที่เบื่อหน่ายของบรรดาญาติๆ",
+     "ro": "lûuk chaai khɔ̌ɔng khǎo mii ní sǎi an thá phaan pen thîi bʉ̀ʉa nàai khɔ̌ɔng ban daa yâat yâat",
+     "ja": "あの人の息子は乱暴な性格で、親戚一同から疎まれている。",
+     "en": "His son has a thuggish nature that his relatives are fed up with.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28624",
+  "th": "อาถรรพ์",
+  "action": "add",
+  "ro": "aa thǎn",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "たたり・呪い（不吉な力）",
+    "en": "curse, malign supernatural power",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คนแถวนี้เชื่อว่าบ้านหลังนี้มีอาถรรพ์",
+     "ro": "khon thɛ̌ɛo níi chʉ̂ʉa wâa bâan lǎng níi mii aa thǎn",
+     "ja": "この辺の人は、この家にはたたりがあると信じている。",
+     "en": "People around here believe this house is cursed.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28625",
+  "th": "อาบัติ",
+  "action": "skip",
+  "skipReason": "仏教の戒律上の専門用語のため。"
+ },
+ {
+  "id": "tl-28626",
+  "th": "อารยประเทศ",
+  "action": "add",
+  "ro": "aa rá yá prà thêet",
+  "kind": "word",
+  "category": "社会・制度",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "文明国・先進国",
+    "en": "civilized country",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ประเทศไทยต้องพัฒนาให้ทัดเทียมอารยประเทศ",
+     "ro": "prà thêet thai tɔ̂ɔng phát thá naa hâi thát thiiam aa rá yá prà thêet",
+     "ja": "タイは文明国と肩を並べるよう発展しなければならない。",
+     "en": "Thailand must develop to be on a par with civilized nations.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28627",
+  "th": "อำนวยการ",
+  "action": "add",
+  "ro": "am nuuai kaan",
+  "kind": "word",
+  "category": "仕事・学習",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（組織・行事を）統括する・指揮する",
+    "en": "to direct, administer",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "เขาได้รับมอบหมายให้อำนวยการจัดงานครั้งนี้",
+     "ro": "khǎo dâai ráp mɔ̂ɔp mǎai hâi am nuuai kaan càt ngaan khráng níi",
+     "ja": "あの人は今回の催しの運営を統括するよう任された。",
+     "en": "He was assigned to direct the organization of this event.",
+     "origin": "authored"
+    },
+    "note": "「ผู้อำนวยการ（所長・校長など）」の形でよく使う。"
+   }
+  ]
+ },
+ {
+  "id": "tl-28628",
+  "th": "อี๊",
+  "action": "add",
+  "ro": "íi",
+  "kind": "word",
+  "category": "助詞・語気",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "うえっ・いやだ（嫌悪）",
+    "en": "ugh, yuck",
+    "pos": "間投詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "อี๊! เสื้อสกปรกอย่างนี้ ยังจะเอามาให้อีก",
+     "ro": "íi sʉ̂ʉa sòk kà pròk yàang níi yang cà ao maa hâi ìik",
+     "ja": "うえっ、こんな汚い服をまだ渡してくるの？",
+     "en": "Ugh! You're still handing me clothes this dirty?",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28629",
+  "th": "อุบะ",
+  "action": "skip",
+  "skipReason": "花飾りの専門的な名称で学習価値が低いため。"
+ },
+ {
+  "id": "tl-28630",
+  "th": "เกรียว",
+  "action": "add",
+  "ro": "kriiao",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（大勢が）どっと・一斉に騒がしく",
+    "en": "loudly, all together",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เด็กๆ หัวเราะกันเกรียว",
+     "ro": "dèk dèk hǔua rɔ́ kan kriiao",
+     "ja": "子どもたちがどっと笑った。",
+     "en": "The children burst out laughing together.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28631",
+  "th": "เกียรติศักดิ์",
+  "action": "add",
+  "ro": "kìiat tì sàk",
+  "kind": "word",
+  "category": "社会・制度",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "名誉・誇り",
+    "en": "honor, prestige",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "เขาต่อสู้เพื่อเกียรติศักดิ์ของครอบครัว",
+     "ro": "khǎo tɔ̀ɔ sûu phʉ̂ʉa kìiat tì sàk khɔ̌ɔng khrɔ̂ɔp khruua",
+     "ja": "あの人は家族の名誉のために戦った。",
+     "en": "He fought for his family's honor.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28632",
+  "th": "เกี่ยงงอน",
+  "action": "add",
+  "ro": "kìiang ngɔɔn",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（あれこれ言って）渋る・嫌がる",
+    "en": "to be reluctant, make excuses",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาทำทุกอย่างโดยไม่เกี่ยงงอน",
+     "ro": "khǎo tham thúk yàang dooi mâi kìiang ngɔɔn",
+     "ja": "あの人は何でも嫌がらずにやる。",
+     "en": "He does everything without complaint.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28633",
+  "th": "เกื้อ",
+  "action": "add",
+  "ro": "kʉ̂ʉa",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "助ける・支える",
+    "en": "to help, support",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พี่น้องควรเกื้อกูลกัน",
+     "ro": "phîi nɔ́ɔng khuuan kʉ̂ʉa kuun kan",
+     "ja": "兄弟は互いに助け合うべきだ。",
+     "en": "Siblings should help each other.",
+     "origin": "authored"
+    },
+    "note": "単独より「เกื้อกูล」「เกื้อหนุน」の形でよく使う。"
+   }
+  ]
+ },
+ {
+  "id": "tl-28634",
+  "th": "เก็บความ",
+  "action": "add",
+  "ro": "kèp khwaam",
+  "kind": "word",
+  "category": "仕事・学習",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "要点をまとめる・要約する",
+    "en": "to summarize, extract the gist",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วยเก็บความจากบทความนี้ให้หน่อย",
+     "ro": "chûuai kèp khwaam càak bòt khwaam níi hâi nɔ̀ɔi",
+     "ja": "この記事の要点をまとめてくれない？",
+     "en": "Could you summarize this article for me?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28635",
+  "th": "เข้าคู่",
+  "action": "add",
+  "ro": "khâo khûu",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "対になる・組になる",
+    "en": "to pair up, match",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เด็กที่เล็กเกินไปจะไม่รู้ว่าภาพไหนจะเข้าคู่กับภาพไหน",
+     "ro": "dèk thîi lék kəən pai cà mâi rúu wâa phâap nǎi cà khâo khûu kàp phâap nǎi",
+     "ja": "小さすぎる子どもは、どの絵とどの絵が対になるのか分からない。",
+     "en": "Children who are too young don't know which picture pairs with which.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28636",
+  "th": "เข้าตัว",
+  "action": "add",
+  "ro": "khâo tuua",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（悪事・言動が）自分に跳ね返る",
+    "en": "to backfire on oneself",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โกหกมากๆ ระวังจะเข้าตัวนะ",
+     "ro": "koo hòk mâak mâak rá wang cà khâo tuua ná",
+     "ja": "嘘ばかりついていると、自分に跳ね返ってくるから気をつけてね。",
+     "en": "If you lie a lot, be careful it doesn't backfire on you.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28637",
+  "th": "เครื่องเงิน",
+  "action": "add",
+  "ro": "khrʉ̂ʉang ngən",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "銀製品・銀器",
+    "en": "silverware, silver craft",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เชียงใหม่มีชื่อเสียงเรื่องเครื่องเงิน",
+     "ro": "chiiang mài mii chʉ̂ʉ sǐiang rʉ̂ʉang khrʉ̂ʉang ngən",
+     "ja": "チェンマイは銀製品で有名だ。",
+     "en": "Chiang Mai is famous for its silverware.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28638",
+  "th": "เค้าท์",
+  "action": "skip",
+  "skipReason": "原資料の語義（chaos）と綴りが合わず、確実な意味が決められないため。"
+ },
+ {
+  "id": "tl-28639",
+  "th": "เงื้อมมือ",
+  "action": "add",
+  "ro": "ngʉ́ʉam mʉʉ",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "手中・魔の手",
+    "en": "clutches, grasp",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "คนร้ายหนีไม่พ้นเงื้อมมือของกฎหมาย",
+     "ro": "khon ráai nǐi mâi phón ngʉ́ʉam mʉʉ khɔ̌ɔng kòt mǎai",
+     "ja": "犯人は法の手から逃れられなかった。",
+     "en": "The criminal could not escape the clutches of the law.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28641",
+  "th": "เจ้าอารมณ์",
+  "action": "add",
+  "ro": "câao aa rom",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "気分屋の・怒りっぽい",
+    "en": "moody, temperamental",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แฟนของฉันเป็นคนเจ้าอารมณ์",
+     "ro": "fɛɛn khɔ̌ɔng chǎn pen khon câao aa rom",
+     "ja": "私の恋人は気分屋だ。",
+     "en": "My partner is moody.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28642",
+  "th": "เฉลียว",
+  "action": "add",
+  "ro": "chà lǐiao",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ふと疑う・感づく",
+    "en": "to suspect, have an inkling",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผมไม่เคยเฉลียวเลยว่า เขาจะเป็นเพื่อนที่คอยจ้องจะหักหลังผม",
+     "ro": "phǒm mâi khəəi chà lǐiao ləəi wâa khǎo cà pen phʉ̂ʉan thîi khɔɔi cɔ̂ɔng cà hàk lǎng phǒm",
+     "ja": "あの人が私を裏切ろうと狙っている友人だとは、まったく疑いもしなかった。",
+     "en": "I never suspected he was a friend waiting for a chance to betray me.",
+     "origin": "source"
+    },
+    "note": "主に否定形「ไม่เฉลียว（ใจ）」で使う。"
+   }
+  ]
+ },
+ {
+  "id": "tl-28644",
+  "th": "เชอ",
+  "action": "skip",
+  "skipReason": "「บำเรอ」と組む詩的な語で、単独の語義が確定できないため。"
+ },
+ {
+  "id": "tl-28645",
+  "th": "เชิงซ้อน",
+  "action": "add",
+  "ro": "chəəng sɔ́ɔn",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "複合的な・複雑な",
+    "en": "complex, compound",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "นี่เป็นปัญหาเชิงซ้อนที่แก้ยาก",
+     "ro": "nîi pen pan hǎa chəəng sɔ́ɔn thîi kɛ̂ɛ yâak",
+     "ja": "これは解決が難しい複合的な問題だ。",
+     "en": "This is a complex problem that is hard to solve.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28647",
+  "th": "เซ็ก",
+  "action": "skip",
+  "skipReason": "語義・用法が確認できないため。"
+ },
+ {
+  "id": "tl-28650",
+  "th": "เทวสถาน",
+  "action": "add",
+  "ro": "thee wá sà thǎan",
+  "kind": "word",
+  "category": "社会・制度",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（ヒンドゥー教などの）神殿・神をまつる堂",
+    "en": "shrine, place of worship (of Hindu gods)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "มีเทวสถานเก่าแก่อยู่ใจกลางเมือง",
+     "ro": "mii thee wá sà thǎan kào kɛ̀ɛ yùu cai klaang mʉʉang",
+     "ja": "町の中心に古い神殿がある。",
+     "en": "There is an old shrine in the center of town.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28651",
+  "th": "เทียนไข",
+  "action": "add",
+  "ro": "thiian khǎi",
+  "kind": "word",
+  "category": "家・場所",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ろうそく",
+    "en": "candle",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ไฟดับ เราเลยต้องจุดเทียนไข",
+     "ro": "fai dàp rao ləəi tɔ̂ɔng cùt thiian khǎi",
+     "ja": "停電したので、ろうそくをつけなければならなかった。",
+     "en": "The power went out, so we had to light candles.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28652",
+  "th": "เท่าไรๆ",
+  "action": "skip",
+  "skipReason": "反復形の臨時的な用法で、独立した語として扱いにくいため。"
+ },
+ {
+  "id": "tl-28653",
+  "th": "เนา",
+  "action": "skip",
+  "skipReason": "裁縫の専門用語（仮縫い）で学習価値が低いため。"
+ },
+ {
+  "id": "tl-28654",
+  "th": "เบญจคีรีนคร",
+  "action": "skip",
+  "skipReason": "インドの古代都市の別名（固有名詞）のため。"
+ },
+ {
+  "id": "tl-28655",
+  "th": "เป็นกลางๆ",
+  "action": "skip",
+  "skipReason": "反復形の臨時的な用法で、独立した語として扱いにくいため。"
+ },
+ {
+  "id": "tl-28656",
+  "th": "เป๋ง",
+  "action": "skip",
+  "skipReason": "母音の長短（pěng / pěeng）を確定できないため。"
+ },
+ {
+  "id": "tl-28657",
+  "th": "เพรง",
+  "action": "skip",
+  "skipReason": "文語・古語のため。"
+ },
+ {
+  "id": "tl-28658",
+  "th": "เพี้ยง",
+  "action": "add",
+  "ro": "phíiang",
+  "kind": "word",
+  "category": "助詞・語気",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どうかそうなりますように（願掛けの言葉）",
+    "en": "please let it be so! (said when making a wish)",
+    "pos": "間投詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ขอให้พรุ่งนี้ฝนไม่ตก เพี้ยง",
+     "ro": "khɔ̌ɔ hâi phrûng níi fǒn mâi tòk phíiang",
+     "ja": "明日雨が降りませんように、お願い！",
+     "en": "May it not rain tomorrow, please!",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28659",
+  "th": "เภทภัย",
+  "action": "add",
+  "ro": "phêet phai",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "災難・災い",
+    "en": "calamity, disaster",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ชีวิตของคนเราเต็มไปด้วยเภทภัยต่างๆ",
+     "ro": "chii wít khɔ̌ɔng khon rao tem pai dûuai phêet phai tàang tàang",
+     "ja": "私たちの人生はさまざまな災難に満ちている。",
+     "en": "Our lives are full of all kinds of calamities.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28661",
+  "th": "เยา",
+  "action": "add",
+  "ro": "yao",
+  "kind": "word",
+  "category": "お金・買い物",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（値段が）手頃な・安い",
+    "en": "inexpensive, reasonable (price)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้ขายของราคาย่อมเยา",
+     "ro": "ráan níi khǎai khɔ̌ɔng raa khaa yɔ̂ɔm yao",
+     "ja": "この店は手頃な値段で品物を売っている。",
+     "en": "This shop sells things at reasonable prices.",
+     "origin": "authored"
+    },
+    "note": "主に「ราคาย่อมเยา（手頃な値段）」の形で使う。"
+   }
+  ]
+ },
+ {
+  "id": "tl-28662",
+  "th": "เลาๆ",
+  "action": "add",
+  "ro": "lao lao",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ぼんやりと・おおまかに",
+    "en": "vaguely, roughly",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผมนึกได้เลาๆ ว่าผมเคยเจอเหตุการณ์อย่างนี้มาก่อน",
+     "ro": "phǒm nʉ́k dâai lao lao wâa phǒm khəəi cəə hèet kaan yàang níi maa kɔ̀ɔn",
+     "ja": "前にもこういう出来事に遭ったことを、ぼんやりと思い出せる。",
+     "en": "I vaguely recall having experienced something like this before.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28663",
+  "th": "เวนิส",
+  "action": "add",
+  "ro": "wee nít",
+  "kind": "word",
+  "category": "移動・道案内",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ヴェネツィア（イタリアの都市）",
+    "en": "Venice",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เวนิสเป็นเมืองที่มีคลองเยอะมาก",
+     "ro": "wee nít pen mʉʉang thîi mii khlɔɔng yə́ mâak",
+     "ja": "ヴェネツィアは運河がとても多い町だ。",
+     "en": "Venice is a city with a great many canals.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28664",
+  "th": "เวสาลี",
+  "action": "skip",
+  "skipReason": "古代インドの都市名（仏典の地名）のため。"
+ },
+ {
+  "id": "tl-28665",
+  "th": "เวหา",
+  "action": "skip",
+  "skipReason": "文語・詩語でのみ使われるため。"
+ },
+ {
+  "id": "tl-28666",
+  "th": "เสนาบดีๆ",
+  "action": "skip",
+  "skipReason": "反復形の臨時的な用法で、独立した語として扱いにくいため。"
+ },
+ {
+  "id": "tl-28667",
+  "th": "เสพย์ติด",
+  "action": "skip",
+  "skipReason": "「เสพติด」の誤綴りと見られるため。"
+ },
+ {
+  "id": "tl-28668",
+  "th": "เสียขวัญ",
+  "action": "add",
+  "ro": "sǐia khwǎn",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "おびえる・気が動転する・士気を失う",
+    "en": "to be shaken, lose one's nerve",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตัวประกันกำลังเสียขวัญ อย่าเพิ่งซักไซ้อะไรตอนนี้เลย",
+     "ro": "tuua prà kan kam lang sǐia khwǎn yàa phə̂əng sák sái à rai tɔɔn níi ləəi",
+     "ja": "人質は今動転しているから、まだ何も問いただすのはやめておこう。",
+     "en": "The hostage is badly shaken; don't question them about anything yet.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28669",
+  "th": "เสี้ยม",
+  "action": "add",
+  "ro": "sîiam",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（先を）削ってとがらせる",
+    "en": "to sharpen to a point",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาเสี้ยมไม้ไผ่ให้แหลม",
+     "ro": "khǎo sîiam máai phài hâi lɛ̌ɛm",
+     "ja": "あの人は竹を削って先をとがらせた。",
+     "en": "He whittled the bamboo to a sharp point.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "そそのかす・けしかける",
+    "en": "to instigate, egg on",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อย่าไปเสี้ยมให้เขาทะเลาะกัน",
+     "ro": "yàa pai sîiam hâi khǎo thá lɔ́ kan",
+     "ja": "あの人たちがけんかするようにけしかけないで。",
+     "en": "Don't egg them on to quarrel.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28670",
+  "th": "เสือสมิง",
+  "action": "skip",
+  "skipReason": "民間伝承上の存在（人を襲う化け虎）で学習価値が低いため。"
+ },
+ {
+  "id": "tl-28671",
+  "th": "เหง่ง",
+  "action": "skip",
+  "skipReason": "鐘の音などの擬音語で、使用がまれなため。"
+ },
+ {
+  "id": "tl-28672",
+  "th": "เหมาะเจาะ",
+  "action": "add",
+  "ro": "mɔ̀ cɔ̀",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ぴったり合う・ちょうどよい",
+    "en": "fitting, just right",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขามาถึงในเวลาที่เหมาะเจาะพอดี",
+     "ro": "khǎo maa thʉ̌ng nai wee laa thîi mɔ̀ cɔ̀ phɔɔ dii",
+     "ja": "あの人はちょうどいいタイミングで到着した。",
+     "en": "He arrived at just the right time.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-28673",
+  "th": "เหยาะๆ",
+  "action": "add",
+  "ro": "yɔ̀ yɔ̀",
+  "kind": "word",
+  "category": "日常の動作",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（走るのが）ゆっくり軽く",
+    "en": "(jog) slowly and lightly",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ทุกเช้าฉันวิ่งเหยาะๆ รอบสวน",
+     "ro": "thúk cháao chǎn wîng yɔ̀ yɔ̀ rɔ̂ɔp sǔuan",
+     "ja": "毎朝、私は公園の周りを軽くジョギングする。",
+     "en": "Every morning I jog lightly around the park.",
+     "origin": "authored"
+    },
+    "note": "主に「วิ่งเหยาะๆ（軽く走る）」の形で使う。"
+   }
+  ]
+ }
+]
