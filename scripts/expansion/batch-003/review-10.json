@@ -1,0 +1,604 @@
+[
+ {
+  "id": "tl-26204",
+  "verdict": "fix",
+  "issues": [
+   "語義2例文の訳：เจ้าของบริษัท は「経営者」ではなく「オーナー（所有者）」。追加語義「（雨が）激しく降る」を第1にする点は妥当（ฝนตกหนัก が最頻）"
+  ],
+  "fixed": {
+   "id": "tl-26204",
+   "th": "ตกหนัก",
+   "action": "add",
+   "ro": "tòk nàk",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（雨などが）激しく降る",
+     "en": "to fall heavily (rain)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เมื่อคืนฝนตกหนักมาก",
+      "ro": "mʉ̂ʉa khʉʉn fǒn tòk nàk mâak",
+      "ja": "昨夜は雨がとても激しく降った。",
+      "en": "It rained very heavily last night.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（責任・負担が）重くのしかかる",
+     "en": "to fall heavily on (blame, burden)",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หลังจากเกิดเรื่องแล้วความผิดทุกอย่างตกหนักอยู่ที่เจ้าของบริษัท",
+      "ro": "lǎng càak kə̀ət rʉ̂ʉang lɛ́ɛo khwaam phìt thúk yàang tòk nàk yùu thîi câo khɔ̌ɔng bɔɔ rí sàt",
+      "ja": "事が起きた後、すべての責任は会社のオーナーに重くのしかかった。",
+      "en": "After the incident, all the blame fell heavily on the company owner.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-26205",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26206",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26208",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26209",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26210",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26212",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26213",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26214",
+  "verdict": "fix",
+  "issues": [
+   "注の「ทุกข์เวทนา とも書く」は標準表記として裏付けがなく、その綴りでは読み（khà が落ちる）も変わるため削除"
+  ],
+  "fixed": {
+   "id": "tl-26214",
+   "th": "ทุกขเวทนา",
+   "action": "add",
+   "ro": "thúk khà wee thá naa",
+   "kind": "word",
+   "category": "体・健康",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "苦痛・苦しみ",
+     "en": "suffering, pain",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ผู้ป่วยได้รับทุกขเวทนาจากโรคนี้มาก",
+      "ro": "phûu pùuai dâai ráp thúk khà wee thá naa càak rôok níi mâak",
+      "ja": "患者はこの病気でひどい苦痛を受けている。",
+      "en": "The patient suffers greatly from this disease.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-26215",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26216",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26217",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26220",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26221",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26222",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26223",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26224",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26225",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26226",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26227",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26228",
+  "verdict": "fix",
+  "issues": [
+   "例文訳の「手ごろ（中くらい）」は括弧書きが不自然で「手ごろ（安い）」の意味を足している。ราคาปานกลาง＝値段は中くらい"
+  ],
+  "fixed": {
+   "id": "tl-26228",
+   "th": "ปานกลาง",
+   "action": "add",
+   "ro": "paan klaang",
+   "kind": "word",
+   "category": "量・程度・比較",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "中くらい・ほどほど",
+     "en": "medium, moderate, average",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ร้านนี้ราคาปานกลาง",
+      "ro": "ráan níi raa khaa paan klaang",
+      "ja": "この店は値段がほどほどだ。",
+      "en": "This shop is moderately priced.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-26229",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26230",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26231",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26232",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26233",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26235",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26236",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26237",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26238",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26239",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26240",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26241",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26242",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26243",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26244",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26245",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26246",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26247",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26248",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26249",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26250",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26251",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26253",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26255",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26256",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26257",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26258",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26259",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26260",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26261",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26262",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26263",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26264",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26265",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26266",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26267",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26268",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26269",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26271",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26272",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26273",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26274",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26276",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26277",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26278",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26279",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26280",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26281",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26282",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26283",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26284",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26285",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26286",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26287",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26291",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26292",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26293",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26294",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26295",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26296",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26297",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26298",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26299",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26300",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26301",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26302",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26305",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26306",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26307",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26308",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26309",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26310",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26311",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26313",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26314",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26316",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26317",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26318",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26319",
+  "verdict": "ok",
+  "issues": []
+ }
+]
