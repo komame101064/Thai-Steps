@@ -424,3 +424,18 @@ html body .w-example{line-height:1.7}
 html body .w-flashcard{padding:22px 18px}
 html body .g-meaning{padding:10px 0;border-top:1px solid #e3e9da}
 @media(max-width:650px){html body .w-row-actions{flex-direction:row;flex-wrap:wrap;width:84px;justify-content:center;gap:2px;align-self:center}html body .w-row-actions .w-audio{width:84px}html body .w-row-actions>button:not(.w-audio){width:40px;height:34px}}
+/* ===== Audit pass ===== */
+html body .track{background:#dfe7d6;height:5px;border-radius:99px}
+html body .track>div,html body .track>span{background:var(--x-green);border-radius:99px}
+html body footer{text-align:center;font-size:11px;color:var(--x-muted)}
+html body .x-course-chapter .x-section-head{align-items:center}
+html body select.field+.subtext{margin-top:8px}
+html body .subtext{font-size:12px;line-height:1.8}
+html body .eyebrow,html body .panel-kicker{font-size:10px;letter-spacing:.08em;color:#6f7f66}
+html body .w-example-top .textbtn{border:1px solid #cfdcc8;border-radius:999px;padding:3px 10px;background:#f3f7ee;color:var(--x-green);font-size:11px;font-weight:600}
+html body .btn:disabled{opacity:1;background:#e6ebe0;border-color:#e6ebe0;color:#8a9682}
+html body .s-row-glyphs{color:#4e6346;font-size:16px}
+html body .w-sense-meta,html body .w-detail-head .w-meta{font-size:11px}
+@media(min-width:900px){html body .x-chapter-chips{flex-wrap:wrap;overflow:visible}}
+html body .x-search{gap:8px}
+html body .s-th-run{font-family:'Steps Thai','Noto Sans Thai',sans-serif}

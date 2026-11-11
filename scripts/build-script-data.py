@@ -7,6 +7,15 @@ Lesson ids (s01…) key learners' progress in localStorage (thai-steps-script-v1
 import json,pathlib
 P=pathlib.Path(__file__).resolve().parents[1]
 d=json.loads((P/'scripts/script-course/script-data.json').read_text())
+import re
+MARK=re.compile(r'(^|[\s（(、・「])([\u0e31\u0e34-\u0e3a\u0e47-\u0e4e])')
+def base(s):return MARK.sub(lambda m:m.group(1)+'◌'+m.group(2),s)
+for l in d['lessons']:
+    # Titles name the tone marks instead of showing a mark on a dotted circle (hard to read at heading size).
+    NAMES={'\u0e48':'ไม้เอก','\u0e49':'ไม้โท','\u0e4a':'ไม้ตรี','\u0e4b':'ไม้จัตวา'}
+    l['title']=re.sub(r'(?<![\u0e01-\u0e2e])([\u0e48-\u0e4b])',lambda m:NAMES[m.group(1)],l['title'])
+    for k in ('title','intro','stageTitle'):l[k]=base(l[k])
+    l['points']=[base(p) for p in l.get('points',[])]
 assert len(d['consonants'])==44 and len({l['id'] for l in d['lessons']})==len(d['lessons'])
 (P/'dist/script-data.js').write_text('// Thai script course (AI-authored, AI-reviewed). Built by scripts/build-script-data.py.\nconst SCRIPT_DATA='+json.dumps(d,ensure_ascii=False,separators=(',',':'))+';\n')
 print(len(d['lessons']),'lessons')
