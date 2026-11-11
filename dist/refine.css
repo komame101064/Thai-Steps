@@ -337,3 +337,31 @@ html body .x-step-result{margin:12px 0;padding:12px 14px;border-radius:10px;back
 html body .x-step-result.is-complete{background:#e3eedb;border-color:#b9cfae}
 html body .x-step-result p{margin:0 0 8px}
 html body .x-step-home{margin-top:-4px}
+button,input,select,textarea{font-family:inherit}
+/* Guided step session */
+html body .g-card{text-align:left}
+html body .g-face{display:flex;flex-direction:column;align-items:center;gap:2px;margin:6px 0 8px}
+html body .g-face .g-ro{font-family:'Steps Latin',sans-serif;font-weight:700;font-size:30px;line-height:1.25;color:var(--x-green)}
+html body .g-face .g-th{font-size:18px;color:#6c7f63;line-height:1.5}
+html body .g-face.is-large .g-ro{font-size:36px}
+html body .g-face.is-small{align-items:flex-start;margin:0}
+html body .g-face.is-small .g-ro{font-size:18px}
+html body .g-face.is-small .g-th{font-size:13px}
+html body .g-audio{display:flex;justify-content:center;gap:8px;margin:0 0 12px}
+html body .g-meanings{display:flex;flex-direction:column;gap:10px;margin:8px 0}
+html body .g-meaning>b{display:block;font-size:17px;color:var(--x-ink)}
+html body .g-meaning>small{font-size:11px;color:var(--x-muted)}
+html body .g-tip{font-size:12px;color:var(--x-muted);text-align:center;margin:10px 0 0}
+html body .g-prompt{font-size:22px;text-align:center;margin:10px 0 2px;color:var(--x-ink)}
+html body .g-ask{text-align:center;font-size:12px;color:var(--x-muted);margin:0 0 12px}
+html body .g-options{display:flex;flex-direction:column;gap:8px}
+html body .g-option{text-align:left;display:flex;align-items:center;min-height:52px}
+html body .g-answer{font-size:13px}
+html body .g-phase{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--x-soft);color:var(--x-green)}
+html body .g-review{background:#f4ead2;color:#7a5c14}
+html body .g-produce{background:#e1eaf0;color:#2f5468}
+html body .g-summary{text-align:left;margin:8px auto 12px;max-width:420px;line-height:1.9;font-size:14px}
+html body .g-done{font-size:13px;color:var(--x-green);font-weight:600}
+html body .g-result h1{font-size:28px}
+html body .x-step-foot{flex-wrap:wrap}
+html body .x-step-foot input[type=checkbox]{accent-color:var(--x-green);width:16px;height:16px}
