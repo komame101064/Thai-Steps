@@ -1,0 +1,614 @@
+[
+ {
+  "id": "tl-51001",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51002",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51003",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51004",
+  "verdict": "fix",
+  "issues": [
+   "語義2「英語」は พูดอังกฤษ など会話での省略用法なので口語ラベルに変更（用法自体は実在）"
+  ],
+  "fixed": {
+   "id": "tl-51004",
+   "th": "อังกฤษ",
+   "action": "add",
+   "ro": "ang krìt",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 7,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "イギリス・英国",
+     "en": "England, Britain",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เพื่อนของฉันไปเรียนต่อที่อังกฤษ",
+      "ro": "phʉ̂ʉan khɔ̌ɔng chǎn pai riian tɔ̀ɔ thîi ang krìt",
+      "ja": "私の友人はイギリスへ留学しました。",
+      "en": "My friend went to study in England.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "英語（ภาษาอังกฤษ の略）",
+     "en": "English (language)",
+     "pos": "名詞",
+     "use": "よく使う別の意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เขาพูดอังกฤษเก่งมาก",
+      "ro": "khǎo phûut ang krìt kèng mâak",
+      "ja": "彼は英語を話すのがとても上手です。",
+      "en": "He speaks English very well.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51005",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51006",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51007",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51008",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51009",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51010",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51011",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51012",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51013",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51014",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51015",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51016",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51017",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51018",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51019",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51020",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51021",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51022",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51023",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51024",
+  "verdict": "fix",
+  "issues": [
+   "語義「ジョーク」は日本語で冗談と紛らわしいため「お粥」に変更"
+  ],
+  "fixed": {
+   "id": "tl-51024",
+   "th": "โจ๊ก",
+   "action": "add",
+   "ro": "cóok",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "お粥（米粒が崩れるまで煮たとろとろの粥）",
+     "en": "rice porridge, congee",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ตอนเช้าฉันชอบกินโจ๊กหมู",
+      "ro": "tɔɔn cháao chǎn chɔ̂ɔp kin cóok mǔu",
+      "ja": "朝は豚肉入りのお粥を食べるのが好きです。",
+      "en": "In the morning I like to eat pork congee.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "米粒が崩れるまで煮込んだとろとろの粥。米粒の形が残るスープ状の粥は ข้าวต้ม。"
+  }
+ },
+ {
+  "id": "tl-51025",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51026",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51027",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51028",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51029",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51030",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51031",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51032",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51033",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51034",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51035",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51036",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51037",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51038",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51039",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51040",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51041",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51042",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51043",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51044",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51045",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51046",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51047",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51048",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51049",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51050",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51051",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51052",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51053",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51054",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51055",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51056",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51057",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51058",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51059",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51060",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51061",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51062",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51063",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51064",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51065",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51066",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51067",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51068",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51069",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51070",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51071",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51072",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51073",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51074",
+  "verdict": "fix",
+  "issues": [
+   "語義「熱のある風邪」は限定しすぎ。ไข้หวัด は一般に風邪を指す"
+  ],
+  "fixed": {
+   "id": "tl-51074",
+   "th": "ไข้หวัด",
+   "action": "add",
+   "ro": "khâi wàt",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "風邪",
+     "en": "common cold",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ลูกเป็นไข้หวัดเลยไม่ได้ไปโรงเรียน",
+      "ro": "lûuk pen khâi wàt ləəi mâi dâai pai roong riian",
+      "ja": "子どもが風邪をひいたので学校へ行けませんでした。",
+      "en": "My child had a cold, so he didn't go to school.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "インフルエンザは ไข้หวัดใหญ่。"
+  }
+ },
+ {
+  "id": "tl-51075",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51076",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51077",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51078",
+  "verdict": "fix",
+  "issues": [
+   "noteの「綴りの規則では低声」は誤り（ด์は黙字で平声）。読み kái は実際の発音として妥当"
+  ],
+  "fixed": {
+   "id": "tl-51078",
+   "th": "ไกด์",
+   "action": "add",
+   "ro": "kái",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ガイド・観光案内人",
+     "en": "tour guide",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ไกด์พาเราเที่ยวรอบเมือง",
+      "ro": "kái phaa rao thîiao rɔ̂ɔp mʉʉang",
+      "ja": "ガイドが私たちを連れて町を一周案内してくれました。",
+      "en": "The guide took us around the city.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "綴りどおりなら平声 kai だが、ふつうは高声 kái で発音される。"
+  }
+ },
+ {
+  "id": "tl-51079",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51080",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51081",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51082",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51083",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51084",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51085",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51086",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51087",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51088",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51089",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51090",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51091",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51092",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51093",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51094",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51095",
+  "verdict": "ok",
+  "issues": []
+ }
+]
