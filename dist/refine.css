@@ -439,3 +439,13 @@ html body .w-sense-meta,html body .w-detail-head .w-meta{font-size:11px}
 @media(min-width:900px){html body .x-chapter-chips{flex-wrap:wrap;overflow:visible}}
 html body .x-search{gap:8px}
 html body .s-th-run{font-family:'Steps Thai','Noto Sans Thai',sans-serif}
+/* Dictionary: a clear, distinct entry point */
+html body .x-dict{background:linear-gradient(180deg,#e6efe0,#dde9d5);border:1px solid #c3d4b8;border-radius:16px;padding:14px 14px 15px;margin:0 0 18px}
+html body .x-dict-label{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;font-size:16px;font-weight:800;color:var(--x-green);margin:0 0 10px;letter-spacing:.02em}
+html body .x-dict-label small{flex-basis:100%;font-size:11px;font-weight:500;color:#4f6247;letter-spacing:0}
+html body .x-dict-mark{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:8px;background:var(--x-green);color:#fff}
+html body .x-dict-mark .ui-icon{width:16px;height:16px}
+html body .x-dict .x-search{background:#fff;border:2px solid var(--x-green);border-radius:12px;min-height:52px;box-shadow:0 2px 10px rgba(31,74,60,.08)}
+html body .x-dict .x-search input{font-size:16px}
+html body .x-dict .x-search .btn{min-height:40px;border-radius:9px}
+html body .x-dict .x-search input{border:0!important;box-shadow:none!important;background:transparent!important;outline:0}html body .x-dict .x-search:focus-within{box-shadow:0 0 0 3px rgba(31,74,60,.18)}
