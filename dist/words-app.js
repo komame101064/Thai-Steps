@@ -18,7 +18,7 @@ function wordDeckSwitcher(){return `<div class="x-seg" role="tablist" aria-label
 const wordInLevel=w=>w.collection==='slang'||!wordState.level||w.studyRank<=wordState.level;
 function setWordLevel(n){if(![0,...WORD_LEVELS.map(([n])=>n)].includes(n))return;wordState.level=n;saveWords();wordCurrent=null;wordTrail=[];wordSession=null;wordPage=0;render()}
 function levelName(){const l=WORD_LEVELS.find(([n])=>n===wordState.level);return l?l[1]+l[0].toLocaleString()+'語':'すべて'}
-function wordLevelPicker(){if(wordDeck==='slang')return '';const count=bank.filter(w=>wordInDeck(w,'general')).length;return `<div class="x-control x-levels"><span class="x-label" id="x-level-label">範囲</span><div class="x-chips" role="group" aria-labelledby="x-level-label">${[...WORD_LEVELS,[0,'全']].map(([n,name])=>`<button aria-pressed="${wordState.level===n}" onclick="setWordLevel(${n})"><span>${name}</span><b>${(n||count).toLocaleString()}<small>語</small></b></button>`).join('')}</div></div>`}
+function wordLevelPicker(){if(wordDeck==='slang')return '';const count=bank.filter(w=>wordInDeck(w,'general')).length;return `<div class="x-control x-levels"><span class="x-label" id="x-level-label">範囲</span><div class="x-chips" role="group" aria-labelledby="x-level-label">${[...WORD_LEVELS,[0,'全部']].map(([n,name])=>`<button aria-pressed="${wordState.level===n}" onclick="setWordLevel(${n})"><span>${name}</span><b>${(n||count).toLocaleString()}<small>語</small></b></button>`).join('')}</div></div>`}
 function normalizeKana(value){return String(value).normalize('NFKC').replace(/[ぁ-ゖ]/g,c=>String.fromCharCode(c.charCodeAt(0)+0x60)).replace(/ング/g,'ン').replace(/[ァィゥェォャュョ]/g,c=>({'ァ':'ア','ィ':'イ','ゥ':'ウ','ェ':'エ','ォ':'オ','ャ':'ヤ','ュ':'ユ','ョ':'ヨ'})[c]).replace(/[ッー・\s.、\-]/g,'').replace(/[ガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポ]/g,c=>({'ガ':'カ','ギ':'キ','グ':'ク','ゲ':'ケ','ゴ':'コ','ザ':'サ','ジ':'チ','ズ':'ス','ゼ':'セ','ゾ':'ソ','ダ':'タ','ヂ':'チ','ヅ':'ツ','デ':'テ','ド':'ト','バ':'ハ','ビ':'ヒ','ブ':'フ','ベ':'ヘ','ボ':'ホ','パ':'ハ','ピ':'ヒ','プ':'フ','ペ':'ヘ','ポ':'ホ'})[c])}
 function wordMatches(w,query){query=query.normalize('NFKC');const q=foldWord(query);if(!q)return true;if(w.searchText.includes(q))return true;if(/^[a-z\s'’-]+$/.test(q)&&foldWord(w.ro).replace(/[\s'’-]/g,'').replace(/([aeiou])\1+/g,'$1').includes(q.replace(/[\s'’-]/g,'').replace(/([aeiou])\1+/g,'$1')))return true;const kana=/[ァ-ヶぁ-ゖー]/.test(query)?normalizeKana(query):'';return !!kana&&w.kanaKeys.some(k=>k.includes(kana))}
 function wordTopics(){return typeof WORD_TOPICS==='undefined'?[]:WORD_TOPICS}
@@ -43,6 +43,7 @@ function dueWord(w){const r=wordRec(w.id);return r.manual||(r.seen>0&&r.due<=Dat
 // Lower score = better. Exact headword / exact meaning first, then words that contain the query, then weak matches
 // that only hit a theme or category label.
 const JA_RE=/[぀-ヿ㐀-鿿]/,THAI_RE=/[฀-๿]/;
+const toHiragana=s=>String(s).normalize('NFKC').replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-0x60));
 function jaTerms(ja){return String(ja).replace(/（[^）]*）|\([^)]*\)/g,'').split(/[・／\/、，,；;]/).map(t=>t.replace(/[〜～]/g,'').trim()).filter(Boolean)}
 const foldRo=s=>foldWord(s).replace(/[\s'’-]/g,'').replace(/([aeiou])\1+/g,'$1');
 // English glosses are compared as whole terms ("to eat", "a dog" -> "eat", "dog"); simple inflections are tried too.
@@ -69,7 +70,11 @@ function dictionaryMatch(w,raw){const t0=String(raw).trim(),q=THAI_RE.test(t0)?t
  const take=(n,via,en=null)=>{if(n<out.score){out.score=n;out.via=via;out.en=en}};
  if(THAI_RE.test(q)){const t=q.replace(/\s+/g,'');if(w.th===t)take(0,'th');else if(w.th.startsWith(t))take(4,'th');else if(w.th.includes(t))take(8,'th')}
  if(JA_RE.test(q)){w.meanings.forEach((m,mi)=>{const extra=mi?2:0;jaTerms(m.ja).forEach((term,ti)=>{if(term===q)take(extra+(ti?1:0),'ja');else if(term.startsWith(q))take(4+extra,'ja')});if(String(m.ja).includes(q))take(8+(mi?1:0),'ja')});
-  if(/^[ぁ-ゖァ-ヶー\s]+$/.test(q)){const k=normalizeKana(q);if(k)w.kanaKeys.forEach(key=>{if(key===k)take(1,'kana');else if(key.startsWith(k))take(5,'kana');else if(key.includes(k))take(9,'kana')})}}
+  if(/^[ぁ-ゖァ-ヶー\s]+$/.test(q)){const h=toHiragana(q).replace(/\s+/g,''),hira=/[ぁ-ゖ]/.test(q),lift=hira?0:2,rd=typeof JA_READINGS==='undefined'?null:JA_READINGS[w.id];
+   // Readings of the Japanese gloss (あさって → 明後日). Hiragana input reads as Japanese first; katakana input stays a Thai pronunciation search first.
+   w.meanings.forEach((m,mi)=>{const rs=rd?.[m.sourceSense]||[],extra=mi?2:0;jaTerms(m.ja).forEach((term,ti)=>{const cands=[...(rs[ti]||[]),...(/^[ぁ-ゖァ-ヶー]+$/.test(term)?[toHiragana(term)]:[])];
+    for(const c of cands){if(c===h)take(lift+extra+(ti?1:0),'reading');else if(c.startsWith(h))take(lift+4+extra,'reading');else if(h.length>1&&c.includes(h))take(lift+8+(mi?1:0),'reading')}})});
+   const k=normalizeKana(q);if(k)w.kanaKeys.forEach(key=>{if(key===k)take(1,'kana');else if(key.startsWith(k))take(5,'kana');else if(key.includes(k))take(9,'kana')})}}
  if(/^[a-z\s'’-]+$/i.test(foldWord(q))){const r=romanMatch(w,q);if(r<Infinity)take(r,'ro');if(!TONE_RE.test(q)){const e=englishMatch(w,q);if(e)take(e.score,'en',e.en)}}
  if(out.score===Infinity&&w.labelText===undefined)w.labelText=foldWord([w.category,...wordTopics().filter(t=>wordTopicIds(w).includes(t.id)).map(t=>t.label),...wordOriginRows(w).flatMap(r=>[r.label,r.detailLabel||''])].join(' '));
  if(out.score===Infinity&&w.labelText.includes(foldWord(q)))take(20,'label');return out}
@@ -79,9 +84,10 @@ const DICT_WEAK=20;
 function dictionaryResults(query=wordQuery){const scored=bank.map(w=>({w,...dictionaryMatch(w,query)}));
  // A query that is exactly the first English gloss of some word ("man", "eat") is read as English first.
  if(scored.some(x=>x.via==='en'&&x.score===0))for(const x of scored)if(x.via==='ro')x.score+=2;
+ if(/[ぁ-ゖ]/.test(query)&&scored.some(x=>(x.via==='reading'||x.via==='ja')&&x.score<=1))for(const x of scored)if(x.via==='kana')x.score+=2;
  // Words built on an exact match (e.g. ครอบครัว → ครอบครัวใหญ่) rank right after the exact matches.
- const heads=[...new Set(scored.filter(x=>x.score<=1).map(x=>x.w.th))].filter(th=>th.length>1);
- if(heads.length){const byTh=new Map(scored.filter(x=>x.score<=1).map(x=>[x.w.th,x.w]));for(const x of scored)if(x.score>6&&heads.some(h=>isCompoundOf(x.w,byTh.get(h))))x.score=6}
+ const heads=[...new Set(scored.filter(x=>x.score<=1&&x.via!=='kana').map(x=>x.w.th))].filter(th=>th.length>1);
+ if(heads.length){const byTh=new Map(scored.filter(x=>x.score<=1&&x.via!=='kana').map(x=>[x.w.th,x.w]));for(const x of scored)if(x.score>6&&heads.some(h=>isCompoundOf(x.w,byTh.get(h))))x.score=6}
  return scored.filter(x=>x.score<Infinity).sort((a,b)=>a.score-b.score||(a.w.collection==='slang')-(b.w.collection==='slang')||b.w.frequency-a.w.frequency||a.w.th.length-b.w.th.length||a.w.id.localeCompare(b.w.id))}
 // Thai has no spaces, so "contains" alone is not enough (เกิน contains กิน). A compound must split into registered
 // words around the headword, and the headword's syllables must appear in the compound's reading.

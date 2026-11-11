@@ -38,6 +38,13 @@ CSSは複数ファイルを重ねています。見た目の変更前に読み�
 
 単語の学習範囲は 基本500・日常1,000・会話3,000・発展5,000・全 の5段階（`dist/words-app.js` の `WORD_LEVELS`）。元の単語リストの学習段階（bucket）を先に、同じ段階の中では頻度と会話コーパス順位で並べた累積範囲。基本・日常・会話は当初からの範囲。発展5,000は元の一般語4,969語すべてと頻度表の上位の追加語で、追加語の多い「全」と分けるために設けた。2026-11-11に一時6段階（入門・初級・初中級・中級・中上級）にしたが分かりにくかったため戻し、保存値の2,000は日常1,000として読み込む。
 
+## 辞書検索
+
+画面上部の「辞書」は、学習範囲・テーマに関係なく全語から探し、関連の強い順に並べる（`dictionaryResults()`）。日本語（漢字・ひらがな）、英語、タイ文字、声調付き／なしローマ字、カタカナ発音で検索できる。
+
+- ひらがなは日本語訳の読みと照合する。読みは `dist/ja-readings.js`（`scripts/build-ja-readings.py` で生成）。SudachiPy と pykakasi の読みに加え、両方が日常の読みを出さない熟字訓（明後日→あさって 等）を同スクリプトの `IRREGULAR` で補う。検索専用で画面には出さない。生成には `pip install sudachipy sudachidict_core pykakasi` が必要（アプリとテストには不要）。語を追加・修正したら再生成する。
+- ひらがな入力は日本語の訳語を優先し、カタカナ入力はタイ語の発音検索を優先する。
+
 ## 3. 現行データの数え方
 
 元の一般レコード5,000件＋スラング207件＝5,207レコードですが、見出しの重複を除くと5,077語です。一般の学習欄はスラングだけの項目を除いて4,969項目です。元データの語義・対応用例はそれぞれ7,624件です。
@@ -128,7 +135,7 @@ CSSは複数ファイルを重ねています。見た目の変更前に読み�
 2. `scripts/expansion/SPEC.md` に従って、日本語訳・声調付きローマ字・語義ごとの用例を作る。自信のない語は見送る。結果は `scripts/expansion/batch-XXX/part-NN.json`。
 3. `python3 scripts/expansion/validate.py batch-XXX` で機械検証する。エラーは0件にする。「flags」は元資料の読みとの食い違いなどの注意点で、点検者が1件ずつ判断する。
 4. `scripts/expansion/REVIEW.md` に従って、作成者とは別の担当が全件を点検する（ok／fix／reject）。結果は `review-NN.json`。
-5. `python3 scripts/build-expansion.py` → `build-word-topics.py` → `build-kana-search.py`。点検で合格した語だけが `dist/word-bank-more.json` と `dist/more-examples.json` に入る。集計は `dist/expansion-review.json`。
+5. `python3 scripts/build-expansion.py` → `build-word-topics.py` → `build-ja-readings.py` → `build-kana-search.py`。点検で合格した語だけが `dist/word-bank-more.json` と `dist/more-examples.json` に入る。集計は `dist/expansion-review.json`。
 6. `dist/index.html` の `?v=` を更新し、テストと画面を確認する。
 
 ### 守ること
