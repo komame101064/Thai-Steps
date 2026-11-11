@@ -1,0 +1,623 @@
+[
+ {
+  "id": "tl-28784",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28785",
+  "verdict": "fix",
+  "issues": [
+   "例文の「สวนต้นยาง」は不自然（ゴム園は通常 สวนยาง）。例文を差し替え、注記を追加"
+  ],
+  "fixed": {
+   "id": "tl-28785",
+   "th": "ต้นยาง",
+   "action": "add",
+   "ro": "tôn yaang",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ゴムの木",
+     "en": "rubber tree",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ภาคใต้มีต้นยางเยอะ",
+      "ro": "phâak tâi mii tôn yaang yə́",
+      "ja": "南部にはゴムの木がたくさんある。",
+      "en": "There are a lot of rubber trees in the south.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ゴム園は「สวนยาง」と言う。"
+  }
+ },
+ {
+  "id": "tl-28786",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28788",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28789",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28790",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28791",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28792",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28793",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28794",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28795",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28796",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28797",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28799",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28800",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28801",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28803",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28804",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28805",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28806",
+  "verdict": "fix",
+  "issues": [
+   "単独の น้าว は「น้าวศร」など文語寄りで日常語ではないため文語表示に変更し注記を追加"
+  ],
+  "fixed": {
+   "id": "tl-28806",
+   "th": "น้าว",
+   "action": "add",
+   "ro": "náao",
+   "kind": "word",
+   "category": "日常の動作",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（弓・枝などを）引きしぼる・引き寄せる",
+     "en": "to draw (a bow), pull down (a branch)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "literary"
+     ],
+     "speechStyle": "文語",
+     "example": {
+      "th": "เขาน้าวคันศรจนสายขาด",
+      "ro": "khǎo náao khan sɔ̌ɔn con sǎai khàat",
+      "ja": "彼は弦が切れるまで弓を引きしぼった。",
+      "en": "He drew the bow until the string snapped.",
+      "origin": "source"
+     }
+    }
+   ],
+   "note": "単独では弓を引く場面など書き言葉的で、日常では「โน้มน้าว（説得する）」の形でよく見る。"
+  }
+ },
+ {
+  "id": "tl-28807",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28808",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28809",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28810",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28811",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28813",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28814",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28816",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28817",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28818",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28819",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28820",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28821",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28822",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28823",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28824",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28825",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28826",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28827",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28828",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28829",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28830",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28831",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28832",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28833",
+  "verdict": "fix",
+  "issues": [
+   "国王の行幸には「เสด็จพระราชดำเนิน」を使う（เสด็จไป は他の王族向け）。例文の敬語を修正"
+  ],
+  "fixed": {
+   "id": "tl-28833",
+   "th": "พระราชกุศล",
+   "action": "add",
+   "ro": "phrá râat chá kù sǒn",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（国王・王族が行う）功徳の儀式",
+     "en": "royal merit-making",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "royal"
+     ],
+     "speechStyle": "王室の敬語",
+     "example": {
+      "th": "พระเจ้าอยู่หัวเสด็จพระราชดำเนินไปทรงบำเพ็ญพระราชกุศลที่วัด",
+      "ro": "phrá câao yùu hǔua sà dèt phrá râat chá dam nəən pai song bam phen phrá râat chá kù sǒn thîi wát",
+      "ja": "国王は寺へお出ましになり、功徳の儀式を執り行われた。",
+      "en": "The King went to the temple to perform a royal merit-making ceremony.",
+      "origin": "authored"
+     },
+     "note": "王室の行事にだけ使い、「ทรงบำเพ็ญพระราชกุศล」の形が多い。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28834",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28835",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28837",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28839",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28840",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28841",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28842",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28843",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28844",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28845",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28846",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28847",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28848",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28849",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28850",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28851",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28852",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28853",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28854",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28855",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28856",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28858",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28859",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28860",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28861",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28863",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28864",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28865",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28866",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28867",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28868",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28869",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28870",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28871",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28872",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28873",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28874",
+  "verdict": "fix",
+  "issues": [
+   "例文roの複合語 น้ำฝน は既存例文に合わせ nám fǒn"
+  ],
+  "fixed": {
+   "id": "tl-28874",
+   "th": "ล่อนจ้อน",
+   "action": "add",
+   "ro": "lɔ̂ɔn cɔ̂ɔn",
+   "kind": "word",
+   "category": "性質・状態",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "素っ裸の",
+     "en": "stark naked",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เด็กๆ วิ่งเล่นน้ำฝนตัวล่อนจ้อน",
+      "ro": "dèk dèk wîng lên nám fǒn tuua lɔ̂ɔn cɔ̂ɔn",
+      "ja": "子どもたちは素っ裸で雨の中を走り回って遊んでいる。",
+      "en": "The children are running around naked playing in the rain.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28876",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28877",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28878",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28879",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28880",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28881",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28882",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28883",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28885",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28886",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28887",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28888",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28889",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28890",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28892",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28893",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28894",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28896",
+  "verdict": "ok",
+  "issues": []
+ }
+]

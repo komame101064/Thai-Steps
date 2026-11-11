@@ -1,0 +1,618 @@
+[
+ {
+  "id": "tl-28897",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28899",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28900",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28901",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28902",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28903",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28904",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28905",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28906",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28907",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28908",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28909",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28910",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28911",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28912",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28913",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28914",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28915",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28916",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28917",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28918",
+  "verdict": "fix",
+  "issues": [
+   "語義1の出典例文「家に帰ると仮面を外して壁に掛ける」は肩書きを家に持ち込まないという比喩の決まり文句で、字義の『仮面』の例として不適。字義どおりの作例に差し替え",
+   "語義2の訳「肩書きを捨てた」を ถอดหัวโขน に合う「肩書きを外した」に修正"
+  ],
+  "fixed": {
+   "id": "tl-28918",
+   "th": "หัวโขน",
+   "action": "add",
+   "ro": "hǔua khǒon",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "コーン（タイの仮面舞踊劇）の仮面",
+     "en": "khon mask",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "นักแสดงสวมหัวโขนขึ้นเวที",
+      "ro": "nák sà dɛɛng sǔuam hǔua khǒon khʉ̂n wee thii",
+      "ja": "役者はコーンの仮面をかぶって舞台に上がった。",
+      "en": "The actor put on the khon mask and went on stage.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（一時的な）地位・肩書き",
+     "en": "(temporary) position, title",
+     "pos": "名詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เมื่อเกษียณแล้ว เขาก็ถอดหัวโขนออก",
+      "ro": "mʉ̂ʉa kà sǐian lɛ́ɛo khǎo kɔ̂ɔ thɔ̀ɔt hǔua khǒon ɔ̀ɔk",
+      "ja": "退職すると、彼は肩書きを外した。",
+      "en": "After retiring, he set his title aside.",
+      "origin": "authored"
+     },
+     "note": "ถอดหัวโขน（肩書きを外す）の形でよく使う比喩。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28919",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28920",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28921",
+  "verdict": "ok",
+  "issues": [
+   "「体を丸める・縮こまる」は นอนห่อตัว などの現代用法として妥当（vol の slouch より適切）"
+  ]
+ },
+ {
+  "id": "tl-28922",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28923",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28924",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28925",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28926",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28927",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28928",
+  "verdict": "ok",
+  "issues": [
+   "ɔ̀ɔt tree liia は綴りどおりの読み（中子音・長母音・閉音節で低声）で hint とも一致し、3音節の区切りも妥当。会話で ɔ́ɔt と高く、また sà を挟んで発音されることもあるが、表記として擁護可能なので変更しない"
+  ]
+ },
+ {
+  "id": "tl-28929",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28930",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28931",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28932",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28933",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28935",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28937",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28938",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28939",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28940",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28941",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28942",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28943",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28944",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28945",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28946",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28947",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28949",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28950",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28951",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28952",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28953",
+  "verdict": "ok",
+  "issues": [
+   "ยิ้มเจื่อนๆ は自然な結合で、語義・読み cʉ̀ʉan cʉ̀ʉan とも妥当"
+  ]
+ },
+ {
+  "id": "tl-28954",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28955",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28956",
+  "verdict": "ok",
+  "issues": [
+   "声調記号付きで短く発音する語（เก่ง kèng・เล่น lên と同じ扱い）で、短母音表記は妥当"
+  ]
+ },
+ {
+  "id": "tl-28957",
+  "verdict": "fix",
+  "issues": [
+   "読み diiang sǎa・語義・例文は妥当。ほぼ ไร้เดียงสา／ไม่รู้เดียงสา の形でしか使わないため、その旨のnoteを追加"
+  ],
+  "fixed": {
+   "id": "tl-28957",
+   "th": "เดียงสา",
+   "action": "add",
+   "ro": "diiang sǎa",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "分別・物事のわきまえ",
+     "en": "understanding, sense (of what is right)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เด็กยังไม่รู้เดียงสา",
+      "ro": "dèk yang mâi rúu diiang sǎa",
+      "ja": "子どもはまだ物事の分別がつかない。",
+      "en": "The child doesn't know any better yet.",
+      "origin": "source"
+     },
+     "note": "主に ไม่รู้เดียงสา・ไร้เดียงสา（無邪気な）の形で使う。"
+    }
+   ],
+   "note": "単独より ไร้เดียงสา（無邪気な・うぶな）や ไม่รู้เดียงสา（分別がつかない）の形で使うのが普通。"
+  }
+ },
+ {
+  "id": "tl-28958",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28959",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28960",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28961",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28962",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28963",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28964",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28965",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28966",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28967",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28968",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28969",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28970",
+  "verdict": "ok",
+  "issues": [
+   "声調記号付きで短く発音する語（เก่ง kèng・เล่น lên と同じ扱い）で、短母音表記は妥当"
+  ]
+ },
+ {
+  "id": "tl-28971",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28973",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28974",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28975",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28977",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28978",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28979",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28980",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28981",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28984",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28985",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28986",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28987",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28988",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28989",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28992",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28993",
+  "verdict": "ok",
+  "issues": [
+   "低子音・長母音・閉音節でいずれも下声 yôok yêek。語義・出典例文とも妥当"
+  ]
+ },
+ {
+  "id": "tl-28994",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28995",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28996",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28997",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28998",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28999",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-29000",
+  "verdict": "fix",
+  "issues": [
+   "読み cai yen yen は正しい（ๆ は เย็น のみを繰り返す。hint の cai yen cai yen は誤り）。品詞が定型表現の決まり文句なので kind を expression に修正"
+  ],
+  "fixed": {
+   "id": "tl-29000",
+   "th": "ใจเย็นๆ",
+   "action": "add",
+   "ro": "cai yen yen",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "落ち着いて・慌てないで",
+     "en": "calm down, take it easy",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ใจเย็นๆ ก่อนนะ ค่อยๆ คุยกัน",
+      "ro": "cai yen yen kɔ̀ɔn ná khɔ̂ɔi khɔ̂ɔi khui kan",
+      "ja": "まあ落ち着いて。ゆっくり話そう。",
+      "en": "Calm down first, let's talk it through slowly.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-29001",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-29002",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-29003",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-29004",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-29005",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-29006",
+  "verdict": "ok",
+  "issues": []
+ }
+]

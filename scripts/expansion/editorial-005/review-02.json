@@ -1,0 +1,597 @@
+[
+ {
+  "id": "tl-51096",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51097",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51098",
+  "verdict": "fix",
+  "issues": [
+   "一般に最も多い表記はสมาร์ทโฟน（สมาร์ตโฟนは王立学術院式で少数派）。見出し・例文をสมาร์ทโฟนにし、noteで異表記に触れた"
+  ],
+  "fixed": {
+   "id": "tl-51098",
+   "th": "สมาร์ทโฟน",
+   "action": "add",
+   "ro": "sà máat foon",
+   "kind": "word",
+   "category": "一般語彙",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "スマートフォン",
+     "en": "smartphone",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ผมเพิ่งซื้อสมาร์ทโฟนใหม่",
+      "ro": "phǒm phə̂əng sʉ́ʉ sà máat foon mài",
+      "ja": "僕は新しいスマートフォンを買ったばかりです。",
+      "en": "I just bought a new smartphone.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "王立学術院式の表記はสมาร์ตโฟน。日常会話ではมือถือと言うのが普通。"
+  }
+ },
+ {
+  "id": "tl-51099",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51100",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51101",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51102",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51103",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51104",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51105",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51106",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51107",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51108",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51109",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51110",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51111",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51112",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51113",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51114",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51115",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51116",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51117",
+  "verdict": "reject",
+  "issues": [
+   "既存語แบงค์（tl-05061、紙幣・銀行の2語義、bɛ́ng）と同じ語の表記違いで重複。追加不要（必要なら既存項目のnoteでแบงก์表記に触れる）"
+  ]
+ },
+ {
+  "id": "tl-51118",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51119",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51120",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51121",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51122",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51123",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51124",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51125",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51126",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51127",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51128",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51129",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51130",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51131",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51132",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51133",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51134",
+  "verdict": "fix",
+  "issues": [
+   "ออส は中子音＋長母音の閉音節で低声（辞書の読みもออด-สะ-เตฺร-เลีย）。ɔ́ɔt→ɔ̀ɔt（見出し・例文）"
+  ],
+  "fixed": {
+   "id": "tl-51134",
+   "th": "ออสเตรเลีย",
+   "action": "add",
+   "ro": "ɔ̀ɔt sà tree liia",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "オーストラリア",
+     "en": "Australia",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "น้องชายไปเรียนที่ออสเตรเลีย",
+      "ro": "nɔ́ɔng chaai pai riian thîi ɔ̀ɔt sà tree liia",
+      "ja": "弟はオーストラリアへ留学しました。",
+      "en": "My younger brother went to study in Australia.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51135",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51136",
+  "verdict": "fix",
+  "issues": [
+   "実際の発音はฟが次音節にも響く แอ็ฟ-ฟริ-กา（fr子音連結）。rí→frí（見出し・例文）。第1音節は借用語として高声のまま可"
+  ],
+  "fixed": {
+   "id": "tl-51136",
+   "th": "แอฟริกา",
+   "action": "add",
+   "ro": "ɛ́ɛp frí kaa",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "アフリカ（大陸）",
+     "en": "Africa",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาเคยทำงานที่แอฟริกา",
+      "ro": "khǎo khəəi tham ngaan thîi ɛ́ɛp frí kaa",
+      "ja": "彼はアフリカで働いたことがあります。",
+      "en": "He has worked in Africa.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "国ではなく大陸名。"
+  }
+ },
+ {
+  "id": "tl-51137",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51138",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51139",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51140",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51141",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51142",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51143",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51144",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51145",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51146",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51147",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51148",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51149",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51150",
+  "verdict": "fix",
+  "issues": [
+   "ยอร์ก は低子音＋長母音の閉音節で下降声（นิว-ยอก）。yɔ́ɔk→yɔ̂ɔk（見出し・例文）。表記はนิวยอร์คも見られる"
+  ],
+  "fixed": {
+   "id": "tl-51150",
+   "th": "นิวยอร์ก",
+   "action": "add",
+   "ro": "niu yɔ̂ɔk",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ニューヨーク",
+     "en": "New York",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "นิวยอร์กเป็นเมืองที่ใหญ่มาก",
+      "ro": "niu yɔ̂ɔk pen mʉʉang thîi yài mâak",
+      "ja": "ニューヨークはとても大きな都市です。",
+      "en": "New York is a very big city.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51151",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51152",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51153",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51154",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51155",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51156",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51157",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51158",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51159",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51160",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51161",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51162",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51163",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51164",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51165",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51166",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51167",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51168",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51169",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51170",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51171",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51172",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51173",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51174",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51175",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51176",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51177",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51178",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51179",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51180",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51181",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51182",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51183",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51184",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51185",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51186",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51187",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51188",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51189",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51190",
+  "verdict": "ok",
+  "issues": []
+ }
+]

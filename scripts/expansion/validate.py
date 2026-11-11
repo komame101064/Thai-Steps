@@ -98,8 +98,9 @@ def validate_editorial(batch):
     errors=[];flags=[];items=[]
     for f in sorted(d.glob('part-[0-9][0-9].json')):
         for it in json.loads(f.read_text()):
-            it=fixed.get(it.get('id'),it);items.append(it);k=it.get('id');src=inp.get(k)
-            if not src or src['th']!=it.get('th'):errors.append(f'{k}: id/th does not match input.json');continue
+            wasfix=it.get('id') in fixed;it=fixed.get(it.get('id'),it);items.append(it);k=it.get('id');src=inp.get(k)
+            # a reviewer may respell the headword to the form Thais write most (id stays)
+            if not src or (src['th']!=it.get('th') and not wasfix):errors.append(f'{k}: id/th does not match input.json');continue
             if it.get('action')=='skip':
                 if not it.get('skipReason'):errors.append(f'{k}: skip without reason')
                 continue
