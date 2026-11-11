@@ -1,0 +1,542 @@
+[
+ {
+  "id": "tl-24992",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24995",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24997",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25002",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25003",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25004",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25005",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25007",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25008",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25011",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25012",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25015",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25017",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25018",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25020",
+  "verdict": "ok",
+  "issues": [
+   "フラグ判断: โอษฐ์ は中子音+長母音+死音節で低声 òot が正しい。ヒント 'o: は末子音を欠く誤り。現状維持。"
+  ]
+ },
+ {
+  "id": "tl-25021",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25022",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25023",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25025",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25029",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25030",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25032",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25033",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25037",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25038",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25040",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25041",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25042",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25044",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25046",
+  "verdict": "fix",
+  "issues": [
+   "例文の王室語が誤り：国王の孫は พระนัดดา ではなく พระราชนัดดา。例文を修正し、使い分けをnoteに追加。"
+  ],
+  "fixed": {
+   "id": "tl-25046",
+   "th": "นัดดา",
+   "action": "add",
+   "ro": "nát daa",
+   "kind": "word",
+   "category": "人・家族",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（王族の）孫",
+     "en": "grandchild (royal)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "royal"
+     ],
+     "speechStyle": "王室の敬語",
+     "note": "主に พระนัดดา の形で王族に使う。一般の「孫」は หลาน。",
+     "example": {
+      "th": "พระองค์ทรงเป็นพระราชนัดดาของพระมหากษัตริย์",
+      "ro": "phrá ong song pen phrá râat chá nát daa khɔ̌ɔng phrá má hǎa kà sàt",
+      "ja": "その方は国王の孫にあたられる。",
+      "en": "He is a grandchild of the King.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "国王の孫は พระราชนัดดา、その他の王族の孫は พระนัดดา と言う。"
+  }
+ },
+ {
+  "id": "tl-25048",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25050",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25051",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25052",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25055",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25056",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25057",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25059",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25060",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25061",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25063",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25064",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25065",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25066",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25069",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25070",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25071",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25073",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25076",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25077",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25079",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25080",
+  "verdict": "ok",
+  "issues": [
+   "フラグ判断: แห่งชาติ は語彙表どおり hɛ̀ng châat、อุทยาน も語彙表の ùt thá yaan と一致。現状維持。"
+  ]
+ },
+ {
+  "id": "tl-25082",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25083",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25084",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25085",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25090",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25092",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25098",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25099",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25102",
+  "verdict": "ok",
+  "issues": [
+   "フラグ判断: ขะมักเขม้น は ขะ-หฺมัก-ขะ-เม่น と読み、มัก は ข に導かれて高子音扱い（短母音死音節→低声 màk）。เขม้น は高子音+mai tho で下降声、実際の発音は短母音で mên も妥当。ヒントの má'k・長母音は採らない。現状維持。"
+  ]
+ },
+ {
+  "id": "tl-25103",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25105",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25106",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25107",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25110",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25111",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25115",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25119",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25125",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25126",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25127",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25128",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25129",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25130",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25133",
+  "verdict": "ok",
+  "issues": [
+   "フラグ判断: ภูมิลำเนา は標準発音 พูม-ลำ-เนา（3音節）で、語彙表の ภูมิ phuum とも一致。ヒントの pu:-mí は綴り読みで不採用。現状維持。"
+  ]
+ },
+ {
+  "id": "tl-25134",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25136",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25137",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25140",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25142",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25149",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25150",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25152",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25153",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25155",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25157",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25158",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25160",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25161",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25163",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25167",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25171",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25177",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25178",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25180",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25181",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25184",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25185",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25186",
+  "verdict": "ok",
+  "issues": []
+ }
+]

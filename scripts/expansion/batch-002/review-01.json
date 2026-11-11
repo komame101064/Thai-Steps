@@ -1,0 +1,627 @@
+[
+ {
+  "id": "tl-24112",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24114",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24116",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24119",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24120",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24121",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24122",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24123",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24126",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24127",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24128",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24132",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24134",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24140",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24141",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24144",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24145",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24146",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24148",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24150",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24151",
+  "verdict": "ok",
+  "issues": [
+   "フラグ（母音長）確認：เส้น は ro-lexicon で sên、ด้าย は dâai。sên dâai で正しく、ソースのヒントの長母音表記は採らない。"
+  ]
+ },
+ {
+  "id": "tl-24153",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24154",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24157",
+  "verdict": "fix",
+  "issues": [
+   "単独では使わない造語要素なのにnoteがないため、複合語で使う旨のnoteを追加"
+  ],
+  "fixed": {
+   "id": "tl-24157",
+   "th": "การณ์",
+   "action": "add",
+   "ro": "kaan",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "事態・成り行き（複合語の要素）",
+     "en": "circumstances, events (bound element)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "note": "単独ではほとんど使わず、เหตุการณ์（出来事）・สถานการณ์（状況）・มองการณ์ไกล（先を見通す）などの中で使う。",
+     "example": {
+      "th": "เขาเป็นคนมองการณ์ไกล",
+      "ro": "khǎo pen khon mɔɔng kaan klai",
+      "ja": "あの人は先見の明がある人です。",
+      "en": "He is a far-sighted person.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "単独ではほとんど使わず、มองการณ์ไกล（先見の明がある）などの複合語で使う。"
+  }
+ },
+ {
+  "id": "tl-24159",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24162",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24163",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24165",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24166",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24167",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24169",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24170",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24171",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24172",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24174",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24175",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24179",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24180",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24184",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24189",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24190",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24194",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24195",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24196",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24197",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24199",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24200",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24201",
+  "verdict": "fix",
+  "issues": [
+   "語義1の例文訳「卵焼き」は日本式の卵焼きを連想させ不正確。ไข่เจียว に合わせ「タイ風オムレツ」に修正"
+  ],
+  "fixed": {
+   "id": "tl-24201",
+   "th": "เจียว",
+   "action": "add",
+   "ro": "ciiao",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（溶き卵を）たっぷりの油で焼く",
+     "en": "to fry (beaten eggs into an omelette)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "ไข่เจียว（タイ風オムレツ）でおなじみの語。",
+     "example": {
+      "th": "แม่เจียวไข่ให้ลูกกินตอนเช้า",
+      "ro": "mɛ̂ɛ ciiao khài hâi lûuk kin tɔɔn cháao",
+      "ja": "母は朝、子どもにタイ風オムレツを作ってあげた。",
+      "en": "Mother fried an omelette for her child in the morning.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（ニンニクなどを）油で揚げる・（脂身から）油を取る",
+     "en": "to fry (garlic, shallots) crisp; render (fat)",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันเจียวกระเทียมไว้โรยหน้าข้าวต้ม",
+      "ro": "chǎn ciiao krà thiiam wái rooi nâa khâao tôm",
+      "ja": "おかゆにのせるためにニンニクを揚げておいた。",
+      "en": "I fried some garlic to sprinkle on the rice soup.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-24202",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24203",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24204",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24207",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24210",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24211",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24212",
+  "verdict": "fix",
+  "issues": [
+   "語義1「集中して教える・補習する」はソースの語義になく、กวด 単独の意味ではない（กวดวิชา の形でのみ）。語義をกวดวิชาの形に限定しnoteを追加"
+  ],
+  "fixed": {
+   "id": "tl-24212",
+   "th": "กวด",
+   "action": "add",
+   "ro": "kùuat",
+   "kind": "word",
+   "category": "仕事・学習",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（กวดวิชาの形で）補習する・詰め込みで勉強する",
+     "en": "to cram (in กวดวิชา, cram-school tutoring)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "กวดวิชา（塾で受験勉強をする）の形でよく使う。",
+     "example": {
+      "th": "ลูกไปเรียนกวดวิชาทุกวันเสาร์",
+      "ro": "lûuk pai riian kùuat wí chaa thúk wan sǎo",
+      "ja": "子どもは毎週土曜日に塾へ通っている。",
+      "en": "My child goes to cram school every Saturday.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "追いかける・追いすがる",
+     "en": "to chase, pursue",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ตำรวจกวดขโมยไปจนหมดแรง",
+      "ro": "tam rùuat kùuat khà mooi pai con mòt rɛɛng",
+      "ja": "警察は力尽きるまで泥棒を追いかけた。",
+      "en": "The police chased the thief until they were exhausted.",
+      "origin": "source"
+     }
+    }
+   ],
+   "note": "単独では主に「追いかける」の意味で、補習・塾の意味は กวดวิชา の形で使う。"
+  }
+ },
+ {
+  "id": "tl-24216",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24217",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24219",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24220",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24222",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24223",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24226",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24229",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24230",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24231",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24232",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24235",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24237",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24238",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24240",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24242",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24245",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24246",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24247",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24249",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24250",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24251",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24252",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24253",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24255",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24258",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24259",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24260",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24261",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24262",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24263",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24264",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24267",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24268",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24269",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24271",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24272",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24274",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24275",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24276",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24277",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24281",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24282",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24283",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24286",
+  "verdict": "ok",
+  "issues": []
+ }
+]
