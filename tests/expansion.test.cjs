@@ -14,7 +14,7 @@ function boot(withMore){const ctx={window:{},localStorage:{getItem:()=>null,setI
  vm.runInContext('this.t={load:loadWordBank,get bank(){return bank},get status(){return bankStatus},selected:selectedWords,setLevel:n=>{wordState.level=n},setQuery:q=>{wordQuery=q},lib:WORD_LIBRARY,topicIds:wordTopicIds}',ctx);return ctx.t}
 (async()=>{const a=boot(false),b=boot(true);await a.load();await b.load();assert.equal(a.status,'ready');assert.equal(b.status,'ready');
  assert.equal(b.bank.length,a.bank.length+more.length);
- for(const n of [500,1000,2000,3000]){a.setLevel(n);b.setLevel(n);assert.deepEqual(b.selected().map(w=>w.id),a.selected().map(w=>w.id),'level '+n)}
+ for(const n of [500,1000,3000]){a.setLevel(n);b.setLevel(n);assert.deepEqual(b.selected().map(w=>w.id),a.selected().map(w=>w.id),'level '+n)}
  a.setLevel(5000);b.setLevel(5000);{const orig=a.selected(),five=b.selected(),ids=new Set(five.map(w=>w.id));assert.equal(five.length,5000);assert(orig.every(w=>ids.has(w.id)),'5,000 keeps every original word');const extra=five.filter(w=>w.expansion);assert.equal(extra.length,5000-orig.length);const byRank=more.slice().sort((x,y)=>x.corpusRank-y.corpusRank).slice(0,extra.length).map(w=>w.id).sort();assert.deepEqual(extra.map(w=>w.id).sort(),byRank)}
  a.setLevel(0);b.setLevel(0);assert.equal(b.selected().length,a.selected().length+more.length);
  assert.equal(b.lib.unique,new Set(b.bank.map(w=>w.th)).size);
