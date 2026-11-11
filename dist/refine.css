@@ -257,3 +257,24 @@ html body .word-role{font-size:10px;padding:1px 6px}
 /* Inline readings in explanations: romanization only, set inline with the sentence. */
 html body .thai-reading{display:inline;margin:0 1px;vertical-align:baseline;line-height:inherit}
 html body .thai-reading .inline-ro{display:inline;line-height:inherit;color:var(--x-green);font-weight:650;font-family:'Steps Latin',sans-serif;font-size:1em;overflow-wrap:anywhere}
+/* Completed chapters (every lesson 履修済み) */
+html body .x-chapter.is-complete{background:#e3eedb}
+html body .x-chapter.is-complete .x-chapter-icon,html body .x-course-chapter.is-complete h2 .x-chapter-icon{background:var(--x-green);color:#fff}
+html body .x-chapter.is-complete .x-chapter-progress,html body .x-course-chapter.is-complete .x-section-head>span{color:var(--x-green);font-weight:700}
+html body .x-chapter.is-complete .track span{background:var(--x-green)}
+html body .x-course-chapter.is-complete .x-lessons{border-color:#b9cfae;background:#f1f7ec}
+html body .x-chapter-chips button.is-complete:not([aria-pressed=true]){background:#e3eedb;border-color:#b9cfae;color:var(--x-green)}
+html body .x-done-badge{display:inline-flex;align-items:center;min-height:36px;padding:0 12px;border-radius:999px;background:#e3eedb;color:var(--x-green);font-weight:700;font-size:13px}
+/* Check questions */
+html body .quiz-q{font-size:18px;line-height:1.6}
+html body .quiz-sentence{display:flex;flex-direction:column;gap:2px;margin:4px 0 16px;padding:12px 14px;border-radius:10px;background:#f3f7ee;border:1px solid #dce6d3}
+html body .quiz-sentence .quiz-th{font-size:15px;color:#6c7f63}
+html body .quiz-sentence .quiz-ro{font-size:19px;font-weight:650;color:var(--x-green);font-family:'Steps Latin',sans-serif}
+html body .quiz-sentence-ja{font-size:13px;color:var(--x-muted)}
+html body .quiz-option{display:flex;flex-direction:column;align-items:flex-start;gap:1px;text-align:left;position:relative}
+html body .quiz-option .quiz-ro{font-size:17px;font-weight:650;color:var(--x-green);font-family:'Steps Latin',sans-serif;line-height:1.4}
+html body .quiz-option .quiz-th{font-size:13px;color:#6c7f63;line-height:1.5}
+html body .quiz-option .quiz-ja{font-size:15px;line-height:1.6}
+html body .quiz-mark{position:absolute;right:14px;top:50%;transform:translateY(-50%);font-weight:700;color:var(--x-green)}
+html body .quiz-top small{color:var(--x-muted);font-size:11px}
+html body .quiz-result.is-complete{background:#e3eedb;border-color:#b9cfae}
