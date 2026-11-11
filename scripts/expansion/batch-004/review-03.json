@@ -1,0 +1,560 @@
+[
+ {
+  "id": "tl-27458",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27459",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27460",
+  "verdict": "ok",
+  "issues": [
+   "著者疑義の第3義（うわさが広まる・ข่าวหึ่ง）は報道・口語で実在し、口語ラベルも妥当。noteは学習者向けで正確"
+  ]
+ },
+ {
+  "id": "tl-27461",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27464",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27465",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27466",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27468",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27469",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27470",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27471",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27472",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27473",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27474",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27475",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27476",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27477",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27479",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27480",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27481",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27482",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27483",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27484",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27485",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27486",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27487",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27488",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27490",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27491",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27492",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27493",
+  "verdict": "ok",
+  "issues": [
+   "pěe（中子音＋๋で上声）で可。ล้อเป๋ は自然な口語表現、口語ラベル妥当"
+  ]
+ },
+ {
+  "id": "tl-27494",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27495",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27496",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27497",
+  "verdict": "fix",
+  "issues": [
+   "辞書上の基本義は牡羊座（ราศีเมษ）で、出典の語義も牡羊座。4月の意味（เดือนเมษ）は口語の略で出典にないため第2義・少なめの用法に下げた。読み mêet・例文は可"
+  ],
+  "fixed": {
+   "id": "tl-27497",
+   "th": "เมษ",
+   "action": "add",
+   "ro": "mêet",
+   "kind": "word",
+   "category": "時間",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "牡羊座（ราศีเมษ）",
+     "en": "Aries",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "น้องสาวของฉันเป็นคนราศีเมษ",
+      "ro": "nɔ́ɔng sǎao khɔ̌ɔng chǎn pen khon raa sǐi mêet",
+      "ja": "私の妹は牡羊座です。",
+      "en": "My younger sister is an Aries.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "4月（เมษายนのくだけた略し方）",
+     "en": "April (short for เมษายน)",
+     "pos": "名詞",
+     "use": "少なめの用法",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เดือนเมษร้อนที่สุดในปี",
+      "ro": "dʉʉan mêet rɔ́ɔn thîi sùt nai pii",
+      "ja": "4月は一年でいちばん暑い。",
+      "en": "April is the hottest month of the year.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27498",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27499",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27501",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27502",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27503",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27504",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27505",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27506",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27507",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27508",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27510",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27511",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27512",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27513",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27514",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27515",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27517",
+  "verdict": "ok",
+  "issues": [
+   "語彙表 แน่น nɛ̂n と一致し、แฟ้น fɛ́n も標準の短母音発音で可"
+  ]
+ },
+ {
+  "id": "tl-27518",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27519",
+  "verdict": "ok",
+  "issues": [
+   "phrɛ̂ng は แ+่ง を短母音で書く語彙表の慣例（แต่ง tɛ̀ng, แบ่ง bɛ̀ng）と一致。noteの ทางสองแพร่ง＝岐路・板挟みも正確"
+  ]
+ },
+ {
+  "id": "tl-27520",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27521",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27522",
+  "verdict": "reject",
+  "issues": [
+   "既存見出し แอปเปิล（同じ読み ɛ́p pə̂n・同じ語義）と重複する綴りの異形。別カードとして追加せず、既存語に異綴りとして検索対応させるべき"
+  ]
+ },
+ {
+  "id": "tl-27523",
+  "verdict": "ok",
+  "issues": [
+   "khà mǒong（ขะ-โหมง）で可。出典 ควัน...โขมงไปทั่วห้อง と同じ動詞的用法で品詞も可"
+  ]
+ },
+ {
+  "id": "tl-27525",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27526",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27527",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27528",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27529",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27530",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27531",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27533",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27534",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27535",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27537",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27539",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27540",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27541",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27543",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27545",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27546",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27547",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27548",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27549",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27550",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27551",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27552",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27553",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27554",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27555",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27556",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27557",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27558",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27560",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27561",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27562",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27563",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27564",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27565",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27566",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27567",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27568",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27569",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27570",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27572",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27573",
+  "verdict": "ok",
+  "issues": []
+ }
+]
