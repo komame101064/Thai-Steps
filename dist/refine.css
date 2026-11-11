@@ -365,3 +365,62 @@ html body .g-done{font-size:13px;color:var(--x-green);font-weight:600}
 html body .g-result h1{font-size:28px}
 html body .x-step-foot{flex-wrap:wrap}
 html body .x-step-foot input[type=checkbox]{accent-color:var(--x-green);width:16px;height:16px}
+/* ===== Calmer layout: progress rings, dashboard, compact step panel ===== */
+.ring{position:relative;display:inline-grid;place-items:center;width:64px;height:64px;flex:none}
+.ring svg{position:absolute;inset:0;width:100%;height:100%}
+.ring-bg{fill:none;stroke:#e3e9da;stroke-width:6}
+.ring-fg{fill:none;stroke:var(--x-green);stroke-width:6;stroke-linecap:round;transition:stroke-dasharray .4s}
+.ring.is-grammar .ring-fg{stroke:#7a5c14}
+.ring.is-script .ring-fg{stroke:#2f5468}
+.ring b{position:relative;font-size:14px;font-family:'Steps Latin',sans-serif;color:var(--x-ink);font-variant-numeric:tabular-nums}
+html body .h-today{background:var(--x-surface);border:1px solid var(--x-line);border-radius:16px;padding:16px;margin:0 0 22px}
+html body .h-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:12px}
+html body .h-head h2{margin:0;font-size:17px;color:var(--x-ink)}
+html body .h-streak{font-size:12px;color:var(--x-muted)}
+html body .h-streak b{color:var(--x-green);font-size:15px}
+html body .h-rings{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
+html body .h-ring{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 4px;border:0;border-radius:12px;background:#f6f8f1;cursor:pointer;font:inherit;color:var(--x-text)}
+html body .h-ring>span:last-child{font-size:13px;font-weight:700;color:var(--x-ink);text-align:center;line-height:1.3}
+html body .h-ring small{display:block;font-weight:400;font-size:11px;color:var(--x-muted)}
+html body .h-tasks{list-style:none;margin:0;padding:0;border-top:1px solid #e3e9da}
+html body .h-task{display:grid;grid-template-columns:24px minmax(0,1fr) auto;gap:10px;align-items:center;padding:11px 0;border-bottom:1px solid #e3e9da}
+html body .h-task:last-child{border-bottom:0;padding-bottom:0}
+html body .h-check{width:22px;height:22px;border-radius:50%;border:2px solid #c9d4bf;display:grid;place-items:center;color:#fff}
+html body .h-task.is-done .h-check{background:var(--x-green);border-color:var(--x-green)}
+html body .h-check .ui-icon{width:13px;height:13px}
+html body .h-task-body b{display:block;font-size:14px;color:var(--x-ink)}
+html body .h-task-body small{display:block;font-size:12px;color:var(--x-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+html body .h-task .btn{min-height:34px;padding:0 14px;font-size:13px}
+html body .h-task.is-done .h-task-body b{color:var(--x-muted)}
+html body .x-chapters.is-compact .x-chapter-body>span{display:none}
+html body .x-chapters.is-compact .x-chapter{padding:11px 16px 14px}
+html body .x-step{padding:14px}
+html body .x-step-main{display:flex;gap:14px;align-items:center}
+html body .x-step-text{min-width:0}
+html body .x-step-text h2{margin:0 0 2px;font-size:17px;color:var(--x-ink)}
+html body .x-step-text p{margin:0;font-size:12px;color:var(--x-muted);line-height:1.6}
+html body .x-step-text b{color:var(--x-green)}
+html body .x-step-preview{font-family:'Steps Latin',sans-serif;color:var(--x-green)!important;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:4px!important}
+html body .x-step-actions{padding:12px 0 2px;justify-content:stretch}
+html body .x-step-go{width:100%}
+html body .x-step-more{margin-top:8px;font-size:12px;color:var(--x-muted)}
+html body .x-step-more summary{cursor:pointer;color:var(--x-green-2)}
+html body .x-step-more p{line-height:1.7;margin:6px 0}
+/* ===== Readable word list: more air, romanization first, one clear meaning line, quiet meta ===== */
+html body .w-row{padding:16px 16px 15px;gap:10px;align-items:center}
+html body .w-row-main{display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+html body .w-term{flex-direction:row;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+html body .w-term>b{order:-1;font-family:'Steps Latin',sans-serif;font-size:19px;font-weight:700;line-height:1.3;color:var(--x-green)}
+html body .w-term>span{font-size:16px;line-height:1.4;color:#6c7f63}
+html body .w-row-meaning{font-size:15px;line-height:1.65;color:var(--x-ink);padding-top:0}
+html body .w-row-meaning small{display:inline-block;font-size:11px;margin:0 0 0 8px;color:var(--x-muted)}
+html body .w-row .w-meta{font-size:11px;margin:6px 0 0;gap:4px 8px;color:var(--x-muted);justify-content:flex-start}
+html body .w-row .w-meta>span+span::before{content:none}
+html body .w-row-actions{gap:4px}
+html body .w-row-actions .w-audio{min-width:40px;min-height:40px}
+@media(max-width:650px){html body .w-row{flex-wrap:nowrap}html body .w-row-main{flex:1;min-width:0}html body .w-row-actions{width:auto;flex-direction:column;margin:0}}
+/* Breathing room in sessions and detail */
+html body .w-example{line-height:1.7}
+html body .w-flashcard{padding:22px 18px}
+html body .g-meaning{padding:10px 0;border-top:1px solid #e3e9da}
+@media(max-width:650px){html body .w-row-actions{flex-direction:row;flex-wrap:wrap;width:84px;justify-content:center;gap:2px;align-self:center}html body .w-row-actions .w-audio{width:84px}html body .w-row-actions>button:not(.w-audio){width:40px;height:34px}}

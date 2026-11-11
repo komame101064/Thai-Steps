@@ -10,7 +10,7 @@ vm.runInContext("render=()=>{};toast=()=>{};this.t={startGuidedStep,answerStepTa
 const order=t.stepOrder();assert(order.length>7000);assert(order.every((w,i)=>w.studyRank===i+1));assert(order.every(w=>w.collection!=='slang'));
 // Step 1 = the 10 most frequent general words.
 assert.equal(t.stepNumber(),1);const first=t.nextStepWords().map(w=>w.id);assert.equal(first.length,10);assert.deepStrictEqual(first,order.slice(0,10).map(w=>w.id));
-assert(t.stepPanel().includes('次のステップ 1'));
+assert(t.stepPanel().includes('ステップ 1'));
 const run=miss=>{t.startStep('quiz');const s=t.getSession();for(let i=0;i<s.ids.length;i++){const id=s.ids[i];const wrong=s.choices.find(c=>c!==id);t.answerWord(i===miss?wrong:id);t.nextWordQuestion()}return t.wordSessionView()};
 // One miss: same step again.
 let html=run(0);assert(html.includes('全問正解でステップ 1'));assert.equal(t.getState().stepWords,0);
