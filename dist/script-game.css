@@ -42,6 +42,9 @@
 .sg-glyph{font-size:92px;line-height:1.15;color:var(--x-ink)}
 .sg-word{font-size:64px}
 .sg-reveal{font-size:15px;color:var(--x-muted)}
+.sg-listen .sg-reveal{font-size:24px;color:var(--x-ink)}
+.sg-unlock{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 12px;font-size:12px;color:var(--x-muted)}
+.sg-unlock .btn{width:auto;min-width:0}
 .sg-listen{display:flex;flex-direction:column;align-items:center;gap:8px;padding:8px 0}
 .sg-replay{width:76px!important;height:76px!important;border-radius:50%!important;background:var(--x-green)!important;color:#fffefa!important;border:0!important}
 .sg-replay .ui-icon{width:34px;height:34px}
@@ -99,7 +102,7 @@
  .sg-modes{gap:8px}
  .sg-mode{display:grid;grid-template-columns:1fr auto;align-items:center;gap:4px 10px;padding:11px 12px}
  .sg-mode-head,.sg-mode p{grid-column:1/-1}
- .sg-mode p.sg-lock,.sg-mode p.sg-warn{grid-column:1}
+ .sg-mode p.sg-warn{grid-column:1}
  .sg-mode .sg-start{grid-column:2;grid-row:2/span 2;align-self:center;margin:0;min-height:40px;padding:8px 14px}
  .sg-mode-head+p{grid-column:1}
 }
