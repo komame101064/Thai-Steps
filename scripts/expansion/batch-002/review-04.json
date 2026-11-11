@@ -1,0 +1,560 @@
+[
+ {
+  "id": "tl-24646",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24647",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24648",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24652",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24653",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24654",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24657",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24658",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24659",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24660",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24661",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24662",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24663",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24664",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24667",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24668",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24670",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24671",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24673",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24674",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24676",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24678",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24679",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24680",
+  "verdict": "fix",
+  "issues": [
+   "例文enの better はタイ語（ดีต่อ＝良い）にない比較の意味を加えているため good に修正"
+  ],
+  "fixed": {
+   "id": "tl-24680",
+   "th": "ตะกั่ว",
+   "action": "add",
+   "ro": "tà kùua",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "鉛",
+     "en": "lead (metal)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "น้ำมันไร้สารตะกั่วดีต่อสิ่งแวดล้อม",
+      "ro": "nám man rái sǎan tà kùua dii tɔ̀ɔ sìng wɛ̂ɛt lɔ́ɔm",
+      "ja": "無鉛ガソリンは環境に良い。",
+      "en": "Unleaded petrol is good for the environment.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-24681",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24682",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24685",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24686",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24687",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24688",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24689",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24690",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24693",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24700",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24701",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24703",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24705",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24707",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24709",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24711",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24712",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24715",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24717",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24719",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24720",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24721",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24722",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24724",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24725",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24726",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24729",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24731",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24732",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24733",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24735",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24736",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24737",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24738",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24741",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24742",
+  "verdict": "fix",
+  "issues": [
+   "語義2「つながっている・行き来できる」は原資料の語義（連絡を取り合う・親しい）と合わず、例文 สองห้องนี้มีประตูถึงกัน の自然さも確信できないため削除（語義1のみ残す）"
+  ],
+  "fixed": {
+   "id": "tl-24742",
+   "th": "ถึงกัน",
+   "action": "add",
+   "ro": "thʉ̌ng kan",
+   "kind": "expression",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "互いに（〜し合う）",
+     "en": "to each other",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาสองคนยังคงส่งจดหมายถึงกันตลอด",
+      "ro": "khǎo sɔ̌ɔng khon yang khong sòng còt mǎai thʉ̌ng kan tà lɔ̀ɔt",
+      "ja": "あの二人は今もずっと手紙を送り合っている。",
+      "en": "The two of them still write letters to each other all the time.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-24743",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24744",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24745",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24746",
+  "verdict": "ok",
+  "issues": [
+   "フラグ（nám vs ná:m）：複合語の前要素の น้ำ は nám とする家規約に従い、nám dʉ̀ʉm のままで可"
+  ]
+ },
+ {
+  "id": "tl-24747",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24750",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24752",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24753",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24757",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24760",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24761",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24763",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24764",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24769",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24770",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24772",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24773",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24775",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24776",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24777",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24778",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24779",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24780",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24781",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24782",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24784",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24785",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24786",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24787",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24788",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24789",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24790",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24792",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24794",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24796",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24797",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24799",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24803",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24804",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24805",
+  "verdict": "ok",
+  "issues": []
+ }
+]
