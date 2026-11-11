@@ -178,3 +178,7 @@ dump=lambda o:json.dumps(o,ensure_ascii=False,separators=(',',':'))+'\n'
 (P/'dist/word-bank-more.json').write_text(dump(words));(P/'dist/slang-bank-more.json').write_text(dump(slang_words));(P/'dist/more-examples.json').write_text(dump(examples))
 (P/'dist/expansion-review.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False))
+# Reviewed text fixes for the files rebuilt here (scripts/native-review/fixes.json); idempotent.
+import importlib.util as _u
+_s=_u.spec_from_file_location('anr',P/'scripts/apply-native-review.py');_m=_u.module_from_spec(_s);_s.loader.exec_module(_m)
+print('native-review fixes',_m.apply({'word-bank-more.json','slang-bank-more.json','more-examples.json'}))

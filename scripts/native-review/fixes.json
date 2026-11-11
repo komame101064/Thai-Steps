@@ -1,0 +1,1066 @@
+[
+{
+"file": "word-bank.json",
+"id": "tl-00522",
+"field": "ro",
+"from": "tâai",
+"to": "tâi",
+"reason": "ใต้ は短母音 tâi（表記の約束）"
+},
+{
+"file": "word-bank.json",
+"id": "tl-02001",
+"field": "ro",
+"from": "thɔ̂ng thîao",
+"to": "thɔ̂ɔng thîiao",
+"reason": "‑่อง は長母音、เที่ยว は thîiao（เที่ยว 単独の読みと統一）"
+},
+{
+"file": "word-bank.json",
+"id": "tl-02058",
+"field": "ro",
+"from": "nák thɔ̂ng thîao",
+"to": "nák thɔ̂ɔng thîiao",
+"reason": "同上"
+},
+{
+"file": "word-bank.json",
+"id": "tl-03932",
+"field": "ro",
+"from": "chéef",
+"to": "chéep",
+"reason": "語末の ฟ は p と読む"
+},
+{
+"file": "word-bank.json",
+"id": "tl-04990",
+"field": "ro",
+"from": "séef",
+"to": "séep",
+"reason": "語末の ฟ は p と読む"
+},
+{
+"file": "word-bank.json",
+"id": "tl-03731",
+"field": "ro",
+"from": "kɔ́f",
+"to": "kɔ́ɔp",
+"reason": "語末の ฟ は p と読む、ɔɔ は長母音"
+},
+{
+"file": "word-bank.json",
+"id": "tl-05153",
+"field": "ro",
+"from": "hâi dâi mâak thîi sùt",
+"to": "hâi dâai mâak thîi sùt",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "word-bank.json",
+"id": "tl-02188",
+"field": "ro",
+"from": "dâi pròot",
+"to": "dâai pròot",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "word-bank.json",
+"id": "tl-01963",
+"field": "ro",
+"from": "dâi klìn",
+"to": "dâai klìn",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "word-bank.json",
+"id": "tl-04533",
+"field": "ro",
+"from": "dâi sà tì",
+"to": "dâai sà tì",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-47060",
+"field": "ro",
+"from": "ngən dâai",
+"to": "ngəən dâai",
+"reason": "เงิน は ngəən"
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10102",
+"field": "ro",
+"from": "chûuai tua eeng",
+"to": "chûuai tuua eeng",
+"reason": "ตัว は tuua に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-00103#2",
+"field": "example.ro",
+"from": "sài náam long pai ìik nɔ̀ɔi",
+"to": "sài nám long pai ìik nɔ̀ɔi",
+"reason": "複合語の น้ำ は nám"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-00259#2",
+"field": "example.ro",
+"from": "dâi yin mǎi plìian",
+"to": "dâai yin mǎi plìian",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-00522#1",
+"field": "example.ro",
+"from": "phɔ̂ɔ nɔɔn yùu tâai tôn máai",
+"to": "phɔ̂ɔ nɔɔn yùu tâi tôn máai",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-00522#2",
+"field": "example.ro",
+"from": "bâan khǎo yùu thaang tâai khɔ̌ɔng prà thêet",
+"to": "bâan khǎo yùu thaang tâi khɔ̌ɔng prà thêet",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-01042#1",
+"field": "example.ro",
+"from": "sà wàt dii khráp yin dii thîi dâi rúu càk",
+"to": "sà wàt dii khráp yin dii thîi dâai rúu càk",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-01184#1",
+"field": "example.ro",
+"from": "yin dii thîi dâi rúu càk chên kan khráp",
+"to": "yin dii thîi dâai rúu càk chên kan khráp",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-02203#1",
+"field": "example.ro",
+"from": "khá ná khɔ̌ɔng rao maa thʉ̌ng mʉ̂ʉa cháo níi",
+"to": "khá ná khɔ̌ɔng rao maa thʉ̌ng mʉ̂ʉa cháao níi",
+"reason": "เช้า は長母音"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-00823#1",
+"field": "example.ro",
+"from": "khǎo dâi ráp raang wan thîi nʉ̀ng",
+"to": "khǎo dâai ráp raang wan thîi nʉ̀ng",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-02879#2",
+"field": "example.ro",
+"from": "khǎo khǐian khwaam khít hěn tâai rûup khɔ̌ɔng chǎn",
+"to": "khǎo khǐian khwaam khít hěn tâi rûup khɔ̌ɔng chǎn",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-02001#1",
+"field": "example.ro",
+"from": "pii níi phǒm yàak thɔ̂ng thîao tàang prà thêet",
+"to": "pii níi phǒm yàak thɔ̂ɔng thîiao tàang prà thêet",
+"reason": "見出しの読みと統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-00792#1",
+"field": "example.ro",
+"from": "dèk sɔ̂ɔn khɔ̌ɔng lên wái tâai tiiang",
+"to": "dèk sɔ̂ɔn khɔ̌ɔng lên wái tâi tiiang",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-00600#1",
+"field": "example.ro",
+"from": "phǒm lɔɔng lɛ́ɛo tɛ̀ɛ mâi dâi phǒn",
+"to": "phǒm lɔɔng lɛ́ɛo tɛ̀ɛ mâi dâai phǒn",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03932#1",
+"field": "example.ro",
+"from": "khǎo pen chéef thîi ráan aa hǎan níi",
+"to": "khǎo pen chéep thîi ráan aa hǎan níi",
+"reason": "語末 ฟ は p"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-01685#1",
+"field": "example.ro",
+"from": "chǎn dâi yin à rai baang yàang nai hɔ̂ɔng khruua",
+"to": "chǎn dâai yin à rai baang yàang nai hɔ̂ɔng khruua",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-02058#1",
+"field": "example.ro",
+"from": "thîi nîi mii nák thɔ̂ng thîao yə́ mâak",
+"to": "thîi nîi mii nák thɔ̂ɔng thîiao yə́ mâak",
+"reason": "見出しの読みと統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-00866#1",
+"field": "example.ro",
+"from": "han lǒo dâi yin mǎi khráp",
+"to": "han lǒo dâai yin mǎi khráp",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-01986#1",
+"field": "example.ro",
+"from": "phǒm oon ngəən hâi khun lɛ́ɛo mʉ̂ʉa cháo",
+"to": "phǒm oon ngəən hâi khun lɛ́ɛo mʉ̂ʉa cháao",
+"reason": "เช้า は長母音"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-02019#1",
+"field": "example.ro",
+"from": "dèk nɔɔn làp yùu tâai phâa hòm",
+"to": "dèk nɔɔn làp yùu tâi phâa hòm",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-05243#1",
+"field": "example.ro",
+"from": "thîi nîi mii sà thǎan thîi thɔ̂ng thîao yə́",
+"to": "thîi nîi mii sà thǎan thîi thɔ̂ɔng thîiao yə́",
+"reason": "見出しの読みと統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-01287#2",
+"field": "example.ro",
+"from": "khǎo sâang sǎan wái tâai tôn máai yài",
+"to": "khǎo sâang sǎan wái tâi tôn máai yài",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-00882#1",
+"field": "example.ro",
+"from": "phǒm dâi ráp còt mǎai sɔ̌ɔng chà bàp",
+"to": "phǒm dâai ráp còt mǎai sɔ̌ɔng chà bàp",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-02233#1",
+"field": "example.ro",
+"from": "phaai tâai kòt mǎai níi rao tham bɛ̀ɛp nán mâi dâai",
+"to": "phaai tâi kòt mǎai níi rao tham bɛ̀ɛp nán mâi dâai",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-02233#2",
+"field": "example.ro",
+"from": "mʉʉang níi yùu phaai tâai ngao khɔ̌ɔng phuu khǎo",
+"to": "mʉʉang níi yùu phaai tâi ngao khɔ̌ɔng phuu khǎo",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04990#1",
+"field": "example.ro",
+"from": "phɔ̂ɔ kèp thɔɔng wái nai séef",
+"to": "phɔ̂ɔ kèp thɔɔng wái nai séep",
+"reason": "語末 ฟ は p"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04990#2",
+"field": "example.ro",
+"from": "nâng rót fai pai dii kwàa séef kwàa yə́",
+"to": "nâng rót fai pai dii kwàa séep kwàa yə́",
+"reason": "語末 ฟ は p"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04990#3",
+"field": "example.ro",
+"from": "yàa lʉʉm séef ngaan kɔ̀ɔn pìt khrʉ̂ʉang",
+"to": "yàa lʉʉm séep ngaan kɔ̀ɔn pìt khrʉ̂ʉang",
+"reason": "語末 ฟ は p"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-02284#1",
+"field": "example.ro",
+"from": "bâan khɔ̌ɔng rao mâi dâi ráp phǒn krà thóp",
+"to": "bâan khɔ̌ɔng rao mâi dâai ráp phǒn krà thóp",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-01481#1",
+"field": "example.ro",
+"from": "phǒm dâi khàao wâa thəə cà tɛ̀ng ngaan",
+"to": "phǒm dâai khàao wâa thəə cà tɛ̀ng ngaan",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03415#1",
+"field": "example.ro",
+"from": "khruu khìit sên tâai kham níi",
+"to": "khruu khìit sên tâi kham níi",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03857#1",
+"field": "example.ro",
+"from": "mʉʉ chǎn nǐiao phrɔ́ náam wǎan",
+"to": "mʉʉ chǎn nǐiao phrɔ́ nám wǎan",
+"reason": "複合語の น้ำ は nám"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03314#2",
+"field": "example.ro",
+"from": "phûu chái yaa tɔ̂ɔng dâi ráp kaan rák sǎa",
+"to": "phûu chái yaa tɔ̂ɔng dâai ráp kaan rák sǎa",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-02659#2",
+"field": "example.ro",
+"from": "khǎo cəə sâak khɔ̌ɔng nók tâai tôn máai",
+"to": "khǎo cəə sâak khɔ̌ɔng nók tâi tôn máai",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03394#1",
+"field": "example.ro",
+"from": "yàa sàat náam long phʉ́ʉn ná",
+"to": "yàa sàat nám long phʉ́ʉn ná",
+"reason": "複合語の น้ำ は nám"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03267#2",
+"field": "example.ro",
+"from": "mɛ̂ɛ phrom náam long bon tôn máai",
+"to": "mɛ̂ɛ phrom nám long bon tôn máai",
+"reason": "複合語の น้ำ は nám"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-01963#1",
+"field": "example.ro",
+"from": "khun dâi klìn à rai mǎi",
+"to": "khun dâai klìn à rai mǎi",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-01851#1",
+"field": "example.ro",
+"from": "khon khâi fʉ́ʉn mʉ̂ʉa cháo níi",
+"to": "khon khâi fʉ́ʉn mʉ̂ʉa cháao níi",
+"reason": "เช้า は長母音"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03101#1",
+"field": "example.ro",
+"from": "khǎo sɔ̀ɔt còt mǎai tâai prà tuu",
+"to": "khǎo sɔ̀ɔt còt mǎai tâi prà tuu",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03328#1",
+"field": "example.ro",
+"from": "khǎo ʉ̂ng pai ləəi mʉ̂ʉa dâi yin khàao níi",
+"to": "khǎo ʉ̂ng pai ləəi mʉ̂ʉa dâai yin khàao níi",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-02861#1",
+"field": "example.ro",
+"from": "ráan níi dʉng dùut nák thɔ̂ng thîao dâai mâak",
+"to": "ráan níi dʉng dùut nák thɔ̂ɔng thîiao dâai mâak",
+"reason": "見出しの読みと統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03731#1",
+"field": "example.ro",
+"from": "phɔ̂ɔ chɔ̂ɔp lên kɔ́f thúk wan sǎo",
+"to": "phɔ̂ɔ chɔ̂ɔp lên kɔ́ɔp thúk wan sǎo",
+"reason": "語末 ฟ は p"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04532#1",
+"field": "example.ro",
+"from": "dâi yin bɛ̀ɛp níi lɛ́ɛo chʉ̂ʉn cai cing cing",
+"to": "dâai yin bɛ̀ɛp níi lɛ́ɛo chʉ̂ʉn cai cing cing",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-02566#2",
+"field": "example.ro",
+"from": "prà chaa chon tɔ̂ɔng sòng sǐiang hâi rát thà baan dâi yin",
+"to": "prà chaa chon tɔ̂ɔng sòng sǐiang hâi rát thà baan dâai yin",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03409#1",
+"field": "example.ro",
+"from": "thiim khɔ̌ɔng rao dâi prìiap mâak",
+"to": "thiim khɔ̌ɔng rao dâai prìiap mâak",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03374#1",
+"field": "example.ro",
+"from": "phǒn lá máai thîi khon thai chɔ̂ɔp dâi kɛ̀ɛ má mûuang lɛ́ klûuai",
+"to": "phǒn lá máai thîi khon thai chɔ̂ɔp dâai kɛ̀ɛ má mûuang lɛ́ klûuai",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-05072#1",
+"field": "example.ro",
+"from": "dâi yin mǎi khá",
+"to": "dâai yin mǎi khá",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-01927#1",
+"field": "example.ro",
+"from": "ngaan níi mɛ̂ɛng yâak mâak",
+"to": "ngaan níi mɛ̂ng yâak mâak",
+"reason": "แม่ง は短母音"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-01927#2",
+"field": "example.ro",
+"from": "mɛ̂ɛng ə́əi lʉʉm ìik lɛ́ɛo",
+"to": "mɛ̂ng ə́əi lʉʉm ìik lɛ́ɛo",
+"reason": "แม่ง は短母音"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-01927#3",
+"field": "example.ro",
+"from": "lâi mɛ̂ɛng ɔ̀ɔk pai ləəi",
+"to": "lâi mɛ̂ng ɔ̀ɔk pai ləəi",
+"reason": "แม่ง は短母音"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-02545#1",
+"field": "example.ro",
+"from": "hěn dâi chát wâa khǎo mâi sà baai",
+"to": "hěn dâai chát wâa khǎo mâi sà baai",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-02606#2",
+"field": "example.ro",
+"from": "tâai rûup mii kham à thí baai sân sân",
+"to": "tâi rûup mii kham à thí baai sân sân",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-02801#1",
+"field": "example.ro",
+"from": "mǎa mɔ̀ɔp yùu tâai tó",
+"to": "mǎa mɔ̀ɔp yùu tâi tó",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03041#1",
+"field": "example.ro",
+"from": "chǎn dii cai thîi dâi ráp kham chom càak mɛ̂ɛ",
+"to": "chǎn dii cai thîi dâai ráp kham chom càak mɛ̂ɛ",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03235#1",
+"field": "example.ro",
+"from": "dèk khlaan khâo pai tâai tó",
+"to": "dèk khlaan khâo pai tâi tó",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03493#1",
+"field": "example.ro",
+"from": "lee khǎa khɔ̌ɔng khǎo thoo maa mʉ̂ʉa cháo",
+"to": "lee khǎa khɔ̌ɔng khǎo thoo maa mʉ̂ʉa cháao",
+"reason": "เช้า は長母音"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03571#2",
+"field": "example.ro",
+"from": "khǎo dâi ráp thôot cam khúk sìp pii",
+"to": "khǎo dâai ráp thôot cam khúk sìp pii",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03662#1",
+"field": "example.ro",
+"from": "khǎo yɔ̀ɔn thǎng náam long pai nai bɔ̀ɔ",
+"to": "khǎo yɔ̀ɔn thǎng nám long pai nai bɔ̀ɔ",
+"reason": "複合語の น้ำ は nám"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04017#1",
+"field": "example.ro",
+"from": "mɛ̂ɛ làng nám taa mʉ̂ʉa dâi yin khàao",
+"to": "mɛ̂ɛ làng nám taa mʉ̂ʉa dâai yin khàao",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04114#1",
+"field": "example.ro",
+"from": "khǎo dam náam long pai duu plaa",
+"to": "khǎo dam nám long pai duu plaa",
+"reason": "複合語の น้ำ は nám"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04123#1",
+"field": "example.ro",
+"from": "mii khon dâi ráp bàat cèp sɔ̌ɔng khon",
+"to": "mii khon dâai ráp bàat cèp sɔ̌ɔng khon",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04194#1",
+"field": "example.ro",
+"from": "dèk dèk nɔɔn lên tâai sɛ̌ɛng aa thít",
+"to": "dèk dèk nɔɔn lên tâi sɛ̌ɛng aa thít",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04263#1",
+"field": "example.ro",
+"from": "mɛɛo lɔ̂ɔt tâai rúua ɔ̀ɔk pai",
+"to": "mɛɛo lɔ̂ɔt tâi rúua ɔ̀ɔk pai",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04313#1",
+"field": "example.ro",
+"from": "khǎo tham ngaan dâai dii phaai tâai khwaam kòt dan",
+"to": "khǎo tham ngaan dâai dii phaai tâi khwaam kòt dan",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04346#1",
+"field": "example.ro",
+"from": "mɛɛo nɔɔn yùu khâang tâai tó",
+"to": "mɛɛo nɔɔn yùu khâang tâi tó",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04408#1",
+"field": "example.ro",
+"from": "khǎo dâi ráp khwaam wái waang cai càak thúk khon",
+"to": "khǎo dâai ráp khwaam wái waang cai càak thúk khon",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04471#1",
+"field": "example.ro",
+"from": "mɛ̂ɛ khɔ̌ɔng khǎo dâi ráp ngəən sǒng khrɔ́ thúk dʉʉan",
+"to": "mɛ̂ɛ khɔ̌ɔng khǎo dâai ráp ngəən sǒng khrɔ́ thúk dʉʉan",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04533#1",
+"field": "example.ro",
+"from": "khon khâi dâi sà tì lɛ́ɛo",
+"to": "khon khâi dâai sà tì lɛ́ɛo",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04533#2",
+"field": "example.ro",
+"from": "chǎn dii cai thîi thəə dâi sà tì sá thii",
+"to": "chǎn dii cai thîi thəə dâai sà tì sá thii",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04542#1",
+"field": "example.ro",
+"from": "mùu bâan yùu tâai phǎa sǔung",
+"to": "mùu bâan yùu tâi phǎa sǔung",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04684#1",
+"field": "example.ro",
+"from": "mɛɛo lòp sɔ̂ɔn yùu tâai tiiang",
+"to": "mɛɛo lòp sɔ̂ɔn yùu tâi tiiang",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04703#1",
+"field": "example.ro",
+"from": "khǎo klân hǎai cai tâai náam dâai naan",
+"to": "khǎo klân hǎai cai tâi náam dâai naan",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "more-examples.json",
+"key": "tl-40955#1",
+"field": "example.ro",
+"from": "khǎo kràap thuun câo fáa yǐng rʉ̂ʉang roong riian nai chon ná bòt",
+"to": "khǎo kràap thuun câao fáa yǐng rʉ̂ʉang roong riian nai chon ná bòt",
+"reason": "見出しの読み"
+},
+{
+"file": "more-examples.json",
+"key": "tl-41248#1",
+"field": "example.ro",
+"from": "thân câo khun pen câo aa wâat wát níi maa naan",
+"to": "thân câo khun pen câao aa wâat wát níi maa naan",
+"reason": "見出しの読み"
+},
+{
+"file": "more-examples.json",
+"key": "tl-41886#1",
+"field": "example.ro",
+"from": "rao puu sʉ̀ʉa nâng kin khâao tâai tôn máai",
+"to": "rao puu sʉ̀ʉa nâng kin khâao tâi tôn máai",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "more-examples.json",
+"key": "tl-42052#1",
+"field": "example.ro",
+"from": "nai lǔuang song phrá kà rú naa pròot klâao pròot krà mɔ̀m tɛ̀ng tâng naa yók rát thà mon trii khon mài",
+"to": "nai lǔuang song phrá kà rú naa pròot klâao pròot krà mɔ̀ɔm tɛ̀ng tâng naa yók rát thà mon trii khon mài",
+"reason": "‑่อม は長母音（約束）"
+},
+{
+"file": "more-examples.json",
+"key": "tl-42403#1",
+"field": "example.ro",
+"from": "bâan rʉʉan thai mák mii tâai thǔn kwâang",
+"to": "bâan rʉʉan thai mák mii tâi thǔn kwâang",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "more-examples.json",
+"key": "tl-42677#1",
+"field": "example.ro",
+"from": "phrá phút thá câo song mii yaan yàng rúu thúk sìng",
+"to": "phrá phút thá câao song mii yaan yàng rúu thúk sìng",
+"reason": "เจ้า は câao"
+},
+{
+"file": "more-examples.json",
+"key": "tl-42699#1",
+"field": "example.ro",
+"from": "khǎo súk ngəən wái tâai mɔ̌ɔn",
+"to": "khǎo súk ngəən wái tâi mɔ̌ɔn",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "more-examples.json",
+"key": "tl-42871#1",
+"field": "example.ro",
+"from": "rʉ̂ʉang níi lɛ́ɛo tɛ̀ɛ tâai tháao cà kà rú naa",
+"to": "rʉ̂ʉang níi lɛ́ɛo tɛ̀ɛ tâi tháao cà kà rú naa",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "more-examples.json",
+"key": "tl-42915#2",
+"field": "example.ro",
+"from": "phʉ̂ng maa tham ruuang yùu thîi tâai ban dai",
+"to": "phʉ̂ng maa tham ruuang yùu thîi tâi ban dai",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "more-examples.json",
+"key": "tl-42919#2",
+"field": "example.ro",
+"from": "rao nâng phák tâai tôn máai thîi rôm yen",
+"to": "rao nâng phák tâi tôn máai thîi rôm yen",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "more-examples.json",
+"key": "tl-43036#1",
+"field": "example.ro",
+"from": "phrá phút thá câo song chá ná maan",
+"to": "phrá phút thá câao song chá ná maan",
+"reason": "เจ้า は câao"
+},
+{
+"file": "more-examples.json",
+"key": "tl-43170#1",
+"field": "example.ro",
+"from": "phâap níi pen phâap fǐi phrá hàt khɔ̌ɔng phrá bàat sǒm dèt phrá câo yùu hǔua",
+"to": "phâap níi pen phâap fǐi phrá hàt khɔ̌ɔng phrá bàat sǒm dèt phrá câao yùu hǔua",
+"reason": "見出しの読み"
+},
+{
+"file": "more-examples.json",
+"key": "tl-43278#1",
+"field": "example.ro",
+"from": "pùu nɔɔn phák bon khrɛ̂ɛ máai phài tâai tôn máai",
+"to": "pùu nɔɔn phák bon khrɛ̂ɛ máai phài tâi tôn máai",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "more-examples.json",
+"key": "tl-43460#1",
+"field": "example.ro",
+"from": "rao ao krà cháo phǒn lá máai pai yîiam khun yaai",
+"to": "rao ao krà cháao phǒn lá máai pai yîiam khun yaai",
+"reason": "เช้า は長母音"
+},
+{
+"file": "more-examples.json",
+"key": "tl-43572#2",
+"field": "example.ro",
+"from": "krà mɔ̀ɔm dii cai thîi fàa bàat sà dèt maa yʉʉan sà thǎan thîi thɔ̂ng thîao khɔ̌ɔng cang wàt níi",
+"to": "krà mɔ̀ɔm dii cai thîi fàa bàat sà dèt maa yʉʉan sà thǎan thîi thɔ̂ɔng thîiao khɔ̌ɔng cang wàt níi",
+"reason": "見出しの読みと統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-43861#1",
+"field": "example.ro",
+"from": "plaa bùu pen plaa náam cʉ̀ʉt thîi nʉ́ʉa à rɔ̀ɔi",
+"to": "plaa bùu pen plaa nám cʉ̀ʉt thîi nʉ́ʉa à rɔ̀ɔi",
+"reason": "複合語の น้ำ は nám"
+},
+{
+"file": "more-examples.json",
+"key": "tl-43960#1",
+"field": "example.ro",
+"from": "phǒm cà lɔɔng duu tɛ̀ɛ mâi rúu cà dâi phǒn rʉ́ plàao",
+"to": "phǒm cà lɔɔng duu tɛ̀ɛ mâi rúu cà dâai phǒn rʉ́ plàao",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-44289#1",
+"field": "example.ro",
+"from": "pàa phrú nai phâak tâai mii phʉ̂ʉt lɛ́ sàt lǎai chá nít",
+"to": "pàa phrú nai phâak tâi mii phʉ̂ʉt lɛ́ sàt lǎai chá nít",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "more-examples.json",
+"key": "tl-44299#1",
+"field": "example.ro",
+"from": "nák thɔ̂ng thîao maa sàk kaa rá phrá phút thá rûup thîi wát níi",
+"to": "nák thɔ̂ɔng thîiao maa sàk kaa rá phrá phút thá rûup thîi wát níi",
+"reason": "見出しの読みと統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-44302#1",
+"field": "example.ro",
+"from": "nǎng tà lung pen kaan sà dɛɛng phʉ́ʉn bâan khɔ̌ɔng phâak tâai",
+"to": "nǎng tà lung pen kaan sà dɛɛng phʉ́ʉn bâan khɔ̌ɔng phâak tâi",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "more-examples.json",
+"key": "tl-44414#1",
+"field": "example.ro",
+"from": "mɛɛo mút khâo pai tâai rót",
+"to": "mɛɛo mút khâo pai tâi rót",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "more-examples.json",
+"key": "tl-44657#1",
+"field": "example.ro",
+"from": "kaan cà ná bù rii mii lɛ̀ng thɔ̂ng thîao mâak maai",
+"to": "kaan cà ná bù rii mii lɛ̀ng thɔ̂ɔng thîiao mâak maai",
+"reason": "見出しの読みと統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-44764#1",
+"field": "example.ro",
+"from": "nák thɔ̂ng thîao maa phʉ̂ʉa yon chǒom thá lee mɔ̀ɔk",
+"to": "nák thɔ̂ɔng thîiao maa phʉ̂ʉa yon chǒom thá lee mɔ̀ɔk",
+"reason": "見出しの読みと統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-44869#1",
+"field": "example.ro",
+"from": "khǎo sîn chon yàang sà ngòp mʉ̂ʉa aa yú kâo sìp pii",
+"to": "khǎo sîn chon yàang sà ngòp mʉ̂ʉa aa yú kâao sìp pii",
+"reason": "เก้า は長母音"
+},
+{
+"file": "more-examples.json",
+"key": "tl-44964#1",
+"field": "example.ro",
+"from": "nák thɔ̂ng thîao cam nuuan mâak maa chom phrá bɔɔ rom má hǎa râat chá wang",
+"to": "nák thɔ̂ɔng thîiao cam nuuan mâak maa chom phrá bɔɔ rom má hǎa râat chá wang",
+"reason": "見出しの読みと統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-45033#2",
+"field": "example.ro",
+"from": "khǎo dâi ráp bàat phlɛ̌ɛ chà kan thîi sǐi sà",
+"to": "khǎo dâai ráp bàat phlɛ̌ɛ chà kan thîi sǐi sà",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-45163#1",
+"field": "example.ro",
+"from": "mâi dâi cə̀ kan naan ləəi ná",
+"to": "mâi dâai cə̀ kan naan ləəi ná",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-45209#1",
+"field": "example.ro",
+"from": "nák thɔ̂ng thîao khâo chom tam nàk kào nai wang",
+"to": "nák thɔ̂ɔng thîiao khâo chom tam nàk kào nai wang",
+"reason": "見出しの読みと統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-45323#1",
+"field": "example.ro",
+"from": "mák khú thêet phaa nák thɔ̂ng thîao dəən chom wát",
+"to": "mák khú thêet phaa nák thɔ̂ɔng thîiao dəən chom wát",
+"reason": "見出しの読みと統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-45706#1",
+"field": "example.ro",
+"from": "pii níi thaang phâak tâai khɔ̌ɔng prà thêet thai mii fǒn tòk chúk mâak",
+"to": "pii níi thaang phâak tâi khɔ̌ɔng prà thêet thai mii fǒn tòk chúk mâak",
+"reason": "ใต้ は tâi"
+},
+{
+"file": "more-examples.json",
+"key": "tl-45792#1",
+"field": "example.ro",
+"from": "tà làat ngîiap ngǎo phrɔ́ mâi mii nák thɔ̂ng thîao",
+"to": "tà làat ngîiap ngǎo phrɔ́ mâi mii nák thɔ̂ɔng thîiao",
+"reason": "見出しの読みと統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-46521#1",
+"field": "example.ro",
+"from": "mɔ̀m chǎn mâi hěn dûuai ləəi thîi fàa phrá bàat cà sà dèt pai nai thîi an tà raai chên nán",
+"to": "mɔ̀ɔm chǎn mâi hěn dûuai ləəi thîi fàa phrá bàat cà sà dèt pai nai thîi an tà raai chên nán",
+"reason": "‑่อม は長母音（約束）"
+},
+{
+"file": "more-examples.json",
+"key": "tl-46788#1",
+"field": "example.ro",
+"from": "khǎo thùuk khá rá hǎa wâa chái ngən phìt prà phêet",
+"to": "khǎo thùuk khá rá hǎa wâa chái ngəən phìt prà phêet",
+"reason": "เงิน は長母音"
+},
+{
+"file": "more-examples.json",
+"key": "tl-47454#1",
+"field": "example.ro",
+"from": "nák thɔ̂ng thîao làng lǎi maa thîi kɔ̀ níi",
+"to": "nák thɔ̂ɔng thîiao làng lǎi maa thîi kɔ̀ níi",
+"reason": "見出しの読みと統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-47627#1",
+"field": "example.ro",
+"from": "dèk chaai lǎai khon ban phá chaa pen sǎa má neen nai chûuang pìt thəəm",
+"to": "dèk chaai lǎai khon ban phá chaa pen sǎam má neen nai chûuang pìt thəəm",
+"reason": "สาม の末子音"
+},
+{
+"file": "more-examples.json",
+"key": "tl-48207#1",
+"field": "example.ro",
+"from": "krà mɔ̀m khâo cai lɛ́ɛo phâ yâ khâ",
+"to": "krà mɔ̀ɔm khâo cai lɛ́ɛo phâ yâ khâ",
+"reason": "‑่อม は長母音（約束）"
+},
+{
+"file": "more-examples.json",
+"key": "tl-48504#1",
+"field": "example.ro",
+"from": "phí thii phrá râat chá thaan pà rin yaa bàt cà mii khʉ̂n nai dʉʉan ká rá kà daa khom níi",
+"to": "phí thii phrá râat chá thaan pà rin yaa bàt cà mii khʉ̂n nai dʉʉan kà rá kà daa khom níi",
+"reason": "กร は kà"
+},
+{
+"file": "more-examples.json",
+"key": "tl-47060#1",
+"field": "example.ro",
+"from": "thúk khon tɔ̂ɔng sǐia phaa sǐi ngən dâai",
+"to": "thúk khon tɔ̂ɔng sǐia phaa sǐi ngəən dâai",
+"reason": "เงิน は長母音"
+},
+{
+"file": "more-examples.json",
+"key": "tl-60007#1",
+"field": "example.ro",
+"from": "rʉ̂ʉang thîi fɛɛn khʉ̂n khà yòm mʉ̂ʉa khʉʉn mâi tɔ̂ng lâo kɔ̂ɔ dâai",
+"to": "rʉ̂ʉang thîi fɛɛn khʉ̂n khà yòm mʉ̂ʉa khʉʉn mâi tɔ̂ɔng lâo kɔ̂ɔ dâai",
+"reason": "‑้อง は長母音（約束）"
+},
+{
+"file": "more-examples.json",
+"key": "tl-51377#1",
+"field": "example.ro",
+"from": "yin dii thîi dâi rúu càk nîi naam bàt khɔ̌ɔng phǒm khráp",
+"to": "yin dii thîi dâai rúu càk nîi naam bàt khɔ̌ɔng phǒm khráp",
+"reason": "ได้ は dâai に統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-51754#1",
+"field": "example.ro",
+"from": "nák thɔ̂ng thîao dam náam duu nɛɛo pà kaa rang",
+"to": "nák thɔ̂ɔng thîiao dam náam duu nɛɛo pà kaa rang",
+"reason": "見出しの読みと統一"
+},
+{
+"file": "slang-examples.json",
+"key": "tl-10054#1",
+"field": "example.ro",
+"from": "khɛ̂ɛ thàai rûup eeng mâi tɔ̂ng lên yài",
+"to": "khɛ̂ɛ thàai rûup eeng mâi tɔ̂ɔng lên yài",
+"reason": "‑้อง は長母音（約束）"
+},
+{
+"file": "slang-examples.json",
+"key": "tl-10058#1",
+"field": "example.ro",
+"from": "phûut trong trong kɔ̂ɔ dâai mâi tɔ̂ng sɛ́",
+"to": "phûut trong trong kɔ̂ɔ dâai mâi tɔ̂ɔng sɛ́",
+"reason": "‑้อง は長母音（約束）"
+},
+{
+"file": "slang-examples.json",
+"key": "tl-10097#1",
+"field": "example.ro",
+"from": "mâi tɔ̂ng lâo lá ìiat khà nàat nán wâa sǐiao khɛ̂ɛ nǎi",
+"to": "mâi tɔ̂ɔng lâo lá ìiat khà nàat nán wâa sǐiao khɛ̂ɛ nǎi",
+"reason": "‑้อง は長母音（約束）"
+},
+{
+"file": "slang-examples.json",
+"key": "tl-10099#1",
+"field": "example.ro",
+"from": "mâi tɔ̂ng lâo wâa sèt tɔɔn nǎi kɔ̂ɔ dâai",
+"to": "mâi tɔ̂ɔng lâo wâa sèt tɔɔn nǎi kɔ̂ɔ dâai",
+"reason": "‑้อง は長母音（約束）"
+},
+{
+"file": "slang-examples.json",
+"key": "tl-10100#1",
+"field": "example.ro",
+"from": "mâi tɔ̂ng lâo wâa tɛ̀ɛk kìi rɔ̂ɔp kɔ̂ɔ dâai",
+"to": "mâi tɔ̂ɔng lâo wâa tɛ̀ɛk kìi rɔ̂ɔp kɔ̂ɔ dâai",
+"reason": "‑้อง は長母音（約束）"
+},
+{
+"file": "slang-examples.json",
+"key": "tl-10106#1",
+"field": "example.ro",
+"from": "rʉ̂ʉang cǔu kɔ̂ɔ mâi tɔ̂ng lâo thúk yàang kɔ̂ɔ dâai",
+"to": "rʉ̂ʉang cǔu kɔ̂ɔ mâi tɔ̂ɔng lâo thúk yàang kɔ̂ɔ dâai",
+"reason": "‑้อง は長母音（約束）"
+},
+{
+"file": "slang-examples.json",
+"key": "tl-20451#3",
+"field": "example.ro",
+"from": "ngaan níi mǔu mǔu mâi tɔ̂ng hùang",
+"to": "ngaan níi mǔu mǔu mâi tɔ̂ɔng hùang",
+"reason": "‑้อง は長母音（約束）"
+},
+{
+"file": "slang-examples.json",
+"key": "tl-20453#3",
+"field": "example.ro",
+"from": "ngaan níi tɔ̂ng chái sên",
+"to": "ngaan níi tɔ̂ɔng chái sên",
+"reason": "‑้อง は長母音（約束）"
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60049",
+"field": "speechText",
+"from": null,
+"to": "ต๊าด",
+"reason": "読み上げ音声が語末の ช をうまく読まないため、同じ発音の ต๊าด で読ませる（表示は ต๊าช のまま）"
+},
+{
+"file": "more-examples.json",
+"key": "tl-60049#1",
+"field": "example.speechText",
+"from": null,
+"to": "เพลงนี้ต๊าดมากแก",
+"reason": "同上"
+}
+]
