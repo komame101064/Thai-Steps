@@ -1,0 +1,626 @@
+[
+ {
+  "id": "tl-51571",
+  "verdict": "fix",
+  "issues": [
+   "noteの「タイで2番目に大きい島」は面積順位が資料により異なり確証がないため削除"
+  ],
+  "fixed": {
+   "id": "tl-51571",
+   "th": "เกาะช้าง",
+   "action": "add",
+   "ro": "kɔ̀ cháang",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "チャーン島（タイ東部トラート県の島）",
+     "en": "Ko Chang (island)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "เกาะ（島）＋ช้าง（象）。",
+     "example": {
+      "th": "เราจะไปเที่ยวเกาะช้างช่วงปีใหม่",
+      "ro": "rao cà pai thîiao kɔ̀ cháang chûuang pii mài",
+      "ja": "私たちは年末年始にチャーン島へ遊びに行きます。",
+      "en": "We will visit Ko Chang over the New Year.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51572",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51573",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51574",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51575",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51576",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51577",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51578",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51579",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51580",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51581",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51582",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51583",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51584",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51585",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51586",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51587",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51588",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51589",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51590",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51591",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51592",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51593",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51594",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51595",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51596",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51597",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51598",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51599",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51600",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51601",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51602",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51603",
+  "verdict": "reject",
+  "issues": [
+   "読みを確認できない：เบคอน の第2音節は綴りどおりなら khɔɔn（平声）だが、口語では下降声（เบค่อน 風）で言うことも多く、どちらが標準か確証がない"
+  ]
+ },
+ {
+  "id": "tl-51604",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51605",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51606",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51607",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51608",
+  "verdict": "reject",
+  "issues": [
+   "読みを確認できない：คอร์น は綴りどおりなら khɔɔn（平声）だが、外来語末尾として下降声で言う発音もあり確証がない（เบคอน と同じ判断）"
+  ]
+ },
+ {
+  "id": "tl-51609",
+  "verdict": "reject",
+  "issues": [
+   "読みを確認できない：เนส は綴りどおりなら nêet（下降声）だが、ro-lexicon は ซอส sɔ́ɔt・ชีส chíis のように外来語の -ส 末尾を高声で書いており、néet との判断がつかない"
+  ]
+ },
+ {
+  "id": "tl-51610",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51611",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51612",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51613",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51614",
+  "verdict": "reject",
+  "issues": [
+   "読み・表記を確認できない：表記が เอสเปรสโซ／เอสเปรสโซ่／เอสเพรสโซ่ に分かれ、最終音節も綴り soo と実際の発音（โซ่ sôo）が食い違う。同じ部のคาปูชิโน่・อเมริกาโน่ との整合も取れないため不採用"
+  ]
+ },
+ {
+  "id": "tl-51615",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51616",
+  "verdict": "reject",
+  "issues": [
+   "วิสกี้ の wít sà kîi は辞典の発音表記（วิด-สะ-กี้）と一致する標準的な読みで、noteで説明済みのため採用",
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-51617",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51618",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51619",
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-51620",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51621",
+  "verdict": "ok",
+  "issues": [
+   "พีช phíit は ซอส sɔ́ɔt・ชีส chíis と同様、外来語の高声表記として妥当"
+  ]
+ },
+ {
+  "id": "tl-51622",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51623",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51624",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51625",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51626",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51627",
+  "verdict": "fix",
+  "issues": [
+   "実際の表記は เมล่อน が一般的で、発音も下降声 lɔ̂ɔn。見出し・例文を เมล่อน／mee lɔ̂ɔn に変更し、เมลอน をnoteに移した"
+  ],
+  "fixed": {
+   "id": "tl-51627",
+   "th": "เมล่อน",
+   "action": "add",
+   "ro": "mee lɔ̂ɔn",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "メロン",
+     "en": "melon",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "辞書式の表記は เมลอน。赤肉種は แคนตาลูป とも呼ぶ。",
+     "example": {
+      "th": "เมล่อนญี่ปุ่นหวานและหอมมาก",
+      "ro": "mee lɔ̂ɔn yîi pùn wǎan lɛ́ hɔ̌ɔm mâak",
+      "ja": "日本のメロンはとても甘くて香りがいいです。",
+      "en": "Japanese melons are very sweet and fragrant.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51628",
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-51629",
+  "verdict": "ok",
+  "issues": [
+   "ผักโขม の語義（本来ヒユ菜、洋食ではほうれん草）はnoteで正しく説明されている"
+  ]
+ },
+ {
+  "id": "tl-51630",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51631",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51632",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51633",
+  "verdict": "fix",
+  "issues": [
+   "ปลั๊กพ่วง は日常の標準的な言い方で口語限定ではないため標準語に変更",
+   "noteの「改まった言い方は…รางปลั๊ก」は不正確（รางปลั๊ก も日常語）なので言い換えに修正"
+  ],
+  "fixed": {
+   "id": "tl-51633",
+   "th": "ปลั๊กพ่วง",
+   "action": "add",
+   "ro": "plák phûuang",
+   "kind": "word",
+   "category": "家・場所",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "延長コード・電源タップ",
+     "en": "extension cord, power strip",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "รางปลั๊ก（ไฟ）・ปลั๊กไฟต่อพ่วง とも言う。",
+     "example": {
+      "th": "ขอยืมปลั๊กพ่วงหน่อยได้ไหม",
+      "ro": "khɔ̌ɔ yʉʉm plák phûuang nɔ̀ɔi dâai mǎi",
+      "ja": "延長コードをちょっと貸してもらえますか？",
+      "en": "Can I borrow the extension cord?",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51634",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51635",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51636",
+  "verdict": "fix",
+  "issues": [
+   "น้ำอุ่น は น้ำร้อน náam rɔ́ɔn・น้ำเย็น náam yen と同じく名詞＋形容詞の句なので náam（lexicon・例文集の表記に合わせる）。見出し・例文のroを修正"
+  ],
+  "fixed": {
+   "id": "tl-51636",
+   "th": "เครื่องทำน้ำอุ่น",
+   "action": "add",
+   "ro": "khrʉ̂ʉang tham náam ùn",
+   "kind": "word",
+   "category": "家・場所",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "給湯器・電気シャワーヒーター",
+     "en": "water heater (for showers)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เครื่องทำน้ำอุ่นในห้องน้ำเสีย",
+      "ro": "khrʉ̂ʉang tham náam ùn nai hɔ̂ɔng náam sǐia",
+      "ja": "浴室のシャワーヒーターが壊れています。",
+      "en": "The water heater in the bathroom is broken.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51637",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51638",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51639",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51640",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51641",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51642",
+  "verdict": "reject",
+  "issues": [
+   "重複：ไม้ขีดไฟ は頻度リスト側（part-11, tl-28374）で既に採用済み"
+  ]
+ },
+ {
+  "id": "tl-51643",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51644",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51645",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51646",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51647",
+  "verdict": "reject",
+  "issues": [
+   "重複：ทัพพี は頻度リスト側（part-12, tl-28473）で既に採用済み"
+  ]
+ },
+ {
+  "id": "tl-51648",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51649",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51650",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51651",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51652",
+  "verdict": "ok",
+  "issues": [
+   "บูท bùut は ro-lexicon の บาส bàat と同じ綴りどおりの低声で妥当。บู๊ท の異表記もnoteで説明済み"
+  ]
+ },
+ {
+  "id": "tl-51653",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51654",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51655",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51656",
+  "verdict": "reject",
+  "issues": [
+   "重複：สะดือ は頻度リスト側（part-15, tl-28892）で既に採用済み"
+  ]
+ },
+ {
+  "id": "tl-51657",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51658",
+  "verdict": "reject",
+  "issues": [
+   "重複：น่อง は頻度リスト側（part-12, tl-28485）で既に採用済み"
+  ]
+ },
+ {
+  "id": "tl-51659",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51660",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51661",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51662",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51663",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51664",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51665",
+  "verdict": "ok",
+  "issues": []
+ }
+]

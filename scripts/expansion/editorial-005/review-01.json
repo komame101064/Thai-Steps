@@ -158,43 +158,18 @@
  },
  {
   "id": "tl-51023",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
  },
  {
   "id": "tl-51024",
-  "verdict": "fix",
+  "verdict": "reject",
   "issues": [
-   "語義「ジョーク」は日本語で冗談と紛らわしいため「お粥」に変更"
-  ],
-  "fixed": {
-   "id": "tl-51024",
-   "th": "โจ๊ก",
-   "action": "add",
-   "ro": "cóok",
-   "kind": "word",
-   "category": "食べ物・飲み物",
-   "frequency": 6,
-   "senses": [
-    {
-     "sourceSense": 1,
-     "ja": "お粥（米粒が崩れるまで煮たとろとろの粥）",
-     "en": "rice porridge, congee",
-     "pos": "名詞",
-     "use": "よく使う意味",
-     "registerTags": [],
-     "speechStyle": "標準語（口語限定ではない）",
-     "example": {
-      "th": "ตอนเช้าฉันชอบกินโจ๊กหมู",
-      "ro": "tɔɔn cháao chǎn chɔ̂ɔp kin cóok mǔu",
-      "ja": "朝は豚肉入りのお粥を食べるのが好きです。",
-      "en": "In the morning I like to eat pork congee.",
-      "origin": "authored"
-     }
-    }
-   ],
-   "note": "米粒が崩れるまで煮込んだとろとろの粥。米粒の形が残るスープ状の粥は ข้าวต้ม。"
-  }
+   "語義「ジョーク」は日本語で冗談と紛らわしいため「お粥」に変更",
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
  },
  {
   "id": "tl-51025",
@@ -223,8 +198,10 @@
  },
  {
   "id": "tl-51030",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
  },
  {
   "id": "tl-51031",
@@ -293,8 +270,10 @@
  },
  {
   "id": "tl-51044",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
  },
  {
   "id": "tl-51045",
@@ -333,8 +312,10 @@
  },
  {
   "id": "tl-51052",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
  },
  {
   "id": "tl-51053",
@@ -343,8 +324,10 @@
  },
  {
   "id": "tl-51054",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
  },
  {
   "id": "tl-51055",
@@ -443,38 +426,11 @@
  },
  {
   "id": "tl-51074",
-  "verdict": "fix",
+  "verdict": "reject",
   "issues": [
-   "語義「熱のある風邪」は限定しすぎ。ไข้หวัด は一般に風邪を指す"
-  ],
-  "fixed": {
-   "id": "tl-51074",
-   "th": "ไข้หวัด",
-   "action": "add",
-   "ro": "khâi wàt",
-   "kind": "word",
-   "category": "体・健康",
-   "frequency": 6,
-   "senses": [
-    {
-     "sourceSense": 1,
-     "ja": "風邪",
-     "en": "common cold",
-     "pos": "名詞",
-     "use": "よく使う意味",
-     "registerTags": [],
-     "speechStyle": "標準語（口語限定ではない）",
-     "example": {
-      "th": "ลูกเป็นไข้หวัดเลยไม่ได้ไปโรงเรียน",
-      "ro": "lûuk pen khâi wàt ləəi mâi dâai pai roong riian",
-      "ja": "子どもが風邪をひいたので学校へ行けませんでした。",
-      "en": "My child had a cold, so he didn't go to school.",
-      "origin": "authored"
-     }
-    }
-   ],
-   "note": "インフルエンザは ไข้หวัดใหญ่。"
-  }
+   "語義「熱のある風邪」は限定しすぎ。ไข้หวัด は一般に風邪を指す",
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
  },
  {
   "id": "tl-51075",
@@ -528,8 +484,10 @@
  },
  {
   "id": "tl-51079",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
  },
  {
   "id": "tl-51080",
@@ -548,8 +506,10 @@
  },
  {
   "id": "tl-51083",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
  },
  {
   "id": "tl-51084",

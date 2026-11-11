@@ -96,8 +96,10 @@
  },
  {
   "id": "tl-51109",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
  },
  {
   "id": "tl-51110",
@@ -203,8 +205,10 @@
  },
  {
   "id": "tl-51130",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
  },
  {
   "id": "tl-51131",
@@ -223,37 +227,11 @@
  },
  {
   "id": "tl-51134",
-  "verdict": "fix",
+  "verdict": "reject",
   "issues": [
-   "ออส は中子音＋長母音の閉音節で低声（辞書の読みもออด-สะ-เตฺร-เลีย）。ɔ́ɔt→ɔ̀ɔt（見出し・例文）"
-  ],
-  "fixed": {
-   "id": "tl-51134",
-   "th": "ออสเตรเลีย",
-   "action": "add",
-   "ro": "ɔ̀ɔt sà tree liia",
-   "kind": "word",
-   "category": "社会・制度",
-   "frequency": 4,
-   "senses": [
-    {
-     "sourceSense": 1,
-     "ja": "オーストラリア",
-     "en": "Australia",
-     "pos": "名詞",
-     "use": "よく使う意味",
-     "registerTags": [],
-     "speechStyle": "標準語（口語限定ではない）",
-     "example": {
-      "th": "น้องชายไปเรียนที่ออสเตรเลีย",
-      "ro": "nɔ́ɔng chaai pai riian thîi ɔ̀ɔt sà tree liia",
-      "ja": "弟はオーストラリアへ留学しました。",
-      "en": "My younger brother went to study in Australia.",
-      "origin": "authored"
-     }
-    }
-   ]
-  }
+   "ออส は中子音＋長母音の閉音節で低声（辞書の読みもออด-สะ-เตฺร-เลีย）。ɔ́ɔt→ɔ̀ɔt（見出し・例文）",
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
  },
  {
   "id": "tl-51135",
@@ -357,8 +335,10 @@
  },
  {
   "id": "tl-51149",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
  },
  {
   "id": "tl-51150",
@@ -436,13 +416,17 @@
  },
  {
   "id": "tl-51159",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
  },
  {
   "id": "tl-51160",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
  },
  {
   "id": "tl-51161",
