@@ -1,0 +1,614 @@
+[
+ {
+  "id": "tl-21422",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21434",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21439",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21451",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21452",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21456",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21460",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21462",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21480",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21485",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21488",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21491",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21492",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21514",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認：แต่ง は語彙集の表記 tɛ̀ng（短母音）に合わせた phûu tɛ̀ng で正しい。修正不要。"
+  ]
+ },
+ {
+  "id": "tl-21515",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21526",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21531",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21539",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21541",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21544",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21572",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21573",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21580",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21583",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21594",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21597",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21600",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21607",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21612",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21616",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21624",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21629",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21634",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21636",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21640",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21641",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21647",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21648",
+  "verdict": "fix",
+  "issues": [
+   "例文で国王の類別詞が องค์ になっていた。国王には พระองค์ を使うのが正しく、同じ文の สองพระองค์ とも不統一だったため กษัตริย์พระองค์นั้น に修正（roも対応）。"
+  ],
+  "fixed": {
+   "id": "tl-21648",
+   "th": "โอรส",
+   "action": "add",
+   "ro": "oo rót",
+   "kind": "word",
+   "category": "人・家族",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "王子・ご子息（王族の息子）",
+     "en": "son (of royalty), prince",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "royal"
+     ],
+     "speechStyle": "王室の敬語",
+     "note": "ふつう พระโอรส・พระราชโอรส の形で使う王室用語。",
+     "example": {
+      "th": "กษัตริย์พระองค์นั้นมีพระโอรสสองพระองค์",
+      "ro": "kà sàt phrá ong nán mii phrá oo rót sɔ̌ɔng phrá ong",
+      "ja": "その王には王子がお二人いらっしゃいました。",
+      "en": "That king had two sons.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-21649",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21653",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21659",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21661",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認：出典の読み sǎn-tey:-hà は別語（สันเทหะ）の誤り。綴りどおり sǎn thaan の2音節が正しい。修正不要。"
+  ]
+ },
+ {
+  "id": "tl-21672",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21673",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認：แผ่น は語彙集の表記 phɛ̀n に一致。phrá câao phɛ̀n din で正しい。修正不要。"
+  ]
+ },
+ {
+  "id": "tl-21677",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21679",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21680",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21684",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21687",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21690",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21698",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21700",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21702",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21710",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21711",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21714",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21715",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21722",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21730",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21748",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21758",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21767",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21770",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21777",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21788",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21792",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21800",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21804",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21813",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21820",
+  "verdict": "fix",
+  "issues": [
+   "語義2の例文の和訳「前歯は少し歯並びが曲がっています」が不自然な日本語だったため修正。"
+  ],
+  "fixed": {
+   "id": "tl-21820",
+   "th": "เก",
+   "action": "add",
+   "ro": "kee",
+   "kind": "word",
+   "category": "性質・状態",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "素行が悪い・不良の",
+     "en": "delinquent, unruly, badly behaved",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาเคยเป็นเด็กเกตอนเรียนมัธยม",
+      "ro": "khǎo khəəi pen dèk kee tɔɔn riian mát thá yom",
+      "ja": "あの人は中学・高校のころ不良でした。",
+      "en": "He used to be a delinquent kid in secondary school.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（歯・脚などが）曲がっている・歪んでいる",
+     "en": "crooked, out of line (teeth, legs)",
+     "pos": "形容詞・状態語",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฟันหน้าของเขาเกนิดหน่อย",
+      "ro": "fan nâa khɔ̌ɔng khǎo kee nít nɔ̀ɔi",
+      "ja": "あの人の前歯は少し曲がって生えています。",
+      "en": "His front teeth are a little crooked.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-21833",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21835",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21851",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21853",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21858",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21871",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21873",
+  "verdict": "fix",
+  "issues": [
+   "注記の「กระโจน の短い形」という語形成上の断定は裏付けがないため、意味が近い語という説明に改めた。"
+  ],
+  "fixed": {
+   "id": "tl-21873",
+   "th": "โจน",
+   "action": "add",
+   "ro": "coon",
+   "kind": "word",
+   "category": "日常の動作",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "飛び込む・跳びかかる",
+     "en": "to leap, jump, plunge",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "กระโจน とほぼ同じ意味の語で、日常では กระโจน・กระโดด のほうがよく使われる。",
+     "example": {
+      "th": "เด็กๆ โจนลงน้ำอย่างสนุกสนาน",
+      "ro": "dèk dèk coon long náam yàang sà nùk sà nǎan",
+      "ja": "子どもたちは楽しそうに水へ飛び込みました。",
+      "en": "The children leapt into the water merrily.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-21878",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21884",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21886",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21889",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21894",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21899",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21901",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21903",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21910",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21916",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21918",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21921",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21923",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21938",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21939",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認：แจ่ม cɛ̀m・แจ้ง cɛ̂ɛng はいずれも語彙集の表記どおり。修正不要。"
+  ]
+ },
+ {
+  "id": "tl-21946",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21956",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21961",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21966",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21967",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21968",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21969",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21975",
+  "verdict": "ok",
+  "issues": []
+ }
+]
