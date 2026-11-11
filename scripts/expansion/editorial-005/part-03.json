@@ -1,0 +1,2599 @@
+[
+ {
+  "id": "tl-51191",
+  "th": "คนเขมร",
+  "action": "add",
+  "ro": "khon khà měen",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "カンボジア人・クメール人",
+    "en": "Cambodian, Khmer person",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ที่ตลาดนี้มีคนเขมรมาทำงานเยอะ",
+     "ro": "thîi tà làat níi mii khon khà měen maa tham ngaan yə́",
+     "ja": "この市場ではカンボジア人がたくさん働いています。",
+     "en": "Many Cambodians work at this market.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会話ではこの言い方が普通。改まった言い方は ชาวกัมพูชา。"
+ },
+ {
+  "id": "tl-51192",
+  "th": "คนเวียดนาม",
+  "action": "add",
+  "ro": "khon wîiat naam",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ベトナム人",
+    "en": "Vietnamese person",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เพื่อนของฉันเป็นคนเวียดนาม",
+     "ro": "phʉ̂ʉan khɔ̌ɔng chǎn pen khon wîiat naam",
+     "ja": "私の友達はベトナム人です。",
+     "en": "My friend is Vietnamese.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51193",
+  "th": "คนอินเดีย",
+  "action": "add",
+  "ro": "khon in diia",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "インド人",
+    "en": "Indian person",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เจ้าของร้านนี้เป็นคนอินเดีย",
+     "ro": "câo khɔ̌ɔng ráan níi pen khon in diia",
+     "ja": "この店のオーナーはインド人です。",
+     "en": "The owner of this shop is Indian.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51194",
+  "th": "คนอีสาน",
+  "action": "add",
+  "ro": "khon ii sǎan",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "イサーン（タイ東北部）の人",
+    "en": "person from Isan (Northeast Thailand)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คนอีสานชอบกินข้าวเหนียว",
+     "ro": "khon ii sǎan chɔ̂ɔp kin khâao nǐiao",
+     "ja": "イサーンの人はもち米を好んで食べます。",
+     "en": "People from Isan like to eat sticky rice.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51195",
+  "th": "คนกรุงเทพฯ",
+  "action": "add",
+  "ro": "khon krung thêep",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "バンコクの人・バンコク出身者",
+    "en": "Bangkokian, person from Bangkok",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาเป็นคนกรุงเทพฯ แต่ทำงานที่เชียงใหม่",
+     "ro": "khǎo pen khon krung thêep tɛ̀ɛ tham ngaan thîi chiiang mài",
+     "ja": "彼はバンコクの人ですが、チェンマイで働いています。",
+     "en": "He is from Bangkok but works in Chiang Mai.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ฯ は省略記号で読まない。ฯ なしで คนกรุงเทพ とも書く。"
+ },
+ {
+  "id": "tl-51196",
+  "th": "คนต่างจังหวัด",
+  "action": "add",
+  "ro": "khon tàang cang wàt",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "地方の人・地方出身者（バンコク以外の県の人）",
+    "en": "person from the provinces (outside Bangkok)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ในกรุงเทพฯ มีคนต่างจังหวัดมาทำงานเยอะ",
+     "ro": "nai krung thêep mii khon tàang cang wàt maa tham ngaan yə́",
+     "ja": "バンコクには地方から働きに来た人が多くいます。",
+     "en": "Many people from the provinces come to work in Bangkok.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51197",
+  "th": "ชาวญี่ปุ่น",
+  "action": "add",
+  "ro": "chaao yîi pùn",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "日本人（改まった言い方）",
+    "en": "Japanese (people), Japanese national",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "มีชาวญี่ปุ่นอาศัยอยู่ในกรุงเทพฯ หลายหมื่นคน",
+     "ro": "mii chaao yîi pùn aa sǎi yùu nai krung thêep lǎai mʉ̀ʉn khon",
+     "ja": "バンコクには数万人の日本人が住んでいます。",
+     "en": "Tens of thousands of Japanese people live in Bangkok.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ニュースや文章で使う言い方。会話では คนญี่ปุ่น が普通。"
+ },
+ {
+  "id": "tl-51198",
+  "th": "ชาวไทย",
+  "action": "add",
+  "ro": "chaao thai",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "タイ人・タイ国民（改まった言い方）",
+    "en": "Thai people, Thai nationals",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ชาวไทยส่วนใหญ่นับถือศาสนาพุทธ",
+     "ro": "chaao thai sùuan yài náp thʉ̌ʉ sàat sà nǎa phút",
+     "ja": "タイ人の大部分は仏教を信仰しています。",
+     "en": "Most Thai people are Buddhists.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ニュースや文章で使う言い方。会話では คนไทย が普通。"
+ },
+ {
+  "id": "tl-51199",
+  "th": "ลูกครึ่ง",
+  "action": "add",
+  "ro": "lûuk khrʉ̂ng",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ハーフ・混血の人",
+    "en": "person of mixed race/nationality",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาเป็นลูกครึ่งไทยญี่ปุ่น",
+     "ro": "khǎo pen lûuk khrʉ̂ng thai yîi pùn",
+     "ja": "彼はタイと日本のハーフです。",
+     "en": "He is half Thai, half Japanese.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51200",
+  "th": "บะหมี่กึ่งสำเร็จรูป",
+  "action": "add",
+  "ro": "bà mìi kʉ̀ng sǎm rèt rûup",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "インスタントラーメン・即席麺",
+    "en": "instant noodles",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตอนดึกฉันชอบกินบะหมี่กึ่งสำเร็จรูป",
+     "ro": "tɔɔn dʉ̀k chǎn chɔ̂ɔp kin bà mìi kʉ̀ng sǎm rèt rûup",
+     "ja": "夜遅くにインスタントラーメンを食べるのが好きです。",
+     "en": "I like eating instant noodles late at night.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "日常会話では代表的な商品名で มาม่า と呼ぶことが多い。"
+ },
+ {
+  "id": "tl-51201",
+  "th": "ราดหน้า",
+  "action": "add",
+  "ro": "râat nâa",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ラートナー（太麺などにあんをかけた料理）",
+    "en": "rad na (noodles in thick gravy)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขอราดหน้าหมูหนึ่งจานครับ",
+     "ro": "khɔ̌ɔ râat nâa mǔu nʉ̀ng caan khráp",
+     "ja": "豚肉のラートナーを一皿ください。",
+     "en": "One plate of pork rad na, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51202",
+  "th": "ผัดซีอิ๊ว",
+  "action": "add",
+  "ro": "phàt sii íu",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "パッシーイウ（麺の醤油炒め）",
+    "en": "pad see ew (noodles stir-fried in soy sauce)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผัดซีอิ๊วร้านนี้อร่อยมาก",
+     "ro": "phàt sii íu ráan níi à rɔ̀ɔi mâak",
+     "ja": "この店のパッシーイウはとてもおいしいです。",
+     "en": "The pad see ew at this shop is very good.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51203",
+  "th": "ข้าวขาหมู",
+  "action": "add",
+  "ro": "khâao khǎa mǔu",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "カオカームー（豚足煮込みのせご飯）",
+    "en": "stewed pork leg on rice",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านข้าวขาหมูนี้คนเยอะทุกวัน",
+     "ro": "ráan khâao khǎa mǔu níi khon yə́ thúk wan",
+     "ja": "このカオカームーの店は毎日混んでいます。",
+     "en": "This stewed pork leg rice shop is crowded every day.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51204",
+  "th": "ข้าวหมูแดง",
+  "action": "add",
+  "ro": "khâao mǔu dɛɛng",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "カオムーデーン（焼き豚のせご飯）",
+    "en": "red barbecued pork on rice",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เที่ยงนี้ฉันจะกินข้าวหมูแดง",
+     "ro": "thîiang níi chǎn cà kin khâao mǔu dɛɛng",
+     "ja": "今日の昼はカオムーデーンを食べます。",
+     "en": "I'll have red pork rice for lunch today.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51205",
+  "th": "ข้าวไข่เจียว",
+  "action": "add",
+  "ro": "khâao khài ciiao",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "カオカイチアオ（タイ風卵焼きのせご飯）",
+    "en": "Thai omelette on rice",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ข้าวไข่เจียวเป็นอาหารง่ายๆ ที่ทำเองได้",
+     "ro": "khâao khài ciiao pen aa hǎan ngâai ngâai thîi tham eeng dâai",
+     "ja": "カオカイチアオは自分で作れる簡単な料理です。",
+     "en": "Omelette on rice is a simple dish you can make yourself.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51206",
+  "th": "ไข่ลวก",
+  "action": "add",
+  "ro": "khài lûuak",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "半熟卵（軽くゆでた卵）",
+    "en": "soft-boiled egg",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตอนเช้าเขากินไข่ลวกกับขนมปัง",
+     "ro": "tɔɔn cháao khǎo kin khài lûuak kàp khà nǒm pang",
+     "ja": "朝、彼は半熟卵とパンを食べます。",
+     "en": "In the morning he eats soft-boiled eggs with bread.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "タイでは殻から器に出し、醤油やこしょうをかけて食べることが多い。"
+ },
+ {
+  "id": "tl-51207",
+  "th": "ต้มข่าไก่",
+  "action": "add",
+  "ro": "tôm khàa kài",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "トムカーガイ（鶏肉とココナッツミルクのスープ）",
+    "en": "tom kha gai (chicken coconut soup with galangal)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ต้มข่าไก่ไม่ค่อยเผ็ด",
+     "ro": "tôm khàa kài mâi khɔ̂ɔi phèt",
+     "ja": "トムカーガイはあまり辛くありません。",
+     "en": "Tom kha gai is not very spicy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51208",
+  "th": "แกงแดง",
+  "action": "add",
+  "ro": "kɛɛng dɛɛng",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "レッドカレー",
+    "en": "red curry",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันสั่งแกงแดงไก่กับข้าว",
+     "ro": "chǎn sàng kɛɛng dɛɛng kài kàp khâao",
+     "ja": "鶏肉のレッドカレーとご飯を注文しました。",
+     "en": "I ordered chicken red curry with rice.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51209",
+  "th": "แกงมัสมั่น",
+  "action": "add",
+  "ro": "kɛɛng mát sà mân",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "マッサマンカレー",
+    "en": "massaman curry",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แกงมัสมั่นมีรสหวานและไม่เผ็ด",
+     "ro": "kɛɛng mát sà mân mii rót wǎan lɛ́ mâi phèt",
+     "ja": "マッサマンカレーは甘い味で、辛くありません。",
+     "en": "Massaman curry tastes sweet and is not spicy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51210",
+  "th": "หมูย่าง",
+  "action": "add",
+  "ro": "mǔu yâang",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ムーヤーン（豚肉の焼き物・焼き豚肉）",
+    "en": "grilled pork",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หมูย่างกับข้าวเหนียวอร่อยมาก",
+     "ro": "mǔu yâang kàp khâao nǐiao à rɔ̀ɔi mâak",
+     "ja": "焼いた豚肉ともち米はとてもおいしいです。",
+     "en": "Grilled pork with sticky rice is delicious.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51211",
+  "th": "ชาบู",
+  "action": "add",
+  "ro": "chaa buu",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "しゃぶしゃぶ（鍋料理）",
+    "en": "shabu-shabu (hot pot)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วันเสาร์เราไปกินชาบูกัน",
+     "ro": "wan sǎo rao pai kin chaa buu kan",
+     "ja": "土曜日にみんなでしゃぶしゃぶを食べに行こう。",
+     "en": "Let's go eat shabu on Saturday.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "日本語から。タイでは食べ放題の鍋料理店を広く指して使う。"
+ },
+ {
+  "id": "tl-51212",
+  "th": "สุกี้",
+  "action": "add",
+  "ro": "sù kîi",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "タイスキ（タイ式の鍋料理）",
+    "en": "Thai suki (hot pot)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เย็นนี้ไปกินสุกี้กันไหม",
+     "ro": "yen níi pai kin sù kîi kan mǎi",
+     "ja": "今晩、タイスキを食べに行かない？",
+     "en": "Shall we go eat suki this evening?",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "日本のすき焼きとは別物。屋台の汁入り炒め麺 สุกี้น้ำ・สุกี้แห้ง も指す。"
+ },
+ {
+  "id": "tl-51213",
+  "th": "ปิ้งย่าง",
+  "action": "add",
+  "ro": "pîng yâang",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "焼肉・バーベキュー（網焼き料理）",
+    "en": "barbecue, grilled meat",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านปิ้งย่างแถวนี้คนเยอะ",
+     "ro": "ráan pîng yâang thɛ̌ɛo níi khon yə́",
+     "ja": "この辺の焼肉店は混んでいます。",
+     "en": "The barbecue restaurants around here are crowded.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "「網で焼く」という動詞としても使う。"
+ },
+ {
+  "id": "tl-51214",
+  "th": "หมูทอด",
+  "action": "add",
+  "ro": "mǔu thɔ̂ɔt",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "豚肉の揚げ物・揚げ豚",
+    "en": "fried pork",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลูกชอบกินหมูทอดกับข้าวเหนียว",
+     "ro": "lûuk chɔ̂ɔp kin mǔu thɔ̂ɔt kàp khâao nǐiao",
+     "ja": "子どもは揚げた豚肉ともち米が好きです。",
+     "en": "My child likes fried pork with sticky rice.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51215",
+  "th": "ปลาทอด",
+  "action": "add",
+  "ro": "plaa thɔ̂ɔt",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "揚げ魚・魚のフライ",
+    "en": "fried fish",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ปลาทอดจานนี้กรอบมาก",
+     "ro": "plaa thɔ̂ɔt caan níi krɔ̀ɔp mâak",
+     "ja": "この揚げ魚はとてもカリカリです。",
+     "en": "This fried fish is very crispy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51216",
+  "th": "ปอเปี๊ยะ",
+  "action": "add",
+  "ro": "pɔɔ pía",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "春巻き",
+    "en": "spring roll",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันซื้อปอเปี๊ยะทอดที่ตลาด",
+     "ro": "chǎn sʉ́ʉ pɔɔ pía thɔ̂ɔt thîi tà làat",
+     "ja": "市場で揚げ春巻きを買いました。",
+     "en": "I bought fried spring rolls at the market.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "揚げ春巻きは ปอเปี๊ยะทอด、生春巻きは ปอเปี๊ยะสด。"
+ },
+ {
+  "id": "tl-51217",
+  "th": "ซาลาเปา",
+  "action": "add",
+  "ro": "saa laa pao",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "中華まん（肉まん・あんまん）",
+    "en": "steamed bun (bao)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันซื้อซาลาเปาที่ร้านสะดวกซื้อ",
+     "ro": "chǎn sʉ́ʉ saa laa pao thîi ráan sà dùuak sʉ́ʉ",
+     "ja": "コンビニで中華まんを買いました。",
+     "en": "I bought a steamed bun at the convenience store.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51218",
+  "th": "เกี๊ยว",
+  "action": "add",
+  "ro": "kíiao",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ワンタン",
+    "en": "wonton, dumpling",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขอบะหมี่เกี๊ยวหนึ่งชามครับ",
+     "ro": "khɔ̌ɔ bà mìi kíiao nʉ̀ng chaam khráp",
+     "ja": "ワンタン麺を一杯ください。",
+     "en": "One bowl of wonton noodles, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51219",
+  "th": "หมูสับ",
+  "action": "add",
+  "ro": "mǔu sàp",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "豚ひき肉",
+    "en": "minced pork",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันใส่หมูสับในไข่เจียว",
+     "ro": "chǎn sài mǔu sàp nai khài ciiao",
+     "ja": "タイ風卵焼きに豚ひき肉を入れました。",
+     "en": "I put minced pork in the omelette.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51220",
+  "th": "หมูกรอบ",
+  "action": "add",
+  "ro": "mǔu krɔ̀ɔp",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ムークロップ（皮をカリカリに揚げた豚バラ肉）",
+    "en": "crispy pork belly",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขอกะเพราหมูกรอบไข่ดาวครับ",
+     "ro": "khɔ̌ɔ kà phrao mǔu krɔ̀ɔp khài daao khráp",
+     "ja": "カリカリ豚のガパオ炒めに目玉焼きをのせてください。",
+     "en": "Crispy pork with holy basil and a fried egg, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51221",
+  "th": "หมูแดง",
+  "action": "add",
+  "ro": "mǔu dɛɛng",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ムーデーン（赤い焼き豚・チャーシュー）",
+    "en": "red barbecued pork, char siu",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หมูแดงร้านนี้หวานนิดหน่อย",
+     "ro": "mǔu dɛɛng ráan níi wǎan nít nɔ̀ɔi",
+     "ja": "この店の焼き豚は少し甘めです。",
+     "en": "The red pork at this shop is a little sweet.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51222",
+  "th": "หมูสามชั้น",
+  "action": "add",
+  "ro": "mǔu sǎam chán",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "豚バラ肉",
+    "en": "pork belly",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หมูสามชั้นมีมันเยอะ",
+     "ro": "mǔu sǎam chán mii man yə́",
+     "ja": "豚バラ肉は脂が多いです。",
+     "en": "Pork belly has a lot of fat.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51223",
+  "th": "อกไก่",
+  "action": "add",
+  "ro": "òk kài",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "鶏むね肉",
+    "en": "chicken breast",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คนที่ลดน้ำหนักชอบกินอกไก่",
+     "ro": "khon thîi lót nám nàk chɔ̂ɔp kin òk kài",
+     "ja": "ダイエット中の人は鶏むね肉をよく食べます。",
+     "en": "People on a diet like to eat chicken breast.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51224",
+  "th": "ปีกไก่",
+  "action": "add",
+  "ro": "pìik kài",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "鶏の手羽（手羽先・手羽元）",
+    "en": "chicken wing",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ปีกไก่ทอดจานนี้อร่อยมาก",
+     "ro": "pìik kài thɔ̂ɔt caan níi à rɔ̀ɔi mâak",
+     "ja": "この手羽の唐揚げはとてもおいしいです。",
+     "en": "These fried chicken wings are delicious.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51225",
+  "th": "หอยนางรม",
+  "action": "add",
+  "ro": "hɔ̌ɔi naang rom",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "カキ（牡蠣）",
+    "en": "oyster",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หอยนางรมที่นี่สดมาก",
+     "ro": "hɔ̌ɔi naang rom thîi nîi sòt mâak",
+     "ja": "ここのカキはとても新鮮です。",
+     "en": "The oysters here are very fresh.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51226",
+  "th": "ปลาแซลมอน",
+  "action": "add",
+  "ro": "plaa sɛo mɔ̂n",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "サーモン・サケ",
+    "en": "salmon",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลูกชอบกินปลาแซลมอนย่าง",
+     "ro": "lûuk chɔ̂ɔp kin plaa sɛo mɔ̂n yâang",
+     "ja": "子どもは焼いたサーモンが好きです。",
+     "en": "My child likes grilled salmon.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ปลา を付けずに แซลมอน とも言う。"
+ },
+ {
+  "id": "tl-51227",
+  "th": "ปลาทูน่า",
+  "action": "add",
+  "ro": "plaa thuu nâa",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "マグロ・ツナ",
+    "en": "tuna",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันซื้อปลาทูน่ากระป๋องมาทำสลัด",
+     "ro": "chǎn sʉ́ʉ plaa thuu nâa krà pɔ̌ɔng maa tham sà làt",
+     "ja": "サラダを作るためにツナ缶を買ってきました。",
+     "en": "I bought canned tuna to make a salad.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ปลา を付けずに ทูน่า とも言う。"
+ },
+ {
+  "id": "tl-51228",
+  "th": "ปลาทู",
+  "action": "add",
+  "ro": "plaa thuu",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "プラートゥー（タイでよく食べるサバ科の小魚）",
+    "en": "short mackerel (Thai mackerel)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แม่ทอดปลาทูให้กินกับข้าว",
+     "ro": "mɛ̂ɛ thɔ̂ɔt plaa thuu hâi kin kàp khâao",
+     "ja": "母がご飯と一緒に食べるようにプラートゥーを揚げてくれました。",
+     "en": "Mom fried mackerel for us to eat with rice.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51229",
+  "th": "ราเมน",
+  "action": "add",
+  "ro": "raa men",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ラーメン（日本式）",
+    "en": "ramen",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านราเมนนี้ต้องต่อคิวนาน",
+     "ro": "ráan raa men níi tɔ̂ɔng tɔ̀ɔ khiu naan",
+     "ja": "このラーメン店は長く並ばないといけません。",
+     "en": "You have to queue a long time at this ramen shop.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ราเม็ง とも書く。タイの麺料理一般は ก๋วยเตี๋ยว・บะหมี่。"
+ },
+ {
+  "id": "tl-51230",
+  "th": "แฮมเบอร์เกอร์",
+  "action": "add",
+  "ro": "hɛm bəə kə̂ə",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ハンバーガー",
+    "en": "hamburger",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เด็กๆ อยากกินแฮมเบอร์เกอร์",
+     "ro": "dèk dèk yàak kin hɛm bəə kə̂ə",
+     "ja": "子どもたちはハンバーガーを食べたがっています。",
+     "en": "The kids want to eat hamburgers.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "略して เบอร์เกอร์ とも言う。"
+ },
+ {
+  "id": "tl-51231",
+  "th": "สปาเกตตี",
+  "action": "add",
+  "ro": "sà paa kèt tîi",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "スパゲッティ",
+    "en": "spaghetti",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันทำสปาเกตตีให้ลูกกิน",
+     "ro": "chǎn tham sà paa kèt tîi hâi lûuk kin",
+     "ja": "子どもにスパゲッティを作ってあげました。",
+     "en": "I made spaghetti for my child.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "สปาเก็ตตี้ と書くことも多い。表記に声調記号がなくても末尾は下降調で発音されるのが普通。"
+ },
+ {
+  "id": "tl-51232",
+  "th": "สเต๊ก",
+  "action": "add",
+  "ro": "sà ték",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ステーキ",
+    "en": "steak",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้สเต๊กเนื้อราคาไม่แพง",
+     "ro": "ráan níi sà ték nʉ́ʉa raa khaa mâi phɛɛng",
+     "ja": "この店はビーフステーキが高くありません。",
+     "en": "Beef steak at this restaurant isn't expensive.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "สเต็ก とも書く。"
+ },
+ {
+  "id": "tl-51233",
+  "th": "ขนมปังปิ้ง",
+  "action": "add",
+  "ro": "khà nǒm pang pîng",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "トースト（焼いたパン）",
+    "en": "toast",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตอนเช้าฉันกินขนมปังปิ้งกับกาแฟ",
+     "ro": "tɔɔn cháao chǎn kin khà nǒm pang pîng kàp kaa fɛɛ",
+     "ja": "朝はトーストとコーヒーをとります。",
+     "en": "In the morning I have toast and coffee.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51234",
+  "th": "อาหารจีน",
+  "action": "add",
+  "ro": "aa hǎan ciin",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "中華料理",
+    "en": "Chinese food",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พ่อชอบกินอาหารจีนมากกว่าอาหารไทย",
+     "ro": "phɔ̂ɔ chɔ̂ɔp kin aa hǎan ciin mâak kwàa aa hǎan thai",
+     "ja": "父はタイ料理より中華料理が好きです。",
+     "en": "Dad likes Chinese food more than Thai food.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51235",
+  "th": "อาหารฝรั่ง",
+  "action": "add",
+  "ro": "aa hǎan fà ràng",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "洋食・西洋料理",
+    "en": "Western food",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้ขายอาหารฝรั่ง เช่น พิซซ่า",
+     "ro": "ráan níi khǎai aa hǎan fà ràng chên phít sâa",
+     "ja": "この店はピザなどの洋食を出しています。",
+     "en": "This restaurant sells Western food such as pizza.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51236",
+  "th": "อาหารอีสาน",
+  "action": "add",
+  "ro": "aa hǎan ii sǎan",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "イサーン料理（タイ東北部の料理）",
+    "en": "Isan (Northeastern Thai) food",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อาหารอีสานส่วนใหญ่ค่อนข้างเผ็ด",
+     "ro": "aa hǎan ii sǎan sùuan yài khɔ̂ɔn khâang phèt",
+     "ja": "イサーン料理の多くはわりと辛いです。",
+     "en": "Most Isan food is fairly spicy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51237",
+  "th": "อาหารว่าง",
+  "action": "add",
+  "ro": "aa hǎan wâang",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "軽食・間食",
+    "en": "snack, light refreshments",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ในการประชุมมีอาหารว่างกับกาแฟ",
+     "ro": "nai kaan prà chum mii aa hǎan wâang kàp kaa fɛɛ",
+     "ja": "会議には軽食とコーヒーが用意されています。",
+     "en": "There are snacks and coffee at the meeting.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51238",
+  "th": "อาหารเจ",
+  "action": "add",
+  "ro": "aa hǎan cee",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "菜食料理（中国系の精進料理）",
+    "en": "Chinese-style vegan food",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วงเทศกาลกินเจ แม่กินแต่อาหารเจ",
+     "ro": "chûuang thêet sà kaan kin cee mɛ̂ɛ kin tɛ̀ɛ aa hǎan cee",
+     "ja": "菜食祭り（キンジェー）の間、母は精進料理だけを食べます。",
+     "en": "During the vegetarian festival, Mom eats only vegan food.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "肉・魚・乳製品に加え、にんにくやねぎなども使わない。黄色い旗の「เจ」が目印。"
+ },
+ {
+  "id": "tl-51239",
+  "th": "อาหารตามสั่ง",
+  "action": "add",
+  "ro": "aa hǎan taam sàng",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "注文に応じて作る一品料理（食堂・屋台の定番）",
+    "en": "made-to-order dishes",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เที่ยงนี้ไปกินร้านอาหารตามสั่งกันเถอะ",
+     "ro": "thîiang níi pai kin ráan aa hǎan taam sàng kan thə̀",
+     "ja": "お昼は一品料理の食堂に食べに行こうよ。",
+     "en": "Let's go eat at a made-to-order food shop for lunch.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51240",
+  "th": "หมากฝรั่ง",
+  "action": "add",
+  "ro": "màak fà ràng",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "チューインガム",
+    "en": "chewing gum",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ห้ามเคี้ยวหมากฝรั่งในห้องเรียน",
+     "ro": "hâam khíiao màak fà ràng nai hɔ̂ɔng riian",
+     "ja": "教室でガムをかむのは禁止です。",
+     "en": "Chewing gum in the classroom is not allowed.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51241",
+  "th": "ข้าวเหนียวมะม่วง",
+  "action": "add",
+  "ro": "khâao nǐiao má mûuang",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "カオニャオマムアン（マンゴーともち米のデザート）",
+    "en": "mango sticky rice",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ข้าวเหนียวมะม่วงเป็นขนมที่นักท่องเที่ยวชอบ",
+     "ro": "khâao nǐiao má mûuang pen khà nǒm thîi nák thɔ̂ng thîao chɔ̂ɔp",
+     "ja": "マンゴーもち米は観光客に人気のお菓子です。",
+     "en": "Mango sticky rice is a dessert tourists love.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51242",
+  "th": "ขนมขบเคี้ยว",
+  "action": "add",
+  "ro": "khà nǒm khòp khíiao",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "スナック菓子",
+    "en": "snack food, chips",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ไม่ควรให้เด็กกินขนมขบเคี้ยวมากเกินไป",
+     "ro": "mâi khuuan hâi dèk kin khà nǒm khòp khíiao mâak kəən pai",
+     "ja": "子どもにスナック菓子を食べさせすぎないほうがいいです。",
+     "en": "Children shouldn't be given too many snacks.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "やや書き言葉寄り。会話では単に ขนม と言うことが多い。"
+ },
+ {
+  "id": "tl-51243",
+  "th": "มันฝรั่งทอด",
+  "action": "add",
+  "ro": "man fà ràng thɔ̂ɔt",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ポテトチップス・フライドポテト",
+    "en": "potato chips, French fries",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขากินมันฝรั่งทอดหมดถุงเลย",
+     "ro": "khǎo kin man fà ràng thɔ̂ɔt mòt thǔng ləəi",
+     "ja": "彼はポテトチップスを一袋全部食べてしまいました。",
+     "en": "He ate the whole bag of potato chips.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "フライドポテトは เฟรนช์ฟราย とも言う。"
+ },
+ {
+  "id": "tl-51244",
+  "th": "โยเกิร์ต",
+  "action": "add",
+  "ro": "yoo kə̀ət",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ヨーグルト",
+    "en": "yogurt",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ทุกเช้าฉันกินโยเกิร์ตกับผลไม้",
+     "ro": "thúk cháao chǎn kin yoo kə̀ət kàp phǒn lá máai",
+     "ja": "毎朝ヨーグルトと果物を食べます。",
+     "en": "Every morning I eat yogurt with fruit.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51245",
+  "th": "แยม",
+  "action": "add",
+  "ro": "yɛɛm",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ジャム",
+    "en": "jam",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันทาแยมบนขนมปัง",
+     "ro": "chǎn thaa yɛɛm bon khà nǒm pang",
+     "ja": "パンにジャムをぬります。",
+     "en": "I spread jam on the bread.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51246",
+  "th": "ซอสมะเขือเทศ",
+  "action": "add",
+  "ro": "sɔ́ɔt má khʉ̌ʉa thêet",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ケチャップ・トマトソース",
+    "en": "ketchup, tomato sauce",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขอซอสมะเขือเทศเพิ่มหน่อยครับ",
+     "ro": "khɔ̌ɔ sɔ́ɔt má khʉ̌ʉa thêet phə̂əm nɔ̀ɔi khráp",
+     "ja": "ケチャップをもう少しください。",
+     "en": "Could I have some more ketchup, please?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51247",
+  "th": "ซีอิ๊ว",
+  "action": "add",
+  "ro": "sii íu",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "醤油",
+    "en": "soy sauce",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ใส่ซีอิ๊วนิดหน่อยก็พอ",
+     "ro": "sài sii íu nít nɔ̀ɔi kɔ̂ɔ phɔɔ",
+     "ja": "醤油は少し入れれば十分です。",
+     "en": "Just a little soy sauce is enough.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "薄口は ซีอิ๊วขาว、甘く濃いものは ซีอิ๊วดำ。日本の醤油は โชยุ と呼ぶことが多い。"
+ },
+ {
+  "id": "tl-51248",
+  "th": "น้ำมันพืช",
+  "action": "add",
+  "ro": "nám man phʉ̂ʉt",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "植物油・サラダ油",
+    "en": "vegetable oil",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ใส่น้ำมันพืชลงในกระทะ",
+     "ro": "sài nám man phʉ̂ʉt long nai krà thá",
+     "ja": "フライパンにサラダ油を入れます。",
+     "en": "Put vegetable oil in the pan.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51249",
+  "th": "น้ำส้มสายชู",
+  "action": "add",
+  "ro": "nám sôm sǎai chuu",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "酢",
+    "en": "vinegar",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันใส่น้ำส้มสายชูในก๋วยเตี๋ยวนิดหน่อย",
+     "ro": "chǎn sài nám sôm sǎai chuu nai kǔuai tǐiao nít nɔ̀ɔi",
+     "ja": "麺料理に酢を少し入れました。",
+     "en": "I put a little vinegar in my noodles.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "食堂では略して น้ำส้ม とも言うが、น้ำส้ม はふつうオレンジジュースの意味。"
+ },
+ {
+  "id": "tl-51250",
+  "th": "พริกป่น",
+  "action": "add",
+  "ro": "phrík pòn",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "粉唐辛子",
+    "en": "chili flakes, ground chili",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาใส่พริกป่นเยอะมาก",
+     "ro": "khǎo sài phrík pòn yə́ mâak",
+     "ja": "彼は粉唐辛子をたくさん入れました。",
+     "en": "He added a lot of chili flakes.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51251",
+  "th": "ผงชูรส",
+  "action": "add",
+  "ro": "phǒng chuu rót",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "うま味調味料（化学調味料）",
+    "en": "MSG, monosodium glutamate",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้ไม่ใส่ผงชูรส",
+     "ro": "ráan níi mâi sài phǒng chuu rót",
+     "ja": "この店はうま味調味料を入れません。",
+     "en": "This restaurant doesn't use MSG.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51252",
+  "th": "เส้นใหญ่",
+  "action": "add",
+  "ro": "sên yài",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "センヤイ（幅広の米麺）",
+    "en": "wide rice noodles",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขอเส้นใหญ่ผัดซีอิ๊วครับ",
+     "ro": "khɔ̌ɔ sên yài phàt sii íu khráp",
+     "ja": "センヤイのパッシーイウをください。",
+     "en": "Wide-noodle pad see ew, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51253",
+  "th": "เส้นเล็ก",
+  "action": "add",
+  "ro": "sên lék",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "センレック（細めの米麺）",
+    "en": "thin rice noodles",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันชอบเส้นเล็กมากกว่าเส้นใหญ่",
+     "ro": "chǎn chɔ̂ɔp sên lék mâak kwàa sên yài",
+     "ja": "私はセンヤイよりセンレックが好きです。",
+     "en": "I prefer thin noodles to wide noodles.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51254",
+  "th": "เส้นหมี่",
+  "action": "add",
+  "ro": "sên mìi",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "センミー（極細の米麺・ビーフン）",
+    "en": "rice vermicelli",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันสั่งเส้นหมี่ต้มยำ",
+     "ro": "chǎn sàng sên mìi tôm yam",
+     "ja": "センミーのトムヤム麺を注文しました。",
+     "en": "I ordered tom yum rice vermicelli.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51255",
+  "th": "วุ้นเส้น",
+  "action": "add",
+  "ro": "wún sên",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "春雨",
+    "en": "glass noodles",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ยำวุ้นเส้นเป็นอาหารที่เผ็ดและเปรี้ยว",
+     "ro": "yam wún sên pen aa hǎan thîi phèt lɛ́ prîiao",
+     "ja": "ヤムウンセン（春雨サラダ）は辛くて酸っぱい料理です。",
+     "en": "Glass noodle salad is a spicy and sour dish.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51256",
+  "th": "น้ำมะพร้าว",
+  "action": "add",
+  "ro": "nám má phráao",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ココナッツジュース（ココナッツウォーター）",
+    "en": "coconut water",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อากาศร้อนๆ ดื่มน้ำมะพร้าวเย็นๆ ดีที่สุด",
+     "ro": "aa kàat rɔ́ɔn rɔ́ɔn dʉ̀ʉm nám má phráao yen yen dii thîi sùt",
+     "ja": "暑い日は冷たいココナッツジュースが一番です。",
+     "en": "In hot weather, cold coconut water is the best.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51257",
+  "th": "นมถั่วเหลือง",
+  "action": "add",
+  "ro": "nom thùua lʉ̌ʉang",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "豆乳",
+    "en": "soy milk",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตอนเช้าฉันดื่มนมถั่วเหลืองร้อนๆ",
+     "ro": "tɔɔn cháao chǎn dʉ̀ʉm nom thùua lʉ̌ʉang rɔ́ɔn rɔ́ɔn",
+     "ja": "朝は温かい豆乳を飲みます。",
+     "en": "In the morning I drink hot soy milk.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "屋台の温かい豆乳は น้ำเต้าหู้ とも呼ぶ。"
+ },
+ {
+  "id": "tl-51258",
+  "th": "ชานมไข่มุก",
+  "action": "add",
+  "ro": "chaa nom khài múk",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "タピオカミルクティー",
+    "en": "bubble tea",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วัยรุ่นชอบดื่มชานมไข่มุก",
+     "ro": "wai rûn chɔ̂ɔp dʉ̀ʉm chaa nom khài múk",
+     "ja": "若者はタピオカミルクティーが好きです。",
+     "en": "Young people like bubble tea.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51259",
+  "th": "กาแฟร้อน",
+  "action": "add",
+  "ro": "kaa fɛɛ rɔ́ɔn",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ホットコーヒー",
+    "en": "hot coffee",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขอกาแฟร้อนไม่ใส่น้ำตาลครับ",
+     "ro": "khɔ̌ɔ kaa fɛɛ rɔ́ɔn mâi sài nám taan khráp",
+     "ja": "砂糖なしのホットコーヒーをください。",
+     "en": "A hot coffee without sugar, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51260",
+  "th": "ลาเต้",
+  "action": "add",
+  "ro": "laa têe",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ラテ（カフェラテ）",
+    "en": "latte",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขอลาเต้เย็นหนึ่งแก้วค่ะ",
+     "ro": "khɔ̌ɔ laa têe yen nʉ̀ng kɛ̂ɛo khâ",
+     "ja": "アイスラテを一杯ください。",
+     "en": "One iced latte, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51261",
+  "th": "โกโก้",
+  "action": "add",
+  "ro": "koo kôo",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ココア",
+    "en": "cocoa (drink)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เด็กๆ ชอบดื่มโกโก้เย็น",
+     "ro": "dèk dèk chɔ̂ɔp dʉ̀ʉm koo kôo yen",
+     "ja": "子どもたちはアイスココアが好きです。",
+     "en": "Kids like iced cocoa.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51262",
+  "th": "น้ำปั่น",
+  "action": "add",
+  "ro": "nám pàn",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "フローズンドリンク・スムージー（氷と混ぜた飲み物）",
+    "en": "blended iced drink, smoothie",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้มีน้ำปั่นหลายรส",
+     "ro": "ráan níi mii nám pàn lǎai rót",
+     "ja": "この店にはいろいろな味のスムージーがあります。",
+     "en": "This shop has smoothies in many flavors.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51263",
+  "th": "ส้มโอ",
+  "action": "add",
+  "ro": "sôm oo",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ザボン・ポメロ",
+    "en": "pomelo",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ส้มโอลูกนี้หวานมาก",
+     "ro": "sôm oo lûuk níi wǎan mâak",
+     "ja": "このザボンはとても甘いです。",
+     "en": "This pomelo is very sweet.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51264",
+  "th": "แก้วมังกร",
+  "action": "add",
+  "ro": "kɛ̂ɛo mang kɔɔn",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ドラゴンフルーツ",
+    "en": "dragon fruit",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันซื้อแก้วมังกรมาสองลูก",
+     "ro": "chǎn sʉ́ʉ kɛ̂ɛo mang kɔɔn maa sɔ̌ɔng lûuk",
+     "ja": "ドラゴンフルーツを二つ買ってきました。",
+     "en": "I bought two dragon fruits.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51265",
+  "th": "สตรอว์เบอร์รี",
+  "action": "add",
+  "ro": "sà trɔɔ bəə rîi",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "イチゴ",
+    "en": "strawberry",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันชอบกินสตรอว์เบอร์รีมาก",
+     "ro": "chǎn chɔ̂ɔp kin sà trɔɔ bəə rîi mâak",
+     "ja": "私はイチゴが大好きです。",
+     "en": "I love strawberries.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "一般には สตรอเบอร์รี่ と書かれることが多い。末尾は下降調で発音されるのが普通。"
+ },
+ {
+  "id": "tl-51266",
+  "th": "ผักกาด",
+  "action": "add",
+  "ro": "phàk kàat",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "菜っ葉（からし菜などアブラナ科の葉野菜）",
+    "en": "leafy greens (mustard greens, cabbage family)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แม่ซื้อผักกาดมาทำต้มจืด",
+     "ro": "mɛ̂ɛ sʉ́ʉ phàk kàat maa tham tôm cʉ̀ʉt",
+     "ja": "母はトムチュート（澄ましスープ）を作るために菜っ葉を買ってきました。",
+     "en": "Mom bought mustard greens to make clear soup.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ผักกาดขาว（白菜）、ผักกาดหอม（レタス）など複合語でよく使う。"
+ },
+ {
+  "id": "tl-51267",
+  "th": "ผักกาดขาว",
+  "action": "add",
+  "ro": "phàk kàat khǎao",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "白菜",
+    "en": "Chinese cabbage, napa cabbage",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันใส่ผักกาดขาวในสุกี้",
+     "ro": "chǎn sài phàk kàat khǎao nai sù kîi",
+     "ja": "タイスキに白菜を入れました。",
+     "en": "I put Chinese cabbage in the suki.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51268",
+  "th": "หอมแดง",
+  "action": "add",
+  "ro": "hɔ̌ɔm dɛɛng",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "赤小玉ねぎ（エシャロット）",
+    "en": "shallot",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แม่ซอยหอมแดงใส่ในยำ",
+     "ro": "mɛ̂ɛ sɔɔi hɔ̌ɔm dɛɛng sài nai yam",
+     "ja": "母は赤小玉ねぎを刻んで和え物に入れました。",
+     "en": "Mom sliced shallots into the salad.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51269",
+  "th": "ใบกะเพรา",
+  "action": "add",
+  "ro": "bai kà phrao",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ホーリーバジル（ガパオ）の葉",
+    "en": "holy basil leaves",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผัดกะเพราต้องใส่ใบกะเพราเยอะๆ",
+     "ro": "phàt kà phrao tɔ̂ɔng sài bai kà phrao yə́ yə́",
+     "ja": "ガパオ炒めにはホーリーバジルの葉をたっぷり入れないといけません。",
+     "en": "Holy basil stir-fry needs lots of holy basil leaves.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "กระเพรา と書かれることも多いが、正しい綴りは กะเพรา。"
+ },
+ {
+  "id": "tl-51270",
+  "th": "มันเทศ",
+  "action": "add",
+  "ro": "man thêet",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "サツマイモ",
+    "en": "sweet potato",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันซื้อมันเทศเผามาจากตลาด",
+     "ro": "chǎn sʉ́ʉ man thêet phǎo maa càak tà làat",
+     "ja": "市場で焼き芋を買ってきました。",
+     "en": "I bought roasted sweet potatoes from the market.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51271",
+  "th": "บรอกโคลี",
+  "action": "add",
+  "ro": "brɔ̀k khoo lîi",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ブロッコリー",
+    "en": "broccoli",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลูกไม่ชอบกินบรอกโคลี",
+     "ro": "lûuk mâi chɔ̂ɔp kin brɔ̀k khoo lîi",
+     "ja": "子どもはブロッコリーが好きではありません。",
+     "en": "My child doesn't like broccoli.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "บร็อคโคลี่ と書くことも多い。末尾は下降調で発音されるのが普通。"
+ },
+ {
+  "id": "tl-51272",
+  "th": "ถั่วงอก",
+  "action": "add",
+  "ro": "thùua ngɔ̂ɔk",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "もやし",
+    "en": "bean sprouts",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผัดไทยต้องมีถั่วงอก",
+     "ro": "phàt thai tɔ̂ɔng mii thùua ngɔ̂ɔk",
+     "ja": "パッタイにはもやしが欠かせません。",
+     "en": "Pad thai must have bean sprouts.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51273",
+  "th": "ถั่วลิสง",
+  "action": "add",
+  "ro": "thùua lí sǒng",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ピーナッツ・落花生",
+    "en": "peanut",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ส้มตำไทยใส่ถั่วลิสง",
+     "ro": "sôm tam thai sài thùua lí sǒng",
+     "ja": "タイ式のソムタムにはピーナッツを入れます。",
+     "en": "Thai-style papaya salad has peanuts in it.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51274",
+  "th": "ถั่วเหลือง",
+  "action": "add",
+  "ro": "thùua lʉ̌ʉang",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "大豆",
+    "en": "soybean",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เต้าหู้ทำจากถั่วเหลือง",
+     "ro": "tâo hûu tham càak thùua lʉ̌ʉang",
+     "ja": "豆腐は大豆から作ります。",
+     "en": "Tofu is made from soybeans.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51275",
+  "th": "ผักสลัด",
+  "action": "add",
+  "ro": "phàk sà làt",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "サラダ菜・レタス（サラダ用の葉野菜）",
+    "en": "lettuce, salad greens",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ล้างผักสลัดให้สะอาดก่อนกิน",
+     "ro": "láang phàk sà làt hâi sà àat kɔ̀ɔn kin",
+     "ja": "食べる前にサラダ菜をよく洗います。",
+     "en": "Wash the lettuce well before eating.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51276",
+  "th": "ห้องกินข้าว",
+  "action": "add",
+  "ro": "hɔ̂ɔng kin khâao",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ダイニング・食堂（家の食事部屋）",
+    "en": "dining room",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ห้องกินข้าวอยู่ข้างห้องครัว",
+     "ro": "hɔ̂ɔng kin khâao yùu khâang hɔ̂ɔng khruua",
+     "ja": "ダイニングは台所の隣にあります。",
+     "en": "The dining room is next to the kitchen.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "少し改まると ห้องอาหาร とも言う。"
+ },
+ {
+  "id": "tl-51277",
+  "th": "บันไดเลื่อน",
+  "action": "add",
+  "ro": "ban dai lʉ̂ʉan",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "エスカレーター",
+    "en": "escalator",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขึ้นบันไดเลื่อนไปชั้นสามครับ",
+     "ro": "khʉ̂n ban dai lʉ̂ʉan pai chán sǎam khráp",
+     "ja": "エスカレーターで3階へ上がってください。",
+     "en": "Take the escalator up to the third floor.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51278",
+  "th": "ผ้าปูที่นอน",
+  "action": "add",
+  "ro": "phâa puu thîi nɔɔn",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "シーツ（敷布）",
+    "en": "bed sheet",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันเปลี่ยนผ้าปูที่นอนทุกอาทิตย์",
+     "ro": "chǎn plìian phâa puu thîi nɔɔn thúk aa thít",
+     "ja": "毎週シーツを替えます。",
+     "en": "I change the bed sheets every week.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51279",
+  "th": "ผ้าม่าน",
+  "action": "add",
+  "ro": "phâa mâan",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "カーテン",
+    "en": "curtain",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วยปิดผ้าม่านหน่อย แดดร้อนมาก",
+     "ro": "chûuai pìt phâa mâan nɔ̀ɔi dɛ̀ɛt rɔ́ɔn mâak",
+     "ja": "カーテンを閉めてくれる？日差しがすごく暑いから。",
+     "en": "Could you close the curtains? The sun is really hot.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51280",
+  "th": "ชั้นวางของ",
+  "action": "add",
+  "ro": "chán waang khɔ̌ɔng",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "棚・物置き棚",
+    "en": "shelf, shelving",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วางกล่องไว้บนชั้นวางของได้เลย",
+     "ro": "waang klɔ̀ɔng wái bon chán waang khɔ̌ɔng dâai ləəi",
+     "ja": "箱は棚の上に置いてかまいません。",
+     "en": "You can put the box on the shelf.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51281",
+  "th": "ชั้นหนังสือ",
+  "action": "add",
+  "ro": "chán nǎng sʉ̌ʉ",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "本棚",
+    "en": "bookshelf",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ชั้นหนังสือในห้องนอนเต็มแล้ว",
+     "ro": "chán nǎng sʉ̌ʉ nai hɔ̂ɔng nɔɔn tem lɛ́ɛo",
+     "ja": "寝室の本棚はもういっぱいです。",
+     "en": "The bookshelf in the bedroom is already full.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51282",
+  "th": "นาฬิกาปลุก",
+  "action": "add",
+  "ro": "naa lí kaa plùk",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "目覚まし時計",
+    "en": "alarm clock",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นาฬิกาปลุกดังตอนหกโมงเช้า",
+     "ro": "naa lí kaa plùk dang tɔɔn hòk moong cháao",
+     "ja": "目覚まし時計は朝6時に鳴ります。",
+     "en": "The alarm clock rings at 6 a.m.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51283",
+  "th": "หลอดไฟ",
+  "action": "add",
+  "ro": "lɔ̀ɔt fai",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "電球・蛍光灯",
+    "en": "light bulb",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หลอดไฟในห้องน้ำเสียแล้ว",
+     "ro": "lɔ̀ɔt fai nai hɔ̂ɔng náam sǐia lɛ́ɛo",
+     "ja": "トイレの電球が切れてしまいました。",
+     "en": "The light bulb in the bathroom has burnt out.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51284",
+  "th": "สวิตช์",
+  "action": "add",
+  "ro": "sà wít",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "スイッチ",
+    "en": "switch",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สวิตช์ไฟอยู่ข้างประตู",
+     "ro": "sà wít fai yùu khâang prà tuu",
+     "ja": "電気のスイッチはドアの横にあります。",
+     "en": "The light switch is next to the door.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51285",
+  "th": "เตาอบ",
+  "action": "add",
+  "ro": "tao òp",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "オーブン",
+    "en": "oven",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อบเค้กในเตาอบสามสิบนาที",
+     "ro": "òp khéek nai tao òp sǎam sìp naa thii",
+     "ja": "ケーキをオーブンで30分焼きます。",
+     "en": "Bake the cake in the oven for 30 minutes.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "電子レンジは ไมโครเวฟ。"
+ }
+]
