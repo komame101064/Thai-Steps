@@ -1,0 +1,647 @@
+[
+ {
+  "id": "tl-27123",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27124",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27125",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27126",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27127",
+  "verdict": "fix",
+  "issues": [
+   "ย่อย はro-lexiconで yɔ̂ɔi（‑่อย型は綴りの長母音で書く規約）。見出し・例文のroを修正"
+  ],
+  "fixed": {
+   "id": "tl-27127",
+   "th": "ข้อย่อย",
+   "action": "add",
+   "ro": "khɔ̂ɔ yɔ̂ɔi",
+   "kind": "word",
+   "category": "仕事・学習",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "小項目・細目",
+     "en": "sub-item, sub-clause",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ข้อนี้มีข้อย่อยสามข้อ",
+      "ro": "khɔ̂ɔ níi mii khɔ̂ɔ yɔ̂ɔi sǎam khɔ̂ɔ",
+      "ja": "この項目には小項目が三つあります。",
+      "en": "This item has three sub-items.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27128",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27129",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27130",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27131",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27132",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27133",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27135",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27136",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27137",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27139",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27140",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27141",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27142",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27145",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27146",
+  "verdict": "fix",
+  "issues": [
+   "‑้อย型は綴りの長母音で書く規約（ต้อง tɔ̂ɔng 等と同様）。cɔ̂i→cɔ̂ɔi"
+  ],
+  "fixed": {
+   "id": "tl-27146",
+   "th": "จ้อย",
+   "action": "add",
+   "ro": "cɔ̂ɔi",
+   "kind": "word",
+   "category": "日常の動作",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ぺらぺらと（休みなくしゃべる）",
+     "en": "(talk) incessantly, chattily",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เด็กคนนี้พูดจ้อยทั้งวัน",
+      "ro": "dèk khon níi phûut cɔ̂ɔi tháng wan",
+      "ja": "この子は一日中ぺらぺらしゃべっている。",
+      "en": "This child chatters all day long.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27147",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27148",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27149",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27150",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27152",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27153",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27154",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27155",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27156",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27157",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27158",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27159",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27160",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27161",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27162",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27163",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27164",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27165",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27166",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27167",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27168",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27169",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27170",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27171",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27173",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27174",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27175",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27176",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27178",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27179",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27180",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27181",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27182",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27183",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27184",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27185",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27186",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27187",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27188",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27189",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27190",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27191",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27192",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27193",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27195",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27196",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27197",
+  "verdict": "fix",
+  "issues": [
+   "例文の ประดิษฐาน は prà dìt sà thǎan（ษ による連結音節 sà が欠落）"
+  ],
+  "fixed": {
+   "id": "tl-27197",
+   "th": "พระวิหาร",
+   "action": "add",
+   "ro": "phrá wí hǎan",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（寺院の）仏堂・ウィハーン",
+     "en": "vihara, image hall of a temple",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พระพุทธรูปองค์นี้ประดิษฐานอยู่ในพระวิหาร",
+      "ro": "phrá phút thá rûup ong níi prà dìt sà thǎan yùu nai phrá wí hǎan",
+      "ja": "この仏像は仏堂に安置されている。",
+      "en": "This Buddha image is enshrined in the vihara.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27199",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27200",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27201",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27202",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27203",
+  "verdict": "fix",
+  "issues": [
+   "noteの通り ปี่พาทย์ の古い言い方であり、文語ではなく古めの表現（dated）が適切。jaに ปี่พาทย์ と同義である旨を補足。読み phin phâat は妥当"
+  ],
+  "fixed": {
+   "id": "tl-27203",
+   "th": "พิณพาทย์",
+   "action": "add",
+   "ro": "phin phâat",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ピンパート（＝ปี่พาทย์：タイ古典音楽の合奏）",
+     "en": "classical Thai ensemble",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "dated"
+     ],
+     "speechStyle": "古めの表現",
+     "example": {
+      "th": "วงพิณพาทย์บรรเลงเพลงไทยเดิม",
+      "ro": "wong phin phâat ban leeng phleeng thai dəəm",
+      "ja": "ピンパートの楽団がタイ古典の曲を演奏する。",
+      "en": "The ensemble plays traditional Thai music.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "やや古い呼び方で、現在は ปี่พาทย์ と言うことが多い。"
+  }
+ },
+ {
+  "id": "tl-27204",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27205",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27206",
+  "verdict": "fix",
+  "issues": [
+   "例文の จิตวิทยา はro-lexiconで cìt tà wít thá yaa（連結音節 tà が欠落）。見出し phuum lǎng は ภูมิใจ phuum cai・ภูมิลำเนา と同型で妥当と判断（hintの pu:-mí は不採用）"
+  ],
+  "fixed": {
+   "id": "tl-27206",
+   "th": "ภูมิหลัง",
+   "action": "add",
+   "ro": "phuum lǎng",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "経歴・生い立ち・背景",
+     "en": "background",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "นักจิตวิทยาต้องศึกษาภูมิหลังของคนไข้",
+      "ro": "nák cìt tà wít thá yaa tɔ̂ɔng sʉ̀k sǎa phuum lǎng khɔ̌ɔng khon khâi",
+      "ja": "心理学者は患者の生い立ちを調べなければならない。",
+      "en": "A psychologist must study the patient's background.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27207",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27208",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27209",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27210",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27211",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27213",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27215",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27216",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27217",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27218",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27220",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27221",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27222",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27223",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27225",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27226",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27227",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27229",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27230",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27231",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27233",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27234",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27237",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27238",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27239",
+  "verdict": "ok",
+  "issues": []
+ }
+]
