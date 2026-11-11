@@ -1,5 +1,5 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert');const read=n=>JSON.parse(fs.readFileSync('dist/'+n,'utf8'));
-const files={'word-bank.json':read('word-bank.json'),'slang-bank.json':read('slang-bank.json')};if(fs.existsSync('dist/word-bank-more.json'))files['word-bank-more.json']=read('word-bank-more.json');
+const files={'word-bank.json':read('word-bank.json'),'slang-bank.json':read('slang-bank.json')};for(const n of ['word-bank-more.json','slang-bank-more.json'])if(fs.existsSync('dist/'+n))files[n]=read(n);
 const ctx={window:{},localStorage:{getItem:()=>null,setItem(){}},fetch:async u=>u in files?{ok:true,json:async()=>files[u]}:{ok:false},view:'home',render(){},esc:s=>String(s),icon:()=>'',toast(){},document:{getElementById:()=>null}};vm.createContext(ctx);
 for(const n of ['kana-search','word-topics','word-origins','ja-readings','words-app'])vm.runInContext(fs.readFileSync('dist/'+n+'.js','utf8'),ctx);
 vm.runInContext('this.t={load:loadWordBank,results:dictionaryResults,setLevel:n=>{wordState.level=n},setTopic:t=>{wordTopic=t},WEAK:DICT_WEAK}',ctx);
@@ -26,6 +26,13 @@ vm.runInContext('this.t={load:loadWordBank,results:dictionaryResults,setLevel:n=
  assert.equal(ths('たべる')[0],'กิน');assert.equal(ths('せんせい')[0],'ครู');assert(top('めがね',2).includes('แว่นตา'));assert(top('おとな',1).includes('ผู้ใหญ่'));
  // Hiragana reads as Japanese first; katakana stays a Thai-pronunciation search first.
  assert(top('かお',2).includes('หน้า'));assert(!top('カオ',3).includes('หน้า'));assert(ths('カオ').includes('หน้า'));
+ // Neutral and slang ways to say 童貞 are both found.
+ assert(ths('童貞').includes('ซิง'));assert(ths('童貞').includes('ยังไม่เคยมีเพศสัมพันธ์'));
+ // Compounds are pulled in only by a first-sense exact hit on a general word: 精液 matches the slang sense of น้ำ,
+ // which must not bring in อาบน้ำ, แม่น้ำ and other น้ำ compounds.
+ assert(!ths('精液').some(th=>th!=='น้ำ'&&th.startsWith('น้ำ')||/น้ำ$/.test(th)&&th!=='น้ำ'),'no น้ำ compounds for 精液');assert(ths('精液').includes('อสุจิ'));
+ // Glosses ending in ？ are found by the gloss itself; one kana left after punctuation does not match everything.
+ assert(top('ん？',3).includes('หืม'));assert(ths('ん？').length<20);
  // The dictionary ignores the study range and theme filters.
  t.setLevel(500);t.setTopic('food');assert.equal(ths('家族')[0],'ครอบครัว');assert(ths('ありがとう').includes('ขอบคุณ'));
  console.log('PASS: dictionary search ranks exact meanings/headwords first, then compounds, then theme-only matches; Thai, romanization, katakana, hiragana readings and English glosses; independent of study filters.')})().catch(e=>{console.error(e);process.exit(1)});

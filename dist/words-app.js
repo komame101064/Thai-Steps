@@ -43,6 +43,7 @@ function dueWord(w){const r=wordRec(w.id);return r.manual||(r.seen>0&&r.due<=Dat
 // Lower score = better. Exact headword / exact meaning first, then words that contain the query, then weak matches
 // that only hit a theme or category label.
 const JA_RE=/[぀-ヿ㐀-鿿]/,THAI_RE=/[฀-๿]/;
+const jaKey=s=>String(s).normalize('NFKC').replace(/[?!。、.,・\s「」『』〜~]/g,'');
 const toHiragana=s=>String(s).normalize('NFKC').replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-0x60));
 function jaTerms(ja){return String(ja).replace(/（[^）]*）|\([^)]*\)/g,'').split(/[・／\/、，,；;]/).map(t=>t.replace(/[〜～]/g,'').trim()).filter(Boolean)}
 const foldRo=s=>foldWord(s).replace(/[\s'’-]/g,'').replace(/([aeiou])\1+/g,'$1');
@@ -69,7 +70,7 @@ const TONE_RE=/[̀-̌]|[àáâǎèéêěìíîǐòóôǒùúûǔ]/i;
 function dictionaryMatch(w,raw){const t0=String(raw).trim(),q=THAI_RE.test(t0)?t0:t0.normalize('NFKC');const out={score:Infinity,en:null,via:''};if(!q)return {...out,score:0};
  const take=(n,via,en=null)=>{if(n<out.score){out.score=n;out.via=via;out.en=en}};
  if(THAI_RE.test(q)){const t=q.replace(/\s+/g,'');if(w.th===t)take(0,'th');else if(w.th.startsWith(t))take(4,'th');else if(w.th.includes(t))take(8,'th')}
- if(JA_RE.test(q)){w.meanings.forEach((m,mi)=>{const extra=mi?2:0;jaTerms(m.ja).forEach((term,ti)=>{if(term===q)take(extra+(ti?1:0),'ja');else if(term.startsWith(q))take(4+extra,'ja')});if(String(m.ja).includes(q))take(8+(mi?1:0),'ja')});
+ if(JA_RE.test(q)){const qk=jaKey(q);w.meanings.forEach((m,mi)=>{const extra=mi?2:0;jaTerms(m.ja).forEach((term,ti)=>{const tk=jaKey(term);if(tk&&tk===qk)take(extra+(ti?1:0),'ja');else if(qk&&tk.startsWith(qk))take(4+extra,'ja')});if((qk.length>1||/[\u3400-\u9fff]/.test(qk))&&jaKey(m.ja).includes(qk))take(8+(mi?1:0),'ja')});
   if(/^[ぁ-ゖァ-ヶー\s]+$/.test(q)){const h=toHiragana(q).replace(/\s+/g,''),hira=/[ぁ-ゖ]/.test(q),lift=hira?0:2,rd=typeof JA_READINGS==='undefined'?null:JA_READINGS[w.id];
    // Readings of the Japanese gloss (あさって → 明後日). Hiragana input reads as Japanese first; katakana input stays a Thai pronunciation search first.
    w.meanings.forEach((m,mi)=>{const rs=rd?.[m.sourceSense]||[],extra=mi?2:0;jaTerms(m.ja).forEach((term,ti)=>{const cands=[...(rs[ti]||[]),...(/^[ぁ-ゖァ-ヶー]+$/.test(term)?[toHiragana(term)]:[])];
@@ -86,8 +87,9 @@ function dictionaryResults(query=wordQuery){const scored=bank.map(w=>({w,...dict
  if(scored.some(x=>x.via==='en'&&x.score===0))for(const x of scored)if(x.via==='ro')x.score+=2;
  if(/[ぁ-ゖ]/.test(query)&&scored.some(x=>(x.via==='reading'||x.via==='ja')&&x.score<=1))for(const x of scored)if(x.via==='kana')x.score+=2;
  // Words built on an exact match (e.g. ครอบครัว → ครอบครัวใหญ่) rank right after the exact matches.
- const heads=[...new Set(scored.filter(x=>x.score<=1&&x.via!=='kana').map(x=>x.w.th))].filter(th=>th.length>1);
- if(heads.length){const byTh=new Map(scored.filter(x=>x.score<=1&&x.via!=='kana').map(x=>[x.w.th,x.w]));for(const x of scored)if(x.score>6&&heads.some(h=>isCompoundOf(x.w,byTh.get(h))))x.score=6}
+ const isHead=x=>x.score===0&&x.via!=='kana'&&x.via!=='label'&&x.w.collection!=='slang';
+ const heads=[...new Set(scored.filter(isHead).map(x=>x.w.th))].filter(th=>th.length>1);
+ if(heads.length){const byTh=new Map(scored.filter(isHead).map(x=>[x.w.th,x.w]));for(const x of scored)if(x.score>6&&heads.some(h=>isCompoundOf(x.w,byTh.get(h))))x.score=6}
  return scored.filter(x=>x.score<Infinity).sort((a,b)=>a.score-b.score||(a.w.collection==='slang')-(b.w.collection==='slang')||b.w.frequency-a.w.frequency||a.w.th.length-b.w.th.length||a.w.id.localeCompare(b.w.id))}
 // Thai has no spaces, so "contains" alone is not enough (เกิน contains กิน). A compound must split into registered
 // words around the headword, and the headword's syllables must appear in the compound's reading.
