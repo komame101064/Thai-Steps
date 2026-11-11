@@ -4,7 +4,7 @@ P=pathlib.Path(__file__).resolve().parents[1]
 W=json.loads((P/'dist/word-bank.json').read_text())
 MORE=P/'dist/word-bank-more.json'
 if MORE.exists():W+=json.loads(MORE.read_text())  # reviewed expansion entries
-TOPICS=[('body','体・健康','口・手・鼻、体の部位や体調の表現'),('food','食べ物・飲み物','食材・料理・飲み物、食事の言い方'),('sports','スポーツ・運動','競技・運動、試合やトレーニング'),('animals','動物・生き物','身近な動物、鳥・魚・虫'),('nature','自然・天気','空・雨・植物、季節や自然'),('travel','旅行・交通','乗り物・移動、旅先で使う言葉'),('home','家・暮らし','部屋・家具・道具、毎日の暮らし'),('clothes','服・身だしなみ','服・靴・アクセサリー、おしゃれ'),('people','人・家族','家族・友人、人の呼び方や関係'),('feelings','気持ち・性格','感情・人柄、人との付き合い'),('work','仕事・学校','働く・学ぶ、職業や学校生活'),('shopping','お金・買い物','値段・支払い、店でのやり取り'),('leisure','趣味・娯楽','映画・音楽・ゲーム、休日の楽しみ'),('tech','スマホ・IT','スマホ・ネット、機器やアプリ'),('society','社会・文化','社会の仕組み、文化や行事'),('time','時間・日付','時刻・曜日、過去や未来'),('numbers','数字・量・比較','数・量・単位、多い・少ない'),('actions','日常の動作','する・使う・動く、基本の動詞'),('description','様子・状態','大きい・小さい、物事の状態'),('conversation','あいさつ・会話','あいさつ・返事、人に話しかける'),('grammar','文法・つなぎ言葉','助詞・疑問詞、文を組み立てる表現'),('other','その他の言葉','特定の場面に限らない言葉')]
+TOPICS=[('body','体・健康','口・手・鼻、体の部位や体調の表現'),('food','食べ物・飲み物','食材・料理・飲み物、食事の言い方'),('sports','スポーツ・運動','競技・運動、試合やトレーニング'),('animals','動物・生き物','身近な動物、鳥・魚・虫'),('nature','自然・天気','空・雨・植物、季節や自然'),('travel','旅行・交通','乗り物・移動、旅先で使う言葉'),('home','家・暮らし','部屋・家具・道具、毎日の暮らし'),('clothes','服・身だしなみ','服・靴・アクセサリー、おしゃれ'),('people','人・家族','家族・友人、人の呼び方や関係'),('feelings','気持ち・性格','感情・人柄、人との付き合い'),('work','仕事・学校','働く・学ぶ、職業や学校生活'),('shopping','お金・買い物','値段・支払い、店でのやり取り'),('leisure','趣味・娯楽','映画・音楽・ゲーム、休日の楽しみ'),('tech','スマホ・IT','スマホ・ネット、機器やアプリ'),('society','社会・文化','社会の仕組み、文化や行事'),('time','時間・日付','時刻・曜日、過去や未来'),('numbers','数字・量・比較','数・量・単位、多い・少ない'),('actions','日常の動作','する・使う・動く、基本の動詞'),('description','様子・状態','大きい・小さい、物事の状態'),('conversation','あいさつ・会話','あいさつ・返事、人に話しかける'),('grammar','文法・つなぎ言葉','助詞・疑問詞、文を組み立てる表現'),('other','その他の言葉','特定の場面に限らない言葉'),('trend','流行語・新語','SNS・AI・ネット生活など最近広まった言葉と、ある時期の流行語')]
 # Curated anchors avoid confusing short body/food words with grammatical or figurative senses.
 ANCHORS={
 'body':'ร่างกาย ตัว หัว ศีรษะ หน้า ผม เส้นผม ตา หู จมูก ปาก ฟัน ลิ้น เหงือก ริมฝีปาก คาง แก้ม คิ้ว ขนตา หน้าผาก คอ ไหล่ แขน ข้อศอก มือ ฝ่ามือ นิ้ว นิ้วมือ นิ้วเท้า เล็บ ข้อมือ อก หน้าอก หลัง เอว ท้อง สะดือ สะโพก ก้น ขา เข่า เท้า ส้นเท้า ข้อเท้า ผิว ผิวหนัง เลือด กระดูก กล้ามเนื้อ สมอง หัวใจ ปอด ตับ ไต ลำไส้ กระเพาะ เส้นเลือด กระดูกสันหลัง น้ำตา เหงื่อ น้ำลาย หนวด เครา สุขภาพ หมอ แพทย์ พยาบาล โรงพยาบาล คลินิก ยา ยาแก้ปวด ฉีดยา ผ่าตัด รักษาโรค ป่วย โรค เจ็บ ปวด ไข้ ไอ จาม เป็นหวัด เป็นไข้ ปวดหัว ปวดท้อง ท้องเสีย เวียนหัว ไม่สบาย บาดเจ็บ แผล ตั้งท้อง ตั้งครรภ์ นวด อาบน้ำ แปรงฟัน หายใจ นอนหลับ ง่วง พักผ่อน ส่วนสูง น้ำหนัก ลดน้ำหนัก',
@@ -72,8 +72,21 @@ for w in W:
   matched=[m['sourceSense'] for m in normal if pattern and re.search(pattern,m['en'],re.I)]
   per[topic]=matched or [normal[0]['sourceSense']]
  SENSES[w['id']]=per
+# 流行語・新語: curated list (scripts/word-trends.json), added on top of each word's other themes.
+SLANG=json.loads((P/'dist/slang-bank.json').read_text())
+if (P/'dist/slang-bank-more.json').exists():SLANG+=json.loads((P/'dist/slang-bank-more.json').read_text())
+BY={w['id']:w for w in W+SLANG};TRENDS={}
+for e in json.loads((P/'scripts/word-trends.json').read_text()):
+ w=BY[e['id']];assert w['th']==e['th'],e;assert e['kind'] in ('新語','流行語'),e
+ own={m['sourceSense'] for m in w['meanings']};assert e['senses'] and set(e['senses'])<=own,e
+ TRENDS[e['id']]={'kind':e['kind'],'era':e.get('era',''),'senses':e['senses']}
+ if w.get('collection')!='slang':
+  normal={m['sourceSense'] for m in w['meanings'] if not m.get('isSlang')};assert set(e['senses'])<=normal,e
+  INDEX[e['id']]=[t for t in INDEX[e['id']] if t!='other']+['trend'];SENSES[e['id']]['trend']=e['senses']
+  SENSES[e['id']].pop('other',None)
 assert len(INDEX)==sum(any(not m.get('isSlang') for m in w['meanings']) for w in W),len(INDEX)
 assert all(t in {t[0] for t in TOPICS} for ts in INDEX.values() for t in ts)
-(P/'dist/word-topics.js').write_text('// Thematic browsing index; multiple common senses may belong to more than one topic.\nconst WORD_TOPICS='+json.dumps([{'id':t,'label':label,'description':desc} for t,label,desc in TOPICS],ensure_ascii=False,separators=(',',':'))+';\nconst WORD_TOPIC_INDEX='+json.dumps(INDEX,ensure_ascii=False,separators=(',',':'))+';\nconst WORD_TOPIC_SENSES='+json.dumps(SENSES,ensure_ascii=False,separators=(',',':'))+';\n')
+(P/'dist/word-topics.js').write_text('// Thematic browsing index; multiple common senses may belong to more than one topic.\nconst WORD_TOPICS='+json.dumps([{'id':t,'label':label,'description':desc} for t,label,desc in TOPICS],ensure_ascii=False,separators=(',',':'))+';\nconst WORD_TOPIC_INDEX='+json.dumps(INDEX,ensure_ascii=False,separators=(',',':'))+';\nconst WORD_TOPIC_SENSES='+json.dumps(SENSES,ensure_ascii=False,separators=(',',':'))+';\nconst WORD_TRENDS='+json.dumps(TRENDS,ensure_ascii=False,separators=(',',':'))+';\n')
+print('trends',len(TRENDS))
 for t,label,_ in TOPICS:
  print(label,sum(t in ts for ts in INDEX.values()))
