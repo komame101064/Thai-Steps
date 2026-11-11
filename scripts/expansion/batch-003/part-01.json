@@ -1,0 +1,2092 @@
+[
+ {
+  "id": "tl-20275",
+  "th": "อื่นๆ",
+  "action": "add",
+  "ro": "ʉ̀ʉn ʉ̀ʉn",
+  "kind": "word",
+  "category": "指示表現",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ほかの・その他いろいろな",
+    "en": "other, others",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "มีคำถามอื่นๆ ไหมครับ",
+     "ro": "mii kham thǎam ʉ̀ʉn ʉ̀ʉn mǎi khráp",
+     "ja": "ほかに質問はありますか？",
+     "en": "Are there any other questions?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-20343",
+  "th": "เด็กๆ",
+  "action": "add",
+  "ro": "dèk dèk",
+  "kind": "word",
+  "category": "人・家族",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "子どもたち",
+    "en": "children, kids",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เด็กๆ กำลังเล่นอยู่ในสวน",
+     "ro": "dèk dèk kam lang lên yùu nai sǔuan",
+     "ja": "子どもたちが庭で遊んでいます。",
+     "en": "The kids are playing in the garden.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-20364",
+  "th": "เล็กๆ",
+  "action": "add",
+  "ro": "lék lék",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "小さな・ちょっとした",
+    "en": "small, little",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขามีบ้านเล็กๆ อยู่ใกล้ทะเล",
+     "ro": "khǎo mii bâan lék lék yùu klâi thá lee",
+     "ja": "あの人は海の近くに小さな家を持っています。",
+     "en": "He has a small house near the sea.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-20512",
+  "th": "เพื่อนๆ",
+  "action": "add",
+  "ro": "phʉ̂ʉan phʉ̂ʉan",
+  "kind": "word",
+  "category": "人・家族",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "友達（みんな）・友人たち",
+    "en": "friends",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เพื่อนๆ มาเที่ยวบ้านฉัน",
+     "ro": "phʉ̂ʉan phʉ̂ʉan maa thîiao bâan chǎn",
+     "ja": "友達が私の家に遊びに来ました。",
+     "en": "My friends came over to my house.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-20575",
+  "th": "อ้าย",
+  "action": "skip",
+  "skipReason": "ソースの語義（「最初の」）は古い暦・語法で、北部方言の「兄」や蔑称の接頭辞など用法が分かれ、自然な現代の一般語として示しにくい"
+ },
+ {
+  "id": "tl-20671",
+  "th": "ผู้เขียน",
+  "action": "add",
+  "ro": "phûu khǐian",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "筆者・著者",
+    "en": "author, writer",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผู้เขียนหนังสือเล่มนี้เป็นครู",
+     "ro": "phûu khǐian nǎng sʉ̌ʉ lêm níi pen khruu",
+     "ja": "この本の著者は教師です。",
+     "en": "The author of this book is a teacher.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-20680",
+  "th": "ประ",
+  "action": "skip",
+  "skipReason": "単独の動詞「点々と付ける」はまれで、主に ประชิด・ประท้วง などの接頭要素。学習用に自然な例文を示しにくい"
+ },
+ {
+  "id": "tl-20690",
+  "th": "เสียก่อน",
+  "action": "add",
+  "ro": "sǐia kɔ̀ɔn",
+  "kind": "expression",
+  "category": "文法・時制",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "先に（〜してしまう）・まず〜してから",
+    "en": "first (before doing something else)",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ทำการบ้านเสียก่อนแล้วค่อยเล่น",
+     "ro": "tham kaan bâan sǐia kɔ̀ɔn lɛ́ɛo khɔ̂ɔi lên",
+     "ja": "まず宿題をしてしまってから遊びなさい。",
+     "en": "Do your homework first, then play.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-20733",
+  "th": "เมืองไทย",
+  "action": "skip",
+  "skipReason": "固有名詞（タイ国）のため除外"
+ },
+ {
+  "id": "tl-20739",
+  "th": "อังกฤษ",
+  "action": "skip",
+  "skipReason": "固有名詞（イギリス・英語）のため除外"
+ },
+ {
+  "id": "tl-20780",
+  "th": "ใกล้ๆ",
+  "action": "add",
+  "ro": "klâi klâi",
+  "kind": "word",
+  "category": "場所・前置詞",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "すぐ近く（に）",
+    "en": "nearby, close by",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "มีร้านกาแฟอยู่ใกล้ๆ ไหม",
+     "ro": "mii ráan kaa fɛɛ yùu klâi klâi mǎi",
+     "ja": "近くにカフェはありますか？",
+     "en": "Is there a café nearby?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-20792",
+  "th": "รุ่ง",
+  "action": "add",
+  "ro": "rûng",
+  "kind": "word",
+  "category": "時間",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "夜明け",
+    "en": "dawn, daybreak",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เราคุยกันจนฟ้ารุ่ง",
+     "ro": "rao khui kan con fáa rûng",
+     "ja": "私たちは夜が明けるまで話し込みました。",
+     "en": "We talked until dawn.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "勢いがある・うまくいく",
+    "en": "to be flourishing, doing well",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ธุรกิจของเขากำลังรุ่ง",
+     "ro": "thú rá kìt khɔ̌ɔng khǎo kam lang rûng",
+     "ja": "あの人の事業は今、勢いに乗っています。",
+     "en": "His business is booming.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "単独より รุ่งเช้า・ฟ้ารุ่ง などの形で使うことが多い。"
+ },
+ {
+  "id": "tl-20795",
+  "th": "ผู้นั้น",
+  "action": "add",
+  "ro": "phûu nán",
+  "kind": "word",
+  "category": "代名詞・呼びかけ",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "その人・その者",
+    "en": "that person",
+    "pos": "代名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ใครทำผิด ผู้นั้นต้องรับผิดชอบ",
+     "ro": "khrai tham phìt phûu nán tɔ̂ɔng ráp phìt chɔ̂ɔp",
+     "ja": "過ちを犯した者は、その者が責任を負わなければなりません。",
+     "en": "Whoever does wrong must take responsibility.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-20900",
+  "th": "เบาๆ",
+  "action": "add",
+  "ro": "bao bao",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "そっと・軽く・小声で",
+    "en": "gently, softly, quietly",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พูดเบาๆ หน่อย",
+     "ro": "phûut bao bao nɔ̀ɔi",
+     "ja": "もう少し小さな声で話して。",
+     "en": "Speak a little more quietly.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21017",
+  "th": "ระ",
+  "action": "skip",
+  "skipReason": "「こする・かすめる」の意味はまれで、学習用に自信をもって示せない"
+ },
+ {
+  "id": "tl-21036",
+  "th": "มิให้",
+  "action": "add",
+  "ro": "mí hâi",
+  "kind": "expression",
+  "category": "否定",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "〜しないように・〜させないように",
+    "en": "so as not to, to prevent",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "เขาปิดหน้าต่างไว้มิให้ฝนสาดเข้ามา",
+     "ro": "khǎo pìt nâa tàang wái mí hâi fǒn sàat khâo maa",
+     "ja": "あの人は雨が吹き込まないように窓を閉めておきました。",
+     "en": "He closed the window so the rain would not blow in.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21110",
+  "th": "เป็นอัน",
+  "action": "add",
+  "ro": "pen an",
+  "kind": "expression",
+  "category": "接続表現",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（結局）〜ということになる",
+    "en": "it is settled that, so it turns out that",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เป็นอันว่าเราไม่ต้องไปแล้ว",
+     "ro": "pen an wâa rao mâi tɔ̂ɔng pai lɛ́ɛo",
+     "ja": "結局、私たちは行かなくてよいことになりました。",
+     "en": "So it is settled that we do not have to go.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（ไม่เป็นอัน〜で）ろくに〜できない",
+    "en": "(with ไม่) cannot properly do",
+    "pos": "定型表現",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขากังวลจนไม่เป็นอันทำงาน",
+     "ro": "khǎo kang won con mâi pen an tham ngaan",
+     "ja": "あの人は心配で仕事が手につきません。",
+     "en": "He is so worried he cannot work properly.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21125",
+  "th": "พระบรม",
+  "action": "skip",
+  "skipReason": "王室語の複合語の前半部分（断片）で、単独では使わない"
+ },
+ {
+  "id": "tl-21161",
+  "th": "มากๆ",
+  "action": "add",
+  "ro": "mâak mâak",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "とても・すごく",
+    "en": "very much, a lot",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขอบคุณมากๆ นะ",
+     "ro": "khɔ̀ɔp khun mâak mâak ná",
+     "ja": "本当にどうもありがとう。",
+     "en": "Thank you so much.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21165",
+  "th": "พระราชทาน",
+  "action": "add",
+  "ro": "phrá râat chá thaan",
+  "kind": "word",
+  "category": "社会・制度",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（国王・王族が）お与えになる・下賜する",
+    "en": "(of royalty) to bestow, grant",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "royal"
+    ],
+    "speechStyle": "王室の敬語",
+    "example": {
+     "th": "ในหลวงพระราชทานทุนการศึกษาแก่นักเรียน",
+     "ro": "nai lǔuang phrá râat chá thaan thun kaan sʉ̀k sǎa kɛ̀ɛ nák riian",
+     "ja": "国王は学生に奨学金をお与えになりました。",
+     "en": "The King granted scholarships to students.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21167",
+  "th": "รอบๆ",
+  "action": "add",
+  "ro": "rɔ̂ɔp rɔ̂ɔp",
+  "kind": "word",
+  "category": "場所・前置詞",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "〜の周り・周囲に",
+    "en": "around, surrounding",
+    "pos": "前置詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รอบๆ บ้านมีต้นไม้เยอะ",
+     "ro": "rɔ̂ɔp rɔ̂ɔp bâan mii tôn máai yə́",
+     "ja": "家の周りには木がたくさんあります。",
+     "en": "There are many trees around the house.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21169",
+  "th": "เช่นเดียว",
+  "action": "skip",
+  "skipReason": "単独では使わない断片（เช่นเดียวกัน・เช่นเดียวกับ の一部）"
+ },
+ {
+  "id": "tl-21180",
+  "th": "บิดามารดา",
+  "action": "add",
+  "ro": "bì daa maan daa",
+  "kind": "word",
+  "category": "人・家族",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "父母・両親",
+    "en": "parents",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "กรุณากรอกชื่อบิดามารดา",
+     "ro": "kà rú naa krɔ̀ɔk chʉ̂ʉ bì daa maan daa",
+     "ja": "両親の氏名をご記入ください。",
+     "en": "Please fill in your parents’ names.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21190",
+  "th": "รึ",
+  "action": "add",
+  "ro": "rʉ́",
+  "kind": "word",
+  "category": "助詞・語気",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "〜の？・〜か（疑問）",
+    "en": "question particle",
+    "pos": "助詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "จะไปแล้วรึ",
+     "ro": "cà pai lɛ́ɛo rʉ́",
+     "ja": "もう行くの？",
+     "en": "Are you leaving already?",
+     "origin": "source"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "それとも・または",
+    "en": "or",
+    "pos": "接続詞",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "อยากกินแกงส้มรึข้าวซอย",
+     "ro": "yàak kin kɛɛng sôm rʉ́ khâao sɔɔi",
+     "ja": "ゲーンソムが食べたい？それともカオソーイ？",
+     "en": "Do you want gaeng som or khao soi?",
+     "origin": "source"
+    }
+   }
+  ],
+  "note": "หรือ のくだけた言い方。"
+ },
+ {
+  "id": "tl-21194",
+  "th": "ฉันท์",
+  "action": "skip",
+  "skipReason": "詩の韻律形式を指す専門語で、学習価値が低い"
+ },
+ {
+  "id": "tl-21218",
+  "th": "ราชสีห์",
+  "action": "add",
+  "ro": "râat chá sǐi",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ライオン（獅子・百獣の王）",
+    "en": "lion (king of beasts)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "literary"
+    ],
+    "speechStyle": "文語",
+    "example": {
+     "th": "ราชสีห์กับหนูเป็นนิทานที่เด็กๆ ชอบ",
+     "ro": "râat chá sǐi kàp nǔu pen ní thaan thîi dèk dèk chɔ̂ɔp",
+     "ja": "「ライオンとネズミ」は子どもたちが好きな物語です。",
+     "en": "\"The Lion and the Mouse\" is a tale children love.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "寓話・文学的な言い方。動物としては สิงโต が普通。"
+ },
+ {
+  "id": "tl-21223",
+  "th": "มอญ",
+  "action": "skip",
+  "skipReason": "固有名詞（民族名・言語名）のため除外"
+ },
+ {
+  "id": "tl-21225",
+  "th": "สา",
+  "action": "skip",
+  "skipReason": "語義が方言・古語・文語の接続詞などに分かれ、現代の一般語として確実な意味を示せない"
+ },
+ {
+  "id": "tl-21253",
+  "th": "กรุงเทพฯ",
+  "action": "skip",
+  "skipReason": "固有名詞（地名）のため除外"
+ },
+ {
+  "id": "tl-21267",
+  "th": "น้อยๆ",
+  "action": "add",
+  "ro": "nɔ́ɔi nɔ́ɔi",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "少なめに・ちょっとだけ",
+    "en": "a little, sparingly",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ใส่น้ำตาลน้อยๆ นะ",
+     "ro": "sài nám taan nɔ́ɔi nɔ́ɔi ná",
+     "ja": "砂糖は少なめに入れてね。",
+     "en": "Put in just a little sugar.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21276",
+  "th": "โอ",
+  "action": "skip",
+  "skipReason": "「漆塗りの小鉢」の意味はまれで、間投詞 โอ とも紛らわしく、学習価値が低い"
+ },
+ {
+  "id": "tl-21278",
+  "th": "ดีๆ",
+  "action": "add",
+  "ro": "dii dii",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "よく・ちゃんと",
+    "en": "well, carefully",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คิดดีๆ ก่อนตัดสินใจ",
+     "ro": "khít dii dii kɔ̀ɔn tàt sǐn cai",
+     "ja": "決める前によく考えて。",
+     "en": "Think carefully before you decide.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "良い・いい",
+    "en": "good, nice",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แถวนี้มีร้านอาหารดีๆ ไหม",
+     "ro": "thɛ̌ɛo níi mii ráan aa hǎan dii dii mǎi",
+     "ja": "この辺にいいレストランはありますか？",
+     "en": "Are there any good restaurants around here?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21294",
+  "th": "อำมาตย์",
+  "action": "skip",
+  "skipReason": "主に古い官職名・政治用語で、読み（am màat か am mâat か）にも確信が持てない"
+ },
+ {
+  "id": "tl-21313",
+  "th": "เล่าเรียน",
+  "action": "add",
+  "ro": "lâo riian",
+  "kind": "word",
+  "category": "仕事・学習",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "学ぶ・勉学する",
+    "en": "to study, receive an education",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "พ่อแม่ทำงานหนักเพื่อส่งลูกเล่าเรียน",
+     "ro": "phɔ̂ɔ mɛ̂ɛ tham ngaan nàk phʉ̂ʉa sòng lûuk lâo riian",
+     "ja": "両親は子どもを学校に通わせるために懸命に働いています。",
+     "en": "The parents work hard to put their children through school.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ค่าเล่าเรียน（授業料）の形でもよく使う。"
+ },
+ {
+  "id": "tl-21348",
+  "th": "ลูกๆ",
+  "action": "add",
+  "ro": "lûuk lûuk",
+  "kind": "word",
+  "category": "人・家族",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（自分の）子どもたち",
+    "en": "children (one’s own)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แม่ทำอาหารให้ลูกๆ ทุกวัน",
+     "ro": "mɛ̂ɛ tham aa hǎan hâi lûuk lûuk thúk wan",
+     "ja": "母は毎日子どもたちに料理を作ります。",
+     "en": "The mother cooks for her children every day.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21353",
+  "th": "ราษฎร",
+  "action": "add",
+  "ro": "râat sà dɔɔn",
+  "kind": "word",
+  "category": "社会・制度",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "国民・人民・住民",
+    "en": "the people, citizens",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "รัฐบาลต้องช่วยเหลือราษฎร",
+     "ro": "rát thà baan tɔ̂ɔng chûuai lʉ̌ʉa râat sà dɔɔn",
+     "ja": "政府は国民を助けなければなりません。",
+     "en": "The government must help the people.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21380",
+  "th": "เร็วๆ",
+  "action": "add",
+  "ro": "reo reo",
+  "kind": "word",
+  "category": "時間",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "早く・急いで",
+    "en": "quickly, hurry",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "มาเร็วๆ นะ",
+     "ro": "maa reo reo ná",
+     "ja": "早く来てね。",
+     "en": "Come quickly.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（เร็วๆ นี้で）近いうちに",
+    "en": "(เร็วๆ นี้) soon, shortly",
+    "pos": "副詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เราจะไปเที่ยวญี่ปุ่นเร็วๆ นี้",
+     "ro": "rao cà pai thîiao yîi pùn reo reo níi",
+     "ja": "私たちは近いうちに日本へ旅行に行きます。",
+     "en": "We will travel to Japan soon.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21383",
+  "th": "วา",
+  "action": "add",
+  "ro": "waa",
+  "kind": "word",
+  "category": "数え方",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ワー（長さの単位・約2メートル）",
+    "en": "wa (unit of length, 2 m)",
+    "pos": "類別詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ต้นไม้ต้นนี้สูงประมาณสามวา",
+     "ro": "tôn máai tôn níi sǔung prà maan sǎam waa",
+     "ja": "この木は高さ約3ワーです。",
+     "en": "This tree is about three wa tall.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "面積の ตารางวา（約4平方メートル）は土地の広さによく使う。"
+ },
+ {
+  "id": "tl-21397",
+  "th": "โท",
+  "action": "add",
+  "ro": "thoo",
+  "kind": "word",
+  "category": "仕事・学習",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "第二の・二級の（学位・階級など）",
+    "en": "second (rank, degree)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พี่สาวฉันกำลังเรียนปริญญาโท",
+     "ro": "phîi sǎao chǎn kam lang riian pà rin yaa thoo",
+     "ja": "姉は修士課程で学んでいます。",
+     "en": "My older sister is studying for a master’s degree.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "主に ปริญญาโท（修士）・ร้อยโท（中尉）などの複合語で使う。"
+ },
+ {
+  "id": "tl-21411",
+  "th": "เนื้อความ",
+  "action": "add",
+  "ro": "nʉ́ʉa khwaam",
+  "kind": "word",
+  "category": "仕事・学習",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "内容・文面",
+    "en": "content, text, gist",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เนื้อความในจดหมายฉบับนี้ไม่ชัดเจน",
+     "ro": "nʉ́ʉa khwaam nai còt mǎai chà bàp níi mâi chát ceen",
+     "ja": "この手紙の内容ははっきりしません。",
+     "en": "The content of this letter is unclear.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21416",
+  "th": "ใหม่ๆ",
+  "action": "add",
+  "ro": "mài mài",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "新しい（いろいろな）",
+    "en": "new (various)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้มีเสื้อผ้าใหม่ๆ เยอะ",
+     "ro": "ráan níi mii sʉ̂ʉa phâa mài mài yə́",
+     "ja": "この店には新しい服がたくさんあります。",
+     "en": "This shop has lots of new clothes.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "〜したばかりの頃",
+    "en": "when (something) was new, at first",
+    "pos": "副詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตอนมาใหม่ๆ ฉันพูดไทยไม่ได้",
+     "ro": "tɔɔn maa mài mài chǎn phûut thai mâi dâai",
+     "ja": "来たばかりの頃、私はタイ語が話せませんでした。",
+     "en": "When I first came, I could not speak Thai.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21436",
+  "th": "ตะ",
+  "action": "skip",
+  "skipReason": "「塗る」の意味は確認できず、単独の語としての用法に確信が持てない"
+ },
+ {
+  "id": "tl-21444",
+  "th": "ที่อยู่",
+  "action": "add",
+  "ro": "thîi yùu",
+  "kind": "word",
+  "category": "家・場所",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "住所",
+    "en": "address",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กรุณาเขียนที่อยู่ของคุณที่นี่",
+     "ro": "kà rú naa khǐian thîi yùu khɔ̌ɔng khun thîi nîi",
+     "ja": "ここにご住所を書いてください。",
+     "en": "Please write your address here.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "住む所・住まい",
+    "en": "place to live, dwelling",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขายังไม่มีที่อยู่",
+     "ro": "khǎo yang mâi mii thîi yùu",
+     "ja": "あの人にはまだ住む所がありません。",
+     "en": "He still has no place to live.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21472",
+  "th": "สุ",
+  "action": "skip",
+  "skipReason": "「（スイカなどが）熟れすぎて中がすかすか」の意味は使用範囲が狭く、確信が持てない"
+ },
+ {
+  "id": "tl-21510",
+  "th": "จึ่ง",
+  "action": "skip",
+  "skipReason": "จึง の古い綴りで、現代の文例を示せない"
+ },
+ {
+  "id": "tl-21530",
+  "th": "หลายๆ",
+  "action": "add",
+  "ro": "lǎai lǎai",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "多くの・いくつもの",
+    "en": "many, several",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หลายๆ คนชอบอาหารไทย",
+     "ro": "lǎai lǎai khon chɔ̂ɔp aa hǎan thai",
+     "ja": "多くの人がタイ料理を好みます。",
+     "en": "Many people like Thai food.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21533",
+  "th": "กรุงเทพ",
+  "action": "skip",
+  "skipReason": "固有名詞（地名）のため除外"
+ },
+ {
+  "id": "tl-21556",
+  "th": "เอ",
+  "action": "skip",
+  "skipReason": "ローマ字「A」の名称で、間投詞 เอ・เอ๊ะ とも紛らわしく学習価値が低い"
+ },
+ {
+  "id": "tl-21559",
+  "th": "สั้นๆ",
+  "action": "add",
+  "ro": "sân sân",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "短く・手短に",
+    "en": "briefly, short",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วยอธิบายสั้นๆ หน่อย",
+     "ro": "chûuai à thí baai sân sân nɔ̀ɔi",
+     "ja": "手短に説明してください。",
+     "en": "Please explain briefly.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21568",
+  "th": "ลัก",
+  "action": "add",
+  "ro": "lák",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "盗む",
+    "en": "to steal",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "เขาถูกจับข้อหาลักทรัพย์",
+     "ro": "khǎo thùuk càp khɔ̂ɔ hǎa lák sáp",
+     "ja": "あの人は窃盗の容疑で逮捕されました。",
+     "en": "He was arrested on a charge of theft.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "こっそり〜する",
+    "en": "to do secretly, sneak",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นักเรียนลักสูบบุหรี่ในห้องน้ำ",
+     "ro": "nák riian lák sùup bù rìi nai hɔ̂ɔng náam",
+     "ja": "生徒がトイレでこっそりたばこを吸いました。",
+     "en": "A student secretly smoked in the restroom.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "日常会話では ขโมย が普通。"
+ },
+ {
+  "id": "tl-21574",
+  "th": "พญา",
+  "action": "skip",
+  "skipReason": "古い王・首長の称号で、主に伝説・固有名の中で使われ、現代の一般語としての学習価値が低い"
+ },
+ {
+  "id": "tl-21602",
+  "th": "ราชาศัพท์",
+  "action": "add",
+  "ro": "raa chaa sàp",
+  "kind": "word",
+  "category": "社会・制度",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "王室用語（王族に用いる敬語）",
+    "en": "royal vocabulary",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นักเรียนไทยต้องเรียนราชาศัพท์",
+     "ro": "nák riian thai tɔ̂ɔng riian raa chaa sàp",
+     "ja": "タイの生徒は王室用語を学ばなければなりません。",
+     "en": "Thai students have to learn royal vocabulary.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21621",
+  "th": "สู",
+  "action": "skip",
+  "skipReason": "古語・文語の二人称で、現代の自然な文例を示せない"
+ },
+ {
+  "id": "tl-21651",
+  "th": "คุณลุง",
+  "action": "add",
+  "ro": "khun lung",
+  "kind": "word",
+  "category": "人・家族",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "おじさん（丁寧な呼び方）",
+    "en": "uncle (polite)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คุณลุงสบายดีไหมครับ",
+     "ro": "khun lung sà baai dii mǎi khráp",
+     "ja": "おじさん、お元気ですか？",
+     "en": "How are you, uncle?",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "親の兄だけでなく、年配の男性への呼びかけにも使う。"
+ },
+ {
+  "id": "tl-21660",
+  "th": "บริวาร",
+  "action": "add",
+  "ro": "bɔɔ rí waan",
+  "kind": "word",
+  "category": "人・家族",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "取り巻き・従者",
+    "en": "followers, entourage",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นักการเมืองคนนั้นเดินมากับบริวารหลายคน",
+     "ro": "nák kaan mʉʉang khon nán dəən maa kàp bɔɔ rí waan lǎai khon",
+     "ja": "あの政治家は取り巻きを何人も連れて歩いてきました。",
+     "en": "That politician walked in with several followers.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21674",
+  "th": "หนึ่งๆ",
+  "action": "add",
+  "ro": "nʉ̀ng nʉ̀ng",
+  "kind": "word",
+  "category": "数え方",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "一〜あたり・ひとつひとつの",
+    "en": "per (one unit), each",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วันหนึ่งๆ ฉันดื่มน้ำสองลิตร",
+     "ro": "wan nʉ̀ng nʉ̀ng chǎn dʉ̀ʉm náam sɔ̌ɔng lít",
+     "ja": "私は一日に水を2リットル飲みます。",
+     "en": "I drink two liters of water a day.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21683",
+  "th": "ใช้ได้",
+  "action": "add",
+  "ro": "chái dâai",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "使える・有効な",
+    "en": "usable, working, valid",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โทรศัพท์เครื่องนี้ยังใช้ได้อยู่",
+     "ro": "thoo rá sàp khrʉ̂ʉang níi yang chái dâai yùu",
+     "ja": "この電話はまだ使えます。",
+     "en": "This phone still works.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "なかなか良い",
+    "en": "pretty good, not bad",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ฝีมือทำอาหารของเธอใช้ได้เลย",
+     "ro": "fǐi mʉʉ tham aa hǎan khɔ̌ɔng thəə chái dâai ləəi",
+     "ja": "あなたの料理の腕はなかなかですね。",
+     "en": "Your cooking is pretty good.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21694",
+  "th": "ใหญ่ๆ",
+  "action": "add",
+  "ro": "yài yài",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "大きな",
+    "en": "big, large",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันอยากได้บ้านใหญ่ๆ",
+     "ro": "chǎn yàak dâai bâan yài yài",
+     "ja": "大きな家が欲しいです。",
+     "en": "I want a big house.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21723",
+  "th": "เจ้าพระยา",
+  "action": "skip",
+  "skipReason": "旧貴族の最高位の称号（河川名などの固有名詞にも）で、現代の学習語としての価値が低い"
+ },
+ {
+  "id": "tl-21812",
+  "th": "พี่ๆ",
+  "action": "add",
+  "ro": "phîi phîi",
+  "kind": "word",
+  "category": "人・家族",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "先輩たち・年上の人たち",
+    "en": "older ones, seniors",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พี่ๆ ที่ทำงานใจดีมาก",
+     "ro": "phîi phîi thîi tham ngaan cai dii mâak",
+     "ja": "職場の先輩たちはとても親切です。",
+     "en": "The seniors at work are very kind.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "年上の相手たちへの呼びかけにも使う。"
+ },
+ {
+  "id": "tl-21822",
+  "th": "กรุงศรีอยุธยา",
+  "action": "skip",
+  "skipReason": "固有名詞（地名・旧王朝名）のため除外"
+ },
+ {
+  "id": "tl-21823",
+  "th": "จา",
+  "action": "skip",
+  "skipReason": "「話す」の意味は単独ではまれで、主に เจรจา・วาจา などの中にしか現れない"
+ },
+ {
+  "id": "tl-21831",
+  "th": "สะ",
+  "action": "skip",
+  "skipReason": "「積み上げる」の意味が確認できず、用法に確信が持てない"
+ },
+ {
+  "id": "tl-21859",
+  "th": "ละก็",
+  "action": "add",
+  "ro": "lá kɔ̂ɔ",
+  "kind": "expression",
+  "category": "助詞・語気",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "〜なら・〜ったら（話題を取り立てる）",
+    "en": "as for, if it is (topic emphasis)",
+    "pos": "助詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ถ้าเป็นฉันละก็ ไม่ซื้อหรอก",
+     "ro": "thâa pen chǎn lá kɔ̂ɔ mâi sʉ́ʉ rɔ̀ɔk",
+     "ja": "私だったら買わないよ。",
+     "en": "If it were me, I would not buy it.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21883",
+  "th": "ยิ้มแย้ม",
+  "action": "add",
+  "ro": "yím yɛ́ɛm",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "にこやかにする・にこにこする",
+    "en": "to smile pleasantly, be cheerful",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอยิ้มแย้มอยู่เสมอ",
+     "ro": "thəə yím yɛ́ɛm yùu sà mə̌ə",
+     "ja": "彼女はいつもにこにこしています。",
+     "en": "She is always smiling.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21895",
+  "th": "วานนี้",
+  "action": "add",
+  "ro": "waan níi",
+  "kind": "word",
+  "category": "時間",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "昨日",
+    "en": "yesterday",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "วานนี้ฝนตกหนักทั้งวัน",
+     "ro": "waan níi fǒn tòk nàk tháng wan",
+     "ja": "昨日は一日中大雨でした。",
+     "en": "It rained heavily all day yesterday.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会話では เมื่อวาน・เมื่อวานนี้ が普通。"
+ },
+ {
+  "id": "tl-21898",
+  "th": "เสนา",
+  "action": "skip",
+  "skipReason": "「軍・兵」の意味は文語で、現代は主に เสนาบดี などの語の一部としてしか使わない"
+ },
+ {
+  "id": "tl-21937",
+  "th": "อะไรๆ",
+  "action": "add",
+  "ro": "à rai à rai",
+  "kind": "word",
+  "category": "疑問詞",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何もかも・何でも",
+    "en": "everything, anything",
+    "pos": "代名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อะไรๆ ก็แพงขึ้น",
+     "ro": "à rai à rai kɔ̂ɔ phɛɛng khʉ̂n",
+     "ja": "何もかも値上がりしました。",
+     "en": "Everything has become more expensive.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21977",
+  "th": "ดูซิ",
+  "action": "add",
+  "ro": "duu sí",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ほら見て・見てごらん",
+    "en": "look!, look at that",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ดูซิ ฝนตกแล้ว",
+     "ro": "duu sí fǒn tòk lɛ́ɛo",
+     "ja": "ほら見て、雨が降ってきた。",
+     "en": "Look, it has started raining.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ดูสิ とも書く。"
+ },
+ {
+  "id": "tl-21979",
+  "th": "พระพุทธเจ้าข้า",
+  "action": "skip",
+  "skipReason": "国王に対する受け答えの王室定型語で、一般学習者向けに例文と用法を確実に示しにくい"
+ },
+ {
+  "id": "tl-21987",
+  "th": "บริโภค",
+  "action": "add",
+  "ro": "bɔɔ rí phôok",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "摂取する・消費する（飲食物・物を）",
+    "en": "to consume, eat",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "เราควรบริโภคอาหารที่มีประโยชน์",
+     "ro": "rao khuuan bɔɔ rí phôok aa hǎan thîi mii prà yòot",
+     "ja": "私たちは体に良い食べ物を摂るべきです。",
+     "en": "We should consume nutritious food.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21997",
+  "th": "จะเห็นได้ว่า",
+  "action": "add",
+  "ro": "cà hěn dâai wâa",
+  "kind": "expression",
+  "category": "接続表現",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "〜であることがわかる",
+    "en": "it can be seen that",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "จากตัวเลขนี้ จะเห็นได้ว่าราคาสูงขึ้น",
+     "ro": "càak tuua lêek níi cà hěn dâai wâa raa khaa sǔung khʉ̂n",
+     "ja": "この数字から、価格が上がったことがわかります。",
+     "en": "From these figures, it can be seen that prices have risen.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21998",
+  "th": "ฉะนี้",
+  "action": "add",
+  "ro": "chà níi",
+  "kind": "word",
+  "category": "指示表現",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "このように・かくのごとく",
+    "en": "thus, like this",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "literary"
+    ],
+    "speechStyle": "文語",
+    "example": {
+     "th": "ด้วยเหตุฉะนี้ เราจึงต้องเลื่อนการประชุม",
+     "ro": "dûuai hèet chà níi rao cʉng tɔ̂ɔng lʉ̂ʉan kaan prà chum",
+     "ja": "このような理由で、私たちは会議を延期しなければなりません。",
+     "en": "For this reason, we have to postpone the meeting.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-21999",
+  "th": "ต่อๆ",
+  "action": "add",
+  "ro": "tɔ̀ɔ tɔ̀ɔ",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "次々に（人から人へ）",
+    "en": "on and on, from one to the next",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ข่าวนี้ถูกส่งต่อๆ กันไป",
+     "ro": "khàao níi thùuk sòng tɔ̀ɔ tɔ̀ɔ kan pai",
+     "ja": "このニュースは次々と人から人へ伝えられました。",
+     "en": "This news was passed on from person to person.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（ต่อๆ ไปで）今後の・この先の",
+    "en": "(ต่อๆ ไป) following, from now on",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ปีต่อๆ ไปคงจะดีขึ้น",
+     "ro": "pii tɔ̀ɔ tɔ̀ɔ pai khong cà dii khʉ̂n",
+     "ja": "この先の年はきっと良くなるでしょう。",
+     "en": "The coming years will probably be better.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-22016",
+  "th": "เยาะ",
+  "action": "add",
+  "ro": "yɔ́",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "あざける・ばかにする",
+    "en": "to mock, ridicule",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อย่าหัวเราะเยาะคนอื่น",
+     "ro": "yàa hǔua rɔ́ yɔ́ khon ʉ̀ʉn",
+     "ja": "他人をあざ笑ってはいけません。",
+     "en": "Do not laugh at other people.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "主に หัวเราะเยาะ・เยาะเย้ย の形で使う。"
+ },
+ {
+  "id": "tl-22029",
+  "th": "นุ่ง",
+  "action": "add",
+  "ro": "nûng",
+  "kind": "word",
+  "category": "日常の動作",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（腰布・ズボンなどを）はく・身に着ける",
+    "en": "to wear (lower garment)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แม่ชอบนุ่งผ้าถุงอยู่บ้าน",
+     "ro": "mɛ̂ɛ chɔ̂ɔp nûng phâa thǔng yùu bâan",
+     "ja": "母は家では腰巻き（パートゥン）をはくのが好きです。",
+     "en": "My mother likes to wear a sarong at home.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-22055",
+  "th": "ปกากะญอ",
+  "action": "skip",
+  "skipReason": "固有名詞（民族名）のため除外"
+ },
+ {
+  "id": "tl-22100",
+  "th": "หงสาวดี",
+  "action": "skip",
+  "skipReason": "固有名詞（地名・旧王国名）のため除外"
+ },
+ {
+  "id": "tl-22114",
+  "th": "พระกรุณา",
+  "action": "skip",
+  "skipReason": "王室語の複合語の一部で、単独では用法を確実に示しにくい"
+ },
+ {
+  "id": "tl-22121",
+  "th": "ผู้ดี",
+  "action": "add",
+  "ro": "phûu dii",
+  "kind": "word",
+  "category": "人・家族",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "上流の人・品のある人",
+    "en": "gentleman, lady, upper-class person",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาทำตัวเหมือนผู้ดี",
+     "ro": "khǎo tham tuua mʉ̌ʉan phûu dii",
+     "ja": "あの人は上流の人のように振る舞います。",
+     "en": "He behaves like a gentleman.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-22125",
+  "th": "อุ",
+  "action": "skip",
+  "skipReason": "北部・少数民族の地酒の名で、使用範囲が狭い"
+ },
+ {
+  "id": "tl-22131",
+  "th": "บ่",
+  "action": "skip",
+  "skipReason": "北部・東北方言の否定語で、本アプリの登録区分（標準語中心）に合わない"
+ },
+ {
+  "id": "tl-22147",
+  "th": "บริบูรณ์",
+  "action": "add",
+  "ro": "bɔɔ rí buun",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "完全な・満〜（年齢・年数）",
+    "en": "complete, full",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ลูกสาวฉันอายุครบสิบแปดปีบริบูรณ์แล้ว",
+     "ro": "lûuk sǎao chǎn aa yú khróp sìp pɛ̀ɛt pii bɔɔ rí buun lɛ́ɛo",
+     "ja": "娘は満18歳になりました。",
+     "en": "My daughter has turned a full eighteen.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-22149",
+  "th": "ราม",
+  "action": "skip",
+  "skipReason": "「美しい」の意味は古語・碑文語で、現代の自然な例文を示せない"
+ },
+ {
+  "id": "tl-22150",
+  "th": "เพียงนี้",
+  "action": "add",
+  "ro": "phiiang níi",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "これほど・これだけ",
+    "en": "this much, to this extent",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ฉันไม่คิดว่ามันจะยากเพียงนี้",
+     "ro": "chǎn mâi khít wâa man cà yâak phiiang níi",
+     "ja": "これほど難しいとは思いませんでした。",
+     "en": "I did not think it would be this difficult.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-22157",
+  "th": "พระบาทสมเด็จ",
+  "action": "skip",
+  "skipReason": "王の称号の前半部分（断片）で、単独では使わない"
+ },
+ {
+  "id": "tl-22205",
+  "th": "กาด",
+  "action": "skip",
+  "skipReason": "北部方言の「市場」で、標準語の学習語としての価値が低い"
+ },
+ {
+  "id": "tl-22215",
+  "th": "เวียน",
+  "action": "add",
+  "ro": "wiian",
+  "kind": "word",
+  "category": "日常の動作",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "回る・巡る",
+    "en": "to go around, circle",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ชาวพุทธเดินเวียนรอบโบสถ์สามรอบ",
+     "ro": "chaao phút dəən wiian rɔ̂ɔp bòot sǎam rɔ̂ɔp",
+     "ja": "仏教徒は本堂の周りを三周回ります。",
+     "en": "Buddhists walk around the ordination hall three times.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（เวียนหัวで）めまいがする",
+    "en": "(เวียนหัว) to feel dizzy",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันรู้สึกเวียนหัว",
+     "ro": "chǎn rúu sʉ̀k wiian hǔua",
+     "ja": "めまいがします。",
+     "en": "I feel dizzy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-22227",
+  "th": "ละโว้",
+  "action": "skip",
+  "skipReason": "固有名詞（古都名）のため除外"
+ },
+ {
+  "id": "tl-22230",
+  "th": "เขมร",
+  "action": "skip",
+  "skipReason": "固有名詞（カンボジア・クメール）のため除外"
+ },
+ {
+  "id": "tl-22240",
+  "th": "บันดาล",
+  "action": "add",
+  "ro": "ban daan",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（不思議な力が）もたらす・引き起こす",
+    "en": "to bring about (by supernatural power)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาเชื่อว่าสิ่งศักดิ์สิทธิ์บันดาลให้เขาหายป่วย",
+     "ro": "khǎo chʉ̂ʉa wâa sìng sàk sìt ban daan hâi khǎo hǎai pùuai",
+     "ja": "あの人は神仏の力で病気が治ったと信じています。",
+     "en": "He believes sacred powers made him recover.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（แรงบันดาลใจで）ひらめき・刺激",
+    "en": "(แรงบันดาลใจ) inspiration",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หนังเรื่องนี้เป็นแรงบันดาลใจให้ฉัน",
+     "ro": "nǎng rʉ̂ʉang níi pen rɛɛng ban daan cai hâi chǎn",
+     "ja": "この映画は私に刺激を与えてくれました。",
+     "en": "This film inspired me.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-22260",
+  "th": "สวยๆ",
+  "action": "add",
+  "ro": "sǔuai sǔuai",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "きれいな・美しい",
+    "en": "beautiful, pretty",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ที่นี่มีวิวสวยๆ เยอะ",
+     "ro": "thîi nîi mii wiu sǔuai sǔuai yə́",
+     "ja": "ここにはきれいな景色がたくさんあります。",
+     "en": "There are lots of beautiful views here.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-22274",
+  "th": "ราชบุตร",
+  "action": "skip",
+  "skipReason": "北部の旧王族の称号で、固有名詞に準じ学習価値が低い"
+ },
+ {
+  "id": "tl-22299",
+  "th": "นี่แน่ะ",
+  "action": "add",
+  "ro": "nîi nɛ̂",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ほら・ねえ（注意を引く）",
+    "en": "look here!",
+    "pos": "間投詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "นี่แน่ะ ดูรูปนี้สิ",
+     "ro": "nîi nɛ̂ duu rûup níi sì",
+     "ja": "ほら、この写真を見て。",
+     "en": "Look here, look at this picture.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-22322",
+  "th": "ลูกไก่",
+  "action": "add",
+  "ro": "lûuk kài",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ひよこ",
+    "en": "chick",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แม่ไก่พาลูกไก่เดินหาอาหาร",
+     "ro": "mɛ̂ɛ kài phaa lûuk kài dəən hǎa aa hǎan",
+     "ja": "母鶏がひよこを連れて餌を探して歩いています。",
+     "en": "The hen is leading her chicks around looking for food.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-22328",
+  "th": "เบื้อง",
+  "action": "add",
+  "ro": "bʉ̂ʉang",
+  "kind": "word",
+  "category": "場所・前置詞",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "方・側（上下・前後など）",
+    "en": "side, direction",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันได้รับคำสั่งจากเบื้องบน",
+     "ro": "chǎn dâai ráp kham sàng càak bʉ̂ʉang bon",
+     "ja": "私は上から命令を受けました。",
+     "en": "I received orders from above.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "主に เบื้องบน・เบื้องหลัง・เบื้องต้น などの複合語で使う。"
+ },
+ {
+  "id": "tl-22337",
+  "th": "บรรทม",
+  "action": "add",
+  "ro": "ban thom",
+  "kind": "word",
+  "category": "日常の動作",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（王族が）お休みになる・寝る",
+    "en": "(royal) to sleep",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "royal"
+    ],
+    "speechStyle": "王室の敬語",
+    "example": {
+     "th": "พระราชาบรรทมแต่หัวค่ำ",
+     "ro": "phrá raa chaa ban thom tɛ̀ɛ hǔua khâm",
+     "ja": "王は宵のうちからお休みになりました。",
+     "en": "The king went to bed early in the evening.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "王族にのみ使う。それ自体が王室語なので ทรง を付けない。"
+ },
+ {
+  "id": "tl-22344",
+  "th": "อ่อนๆ",
+  "action": "add",
+  "ro": "ɔ̀ɔn ɔ̀ɔn",
+  "kind": "word",
+  "category": "性質・状態",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "薄めの・弱めの（味・色など）",
+    "en": "mild, weak, light",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขอกาแฟอ่อนๆ หนึ่งแก้ว",
+     "ro": "khɔ̌ɔ kaa fɛɛ ɔ̀ɔn ɔ̀ɔn nʉ̀ng kɛ̂ɛo",
+     "ja": "薄めのコーヒーを一杯ください。",
+     "en": "One weak coffee, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-22350",
+  "th": "เอื้อเฟื้อ",
+  "action": "add",
+  "ro": "ʉ̂ʉa fʉ́ʉa",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "親切に助ける・分け与える",
+    "en": "to be generous, help out",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขามีเพื่อนบ้านดี มีอะไรก็เอื้อเฟื้อกันเสมอ",
+     "ro": "khǎo mii phʉ̂ʉan bâan dii mii à rai kɔ̂ɔ ʉ̂ʉa fʉ́ʉa kan sà mə̌ə",
+     "ja": "あの人は良い隣人に恵まれ、何かあればいつも助け合っています。",
+     "en": "He has good neighbors who always share and help each other.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-22388",
+  "th": "พระบาทสมเด็จพระเจ้าอยู่หัว",
+  "action": "skip",
+  "skipReason": "国王の正式称号（固有名詞に準ずる）のため除外"
+ }
+]

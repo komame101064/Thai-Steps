@@ -1,0 +1,610 @@
+[
+ {
+  "id": "tl-24734",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24739",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24748",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24749",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24758",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24759",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24766",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24767",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24768",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24771",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24774",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24791",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24793",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24795",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24814",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24825",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24832",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24839",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24851",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24861",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24864",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24884",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24889",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24900",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24903",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24910",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24911",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24926",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24932",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24945",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24953",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24955",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24956",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24962",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24967",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24968",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24975",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24976",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24977",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24979",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24980",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24984",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24987",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24993",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25000",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25010",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25016",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25026",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25027",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25028",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25034",
+  "verdict": "fix",
+  "issues": [
+   "語義1「すいすいと速く」（รถวิ่งฉิว・ฉิวเลย）は話し言葉の擬態的副詞なので口語ラベルに変更",
+   "語義2「むっとする」は実在するがやや古めで頻度は低いため use を少なめの用法に変更（語義・用例自体は可）"
+  ],
+  "fixed": {
+   "id": "tl-25034",
+   "th": "ฉิว",
+   "action": "add",
+   "ro": "chǐu",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（風を切って）すいすいと・速く",
+     "en": "swiftly, zooming",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "รถวิ่งฉิวไปบนถนน",
+      "ro": "rót wîng chǐu pai bon thà nǒn",
+      "ja": "車が道路をすいすいと走っていきました。",
+      "en": "The car zoomed along the road.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "むっとする・腹を立てる",
+     "en": "to be miffed, get angry",
+     "pos": "形容詞・状態語",
+     "use": "少なめの用法",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เธอฉิวมากที่ฉันมาสาย",
+      "ro": "thəə chǐu mâak thîi chǎn maa sǎai",
+      "ja": "私が遅れて来たので、あの人はとてもむっとしました。",
+      "en": "She was really annoyed that I came late.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-25036",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25039",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25047",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25054",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25058",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25067",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25072",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25075",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25081",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25089",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25091",
+  "verdict": "fix",
+  "issues": [
+   "例文「เชื่อแน่แท้ว่า…」は不自然な結びつきで和訳もぎこちないため、典型的な「เป็นความจริงอย่างแน่แท้」の文に差し替え。文語ラベルは妥当"
+  ],
+  "fixed": {
+   "id": "tl-25091",
+   "th": "แน่แท้",
+   "action": "add",
+   "ro": "nɛ̂ɛ thɛ́ɛ",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "確かに・間違いなく",
+     "en": "surely, certainly",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "literary"
+     ],
+     "speechStyle": "文語",
+     "example": {
+      "th": "เรื่องนี้เป็นความจริงอย่างแน่แท้",
+      "ro": "rʉ̂ʉang níi pen khwaam cing yàang nɛ̂ɛ thɛ́ɛ",
+      "ja": "この話は確かに本当です。",
+      "en": "This story is certainly true.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-25094",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25095",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25096",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25101",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25112",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25113",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25116",
+  "verdict": "fix",
+  "issues": [
+   "ปลาทู は Rastrelliger brachysoma（英 short mackerel）。和名グルクマは R. kanagurta（タイ語 ปลาลัง）を指すため不正確。「小型のサバ」に修正し例文和訳も合わせた"
+  ],
+  "fixed": {
+   "id": "tl-25116",
+   "th": "ทู",
+   "action": "add",
+   "ro": "thuu",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（ปลาทู で）プラートゥー（タイで定番の小型のサバ）",
+     "en": "short mackerel (in ปลาทู)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แม่ทอดปลาทูให้กิน",
+      "ro": "mɛ̂ɛ thɔ̂ɔt plaa thuu hâi kin",
+      "ja": "母がサバ（プラートゥー）を揚げて食べさせてくれました。",
+      "en": "Mom fried mackerel for me to eat.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "単独ではほとんど使わず、「ปลาทู」の形で使う。"
+  }
+ },
+ {
+  "id": "tl-25117",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25118",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25121",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25131",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25132",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25135",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25138",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25143",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25145",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25146",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25148",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25162",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25166",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25169",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25170",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25174",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25175",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25179",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25182",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25183",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25189",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25191",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25198",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25199",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25201",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25203",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25214",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25220",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25223",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25226",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25229",
+  "verdict": "ok",
+  "issues": []
+ }
+]
