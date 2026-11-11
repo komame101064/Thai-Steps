@@ -32,6 +32,7 @@ def publish_editorial(it,deck,batch):
         for s in it['senses']:
             m={'ja':s['ja'],'en':s['en'],'pos':s['pos'],'use':s['use'],'checked':True,'sourceSense':s['sourceSense'],'registerTags':s['registerTags'],'isSlang':False,'speechStyle':s['speechStyle']}
             if s.get('note'):m['note']=s['note']
+            elif it.get('note') and s is it['senses'][0]:m['note']=it['note']
             m.update(reviewStatus='reviewed',reviewed=DATE,reviewMethod=METHOD);ms.append(m)
             e=s['example'];examples[f"{k}#{s['sourceSense']}"]={'th':e['th'],'ro':e['ro'],'ja':e['ja'],'en':e['en'],'checked':True,'sourceExample':'thai-steps-'+batch,'speechStyle':'標準的な用例文','reviewStatus':'reviewed','reviewed':DATE,'reviewMethod':METHOD}
         tags=[];[tags.append(t) for m in ms for t in m['registerTags'] if t not in tags]
