@@ -1,0 +1,654 @@
+[
+ {
+  "id": "tl-26320",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26321",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26322",
+  "verdict": "fix",
+  "issues": [
+   "กันแสง は既に王室語の動詞なので ทรง を前に付けない（ทรงกันแสง→กันแสง）",
+   "語義jaの「泣く・涙を流される」は敬語と非敬語が混在していたので統一"
+  ],
+  "fixed": {
+   "id": "tl-26322",
+   "th": "กันแสง",
+   "action": "add",
+   "ro": "kan sɛ̌ɛng",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（王族が）お泣きになる・涙を流される",
+     "en": "to weep (of royalty)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "royal"
+     ],
+     "speechStyle": "王室の敬語",
+     "example": {
+      "th": "เจ้าหญิงกันแสงเมื่อทรงทราบข่าวนั้น",
+      "ro": "câo yǐng kan sɛ̌ɛng mʉ̂ʉa song sâap khàao nán",
+      "ja": "王女はその知らせをお聞きになって涙を流された。",
+      "en": "The princess wept when she learned the news.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "王族について使う王室語。一般の人には ร้องไห้ を使う。"
+  }
+ },
+ {
+  "id": "tl-26323",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26324",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26326",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26327",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26328",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26330",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26331",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26332",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26333",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26335",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26336",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26337",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26338",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26339",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26340",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26341",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26343",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26346",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26347",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26349",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26350",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26351",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26352",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26353",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26354",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26355",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26358",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26359",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26360",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26361",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26362",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26363",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26364",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26365",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26366",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26367",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26368",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26369",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26370",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26371",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26372",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26373",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26374",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26375",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26376",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26377",
+  "verdict": "fix",
+  "issues": [
+   "noteの「入力の英訳 overlook は誤り」は学習者向けの注記ではないため削除。語義・読み・例文は妥当"
+  ],
+  "fixed": {
+   "id": "tl-26377",
+   "th": "ม่าย",
+   "action": "add",
+   "ro": "mâai",
+   "kind": "word",
+   "category": "人・家族",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "配偶者と死別・離別した・やもめの",
+     "en": "widowed, divorced (without a spouse)",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ป้าของฉันเป็นแม่ม่ายมาหลายปีแล้ว",
+      "ro": "pâa khɔ̌ɔng chǎn pen mɛ̂ɛ mâai maa lǎai pii lɛ́ɛo",
+      "ja": "私のおばは何年も前から夫のいない身だ。",
+      "en": "My aunt has been a widow for many years.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "主に แม่ม่าย・พ่อม่าย・หญิงม่าย の形で使う。"
+  }
+ },
+ {
+  "id": "tl-26378",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26380",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26381",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26382",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26383",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26384",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26385",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26386",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26387",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26388",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26390",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26392",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26393",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26394",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26395",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26396",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26397",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26399",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26400",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26401",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26402",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26403",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26404",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26405",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26406",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26408",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26409",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26410",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26411",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26412",
+  "verdict": "fix",
+  "issues": [
+   "例文en：หลวงพ่อ は住職（abbot）に限らない年長の僧。改まった表現＋僧侶用の注記は妥当（王室語ではない）"
+  ],
+  "fixed": {
+   "id": "tl-26412",
+   "th": "อาพาธ",
+   "action": "add",
+   "ro": "aa phâat",
+   "kind": "word",
+   "category": "体・健康",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（僧侶が）病気になる",
+     "en": "to be ill (of a monk)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "หลวงพ่ออาพาธต้องเข้าโรงพยาบาล",
+      "ro": "lǔuang phɔ̂ɔ aa phâat tɔ̂ɔng khâo roong phá yaa baan",
+      "ja": "和尚様が病気になり、入院しなければならなかった。",
+      "en": "The senior monk fell ill and had to go into hospital.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "僧侶について使う語。一般の人には ป่วย を使う。"
+  }
+ },
+ {
+  "id": "tl-26413",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26414",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26416",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26417",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26418",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26419",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26420",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26421",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26422",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26423",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26425",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26426",
+  "verdict": "fix",
+  "issues": [
+   "読み chà lə̌əm phrá chon má phan sǎa は辞書の読み（ชน-มะ-พัน-สา）として妥当だが、ชน-นะ-พัน-สา の読みも広く通用するため注記に追加"
+  ],
+  "fixed": {
+   "id": "tl-26426",
+   "th": "เฉลิมพระชนมพรรษา",
+   "action": "add",
+   "ro": "chà lə̌əm phrá chon má phan sǎa",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（国王・王妃の）誕生日を祝うこと・ご誕生日",
+     "en": "celebration of the King's or Queen's birthday",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "royal"
+     ],
+     "speechStyle": "王室の敬語",
+     "example": {
+      "th": "ประชาชนร่วมจุดเทียนถวายพระพรในวันเฉลิมพระชนมพรรษา",
+      "ro": "prà chaa chon rûuam cùt thiian thà wǎai phrá phɔɔn nai wan chà lə̌əm phrá chon má phan sǎa",
+      "ja": "国民は国王誕生日に共にろうそくを灯して祝福を捧げた。",
+      "en": "People lit candles together to offer blessings on the King's birthday.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "วันเฉลิมพระชนมพรรษา（国王・王妃の誕生日）の形で使う王室語。ชนม は「chon ná」と読む人も多い。"
+  }
+ },
+ {
+  "id": "tl-26427",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26428",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26429",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26430",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26431",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26432",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26433",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26434",
+  "verdict": "fix",
+  "issues": [
+   "語義は名詞なのにja/enに「（する）」「to resist」と動詞が混在していたので名詞に統一。読み sìiat thaan は妥当"
+  ],
+  "fixed": {
+   "id": "tl-26434",
+   "th": "เสียดทาน",
+   "action": "add",
+   "ro": "sìiat thaan",
+   "kind": "word",
+   "category": "仕事・学習",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "摩擦・こすれ合う抵抗",
+     "en": "friction",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แรงเสียดทานทำให้รถช้าลง",
+      "ro": "rɛɛng sìiat thaan tham hâi rót cháa long",
+      "ja": "摩擦力によって車の速度が落ちる。",
+      "en": "Friction makes the car slow down.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "主に แรงเสียดทาน（摩擦力）の形で使う。"
+  }
+ },
+ {
+  "id": "tl-26435",
+  "verdict": "ok",
+  "issues": []
+ }
+]

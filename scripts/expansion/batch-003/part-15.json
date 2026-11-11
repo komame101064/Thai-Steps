@@ -1,0 +1,878 @@
+[
+ {
+  "id": "tl-26782",
+  "th": "กอปร",
+  "action": "add",
+  "ro": "kɔ̀ɔp",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "備える・〜を具えている（〜ด้วย の形で）",
+    "en": "to be endowed with, possess",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "พระสงฆ์กอปรด้วยคุณธรรม",
+     "ro": "phrá sǒng kɔ̀ɔp dûuai khun ná tham",
+     "ja": "僧侶は徳を備えている。",
+     "en": "Monks are endowed with virtue.",
+     "origin": "source"
+    }
+   }
+  ],
+  "note": "主に書き言葉で「กอปรด้วย〜」の形で使う。"
+ },
+ {
+  "id": "tl-26783",
+  "th": "ขยับเขยื้อน",
+  "action": "add",
+  "ro": "khà yàp khà yʉ̂ʉan",
+  "kind": "word",
+  "category": "日常の動作",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（少し）動く・身動きする",
+    "en": "to move, budge",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รถติดจนขยับเขยื้อนไม่ได้",
+     "ro": "rót tìt con khà yàp khà yʉ̂ʉan mâi dâai",
+     "ja": "渋滞で少しも動けない。",
+     "en": "The traffic is so jammed it can't budge.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26784",
+  "th": "ขยี้",
+  "action": "add",
+  "ro": "khà yîi",
+  "kind": "word",
+  "category": "日常の動作",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "こする・もむ（目・布などを）",
+    "en": "to rub, rub with the fingers",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เด็กขยี้ตาเพราะง่วงนอน",
+     "ro": "dèk khà yîi taa phrɔ́ ngûuang nɔɔn",
+     "ja": "子どもは眠くて目をこすっている。",
+     "en": "The child is rubbing his eyes because he is sleepy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26785",
+  "th": "ขรัว",
+  "action": "skip",
+  "skipReason": "年配の僧を指す古い語で、現代の自然な用例が少ないため"
+ },
+ {
+  "id": "tl-26786",
+  "th": "ข้อยุติ",
+  "action": "add",
+  "ro": "khɔ̂ɔ yú tì",
+  "kind": "word",
+  "category": "社会・制度",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "結論・決着",
+    "en": "conclusion, settlement",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ทั้งสองฝ่ายยังไม่ได้ข้อยุติ",
+     "ro": "tháng sɔ̌ɔng fàai yang mâi dâai khɔ̂ɔ yú tì",
+     "ja": "双方はまだ決着に至っていない。",
+     "en": "Both sides have not reached a settlement yet.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26787",
+  "th": "คบค้า",
+  "action": "add",
+  "ro": "khóp kháa",
+  "kind": "word",
+  "category": "人・家族",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "付き合う・交際する（取引を含む）",
+    "en": "to associate with, deal with",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บริษัทเราคบค้ากับเขามานานหลายปี",
+     "ro": "bɔɔ rí sàt rao khóp kháa kàp khǎo maa naan lǎai pii",
+     "ja": "私たちの会社は何年も前からあの人と付き合いがある。",
+     "en": "Our company has dealt with him for many years.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "「คบค้าสมาคม（付き合う）」の形でもよく使う。"
+ },
+ {
+  "id": "tl-26788",
+  "th": "ครหา",
+  "action": "add",
+  "ro": "khá rá hǎa",
+  "kind": "word",
+  "category": "社会・制度",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "非難する・とがめる（うわさ・世間が）",
+    "en": "to criticize, censure",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "เขาถูกครหาว่าใช้เงินผิดประเภท",
+     "ro": "khǎo thùuk khá rá hǎa wâa chái ngən phìt prà phêet",
+     "ja": "彼はお金を不正な目的に使ったと非難された。",
+     "en": "He was criticized for misusing the money.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "「khɔɔ rá hǎa」とも読む。名詞「คำครหา（非難）」でもよく使う。"
+ },
+ {
+  "id": "tl-26789",
+  "th": "คฤหบดี",
+  "action": "skip",
+  "skipReason": "仏典・文語的な語（資産家の在家者）で、学習者向けの自然な現代例文が作りにくいため"
+ },
+ {
+  "id": "tl-26791",
+  "th": "คำย่อ",
+  "action": "add",
+  "ro": "kham yɔ̂ɔ",
+  "kind": "word",
+  "category": "仕事・学習",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "略語",
+    "en": "abbreviation",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คำย่อนี้หมายความว่าอะไร",
+     "ro": "kham yɔ̂ɔ níi mǎai khwaam wâa à rai",
+     "ja": "この略語はどういう意味ですか？",
+     "en": "What does this abbreviation mean?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26793",
+  "th": "คู่ๆ",
+  "action": "add",
+  "ro": "khûu khûu",
+  "kind": "word",
+  "category": "数え方",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "二人ずつ・ペアごとに（เป็นคู่ๆ の形で）",
+    "en": "in pairs",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ครูให้นักเรียนนั่งเป็นคู่ๆ",
+     "ro": "khruu hâi nák riian nâng pen khûu khûu",
+     "ja": "先生は生徒たちを二人ずつ座らせた。",
+     "en": "The teacher had the students sit in pairs.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26794",
+  "th": "จับความ",
+  "action": "add",
+  "ro": "càp khwaam",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（話・文の）要点をつかむ・読み取る",
+    "en": "to grasp the meaning, get the gist",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันฟังเขาพูดแล้วจับความได้ว่าเขาไม่พอใจฉัน",
+     "ro": "chǎn fang khǎo phûut lɛ́ɛo càp khwaam dâai wâa khǎo mâi phɔɔ cai chǎn",
+     "ja": "彼の話を聞いて、彼が私に不満を持っていると読み取れた。",
+     "en": "Listening to him, I could tell that he was unhappy with me.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26795",
+  "th": "จินตภาพ",
+  "action": "add",
+  "ro": "cin tà phâap",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "心に描く像・イメージ",
+    "en": "mental image",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "นิทานช่วยให้เด็กเกิดจินตภาพ",
+     "ro": "ní thaan chûuai hâi dèk kə̀ət cin tà phâap",
+     "ja": "物語は子どもが心にイメージを描く助けになる。",
+     "en": "Stories help children form mental images.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26796",
+  "th": "จุน",
+  "action": "skip",
+  "skipReason": "単独ではほとんど使わず、主に「ค้ำจุน」「จุนเจือ」の要素として現れるため"
+ },
+ {
+  "id": "tl-26797",
+  "th": "จุลศักราช",
+  "action": "skip",
+  "skipReason": "暦法（小暦）の専門用語で、学習者向けの用法が限られるため"
+ },
+ {
+  "id": "tl-26799",
+  "th": "ชกมวย",
+  "action": "add",
+  "ro": "chók muuai",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ボクシングをする・ムエタイで戦う",
+    "en": "to box",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พี่ชายฉันชกมวยเป็นอาชีพ",
+     "ro": "phîi chaai chǎn chók muuai pen aa chîip",
+     "ja": "兄はプロとしてボクシングをしている。",
+     "en": "My older brother boxes professionally.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26800",
+  "th": "ชะแง้",
+  "action": "add",
+  "ro": "chá ngɛ́ɛ",
+  "kind": "word",
+  "category": "日常の動作",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "首を伸ばして見る・背伸びしてのぞく",
+    "en": "to crane one's neck (to look)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "literary"
+    ],
+    "speechStyle": "文語",
+    "example": {
+     "th": "แม่ชะแง้มองหาลูกที่หน้าบ้าน",
+     "ro": "mɛ̂ɛ chá ngɛ́ɛ mɔɔng hǎa lûuk thîi nâa bâan",
+     "ja": "母は家の前で首を伸ばして子どもを探した。",
+     "en": "Mother craned her neck looking for her child in front of the house.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "日常会話では「ชะเง้อ」のほうがよく使われる。"
+ },
+ {
+  "id": "tl-26801",
+  "th": "ชี้แนะ",
+  "action": "add",
+  "ro": "chíi nɛ́",
+  "kind": "word",
+  "category": "仕事・学習",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "助言する・指導する",
+    "en": "to advise, guide",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อาจารย์ชี้แนะให้นักเรียนเลือกเรียนตามสาขาที่ถนัด",
+     "ro": "aa caan chíi nɛ́ hâi nák riian lʉ̂ʉak riian taam sǎa khǎa thîi thà nàt",
+     "ja": "先生は学生に得意な分野を選んで学ぶよう助言した。",
+     "en": "The teacher advised the students to choose a field they are good at.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26802",
+  "th": "ซด",
+  "action": "add",
+  "ro": "sót",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "すする（スープなどを）",
+    "en": "to slurp, sip (soup)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันซดน้ำซุปจนหมดชาม",
+     "ro": "chǎn sót nám súp con mòt chaam",
+     "ja": "私はスープを器が空になるまですすった。",
+     "en": "I slurped up all the soup in the bowl.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（酒を）がぶ飲みする",
+    "en": "to drink, guzzle (alcohol)",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เขาซดเหล้าทุกคืน",
+     "ro": "khǎo sót lâo thúk khʉʉn",
+     "ja": "彼は毎晩酒をあおっている。",
+     "en": "He guzzles liquor every night.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26803",
+  "th": "ซู่ซ่า",
+  "action": "skip",
+  "skipReason": "泡の音・若さの勢いなど意味の幅があり、語義を一つに確定できないため"
+ },
+ {
+  "id": "tl-26804",
+  "th": "ดลใจ",
+  "action": "add",
+  "ro": "don cai",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（ある行動へ）心を動かす・思い立たせる",
+    "en": "to inspire, move (someone to do)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อะไรดลใจให้คุณมาเป็นครู",
+     "ro": "à rai don cai hâi khun maa pen khruu",
+     "ja": "何がきっかけで先生になろうと思ったのですか？",
+     "en": "What inspired you to become a teacher?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26805",
+  "th": "ดูหรือ",
+  "action": "skip",
+  "skipReason": "文語的な感嘆表現で、使用域と自然な用例に確信が持てないため"
+ },
+ {
+  "id": "tl-26806",
+  "th": "ตนๆ",
+  "action": "skip",
+  "skipReason": "ตน の繰り返し形で、単独の見出しとしての用法が確認できないため"
+ },
+ {
+  "id": "tl-26807",
+  "th": "ตะกาย",
+  "action": "add",
+  "ro": "tà kaai",
+  "kind": "word",
+  "category": "日常の動作",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（爪を立てて）引っかく・よじ登ろうとする",
+    "en": "to claw, scramble (up)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แมวตะกายประตูจะออกไปข้างนอก",
+     "ro": "mɛɛo tà kaai prà tuu cà ɔ̀ɔk pai khâang nɔ̂ɔk",
+     "ja": "猫が外に出ようとしてドアを引っかいている。",
+     "en": "The cat is clawing at the door to go outside.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26808",
+  "th": "ตะลุมบอน",
+  "action": "add",
+  "ro": "tà lum bɔɔn",
+  "kind": "word",
+  "category": "社会・制度",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "入り乱れて戦う・白兵戦をする",
+    "en": "to fight hand to hand, engage in a melee",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พอปืนใหญ่หยุดยิงทหารก็เข้าตะลุมบอน",
+     "ro": "phɔɔ pʉʉn yài yùt ying thá hǎan kɔ̂ɔ khâo tà lum bɔɔn",
+     "ja": "大砲の砲撃が止むと、兵士たちは入り乱れて戦った。",
+     "en": "When the cannons stopped firing, the soldiers charged into hand-to-hand combat.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26809",
+  "th": "ตัดรอน",
+  "action": "add",
+  "ro": "tàt rɔɔn",
+  "kind": "word",
+  "category": "人・家族",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（関係・友情を）断つ",
+    "en": "to sever (relations)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "literary"
+    ],
+    "speechStyle": "文語",
+    "example": {
+     "th": "เขาตัดรอนไมตรีกับเพื่อนเก่า",
+     "ro": "khǎo tàt rɔɔn mai trii kàp phʉ̂ʉan kào",
+     "ja": "彼は昔の友人との友情を断った。",
+     "en": "He broke off his friendship with his old friend.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26810",
+  "th": "ตัวนาง",
+  "action": "add",
+  "ro": "tuua naang",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（古典舞踊劇の）女役・ヒロイン役",
+    "en": "female role, heroine (in classical drama)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอรำเป็นตัวนางในการแสดงโขน",
+     "ro": "thəə ram pen tuua naang nai kaan sà dɛɛng khǒon",
+     "ja": "彼女はコーン（仮面劇）の公演で女役を舞う。",
+     "en": "She dances a female role in the khon performance.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "主に古典舞踊劇で使い、現代のドラマの主演女優は普通「นางเอก」と言う。"
+ },
+ {
+  "id": "tl-26812",
+  "th": "ต้นทาง",
+  "action": "add",
+  "ro": "tôn thaang",
+  "kind": "word",
+  "category": "移動・道案内",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "出発地・起点",
+    "en": "starting point, origin (of a route)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รถไฟออกจากสถานีต้นทางตอนหกโมงเช้า",
+     "ro": "rót fai ɔ̀ɔk càak sà thǎa nii tôn thaang tɔɔn hòk moong cháao",
+     "ja": "列車は始発駅を朝6時に出る。",
+     "en": "The train leaves the starting station at 6 a.m.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "見張り（ดูต้นทาง の形で）",
+    "en": "lookout (in ดูต้นทาง)",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เขายืนดูต้นทางอยู่หน้าบ้าน",
+     "ro": "khǎo yʉʉn duu tôn thaang yùu nâa bâan",
+     "ja": "彼は家の前で見張りをしている。",
+     "en": "He is standing lookout in front of the house.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26813",
+  "th": "ถ่ายเท",
+  "action": "add",
+  "ro": "thàai thee",
+  "kind": "word",
+  "category": "一般語彙",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（空気が）通う・入れ替わる",
+    "en": "to circulate, be ventilated (air)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เราควรจัดให้ผู้ป่วยอยู่ในที่ที่อากาศถ่ายเทได้สะดวก",
+     "ro": "rao khuuan càt hâi phûu pùuai yùu nai thîi thîi aa kàat thàai thee dâai sà dùuak",
+     "ja": "患者は風通しのよい場所にいられるようにするべきだ。",
+     "en": "We should keep patients in a well-ventilated place.",
+     "origin": "source"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "移し替える・積み替える",
+    "en": "to transfer, move (from one place to another)",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คนงานถ่ายเทสินค้าจากเรือลงรถบรรทุก",
+     "ro": "khon ngaan thàai thee sǐn kháa càak rʉʉa long rót ban thúk",
+     "ja": "作業員が荷物を船からトラックに積み替えている。",
+     "en": "The workers transfer the goods from the boat to the truck.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26814",
+  "th": "ท้วง",
+  "action": "add",
+  "ro": "thúuang",
+  "kind": "word",
+  "category": "挨拶・会話",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "異を唱える・注意して指摘する",
+    "en": "to object, remonstrate",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พ่อท้วงลูกเรื่องการออกไปเที่ยวนอกบ้าน",
+     "ro": "phɔ̂ɔ thúuang lûuk rʉ̂ʉang kaan ɔ̀ɔk pai thîiao nɔ̂ɔk bâan",
+     "ja": "父は子どもが外へ遊びに出かけることに異を唱えた。",
+     "en": "The father objected to his child going out.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26815",
+  "th": "ท้องเรื่อง",
+  "action": "add",
+  "ro": "thɔ́ɔng rʉ̂ʉang",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（劇・物語の）筋・ストーリー",
+    "en": "plot, storyline",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉากนี้ไม่เกี่ยวกับท้องเรื่องเลย",
+     "ro": "chàak níi mâi kìiao kàp thɔ́ɔng rʉ̂ʉang ləəi",
+     "ja": "この場面は筋とまったく関係がない。",
+     "en": "This scene has nothing to do with the plot.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26816",
+  "th": "นางงาม",
+  "action": "add",
+  "ro": "naang ngaam",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "美人コンテストの優勝者・ミス",
+    "en": "beauty queen",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พี่สาวของเขาได้เป็นนางงามประจำจังหวัดเมื่อปีที่แล้ว",
+     "ro": "phîi sǎao khɔ̌ɔng khǎo dâai pen naang ngaam prà cam cang wàt mʉ̂ʉa pii thîi lɛ́ɛo",
+     "ja": "彼の姉は昨年、県のミスに選ばれた。",
+     "en": "His older sister became the provincial beauty queen last year.",
+     "origin": "source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26817",
+  "th": "บาปกรรม",
+  "action": "add",
+  "ro": "bàap kam",
+  "kind": "word",
+  "category": "社会・制度",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "罪・悪業（の報い）",
+    "en": "sin, bad karma",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาไม่กลัวบาปกรรมเลย",
+     "ro": "khǎo mâi kluua bàap kam ləəi",
+     "ja": "彼は罪の報いをまったく恐れない。",
+     "en": "He is not afraid of sin at all.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26818",
+  "th": "บุคลิกภาพ",
+  "action": "add",
+  "ro": "bùk khá lík kà phâap",
+  "kind": "word",
+  "category": "人・家族",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "人柄・パーソナリティ",
+    "en": "personality",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขามีบุคลิกภาพดีมาก",
+     "ro": "khǎo mii bùk khá lík kà phâap dii mâak",
+     "ja": "彼はとても感じのよい人柄だ。",
+     "en": "He has a very good personality.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26819",
+  "th": "บุราณ",
+  "action": "skip",
+  "skipReason": "โบราณ の古い形で、現代ではほとんど使わないため"
+ },
+ {
+  "id": "tl-26820",
+  "th": "บ่ายๆ",
+  "action": "add",
+  "ro": "bàai bàai",
+  "kind": "word",
+  "category": "時間",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "昼過ぎ・午後ごろ",
+    "en": "in the afternoon, sometime after noon",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "พรุ่งนี้บ่ายๆ ฉันจะโทรไปนะ",
+     "ro": "phrûng níi bàai bàai chǎn cà thoo pai ná",
+     "ja": "明日の昼過ぎに電話するね。",
+     "en": "I'll call you tomorrow afternoon.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-26821",
+  "th": "ประกอบอาหาร",
+  "action": "add",
+  "ro": "prà kɔ̀ɔp aa hǎan",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "料理をする・調理する",
+    "en": "to cook, prepare food",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "คุณแม่ประกอบอาหารอยู่ในครัว",
+     "ro": "khun mɛ̂ɛ prà kɔ̀ɔp aa hǎan yùu nai khruua",
+     "ja": "母は台所で料理をしている。",
+     "en": "Mother is cooking in the kitchen.",
+     "origin": "source"
+    }
+   }
+  ],
+  "note": "日常会話では「ทำอาหาร」のほうが普通。"
+ },
+ {
+  "id": "tl-26822",
+  "th": "ประทัด",
+  "action": "add",
+  "ro": "prà thát",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "爆竹",
+    "en": "firecracker",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เด็กๆ จุดประทัดเล่นกันในวันลอยกระทง",
+     "ro": "dèk dèk cùt prà thát lên kan nai wan lɔɔi krà thong",
+     "ja": "子どもたちはロイクラトンの日に爆竹を鳴らして遊ぶ。",
+     "en": "The children set off firecrackers for fun on Loy Krathong day.",
+     "origin": "source"
+    }
+   }
+  ]
+ }
+]

@@ -1,0 +1,249 @@
+[
+ {
+  "id": "tl-26782",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26783",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26784",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26785",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26786",
+  "verdict": "fix",
+  "issues": [
+   "ยุติ はro-lexiconで yút tì（標準読みもユット・ティ）。見出し・例文のroを khɔ̂ɔ yút tì に修正"
+  ],
+  "fixed": {
+   "id": "tl-26786",
+   "th": "ข้อยุติ",
+   "action": "add",
+   "ro": "khɔ̂ɔ yút tì",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "結論・決着",
+     "en": "conclusion, settlement",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ทั้งสองฝ่ายยังไม่ได้ข้อยุติ",
+      "ro": "tháng sɔ̌ɔng fàai yang mâi dâai khɔ̂ɔ yút tì",
+      "ja": "双方はまだ決着に至っていない。",
+      "en": "Both sides have not reached a settlement yet.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-26787",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26788",
+  "verdict": "fix",
+  "issues": [
+   "読み khá rá hǎa（王立学士院の標準読み）は妥当、khɔɔ rá hǎa の異読注記も可",
+   "例文訳「不正な目的に」は ผิดประเภท（用途違い・目的外）より強すぎるため修正"
+  ],
+  "fixed": {
+   "id": "tl-26788",
+   "th": "ครหา",
+   "action": "add",
+   "ro": "khá rá hǎa",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "非難する・とがめる（うわさ・世間が）",
+     "en": "to criticize, censure",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "เขาถูกครหาว่าใช้เงินผิดประเภท",
+      "ro": "khǎo thùuk khá rá hǎa wâa chái ngən phìt prà phêet",
+      "ja": "彼はお金を目的外に使ったと非難された。",
+      "en": "He was criticized for misusing the money.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「khɔɔ rá hǎa」とも読む。名詞「คำครหา（非難）」でもよく使う。"
+  }
+ },
+ {
+  "id": "tl-26789",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26791",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26793",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26794",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26795",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26796",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26797",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26799",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26800",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26801",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26802",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26803",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26804",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26805",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26806",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26807",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26808",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26809",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26810",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26812",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26813",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26814",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26815",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26816",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26817",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26818",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26819",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26820",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26821",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26822",
+  "verdict": "ok",
+  "issues": []
+ }
+]

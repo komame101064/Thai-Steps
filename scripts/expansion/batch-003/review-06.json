@@ -1,0 +1,681 @@
+[
+ {
+  "id": "tl-25230",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25242",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25256",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25257",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25260",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25263",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25266",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25274",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25280",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25287",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25300",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25303",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25309",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25326",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25336",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25340",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25341",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25344",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25351",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25352",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25354",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25355",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25361",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25363",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25371",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25378",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25386",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25389",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25390",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25396",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25416",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25422",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25431",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25434",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25441",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25449",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25455",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25458",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25459",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25460",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25468",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25472",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25475",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25480",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25488",
+  "verdict": "fix",
+  "issues": [
+   "例文訳の時制・構文を原文（ได้รับ…เป็นคำรบสอง＝二度目に受けた）に合わせた。เป็นคำรบสอง は改まった書き言葉として自然"
+  ],
+  "fixed": {
+   "id": "tl-25488",
+   "th": "คำรบ",
+   "action": "add",
+   "ro": "kham róp",
+   "kind": "word",
+   "category": "数え方",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "〜回目・〜度目",
+     "en": "time (ordinal occurrence)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "เขาได้รับรางวัลนี้เป็นคำรบสอง",
+      "ro": "khǎo dâai ráp raang wan níi pen kham róp sɔ̌ɔng",
+      "ja": "彼はこの賞を二度目に受賞した。",
+      "en": "He received this award for the second time.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "主に เป็นคำรบ＋数 の形で書き言葉に使う。"
+  }
+ },
+ {
+  "id": "tl-25500",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25502",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25506",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25509",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25517",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25521",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25527",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25529",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25530",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25534",
+  "verdict": "fix",
+  "issues": [
+   "例文の日本語訳が「サダオ」で語義の「ニーム」と不一致。ニームに統一"
+  ],
+  "fixed": {
+   "id": "tl-25534",
+   "th": "สะเดา",
+   "action": "add",
+   "ro": "sà dao",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ニーム（インドセンダン。若葉や花を食べる）",
+     "en": "neem",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันชอบกินสะเดากับน้ำปลาหวาน",
+      "ro": "chǎn chɔ̂ɔp kin sà dao kàp nám plaa wǎan",
+      "ja": "私はニームを甘いナンプラーだれで食べるのが好きです。",
+      "en": "I like eating neem with sweet fish sauce.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-25536",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25546",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25555",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25569",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25573",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25581",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25582",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25585",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25590",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25600",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25601",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25607",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25608",
+  "verdict": "fix",
+  "issues": [
+   "「団地」は日本語では住宅団地を連想させ誤解を招くため語義を修正"
+  ],
+  "fixed": {
+   "id": "tl-25608",
+   "th": "นิคม",
+   "action": "add",
+   "ro": "ní khom",
+   "kind": "word",
+   "category": "家・場所",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（工業団地などの）区域・入植地",
+     "en": "settlement, estate (e.g. industrial estate)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พี่ชายทำงานในนิคมอุตสาหกรรม",
+      "ro": "phîi chaai tham ngaan nai ní khom ùt sǎa hà kam",
+      "ja": "兄は工業団地で働いています。",
+      "en": "My older brother works in an industrial estate.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "นิคมอุตสาหกรรม（工業団地）の形でよく使う。"
+  }
+ },
+ {
+  "id": "tl-25611",
+  "verdict": "fix",
+  "issues": [
+   "語義の「ちょっと」は แป๊บนึง 全体の意味で นึง 自体の意味ではない",
+   "例文 รอแป๊บนึงนะ は既存例文（example-reference）とほぼ重複し「一」の意味が見えにくいため、類別詞＋นึง の例に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-25611",
+   "th": "นึง",
+   "action": "add",
+   "ro": "nʉng",
+   "kind": "word",
+   "category": "数字",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "一つ・一（หนึ่ง の口語形）",
+     "en": "one (colloquial form of หนึ่ง)",
+     "pos": "数詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ขอกาแฟแก้วนึงครับ",
+      "ro": "khɔ̌ɔ kaa fɛɛ kɛ̂ɛo nʉng khráp",
+      "ja": "コーヒーを一杯ください。",
+      "en": "One coffee, please.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "話し言葉で หนึ่ง が軽く発音された形。主に類別詞の後に置く。"
+  }
+ },
+ {
+  "id": "tl-25612",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25614",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25623",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25632",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25645",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25654",
+  "verdict": "fix",
+  "issues": [
+   "「粗く」は料理に限らない一般的な様態語なので分類を 性質・状態 に変更（語義・例文は適切）"
+  ],
+  "fixed": {
+   "id": "tl-25654",
+   "th": "หยาบๆ",
+   "action": "add",
+   "ro": "yàap yàap",
+   "kind": "word",
+   "category": "性質・状態",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "粗く（細かくせずに）",
+     "en": "coarsely, roughly",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "สับกระเทียมหยาบๆ แล้วใส่ลงไป",
+      "ro": "sàp krà thiiam yàap yàap lɛ́ɛo sài long pai",
+      "ja": "ニンニクを粗く刻んで入れます。",
+      "en": "Chop the garlic coarsely and put it in.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-25656",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25661",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25672",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25674",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25676",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25678",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25687",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25689",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25698",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25724",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25726",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25728",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25741",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25748",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25749",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25750",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25755",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25763",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25768",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25778",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25783",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25788",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25791",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25795",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25796",
+  "verdict": "fix",
+  "issues": [
+   "例文の หม่อมฉัน は綴りの長母音で mɔ̀ɔm と書く（ハウス慣例・กระหม่อม krà mɔ̀ɔm と同じ）"
+  ],
+  "fixed": {
+   "id": "tl-25796",
+   "th": "เพคะ",
+   "action": "add",
+   "ro": "phee khá",
+   "kind": "word",
+   "category": "助詞・語気",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "はい・〜でございます（女性が王族に対して使う文末詞）",
+     "en": "polite particle used by women addressing royalty",
+     "pos": "助詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "royal"
+     ],
+     "speechStyle": "王室の敬語",
+     "example": {
+      "th": "หม่อมฉันทราบแล้วเพคะ",
+      "ro": "mɔ̀ɔm chǎn sâap lɛ́ɛo phee khá",
+      "ja": "承知いたしました。",
+      "en": "I understand, Your Highness.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "女性が王族に話すときに ค่ะ の代わりに使う。"
+  }
+ }
+]

@@ -1,0 +1,379 @@
+[
+ {
+  "id": "tl-26824",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26825",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26826",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26827",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26828",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26832",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26833",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26836",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26837",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26838",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26839",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26840",
+  "verdict": "fix",
+  "issues": [
+   "ย่ำยี は現代の報道・論説でも使う書き言葉寄りの語で、古語・詩語ではないため 文語 → 改まった表現 に変更"
+  ],
+  "fixed": {
+   "id": "tl-26840",
+   "th": "ย่ำยี",
+   "action": "add",
+   "ro": "yâm yii",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "踏みにじる・蹂躙する",
+     "en": "to trample on, violate, oppress",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "คำพูดของเขาย่ำยีจิตใจฉัน",
+      "ro": "kham phûut khɔ̌ɔng khǎo yâm yii cìt cai chǎn",
+      "ja": "彼の言葉は私の心を踏みにじった。",
+      "en": "His words trampled on my feelings.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-26841",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26842",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26843",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26844",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26845",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26846",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26847",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26848",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26849",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26850",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26851",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26852",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26853",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26854",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26855",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26856",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26857",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26859",
+  "verdict": "fix",
+  "issues": [
+   "出典例文は特定の訪問予定（8月中旬のタイ訪問）を述べる時事的な主張で、時期が特定できず不適。一般的な内容の自作例文に差し替え",
+   "注記を通常の呼称（พระสันตะปาปา／สมเด็จพระสันตะปาปา）に合わせて修正"
+  ],
+  "fixed": {
+   "id": "tl-26859",
+   "th": "สันตะปาปา",
+   "action": "add",
+   "ro": "sǎn tà paa paa",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ローマ教皇",
+     "en": "the Pope",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ชาวคาทอลิกนับถือพระสันตะปาปาเป็นประมุข",
+      "ro": "chaao khaa thɔɔ lík náp thʉ̌ʉ phrá sǎn tà paa paa pen prà múk",
+      "ja": "カトリック信者はローマ教皇を首長として仰いでいる。",
+      "en": "Catholics regard the Pope as their head.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "正式には「สมเด็จพระสันตะปาปา」「พระสันตะปาปา」と言い、「เสด็จ」など敬語の動詞と使う。"
+  }
+ },
+ {
+  "id": "tl-26860",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26861",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26862",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26864",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26865",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26866",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26868",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26869",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26870",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26871",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26872",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26873",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26874",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26875",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26876",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26877",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26879",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26880",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26881",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26882",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26884",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26885",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26886",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26887",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26888",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26889",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26890",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26891",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26893",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26894",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26895",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26896",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26897",
+  "verdict": "ok",
+  "issues": []
+ }
+]

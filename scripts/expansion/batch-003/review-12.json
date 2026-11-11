@@ -1,0 +1,645 @@
+[
+ {
+  "id": "tl-26436",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26438",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26439",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26440",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26441",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26442",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26443",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26444",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26445",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26446",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26448",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26449",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26450",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26451",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26453",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26455",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26456",
+  "verdict": "fix",
+  "issues": [
+   "分類：魚取りのわなは「趣味・メディア」ではない。一般語彙に変更"
+  ],
+  "fixed": {
+   "id": "tl-26456",
+   "th": "ไซ",
+   "action": "add",
+   "ro": "sai",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "筌（うけ）・竹で編んだ魚取りのわな",
+     "en": "bamboo fish trap",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พ่อวางไซไว้ในคลองเพื่อจับปลา",
+      "ro": "phɔ̂ɔ waang sai wái nai khlɔɔng phʉ̂ʉa càp plaa",
+      "ja": "父は魚を捕るために運河に筌を仕掛けた。",
+      "en": "Father set a fish trap in the canal to catch fish.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-26457",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26458",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26459",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26460",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26461",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26462",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26463",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26464",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26465",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26467",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26468",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26469",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26471",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26472",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26473",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26474",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26476",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26478",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26479",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26480",
+  "verdict": "fix",
+  "issues": [
+   "例文訳で แวะ（立ち寄る）が抜けている"
+  ],
+  "fixed": {
+   "id": "tl-26480",
+   "th": "ข้าวแกง",
+   "action": "add",
+   "ro": "khâao kɛɛng",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ご飯にカレーやおかずをかけた料理・ぶっかけ飯",
+     "en": "rice with curry",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เดี๋ยวเราแวะกินข้าวแกงกันคนละจานก่อนค่อยไปต่อ",
+      "ro": "dǐiao rao wɛ́ kin khâao kɛɛng kan khon lá caan kɔ̀ɔn khɔ̂ɔi pai tɔ̀ɔ",
+      "ja": "ちょっと寄ってぶっかけ飯を一皿ずつ食べてから、続きに行こう。",
+      "en": "Let's stop for a plate of rice and curry each before we go on.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-26482",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26483",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26484",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26485",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26486",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26487",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで ได้ が dâi になっている（辞書の表記は dâai）"
+  ],
+  "fixed": {
+   "id": "tl-26487",
+   "th": "จางๆ",
+   "action": "add",
+   "ro": "caang caang",
+   "kind": "word",
+   "category": "性質・状態",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "かすかな・ほのかな・薄い",
+     "en": "faint, light, pale",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันได้กลิ่นดอกไม้จางๆ",
+      "ro": "chǎn dâai klìn dɔ̀ɔk máai caang caang",
+      "ja": "花の香りがほのかにした。",
+      "en": "I caught a faint smell of flowers.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-26488",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26489",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26490",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26491",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26492",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26493",
+  "verdict": "fix",
+  "issues": [
+   "注記の「冗談で何でもお見通しの意」は根拠が確認できない（冗談で「やっと分かった」の意に使う例はあるが意味が違う）ので削除"
+  ],
+  "fixed": {
+   "id": "tl-26493",
+   "th": "ตรัสรู้",
+   "action": "add",
+   "ro": "tràt sà rúu",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（仏陀が）悟りを開く",
+     "en": "to attain enlightenment (of the Buddha)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "พระพุทธเจ้าตรัสรู้ในวันวิสาขบูชา",
+      "ro": "phrá phút thá câao tràt sà rúu nai wan wí sǎa khà buu chaa",
+      "ja": "仏陀はヴィサカブーチャの日に悟りを開いた。",
+      "en": "The Buddha attained enlightenment on Visakha Bucha Day.",
+      "origin": "source"
+     }
+    }
+   ],
+   "note": "主に仏陀が悟りを開くことに使う。"
+  }
+ },
+ {
+  "id": "tl-26494",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26495",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26496",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26497",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26498",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26499",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26500",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26501",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26502",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26503",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26504",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26505",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26506",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26508",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26509",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26510",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26511",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26512",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26513",
+  "verdict": "fix",
+  "issues": [
+   "語義：音写だけでは何の木か分からない。原典は Pterocarpus macrocarpus なので「シタン属」を明示"
+  ],
+  "fixed": {
+   "id": "tl-26513",
+   "th": "ประดู่",
+   "action": "add",
+   "ro": "prà dùu",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "プラドゥー（シタン属の高木。黄色い花が咲く）",
+     "en": "padauk tree (Pterocarpus macrocarpus)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ริมถนนมีต้นประดู่ออกดอกสีเหลือง",
+      "ro": "rim thà nǒn mii tôn prà dùu ɔ̀ɔk dɔ̀ɔk sǐi lʉ̌ʉang",
+      "ja": "道沿いには黄色い花をつけたプラドゥーの木がある。",
+      "en": "Along the road there are padauk trees with yellow flowers.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-26514",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26515",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26516",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26518",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26519",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26520",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26521",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26522",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26523",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26524",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26525",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26526",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26527",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26528",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26529",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26531",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26532",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26533",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26534",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26535",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26536",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26537",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26538",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26539",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26540",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26541",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26542",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26543",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26544",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26545",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26546",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26547",
+  "verdict": "ok",
+  "issues": []
+ }
+]

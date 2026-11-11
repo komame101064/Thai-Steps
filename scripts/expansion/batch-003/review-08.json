@@ -1,0 +1,618 @@
+[
+ {
+  "id": "tl-25953",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25954",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25955",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25958",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25959",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25960",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25961",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25962",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25963",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25966",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25967",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25968",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25971",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25972",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25974",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25975",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25976",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25977",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25978",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25979",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25980",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25982",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25985",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25986",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25987",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25989",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25990",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25991",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25994",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25996",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25997",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25998",
+  "verdict": "fix",
+  "issues": [
+   "語義「吊り籠の吊り紐」と例文訳「吊り籠」が食い違い、日本語も不自然なため語義と訳を整合させた"
+  ],
+  "fixed": {
+   "id": "tl-25998",
+   "th": "สาแหรก",
+   "action": "add",
+   "ro": "sǎa rɛ̀ɛk",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（天秤棒に下げる）荷を吊るす縄・籐の吊り手",
+     "en": "rope/rattan hanger for carrying-pole loads",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แม่ค้าหาบสาแหรกไปขายขนม",
+      "ro": "mɛ̂ɛ kháa hàap sǎa rɛ̀ɛk pai khǎai khà nǒm",
+      "ja": "物売りの女性が吊り手に下げた荷を天秤棒で担いでお菓子を売りに行く。",
+      "en": "The vendor carries her baskets on a pole to sell sweets.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-25999",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26000",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26002",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26003",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26004",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26005",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26007",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26008",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26009",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26010",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26011",
+  "verdict": "fix",
+  "issues": [
+   "例文の訳「走ってきた」では เข้าใส่（襲いかかるように突っ込む）の意味が出ないため「突進した」に修正"
+  ],
+  "fixed": {
+   "id": "tl-26011",
+   "th": "เข้าใส่",
+   "action": "add",
+   "ro": "khâo sài",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（〜に向かって）突っ込んでいく・襲いかかる",
+     "en": "at, into (rushing at someone)",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หมาวิ่งเข้าใส่เด็ก",
+      "ro": "mǎa wîng khâo sài dèk",
+      "ja": "犬が子どもに向かって突進した。",
+      "en": "The dog charged at the child.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "วิ่งเข้าใส่・พุ่งเข้าใส่ のように動詞の後に付けて使う。"
+  }
+ },
+ {
+  "id": "tl-26012",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26013",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26014",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26016",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26017",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26018",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26020",
+  "verdict": "fix",
+  "issues": [
+   "例文「ศพจะเผาที่…」は語順がぎこちないため自然な文に変更"
+  ],
+  "fixed": {
+   "id": "tl-26020",
+   "th": "เมรุ",
+   "action": "add",
+   "ro": "meen",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（寺の）火葬場・火葬塔",
+     "en": "crematorium (at a temple)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พรุ่งนี้จะเผาศพที่เมรุวัด",
+      "ro": "phrûng níi cà phǎo sòp thîi meen wát",
+      "ja": "明日、寺の火葬場で火葬が行われる。",
+      "en": "The cremation will be held at the temple crematorium tomorrow.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-26021",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26022",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26023",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26024",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26025",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26028",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26030",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26031",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26034",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26035",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26036",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26037",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26039",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26041",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26042",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26044",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26046",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26047",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26048",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26049",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26050",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26051",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26052",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26055",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26056",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26057",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26058",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26059",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26060",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26061",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26062",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26063",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26064",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26065",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26067",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26069",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26070",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26072",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26073",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26074",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26075",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26076",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26078",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26079",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26080",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26081",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26082",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26083",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26084",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26085",
+  "verdict": "fix",
+  "issues": [
+   "例文「ทำด้วยเพชรแท้」（指輪全体がダイヤ製）は不自然なため ประดับด้วย に変更"
+  ],
+  "fixed": {
+   "id": "tl-26085",
+   "th": "ธำมรงค์",
+   "action": "add",
+   "ro": "tham má rong",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "指輪",
+     "en": "ring",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "literary"
+     ],
+     "speechStyle": "文語",
+     "example": {
+      "th": "ธำมรงค์วงนี้ประดับด้วยเพชรแท้",
+      "ro": "tham má rong wong níi prà dàp dûuai phét thɛ́ɛ",
+      "ja": "この指輪には本物のダイヤモンドがあしらわれている。",
+      "en": "This ring is set with real diamonds.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "日常語では แหวน を使う。"
+  }
+ }
+]

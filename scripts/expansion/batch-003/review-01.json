@@ -1,0 +1,624 @@
+[
+ {
+  "id": "tl-20275",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20343",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20364",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20512",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20575",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20671",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20680",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20690",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20733",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20739",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20780",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20792",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20795",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-20900",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21017",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21036",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21110",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21125",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21161",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21165",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21167",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21169",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21180",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21190",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21194",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21218",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21223",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21225",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21253",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21267",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21276",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21278",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21294",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21313",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21348",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21353",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21380",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21383",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21397",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21411",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21416",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21436",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21444",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21472",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21510",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21530",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21533",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21556",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21559",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21568",
+  "verdict": "fix",
+  "issues": [
+   "語義2の例文 ลักสูบบุหรี่ は不自然（通常は แอบสูบ・ลักลอบสูบ）。ลักลอบ を含む自然な文に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-21568",
+   "th": "ลัก",
+   "action": "add",
+   "ro": "lák",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "盗む",
+     "en": "to steal",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "เขาถูกจับข้อหาลักทรัพย์",
+      "ro": "khǎo thùuk càp khɔ̂ɔ hǎa lák sáp",
+      "ja": "あの人は窃盗の容疑で逮捕されました。",
+      "en": "He was arrested on a charge of theft.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "こっそり〜する",
+     "en": "to do secretly, sneak",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "นักเรียนลักลอบสูบบุหรี่ในห้องน้ำ",
+      "ro": "nák riian lák lɔ̂ɔp sùup bù rìi nai hɔ̂ɔng náam",
+      "ja": "生徒がトイレでこっそりたばこを吸いました。",
+      "en": "A student secretly smoked in the restroom.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "日常会話では ขโมย が普通。"
+  }
+ },
+ {
+  "id": "tl-21574",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21602",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21621",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21651",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21660",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21674",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21683",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21694",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21723",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21812",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21822",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21823",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21831",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21859",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21883",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21895",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21898",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21937",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21977",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21979",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21987",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21997",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21998",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21999",
+  "verdict": "fix",
+  "issues": [
+   "語義2の例文訳「この先の年は」が不自然な日本語のため修正"
+  ],
+  "fixed": {
+   "id": "tl-21999",
+   "th": "ต่อๆ",
+   "action": "add",
+   "ro": "tɔ̀ɔ tɔ̀ɔ",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "次々に（人から人へ）",
+     "en": "on and on, from one to the next",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ข่าวนี้ถูกส่งต่อๆ กันไป",
+      "ro": "khàao níi thùuk sòng tɔ̀ɔ tɔ̀ɔ kan pai",
+      "ja": "このニュースは次々と人から人へ伝えられました。",
+      "en": "This news was passed on from person to person.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（ต่อๆ ไปで）今後の・この先の",
+     "en": "(ต่อๆ ไป) following, from now on",
+     "pos": "形容詞・状態語",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ปีต่อๆ ไปคงจะดีขึ้น",
+      "ro": "pii tɔ̀ɔ tɔ̀ɔ pai khong cà dii khʉ̂n",
+      "ja": "来年以降はきっと良くなるでしょう。",
+      "en": "The coming years will probably be better.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-22016",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22029",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22055",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22100",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22114",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22121",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22125",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22131",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22147",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22149",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22150",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22157",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22205",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22215",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22227",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22230",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22240",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22260",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22274",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22299",
+  "verdict": "fix",
+  "issues": [
+   "「ねえ（注意を引く）」は不正確。นี่แน่ะ は物を示す・差し出す「ほら」で、叩く時の「これでもくらえ」にも使う。例文 นี่แน่ะ ดูรูปนี้สิ は不自然（通常 นี่ๆ ดู…）なので差し替え、注記追加"
+  ],
+  "fixed": {
+   "id": "tl-22299",
+   "th": "นี่แน่ะ",
+   "action": "add",
+   "ro": "nîi nɛ̂",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ほら（これだよ・これを見て）",
+     "en": "here!, look here! (presenting something)",
+     "pos": "間投詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "นี่แน่ะ ของที่เธอขอ",
+      "ro": "nîi nɛ̂ khɔ̌ɔng thîi thəə khɔ̌ɔ",
+      "ja": "ほら、頼まれていた物だよ。",
+      "en": "Here you go, the thing you asked for.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "叩きながら「これでもくらえ」の意味で言うことも多い。"
+  }
+ },
+ {
+  "id": "tl-22322",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22328",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22337",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22344",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22350",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22388",
+  "verdict": "ok",
+  "issues": []
+ }
+]

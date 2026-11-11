@@ -1,0 +1,622 @@
+[
+ {
+  "id": "tl-23298",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23302",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23308",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23312",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23314",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23331",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23343",
+  "verdict": "fix",
+  "issues": [
+   "例文の和訳「以前の年は」が不自然なので自然な日本語に修正"
+  ],
+  "fixed": {
+   "id": "tl-23343",
+   "th": "ก่อนๆ",
+   "action": "add",
+   "ro": "kɔ̀ɔn kɔ̀ɔn",
+   "kind": "word",
+   "category": "時間",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "以前の・これまでの（いくつか前の）",
+     "en": "previous, earlier (ones)",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ปีก่อนๆ ฝนตกน้อยกว่านี้",
+      "ro": "pii kɔ̀ɔn kɔ̀ɔn fǒn tòk nɔ́ɔi kwàa níi",
+      "ja": "前の何年かは今より雨が少なかった。",
+      "en": "In previous years it rained less than this.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-23353",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23360",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23365",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23369",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23379",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23390",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23403",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23406",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23409",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23414",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23417",
+  "verdict": "fix",
+  "issues": [
+   "王族の頭は พระเศียร で、単独の เศียร を「王族の頭」とするのは不正確。語義・注記を仏像・神像中心に修正"
+  ],
+  "fixed": {
+   "id": "tl-23417",
+   "th": "เศียร",
+   "action": "add",
+   "ro": "sǐian",
+   "kind": "word",
+   "category": "体・健康",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "頭（仏像・神像などの）",
+     "en": "head (of a Buddha image or deity)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "royal"
+     ],
+     "speechStyle": "王室の敬語",
+     "example": {
+      "th": "เศียรพระพุทธรูปองค์นี้หายไปนานแล้ว",
+      "ro": "sǐian phrá phút thá rûup ong níi hǎai pai naan lɛ́ɛo",
+      "ja": "この仏像の頭部はずっと前になくなった。",
+      "en": "The head of this Buddha image went missing long ago.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "仏像・神像の頭に使う語で、王族の頭は พระเศียร、一般の人の頭は หัว と言う。"
+  }
+ },
+ {
+  "id": "tl-23422",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23438",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23439",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23448",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23459",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23464",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23472",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23477",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23488",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23491",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23501",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23502",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23509",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23518",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23522",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23523",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23524",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23537",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23540",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23548",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23549",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23553",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23556",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23558",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23565",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23581",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23598",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23604",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23619",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23622",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23659",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23676",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23683",
+  "verdict": "fix",
+  "issues": [
+   "例文「ร้านนี้เลื่องลือเรื่อง…」は不自然（通常は ขึ้นชื่อ を使う）。เลื่องลือไปทั่ว の自然な文に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-23683",
+   "th": "เลื่องลือ",
+   "action": "add",
+   "ro": "lʉ̂ʉang lʉʉ",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "評判が広まっている・名高い",
+     "en": "to be renowned, be widely known",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ความอร่อยของร้านนี้เลื่องลือไปทั่วเมือง",
+      "ro": "khwaam à rɔ̀ɔi khɔ̌ɔng ráan níi lʉ̂ʉang lʉʉ pai thûua mʉʉang",
+      "ja": "この店のおいしさは町じゅうで評判だ。",
+      "en": "This shop's delicious food is famous all over town.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-23687",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23700",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23707",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23720",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23743",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23745",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23749",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23751",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23758",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23760",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23771",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23777",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23779",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23787",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23789",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23799",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23801",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23805",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23810",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23819",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23822",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23827",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23851",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23860",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23871",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23872",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23889",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23896",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23909",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23910",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23912",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23921",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23923",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23967",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23968",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23976",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23977",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23983",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23998",
+  "verdict": "fix",
+  "issues": [
+   "เฉลิมพระเกียรติ は特定の王族（多くは国王）をたたえる意で、「王室の栄誉」という訳はややずれる。和訳・英訳を修正"
+  ],
+  "fixed": {
+   "id": "tl-23998",
+   "th": "พระเกียรติ",
+   "action": "add",
+   "ro": "phrá kìiat",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（国王・王族の）栄誉・威光",
+     "en": "honor, prestige (of the king or royalty)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "royal"
+     ],
+     "speechStyle": "王室の敬語",
+     "example": {
+      "th": "งานนี้จัดขึ้นเพื่อเฉลิมพระเกียรติ",
+      "ro": "ngaan níi càt khʉ̂n phʉ̂ʉa chà lə̌əm phrá kìiat",
+      "ja": "この催しは王族をたたえるために開かれる。",
+      "en": "This event is held to honor royalty.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "主に เฉลิมพระเกียรติ（王室の栄誉をたたえる）の形で使う。"
+  }
+ },
+ {
+  "id": "tl-24003",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24005",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24010",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24011",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24015",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24017",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24019",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24020",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24021",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24023",
+  "verdict": "ok",
+  "issues": []
+ }
+]
