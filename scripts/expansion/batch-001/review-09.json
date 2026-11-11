@@ -1,0 +1,534 @@
+[
+ {
+  "id": "tl-23708",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23710",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23712",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23713",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認: เร่ง は発音上短母音で、既存レキシコンも rêng（เร่งด่วน rêng dùuan）。出典ヒントの長母音表記は採らず、著者の rêng rîip を妥当と判断"
+  ]
+ },
+ {
+  "id": "tl-23717",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23721",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23722",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23723",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23725",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23728",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23729",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23730",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23732",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23735",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23736",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23737",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23742",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23746",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23748",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23753",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23756",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23757",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23763",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23765",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23766",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23767",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23768",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23769",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23770",
+  "verdict": "fix",
+  "issues": [
+   "例文の和訳で สนามเด็กเล่น（遊び場）が「公園」になっていたため修正"
+  ],
+  "fixed": {
+   "id": "tl-23770",
+   "th": "ชิงช้า",
+   "action": "add",
+   "ro": "ching cháa",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ぶらんこ",
+     "en": "swing",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เด็กๆ ชอบเล่นชิงช้าที่สนามเด็กเล่น",
+      "ro": "dèk dèk chɔ̂ɔp lên ching cháa thîi sà nǎam dèk lên",
+      "ja": "子どもたちは遊び場でぶらんこに乗るのが好きです。",
+      "en": "The children like playing on the swings at the playground.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-23772",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23773",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23774",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23776",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23778",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23781",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23782",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23783",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23784",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23785",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23786",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23788",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23790",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23795",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23797",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23798",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23802",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認: แข้ง は標準発音が短母音で、既存の แข็ง khɛ̌ng・แข่ง khɛ̀ng の表記とも一致。著者の khɛ̂ng を妥当と判断"
+  ]
+ },
+ {
+  "id": "tl-23803",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23804",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23806",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23807",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23808",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23811",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23812",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23814",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23815",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23816",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23817",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23820",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23821",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23823",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23828",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23830",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23832",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23833",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23834",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23835",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23836",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23840",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23841",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23842",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23844",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23845",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23846",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23847",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23849",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23850",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23852",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23853",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23854",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23856",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23859",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23861",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23864",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23866",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23868",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23870",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23873",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23876",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23881",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23882",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23887",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23888",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23891",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23892",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23893",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23894",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23895",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23897",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23898",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23899",
+  "verdict": "ok",
+  "issues": []
+ }
+]
