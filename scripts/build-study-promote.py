@@ -6,7 +6,7 @@ study order. Only the order changes; frequency labels and records are untouched.
 import json,pathlib,re
 P=pathlib.Path(__file__).resolve().parents[1]
 words={w['id']:w for n in ('word-bank.json','word-bank-more.json') for w in json.loads((P/'dist'/n).read_text())}
-B={'日常':1000,'実用':2000};out={}  # placed at the end of the previous stage so they land inside the target range;out={}
+B={'日常':1000,'実用':2000};out={}  # 1000 = inside 日常, 2000 = inside 実用 (see placePromoted in words-app.js);out={}
 for e in json.loads((P/'scripts/level-review/promote.json').read_text()):
     w=words.get(e['id']);assert w and w['th']==e['th'] and w.get('collection')!='slang',e;out[e['id']]=B[e['target']]
 p=P/'dist/words-app.js';s=p.read_text()
