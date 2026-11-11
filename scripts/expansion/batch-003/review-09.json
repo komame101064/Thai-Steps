@@ -1,0 +1,648 @@
+[
+ {
+  "id": "tl-26086",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26087",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26088",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26089",
+  "verdict": "ok",
+  "issues": [
+   "著者疑義確認：複合語の nám＋พุ（低子音・短母音の死音節→高声）phú で正しい"
+  ]
+ },
+ {
+  "id": "tl-26090",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26091",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26092",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26093",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26094",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26095",
+  "verdict": "fix",
+  "issues": [
+   "ใต้ は単独・語末で tâi（ro-lexicon の ใต้ tâi / ใต้ดิน tâi din に合わせる）。見出しと例文のroを修正"
+  ],
+  "fixed": {
+   "id": "tl-26095",
+   "th": "ปักษ์ใต้",
+   "action": "add",
+   "ro": "pàk tâi",
+   "kind": "word",
+   "category": "家・場所",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（タイの）南部地方",
+     "en": "the South (of Thailand)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "อาหารปักษ์ใต้ส่วนใหญ่มีรสเผ็ด",
+      "ro": "aa hǎan pàk tâi sùuan yài mii rót phèt",
+      "ja": "南部の料理はたいてい辛い。",
+      "en": "Southern food is mostly spicy.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「ภาคใต้」とほぼ同じ意味で、タイ南部を指す。"
+  }
+ },
+ {
+  "id": "tl-26096",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26097",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26098",
+  "verdict": "fix",
+  "issues": [
+   "人が「勢ぞろいする」意味では通常 พร้อมพรั่ง（มากันพร้อมพรั่ง）を使い、例文 มากันพรั่งพร้อม は不自然。物・設備が完備している意味に絞り、例文を差し替え"
+  ],
+  "fixed": {
+   "id": "tl-26098",
+   "th": "พรั่งพร้อม",
+   "action": "add",
+   "ro": "phrâng phrɔ́ɔm",
+   "kind": "word",
+   "category": "量・程度・比較",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "十分に備わっている・何でもそろっている（設備・物など）",
+     "en": "to be fully provided, well equipped",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "โรงแรมนี้มีสิ่งอำนวยความสะดวกพรั่งพร้อม",
+      "ro": "roong rɛɛm níi mii sìng am nuuai khwaam sà dùuak phrâng phrɔ́ɔm",
+      "ja": "このホテルは設備が十分にそろっている。",
+      "en": "This hotel is fully equipped with amenities.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-26099",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26100",
+  "verdict": "ok",
+  "issues": [
+   "著者疑義確認：phrʉ́t tì kaan は พฤติกรรม phrʉ́t tì kam（lexicon）と一致。改まった表現の表示も妥当"
+  ]
+ },
+ {
+  "id": "tl-26101",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26102",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26103",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26104",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26105",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26106",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26107",
+  "verdict": "ok",
+  "issues": [
+   "著者疑義確認：fɔ̂ɔn 正しい。名詞＋類別詞注記で可"
+  ]
+ },
+ {
+  "id": "tl-26108",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26109",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26110",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26111",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26112",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26113",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26114",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26115",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26116",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26117",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26118",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26119",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26120",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26121",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26122",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26123",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26125",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26126",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26127",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26128",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26129",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26130",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26131",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26133",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26134",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26135",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26136",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26137",
+  "verdict": "ok",
+  "issues": [
+   "著者疑義確認：ห 高子音＋短母音開音節（死音節）→低声 hʉ̀、lexicon の หึ hʉ̀ と一致"
+  ]
+ },
+ {
+  "id": "tl-26138",
+  "verdict": "fix",
+  "issues": [
+   "語義2「谷」は単独ではほぼ使わず หุบเขา の形に限られるため use を少なめの用法に。語義1・読み・例文は問題なし"
+  ],
+  "fixed": {
+   "id": "tl-26138",
+   "th": "หุบ",
+   "action": "add",
+   "ro": "hùp",
+   "kind": "word",
+   "category": "日常の動作",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "閉じる・すぼめる（口・傘・花など）",
+     "en": "to close, fold (mouth, umbrella, flower)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ช่วยหุบร่มก่อนเข้าห้อง",
+      "ro": "chûuai hùp rôm kɔ̀ɔn khâo hɔ̂ɔng",
+      "ja": "部屋に入る前に傘を閉じてください。",
+      "en": "Please close your umbrella before entering the room.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "谷・谷間",
+     "en": "valley",
+     "pos": "名詞",
+     "use": "少なめの用法",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หมู่บ้านนี้อยู่ในหุบเขา",
+      "ro": "mùu bâan níi yùu nai hùp khǎo",
+      "ja": "この村は山あいの谷にある。",
+      "en": "This village is in a valley.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「谷」の意味では主に「หุบเขา」の形で使う。"
+  }
+ },
+ {
+  "id": "tl-26140",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26141",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26144",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26145",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26146",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26147",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26148",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26149",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26150",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26151",
+  "verdict": "fix",
+  "issues": [
+   "読み sə́əng は正しい（ซ 低子音＋้＝高声）。ただし「セーン」はəの母音と合わず誤解を招くカタカナのため削除"
+  ],
+  "fixed": {
+   "id": "tl-26151",
+   "th": "เซิ้ง",
+   "action": "add",
+   "ro": "sə́əng",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "イサーン（タイ東北部）の民俗舞踊",
+     "en": "seung (northeastern Thai folk dance)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ชาวบ้านรำเซิ้งในงานบุญ",
+      "ro": "chaao bâan ram sə́əng nai ngaan bun",
+      "ja": "村人たちは祭りで伝統舞踊（เซิ้ง）を踊った。",
+      "en": "The villagers danced the seung at the merit-making festival.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-26152",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26153",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26154",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26155",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26156",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26158",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26159",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26160",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26161",
+  "verdict": "ok",
+  "issues": [
+   "著者疑義確認：โทรม は ทร=s の慣用読みで soom、sʉ̀ʉam soom で正しい"
+  ]
+ },
+ {
+  "id": "tl-26162",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26163",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26164",
+  "verdict": "ok",
+  "issues": [
+   "著者疑義確認：実際の発音は短めだが綴りの長母音で cɛ́ɛt とするのは方針上許容"
+  ]
+ },
+ {
+  "id": "tl-26166",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26167",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26168",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26171",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26172",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26173",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26175",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26176",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26177",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26179",
+  "verdict": "ok",
+  "issues": [
+   "著者疑義確認：「(ถึง)…ก็เถอะ」は譲歩の定型として成立し expression で可。เถอะ thə̀ は lexicon と一致"
+  ]
+ },
+ {
+  "id": "tl-26180",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26181",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26182",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26183",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26184",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26185",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26186",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26187",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26188",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26190",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26191",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26194",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26195",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26197",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26198",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26200",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26202",
+  "verdict": "ok",
+  "issues": []
+ }
+]
