@@ -1,0 +1,591 @@
+[
+ {
+  "id": "tl-22401",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22416",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22429",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22433",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22449",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22457",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22461",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22469",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22475",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22507",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22525",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22534",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22546",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22551",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22557",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22562",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22624",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22628",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22652",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22655",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22687",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22689",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22706",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22709",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22712",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22714",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22723",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22727",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22732",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22753",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22788",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22792",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22797",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22798",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22804",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22818",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22821",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22829",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22839",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22841",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22859",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22864",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22868",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22877",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22881",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22883",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22887",
+  "verdict": "fix",
+  "issues": [
+   "例文の和訳「取っておいています」が不自然な日本語のため「取ってあります」に修正"
+  ],
+  "fixed": {
+   "id": "tl-22887",
+   "th": "ใช้สอย",
+   "action": "add",
+   "ro": "chái sɔ̌ɔi",
+   "kind": "word",
+   "category": "お金・買い物",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（日常の用に）使う・充てる",
+     "en": "to use, spend (for everyday needs)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาเก็บเงินไว้ใช้สอยยามจำเป็น",
+      "ro": "khǎo kèp ngəən wái chái sɔ̌ɔi yaam cam pen",
+      "ja": "あの人は必要な時に使うためにお金を取ってあります。",
+      "en": "He saves money to use when he needs it.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-22891",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22917",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22926",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22927",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22945",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22966",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22967",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22969",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22973",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22976",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22984",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22995",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23012",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23025",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23035",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23054",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23055",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23063",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23064",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23065",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23068",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23090",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23096",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23108",
+  "verdict": "fix",
+  "issues": [
+   "国王の子は正式には พระราชโอรส であり、พระโอรส は昔話などで国王の子にも使われる。誤解を防ぐ注記を追加（例文の ทรงมี は王室文法上可）"
+  ],
+  "fixed": {
+   "id": "tl-23108",
+   "th": "พระโอรส",
+   "action": "add",
+   "ro": "phrá oo rót",
+   "kind": "word",
+   "category": "人・家族",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "王子・（王族の）息子",
+     "en": "son (royal)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "royal"
+     ],
+     "speechStyle": "王室の敬語",
+     "example": {
+      "th": "พระราชาทรงมีพระโอรสสองพระองค์",
+      "ro": "phrá raa chaa song mii phrá oo rót sɔ̌ɔng phrá ong",
+      "ja": "王には王子が二人いらっしゃいます。",
+      "en": "The king has two sons.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "王族の息子を言う王室語。国王の息子は正式には พระราชโอรส と言う。"
+  }
+ },
+ {
+  "id": "tl-23138",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23143",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23158",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23169",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23171",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23175",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23183",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23185",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23186",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23188",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23190",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23192",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23193",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23199",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23210",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23215",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23223",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23225",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23227",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23238",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23239",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23256",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23257",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23258",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23270",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23275",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23292",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-23293",
+  "verdict": "fix",
+  "issues": [
+   "語義の「オニキス」はタイ語のนิลの通常の指示（黒色スピネル・濃色の宝石）とずれるため削除",
+   "現代で最も目にするปลานิล（ティラピア）を注記に追加"
+  ],
+  "fixed": {
+   "id": "tl-23293",
+   "th": "นิล",
+   "action": "add",
+   "ro": "nin",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "note": "ปลานิล（ティラピア）や สีนิล（漆黒）の形でもよく見る。",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "黒い宝石（黒色スピネルなど）",
+     "en": "black gemstone (e.g. black spinel)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แหวนวงนี้ประดับด้วยนิล",
+      "ro": "wɛ̌ɛn wong níi prà dàp dûuai nin",
+      "ja": "この指輪は黒い宝石で飾られています。",
+      "en": "This ring is set with a black gemstone.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-23295",
+  "verdict": "ok",
+  "issues": []
+ }
+]
