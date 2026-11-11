@@ -18,10 +18,13 @@ function boot(withMore){const ctx={window:{},localStorage:{getItem:()=>null,setI
  vm.runInContext('this.t={load:loadWordBank,get bank(){return bank},get status(){return bankStatus},selected:selectedWords,setLevel:n=>{wordState.level=n},setQuery:q=>{wordQuery=q},lib:WORD_LIBRARY,topicIds:wordTopicIds}',ctx);return ctx.t}
 (async()=>{const a=boot(false),b=boot(true);await a.load();await b.load();assert.equal(a.status,'ready');assert.equal(b.status,'ready');
  assert.equal(b.bank.length,a.bank.length+more.length+slangMore.length);
- for(const n of [300,1000,2000,3000]){a.setLevel(n);b.setLevel(n);assert.deepEqual(b.selected().map(w=>w.id),a.selected().map(w=>w.id),'level '+n)}
+ // Study order: words are placed by learning stage and frequency together, so frequent additions come early (ไทย, ญี่ปุ่น) and no frequent word is left in 発展.
  {const seen=new Set();let total=0;for(const n of [300,1000,2000,3000,5000]){b.setLevel(n);const ids=b.selected().map(w=>w.id);assert(ids.every(id=>!seen.has(id)),'ranges do not overlap');ids.forEach(id=>seen.add(id));total+=ids.length}b.setLevel(0);assert.equal(total,b.selected().length,'基本＋日常＋会話＋発展＝全部')}
- a.setLevel(0);b.setLevel(0);{const orig=a.selected(),five=b.selected().filter(w=>w.studyRank<=5000),ids=new Set(five.map(w=>w.id));assert.equal(five.length,5000);assert(orig.every(w=>ids.has(w.id)),'5,000 keeps every original word');const extra=five.filter(w=>w.expansion);assert.equal(extra.length,5000-orig.length);// Additions follow the app's own study order (frequency, then rank), behind every original word.
-const byRank=more.slice().sort((x,y)=>y.frequency-x.frequency||x.corpusRank-y.corpusRank||x.id.localeCompare(y.id)).slice(0,extra.length).map(w=>w.id).sort();assert.deepEqual(extra.map(w=>w.id).sort(),byRank)}
+ b.setLevel(0);{const all=b.selected(),rk=th=>all.find(w=>w.th===th&&w.collection!=='slang').studyRank;
+ assert(all.filter(w=>w.frequency>=9).every(w=>w.studyRank<=3000),'no frequency-9/10 word in 発展');assert(rk('ไทย')<=1000&&rk('ญี่ปุ่น')<=2000&&rk('จีน')<=2000);
+ const months='มกราคม กุมภาพันธ์ มีนาคม เมษายน พฤษภาคม มิถุนายน กรกฎาคม สิงหาคม กันยายน ตุลาคม พฤศจิกายน ธันวาคม'.split(' ').map(rk),band=r=>r<=300?0:r<=1000?1:r<=2000?2:r<=3000?3:4;assert(Math.max(...months.map(band))-Math.min(...months.map(band))<=1,'months stay together');
+ assert(rk('ข้าวต้ม')<=2000,'reviewed promotion');const orig=a.selected();assert(orig.every(w=>b.bank.find(x=>x.id===w.id).studyRank),'every original word keeps a study rank')}
+
  a.setLevel(0);b.setLevel(0);assert.equal(b.selected().length,a.selected().length+more.length);
  assert.equal(b.lib.unique,new Set(b.bank.map(w=>w.th)).size);
  const w=more[0];b.setQuery(w.th);assert(b.selected().some(x=>x.id===w.id));b.setQuery(w.meanings[0].ja);assert(b.selected().some(x=>x.id===w.id));
