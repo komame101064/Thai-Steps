@@ -1,0 +1,1130 @@
+[
+ {
+  "key": "tl-00522#0",
+  "field": "headword.ro",
+  "current": "tâai",
+  "proposed": "tâi",
+  "reason": "ใต้は短母音の下降声調 tâi（館内規則・ro-lexiconとも tâi）。tâai は長母音で誤り。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00522#1",
+  "field": "example.ro",
+  "current": "phɔ̂ɔ nɔɔn yùu tâai tôn máai",
+  "proposed": "phɔ̂ɔ nɔɔn yùu tâi tôn máai",
+  "reason": "ใต้の読みは tâi（短母音）。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00522#2",
+  "field": "example.ro",
+  "current": "bâan khǎo yùu thaang tâai khɔ̌ɔng prà thêet",
+  "proposed": "bâan khǎo yùu thaang tâi khɔ̌ɔng prà thêet",
+  "reason": "ใต้の読みは tâi（短母音）。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-01840#2",
+  "field": "example.ro",
+  "current": "ao cing ao cing phǒm kɔ̂ɔ mâi chɔ̂ɔp mʉ̌ʉan kan",
+  "proposed": "ao cing cing phǒm kɔ̂ɔ mâi chɔ̂ɔp mʉ̌ʉan kan",
+  "reason": "ๆ は直前の語 จริง だけを繰り返す。เอาจริงๆ は ao cing cing で、ao cing ao cing は誤り。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-01149#1",
+  "field": "example.ja",
+  "current": "母は2日前から病気だった.",
+  "proposed": "母は2日前から具合が悪いです。",
+  "reason": "มา…แล้ว は「〜前から（今も）続いている」。「病気だった」と過去で終えると今は治ったように読める。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-05127#1",
+  "field": "example.ja",
+  "current": "これだけの米は十分だ.",
+  "proposed": "ご飯はこれだけで十分です。",
+  "reason": "「これだけの米は十分だ」は日本語として不自然で意味もずれる。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00597#1",
+  "field": "example.ja",
+  "current": "彼の家はここです.",
+  "proposed": "彼の家はこのすぐ辺りです。",
+  "reason": "แถว（辺り・付近）が訳に出ていない。「ここです」では見出し語の意味が伝わらない。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00455#2",
+  "field": "example.ja",
+  "current": "外室は大きい.",
+  "proposed": "外側の部屋のほうが広いです。",
+  "reason": "กว่า（比較）が訳されておらず、「外室」も不自然。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-01087#1",
+  "field": "example.ja",
+  "current": "タイには多くの州がある.",
+  "proposed": "タイにはたくさんの県があります。",
+  "reason": "見出し語の意味は「県」。例文訳の「州」は語義と食い違う。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00789#3",
+  "field": "example.ja",
+  "current": "雨のように見える.",
+  "proposed": "雨が降りそうだ。",
+  "reason": "ท่าจะ は「〜しそうだ」。「雨のように見える」は誤訳。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-01642#1",
+  "field": "example.ja",
+  "current": "私のガールフレンドはダイヤモンドが大好きだが,お金は持っていない。",
+  "proposed": "彼女はダイヤモンドが大好きだが、私にはお金がない。",
+  "reason": "お金がないのは ผม（話し手）。訳では彼女が持っていないように読める。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00727#3",
+  "field": "example.ja",
+  "current": "制御棒をしっかり握ってください.",
+  "proposed": "操縦かんをしっかり握ってください。",
+  "reason": "คันบังคับ は操縦かん・レバー。「制御棒」は原子炉の部品を指し誤訳。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00599#2",
+  "field": "example.ja",
+  "current": "パパ 助けてくれ",
+  "proposed": "パパ、ちょっと手伝って。",
+  "reason": "หนู・ขา から娘が父に甘えて頼む場面。「助けてくれ」は男性的・乱暴で、หน่อย の軽さも出ていない。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-05117#1",
+  "field": "sense.ja",
+  "current": "ゆっくりと",
+  "proposed": "徐々に・だんだんと",
+  "reason": "語義1と語義2がどちらも「ゆっくりと」で区別がない。語義1の例文は変化が徐々に進む用法。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05117#1",
+  "field": "example.ja",
+  "current": "私のタイ語は徐々に良くなる.",
+  "proposed": "私のタイ語はだんだん良くなってきています。",
+  "reason": "ค่อยๆ ดีขึ้น は進行中の変化。「良くなる」だけでは不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01314#2",
+  "field": "sense.ja",
+  "current": "角",
+  "proposed": "角度・アングル",
+  "reason": "語義1「角・隅」と同じ「角」になっており、例文（この角度から撮る）の意味が示されていない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00353#2",
+  "field": "sense.ja",
+  "current": "(表現)つまり...",
+  "proposed": "（〜のことを）言っている・〜のつもりで言う",
+  "reason": "例文は「私が言っているのはあなたのこと」で、「つまり」の用法ではない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05185#1",
+  "field": "sense.ja",
+  "current": "結局のところ",
+  "proposed": "とうとう〜してしまう・結局（やはり）〜する",
+  "reason": "จนได้ は予想・懸念どおりの結果になる含み。「結局のところ」だけでは要約の副詞と区別できない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00529#2",
+  "field": "sense.ja",
+  "current": "注意して集中する",
+  "proposed": "一生懸命に〜する・集中して〜する",
+  "reason": "「注意して集中する」は不自然。ตั้งใจเรียน は「しっかり勉強する」。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-05132#2",
+  "field": "sense.register",
+  "current": "口語",
+  "proposed": "粗い口語",
+  "reason": "人を指す ไอ้นี่ は相手を見下すぞんざいな言い方で、物を指す語義1と同じ「口語」より粗い。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00510#1",
+  "field": "example.ja",
+  "current": "来る必要はない",
+  "proposed": "来なくてもいいですよ。",
+  "reason": "ไม่ต้อง…ก็ได้ は「〜しなくてもよい」。「来る必要はない」は突き放した響き。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01131#1",
+  "field": "example.ja",
+  "current": "運転できるのか?",
+  "proposed": "車の運転はできますか？",
+  "reason": "เป็นไหม は技能の有無を尋ねる中立的な質問。「できるのか?」は詰問調。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01149#2",
+  "field": "example.ja",
+  "current": "私は不安を感じています.",
+  "proposed": "このことが気がかりです。",
+  "reason": "เรื่องนี้（このこと）が訳から抜けている。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05118#1",
+  "field": "example.ja",
+  "current": "トイレはどこだ?",
+  "proposed": "トイレはどこですか？",
+  "reason": "ครับ 付きの丁寧な質問。「どこだ?」は乱暴。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05119#2",
+  "field": "example.ja",
+  "current": "時が来たとき,彼は話す勇気を持っていなかった.",
+  "proposed": "いざその時になると、彼は言い出せなかった。",
+  "reason": "直訳調で不自然（「話す勇気を持っていなかった」）。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05122#1",
+  "field": "example.ja",
+  "current": "今年はもっと人が来ます.",
+  "proposed": "今年は遊びに来る人が増えた。",
+  "reason": "มากขึ้น は「増えた・多くなった」。「もっと人が来ます」では変化の意味が弱く、เที่ยว も抜けている。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05124#2",
+  "field": "example.ja",
+  "current": "彼は忘れていたのか?",
+  "proposed": "もしかして彼、忘れちゃったのかな？",
+  "reason": "語義は「もしかして〜なのか」。訳にその推測のニュアンスがない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05127#2",
+  "field": "example.ja",
+  "current": "今日はそれだけだ",
+  "proposed": "今日はここまでにしましょう。",
+  "reason": "締めくくりの定型。「今日はそれだけだ」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05130#1",
+  "field": "example.ja",
+  "current": "値段はサイズに依存する.",
+  "proposed": "値段はサイズによって違います。",
+  "reason": "「依存する」は機械翻訳調。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05184#1",
+  "field": "example.ja",
+  "current": "このパーティーは楽しい.",
+  "proposed": "このイベントは楽しいことばかりだ。",
+  "reason": "มีแต่（〜ばかり）が訳されていない。งาน も「パーティー」に限らない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05192#1",
+  "field": "example.ja",
+  "current": "友人と外出したい.",
+  "proposed": "友達と遊びに行きたい。",
+  "reason": "ไปเที่ยว は「遊びに行く・旅行する」。「外出したい」は意味がずれる。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05208#1",
+  "field": "example.ja",
+  "current": "このようなものは見つけることは非常に難しい.",
+  "proposed": "こういう物はなかなか見つからない。",
+  "reason": "「見つけることは非常に難しい」は文法的に崩れている。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05227#1",
+  "field": "example.ja",
+  "current": "あまり考えないで",
+  "proposed": "あまり考えすぎないで。",
+  "reason": "คิดมาก は「考えすぎる・くよくよする」。「あまり考えないで」では意味が変わる。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05228#1",
+  "field": "example.ja",
+  "current": "父は遅刻したから叱った.",
+  "proposed": "父は私が遅刻したことを叱った。",
+  "reason": "誰が遅刻したか（ผม）が抜け、文意が曖昧。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00261#1",
+  "field": "example.ja",
+  "current": "どうしてこんな風にやるんだ?",
+  "proposed": "どうしてこんなふうにしなければならないの？",
+  "reason": "ต้อง（〜しなければならない）が訳から抜けている。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01158#3",
+  "field": "example.ja",
+  "current": "この木は毎年果実を産む.",
+  "proposed": "この木は毎年実をつける。",
+  "reason": "「果実を産む」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00516#2",
+  "field": "example.ja",
+  "current": "叔父は米畑を売った.",
+  "proposed": "おじさんは田んぼを売ってしまった。",
+  "reason": "「米畑」は日本語として不自然。นา は田んぼ。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00401#2",
+  "field": "example.ja",
+  "current": "食事に行ったら?",
+  "proposed": "ご飯を食べに行くのはどう？",
+  "reason": "提案用法。「食事に行ったら?」は相手だけに勧める意味になり、กัน（一緒に）が出ない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00585#2",
+  "field": "example.ja",
+  "current": "馬は銃撃で怖がって逃げ出した.",
+  "proposed": "馬は銃声に驚いて逃げ出した。",
+  "reason": "เสียงปืน は「銃声」。「銃撃で」は意味がずれる。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00558#1",
+  "field": "example.ja",
+  "current": "私は仕事のために準備する必要があります.",
+  "proposed": "仕事に行く支度をしなければならない。",
+  "reason": "เตรียมตัวไปทำงาน は「出勤の支度」。直訳調で不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00692#2",
+  "field": "example.ja",
+  "current": "彼はとても速く話しているので,私はフォローできない.",
+  "proposed": "彼は話すのが速すぎて、聞き取れない。",
+  "reason": "「フォローできない」は不自然。ฟังไม่ทัน は「聞き取りが追いつかない」。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01178#2",
+  "field": "example.ja",
+  "current": "これは内部の家族問題です",
+  "proposed": "これは私たち家族の内輪の問題です。",
+  "reason": "「内部の家族問題」は不自然で、เรา（私たちの）も抜けている。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01667#1",
+  "field": "example.ja",
+  "current": "私の子供は遊戯しかせず,勉強もしません.",
+  "proposed": "うちの子はゲームばかりで、本を全然読まない。",
+  "reason": "「遊戯しかせず」は不自然。เลย（全然）も訳に出ていない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00771#1",
+  "field": "example.ja",
+  "current": "私たちは現在の中で生きるべきです.",
+  "proposed": "私たちは今を生きるべきです。",
+  "reason": "「現在の中で生きる」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00425#1",
+  "field": "example.ja",
+  "current": "払ってやる",
+  "proposed": "私が払います。",
+  "reason": "「払ってやる」は恩着せがましい。จ่ายเอง は「私が払う」。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00812#1",
+  "field": "example.ja",
+  "current": "この線を切って",
+  "proposed": "この線に沿って切ってね。",
+  "reason": "ตามแนว は「線に沿って」。「この線を切って」では意味が違う。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00529#2",
+  "field": "example.ja",
+  "current": "勉強に注意して",
+  "proposed": "ちゃんと勉強しなさいね。",
+  "reason": "「勉強に注意して」は不自然。親が子に言う ตั้งใจเรียน。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00798#2",
+  "field": "example.ja",
+  "current": "子供たちは床に丸で座った.",
+  "proposed": "子どもたちは床に輪になって座った。",
+  "reason": "「丸で座った」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00553#1",
+  "field": "example.ja",
+  "current": "少しゆっくり話せるか?",
+  "proposed": "もう少しゆっくり話していただけますか？",
+  "reason": "คะ 付きの丁寧な依頼。「話せるか?」は乱暴。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00705#1",
+  "field": "example.ja",
+  "current": "ママが眠っている間に,その子は秘密裏にゲームをする.",
+  "proposed": "子どもは母が寝ている間に、こっそりゲームをする。",
+  "reason": "「秘密裏に」は硬すぎて不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00664#1",
+  "field": "example.ja",
+  "current": "牛肉の2枚お願いします",
+  "proposed": "肉を2切れください。",
+  "reason": "「牛肉の2枚お願いします」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00933#1",
+  "field": "example.ja",
+  "current": "この場所で食べ物はとても高価です.",
+  "proposed": "この店は料理が高いなあ。",
+  "reason": "「この場所で食べ物はとても高価です」は機械翻訳調。จัง の感嘆も出ていない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01840#1",
+  "field": "example.ja",
+  "current": "冗談じゃない",
+  "proposed": "本気だよ。冗談じゃないんだ。",
+  "reason": "見出し語 เอาจริง（本気だ）が訳から抜けている。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00739#1",
+  "field": "example.ja",
+  "current": "この部屋には教師しか入らない.",
+  "proposed": "この部屋には先生しか入れません。",
+  "reason": "เข้าได้ は「入れる（許可）」。「入らない」は意味が違う。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00685#1",
+  "field": "example.ja",
+  "current": "彼は私を外食に招待した.",
+  "proposed": "彼は私をご飯に誘った。",
+  "reason": "ชวน は「誘う」。「外食に招待した」は大げさで意味がずれる。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00821#2",
+  "field": "example.ja",
+  "current": "このバッグのハンドルは壊れた.",
+  "proposed": "このかばんは持ち手が切れてしまった。",
+  "reason": "หูขาด は「持ち手が切れる」。「ハンドルは壊れた」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00675#2",
+  "field": "example.ja",
+  "current": "他の人を我々より低い人として見なさないでください",
+  "proposed": "他人を自分より下に見てはいけない。",
+  "reason": "「見なさないでください」は文法的に誤り。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01327#1",
+  "field": "example.ja",
+  "current": "もう一度言ってくれ.",
+  "proposed": "もう一度言ってください。",
+  "reason": "ครับ 付きの丁寧な依頼。「言ってくれ」は乱暴。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00815#1",
+  "field": "example.ja",
+  "current": "もっと静かに話せるか?",
+  "proposed": "もう少し小さな声で話してもらえますか？",
+  "reason": "ครับ 付きの丁寧な依頼。「話せるか?」は乱暴。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00815#2",
+  "field": "example.ja",
+  "current": "重いものではなく 軽いもの.",
+  "proposed": "全然重くないよ。とても軽い。",
+  "reason": "「重いものではなく 軽いもの」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01193#2",
+  "field": "example.ja",
+  "current": "このチームでは10番は最高です",
+  "proposed": "このチームでは10番がいちばん上手だ。",
+  "reason": "เก่งที่สุด は「いちばん上手」。「10番は最高です」は意味がずれる。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00779#1",
+  "field": "example.ja",
+  "current": "天は今日とても美しい.",
+  "proposed": "今日は空がきれいだね。",
+  "reason": "ฟ้า は「空」。「天は〜美しい」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00636#1",
+  "field": "example.ja",
+  "current": "1杯水,お願いします.",
+  "proposed": "水を1杯ください。",
+  "reason": "「1杯水,お願いします」は日本語として不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00680#1",
+  "field": "example.ja",
+  "current": "あなたは弟に良い模範をあげなければならない.",
+  "proposed": "年上のきょうだいは、年下のきょうだいに良いお手本を見せないといけない。",
+  "reason": "主語 พี่（兄・姉）が「あなた」に変わっており、「模範をあげる」も不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00753#2",
+  "field": "example.ja",
+  "current": "バッグが破裂し,すべてが床に落ちた.",
+  "proposed": "袋が破れて、物が床一面に落ちた。",
+  "reason": "ถุง は「袋」。「バッグが破裂し」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00538#1",
+  "field": "example.ja",
+  "current": "私は全家を捜した.",
+  "proposed": "家じゅう探した。",
+  "reason": "「全家を捜した」は日本語として不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00655#2",
+  "field": "example.ja",
+  "current": "タイ人は笑顔が好きだ.",
+  "proposed": "タイ人はよく笑う民族だ。",
+  "reason": "見出し語 ชนชาติ（民族）が訳から抜けている。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01421#2",
+  "field": "example.ja",
+  "current": "彼は歌のリズムに踊る.",
+  "proposed": "彼は曲のリズムに合わせて踊る。",
+  "reason": "「リズムに踊る」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01548#1",
+  "field": "example.ja",
+  "current": "私の水を補給してくれますか?",
+  "proposed": "水を足してもらえますか？",
+  "reason": "「私の水を補給して」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00540#1",
+  "field": "example.ja",
+  "current": "ドアを開けろ",
+  "proposed": "ちょっとドアを開けてよ。",
+  "reason": "ช่วย…หน่อยซิ は軽い依頼。「ドアを開けろ」は命令口調で強すぎる。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00430#1",
+  "field": "example.ja",
+  "current": "彼がどこにいるのか?",
+  "proposed": "彼はどこにいるのだろうと思う。",
+  "reason": "ฉันสงสัยว่า（〜かなと思う）が訳から抜けている。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00448#2",
+  "field": "example.ja",
+  "current": "修理士を招いて調べる",
+  "proposed": "修理屋さんを呼んで見てもらわないと。",
+  "reason": "「修理士を招いて調べる」は不自然で、ต้อง（〜しないと）も抜けている。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01323#1",
+  "field": "example.ja",
+  "current": "もう一度言ってくれ?",
+  "proposed": "もう一度繰り返してもらえますか？",
+  "reason": "「もう一度言ってくれ?」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01277#3",
+  "field": "example.ja",
+  "current": "私たちの家は丘の足元にあります.",
+  "proposed": "私たちの家は山のふもとにあります。",
+  "reason": "เชิงเขา は「山のふもと」。「丘の足元」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01208#2",
+  "field": "example.ja",
+  "current": "私は新しい計画を立てています.",
+  "proposed": "新しい計画の草案を作っています。",
+  "reason": "語義は「草案を作る」。「計画を立てています」では意味がずれる。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00554#1",
+  "field": "example.ja",
+  "current": "車は消えました 警察に報告しなければなりません",
+  "proposed": "車がなくなった。警察に届けないと。",
+  "reason": "「車は消えました」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00839#2",
+  "field": "example.ja",
+  "current": "そのおばさんの食べ物は本当にいい.",
+  "proposed": "あのおばさんが売っているご飯は、とてもおいしい。",
+  "reason": "「食べ物は本当にいい」は誤訳。ขายข้าวอร่อย は「売るご飯がおいしい」。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00839#3",
+  "field": "example.ja",
+  "current": "料理するよ.",
+  "proposed": "おばさんがご飯を作ってあげるね。",
+  "reason": "語義（ป้า で自分を指す）が訳に反映されていない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00859#1",
+  "field": "example.ja",
+  "current": "すごいよ",
+  "proposed": "わあ、すごくきれい！",
+  "reason": "สวย（きれい）が訳から抜けている。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00702#2",
+  "field": "example.ja",
+  "current": "子供たちは家中に互いに追いかけている.",
+  "proposed": "子どもたちは家の周りで追いかけっこをしている。",
+  "reason": "「家中に互いに追いかけている」は不自然。รอบบ้าน は「家の周り」。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00525#1",
+  "field": "example.ja",
+  "current": "その少年は妹の彼氏だ.",
+  "proposed": "あの若い男の人は、妹の恋人だ。",
+  "reason": "หนุ่ม は「若い男性」で「少年」ではない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00737#1",
+  "field": "example.ja",
+  "current": "私は今夜友人と会うことを決めました.",
+  "proposed": "夕方、友達と会う約束をしている。",
+  "reason": "「会うことを決めました」は誤訳。ตอนเย็น も「今夜」ではなく「夕方」。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01309#1",
+  "field": "example.ja",
+  "current": "子供は手を黒くするまで泥の中で遊んでいました。",
+  "proposed": "子どもが土遊びをして、手が真っ黒になった。",
+  "reason": "「手を黒くするまで」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00335#2",
+  "field": "example.ja",
+  "current": "では何を食べよう?",
+  "proposed": "で、結局何を食べるの？",
+  "reason": "ตกลง の「結局・で」の確認が訳に出ていない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01305#2",
+  "field": "example.ja",
+  "current": "私にとってお金は家族に次いでいます",
+  "proposed": "私にとって、お金は家族の次に大切です。",
+  "reason": "「家族に次いでいます」は文として不完全。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01359#1",
+  "field": "example.ja",
+  "current": "その言葉は彼の口から出てきた。",
+  "proposed": "その言葉が、うっかり彼の口から出てしまった。",
+  "reason": "หลุด の「（意図せず）出る・滑る」が訳から抜けている。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01167#2",
+  "field": "example.ja",
+  "current": "お父さんには似てる",
+  "proposed": "あなたはお父さんにとてもよく似ていますね。",
+  "reason": "มาก が抜けており、「お父さんには似てる」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00811#1",
+  "field": "example.ja",
+  "current": "何で生計を立ててる?",
+  "proposed": "お仕事は何をされていますか？",
+  "reason": "ครับ 付きの丁寧な質問。「生計を立ててる?」は不自然でくだけすぎ。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00869#1",
+  "field": "example.ja",
+  "current": "歩けるのか?",
+  "proposed": "歩けますか？",
+  "reason": "ครับ 付きの気づかい。「歩けるのか?」は詰問調。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01326#1",
+  "field": "example.ja",
+  "current": "彼は再び遅刻した。",
+  "proposed": "彼はよりによって、また遅刻した。",
+  "reason": "語義の「よりによって・つい」が訳に出ていない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01329#2",
+  "field": "example.ja",
+  "current": "たった一度は十分だ",
+  "proposed": "一回だけで十分です。",
+  "reason": "「たった一度は十分だ」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01227#1",
+  "field": "example.ja",
+  "current": "私の夢は医者になる。",
+  "proposed": "私の夢は医者になることです。",
+  "reason": "「夢は医者になる」は文法的に不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00507#1",
+  "field": "example.ja",
+  "current": "ありがとう 後で会いましょう",
+  "proposed": "ありがとうございます。それでは、また。",
+  "reason": "ค่ะ／คะ 付き。แล้วเจอกัน は別れのあいさつで、「後で会いましょう」とは意味がずれる。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-05172#1",
+  "field": "example.ja",
+  "current": "彼は最近よく働いています",
+  "proposed": "彼は最近仕事が多い。",
+  "reason": "ทำงานเยอะ は「仕事量が多い」。「よく働く」は勤勉の意味に寄る。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01154#1",
+  "field": "example.ja",
+  "current": "反対側に名前を書きなさい.",
+  "proposed": "もう片方の面に名前を書いてね。",
+  "reason": "อีกด้านหนึ่ง は「もう一方の面（裏面）」。「反対側」は位置の意味に寄り、「書きなさい」は นะ にしては強い。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00280#1",
+  "field": "example.ja",
+  "current": "その女の子はとても可愛い.",
+  "proposed": "あの娘はとてもきれいだ。",
+  "reason": "สวย は「きれい・美しい」。「可愛い」は น่ารัก。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01314#1",
+  "field": "example.ja",
+  "current": "私の家は街の角にある.",
+  "proposed": "私の家は通りの角にあります。",
+  "reason": "มุมถนน は「通りの角」。「街の角」は不自然。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00174#2",
+  "field": "example.ja",
+  "current": "子供は全部食べた",
+  "proposed": "子どもが全部食べちゃった。",
+  "reason": "ซะ の「〜してしまう」が訳に出ていない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00408#1",
+  "field": "example.ja",
+  "current": "ママは子供たちの面倒を見るんだ",
+  "proposed": "母はいつも子どもの面倒を見ている。",
+  "reason": "คอย の継続・見守りが訳に出ていない。「〜んだ」も不自然。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00680#3",
+  "field": "example.ja",
+  "current": "この映画のトレーラーはとても楽しい.",
+  "proposed": "この映画の予告編はとても面白い。",
+  "reason": "「トレーラー」より日本語では「予告編」が自然。สนุก は「面白い」。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00587#2",
+  "field": "example.ja",
+  "current": "この人生で忘れないよ",
+  "proposed": "この一生、私はきっとあなたを忘れないだろう。",
+  "reason": "คง（きっと〜だろう）が訳されていない。「この人生で」も不自然。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00664#2",
+  "field": "example.ja",
+  "current": "パンを小切りに切る.",
+  "proposed": "パンを小さく切る。",
+  "reason": "「小切り」は日本語として不自然。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01750#2",
+  "field": "example.ja",
+  "current": "母親は,騒々しく遊ぶために子供を叱った.",
+  "proposed": "母は大きな音を立てて遊ぶ子どもを叱った。",
+  "reason": "「騒々しく遊ぶために」は目的の意味になり誤り。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00883#2",
+  "field": "example.ja",
+  "current": "その五十歳の男は教師だ。",
+  "proposed": "あの50歳の男性は教師だ。",
+  "reason": "「その五十歳の男」は直訳調。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00993#1",
+  "field": "example.ja",
+  "current": "水は無料だ",
+  "proposed": "この店は水が無料ですよ。",
+  "reason": "ร้านนี้ と丁寧な นะครับ が訳に出ていない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-02352#1",
+  "field": "example.ja",
+  "current": "レシピをもらえるか? 美味しい。",
+  "proposed": "レシピを教えてもらえますか？とてもおいしいです。",
+  "reason": "「もらえるか?」は乱暴。มาก も抜けている。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-04578#1",
+  "field": "example.ja",
+  "current": "そうだ 行こう",
+  "proposed": "うん、行こう。",
+  "reason": "อื้อ は軽い同意の相づち。「そうだ」は意味がずれる。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01348#3",
+  "field": "example.ja",
+  "current": "私は明るい色のシャツを着るのが好きです。",
+  "proposed": "私は淡い色のシャツを着るのが好きです。",
+  "reason": "สีอ่อน は「淡い色」。「明るい色」は สีสด などに近い。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00779#2",
+  "field": "example.ja",
+  "current": "この明るい青いシャツが好きだ.",
+  "proposed": "この水色のシャツが好きだ。",
+  "reason": "สีฟ้า は「水色」。「明るい青いシャツ」は不自然。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01373#1",
+  "field": "example.ja",
+  "current": "父は本当に強い.彼は重荷を簡単に持ち上げます。",
+  "proposed": "父はとても体が丈夫で、重い物も楽々持ち上げる。",
+  "reason": "「重荷」は比喩的な意味に寄る。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00780#1",
+  "field": "example.ja",
+  "current": "父と叔父は一緒に働きます.",
+  "proposed": "父と伯父は一緒に働いています。",
+  "reason": "語義は父母の兄。日本語では「伯父」と書く。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00548#1",
+  "field": "example.ja",
+  "current": "子どもは親に耳を傾けるべきです。",
+  "proposed": "子どもは親の言うことを聞くべきです。",
+  "reason": "ฟังพ่อแม่ は「親の言うことを聞く」。「耳を傾ける」は直訳調。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00787#1",
+  "field": "example.ja",
+  "current": "子供を怖がらせないで。",
+  "proposed": "子どもをびっくりさせないでね。",
+  "reason": "ตกใจ は「びっくりする」。「怖がらせる」は意味がずれる。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01406#1",
+  "field": "example.ja",
+  "current": "彼は音楽を上手く演奏している。",
+  "proposed": "彼は楽器の演奏がとても上手だ。",
+  "reason": "「音楽を上手く演奏している」は不自然。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01445#2",
+  "field": "example.ja",
+  "current": "そのボートは停泊した。",
+  "proposed": "あの船はもう岸壁に着いた。",
+  "reason": "เทียบท่า は「接岸する」。「停泊した」は意味がずれる。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00621#1",
+  "field": "example.ja",
+  "current": "十分な睡眠をとる 身体は休む必要がある",
+  "proposed": "しっかり寝なさい。体には休息が必要だ。",
+  "reason": "直訳調で、文のつながりが不自然。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00509#1",
+  "field": "example.th",
+  "current": "ขอบคุณสำหรับอาหาร ฉันไปก่อนนะ",
+  "proposed": "ขอบคุณสำหรับมื้อนี้นะ ฉันไปก่อนนะ",
+  "reason": "ขอบคุณสำหรับอาหาร は英語 thanks for the food の直訳調。สำหรับมื้อนี้ のほうが自然。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00509#1",
+  "field": "example.ro",
+  "current": "khɔ̀ɔp khun sǎm ràp aa hǎan chǎn pai kɔ̀ɔn ná",
+  "proposed": "khɔ̀ɔp khun sǎm ràp mʉ́ʉ níi ná chǎn pai kɔ̀ɔn ná",
+  "reason": "例文のタイ語を変えたことに合わせた読み。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00509#1",
+  "field": "example.ja",
+  "current": "食事ありがとう もう帰るわ",
+  "proposed": "ごちそうさま、ありがとう。じゃあ、先に行くね。",
+  "reason": "「もう帰るわ」は女性語に限られ、ไปก่อน（先に行く）の意味もずれる。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00708#1",
+  "field": "example.th",
+  "current": "คอของฉันเจ็บมาก",
+  "proposed": "ฉันเจ็บคอมาก",
+  "reason": "「喉が痛い」は เจ็บคอ と言うのが普通。คอของฉันเจ็บ は英語 my throat hurts の直訳調。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00708#1",
+  "field": "example.ro",
+  "current": "khɔɔ khɔ̌ɔng chǎn cèp mâak",
+  "proposed": "chǎn cèp khɔɔ mâak",
+  "reason": "例文のタイ語を変えたことに合わせた読み。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00708#1",
+  "field": "example.ja",
+  "current": "喉が痛い.",
+  "proposed": "喉がとても痛い。",
+  "reason": "例文のタイ語を変えたことに合わせた訳。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00634#2",
+  "field": "example.th",
+  "current": "ยิ้มของเธอสวยมาก",
+  "proposed": "รอยยิ้มของเธอสวยมาก",
+  "reason": "名詞「笑顔」は รอยยิ้ม が自然。ยิ้มของเธอ は話し言葉で耳にする程度。รอยยิ้ม にも見出し語 ยิ้ม は含まれる。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00634#2",
+  "field": "example.ro",
+  "current": "yím khɔ̌ɔng thəə sǔuai mâak",
+  "proposed": "rɔɔi yím khɔ̌ɔng thəə sǔuai mâak",
+  "reason": "例文のタイ語を変えたことに合わせた読み（รอยยิ้ม は ro-lexicon で rɔɔi yím）。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00634#2",
+  "field": "example.ja",
+  "current": "彼女の笑顔は美しい.",
+  "proposed": "彼女の笑顔はとても美しい。",
+  "reason": "例文のタイ語を変えたことに合わせた訳。มาก（とても）も補った。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01182#2",
+  "field": "example.th",
+  "current": "เขาทำงานตามหลักของบริษัท",
+  "proposed": "เขาทำงานตามหลักการของบริษัท",
+  "reason": "「会社の原則」は หลักการ が自然。単独の หลัก は「主要な」の意味に取られやすい。หลักการ にも見出し語 หลัก は含まれる。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01182#2",
+  "field": "example.ro",
+  "current": "khǎo tham ngaan taam làk khɔ̌ɔng bɔɔ rí sàt",
+  "proposed": "khǎo tham ngaan taam làk kaan khɔ̌ɔng bɔɔ rí sàt",
+  "reason": "例文のタイ語を変えたことに合わせた読み。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01182#2",
+  "field": "example.ja",
+  "current": "彼は会社の原則に従って働いています.",
+  "proposed": "彼は会社の原則に従って働いています。",
+  "reason": "例文のタイ語を変えたことに合わせた訳。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00545#1",
+  "field": "example.ja",
+  "current": "質問がある",
+  "proposed": "質問が一つあります。",
+  "reason": "ครับ 付きの丁寧な言い方で、หนึ่งข้อ（一つ）もある。「質問がある」は素っ気ない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00526#1",
+  "field": "example.ja",
+  "current": "パパは今夜会議がある。",
+  "proposed": "父は今日、夕方に会議があります。",
+  "reason": "ตอนเย็น は「夕方」で「今夜」ではない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00518#2",
+  "field": "example.ja",
+  "current": "到着した?",
+  "proposed": "あ、もう来たの？",
+  "reason": "見出し語の間投詞 อา（あ）が訳から抜けている。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01266#1",
+  "field": "example.ja",
+  "current": "ドアのそばに本がたくさんある.",
+  "proposed": "ドアのそばに本の山があります。",
+  "reason": "กอง（山・積み重なった物）が「たくさん」になり、見出し語の意味が出ていない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00670#1",
+  "field": "example.ja",
+  "current": "荷物を家に置いてきた.",
+  "proposed": "かばんを家に忘れてきた。",
+  "reason": "กระเป๋า は「かばん」で、ลืม（忘れる）も訳から抜けている。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-02207#3",
+  "field": "example.ja",
+  "current": "彼の家は北にあります.",
+  "proposed": "彼の家は北部地方にあります。",
+  "reason": "語義は「（国の）地方」。「北にあります」では ภาค の意味が出ない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00263#1",
+  "field": "example.ja",
+  "current": "一緒に行こう",
+  "proposed": "私たちは一緒に行きます。",
+  "reason": "見出し語 พวกเรา（私たち）が訳から抜けている。จะ は勧誘の「〜しよう」ではない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00821#1",
+  "field": "example.ja",
+  "current": "赤ちゃんは耳を手で覆う.",
+  "proposed": "子どもは手で耳をふさいだ。",
+  "reason": "เด็ก は「子ども」で「赤ちゃん」ではない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00678#1",
+  "field": "example.ja",
+  "current": "昔は森だった。",
+  "proposed": "昔、ここは森だった。",
+  "reason": "ที่นี่（ここ）が訳から抜けている。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05129#1",
+  "field": "sense.ja",
+  "current": "いつものように",
+  "proposed": "以前と同じ・相変わらず",
+  "reason": "例文は「以前と同じように」。「いつものように」は意味がずれる。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01134#1",
+  "field": "sense.ja",
+  "current": "午前中は",
+  "proposed": "朝（に）・午前中",
+  "reason": "例文は「朝に」。ตอนเช้า の基本は「朝」。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00440#2",
+  "field": "sense.ja",
+  "current": "いつでも・すぐに",
+  "proposed": "〜したら（そのときは）・いつでも〜したら",
+  "reason": "例文は「帰宅したら知らせて」。「すぐに」の意味はない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01266#2",
+  "field": "sense.ja",
+  "current": "師団・部隊・乗組員",
+  "proposed": "（官庁・軍などの）部・課・部隊",
+  "reason": "例文の หัวหน้ากอง は部・課の長。「乗組員」は誤解を招く。",
+  "confidence": "low"
+ }
+]

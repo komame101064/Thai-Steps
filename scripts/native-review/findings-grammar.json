@@ -1,0 +1,154 @@
+[
+ {
+  "key": "vocab:ไม่ได้@lesson:17:example:0,lesson:22:example:0",
+  "field": "other",
+  "current": "〜しなかった",
+  "proposed": "〜できない",
+  "reason": "wordsFor()で該当例文だけ上書きする想定（vocabulary.jsの共通項目は変えない）。対象: วันนี้ไปไม่ได้／ไปไม่ได้เพราะต้องทำงาน。role「不可能の表現」、note「動詞の後ろのไม่ได้は『〜できない』。動詞の前なら『〜しなかった』。」動詞の後ろのไม่ได้を「しなかった」と表示しており、課の説明（行けない）と矛盾。",
+  "confidence": "high"
+ },
+ {
+  "key": "vocab:ไม่ได้@lesson:44:example:1",
+  "field": "other",
+  "current": "〜しなかった",
+  "proposed": "〜というわけではない",
+  "reason": "wordsFor()で該当例文だけ上書きする想定（vocabulary.jsの共通項目は変えない）。対象: ความสุขไม่ได้มาจากเงิน。role「否定（打ち消し）」。ここは過去ではなく内容の打ち消し。",
+  "confidence": "high"
+ },
+ {
+  "key": "vocab:ไป@lesson:45:example:1",
+  "field": "other",
+  "current": "行く",
+  "proposed": "〜してしまう",
+  "reason": "wordsFor()で該当例文だけ上書きする想定（vocabulary.jsの共通項目は変えない）。対象: ผมลืมไปแล้ว。role「結果を補う語」、note「動詞の後ろで、なくなる・離れていく変化を表す」。課の主題のไปが「行く」と表示されている。",
+  "confidence": "high"
+ },
+ {
+  "key": "vocab:ขึ้น@lesson:43:example:1",
+  "field": "other",
+  "current": "より〜になる",
+  "proposed": "（出来事が）起こる（เกิด…ขึ้นの一部）",
+  "reason": "wordsFor()で該当例文だけ上書きする想定（vocabulary.jsの共通項目は変えない）。対象: ไม่ว่าจะเกิดอะไรขึ้น…。role「方向を補う語」。程度の増加ではなく出来事の発生（例文の注にもเกิด…ขึ้นと書かれている）。",
+  "confidence": "high"
+ },
+ {
+  "key": "vocab:ก่อน@lesson:38:example:3",
+  "field": "other",
+  "current": "先に・まず",
+  "proposed": "〜する前に",
+  "reason": "wordsFor()で該当例文だけ上書きする想定（vocabulary.jsの共通項目は変えない）。対象: ก่อนนอนอย่าดื่มกาแฟ。role「時を導く語」。例文の注（ก่อน＋動詞で「〜する前に」）とパネルが矛盾。",
+  "confidence": "high"
+ },
+ {
+  "key": "vocab:เย็น@lesson:41:example:0",
+  "field": "other",
+  "current": "冷たい",
+  "proposed": "涼しい",
+  "reason": "wordsFor()で該当例文だけ上書きする想定（vocabulary.jsの共通項目は変えない）。対象: เชียงใหม่ซึ่งอยู่ภาคเหนือมีอากาศเย็น。อากาศเย็นは「涼しい気候」で、訳とも合わない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "vocab:จะ@lesson:35:example:3,lesson:40:example:0,lesson:40:example:2,lesson:43:example:1,lesson:43:example:2,lesson:47:example:3",
+  "field": "other",
+  "current": "これから〜する",
+  "proposed": "（仮定・譲歩の節に添える語）",
+  "reason": "wordsFor()で該当例文だけ上書きする想定（vocabulary.jsの共通項目は変えない）。ถึงจะ／แม้ว่าจะ／แม้…จะ／ไม่ว่าจะ／นอกจากจะ のจะは未来・予定ではない。role「条件節の語」、note「この型のจะは未来ではなく、仮定・譲歩の節に添える語」。 上書きは条件・譲歩節の中のจะだけ（แม้ฝนจะตก／ไม่ว่าจะเกิด の1つ目）。後半のก็จะไป・ก็จะอยู่のจะは未来の意味なので現状のままでよい。",
+  "confidence": "medium"
+ },
+ {
+  "key": "vocab:ก็@lesson:35:example:2,lesson:35:example:3,lesson:40:example:0,lesson:40:example:1,lesson:40:example:2,lesson:43:example:0,lesson:43:example:1,lesson:43:example:2,lesson:43:example:3",
+  "field": "other",
+  "current": "それなら・〜も",
+  "proposed": "それでも・〜でも",
+  "reason": "wordsFor()で該当例文だけ上書きする想定（vocabulary.jsの共通項目は変えない）。譲歩の ถึง…ก็／แม้…ก็／ทั้งที่…ก็／ไม่ว่า…ก็／ใครๆก็ のก็は「それなら」ではない。条件文（lesson 23）の表示はそのままでよい。",
+  "confidence": "medium"
+ },
+ {
+  "key": "vocab:ยัง@lesson:42:example:3,lesson:47:example:3",
+  "field": "other",
+  "current": "まだ",
+  "proposed": "さらに・その上",
+  "reason": "wordsFor()で該当例文だけ上書きする想定（vocabulary.jsの共通項目は変えない）。…ยังอร่อยด้วย／…ยังใช้งานง่ายด้วย のยัง…ด้วยは情報の追加で「まだ」ではない。role「追加の語」。",
+  "confidence": "medium"
+ },
+ {
+  "key": "vocab:ฉัน",
+  "field": "other",
+  "current": "話し手の性別を問わず使えます。",
+  "proposed": "主に女性が使う一人称。男性は親しい間柄や歌詞などで使うことがあります。",
+  "reason": "標準的にはฉันは女性の一人称（クイズでも女性の文に使用）。「性別を問わず」は学習者を誤らせる。",
+  "confidence": "medium"
+ },
+ {
+  "key": "vocab:แล้ว@lesson:47:example:3",
+  "field": "other",
+  "current": "もう・〜になった",
+  "proposed": "（นอกจาก…แล้ว の形の一部）",
+  "reason": "wordsFor()で該当例文だけ上書きする想定（vocabulary.jsの共通項目は変えない）。นอกจาก…แล้ว ยัง…のแล้วは完了・変化ではなく型の一部。",
+  "confidence": "low"
+ },
+ {
+  "key": "vocab:ไทย@lesson:47:example:0",
+  "field": "other",
+  "current": "タイ",
+  "proposed": "タイ語",
+  "reason": "wordsFor()で該当例文だけ上書きする想定（vocabulary.jsの共通項目は変えない）。พูดไทยのไทยは「タイ語」（ภาษาไทยの省略）。",
+  "confidence": "low"
+ },
+ {
+  "key": "quiz:22:2",
+  "field": "other",
+  "current": "ถึง",
+  "proposed": "แต่",
+  "reason": "หิวมาก＿＿กินเยอะ の誤答選択肢ถึงは、口語の「だから〜」のถึง（หิวมากถึงกินเยอะ／ถึงได้กินเยอะ）として成立し得て、正解が二つに見える。誤答はแต่（逆接）などに替え、why文の「ถึง…」の説明も合わせて直す。ro: tɛ̀ɛ。",
+  "confidence": "medium"
+ },
+ {
+  "key": "quiz:28:0",
+  "field": "other",
+  "current": "มันถึง（มันだけで「たぶん」）",
+  "proposed": "เคยถึง",
+  "reason": "タイ語の選択肢に日本語の注記が混在していて不自然。誤答には通常のタイ語の誤用を置く。existingRoの「man thʉ̌ng」→「khəəi thʉ̌ng」、why文の「มันだけには…」→「เคยは経験を表します」も合わせて変更が必要。",
+  "confidence": "medium"
+ },
+ {
+  "key": "lesson:28:text",
+  "field": "other",
+  "current": "「たぶん」をมันだけで表しません。มันは物や事柄などを指す代名詞です。",
+  "proposed": "会話では文末のมั้ง（「〜かな・たぶん」）で軽い推測を表すこともあります。มัน（それ）とは別の語です。",
+  "reason": "現行文は誤りではないが、実際に紛らわしいのは推測の文末詞มั้ง。提案は任意（lesson 28 Q3 のwhy文もมันに触れている）。",
+  "confidence": "low"
+ },
+ {
+  "key": "system:grammar-ro",
+  "field": "other",
+  "current": "tɔ̂ŋ（ต้อง）・kɔ̂（ก็）・dâi（ได้）など（data.js/expansion.js/advanced.js/readings.js/vocabulary.jsの文法ページ表記）",
+  "proposed": "文法ページの読みをハウス規約（ต้อง tɔ̂ɔng、ก็ kɔ̂ɔ、ได้ dâai、長母音の二重母音 iia/ʉʉa/uua、音節ごとの空白）に統一するか、文法ページは別方式であることを明示する",
+  "reason": "同じ課の例文がtɔ̂ŋ、確認問題がtɔ̂ɔŋ（quizRoでng→ŋ変換後）と表示され、学習者には読みが揺れて見える。個別の誤りではなく方式の違い（ŋ、短い二重母音、ก็ kɔ̂、เพิ่ง phə̂ŋ、ค่อย khɔ̂i、連結音節の声調無表記 khanǒm/karúnaa 等）。ต้องだけ直すと混在が増えるので一括判断が必要。",
+  "confidence": "medium"
+ },
+ {
+  "key": "lesson:26:example:1",
+  "field": "example.ja",
+  "current": "まず彼にやってもらおう。",
+  "proposed": "まず彼に試しにやらせてみよう。",
+  "reason": "ลอง（試しに）が訳から落ちている。",
+  "confidence": "low"
+ },
+ {
+  "key": "lesson:36:example:1",
+  "field": "example.ja",
+  "current": "今日はより暑くなった。",
+  "proposed": "今日は（昨日より）暑くなった。",
+  "reason": "「より暑くなった」は日本語としてやや不自然。",
+  "confidence": "low"
+ },
+ {
+  "key": "lesson:47:text",
+  "field": "other",
+  "current": "นอกจาก…แล้ว ยัง…も「〜に加えて、さらに」と同じように使える会話的な形です。",
+  "proposed": "นอกจาก…แล้ว ยัง…も「〜に加えて、さらに」と同じように使える形で、会話でも文章でも使います。",
+  "reason": "นอกจาก…แล้ว ยัง…は会話専用ではなく書き言葉でも普通に使う中立的な形。",
+  "confidence": "low"
+ }
+]
