@@ -1,0 +1,578 @@
+[
+ {
+  "id": "tl-24025",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24038",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24044",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24051",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24055",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24061",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24067",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24068",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24070",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24079",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24085",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24096",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24101",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24113",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24124",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24130",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24138",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24147",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24160",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24173",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24176",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24178",
+  "verdict": "fix",
+  "issues": [
+   "noteのพลั้งมือ「うっかり手を出す」は「殴る・関与する」と誤解されるため修正"
+  ],
+  "fixed": {
+   "id": "tl-24178",
+   "th": "พลั้ง",
+   "action": "add",
+   "ro": "phláng",
+   "kind": "word",
+   "category": "一般語彙",
+   "note": "พลั้งปาก（口をすべらす）、พลั้งมือ（うっかり手がすべる・誤ってやってしまう）の形でよく使う。",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "うっかり誤る・口をすべらせる",
+     "en": "to slip up, blunder",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันพลั้งปากพูดออกไป",
+      "ro": "chǎn phláng pàak phûut ɔ̀ɔk pai",
+      "ja": "私はうっかり口をすべらせて言ってしまいました。",
+      "en": "I let it slip.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-24187",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24192",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24205",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24209",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24214",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24224",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24244",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24248",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24257",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24273",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24284",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24287",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24298",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24300",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24309",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24314",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24327",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24328",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24331",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24342",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24343",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24351",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24355",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24363",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24399",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24406",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24407",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24409",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24416",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24424",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24437",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24442",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24467",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24474",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24482",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24483",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24498",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24505",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24506",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24518",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24521",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24522",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24531",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24532",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24539",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24541",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24544",
+  "verdict": "fix",
+  "issues": [
+   "語義2「追い出す」は他動詞的に誤解される。ไสは「押しやる」で、実際はไสหัวไปの罵倒表現に限られるため語義を修正"
+  ],
+  "fixed": {
+   "id": "tl-24544",
+   "th": "ไส",
+   "action": "add",
+   "ro": "sǎi",
+   "kind": "word",
+   "category": "日常の動作",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "かんなをかける",
+     "en": "to plane (wood)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ช่างไม้ไสไม้ให้เรียบ",
+      "ro": "châang máai sǎi máai hâi rîiap",
+      "ja": "大工が木材にかんなをかけて平らにしました。",
+      "en": "The carpenter planed the wood smooth.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "押しやる（ไสหัวไป「失せろ・出て行け」の形で）",
+     "en": "to shove off (in ไสหัวไป \"get out\")",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [
+      "colloquial",
+      "vulgar"
+     ],
+     "speechStyle": "粗い口語",
+     "example": {
+      "th": "ไสหัวไปเลย",
+      "ro": "sǎi hǔua pai ləəi",
+      "ja": "とっとと出て行け。",
+      "en": "Get the hell out.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-24564",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24569",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24574",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24575",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24580",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24594",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24597",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24605",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24609",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24616",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24617",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24622",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24623",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24625",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24627",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24628",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24634",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24637",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24640",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24644",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24649",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24650",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24651",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24655",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24684",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24697",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24702",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24704",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24714",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24727",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24728",
+  "verdict": "ok",
+  "issues": []
+ }
+]
