@@ -1,0 +1,580 @@
+[
+ {
+  "id": "tl-26548",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26549",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26551",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26552",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26553",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26555",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26556",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26557",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26558",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26559",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26560",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26561",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26562",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26563",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26564",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26565",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26566",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26567",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26568",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26569",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26570",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26571",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26572",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26573",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26574",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26576",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26577",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26578",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26579",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26580",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26581",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26582",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26583",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26584",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26585",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26586",
+  "verdict": "fix",
+  "issues": [
+   "注記が「口出しする」の意味だけが失礼と読めるが、現代ではこの語自体が粗い語として受け取られやすいため注記を修正"
+  ],
+  "fixed": {
+   "id": "tl-26586",
+   "th": "เสือก",
+   "action": "add",
+   "ro": "sʉ̀ʉak",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "首を突っ込む・余計な口出しをする",
+     "en": "to butt in, be nosy",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial",
+      "vulgar"
+     ],
+     "speechStyle": "粗い口語",
+     "example": {
+      "th": "เรื่องของฉัน ไม่ต้องเสือก",
+      "ro": "rʉ̂ʉang khɔ̌ɔng chǎn mâi tɔ̂ɔng sʉ̀ʉak",
+      "ja": "私のことだ、首を突っ込むな。",
+      "en": "It's my business, butt out.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "押しやる・突き出す",
+     "en": "to push, shove (forward)",
+     "pos": "動詞",
+     "use": "少なめの用法",
+     "registerTags": [
+      "literary"
+     ],
+     "speechStyle": "文語",
+     "example": {
+      "th": "เขาเสือกจานข้าวไปเบื้องหน้าด้วยความรู้สึกเบื่อหน่าย",
+      "ro": "khǎo sʉ̀ʉak caan khâao pai bʉ̂ʉang nâa dûuai khwaam rúu sʉ̀k bʉ̀ʉa nàai",
+      "ja": "彼はうんざりした気持ちでご飯の皿を前へ押しやった。",
+      "en": "He pushed his plate forward, fed up.",
+      "origin": "source"
+     }
+    }
+   ],
+   "note": "現代では主に「口出しする」の意味の非常に失礼な語として使われるため、他の意味でも使う場面に注意。"
+  }
+ },
+ {
+  "id": "tl-26587",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26588",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26589",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26590",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26591",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26592",
+  "verdict": "fix",
+  "issues": [
+   "例文の和訳で ควร（〜すべき）が訳されていない"
+  ],
+  "fixed": {
+   "id": "tl-26592",
+   "th": "แผ่เมตตา",
+   "action": "add",
+   "ro": "phɛ̀ɛ mêet taa",
+   "kind": "expression",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "慈しみの心を送る（仏教）",
+     "en": "to extend loving-kindness (Buddhism)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เราควรฝึกแผ่เมตตาให้ผู้อื่นแล้วชีวิตจะมีความสุข",
+      "ro": "rao khuuan fʉ̀k phɛ̀ɛ mêet taa hâi phûu ʉ̀ʉn lɛ́ɛo chii wít cà mii khwaam sùk",
+      "ja": "私たちは他人に慈しみの心を送る練習をするべきだ。そうすれば人生は幸せになる。",
+      "en": "We should practice extending loving-kindness to others, and life will be happy.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-26594",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26596",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26597",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26598",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26599",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26601",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26602",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26603",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26604",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26605",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26607",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26609",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26610",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26611",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26612",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26613",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26614",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26615",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26616",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26617",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26618",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26619",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26620",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26621",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26623",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26625",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26626",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26627",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26628",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26630",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26631",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26632",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26633",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26634",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26635",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26636",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26637",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26638",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26639",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26640",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26641",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26642",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26643",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26644",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26646",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26647",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26648",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26649",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26650",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26651",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26653",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26654",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26656",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26657",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26658",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26659",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26661",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-26662",
+  "verdict": "ok",
+  "issues": []
+ }
+]
