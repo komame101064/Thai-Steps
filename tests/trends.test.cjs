@@ -38,5 +38,5 @@ assert(t.dictionaryResults('QR').some(x=>x.w.th==='คิวอาร์โค�
  assert.equal(t.shortGloss(W('หน้า'),W('ก้าวหน้า')),'前');t.setCurrent(W('รถไฟ').id);const h=t.wordDetail();assert(h.includes('成り立ち')&&h.includes(`openWord('${W('รถ').id}')`))}
 // Sanskrit, Pali and Khmer origins are not shown; other sources (中国由来, 英語由来) still are.
 const labels=new Set(bank.flatMap(w=>t.wordOriginRows(w).map(r=>r.label)));
-assert(![...labels].some(l=>/サンスクリット|パーリ|クメール/.test(l)));assert(labels.has('中国由来')&&labels.has('英語由来'));
+assert(![...labels].some(l=>/サンスクリット|パーリ|クメール|モン語/.test(l)));assert(labels.has('中国由来')&&labels.has('英語由来'));
 console.log(`PASS: ${list.length} curated recent words (新語/流行語); trend theme uses only new senses; slang 分類 filter; badges; Latin gloss search (Z, AI); Sanskrit/Pali/Khmer origins hidden.`);})().catch(e=>{console.error(e);process.exit(1)});

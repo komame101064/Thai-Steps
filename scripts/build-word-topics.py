@@ -72,6 +72,22 @@ for w in W:
   matched=[m['sourceSense'] for m in normal if pattern and re.search(pattern,m['en'],re.I)]
   per[topic]=matched or [normal[0]['sourceSense']]
  SENSES[w['id']]=per
+# Reviewed sense-level additions (scripts/topic-review/additions.json): basic words of a theme that the
+# keyword rules miss or that sit in another displayed category (勝つ・投げる・打つ in sports). Each entry was
+# found by a broad keyword pass or listed as missing, then kept by a reviewer for that exact sense.
+REVIEW=P/'scripts/topic-review/additions.json'
+if REVIEW.exists():
+ BYW={w['id']:w for w in W};added=0
+ for e in json.loads(REVIEW.read_text()):
+  w=BYW.get(e['id']);assert w and w['th']==e['th'],e;assert e['theme'] in {t[0] for t in TOPICS},e
+  m=next((m for m in w['meanings'] if m['sourceSense']==e['sense'] and not m.get('isSlang')),None);assert m,e
+  ts=INDEX.setdefault(w['id'],[])
+  if e['theme'] not in ts:
+   if 'other' in ts:ts.remove('other');SENSES.get(w['id'],{}).pop('other',None)
+   ts.append(e['theme']);added+=1
+  per=SENSES.setdefault(w['id'],{}).setdefault(e['theme'],[])
+  if e['sense'] not in per:per.append(e['sense'])
+ print('reviewed additions',added)
 # 流行語・新語: curated list (scripts/word-trends.json), added on top of each word's other themes.
 SLANG=json.loads((P/'dist/slang-bank.json').read_text())
 if (P/'dist/slang-bank-more.json').exists():SLANG+=json.loads((P/'dist/slang-bank-more.json').read_text())

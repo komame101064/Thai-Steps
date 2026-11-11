@@ -57,7 +57,7 @@
 .sg-opt.is-wrong{border-color:#a8322a;background:#a8322a;color:#fff;animation:sg-shake .32s}
 .sg-ro{font-size:22px;letter-spacing:.02em}
 .sg-opt-th{font-size:38px;font-weight:400;line-height:1}
-.sg-tone .sg-opt{font-size:16px}
+.sg-is-tone .sg-opt{font-size:16px}
 .sg-sub{margin:0;font-size:13px;color:var(--x-muted)}
 .sg-board{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
 .sg-board.is-bad{animation:sg-shake .32s}
@@ -96,4 +96,10 @@
  .sg-word{font-size:54px}
  .sg-opt{min-height:56px}
  .sg-tile [lang="th"]{font-size:34px}
+ .sg-modes{gap:8px}
+ .sg-mode{display:grid;grid-template-columns:1fr auto;align-items:center;gap:4px 10px;padding:11px 12px}
+ .sg-mode-head,.sg-mode p{grid-column:1/-1}
+ .sg-mode p.sg-lock,.sg-mode p.sg-warn{grid-column:1}
+ .sg-mode .sg-start{grid-column:2;grid-row:2/span 2;align-self:center;margin:0;min-height:40px;padding:8px 14px}
+ .sg-mode-head+p{grid-column:1}
 }
