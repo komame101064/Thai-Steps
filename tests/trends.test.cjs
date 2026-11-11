@@ -30,6 +30,8 @@ const hits=t.dictionaryResults?t.dictionaryResults('流行語'):null;if(hits)ass
 for(const q of ['Z','Ｚ','z'])assert.equal(t.dictionaryResults(q)[0].w.th,'เจนแซด',q);
 assert.equal(t.dictionaryResults('AI')[0].w.th,'เอไอ');assert.equal(t.dictionaryResults('DM')[0].w.th,'ดีเอ็ม');
 assert(t.dictionaryResults('QR').some(x=>x.w.th==='คิวอาร์โค้ด'));assert(!t.dictionaryResults('a').some(x=>x.w.th==='เอไอ'));
+// 「雷」: glosses about thunder itself (雷が鳴る, 雷が落ちる) come before the compound 雷魚.
+{const r=t.dictionaryResults('雷').map(x=>x.w.th);assert(r.indexOf('ฟ้าร้อง')<r.indexOf('ปลาช่อน')&&r.indexOf('ฟ้าผ่า')<r.indexOf('ปลาช่อน'),r.join(','))}
 // Sanskrit, Pali and Khmer origins are not shown; other sources (中国由来, 英語由来) still are.
 const labels=new Set(bank.flatMap(w=>t.wordOriginRows(w).map(r=>r.label)));
 assert(![...labels].some(l=>/サンスクリット|パーリ|クメール/.test(l)));assert(labels.has('中国由来')&&labels.has('英語由来'));

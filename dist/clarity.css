@@ -4,7 +4,7 @@
 @font-face{font-family:Steps Thai;src:url('fonts/NotoLoopedThai-Regular.ttf') format('truetype');font-style:normal;font-weight:400 500;font-display:swap}
 @font-face{font-family:Steps Thai;src:url('fonts/NotoLoopedThai-Bold.ttf') format('truetype');font-style:normal;font-weight:600 900;font-display:swap}
 :root{--ink:#123d36;--muted:#52665e;--bg:#f5f6f0;--line:#cad6cc;--green:#e7eee2;--gold:#ac7b2f}
-body{font-family:'Steps Latin','Noto Sans CJK JP','Noto Sans JP','Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;color:#173e36;-webkit-font-smoothing:antialiased}
+body{font-family:'Steps Latin','Steps Thai','Noto Sans Thai','Noto Sans CJK JP','Noto Sans JP','Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;color:#173e36;-webkit-font-smoothing:antialiased}
 [lang=th],.w-flash-th,.w-term>span,.w-detail-head h1{font-family:'Steps Thai','Noto Sans Thai',sans-serif;font-weight:400}
 button,input,select{font:inherit}button{font-weight:500}input::placeholder{color:#617068;opacity:1}
 h1,h2,h3{font-weight:700}h1,h2{letter-spacing:-.025em}.sidebar{background:linear-gradient(160deg,#113e38,#1f4b3f)}.side-label{color:#b4c8bc}.side-bottom p{color:#c2d4c7}.navbtn{color:#e1eadd}.navbtn.active{background:#345b4b;border-left-color:#dcebb4}.side-setting{color:#dce8d7}
