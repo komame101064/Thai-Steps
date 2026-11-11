@@ -1,0 +1,319 @@
+[
+ {
+  "id": "tl-50001",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50002",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50003",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50004",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50005",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50006",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50007",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50008",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50009",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50010",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50011",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50012",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50013",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50014",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50015",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50016",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50017",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50018",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50019",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50020",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50021",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50022",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50023",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50024",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50025",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50026",
+  "verdict": "fix",
+  "issues": [
+   "見出し語のroを sɔ̂ng→sɔ̂ɔng に修正（辞書の ช่อง chɔ̂ɔng・ร่อง rɔ̂ɔng など -่อง の綴り長表記に統一）。例文roも同様"
+  ],
+  "fixed": {
+   "id": "tl-50026",
+   "th": "ซ่อง",
+   "action": "add",
+   "ro": "sɔ̂ɔng",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "売春宿",
+     "en": "brothel",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ตำรวจบุกจับซ่องกลางเมือง",
+      "ro": "tam rùuat bùk càp sɔ̂ɔng klaang mʉʉang",
+      "ja": "警察は町の中心部の売春宿を摘発しました。",
+      "en": "The police raided a brothel in the city center.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50027",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50028",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50029",
+  "verdict": "fix",
+  "issues": [
+   "例文roの น้ำพริก を náam→nám に修正（複合語の น้ำ は nám とする辞書の表記に合わせる）"
+  ],
+  "fixed": {
+   "id": "tl-50029",
+   "th": "แมงดา",
+   "action": "add",
+   "ro": "mɛɛng daa",
+   "kind": "word",
+   "category": "人・家族",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ひも（女性に稼がせて暮らす男）・売春の斡旋をする男",
+     "en": "pimp, man who lives off a woman's earnings",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "人を指すと強い侮辱になる。",
+     "example": {
+      "th": "เขาเป็นแมงดา ไม่ทำงานแต่ใช้เงินแฟน",
+      "ro": "khǎo pen mɛɛng daa mâi tham ngaan tɛ̀ɛ chái ngəən fɛɛn",
+      "ja": "彼はひもで、働かずに恋人のお金を使っています。",
+      "en": "He's a kept man; he doesn't work but spends his girlfriend's money.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "タガメ（食用にもする水生昆虫）",
+     "en": "giant water bug",
+     "pos": "名詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "น้ำพริกแมงดากินกับผักสดอร่อยมาก",
+      "ro": "nám phrík mɛɛng daa kin kàp phàk sòt à rɔ̀ɔi mâak",
+      "ja": "タガメ入りのナムプリックは生野菜と食べるととてもおいしいです。",
+      "en": "Giant water bug chili paste is delicious with fresh vegetables.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50030",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50031",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50032",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50033",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50034",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50035",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50036",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50037",
+  "verdict": "fix",
+  "issues": [
+   "noteの「学士院式の綴りは เดต」は確認できない断定のため「เดต と綴ることもある」に弱めた"
+  ],
+  "fixed": {
+   "id": "tl-50037",
+   "th": "เดท",
+   "action": "add",
+   "ro": "dèet",
+   "kind": "word",
+   "category": "人・家族",
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "デート",
+     "en": "date",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "英語 date から。เดต と綴ることもある。",
+     "example": {
+      "th": "คืนนี้ฉันมีเดทกับแฟน",
+      "ro": "khʉʉn níi chǎn mii dèet kàp fɛɛn",
+      "ja": "今夜は恋人とデートがあります。",
+      "en": "I have a date with my partner tonight.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "デートする・付き合う",
+     "en": "to date, go on dates",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เราเดทกันมาสามเดือนแล้ว",
+      "ro": "rao dèet kan maa sǎam dʉʉan lɛ́ɛo",
+      "ja": "私たちはデートを重ねて3か月になります。",
+      "en": "We've been dating for three months.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50038",
+  "verdict": "ok",
+  "issues": []
+ }
+]

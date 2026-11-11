@@ -1,0 +1,382 @@
+[
+ {
+  "id": "tl-60001",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60002",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60003",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60004",
+  "verdict": "fix",
+  "issues": [
+   "語義1のnoteの「犯罪報道で耳にする」は裏付けられないため削除し、使われる場面を自慢話・下ネタの雑談に限定"
+  ],
+  "fixed": {
+   "id": "tl-60004",
+   "th": "เปิดซิง",
+   "action": "add",
+   "ro": "pə̀ət sing",
+   "kind": "expression",
+   "category": "スラング｜下ネタ",
+   "adult": true,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（相手の）初体験の相手になる・処女／童貞を奪う",
+     "pos": "動詞",
+     "speechStyle": "口語・性的な話題",
+     "note": "相手を征服の対象のように扱う下品な響きがあり、主に男性の自慢話や下ネタの雑談で耳にする。本人や恋人について言うのは失礼。",
+     "example": {
+      "th": "เขาชอบคุยโม้ว่าเคยเปิดซิงสาวหลายคน",
+      "ro": "khǎo chɔ̂ɔp khui móo wâa khəəi pə̀ət sing sǎao lǎai khon",
+      "ja": "彼は何人もの女の子の初めての相手になったと自慢ばかりする。",
+      "context": "下品な自慢話を聞く",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（スポーツなどで）初勝利・初得点を挙げる",
+     "pos": "動詞",
+     "speechStyle": "口語・スラング",
+     "note": "スポーツ報道でよく使う非性的な比喩。เปิดซิงชัยชนะ（初勝利を挙げる）の形が多い。",
+     "example": {
+      "th": "ทีมนี้เพิ่งเปิดซิงชัยชนะนัดแรกของฤดูกาล",
+      "ro": "thiim níi phə̂əng pə̀ət sing chai chá ná nát rɛ̂ɛk khɔ̌ɔng rʉ́ duu kaan",
+      "ja": "このチームはやっと今季初勝利を挙げた。",
+      "context": "サッカーのニュース",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60005",
+  "verdict": "fix",
+  "issues": [
+   "noteで「下品」「ごく親しい間柄に限る」としながら speechStyle が穏当な 口語・性的な話題 だった。「ヤる」相当の粗い俗語として 粗い口語 に変更し、tagsに vulgar を追加"
+  ],
+  "fixed": {
+   "id": "tl-60005",
+   "th": "ซั่ม",
+   "action": "add",
+   "ro": "sâm",
+   "kind": "word",
+   "category": "スラング｜下ネタ",
+   "adult": true,
+   "tags": [
+    "colloquial",
+    "vulgar",
+    "slang"
+   ],
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "セックスする・ヤる",
+     "pos": "動詞",
+     "speechStyle": "粗い口語",
+     "note": "若者の俗語で日本語の「ヤる」に近い。เย็ด ほど露骨ではないが下品で、ごく親しい間柄の雑談に限る。",
+     "example": {
+      "th": "เมื่อคืนสองคนนั้นซั่มกันแล้วแน่ๆ",
+      "ro": "mʉ̂ʉa khʉʉn sɔ̌ɔng khon nán sâm kan lɛ́ɛo nɛ̂ɛ nɛ̂ɛ",
+      "ja": "あの二人、昨夜絶対ヤったよね。",
+      "context": "友人同士のうわさ話",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60006",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60007",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60008",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60009",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60010",
+  "verdict": "fix",
+  "issues": [
+   "例文訳「そういう関係」はタイ語より婉曲で語義（女性同士の性行為）が伝わらない。訳を直訳寄りに修正"
+  ],
+  "fixed": {
+   "id": "tl-60010",
+   "th": "ตีฉิ่ง",
+   "action": "add",
+   "ro": "tii chìng",
+   "kind": "expression",
+   "category": "スラング｜下ネタ",
+   "adult": true,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "女性同士で性行為をする",
+     "pos": "動詞",
+     "speechStyle": "口語・性的な話題",
+     "note": "ฉิ่ง（小さなシンバル）を打ち合わせる様子にたとえた俗語。からかいや下品な冗談で使われ、当事者に向けると失礼になりうる。",
+     "example": {
+      "th": "เพื่อนแซวว่าสองคนนั้นตีฉิ่งกัน",
+      "ro": "phʉ̂ʉan sɛɛo wâa sɔ̌ɔng khon nán tii chìng kan",
+      "ja": "あの二人は女同士でヤってるって、友達がからかった。",
+      "context": "友人同士のうわさ話",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60011",
+  "verdict": "fix",
+  "issues": [
+   "語義の「〜女性を好む人」では本人が女性であることが読み取れず男性とも解せる。「〜女性を恋愛対象とする女性」に修正"
+  ],
+  "fixed": {
+   "id": "tl-60011",
+   "th": "ทอม",
+   "action": "add",
+   "ro": "thɔɔm",
+   "kind": "word",
+   "category": "スラング｜恋愛・人間関係",
+   "adult": false,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "トム（男性的な装い・ふるまいをする、女性を恋愛対象とする女性）",
+     "pos": "名詞",
+     "speechStyle": "口語",
+     "note": "英語 tomboy から。タイでは広く通じる自称・他称でそれ自体は侮蔑語ではないが、からかう調子で言えば失礼になる。",
+     "example": {
+      "th": "เขาเป็นทอม มีแฟนเป็นดี้",
+      "ro": "khǎo pen thɔɔm mii fɛɛn pen dîi",
+      "ja": "その人はトムで、ディーの恋人がいる。",
+      "context": "知人についての会話",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60012",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60013",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60014",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60015",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60016",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60017",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60018",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60019",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60020",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60021",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60022",
+  "verdict": "fix",
+  "issues": [
+   "差別的表現カテゴリーの蔑称なのに語義1が 粗い口語 だった。差別的な罵り（理解用）に変更し、noteに理解用にとどめる旨を追記"
+  ],
+  "fixed": {
+   "id": "tl-60022",
+   "th": "กะหรี่",
+   "action": "add",
+   "ro": "kà rìi",
+   "kind": "word",
+   "category": "スラング｜差別的表現",
+   "adult": true,
+   "tags": [
+    "colloquial",
+    "vulgar"
+   ],
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "売春婦・娼婦（卑俗な呼び方）",
+     "pos": "名詞",
+     "speechStyle": "差別的な罵り（理解用）",
+     "note": "売春する女性を見下す卑俗な蔑称で、描写のつもりでも侮辱になる。理解用にとどめ、中立的には โสเภณี や พนักงานบริการ と言う。カレーの กะหรี่（แกงกะหรี่）と同じ綴り。",
+     "example": {
+      "th": "แถวนี้ตอนกลางคืนมีกะหรี่ยืนรอลูกค้า",
+      "ro": "thɛ̌ɛo níi tɔɔn klaang khʉʉn mii kà rìi yʉʉn rɔɔ lûuk kháa",
+      "ja": "この辺りは夜になると娼婦が立って客を待っている。",
+      "context": "粗い会話を理解する用例",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "売女（女性への罵り）",
+     "pos": "名詞",
+     "speechStyle": "差別的な罵り（理解用）",
+     "note": "売春と関係なく女性を侮辱する強い罵り言葉。理解用にとどめ、使わない。",
+     "example": {
+      "th": "ในละครเขาด่าผู้หญิงคนนั้นว่ากะหรี่",
+      "ro": "nai lá khɔɔn khǎo dàa phûu yǐng khon nán wâa kà rìi",
+      "ja": "ドラマで彼はその女性を売女と罵った。",
+      "context": "罵り言葉を理解する用例",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60023",
+  "verdict": "fix",
+  "issues": [
+   "例文 แฟนเขาอายุน้อยกว่าสิบปี は「10歳未満」とも読め、未成年を連想させる曖昧な文。เด็กกว่าตั้งสิบปี（10歳も年下）に書き換え"
+  ],
+  "fixed": {
+   "id": "tl-60023",
+   "th": "กินเด็ก",
+   "action": "add",
+   "ro": "kin dèk",
+   "kind": "expression",
+   "category": "スラング｜恋愛・人間関係",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ずっと年下の相手と付き合う",
+     "pos": "動詞",
+     "speechStyle": "口語・スラング",
+     "note": "直訳は「子どもを食べる」だが、恋愛で年の離れた年下を相手にすることを言う。冗談やからかいで使い、男女どちらにも言う。",
+     "example": {
+      "th": "แฟนเขาเด็กกว่าตั้งสิบปี เพื่อนเลยแซวว่ากินเด็ก",
+      "ro": "fɛɛn khǎo dèk kwàa tâng sìp pii phʉ̂ʉan ləəi sɛɛo wâa kin dèk",
+      "ja": "彼の恋人は10歳も年下なので、友達は「若い子に手を出したな」とからかった。",
+      "context": "友人同士の恋愛話",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60024",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60025",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60026",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60027",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60028",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60029",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60030",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60031",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60032",
+  "verdict": "ok",
+  "issues": []
+ }
+]

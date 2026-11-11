@@ -1,0 +1,422 @@
+[
+ {
+  "id": "tl-50001", "th": "พรหมจารี", "action": "add",
+  "ro": "phrom má caa rii", "kind": "word", "category": "体・健康", "frequency": 2,
+  "senses": [
+   {"sourceSense": 1, "ja": "処女・処女性（主に女性について）", "en": "virgin, virginity (mainly of women)",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": ["formal"], "speechStyle": "改まった表現",
+    "note": "ความเป็นพรหมจารี（処女性）、เยื่อพรหมจารี（処女膜）の形でよく使う。",
+    "example": {"th": "บางคนยังให้ความสำคัญกับความเป็นพรหมจารี", "ro": "baang khon yang hâi khwaam sǎm khan kàp khwaam pen phrom má caa rii",
+     "ja": "今でも処女性を重視する人がいます。", "en": "Some people still place importance on virginity.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50002", "th": "ประจำเดือน", "action": "add",
+  "ro": "prà cam dʉʉan", "kind": "word", "category": "体・健康", "frequency": 6,
+  "senses": [
+   {"sourceSense": 1, "ja": "月経・生理", "en": "menstruation, period",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "example": {"th": "เดือนนี้ประจำเดือนมาช้า", "ro": "dʉʉan níi prà cam dʉʉan maa cháa",
+     "ja": "今月は生理が遅れています。", "en": "My period is late this month.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50003", "th": "ผ้าอนามัย", "action": "add",
+  "ro": "phâa à naa mai", "kind": "word", "category": "体・健康", "frequency": 5,
+  "senses": [
+   {"sourceSense": 1, "ja": "生理用ナプキン", "en": "sanitary pad",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "example": {"th": "ฉันต้องซื้อผ้าอนามัยที่ร้านสะดวกซื้อ", "ro": "chǎn tɔ̂ɔng sʉ́ʉ phâa à naa mai thîi ráan sà dùuak sʉ́ʉ",
+     "ja": "コンビニで生理用ナプキンを買わないといけません。", "en": "I need to buy sanitary pads at the convenience store.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50004", "th": "ถุงยางอนามัย", "action": "add",
+  "ro": "thǔng yaang à naa mai", "kind": "word", "category": "体・健康", "frequency": 4,
+  "senses": [
+   {"sourceSense": 1, "ja": "コンドーム", "en": "condom",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "note": "正式な言い方で、会話では ถุงยาง と略すことが多い。",
+    "example": {"th": "ใช้ถุงยางอนามัยทุกครั้งเพื่อป้องกันโรค", "ro": "chái thǔng yaang à naa mai thúk khráng phʉ̂ʉa pɔ̂ɔng kan rôok",
+     "ja": "病気を防ぐため、毎回コンドームを使いましょう。", "en": "Use a condom every time to prevent disease.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50005", "th": "คุมกำเนิด", "action": "add",
+  "ro": "khum kam nə̀ət", "kind": "word", "category": "体・健康", "frequency": 4,
+  "senses": [
+   {"sourceSense": 1, "ja": "避妊する・受胎調節をする", "en": "to use contraception, practice birth control",
+    "pos": "動詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "example": {"th": "คุณคุมกำเนิดด้วยวิธีไหน", "ro": "khun khum kam nə̀ət dûuai wí thii nǎi",
+     "ja": "どの方法で避妊していますか？", "en": "What method of contraception do you use?", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50006", "th": "ยาคุม", "action": "add",
+  "ro": "yaa khum", "kind": "word", "category": "体・健康", "frequency": 5,
+  "senses": [
+   {"sourceSense": 1, "ja": "避妊薬・ピル", "en": "contraceptive pill, the pill",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": ["colloquial"], "speechStyle": "口語",
+    "note": "ยาคุมกำเนิด の略。",
+    "example": {"th": "เธอกินยาคุมทุกวันตอนเช้า", "ro": "thəə kin yaa khum thúk wan tɔɔn cháao",
+     "ja": "彼女は毎朝ピルを飲んでいます。", "en": "She takes the pill every morning.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50007", "th": "ยาคุมฉุกเฉิน", "action": "add",
+  "ro": "yaa khum chùk chə̌ən", "kind": "word", "category": "体・健康", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "緊急避妊薬・アフターピル", "en": "emergency contraceptive pill, morning-after pill",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "example": {"th": "ยาคุมฉุกเฉินหาซื้อได้ที่ร้านขายยา", "ro": "yaa khum chùk chə̌ən hǎa sʉ́ʉ dâai thîi ráan khǎai yaa",
+     "ja": "緊急避妊薬は薬局で買えます。", "en": "Emergency contraceptive pills can be bought at a pharmacy.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50008", "th": "อวัยวะเพศ", "action": "add",
+  "ro": "à wai yá wá phêet", "kind": "word", "category": "体・健康", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "性器・生殖器", "en": "genitals, sexual organs",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": ["formal"], "speechStyle": "改まった表現",
+    "example": {"th": "ควรล้างอวัยวะเพศด้วยน้ำสะอาด", "ro": "khuuan láang à wai yá wá phêet dûuai náam sà àat",
+     "ja": "性器はきれいな水で洗うべきです。", "en": "You should wash your genitals with clean water.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50009", "th": "องคชาต", "action": "add",
+  "ro": "ong khá châat", "kind": "word", "category": "体・健康", "frequency": 2,
+  "senses": [
+   {"sourceSense": 1, "ja": "陰茎・ペニス", "en": "penis",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": ["formal"], "speechStyle": "改まった表現",
+    "note": "医学・報道で使う語で、日常会話ではまず使わない。",
+    "example": {"th": "ผู้ป่วยมีอาการปวดที่องคชาต", "ro": "phûu pùuai mii aa kaan pùuat thîi ong khá châat",
+     "ja": "患者は陰茎に痛みがあります。", "en": "The patient has pain in the penis.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50010", "th": "ช่องคลอด", "action": "add",
+  "ro": "chɔ̂ɔng khlɔ̂ɔt", "kind": "word", "category": "体・健康", "frequency": 2,
+  "senses": [
+   {"sourceSense": 1, "ja": "膣・産道", "en": "vagina, birth canal",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": ["formal"], "speechStyle": "改まった表現",
+    "example": {"th": "แพทย์ตรวจพบการติดเชื้อในช่องคลอด", "ro": "phɛ̂ɛt trùuat phóp kaan tìt chʉ́ʉa nai chɔ̂ɔng khlɔ̂ɔt",
+     "ja": "医師は膣内の感染を見つけました。", "en": "The doctor found an infection in the vagina.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50011", "th": "อัณฑะ", "action": "add",
+  "ro": "an thá", "kind": "word", "category": "体・健康", "frequency": 2,
+  "senses": [
+   {"sourceSense": 1, "ja": "睾丸・精巣", "en": "testicle, testis",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": ["formal"], "speechStyle": "改まった表現",
+    "note": "医学的な語で、会話では ไข่ などと言うことが多い。",
+    "example": {"th": "เขาไปหาหมอเพราะเจ็บที่อัณฑะ", "ro": "khǎo pai hǎa mɔ̌ɔ phrɔ́ cèp thîi an thá",
+     "ja": "彼は睾丸が痛くて医者に行きました。", "en": "He went to the doctor because of pain in his testicles.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50012", "th": "หัวนม", "action": "add",
+  "ro": "hǔua nom", "kind": "word", "category": "体・健康", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "乳首・乳頭", "en": "nipple",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "example": {"th": "แม่บางคนเจ็บหัวนมตอนให้นมลูก", "ro": "mɛ̂ɛ baang khon cèp hǔua nom tɔɔn hâi nom lûuk",
+     "ja": "授乳中に乳首が痛くなる母親もいます。", "en": "Some mothers get sore nipples while breastfeeding.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50013", "th": "อสุจิ", "action": "add",
+  "ro": "à sù cì", "kind": "word", "category": "体・健康", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "精子・精液", "en": "sperm, semen",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": ["formal"], "speechStyle": "改まった表現",
+    "note": "精子は ตัวอสุจิ、精液は น้ำอสุจิ と言い分けることが多い。",
+    "example": {"th": "ผลตรวจพบว่าจำนวนอสุจิของเขาน้อย", "ro": "phǒn trùuat phóp wâa cam nuuan à sù cì khɔ̌ɔng khǎo nɔ́ɔi",
+     "ja": "検査の結果、彼の精子の数は少ないことがわかりました。", "en": "The test showed that his sperm count is low.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50014", "th": "ร่วมเพศ", "action": "add",
+  "ro": "rûuam phêet", "kind": "word", "category": "体・健康", "frequency": 2,
+  "senses": [
+   {"sourceSense": 1, "ja": "性交する", "en": "to have sexual intercourse",
+    "pos": "動詞", "use": "よく使う意味", "registerTags": ["formal"], "speechStyle": "改まった表現",
+    "example": {"th": "ผู้ป่วยควรงดร่วมเพศจนกว่าจะหาย", "ro": "phûu pùuai khuuan ngót rûuam phêet con kwàa cà hǎai",
+     "ja": "患者は治るまで性交を控えるべきです。", "en": "Patients should abstain from intercourse until they recover.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50015", "th": "หลับนอน", "action": "add",
+  "ro": "làp nɔɔn", "kind": "word", "category": "人・家族", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "（〜と）寝る・肉体関係を持つ（婉曲）", "en": "to sleep with, have sex with (euphemism)",
+    "pos": "動詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "note": "この意味では หลับนอนกับ〜（〜と寝る）の形で使う。",
+    "example": {"th": "เขายอมรับว่าเคยหลับนอนกับผู้หญิงคนนั้น", "ro": "khǎo yɔɔm ráp wâa khəəi làp nɔɔn kàp phûu yǐng khon nán",
+     "ja": "彼はあの女性と寝たことがあると認めました。", "en": "He admitted that he had slept with that woman.", "origin": "authored"}},
+   {"sourceSense": 2, "ja": "眠る・就寝する", "en": "to sleep, go to bed",
+    "pos": "動詞", "use": "よく使う別の意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "example": {"th": "เด็กควรหลับนอนให้เป็นเวลา", "ro": "dèk khuuan làp nɔɔn hâi pen wee laa",
+     "ja": "子どもは決まった時間に寝るべきです。", "en": "Children should go to bed at regular times.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50016", "th": "ทำแท้ง", "action": "add",
+  "ro": "tham thɛ́ɛng", "kind": "word", "category": "体・健康", "frequency": 4,
+  "senses": [
+   {"sourceSense": 1, "ja": "中絶する・堕胎する", "en": "to have an abortion, perform an abortion",
+    "pos": "動詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "note": "自然流産は แท้ง・แท้งลูก と言い、ทำแท้ง は人為的な中絶を指す。",
+    "example": {"th": "ในบางประเทศการทำแท้งยังผิดกฎหมาย", "ro": "nai baang prà thêet kaan tham thɛ́ɛng yang phìt kòt mǎai",
+     "ja": "国によっては中絶はまだ違法です。", "en": "In some countries abortion is still illegal.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50017", "th": "โรคติดต่อทางเพศสัมพันธ์", "action": "add",
+  "ro": "rôok tìt tɔ̀ɔ thaang phêet sǎm phan", "kind": "word", "category": "体・健康", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "性感染症・性病", "en": "sexually transmitted disease (STD)",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": ["formal"], "speechStyle": "改まった表現",
+    "note": "โรคติดต่อทางเพศ と短く言うこともある。",
+    "example": {"th": "เขาไปตรวจโรคติดต่อทางเพศสัมพันธ์ที่โรงพยาบาล", "ro": "khǎo pai trùuat rôok tìt tɔ̀ɔ thaang phêet sǎm phan thîi roong phá yaa baan",
+     "ja": "彼は病院で性感染症の検査を受けました。", "en": "He got tested for STDs at the hospital.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50018", "th": "เอดส์", "action": "add",
+  "ro": "èet", "kind": "word", "category": "体・健康", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "エイズ（後天性免疫不全症候群）", "en": "AIDS",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "note": "通常 โรคเอดส์ の形で使う。",
+    "example": {"th": "วันที่หนึ่งธันวาคมเป็นวันเอดส์โลก", "ro": "wan thîi nʉ̀ng than waa khom pen wan èet lôok",
+     "ja": "12月1日は世界エイズデーです。", "en": "December 1st is World AIDS Day.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50019", "th": "รักร่วมเพศ", "action": "add",
+  "ro": "rák rûuam phêet", "kind": "word", "category": "人・家族", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "同性愛・同性愛の", "en": "homosexuality, homosexual",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": ["formal"], "speechStyle": "改まった表現",
+    "note": "報道や説明文で使う語。日常会話では เกย์・เลสเบี้ยน などと言うことが多い。",
+    "example": {"th": "หลายประเทศยอมรับการแต่งงานของคนรักร่วมเพศแล้ว", "ro": "lǎai prà thêet yɔɔm ráp kaan tɛ̀ng ngaan khɔ̌ɔng khon rák rûuam phêet lɛ́ɛo",
+     "ja": "多くの国がすでに同性愛者の結婚を認めています。", "en": "Many countries already recognize same-sex marriage.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50020", "th": "เลสเบี้ยน", "action": "add",
+  "ro": "lét bîian", "kind": "word", "category": "人・家族", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "レズビアン・女性の同性愛者", "en": "lesbian",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "example": {"th": "เธอบอกเพื่อนว่าเธอเป็นเลสเบี้ยน", "ro": "thəə bɔ̀ɔk phʉ̂ʉan wâa thəə pen lét bîian",
+     "ja": "彼女は友だちに自分がレズビアンだと打ち明けました。", "en": "She told her friend that she is a lesbian.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50021", "th": "กะเทย", "action": "add",
+  "ro": "kà thəəi", "kind": "word", "category": "人・家族", "frequency": 5,
+  "senses": [
+   {"sourceSense": 1, "ja": "カトゥーイ・トランス女性（男性として生まれ女性として振る舞う人）", "en": "kathoey, transgender woman",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": ["colloquial"], "speechStyle": "口語",
+    "note": "広く使われ自称にも使うが、他人を指すと見下した響きになることがあり、改まった場では สาวประเภทสอง や คนข้ามเพศ を使う。",
+    "example": {"th": "เพื่อนสนิทของฉันเป็นกะเทย", "ro": "phʉ̂ʉan sà nìt khɔ̌ɔng chǎn pen kà thəəi",
+     "ja": "私の親友はカトゥーイ（トランス女性）です。", "en": "My best friend is a kathoey.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50022", "th": "สาวประเภทสอง", "action": "add",
+  "ro": "sǎao prà phêet sɔ̌ɔng", "kind": "word", "category": "人・家族", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "トランス女性（丁寧な言い方）", "en": "transgender woman (polite term)",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "note": "直訳は「第二種の女性」。กะเทย より丁寧な言い方として報道などで使う。",
+    "example": {"th": "การประกวดนางงามสาวประเภทสองจัดขึ้นทุกปี", "ro": "kaan prà kùuat naang ngaam sǎao prà phêet sɔ̌ɔng càt khʉ̂n thúk pii",
+     "ja": "トランス女性の美人コンテストは毎年開かれます。", "en": "A beauty pageant for transgender women is held every year.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50023", "th": "คนข้ามเพศ", "action": "add",
+  "ro": "khon khâam phêet", "kind": "word", "category": "人・家族", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "トランスジェンダー（の人）", "en": "transgender person",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "example": {"th": "คนข้ามเพศควรได้รับสิทธิเท่ากับคนอื่น", "ro": "khon khâam phêet khuuan dâai ráp sìt thí thâo kàp khon ʉ̀ʉn",
+     "ja": "トランスジェンダーの人も他の人と同じ権利を得るべきです。", "en": "Transgender people should have the same rights as others.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50024", "th": "ชู้", "action": "add",
+  "ro": "chúu", "kind": "word", "category": "人・家族", "frequency": 4,
+  "senses": [
+   {"sourceSense": 1, "ja": "不倫相手・浮気相手（既婚者の）", "en": "lover in an affair, adulterer",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "note": "มีชู้（不倫する）、เป็นชู้（不倫相手になる）の形でよく使う。",
+    "example": {"th": "สามีจับได้ว่าภรรยามีชู้", "ro": "sǎa mii càp dâai wâa phan rá yaa mii chúu",
+     "ja": "夫は妻が不倫していることに気づきました。", "en": "The husband found out that his wife was having an affair.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50025", "th": "เมียน้อย", "action": "add",
+  "ro": "miia nɔ́ɔi", "kind": "word", "category": "人・家族", "frequency": 4,
+  "senses": [
+   {"sourceSense": 1, "ja": "愛人・妾（妻とは別に囲う女性）", "en": "mistress, minor wife",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": ["colloquial"], "speechStyle": "口語",
+    "note": "本妻は เมียหลวง と言う。改まった言い方は ภรรยาน้อย。",
+    "example": {"th": "เขามีเมียน้อยมาหลายปีแล้ว", "ro": "khǎo mii miia nɔ́ɔi maa lǎai pii lɛ́ɛo",
+     "ja": "彼は何年も前から愛人がいます。", "en": "He has had a mistress for many years.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50026", "th": "ซ่อง", "action": "add",
+  "ro": "sɔ̂ng", "kind": "word", "category": "社会・制度", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "売春宿", "en": "brothel",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "example": {"th": "ตำรวจบุกจับซ่องกลางเมือง", "ro": "tam rùuat bùk càp sɔ̂ng klaang mʉʉang",
+     "ja": "警察は町の中心部の売春宿を摘発しました。", "en": "The police raided a brothel in the city center.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50027", "th": "ขายตัว", "action": "add",
+  "ro": "khǎai tuua", "kind": "word", "category": "社会・制度", "frequency": 4,
+  "senses": [
+   {"sourceSense": 1, "ja": "体を売る・売春する", "en": "to prostitute oneself, sell one's body",
+    "pos": "動詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "example": {"th": "เธอถูกบังคับให้ขายตัว", "ro": "thəə thùuk bang kháp hâi khǎai tuua",
+     "ja": "彼女は売春を強要されました。", "en": "She was forced into prostitution.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50028", "th": "ขายบริการ", "action": "add",
+  "ro": "khǎai bɔɔ rí kaan", "kind": "word", "category": "社会・制度", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "売春する・性的サービスを売る（婉曲）", "en": "to sell sex, work as a prostitute (euphemism)",
+    "pos": "動詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "note": "直訳は「サービスを売る」で、報道で売春の婉曲表現としてよく使う。",
+    "example": {"th": "ตำรวจจับผู้หญิงที่ขายบริการริมถนน", "ro": "tam rùuat càp phûu yǐng thîi khǎai bɔɔ rí kaan rim thà nǒn",
+     "ja": "警察は路上で売春していた女性たちを逮捕しました。", "en": "The police arrested women selling sex on the street.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50029", "th": "แมงดา", "action": "add",
+  "ro": "mɛɛng daa", "kind": "word", "category": "人・家族", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "ひも（女性に稼がせて暮らす男）・売春の斡旋をする男", "en": "pimp, man who lives off a woman's earnings",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": ["colloquial"], "speechStyle": "口語",
+    "note": "人を指すと強い侮辱になる。",
+    "example": {"th": "เขาเป็นแมงดา ไม่ทำงานแต่ใช้เงินแฟน", "ro": "khǎo pen mɛɛng daa mâi tham ngaan tɛ̀ɛ chái ngəən fɛɛn",
+     "ja": "彼はひもで、働かずに恋人のお金を使っています。", "en": "He's a kept man; he doesn't work but spends his girlfriend's money.", "origin": "authored"}},
+   {"sourceSense": 2, "ja": "タガメ（食用にもする水生昆虫）", "en": "giant water bug",
+    "pos": "名詞", "use": "よく使う別の意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "example": {"th": "น้ำพริกแมงดากินกับผักสดอร่อยมาก", "ro": "náam phrík mɛɛng daa kin kàp phàk sòt à rɔ̀ɔi mâak",
+     "ja": "タガメ入りのナムプリックは生野菜と食べるととてもおいしいです。", "en": "Giant water bug chili paste is delicious with fresh vegetables.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50030", "th": "ลวนลาม", "action": "add",
+  "ro": "luuan laam", "kind": "word", "category": "社会・制度", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "（体に触るなどの）わいせつ行為をする・痴漢をする", "en": "to molest, grope, sexually harass",
+    "pos": "動詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "example": {"th": "เธอถูกลวนลามบนรถเมล์", "ro": "thəə thùuk luuan laam bon rót mee",
+     "ja": "彼女はバスの中で痴漢に遭いました。", "en": "She was groped on the bus.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50031", "th": "อนาจาร", "action": "add",
+  "ro": "à naa caan", "kind": "word", "category": "社会・制度", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "わいせつ行為（法律用語）", "en": "indecent act, indecency (legal term)",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": ["formal"], "speechStyle": "改まった表現",
+    "note": "กระทำอนาจาร（わいせつ行為をする）の形で報道・法律によく出る。",
+    "example": {"th": "ชายคนนี้ถูกจับข้อหากระทำอนาจาร", "ro": "chaai khon níi thùuk càp khɔ̂ɔ hǎa krà tham à naa caan",
+     "ja": "この男はわいせつ行為の容疑で逮捕されました。", "en": "This man was arrested on charges of indecent assault.", "origin": "authored"}},
+   {"sourceSense": 2, "ja": "わいせつな（画像・映像など）", "en": "obscene, indecent",
+    "pos": "形容詞・状態語", "use": "よく使う別の意味", "registerTags": ["formal"], "speechStyle": "改まった表現",
+    "example": {"th": "ห้ามเผยแพร่ภาพอนาจารทางอินเทอร์เน็ต", "ro": "hâam phə̌əi phrɛ̂ɛ phâap à naa caan thaang in thəə nèt",
+     "ja": "インターネットでわいせつな画像を公開することは禁止されています。", "en": "Distributing obscene images on the internet is prohibited.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50032", "th": "ล่วงละเมิดทางเพศ", "action": "add",
+  "ro": "lûuang lá mə̂ət thaang phêet", "kind": "word", "category": "社会・制度", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "性的虐待をする・性的暴行をする", "en": "to sexually abuse, sexually assault",
+    "pos": "動詞", "use": "よく使う意味", "registerTags": ["formal"], "speechStyle": "改まった表現",
+    "note": "名詞「性的虐待」は การล่วงละเมิดทางเพศ。",
+    "example": {"th": "ครูถูกจับเพราะล่วงละเมิดทางเพศนักเรียน", "ro": "khruu thùuk càp phrɔ́ lûuang lá mə̂ət thaang phêet nák riian",
+     "ja": "教師は生徒に性的虐待をしたため逮捕されました。", "en": "A teacher was arrested for sexually abusing a student.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50033", "th": "คุกคามทางเพศ", "action": "add",
+  "ro": "khúk khaam thaang phêet", "kind": "word", "category": "社会・制度", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "セクハラをする・性的嫌がらせをする", "en": "to sexually harass",
+    "pos": "動詞", "use": "よく使う意味", "registerTags": ["formal"], "speechStyle": "改まった表現",
+    "note": "名詞「セクハラ」は การคุกคามทางเพศ。",
+    "example": {"th": "พนักงานหญิงร้องเรียนว่าถูกหัวหน้าคุกคามทางเพศ", "ro": "phá nák ngaan yǐng rɔ́ɔng riian wâa thùuk hǔua nâa khúk khaam thaang phêet",
+     "ja": "女性社員は上司からセクハラを受けたと訴えました。", "en": "A female employee complained that her boss sexually harassed her.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50034", "th": "หนังโป๊", "action": "add",
+  "ro": "nǎng póo", "kind": "word", "category": "趣味・メディア", "frequency": 4,
+  "senses": [
+   {"sourceSense": 1, "ja": "ポルノ映画・アダルトビデオ", "en": "porn film, adult video",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": ["colloquial"], "speechStyle": "口語",
+    "example": {"th": "วัยรุ่นหลายคนแอบดูหนังโป๊ในมือถือ", "ro": "wai rûn lǎai khon ɛ̀ɛp duu nǎng póo nai mʉʉ thʉ̌ʉ",
+     "ja": "多くの若者がこっそりスマホでポルノを見ています。", "en": "Many teenagers secretly watch porn on their phones.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50035", "th": "เสียตัว", "action": "add",
+  "ro": "sǐia tuua", "kind": "word", "category": "人・家族", "frequency": 3,
+  "senses": [
+   {"sourceSense": 1, "ja": "（女性が）体を許す・処女を失う", "en": "(of a woman) to lose one's virginity, give oneself to a man",
+    "pos": "動詞", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "note": "女性の貞操を重んじる伝統的な価値観を含む言い方。เสียตัวให้〜（〜に体を許す）の形でも使う。",
+    "example": {"th": "สมัยก่อนผู้หญิงกลัวเสียตัวก่อนแต่งงาน", "ro": "sà mǎi kɔ̀ɔn phûu yǐng kluua sǐia tuua kɔ̀ɔn tɛ̀ng ngaan",
+     "ja": "昔の女性は結婚前に処女を失うことを恐れていました。", "en": "In the past, women feared losing their virginity before marriage.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50036", "th": "จุมพิต", "action": "add",
+  "ro": "cum phít", "kind": "word", "category": "人・家族", "frequency": 2,
+  "senses": [
+   {"sourceSense": 1, "ja": "口づけする・接吻する", "en": "to kiss",
+    "pos": "動詞", "use": "よく使う意味", "registerTags": ["literary"], "speechStyle": "文語",
+    "note": "物語や歌詞で使う語で、会話では จูบ と言う。",
+    "example": {"th": "เจ้าชายจุมพิตหน้าผากเจ้าหญิงเบา ๆ", "ro": "câo chaai cum phít nâa phàak câo yǐng bao bao",
+     "ja": "王子は王女の額にそっと口づけをした。", "en": "The prince gently kissed the princess on the forehead.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50037", "th": "เดท", "action": "add",
+  "ro": "dèet", "kind": "word", "category": "人・家族", "frequency": 6,
+  "senses": [
+   {"sourceSense": 1, "ja": "デート", "en": "date",
+    "pos": "名詞", "use": "よく使う意味", "registerTags": ["colloquial"], "speechStyle": "口語",
+    "note": "英語 date から。学士院式の綴りは เดต。",
+    "example": {"th": "คืนนี้ฉันมีเดทกับแฟน", "ro": "khʉʉn níi chǎn mii dèet kàp fɛɛn",
+     "ja": "今夜は恋人とデートがあります。", "en": "I have a date with my partner tonight.", "origin": "authored"}},
+   {"sourceSense": 2, "ja": "デートする・付き合う", "en": "to date, go on dates",
+    "pos": "動詞", "use": "よく使う別の意味", "registerTags": ["colloquial"], "speechStyle": "口語",
+    "example": {"th": "เราเดทกันมาสามเดือนแล้ว", "ro": "rao dèet kan maa sǎam dʉʉan lɛ́ɛo",
+     "ja": "私たちはデートを重ねて3か月になります。", "en": "We've been dating for three months.", "origin": "authored"}}
+  ]
+ },
+ {
+  "id": "tl-50038", "th": "เจ้าชู้", "action": "add",
+  "ro": "câo chúu", "kind": "word", "category": "性質・状態", "frequency": 6,
+  "senses": [
+   {"sourceSense": 1, "ja": "浮気性の・女たらしの／男たらしの", "en": "flirtatious, philandering, womanizing",
+    "pos": "形容詞・状態語", "use": "よく使う意味", "registerTags": [], "speechStyle": "標準語（口語限定ではない）",
+    "note": "男女どちらにも使う。คนเจ้าชู้ で「浮気者・遊び人」。",
+    "example": {"th": "อย่าไปเชื่อเขา เขาเจ้าชู้มาก", "ro": "yàa pai chʉ̂ʉa khǎo khǎo câo chúu mâak",
+     "ja": "彼を信じちゃだめ、すごく浮気性だから。", "en": "Don't believe him; he's a real player.", "origin": "authored"}}
+  ]
+ }
+]

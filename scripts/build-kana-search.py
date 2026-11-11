@@ -2,7 +2,8 @@
 import json,re,unicodedata,pathlib
 P=pathlib.Path(__file__).resolve().parents[1]
 MORE=P/'dist/word-bank-more.json'
-words=json.loads((P/'dist/word-bank.json').read_text())+(json.loads(MORE.read_text()) if MORE.exists() else [])+json.loads((P/'dist/slang-bank.json').read_text())
+SLANG_MORE=P/'dist/slang-bank-more.json'
+words=json.loads((P/'dist/word-bank.json').read_text())+(json.loads(MORE.read_text()) if MORE.exists() else [])+json.loads((P/'dist/slang-bank.json').read_text())+(json.loads(SLANG_MORE.read_text()) if SLANG_MORE.exists() else [])
 # Token arrays support digraph katakana without splitting them.
 rows={k: v.split() for k,v in {'':'ア イ ウ エ オ','k':'カ キ ク ケ コ','g':'ガ ギ グ ゲ ゴ','c':'チャ チ チュ チェ チョ','ch':'チャ チ チュ チェ チョ','t':'タ ティ トゥ テ ト','d':'ダ ディ ドゥ デ ド','p':'パ ピ プ ペ ポ','b':'バ ビ ブ ベ ボ','r':'ラ リ ル レ ロ','l':'ラ リ ル レ ロ','m':'マ ミ ム メ モ','n':'ナ ニ ヌ ネ ノ','s':'サ シ ス セ ソ','y':'ヤ イ ユ イェ ヨ','w':'ワ ウィ ウ ウェ ウォ','h':'ハ ヒ フ ヘ ホ','f':'ファ フィ フ フェ フォ','ng':'ンガ ンギ ング ンゲ ンゴ'}.items()}
 vowels={'a':(0,''),'aa':(0,'ー'),'ai':(0,'イ'),'aai':(0,'ーイ'),'ao':(0,'オ'),'aao':(0,'ーオ'),'i':(1,''),'ii':(1,'ー'),'iu':(1,'ウ'),'iia':(1,'ア'),'ia':(1,'ア'),'iiao':(1,'アオ'),'iao':(1,'アオ'),'u':(2,''),'uu':(2,'ー'),'uua':(2,'ア'),'ua':(2,'ア'),'uuai':(2,'アイ'),'uai':(2,'アイ'),'ui':(2,'イ'),'uui':(2,'ーイ'),'ʉ':(2,''),'ʉʉ':(2,'ー'),'ʉʉa':(2,'ア'),'ʉa':(2,'ア'),'ʉʉai':(2,'アイ'),'e':(3,''),'ee':(3,'ー'),'ɛ':(3,''),'ɛɛ':(3,'ー'),'ə':(2,''),'əə':(2,'ー'),'əəi':(2,'ーイ'),'o':(4,''),'oo':(4,'ー'),'ɔ':(4,''),'ɔɔ':(4,'ー'),'ɔɔi':(4,'ーイ'),'ooi':(4,'ーイ'),'oi':(4,'イ'),'ɛɛo':(3,'ーオ'),'ɛo':(3,'オ'),'eeo':(3,'ーオ'),'eo':(3,'オ')}

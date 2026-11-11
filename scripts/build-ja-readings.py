@@ -46,7 +46,7 @@ def readings(term):
     add(sudachi(term));add(kakasi(term))
     return out
 words=[]
-for n in ('word-bank.json','word-bank-more.json','slang-bank.json'):
+for n in ('word-bank.json','word-bank-more.json','slang-bank.json','slang-bank-more.json'):
     f=P/'dist'/n
     if f.exists():words+=json.loads(f.read_text())
 out={};terms=0
