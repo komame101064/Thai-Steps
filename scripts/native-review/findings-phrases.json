@@ -1,0 +1,2090 @@
+[
+ {
+  "key": "tl-00991#2",
+  "field": "example.ro",
+  "current": "tham cai dii cai dii wái ná",
+  "proposed": "tham cai dii dii wái ná",
+  "reason": "ใจดีๆ の ๆ は直前の ดี だけを繰り返す（cai dii dii）。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00620#1",
+  "field": "example.ro",
+  "current": "cai yen cai yen ná thúk yàang cà dii eeng",
+  "proposed": "cai yen yen ná thúk yàang cà dii eeng",
+  "reason": "ใจเย็นๆ は cai yen yen と読む（tl-49000 の表記とも一致させる）。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-02188#0",
+  "field": "headword.ro",
+  "current": "dâi pròot",
+  "proposed": "dâai pròot",
+  "reason": "ได้ は本アプリの規約で dâai（ได้เลย・ไม่ได้ 等の見出しと例文 dâai pròot に合わせる）。ro-lexicon は dâi のまま。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01042#0",
+  "field": "headword.ro",
+  "current": "yin dii thîi dâi rúu càk",
+  "proposed": "yin dii thîi dâai rúu càk",
+  "reason": "ได้ は本アプリの規約で dâai。ro-lexicon は dâi のまま（実際の発音は短めになりやすい）。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01042#1",
+  "field": "example.ro",
+  "current": "sà wàt dii khráp yin dii thîi dâi rúu càk",
+  "proposed": "sà wàt dii khráp yin dii thîi dâai rúu càk",
+  "reason": "見出しの読み修正に合わせる。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-03483#2",
+  "field": "example.ro",
+  "current": "khâa khít thʉ̌ng mɛ̂ɛ câo thúk wan",
+  "proposed": "khâa khít thʉ̌ng mɛ̂ɛ câao thúk wan",
+  "reason": "この例文の เจ้า は単独の二人称代名詞（お前の母）なので規約上 câao。間投詞 แม่เจ้า（câo）とは別。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00397#1",
+  "field": "example.ja",
+  "current": "すみません 遅刻しました",
+  "proposed": "ごめん、遅れちゃった。",
+  "reason": "โทษที はくだけた謝罪。「すみません 遅刻しました」は丁寧すぎ、句読点もない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05133#1",
+  "field": "example.ja",
+  "current": "どう表現したらいいか分からない",
+  "proposed": "なんていうか、どう言えばいいのか分からないの。",
+  "reason": "語義「なんというか」に当たる คือเหมือนกับว่า が訳されていない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-02153#2",
+  "field": "example.th",
+  "current": "ของนี้ราคาไม่กี่บาท",
+  "proposed": "อันนี้ราคาไม่กี่บาท",
+  "reason": "「ของนี้」は不自然。อันนี้／ของชิ้นนี้ が普通。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-02153#2",
+  "field": "example.ro",
+  "current": "khɔ̌ɔng níi raa khaa mâi kìi bàat",
+  "proposed": "an níi raa khaa mâi kìi bàat",
+  "reason": "例文修正に合わせた読み。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-02153#2",
+  "field": "example.ja",
+  "current": "これはわずか数バーツです。",
+  "proposed": "これはほんの数バーツです。",
+  "reason": "例文修正に合わせた訳。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01083#1",
+  "field": "sense.ja",
+  "current": "やあ・こんにちは（略したあいさつ）",
+  "proposed": "（หวัดดี の形で）やあ・こんにちは（สวัสดี を縮めたくだけたあいさつ）",
+  "reason": "หวัด 単独はあいさつにならない。あいさつは หวัดดี の形のみ。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00353#2",
+  "field": "sense.ja",
+  "current": "(表現)つまり...",
+  "proposed": "（私が言っているのは）〜のことだ・〜のつもりで言う",
+  "reason": "例文 ฉันหมายถึงคุณ は「つまり」ではなく「〜のことを言っている」の用法。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05245#1",
+  "field": "sense.ja",
+  "current": "実際には,結果として (予想に反して)",
+  "proposed": "（予想に反して）むしろ・かえって",
+  "reason": "「実際には,結果として」は意味がずれ、半角記号も混在。เสียอีก は予想と逆であることを強める。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05207#1",
+  "field": "sense.ja",
+  "current": "でも...言ったでしょ...",
+  "proposed": "〜って言ってたじゃない（話が違うと問い詰める）",
+  "reason": "「でも...言ったでしょ...」は辞書的な語義として不明瞭。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01153#3",
+  "field": "sense.ja",
+  "current": "神様・全能者",
+  "proposed": "（比喩的に）神のような存在",
+  "reason": "#2「神様」と語義が重複しており、例文は比喩用法。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00235#1",
+  "field": "example.ja",
+  "current": "こんにちは,お手伝いできますか?",
+  "proposed": "こんにちは。何かお手伝いしましょうか？",
+  "reason": "มีอะไรให้ช่วยไหม は店員などの申し出「何かお手伝いしましょうか」。半角記号も修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00710#1",
+  "field": "example.ja",
+  "current": "わかったわ",
+  "proposed": "ああ、なるほど。わかった。",
+  "reason": "「わかったわ」は原文にない女性語の色を付けている。อ๋อ の訳も欠落。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00130#1",
+  "field": "example.ja",
+  "current": "どうもありがとうございました",
+  "proposed": "どうもありがとうございます。",
+  "reason": "ขอบคุณมากครับ は過去の「ございました」に限らない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-02399#1",
+  "field": "example.ja",
+  "current": "来たのか?",
+  "proposed": "あっ、もう着いたの？",
+  "reason": "อ้า の訳が欠落、「来たのか」は語調が乱暴。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-02490#1",
+  "field": "example.ja",
+  "current": "すごいよ",
+  "proposed": "わあ、すごくきれい！",
+  "reason": "สวย（きれい）が訳されていない。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00859#1",
+  "field": "example.ja",
+  "current": "すごいよ",
+  "proposed": "わあ、すごくきれい！",
+  "reason": "สวยมาก（とてもきれい）が訳されていない。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-01804#1",
+  "field": "example.ja",
+  "current": "そうだ 行こう",
+  "proposed": "うん、行こう。",
+  "reason": "อือ は「そうだ」ではなく軽い同意の「うん」。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-04578#1",
+  "field": "example.ja",
+  "current": "そうだ 行こう",
+  "proposed": "うん、行こう。",
+  "reason": "อื้อ は「そうだ」ではなく軽い同意の「うん」。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00515#1",
+  "field": "example.ja",
+  "current": "おい お金を忘れてた!",
+  "proposed": "ああ、どうしよう、お金を忘れちゃった！",
+  "reason": "โอ้ ไม่นะ は「おい」ではなく「ああ、まずい」という嘆き。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00466#1",
+  "field": "example.ja",
+  "current": "どちらの友人が家に来たのか?",
+  "proposed": "どの友達が家に来たの？",
+  "reason": "「どちらの」は二者択一の含み。คนไหน は人数を限定しない「どの人」。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05185#1",
+  "field": "example.ja",
+  "current": "食べないと言ったが,結局食べた.",
+  "proposed": "食べないと言ったのに、結局食べてしまった。",
+  "reason": "จนได้ の「結局〜してしまう」のニュアンスと句読点を修正。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05118#1",
+  "field": "example.ja",
+  "current": "トイレはどこだ?",
+  "proposed": "トイレはどこですか？",
+  "reason": "ครับ 付きの丁寧な質問を「どこだ？」と訳している。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-05119#1",
+  "field": "example.ja",
+  "current": "寝る時間だ",
+  "proposed": "もう寝る時間だよ。",
+  "reason": "แล้วนะ の「もう〜だよ」が欠落、句点もない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05119#2",
+  "field": "example.ja",
+  "current": "時が来たとき,彼は話す勇気を持っていなかった.",
+  "proposed": "その時になると、彼は言い出す勇気がなかった。",
+  "reason": "直訳調と半角記号を修正。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05120#2",
+  "field": "example.ja",
+  "current": "正しく書いたの?",
+  "proposed": "私、正しく書けてる？",
+  "reason": "直訳調で不自然。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-05123#1",
+  "field": "example.ja",
+  "current": "結局は行かなかった",
+  "proposed": "結局、私たちは行かなかった。",
+  "reason": "主語 เรา と句点が欠落。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05124#1",
+  "field": "example.ja",
+  "current": "お茶かコーヒーか?",
+  "proposed": "お茶にしますか、それともコーヒーにしますか？",
+  "reason": "「お茶かコーヒーか?」は不自然で、จะดื่ม も訳されていない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05124#2",
+  "field": "example.ja",
+  "current": "彼は忘れていたのか?",
+  "proposed": "もしかして、彼は忘れちゃったのかな？",
+  "reason": "文頭の หรือว่า（もしかして）が訳されていない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00495#1",
+  "field": "example.ja",
+  "current": "何を食べたい? 何でも大丈夫.",
+  "proposed": "「何が食べたいですか？」「何でもいいです。」",
+  "reason": "会話のやりとりであることが分からず、半角記号も混在。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00495#2",
+  "field": "example.ja",
+  "current": "何でも もう気にしない",
+  "proposed": "何でもいいよ。もうどうでもいい。",
+  "reason": "「何でも もう気にしない」は日本語として不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00496#1",
+  "field": "example.ja",
+  "current": "どちらが私のもの?",
+  "proposed": "どれが私の？",
+  "reason": "อันไหน は「どれ」。「どちら」は二者択一の含み。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00498#2",
+  "field": "example.ja",
+  "current": "ママは物を売るのが上手です",
+  "proposed": "母は物を売るのがとても上手です。",
+  "reason": "มาก が訳されていない。แม่ を「ママ」とするのも語感がずれる。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05127#1",
+  "field": "example.ja",
+  "current": "これだけの米は十分だ.",
+  "proposed": "ご飯はこれだけで十分です。",
+  "reason": "「これだけの米は十分だ.」は不自然な直訳。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-05127#2",
+  "field": "example.ja",
+  "current": "今日はそれだけだ",
+  "proposed": "今日はここまでにしましょう。",
+  "reason": "วันนี้เท่านี้ก่อนนะ は締めくくりの「今日はここまで」。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00504#1",
+  "field": "example.ja",
+  "current": "働かなければならなかったので 行かなかった.",
+  "proposed": "仕事をしなければならなかったので、行けませんでした。",
+  "reason": "不自然な空白と半角句点。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00507#1",
+  "field": "example.ja",
+  "current": "ありがとう 後で会いましょう",
+  "proposed": "ありがとうございます。それでは、また。",
+  "reason": "แล้วเจอกันนะคะ は別れのあいさつ「またね」。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05130#1",
+  "field": "example.ja",
+  "current": "値段はサイズに依存する.",
+  "proposed": "値段はサイズによって違います。",
+  "reason": "「依存する」は機械翻訳調。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-05130#2",
+  "field": "example.ja",
+  "current": "何でも食べられる",
+  "proposed": "何であっても、私は全部食べられます。",
+  "reason": "หมด（全部）が欠落、句点もない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00509#1",
+  "field": "example.ja",
+  "current": "食事ありがとう もう帰るわ",
+  "proposed": "ごちそうさま。じゃあ、先に帰るね。",
+  "reason": "ขอบคุณสำหรับอาหาร の訳が不自然、「わ」は原文にない女性語。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00510#1",
+  "field": "example.ja",
+  "current": "来る必要はない",
+  "proposed": "来なくてもいいですよ。",
+  "reason": "ไม่ต้อง…ก็ได้ は「〜しなくてもいい」という柔らかい言い方。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05200#1",
+  "field": "example.ja",
+  "current": "問題ない 助けてあげる",
+  "proposed": "問題ないよ。手伝えるから。",
+  "reason": "空白区切りで句読点がなく、「あげる」は恩着せがましい。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00513#2",
+  "field": "example.ja",
+  "current": "いや,これは君のものだ",
+  "proposed": "違うよ、これは君のだよ。",
+  "reason": "ไม่ใช่ の否定の返事を「いや」で受けつつ肯定文にしていて分かりにくい。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00401#2",
+  "field": "example.ja",
+  "current": "食事に行ったら?",
+  "proposed": "ご飯を食べに行くのはどう？",
+  "reason": "「行ったら？」は相手だけに勧める意味になり、กัน（一緒に）が反映されない。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00353#1",
+  "field": "example.ja",
+  "current": "この言葉の意味は?",
+  "proposed": "この言葉はどういう意味ですか？",
+  "reason": "半角記号と言葉足らずを修正。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00353#2",
+  "field": "example.ja",
+  "current": "君のことだ 彼じゃない",
+  "proposed": "あなたのことを言ってるの。彼じゃなくて。",
+  "reason": "語義修正に合わせて自然な訳に。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00308#2",
+  "field": "example.ja",
+  "current": "来たのか?",
+  "proposed": "彼は来ましたか？",
+  "reason": "หรือเปล่า の疑問を「来たのか?」と乱暴に訳している。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00356#2",
+  "field": "example.ja",
+  "current": "待って欲しいと頼んだ.",
+  "proposed": "彼は私たちに待ってほしいと頼んだ。",
+  "reason": "主語・目的語が欠落、半角句点。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00415#1",
+  "field": "example.ja",
+  "current": "じゃあ始めろ",
+  "proposed": "よし、始めていいよ。",
+  "reason": "เริ่มได้ は「始めていい」で、命令形「始めろ」ではない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00155#3",
+  "field": "example.ja",
+  "current": "行って彼に謝らなきゃ",
+  "proposed": "彼に謝りに行かなきゃだめだよ。",
+  "reason": "ต้องไป の訳が不自然。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00371#2",
+  "field": "example.ja",
+  "current": "仕事を得られなかったのは残念だ。",
+  "proposed": "仕事が決まらなくて、残念だったね。",
+  "reason": "เสียใจด้วย はお悔やみ・共感の言い方。冷たい断定調になっている。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00619#1",
+  "field": "example.ja",
+  "current": "私は大丈夫,ありがとう。",
+  "proposed": "元気です。ありがとう。",
+  "reason": "สบายดี の訳が「大丈夫」で、半角カンマ。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01042#1",
+  "field": "example.ja",
+  "current": "こんにちは 初めまして",
+  "proposed": "こんにちは。はじめまして。",
+  "reason": "空白区切りで句読点がない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01083#2",
+  "field": "example.ja",
+  "current": "ママは風邪をひいてベッドに寝る必要がある。",
+  "proposed": "母は風邪をひいたので、寝て休まなければならない。",
+  "reason": "「ベッドに寝る必要がある」は直訳調。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01130#1",
+  "field": "example.ja",
+  "current": "何時だ?",
+  "proposed": "今、何時ですか？",
+  "reason": "ครับ 付きの丁寧な質問を「何時だ?」と訳し、ตอนนี้ も欠落。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-05195#1",
+  "field": "example.ja",
+  "current": "最近どうだったの?",
+  "proposed": "最近どう？",
+  "reason": "ช่วงนี้เป็นไงบ้าง は近況を尋ねるあいさつで、過去形にしない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05177#1",
+  "field": "example.ja",
+  "current": "遅刻してすみません",
+  "proposed": "ごめん、遅れた。",
+  "reason": "โทษที はくだけた謝罪。「遅刻してすみません」は丁寧すぎる。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01871#2",
+  "field": "example.ja",
+  "current": "言ってくれ",
+  "proposed": "ほら、言ってごらんよ。",
+  "reason": "เอ้า…สิ は促し。「言ってくれ」は意味がずれる。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-02787#1",
+  "field": "example.ja",
+  "current": "これは誰のもの?",
+  "proposed": "あれ？これ誰の？",
+  "reason": "เอ๊ะ の訳が欠落。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-02787#2",
+  "field": "example.ja",
+  "current": "待って 間違ってる",
+  "proposed": "あれ、ちょっと待って。違うと思う。",
+  "reason": "เอ๊ะ・ผมว่า の訳が欠落。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01153#1",
+  "field": "example.ja",
+  "current": "なんてこった!",
+  "proposed": "ああ、神様！これ見て！",
+  "reason": "ดูนี่สิ（これ見て）が訳されていない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01536#2",
+  "field": "example.ja",
+  "current": "私は使ったお金を後悔している。",
+  "proposed": "払ったお金がもったいなかったと思う。",
+  "reason": "เสียดาย は「惜しい・もったいない」で「後悔」とは異なる。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-03686#1",
+  "field": "example.ja",
+  "current": "まず 考えてみよう",
+  "proposed": "えーと、ちょっと考えさせてね。",
+  "reason": "ขอคิดก่อน は「考えさせて」。「考えてみよう」は意味がずれる。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00866#1",
+  "field": "example.ro",
+  "current": "han lǒo dâi yin mǎi khráp",
+  "proposed": "han lǒo dâai yin mǎi khráp",
+  "reason": "ได้ยิน は辞書・他の例文（อะไรนะ 等）で dâai yin。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00620#1",
+  "field": "example.ja",
+  "current": "落ち着いて、大丈夫だ。",
+  "proposed": "落ち着いて。きっと全部うまくいくから。",
+  "reason": "ทุกอย่างจะดีเอง の訳が「大丈夫だ」と弱い。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01497#1",
+  "field": "example.ja",
+  "current": "おはようございます 先生",
+  "proposed": "先生、おはようございます。",
+  "reason": "空白区切りで句点がない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-05137#1",
+  "field": "example.ja",
+  "current": "この店は美味しい.それに加えて、それは安い。",
+  "proposed": "この店はおいしい。それに安い。",
+  "reason": "「それに加えて、それは安い」は機械翻訳調で半角句点。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-02173#1",
+  "field": "example.ja",
+  "current": "明日は店が私の家に届けます。",
+  "proposed": "明日、お店が家に配達してくれます。",
+  "reason": "「明日は店が私の家に届けます」は不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05245#1",
+  "field": "example.ja",
+  "current": "彼は遅刻すると思った. 彼は実際に私の前にここに来た。",
+  "proposed": "彼は遅れて来ると思っていたのに、むしろ私より先に来た。",
+  "reason": "直訳調・半角句点。「ここに」は原文にない。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-02186#2",
+  "field": "example.ja",
+  "current": "良い友達がいるのは幸運だ。",
+  "proposed": "いい友達がいるなんて、あなたは運がいいね。",
+  "reason": "主語 เธอ が反映されていない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-02188#1",
+  "field": "example.ja",
+  "current": "行かないで",
+  "proposed": "お願いだから、行かないで。",
+  "reason": "ได้โปรด（どうか）が訳されていない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-02190#1",
+  "field": "example.ja",
+  "current": "心配するな、自分でできる。",
+  "proposed": "心配しないで。自分でできるから。",
+  "reason": "「心配するな」は命令調で強すぎる。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-02190#1",
+  "field": "sense.ja",
+  "current": "心配するな",
+  "proposed": "心配しないで・心配いらない",
+  "reason": "「心配するな」は命令調で強すぎる。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-05207#1",
+  "field": "example.ja",
+  "current": "お金がないって言ってた！",
+  "proposed": "お金がないって言ってたじゃない。",
+  "reason": "ไหนบอกว่า は相手の前言との食い違いを問い詰める言い方。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-03678#3",
+  "field": "example.ja",
+  "current": "今朝パンとミルクが欲しいか？",
+  "proposed": "今朝はパンと牛乳にする？",
+  "reason": "「欲しいか？」は乱暴で不自然。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00645#2",
+  "field": "example.ja",
+  "current": "彼は私に助けを求めた.",
+  "proposed": "彼は私に助けてくれと頼み込んだ。",
+  "reason": "ขอร้อง の「懇願」が弱く、半角句点。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-02870#1",
+  "field": "example.ja",
+  "current": "ごめんなさい 遅刻しました",
+  "proposed": "申し訳ありません、遅れました。",
+  "reason": "ขออภัย は改まった謝罪。「ごめんなさい」は語感がずれ、句読点もない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05030#1",
+  "field": "example.ja",
+  "current": "あの店の名前は?",
+  "proposed": "ええと、あの店の名前は何だっけ？",
+  "reason": "เอ้ の訳が欠落、…นะ の思い出そうとする語気もない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-03460#1",
+  "field": "example.ja",
+  "current": "面白かった",
+  "proposed": "ははは、すごく面白い！",
+  "reason": "ฮ่าๆ が訳されず、過去形にもなっている。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01361#1",
+  "field": "example.ja",
+  "current": "もう帰るよ さようなら",
+  "proposed": "先に帰りますね。バイバイ。",
+  "reason": "หนู…นะคะ の丁寧さが反映されず、句読点もない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01304#1",
+  "field": "example.ja",
+  "current": "そうだ 私もそう思う",
+  "proposed": "だよね。私もそう思う。",
+  "reason": "นั่นสิ は相手への同意「だよね」。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01792#1",
+  "field": "example.ja",
+  "current": "行け 邪魔しないで",
+  "proposed": "あっちへ行って。私に構わないで。",
+  "reason": "句読点がなく不自然。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-01795#1",
+  "field": "example.ja",
+  "current": "分かった,今すぐ行くよ",
+  "proposed": "承知しました。今すぐ行きます。",
+  "reason": "รับทราบครับ は丁寧な了承。「分かった,今すぐ行くよ」は砕けすぎ。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01977#1",
+  "field": "example.ja",
+  "current": "何でもないんだ 忘れて",
+  "proposed": "何でもない。もういいよ。",
+  "reason": "空白区切りで句読点がない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-02419#2",
+  "field": "example.ja",
+  "current": "皆が幸せな生活を送れ",
+  "proposed": "皆さんが幸せな人生を送れますように。",
+  "reason": "ขอให้ の祈願が命令形「送れ」になっている。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-02758#2",
+  "field": "example.ja",
+  "current": "彼は何を言ったの?",
+  "proposed": "彼は何と言っていましたか？",
+  "reason": "改まった表現なのに「何を言ったの?」と砕けている。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-02994#1",
+  "field": "example.ja",
+  "current": "気にしないで あまり考えないで",
+  "proposed": "もういいよ。あまり考えすぎないで。",
+  "reason": "空白区切りで句読点がない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-03125#1",
+  "field": "example.ja",
+  "current": "彼が来ないなら 気にしないで",
+  "proposed": "彼が来ないなら、それでもかまわない。",
+  "reason": "ก็ช่าง は突き放す言い方で「気にしないで」と相手への助言にはならない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-03698#1",
+  "field": "example.ja",
+  "current": "こんにちは 入って",
+  "proposed": "やあ、中に入って。",
+  "reason": "空白区切りで句読点がない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-04262#1",
+  "field": "example.ja",
+  "current": "気にしないで 行こう",
+  "proposed": "もういいよ、行こう。",
+  "reason": "空白区切りで句読点がない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-04697#1",
+  "field": "example.ja",
+  "current": "ドアにノックがあった.",
+  "proposed": "ドアをコンコンとノックする音がした。",
+  "reason": "ก๊อก ๆ の擬音が訳されず、半角句点。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00457#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「約・〜くらい」の一般語。フレーズ欄には ก็ประมาณนั้น のような形で入れるべきで、単語単体は不要。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00359#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「〜になる」の一般動詞。กลายเป็นว่า は文型として別扱いが適切。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00397#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「罰・責める」の一般語。謝罪のフレーズは โทษที（tl-05177）として既にある。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01452#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「便利な」の一般形容詞で、そのまま使える定型文ではない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00991#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「親切な」の一般形容詞。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01083#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "見出し หวัด は「風邪」。あいさつは หวัดดี であり、หวัด 単体はフレーズにならない。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-01171#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「それは〜である」の一般的な指示表現。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01643#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「良い知らせ」という普通名詞。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01674#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「繁栄する」の一般動詞。จงเจริญ は祝福の形だが見出し語自体はフレーズでない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-03678#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "擬音・「パン」の名詞で、フレーズ帳に載せる言い回しではない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-04156#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「足跡」という普通名詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-04382#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「ハンサムな」の一般形容詞。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-02173#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「商品を送る」という一般動詞句。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-41133#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "仏典の呼びかけで、学習者がそのまま使える言い回しではない（日常の ดูก่อน は「まず見る」）。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-41378#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「〜について話す」の一般動詞。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-41647#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「声を上げる」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-41918#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「承諾する」の一般動詞。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-42052#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "王室用語の動詞で、学習者が使う定型文ではない。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-42634#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「お辞儀する」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-42670#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "改まった一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-42825#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「別れを告げる・引退する」の一般動詞。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-42908#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "国王への奏上専用の決まり文句で、学習者が使うフレーズではない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-42979#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「口に出す」の一般動詞。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-43097#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "改まった一般動詞「尋ねる」。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-43289#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「怒鳴りつける」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-43336#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "王室用語の動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-43375#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "改まった一般動詞「逝去する」。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-43433#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「黙り込む」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-43686#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「言い争う」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-43708#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "複合語の構成要素で単独では使わない（ราตรีสวัสดิ์ 等は別項目にある）。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-43721#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「時間がかかる」の一般動詞句。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-43766#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「意見」という普通名詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-43897#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「〜の立場になる」の一般動詞。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-43899#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "一般動詞「手に持って行く」。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-43902#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「語尾を伸ばす」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-43903#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「いさめる」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-43944#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「〜な目をする」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-44742#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "副詞「互いに」。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-44852#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「賛成する」の一般動詞。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-45041#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「話を打ち切る」の一般動詞。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-45136#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "古風な一般動詞「嫁ぐ」。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-45180#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「（中国式に）拝む」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-45294#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "王室用語の動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-45380#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "王室用語の動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-45554#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「戒める」の一般動詞。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-45577#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「歯を食いしばる・歯ぎしり」の一般動詞。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-45593#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「血液検査をする」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-45596#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「恨み言を言う」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-45604#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「ふりをする」の一般動詞。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-45642#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「輪になる」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-45651#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「念を押す」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-45664#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「耳をそばだてる」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-45826#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「弁舌」という普通名詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-43225#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「タイ国家」という普通名詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-43459#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「田を耕す」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-43558#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「においを放つ」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-45938#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「丁寧な言葉」という普通名詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-46016#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「招待する」の改まった一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-46067#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「問いただす」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-46181#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "名詞「許し」（ขอขมา の構成要素）。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-46183#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「便り・消息」という普通名詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-46216#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「異議を唱える」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-46231#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「触れ回る」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-46256#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "名詞「親しさ」（ถือวิสาสะ の構成要素）。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-46319#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「称賛を述べる」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-46346#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「安否を尋ねる」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-46351#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「口論する」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-46583#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「唇を結ぶ」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-46592#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "仏教の一般動詞「慈しみの心を送る」。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-47380#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「応対」という改まった名詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-47605#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「即死する」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-47741#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「耳に入る」の一般動詞。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-47754#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "副詞「それとなく」。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-48049#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「すきを得る」の一般動詞。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-48167#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「打ち明ける」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-48264#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「からかう」の改まった一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-48296#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "副詞「口ごもって」。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-48334#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "副詞「とりとめもなく」。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-48362#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "犬のうなり声の擬音で、学習者が使う言い回しではない。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-48425#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "副詞「ぶつぶつと」。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-48559#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "副詞「手短に」。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-48869#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「言い切る」の改まった一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-48734#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「良い物」という普通の名詞句。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-46871#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「吹聴する」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-46874#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「遠回しな」の一般形容詞。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-46875#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「口ごもる」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-46969#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「悩みを打ち明ける」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-47002#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「鍵をかける」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-47095#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「牙をむく」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-47213#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「ワイを返す」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-50039#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "状態を説明する言い方で、会話でそのまま使う定型文ではない（返事の場面でもない）。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-50040#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "人を描写する言い方で、フレーズ帳向きではない（返事の場面でもない）。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-50073#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「在宅勤務する」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-50074#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「オンライン会議をする」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-50077#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「ネットで注文する」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-50078#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「ネットショッピングをする」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-50088#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「ワクチンを打つ」の一般動詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-50096#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「性の多様性」という名詞。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-03667#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "「つぼ」の名詞が主。同情の声は โธ่・พุทโธ่ で足りる。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-04697#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "擬音・「蛇口」「コルク」の名詞で、フレーズではない。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-48764#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "副詞的要素（เป็นช่วงๆ）で、そのまま使う言い回しではない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-43171#0",
+  "field": "phrase.membership",
+  "current": "include",
+  "proposed": "exclude",
+  "reason": "改まった修飾語で、そのまま使う言い回しではない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01130#0",
+  "field": "phrase.scene",
+  "current": "時間の言い回し",
+  "proposed": "たずねる",
+  "reason": "「何時？」と尋ねる表現。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01497#0",
+  "field": "phrase.scene",
+  "current": "相づち・リアクション",
+  "proposed": "あいさつ・お礼",
+  "reason": "「おはようございます」はあいさつ。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-02870#0",
+  "field": "phrase.scene",
+  "current": "いろいろな言い回し",
+  "proposed": "あいさつ・お礼",
+  "reason": "謝罪表現（ขอโทษ・ขอประทานโทษ と同じ場面）。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00929#0",
+  "field": "phrase.scene",
+  "current": "相づち・リアクション",
+  "proposed": "いろいろな言い回し",
+  "reason": "「助けて！」は相づち・リアクションではない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01536#0",
+  "field": "phrase.scene",
+  "current": "返事・断る",
+  "proposed": "相づち・リアクション",
+  "reason": "「残念」は返事・断る表現ではなく反応。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00308#0",
+  "field": "phrase.scene",
+  "current": "たずねる",
+  "proposed": "返事・断る",
+  "reason": "主な用法は「いいえ」の返事（疑問詞ではない）。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-00495#0",
+  "field": "phrase.scene",
+  "current": "つなぎ・文の型",
+  "proposed": "返事・断る",
+  "reason": "「何でもいい」と答える返事。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-01477#0",
+  "field": "phrase.scene",
+  "current": "たずねる",
+  "proposed": "相づち・リアクション",
+  "reason": "อ้าว は驚きの反応で、質問表現ではない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-02787#0",
+  "field": "phrase.scene",
+  "current": "たずねる",
+  "proposed": "相づち・リアクション",
+  "reason": "เอ๊ะ は気づき・驚きの声。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-44062#0",
+  "field": "phrase.scene",
+  "current": "返事・断る",
+  "proposed": "つなぎ・文の型",
+  "reason": "ก็เป็นได้ は文末の文型で、返事ではない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-41110#0",
+  "field": "phrase.scene",
+  "current": "返事・断る",
+  "proposed": "つなぎ・文の型",
+  "reason": "เป็นอันว่า は文型で、返事ではない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-41036#0",
+  "field": "phrase.scene",
+  "current": "返事・断る",
+  "proposed": "つなぎ・文の型",
+  "reason": "「〜しないように」の文型で、返事・断る表現ではない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-43805#0",
+  "field": "phrase.scene",
+  "current": "返事・断る",
+  "proposed": "つなぎ・文の型",
+  "reason": "「〜に劣らない」の比較の文型。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-44851#0",
+  "field": "phrase.scene",
+  "current": "返事・断る",
+  "proposed": "つなぎ・文の型",
+  "reason": "動詞の後に付ける文型で、返事ではない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-48709#0",
+  "field": "phrase.scene",
+  "current": "返事・断る",
+  "proposed": "つなぎ・文の型",
+  "reason": "「〜するしかない」の文型。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-42792#0",
+  "field": "phrase.scene",
+  "current": "返事・断る",
+  "proposed": "つなぎ・文の型",
+  "reason": "書き言葉の否定の文型で、返事として使わない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-42732#0",
+  "field": "phrase.scene",
+  "current": "返事・断る",
+  "proposed": "つなぎ・文の型",
+  "reason": "「あまり〜ない」の副詞で、返事として使わない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-48051#0",
+  "field": "phrase.scene",
+  "current": "返事・断る",
+  "proposed": "いろいろな言い回し",
+  "reason": "人を描写する言い方で、返事・断る表現ではない。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-45665#0",
+  "field": "phrase.scene",
+  "current": "返事・断る",
+  "proposed": "相づち・リアクション",
+  "reason": "不運を嘆く声。",
+  "confidence": "medium"
+ },
+ {
+  "key": "tl-05207#0",
+  "field": "phrase.scene",
+  "current": "つなぎ・文の型",
+  "proposed": "いろいろな言い回し",
+  "reason": "接続表現ではなく相手を問い詰める言い回し。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00620#0",
+  "field": "phrase.scene",
+  "current": "返事・断る",
+  "proposed": "いろいろな言い回し",
+  "reason": "「落ち着いて」は返事・断る表現ではない。",
+  "confidence": "low"
+ },
+ {
+  "key": "tl-00457#1",
+  "field": "example.ja",
+  "current": "私は10分ほど待った.",
+  "proposed": "私は10分ほど待った。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00457#3",
+  "field": "example.ja",
+  "current": "警察は百人いたと推定した.",
+  "proposed": "警察は百人いたと推定した。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00130#2",
+  "field": "example.ja",
+  "current": "お父さんを助けてくれたお医者さんに感謝したい.",
+  "proposed": "お父さんを助けてくれたお医者さんに感謝したい。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00270#1",
+  "field": "example.ja",
+  "current": "彼は間違いなく来ます.",
+  "proposed": "彼は間違いなく来ます。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00359#1",
+  "field": "example.ja",
+  "current": "彼は有名になった.",
+  "proposed": "彼は有名になった。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-02399#2",
+  "field": "example.ja",
+  "current": "子供は薬を飲むために口を開いた.",
+  "proposed": "子供は薬を飲むために口を開いた。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-05116#1",
+  "field": "example.ja",
+  "current": "雨が降ったので,私は行かなかった.",
+  "proposed": "雨が降ったので、私は行かなかった。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00483#1",
+  "field": "example.ja",
+  "current": "どこにいるの?",
+  "proposed": "どこにいるの？",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00483#2",
+  "field": "example.ja",
+  "current": "今日はどこにも行かない.",
+  "proposed": "今日はどこにも行かない。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00494#1",
+  "field": "example.ja",
+  "current": "まだ来ていない.",
+  "proposed": "まだ来ていない。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-01139#1",
+  "field": "example.ja",
+  "current": "値段を下げてくれませんか?",
+  "proposed": "値段を下げてくれませんか？",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00499#1",
+  "field": "example.ja",
+  "current": "学校で初めて会った.",
+  "proposed": "学校で初めて会った。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00506#1",
+  "field": "example.ja",
+  "current": "あなたはどんな料理が好きですか?",
+  "proposed": "あなたはどんな料理が好きですか？",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00511#1",
+  "field": "example.ja",
+  "current": "私はお金がない.",
+  "proposed": "私はお金がない。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00511#2",
+  "field": "example.ja",
+  "current": "砂糖のないコーヒー.",
+  "proposed": "砂糖のないコーヒー。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00512#1",
+  "field": "example.ja",
+  "current": "彼はこれまでタイ料理を食べたことがない.",
+  "proposed": "彼はこれまでタイ料理を食べたことがない。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00513#1",
+  "field": "example.ja",
+  "current": "彼はタイ人じゃない.",
+  "proposed": "彼はタイ人じゃない。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00514#1",
+  "field": "example.ja",
+  "current": "今日は行けない.",
+  "proposed": "今日は行けない。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00514#2",
+  "field": "example.ja",
+  "current": "そんなこと言ってない",
+  "proposed": "そんなこと言ってない。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00401#1",
+  "field": "example.ja",
+  "current": "今日はどうだった?",
+  "proposed": "今日はどうだった？",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00308#3",
+  "field": "example.ja",
+  "current": "これは空のボトルだ.",
+  "proposed": "これは空のボトルだ。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00397#2",
+  "field": "example.ja",
+  "current": "彼を責めないで",
+  "proposed": "彼を責めないで。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00397#3",
+  "field": "example.ja",
+  "current": "彼は罰を受けなければならない.",
+  "proposed": "彼は罰を受けなければならない。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00536#1",
+  "field": "example.ja",
+  "current": "もっと気をつけないと",
+  "proposed": "もっと気をつけないと。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00155#1",
+  "field": "example.ja",
+  "current": "遅刻してすみません",
+  "proposed": "遅刻してすみません。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00155#2",
+  "field": "example.ja",
+  "current": "すみません,トイレはどこですか?",
+  "proposed": "すみません、トイレはどこですか？",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00446#2",
+  "field": "example.ja",
+  "current": "幸運を祈ります",
+  "proposed": "幸運を祈ります。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00446#3",
+  "field": "example.ja",
+  "current": "こんな幸運は二度と来ない",
+  "proposed": "こんな幸運は二度と来ない。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00427#2",
+  "field": "example.ja",
+  "current": "おめでとう!",
+  "proposed": "おめでとう！",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00991#2",
+  "field": "example.ja",
+  "current": "落ち着いて",
+  "proposed": "落ち着いて。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00447#1",
+  "field": "example.ja",
+  "current": "助けてくれてありがとう",
+  "proposed": "助けてくれてありがとう。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00447#2",
+  "field": "example.ja",
+  "current": "みんなに感謝したい",
+  "proposed": "みんなに感謝したい。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-00946#2",
+  "field": "example.ja",
+  "current": "優しさに感謝します",
+  "proposed": "優しさに感謝します。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-01083#1",
+  "field": "example.ja",
+  "current": "こんにちは 久しぶりです",
+  "proposed": "こんにちは、久しぶりです。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-01643#1",
+  "field": "example.ja",
+  "current": "良い知らせがある",
+  "proposed": "良い知らせがある。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-05136#1",
+  "field": "example.ja",
+  "current": "いずれにせよ すべては君次第だ",
+  "proposed": "いずれにせよ、すべては君次第だ。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-05016#3",
+  "field": "example.ja",
+  "current": "子供たちは飢えている.",
+  "proposed": "子供たちは飢えている。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-01792#2",
+  "field": "example.ja",
+  "current": "彼はこの町から逃げたい.",
+  "proposed": "彼はこの町から逃げたい。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-02665#1",
+  "field": "example.ja",
+  "current": "なんて大きな家!",
+  "proposed": "なんて大きな家！",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-04156#1",
+  "field": "example.ja",
+  "current": "ドアの前には足跡がある.",
+  "proposed": "ドアの前には足跡がある。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-04552#1",
+  "field": "example.ja",
+  "current": "薬を飲んだ後,気分が良くなりました.",
+  "proposed": "薬を飲んだ後、気分が良くなりました。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ },
+ {
+  "key": "tl-04697#3",
+  "field": "example.ja",
+  "current": "彼はボトルからコルクを取り出した.",
+  "proposed": "彼はボトルからコルクを取り出した。",
+  "reason": "句読点の不備（半角の.,?!・空白区切り・句点なし）を修正。",
+  "confidence": "high"
+ }
+]
