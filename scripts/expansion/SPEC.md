@@ -8,6 +8,12 @@ Accuracy matters more than coverage. A wrong reading or meaning shipped to learn
 than a skipped word. If you are not confident about a word's meaning or pronunciation,
 set `"action":"skip"` with a reason. Do not guess.
 
+## Ids
+
+The `id` in authoring and review files is `tl-(20000 + source rank)` and is only an authoring key.
+`scripts/build-expansion.py` publishes each entry as `tl-(40000 + source rank)`, because the slang
+bank already uses some `tl-2xxxx` ids and ids are the key of learners' saved records.
+
 ## Input (one JSON array per part)
 
 Each item: `id`, `th` (headword), `sourceRank`, `readingHint` (a *different* romanization
