@@ -1,0 +1,346 @@
+[
+ {
+  "id": "tl-50069",
+  "verdict": "fix",
+  "issues": [
+   "見出しは実際に最も多く使われる表記にする（EDITORIAL.md）。"
+  ],
+  "fixed": {
+   "id": "tl-50069",
+   "th": "คริปโต",
+   "action": "add",
+   "ro": "khríp too",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "暗号資産・仮想通貨",
+     "en": "crypto, cryptocurrency",
+     "pos": "名詞",
+     "speechStyle": "標準語（口語限定ではない）",
+     "registerTags": [],
+     "note": "คริปโตเคอร์เรนซีの略。辞書的な表記は คริปโท。",
+     "example": {
+      "th": "เขาลงทุนในคริปโตมากเกินไป",
+      "ro": "khǎo long thun nai khríp too mâak kəən pai",
+      "ja": "彼は暗号資産に投資しすぎている。",
+      "en": "He invests too much in crypto.",
+      "origin": "authored"
+     },
+     "use": "よく使う意味"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50070",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50071",
+  "verdict": "fix",
+  "issues": [
+   "英訳で性別を補わない。"
+  ],
+  "fixed": {
+   "id": "tl-50071",
+   "th": "สตาร์ทอัพ",
+   "action": "add",
+   "ro": "sà táat áp",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "スタートアップ（新興企業）",
+     "en": "startup",
+     "pos": "名詞",
+     "speechStyle": "標準語（口語限定ではない）",
+     "registerTags": [],
+     "note": "สตาร์ตอัปという表記も使われる。",
+     "example": {
+      "th": "เพื่อนฉันเปิดบริษัทสตาร์ทอัพของตัวเอง",
+      "ro": "phʉ̂ʉan chǎn pə̀ət bɔɔ rí sàt sà táat áp khɔ̌ɔng tuua eeng",
+      "ja": "友達が自分のスタートアップ企業を立ち上げた。",
+      "en": "My friend started their own startup company.",
+      "origin": "authored"
+     },
+     "use": "よく使う意味"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50072",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50073",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50074",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50075",
+  "verdict": "fix",
+  "issues": [
+   "語末の -เดอร์（ไรเดอร์）を平声 dəə にしているが、決定済み規約（คอมพิวเตอร์ tə̂ə）と part-01 の各 -เออร์ 語に合わせ下降調 də̂ə に。見出しと例文のro両方"
+  ],
+  "fixed": {
+   "id": "tl-50075",
+   "th": "ไรเดอร์",
+   "action": "add",
+   "ro": "rai də̂ə",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（フードデリバリーなどの）配達員・ライダー",
+     "en": "delivery rider",
+     "pos": "名詞",
+     "speechStyle": "標準語（口語限定ではない）",
+     "registerTags": [],
+     "example": {
+      "th": "ไรเดอร์เอาอาหารมาส่งที่คอนโดแล้ว",
+      "ro": "rai də̂ə ao aa hǎan maa sòng thîi khɔɔn doo lɛ́ɛo",
+      "ja": "配達員が料理をコンドミニアムに届けてくれた。",
+      "en": "The rider has delivered the food to the condo.",
+      "origin": "authored"
+     },
+     "use": "よく使う意味"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50076",
+  "verdict": "fix",
+  "issues": [
+   "見出しは実際に最も多く使われる表記にする（EDITORIAL.md）。"
+  ],
+  "fixed": {
+   "id": "tl-50076",
+   "th": "เดลิเวอรี่",
+   "action": "add",
+   "ro": "dee lí wəə rîi",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "デリバリー・（料理などの）宅配",
+     "en": "delivery (food delivery)",
+     "pos": "名詞",
+     "speechStyle": "標準語（口語限定ではない）",
+     "registerTags": [],
+     "note": "辞書的な表記は เดลิเวอรี。最後の音節は下降調で発音するのが普通。",
+     "example": {
+      "th": "คืนนี้สั่งเดลิเวอรี่กินที่บ้านดีไหม",
+      "ro": "khʉʉn níi sàng dee lí wəə rîi kin thîi bâan dii mǎi",
+      "ja": "今夜はデリバリーを頼んで家で食べない？",
+      "en": "Shall we order delivery and eat at home tonight?",
+      "origin": "authored"
+     },
+     "use": "よく使う意味"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50077",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50078",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50079",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50080",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50081",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50082",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50083",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50085",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50086",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50087",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50088",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50089",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50090",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50091",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50092",
+  "verdict": "fix",
+  "issues": [
+   "語末の -เตอร์（แก๊งคอลเซ็นเตอร์）を平声 təə にしているが、決定済み規約（คอมพิวเตอร์ tə̂ə）と part-01 の各 -เออร์ 語に合わせ下降調 tə̂ə に。見出しと例文のro両方"
+  ],
+  "fixed": {
+   "id": "tl-50092",
+   "th": "แก๊งคอลเซ็นเตอร์",
+   "action": "add",
+   "ro": "kɛ́ng khɔɔn sen tə̂ə",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "電話詐欺グループ（コールセンター詐欺）",
+     "en": "call-center scam gang",
+     "pos": "名詞",
+     "speechStyle": "標準語（口語限定ではない）",
+     "registerTags": [],
+     "note": "แก๊งค์คอลเซ็นเตอร์と書かれることもある。",
+     "example": {
+      "th": "ยายถูกแก๊งคอลเซ็นเตอร์หลอกเอาเงินไป",
+      "ro": "yaai thùuk kɛ́ng khɔɔn sen tə̂ə lɔ̀ɔk ao ngəən pai",
+      "ja": "祖母が電話詐欺グループにお金をだまし取られた。",
+      "en": "Grandma was cheated out of her money by a call-center scam gang.",
+      "origin": "authored"
+     },
+     "use": "よく使う意味"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50093",
+  "verdict": "fix",
+  "issues": [
+   "語末の -เมอร์（สแกมเมอร์）を平声 məə にしているが、決定済み規約（คอมพิวเตอร์ tə̂ə）と part-01 の各 -เออร์ 語に合わせ下降調 mə̂ə に。見出しと例文のro両方"
+  ],
+  "fixed": {
+   "id": "tl-50093",
+   "th": "สแกมเมอร์",
+   "action": "add",
+   "ro": "sà kɛɛm mə̂ə",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "詐欺師・スキャマー",
+     "en": "scammer",
+     "pos": "名詞",
+     "speechStyle": "標準語（口語限定ではない）",
+     "registerTags": [],
+     "note": "一般にはมิจฉาชีพの方がずっとよく使われる。",
+     "example": {
+      "th": "สแกมเมอร์มักหลอกเหยื่อผ่านแอปหาคู่",
+      "ro": "sà kɛɛm mə̂ə mák lɔ̀ɔk yʉ̀ʉa phàan ɛ́p hǎa khûu",
+      "ja": "詐欺師はよくマッチングアプリで被害者をだます。",
+      "en": "Scammers often deceive victims through dating apps.",
+      "origin": "authored"
+     },
+     "use": "よく使う意味"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50094",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50095",
+  "verdict": "fix",
+  "issues": [
+   "語末の -เวอร์（ซอฟต์พาวเวอร์）を平声 wəə にしているが、決定済み規約（คอมพิวเตอร์ tə̂ə）と part-01 の各 -เออร์ 語に合わせ下降調 wə̂ə に。見出しと例文のro両方"
+  ],
+  "fixed": {
+   "id": "tl-50095",
+   "th": "ซอฟต์พาวเวอร์",
+   "action": "add",
+   "ro": "sɔ́ɔp phaao wə̂ə",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ソフトパワー",
+     "en": "soft power",
+     "pos": "名詞",
+     "speechStyle": "標準語（口語限定ではない）",
+     "registerTags": [],
+     "note": "ซอฟท์พาวเวอร์と書かれることもある。",
+     "example": {
+      "th": "อาหารไทยเป็นซอฟต์พาวเวอร์ที่สำคัญ",
+      "ro": "aa hǎan thai pen sɔ́ɔp phaao wə̂ə thîi sǎm khan",
+      "ja": "タイ料理は重要なソフトパワーだ。",
+      "en": "Thai food is an important soft power.",
+      "origin": "authored"
+     },
+     "use": "よく使う意味"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50096",
+  "verdict": "ok",
+  "issues": []
+ }
+]
