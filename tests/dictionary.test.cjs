@@ -36,5 +36,5 @@ vm.runInContext('this.t={load:loadWordBank,results:dictionaryResults,setLevel:n=
  // Glosses ending in ？ are found by the gloss itself; one kana left after punctuation does not match everything.
  assert(top('ん？',3).includes('หืม'));assert(ths('ん？').length<20);
  // The dictionary ignores the study range and theme filters.
- t.setLevel(500);t.setTopic('food');assert.equal(ths('家族')[0],'ครอบครัว');assert(ths('ありがとう').includes('ขอบคุณ'));
+ t.setLevel(300);t.setTopic('food');assert.equal(ths('家族')[0],'ครอบครัว');assert(ths('ありがとう').includes('ขอบคุณ'));
  console.log('PASS: dictionary search ranks exact meanings/headwords first, then compounds, then theme-only matches; Thai, romanization, katakana, hiragana readings and English glosses; independent of study filters.')})().catch(e=>{console.error(e);process.exit(1)});

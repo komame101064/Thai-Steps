@@ -527,3 +527,5 @@ html body .w-parts-plus{font-weight:700;color:#7d8c74;font-size:18px}
 .x-phrase-search{margin-top:12px}
 .x-phrase-hub .x-topic-actions{margin-top:10px}
 .x-seg button{white-space:nowrap}
+/* Six range chips (必須・基本・日常・実用・発展・全部): an even 3×2 grid on phones */
+@media (max-width:640px){.x-levels .x-chips{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.x-levels .x-chips button{width:100%;min-width:0}}
