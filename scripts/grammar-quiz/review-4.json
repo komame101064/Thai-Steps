@@ -1,0 +1,86 @@
+{
+ "40": {
+  "7": {
+   "verdict": "fix",
+   "issues": [
+    "distractor acceptable: เพราะป่วย ทำไมยังมาทำงาน can be read as natural Thai ('you're sick, so why come?')"
+   ],
+   "fixed": {
+    "kind": "choose",
+    "q": "病気なのに出勤した同僚に言う言葉は？",
+    "options": [
+     {
+      "th": "ทั้งที่ป่วย ทำไมยังมาทำงาน",
+      "ro": "tháng thîi pùuai tham mai yang maa tham ngaan"
+     },
+     {
+      "th": "ทั้งที่ป่วย ก็เลยมาทำงาน",
+      "ro": "tháng thîi pùuai kɔ̂ɔ ləəi maa tham ngaan"
+     },
+     {
+      "th": "เพราะป่วย ก็เลยมาทำงาน",
+      "ro": "phrɔ́ pùuai kɔ̂ɔ ləəi maa tham ngaan"
+     }
+    ],
+    "answer": 0,
+    "why": "ทั้งที่ で「病気なのに」と事実に反する行動を述べます。ทั้งที่…ก็เลย は「だから」とつながらず、เพราะ…ก็เลย は「病気だから出勤した」になります。"
+   }
+  }
+ },
+ "39": {
+  "6": {
+   "verdict": "fix",
+   "issues": [
+    "distractor acceptable: ดังนั้นเขาขยัน จึงสอบผ่าน is fine Thai when ดังนั้น refers to preceding context"
+   ],
+   "fixed": {
+    "kind": "fix",
+    "q": "正しい文は？",
+    "options": [
+     {
+      "th": "เขาดังนั้นขยัน จึงสอบผ่าน",
+      "ro": "khǎo dang nán khà yǎn cʉng sɔ̀ɔp phàan"
+     },
+     {
+      "th": "เขาขยัน จึงดังนั้นสอบผ่าน",
+      "ro": "khǎo khà yǎn cʉng dang nán sɔ̀ɔp phàan"
+     },
+     {
+      "th": "เขาขยัน ดังนั้นจึงสอบผ่าน",
+      "ro": "khǎo khà yǎn dang nán cʉng sɔ̀ɔp phàan"
+     }
+    ],
+    "answer": 2,
+    "why": "ดังนั้น は結果の文の頭に置き、後ろに จึง を重ねられます。原因の文の中や จึง の後ろには置きません。"
+   }
+  }
+ },
+ "42": {
+  "3": {
+   "verdict": "fix",
+   "issues": [
+    "why inaccurate: ยิ่ง can follow adjectives as an intensifier (ดียิ่ง); restrict the claim to this pattern"
+   ],
+   "fixed": {
+    "kind": "fix",
+    "q": "「練習するほど、あの人は上手になる」として正しい文は？",
+    "options": [
+     {
+      "th": "ยิ่งฝึก เขายิ่งเก่ง",
+      "ro": "yîng fʉ̀k khǎo yîng kèng"
+     },
+     {
+      "th": "ฝึกยิ่ง เขาเก่งยิ่ง",
+      "ro": "fʉ̀k yîng khǎo kèng yîng"
+     },
+     {
+      "th": "ยิ่งฝึก เขาเก่งขึ้นยิ่ง",
+      "ro": "yîng fʉ̀k khǎo kèng khʉ̂n yîng"
+     }
+    ],
+    "answer": 0,
+    "why": "主語は二つ目の ยิ่ง の前に置けます。この「〜するほど」の形では、ยิ่ง は動詞・形容詞の前に置き、後ろには置きません。"
+   }
+  }
+ }
+}
