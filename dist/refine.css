@@ -449,3 +449,12 @@ html body .x-dict .x-search{background:#fff;border:2px solid var(--x-green);bord
 html body .x-dict .x-search input{font-size:16px}
 html body .x-dict .x-search .btn{min-height:40px;border-radius:9px}
 html body .x-dict .x-search input{border:0!important;box-shadow:none!important;background:transparent!important;outline:0}html body .x-dict .x-search:focus-within{box-shadow:0 0 0 3px rgba(31,74,60,.18)}
+/* Audio: a speaker icon only */
+html body .is-icon{display:inline-grid!important;place-items:center;width:42px;height:42px;min-width:42px;min-height:42px;padding:0!important;border-radius:50%!important;border:1px solid #cfdcc8;background:#eef4e8;color:var(--x-green);cursor:pointer}
+html body .is-icon .ui-icon,html body .is-icon svg{width:20px;height:20px}
+html body .is-icon:hover{background:#e2ecda}
+html body .w-example-top .is-icon,html body .word-audio .is-icon,html body .s-reading .is-icon{width:34px;height:34px;min-width:34px;min-height:34px}
+html body .w-example-top .is-icon .ui-icon,html body .word-audio .is-icon .ui-icon,html body .s-reading .is-icon .ui-icon{width:16px;height:16px}
+html body .word-audio button:first-child{width:34px}
+html body .w-row-actions .w-audio{width:42px!important}
+html body .w-row-actions{width:auto!important;flex-direction:row!important;flex-wrap:nowrap!important;align-items:center}
