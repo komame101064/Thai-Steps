@@ -1,0 +1,583 @@
+[
+ {
+  "id": "tl-21978",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21980",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21986",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-21992",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認：ยุโรป は実際の標準発音・辞書表記とも ยุ-โหฺรบ（低声）で、既存例文の yú ròop とも一致。出典ヒントの下降調は綴り読みによるもので、現状のままで可。"
+  ]
+ },
+ {
+  "id": "tl-22000",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22005",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22012",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22013",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22021",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22023",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22027",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22034",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22036",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22038",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22048",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22052",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22058",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22061",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22065",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22067",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22075",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22079",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22080",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22083",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22085",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22089",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22090",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22092",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22095",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22102",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22104",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22106",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22108",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22109",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22115",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22118",
+  "verdict": "fix",
+  "issues": [
+   "語義1の例文：ข่าว（ニュース）が広まる場合は แพร่สะพัด・แพร่กระจาย が自然で แพร่หลาย とは結びつきにくいため、「普及する」の意味がはっきり出る例文に差し替え。"
+  ],
+  "fixed": {
+   "id": "tl-22118",
+   "th": "แพร่หลาย",
+   "action": "add",
+   "ro": "phrɛ̂ɛ lǎai",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "広まる・普及する",
+     "en": "to spread widely, become widespread",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "อินเทอร์เน็ตแพร่หลายไปทั่วประเทศแล้ว",
+      "ro": "in thəə nèt phrɛ̂ɛ lǎai pai thûua prà thêet lɛ́ɛo",
+      "ja": "インターネットはすでに全国に普及しています。",
+      "en": "The internet has already spread throughout the country.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "広く・一般に（อย่างแพร่หลาย の形で）",
+     "en": "widely, extensively",
+     "pos": "副詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ภาษาอังกฤษใช้กันอย่างแพร่หลายทั่วโลก",
+      "ro": "phaa sǎa ang krìt chái kan yàang phrɛ̂ɛ lǎai thûua lôok",
+      "ja": "英語は世界中で広く使われています。",
+      "en": "English is widely used all over the world.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-22119",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22123",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22129",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22133",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22134",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22135",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22142",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22144",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22145",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22152",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22154",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22155",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22164",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22165",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22168",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22174",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22177",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22182",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22186",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22188",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22190",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22193",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22204",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22208",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22210",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22212",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22217",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認：แต่ง は既存語彙の表記 tɛ̀ng（短母音）に従っており、現状のままで可。"
+  ]
+ },
+ {
+  "id": "tl-22219",
+  "verdict": "fix",
+  "issues": [
+   "例文：สีหน้าโศก と単独で使うのは不自然で、注記どおり โศกเศร้า の形にした（読みも sòok sâo に更新）。"
+  ],
+  "fixed": {
+   "id": "tl-22219",
+   "th": "โศก",
+   "action": "add",
+   "ro": "sòok",
+   "kind": "word",
+   "category": "性質・状態",
+   "note": "日常会話では เศร้า を使い、โศก は เศร้าโศก・โศกเศร้า などの形や書き言葉に多い。",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "悲しい・悲嘆にくれた",
+     "en": "sad, sorrowful, mournful",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "literary"
+     ],
+     "speechStyle": "文語",
+     "example": {
+      "th": "เธอมีสีหน้าโศกเศร้าเมื่อได้ยินข่าวร้าย",
+      "ro": "thəə mii sǐi nâa sòok sâo mʉ̂ʉa dâai yin khàao ráai",
+      "ja": "悪い知らせを聞いて、彼女は悲しげな顔をしました。",
+      "en": "She looked sorrowful when she heard the bad news.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-22222",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22228",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22229",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22235",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22239",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22243",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22245",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22249",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22250",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22251",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22258",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22263",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22265",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22271",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22275",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22280",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22285",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22289",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22292",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22300",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22302",
+  "verdict": "ok",
+  "issues": [
+   "フラグ確認：พิศวง は ศ が ว を導くため พิด-สะ-หฺวง（上昇調）が正しく、出典ヒントの平声が誤り。現状のままで可。"
+  ]
+ },
+ {
+  "id": "tl-22305",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22306",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22307",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22309",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22316",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22319",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22321",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22324",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22326",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22329",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22331",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22342",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22345",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22347",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-22352",
+  "verdict": "ok",
+  "issues": []
+ }
+]
