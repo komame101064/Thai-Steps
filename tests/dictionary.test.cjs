@@ -26,6 +26,8 @@ vm.runInContext('this.t={load:loadWordBank,results:dictionaryResults,setLevel:n=
  assert.equal(ths('たべる')[0],'กิน');assert.equal(ths('せんせい')[0],'ครู');assert(top('めがね',2).includes('แว่นตา'));assert(top('おとな',1).includes('ผู้ใหญ่'));
  // Hiragana reads as Japanese first; katakana stays a Thai-pronunciation search first.
  assert(top('かお',2).includes('หน้า'));assert(!top('カオ',3).includes('หน้า'));assert(ths('カオ').includes('หน้า'));
+ // Kana matches respect mora boundaries: きゅうり must not match the reading of 給料 (きゅうりょう).
+ assert(!ths('きゅうり').includes('เงินเดือน'));assert(!ths('キュウリ').includes('เงินเดือน'));
  // Neutral and slang ways to say 童貞 are both found.
  assert(ths('童貞').includes('ซิง'));assert(ths('童貞').includes('ยังไม่เคยมีเพศสัมพันธ์'));
  // Compounds are pulled in only by a first-sense exact hit on a general word: 精液 matches the slang sense of น้ำ,

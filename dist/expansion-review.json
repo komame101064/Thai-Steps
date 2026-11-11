@@ -14,6 +14,16 @@
       "consistencyFlags": 29
     },
     {
+      "batch": "batch-002",
+      "candidates": 1000,
+      "published": 961,
+      "acceptedAsWritten": 945,
+      "skippedByAuthor": 37,
+      "fixedByReviewer": 16,
+      "rejectedByReviewer": 2,
+      "consistencyFlags": 30
+    },
+    {
       "batch": "editorial-001",
       "candidates": 70,
       "published": 69,
@@ -30,8 +40,8 @@
       "consistencyFlags": 0
     }
   ],
-  "published": 1061,
-  "general": 1030,
+  "published": 2022,
+  "general": 1991,
   "slang": 31,
-  "senses": 1288
+  "senses": 2416
 }

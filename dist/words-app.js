@@ -44,6 +44,9 @@ function dueWord(w){const r=wordRec(w.id);return r.manual||(r.seen>0&&r.due<=Dat
 // that only hit a theme or category label.
 const JA_RE=/[぀-ヿ㐀-鿿]/,THAI_RE=/[฀-๿]/;
 const jaKey=s=>String(s).normalize('NFKC').replace(/[?!。、.,・\s「」『』〜~]/g,'');
+// A kana match must not cut a mora in half: きゅうり is not the start of きゅうりょう (給料).
+const SPLIT_MORA=/^[ゃゅょぁぃぅぇぉゎー]/;
+function kanaContains(c,h){for(let i=c.indexOf(h);i>=0;i=c.indexOf(h,i+1))if(!SPLIT_MORA.test(c.slice(i+h.length)))return true;return false}
 const toHiragana=s=>String(s).normalize('NFKC').replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-0x60));
 function jaTerms(ja){return String(ja).replace(/（[^）]*）|\([^)]*\)/g,'').split(/[・／\/、，,；;]/).map(t=>t.replace(/[〜～]/g,'').trim()).filter(Boolean)}
 const foldRo=s=>foldWord(s).replace(/[\s'’-]/g,'').replace(/([aeiou])\1+/g,'$1');
@@ -74,7 +77,7 @@ function dictionaryMatch(w,raw){const t0=String(raw).trim(),q=THAI_RE.test(t0)?t
   if(/^[ぁ-ゖァ-ヶー\s]+$/.test(q)){const h=toHiragana(q).replace(/\s+/g,''),hira=/[ぁ-ゖ]/.test(q),lift=hira?0:2,rd=typeof JA_READINGS==='undefined'?null:JA_READINGS[w.id];
    // Readings of the Japanese gloss (あさって → 明後日). Hiragana input reads as Japanese first; katakana input stays a Thai pronunciation search first.
    w.meanings.forEach((m,mi)=>{const rs=rd?.[m.sourceSense]||[],extra=mi?2:0;jaTerms(m.ja).forEach((term,ti)=>{const cands=[...(rs[ti]||[]),...(/^[ぁ-ゖァ-ヶー]+$/.test(term)?[toHiragana(term)]:[])];
-    for(const c of cands){if(c===h)take(lift+extra+(ti?1:0),'reading');else if(c.startsWith(h))take(lift+4+extra,'reading');else if(h.length>1&&c.includes(h))take(lift+8+(mi?1:0),'reading')}})});
+    for(const c of cands){if(c===h)take(lift+extra+(ti?1:0),'reading');else if(c.startsWith(h)&&!SPLIT_MORA.test(c.slice(h.length)))take(lift+4+extra,'reading');else if(h.length>1&&kanaContains(c,h))take(lift+8+(mi?1:0),'reading')}})});
    const k=normalizeKana(q);if(k)w.kanaKeys.forEach(key=>{if(key===k)take(1,'kana');else if(key.startsWith(k))take(5,'kana');else if(key.includes(k))take(9,'kana')})}}
  if(/^[a-z\s'’-]+$/i.test(foldWord(q))){const r=romanMatch(w,q);if(r<Infinity)take(r,'ro');if(!TONE_RE.test(q)){const e=englishMatch(w,q);if(e)take(e.score,'en',e.en)}}
  if(out.score===Infinity&&w.labelText===undefined)w.labelText=foldWord([w.category,...wordTopics().filter(t=>wordTopicIds(w).includes(t.id)).map(t=>t.label),...wordOriginRows(w).flatMap(r=>[r.label,r.detailLabel||''])].join(' '));
