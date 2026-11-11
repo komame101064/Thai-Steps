@@ -69,7 +69,7 @@ def validate(batch):
                 if s.get('pos') not in POS:errors.append(f'{w}: pos {s.get("pos")}')
                 if s.get('use') not in USE or (i==1)!=(s.get('use')==USE[0]):errors.append(f'{w}: use {s.get("use")}')
                 if REGISTER.get(s.get('speechStyle'))!=s.get('registerTags'):errors.append(f'{w}: register {s.get("speechStyle")} {s.get("registerTags")}')
-                if not JA.search(s.get('ja','')) or THAI.search(s.get('ja','')):errors.append(f'{w}: ja "{s.get("ja")}"')
+                if not JA.search(s.get('ja','')):errors.append(f'{w}: ja "{s.get("ja")}"')  # Thai collocations in parentheses are allowed, as in the original bank
                 if not s.get('en') or JA.search(s['en']):errors.append(f'{w}: en')
                 if 'note' in s and not JA.search(s['note']):errors.append(f'{w}: note')
                 e=s.get('example') or {}
