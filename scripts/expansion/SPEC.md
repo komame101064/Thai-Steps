@@ -132,3 +132,12 @@ Bound elements that are common in compounds (e.g. ราช-) may be added with 
 Work through the items one at a time. For every entry, re-read the Thai example you chose and
 check: headword present, sense matches, `ro` has one syllable per Thai syllable with correct
 tones, Japanese is natural. Write valid JSON (UTF-8, no comments, no trailing commas).
+
+## Conventions confirmed in batch-001 review (follow them)
+
+- น้ำ alone is `náam`, but `nám` as the first element of compounds (น้ำตา nám taa, น้ำมัน nám man, น้ำพริก nám phrík).
+- เจ้า alone is `câao`; in compounds follow the lexicon entry if it has the compound, otherwise `câao`.
+- Syllables spelled with ‑่อง/‑้อง etc. keep the spelled long vowel as the lexicon does (ต้อง tɔ̂ɔng, ช่อง chɔ̂ɔng, ซ่อง sɔ̂ɔng).
+- The source readingHint is often wrong (dropped syllables, a different word, wrong tone). The Thai spelling and the standard pronunciation decide.
+- Royal vocabulary needs correct royal grammar in examples (เสด็จไปทรงเปิด…, no bare ทรง + plain verb with ท่าน); do not translate His Highness as 陛下.
+- Japanese translations must not add meaning the Thai lacks (no added も, そうです, 分だけ …).
