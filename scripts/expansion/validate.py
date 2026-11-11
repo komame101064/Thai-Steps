@@ -11,9 +11,9 @@ CATEGORIES=set('一般語彙 日常の動作 家・場所 時間 性質・状態
 POS=set('名詞 動詞 形容詞・状態語 副詞 間投詞 接続詞 前置詞 助詞 代名詞 類別詞 定型表現 接頭辞 数詞'.split())
 USE=['よく使う意味','よく使う別の意味','少なめの用法']
 REGISTER={'標準語（口語限定ではない）':[],'口語':['colloquial'],'改まった表現':['formal'],'文語':['literary'],'王室の敬語':['royal'],'古めの表現':['dated'],'粗い口語':['colloquial','vulgar']}
-ONSET=r'(?:khr|khl|khw|phr|phl|kr|kl|kw|pr|pl|tr|thr|br|bl|fr|dr|kh|ch|th|ph|ng|[kcsydtnbpfmrlwh])?'
+ONSET=r'(?:khr|khl|khw|phr|phl|kr|kl|kw|pr|pl|tr|thr|br|bl|fr|fl|dr|kh|ch|th|ph|ng|[kcsydtnbpfmrlwh])?'
 VOWEL=r'(?:iiao|iao|uui|uuai|ʉʉai|iia|ʉʉa|uua|aai|aao|ɔɔi|əəi|ooi|eeo|ɛɛo|ia|ʉa|ua|ai|ao|ui|iu|eo|ɛo|əi|ɔi|oi|aa|ii|ʉʉ|uu|ee|ɛɛ|oo|ɔɔ|əə|[aiʉueɛoɔə])'
-SYL=re.compile('^'+ONSET+VOWEL+r'(?:ng|[ktpnm])?$')
+SYL=re.compile('^'+ONSET+VOWEL+r'(?:ng|[ktpnmsl])?$')
 TONES={'̀':'low','́':'high','̂':'falling','̌':'rising','̆':'rising'}
 THAI=re.compile(r'[฀-๿]');JA=re.compile(r'[぀-ヿ㐀-鿿]')
 def split_tone(s):
@@ -36,8 +36,8 @@ def hint_syllables(h):
         base,tone,_=split_tone(s);out.append((':' in s,tone))
     return out
 MONO=re.compile('^'+ONSET+r'(aa|ii|ʉʉ|uu|ee|ɛɛ|oo|ɔɔ|əə|[aiʉueɛoɔə])(?:ng|[ktpnm])?$')
-SLANG_CATEGORIES={'スラング｜下ネタ','スラング｜恋愛・人間関係','スラング｜誘う・返す','スラング｜差別的表現'}
-SLANG_STYLES={'口語','口語・スラング','粗い口語','口語・性的な話題','かなり粗い・性的な俗語','標準語・性的な話題','差別的な罵り（理解用）'}
+SLANG_CATEGORIES={'スラング｜下ネタ','スラング｜恋愛・人間関係','スラング｜誘う・返す','スラング｜差別的表現','スラング｜一般','スラング｜ネット・SNS','スラング｜ほめる・反応','スラング｜友達の日常','スラング｜気持ち'}
+SLANG_STYLES={'口語','口語・スラング','粗い口語','口語・性的な話題','かなり粗い・性的な俗語','標準語・性的な話題','差別的な罵り（理解用）','ネット表記'}
 def validate(batch):
     if batch.startswith('editorial-'):return validate_editorial(batch)
     cand={('tl-%05d'%(20000+int(float(x['sourceIndex'])))):x for x in json.load(gzip.open(P/'scripts/source-snapshots/expansion-candidates-20000.json.gz','rt',encoding='utf8')) if not x['registered']}

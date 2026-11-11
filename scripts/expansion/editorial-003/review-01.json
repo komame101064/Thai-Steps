@@ -1,0 +1,232 @@
+[
+ {
+  "id": "tl-50041",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50042",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50043",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50044",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50045",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50046",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50047",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50048",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50049",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50050",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50051",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50052",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50053",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50054",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50055",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50056",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50057",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50058",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50059",
+  "verdict": "fix",
+  "issues": [
+   "ฟอลโลว์ を標準語としながら อันฟอลโลว์ だけ口語にしており登録ラベルが不整合。SNS用語として標準語に統一"
+  ],
+  "fixed": {
+   "id": "tl-50059",
+   "th": "อันฟอลโลว์",
+   "action": "add",
+   "ro": "an fɔɔn loo",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "フォローを外す",
+     "en": "to unfollow",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "会話では อันฟอล と略すことが多い。",
+     "example": {
+      "th": "เธออันฟอลโลว์แฟนเก่าแล้ว",
+      "ro": "thəə an fɔɔn loo fɛɛn kào lɛ́ɛo",
+      "ja": "彼女は元恋人のフォローを外しました。",
+      "en": "She unfollowed her ex.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50060",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50061",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50062",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50063",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50064",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50065",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50066",
+  "verdict": "fix",
+  "issues": [
+   "見出しは実際に最も多く使われる表記にする（EDITORIAL.md）。"
+  ],
+  "fixed": {
+   "id": "tl-50066",
+   "th": "แชทบอท",
+   "action": "add",
+   "ro": "chɛ́t bɔ́t",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "チャットボット",
+     "en": "chatbot",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "辞書的な表記は แชตบอต。",
+     "example": {
+      "th": "ธนาคารใช้แชทบอทตอบคำถามลูกค้า",
+      "ro": "thá naa khaan chái chɛ́t bɔ́t tɔ̀ɔp kham thǎam lûuk kháa",
+      "ja": "銀行はチャットボットで顧客の質問に答えています。",
+      "en": "The bank uses a chatbot to answer customers' questions.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50067",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50068",
+  "verdict": "fix",
+  "issues": [
+   "例文訳で ช่วย（手伝う）が落ち、AIが文章を書くように読める。「AIの助けを借りて」に修正"
+  ],
+  "fixed": {
+   "id": "tl-50068",
+   "th": "เอไอ",
+   "action": "add",
+   "ro": "ee ai",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "AI・人工知能",
+     "en": "AI",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "英字で AI と書くことも多い。",
+     "example": {
+      "th": "ตอนนี้หลายคนใช้เอไอช่วยเขียนงาน",
+      "ro": "tɔɔn níi lǎai khon chái ee ai chûuai khǐian ngaan",
+      "ja": "今は多くの人がAIの助けを借りて文章を書いています。",
+      "en": "Now many people use AI to help them write.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ }
+]

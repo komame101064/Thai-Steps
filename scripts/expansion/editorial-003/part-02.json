@@ -1,0 +1,761 @@
+[
+ {
+  "id": "tl-50069",
+  "th": "คริปโท",
+  "action": "add",
+  "ro": "khríp thoo",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "暗号資産・仮想通貨",
+    "en": "crypto, cryptocurrency",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "note": "คริปโทเคอร์เรนซีの略。一般にはคริปโต（khríp too）と書くことも多い。",
+    "example": {
+     "th": "เขาลงทุนในคริปโทมากเกินไป",
+     "ro": "khǎo long thun nai khríp thoo mâak kəən pai",
+     "ja": "彼は暗号資産に投資しすぎている。",
+     "en": "He invests too much in crypto.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50070",
+  "th": "บิตคอยน์",
+  "action": "add",
+  "ro": "bít khɔɔi",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ビットコイン",
+    "en": "Bitcoin",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "note": "บิทคอยน์と書かれることもある。",
+    "example": {
+     "th": "ราคาบิตคอยน์ขึ้นมาอีกแล้ว",
+     "ro": "raa khaa bít khɔɔi khʉ̂n maa ìik lɛ́ɛo",
+     "ja": "ビットコインの価格がまた上がった。",
+     "en": "The price of Bitcoin has gone up again.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50071",
+  "th": "สตาร์ทอัพ",
+  "action": "add",
+  "ro": "sà táat áp",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "スタートアップ（新興企業）",
+    "en": "startup",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "note": "สตาร์ตอัปという表記も使われる。",
+    "example": {
+     "th": "เพื่อนฉันเปิดบริษัทสตาร์ทอัพของตัวเอง",
+     "ro": "phʉ̂ʉan chǎn pə̀ət bɔɔ rí sàt sà táat áp khɔ̌ɔng tuua eeng",
+     "ja": "友達が自分のスタートアップ企業を立ち上げた。",
+     "en": "My friend started his own startup company.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50072",
+  "th": "ฟรีแลนซ์",
+  "action": "add",
+  "ro": "frii lɛɛn",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "フリーランス・フリーランサー",
+    "en": "freelance, freelancer",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "example": {
+     "th": "ตอนนี้ฉันทำงานเป็นฟรีแลนซ์",
+     "ro": "tɔɔn níi chǎn tham ngaan pen frii lɛɛn",
+     "ja": "今はフリーランスとして働いています。",
+     "en": "I work as a freelancer now.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50073",
+  "th": "เวิร์กฟรอมโฮม",
+  "action": "add",
+  "ro": "wə̂ək frɔɔm hoom",
+  "kind": "expression",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "在宅勤務する・テレワークする",
+    "en": "to work from home",
+    "pos": "動詞",
+    "speechStyle": "口語",
+    "registerTags": [
+     "colloquial"
+    ],
+    "note": "เวิร์คฟรอมโฮมとも書き、WFHと略すことも多い。改まった言い方はทำงานที่บ้าน。",
+    "example": {
+     "th": "วันศุกร์บริษัทให้เวิร์กฟรอมโฮม",
+     "ro": "wan sùk bɔɔ rí sàt hâi wə̂ək frɔɔm hoom",
+     "ja": "金曜日は会社が在宅勤務を認めている。",
+     "en": "On Fridays the company lets us work from home.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50074",
+  "th": "ประชุมออนไลน์",
+  "action": "add",
+  "ro": "prà chum ɔɔn lai",
+  "kind": "expression",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "オンライン会議をする",
+    "en": "to have an online meeting",
+    "pos": "動詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "example": {
+     "th": "พรุ่งนี้เราจะประชุมออนไลน์กับลูกค้า",
+     "ro": "phrûng níi rao cà prà chum ɔɔn lai kàp lûuk kháa",
+     "ja": "明日はお客さんとオンライン会議をします。",
+     "en": "Tomorrow we will have an online meeting with the client.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50075",
+  "th": "ไรเดอร์",
+  "action": "add",
+  "ro": "rai dəə",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（フードデリバリーなどの）配達員・ライダー",
+    "en": "delivery rider",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "example": {
+     "th": "ไรเดอร์เอาอาหารมาส่งที่คอนโดแล้ว",
+     "ro": "rai dəə ao aa hǎan maa sòng thîi khɔɔn doo lɛ́ɛo",
+     "ja": "配達員が料理をコンドミニアムに届けてくれた。",
+     "en": "The rider has delivered the food to the condo.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50076",
+  "th": "เดลิเวอรี",
+  "action": "add",
+  "ro": "dee lí wəə rîi",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "デリバリー・（料理などの）宅配",
+    "en": "delivery (food delivery)",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "note": "店の看板などではเดลิเวอรี่と書くことも多い。最後の音節は下降調で発音するのが普通。",
+    "example": {
+     "th": "คืนนี้สั่งเดลิเวอรีกินที่บ้านดีไหม",
+     "ro": "khʉʉn níi sàng dee lí wəə rîi kin thîi bâan dii mǎi",
+     "ja": "今夜はデリバリーを頼んで家で食べない？",
+     "en": "Shall we order delivery and eat at home tonight?",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50077",
+  "th": "สั่งออนไลน์",
+  "action": "add",
+  "ro": "sàng ɔɔn lai",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ネットで注文する",
+    "en": "to order online",
+    "pos": "動詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "example": {
+     "th": "เสื้อตัวนี้ฉันสั่งออนไลน์มา",
+     "ro": "sʉ̂ʉa tuua níi chǎn sàng ɔɔn lai maa",
+     "ja": "このシャツはネットで注文したものです。",
+     "en": "I ordered this shirt online.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50078",
+  "th": "ช้อปออนไลน์",
+  "action": "add",
+  "ro": "chɔ́ɔp ɔɔn lai",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ネットショッピングをする",
+    "en": "to shop online",
+    "pos": "動詞",
+    "speechStyle": "口語",
+    "registerTags": [
+     "colloquial"
+    ],
+    "note": "ช็อปออนไลน์とも書く。",
+    "example": {
+     "th": "ช่วงลดราคาฉันช้อปออนไลน์ทั้งคืน",
+     "ro": "chûuang lót raa khaa chǎn chɔ́ɔp ɔɔn lai tháng khʉʉn",
+     "ja": "セールの時期は一晩中ネットショッピングをしていた。",
+     "en": "During the sale I shopped online all night.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50079",
+  "th": "สแกนจ่าย",
+  "action": "add",
+  "ro": "sà kɛɛn càai",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（QRコードを）読み取って支払う・QR決済する",
+    "en": "to pay by scanning a QR code",
+    "pos": "動詞",
+    "speechStyle": "口語",
+    "registerTags": [
+     "colloquial"
+    ],
+    "example": {
+     "th": "ร้านนี้สแกนจ่ายได้ไหมครับ",
+     "ro": "ráan níi sà kɛɛn càai dâai mǎi khráp",
+     "ja": "この店はQRコードで払えますか？",
+     "en": "Can I pay by scanning a QR code at this shop?",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50080",
+  "th": "พร้อมเพย์",
+  "action": "add",
+  "ro": "phrɔ́ɔm phee",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "プロンプトペイ（タイの即時送金サービス）",
+    "en": "PromptPay (Thai instant payment system)",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "note": "携帯電話番号や身分証番号に結び付けて送金・受け取りができる。",
+    "example": {
+     "th": "โอนเงินผ่านพร้อมเพย์ได้เลยค่ะ",
+     "ro": "oon ngəən phàan phrɔ́ɔm phee dâai ləəi khâ",
+     "ja": "プロンプトペイで送金していただいて大丈夫です。",
+     "en": "You can transfer the money via PromptPay.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50081",
+  "th": "คิวอาร์โค้ด",
+  "action": "add",
+  "ro": "khiu aa khóot",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "QRコード",
+    "en": "QR code",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "example": {
+     "th": "กรุณาสแกนคิวอาร์โค้ดเพื่อจ่ายเงิน",
+     "ro": "kà rú naa sà kɛɛn khiu aa khóot phʉ̂ʉa càai ngəən",
+     "ja": "お支払いはQRコードを読み取ってください。",
+     "en": "Please scan the QR code to pay.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50082",
+  "th": "รถอีวี",
+  "action": "add",
+  "ro": "rót ii wii",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "EV・電気自動車",
+    "en": "EV, electric car",
+    "pos": "名詞",
+    "speechStyle": "口語",
+    "registerTags": [
+     "colloquial"
+    ],
+    "note": "「รถ EV」と英字で書くことも多い。",
+    "example": {
+     "th": "เดี๋ยวนี้คนไทยซื้อรถอีวีกันเยอะ",
+     "ro": "dǐiao níi khon thai sʉ́ʉ rót ii wii kan yə́",
+     "ja": "最近はタイ人がEVをたくさん買っている。",
+     "en": "These days many Thais are buying EVs.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50083",
+  "th": "รถยนต์ไฟฟ้า",
+  "action": "add",
+  "ro": "rót yon fai fáa",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "電気自動車",
+    "en": "electric car, electric vehicle",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "example": {
+     "th": "รัฐบาลส่งเสริมการใช้รถยนต์ไฟฟ้า",
+     "ro": "rát thà baan sòng sə̌əm kaan chái rót yon fai fáa",
+     "ja": "政府は電気自動車の利用を促進している。",
+     "en": "The government promotes the use of electric cars.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50084",
+  "th": "ฝุ่นพีเอ็มสองจุดห้า",
+  "action": "skip",
+  "skipReason": "タイ語では通常「ฝุ่น PM2.5」と英数字で書き、「พีเอ็มสองจุดห้า」と綴った形は見出し語として自然ではないため。必要なら「ฝุ่น PM2.5」または「ฝุ่นละออง」で別途登録を検討。"
+ },
+ {
+  "id": "tl-50085",
+  "th": "โลกร้อน",
+  "action": "add",
+  "ro": "lôok rɔ́ɔn",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "地球温暖化",
+    "en": "global warming",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "note": "改まった言い方はภาวะโลกร้อน。",
+    "example": {
+     "th": "ปีนี้ร้อนมากเพราะโลกร้อน",
+     "ro": "pii níi rɔ́ɔn mâak phrɔ́ lôok rɔ́ɔn",
+     "ja": "地球温暖化のせいで今年はとても暑い。",
+     "en": "It is very hot this year because of global warming.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50086",
+  "th": "กักตัว",
+  "action": "add",
+  "ro": "kàk tuua",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（感染防止のため）隔離する・自主隔離する",
+    "en": "to quarantine, self-isolate",
+    "pos": "動詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "example": {
+     "th": "เขาต้องกักตัวที่บ้านเจ็ดวัน",
+     "ro": "khǎo tɔ̂ɔng kàk tuua thîi bâan cèt wan",
+     "ja": "彼は家で7日間隔離しなければならない。",
+     "en": "He has to quarantine at home for seven days.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50087",
+  "th": "ล็อกดาวน์",
+  "action": "add",
+  "ro": "lɔ́k daao",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ロックダウン・都市封鎖",
+    "en": "lockdown",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "note": "ล็อคดาวน์とも書く。主にコロナ禍（2020〜2021年）の話題で使われる。",
+    "example": {
+     "th": "ตอนล็อกดาวน์ร้านอาหารต้องปิดหมด",
+     "ro": "tɔɔn lɔ́k daao ráan aa hǎan tɔ̂ɔng pìt mòt",
+     "ja": "ロックダウンの時は飲食店がすべて閉めなければならなかった。",
+     "en": "During the lockdown all restaurants had to close.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50088",
+  "th": "ฉีดวัคซีน",
+  "action": "add",
+  "ro": "chìit wák siin",
+  "kind": "expression",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ワクチンを打つ・予防接種を受ける",
+    "en": "to get vaccinated, to give a vaccine",
+    "pos": "動詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "example": {
+     "th": "ลูกฉีดวัคซีนครบแล้ว",
+     "ro": "lûuk chìit wák siin khróp lɛ́ɛo",
+     "ja": "子どもは予防接種を全部済ませた。",
+     "en": "My child has had all the vaccinations.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50089",
+  "th": "นิวนอร์มอล",
+  "action": "add",
+  "ro": "niu nɔɔ mɔɔn",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ニューノーマル・新しい生活様式",
+    "en": "new normal",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "note": "2020年のコロナ禍で広まった語で、今は使われる機会が減った。",
+    "example": {
+     "th": "ใส่หน้ากากกลายเป็นนิวนอร์มอลของคนเมือง",
+     "ro": "sài nâa kàak klaai pen niu nɔɔ mɔɔn khɔ̌ɔng khon mʉʉang",
+     "ja": "マスク着用は都市の人々のニューノーマルになった。",
+     "en": "Wearing a mask became the new normal for city people.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50090",
+  "th": "ข่าวปลอม",
+  "action": "add",
+  "ro": "khàao plɔɔm",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "フェイクニュース・偽情報",
+    "en": "fake news",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "example": {
+     "th": "ข่าวนี้เป็นข่าวปลอม อย่าแชร์นะ",
+     "ro": "khàao níi pen khàao plɔɔm yàa chɛɛ ná",
+     "ja": "このニュースはフェイクだよ、シェアしないでね。",
+     "en": "This news is fake, don't share it.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50091",
+  "th": "มิจฉาชีพ",
+  "action": "add",
+  "ro": "mít chǎa chîip",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "詐欺師・詐欺グループ",
+    "en": "scammer, fraudster",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "note": "本来は「不正な生業」の意で、今はニュースや注意喚起で詐欺師を指すのが普通。",
+    "example": {
+     "th": "ระวังมิจฉาชีพโทรมาขอข้อมูลบัญชี",
+     "ro": "rá wang mít chǎa chîip thoo maa khɔ̌ɔ khɔ̂ɔ muun ban chii",
+     "ja": "口座情報を聞き出そうと電話してくる詐欺師に気をつけて。",
+     "en": "Beware of scammers calling to ask for your account details.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50092",
+  "th": "แก๊งคอลเซ็นเตอร์",
+  "action": "add",
+  "ro": "kɛ́ng khɔɔn sen təə",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "電話詐欺グループ（コールセンター詐欺）",
+    "en": "call-center scam gang",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "note": "แก๊งค์คอลเซ็นเตอร์と書かれることもある。",
+    "example": {
+     "th": "ยายถูกแก๊งคอลเซ็นเตอร์หลอกเอาเงินไป",
+     "ro": "yaai thùuk kɛ́ng khɔɔn sen təə lɔ̀ɔk ao ngəən pai",
+     "ja": "祖母が電話詐欺グループにお金をだまし取られた。",
+     "en": "Grandma was cheated out of her money by a call-center scam gang.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50093",
+  "th": "สแกมเมอร์",
+  "action": "add",
+  "ro": "sà kɛɛm məə",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "詐欺師・スキャマー",
+    "en": "scammer",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "note": "一般にはมิจฉาชีพの方がずっとよく使われる。",
+    "example": {
+     "th": "สแกมเมอร์มักหลอกเหยื่อผ่านแอปหาคู่",
+     "ro": "sà kɛɛm məə mák lɔ̀ɔk yʉ̀ʉa phàan ɛ́p hǎa khûu",
+     "ja": "詐欺師はよくマッチングアプリで被害者をだます。",
+     "en": "Scammers often deceive victims through dating apps.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50094",
+  "th": "ฟิชชิ่ง",
+  "action": "add",
+  "ro": "fít chîng",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "フィッシング（詐欺）",
+    "en": "phishing",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "note": "公的な表記はฟิชชิงで、อีเมลฟิชชิ่งのように使う。",
+    "example": {
+     "th": "อีเมลนี้น่าจะเป็นฟิชชิ่ง อย่ากดลิงก์",
+     "ro": "ii meel níi nâa cà pen fít chîng yàa kòt líng",
+     "ja": "このメールはたぶんフィッシングだ。リンクを押さないで。",
+     "en": "This email is probably phishing. Don't click the link.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50095",
+  "th": "ซอฟต์พาวเวอร์",
+  "action": "add",
+  "ro": "sɔ́ɔp phaao wəə",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ソフトパワー",
+    "en": "soft power",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "note": "ซอฟท์พาวเวอร์と書かれることもある。",
+    "example": {
+     "th": "อาหารไทยเป็นซอฟต์พาวเวอร์ที่สำคัญ",
+     "ro": "aa hǎan thai pen sɔ́ɔp phaao wəə thîi sǎm khan",
+     "ja": "タイ料理は重要なソフトパワーだ。",
+     "en": "Thai food is an important soft power.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ },
+ {
+  "id": "tl-50096",
+  "th": "ความหลากหลายทางเพศ",
+  "action": "add",
+  "ro": "khwaam làak lǎai thaang phêet",
+  "kind": "expression",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "性の多様性",
+    "en": "gender diversity, sexual diversity",
+    "pos": "名詞",
+    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [],
+    "example": {
+     "th": "บริษัทนี้เคารพความหลากหลายทางเพศ",
+     "ro": "bɔɔ rí sàt níi khao róp khwaam làak lǎai thaang phêet",
+     "ja": "この会社は性の多様性を尊重している。",
+     "en": "This company respects gender diversity.",
+     "origin": "authored"
+    },
+    "use": "よく使う意味"
+   }
+  ]
+ }
+]

@@ -14,6 +14,16 @@
       "consistencyFlags": 29
     },
     {
+      "batch": "batch-002",
+      "candidates": 1000,
+      "published": 961,
+      "acceptedAsWritten": 945,
+      "skippedByAuthor": 37,
+      "fixedByReviewer": 16,
+      "rejectedByReviewer": 2,
+      "consistencyFlags": 30
+    },
+    {
       "batch": "editorial-001",
       "candidates": 70,
       "published": 69,
@@ -28,10 +38,20 @@
       "published": 2,
       "acceptedAsWritten": 2,
       "consistencyFlags": 0
+    },
+    {
+      "batch": "editorial-003",
+      "candidates": 86,
+      "published": 79,
+      "acceptedAsWritten": 66,
+      "fixedByReviewer": 13,
+      "skippedByAuthor": 6,
+      "rejectedByReviewer": 1,
+      "consistencyFlags": 0
     }
   ],
-  "published": 1061,
-  "general": 1030,
-  "slang": 31,
-  "senses": 1288
+  "published": 2101,
+  "general": 2046,
+  "slang": 55,
+  "senses": 2497
 }

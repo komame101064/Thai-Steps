@@ -1,0 +1,226 @@
+[
+ {
+  "id": "tl-60033",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60034",
+  "verdict": "fix",
+  "issues": [
+   "品詞は名詞だが例文「ต้องมูเตลูหน่อย」は動詞的用法で不一致。動詞的には短縮形「มู」（ต้องมูหน่อย）が普通なので、名詞用法の例文に差し替え",
+   "注の「มูกัน」は「ไปมูกัน」の形に修正"
+  ],
+  "fixed": {
+   "id": "tl-60034",
+   "th": "มูเตลู",
+   "action": "add",
+   "ro": "muu tee luu",
+   "kind": "word",
+   "category": "スラング｜一般",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "開運・おまじない・お守りなどの信仰",
+     "pos": "名詞",
+     "speechStyle": "口語・スラング",
+     "note": "2020年前後から若者の間で広まった語で、占い・パワースポット巡り・お守りなどをまとめて指す。略して「มู」とも言い、「ไปมูกัน」（開運祈願に行こう）のように動詞的にも使う。",
+     "example": {
+      "th": "ช่วงนี้วัยรุ่นชอบเรื่องมูเตลูกันมาก",
+      "ro": "chûuang níi wai rûn chɔ̂ɔp rʉ̂ʉang muu tee luu kan mâak",
+      "ja": "最近、若者の間では開運・おまじないの話題が大人気だ。",
+      "context": "流行について友人と話す",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60035",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60036",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60037",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60038",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60039",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60040",
+  "verdict": "reject",
+  "issues": [
+   "ネットスラングとしての「ตึง」は「สายตึง」（不良・強面系）など『強面・ハードな』の意で使われるが、『ガチですごい』というほめ言葉としての意味範囲と「ตึงจัด」が多いという記述を確認できない。本義『張りつめた・険悪な』との取り違えのおそれもあり登録しない"
+  ]
+ },
+ {
+  "id": "tl-60041",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60042",
+  "verdict": "fix",
+  "issues": [
+   "流行時期「2021年前後」を断定できないため幅を持たせ、よく使う形「น่ารักตะมุตะมิ」を注に追加"
+  ],
+  "fixed": {
+   "id": "tl-60042",
+   "th": "ตะมุตะมิ",
+   "action": "add",
+   "ro": "tà mú tà mí",
+   "kind": "word",
+   "category": "スラング｜ほめる・反応",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "かわいい（小さくて愛らしい）",
+     "pos": "形容詞・状態語",
+     "speechStyle": "口語・スラング",
+     "note": "2020年代初めにSNSで広まった、かわいさを表すふざけた言い方。「น่ารักตะมุตะมิ」の形も多い。子ども・動物・小物などに使い、今は少し古めに聞こえることもある。",
+     "example": {
+      "th": "น้องหมาตัวนี้ตะมุตะมิมาก",
+      "ro": "nɔ́ɔng mǎa tuua níi tà mú tà mí mâak",
+      "ja": "このワンちゃん、めっちゃかわいい。",
+      "context": "ペットの写真を見せ合う",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60043",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60044",
+  "verdict": "fix",
+  "issues": [
+   "単独の「ก็โป๊ะ」で文を終えるより定型の「โป๊ะแตก」の方が自然なので例文を修正（訳はそのまま）"
+  ],
+  "fixed": {
+   "id": "tl-60044",
+   "th": "โป๊ะ",
+   "action": "add",
+   "ro": "pó",
+   "kind": "word",
+   "category": "スラング｜友達の日常",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（ウソ・隠し事が）バレる",
+     "pos": "動詞",
+     "speechStyle": "口語・スラング",
+     "note": "「โป๊ะแตก」の形でもよく使う。ウソ、加工写真、隠し事などが露見すること。本来の「浮き桟橋」などの意味とは別。",
+     "example": {
+      "th": "โกหกได้แค่วันเดียวก็โป๊ะแตก",
+      "ro": "koo hòk dâai khɛ̂ɛ wan diiao kɔ̂ɔ pó tɛ̀ɛk",
+      "ja": "ウソは一日しかもたずにバレた。",
+      "context": "友人の失敗談",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60045",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60046",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60047",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60049",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60050",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60053",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60054",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60056",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60057",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60059",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60060",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60061",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60062",
+  "verdict": "ok",
+  "issues": []
+ }
+]

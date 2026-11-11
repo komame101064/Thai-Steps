@@ -12,10 +12,15 @@ not a fact. Check that the word really exists in this spelling and really means 
 Thai. If it does not, or you cannot tell, skip it (`"action":"skip"` with a Japanese reason).
 Never invent or "fix" a word into something that exists but means something else.
 
-This batch is about sexual and romantic vocabulary for adult learners: describe it plainly and
+editorial-001/002 are about sexual and romantic vocabulary for adult learners: describe it plainly and
 accurately, like a good dictionary, with honest register labels. No euphemism in the Japanese
 glosses beyond what the Thai itself carries, and no sensationalism. Slurs and words that can be
 offensive must say so in `note`.
+
+editorial-003 is about recent vocabulary (generations, SNS, online life, scams, recent social
+topics) and current youth/net slang. Loanwords: give the spelling Thais actually use most and
+mention common variants in `note`. Slang that is a passing fad or already dated must say so in
+`note` (e.g. 「2020年前後の流行語。今は少し古い」). Do not register a fad you cannot confirm.
 
 ## Output entries
 
@@ -28,11 +33,12 @@ Same shape as SPEC.md, with these differences:
 - `general` deck entries: exactly the SPEC.md schema (category, register pairs, pos lists).
   Medical/formal words use 改まった表現; colloquial ones 口語.
 - `slang` deck entries:
-  - `category`: one of スラング｜下ネタ, スラング｜恋愛・人間関係, スラング｜誘う・返す, スラング｜差別的表現.
+  - `category`: one of スラング｜下ネタ, スラング｜恋愛・人間関係, スラング｜誘う・返す, スラング｜差別的表現,
+    スラング｜一般, スラング｜ネット・SNS, スラング｜ほめる・反応, スラング｜友達の日常, スラング｜気持ち.
   - `adult`: true for sexual content, false otherwise.
   - `tags`: subset of ["colloquial","vulgar","slang"].
   - each sense: `sourceSense`, `ja`, `pos` (SPEC list), `speechStyle` — one of
-    口語, 口語・スラング, 粗い口語, 口語・性的な話題, かなり粗い・性的な俗語, 標準語・性的な話題, 差別的な罵り（理解用） —
+    口語, 口語・スラング, 粗い口語, 口語・性的な話題, かなり粗い・性的な俗語, 標準語・性的な話題, 差別的な罵り（理解用）, ネット表記 —
     and a required Japanese `note` (who says it, to whom, how strong it is, what it is not).
     `en` may be omitted. The example has `th`, `ro`, `ja`, `context` (a short Japanese scene,
     e.g. 「友人同士の恋愛話」) and `"origin":"authored"`. No `use`/`registerTags` on slang senses.
