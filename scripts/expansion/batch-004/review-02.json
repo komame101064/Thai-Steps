@@ -1,0 +1,980 @@
+[
+ {
+  "id": "tl-27350",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27352",
+  "verdict": "fix",
+  "issues": [
+   "例文の訳「マムアンマン種のマンゴー」が不自然・不明瞭なため訳を修正（読み・語義は正しい：ต่อตา＝芽接ぎ、tɔ̀ɔ taa）"
+  ],
+  "fixed": {
+   "id": "tl-27352",
+   "th": "ต่อตา",
+   "action": "add",
+   "ro": "tɔ̀ɔ taa",
+   "kind": "word",
+   "category": "仕事・学習",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "芽接ぎする（接ぎ木の一種）",
+     "en": "to graft by budding",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาต่อตามะม่วงเปรี้ยวกับมะม่วงมัน",
+      "ro": "khǎo tɔ̀ɔ taa má mûuang prîiao kàp má mûuang man",
+      "ja": "彼は酸っぱいマンゴーとマムアン・マン（青いうちに食べる甘い品種）を芽接ぎした。",
+      "en": "He bud-grafted a sour mango with a 'mamuang man' mango.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27353",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27354",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27355",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27356",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルの note は公開されないため、語義2の note に移動",
+   "語義2の出典例文（妊婦の殺害）が暴力的なため、中立的な自作例文に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-27356",
+   "th": "ทมิฬ",
+   "action": "add",
+   "ro": "thá min",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "タミル（民族・言語）",
+     "en": "Tamil",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ภาษาทมิฬใช้กันมากทางใต้ของอินเดีย",
+      "ro": "phaa sǎa thá min chái kan mâak thaang tâi khɔ̌ɔng in diia",
+      "ja": "タミル語はインド南部で多く使われている。",
+      "en": "Tamil is widely used in southern India.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "冷酷な・残忍な（主に ใจทมิฬ の形で）",
+     "en": "cruel, ruthless",
+     "pos": "形容詞・状態語",
+     "use": "少なめの用法",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาเป็นคนใจทมิฬ ไม่เคยสงสารใคร",
+      "ro": "khǎo pen khon cai thá min mâi khəəi sǒng sǎan khrai",
+      "ja": "彼は冷酷な人で、誰かを哀れむことなど一度もない。",
+      "en": "He is a cold-hearted person who never takes pity on anyone.",
+      "origin": "authored"
+     },
+     "note": "「残忍な」の意味は主に ใจทมิฬ（冷酷な心）や ทมิฬหินชาติ の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27357",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルの note は公開されないため、語義1の note に移動"
+  ],
+  "fixed": {
+   "id": "tl-27357",
+   "th": "ทลาย",
+   "action": "add",
+   "ro": "thá laai",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "崩れる・崩す（壁・山などが）",
+     "en": "to collapse; to break down",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "กำแพงเก่าทลายลงมาเพราะฝนตกหนัก",
+      "ro": "kam phɛɛng kào thá laai long maa phrɔ́ fǒn tòk nàk",
+      "ja": "大雨で古い塀が崩れ落ちた。",
+      "en": "The old wall collapsed because of the heavy rain.",
+      "origin": "authored"
+     },
+     "note": "พังทลาย（崩壊する）の形でもよく使う。"
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（犯罪の拠点を）摘発する・壊滅させる",
+     "en": "to raid, bust (a criminal base)",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ตำรวจทลายแหล่งผลิตยาเสพติด",
+      "ro": "tam rùuat thá laai lɛ̀ng phà lìt yaa sèep tìt",
+      "ja": "警察が麻薬の製造拠点を摘発した。",
+      "en": "The police busted a drug production site.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27358",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルの note は公開されないため、語義1の note に移動"
+  ],
+  "fixed": {
+   "id": "tl-27358",
+   "th": "ทะมึน",
+   "action": "add",
+   "ro": "thá mʉn",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "黒々とした・暗くそびえる",
+     "en": "dark and looming",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "literary"
+     ],
+     "speechStyle": "文語",
+     "example": {
+      "th": "ท้องฟ้ามีเมฆดำทะมึน",
+      "ro": "thɔ́ɔng fáa mii mêek dam thá mʉn",
+      "ja": "空に黒々とした雲が広がっている。",
+      "en": "There are dark, looming clouds in the sky.",
+      "origin": "authored"
+     },
+     "note": "主に書き言葉の描写で、ดำทะมึน（黒々とした）の形が多い。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27360",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27361",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27362",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルの note は公開されないため、語義1の note に移動"
+  ],
+  "fixed": {
+   "id": "tl-27362",
+   "th": "ที่ว่าการ",
+   "action": "add",
+   "ro": "thîi wâa kaan",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "役所（郡役所など）",
+     "en": "government office",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ที่ว่าการอำเภออยู่ใกล้ตลาด",
+      "ro": "thîi wâa kaan am phəə yùu klâi tà làat",
+      "ja": "郡役所は市場の近くにあります。",
+      "en": "The district office is near the market.",
+      "origin": "authored"
+     },
+     "note": "主に ที่ว่าการอำเภอ（郡役所）の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27363",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27364",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27365",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27366",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27368",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27369",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27370",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27371",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27372",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27373",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27374",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27375",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27376",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27377",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27378",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27379",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27380",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルの note は公開されないため、語義1の note に移動"
+  ],
+  "fixed": {
+   "id": "tl-27380",
+   "th": "ปฏิสันถาร",
+   "action": "add",
+   "ro": "pà tì sǎn thǎan",
+   "kind": "word",
+   "category": "挨拶・会話",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（来客への）あいさつ・応対",
+     "en": "greeting and receiving guests",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "การปฏิสันถารที่ดีทำให้แขกประทับใจ",
+      "ro": "kaan pà tì sǎn thǎan thîi dii tham hâi khɛ̀ɛk prà tháp cai",
+      "ja": "よい応対は客に好印象を与える。",
+      "en": "Good hospitality makes a good impression on guests.",
+      "origin": "authored"
+     },
+     "note": "改まった語。王族については พระราชปฏิสันถาร を使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27381",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルの note は公開されないため、語義1の note に移動"
+  ],
+  "fixed": {
+   "id": "tl-27381",
+   "th": "ประจวบ",
+   "action": "add",
+   "ro": "prà cùuap",
+   "kind": "word",
+   "category": "時間",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（偶然）重なる・かち合う",
+     "en": "to coincide",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "เวลาบรรยายทั้งสองวิชาประจวบกันพอดี",
+      "ro": "wee laa ban yaai tháng sɔ̌ɔng wí chaa prà cùuap kan phɔɔ dii",
+      "ja": "二つの科目の講義時間がちょうど重なった。",
+      "en": "The lecture times of the two subjects happened to coincide.",
+      "origin": "source"
+     },
+     "note": "ประจวบเหมาะ（ちょうどよく重なる）の形でもよく使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27382",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27383",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27384",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27385",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27386",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27387",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27388",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルの note は公開されないため、語義1の note に移動"
+  ],
+  "fixed": {
+   "id": "tl-27388",
+   "th": "ปอ",
+   "action": "add",
+   "ro": "pɔɔ",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ジュート・ケナフ（繊維を取る植物）",
+     "en": "jute, kenaf",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เชือกเส้นนี้ทำจากปอ",
+      "ro": "chʉ̂ʉak sên níi tham càak pɔɔ",
+      "ja": "このロープはジュートでできている。",
+      "en": "This rope is made of jute.",
+      "origin": "authored"
+     },
+     "note": "「トンボ」は แมลงปอ と言う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27389",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27390",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27391",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27392",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27393",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27394",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27395",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27396",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27397",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27398",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27399",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27400",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27401",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27402",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27403",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27405",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27406",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27407",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルの note は公開されないため、語義1の note に移動"
+  ],
+  "fixed": {
+   "id": "tl-27407",
+   "th": "ฟอด",
+   "action": "add",
+   "ro": "fɔ̂ɔt",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "チュッ（キスの音）",
+     "en": "smack (sound of a kiss)",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "พ่อหอมแก้มลูกสาวเสียงดังฟอด เพราะคิดถึงมาก",
+      "ro": "phɔ̂ɔ hɔ̌ɔm kɛ̂ɛm lûuk sǎao sǐiang dang fɔ̂ɔt phrɔ́ khít thʉ̌ng mâak",
+      "ja": "父は娘がとても恋しくて、頬にチュッと音を立ててキスをした。",
+      "en": "The father kissed his daughter's cheek with a loud smack because he missed her so much.",
+      "origin": "source"
+     },
+     "note": "擬音語。主に เสียงดังฟอด の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27408",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27409",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27410",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27411",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27412",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルの note は公開されないため、語義1の note に移動"
+  ],
+  "fixed": {
+   "id": "tl-27412",
+   "th": "ยิบ",
+   "action": "add",
+   "ro": "yíp",
+   "kind": "word",
+   "category": "量・程度・比較",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（細かさを強めて）事細かに・びっしり",
+     "en": "minutely (intensifier)",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ทนายเขียนเงื่อนไขของสัญญาไว้อย่างละเอียดยิบ",
+      "ro": "thá naai khǐian ngʉ̂ʉan khǎi khɔ̌ɔng sǎn yaa wái yàang lá ìiat yíp",
+      "ja": "弁護士は契約の条件を事細かに書いておいた。",
+      "en": "The lawyer wrote out the terms of the contract in minute detail.",
+      "origin": "source"
+     },
+     "note": "単独では使わず、主に ละเอียดยิบ（非常に細かい）の形で使う強調語。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27413",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27414",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27415",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27416",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27418",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27419",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27420",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27421",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルの note は公開されないため、語義1の note に移動",
+   "読み rʉ́ sǐi（รึ-สี）は綴り・標準発音どおりで正しい（ฤๅษี は rʉʉ sǐi）"
+  ],
+  "fixed": {
+   "id": "tl-27421",
+   "th": "ฤษี",
+   "action": "add",
+   "ro": "rʉ́ sǐi",
+   "kind": "word",
+   "category": "人・家族",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "仙人・隠者（修行者）",
+     "en": "hermit, sage",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ในนิทานมีฤษีอาศัยอยู่ในป่า",
+      "ro": "nai ní thaan mii rʉ́ sǐi aa sǎi yùu nai pàa",
+      "ja": "その昔話では、仙人が森に住んでいる。",
+      "en": "In the tale, a hermit lives in the forest.",
+      "origin": "authored"
+     },
+     "note": "ฤๅษี とも書く。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27422",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27423",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27424",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27425",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27426",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27427",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27428",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27429",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27430",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27431",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27432",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27433",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルの note は公開されないため、語義1の note に移動"
+  ],
+  "fixed": {
+   "id": "tl-27433",
+   "th": "วิริยะ",
+   "action": "add",
+   "ro": "wí rí yá",
+   "kind": "word",
+   "category": "仕事・学習",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "勤勉さ・たゆまぬ努力",
+     "en": "diligence, perseverance",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "เขาทำงานด้วยความวิริยะอุตสาหะ",
+      "ro": "khǎo tham ngaan dûuai khwaam wí rí yá ùt sǎa hà",
+      "ja": "彼はたゆまず勤勉に働いた。",
+      "en": "He worked with diligence and perseverance.",
+      "origin": "authored"
+     },
+     "note": "主に วิริยะอุตสาหะ（勤勉努力）の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27434",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27436",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27437",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27439",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルの note は公開されないため、語義1の note に移動"
+  ],
+  "fixed": {
+   "id": "tl-27439",
+   "th": "สังขาร",
+   "action": "add",
+   "ro": "sǎng khǎan",
+   "kind": "word",
+   "category": "体・健康",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（老いていく）体・肉体",
+     "en": "body (as it ages)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "อายุมากแล้ว สังขารก็ไม่เหมือนเดิม",
+      "ro": "aa yú mâak lɛ́ɛo sǎng khǎan kɔ̂ɔ mâi mʉ̌ʉan dəəm",
+      "ja": "年を取ったので、体は昔のようにはいかない。",
+      "en": "I'm getting old, and my body isn't what it used to be.",
+      "origin": "authored"
+     },
+     "note": "仏教語では「無常な現象・形成されたもの」の意。ละสังขาร は高僧が亡くなることをいう。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27440",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27441",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27442",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27443",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27444",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27445",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27446",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27448",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27449",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27450",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27451",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27452",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27453",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルの note は公開されないため、語義1の note に移動"
+  ],
+  "fixed": {
+   "id": "tl-27453",
+   "th": "หลักแหล่ง",
+   "action": "add",
+   "ro": "làk lɛ̀ng",
+   "kind": "word",
+   "category": "家・場所",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "決まった住まい・定まった居場所",
+     "en": "fixed abode, settled place",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาไม่มีที่อยู่เป็นหลักแหล่ง",
+      "ro": "khǎo mâi mii thîi yùu pen làk lɛ̀ng",
+      "ja": "彼には決まった住まいがない。",
+      "en": "He has no fixed address.",
+      "origin": "authored"
+     },
+     "note": "主に เป็นหลักแหล่ง（定まって・腰を落ち着けて）の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27454",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27455",
+  "verdict": "fix",
+  "issues": [
+   "例文「ในหลืบหลังตู้」はやや不自然。慣用的な ซอกหลืบ を使う例文に差し替え、noteを追加"
+  ],
+  "fixed": {
+   "id": "tl-27455",
+   "th": "หลืบ",
+   "action": "add",
+   "ro": "lʉ̀ʉp",
+   "kind": "word",
+   "category": "家・場所",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "奥まった隙間・物陰",
+     "en": "recess, nook",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แมวชอบซ่อนตัวอยู่ตามซอกหลืบในบ้าน",
+      "ro": "mɛɛo chɔ̂ɔp sɔ̂ɔn tuua yùu taam sɔ̂ɔk lʉ̀ʉp nai bâan",
+      "ja": "猫は家の中の隙間や物陰に隠れるのが好きだ。",
+      "en": "Cats like to hide in the nooks and crannies of the house.",
+      "origin": "authored"
+     },
+     "note": "単独より ซอกหลืบ（隙間・物陰）の形でよく使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27456",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27457",
+  "verdict": "ok",
+  "issues": []
+ }
+]
