@@ -212,3 +212,45 @@ footer{color:var(--x-muted);font-size:11px}
 .x-course-chapter h2{align-items:center}
 .x-course-chapter h2 .x-chapter-icon{width:30px;height:30px;border-radius:8px;flex:none}
 .x-course-chapter h2 .x-chapter-icon .ui-icon{width:17px;height:17px}
+.word-audio{display:flex;flex-wrap:wrap;gap:5px;margin-top:4px}
+.word-audio button{display:inline-flex;align-items:center;gap:3px;min-height:26px;padding:2px 8px;border:1px solid #cfdcc8;border-radius:999px;background:#f3f7ee;color:var(--x-green,#203e38);font-size:11px;font-weight:600;cursor:pointer}
+.word-audio button .ui-icon,.word-audio button svg{width:13px;height:13px}
+.word-audio button.is-slow{background:transparent}
+/* Romanization first: wherever Thai and its tone-marked romanization are stacked, the romanization is the main
+   line and the Thai script is a smaller caption above it. */
+html body .example .th,html body .anatomy-th,html body .word-th,html body .w-example-th{color:#6c7f63;font-weight:400;letter-spacing:0}
+html body .example .ro,html body .anatomy-ro,html body .word-ro,html body .w-example-ro,html body .w-detail-ro,html body .w-flash-ro{color:var(--x-green);font-family:'Steps Latin',sans-serif;font-weight:650;overflow-wrap:anywhere}
+html body .example .th{font-size:16px;line-height:1.6;margin:0}
+html body .example .ro{font-size:21px;line-height:1.45;margin:2px 0 10px;letter-spacing:.005em}
+html body .example-number{font-size:10px;letter-spacing:.08em;color:#8a9a80;margin-bottom:6px}
+html body .example-line{align-items:center;gap:12px}
+html body .example-line>div:last-child{display:flex;flex-direction:column;align-items:center;gap:4px;flex:none}
+html body .speak{font-size:12px;padding:7px 12px}
+html body .slow{font-size:11px;margin:0;padding:3px 6px;color:#5d6f55}
+html body .anatomy-th{font-size:13px;line-height:1.6;padding:8px 10px 0}
+html body .anatomy-ro{font-size:16px;line-height:1.4;padding:1px 10px 10px}
+html body .word-th{font-size:14px;line-height:1.55}
+html body .word-ro{font-size:17px;line-height:1.35}
+html body .w-detail-head h1{font-size:22px;line-height:1.6;margin:2px 0 0;color:#6c7f63;font-weight:500}
+html body .w-detail-ro{font-size:30px;line-height:1.3;margin-bottom:8px}
+html body .w-detail-audio{display:flex;flex-direction:row;gap:6px;padding-top:22px}
+html body .w-detail-audio .w-audio{font-size:11px;padding:7px 10px}
+html body .w-flash-th{display:block;font-size:22px;line-height:1.6;color:#6c7f63;margin:0}
+html body .w-flash-ro{display:block;font-size:32px;line-height:1.35;margin:2px 0 12px}
+html body .w-quiz-card .w-flash-th{font-size:18px}
+html body .w-quiz-card .w-flash-ro{font-size:25px}
+html body .w-example-th{font-size:15px;line-height:1.6;margin:0}
+html body .w-example-ro{font-size:18px;line-height:1.45;margin:2px 0 6px}
+@media(max-width:650px){
+ html body .example .ro{font-size:19px}
+ html body .w-detail-ro{font-size:27px}
+ html body .w-flash-ro{font-size:28px}
+ html body .w-detail-head{flex-wrap:wrap}
+ html body .w-detail-audio{padding-top:0;width:100%}
+}
+html body .word-audio{flex-wrap:nowrap;gap:4px;margin-top:6px}
+html body .word-audio button{min-height:26px;padding:2px 9px;font-size:10px}
+html body .word-audio button:first-child{width:30px;padding:0;justify-content:center}
+html body .word-item{align-items:start;padding:12px 12px}
+html body .word-meaning b{font-size:14px;color:var(--x-ink)}
+html body .word-role{font-size:10px;padding:1px 6px}
