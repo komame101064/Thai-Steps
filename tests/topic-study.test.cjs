@@ -5,12 +5,21 @@ const store={};const ctx={console,window:{scrollTo(){}},document:{querySelector:
 vm.createContext(ctx);
 for(const n of ['data','expansion','readings','vocabulary','structures','kana-search','word-topics','words-app'])vm.runInContext(fs.readFileSync('dist/'+n+'.js','utf8'),ctx);
 vm.runInContext(fs.readFileSync('dist/app.js','utf8').split("window.addEventListener('hashchange'")[0],ctx);
-vm.runInContext("render=()=>{};toast=()=>{};this.t={TOPIC_ICONS,wordTopics,topicGrid,topicHub,topicStats,topicNextWords,startGuidedStep,answerStepTask,nextStepTask,stepSessionView,getStep:()=>stepSession,exitStepSession,wordRec,loadWordBank,setWordTopic,setWordDeck,getBank:()=>bank,getState:()=>wordState,sanitizeWordState,senses:WORD_TOPIC_SENSES,index:WORD_TOPIC_INDEX}",ctx);
+vm.runInContext("render=()=>{};toast=()=>{};this.t={slangTopics,PHRASE_SCENES,isPhrase,phraseScene,selectedWords,openWord,wordDetail,setPhrase:q=>{phraseQuery=q},getDeck:()=>wordDeck,setLevel:setWordLevel,TOPIC_ICONS,wordTopics,topicGrid,topicHub,topicStats,topicNextWords,startGuidedStep,answerStepTask,nextStepTask,stepSessionView,getStep:()=>stepSession,exitStepSession,wordRec,loadWordBank,setWordTopic,setWordDeck,getBank:()=>bank,getState:()=>wordState,sanitizeWordState,senses:WORD_TOPIC_SENSES,index:WORD_TOPIC_INDEX}",ctx);
 (async()=>{const t=ctx.t;await t.loadWordBank();
 // Every theme has its own pictogram, and all pictograms differ.
 const ids=t.wordTopics().map(x=>x.id);assert.equal(ids.length,23);for(const id of ids)assert(t.TOPIC_ICONS[id],'missing pictogram '+id);assert.equal(new Set(ids.map(id=>t.TOPIC_ICONS[id])).size,23);
 // The theme grid: 23 tiles in the general deck, none in the slang deck.
-assert.equal((t.topicGrid().match(/<button class="x-tile/g)||[]).length,23);t.setWordDeck('slang');assert.equal(t.topicGrid(),'');t.setWordDeck('general');
+assert.equal((t.topicGrid().match(/<button class="x-tile/g)||[]).length,23);t.setWordDeck('slang');assert.equal((t.topicGrid().match(/<button class="x-tile/g)||[]).length,12);for(const x of [...t.slangTopics(),...t.PHRASE_SCENES])assert(t.TOPIC_ICONS[x.id]||x.id==='s:trend','missing pictogram '+x.id);
+ // Slang theme steps teach slang words of that category by frequency; the discriminatory category has no step.
+ t.setWordTopic('s:ほめる・反応');t.startGuidedStep('s:ほめる・反応');{const g=t.getStep();assert(g&&g.news.length>0);assert(g.news.every(id=>t.getBank().find(w=>w.id===id).category==='スラング｜ほめる・反応'));t.exitStepSession()}
+ t.setWordTopic('s:差別的表現');assert(!t.topicHub().includes('x-step-go'));t.startGuidedStep('s:差別的表現');assert(!t.getStep()||t.getStep().topic!=='s:差別的表現');t.exitStepSession();
+ // Phrase deck: set phrases only, all ranges, its own search, scenes, and the deck is kept when a phrase is opened.
+ t.setWordDeck('phrase');t.setLevel(500);const ph=t.selectedWords();assert(ph.length>300&&ph.every(w=>t.isPhrase(w)));for(const th of ['สวัสดี','ขอบคุณ','ไม่เป็นไร','ขอโทษ','จริงเหรอ','กี่บาท'])assert(ph.some(w=>w.th===th),th);assert(!ph.some(w=>w.th==='เอา'));
+ assert.equal((t.topicGrid().match(/<button class="x-tile/g)||[]).length,8);assert.equal(t.phraseScene(ph.find(w=>w.th==='สวัสดี')),'p:greet');assert.equal(t.phraseScene(ph.find(w=>w.th==='จริงเหรอ')),'p:ask');
+ t.setPhrase('ありがとう');assert(t.selectedWords().some(w=>w.th==='ขอบคุณ')&&t.selectedWords().length<10);t.setPhrase('');
+ t.openWord(ph.find(w=>w.th==='ขอบคุณ').id);assert.equal(t.getDeck(),'phrase');const det=t.wordDetail();assert(!/お気に入り済み|お気に入り<|復習に登録</.test(det));assert(/aria-pressed="false"[^>]*>[^<]*<svg/.test(det));assert(det.includes('</svg>復習</button>'));
+ t.setLevel(0);t.setWordDeck('general');
 // A theme step teaches unseen words of that theme in frequency order and leaves the global step pointer alone.
 const st=t.getState();st.stepWords=30;const next=t.topicNextWords('food');assert.equal(next.length,10);assert(next.every(w=>t.index[w.id].includes('food')));assert(next.every((w,i)=>i===0||next[i-1].studyRank<w.studyRank));
 const before=t.topicStats().get('food').seen;t.setWordTopic('food');assert(t.topicHub().includes('食べ物・飲み物'));t.startGuidedStep('food');let g=t.getStep();assert.equal(g.topic,'food');
@@ -26,4 +35,4 @@ assert(target,'need a word whose theme sense is not its first sense');
 for(const w of bank)if(w.studyRank&&w.studyRank<target.studyRank&&t.index[w.id]?.includes(topic))st.records[w.id]={...t.wordRec(w.id),seen:1};delete st.records[target.id];
 t.setWordTopic(topic);t.startGuidedStep(topic);g=t.getStep();assert(g.news.includes(target.id));while(g.tasks[g.i].id!==target.id||g.tasks[g.i].type!=='learn'){const task=g.tasks[g.i];if(task.type!=='learn')t.answerStepTask(task.id);t.nextStepTask()}
 const topicSense=target.meanings.find(x=>x.sourceSense===t.senses[target.id][topic][0]);assert(t.stepSessionView().includes(topicSense.ja),'theme sense shown');
-console.log('PASS: theme study — 23 distinct pictograms, theme tiles (general only), theme hub, theme steps by frequency with theme senses, progress from records, global step pointer untouched.');})().catch(e=>{console.error(e);process.exit(1)});
+console.log('PASS: theme study — 23 distinct pictograms, theme tiles for general (23), slang (12) and phrases (8), theme hub, theme steps by frequency with theme senses, progress from records, global step pointer untouched.');})().catch(e=>{console.error(e);process.exit(1)});

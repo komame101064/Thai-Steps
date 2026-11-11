@@ -517,3 +517,13 @@ html body .w-parts-plus{font-weight:700;color:#7d8c74;font-size:18px}
 .w-seg-chip.is-plain{cursor:default;background:transparent;border-style:dashed}
 .w-seg-note{margin:6px 0 0!important;font-size:11px;color:var(--x-muted)}
 .word-dict{display:block;margin-top:6px;font-size:12px;padding:2px 0;color:var(--x-green-2);font-weight:700}
+/* Favorite: star only. Review: icon + 復習. The on state fills the star / tints the button. */
+.btn.x-fav{min-width:46px;padding-left:12px;padding-right:12px;justify-content:center}
+.btn.x-fav.chosen,.btn.x-rev.chosen{background:#f4ecd5;border-color:#c9a95a;color:var(--x-brass)}
+.btn.x-fav.chosen svg{fill:currentColor}
+.w-row-actions .w-iconbtn.on svg{fill:currentColor}
+.w-session-bottom .x-fav,.w-session-bottom .x-rev{min-height:40px}
+.x-topic-caution{margin:10px 0 0;padding:8px 10px;border-radius:10px;background:#f7efe0;color:#6b4a12;font-size:12px;line-height:1.5}
+.x-phrase-search{margin-top:12px}
+.x-phrase-hub .x-topic-actions{margin-top:10px}
+.x-seg button{white-space:nowrap}
