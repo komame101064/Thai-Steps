@@ -20,7 +20,7 @@ assert.equal((t.topicGrid().match(/<button class="x-tile/g)||[]).length,23);t.se
  t.setWordTopic('s:ほめる・反応');t.startGuidedStep('s:ほめる・反応');{const g=t.getStep();assert(g&&g.news.length>0);assert(g.news.every(id=>t.getBank().find(w=>w.id===id).category==='スラング｜ほめる・反応'));t.exitStepSession()}
  t.setWordTopic('s:差別的表現');assert(!t.topicHub().includes('x-step-go'));t.startGuidedStep('s:差別的表現');assert(!t.getStep()||t.getStep().topic!=='s:差別的表現');t.exitStepSession();
  // Phrase deck: set phrases only, all ranges, its own search, scenes, and the deck is kept when a phrase is opened.
- t.setWordDeck('phrase');t.setLevel(500);const ph=t.selectedWords();assert(ph.length>250&&ph.every(w=>t.isPhrase(w)));for(const th of ['สวัสดี','ขอบคุณ','ไม่เป็นไร','ขอโทษ','จริงเหรอ','กี่บาท'])assert(ph.some(w=>w.th===th),th);assert(!ph.some(w=>w.th==='เอา'));
+ t.setWordDeck('phrase');t.setLevel(300);const ph=t.selectedWords();assert(ph.length>250&&ph.every(w=>t.isPhrase(w)));for(const th of ['สวัสดี','ขอบคุณ','ไม่เป็นไร','ขอโทษ','จริงเหรอ','กี่บาท'])assert(ph.some(w=>w.th===th),th);assert(!ph.some(w=>w.th==='เอา'));
  assert.equal((t.topicGrid().match(/<button class="x-tile/g)||[]).length,8);assert.equal(t.phraseScene(ph.find(w=>w.th==='สวัสดี')),'p:greet');assert.equal(t.phraseScene(ph.find(w=>w.th==='จริงเหรอ')),'p:ask');
  t.setPhrase('ありがとう');assert(t.selectedWords().some(w=>w.th==='ขอบคุณ')&&t.selectedWords().length<10);t.setPhrase('');
  t.openWord(ph.find(w=>w.th==='ขอบคุณ').id);assert.equal(t.getDeck(),'phrase');const det=t.wordDetail();assert(!/お気に入り済み|お気に入り<|復習に登録</.test(det));assert(/aria-pressed="false"[^>]*>[^<]*<svg/.test(det));assert(det.includes('</svg>復習</button>'));

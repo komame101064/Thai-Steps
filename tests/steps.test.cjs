@@ -25,6 +25,7 @@ t.getState().stepWords=10;t.startGuidedStep();let g=t.getStep();const n0=g.tasks
 let missedId=null;for(let k=0;k<200&&!g.done;k++){const task=g.tasks[g.i];if(task.type!=='learn'){if(!missedId&&task.type==='recall'){missedId=task.id;t.answerStepTask(g.choices.find(c=>c!==task.id))}else t.answerStepTask(task.id)}t.nextStepTask()}
 assert(g.done);assert.equal(g.tasks.length,n0+1);assert.equal(t.getState().stepWords,20);assert.equal(t.wordRec(missedId).stage,0);
 const okId=g.news.find(id=>id!==missedId);assert.equal(t.wordRec(okId).stage,1);assert(t.wordRec(okId).due>Date.now()+20*3600000);assert(t.stepSessionView().includes('ステップ 2 完了'));
-// A 500-word range ends after 50 steps.
-t.setLevel(500);t.getState().stepWords=500;assert(t.stepPanel().includes('この範囲は完了'));
+// A range's steps teach only that range (日常 = ranks 501-1,000) and the range is done when all its words are seen.
+t.setLevel(1000);t.startGuidedStep('lv:1000');{const g=t.getStep();assert(g.news.length===10&&g.news.every(id=>{const r=t.stepOrder().find(w=>w.id===id).studyRank;return r>300&&r<=1000}))}
+t.setLevel(300);for(const w of t.stepOrder().slice(0,300))t.getState().records[w.id]={...t.wordRec(w.id),seen:1};assert(t.stepPanel().includes('この範囲は完了'));
 console.log('PASS: word steps — frequency order, 10 words per step, full marks advance, daily count and streak, backup-safe state; guided step with both-direction recall, in-session relearning and spaced follow-up.');})().catch(e=>{console.error(e);process.exit(1)});

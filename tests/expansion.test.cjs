@@ -18,8 +18,9 @@ function boot(withMore){const ctx={window:{},localStorage:{getItem:()=>null,setI
  vm.runInContext('this.t={load:loadWordBank,get bank(){return bank},get status(){return bankStatus},selected:selectedWords,setLevel:n=>{wordState.level=n},setQuery:q=>{wordQuery=q},lib:WORD_LIBRARY,topicIds:wordTopicIds}',ctx);return ctx.t}
 (async()=>{const a=boot(false),b=boot(true);await a.load();await b.load();assert.equal(a.status,'ready');assert.equal(b.status,'ready');
  assert.equal(b.bank.length,a.bank.length+more.length+slangMore.length);
- for(const n of [500,1000,3000]){a.setLevel(n);b.setLevel(n);assert.deepEqual(b.selected().map(w=>w.id),a.selected().map(w=>w.id),'level '+n)}
- a.setLevel(5000);b.setLevel(5000);{const orig=a.selected(),five=b.selected(),ids=new Set(five.map(w=>w.id));assert.equal(five.length,5000);assert(orig.every(w=>ids.has(w.id)),'5,000 keeps every original word');const extra=five.filter(w=>w.expansion);assert.equal(extra.length,5000-orig.length);// Additions follow the app's own study order (frequency, then rank), behind every original word.
+ for(const n of [300,1000,2000,3000]){a.setLevel(n);b.setLevel(n);assert.deepEqual(b.selected().map(w=>w.id),a.selected().map(w=>w.id),'level '+n)}
+ {const seen=new Set();let total=0;for(const n of [300,1000,2000,3000,5000]){b.setLevel(n);const ids=b.selected().map(w=>w.id);assert(ids.every(id=>!seen.has(id)),'ranges do not overlap');ids.forEach(id=>seen.add(id));total+=ids.length}b.setLevel(0);assert.equal(total,b.selected().length,'基本＋日常＋会話＋発展＝全部')}
+ a.setLevel(0);b.setLevel(0);{const orig=a.selected(),five=b.selected().filter(w=>w.studyRank<=5000),ids=new Set(five.map(w=>w.id));assert.equal(five.length,5000);assert(orig.every(w=>ids.has(w.id)),'5,000 keeps every original word');const extra=five.filter(w=>w.expansion);assert.equal(extra.length,5000-orig.length);// Additions follow the app's own study order (frequency, then rank), behind every original word.
 const byRank=more.slice().sort((x,y)=>y.frequency-x.frequency||x.corpusRank-y.corpusRank||x.id.localeCompare(y.id)).slice(0,extra.length).map(w=>w.id).sort();assert.deepEqual(extra.map(w=>w.id).sort(),byRank)}
  a.setLevel(0);b.setLevel(0);assert.equal(b.selected().length,a.selected().length+more.length);
  assert.equal(b.lib.unique,new Set(b.bank.map(w=>w.th)).size);
