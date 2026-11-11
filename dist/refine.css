@@ -177,9 +177,9 @@ footer{color:var(--x-muted);font-size:11px}
 .w-list-divider:first-child{border-top:0;border-radius:12px 12px 0 0}
 .w-row-meaning .w-en{display:block;margin:2px 0 0;font-size:12px;color:var(--x-muted);font-family:'Steps Latin',sans-serif;white-space:normal}
 
-/* Six study ranges: the range row spans the panel; a 3 x 2 grid on phones. */
+/* Study ranges: the range row spans the panel; on phones five equal two-line chips in one row. */
 .x-panel .x-levels{grid-column:1/-1}
 .x-levels .x-chips button{display:inline-flex;align-items:baseline;gap:5px}
 .x-levels .x-chips button span{font-size:12px;font-weight:600}
 .x-levels .x-chips button b{font-weight:inherit}
-@media(max-width:650px){.x-levels .x-chips{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.x-levels .x-chips button{flex-direction:column;align-items:center;justify-content:center;gap:0;height:auto;min-height:46px;padding:4px 2px;line-height:1.3;border-radius:12px}.x-levels .x-chips button span{font-size:11px}.x-levels .x-chips button small{display:inline;margin-left:1px}}
+@media(max-width:650px){.x-levels .x-chips{display:grid;grid-template-columns:repeat(5,1fr);gap:4px}.x-levels .x-chips button{flex-direction:column;align-items:center;justify-content:center;gap:0;height:auto;min-height:46px;padding:4px 0;line-height:1.3;border-radius:12px;font-size:12px}.x-levels .x-chips button span{font-size:11px}.x-levels .x-chips button small{display:inline;margin-left:1px;font-size:9px}}
