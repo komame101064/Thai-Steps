@@ -3,7 +3,8 @@ function icon(name){return `<svg class="ui-icon" viewBox="0 0 24 24" fill="none"
 const $=s=>document.querySelector(s),KEY='thai-steps-v1';
 const fresh=()=>({done:[],saved:[],wrong:[],missed:[],passed:[],speed:0.85,voice:'',hideTranslation:false});
 let state=fresh(),storageOK=true;try{state={...fresh(),...JSON.parse(localStorage.getItem(KEY)||'{}')}}catch(e){storageOK=false}
-if(!Array.isArray(state.missed))state.missed=(state.wrong||[]).map(id=>id+':0');
+// Older records keep only lesson ids in wrong; their missed question is the lesson's first one.
+if(!Array.isArray(state.missed))state.missed=[];for(const id of state.wrong||[])if(!state.missed.some(k=>k.split(':')[0]===String(id)))state.missed.push(id+':0');
 let view=location.hash==='#words'?'words':'home',current=1,moduleFilter='all',search='',quiz=null,voices=[],toastTimer;
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){storageOK=false;toast('学習記録を保存できません。設定からデータを書き出してください。')}}
@@ -39,7 +40,7 @@ function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Ma
 // Each lesson has 10 check questions: the original one (index 0) plus nine in lesson-quizzes.js.
 // Answering all 10 of a lesson in one run completes the lesson (履修済み). Missed questions are kept as "id:index".
 const THAI_CHAR=/[฀-๿]/;
-function lessonQuestions(id){const l=lessons[id-1],x=typeof LESSON_QUIZZES==='undefined'?null:LESSON_QUIZZES[id];return [{q:l.q,options:l.options.map((o,i)=>THAI_CHAR.test(o)?{th:o,ro:x?.existingRo?.[i]||''}:{ja:o}),answer:l.answer,why:l.why},...(x?.questions||[])]}
+function lessonQuestions(id){const l=lessons[id-1],x=typeof LESSON_QUIZZES==='undefined'?null:LESSON_QUIZZES[id];return [{q:l.q,options:l.options.map((o,i)=>(x?.existingRo?x.existingRo[i]:THAI_CHAR.test(o))?{th:o,ro:x?.existingRo?.[i]||''}:{ja:o}),answer:l.answer,why:l.why},...(x?.questions||[])]}
 function quizItem(key){const [id,k]=String(key).split(':').map(Number);return {id,k:k||0,key:`${id}:${k||0}`}}
 function syncWrong(){state.missed=[...new Set(state.missed)].filter(key=>{const x=quizItem(key);return lessons[x.id-1]&&lessonQuestions(x.id)[x.k]});state.wrong=[...new Set(state.missed.map(key=>quizItem(key).id))]}
 function startLessonQuiz(id){startQuiz(lessonQuestions(id).map((_,k)=>`${id}:${k}`),'lesson')}

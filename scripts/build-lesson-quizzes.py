@@ -13,7 +13,8 @@ THAI=re.compile(r'[฀-๿]')
 out={};errors=[]
 def check_ro(ro,where):
     for s in ro.replace('＿＿',' ').replace('？',' ').replace('?',' ').replace('/',' ').split():
-        base,_,n=V.split_tone(s.strip('.,!'))
+        if not re.search(r'[a-zɛɔəʉ]',s):continue  # punctuation such as ― or …
+        base,_,n=V.split_tone(s.strip('.,!…「」'))
         if base and not V.SYL.match(base):errors.append(f'{where}: ro syllable "{s}"')
 for f in sorted(D.glob('quiz-*.json')):
     data=json.loads(f.read_text());rev={}
