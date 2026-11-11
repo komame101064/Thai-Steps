@@ -32,6 +32,7 @@
 
 - 文法の保存キー：`thai-steps-v1`
 - 単語の保存キー：`thai-steps-words-v1`
+- 文字学習の保存キー：`thai-steps-script-v1`（課ID s01…）
 
 ユーザー個人の学習記録はブラウザのlocalStorageにあり、このZIPには入っていません。アプリ設定の書き出し・読み込み機能を残してください。
 
