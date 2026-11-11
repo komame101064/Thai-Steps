@@ -1,19 +1,23 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert');const read=n=>JSON.parse(fs.readFileSync('dist/'+n,'utf8'));
-const core=read('word-bank.json'),slang=read('slang-bank.json'),more=read('word-bank-more.json'),moreEx=read('more-examples.json'),report=read('expansion-review.json');
+const core=read('word-bank.json'),slang=read('slang-bank.json'),more=read('word-bank-more.json'),slangMore=fs.existsSync('dist/slang-bank-more.json')?read('slang-bank-more.json'):[],moreEx=read('more-examples.json'),report=read('expansion-review.json');
 // Additions never touch the original records, ids or headwords.
 assert.equal(core.length,5000);const ids=new Set([...core,...slang].map(w=>w.id)),ths=new Set([...core,...slang].map(w=>w.th));
 let senses=0;for(const w of more){assert(/^tl-\d{5}$/.test(w.id)&&!ids.has(w.id),w.id);ids.add(w.id);assert(!ths.has(w.th),w.th+' already registered');ths.add(w.th);
- assert.equal(w.frequencyEstimated,true);assert.equal(w.frequencyBasis,'textbook');assert(w.frequency>=1&&w.frequency<=5);assert.equal(w.bucket,20000);assert(w.expansion&&w.source);
+ const ed=w.source==='thai-steps-editorial';assert.equal(w.frequencyEstimated,true);assert.equal(w.frequencyBasis,ed?'editorial':'textbook');assert(w.frequency>=1&&w.frequency<=(ed?10:5));assert(ed?/^tl-5/.test(w.id):/^tl-4/.test(w.id),w.id);assert.equal(w.bucket,20000);assert(w.expansion&&w.source);
  for(const m of w.meanings){senses++;const e=moreEx[w.id+'#'+m.sourceSense];assert(e&&e.th.includes(w.th)&&e.ro&&e.ja&&e.en,w.id);assert.equal(m.reviewStatus,'reviewed');assert(/AI/.test(m.reviewMethod));assert(['newthai-v2.4','thai-steps-'+w.expansion].includes(e.sourceExample))}}
-assert.equal(Object.keys(moreEx).length,senses);assert.equal(report.published,more.length);assert.equal(report.senses,senses);assert.equal(report.nativeReview,false);
-assert.equal(report.batches.reduce((n,b)=>n+b.published,0),more.length);for(const b of report.batches)assert.equal(b.unreviewed||0,0,'every authored entry must be reviewed before a batch ships');
+// Editorial slang additions: their own id range, slang-list fields, a scene for every example, no duplicate of an existing slang item.
+const slangTh=new Set(slang.map(w=>w.th));for(const w of slangMore){assert(/^tl-6\d{4}$/.test(w.id)&&!ids.has(w.id),w.id);ids.add(w.id);assert(!slangTh.has(w.th),w.th+' already a slang item');slangTh.add(w.th);
+ assert.equal(w.collection,'slang');assert.equal(typeof w.adult,'boolean');assert.equal(w.frequencyBasis,'editorial');assert(/^スラング｜/.test(w.category));
+ for(const m of w.meanings){senses++;const e=moreEx[w.id+'#'+m.sourceSense];assert(e&&e.th.includes(w.th)&&e.ro&&e.ja&&e.context,w.id);assert(m.isSlang&&m.note&&m.speechStyle);assert.equal(m.reviewStatus,'reviewed')}}
+assert.equal(Object.keys(moreEx).length,senses);assert.equal(report.published,more.length+slangMore.length);assert.equal(report.senses,senses);assert.equal(report.nativeReview,false);
+assert.equal(report.batches.reduce((n,b)=>n+b.published,0),more.length+slangMore.length);for(const b of report.batches)assert.equal(b.unreviewed||0,0,'every authored entry must be reviewed before a batch ships');
 // App: additions load, are searchable, and leave the 500/1,000/3,000 study ranges unchanged.
-const files={'word-bank.json':core,'slang-bank.json':slang,'word-bank-more.json':more};
-function boot(withMore){const ctx={window:{},localStorage:{getItem:()=>null,setItem(){}},fetch:async u=>u in files&&(withMore||u!=='word-bank-more.json')?{ok:true,json:async()=>files[u]}:{ok:false},view:'home',render(){},esc:s=>String(s),icon:()=>'',toast(){}};vm.createContext(ctx);
+const files={'word-bank.json':core,'slang-bank.json':slang,'word-bank-more.json':more,'slang-bank-more.json':slangMore};
+function boot(withMore){const ctx={window:{},localStorage:{getItem:()=>null,setItem(){}},fetch:async u=>u in files&&(withMore||!/-more\.json$/.test(u))?{ok:true,json:async()=>files[u]}:{ok:false},view:'home',render(){},esc:s=>String(s),icon:()=>'',toast(){}};vm.createContext(ctx);
  for(const n of ['kana-search','word-topics','word-origins','words-app'])vm.runInContext(fs.readFileSync('dist/'+n+'.js','utf8'),ctx);
  vm.runInContext('this.t={load:loadWordBank,get bank(){return bank},get status(){return bankStatus},selected:selectedWords,setLevel:n=>{wordState.level=n},setQuery:q=>{wordQuery=q},lib:WORD_LIBRARY,topicIds:wordTopicIds}',ctx);return ctx.t}
 (async()=>{const a=boot(false),b=boot(true);await a.load();await b.load();assert.equal(a.status,'ready');assert.equal(b.status,'ready');
- assert.equal(b.bank.length,a.bank.length+more.length);
+ assert.equal(b.bank.length,a.bank.length+more.length+slangMore.length);
  for(const n of [500,1000,3000]){a.setLevel(n);b.setLevel(n);assert.deepEqual(b.selected().map(w=>w.id),a.selected().map(w=>w.id),'level '+n)}
  a.setLevel(5000);b.setLevel(5000);{const orig=a.selected(),five=b.selected(),ids=new Set(five.map(w=>w.id));assert.equal(five.length,5000);assert(orig.every(w=>ids.has(w.id)),'5,000 keeps every original word');const extra=five.filter(w=>w.expansion);assert.equal(extra.length,5000-orig.length);const byRank=more.slice().sort((x,y)=>x.corpusRank-y.corpusRank).slice(0,extra.length).map(w=>w.id).sort();assert.deepEqual(extra.map(w=>w.id).sort(),byRank)}
  a.setLevel(0);b.setLevel(0);assert.equal(b.selected().length,a.selected().length+more.length);

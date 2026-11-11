@@ -36,7 +36,10 @@ def hint_syllables(h):
         base,tone,_=split_tone(s);out.append((':' in s,tone))
     return out
 MONO=re.compile('^'+ONSET+r'(aa|ii|ʉʉ|uu|ee|ɛɛ|oo|ɔɔ|əə|[aiʉueɛoɔə])(?:ng|[ktpnm])?$')
+SLANG_CATEGORIES={'スラング｜下ネタ','スラング｜恋愛・人間関係','スラング｜誘う・返す','スラング｜差別的表現'}
+SLANG_STYLES={'口語','口語・スラング','粗い口語','口語・性的な話題','かなり粗い・性的な俗語','標準語・性的な話題','差別的な罵り（理解用）'}
 def validate(batch):
+    if batch.startswith('editorial-'):return validate_editorial(batch)
     cand={('tl-%05d'%(20000+int(float(x['sourceIndex'])))):x for x in json.load(gzip.open(P/'scripts/source-snapshots/expansion-candidates-20000.json.gz','rt',encoding='utf8')) if not x['registered']}
     errors=[];flags=[];items=[]
     # A reviewer's corrected entry replaces the authored one, so the checks cover what is published.
@@ -86,6 +89,58 @@ def validate(batch):
                 if not e.get('en'):errors.append(f'{w}: example en')
                 hs=[b+'/'+t for b,t in (check_ro(s['ro'],w,[]) if s.get('ro') else head)];es=[b+'/'+t for b,t in ex]
                 if not any(es[j:j+len(hs)]==hs for j in range(len(es)-len(hs)+1)):flags.append(f'{w} {it["th"]}: headword reading "{s.get("ro") or it.get("ro")}" not found in example reading "{e.get("ro")}"')
+    ids=[i.get('id') for i in items]
+    if len(ids)!=len(set(ids)):errors.append('duplicate ids')
+    return items,errors,flags
+def validate_editorial(batch):
+    d=P/'scripts/expansion'/batch;inp={x['id']:x for x in json.loads((d/'input.json').read_text())}
+    fixed={r['id']:r['fixed'] for f in sorted(d.glob('review-[0-9][0-9].json')) for r in json.loads(f.read_text()) if r.get('verdict')=='fix'}
+    errors=[];flags=[];items=[]
+    for f in sorted(d.glob('part-[0-9][0-9].json')):
+        for it in json.loads(f.read_text()):
+            it=fixed.get(it.get('id'),it);items.append(it);k=it.get('id');src=inp.get(k)
+            if not src or src['th']!=it.get('th'):errors.append(f'{k}: id/th does not match input.json');continue
+            if it.get('action')=='skip':
+                if not it.get('skipReason'):errors.append(f'{k}: skip without reason')
+                continue
+            if it.get('action')!='add':errors.append(f'{k}: bad action');continue
+            slang=src['deck']=='slang'
+            if it.get('kind') not in('word','expression'):errors.append(f'{k}: kind')
+            if not isinstance(it.get('frequency'),int) or not 1<=it['frequency']<=10:errors.append(f'{k}: frequency')
+            if slang:
+                if it.get('category') not in SLANG_CATEGORIES:errors.append(f'{k}: slang category {it.get("category")}')
+                if not isinstance(it.get('adult'),bool):errors.append(f'{k}: adult')
+                if not set(it.get('tags',[]))<={'colloquial','vulgar','slang'}:errors.append(f'{k}: tags')
+            elif it.get('category') not in CATEGORIES:errors.append(f'{k}: category {it.get("category")}')
+            head=check_ro(it.get('ro',''),k,errors)
+            senses=it.get('senses') or []
+            if not 1<=len(senses)<=3:errors.append(f'{k}: {len(senses)} senses')
+            seen=set()
+            for i,s in enumerate(senses,1):
+                w=f'{k}#{i}'
+                if s.get('sourceSense')!=i:errors.append(f'{w}: sourceSense')
+                if s.get('pos') not in POS:errors.append(f'{w}: pos {s.get("pos")}')
+                if not JA.search(s.get('ja','')):errors.append(f'{w}: ja')
+                if slang:
+                    if s.get('speechStyle') not in SLANG_STYLES:errors.append(f'{w}: slang style {s.get("speechStyle")}')
+                    if not JA.search(s.get('note','')):errors.append(f'{w}: slang note required')
+                else:
+                    if s.get('use') not in USE or (i==1)!=(s.get('use')==USE[0]):errors.append(f'{w}: use {s.get("use")}')
+                    if REGISTER.get(s.get('speechStyle'))!=s.get('registerTags'):errors.append(f'{w}: register {s.get("speechStyle")} {s.get("registerTags")}')
+                    if not s.get('en') or JA.search(s['en']):errors.append(f'{w}: en')
+                e=s.get('example') or {}
+                if e.get('origin')!='authored':errors.append(f'{w}: editorial examples are authored')
+                th=e.get('th','')
+                if it['th'] not in th:errors.append(f'{w}: example lacks headword: {th}')
+                if th in seen:errors.append(f'{w}: duplicate example')
+                seen.add(th)
+                if THAI.search(e.get('ro','')):errors.append(f'{w}: Thai script in example ro')
+                ex=check_ro(e.get('ro',''),w+' example',errors)
+                if not JA.search(e.get('ja','')) or not re.search(r'[。？！」]$',e.get('ja','')):errors.append(f'{w}: example ja "{e.get("ja")}"')
+                if slang and not JA.search(e.get('context','')):errors.append(f'{w}: example context')
+                if not slang and not e.get('en'):errors.append(f'{w}: example en')
+                hs=[b+'/'+t for b,t in head];es=[b+'/'+t for b,t in ex]
+                if not any(es[j:j+len(hs)]==hs for j in range(len(es)-len(hs)+1)):flags.append(f'{w} {it["th"]}: headword reading "{it.get("ro")}" not found in example reading "{e.get("ro")}"')
     ids=[i.get('id') for i in items]
     if len(ids)!=len(set(ids)):errors.append('duplicate ids')
     return items,errors,flags
