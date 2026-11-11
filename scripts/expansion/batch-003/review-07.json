@@ -1,0 +1,618 @@
+[
+ {
+  "id": "tl-25797",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25800",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25805",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25807",
+  "verdict": "fix",
+  "issues": [
+   "例文「เอาดอกไม้แซมผม」は不自然（花を髪に挿すのはふつう ทัด）。代表的な用法「ผมหงอกขึ้นแซม」（白髪が混じる）の例文に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-25807",
+   "th": "แซม",
+   "action": "add",
+   "ro": "sɛɛm",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "間に差し込む・間に混じる",
+     "en": "to insert in between, be interspersed",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พ่อเริ่มมีผมหงอกขึ้นแซม",
+      "ro": "phɔ̂ɔ rə̂əm mii phǒm ngɔ̀ɔk khʉ̂n sɛɛm",
+      "ja": "父は白髪が混じり始めた。",
+      "en": "My father has started to have gray hairs mixed in.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-25810",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25821",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25822",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25830",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25831",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25833",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25834",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25836",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25837",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25838",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25839",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25840",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25841",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25842",
+  "verdict": "fix",
+  "issues": [
+   "例文の訳で กระท้อน を「サトーン」としていたのを「サントール」に修正（タイ語原文は出典のまま）"
+  ],
+  "fixed": {
+   "id": "tl-25842",
+   "th": "ทรงเครื่อง",
+   "action": "add",
+   "ro": "song khrʉ̂ʉang",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "具材を豪華にした・具だくさんの（料理）",
+     "en": "made with rich extra ingredients (dish)",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แม่ของเขาทำกระท้อนทรงเครื่องอร่อยมาก",
+      "ro": "mɛ̂ɛ khɔ̌ɔng khǎo tham krà thɔ́ɔn song khrʉ̂ʉang à rɔ̀ɔi mâak",
+      "ja": "彼のお母さんは具だくさんのサントール料理をとてもおいしく作ります。",
+      "en": "His mother makes a delicious santol dish with rich ingredients.",
+      "origin": "source"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "装飾をまとった（仏像など）",
+     "en": "adorned with regalia (Buddha image)",
+     "pos": "形容詞・状態語",
+     "use": "少なめの用法",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "วัดนี้มีพระพุทธรูปทรงเครื่องที่สวยงาม",
+      "ro": "wát níi mii phrá phút thá rûup song khrʉ̂ʉang thîi sǔuai ngaam",
+      "ja": "この寺には美しい装飾をまとった仏像があります。",
+      "en": "This temple has a beautiful crowned and adorned Buddha image.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-25843",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25844",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25845",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25846",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25847",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25848",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25850",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25851",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25852",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25853",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25854",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25855",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25857",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25860",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25863",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25864",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25865",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25866",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25867",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25868",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25870",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25871",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25872",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25873",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25875",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25876",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25877",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25878",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25881",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25882",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25883",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25884",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25885",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25886",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで ใต้ を tâai としていた。辞書どおり tâi に修正"
+  ],
+  "fixed": {
+   "id": "tl-25886",
+   "th": "หมก",
+   "action": "add",
+   "ro": "mòk",
+   "kind": "word",
+   "category": "日常の動作",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "中に埋める・押し込んで隠す",
+     "en": "to bury in, stuff away",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาหมกเสื้อผ้าสกปรกไว้ใต้เตียง",
+      "ro": "khǎo mòk sʉ̂ʉa phâa sòk kà pròk wái tâi tiiang",
+      "ja": "彼は汚れた服をベッドの下に押し込んでおいた。",
+      "en": "He stuffed his dirty clothes under the bed.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "閉じこもる（「หมกตัว」の形で）",
+     "en": "to shut oneself away",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาหมกตัวอยู่ในห้องทั้งวัน",
+      "ro": "khǎo mòk tuua yùu nai hɔ̂ɔng tháng wan",
+      "ja": "彼は一日中部屋に閉じこもっている。",
+      "en": "He stays shut up in his room all day.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-25887",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25888",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25889",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25890",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25892",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25893",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25894",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25896",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25899",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25900",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25901",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25903",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25904",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25905",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25906",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25908",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25910",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25911",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25912",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25913",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25914",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25915",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25916",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25918",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25919",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25921",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25922",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25923",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25924",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25925",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25926",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25927",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25929",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25930",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25932",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25933",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25935",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25938",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25939",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25942",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25943",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25944",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25945",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25947",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25948",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25949",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25951",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25952",
+  "verdict": "ok",
+  "issues": []
+ }
+]
