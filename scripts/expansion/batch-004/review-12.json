@@ -1,0 +1,635 @@
+[
+ {
+  "id": "tl-28456",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28457",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28458",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28459",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28460",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28461",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28462",
+  "verdict": "fix",
+  "issues": [
+   "日本語の「タライ」は盥（たらい）と紛れるため、語義・訳を「回転花火」に変更。例文の งาน は「祭り」に限らないので「催し」に"
+  ],
+  "fixed": {
+   "id": "tl-28462",
+   "th": "ตะไล",
+   "action": "add",
+   "ro": "tà lai",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "回転花火（輪が付き、くるくる回りながら舞い上がる伝統的な花火）",
+     "en": "a traditional spinning firework",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาเป็นคนจุดตะไลในงาน",
+      "ro": "khǎo pen khon cùt tà lai nai ngaan",
+      "ja": "催しで回転花火に火をつけたのは彼だ。",
+      "en": "He was the one who lit the spinning fireworks at the event.",
+      "origin": "source"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（ถ้วยตะไล の形で）菓子作りに使う小さな器",
+     "en": "small cup (for Thai sweets)",
+     "pos": "名詞",
+     "use": "少なめの用法",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แม่ค้าหยอดแป้งขนมตาลลงถ้วยตะไล",
+      "ro": "mɛ̂ɛ kháa yɔ̀ɔt pɛ̂ng khà nǒm taan long thûuai tà lai",
+      "ja": "売り子はカノムターンの生地を小さな器に流し入れた。",
+      "en": "The vendor dropped the khanom tan batter into the small cups.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28464",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28465",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28466",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28467",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28468",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28469",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28470",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28471",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28472",
+  "verdict": "fix",
+  "issues": [
+   "ทัน の頭子音は ท で than（lexicon も than）。見出し・例文のroの tan を than に修正"
+  ],
+  "fixed": {
+   "id": "tl-28472",
+   "th": "ทันตา",
+   "action": "add",
+   "ro": "than taa",
+   "kind": "word",
+   "category": "時間",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "たちどころに・すぐ目の前で（結果が出る）",
+     "en": "immediately, before one's eyes",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ยานี้กินแล้วเห็นผลทันตา",
+      "ro": "yaa níi kin lɛ́ɛo hěn phǒn than taa",
+      "ja": "この薬は飲むとたちどころに効果が出る。",
+      "en": "This medicine shows results right away.",
+      "origin": "authored"
+     },
+     "note": "เห็นผลทันตา（すぐ効果が見える）の形でよく使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28473",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28474",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28475",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28476",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28477",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28478",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28479",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28480",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28481",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28482",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28483",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28484",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28485",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28486",
+  "verdict": "fix",
+  "issues": [
+   "น้ำพระราชหฤทัย は国王だけでなく王妃にも使うため注記を修正。王室語の文法・例文は可"
+  ],
+  "fixed": {
+   "id": "tl-28486",
+   "th": "น้ำพระทัย",
+   "action": "add",
+   "ro": "nám phrá thai",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（王族の）ご厚意・お心遣い",
+     "en": "kindness, goodwill (of a royal)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "royal"
+     ],
+     "speechStyle": "王室の敬語",
+     "example": {
+      "th": "ประชาชนซาบซึ้งในน้ำพระทัยของพระองค์",
+      "ro": "prà chaa chon sâap sʉ́ng nai nám phrá thai khɔ̌ɔng phrá ong",
+      "ja": "人々はその方のご厚意に深く感謝した。",
+      "en": "The people were deeply grateful for the royal's kindness.",
+      "origin": "authored"
+     },
+     "note": "国王・王妃以外の王族に使い、国王・王妃には น้ำพระราชหฤทัย を使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28487",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28488",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28489",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28490",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28491",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28492",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28493",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28494",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28495",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28496",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28497",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28498",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28499",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28500",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28501",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28502",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28503",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28504",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28505",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28506",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28507",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28508",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28509",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28510",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28511",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28512",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28513",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28514",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28515",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28516",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28517",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28519",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28522",
+  "verdict": "fix",
+  "issues": [
+   "ผู้ว่า は報道・公的な文脈でも普通に使う略称で、口語限定ではないため登録を標準語に修正"
+  ],
+  "fixed": {
+   "id": "tl-28522",
+   "th": "ผู้ว่า",
+   "action": "add",
+   "ro": "phûu wâa",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "県知事",
+     "en": "(provincial) governor",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ผู้ว่าลงพื้นที่ตรวจน้ำท่วม",
+      "ro": "phûu wâa long phʉ́ʉn thîi trùuat náam thûuam",
+      "ja": "県知事が洪水の現場を視察した。",
+      "en": "The governor went out to inspect the flooding.",
+      "origin": "authored"
+     },
+     "note": "ผู้ว่าราชการจังหวัด の略で、報道でもふつうに使う。バンコク都知事も ผู้ว่า กทม. と言う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28524",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28525",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28526",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28527",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28528",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28529",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28530",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28531",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28532",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28533",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28534",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28535",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28536",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28537",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28538",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28540",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28541",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28542",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28543",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28544",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28545",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28546",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28547",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28548",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28549",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28550",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28552",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28553",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28554",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28555",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28556",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28557",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28558",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28559",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28560",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28561",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28563",
+  "verdict": "ok",
+  "issues": []
+ }
+]
