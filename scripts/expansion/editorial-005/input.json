@@ -1,0 +1,4550 @@
+[
+ {
+  "id": "tl-51001",
+  "th": "ประเทศไทย",
+  "deck": "general",
+  "hint": "タイ王国・タイ国（countries）"
+ },
+ {
+  "id": "tl-51002",
+  "th": "อเมริกา",
+  "deck": "general",
+  "hint": "アメリカ（countries）"
+ },
+ {
+  "id": "tl-51003",
+  "th": "เกาหลี",
+  "deck": "general",
+  "hint": "韓国・朝鮮（countries）"
+ },
+ {
+  "id": "tl-51004",
+  "th": "อังกฤษ",
+  "deck": "general",
+  "hint": "イギリス（countries）"
+ },
+ {
+  "id": "tl-51005",
+  "th": "เวียดนาม",
+  "deck": "general",
+  "hint": "ベトナム（countries）"
+ },
+ {
+  "id": "tl-51006",
+  "th": "มาเลเซีย",
+  "deck": "general",
+  "hint": "マレーシア（countries）"
+ },
+ {
+  "id": "tl-51007",
+  "th": "สิงคโปร์",
+  "deck": "general",
+  "hint": "シンガポール（countries）"
+ },
+ {
+  "id": "tl-51008",
+  "th": "ไต้หวัน",
+  "deck": "general",
+  "hint": "台湾（countries）"
+ },
+ {
+  "id": "tl-51009",
+  "th": "ฮ่องกง",
+  "deck": "general",
+  "hint": "香港（countries）"
+ },
+ {
+  "id": "tl-51010",
+  "th": "โตเกียว",
+  "deck": "general",
+  "hint": "東京（world cities）"
+ },
+ {
+  "id": "tl-51011",
+  "th": "กรุงเทพฯ",
+  "deck": "general",
+  "hint": "バンコク（略記）（Thai places）"
+ },
+ {
+  "id": "tl-51012",
+  "th": "ภูเก็ต",
+  "deck": "general",
+  "hint": "プーケット（Thai places）"
+ },
+ {
+  "id": "tl-51013",
+  "th": "พัทยา",
+  "deck": "general",
+  "hint": "パタヤ（Thai places）"
+ },
+ {
+  "id": "tl-51014",
+  "th": "ภาษาไทย",
+  "deck": "general",
+  "hint": "タイ語（languages）"
+ },
+ {
+  "id": "tl-51015",
+  "th": "ภาษาญี่ปุ่น",
+  "deck": "general",
+  "hint": "日本語（languages）"
+ },
+ {
+  "id": "tl-51016",
+  "th": "ภาษาจีน",
+  "deck": "general",
+  "hint": "中国語（languages）"
+ },
+ {
+  "id": "tl-51017",
+  "th": "ภาษาเกาหลี",
+  "deck": "general",
+  "hint": "韓国語（languages）"
+ },
+ {
+  "id": "tl-51018",
+  "th": "ภาษาต่างประเทศ",
+  "deck": "general",
+  "hint": "外国語（languages）"
+ },
+ {
+  "id": "tl-51019",
+  "th": "คนไทย",
+  "deck": "general",
+  "hint": "タイ人（nationalities）"
+ },
+ {
+  "id": "tl-51020",
+  "th": "คนญี่ปุ่น",
+  "deck": "general",
+  "hint": "日本人（nationalities）"
+ },
+ {
+  "id": "tl-51021",
+  "th": "คนจีน",
+  "deck": "general",
+  "hint": "中国人（nationalities）"
+ },
+ {
+  "id": "tl-51022",
+  "th": "คนเกาหลี",
+  "deck": "general",
+  "hint": "韓国人（nationalities）"
+ },
+ {
+  "id": "tl-51023",
+  "th": "ข้าวสวย",
+  "deck": "general",
+  "hint": "白いご飯（food & drinks）"
+ },
+ {
+  "id": "tl-51024",
+  "th": "โจ๊ก",
+  "deck": "general",
+  "hint": "お粥（ジョーク）（food & drinks）"
+ },
+ {
+  "id": "tl-51025",
+  "th": "บะหมี่",
+  "deck": "general",
+  "hint": "中華麺（卵麺）（food & drinks）"
+ },
+ {
+  "id": "tl-51026",
+  "th": "ผัดกะเพรา",
+  "deck": "general",
+  "hint": "ガパオ炒め（food & drinks）"
+ },
+ {
+  "id": "tl-51027",
+  "th": "ข้าวกะเพรา",
+  "deck": "general",
+  "hint": "ガパオライス（food & drinks）"
+ },
+ {
+  "id": "tl-51028",
+  "th": "ข้าวมันไก่",
+  "deck": "general",
+  "hint": "カオマンガイ（food & drinks）"
+ },
+ {
+  "id": "tl-51029",
+  "th": "ไข่เจียว",
+  "deck": "general",
+  "hint": "タイ風オムレツ（food & drinks）"
+ },
+ {
+  "id": "tl-51030",
+  "th": "ไข่ดาว",
+  "deck": "general",
+  "hint": "目玉焼き（food & drinks）"
+ },
+ {
+  "id": "tl-51031",
+  "th": "ไข่ต้ม",
+  "deck": "general",
+  "hint": "ゆで卵（food & drinks）"
+ },
+ {
+  "id": "tl-51032",
+  "th": "ต้มยำกุ้ง",
+  "deck": "general",
+  "hint": "トムヤムクン（food & drinks）"
+ },
+ {
+  "id": "tl-51033",
+  "th": "แกงเขียวหวาน",
+  "deck": "general",
+  "hint": "グリーンカレー（food & drinks）"
+ },
+ {
+  "id": "tl-51034",
+  "th": "ไก่ย่าง",
+  "deck": "general",
+  "hint": "焼き鳥（ガイヤーン）（food & drinks）"
+ },
+ {
+  "id": "tl-51035",
+  "th": "หมูปิ้ง",
+  "deck": "general",
+  "hint": "豚の串焼き（food & drinks）"
+ },
+ {
+  "id": "tl-51036",
+  "th": "หมูกระทะ",
+  "deck": "general",
+  "hint": "ムーガタ（焼肉鍋）（food & drinks）"
+ },
+ {
+  "id": "tl-51037",
+  "th": "ลูกชิ้น",
+  "deck": "general",
+  "hint": "つみれ・ミートボール（food & drinks）"
+ },
+ {
+  "id": "tl-51038",
+  "th": "เนื้อวัว",
+  "deck": "general",
+  "hint": "牛肉（food & drinks）"
+ },
+ {
+  "id": "tl-51039",
+  "th": "เนื้อหมู",
+  "deck": "general",
+  "hint": "豚肉（food & drinks）"
+ },
+ {
+  "id": "tl-51040",
+  "th": "เนื้อไก่",
+  "deck": "general",
+  "hint": "鶏肉（food & drinks）"
+ },
+ {
+  "id": "tl-51041",
+  "th": "อาหารทะเล",
+  "deck": "general",
+  "hint": "シーフード・海鮮（food & drinks）"
+ },
+ {
+  "id": "tl-51042",
+  "th": "อาหารญี่ปุ่น",
+  "deck": "general",
+  "hint": "日本料理（food & drinks）"
+ },
+ {
+  "id": "tl-51043",
+  "th": "อาหารไทย",
+  "deck": "general",
+  "hint": "タイ料理（food & drinks）"
+ },
+ {
+  "id": "tl-51044",
+  "th": "พริกไทย",
+  "deck": "general",
+  "hint": "胡椒（food & drinks）"
+ },
+ {
+  "id": "tl-51045",
+  "th": "เต้าหู้",
+  "deck": "general",
+  "hint": "豆腐（food & drinks）"
+ },
+ {
+  "id": "tl-51046",
+  "th": "น้ำส้ม",
+  "deck": "general",
+  "hint": "オレンジジュース（food & drinks）"
+ },
+ {
+  "id": "tl-51047",
+  "th": "นมสด",
+  "deck": "general",
+  "hint": "牛乳（food & drinks）"
+ },
+ {
+  "id": "tl-51048",
+  "th": "ชาเย็น",
+  "deck": "general",
+  "hint": "タイティー（冷たいミルクティー）（food & drinks）"
+ },
+ {
+  "id": "tl-51049",
+  "th": "ชาเขียว",
+  "deck": "general",
+  "hint": "緑茶（food & drinks）"
+ },
+ {
+  "id": "tl-51050",
+  "th": "ชานม",
+  "deck": "general",
+  "hint": "ミルクティー（food & drinks）"
+ },
+ {
+  "id": "tl-51051",
+  "th": "กาแฟเย็น",
+  "deck": "general",
+  "hint": "アイスコーヒー（food & drinks）"
+ },
+ {
+  "id": "tl-51052",
+  "th": "มะเขือเทศ",
+  "deck": "general",
+  "hint": "トマト（food & drinks）"
+ },
+ {
+  "id": "tl-51053",
+  "th": "กะหล่ำปลี",
+  "deck": "general",
+  "hint": "キャベツ（food & drinks）"
+ },
+ {
+  "id": "tl-51054",
+  "th": "ผักชี",
+  "deck": "general",
+  "hint": "パクチー（food & drinks）"
+ },
+ {
+  "id": "tl-51055",
+  "th": "ต้นหอม",
+  "deck": "general",
+  "hint": "ネギ（food & drinks）"
+ },
+ {
+  "id": "tl-51056",
+  "th": "แครอท",
+  "deck": "general",
+  "hint": "ニンジン（food & drinks）"
+ },
+ {
+  "id": "tl-51057",
+  "th": "ปลั๊ก",
+  "deck": "general",
+  "hint": "コンセント・プラグ（household）"
+ },
+ {
+  "id": "tl-51058",
+  "th": "รีโมต",
+  "deck": "general",
+  "hint": "リモコン（household）"
+ },
+ {
+  "id": "tl-51059",
+  "th": "ไมโครเวฟ",
+  "deck": "general",
+  "hint": "電子レンジ（household）"
+ },
+ {
+  "id": "tl-51060",
+  "th": "หม้อหุงข้าว",
+  "deck": "general",
+  "hint": "炊飯器（household）"
+ },
+ {
+  "id": "tl-51061",
+  "th": "ถุงพลาสติก",
+  "deck": "general",
+  "hint": "ビニール袋（household）"
+ },
+ {
+  "id": "tl-51062",
+  "th": "แบตเตอรี่",
+  "deck": "general",
+  "hint": "バッテリー・電池（household）"
+ },
+ {
+  "id": "tl-51063",
+  "th": "กระดาษทิชชู่",
+  "deck": "general",
+  "hint": "ティッシュペーパー（household）"
+ },
+ {
+  "id": "tl-51064",
+  "th": "ทิชชู่",
+  "deck": "general",
+  "hint": "ティッシュ（口語）（household）"
+ },
+ {
+  "id": "tl-51065",
+  "th": "เสื้อเชิ้ต",
+  "deck": "general",
+  "hint": "ワイシャツ・シャツ（clothes）"
+ },
+ {
+  "id": "tl-51066",
+  "th": "เสื้อกันหนาว",
+  "deck": "general",
+  "hint": "セーター・防寒着（clothes）"
+ },
+ {
+  "id": "tl-51067",
+  "th": "กางเกงยีนส์",
+  "deck": "general",
+  "hint": "ジーンズ（clothes）"
+ },
+ {
+  "id": "tl-51068",
+  "th": "กางเกงขาสั้น",
+  "deck": "general",
+  "hint": "半ズボン（clothes）"
+ },
+ {
+  "id": "tl-51069",
+  "th": "รองเท้าแตะ",
+  "deck": "general",
+  "hint": "サンダル（clothes）"
+ },
+ {
+  "id": "tl-51070",
+  "th": "รองเท้าผ้าใบ",
+  "deck": "general",
+  "hint": "スニーカー（clothes）"
+ },
+ {
+  "id": "tl-51071",
+  "th": "กระเป๋าเป้",
+  "deck": "general",
+  "hint": "リュックサック（clothes）"
+ },
+ {
+  "id": "tl-51072",
+  "th": "กระเป๋าเดินทาง",
+  "deck": "general",
+  "hint": "スーツケース（clothes）"
+ },
+ {
+  "id": "tl-51073",
+  "th": "หน้ากากอนามัย",
+  "deck": "general",
+  "hint": "マスク（衛生用）（clothes）"
+ },
+ {
+  "id": "tl-51074",
+  "th": "ไข้หวัด",
+  "deck": "general",
+  "hint": "風邪（body & health）"
+ },
+ {
+  "id": "tl-51075",
+  "th": "หมอฟัน",
+  "deck": "general",
+  "hint": "歯医者（body & health）"
+ },
+ {
+  "id": "tl-51076",
+  "th": "นวดไทย",
+  "deck": "general",
+  "hint": "タイ式マッサージ（body & health）"
+ },
+ {
+  "id": "tl-51077",
+  "th": "พนักงานบริษัท",
+  "deck": "general",
+  "hint": "会社員（people & jobs）"
+ },
+ {
+  "id": "tl-51078",
+  "th": "ไกด์",
+  "deck": "general",
+  "hint": "ガイド（people & jobs）"
+ },
+ {
+  "id": "tl-51079",
+  "th": "ยางลบ",
+  "deck": "general",
+  "hint": "消しゴム（school & office）"
+ },
+ {
+  "id": "tl-51080",
+  "th": "หนังสือเรียน",
+  "deck": "general",
+  "hint": "教科書（school & office）"
+ },
+ {
+  "id": "tl-51081",
+  "th": "ห้องประชุม",
+  "deck": "general",
+  "hint": "会議室（school & office）"
+ },
+ {
+  "id": "tl-51082",
+  "th": "ร้านกาแฟ",
+  "deck": "general",
+  "hint": "カフェ・喫茶店（places in town）"
+ },
+ {
+  "id": "tl-51083",
+  "th": "ห้างสรรพสินค้า",
+  "deck": "general",
+  "hint": "デパート（places in town）"
+ },
+ {
+  "id": "tl-51084",
+  "th": "ร้านหนังสือ",
+  "deck": "general",
+  "hint": "本屋（places in town）"
+ },
+ {
+  "id": "tl-51085",
+  "th": "ร้านตัดผม",
+  "deck": "general",
+  "hint": "床屋・理髪店（places in town）"
+ },
+ {
+  "id": "tl-51086",
+  "th": "ร้านนวด",
+  "deck": "general",
+  "hint": "マッサージ店（places in town）"
+ },
+ {
+  "id": "tl-51087",
+  "th": "ไฟแดง",
+  "deck": "general",
+  "hint": "赤信号・信号（places in town）"
+ },
+ {
+  "id": "tl-51088",
+  "th": "รถทัวร์",
+  "deck": "general",
+  "hint": "長距離バス・観光バス（transport & travel）"
+ },
+ {
+  "id": "tl-51089",
+  "th": "รถสองแถว",
+  "deck": "general",
+  "hint": "ソンテオ（乗合トラック）（transport & travel）"
+ },
+ {
+  "id": "tl-51090",
+  "th": "รถไฟใต้ดิน",
+  "deck": "general",
+  "hint": "地下鉄（transport & travel）"
+ },
+ {
+  "id": "tl-51091",
+  "th": "ตั๋วเครื่องบิน",
+  "deck": "general",
+  "hint": "航空券（transport & travel）"
+ },
+ {
+  "id": "tl-51092",
+  "th": "หนังสือเดินทาง",
+  "deck": "general",
+  "hint": "パスポート（transport & travel）"
+ },
+ {
+  "id": "tl-51093",
+  "th": "วีซ่า",
+  "deck": "general",
+  "hint": "ビザ（transport & travel）"
+ },
+ {
+  "id": "tl-51094",
+  "th": "ของฝาก",
+  "deck": "general",
+  "hint": "お土産（transport & travel）"
+ },
+ {
+  "id": "tl-51095",
+  "th": "ทางด่วน",
+  "deck": "general",
+  "hint": "高速道路（transport & travel）"
+ },
+ {
+  "id": "tl-51096",
+  "th": "มวยไทย",
+  "deck": "general",
+  "hint": "ムエタイ（sports & hobbies）"
+ },
+ {
+  "id": "tl-51097",
+  "th": "การแข่งขัน",
+  "deck": "general",
+  "hint": "競技・競争（sports & hobbies）"
+ },
+ {
+  "id": "tl-51098",
+  "th": "สมาร์ตโฟน",
+  "deck": "general",
+  "hint": "スマートフォン（IT & phone）"
+ },
+ {
+  "id": "tl-51099",
+  "th": "โน้ตบุ๊ก",
+  "deck": "general",
+  "hint": "ノートパソコン（IT & phone）"
+ },
+ {
+  "id": "tl-51100",
+  "th": "ที่ชาร์จ",
+  "deck": "general",
+  "hint": "充電器（IT & phone）"
+ },
+ {
+  "id": "tl-51101",
+  "th": "สายชาร์จ",
+  "deck": "general",
+  "hint": "充電ケーブル（IT & phone）"
+ },
+ {
+  "id": "tl-51102",
+  "th": "ซิม",
+  "deck": "general",
+  "hint": "SIM（口語）（IT & phone）"
+ },
+ {
+  "id": "tl-51103",
+  "th": "เบอร์โทร",
+  "deck": "general",
+  "hint": "電話番号（IT & phone）"
+ },
+ {
+  "id": "tl-51104",
+  "th": "เบอร์โทรศัพท์",
+  "deck": "general",
+  "hint": "電話番号（IT & phone）"
+ },
+ {
+  "id": "tl-51105",
+  "th": "ไวไฟ",
+  "deck": "general",
+  "hint": "Wi-Fi（IT & phone）"
+ },
+ {
+  "id": "tl-51106",
+  "th": "โซเชียลมีเดีย",
+  "deck": "general",
+  "hint": "ソーシャルメディア（IT & phone）"
+ },
+ {
+  "id": "tl-51107",
+  "th": "ลูกหมา",
+  "deck": "general",
+  "hint": "子犬（animals）"
+ },
+ {
+  "id": "tl-51108",
+  "th": "ลูกแมว",
+  "deck": "general",
+  "hint": "子猫（animals）"
+ },
+ {
+  "id": "tl-51109",
+  "th": "จิ้งจก",
+  "deck": "general",
+  "hint": "ヤモリ（animals）"
+ },
+ {
+  "id": "tl-51110",
+  "th": "แมลงสาบ",
+  "deck": "general",
+  "hint": "ゴキブリ（animals）"
+ },
+ {
+  "id": "tl-51111",
+  "th": "ฤดูฝน",
+  "deck": "general",
+  "hint": "雨季（nature & weather）"
+ },
+ {
+  "id": "tl-51112",
+  "th": "วันพฤหัสบดี",
+  "deck": "general",
+  "hint": "木曜日（time）"
+ },
+ {
+  "id": "tl-51113",
+  "th": "เสาร์อาทิตย์",
+  "deck": "general",
+  "hint": "土日・週末（time）"
+ },
+ {
+  "id": "tl-51114",
+  "th": "เช้านี้",
+  "deck": "general",
+  "hint": "今朝（time）"
+ },
+ {
+  "id": "tl-51115",
+  "th": "ตอนเที่ยง",
+  "deck": "general",
+  "hint": "正午ごろ（time）"
+ },
+ {
+  "id": "tl-51116",
+  "th": "สัปดาห์ที่แล้ว",
+  "deck": "general",
+  "hint": "先週（time）"
+ },
+ {
+  "id": "tl-51117",
+  "th": "แบงก์",
+  "deck": "general",
+  "hint": "お札（口語）（money & shopping）"
+ },
+ {
+  "id": "tl-51118",
+  "th": "เอทีเอ็ม",
+  "deck": "general",
+  "hint": "ATM（money & shopping）"
+ },
+ {
+  "id": "tl-51119",
+  "th": "บัญชีธนาคาร",
+  "deck": "general",
+  "hint": "銀行口座（money & shopping）"
+ },
+ {
+  "id": "tl-51120",
+  "th": "ส่วนลด",
+  "deck": "general",
+  "hint": "割引（money & shopping）"
+ },
+ {
+  "id": "tl-51121",
+  "th": "โปรโมชั่น",
+  "deck": "general",
+  "hint": "キャンペーン・特売（money & shopping）"
+ },
+ {
+  "id": "tl-51122",
+  "th": "ของแถม",
+  "deck": "general",
+  "hint": "おまけ（money & shopping）"
+ },
+ {
+  "id": "tl-51123",
+  "th": "ค่าน้ำ",
+  "deck": "general",
+  "hint": "水道代（money & shopping）"
+ },
+ {
+  "id": "tl-51124",
+  "th": "ค่าไฟ",
+  "deck": "general",
+  "hint": "電気代（money & shopping）"
+ },
+ {
+  "id": "tl-51125",
+  "th": "พยากรณ์อากาศ",
+  "deck": "general",
+  "hint": "天気予報（nature & weather）"
+ },
+ {
+  "id": "tl-51126",
+  "th": "เกาหลีใต้",
+  "deck": "general",
+  "hint": "韓国（大韓民国）（countries）"
+ },
+ {
+  "id": "tl-51127",
+  "th": "เกาหลีเหนือ",
+  "deck": "general",
+  "hint": "北朝鮮（countries）"
+ },
+ {
+  "id": "tl-51128",
+  "th": "กัมพูชา",
+  "deck": "general",
+  "hint": "カンボジア（countries）"
+ },
+ {
+  "id": "tl-51129",
+  "th": "เขมร",
+  "deck": "general",
+  "hint": "クメール・カンボジア（countries）"
+ },
+ {
+  "id": "tl-51130",
+  "th": "อินโดนีเซีย",
+  "deck": "general",
+  "hint": "インドネシア（countries）"
+ },
+ {
+  "id": "tl-51131",
+  "th": "ฟิลิปปินส์",
+  "deck": "general",
+  "hint": "フィリピン（countries）"
+ },
+ {
+  "id": "tl-51132",
+  "th": "รัสเซีย",
+  "deck": "general",
+  "hint": "ロシア（countries）"
+ },
+ {
+  "id": "tl-51133",
+  "th": "อิตาลี",
+  "deck": "general",
+  "hint": "イタリア（countries）"
+ },
+ {
+  "id": "tl-51134",
+  "th": "ออสเตรเลีย",
+  "deck": "general",
+  "hint": "オーストラリア（countries）"
+ },
+ {
+  "id": "tl-51135",
+  "th": "แคนาดา",
+  "deck": "general",
+  "hint": "カナダ（countries）"
+ },
+ {
+  "id": "tl-51136",
+  "th": "แอฟริกา",
+  "deck": "general",
+  "hint": "アフリカ（countries）"
+ },
+ {
+  "id": "tl-51137",
+  "th": "บราซิล",
+  "deck": "general",
+  "hint": "ブラジル（countries）"
+ },
+ {
+  "id": "tl-51138",
+  "th": "เมียนมา",
+  "deck": "general",
+  "hint": "ミャンマー（countries）"
+ },
+ {
+  "id": "tl-51139",
+  "th": "อาเซียน",
+  "deck": "general",
+  "hint": "ASEAN・東南アジア諸国（countries）"
+ },
+ {
+  "id": "tl-51140",
+  "th": "ตะวันออกกลาง",
+  "deck": "general",
+  "hint": "中東（countries）"
+ },
+ {
+  "id": "tl-51141",
+  "th": "เอเชียตะวันออกเฉียงใต้",
+  "deck": "general",
+  "hint": "東南アジア（countries）"
+ },
+ {
+  "id": "tl-51142",
+  "th": "โอซาก้า",
+  "deck": "general",
+  "hint": "大阪（world cities）"
+ },
+ {
+  "id": "tl-51143",
+  "th": "เกียวโต",
+  "deck": "general",
+  "hint": "京都（world cities）"
+ },
+ {
+  "id": "tl-51144",
+  "th": "ฮอกไกโด",
+  "deck": "general",
+  "hint": "北海道（world cities）"
+ },
+ {
+  "id": "tl-51145",
+  "th": "ปักกิ่ง",
+  "deck": "general",
+  "hint": "北京（world cities）"
+ },
+ {
+  "id": "tl-51146",
+  "th": "เซี่ยงไฮ้",
+  "deck": "general",
+  "hint": "上海（world cities）"
+ },
+ {
+  "id": "tl-51147",
+  "th": "โซล",
+  "deck": "general",
+  "hint": "ソウル（world cities）"
+ },
+ {
+  "id": "tl-51148",
+  "th": "ลอนดอน",
+  "deck": "general",
+  "hint": "ロンドン（world cities）"
+ },
+ {
+  "id": "tl-51149",
+  "th": "ปารีส",
+  "deck": "general",
+  "hint": "パリ（world cities）"
+ },
+ {
+  "id": "tl-51150",
+  "th": "นิวยอร์ก",
+  "deck": "general",
+  "hint": "ニューヨーク（world cities）"
+ },
+ {
+  "id": "tl-51151",
+  "th": "เชียงราย",
+  "deck": "general",
+  "hint": "チェンライ（Thai places）"
+ },
+ {
+  "id": "tl-51152",
+  "th": "ขอนแก่น",
+  "deck": "general",
+  "hint": "コンケン（Thai places）"
+ },
+ {
+  "id": "tl-51153",
+  "th": "อุดรธานี",
+  "deck": "general",
+  "hint": "ウドンタニ（Thai places）"
+ },
+ {
+  "id": "tl-51154",
+  "th": "โคราช",
+  "deck": "general",
+  "hint": "コラート（ナコンラーチャシーマーの通称）（Thai places）"
+ },
+ {
+  "id": "tl-51155",
+  "th": "อยุธยา",
+  "deck": "general",
+  "hint": "アユタヤ（Thai places）"
+ },
+ {
+  "id": "tl-51156",
+  "th": "หัวหิน",
+  "deck": "general",
+  "hint": "ホアヒン（Thai places）"
+ },
+ {
+  "id": "tl-51157",
+  "th": "เกาะสมุย",
+  "deck": "general",
+  "hint": "サムイ島（Thai places）"
+ },
+ {
+  "id": "tl-51158",
+  "th": "หาดใหญ่",
+  "deck": "general",
+  "hint": "ハジャイ（Thai places）"
+ },
+ {
+  "id": "tl-51159",
+  "th": "ชลบุรี",
+  "deck": "general",
+  "hint": "チョンブリー（Thai places）"
+ },
+ {
+  "id": "tl-51160",
+  "th": "นนทบุรี",
+  "deck": "general",
+  "hint": "ノンタブリー（Thai places）"
+ },
+ {
+  "id": "tl-51161",
+  "th": "ภาคเหนือ",
+  "deck": "general",
+  "hint": "北部（タイの地方）（Thai places）"
+ },
+ {
+  "id": "tl-51162",
+  "th": "ภาคใต้",
+  "deck": "general",
+  "hint": "南部（タイの地方）（Thai places）"
+ },
+ {
+  "id": "tl-51163",
+  "th": "ภาคกลาง",
+  "deck": "general",
+  "hint": "中部（タイの地方）（Thai places）"
+ },
+ {
+  "id": "tl-51164",
+  "th": "ภาคอีสาน",
+  "deck": "general",
+  "hint": "東北部（タイの地方）（Thai places）"
+ },
+ {
+  "id": "tl-51165",
+  "th": "สุขุมวิท",
+  "deck": "general",
+  "hint": "スクンビット（通り・地区）（Thai places）"
+ },
+ {
+  "id": "tl-51166",
+  "th": "สีลม",
+  "deck": "general",
+  "hint": "シーロム（Thai places）"
+ },
+ {
+  "id": "tl-51167",
+  "th": "เยาวราช",
+  "deck": "general",
+  "hint": "ヤワラート（中華街）（Thai places）"
+ },
+ {
+  "id": "tl-51168",
+  "th": "จตุจักร",
+  "deck": "general",
+  "hint": "チャトゥチャック（Thai places）"
+ },
+ {
+  "id": "tl-51169",
+  "th": "สนามบินสุวรรณภูมิ",
+  "deck": "general",
+  "hint": "スワンナプーム空港（Thai places）"
+ },
+ {
+  "id": "tl-51170",
+  "th": "ดอนเมือง",
+  "deck": "general",
+  "hint": "ドンムアン（Thai places）"
+ },
+ {
+  "id": "tl-51171",
+  "th": "แม่น้ำเจ้าพระยา",
+  "deck": "general",
+  "hint": "チャオプラヤー川（Thai places）"
+ },
+ {
+  "id": "tl-51172",
+  "th": "วัดพระแก้ว",
+  "deck": "general",
+  "hint": "ワット・プラケオ（エメラルド寺院）（Thai places）"
+ },
+ {
+  "id": "tl-51173",
+  "th": "ภาษาฝรั่งเศส",
+  "deck": "general",
+  "hint": "フランス語（languages）"
+ },
+ {
+  "id": "tl-51174",
+  "th": "ภาษาเยอรมัน",
+  "deck": "general",
+  "hint": "ドイツ語（languages）"
+ },
+ {
+  "id": "tl-51175",
+  "th": "ภาษาสเปน",
+  "deck": "general",
+  "hint": "スペイン語（languages）"
+ },
+ {
+  "id": "tl-51176",
+  "th": "ภาษาลาว",
+  "deck": "general",
+  "hint": "ラオス語（languages）"
+ },
+ {
+  "id": "tl-51177",
+  "th": "ภาษาจีนกลาง",
+  "deck": "general",
+  "hint": "標準中国語（北京語）（languages）"
+ },
+ {
+  "id": "tl-51178",
+  "th": "ภาษาอีสาน",
+  "deck": "general",
+  "hint": "イサーン語（languages）"
+ },
+ {
+  "id": "tl-51179",
+  "th": "ภาษาแม่",
+  "deck": "general",
+  "hint": "母語（languages）"
+ },
+ {
+  "id": "tl-51180",
+  "th": "ภาษามือ",
+  "deck": "general",
+  "hint": "手話（languages）"
+ },
+ {
+  "id": "tl-51181",
+  "th": "ภาษาพูด",
+  "deck": "general",
+  "hint": "話し言葉（languages）"
+ },
+ {
+  "id": "tl-51182",
+  "th": "ภาษาเขียน",
+  "deck": "general",
+  "hint": "書き言葉（languages）"
+ },
+ {
+  "id": "tl-51183",
+  "th": "ภาษาถิ่น",
+  "deck": "general",
+  "hint": "方言（languages）"
+ },
+ {
+  "id": "tl-51184",
+  "th": "ภาษากลาง",
+  "deck": "general",
+  "hint": "標準語・共通語（languages）"
+ },
+ {
+  "id": "tl-51185",
+  "th": "คนอเมริกัน",
+  "deck": "general",
+  "hint": "アメリカ人（nationalities）"
+ },
+ {
+  "id": "tl-51186",
+  "th": "คนอังกฤษ",
+  "deck": "general",
+  "hint": "イギリス人（nationalities）"
+ },
+ {
+  "id": "tl-51187",
+  "th": "คนฝรั่งเศส",
+  "deck": "general",
+  "hint": "フランス人（nationalities）"
+ },
+ {
+  "id": "tl-51188",
+  "th": "คนเยอรมัน",
+  "deck": "general",
+  "hint": "ドイツ人（nationalities）"
+ },
+ {
+  "id": "tl-51189",
+  "th": "คนลาว",
+  "deck": "general",
+  "hint": "ラオス人（nationalities）"
+ },
+ {
+  "id": "tl-51190",
+  "th": "คนพม่า",
+  "deck": "general",
+  "hint": "ミャンマー人（nationalities）"
+ },
+ {
+  "id": "tl-51191",
+  "th": "คนเขมร",
+  "deck": "general",
+  "hint": "カンボジア人（nationalities）"
+ },
+ {
+  "id": "tl-51192",
+  "th": "คนเวียดนาม",
+  "deck": "general",
+  "hint": "ベトナム人（nationalities）"
+ },
+ {
+  "id": "tl-51193",
+  "th": "คนอินเดีย",
+  "deck": "general",
+  "hint": "インド人（nationalities）"
+ },
+ {
+  "id": "tl-51194",
+  "th": "คนอีสาน",
+  "deck": "general",
+  "hint": "イサーンの人（nationalities）"
+ },
+ {
+  "id": "tl-51195",
+  "th": "คนกรุงเทพฯ",
+  "deck": "general",
+  "hint": "バンコクの人（nationalities）"
+ },
+ {
+  "id": "tl-51196",
+  "th": "คนต่างจังหวัด",
+  "deck": "general",
+  "hint": "地方の人（nationalities）"
+ },
+ {
+  "id": "tl-51197",
+  "th": "ชาวญี่ปุ่น",
+  "deck": "general",
+  "hint": "日本人（改まった言い方）（nationalities）"
+ },
+ {
+  "id": "tl-51198",
+  "th": "ชาวไทย",
+  "deck": "general",
+  "hint": "タイ国民・タイ人（改まった言い方）（nationalities）"
+ },
+ {
+  "id": "tl-51199",
+  "th": "ลูกครึ่ง",
+  "deck": "general",
+  "hint": "ハーフ・混血の人（nationalities）"
+ },
+ {
+  "id": "tl-51200",
+  "th": "บะหมี่กึ่งสำเร็จรูป",
+  "deck": "general",
+  "hint": "インスタントラーメン（food & drinks）"
+ },
+ {
+  "id": "tl-51201",
+  "th": "ราดหน้า",
+  "deck": "general",
+  "hint": "ラートナー（あんかけ麺）（food & drinks）"
+ },
+ {
+  "id": "tl-51202",
+  "th": "ผัดซีอิ๊ว",
+  "deck": "general",
+  "hint": "パッシーイウ（醤油炒め麺）（food & drinks）"
+ },
+ {
+  "id": "tl-51203",
+  "th": "ข้าวขาหมู",
+  "deck": "general",
+  "hint": "カオカームー（豚足煮込みご飯）（food & drinks）"
+ },
+ {
+  "id": "tl-51204",
+  "th": "ข้าวหมูแดง",
+  "deck": "general",
+  "hint": "カオムーデーン（焼き豚ご飯）（food & drinks）"
+ },
+ {
+  "id": "tl-51205",
+  "th": "ข้าวไข่เจียว",
+  "deck": "general",
+  "hint": "タイ風オムレツご飯（food & drinks）"
+ },
+ {
+  "id": "tl-51206",
+  "th": "ไข่ลวก",
+  "deck": "general",
+  "hint": "半熟卵（food & drinks）"
+ },
+ {
+  "id": "tl-51207",
+  "th": "ต้มข่าไก่",
+  "deck": "general",
+  "hint": "トムカーガイ（food & drinks）"
+ },
+ {
+  "id": "tl-51208",
+  "th": "แกงแดง",
+  "deck": "general",
+  "hint": "レッドカレー（food & drinks）"
+ },
+ {
+  "id": "tl-51209",
+  "th": "แกงมัสมั่น",
+  "deck": "general",
+  "hint": "マッサマンカレー（food & drinks）"
+ },
+ {
+  "id": "tl-51210",
+  "th": "หมูย่าง",
+  "deck": "general",
+  "hint": "豚の焼き肉（food & drinks）"
+ },
+ {
+  "id": "tl-51211",
+  "th": "ชาบู",
+  "deck": "general",
+  "hint": "しゃぶしゃぶ（food & drinks）"
+ },
+ {
+  "id": "tl-51212",
+  "th": "สุกี้",
+  "deck": "general",
+  "hint": "タイスキ（food & drinks）"
+ },
+ {
+  "id": "tl-51213",
+  "th": "ปิ้งย่าง",
+  "deck": "general",
+  "hint": "焼肉・バーベキュー（food & drinks）"
+ },
+ {
+  "id": "tl-51214",
+  "th": "หมูทอด",
+  "deck": "general",
+  "hint": "豚の揚げ物（food & drinks）"
+ },
+ {
+  "id": "tl-51215",
+  "th": "ปลาทอด",
+  "deck": "general",
+  "hint": "魚のフライ（food & drinks）"
+ },
+ {
+  "id": "tl-51216",
+  "th": "ปอเปี๊ยะ",
+  "deck": "general",
+  "hint": "春巻き（food & drinks）"
+ },
+ {
+  "id": "tl-51217",
+  "th": "ซาลาเปา",
+  "deck": "general",
+  "hint": "肉まん・饅頭（food & drinks）"
+ },
+ {
+  "id": "tl-51218",
+  "th": "เกี๊ยว",
+  "deck": "general",
+  "hint": "ワンタン（food & drinks）"
+ },
+ {
+  "id": "tl-51219",
+  "th": "หมูสับ",
+  "deck": "general",
+  "hint": "豚ひき肉（food & drinks）"
+ },
+ {
+  "id": "tl-51220",
+  "th": "หมูกรอบ",
+  "deck": "general",
+  "hint": "カリカリ豚（豚バラ揚げ）（food & drinks）"
+ },
+ {
+  "id": "tl-51221",
+  "th": "หมูแดง",
+  "deck": "general",
+  "hint": "焼き豚（ムーデーン）（food & drinks）"
+ },
+ {
+  "id": "tl-51222",
+  "th": "หมูสามชั้น",
+  "deck": "general",
+  "hint": "豚バラ肉（food & drinks）"
+ },
+ {
+  "id": "tl-51223",
+  "th": "อกไก่",
+  "deck": "general",
+  "hint": "鶏むね肉（food & drinks）"
+ },
+ {
+  "id": "tl-51224",
+  "th": "ปีกไก่",
+  "deck": "general",
+  "hint": "手羽先（food & drinks）"
+ },
+ {
+  "id": "tl-51225",
+  "th": "หอยนางรม",
+  "deck": "general",
+  "hint": "カキ（牡蠣）（food & drinks）"
+ },
+ {
+  "id": "tl-51226",
+  "th": "ปลาแซลมอน",
+  "deck": "general",
+  "hint": "サーモン（food & drinks）"
+ },
+ {
+  "id": "tl-51227",
+  "th": "ปลาทูน่า",
+  "deck": "general",
+  "hint": "マグロ・ツナ（food & drinks）"
+ },
+ {
+  "id": "tl-51228",
+  "th": "ปลาทู",
+  "deck": "general",
+  "hint": "プラートゥー（サバ科の魚）（food & drinks）"
+ },
+ {
+  "id": "tl-51229",
+  "th": "ราเมน",
+  "deck": "general",
+  "hint": "ラーメン（food & drinks）"
+ },
+ {
+  "id": "tl-51230",
+  "th": "แฮมเบอร์เกอร์",
+  "deck": "general",
+  "hint": "ハンバーガー（food & drinks）"
+ },
+ {
+  "id": "tl-51231",
+  "th": "สปาเกตตี",
+  "deck": "general",
+  "hint": "スパゲッティ（food & drinks）"
+ },
+ {
+  "id": "tl-51232",
+  "th": "สเต๊ก",
+  "deck": "general",
+  "hint": "ステーキ（food & drinks）"
+ },
+ {
+  "id": "tl-51233",
+  "th": "ขนมปังปิ้ง",
+  "deck": "general",
+  "hint": "トースト（food & drinks）"
+ },
+ {
+  "id": "tl-51234",
+  "th": "อาหารจีน",
+  "deck": "general",
+  "hint": "中華料理（food & drinks）"
+ },
+ {
+  "id": "tl-51235",
+  "th": "อาหารฝรั่ง",
+  "deck": "general",
+  "hint": "洋食（food & drinks）"
+ },
+ {
+  "id": "tl-51236",
+  "th": "อาหารอีสาน",
+  "deck": "general",
+  "hint": "イサーン料理（food & drinks）"
+ },
+ {
+  "id": "tl-51237",
+  "th": "อาหารว่าง",
+  "deck": "general",
+  "hint": "軽食・おやつ（food & drinks）"
+ },
+ {
+  "id": "tl-51238",
+  "th": "อาหารเจ",
+  "deck": "general",
+  "hint": "菜食（精進料理）（food & drinks）"
+ },
+ {
+  "id": "tl-51239",
+  "th": "อาหารตามสั่ง",
+  "deck": "general",
+  "hint": "注文料理（屋台の一品料理）（food & drinks）"
+ },
+ {
+  "id": "tl-51240",
+  "th": "หมากฝรั่ง",
+  "deck": "general",
+  "hint": "ガム（food & drinks）"
+ },
+ {
+  "id": "tl-51241",
+  "th": "ข้าวเหนียวมะม่วง",
+  "deck": "general",
+  "hint": "マンゴーもち米（food & drinks）"
+ },
+ {
+  "id": "tl-51242",
+  "th": "ขนมขบเคี้ยว",
+  "deck": "general",
+  "hint": "スナック菓子（food & drinks）"
+ },
+ {
+  "id": "tl-51243",
+  "th": "มันฝรั่งทอด",
+  "deck": "general",
+  "hint": "ポテトチップス（food & drinks）"
+ },
+ {
+  "id": "tl-51244",
+  "th": "โยเกิร์ต",
+  "deck": "general",
+  "hint": "ヨーグルト（food & drinks）"
+ },
+ {
+  "id": "tl-51245",
+  "th": "แยม",
+  "deck": "general",
+  "hint": "ジャム（food & drinks）"
+ },
+ {
+  "id": "tl-51246",
+  "th": "ซอสมะเขือเทศ",
+  "deck": "general",
+  "hint": "ケチャップ（food & drinks）"
+ },
+ {
+  "id": "tl-51247",
+  "th": "ซีอิ๊ว",
+  "deck": "general",
+  "hint": "醤油（food & drinks）"
+ },
+ {
+  "id": "tl-51248",
+  "th": "น้ำมันพืช",
+  "deck": "general",
+  "hint": "植物油（food & drinks）"
+ },
+ {
+  "id": "tl-51249",
+  "th": "น้ำส้มสายชู",
+  "deck": "general",
+  "hint": "酢（food & drinks）"
+ },
+ {
+  "id": "tl-51250",
+  "th": "พริกป่น",
+  "deck": "general",
+  "hint": "粉唐辛子（food & drinks）"
+ },
+ {
+  "id": "tl-51251",
+  "th": "ผงชูรส",
+  "deck": "general",
+  "hint": "化学調味料（味の素）（food & drinks）"
+ },
+ {
+  "id": "tl-51252",
+  "th": "เส้นใหญ่",
+  "deck": "general",
+  "hint": "センヤイ（太麺）（food & drinks）"
+ },
+ {
+  "id": "tl-51253",
+  "th": "เส้นเล็ก",
+  "deck": "general",
+  "hint": "センレック（細麺）（food & drinks）"
+ },
+ {
+  "id": "tl-51254",
+  "th": "เส้นหมี่",
+  "deck": "general",
+  "hint": "センミー（極細米麺）（food & drinks）"
+ },
+ {
+  "id": "tl-51255",
+  "th": "วุ้นเส้น",
+  "deck": "general",
+  "hint": "春雨（food & drinks）"
+ },
+ {
+  "id": "tl-51256",
+  "th": "น้ำมะพร้าว",
+  "deck": "general",
+  "hint": "ココナッツジュース（food & drinks）"
+ },
+ {
+  "id": "tl-51257",
+  "th": "นมถั่วเหลือง",
+  "deck": "general",
+  "hint": "豆乳（food & drinks）"
+ },
+ {
+  "id": "tl-51258",
+  "th": "ชานมไข่มุก",
+  "deck": "general",
+  "hint": "タピオカミルクティー（food & drinks）"
+ },
+ {
+  "id": "tl-51259",
+  "th": "กาแฟร้อน",
+  "deck": "general",
+  "hint": "ホットコーヒー（food & drinks）"
+ },
+ {
+  "id": "tl-51260",
+  "th": "ลาเต้",
+  "deck": "general",
+  "hint": "ラテ（food & drinks）"
+ },
+ {
+  "id": "tl-51261",
+  "th": "โกโก้",
+  "deck": "general",
+  "hint": "ココア（food & drinks）"
+ },
+ {
+  "id": "tl-51262",
+  "th": "น้ำปั่น",
+  "deck": "general",
+  "hint": "フローズンドリンク（food & drinks）"
+ },
+ {
+  "id": "tl-51263",
+  "th": "ส้มโอ",
+  "deck": "general",
+  "hint": "ザボン・ポメロ（food & drinks）"
+ },
+ {
+  "id": "tl-51264",
+  "th": "แก้วมังกร",
+  "deck": "general",
+  "hint": "ドラゴンフルーツ（food & drinks）"
+ },
+ {
+  "id": "tl-51265",
+  "th": "สตรอว์เบอร์รี",
+  "deck": "general",
+  "hint": "イチゴ（food & drinks）"
+ },
+ {
+  "id": "tl-51266",
+  "th": "ผักกาด",
+  "deck": "general",
+  "hint": "菜っ葉（からし菜など）（food & drinks）"
+ },
+ {
+  "id": "tl-51267",
+  "th": "ผักกาดขาว",
+  "deck": "general",
+  "hint": "白菜（food & drinks）"
+ },
+ {
+  "id": "tl-51268",
+  "th": "หอมแดง",
+  "deck": "general",
+  "hint": "エシャロット（赤小玉ねぎ）（food & drinks）"
+ },
+ {
+  "id": "tl-51269",
+  "th": "ใบกะเพรา",
+  "deck": "general",
+  "hint": "ホーリーバジルの葉（food & drinks）"
+ },
+ {
+  "id": "tl-51270",
+  "th": "มันเทศ",
+  "deck": "general",
+  "hint": "サツマイモ（food & drinks）"
+ },
+ {
+  "id": "tl-51271",
+  "th": "บรอกโคลี",
+  "deck": "general",
+  "hint": "ブロッコリー（food & drinks）"
+ },
+ {
+  "id": "tl-51272",
+  "th": "ถั่วงอก",
+  "deck": "general",
+  "hint": "もやし（food & drinks）"
+ },
+ {
+  "id": "tl-51273",
+  "th": "ถั่วลิสง",
+  "deck": "general",
+  "hint": "ピーナッツ（food & drinks）"
+ },
+ {
+  "id": "tl-51274",
+  "th": "ถั่วเหลือง",
+  "deck": "general",
+  "hint": "大豆（food & drinks）"
+ },
+ {
+  "id": "tl-51275",
+  "th": "ผักสลัด",
+  "deck": "general",
+  "hint": "サラダ菜・レタス（food & drinks）"
+ },
+ {
+  "id": "tl-51276",
+  "th": "ห้องกินข้าว",
+  "deck": "general",
+  "hint": "ダイニング（食事部屋）（household）"
+ },
+ {
+  "id": "tl-51277",
+  "th": "บันไดเลื่อน",
+  "deck": "general",
+  "hint": "エスカレーター（household）"
+ },
+ {
+  "id": "tl-51278",
+  "th": "ผ้าปูที่นอน",
+  "deck": "general",
+  "hint": "シーツ（household）"
+ },
+ {
+  "id": "tl-51279",
+  "th": "ผ้าม่าน",
+  "deck": "general",
+  "hint": "カーテン（household）"
+ },
+ {
+  "id": "tl-51280",
+  "th": "ชั้นวางของ",
+  "deck": "general",
+  "hint": "棚（household）"
+ },
+ {
+  "id": "tl-51281",
+  "th": "ชั้นหนังสือ",
+  "deck": "general",
+  "hint": "本棚（household）"
+ },
+ {
+  "id": "tl-51282",
+  "th": "นาฬิกาปลุก",
+  "deck": "general",
+  "hint": "目覚まし時計（household）"
+ },
+ {
+  "id": "tl-51283",
+  "th": "หลอดไฟ",
+  "deck": "general",
+  "hint": "電球（household）"
+ },
+ {
+  "id": "tl-51284",
+  "th": "สวิตช์",
+  "deck": "general",
+  "hint": "スイッチ（household）"
+ },
+ {
+  "id": "tl-51285",
+  "th": "เตาอบ",
+  "deck": "general",
+  "hint": "オーブン（household）"
+ },
+ {
+  "id": "tl-51286",
+  "th": "เตาแก๊ส",
+  "deck": "general",
+  "hint": "ガスコンロ（household）"
+ },
+ {
+  "id": "tl-51287",
+  "th": "กาต้มน้ำ",
+  "deck": "general",
+  "hint": "やかん・電気ケトル（household）"
+ },
+ {
+  "id": "tl-51288",
+  "th": "เครื่องดูดฝุ่น",
+  "deck": "general",
+  "hint": "掃除機（household）"
+ },
+ {
+  "id": "tl-51289",
+  "th": "เตารีด",
+  "deck": "general",
+  "hint": "アイロン（household）"
+ },
+ {
+  "id": "tl-51290",
+  "th": "ไดร์เป่าผม",
+  "deck": "general",
+  "hint": "ヘアドライヤー（household）"
+ },
+ {
+  "id": "tl-51291",
+  "th": "ไม้กวาด",
+  "deck": "general",
+  "hint": "ほうき（household）"
+ },
+ {
+  "id": "tl-51292",
+  "th": "ถุงขยะ",
+  "deck": "general",
+  "hint": "ゴミ袋（household）"
+ },
+ {
+  "id": "tl-51293",
+  "th": "ไม้แขวนเสื้อ",
+  "deck": "general",
+  "hint": "ハンガー（household）"
+ },
+ {
+  "id": "tl-51294",
+  "th": "ไฟแช็ก",
+  "deck": "general",
+  "hint": "ライター（household）"
+ },
+ {
+  "id": "tl-51295",
+  "th": "ยากันยุง",
+  "deck": "general",
+  "hint": "虫よけ（household）"
+ },
+ {
+  "id": "tl-51296",
+  "th": "ครีมนวดผม",
+  "deck": "general",
+  "hint": "リンス・コンディショナー（household）"
+ },
+ {
+  "id": "tl-51297",
+  "th": "กระดาษชำระ",
+  "deck": "general",
+  "hint": "トイレットペーパー（household）"
+ },
+ {
+  "id": "tl-51298",
+  "th": "มีดโกน",
+  "deck": "general",
+  "hint": "カミソリ（household）"
+ },
+ {
+  "id": "tl-51299",
+  "th": "โลชั่น",
+  "deck": "general",
+  "hint": "ローション・乳液（household）"
+ },
+ {
+  "id": "tl-51300",
+  "th": "ครีมกันแดด",
+  "deck": "general",
+  "hint": "日焼け止め（household）"
+ },
+ {
+  "id": "tl-51301",
+  "th": "ลิปสติก",
+  "deck": "general",
+  "hint": "口紅（household）"
+ },
+ {
+  "id": "tl-51302",
+  "th": "ผงซักฟอก",
+  "deck": "general",
+  "hint": "洗濯洗剤（household）"
+ },
+ {
+  "id": "tl-51303",
+  "th": "น้ำยาล้างจาน",
+  "deck": "general",
+  "hint": "食器用洗剤（household）"
+ },
+ {
+  "id": "tl-51304",
+  "th": "แก้วกาแฟ",
+  "deck": "general",
+  "hint": "コーヒーカップ（household）"
+ },
+ {
+  "id": "tl-51305",
+  "th": "กระติกน้ำ",
+  "deck": "general",
+  "hint": "水筒（household）"
+ },
+ {
+  "id": "tl-51306",
+  "th": "กล่องข้าว",
+  "deck": "general",
+  "hint": "弁当箱（household）"
+ },
+ {
+  "id": "tl-51307",
+  "th": "เสื้อแจ็กเก็ต",
+  "deck": "general",
+  "hint": "ジャケット（clothes）"
+ },
+ {
+  "id": "tl-51308",
+  "th": "เสื้อกันฝน",
+  "deck": "general",
+  "hint": "レインコート（clothes）"
+ },
+ {
+  "id": "tl-51309",
+  "th": "เสื้อนอก",
+  "deck": "general",
+  "hint": "上着・ジャケット（clothes）"
+ },
+ {
+  "id": "tl-51310",
+  "th": "เสื้อสูท",
+  "deck": "general",
+  "hint": "スーツ（clothes）"
+ },
+ {
+  "id": "tl-51311",
+  "th": "เสื้อกล้าม",
+  "deck": "general",
+  "hint": "タンクトップ（clothes）"
+ },
+ {
+  "id": "tl-51312",
+  "th": "ชุดนักเรียน",
+  "deck": "general",
+  "hint": "学生服（clothes）"
+ },
+ {
+  "id": "tl-51313",
+  "th": "ชุดว่ายน้ำ",
+  "deck": "general",
+  "hint": "水着（clothes）"
+ },
+ {
+  "id": "tl-51314",
+  "th": "ชุดชั้นใน",
+  "deck": "general",
+  "hint": "下着（clothes）"
+ },
+ {
+  "id": "tl-51315",
+  "th": "ชุดไทย",
+  "deck": "general",
+  "hint": "タイの民族衣装（clothes）"
+ },
+ {
+  "id": "tl-51316",
+  "th": "กางเกงขายาว",
+  "deck": "general",
+  "hint": "長ズボン（clothes）"
+ },
+ {
+  "id": "tl-51317",
+  "th": "เดรส",
+  "deck": "general",
+  "hint": "ワンピース・ドレス（clothes）"
+ },
+ {
+  "id": "tl-51318",
+  "th": "รองเท้าส้นสูง",
+  "deck": "general",
+  "hint": "ハイヒール（clothes）"
+ },
+ {
+  "id": "tl-51319",
+  "th": "รองเท้าหนัง",
+  "deck": "general",
+  "hint": "革靴（clothes）"
+ },
+ {
+  "id": "tl-51320",
+  "th": "หมวกกันน็อก",
+  "deck": "general",
+  "hint": "ヘルメット（clothes）"
+ },
+ {
+  "id": "tl-51321",
+  "th": "แว่นกันแดด",
+  "deck": "general",
+  "hint": "サングラス（clothes）"
+ },
+ {
+  "id": "tl-51322",
+  "th": "คอนแทคเลนส์",
+  "deck": "general",
+  "hint": "コンタクトレンズ（clothes）"
+ },
+ {
+  "id": "tl-51323",
+  "th": "นาฬิกาข้อมือ",
+  "deck": "general",
+  "hint": "腕時計（clothes）"
+ },
+ {
+  "id": "tl-51324",
+  "th": "เนกไท",
+  "deck": "general",
+  "hint": "ネクタイ（clothes）"
+ },
+ {
+  "id": "tl-51325",
+  "th": "ผ้าพันคอ",
+  "deck": "general",
+  "hint": "マフラー・スカーフ（clothes）"
+ },
+ {
+  "id": "tl-51326",
+  "th": "กระเป๋าเงิน",
+  "deck": "general",
+  "hint": "財布（clothes）"
+ },
+ {
+  "id": "tl-51327",
+  "th": "กระเป๋าถือ",
+  "deck": "general",
+  "hint": "ハンドバッグ（clothes）"
+ },
+ {
+  "id": "tl-51328",
+  "th": "กระดุม",
+  "deck": "general",
+  "hint": "ボタン（clothes）"
+ },
+ {
+  "id": "tl-51329",
+  "th": "ซิป",
+  "deck": "general",
+  "hint": "ファスナー（clothes）"
+ },
+ {
+  "id": "tl-51330",
+  "th": "ไซซ์",
+  "deck": "general",
+  "hint": "サイズ（clothes）"
+ },
+ {
+  "id": "tl-51331",
+  "th": "ผ้าไหม",
+  "deck": "general",
+  "hint": "絹・シルク（clothes）"
+ },
+ {
+  "id": "tl-51332",
+  "th": "ผ้าอ้อม",
+  "deck": "general",
+  "hint": "おむつ（clothes）"
+ },
+ {
+  "id": "tl-51333",
+  "th": "ขนตา",
+  "deck": "general",
+  "hint": "まつげ（body & health）"
+ },
+ {
+  "id": "tl-51334",
+  "th": "ข้อศอก",
+  "deck": "general",
+  "hint": "ひじ（body & health）"
+ },
+ {
+  "id": "tl-51335",
+  "th": "นิ้วโป้ง",
+  "deck": "general",
+  "hint": "親指（body & health）"
+ },
+ {
+  "id": "tl-51336",
+  "th": "ไข้หวัดใหญ่",
+  "deck": "general",
+  "hint": "インフルエンザ（body & health）"
+ },
+ {
+  "id": "tl-51337",
+  "th": "ไข้เลือดออก",
+  "deck": "general",
+  "hint": "デング熱（body & health）"
+ },
+ {
+  "id": "tl-51338",
+  "th": "น้ำมูก",
+  "deck": "general",
+  "hint": "鼻水（body & health）"
+ },
+ {
+  "id": "tl-51339",
+  "th": "อาหารเป็นพิษ",
+  "deck": "general",
+  "hint": "食中毒（body & health）"
+ },
+ {
+  "id": "tl-51340",
+  "th": "ภูมิแพ้",
+  "deck": "general",
+  "hint": "アレルギー（body & health）"
+ },
+ {
+  "id": "tl-51341",
+  "th": "ผื่น",
+  "deck": "general",
+  "hint": "発疹（body & health）"
+ },
+ {
+  "id": "tl-51342",
+  "th": "ฟันผุ",
+  "deck": "general",
+  "hint": "虫歯（body & health）"
+ },
+ {
+  "id": "tl-51343",
+  "th": "เบาหวาน",
+  "deck": "general",
+  "hint": "糖尿病（body & health）"
+ },
+ {
+  "id": "tl-51344",
+  "th": "ความดันโลหิตสูง",
+  "deck": "general",
+  "hint": "高血圧（body & health）"
+ },
+ {
+  "id": "tl-51345",
+  "th": "โรคซึมเศร้า",
+  "deck": "general",
+  "hint": "うつ病（body & health）"
+ },
+ {
+  "id": "tl-51346",
+  "th": "ยาลดไข้",
+  "deck": "general",
+  "hint": "解熱剤（body & health）"
+ },
+ {
+  "id": "tl-51347",
+  "th": "ยาแก้ไอ",
+  "deck": "general",
+  "hint": "咳止め（body & health）"
+ },
+ {
+  "id": "tl-51348",
+  "th": "ยาหยอดตา",
+  "deck": "general",
+  "hint": "目薬（body & health）"
+ },
+ {
+  "id": "tl-51349",
+  "th": "ยาดม",
+  "deck": "general",
+  "hint": "ヤードム（嗅ぎ薬）（body & health）"
+ },
+ {
+  "id": "tl-51350",
+  "th": "ยาหม่อง",
+  "deck": "general",
+  "hint": "ヤーモン（塗り薬・バーム）（body & health）"
+ },
+ {
+  "id": "tl-51351",
+  "th": "พลาสเตอร์",
+  "deck": "general",
+  "hint": "絆創膏（body & health）"
+ },
+ {
+  "id": "tl-51352",
+  "th": "วัคซีน",
+  "deck": "general",
+  "hint": "ワクチン（body & health）"
+ },
+ {
+  "id": "tl-51353",
+  "th": "ห้องฉุกเฉิน",
+  "deck": "general",
+  "hint": "救急室（body & health）"
+ },
+ {
+  "id": "tl-51354",
+  "th": "นวดเท้า",
+  "deck": "general",
+  "hint": "足マッサージ（body & health）"
+ },
+ {
+  "id": "tl-51355",
+  "th": "ประกันสุขภาพ",
+  "deck": "general",
+  "hint": "健康保険（body & health）"
+ },
+ {
+  "id": "tl-51356",
+  "th": "ผู้สูงอายุ",
+  "deck": "general",
+  "hint": "高齢者（people & jobs）"
+ },
+ {
+  "id": "tl-51357",
+  "th": "พนักงานขาย",
+  "deck": "general",
+  "hint": "販売員（people & jobs）"
+ },
+ {
+  "id": "tl-51358",
+  "th": "พนักงานเสิร์ฟ",
+  "deck": "general",
+  "hint": "ウェイター・ウェイトレス（people & jobs）"
+ },
+ {
+  "id": "tl-51359",
+  "th": "แคชเชียร์",
+  "deck": "general",
+  "hint": "レジ係（people & jobs）"
+ },
+ {
+  "id": "tl-51360",
+  "th": "คนขับแท็กซี่",
+  "deck": "general",
+  "hint": "タクシー運転手（people & jobs）"
+ },
+ {
+  "id": "tl-51361",
+  "th": "วินมอเตอร์ไซค์",
+  "deck": "general",
+  "hint": "バイクタクシー（乗り場・運転手）（people & jobs）"
+ },
+ {
+  "id": "tl-51362",
+  "th": "ช่างตัดผม",
+  "deck": "general",
+  "hint": "理容師（people & jobs）"
+ },
+ {
+  "id": "tl-51363",
+  "th": "ช่างซ่อม",
+  "deck": "general",
+  "hint": "修理工（people & jobs）"
+ },
+ {
+  "id": "tl-51364",
+  "th": "ช่างภาพ",
+  "deck": "general",
+  "hint": "カメラマン（people & jobs）"
+ },
+ {
+  "id": "tl-51365",
+  "th": "โปรแกรมเมอร์",
+  "deck": "general",
+  "hint": "プログラマー（people & jobs）"
+ },
+ {
+  "id": "tl-51366",
+  "th": "นักบัญชี",
+  "deck": "general",
+  "hint": "会計士（people & jobs）"
+ },
+ {
+  "id": "tl-51367",
+  "th": "พนักงานต้อนรับ",
+  "deck": "general",
+  "hint": "受付係（people & jobs）"
+ },
+ {
+  "id": "tl-51368",
+  "th": "เภสัชกร",
+  "deck": "general",
+  "hint": "薬剤師（people & jobs）"
+ },
+ {
+  "id": "tl-51369",
+  "th": "เจ้าของร้าน",
+  "deck": "general",
+  "hint": "店主（people & jobs）"
+ },
+ {
+  "id": "tl-51370",
+  "th": "รปภ.",
+  "deck": "general",
+  "hint": "警備員（略語）（people & jobs）"
+ },
+ {
+  "id": "tl-51371",
+  "th": "คนส่งของ",
+  "deck": "general",
+  "hint": "配達員（people & jobs）"
+ },
+ {
+  "id": "tl-51372",
+  "th": "ไม้บรรทัด",
+  "deck": "general",
+  "hint": "定規（school & office）"
+ },
+ {
+  "id": "tl-51373",
+  "th": "กระดานดำ",
+  "deck": "general",
+  "hint": "黒板（school & office）"
+ },
+ {
+  "id": "tl-51374",
+  "th": "ไวท์บอร์ด",
+  "deck": "general",
+  "hint": "ホワイトボード（school & office）"
+ },
+ {
+  "id": "tl-51375",
+  "th": "เทปกาว",
+  "deck": "general",
+  "hint": "粘着テープ（school & office）"
+ },
+ {
+  "id": "tl-51376",
+  "th": "ซองจดหมาย",
+  "deck": "general",
+  "hint": "封筒（school & office）"
+ },
+ {
+  "id": "tl-51377",
+  "th": "นามบัตร",
+  "deck": "general",
+  "hint": "名刺（school & office）"
+ },
+ {
+  "id": "tl-51378",
+  "th": "เครื่องคิดเลข",
+  "deck": "general",
+  "hint": "電卓（school & office）"
+ },
+ {
+  "id": "tl-51379",
+  "th": "เครื่องพิมพ์",
+  "deck": "general",
+  "hint": "プリンター（school & office）"
+ },
+ {
+  "id": "tl-51380",
+  "th": "โต๊ะทำงาน",
+  "deck": "general",
+  "hint": "仕事机（school & office）"
+ },
+ {
+  "id": "tl-51381",
+  "th": "โรงเรียนอนุบาล",
+  "deck": "general",
+  "hint": "幼稚園（school & office）"
+ },
+ {
+  "id": "tl-51382",
+  "th": "ฟิสิกส์",
+  "deck": "general",
+  "hint": "物理（school & office）"
+ },
+ {
+  "id": "tl-51383",
+  "th": "ชีววิทยา",
+  "deck": "general",
+  "hint": "生物学（school & office）"
+ },
+ {
+  "id": "tl-51384",
+  "th": "สอบปลายภาค",
+  "deck": "general",
+  "hint": "期末試験（school & office）"
+ },
+ {
+  "id": "tl-51385",
+  "th": "สอบกลางภาค",
+  "deck": "general",
+  "hint": "中間試験（school & office）"
+ },
+ {
+  "id": "tl-51386",
+  "th": "ทุนการศึกษา",
+  "deck": "general",
+  "hint": "奨学金（school & office）"
+ },
+ {
+  "id": "tl-51387",
+  "th": "ปริญญาตรี",
+  "deck": "general",
+  "hint": "学士（school & office）"
+ },
+ {
+  "id": "tl-51388",
+  "th": "ปริญญาโท",
+  "deck": "general",
+  "hint": "修士（school & office）"
+ },
+ {
+  "id": "tl-51389",
+  "th": "เพื่อนร่วมชั้น",
+  "deck": "general",
+  "hint": "クラスメート（school & office）"
+ },
+ {
+  "id": "tl-51390",
+  "th": "โบนัส",
+  "deck": "general",
+  "hint": "ボーナス（school & office）"
+ },
+ {
+  "id": "tl-51391",
+  "th": "โอที",
+  "deck": "general",
+  "hint": "残業（school & office）"
+ },
+ {
+  "id": "tl-51392",
+  "th": "เรซูเม่",
+  "deck": "general",
+  "hint": "履歴書（school & office）"
+ },
+ {
+  "id": "tl-51393",
+  "th": "ตลาดน้ำ",
+  "deck": "general",
+  "hint": "水上マーケット（places in town）"
+ },
+ {
+  "id": "tl-51394",
+  "th": "ตลาดกลางคืน",
+  "deck": "general",
+  "hint": "ナイトマーケット（places in town）"
+ },
+ {
+  "id": "tl-51395",
+  "th": "ถนนคนเดิน",
+  "deck": "general",
+  "hint": "歩行者天国（ウォーキングストリート）（places in town）"
+ },
+ {
+  "id": "tl-51396",
+  "th": "ร้านเสื้อผ้า",
+  "deck": "general",
+  "hint": "洋服屋（places in town）"
+ },
+ {
+  "id": "tl-51397",
+  "th": "ร้านขนม",
+  "deck": "general",
+  "hint": "お菓子屋・ケーキ屋（places in town）"
+ },
+ {
+  "id": "tl-51398",
+  "th": "ร้านเสริมสวย",
+  "deck": "general",
+  "hint": "美容院（places in town）"
+ },
+ {
+  "id": "tl-51399",
+  "th": "ร้านซักรีด",
+  "deck": "general",
+  "hint": "クリーニング店（places in town）"
+ },
+ {
+  "id": "tl-51400",
+  "th": "ร้านเหล้า",
+  "deck": "general",
+  "hint": "居酒屋・飲み屋（places in town）"
+ },
+ {
+  "id": "tl-51401",
+  "th": "ผับ",
+  "deck": "general",
+  "hint": "パブ・クラブ（places in town）"
+ },
+ {
+  "id": "tl-51402",
+  "th": "แผงลอย",
+  "deck": "general",
+  "hint": "屋台・露店（places in town）"
+ },
+ {
+  "id": "tl-51403",
+  "th": "ตรวจคนเข้าเมือง",
+  "deck": "general",
+  "hint": "入国管理局（places in town）"
+ },
+ {
+  "id": "tl-51404",
+  "th": "โรงภาพยนตร์",
+  "deck": "general",
+  "hint": "映画館（改まった言い方）（places in town）"
+ },
+ {
+  "id": "tl-51405",
+  "th": "สวนสนุก",
+  "deck": "general",
+  "hint": "遊園地（places in town）"
+ },
+ {
+  "id": "tl-51406",
+  "th": "ฟิตเนส",
+  "deck": "general",
+  "hint": "フィットネスジム（places in town）"
+ },
+ {
+  "id": "tl-51407",
+  "th": "ยิม",
+  "deck": "general",
+  "hint": "ジム（places in town）"
+ },
+ {
+  "id": "tl-51408",
+  "th": "สนามกีฬา",
+  "deck": "general",
+  "hint": "競技場・スタジアム（places in town）"
+ },
+ {
+  "id": "tl-51409",
+  "th": "บ้านเดี่ยว",
+  "deck": "general",
+  "hint": "一戸建て（places in town）"
+ },
+ {
+  "id": "tl-51410",
+  "th": "สามแยก",
+  "deck": "general",
+  "hint": "三叉路（places in town）"
+ },
+ {
+  "id": "tl-51411",
+  "th": "ทางม้าลาย",
+  "deck": "general",
+  "hint": "横断歩道（places in town）"
+ },
+ {
+  "id": "tl-51412",
+  "th": "สะพานลอย",
+  "deck": "general",
+  "hint": "歩道橋（places in town）"
+ },
+ {
+  "id": "tl-51413",
+  "th": "ทางเท้า",
+  "deck": "general",
+  "hint": "歩道（places in town）"
+ },
+ {
+  "id": "tl-51414",
+  "th": "ฟุตบาท",
+  "deck": "general",
+  "hint": "歩道（口語）（places in town）"
+ },
+ {
+  "id": "tl-51415",
+  "th": "เกสต์เฮาส์",
+  "deck": "general",
+  "hint": "ゲストハウス（places in town）"
+ },
+ {
+  "id": "tl-51416",
+  "th": "รีสอร์ต",
+  "deck": "general",
+  "hint": "リゾート（places in town）"
+ },
+ {
+  "id": "tl-51417",
+  "th": "รถเก๋ง",
+  "deck": "general",
+  "hint": "乗用車（セダン）（transport & travel）"
+ },
+ {
+  "id": "tl-51418",
+  "th": "รถกระบะ",
+  "deck": "general",
+  "hint": "ピックアップトラック（transport & travel）"
+ },
+ {
+  "id": "tl-51419",
+  "th": "มอเตอร์ไซค์รับจ้าง",
+  "deck": "general",
+  "hint": "バイクタクシー（transport & travel）"
+ },
+ {
+  "id": "tl-51420",
+  "th": "เรือข้ามฟาก",
+  "deck": "general",
+  "hint": "渡し船・フェリー（transport & travel）"
+ },
+ {
+  "id": "tl-51421",
+  "th": "สถานีขนส่ง",
+  "deck": "general",
+  "hint": "バスターミナル（transport & travel）"
+ },
+ {
+  "id": "tl-51422",
+  "th": "ตั๋วไปกลับ",
+  "deck": "general",
+  "hint": "往復切符（transport & travel）"
+ },
+ {
+  "id": "tl-51423",
+  "th": "บัตรขึ้นเครื่อง",
+  "deck": "general",
+  "hint": "搭乗券（transport & travel）"
+ },
+ {
+  "id": "tl-51424",
+  "th": "ทะเบียนรถ",
+  "deck": "general",
+  "hint": "ナンバープレート・車両登録（transport & travel）"
+ },
+ {
+  "id": "tl-51425",
+  "th": "เข็มขัดนิรภัย",
+  "deck": "general",
+  "hint": "シートベルト（transport & travel）"
+ },
+ {
+  "id": "tl-51426",
+  "th": "ค่ารถ",
+  "deck": "general",
+  "hint": "交通費・運賃（口語）（transport & travel）"
+ },
+ {
+  "id": "tl-51427",
+  "th": "มิเตอร์",
+  "deck": "general",
+  "hint": "メーター（transport & travel）"
+ },
+ {
+  "id": "tl-51428",
+  "th": "การจอง",
+  "deck": "general",
+  "hint": "予約（transport & travel）"
+ },
+ {
+  "id": "tl-51429",
+  "th": "บาสเกตบอล",
+  "deck": "general",
+  "hint": "バスケットボール（sports & hobbies）"
+ },
+ {
+  "id": "tl-51430",
+  "th": "วอลเลย์บอล",
+  "deck": "general",
+  "hint": "バレーボール（sports & hobbies）"
+ },
+ {
+  "id": "tl-51431",
+  "th": "แบดมินตัน",
+  "deck": "general",
+  "hint": "バドミントン（sports & hobbies）"
+ },
+ {
+  "id": "tl-51432",
+  "th": "ปิงปอง",
+  "deck": "general",
+  "hint": "卓球（sports & hobbies）"
+ },
+ {
+  "id": "tl-51433",
+  "th": "ตะกร้อ",
+  "deck": "general",
+  "hint": "セパタクロー（sports & hobbies）"
+ },
+ {
+  "id": "tl-51434",
+  "th": "มาราธอน",
+  "deck": "general",
+  "hint": "マラソン（sports & hobbies）"
+ },
+ {
+  "id": "tl-51435",
+  "th": "โอลิมปิก",
+  "deck": "general",
+  "hint": "オリンピック（sports & hobbies）"
+ },
+ {
+  "id": "tl-51436",
+  "th": "ฟุตบอลโลก",
+  "deck": "general",
+  "hint": "ワールドカップ（サッカー）（sports & hobbies）"
+ },
+ {
+  "id": "tl-51437",
+  "th": "นักฟุตบอล",
+  "deck": "general",
+  "hint": "サッカー選手（sports & hobbies）"
+ },
+ {
+  "id": "tl-51438",
+  "th": "ทีมชาติ",
+  "deck": "general",
+  "hint": "代表チーム（sports & hobbies）"
+ },
+ {
+  "id": "tl-51439",
+  "th": "วิดีโอเกม",
+  "deck": "general",
+  "hint": "テレビゲーム（sports & hobbies）"
+ },
+ {
+  "id": "tl-51440",
+  "th": "คาราโอเกะ",
+  "deck": "general",
+  "hint": "カラオケ（sports & hobbies）"
+ },
+ {
+  "id": "tl-51441",
+  "th": "อนิเมะ",
+  "deck": "general",
+  "hint": "アニメ（sports & hobbies）"
+ },
+ {
+  "id": "tl-51442",
+  "th": "แท็บเล็ต",
+  "deck": "general",
+  "hint": "タブレット（IT & phone）"
+ },
+ {
+  "id": "tl-51443",
+  "th": "คีย์บอร์ด",
+  "deck": "general",
+  "hint": "キーボード（IT & phone）"
+ },
+ {
+  "id": "tl-51444",
+  "th": "เมาส์",
+  "deck": "general",
+  "hint": "マウス（IT & phone）"
+ },
+ {
+  "id": "tl-51445",
+  "th": "ไมโครโฟน",
+  "deck": "general",
+  "hint": "マイク（IT & phone）"
+ },
+ {
+  "id": "tl-51446",
+  "th": "กล้องถ่ายรูป",
+  "deck": "general",
+  "hint": "カメラ（IT & phone）"
+ },
+ {
+  "id": "tl-51447",
+  "th": "พาวเวอร์แบงก์",
+  "deck": "general",
+  "hint": "モバイルバッテリー（IT & phone）"
+ },
+ {
+  "id": "tl-51448",
+  "th": "ซิมการ์ด",
+  "deck": "general",
+  "hint": "SIMカード（IT & phone）"
+ },
+ {
+  "id": "tl-51449",
+  "th": "แอปพลิเคชัน",
+  "deck": "general",
+  "hint": "アプリケーション（IT & phone）"
+ },
+ {
+  "id": "tl-51450",
+  "th": "รูปโปรไฟล์",
+  "deck": "general",
+  "hint": "プロフィール写真（IT & phone）"
+ },
+ {
+  "id": "tl-51451",
+  "th": "บัญชีผู้ใช้",
+  "deck": "general",
+  "hint": "ユーザーアカウント（IT & phone）"
+ },
+ {
+  "id": "tl-51452",
+  "th": "ชื่อผู้ใช้",
+  "deck": "general",
+  "hint": "ユーザー名（IT & phone）"
+ },
+ {
+  "id": "tl-51453",
+  "th": "โฟลเดอร์",
+  "deck": "general",
+  "hint": "フォルダ（IT & phone）"
+ },
+ {
+  "id": "tl-51454",
+  "th": "เซลฟี่",
+  "deck": "general",
+  "hint": "セルフィー・自撮り（IT & phone）"
+ },
+ {
+  "id": "tl-51455",
+  "th": "เกมออนไลน์",
+  "deck": "general",
+  "hint": "オンラインゲーム（IT & phone）"
+ },
+ {
+  "id": "tl-51456",
+  "th": "แอปธนาคาร",
+  "deck": "general",
+  "hint": "銀行アプリ（IT & phone）"
+ },
+ {
+  "id": "tl-51457",
+  "th": "หมีแพนด้า",
+  "deck": "general",
+  "hint": "パンダ（animals）"
+ },
+ {
+  "id": "tl-51458",
+  "th": "ยีราฟ",
+  "deck": "general",
+  "hint": "キリン（animals）"
+ },
+ {
+  "id": "tl-51459",
+  "th": "ม้าลาย",
+  "deck": "general",
+  "hint": "シマウマ（animals）"
+ },
+ {
+  "id": "tl-51460",
+  "th": "นกพิราบ",
+  "deck": "general",
+  "hint": "ハト（animals）"
+ },
+ {
+  "id": "tl-51461",
+  "th": "ปลาโลมา",
+  "deck": "general",
+  "hint": "イルカ（animals）"
+ },
+ {
+  "id": "tl-51462",
+  "th": "ฉลาม",
+  "deck": "general",
+  "hint": "サメ（animals）"
+ },
+ {
+  "id": "tl-51463",
+  "th": "ใบไม้ผลิ",
+  "deck": "general",
+  "hint": "春（nature & weather）"
+ },
+ {
+  "id": "tl-51464",
+  "th": "ใบไม้ร่วง",
+  "deck": "general",
+  "hint": "秋・落ち葉（nature & weather）"
+ },
+ {
+  "id": "tl-51465",
+  "th": "ทุ่งนา",
+  "deck": "general",
+  "hint": "田んぼ（nature & weather）"
+ },
+ {
+  "id": "tl-51466",
+  "th": "ดอกกุหลาบ",
+  "deck": "general",
+  "hint": "バラ（nature & weather）"
+ },
+ {
+  "id": "tl-51467",
+  "th": "กล้วยไม้",
+  "deck": "general",
+  "hint": "ラン（蘭）（nature & weather）"
+ },
+ {
+  "id": "tl-51468",
+  "th": "ไม้ไผ่",
+  "deck": "general",
+  "hint": "竹（nature & weather）"
+ },
+ {
+  "id": "tl-51469",
+  "th": "สึนามิ",
+  "deck": "general",
+  "hint": "津波（nature & weather）"
+ },
+ {
+  "id": "tl-51470",
+  "th": "วันหยุดยาว",
+  "deck": "general",
+  "hint": "連休（time）"
+ },
+ {
+  "id": "tl-51471",
+  "th": "วันปีใหม่",
+  "deck": "general",
+  "hint": "元日（time）"
+ },
+ {
+  "id": "tl-51472",
+  "th": "ตรุษจีน",
+  "deck": "general",
+  "hint": "旧正月（春節）（time）"
+ },
+ {
+  "id": "tl-51473",
+  "th": "วันวาเลนไทน์",
+  "deck": "general",
+  "hint": "バレンタインデー（time）"
+ },
+ {
+  "id": "tl-51474",
+  "th": "วันแม่",
+  "deck": "general",
+  "hint": "母の日（time）"
+ },
+ {
+  "id": "tl-51475",
+  "th": "วันพ่อ",
+  "deck": "general",
+  "hint": "父の日（time）"
+ },
+ {
+  "id": "tl-51476",
+  "th": "เมื่อวานซืน",
+  "deck": "general",
+  "hint": "おととい（time）"
+ },
+ {
+  "id": "tl-51477",
+  "th": "ตอนสาย",
+  "deck": "general",
+  "hint": "午前中遅め（time）"
+ },
+ {
+  "id": "tl-51478",
+  "th": "ตอนดึก",
+  "deck": "general",
+  "hint": "深夜（time）"
+ },
+ {
+  "id": "tl-51479",
+  "th": "เที่ยงวัน",
+  "deck": "general",
+  "hint": "正午（time）"
+ },
+ {
+  "id": "tl-51480",
+  "th": "สิ้นเดือน",
+  "deck": "general",
+  "hint": "月末（time）"
+ },
+ {
+  "id": "tl-51481",
+  "th": "ปลายปี",
+  "deck": "general",
+  "hint": "年末（time）"
+ },
+ {
+  "id": "tl-51482",
+  "th": "ต้นปี",
+  "deck": "general",
+  "hint": "年初め（time）"
+ },
+ {
+  "id": "tl-51483",
+  "th": "ชั่วโมงเร่งด่วน",
+  "deck": "general",
+  "hint": "ラッシュアワー（time）"
+ },
+ {
+  "id": "tl-51484",
+  "th": "เวลาทำงาน",
+  "deck": "general",
+  "hint": "勤務時間（time）"
+ },
+ {
+  "id": "tl-51485",
+  "th": "พ.ศ.",
+  "deck": "general",
+  "hint": "仏暦（time）"
+ },
+ {
+  "id": "tl-51486",
+  "th": "ค.ศ.",
+  "deck": "general",
+  "hint": "西暦（time）"
+ },
+ {
+  "id": "tl-51487",
+  "th": "เงินเยน",
+  "deck": "general",
+  "hint": "日本円（money & shopping）"
+ },
+ {
+  "id": "tl-51488",
+  "th": "อัตราแลกเปลี่ยน",
+  "deck": "general",
+  "hint": "為替レート（money & shopping）"
+ },
+ {
+  "id": "tl-51489",
+  "th": "ร้านแลกเงิน",
+  "deck": "general",
+  "hint": "両替所（money & shopping）"
+ },
+ {
+  "id": "tl-51490",
+  "th": "บัตรเอทีเอ็ม",
+  "deck": "general",
+  "hint": "キャッシュカード（money & shopping）"
+ },
+ {
+  "id": "tl-51491",
+  "th": "เลขบัญชี",
+  "deck": "general",
+  "hint": "口座番号（money & shopping）"
+ },
+ {
+  "id": "tl-51492",
+  "th": "เงินออม",
+  "deck": "general",
+  "hint": "貯金（money & shopping）"
+ },
+ {
+  "id": "tl-51493",
+  "th": "ถุงผ้า",
+  "deck": "general",
+  "hint": "エコバッグ（布袋）（money & shopping）"
+ },
+ {
+  "id": "tl-51494",
+  "th": "ค่าอาหาร",
+  "deck": "general",
+  "hint": "食費（money & shopping）"
+ },
+ {
+  "id": "tl-51495",
+  "th": "ค่าบริการ",
+  "deck": "general",
+  "hint": "サービス料（money & shopping）"
+ },
+ {
+  "id": "tl-51496",
+  "th": "ค่าธรรมเนียม",
+  "deck": "general",
+  "hint": "手数料（money & shopping）"
+ },
+ {
+  "id": "tl-51497",
+  "th": "ทิป",
+  "deck": "general",
+  "hint": "チップ（money & shopping）"
+ },
+ {
+  "id": "tl-51498",
+  "th": "มัดจำ",
+  "deck": "general",
+  "hint": "手付金・デポジット（money & shopping）"
+ },
+ {
+  "id": "tl-51499",
+  "th": "ของมือสอง",
+  "deck": "general",
+  "hint": "中古品（money & shopping）"
+ },
+ {
+  "id": "tl-51500",
+  "th": "แมงกะพรุน",
+  "deck": "general",
+  "hint": "クラゲ（animals）"
+ },
+ {
+  "id": "tl-51501",
+  "th": "ปลวก",
+  "deck": "general",
+  "hint": "シロアリ（animals）"
+ },
+ {
+  "id": "tl-51502",
+  "th": "ความชื้น",
+  "deck": "general",
+  "hint": "湿度（nature & weather）"
+ },
+ {
+  "id": "tl-51503",
+  "th": "ฝนฟ้าคะนอง",
+  "deck": "general",
+  "hint": "雷雨（nature & weather）"
+ },
+ {
+  "id": "tl-51504",
+  "th": "พระอาทิตย์ขึ้น",
+  "deck": "general",
+  "hint": "日の出（nature & weather）"
+ },
+ {
+  "id": "tl-51505",
+  "th": "พระอาทิตย์ตก",
+  "deck": "general",
+  "hint": "日の入り・夕日（nature & weather）"
+ },
+ {
+  "id": "tl-51506",
+  "th": "เม็กซิโก",
+  "deck": "general",
+  "hint": "メキシコ（countries）"
+ },
+ {
+  "id": "tl-51507",
+  "th": "เนเธอร์แลนด์",
+  "deck": "general",
+  "hint": "オランダ（countries）"
+ },
+ {
+  "id": "tl-51508",
+  "th": "ฮอลแลนด์",
+  "deck": "general",
+  "hint": "オランダ（通称）（countries）"
+ },
+ {
+  "id": "tl-51509",
+  "th": "เบลเยียม",
+  "deck": "general",
+  "hint": "ベルギー（countries）"
+ },
+ {
+  "id": "tl-51510",
+  "th": "สวิตเซอร์แลนด์",
+  "deck": "general",
+  "hint": "スイス（countries）"
+ },
+ {
+  "id": "tl-51511",
+  "th": "สวีเดน",
+  "deck": "general",
+  "hint": "スウェーデン（countries）"
+ },
+ {
+  "id": "tl-51512",
+  "th": "นอร์เวย์",
+  "deck": "general",
+  "hint": "ノルウェー（countries）"
+ },
+ {
+  "id": "tl-51513",
+  "th": "โปรตุเกส",
+  "deck": "general",
+  "hint": "ポルトガル（countries）"
+ },
+ {
+  "id": "tl-51514",
+  "th": "กรีซ",
+  "deck": "general",
+  "hint": "ギリシャ（countries）"
+ },
+ {
+  "id": "tl-51515",
+  "th": "ตุรกี",
+  "deck": "general",
+  "hint": "トルコ（countries）"
+ },
+ {
+  "id": "tl-51516",
+  "th": "อียิปต์",
+  "deck": "general",
+  "hint": "エジプト（countries）"
+ },
+ {
+  "id": "tl-51517",
+  "th": "อิสราเอล",
+  "deck": "general",
+  "hint": "イスラエル（countries）"
+ },
+ {
+  "id": "tl-51518",
+  "th": "อิหร่าน",
+  "deck": "general",
+  "hint": "イラン（countries）"
+ },
+ {
+  "id": "tl-51519",
+  "th": "ซาอุดีอาระเบีย",
+  "deck": "general",
+  "hint": "サウジアラビア（countries）"
+ },
+ {
+  "id": "tl-51520",
+  "th": "ปากีสถาน",
+  "deck": "general",
+  "hint": "パキスタン（countries）"
+ },
+ {
+  "id": "tl-51521",
+  "th": "บังกลาเทศ",
+  "deck": "general",
+  "hint": "バングラデシュ（countries）"
+ },
+ {
+  "id": "tl-51522",
+  "th": "เนปาล",
+  "deck": "general",
+  "hint": "ネパール（countries）"
+ },
+ {
+  "id": "tl-51523",
+  "th": "ศรีลังกา",
+  "deck": "general",
+  "hint": "スリランカ（countries）"
+ },
+ {
+  "id": "tl-51524",
+  "th": "มองโกเลีย",
+  "deck": "general",
+  "hint": "モンゴル（countries）"
+ },
+ {
+  "id": "tl-51525",
+  "th": "บรูไน",
+  "deck": "general",
+  "hint": "ブルネイ（countries）"
+ },
+ {
+  "id": "tl-51526",
+  "th": "นิวซีแลนด์",
+  "deck": "general",
+  "hint": "ニュージーランド（countries）"
+ },
+ {
+  "id": "tl-51527",
+  "th": "ยูเครน",
+  "deck": "general",
+  "hint": "ウクライナ（countries）"
+ },
+ {
+  "id": "tl-51528",
+  "th": "โปแลนด์",
+  "deck": "general",
+  "hint": "ポーランド（countries）"
+ },
+ {
+  "id": "tl-51529",
+  "th": "แอฟริกาใต้",
+  "deck": "general",
+  "hint": "南アフリカ（countries）"
+ },
+ {
+  "id": "tl-51530",
+  "th": "สหรัฐอาหรับเอมิเรตส์",
+  "deck": "general",
+  "hint": "アラブ首長国連邦（countries）"
+ },
+ {
+  "id": "tl-51531",
+  "th": "อเมริกาใต้",
+  "deck": "general",
+  "hint": "南アメリカ（countries）"
+ },
+ {
+  "id": "tl-51532",
+  "th": "ฟุกุโอกะ",
+  "deck": "general",
+  "hint": "福岡（world cities）"
+ },
+ {
+  "id": "tl-51533",
+  "th": "นาโกย่า",
+  "deck": "general",
+  "hint": "名古屋（world cities）"
+ },
+ {
+  "id": "tl-51534",
+  "th": "โอกินาวา",
+  "deck": "general",
+  "hint": "沖縄（world cities）"
+ },
+ {
+  "id": "tl-51535",
+  "th": "ปูซาน",
+  "deck": "general",
+  "hint": "釜山（world cities）"
+ },
+ {
+  "id": "tl-51536",
+  "th": "ไทเป",
+  "deck": "general",
+  "hint": "台北（world cities）"
+ },
+ {
+  "id": "tl-51537",
+  "th": "ฮานอย",
+  "deck": "general",
+  "hint": "ハノイ（world cities）"
+ },
+ {
+  "id": "tl-51538",
+  "th": "โฮจิมินห์",
+  "deck": "general",
+  "hint": "ホーチミン（world cities）"
+ },
+ {
+  "id": "tl-51539",
+  "th": "เวียงจันทน์",
+  "deck": "general",
+  "hint": "ビエンチャン（world cities）"
+ },
+ {
+  "id": "tl-51540",
+  "th": "หลวงพระบาง",
+  "deck": "general",
+  "hint": "ルアンパバーン（world cities）"
+ },
+ {
+  "id": "tl-51541",
+  "th": "พนมเปญ",
+  "deck": "general",
+  "hint": "プノンペン（world cities）"
+ },
+ {
+  "id": "tl-51542",
+  "th": "เสียมราฐ",
+  "deck": "general",
+  "hint": "シェムリアップ（world cities）"
+ },
+ {
+  "id": "tl-51543",
+  "th": "ย่างกุ้ง",
+  "deck": "general",
+  "hint": "ヤンゴン（world cities）"
+ },
+ {
+  "id": "tl-51544",
+  "th": "กัวลาลัมเปอร์",
+  "deck": "general",
+  "hint": "クアラルンプール（world cities）"
+ },
+ {
+  "id": "tl-51545",
+  "th": "จาการ์ตา",
+  "deck": "general",
+  "hint": "ジャカルタ（world cities）"
+ },
+ {
+  "id": "tl-51546",
+  "th": "บาหลี",
+  "deck": "general",
+  "hint": "バリ島（world cities）"
+ },
+ {
+  "id": "tl-51547",
+  "th": "มะนิลา",
+  "deck": "general",
+  "hint": "マニラ（world cities）"
+ },
+ {
+  "id": "tl-51548",
+  "th": "ลอสแองเจลิส",
+  "deck": "general",
+  "hint": "ロサンゼルス（world cities）"
+ },
+ {
+  "id": "tl-51549",
+  "th": "ซานฟรานซิสโก",
+  "deck": "general",
+  "hint": "サンフランシスコ（world cities）"
+ },
+ {
+  "id": "tl-51550",
+  "th": "วอชิงตัน",
+  "deck": "general",
+  "hint": "ワシントン（world cities）"
+ },
+ {
+  "id": "tl-51551",
+  "th": "ฮาวาย",
+  "deck": "general",
+  "hint": "ハワイ（world cities）"
+ },
+ {
+  "id": "tl-51552",
+  "th": "โรม",
+  "deck": "general",
+  "hint": "ローマ（world cities）"
+ },
+ {
+  "id": "tl-51553",
+  "th": "เบอร์ลิน",
+  "deck": "general",
+  "hint": "ベルリン（world cities）"
+ },
+ {
+  "id": "tl-51554",
+  "th": "มอสโก",
+  "deck": "general",
+  "hint": "モスクワ（world cities）"
+ },
+ {
+  "id": "tl-51555",
+  "th": "ซิดนีย์",
+  "deck": "general",
+  "hint": "シドニー（world cities）"
+ },
+ {
+  "id": "tl-51556",
+  "th": "ดูไบ",
+  "deck": "general",
+  "hint": "ドバイ（world cities）"
+ },
+ {
+  "id": "tl-51557",
+  "th": "มาเก๊า",
+  "deck": "general",
+  "hint": "マカオ（world cities）"
+ },
+ {
+  "id": "tl-51558",
+  "th": "พังงา",
+  "deck": "general",
+  "hint": "パンガー（Thai places）"
+ },
+ {
+  "id": "tl-51559",
+  "th": "สุราษฎร์ธานี",
+  "deck": "general",
+  "hint": "スラートターニー（Thai places）"
+ },
+ {
+  "id": "tl-51560",
+  "th": "สงขลา",
+  "deck": "general",
+  "hint": "ソンクラー（Thai places）"
+ },
+ {
+  "id": "tl-51561",
+  "th": "ระยอง",
+  "deck": "general",
+  "hint": "ラヨーン（Thai places）"
+ },
+ {
+  "id": "tl-51562",
+  "th": "ศรีราชา",
+  "deck": "general",
+  "hint": "シーラーチャー（Thai places）"
+ },
+ {
+  "id": "tl-51563",
+  "th": "สมุทรปราการ",
+  "deck": "general",
+  "hint": "サムットプラーカーン（Thai places）"
+ },
+ {
+  "id": "tl-51564",
+  "th": "นครปฐม",
+  "deck": "general",
+  "hint": "ナコンパトム（Thai places）"
+ },
+ {
+  "id": "tl-51565",
+  "th": "ปาย",
+  "deck": "general",
+  "hint": "パーイ（Thai places）"
+ },
+ {
+  "id": "tl-51566",
+  "th": "แม่ฮ่องสอน",
+  "deck": "general",
+  "hint": "メーホンソン（Thai places）"
+ },
+ {
+  "id": "tl-51567",
+  "th": "อุบลราชธานี",
+  "deck": "general",
+  "hint": "ウボンラーチャターニー（Thai places）"
+ },
+ {
+  "id": "tl-51568",
+  "th": "บุรีรัมย์",
+  "deck": "general",
+  "hint": "ブリーラム（Thai places）"
+ },
+ {
+  "id": "tl-51569",
+  "th": "นครศรีธรรมราช",
+  "deck": "general",
+  "hint": "ナコンシータマラート（Thai places）"
+ },
+ {
+  "id": "tl-51570",
+  "th": "เกาะเต่า",
+  "deck": "general",
+  "hint": "タオ島（Thai places）"
+ },
+ {
+  "id": "tl-51571",
+  "th": "เกาะช้าง",
+  "deck": "general",
+  "hint": "チャーン島（Thai places）"
+ },
+ {
+  "id": "tl-51572",
+  "th": "เกาะเสม็ด",
+  "deck": "general",
+  "hint": "サメット島（Thai places）"
+ },
+ {
+  "id": "tl-51573",
+  "th": "แม่น้ำโขง",
+  "deck": "general",
+  "hint": "メコン川（Thai places）"
+ },
+ {
+  "id": "tl-51574",
+  "th": "วัดอรุณ",
+  "deck": "general",
+  "hint": "ワット・アルン（暁の寺）（Thai places）"
+ },
+ {
+  "id": "tl-51575",
+  "th": "ภาษาอิตาลี",
+  "deck": "general",
+  "hint": "イタリア語（languages）"
+ },
+ {
+  "id": "tl-51576",
+  "th": "ภาษารัสเซีย",
+  "deck": "general",
+  "hint": "ロシア語（languages）"
+ },
+ {
+  "id": "tl-51577",
+  "th": "ภาษาเขมร",
+  "deck": "general",
+  "hint": "クメール語（languages）"
+ },
+ {
+  "id": "tl-51578",
+  "th": "ภาษาพม่า",
+  "deck": "general",
+  "hint": "ミャンマー語・ビルマ語（languages）"
+ },
+ {
+  "id": "tl-51579",
+  "th": "ภาษาเวียดนาม",
+  "deck": "general",
+  "hint": "ベトナム語（languages）"
+ },
+ {
+  "id": "tl-51580",
+  "th": "ภาษามลายู",
+  "deck": "general",
+  "hint": "マレー語（languages）"
+ },
+ {
+  "id": "tl-51581",
+  "th": "ภาษาอาหรับ",
+  "deck": "general",
+  "hint": "アラビア語（languages）"
+ },
+ {
+  "id": "tl-51582",
+  "th": "ภาษาฮินดี",
+  "deck": "general",
+  "hint": "ヒンディー語（languages）"
+ },
+ {
+  "id": "tl-51583",
+  "th": "ภาษาโปรตุเกส",
+  "deck": "general",
+  "hint": "ポルトガル語（languages）"
+ },
+ {
+  "id": "tl-51584",
+  "th": "ภาษากวางตุ้ง",
+  "deck": "general",
+  "hint": "広東語（languages）"
+ },
+ {
+  "id": "tl-51585",
+  "th": "ภาษาเหนือ",
+  "deck": "general",
+  "hint": "北タイ語（カムムアン）（languages）"
+ },
+ {
+  "id": "tl-51586",
+  "th": "ภาษาใต้",
+  "deck": "general",
+  "hint": "南タイ語（languages）"
+ },
+ {
+  "id": "tl-51587",
+  "th": "คนรัสเซีย",
+  "deck": "general",
+  "hint": "ロシア人（nationalities）"
+ },
+ {
+  "id": "tl-51588",
+  "th": "คนมาเลเซีย",
+  "deck": "general",
+  "hint": "マレーシア人（nationalities）"
+ },
+ {
+  "id": "tl-51589",
+  "th": "คนสิงคโปร์",
+  "deck": "general",
+  "hint": "シンガポール人（nationalities）"
+ },
+ {
+  "id": "tl-51590",
+  "th": "คนฟิลิปปินส์",
+  "deck": "general",
+  "hint": "フィリピン人（nationalities）"
+ },
+ {
+  "id": "tl-51591",
+  "th": "คนไต้หวัน",
+  "deck": "general",
+  "hint": "台湾人（nationalities）"
+ },
+ {
+  "id": "tl-51592",
+  "th": "คนเหนือ",
+  "deck": "general",
+  "hint": "北部の人（nationalities）"
+ },
+ {
+  "id": "tl-51593",
+  "th": "คนใต้",
+  "deck": "general",
+  "hint": "南部の人（nationalities）"
+ },
+ {
+  "id": "tl-51594",
+  "th": "ชาวจีน",
+  "deck": "general",
+  "hint": "中国人（改まった言い方）（nationalities）"
+ },
+ {
+  "id": "tl-51595",
+  "th": "ชาวตะวันตก",
+  "deck": "general",
+  "hint": "西洋人（nationalities）"
+ },
+ {
+  "id": "tl-51596",
+  "th": "คนเอเชีย",
+  "deck": "general",
+  "hint": "アジア人（nationalities）"
+ },
+ {
+  "id": "tl-51597",
+  "th": "แกงส้ม",
+  "deck": "general",
+  "hint": "ゲーンソム（酸味のスープカレー）（food & drinks）"
+ },
+ {
+  "id": "tl-51598",
+  "th": "พะแนง",
+  "deck": "general",
+  "hint": "パネーン（濃厚カレー）（food & drinks）"
+ },
+ {
+  "id": "tl-51599",
+  "th": "ปลาเผา",
+  "deck": "general",
+  "hint": "焼き魚（塩焼き）（food & drinks）"
+ },
+ {
+  "id": "tl-51600",
+  "th": "กุ้งเผา",
+  "deck": "general",
+  "hint": "焼きエビ（food & drinks）"
+ },
+ {
+  "id": "tl-51601",
+  "th": "ทอดมัน",
+  "deck": "general",
+  "hint": "トートマン（さつま揚げ）（food & drinks）"
+ },
+ {
+  "id": "tl-51602",
+  "th": "ติ่มซำ",
+  "deck": "general",
+  "hint": "飲茶・点心（food & drinks）"
+ },
+ {
+  "id": "tl-51603",
+  "th": "เบคอน",
+  "deck": "general",
+  "hint": "ベーコン（food & drinks）"
+ },
+ {
+  "id": "tl-51604",
+  "th": "เฟรนช์ฟรายส์",
+  "deck": "general",
+  "hint": "フライドポテト（food & drinks）"
+ },
+ {
+  "id": "tl-51605",
+  "th": "อาหารคลีน",
+  "deck": "general",
+  "hint": "ヘルシー食（クリーンフード）（food & drinks）"
+ },
+ {
+  "id": "tl-51606",
+  "th": "อาหารมังสวิรัติ",
+  "deck": "general",
+  "hint": "ベジタリアン料理（food & drinks）"
+ },
+ {
+  "id": "tl-51607",
+  "th": "ขนมครก",
+  "deck": "general",
+  "hint": "カノムクロック（ココナッツ焼き菓子）（food & drinks）"
+ },
+ {
+  "id": "tl-51608",
+  "th": "ป๊อปคอร์น",
+  "deck": "general",
+  "hint": "ポップコーン（food & drinks）"
+ },
+ {
+  "id": "tl-51609",
+  "th": "มายองเนส",
+  "deck": "general",
+  "hint": "マヨネーズ（food & drinks）"
+ },
+ {
+  "id": "tl-51610",
+  "th": "ซอสหอยนางรม",
+  "deck": "general",
+  "hint": "オイスターソース（food & drinks）"
+ },
+ {
+  "id": "tl-51611",
+  "th": "น้ำแข็งใส",
+  "deck": "general",
+  "hint": "かき氷（food & drinks）"
+ },
+ {
+  "id": "tl-51612",
+  "th": "คาปูชิโน่",
+  "deck": "general",
+  "hint": "カプチーノ（food & drinks）"
+ },
+ {
+  "id": "tl-51613",
+  "th": "อเมริกาโน่",
+  "deck": "general",
+  "hint": "アメリカーノ（food & drinks）"
+ },
+ {
+  "id": "tl-51614",
+  "th": "เอสเปรสโซ",
+  "deck": "general",
+  "hint": "エスプレッソ（food & drinks）"
+ },
+ {
+  "id": "tl-51615",
+  "th": "สมูทตี้",
+  "deck": "general",
+  "hint": "スムージー（food & drinks）"
+ },
+ {
+  "id": "tl-51616",
+  "th": "วิสกี้",
+  "deck": "general",
+  "hint": "ウイスキー（food & drinks）"
+ },
+ {
+  "id": "tl-51617",
+  "th": "ค็อกเทล",
+  "deck": "general",
+  "hint": "カクテル（food & drinks）"
+ },
+ {
+  "id": "tl-51618",
+  "th": "สาเก",
+  "deck": "general",
+  "hint": "日本酒（food & drinks）"
+ },
+ {
+  "id": "tl-51619",
+  "th": "น้อยหน่า",
+  "deck": "general",
+  "hint": "バンレイシ（釈迦頭）（food & drinks）"
+ },
+ {
+  "id": "tl-51620",
+  "th": "กีวี",
+  "deck": "general",
+  "hint": "キウイ（food & drinks）"
+ },
+ {
+  "id": "tl-51621",
+  "th": "ลูกพีช",
+  "deck": "general",
+  "hint": "桃（food & drinks）"
+ },
+ {
+  "id": "tl-51622",
+  "th": "ลูกพลับ",
+  "deck": "general",
+  "hint": "柿（food & drinks）"
+ },
+ {
+  "id": "tl-51623",
+  "th": "ลูกแพร์",
+  "deck": "general",
+  "hint": "梨（洋梨）（food & drinks）"
+ },
+ {
+  "id": "tl-51624",
+  "th": "เชอร์รี่",
+  "deck": "general",
+  "hint": "さくらんぼ（food & drinks）"
+ },
+ {
+  "id": "tl-51625",
+  "th": "บลูเบอร์รี่",
+  "deck": "general",
+  "hint": "ブルーベリー（food & drinks）"
+ },
+ {
+  "id": "tl-51626",
+  "th": "อะโวคาโด",
+  "deck": "general",
+  "hint": "アボカド（food & drinks）"
+ },
+ {
+  "id": "tl-51627",
+  "th": "เมลอน",
+  "deck": "general",
+  "hint": "メロン（food & drinks）"
+ },
+ {
+  "id": "tl-51628",
+  "th": "มะระ",
+  "deck": "general",
+  "hint": "ゴーヤ（food & drinks）"
+ },
+ {
+  "id": "tl-51629",
+  "th": "ผักโขม",
+  "deck": "general",
+  "hint": "ほうれん草（food & drinks）"
+ },
+ {
+  "id": "tl-51630",
+  "th": "หัวไชเท้า",
+  "deck": "general",
+  "hint": "大根（food & drinks）"
+ },
+ {
+  "id": "tl-51631",
+  "th": "ห้องเก็บของ",
+  "deck": "general",
+  "hint": "物置（household）"
+ },
+ {
+  "id": "tl-51632",
+  "th": "ปลอกหมอน",
+  "deck": "general",
+  "hint": "枕カバー（household）"
+ },
+ {
+  "id": "tl-51633",
+  "th": "ปลั๊กพ่วง",
+  "deck": "general",
+  "hint": "延長コード（household）"
+ },
+ {
+  "id": "tl-51634",
+  "th": "เครื่องอบผ้า",
+  "deck": "general",
+  "hint": "乾燥機（household）"
+ },
+ {
+  "id": "tl-51635",
+  "th": "เครื่องปั่น",
+  "deck": "general",
+  "hint": "ミキサー（household）"
+ },
+ {
+  "id": "tl-51636",
+  "th": "เครื่องทำน้ำอุ่น",
+  "deck": "general",
+  "hint": "給湯器・シャワーヒーター（household）"
+ },
+ {
+  "id": "tl-51637",
+  "th": "เครื่องกรองน้ำ",
+  "deck": "general",
+  "hint": "浄水器（household）"
+ },
+ {
+  "id": "tl-51638",
+  "th": "ไม้ถูพื้น",
+  "deck": "general",
+  "hint": "モップ（household）"
+ },
+ {
+  "id": "tl-51639",
+  "th": "แม่กุญแจ",
+  "deck": "general",
+  "hint": "南京錠（household）"
+ },
+ {
+  "id": "tl-51640",
+  "th": "ราวตากผ้า",
+  "deck": "general",
+  "hint": "物干し（household）"
+ },
+ {
+  "id": "tl-51641",
+  "th": "ไม้หนีบผ้า",
+  "deck": "general",
+  "hint": "洗濯ばさみ（household）"
+ },
+ {
+  "id": "tl-51642",
+  "th": "ไม้ขีดไฟ",
+  "deck": "general",
+  "hint": "マッチ（household）"
+ },
+ {
+  "id": "tl-51643",
+  "th": "ยาจุดกันยุง",
+  "deck": "general",
+  "hint": "蚊取り線香（household）"
+ },
+ {
+  "id": "tl-51644",
+  "th": "ไหมขัดฟัน",
+  "deck": "general",
+  "hint": "デンタルフロス（household）"
+ },
+ {
+  "id": "tl-51645",
+  "th": "น้ำยาปรับผ้านุ่ม",
+  "deck": "general",
+  "hint": "柔軟剤（household）"
+ },
+ {
+  "id": "tl-51646",
+  "th": "ตะหลิว",
+  "deck": "general",
+  "hint": "フライ返し（household）"
+ },
+ {
+  "id": "tl-51647",
+  "th": "ทัพพี",
+  "deck": "general",
+  "hint": "おたま・しゃもじ（household）"
+ },
+ {
+  "id": "tl-51648",
+  "th": "ที่เปิดขวด",
+  "deck": "general",
+  "hint": "栓抜き（household）"
+ },
+ {
+  "id": "tl-51649",
+  "th": "ผ้ากันเปื้อน",
+  "deck": "general",
+  "hint": "エプロン（household）"
+ },
+ {
+  "id": "tl-51650",
+  "th": "เสื้อโปโล",
+  "deck": "general",
+  "hint": "ポロシャツ（clothes）"
+ },
+ {
+  "id": "tl-51651",
+  "th": "ชุดแต่งงาน",
+  "deck": "general",
+  "hint": "ウェディングドレス（clothes）"
+ },
+ {
+  "id": "tl-51652",
+  "th": "รองเท้าบูท",
+  "deck": "general",
+  "hint": "ブーツ（clothes）"
+ },
+ {
+  "id": "tl-51653",
+  "th": "กระเป๋าเสื้อ",
+  "deck": "general",
+  "hint": "ポケット（clothes）"
+ },
+ {
+  "id": "tl-51654",
+  "th": "แขนเสื้อ",
+  "deck": "general",
+  "hint": "袖（clothes）"
+ },
+ {
+  "id": "tl-51655",
+  "th": "ผ้าฝ้าย",
+  "deck": "general",
+  "hint": "綿・コットン（clothes）"
+ },
+ {
+  "id": "tl-51656",
+  "th": "สะดือ",
+  "deck": "general",
+  "hint": "へそ（body & health）"
+ },
+ {
+  "id": "tl-51657",
+  "th": "ต้นขา",
+  "deck": "general",
+  "hint": "太もも（body & health）"
+ },
+ {
+  "id": "tl-51658",
+  "th": "น่อง",
+  "deck": "general",
+  "hint": "ふくらはぎ（body & health）"
+ },
+ {
+  "id": "tl-51659",
+  "th": "ส้นเท้า",
+  "deck": "general",
+  "hint": "かかと（body & health）"
+ },
+ {
+  "id": "tl-51660",
+  "th": "ฝ่าเท้า",
+  "deck": "general",
+  "hint": "足の裏（body & health）"
+ },
+ {
+  "id": "tl-51661",
+  "th": "แผลไฟไหม้",
+  "deck": "general",
+  "hint": "やけど（body & health）"
+ },
+ {
+  "id": "tl-51662",
+  "th": "ยาแก้แพ้",
+  "deck": "general",
+  "hint": "アレルギー薬（body & health）"
+ },
+ {
+  "id": "tl-51663",
+  "th": "ยาธาตุ",
+  "deck": "general",
+  "hint": "胃腸薬（body & health）"
+ },
+ {
+  "id": "tl-51664",
+  "th": "ผ้าพันแผล",
+  "deck": "general",
+  "hint": "包帯（body & health）"
+ },
+ {
+  "id": "tl-51665",
+  "th": "ปรอทวัดไข้",
+  "deck": "general",
+  "hint": "体温計（body & health）"
+ },
+ {
+  "id": "tl-51666",
+  "th": "ใบสั่งยา",
+  "deck": "general",
+  "hint": "処方箋（body & health）"
+ },
+ {
+  "id": "tl-51667",
+  "th": "ทันตแพทย์",
+  "deck": "general",
+  "hint": "歯科医（body & health）"
+ },
+ {
+  "id": "tl-51668",
+  "th": "นักกายภาพบำบัด",
+  "deck": "general",
+  "hint": "理学療法士（body & health）"
+ },
+ {
+  "id": "tl-51669",
+  "th": "แม่ครัว",
+  "deck": "general",
+  "hint": "料理人（女性）（people & jobs）"
+ },
+ {
+  "id": "tl-51670",
+  "th": "บริกร",
+  "deck": "general",
+  "hint": "ウェイター（people & jobs）"
+ },
+ {
+  "id": "tl-51671",
+  "th": "ช่างไฟ",
+  "deck": "general",
+  "hint": "電気工事士（people & jobs）"
+ },
+ {
+  "id": "tl-51672",
+  "th": "ช่างประปา",
+  "deck": "general",
+  "hint": "配管工（people & jobs）"
+ },
+ {
+  "id": "tl-51673",
+  "th": "นักดับเพลิง",
+  "deck": "general",
+  "hint": "消防士（people & jobs）"
+ },
+ {
+  "id": "tl-51674",
+  "th": "พนักงานต้อนรับบนเครื่องบิน",
+  "deck": "general",
+  "hint": "客室乗務員（people & jobs）"
+ },
+ {
+  "id": "tl-51675",
+  "th": "แอร์โฮสเตส",
+  "deck": "general",
+  "hint": "スチュワーデス・CA（people & jobs）"
+ },
+ {
+  "id": "tl-51676",
+  "th": "ชาวประมง",
+  "deck": "general",
+  "hint": "漁師（people & jobs）"
+ },
+ {
+  "id": "tl-51677",
+  "th": "บุรุษไปรษณีย์",
+  "deck": "general",
+  "hint": "郵便配達員（people & jobs）"
+ },
+ {
+  "id": "tl-51678",
+  "th": "ปากกาเมจิก",
+  "deck": "general",
+  "hint": "マーカーペン（school & office）"
+ },
+ {
+  "id": "tl-51679",
+  "th": "ปากกาลูกลื่น",
+  "deck": "general",
+  "hint": "ボールペン（school & office）"
+ },
+ {
+  "id": "tl-51680",
+  "th": "ที่เย็บกระดาษ",
+  "deck": "general",
+  "hint": "ホッチキス（school & office）"
+ },
+ {
+  "id": "tl-51681",
+  "th": "คลิปหนีบกระดาษ",
+  "deck": "general",
+  "hint": "クリップ（school & office）"
+ },
+ {
+  "id": "tl-51682",
+  "th": "โปสการ์ด",
+  "deck": "general",
+  "hint": "ポストカード（school & office）"
+ },
+ {
+  "id": "tl-51683",
+  "th": "เครื่องถ่ายเอกสาร",
+  "deck": "general",
+  "hint": "コピー機（school & office）"
+ },
+ {
+  "id": "tl-51684",
+  "th": "ปริ้นเตอร์",
+  "deck": "general",
+  "hint": "プリンター（口語）（school & office）"
+ },
+ {
+  "id": "tl-51685",
+  "th": "สนามเด็กเล่น",
+  "deck": "general",
+  "hint": "遊び場・公園の遊具（school & office）"
+ },
+ {
+  "id": "tl-51686",
+  "th": "ปริญญาเอก",
+  "deck": "general",
+  "hint": "博士（school & office）"
+ },
+ {
+  "id": "tl-51687",
+  "th": "ใบปริญญา",
+  "deck": "general",
+  "hint": "学位記・卒業証書（school & office）"
+ },
+ {
+  "id": "tl-51688",
+  "th": "ร้านเบเกอรี่",
+  "deck": "general",
+  "hint": "ベーカリー（places in town）"
+ },
+ {
+  "id": "tl-51689",
+  "th": "ร้านข้าวต้ม",
+  "deck": "general",
+  "hint": "粥屋（夜の食堂）（places in town）"
+ },
+ {
+  "id": "tl-51690",
+  "th": "ร้านริมทาง",
+  "deck": "general",
+  "hint": "道端の店・屋台（places in town）"
+ },
+ {
+  "id": "tl-51691",
+  "th": "ที่ทำการไปรษณีย์",
+  "deck": "general",
+  "hint": "郵便局（正式）（places in town）"
+ },
+ {
+  "id": "tl-51692",
+  "th": "ศาลากลาง",
+  "deck": "general",
+  "hint": "県庁（places in town）"
+ },
+ {
+  "id": "tl-51693",
+  "th": "พิพิธภัณฑ์สัตว์น้ำ",
+  "deck": "general",
+  "hint": "水族館（places in town）"
+ },
+ {
+  "id": "tl-51694",
+  "th": "มัสยิด",
+  "deck": "general",
+  "hint": "モスク（places in town）"
+ },
+ {
+  "id": "tl-51695",
+  "th": "ศาลเจ้า",
+  "deck": "general",
+  "hint": "祠・廟（places in town）"
+ },
+ {
+  "id": "tl-51696",
+  "th": "ทาวน์เฮาส์",
+  "deck": "general",
+  "hint": "タウンハウス（places in town）"
+ },
+ {
+  "id": "tl-51697",
+  "th": "ลานจอดรถ",
+  "deck": "general",
+  "hint": "駐車場（屋外）（places in town）"
+ },
+ {
+  "id": "tl-51698",
+  "th": "โฮสเทล",
+  "deck": "general",
+  "hint": "ホステル（places in town）"
+ },
+ {
+  "id": "tl-51699",
+  "th": "ล็อบบี้",
+  "deck": "general",
+  "hint": "ロビー（places in town）"
+ },
+ {
+  "id": "tl-51700",
+  "th": "ห้องน้ำสาธารณะ",
+  "deck": "general",
+  "hint": "公衆トイレ（places in town）"
+ },
+ {
+  "id": "tl-51701",
+  "th": "รถไฟความเร็วสูง",
+  "deck": "general",
+  "hint": "高速鉄道（transport & travel）"
+ },
+ {
+  "id": "tl-51702",
+  "th": "เรือด่วน",
+  "deck": "general",
+  "hint": "急行船（transport & travel）"
+ },
+ {
+  "id": "tl-51703",
+  "th": "ตั๋วเที่ยวเดียว",
+  "deck": "general",
+  "hint": "片道切符（transport & travel）"
+ },
+ {
+  "id": "tl-51704",
+  "th": "ศุลกากร",
+  "deck": "general",
+  "hint": "税関（transport & travel）"
+ },
+ {
+  "id": "tl-51705",
+  "th": "ประตูขึ้นเครื่อง",
+  "deck": "general",
+  "hint": "搭乗口（transport & travel）"
+ },
+ {
+  "id": "tl-51706",
+  "th": "กระเป๋าถือขึ้นเครื่อง",
+  "deck": "general",
+  "hint": "機内持ち込み手荷物（transport & travel）"
+ },
+ {
+  "id": "tl-51707",
+  "th": "สัมภาระ",
+  "deck": "general",
+  "hint": "手荷物（transport & travel）"
+ },
+ {
+  "id": "tl-51708",
+  "th": "ไกด์บุ๊ก",
+  "deck": "general",
+  "hint": "ガイドブック（transport & travel）"
+ },
+ {
+  "id": "tl-51709",
+  "th": "ค่าแท็กซี่",
+  "deck": "general",
+  "hint": "タクシー代（transport & travel）"
+ },
+ {
+  "id": "tl-51710",
+  "th": "เซิร์ฟ",
+  "deck": "general",
+  "hint": "サーフィン（sports & hobbies）"
+ },
+ {
+  "id": "tl-51711",
+  "th": "สกี",
+  "deck": "general",
+  "hint": "スキー（sports & hobbies）"
+ },
+ {
+  "id": "tl-51712",
+  "th": "ยูโด",
+  "deck": "general",
+  "hint": "柔道（sports & hobbies）"
+ },
+ {
+  "id": "tl-51713",
+  "th": "คาราเต้",
+  "deck": "general",
+  "hint": "空手（sports & hobbies）"
+ },
+ {
+  "id": "tl-51714",
+  "th": "เทควันโด",
+  "deck": "general",
+  "hint": "テコンドー（sports & hobbies）"
+ },
+ {
+  "id": "tl-51715",
+  "th": "ฟุตซอล",
+  "deck": "general",
+  "hint": "フットサル（sports & hobbies）"
+ },
+ {
+  "id": "tl-51716",
+  "th": "ไม้เทนนิส",
+  "deck": "general",
+  "hint": "テニスラケット（sports & hobbies）"
+ },
+ {
+  "id": "tl-51717",
+  "th": "ไม้แบด",
+  "deck": "general",
+  "hint": "バドミントンラケット（sports & hobbies）"
+ },
+ {
+  "id": "tl-51718",
+  "th": "ไวโอลิน",
+  "deck": "general",
+  "hint": "バイオリン（sports & hobbies）"
+ },
+ {
+  "id": "tl-51719",
+  "th": "มังงะ",
+  "deck": "general",
+  "hint": "マンガ（日本の）（sports & hobbies）"
+ },
+ {
+  "id": "tl-51720",
+  "th": "หมากรุก",
+  "deck": "general",
+  "hint": "将棋・チェス（sports & hobbies）"
+ },
+ {
+  "id": "tl-51721",
+  "th": "จิ๊กซอว์",
+  "deck": "general",
+  "hint": "ジグソーパズル（sports & hobbies）"
+ },
+ {
+  "id": "tl-51722",
+  "th": "แคมป์ปิ้ง",
+  "deck": "general",
+  "hint": "キャンプ（sports & hobbies）"
+ },
+ {
+  "id": "tl-51723",
+  "th": "เต็นท์",
+  "deck": "general",
+  "hint": "テント（sports & hobbies）"
+ },
+ {
+  "id": "tl-51724",
+  "th": "แล็ปท็อป",
+  "deck": "general",
+  "hint": "ノートパソコン（ラップトップ）（IT & phone）"
+ },
+ {
+  "id": "tl-51725",
+  "th": "บลูทูธ",
+  "deck": "general",
+  "hint": "ブルートゥース（IT & phone）"
+ },
+ {
+  "id": "tl-51726",
+  "th": "ซอฟต์แวร์",
+  "deck": "general",
+  "hint": "ソフトウェア（IT & phone）"
+ },
+ {
+  "id": "tl-51727",
+  "th": "แฮกเกอร์",
+  "deck": "general",
+  "hint": "ハッカー（IT & phone）"
+ },
+ {
+  "id": "tl-51728",
+  "th": "คลาวด์",
+  "deck": "general",
+  "hint": "クラウド（IT & phone）"
+ },
+ {
+  "id": "tl-51729",
+  "th": "แชตบอต",
+  "deck": "general",
+  "hint": "チャットボット（IT & phone）"
+ },
+ {
+  "id": "tl-51730",
+  "th": "ปลาทอง",
+  "deck": "general",
+  "hint": "金魚（animals）"
+ },
+ {
+  "id": "tl-51731",
+  "th": "หอยทาก",
+  "deck": "general",
+  "hint": "カタツムリ（animals）"
+ },
+ {
+  "id": "tl-51732",
+  "th": "ดอกซากุระ",
+  "deck": "general",
+  "hint": "桜（nature & weather）"
+ },
+ {
+  "id": "tl-51733",
+  "th": "ต้นมะพร้าว",
+  "deck": "general",
+  "hint": "ヤシの木（nature & weather）"
+ },
+ {
+  "id": "tl-51734",
+  "th": "ไฟป่า",
+  "deck": "general",
+  "hint": "山火事（nature & weather）"
+ },
+ {
+  "id": "tl-51735",
+  "th": "วันหยุดนักขัตฤกษ์",
+  "deck": "general",
+  "hint": "祝日（time）"
+ },
+ {
+  "id": "tl-51736",
+  "th": "ป้ายราคา",
+  "deck": "general",
+  "hint": "値札（money & shopping）"
+ },
+ {
+  "id": "tl-51737",
+  "th": "ใบกำกับภาษี",
+  "deck": "general",
+  "hint": "税金請求書・タックスインボイス（money & shopping）"
+ },
+ {
+  "id": "tl-51738",
+  "th": "ภาษีมูลค่าเพิ่ม",
+  "deck": "general",
+  "hint": "付加価値税（money & shopping）"
+ },
+ {
+  "id": "tl-51739",
+  "th": "ไก่งวง",
+  "deck": "general",
+  "hint": "七面鳥（animals）"
+ },
+ {
+  "id": "tl-51740",
+  "th": "นกอินทรี",
+  "deck": "general",
+  "hint": "ワシ（animals）"
+ },
+ {
+  "id": "tl-51741",
+  "th": "จิงโจ้",
+  "deck": "general",
+  "hint": "カンガルー（animals）"
+ },
+ {
+  "id": "tl-51742",
+  "th": "โคอาล่า",
+  "deck": "general",
+  "hint": "コアラ（animals）"
+ },
+ {
+  "id": "tl-51743",
+  "th": "ฮิปโป",
+  "deck": "general",
+  "hint": "カバ（口語）（animals）"
+ },
+ {
+  "id": "tl-51744",
+  "th": "เพนกวิน",
+  "deck": "general",
+  "hint": "ペンギン（animals）"
+ },
+ {
+  "id": "tl-51745",
+  "th": "ปลาดาว",
+  "deck": "general",
+  "hint": "ヒトデ（animals）"
+ },
+ {
+  "id": "tl-51746",
+  "th": "เต่าทะเล",
+  "deck": "general",
+  "hint": "ウミガメ（animals）"
+ },
+ {
+  "id": "tl-51747",
+  "th": "ปลาคาร์ป",
+  "deck": "general",
+  "hint": "コイ（animals）"
+ },
+ {
+  "id": "tl-51748",
+  "th": "หิ่งห้อย",
+  "deck": "general",
+  "hint": "ホタル（animals）"
+ },
+ {
+  "id": "tl-51749",
+  "th": "เห็บ",
+  "deck": "general",
+  "hint": "ダニ（マダニ）（animals）"
+ },
+ {
+  "id": "tl-51750",
+  "th": "ลูกวัว",
+  "deck": "general",
+  "hint": "子牛（animals）"
+ },
+ {
+  "id": "tl-51751",
+  "th": "สัตว์น้ำ",
+  "deck": "general",
+  "hint": "水生動物（animals）"
+ },
+ {
+  "id": "tl-51752",
+  "th": "ลูกเห็บ",
+  "deck": "general",
+  "hint": "ひょう・あられ（nature & weather）"
+ },
+ {
+  "id": "tl-51753",
+  "th": "ปะการัง",
+  "deck": "general",
+  "hint": "サンゴ（nature & weather）"
+ },
+ {
+  "id": "tl-51754",
+  "th": "แนวปะการัง",
+  "deck": "general",
+  "hint": "サンゴ礁（nature & weather）"
+ },
+ {
+  "id": "tl-51755",
+  "th": "ต้นปาล์ม",
+  "deck": "general",
+  "hint": "ヤシの木（パーム）（nature & weather）"
+ },
+ {
+  "id": "tl-51756",
+  "th": "ต้นสน",
+  "deck": "general",
+  "hint": "松の木（nature & weather）"
+ },
+ {
+  "id": "tl-51757",
+  "th": "น้ำขึ้น",
+  "deck": "general",
+  "hint": "満潮（nature & weather）"
+ },
+ {
+  "id": "tl-51758",
+  "th": "น้ำลง",
+  "deck": "general",
+  "hint": "干潮（nature & weather）"
+ }
+]
