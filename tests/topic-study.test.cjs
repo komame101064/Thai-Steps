@@ -9,6 +9,11 @@ vm.runInContext("render=()=>{};toast=()=>{};this.t={slangTopics,PHRASE_SCENES,is
 (async()=>{const t=ctx.t;await t.loadWordBank();
 // Every theme has its own pictogram, and all pictograms differ.
 const ids=t.wordTopics().map(x=>x.id);assert.equal(ids.length,23);for(const id of ids)assert(t.TOPIC_ICONS[id],'missing pictogram '+id);assert.equal(new Set(ids.map(id=>t.TOPIC_ICONS[id])).size,23);
+// Reviewed sense-level additions: basic domain words are in their theme whatever their displayed category.
+{const inT=(th,topic,ja)=>t.getBank().some(w=>w.th===th&&w.collection!=='slang'&&t.index[w.id]?.includes(topic)&&(!ja||w.meanings.some(m=>t.senses[w.id][topic].includes(m.sourceSense)&&m.ja.includes(ja))));
+ for(const [th,ja] of [['ชนะ','勝つ'],['แพ้','負け'],['คะแนน','得点'],['ประตู','ゴール'],['โยน','投げ'],['ขว้าง','投げ'],['ตี','打つ'],['เตะ','蹴'],['ซ้อม','練習'],['เสมอ','引き分け']])assert(inT(th,'sports',ja),'sports: '+th);
+ assert(inT('ทำความสะอาด','home'));assert(inT('จาน','food'));assert(inT('ถอด','clothes'));assert(inT('ฟอลโลว์','tech'));assert(inT('เห่า','animals'));assert(inT('จอง','travel'));
+ assert(!t.getBank().some(w=>w.th==='ฟ้อง'&&t.index[w.id]?.includes('sports')));}
 // The theme grid: 23 tiles in the general deck, none in the slang deck.
 assert.equal((t.topicGrid().match(/<button class="x-tile/g)||[]).length,23);t.setWordDeck('slang');assert.equal((t.topicGrid().match(/<button class="x-tile/g)||[]).length,12);for(const x of [...t.slangTopics(),...t.PHRASE_SCENES])assert(t.TOPIC_ICONS[x.id]||x.id==='s:trend','missing pictogram '+x.id);
  // Slang theme steps teach slang words of that category by frequency; the discriminatory category has no step.
