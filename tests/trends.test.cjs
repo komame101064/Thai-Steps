@@ -3,9 +3,9 @@ const names=['word-bank.json','slang-bank.json','word-bank-more.json','slang-ban
 const data=Object.fromEntries(names.map(n=>[n,JSON.parse(fs.readFileSync('dist/'+n,'utf8'))]));
 const ctx={console,window:{scrollTo(){}},document:{querySelector:()=>({})},location:{hash:''},localStorage:{getItem:()=>null,setItem(){}},Date,Math,setTimeout,clearTimeout,fetch:async u=>data[u]?{ok:true,json:async()=>data[u]}:{ok:false}};
 vm.createContext(ctx);
-for(const name of ['data','expansion','readings','vocabulary','structures','kana-search','word-topics','words-app'])vm.runInContext(fs.readFileSync('dist/'+name+'.js','utf8'),ctx);
+for(const name of ['data','expansion','readings','vocabulary','structures','kana-search','word-topics','word-origins','words-app'])vm.runInContext(fs.readFileSync('dist/'+name+'.js','utf8'),ctx);
 vm.runInContext(fs.readFileSync('dist/app.js','utf8').split("window.addEventListener('hashchange'")[0],ctx);
-vm.runInContext("render=()=>{};toast=()=>{};view='home';this.t={loadWordBank,selectedWords,wordTopics,setWordTopic,setWordDeck,setCategory:x=>{wordCategory=x},wordTrend,wordTrendBadge,dictionaryResults,getBank:()=>bank}",ctx);
+vm.runInContext("render=()=>{};toast=()=>{};view='home';this.t={wordOriginRows,loadWordBank,selectedWords,wordTopics,setWordTopic,setWordDeck,setCategory:x=>{wordCategory=x},wordTrend,wordTrendBadge,dictionaryResults,getBank:()=>bank}",ctx);
 (async()=>{const t=ctx.t;await t.loadWordBank();const bank=t.getBank(),byId=new Map(bank.map(w=>[w.id,w]));
 const list=JSON.parse(fs.readFileSync('scripts/word-trends.json','utf8'));
 assert(list.length>=80);assert.equal(new Set(list.map(e=>e.id)).size,list.length);
@@ -26,4 +26,11 @@ assert(t.wordTrendBadge(byId.get(list.find(e=>e.th==='ปังปุริเ�
 assert.equal(t.wordTrendBadge(byId.get(bank.find(w=>w.th==='กู').id)),'');
 t.setCategory('');t.setWordDeck('general');
 const hits=t.dictionaryResults?t.dictionaryResults('流行語'):null;if(hits)assert(hits.length>0);
-console.log(`PASS: ${list.length} curated recent words (新語/流行語); trend theme uses only new senses; slang 分類 filter; badges.`);})().catch(e=>{console.error(e);process.exit(1)});
+// Latin letters in Japanese glosses: Z / Ｚ find Z世代, capital AI reads as the abbreviation before romanization.
+for(const q of ['Z','Ｚ','z'])assert.equal(t.dictionaryResults(q)[0].w.th,'เจนแซด',q);
+assert.equal(t.dictionaryResults('AI')[0].w.th,'เอไอ');assert.equal(t.dictionaryResults('DM')[0].w.th,'ดีเอ็ม');
+assert(t.dictionaryResults('QR').some(x=>x.w.th==='คิวอาร์โค้ด'));assert(!t.dictionaryResults('a').some(x=>x.w.th==='เอไอ'));
+// Sanskrit, Pali and Khmer origins are not shown; other sources (中国由来, 英語由来) still are.
+const labels=new Set(bank.flatMap(w=>t.wordOriginRows(w).map(r=>r.label)));
+assert(![...labels].some(l=>/サンスクリット|パーリ|クメール/.test(l)));assert(labels.has('中国由来')&&labels.has('英語由来'));
+console.log(`PASS: ${list.length} curated recent words (新語/流行語); trend theme uses only new senses; slang 分類 filter; badges; Latin gloss search (Z, AI); Sanskrit/Pali/Khmer origins hidden.`);})().catch(e=>{console.error(e);process.exit(1)});

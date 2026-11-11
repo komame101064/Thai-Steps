@@ -28,7 +28,9 @@ function topicWord(w,topic=wordTopic){if(!topic||w.collection==='slang'||typeof 
 function wordTopicLabel(w){const t=wordTopics().find(t=>t.id===wordTopic&&wordTopicIds(w).includes(t.id))||wordTopics().find(t=>t.id===wordTopicIds(w)[0]);return w.collection==='slang'?w.category:t?.label||w.category}
 function setWordTopic(topic){if(topic&&!wordTopics().some(t=>t.id===topic))return;wordTopic=topic;wordCategory='';wordPos='';wordFrequency='';wordQuery='';wordPage=0;wordCurrent=null;wordTrail=[];wordSession=null;render()}
 function wordTopicPicker(){if(wordDeck==='slang')return '';const catalog=wordTopics(),counts=new Map(catalog.map(t=>[t.id,bank.filter(w=>wordInDeck(w)&&wordInLevel(w)&&wordTopicIds(w).includes(t.id)).length])),current=catalog.find(t=>t.id===wordTopic);return `<div class="x-control x-topic"><label class="x-label" for="word-topic">テーマ</label><select id="word-topic" class="field" onchange="setWordTopic(this.value)"><option value="">すべてのテーマ</option>${catalog.map(t=>`<option value="${t.id}" ${wordTopic===t.id?'selected':''}>${esc(t.label)} · ${counts.get(t.id)}語</option>`).join('')}</select></div>${current?`<p class="x-note x-topic-description">${esc(current.description)}</p>`:''}`}
-function wordOriginRows(w,m=null){if(typeof WORD_ORIGINS==='undefined')return [];const info=WORD_ORIGINS[w.id];if(!info||info.th!==w.th)return [];const rows=(m?[m]:w.meanings).flatMap(x=>info.senses[String(x.sourceSense)]||[]);return [...new Map(rows.map(r=>[r.language+'#'+r.term,r])).values()]}
+// Sanskrit, Pali and Khmer origins are so common in Thai that showing them is noise; only other sources are shown.
+const HIDDEN_ORIGIN_RE=/サンスクリット|パーリ|クメール/;
+function wordOriginRows(w,m=null){if(typeof WORD_ORIGINS==='undefined')return [];const info=WORD_ORIGINS[w.id];if(!info||info.th!==w.th)return [];const rows=(m?[m]:w.meanings).flatMap(x=>info.senses[String(x.sourceSense)]||[]).filter(r=>!HIDDEN_ORIGIN_RE.test(r.label));return [...new Map(rows.map(r=>[r.language+'#'+r.term,r])).values()]}
 // Recent words (新語) and fad slang (流行語), curated in scripts/word-trends.json.
 function wordTrend(w){return typeof WORD_TRENDS==='undefined'?null:WORD_TRENDS[w.id]||null}
 function wordTrendBadge(w){const t=wordTrend(w);if(!t)return '';const partial=w.meanings.some(m=>!t.senses.includes(m.sourceSense));return `<span class="w-trend-badge" title="${t.kind==='流行語'?'ある時期に流行した言い方。今は古く聞こえることもあります。':'SNS・スマホ時代以降に広まった言葉や意味。'}">${esc(t.kind)}${t.era?'・'+esc(t.era):''}${partial?'の語義あり':''}</span>`}
@@ -82,6 +84,9 @@ function dictionaryMatch(w,raw){const t0=String(raw).trim(),q=THAI_RE.test(t0)?t
    w.meanings.forEach((m,mi)=>{const rs=rd?.[m.sourceSense]||[],extra=mi?2:0;jaTerms(m.ja).forEach((term,ti)=>{const cands=[...(rs[ti]||[]),...(/^[ぁ-ゖァ-ヶー]+$/.test(term)?[toHiragana(term)]:[])];
     for(const c of cands){if(c===h)take(lift+extra+(ti?1:0),'reading');else if(c.startsWith(h)&&!SPLIT_MORA.test(c.slice(h.length)))take(lift+4+extra,'reading');else if(h.length>1&&kanaContains(c,h))take(lift+8+(mi?1:0),'reading')}})});
    const k=normalizeKana(q);if(k)w.kanaKeys.forEach(key=>{if(key===k)take(1,'kana');else if(key.startsWith(k))take(5,'kana');else if(key.includes(k))take(9,'kana')})}}
+ if(/^[a-z0-9\s.'’-]+$/i.test(q)){const ql=q.toLowerCase().replace(/\s+/g,' ');
+  // Latin letters inside Japanese glosses (Z世代, AI, QRコード, PM2.5) are searchable as typed.
+  w.meanings.forEach((m,mi)=>{const extra=mi?2:0;jaTerms(m.ja).forEach((term,ti)=>{const tk=term.normalize('NFKC').toLowerCase();if(!/^[a-z0-9]/.test(tk))return;if(tk===ql)take(extra+(ti?1:0),'latin');else if(tk.startsWith(ql)&&!/^[a-z]/.test(tk.slice(ql.length)))take(4+extra,'latin')})})}
  if(/^[a-z\s'’-]+$/i.test(foldWord(q))){const r=romanMatch(w,q);if(r<Infinity)take(r,'ro');if(!TONE_RE.test(q)){const e=englishMatch(w,q);if(e)take(e.score,'en',e.en)}}
  if(out.score===Infinity&&w.labelText===undefined)w.labelText=foldWord([w.category,...(wordTrend(w)?[wordTrend(w).kind,'流行語・新語']:[]),...wordTopics().filter(t=>wordTopicIds(w).includes(t.id)).map(t=>t.label),...wordOriginRows(w).flatMap(r=>[r.label,r.detailLabel||''])].join(' '));
  if(out.score===Infinity&&w.labelText.includes(foldWord(q)))take(20,'label');return out}
@@ -91,6 +96,8 @@ const DICT_WEAK=20;
 function dictionaryResults(query=wordQuery){const scored=bank.map(w=>({w,...dictionaryMatch(w,query)}));
  // A query that is exactly the first English gloss of some word ("man", "eat") is read as English first.
  if(scored.some(x=>x.via==='en'&&x.score===0))for(const x of scored)if(x.via==='ro')x.score+=2;
+ // Capitals (AI, DM, EV) are read as the abbreviation in a gloss first, before romanization (ไอ ai).
+ if(/^[A-Z0-9.]{2,}$/.test(String(query).trim().normalize('NFKC'))&&scored.some(x=>x.via==='latin'&&x.score===0))for(const x of scored)if(x.via==='ro')x.score+=2;
  if(/[ぁ-ゖ]/.test(query)&&scored.some(x=>(x.via==='reading'||x.via==='ja')&&x.score<=1))for(const x of scored)if(x.via==='kana')x.score+=2;
  // Words built on an exact match (e.g. ครอบครัว → ครอบครัวใหญ่) rank right after the exact matches.
  const isHead=x=>x.score===0&&x.via!=='kana'&&x.via!=='label'&&x.w.collection!=='slang';
