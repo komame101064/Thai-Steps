@@ -141,3 +141,8 @@ tones, Japanese is natural. Write valid JSON (UTF-8, no comments, no trailing co
 - The source readingHint is often wrong (dropped syllables, a different word, wrong tone). The Thai spelling and the standard pronunciation decide.
 - Royal vocabulary needs correct royal grammar in examples (เสด็จไปทรงเปิด…, no bare ทรง + plain verb with ท่าน); do not translate His Highness as 陛下.
 - Japanese translations must not add meaning the Thai lacks (no added も, そうです, 分だけ …).
+
+
+## Proper nouns (from batch-004)
+
+Country names, their capitals and major cities, Thai provinces that learners commonly meet (Bangkok, Chiang Mai, Phuket…), languages and nationalities are useful vocabulary: author them (category 社会・制度 or 移動・道案内, pos 名詞) with a natural example. Still skip people's names, historical kingdoms, temples, mythological names and obscure places.

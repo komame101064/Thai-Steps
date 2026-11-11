@@ -49,3 +49,13 @@ editorial-004 is fad slang (流行語) from any period — 1990s to now. For eac
 the note must say roughly when it was popular and whether it now sounds dated, and you also
 write the era separately (see the task) so the app can show 「流行語・2010年代前半」. Skip an
 item when you cannot place it in time with reasonable confidence.
+
+
+editorial-005 is everyday concrete NOUNS that the frequency list missed: food, household items, clothes,
+body, jobs, school/office, places in town, transport, sports, IT, animals, nature, money, time words,
+and countries / world cities / Thai places / languages / nationalities. All are general-deck entries
+(SPEC.md schema; category from SPEC's list, e.g. 食べ物・飲み物, 家・場所, 社会・制度, 移動・道案内,
+体・健康, 趣味・メディア, 仕事・学習). Countries, cities, languages and nationalities are wanted here
+(not skipped as proper nouns). Use the spelling Thais write most; mention variants in note. Frequency
+1–10 is your estimate of how often a learner meets the word in daily life. Skip anything that is a
+brand, a person, or that you cannot confirm.
