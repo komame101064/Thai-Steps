@@ -1,0 +1,911 @@
+[
+ {
+  "id": "tl-28022",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28023",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28024",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28025",
+  "verdict": "fix",
+  "issues": [
+   "語義「爬虫類（の）・はって進む」が名詞と動詞の混在。単独では「はって進む」の動詞で、爬虫類は สัตว์เลื้อยคลาน の形（noteで説明済み）。pos を動詞に修正"
+  ],
+  "fixed": {
+   "id": "tl-28025",
+   "th": "เลื้อยคลาน",
+   "action": "add",
+   "ro": "lʉ́ʉai khlaan",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（地面を）はって進む",
+     "en": "to crawl, creep along the ground",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ในสวนสัตว์แห่งใหม่มีสัตว์เลื้อยคลานแสดงไว้หลายชนิด",
+      "ro": "nai sǔuan sàt hɛ̀ng mài mii sàt lʉ́ʉai khlaan sà dɛɛng wái lǎai chá nít",
+      "ja": "新しい動物園には爬虫類が何種類も展示されている。",
+      "en": "The new zoo has many kinds of reptiles on display.",
+      "origin": "source"
+     }
+    }
+   ],
+   "note": "ふつう「สัตว์เลื้อยคลาน（爬虫類）」の形で使う。"
+  }
+ },
+ {
+  "id": "tl-28026",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28027",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28028",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28029",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28030",
+  "verdict": "fix",
+  "issues": [
+   "ニュースで頻出の「民営化する（แปรรูปรัฐวิสาหกิจ）」の語義が欠落していたため語義2として追加"
+  ],
+  "fixed": {
+   "id": "tl-28030",
+   "th": "แปรรูป",
+   "action": "add",
+   "ro": "prɛɛ rûup",
+   "kind": "word",
+   "category": "仕事・学習",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "加工する（原料を製品に）",
+     "en": "to process (into products)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "โรงงานนี้แปรรูปผลไม้ส่งออก",
+      "ro": "roong ngaan níi prɛɛ rûup phǒn lá máai sòng ɔ̀ɔk",
+      "ja": "この工場は果物を加工して輸出している。",
+      "en": "This factory processes fruit for export.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "民営化する（国営企業を）",
+     "en": "to privatize",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "รัฐบาลมีแผนจะแปรรูปรัฐวิสาหกิจ",
+      "ro": "rát thà baan mii phɛ̌ɛn cà prɛɛ rûup rát thà wí sǎa hà kìt",
+      "ja": "政府は国営企業を民営化する計画を持っている。",
+      "en": "The government plans to privatize state enterprises.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「อาหารแปรรูป（加工食品）」の形もよく使う。"
+  }
+ },
+ {
+  "id": "tl-28032",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28033",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28034",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28035",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28036",
+  "verdict": "ok",
+  "issues": [
+   "句に限られる語だが note で โงหัวไม่ขึ้น を説明済み。読み・例文とも可"
+  ]
+ },
+ {
+  "id": "tl-28037",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28038",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28039",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28040",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28041",
+  "verdict": "fix",
+  "issues": [
+   "語義2（みだらな）は単独使用が少なく、主に หยาบโลน の形。use を少なめの用法にし note を追加"
+  ],
+  "fixed": {
+   "id": "tl-28041",
+   "th": "โลน",
+   "action": "add",
+   "ro": "loon",
+   "kind": "word",
+   "category": "体・健康",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "毛じらみ",
+     "en": "crab louse, pubic louse",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาไปหาหมอเพราะเป็นโลน",
+      "ro": "khǎo pai hǎa mɔ̌ɔ phrɔ́ pen loon",
+      "ja": "あの人は毛じらみがついたので医者に行った。",
+      "en": "He went to the doctor because he had crabs.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "みだらな・卑猥な（ふるまい）",
+     "en": "lewd, indecent",
+     "pos": "形容詞・状態語",
+     "use": "少なめの用法",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ผู้ชายคนนี้ชอบแสดงกิริยาโลนกับผู้หญิงหลายคนแล้ว",
+      "ro": "phûu chaai khon níi chɔ̂ɔp sà dɛɛng kì rí yaa loon kàp phûu yǐng lǎai khon lɛ́ɛo",
+      "ja": "この男はこれまで何人もの女性にみだらなふるまいをしてきた。",
+      "en": "This man has behaved indecently toward many women.",
+      "origin": "source"
+     }
+    }
+   ],
+   "note": "語義2は単独より「หยาบโลน（下品でみだらな）」の形で使うことが多い。"
+  }
+ },
+ {
+  "id": "tl-28042",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28043",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28044",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28045",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28046",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28047",
+  "verdict": "fix",
+  "issues": [
+   "例文訳「新品同様」は原文にない含意（新品ではない）を加えるため「真新しい」に修正"
+  ],
+  "fixed": {
+   "id": "tl-28047",
+   "th": "ใหม่เอี่ยม",
+   "action": "add",
+   "ro": "mài ìiam",
+   "kind": "word",
+   "category": "性質・状態",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "真新しい・新品の",
+     "en": "brand-new",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "รถคันนี้ยังใหม่เอี่ยม",
+      "ro": "rót khan níi yang mài ìiam",
+      "ja": "この車はまだ真新しい。",
+      "en": "This car is still brand-new.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28048",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28049",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28050",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28051",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28053",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28054",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28055",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28056",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28057",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28058",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28059",
+  "verdict": "reject",
+  "issues": [
+   "กระพริบ は王立学士院の標準つづり กะพริบ の誤記形。กะพริบ は既存見出し語にあり重複。読みも実際は kà phríp で、krà phríp を教えることになるため不採用"
+  ]
+ },
+ {
+  "id": "tl-28060",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28061",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28062",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28063",
+  "verdict": "ok",
+  "issues": [
+   "句（ยากลางบ้าน 等）に限られるが note あり。可"
+  ]
+ },
+ {
+  "id": "tl-28064",
+  "verdict": "fix",
+  "issues": [
+   "語義2の日本語「国内の（内戦の「内」）」が不自然。結合形を明示する表現に修正"
+  ],
+  "fixed": {
+   "id": "tl-28064",
+   "th": "กลางเมือง",
+   "action": "add",
+   "ro": "klaang mʉʉang",
+   "kind": "word",
+   "category": "家・場所",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "町の中心・市街地",
+     "en": "city center, downtown",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "บ้านของเขาอยู่กลางเมือง",
+      "ro": "bâan khɔ̌ɔng khǎo yùu klaang mʉʉang",
+      "ja": "あの人の家は町の中心にある。",
+      "en": "His house is in the city center.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "国内の（主に「สงครามกลางเมือง（内戦）」の形で）",
+     "en": "civil, internal",
+     "pos": "形容詞・状態語",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ประเทศนั้นเกิดสงครามกลางเมือง",
+      "ro": "prà thêet nán kə̀ət sǒng khraam klaang mʉʉang",
+      "ja": "その国で内戦が起きた。",
+      "en": "A civil war broke out in that country.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28065",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28066",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28067",
+  "verdict": "fix",
+  "issues": [
+   "語義2（鵜）は日常語としてはやかんより大幅に少ない（ふつう นกกาน้ำ）。use を少なめの用法に。ro の kaa náam は語末の น้ำ なので規約どおり"
+  ],
+  "fixed": {
+   "id": "tl-28067",
+   "th": "กาน้ำ",
+   "action": "add",
+   "ro": "kaa náam",
+   "kind": "word",
+   "category": "家・場所",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "やかん・ポット",
+     "en": "kettle",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แม่ต้มน้ำในกาน้ำ",
+      "ro": "mɛ̂ɛ tôm náam nai kaa náam",
+      "ja": "母はやかんでお湯を沸かす。",
+      "en": "Mom boils water in the kettle.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "ウ（鵜）",
+     "en": "cormorant",
+     "pos": "名詞",
+     "use": "少なめの用法",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แถวนี้เคยมีกาน้ำอาศัยอยู่",
+      "ro": "thɛ̌ɛo níi khəəi mii kaa náam aa sǎi yùu",
+      "ja": "このあたりにはかつて鵜が住んでいた。",
+      "en": "Cormorants used to live around here.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28068",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28069",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28070",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28071",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28073",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28074",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28075",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28076",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28077",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28079",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28080",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28081",
+  "verdict": "fix",
+  "issues": [
+   "例文訳「死因の第一位の病気」は冗長で、見出し語の「命を奪う」が訳に出ていないため修正"
+  ],
+  "fixed": {
+   "id": "tl-28081",
+   "th": "คร่า",
+   "action": "add",
+   "ro": "khrâa",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（命を）奪う",
+     "en": "to take (lives), claim",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ปัจจุบันโรคหัวใจเป็นโรคที่คร่าชีวิตคนไทยเป็นอันดับหนึ่ง",
+      "ro": "pàt cù ban rôok hǔua cai pen rôok thîi khrâa chii wít khon thai pen an dàp nʉ̀ng",
+      "ja": "現在、心臓病はタイ人の命を最も多く奪っている病気だ。",
+      "en": "Today heart disease is the leading killer of Thai people.",
+      "origin": "source"
+     }
+    }
+   ],
+   "note": "主に「คร่าชีวิต（命を奪う）」の形で使う。"
+  }
+ },
+ {
+  "id": "tl-28082",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28083",
+  "verdict": "fix",
+  "issues": [
+   "pos 動詞なのに ja が「〜直後に・すきに」と副詞句の形。動詞の語義に修正（例文はそのまま）"
+  ],
+  "fixed": {
+   "id": "tl-28083",
+   "th": "คล้อยหลัง",
+   "action": "add",
+   "ro": "khlɔ́ɔi lǎng",
+   "kind": "word",
+   "category": "時間",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（人が）背を向けて去る・立ち去る",
+     "en": "to turn one's back and leave, have just left",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พอคุณครูคล้อยหลังไปได้สักครู่ นักเรียนก็จับกลุ่มคุยกัน",
+      "ro": "phɔɔ khun khruu khlɔ́ɔi lǎng pai dâai sàk khrûu nák riian kɔ̂ɔ càp klùm khui kan",
+      "ja": "先生が立ち去って少しすると、生徒たちは集まっておしゃべりを始めた。",
+      "en": "Shortly after the teacher left, the students gathered and chatted.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28084",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28085",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28086",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28087",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28088",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28089",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28090",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28091",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28092",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28093",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28094",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28096",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28097",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28098",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28099",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28100",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28101",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28102",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28103",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28104",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28105",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28106",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28107",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28108",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28109",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28110",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28111",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28112",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28113",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28114",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28115",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28116",
+  "verdict": "ok",
+  "issues": [
+   "語義2（考えがまとまる）は現代語で普通に使う比喩用法。可"
+  ]
+ },
+ {
+  "id": "tl-28117",
+  "verdict": "ok",
+  "issues": [
+   "เต่าตนุ の形に限られるが note あり。読み tà nù（ต の類に従い低声）で可"
+  ]
+ },
+ {
+  "id": "tl-28118",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28119",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28121",
+  "verdict": "fix",
+  "issues": [
+   "note の「色白で目の細い」は外見の決めつけで不要。用法の説明に修正。語義・例文・読みは正しい"
+  ],
+  "fixed": {
+   "id": "tl-28121",
+   "th": "ตี๋",
+   "action": "add",
+   "ro": "tǐi",
+   "kind": "word",
+   "category": "代名詞・呼びかけ",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（中華系の）若い男性・男の子",
+     "en": "young (Chinese-Thai) man or boy",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "น้องตี๋คนนั้นหน้าตาดี",
+      "ro": "nɔ́ɔng tǐi khon nán nâa taa dii",
+      "ja": "あの中華系の男の子はかっこいい。",
+      "en": "That young Chinese-Thai guy is good-looking.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "中華系の若い男性・男の子を親しみを込めて呼ぶ語で、あだ名にも多い。女性は「หมวย」。"
+  }
+ },
+ {
+  "id": "tl-28122",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28123",
+  "verdict": "fix",
+  "issues": [
+   "語義2（くすんだ色、สีตุ่น）は用例が限られるため use を少なめの用法に。ใต้ tâi は正しい"
+  ],
+  "fixed": {
+   "id": "tl-28123",
+   "th": "ตุ่น",
+   "action": "add",
+   "ro": "tùn",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "モグラ・タケネズミ",
+     "en": "mole, bamboo rat",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ตุ่นอาศัยอยู่ใต้ดิน",
+      "ro": "tùn aa sǎi yùu tâi din",
+      "ja": "モグラは地中に住んでいる。",
+      "en": "Moles live underground.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "くすんだ（色が）",
+     "en": "dull, drab (color)",
+     "pos": "形容詞・状態語",
+     "use": "少なめの用法",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เสื้อตัวนี้สีตุ่นๆ ไม่สดใส",
+      "ro": "sʉ̂ʉa tuua níi sǐi tùn tùn mâi sòt sǎi",
+      "ja": "このシャツは色がくすんでいて鮮やかではない。",
+      "en": "This shirt is a dull color, not bright.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28124",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28125",
+  "verdict": "fix",
+  "issues": [
+   "例文roの ตรวจ を辞書（ro-lexicon）どおり trùuat に修正。英訳の my は原文にないため削除"
+  ],
+  "fixed": {
+   "id": "tl-28125",
+   "th": "ต่อม",
+   "action": "add",
+   "ro": "tɔ̀ɔm",
+   "kind": "word",
+   "category": "体・健康",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "腺（体の）",
+     "en": "gland",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หมอตรวจต่อมน้ำเหลืองที่คอ",
+      "ro": "mɔ̌ɔ trùuat tɔ̀ɔm nám lʉ̌ʉang thîi khɔɔ",
+      "ja": "医者が首のリンパ節を診察した。",
+      "en": "The doctor examined the lymph nodes in the neck.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28126",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28127",
+  "verdict": "ok",
+  "issues": []
+ }
+]

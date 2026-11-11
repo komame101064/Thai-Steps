@@ -1,0 +1,1425 @@
+[
+ {
+  "id": "tl-27240",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27241",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27242",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27244",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27245",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27245",
+   "th": "อนันต์",
+   "action": "add",
+   "ro": "à nan",
+   "kind": "word",
+   "category": "量・程度・比較",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "計り知れない・限りない",
+     "en": "infinite, immense",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ยาบางชนิดก็มีคุณอนันต์และมีโทษมหันต์ได้เช่นกัน",
+      "ro": "yaa baang chá nít kɔ̂ɔ mii khun à nan lɛ́ mii thôot má hǎn dâai chên kan",
+      "ja": "薬の中には、計り知れない効用がある一方で、ひどい害をもたらし得るものもある。",
+      "en": "Some medicines can have immense benefits and also great harm.",
+      "origin": "source"
+     },
+     "note": "คุณอนันต์（計り知れない恩恵）のような決まった言い方で使うことが多い。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27246",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27247",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27248",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27248",
+   "th": "อัปรีย์",
+   "action": "add",
+   "ro": "àp prii",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "縁起でもない・ろくでもない（罵りにも使う）",
+     "en": "inauspicious, wretched, damned",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "อย่าพูดเรื่องอัปรีย์แบบนี้ในงานแต่งงาน",
+      "ro": "yàa phûut rʉ̂ʉang àp prii bɛ̀ɛp níi nai ngaan tɛ̀ng ngaan",
+      "ja": "結婚式でこんな縁起でもない話をしないで。",
+      "en": "Don't talk about such inauspicious things at a wedding.",
+      "origin": "authored"
+     },
+     "note": "ไอ้อัปรีย์ のように人を罵る語として使うと強い侮辱になる。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27249",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27250",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27251",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27251",
+   "th": "อุปสมบท",
+   "action": "add",
+   "ro": "ù pà sǒm bòt",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "出家する・得度する（男性が僧になる）",
+     "en": "to be ordained as a monk",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "เขาจะอุปสมบทที่วัดใกล้บ้านเดือนหน้า",
+      "ro": "khǎo cà ù pà sǒm bòt thîi wát klâi bâan dʉʉan nâa",
+      "ja": "彼は来月、家の近くの寺で出家します。",
+      "en": "He will be ordained at a temple near his home next month.",
+      "origin": "authored"
+     },
+     "note": "改まった語。日常会話では บวช を使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27252",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27253",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27254",
+  "verdict": "fix",
+  "issues": [
+   "เกรี้ยวกราด 自体は状態語（อย่าง を付けて副詞的に使う）。pos を 形容詞・状態語 にし、語義を合わせた"
+  ],
+  "fixed": {
+   "id": "tl-27254",
+   "th": "เกรี้ยวกราด",
+   "action": "add",
+   "ro": "krîiao kràat",
+   "kind": "word",
+   "category": "性質・状態",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "激怒した・荒々しい（怒り方・口調が）",
+     "en": "furious, fierce (in anger)",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "หัวหน้าตะโกนด่าลูกน้องอย่างเกรี้ยวกราด",
+      "ro": "hǔua nâa tà koon dàa lûuk nɔ́ɔng yàang krîiao kràat",
+      "ja": "上司は部下を激しい剣幕で怒鳴りつけた。",
+      "en": "The boss shouted furiously at his subordinates.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27255",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27256",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27256",
+   "th": "เขียวหวาน",
+   "action": "add",
+   "ro": "khǐiao wǎan",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "グリーンカレー",
+     "en": "green curry",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันชอบกินแกงเขียวหวานไก่",
+      "ro": "chǎn chɔ̂ɔp kin kɛɛng khǐiao wǎan kài",
+      "ja": "私は鶏肉のグリーンカレーが好きです。",
+      "en": "I like chicken green curry.",
+      "origin": "authored"
+     },
+     "note": "普通は แกงเขียวหวาน の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27257",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27258",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27259",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27261",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27262",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27262",
+   "th": "เต็มปาก",
+   "action": "add",
+   "ro": "tem pàak",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "胸を張って・ためらわずに（言う）",
+     "en": "with full confidence, unreservedly (say)",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันพูดได้เต็มปากว่าร้านนี้อร่อยที่สุด",
+      "ro": "chǎn phûut dâai tem pàak wâa ráan níi à rɔ̀ɔi thîi sùt",
+      "ja": "この店が一番おいしいと胸を張って言えます。",
+      "en": "I can say with confidence that this shop is the most delicious.",
+      "origin": "authored"
+     },
+     "note": "主に พูดได้เต็มปาก（胸を張って言える）の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27263",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27264",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27265",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27266",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27267",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27269",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27270",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27270",
+   "th": "เล็ด",
+   "action": "add",
+   "ro": "lét",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（中身が）はみ出る・少し漏れ出る",
+     "en": "to ooze out, leak out",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาบีบขนมจนไส้ของมันเล็ดออกมา",
+      "ro": "khǎo bìip khà nǒm con sâi khɔ̌ɔng man lét ɔ̀ɔk maa",
+      "ja": "彼がお菓子をぎゅっと押したので、中身がはみ出してきた。",
+      "en": "He squeezed the snack until its filling oozed out.",
+      "origin": "source"
+     },
+     "note": "ฉี่เล็ด（尿が少し漏れる）のようにも使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27271",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27272",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27273",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27274",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27275",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27276",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27277",
+  "verdict": "fix",
+  "issues": [
+   "เหมือน＋ว่า の句で、文頭に置いて推量を表すため kind を expression、pos を 定型表現 に変更（接続詞ではない）。語義の「まるで〜みたいだ」は例文の推量用法と合わないので整理"
+  ],
+  "fixed": {
+   "id": "tl-27277",
+   "th": "เหมือนว่า",
+   "action": "add",
+   "ro": "mʉ̌ʉan wâa",
+   "kind": "expression",
+   "category": "接続表現",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "〜のようだ・どうやら〜らしい",
+     "en": "it seems that, as if",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เหมือนว่าฝนจะตกนะ",
+      "ro": "mʉ̌ʉan wâa fǒn cà tòk ná",
+      "ja": "雨が降りそうな感じだね。",
+      "en": "It looks like it's going to rain.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27278",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27278",
+   "th": "เฮโรอิน",
+   "action": "add",
+   "ro": "hee roo in",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ヘロイン",
+     "en": "heroin",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ตำรวจยึดเฮโรอินได้จำนวนมาก",
+      "ro": "tam rùuat yʉ́t hee roo in dâai cam nuuan mâak",
+      "ja": "警察は大量のヘロインを押収した。",
+      "en": "The police seized a large amount of heroin.",
+      "origin": "authored"
+     },
+     "note": "เฮโรอีน と書くことも多い。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27280",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27281",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27282",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27283",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27284",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27284",
+   "th": "แบ",
+   "action": "add",
+   "ro": "bɛɛ",
+   "kind": "word",
+   "category": "日常の動作",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（手のひらなどを）開く・広げる",
+     "en": "to open out, spread (the palm etc.)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เด็กแบมือขอเงินแม่",
+      "ro": "dèk bɛɛ mʉʉ khɔ̌ɔ ngəən mɛ̂ɛ",
+      "ja": "子どもが手を広げて母にお金をねだった。",
+      "en": "The child held out his palm asking his mother for money.",
+      "origin": "authored"
+     },
+     "note": "แบมือ（手のひらを広げる）、นอนแบ（ぐったり寝そべる）の形でよく使う。"
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（大の字に）ぐったり寝そべる",
+     "en": "to lie sprawled out",
+     "pos": "動詞",
+     "use": "少なめの用法",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เขาเหนื่อยจนนอนแบอยู่บนโซฟา",
+      "ro": "khǎo nʉ̀ʉai con nɔɔn bɛɛ yùu bon soo faa",
+      "ja": "彼は疲れ果てて、ソファーでぐったりと寝そべっている。",
+      "en": "He is so tired that he is lying sprawled on the sofa.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27285",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27286",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27286",
+   "th": "โง่เง่า",
+   "action": "add",
+   "ro": "ngôo ngâo",
+   "kind": "word",
+   "category": "性質・状態",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ばかげた・愚かな",
+     "en": "stupid, foolish",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "อย่าทำเรื่องโง่เง่าแบบนี้อีก",
+      "ro": "yàa tham rʉ̂ʉang ngôo ngâo bɛ̀ɛp níi ìik",
+      "ja": "こんなばかなことは二度としないで。",
+      "en": "Don't do something this stupid again.",
+      "origin": "authored"
+     },
+     "note": "人に向けると強い悪口になる。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27287",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27288",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27289",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27290",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27290",
+   "th": "โปรตุเกส",
+   "action": "add",
+   "ro": "proo tù kèet",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ポルトガル",
+     "en": "Portugal",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "บราซิลเคยเป็นอาณานิคมของโปรตุเกสมาก่อน",
+      "ro": "braa sin khəəi pen aa naa ní khom khɔ̌ɔng proo tù kèet maa kɔ̀ɔn",
+      "ja": "ブラジルはかつてポルトガルの植民地だった。",
+      "en": "Brazil was once a colony of Portugal.",
+      "origin": "source"
+     },
+     "note": "ポルトガル語は ภาษาโปรตุเกส、ポルトガル人は คนโปรตุเกส。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27291",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27291",
+   "th": "โพลน",
+   "action": "add",
+   "ro": "phloon",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "真っ白に（白さを強める）",
+     "en": "dazzlingly (white)",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หิมะตกจนพื้นขาวโพลน",
+      "ro": "hì má tòk con phʉ́ʉn khǎao phloon",
+      "ja": "雪が降って地面が真っ白になった。",
+      "en": "It snowed until the ground was pure white.",
+      "origin": "authored"
+     },
+     "note": "ขาวโพลน の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27292",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27292",
+   "th": "โรม",
+   "action": "add",
+   "ro": "room",
+   "kind": "word",
+   "category": "移動・道案内",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ローマ",
+     "en": "Rome",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "กรุงโรมเป็นเมืองหลวงของอิตาลี",
+      "ro": "krung room pen mʉʉang lǔuang khɔ̌ɔng ì taa lii",
+      "ja": "ローマはイタリアの首都です。",
+      "en": "Rome is the capital of Italy.",
+      "origin": "authored"
+     },
+     "note": "普通は กรุงโรม と言う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27293",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27294",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27295",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27296",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27297",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27297",
+   "th": "ไม้ขีด",
+   "action": "add",
+   "ro": "máai khìit",
+   "kind": "word",
+   "category": "家・場所",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "マッチ",
+     "en": "match (for lighting)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาจุดไม้ขีดเพื่อก่อไฟ",
+      "ro": "khǎo cùt máai khìit phʉ̂ʉa kɔ̀ɔ fai",
+      "ja": "彼は火をおこすためにマッチを擦った。",
+      "en": "He struck a match to start a fire.",
+      "origin": "source"
+     },
+     "note": "ไม้ขีดไฟ とも言う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27298",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27299",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27299",
+   "th": "ไยดี",
+   "action": "add",
+   "ro": "yai dii",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "気にかける・相手にする（主に否定で）",
+     "en": "to care about, pay heed to",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "literary"
+     ],
+     "speechStyle": "文語",
+     "example": {
+      "th": "เขาไม่ไยดีคำเตือนของใครเลย",
+      "ro": "khǎo mâi yai dii kham tʉʉan khɔ̌ɔng khrai ləəi",
+      "ja": "彼は誰の忠告にも耳を貸さない。",
+      "en": "He pays no heed to anyone's warnings.",
+      "origin": "authored"
+     },
+     "note": "主に ไม่ไยดี（相手にしない）の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27300",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27300",
+   "th": "กระเต็น",
+   "action": "add",
+   "ro": "krà ten",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "カワセミ",
+     "en": "kingfisher",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "นกกระเต็นเป็นนกที่ยังพอหาดูได้ในสวนสัตว์",
+      "ro": "nók krà ten pen nók thîi yang phɔɔ hǎa duu dâai nai sǔuan sàt",
+      "ja": "カワセミは動物園でまだ見られる鳥です。",
+      "en": "The kingfisher is a bird you can still see in zoos.",
+      "origin": "source"
+     },
+     "note": "普通は นกกระเต็น と言う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27301",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27302",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27302",
+   "th": "กลอก",
+   "action": "add",
+   "ro": "klɔ̀ɔk",
+   "kind": "word",
+   "category": "体・健康",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（目を）ぐるりと回す・きょろきょろ動かす",
+     "en": "to roll (one's eyes)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เธอกลอกตาด้วยความรำคาญ",
+      "ro": "thəə klɔ̀ɔk taa dûuai khwaam ram khaan",
+      "ja": "彼女はうんざりして目をぐるりと回した。",
+      "en": "She rolled her eyes in annoyance.",
+      "origin": "authored"
+     },
+     "note": "主に กลอกตา の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27303",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27304",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27305",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27305",
+   "th": "กลางเดือน",
+   "action": "add",
+   "ro": "klaang dʉʉan",
+   "kind": "word",
+   "category": "時間",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "月の半ば・中旬",
+     "en": "the middle of the month",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เราจะไปเชียงใหม่กลางเดือนหน้า",
+      "ro": "rao cà pai chiiang mài klaang dʉʉan nâa",
+      "ja": "私たちは来月の半ばにチェンマイへ行きます。",
+      "en": "We will go to Chiang Mai in the middle of next month.",
+      "origin": "authored"
+     },
+     "note": "กลางเดือนสิบสอง のように旧暦の月の半ば（満月の頃）も指す。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27306",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27306",
+   "th": "กลางแปลง",
+   "action": "add",
+   "ro": "klaang plɛɛng",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "野外の・屋外での（上映・上演）",
+     "en": "open-air, outdoor",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "คืนนี้ที่หมู่บ้านมีหนังกลางแปลงมาฉาย",
+      "ro": "khʉʉn níi thîi mùu bâan mii nǎng klaang plɛɛng maa chǎai",
+      "ja": "今夜、村で野外映画の上映がある。",
+      "en": "Tonight there's an open-air movie showing in the village.",
+      "origin": "source"
+     },
+     "note": "หนังกลางแปลง（野外映画）の形でよく使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27307",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27308",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27309",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27309",
+   "th": "กะหล่ำ",
+   "action": "add",
+   "ro": "kà làm",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "キャベツ（類）",
+     "en": "cabbage (and related vegetables)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แม่ผัดกะหล่ำกับน้ำปลา",
+      "ro": "mɛ̂ɛ phàt kà làm kàp nám plaa",
+      "ja": "母はキャベツをナンプラーで炒めた。",
+      "en": "Mom stir-fried cabbage with fish sauce.",
+      "origin": "authored"
+     },
+     "note": "結球キャベツは กะหล่ำปลี、カリフラワーは กะหล่ำดอก と言う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27310",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27311",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27312",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27313",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27314",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27315",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27316",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27316",
+   "th": "ขวัญตา",
+   "action": "add",
+   "ro": "khwǎn taa",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "目の保養・見て楽しいもの",
+     "en": "a feast for the eyes, a lovely sight",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "นานๆ ทีจึงจะได้เห็นลุงใส่สูทให้เห็นเป็นขวัญตา",
+      "ro": "naan naan thii cʉng cà dâai hěn lung sài sùut hâi hěn pen khwǎn taa",
+      "ja": "おじさんがスーツを着ている姿はたまにしか見られないので、目の保養になる。",
+      "en": "Only once in a while do we get to see Uncle in a suit, a treat for the eyes.",
+      "origin": "source"
+     },
+     "note": "主に เป็นขวัญตา の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27317",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27318",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27319",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27320",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27322",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27323",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27323",
+   "th": "คลั่ก",
+   "action": "add",
+   "ro": "khlâk",
+   "kind": "word",
+   "category": "量・程度・比較",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ぎっしり・ぎゅうぎゅうに",
+     "en": "densely packed",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ร้านนี้คนแน่นคลั่กทุกวัน",
+      "ro": "ráan níi khon nɛ̂n khlâk thúk wan",
+      "ja": "この店は毎日人でぎゅうぎゅうだ。",
+      "en": "This shop is packed with people every day.",
+      "origin": "authored"
+     },
+     "note": "แน่นคลั่ก の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27324",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27324",
+   "th": "ควาน",
+   "action": "add",
+   "ro": "khwaan",
+   "kind": "word",
+   "category": "日常の動作",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "手探りで探す",
+     "en": "to grope, feel around for",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาควานหากุญแจในกระเป๋า",
+      "ro": "khǎo khwaan hǎa kun cɛɛ nai krà pǎo",
+      "ja": "彼はかばんの中を手探りして鍵を探した。",
+      "en": "He groped in his bag for the key.",
+      "origin": "authored"
+     },
+     "note": "ควานหา（手探りで探す）の形でよく使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27325",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27327",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27328",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27329",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27329",
+   "th": "จะงอย",
+   "action": "add",
+   "ro": "cà ngɔɔi",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（くちばしなどの）曲がった先端",
+     "en": "hooked tip (of a beak)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "นกใช้จะงอยปากจิกผลไม้",
+      "ro": "nók chái cà ngɔɔi pàak cìk phǒn lá máai",
+      "ja": "鳥はくちばしで果物をつつく。",
+      "en": "The bird pecks fruit with its beak.",
+      "origin": "authored"
+     },
+     "note": "主に จะงอยปาก（くちばし）の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27330",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動",
+   "例文enの damned luck はタイ語（เรื่องจัญไร＝ろくでもない事）と合わないので修正"
+  ],
+  "fixed": {
+   "id": "tl-27330",
+   "th": "จัญไร",
+   "action": "add",
+   "ro": "can rai",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "縁起の悪い・ろくでもない（罵り）",
+     "en": "cursed, damned, wretched",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial",
+      "vulgar"
+     ],
+     "speechStyle": "粗い口語",
+     "example": {
+      "th": "ทำไมวันนี้มีแต่เรื่องจัญไร",
+      "ro": "tham mai wan níi mii tɛ̀ɛ rʉ̂ʉang can rai",
+      "ja": "今日はなんでろくでもないことばかりなんだ。",
+      "en": "Why is there nothing but cursed stuff today?",
+      "origin": "authored"
+     },
+     "note": "人に向けて使うと強い罵りになる。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27332",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27333",
+  "verdict": "fix",
+  "issues": [
+   "เด่น はro-lexiconで dèn（短母音表記）。見出し・例文のroを cùt dèn に統一"
+  ],
+  "fixed": {
+   "id": "tl-27333",
+   "th": "จุดเด่น",
+   "action": "add",
+   "ro": "cùt dèn",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "長所・目立つ特徴・売り",
+     "en": "strong point, highlight",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "จุดเด่นของร้านนี้คือราคาถูก",
+      "ro": "cùt dèn khɔ̌ɔng ráan níi khʉʉ raa khaa thùuk",
+      "ja": "この店の売りは値段の安さです。",
+      "en": "This shop's strong point is its low prices.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27334",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27335",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27337",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27337",
+   "th": "ชะล่า",
+   "action": "add",
+   "ro": "chá lâa",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "油断する・高をくくる",
+     "en": "to be complacent, careless",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "อย่าชะล่าใจ โรคนี้ติดง่ายมาก",
+      "ro": "yàa chá lâa cai rôok níi tìt ngâai mâak",
+      "ja": "油断しないで。この病気はとてもうつりやすい。",
+      "en": "Don't be complacent; this disease spreads very easily.",
+      "origin": "authored"
+     },
+     "note": "普通は ชะล่าใจ の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27338",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27340",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27341",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27342",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27343",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27344",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27345",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27346",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27346",
+   "th": "ฌาปนกิจ",
+   "action": "add",
+   "ro": "chaa pà ná kìt",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "火葬（式）",
+     "en": "cremation",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "พิธีฌาปนกิจจะจัดขึ้นที่วัดในวันเสาร์นี้",
+      "ro": "phí thii chaa pà ná kìt cà càt khʉ̂n thîi wát nai wan sǎo níi",
+      "ja": "火葬式は今週の土曜日に寺で行われます。",
+      "en": "The cremation ceremony will be held at the temple this Saturday.",
+      "origin": "authored"
+     },
+     "note": "改まった語。日常会話では เผาศพ とも言う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27347",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27348",
+  "verdict": "fix",
+  "issues": [
+   "トップレベルのnoteを語義2の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27348",
+   "th": "ตอด",
+   "action": "add",
+   "ro": "tɔ̀ɔt",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（魚が）つつく・少しずつかじる",
+     "en": "to nibble (of fish)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ปลาเล็กๆ ตอดเท้าฉันในน้ำ",
+      "ro": "plaa lék lék tɔ̀ɔt tháao chǎn nai náam",
+      "ja": "水の中で小魚が私の足をつついた。",
+      "en": "Little fish nibbled my feet in the water.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "ちくちく嫌味を言う",
+     "en": "to needle, make snide remarks",
+     "pos": "動詞",
+     "use": "少なめの用法",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ทั้งคู่พูดตอดเล็กตอดน้อยกันตลอดเวลาที่มีโอกาส",
+      "ro": "tháng khûu phûut tɔ̀ɔt lék tɔ̀ɔt nɔ́ɔi kan tà lɔ̀ɔt wee laa thîi mii oo kàat",
+      "ja": "二人は機会があるたびに、互いにちくちく嫌味を言い合っている。",
+      "en": "The two needle each other whenever they get the chance.",
+      "origin": "source"
+     },
+     "note": "嫌味の意味では ตอดเล็กตอดน้อย の形でよく使う。"
+    }
+   ]
+  }
+ }
+]

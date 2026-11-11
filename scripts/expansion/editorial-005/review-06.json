@@ -1,0 +1,688 @@
+[
+ {
+  "id": "tl-51476",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51477",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51478",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51479",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51480",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51481",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51482",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51483",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51484",
+  "verdict": "fix",
+  "issues": [
+   "「営業時間」は เวลาทำการ／เวลาเปิดทำการ の意味で、เวลาทำงาน の語義ではないため削除"
+  ],
+  "fixed": {
+   "id": "tl-51484",
+   "th": "เวลาทำงาน",
+   "action": "add",
+   "ro": "wee laa tham ngaan",
+   "kind": "word",
+   "category": "時間",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "勤務時間・仕事の時間",
+     "en": "working hours",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ห้ามเล่นเกมในเวลาทำงาน",
+      "ro": "hâam lên keem nai wee laa tham ngaan",
+      "ja": "勤務時間中にゲームをするのは禁止です。",
+      "en": "Playing games during working hours is not allowed.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51485",
+  "verdict": "ok",
+  "issues": [
+   "疑義確認：พอ-ศอ（低子音平声＋高子音上声）で phɔɔ sɔ̌ɔ は正しい"
+  ]
+ },
+ {
+  "id": "tl-51486",
+  "verdict": "ok",
+  "issues": [
+   "疑義確認：คอ-ศอ で khɔɔ sɔ̌ɔ は正しい"
+  ]
+ },
+ {
+  "id": "tl-51487",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51488",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51489",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51490",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51491",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51492",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51493",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51494",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51495",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51496",
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-51497",
+  "verdict": "fix",
+  "issues": [
+   "noteの「ทิปส์ と書くこともある」は心付けの意味では確認できない（ทิปส์ は主に「助言・コツ」の tips）ため削除"
+  ],
+  "fixed": {
+   "id": "tl-51497",
+   "th": "ทิป",
+   "action": "add",
+   "ro": "thíp",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "チップ（心付け）",
+     "en": "tip, gratuity",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "英語 tip から。",
+     "example": {
+      "th": "ลูกค้าให้ทิปพนักงานร้อยบาท",
+      "ro": "lûuk kháa hâi thíp phá nák ngaan rɔ́ɔi bàat",
+      "ja": "客は店員に100バーツのチップを渡しました。",
+      "en": "The customer gave the staff a 100-baht tip.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51498",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51499",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51500",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51501",
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-51502",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51503",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51504",
+  "verdict": "ok",
+  "issues": [
+   "疑義確認：ดูพระอาทิตย์ขึ้น のように「日の出」として名詞的に使うのは自然。noteで動詞句であることも説明済み"
+  ]
+ },
+ {
+  "id": "tl-51505",
+  "verdict": "ok",
+  "issues": [
+   "疑義確認：同上。名詞的用法「日の入り」として妥当"
+  ]
+ },
+ {
+  "id": "tl-51506",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51507",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51508",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51509",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51510",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51511",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51512",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51513",
+  "verdict": "reject",
+  "issues": [
+   "重複：โปรตุเกส は頻度リスト側（tl-27290）で既に採用済み"
+  ]
+ },
+ {
+  "id": "tl-51514",
+  "verdict": "ok",
+  "issues": [
+   "疑義確認：กรีด と同音の krìit（中子音・長母音・閉音節で低声）が標準の発音で可"
+  ]
+ },
+ {
+  "id": "tl-51515",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51516",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51517",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51518",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51519",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51520",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51521",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51522",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51523",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51524",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51525",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51526",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51527",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51528",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51529",
+  "verdict": "fix",
+  "issues": [
+   "既存の แอฟริกา 確定読み ɛ́ɛp frí kaa に合わせる（fr子音連結）。見出し・例文のroを ɛ́ɛp frí kaa tâi に修正"
+  ],
+  "fixed": {
+   "id": "tl-51529",
+   "th": "แอฟริกาใต้",
+   "action": "add",
+   "ro": "ɛ́ɛp frí kaa tâi",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "南アフリカ",
+     "en": "South Africa",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แอฟริกาใต้มีสัตว์ป่าเยอะ",
+      "ro": "ɛ́ɛp frí kaa tâi mii sàt pàa yə́",
+      "ja": "南アフリカには野生動物がたくさんいます。",
+      "en": "South Africa has a lot of wildlife.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51530",
+  "verdict": "fix",
+  "issues": [
+   "疑義確認：มิ は mí で可。เรตส์ は同ファイルの ลอส・มอส と同じ借用語の長母音閉音節なので高声に統一 rêet→réet（見出し・例文）。借用語の長母音閉音節は lexicon の บอส bɔ́ɔs・เคส khées に倣い高声とした（ただし lexicon も การ์ด kàat・เบรก brèek は規則どおりで不統一、既確定の นิวยอร์ก yɔ̂ɔk とも食い違うため要調整）"
+  ],
+  "fixed": {
+   "id": "tl-51530",
+   "th": "สหรัฐอาหรับเอมิเรตส์",
+   "action": "add",
+   "ro": "sà hà rát aa ràp ee mí réet",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "アラブ首長国連邦（UAE）",
+     "en": "United Arab Emirates",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "会話では ยูเออี（UAE）ということが多い。",
+     "example": {
+      "th": "คนไทยหลายคนไปทำงานที่สหรัฐอาหรับเอมิเรตส์",
+      "ro": "khon thai lǎai khon pai tham ngaan thîi sà hà rát aa ràp ee mí réet",
+      "ja": "多くのタイ人がアラブ首長国連邦で働いています。",
+      "en": "Many Thais work in the United Arab Emirates.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51531",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51532",
+  "verdict": "fix",
+  "issues": [
+   "例文の ราเมง（ro raa meng）：็ なしの綴りなら meeng が正しい。見出し語として採用済みの ราเมน（raa meen）に統一"
+  ],
+  "fixed": {
+   "id": "tl-51532",
+   "th": "ฟุกุโอกะ",
+   "action": "add",
+   "ro": "fú kù oo kà",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "福岡",
+     "en": "Fukuoka",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฟุกุโอกะมีราเมนอร่อย",
+      "ro": "fú kù oo kà mii raa meen à rɔ̀ɔi",
+      "ja": "福岡にはおいしいラーメンがあります。",
+      "en": "Fukuoka has delicious ramen.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51533",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51534",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51535",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51536",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51537",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51538",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51539",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51540",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51541",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51542",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51543",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51544",
+  "verdict": "ok",
+  "issues": [
+   "疑義確認：kuua laa lam pəə で妥当"
+  ]
+ },
+ {
+  "id": "tl-51545",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51546",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51547",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51548",
+  "verdict": "ok",
+  "issues": [
+   "疑義確認：ลอส は高声 lɔ́ɔt のまま可。借用語の長母音閉音節は lexicon の บอส bɔ́ɔs・เคส khées に倣い高声とした（ただし lexicon も การ์ด kàat・เบรก brèek は規則どおりで不統一、既確定の นิวยอร์ก yɔ̂ɔk とも食い違うため要調整）",
+   "ลอสแอนเจลิส（学術院表記）も見られるが ลอสแองเจลิส が一般的"
+  ]
+ },
+ {
+  "id": "tl-51549",
+  "verdict": "ok",
+  "issues": [
+   "疑義確認：fr連結は借用語で可（แอฟริกา と同様）、ซิส は sít。妥当"
+  ]
+ },
+ {
+  "id": "tl-51550",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51551",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51552",
+  "verdict": "reject",
+  "issues": [
+   "重複：โรม は頻度リスト側（tl-27292）で既に採用済み"
+  ]
+ },
+ {
+  "id": "tl-51553",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51554",
+  "verdict": "ok",
+  "issues": [
+   "疑義確認：มอส は高声 mɔ́ɔt のまま可。借用語の長母音閉音節は lexicon の บอส bɔ́ɔs・เคส khées に倣い高声とした（ただし lexicon も การ์ด kàat・เบรก brèek は規則どおりで不統一、既確定の นิวยอร์ก yɔ̂ɔk とも食い違うため要調整）"
+  ]
+ },
+ {
+  "id": "tl-51555",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51556",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51557",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51558",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51559",
+  "verdict": "reject",
+  "issues": [
+   "重複：สุราษฎร์ธานี は頻度リスト側（tl-28902）で既に採用済み"
+  ]
+ },
+ {
+  "id": "tl-51560",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51561",
+  "verdict": "reject",
+  "issues": [
+   "重複：ระยอง は頻度リスト側（tl-28228）で既に採用済み"
+  ]
+ },
+ {
+  "id": "tl-51562",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51563",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51564",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51565",
+  "verdict": "fix",
+  "issues": [
+   "例文訳の県名を採用済み項目 แม่ฮ่องสอน（tl-28359）の表記「メーホンソーン」に統一"
+  ],
+  "fixed": {
+   "id": "tl-51565",
+   "th": "ปาย",
+   "action": "add",
+   "ro": "paai",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "パーイ（町）",
+     "en": "Pai",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ปายเป็นเมืองเล็ก ๆ ในแม่ฮ่องสอน",
+      "ro": "paai pen mʉʉang lék lék nai mɛ̂ɛ hɔ̂ɔng sɔ̌ɔn",
+      "ja": "パーイはメーホンソーン県の小さな町です。",
+      "en": "Pai is a small town in Mae Hong Son.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51566",
+  "verdict": "reject",
+  "issues": [
+   "重複：แม่ฮ่องสอน は頻度リスト側（tl-28359）で既に採用済み"
+  ]
+ },
+ {
+  "id": "tl-51567",
+  "verdict": "reject",
+  "issues": [
+   "重複：อุบลราชธานี は頻度リスト側（tl-28294）で既に採用済み"
+  ]
+ },
+ {
+  "id": "tl-51568",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51569",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51570",
+  "verdict": "ok",
+  "issues": []
+ }
+]

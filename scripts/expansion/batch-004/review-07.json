@@ -1,0 +1,1224 @@
+[
+ {
+  "id": "tl-27911",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27912",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27913",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27914",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27915",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27916",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27918",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27919",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27919",
+   "th": "พืด",
+   "action": "add",
+   "ro": "phʉ̂ʉt",
+   "kind": "word",
+   "category": "量・程度・比較",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "切れ目なくずらりと続いた・一面に連なった",
+     "en": "in a continuous stretch",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "รถติดกันเป็นพืด",
+      "ro": "rót tìt kan pen phʉ̂ʉt",
+      "ja": "車が切れ目なくずらりと連なって渋滞している。",
+      "en": "The cars are jammed in an unbroken line.",
+      "origin": "source"
+     },
+     "note": "主に「เป็นพืด」の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27920",
+  "verdict": "fix",
+  "issues": [
+   "語義2：現代では会社・家の男性管理人・用務員の意味が中心で「執事」は限定的すぎる。訳語と例文訳を修正"
+  ],
+  "fixed": {
+   "id": "tl-27920",
+   "th": "พ่อบ้าน",
+   "action": "add",
+   "ro": "phɔ̂ɔ bâan",
+   "kind": "word",
+   "category": "人・家族",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "一家の主人・（家庭の）夫",
+     "en": "head of the household, husband",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พ่อบ้านออกไปทำงานนอกบ้าน ขณะที่แม่บ้านอยู่ดูแลลูก",
+      "ro": "phɔ̂ɔ bâan ɔ̀ɔk pai tham ngaan nɔ̂ɔk bâan khà nà thîi mɛ̂ɛ bâan yùu duu lɛɛ lûuk",
+      "ja": "一家の主人は外へ働きに出て、主婦は家で子どもの世話をする。",
+      "en": "The husband goes out to work while the housewife stays home to look after the children.",
+      "origin": "source"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（男性の）使用人・管理人・用務員",
+     "en": "male caretaker, houseman, butler",
+     "pos": "名詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "บ้านหลังนี้มีพ่อบ้านคอยดูแล",
+      "ro": "bâan lǎng níi mii phɔ̂ɔ bâan khɔɔi duu lɛɛ",
+      "ja": "この家には面倒を見る管理人がいる。",
+      "en": "This house has a caretaker who looks after it.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27921",
+  "verdict": "fix",
+  "issues": [
+   "note を語義2の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27921",
+   "th": "พ่อเลี้ยง",
+   "action": "add",
+   "ro": "phɔ̂ɔ líiang",
+   "kind": "word",
+   "category": "人・家族",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "継父・まま父",
+     "en": "stepfather",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พ่อเลี้ยงของเขาใจดีมาก",
+      "ro": "phɔ̂ɔ líiang khɔ̌ɔng khǎo cai dii mâak",
+      "ja": "彼の継父はとても優しい。",
+      "en": "His stepfather is very kind.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（北部で）金持ちの旦那・地元の有力者",
+     "en": "rich man (Northern Thailand)",
+     "pos": "名詞",
+     "use": "少なめの用法",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พ่อเลี้ยงคนนี้มีสวนลำไยหลายแห่ง",
+      "ro": "phɔ̂ɔ líiang khon níi mii sǔuan lam yai lǎai hɛ̀ng",
+      "ja": "この旦那はリュウガン園をいくつも持っている。",
+      "en": "This rich man owns several longan orchards.",
+      "origin": "authored"
+     },
+     "note": "「金持ちの旦那」の意味は主にタイ北部で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27922",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27923",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27925",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27927",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27928",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27928",
+   "th": "ยังชีพ",
+   "action": "add",
+   "ro": "yang chîip",
+   "kind": "word",
+   "category": "仕事・学習",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "生計を立てる・命をつなぐ",
+     "en": "to make a living, subsist",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ชาวบ้านที่นี่ทำนาเพื่อยังชีพ",
+      "ro": "chaao bâan thîi nîi tham naa phʉ̂ʉa yang chîip",
+      "ja": "ここの村人は暮らしを立てるために米作りをしている。",
+      "en": "The villagers here grow rice to make a living.",
+      "origin": "authored"
+     },
+     "note": "ถุงยังชีพ（救援物資の袋）の形でもよく見る。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27929",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27931",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27932",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27932",
+   "th": "ระยำ",
+   "action": "add",
+   "ro": "rá yam",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "下劣な・最低な（罵り）",
+     "en": "vile, despicable",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial",
+      "vulgar"
+     ],
+     "speechStyle": "粗い口語",
+     "example": {
+      "th": "ไอ้คนระยำ ทำแบบนี้ได้ยังไง",
+      "ro": "âi khon rá yam tham bɛ̀ɛp níi dâai yang ngai",
+      "ja": "この最低野郎、よくもこんなことができるな。",
+      "en": "You scumbag, how could you do this?",
+      "origin": "authored"
+     },
+     "note": "強い罵り語で、人に向けると強い侮辱になる。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27933",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27934",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27935",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27936",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27937",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動",
+   "例文「งานฉลองราชาภิเษก」は王室語として不自然（王室行事は เฉลิมฉลอง・พระราชพิธีบรมราชาภิเษก の形）。例文を差し替え"
+  ],
+  "fixed": {
+   "id": "tl-27937",
+   "th": "ราชาภิเษก",
+   "action": "add",
+   "ro": "raa chaa phí sèek",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（国王の）即位式・戴冠式",
+     "en": "coronation",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "royal"
+     ],
+     "speechStyle": "王室の敬語",
+     "example": {
+      "th": "ประชาชนร่วมเฉลิมฉลองพระราชพิธีบรมราชาภิเษก",
+      "ro": "prà chaa chon rûuam chà lə̌əm chà lɔ̌ɔng phrá râat chá phí thii bɔɔ rom raa chaa phí sèek",
+      "ja": "国民は即位の儀式を共に祝った。",
+      "en": "The people joined in celebrating the coronation ceremony.",
+      "origin": "authored"
+     },
+     "note": "国王の即位に関する語。正式な儀式名は「พระราชพิธีบรมราชาภิเษก」。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27939",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27939",
+   "th": "ราชูปถัมภ์",
+   "action": "add",
+   "ro": "raa chuu pà thǎm",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "王室の後援・庇護",
+     "en": "royal patronage",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "royal"
+     ],
+     "speechStyle": "王室の敬語",
+     "example": {
+      "th": "มูลนิธินี้อยู่ในพระบรมราชูปถัมภ์",
+      "ro": "muun ní thí níi yùu nai phrá bɔɔ rom raa chuu pà thǎm",
+      "ja": "この財団は国王の後援を受けている。",
+      "en": "This foundation is under royal patronage.",
+      "origin": "authored"
+     },
+     "note": "団体名に「ในพระบรมราชูปถัมภ์」などの形で付くことが多い。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27940",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27941",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27942",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27943",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27943",
+   "th": "ร็อก",
+   "action": "add",
+   "ro": "rɔ́k",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ロック（音楽）",
+     "en": "rock (music)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พี่ชายชอบฟังเพลงร็อก",
+      "ro": "phîi chaai chɔ̂ɔp fang phleeng rɔ́k",
+      "ja": "兄はロックを聴くのが好きです。",
+      "en": "My older brother likes listening to rock music.",
+      "origin": "authored"
+     },
+     "note": "ร็อค と書くこともある。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27944",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27945",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27946",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27947",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27948",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27949",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27950",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27951",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27951",
+   "th": "ศก",
+   "action": "add",
+   "ro": "sòk",
+   "kind": "word",
+   "category": "時間",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "年（主に ศกนี้「本年」の形で）",
+     "en": "year (in dates)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "การประชุมจะจัดขึ้นในเดือนมีนาคมศกนี้",
+      "ro": "kaan prà chum cà càt khʉ̂n nai dʉʉan mii naa khom sòk níi",
+      "ja": "会議は本年3月に開かれる。",
+      "en": "The meeting will be held in March this year.",
+      "origin": "authored"
+     },
+     "note": "公文書や式典の案内で日付とともに使う改まった語。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27952",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27953",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27955",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27956",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27957",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27957",
+   "th": "สระบุรี",
+   "action": "add",
+   "ro": "sà rà bù rii",
+   "kind": "word",
+   "category": "移動・道案内",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "サラブリー（県）",
+     "en": "Saraburi (province)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เราขับรถผ่านจังหวัดสระบุรี",
+      "ro": "rao khàp rót phàan cang wàt sà rà bù rii",
+      "ja": "私たちは車でサラブリー県を通った。",
+      "en": "We drove through Saraburi Province.",
+      "origin": "authored"
+     },
+     "note": "バンコクの北にある県。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27958",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27959",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27960",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27961",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27962",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27962",
+   "th": "สังหรณ์",
+   "action": "add",
+   "ro": "sǎng hɔ̌ɔn",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "予感がする・虫の知らせを感じる",
+     "en": "to have a premonition",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันสังหรณ์ใจว่าจะมีเรื่องไม่ดี",
+      "ro": "chǎn sǎng hɔ̌ɔn cai wâa cà mii rʉ̂ʉang mâi dii",
+      "ja": "何か悪いことが起こりそうな予感がする。",
+      "en": "I have a feeling something bad is going to happen.",
+      "origin": "authored"
+     },
+     "note": "「สังหรณ์ใจ」の形でよく使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27963",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27964",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27965",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27965",
+   "th": "สาธารณสุข",
+   "action": "add",
+   "ro": "sǎa thaa rá ná sùk",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "公衆衛生・保健",
+     "en": "public health",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "รัฐบาลให้ความสำคัญกับงบประมาณด้านการศึกษาและสาธารณสุข",
+      "ro": "rát thà baan hâi khwaam sǎm khan kàp ngóp prà maan dâan kaan sʉ̀k sǎa lɛ́ sǎa thaa rá ná sùk",
+      "ja": "政府は教育と公衆衛生の予算を重視している。",
+      "en": "The government gives priority to the budget for education and public health.",
+      "origin": "source"
+     },
+     "note": "กระทรวงสาธารณสุข は「保健省」。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27966",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27967",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27968",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27969",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27970",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27970",
+   "th": "สำอาง",
+   "action": "add",
+   "ro": "sǎm aang",
+   "kind": "word",
+   "category": "性質・状態",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "身なりに気を使う・おしゃれな",
+     "en": "dandyish, fussy about one's looks",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาเป็นหนุ่มเจ้าสำอาง",
+      "ro": "khǎo pen nùm câao sǎm aang",
+      "ja": "彼はおしゃれに気を使う若者だ。",
+      "en": "He is a young dandy.",
+      "origin": "source"
+     },
+     "note": "単独よりも เครื่องสำอาง（化粧品）や เจ้าสำอาง（おしゃれ好き）の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27971",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27972",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27973",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27974",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27975",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27975",
+   "th": "ส่อเสียด",
+   "action": "add",
+   "ro": "sɔ̀ɔ sìiat",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "告げ口や当てこすりで人を仲たがいさせる",
+     "en": "to sow discord by gossip, insinuate",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "อย่าพูดส่อเสียดให้เพื่อนทะเลาะกัน",
+      "ro": "yàa phûut sɔ̀ɔ sìiat hâi phʉ̂ʉan thá lɔ́ kan",
+      "ja": "告げ口をして友達同士をけんかさせてはいけない。",
+      "en": "Don't stir up trouble between friends with your talk.",
+      "origin": "authored"
+     },
+     "note": "主に「พูดส่อเสียด」の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27976",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27977",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27978",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27980",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27981",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27982",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27983",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27983",
+   "th": "หยิบยก",
+   "action": "add",
+   "ro": "yìp yók",
+   "kind": "word",
+   "category": "仕事・学習",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（話題・問題を）取り上げる",
+     "en": "to bring up, raise (a topic)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาหยิบยกปัญหานี้ขึ้นมาในที่ประชุม",
+      "ro": "khǎo yìp yók pan hǎa níi khʉ̂n maa nai thîi prà chum",
+      "ja": "彼は会議でこの問題を取り上げた。",
+      "en": "He brought up this problem at the meeting.",
+      "origin": "authored"
+     },
+     "note": "「หยิบยก…ขึ้นมา」の形でよく使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27984",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27985",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27986",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27987",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27987",
+   "th": "หาเช้ากินค่ำ",
+   "action": "add",
+   "ro": "hǎa cháao kin khâm",
+   "kind": "expression",
+   "category": "お金・買い物",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "その日暮らしをする",
+     "en": "to live from hand to mouth",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ครอบครัวเขาต้องหาเช้ากินค่ำ",
+      "ro": "khrɔ̂ɔp khruua khǎo tɔ̂ɔng hǎa cháao kin khâm",
+      "ja": "彼の家族はその日暮らしをしなければならない。",
+      "en": "His family has to live from hand to mouth.",
+      "origin": "authored"
+     },
+     "note": "直訳は「朝稼いで夜食べる」。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27988",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27989",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27990",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27991",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27991",
+   "th": "อหังการ",
+   "action": "add",
+   "ro": "à hǎng kaan",
+   "kind": "word",
+   "category": "性質・状態",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "傲慢な・不遜な",
+     "en": "arrogant, haughty",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "เขาอหังการมากที่ทำเช่นนี้",
+      "ro": "khǎo à hǎng kaan mâak thîi tham chên níi",
+      "ja": "こんなことをするとは、彼はずいぶん傲慢だ。",
+      "en": "He is very arrogant to do this.",
+      "origin": "source"
+     },
+     "note": "書き言葉で「大胆不敵な」の意味で肯定的に使われることもある。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27992",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27993",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27993",
+   "th": "อาราธนา",
+   "action": "add",
+   "ro": "aa râat thá naa",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（僧に戒・説法などを）請う・招請する",
+     "en": "to invite, request (a monk)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ทุกคนกล่าวอาราธนาศีลพร้อมกัน",
+      "ro": "thúk khon klàao aa râat thá naa sǐin phrɔ́ɔm kan",
+      "ja": "皆で一緒に戒を請う文句を唱えた。",
+      "en": "Everyone recited the request for the precepts together.",
+      "origin": "authored"
+     },
+     "note": "僧侶に対して使う改まった語。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27994",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27994",
+   "th": "อาสนะ",
+   "action": "add",
+   "ro": "aa sà ná",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（僧の）座・座席",
+     "en": "seat (of a monk)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "พระสงฆ์นั่งบนอาสนะ",
+      "ro": "phrá sǒng nâng bon aa sà ná",
+      "ja": "僧侶たちが座の上に座っている。",
+      "en": "The monks are sitting on their seats.",
+      "origin": "authored"
+     },
+     "note": "主に僧侶の座る場所に使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27995",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27996",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27997",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27998",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-27998",
+   "th": "อุบ",
+   "action": "add",
+   "ro": "ùp",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（話を）伏せておく・秘密にする",
+     "en": "to keep (something) secret",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาอุบเรื่องนี้ไว้ไม่บอกใคร",
+      "ro": "khǎo ùp rʉ̂ʉang níi wái mâi bɔ̀ɔk khrai",
+      "ja": "彼はこのことを伏せて誰にも言わなかった。",
+      "en": "He kept this to himself and told no one.",
+      "origin": "authored"
+     },
+     "note": "「อุบไว้」の形でよく使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27999",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28000",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28001",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28002",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28004",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28005",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28006",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28007",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28008",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28009",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-28009",
+   "th": "เครื่องเซ่น",
+   "action": "add",
+   "ro": "khrʉ̂ʉang sên",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（神や祖先への）供え物",
+     "en": "offerings (to spirits, ancestors)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แม่จัดเครื่องเซ่นไหว้ไว้บนโต๊ะ",
+      "ro": "mɛ̂ɛ càt khrʉ̂ʉang sên wâai wái bon tó",
+      "ja": "母は机の上にお供え物を並べた。",
+      "en": "Mom arranged the offerings on the table.",
+      "origin": "authored"
+     },
+     "note": "「เครื่องเซ่นไหว้」の形でもよく使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28010",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28012",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28013",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28015",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28016",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28017",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28018",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28019",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-28019",
+   "th": "เพชฌฆาต",
+   "action": "add",
+   "ro": "phét chá khâat",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "死刑執行人",
+     "en": "executioner",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ในสมัยก่อน เพชฌฆาตใช้ดาบประหารนักโทษ",
+      "ro": "nai sà mǎi kɔ̀ɔn phét chá khâat chái dàap prà hǎan nák thôot",
+      "ja": "昔は、死刑執行人が刀で囚人を処刑した。",
+      "en": "In the old days, executioners used swords to execute prisoners.",
+      "origin": "authored"
+     },
+     "note": "比喩的に「冷酷な殺し屋」の意味でも使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28020",
+  "verdict": "fix",
+  "issues": [
+   "note を語義1の中へ移動"
+  ],
+  "fixed": {
+   "id": "tl-28020",
+   "th": "เพิกเฉย",
+   "action": "add",
+   "ro": "phə̂ək chə̌əi",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "無視する・取り合わない・放置する",
+     "en": "to ignore, neglect",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "รัฐบาลไม่ควรเพิกเฉยต่อปัญหานี้",
+      "ro": "rát thà baan mâi khuuan phə̂ək chə̌əi tɔ̀ɔ pan hǎa níi",
+      "ja": "政府はこの問題を放置すべきではない。",
+      "en": "The government should not ignore this problem.",
+      "origin": "authored"
+     },
+     "note": "「เพิกเฉยต่อ…」の形で使う。"
+    }
+   ]
+  }
+ }
+]

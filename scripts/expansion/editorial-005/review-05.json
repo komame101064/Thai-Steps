@@ -1,0 +1,647 @@
+[
+ {
+  "id": "tl-51381",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51382",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51383",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51384",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51385",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51386",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51387",
+  "verdict": "reject",
+  "issues": [
+   "内容は問題なし。ただし頻度リスト part-12.json にも同じ語があるため統合時に重複確認が必要",
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-51388",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51389",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51390",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51391",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51392",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51393",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51394",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51395",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51396",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51397",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51398",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51399",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51400",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51401",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51402",
+  "verdict": "reject",
+  "issues": [
+   "内容は問題なし。ただし頻度リスト part-11.json にも同じ語があるため統合時に重複確認が必要",
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-51403",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51404",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51405",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51406",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51407",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51408",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51409",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51410",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51411",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51412",
+  "verdict": "reject",
+  "issues": [
+   "内容は問題なし。ただし頻度リスト part-07.json にも同じ語があるため統合時に重複確認が必要",
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-51413",
+  "verdict": "reject",
+  "issues": [
+   "内容は問題なし。ただし頻度リスト part-04.json にも同じ語があるため統合時に重複確認が必要",
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-51414",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51415",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51416",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51417",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51418",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51419",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51420",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51421",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51422",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51423",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51424",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51425",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51426",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51427",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51428",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51429",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51430",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51431",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51432",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51433",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51434",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51435",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51436",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51437",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51438",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51439",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51440",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51441",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51442",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51443",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51444",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51445",
+  "verdict": "fix",
+  "issues": [
+   "注記の ไมค์ の読みを ro-lexicon に合わせ mai に（mái は誤り）"
+  ],
+  "fixed": {
+   "id": "tl-51445",
+   "th": "ไมโครโฟน",
+   "action": "add",
+   "ro": "mai khroo foon",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "マイク",
+     "en": "microphone",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "口語では ไมค์（mai）と略す。",
+     "example": {
+      "th": "ไมโครโฟนเสียพูดไม่ได้ยิน",
+      "ro": "mai khroo foon sǐia phûut mâi dâai yin",
+      "ja": "マイクが壊れていて声が聞こえません。",
+      "en": "The microphone is broken, so we can't hear.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51446",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51447",
+  "verdict": "fix",
+  "issues": [
+   "表記ゆれ พาวเวอร์แบงค์（実際によく見る綴り）を注記に追加"
+  ],
+  "fixed": {
+   "id": "tl-51447",
+   "th": "พาวเวอร์แบงก์",
+   "action": "add",
+   "ro": "phaao wəə bɛ́ng",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "モバイルバッテリー",
+     "en": "power bank",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "พาวเวอร์แบงค์ とも書く。แบตสำรอง ともいう。",
+     "example": {
+      "th": "พาวเวอร์แบงก์ต้องถือขึ้นเครื่อง",
+      "ro": "phaao wəə bɛ́ng tɔ̂ɔng thʉ̌ʉ khʉ̂n khrʉ̂ʉang",
+      "ja": "モバイルバッテリーは機内に持ち込まなければなりません。",
+      "en": "Power banks must be carried onto the plane.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51448",
+  "verdict": "fix",
+  "issues": [
+   "การ์ด の声調は ro-lexicon に合わせ低声 kàat（káat は誤り）"
+  ],
+  "fixed": {
+   "id": "tl-51448",
+   "th": "ซิมการ์ด",
+   "action": "add",
+   "ro": "sim kàat",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "SIMカード",
+     "en": "SIM card",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "日常会話では ซิม ということが多い。",
+     "example": {
+      "th": "ซื้อซิมการ์ดได้ที่สนามบิน",
+      "ro": "sʉ́ʉ sim kàat dâai thîi sà nǎam bin",
+      "ja": "SIMカードは空港で買えます。",
+      "en": "You can buy a SIM card at the airport.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51449",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51450",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51451",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51452",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51453",
+  "verdict": "fix",
+  "issues": [
+   "末子音 ล は n と読む規則（ro に l 終わりは不可）。fool→foon"
+  ],
+  "fixed": {
+   "id": "tl-51453",
+   "th": "โฟลเดอร์",
+   "action": "add",
+   "ro": "foon də̂ə",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "フォルダ",
+     "en": "folder (computer)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เก็บไฟล์ไว้ในโฟลเดอร์นี้",
+      "ro": "kèp faai wái nai foon də̂ə níi",
+      "ja": "ファイルはこのフォルダに保存しておいて。",
+      "en": "Save the files in this folder.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51454",
+  "verdict": "fix",
+  "issues": [
+   "เซล の末子音 ล は n（แอลกอฮอล์ ɛɛn・ฟุตบอล bɔɔn と同じ）。「seo」は不可。綴りの長母音に従い seen fîi"
+  ],
+  "fixed": {
+   "id": "tl-51454",
+   "th": "เซลฟี่",
+   "action": "add",
+   "ro": "seen fîi",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "セルフィー・自撮り",
+     "en": "selfie",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "ถ่ายเซลฟี่ で「自撮りする」。",
+     "example": {
+      "th": "เราถ่ายเซลฟี่กันหน้าวัด",
+      "ro": "rao thàai seen fîi kan nâa wát",
+      "ja": "私たちはお寺の前で自撮りしました。",
+      "en": "We took a selfie in front of the temple.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51455",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51456",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51457",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51458",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51459",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51460",
+  "verdict": "reject",
+  "issues": [
+   "内容は問題なし。ただし頻度リスト part-04.json にも同じ語があるため統合時に重複確認が必要",
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-51461",
+  "verdict": "reject",
+  "issues": [
+   "内容は問題なし。ただし頻度リスト part-09.json にも同じ語があるため統合時に重複確認が必要",
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-51462",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51463",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51464",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51465",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51466",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51467",
+  "verdict": "reject",
+  "issues": [
+   "内容は問題なし。ただし頻度リスト part-14.json にも同じ語があるため統合時に重複確認が必要",
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-51468",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51469",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51470",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51471",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51472",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51473",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51474",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51475",
+  "verdict": "ok",
+  "issues": []
+ }
+]

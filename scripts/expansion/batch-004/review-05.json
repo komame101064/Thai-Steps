@@ -1,0 +1,676 @@
+[
+ {
+  "id": "tl-27684",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27685",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27686",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27687",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27689",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27690",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27691",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27692",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27693",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27694",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27695",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27696",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27698",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27699",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27701",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27702",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27703",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27704",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27705",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27706",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27707",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27708",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27709",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27710",
+  "verdict": "fix",
+  "issues": [
+   "注記「辞書上は สาระประโยชน์ の綴りも」は不正確（辞書の見出しは สารประโยชน์、สาระประโยชน์ は一般的な書き方）。読みを添えて修正。見出し sǎan prà yòot は妥当"
+  ],
+  "fixed": {
+   "id": "tl-27710",
+   "th": "สารประโยชน์",
+   "action": "add",
+   "ro": "sǎan prà yòot",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "有益な内容・実益",
+     "en": "useful content, real benefit",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "หนังสือเล่มนี้มีสารประโยชน์มาก",
+      "ro": "nǎng sʉ̌ʉ lêm níi mii sǎan prà yòot mâak",
+      "ja": "この本はとても有益だ。",
+      "en": "This book is very useful.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "一般には「สาระประโยชน์」（sǎa rá prà yòot）と書くことも多い。"
+  }
+ },
+ {
+  "id": "tl-27711",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27712",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27713",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27714",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27715",
+  "verdict": "fix",
+  "issues": [
+   "注記：別表記 สุริยุปราคา のほうが標準的・一般的なので、そう明記。読み sù rí yá ùp pà raa khaa と別表記の読みは妥当"
+  ],
+  "fixed": {
+   "id": "tl-27715",
+   "th": "สุริยอุปราคา",
+   "action": "add",
+   "ro": "sù rí yá ùp pà raa khaa",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "日食",
+     "en": "solar eclipse",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "พรุ่งนี้จะเกิดสุริยอุปราคา",
+      "ro": "phrûng níi cà kə̀ət sù rí yá ùp pà raa khaa",
+      "ja": "明日は日食が起こる。",
+      "en": "There will be a solar eclipse tomorrow.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「สุริยุปราคา」（sù rí yúp pà raa khaa）と書くほうが一般的。"
+  }
+ },
+ {
+  "id": "tl-27716",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27717",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27719",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27720",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27721",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27722",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27723",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27725",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27726",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27727",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27728",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27729",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで เพื่อ が phʉ̂a。ro-lexicon の phʉ̂ʉa に統一"
+  ],
+  "fixed": {
+   "id": "tl-27729",
+   "th": "อดออม",
+   "action": "add",
+   "ro": "òt ɔɔm",
+   "kind": "word",
+   "category": "お金・買い物",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "節約して蓄える",
+     "en": "to save, economize",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เราต้องอดออมเงินเพื่อไว้ใช้ในยามจำเป็น",
+      "ro": "rao tɔ̂ɔng òt ɔɔm ngəən phʉ̂ʉa wái chái nai yaam cam pen",
+      "ja": "私たちはいざという時のためにお金を節約して蓄えなければならない。",
+      "en": "We must save money for times of need.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27730",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27732",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27733",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27734",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27735",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27736",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27737",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27738",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27740",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで ไหม を mái と表記。ro-lexicon の mǎi に統一（タイ語原文は不変）"
+  ],
+  "fixed": {
+   "id": "tl-27740",
+   "th": "เขยิบ",
+   "action": "add",
+   "ro": "khà yə̀əp",
+   "kind": "word",
+   "category": "日常の動作",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "少しずらす・少し詰める（席などを）",
+     "en": "to shift slightly, scoot over",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "คุณช่วยเขยิบเก้าอี้ไปใกล้หน้าต่างอีกนิดได้ไหมครับ",
+      "ro": "khun chûuai khà yə̀əp kâo îi pai klâi nâa tàang ìik nít dâai mǎi khráp",
+      "ja": "椅子をもう少し窓のほうへずらしていただけますか。",
+      "en": "Could you move the chair a little closer to the window?",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27741",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27742",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27747",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27748",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27749",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27750",
+  "verdict": "fix",
+  "issues": [
+   "เดี่ยว は ro-lexicon で dìao（โดดเดี่ยว dòot dìao も同様）。見出し・例文のroを dèt dìao に統一"
+  ],
+  "fixed": {
+   "id": "tl-27750",
+   "th": "เด็ดเดี่ยว",
+   "action": "add",
+   "ro": "dèt dìao",
+   "kind": "word",
+   "category": "性質・状態",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "きっぱりした・断固とした",
+     "en": "resolute, determined",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "น้ำเสียงของเขาเด็ดเดี่ยวและหนักแน่นมาก",
+      "ro": "nám sǐiang khɔ̌ɔng khǎo dèt dìao lɛ́ nàk nɛ̂n mâak",
+      "ja": "彼の声はとてもきっぱりとして力強かった。",
+      "en": "His voice was very resolute and firm.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27752",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27753",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27754",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27755",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27756",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27757",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27758",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27759",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27760",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27762",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27763",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27764",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27765",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27766",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27767",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27768",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27769",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27770",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27771",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27772",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27773",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27774",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27775",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27777",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27778",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27779",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27780",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27782",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27783",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27784",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27785",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27786",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27787",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27788",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27789",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27790",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27791",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで ไหม を mái と表記。ro-lexicon の mǎi に統一"
+  ],
+  "fixed": {
+   "id": "tl-27791",
+   "th": "กระเถิบ",
+   "action": "add",
+   "ro": "krà thə̀əp",
+   "kind": "word",
+   "category": "日常の動作",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "少しずれる・少し詰める",
+     "en": "to shift slightly, scoot",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ช่วยกระเถิบไปอีกนิดได้ไหม",
+      "ro": "chûuai krà thə̀əp pai ìik nít dâai mǎi",
+      "ja": "もう少し詰めてもらえますか。",
+      "en": "Could you scoot over a little?",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27792",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27793",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27794",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27795",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27796",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27797",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27798",
+  "verdict": "ok",
+  "issues": []
+ }
+]

@@ -1,0 +1,593 @@
+[
+ {
+  "id": "tl-27014",
+  "verdict": "ok",
+  "issues": [
+   "読み wít sà kîi は実際の発音（วิด-สะ-กี้）に基づく3音節で妥当と判断（ヒントの2音節より優先）"
+  ]
+ },
+ {
+  "id": "tl-27015",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27017",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27018",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27019",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27020",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27021",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27022",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27023",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27024",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27025",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27026",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27027",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27028",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27029",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27030",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27031",
+  "verdict": "ok",
+  "issues": [
+   "หมาใน＝ドール（アジアの野生犬）で正しい"
+  ]
+ },
+ {
+  "id": "tl-27032",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27033",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27034",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27035",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27036",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27037",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27038",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27039",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27040",
+  "verdict": "fix",
+  "issues": [
+   "語義2（ไม่อั้น＝制限なく）は副詞的用法なので pos を副詞に修正。語義・例文は妥当"
+  ],
+  "fixed": {
+   "id": "tl-27040",
+   "th": "อั้น",
+   "action": "add",
+   "ro": "ân",
+   "kind": "word",
+   "category": "体・健康",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（尿・息などを）こらえる・我慢する",
+     "en": "to hold back, hold in (urine, breath)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "คนไข้อั้นปัสสาวะไว้ไม่อยู่",
+      "ro": "khon khâi ân pàt sǎa wá wái mâi yùu",
+      "ja": "患者は尿をこらえきれなかった。",
+      "en": "The patient could not hold his urine.",
+      "origin": "source"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（ไม่อั้นの形で）制限なく・いくらでも",
+     "en": "(in ไม่อั้น) without limit, as much as one likes",
+     "pos": "副詞",
+     "use": "よく使う別の意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ร้านนี้เติมน้ำได้ไม่อั้น",
+      "ro": "ráan níi təəm náam dâai mâi ân",
+      "ja": "この店は飲み物を何杯でもおかわりできる。",
+      "en": "At this shop you can get unlimited refills.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27041",
+  "verdict": "ok",
+  "issues": [
+   "อั๊วะ úa、中国系口語の一人称として妥当"
+  ]
+ },
+ {
+  "id": "tl-27042",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27043",
+  "verdict": "fix",
+  "issues": [
+   "นกอีแอ่น はアマツバメ科（アナツバメなど）で、ツバメ（swallow）は นกนางแอ่น。語義から「ツバメ」を除いた"
+  ],
+  "fixed": {
+   "id": "tl-27043",
+   "th": "อีแอ่น",
+   "action": "add",
+   "ro": "ii ɛ̀ɛn",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "アナツバメ・アマツバメ（鳥）",
+     "en": "swiftlet, swift",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "นกอีแอ่นทำรังในถ้ำ",
+      "ro": "nók ii ɛ̀ɛn tham rang nai thâm",
+      "ja": "アナツバメは洞窟に巣を作る。",
+      "en": "Swiftlets build their nests in caves.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "นกอีแอ่น の形でよく使う。"
+  }
+ },
+ {
+  "id": "tl-27044",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27045",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27046",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27047",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27048",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27049",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27050",
+  "verdict": "ok",
+  "issues": [
+   "ฮื้อ は不同意・不満を表す間投詞で妥当、声調 hʉ́ʉ も正しい"
+  ]
+ },
+ {
+  "id": "tl-27051",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27052",
+  "verdict": "ok",
+  "issues": [
+   "ไม่เกี่ยง の語義・例文とも妥当"
+  ]
+ },
+ {
+  "id": "tl-27053",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27054",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27055",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27056",
+  "verdict": "ok",
+  "issues": [
+   "เขย่ง の yèng（短母音）は lexicon の เช่น chên と同様で妥当"
+  ]
+ },
+ {
+  "id": "tl-27057",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27058",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27059",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27060",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27061",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27062",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27063",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27064",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27065",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27066",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27067",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27068",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27070",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27071",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27072",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27073",
+  "verdict": "ok",
+  "issues": [
+   "เฟ้น の fén（短母音）は lexicon の เต้น tên と同じ扱いで妥当"
+  ]
+ },
+ {
+  "id": "tl-27074",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27075",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27076",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27077",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27078",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27079",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27080",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27081",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27082",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27083",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27086",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27087",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27089",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27091",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27092",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27093",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27094",
+  "verdict": "ok",
+  "issues": [
+   "แฟ＝トウガン（ฟักแฟง）で正しい"
+  ]
+ },
+ {
+  "id": "tl-27095",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27096",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27097",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27099",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27100",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27102",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27103",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27104",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27105",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27106",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27107",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27108",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27109",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27110",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27111",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27112",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27113",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27114",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27115",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27116",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27117",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27119",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27120",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27121",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27122",
+  "verdict": "ok",
+  "issues": []
+ }
+]

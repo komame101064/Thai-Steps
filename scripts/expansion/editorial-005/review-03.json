@@ -1,0 +1,724 @@
+[
+ {
+  "id": "tl-51191",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51192",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51193",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51194",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51195",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51196",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51197",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51198",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51199",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51200",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51201",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51202",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51203",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51204",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51205",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51206",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51207",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51208",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51209",
+  "verdict": "fix",
+  "issues": [
+   "見出しのro：มั่น は ส の前置で低声（標準の読み มัด-สะ-หฺมั่น）。mân→màn",
+   "例文「ไม่เผ็ด」は言い過ぎのため ไม่ค่อยเผ็ด に変更"
+  ],
+  "fixed": {
+   "id": "tl-51209",
+   "th": "แกงมัสมั่น",
+   "action": "add",
+   "ro": "kɛɛng mát sà màn",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "マッサマンカレー",
+     "en": "massaman curry",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แกงมัสมั่นมีรสหวานและไม่ค่อยเผ็ด",
+      "ro": "kɛɛng mát sà màn mii rót wǎan lɛ́ mâi khɔ̂ɔi phèt",
+      "ja": "マッサマンカレーは甘めの味で、あまり辛くありません。",
+      "en": "Massaman curry tastes sweet and is not very spicy.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51210",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51211",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51212",
+  "verdict": "fix",
+  "issues": [
+   "noteの「汁入り炒め麺」が不正確（สุกี้น้ำはスープ入り、สุกี้แห้งは汁なし炒め）"
+  ],
+  "fixed": {
+   "id": "tl-51212",
+   "th": "สุกี้",
+   "action": "add",
+   "ro": "sù kîi",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "タイスキ（タイ式の鍋料理）",
+     "en": "Thai suki (hot pot)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เย็นนี้ไปกินสุกี้กันไหม",
+      "ro": "yen níi pai kin sù kîi kan mǎi",
+      "ja": "今晩、タイスキを食べに行かない？",
+      "en": "Shall we go eat suki this evening?",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "日本のすき焼きとは別物。屋台の一品料理 สุกี้น้ำ（スープ入り）・สุกี้แห้ง（汁なし炒め）も指す。"
+  }
+ },
+ {
+  "id": "tl-51213",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51214",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51215",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51216",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51217",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51218",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51219",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51220",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51221",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51222",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51223",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51224",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51225",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51226",
+  "verdict": "fix",
+  "issues": [
+   "疑義確認：末子音 ล は n で読む（ハウスの แอลกอฮอล์ ɛɛn、ฟุตบอล bɔɔn と同じ）。sɛo は体系にない母音表記で、แ- は長母音。sɛo mɔ̂n→sɛɛn mɔ̂n（example-reference の既存例文 แซลมอน… sɛo mɔ̂n も要修正）"
+  ],
+  "fixed": {
+   "id": "tl-51226",
+   "th": "ปลาแซลมอน",
+   "action": "add",
+   "ro": "plaa sɛɛn mɔ̂n",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "サーモン・サケ",
+     "en": "salmon",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ลูกชอบกินปลาแซลมอนย่าง",
+      "ro": "lûuk chɔ̂ɔp kin plaa sɛɛn mɔ̂n yâang",
+      "ja": "子どもは焼いたサーモンが好きです。",
+      "en": "My child likes grilled salmon.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ปลา を付けずに แซลมอน とも言う。"
+  }
+ },
+ {
+  "id": "tl-51227",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51228",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51229",
+  "verdict": "fix",
+  "issues": [
+   "เมน は ็ なしの綴りで長母音：men→meen"
+  ],
+  "fixed": {
+   "id": "tl-51229",
+   "th": "ราเมน",
+   "action": "add",
+   "ro": "raa meen",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ラーメン（日本式）",
+     "en": "ramen",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ร้านราเมนนี้ต้องต่อคิวนาน",
+      "ro": "ráan raa meen níi tɔ̂ɔng tɔ̀ɔ khiu naan",
+      "ja": "このラーメン店は長く並ばないといけません。",
+      "en": "You have to queue a long time at this ramen shop.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ราเม็ง とも書く。タイの麺料理一般は ก๋วยเตี๋ยว・บะหมี่。"
+  }
+ },
+ {
+  "id": "tl-51230",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51231",
+  "verdict": "fix",
+  "issues": [
+   "疑義確認：読み sà paa kèt tîi は妥当。見出しはタイ人が最も多く書く สปาเก็ตตี้ に変更し、辞書表記 สปาเกตตี はnoteへ（例文も綴り変更）"
+  ],
+  "fixed": {
+   "id": "tl-51231",
+   "th": "สปาเก็ตตี้",
+   "action": "add",
+   "ro": "sà paa kèt tîi",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "スパゲッティ",
+     "en": "spaghetti",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันทำสปาเก็ตตี้ให้ลูกกิน",
+      "ro": "chǎn tham sà paa kèt tîi hâi lûuk kin",
+      "ja": "子どもにスパゲッティを作ってあげました。",
+      "en": "I made spaghetti for my child.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "王立学士院の表記は สปาเกตตี だが、一般には สปาเก็ตตี้ と書くことが多い。"
+  }
+ },
+ {
+  "id": "tl-51232",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51233",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51234",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51235",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51236",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51237",
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-51238",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51239",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51240",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51241",
+  "verdict": "fix",
+  "issues": [
+   "例文のro：นักท่องเที่ยว は SPEC の綴り長母音規則（‑่อง は ɔɔ、เ‑ีย は iia）に従い nák thɔ̂ɔng thîiao（lexicon の thɔ̂ng thîao は不統一）"
+  ],
+  "fixed": {
+   "id": "tl-51241",
+   "th": "ข้าวเหนียวมะม่วง",
+   "action": "add",
+   "ro": "khâao nǐiao má mûuang",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "カオニャオマムアン（マンゴーともち米のデザート）",
+     "en": "mango sticky rice",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ข้าวเหนียวมะม่วงเป็นขนมที่นักท่องเที่ยวชอบ",
+      "ro": "khâao nǐiao má mûuang pen khà nǒm thîi nák thɔ̂ɔng thîiao chɔ̂ɔp",
+      "ja": "マンゴーもち米は観光客に人気のお菓子です。",
+      "en": "Mango sticky rice is a dessert tourists love.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51242",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51243",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51244",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51245",
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-51246",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51247",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51248",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51249",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51250",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51251",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51252",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51253",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51254",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51255",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51256",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51257",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51258",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51259",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51260",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51261",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51262",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51263",
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-51264",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51265",
+  "verdict": "fix",
+  "issues": [
+   "疑義確認：読み sà trɔɔ bəə rîi は妥当。見出しを一般的な綴り สตรอเบอร์รี่ に変更し、辞書表記をnoteへ（例文も綴り変更）"
+  ],
+  "fixed": {
+   "id": "tl-51265",
+   "th": "สตรอเบอร์รี่",
+   "action": "add",
+   "ro": "sà trɔɔ bəə rîi",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "イチゴ",
+     "en": "strawberry",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันชอบกินสตรอเบอร์รี่มาก",
+      "ro": "chǎn chɔ̂ɔp kin sà trɔɔ bəə rîi mâak",
+      "ja": "私はイチゴが大好きです。",
+      "en": "I love strawberries.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "王立学士院の表記は สตรอว์เบอร์รี だが、一般には สตรอเบอร์รี่ と書くことが多い。"
+  }
+ },
+ {
+  "id": "tl-51266",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51267",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51268",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51269",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51270",
+  "verdict": "reject",
+  "issues": [
+   "頻出語リスト側（batch-004）に同じ見出し語があり、そちらを採用するため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-51271",
+  "verdict": "fix",
+  "issues": [
+   "疑義確認：読み brɔ̀k khoo lîi は妥当。見出しを一般的な綴り บร็อคโคลี่ に変更し、辞書表記 บรอกโคลี をnoteへ（例文も綴り変更）"
+  ],
+  "fixed": {
+   "id": "tl-51271",
+   "th": "บร็อคโคลี่",
+   "action": "add",
+   "ro": "brɔ̀k khoo lîi",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ブロッコリー",
+     "en": "broccoli",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ลูกไม่ชอบกินบร็อคโคลี่",
+      "ro": "lûuk mâi chɔ̂ɔp kin brɔ̀k khoo lîi",
+      "ja": "子どもはブロッコリーが好きではありません。",
+      "en": "My child doesn't like broccoli.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "王立学士院の表記は บรอกโคลี だが、一般には บร็อคโคลี่ と書くことが多い。"
+  }
+ },
+ {
+  "id": "tl-51272",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51273",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51274",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51275",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51276",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51277",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51278",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51279",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51280",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51281",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51282",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51283",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51284",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51285",
+  "verdict": "ok",
+  "issues": []
+ }
+]

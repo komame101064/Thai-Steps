@@ -5,7 +5,7 @@ const ctx={console,window:{scrollTo(){}},document:{querySelector:()=>({})},locat
 vm.createContext(ctx);
 for(const name of ['data','expansion','readings','vocabulary','structures','kana-search','word-topics','word-origins','words-app'])vm.runInContext(fs.readFileSync('dist/'+name+'.js','utf8'),ctx);
 vm.runInContext(fs.readFileSync('dist/app.js','utf8').split("window.addEventListener('hashchange'")[0],ctx);
-vm.runInContext("render=()=>{};toast=()=>{};view='home';this.t={wordOriginRows,loadWordBank,selectedWords,wordTopics,setWordTopic,setWordDeck,setCategory:x=>{wordCategory=x},wordTrend,wordTrendBadge,dictionaryResults,getBank:()=>bank}",ctx);
+vm.runInContext("render=()=>{};toast=()=>{};view='home';this.t={wordParts,shortGloss,openWord,wordDetail,setCurrent:x=>{wordCurrent=x},wordOriginRows,loadWordBank,selectedWords,wordTopics,setWordTopic,setWordDeck,setCategory:x=>{wordCategory=x},wordTrend,wordTrendBadge,dictionaryResults,getBank:()=>bank}",ctx);
 (async()=>{const t=ctx.t;await t.loadWordBank();const bank=t.getBank(),byId=new Map(bank.map(w=>[w.id,w]));
 const list=JSON.parse(fs.readFileSync('scripts/word-trends.json','utf8'));
 assert(list.length>=80);assert.equal(new Set(list.map(e=>e.id)).size,list.length);
@@ -32,6 +32,10 @@ assert.equal(t.dictionaryResults('AI')[0].w.th,'เอไอ');assert.equal(t.di
 assert(t.dictionaryResults('QR').some(x=>x.w.th==='คิวอาร์โค้ด'));assert(!t.dictionaryResults('a').some(x=>x.w.th==='เอไอ'));
 // 「雷」: glosses about thunder itself (雷が鳴る, 雷が落ちる) come before the compound 雷魚.
 {const r=t.dictionaryResults('雷').map(x=>x.w.th);assert(r.indexOf('ฟ้าร้อง')<r.indexOf('ปลาช่อน')&&r.indexOf('ฟ้าผ่า')<r.indexOf('ปลาช่อน'),r.join(','))}
+// 成り立ち: compounds split into registered words, parts align with the reading, particles are not parts, links open the part.
+{const W=th=>bank.find(w=>w.th===th),P=th=>t.wordParts(W(th)).map(x=>x.th).join('+');
+ assert.equal(P('รถไฟ'),'รถ+ไฟ');assert.equal(P('น้ำแข็ง'),'น้ำ+แข็ง');assert.equal(P('อะไร'),'');assert.equal(P('โล่งอก'),'');
+ assert.equal(t.shortGloss(W('หน้า'),W('ก้าวหน้า')),'前');t.setCurrent(W('รถไฟ').id);const h=t.wordDetail();assert(h.includes('成り立ち')&&h.includes(`openWord('${W('รถ').id}')`))}
 // Sanskrit, Pali and Khmer origins are not shown; other sources (中国由来, 英語由来) still are.
 const labels=new Set(bank.flatMap(w=>t.wordOriginRows(w).map(r=>r.label)));
 assert(![...labels].some(l=>/サンスクリット|パーリ|クメール/.test(l)));assert(labels.has('中国由来')&&labels.has('英語由来'));

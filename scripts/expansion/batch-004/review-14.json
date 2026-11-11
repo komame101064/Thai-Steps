@@ -1,0 +1,563 @@
+[
+ {
+  "id": "tl-28675",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28676",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28677",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28678",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28679",
+  "verdict": "fix",
+  "issues": [
+   "見出し語・例文のroで แกว่ง をro-lexiconの表記 kwɛ̀ng に統一（kwɛ̀ɛng は不一致）"
+  ],
+  "fixed": {
+   "id": "tl-28679",
+   "th": "แกว่งไกว",
+   "action": "add",
+   "ro": "kwɛ̀ng kwai",
+   "kind": "word",
+   "category": "日常の動作",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "揺れる・揺れ動く",
+     "en": "to sway, swing",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "literary"
+     ],
+     "speechStyle": "文語",
+     "example": {
+      "th": "ใบไม้แกว่งไกวตามลม",
+      "ro": "bai máai kwɛ̀ng kwai taam lom",
+      "ja": "木の葉が風に揺れている。",
+      "en": "The leaves sway in the wind.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28680",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28681",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28682",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28683",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28684",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28685",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28687",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28688",
+  "verdict": "fix",
+  "issues": [
+   "語義の補足「田植え始めの儀式」は誤り。田を耕す（鋤入れ）儀式で、王室行事であることを明記"
+  ],
+  "fixed": {
+   "id": "tl-28688",
+   "th": "แรกนาขวัญ",
+   "action": "add",
+   "ro": "rɛ̂ɛk naa khwǎn",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "始耕祭（その年の耕作の始まりを告げる王室儀式）",
+     "en": "the Royal Ploughing Ceremony",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "พิธีแรกนาขวัญจัดขึ้นทุกปี",
+      "ro": "phí thii rɛ̂ɛk naa khwǎn càt khʉ̂n thúk pii",
+      "ja": "始耕祭は毎年行われる。",
+      "en": "The Ploughing Ceremony is held every year.",
+      "origin": "authored"
+     },
+     "note": "ふつう「พิธีแรกนาขวัญ」の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28689",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28690",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28691",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28692",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28693",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28694",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28695",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28696",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28697",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28698",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28699",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28702",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28703",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28704",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28705",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28706",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28707",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28708",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28709",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28711",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28712",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28713",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28714",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28715",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28716",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28717",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28718",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28719",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28720",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28721",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28722",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28723",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28724",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28726",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28727",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28728",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28729",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28730",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28731",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28732",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28733",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28734",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28735",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28736",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28737",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28738",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28739",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28740",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28741",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28742",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28743",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28744",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28745",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28746",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28747",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28748",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28749",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28750",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28751",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28752",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28753",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28755",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28758",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28759",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28760",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28761",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28762",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28763",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28764",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28765",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28766",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28767",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28768",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28769",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28770",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28771",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28772",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28774",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28775",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28776",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28777",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28778",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28779",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28780",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28781",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28782",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28783",
+  "verdict": "ok",
+  "issues": []
+ }
+]

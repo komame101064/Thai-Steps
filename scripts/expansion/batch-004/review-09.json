@@ -1,0 +1,628 @@
+[
+ {
+  "id": "tl-28128",
+  "verdict": "fix",
+  "issues": [
+   "ถั่วแระต้ม（おやつ）は現代ではふつう枝豆を指し、語義「キマメ」のみでは例文の訳が実態とずれる。語義に会話での「枝豆」を併記し、例文訳を枝豆に修正。noteを整理"
+  ],
+  "fixed": {
+   "id": "tl-28128",
+   "th": "ถั่วแระ",
+   "action": "add",
+   "ro": "thùua rɛ́",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "キマメ・（会話で）枝豆",
+     "en": "pigeon pea; (colloquially) edamame",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ถั่วแระต้มเป็นของว่างที่อร่อย",
+      "ro": "thùua rɛ́ tôm pen khɔ̌ɔng wâang thîi à rɔ̀ɔi",
+      "ja": "ゆでた枝豆はおいしいおやつです。",
+      "en": "Boiled edamame makes a tasty snack.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "辞書上はキマメを指すが、会話では枝豆（正式には ถั่วแระญี่ปุ่น）を単に ถั่วแระ と呼ぶことが多い。"
+  }
+ },
+ {
+  "id": "tl-28129",
+  "verdict": "ok",
+  "issues": [
+   "กำเนิด は กำ-เหฺนิด で低声 nə̀ət（lexiconと一致）"
+  ]
+ },
+ {
+  "id": "tl-28130",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28131",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28132",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28133",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28134",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28135",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28136",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28137",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28139",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28140",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28141",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28142",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28143",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28144",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28145",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28146",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28147",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28148",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28149",
+  "verdict": "fix",
+  "issues": [
+   "noteの「警部補以上」は日本の階級への対応づけが不確か。「尉官以上の階級」に修正"
+  ],
+  "fixed": {
+   "id": "tl-28149",
+   "th": "นายตำรวจ",
+   "action": "add",
+   "ro": "naai tam rùuat",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "警察幹部・警察官（将校級）",
+     "en": "police officer (commissioned)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "นายตำรวจคนนั้นสั่งให้ปิดถนน",
+      "ro": "naai tam rùuat khon nán sàng hâi pìt thà nǒn",
+      "ja": "その警察幹部は道路の封鎖を命じた。",
+      "en": "That police officer ordered the road closed.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "尉官以上の階級の警察官（幹部）を指し、一般の警察官は ตำรวจ という。"
+  }
+ },
+ {
+  "id": "tl-28150",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28151",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28152",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28153",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28154",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28155",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28156",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28157",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28158",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28159",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28160",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28161",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28162",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28163",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28164",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28165",
+  "verdict": "ok",
+  "issues": [
+   "声調確認：ปรัก は ปะ-หฺรัก（隠れたห）で pà ràk が正しい。問題なし"
+  ]
+ },
+ {
+  "id": "tl-28166",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28167",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28168",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28169",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28170",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28171",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28172",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28173",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28174",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28175",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28176",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28177",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28178",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28179",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28180",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28181",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28182",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28183",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28184",
+  "verdict": "fix",
+  "issues": [
+   "ro-lexicon・example-reference は เกี่ยวข้อง を kìao khɔ̂ng と表記。見出しと例文のroを lexicon に合わせて修正"
+  ],
+  "fixed": {
+   "id": "tl-28184",
+   "th": "ผู้เกี่ยวข้อง",
+   "action": "add",
+   "ro": "phûu kìao khɔ̂ng",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "関係者",
+     "en": "person concerned, those involved",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ตำรวจกำลังสอบสวนผู้เกี่ยวข้องทุกคน",
+      "ro": "tam rùuat kam lang sɔ̀ɔp sǔuan phûu kìao khɔ̂ng thúk khon",
+      "ja": "警察は関係者全員を取り調べている。",
+      "en": "The police are questioning everyone involved.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28185",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28187",
+  "verdict": "reject",
+  "issues": [
+   "ฝูงๆ は ฝูง の反復（เป็นฝูงๆ）で独自の意味がなく、見出しとしての学習価値が低い"
+  ]
+ },
+ {
+  "id": "tl-28188",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28189",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28190",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28191",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28192",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28193",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28194",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28195",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28196",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28197",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28198",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28199",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28200",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28201",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28202",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28203",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28204",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28205",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28206",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28207",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28209",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28210",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28211",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28212",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28213",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28214",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28215",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28216",
+  "verdict": "ok",
+  "issues": [
+   "第2語義：มะกอก（Spondias属、ส้มตำ/ตำมะกอก に使う）は実在の用法。問題なし"
+  ]
+ },
+ {
+  "id": "tl-28217",
+  "verdict": "reject",
+  "issues": [
+   "มืดๆ は มืด の口語的反復で独自の意味がなく、見出しとしての学習価値が低い（ตอนมืดๆ は มืด で学べる）"
+  ]
+ },
+ {
+  "id": "tl-28219",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28220",
+  "verdict": "fix",
+  "issues": [
+   "เย้า は短母音（เ-้า、lexiconの เข้า khâo と同様）で yáo。見出し・例文のroを修正"
+  ],
+  "fixed": {
+   "id": "tl-28220",
+   "th": "ยั่วเย้า",
+   "action": "add",
+   "ro": "yûua yáo",
+   "kind": "word",
+   "category": "人・家族",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "からかう・じらす",
+     "en": "to tease, taunt",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาชอบยั่วเย้าน้องสาวให้โกรธ",
+      "ro": "khǎo chɔ̂ɔp yûua yáo nɔ́ɔng sǎao hâi kròot",
+      "ja": "彼は妹をからかって怒らせるのが好きだ。",
+      "en": "He likes to tease his younger sister until she gets angry.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28221",
+  "verdict": "ok",
+  "issues": [
+   "ยิ่งๆ ขึ้นไป の祝辞の定型として独自の用法があり、noteでも示されているため採用可"
+  ]
+ },
+ {
+  "id": "tl-28222",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28223",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28224",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28226",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28227",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28228",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28229",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28230",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28231",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28232",
+  "verdict": "ok",
+  "issues": []
+ }
+]

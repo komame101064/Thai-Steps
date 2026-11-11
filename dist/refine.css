@@ -458,3 +458,15 @@ html body .w-example-top .is-icon .ui-icon,html body .word-audio .is-icon .ui-ic
 html body .word-audio button:first-child{width:34px}
 html body .w-row-actions .w-audio{width:42px!important}
 html body .w-row-actions{width:auto!important;flex-direction:row!important;flex-wrap:nowrap!important;align-items:center}
+/* 成り立ち: component words, each opens its own entry */
+html body .w-parts{margin:4px 0 20px}
+html body .w-parts h2{display:flex;align-items:center;gap:10px;font-size:16px;margin:0 0 10px;color:var(--x-ink)}
+html body .w-parts-icon{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:9px;background:var(--x-soft);color:var(--x-green)}
+html body .w-parts-icon .ui-icon{width:17px;height:17px}
+html body .w-parts-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+html body .w-part{display:flex;flex-direction:column;align-items:center;gap:1px;min-width:84px;padding:9px 14px;border:2px solid #9cbf86;border-radius:14px;background:#fff;color:var(--x-text);cursor:pointer;font:inherit}
+html body .w-part:hover,html body .w-part:focus-visible{background:#f1f7ec;border-color:var(--x-green)}
+html body .w-part b{font-size:20px;color:var(--x-green);font-weight:700;line-height:1.4}
+html body .w-part small{font-family:'Steps Latin',sans-serif;font-size:12px;color:var(--x-green-2);font-weight:600}
+html body .w-part span{font-size:13px;color:var(--x-text)}
+html body .w-parts-plus{font-weight:700;color:#7d8c74;font-size:18px}

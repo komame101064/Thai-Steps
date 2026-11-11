@@ -1,0 +1,567 @@
+[
+ {
+  "id": "tl-28347",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28348",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28349",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28350",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28351",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28352",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28353",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28354",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28355",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28356",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28357",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28358",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28359",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28360",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28362",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28363",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28364",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28365",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28366",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28367",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28368",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28369",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28370",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28371",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28372",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28374",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28375",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28377",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28378",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28379",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28380",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28381",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28382",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28383",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28384",
+  "verdict": "fix",
+  "issues": [
+   "noteの「国王の言葉にだけ使う」は言い過ぎ（王妃なども พระราชดำรัส を用いる）。noteを修正"
+  ],
+  "fixed": {
+   "id": "tl-28384",
+   "th": "กระแสพระราชดำรัส",
+   "action": "add",
+   "ro": "krà sɛ̌ɛ phrá râat chá dam ràt",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（国王の）お言葉・仰せ",
+     "en": "royal speech, royal command (of the King)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "royal"
+     ],
+     "speechStyle": "王室の敬語",
+     "example": {
+      "th": "พระเจ้าอยู่หัวทรงมีกระแสพระราชดำรัสให้เข้าเฝ้า",
+      "ro": "phrá câao yùu hǔua song mii krà sɛ̌ɛ phrá râat chá dam ràt hâi khâo fâo",
+      "ja": "国王は拝謁に参上するよう仰せになった。",
+      "en": "The King commanded that they come for an audience.",
+      "origin": "source"
+     }
+    }
+   ],
+   "note": "พระราช- を用いる王族（国王・王妃など）の言葉に使う王室語。"
+  }
+ },
+ {
+  "id": "tl-28385",
+  "verdict": "fix",
+  "issues": [
+   "「口語」ラベルは不適切（物語・書き言葉でも普通に使う）。標準語に修正",
+   "noteの แต่กระโน้น は確認できないため สมัยกระโน้น に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-28385",
+   "th": "กระโน้น",
+   "action": "add",
+   "ro": "krà nóon",
+   "kind": "word",
+   "category": "時間",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ずっと昔（ครั้งกระโน้น の形で）",
+     "en": "long ago, way back then",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ครั้งกระโน้นที่นี่ยังเป็นป่า",
+      "ro": "khráng krà nóon thîi nîi yang pen pàa",
+      "ja": "ずっと昔、ここはまだ森だった。",
+      "en": "Long ago, this place was still forest.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "単独では使わず、主に ครั้งกระโน้น・สมัยกระโน้น の形で使う。"
+  }
+ },
+ {
+  "id": "tl-28386",
+  "verdict": "reject",
+  "issues": [
+   "กราน は単独で「言い張る」の意味では使わず、実質 ยืนกราน だけの拘束形。ยืนกราน は既に登録済みの見出し語で、例文も ยืนกราน そのものなので重複。単独語の語義（敷く等）は一般的でない"
+  ]
+ },
+ {
+  "id": "tl-28387",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28388",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28389",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28390",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28393",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28394",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28395",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28396",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28398",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28399",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28400",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28401",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28402",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28403",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28404",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28405",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28406",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28407",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28408",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28409",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28410",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28411",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28412",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28413",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28414",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28415",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28416",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28417",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28418",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28419",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28420",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28421",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28422",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28424",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28425",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28426",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28427",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28428",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28429",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28430",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28431",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28432",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28433",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28435",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28436",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28438",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28439",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28440",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28441",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28442",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28443",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28444",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28445",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28446",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28447",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28448",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28449",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28450",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28451",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28452",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28453",
+  "verdict": "reject",
+  "issues": [
+   "標準表記 ดอลลาร์（dɔn lâa・ドル）が既に見出し語として登録済み。異綴り ดอลล่าร์ を別語として登録すると重複になる"
+  ]
+ },
+ {
+  "id": "tl-28454",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28455",
+  "verdict": "ok",
+  "issues": []
+ }
+]

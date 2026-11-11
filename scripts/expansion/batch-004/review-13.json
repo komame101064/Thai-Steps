@@ -1,0 +1,731 @@
+[
+ {
+  "id": "tl-28564",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28565",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28566",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28567",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28568",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28569",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28571",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28572",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28573",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28574",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28575",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28576",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28578",
+  "verdict": "fix",
+  "issues": [
+   "語義2は ทางเพศ と組んだ連語での意味であり、語義名にその条件を明示する"
+  ],
+  "fixed": {
+   "id": "tl-28578",
+   "th": "ล่วงละเมิด",
+   "action": "add",
+   "ro": "lûuang lá mə̂ət",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（権利・規則を）侵害する・犯す",
+     "en": "to violate, infringe",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ไม่มีใครมีสิทธิ์ล่วงละเมิดสิทธิของผู้อื่น",
+      "ro": "mâi mii khrai mii sìt lûuang lá mə̂ət sìt thí khɔ̌ɔng phûu ʉ̀ʉn",
+      "ja": "他人の権利を侵害する権利は誰にもない。",
+      "en": "No one has the right to violate the rights of others.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（多く ทางเพศ を伴い）性的虐待をする・わいせつ行為をする",
+     "en": "to sexually abuse",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ชายคนนี้ถูกจับข้อหาล่วงละเมิดทางเพศเด็ก",
+      "ro": "chaai khon níi thùuk càp khɔ̂ɔ hǎa lûuang lá mə̂ət thaang phêet dèk",
+      "ja": "この男は子どもへの性的虐待の容疑で逮捕された。",
+      "en": "This man was arrested on charges of sexually abusing children.",
+      "origin": "authored"
+     },
+     "note": "この意味では「ล่วงละเมิดทางเพศ」の形で使う。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28579",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28580",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28581",
+  "verdict": "fix",
+  "issues": [
+   "実際には「วัดวาอาราม」の形でほぼ使われるが、その旨のnoteがない"
+  ],
+  "fixed": {
+   "id": "tl-28581",
+   "th": "วัดวา",
+   "action": "add",
+   "ro": "wát waa",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "お寺（総称）",
+     "en": "temples (collectively)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เมืองนี้มีวัดวาอารามมากมาย",
+      "ro": "mʉʉang níi mii wát waa aa raam mâak maai",
+      "ja": "この町にはお寺がたくさんある。",
+      "en": "This town has many temples.",
+      "origin": "authored"
+     },
+     "note": "主に「วัดวาอาราม」の形で使う。"
+    }
+   ],
+   "note": "普通は「วัดวาอาราม」の形で使う。"
+  }
+ },
+ {
+  "id": "tl-28582",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28583",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28584",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28585",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28586",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28587",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28588",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28589",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28590",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28592",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28593",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28594",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28595",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28596",
+  "verdict": "fix",
+  "issues": [
+   "現代語では「สังวรไว้（ว่า…）」＝肝に銘じる・戒めとして心に留める、が中心。語義と例文をその用法に合わせた"
+  ],
+  "fixed": {
+   "id": "tl-28596",
+   "th": "สังวร",
+   "action": "add",
+   "ro": "sǎng wɔɔn",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "肝に銘じる・（言動を）慎んで気をつける",
+     "en": "to bear in mind, be mindful, take heed",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "เธอควรสังวรไว้ว่าทุกการกระทำมีผลตามมา",
+      "ro": "thəə khuuan sǎng wɔɔn wái wâa thúk kaan krà tham mii phǒn taam maa",
+      "ja": "どんな行いにも結果が伴うことを肝に銘じておくべきだ。",
+      "en": "You should bear in mind that every action has consequences.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28597",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28598",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28599",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28600",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28601",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28602",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28603",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28604",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28605",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28606",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28607",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28608",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28609",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28610",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28611",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28612",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28613",
+  "verdict": "reject",
+  "issues": [
+   "実際は「ไม่หวาดไหว／ไม่หวาดไม่ไหว」（きりがない・〜しきれない）や反語でしか使わず、肯定の「こなしきれる」という語義は学習者を誤らせる。単独見出しとして教える価値も低い"
+  ]
+ },
+ {
+  "id": "tl-28614",
+  "verdict": "fix",
+  "issues": [
+   "「キツツキ」は普通「นกหัวขวาน」の形（例文も同じ）。単独では斧の頭の意にもなるためnoteが必要"
+  ],
+  "fixed": {
+   "id": "tl-28614",
+   "th": "หัวขวาน",
+   "action": "add",
+   "ro": "hǔua khwǎan",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "キツツキ",
+     "en": "woodpecker",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "นกหัวขวานกำลังเจาะต้นไม้",
+      "ro": "nók hǔua khwǎan kam lang cɔ̀ tôn máai",
+      "ja": "キツツキが木をつついている。",
+      "en": "A woodpecker is pecking at the tree.",
+      "origin": "authored"
+     },
+     "note": "ふつう「นกหัวขวาน」と言う。"
+    }
+   ],
+   "note": "鳥の名としては普通「นกหัวขวาน」の形で使う。"
+  }
+ },
+ {
+  "id": "tl-28615",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28616",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28617",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28619",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28620",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28621",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28622",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28623",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28624",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28625",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28626",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28627",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28628",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28629",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28630",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28631",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28632",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28633",
+  "verdict": "fix",
+  "issues": [
+   "単独では主に書き言葉で、例文も「เกื้อกูล」のみ。結合形での使用が中心である旨のnoteがない"
+  ],
+  "fixed": {
+   "id": "tl-28633",
+   "th": "เกื้อ",
+   "action": "add",
+   "ro": "kʉ̂ʉa",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "助ける・支える",
+     "en": "to help, support",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พี่น้องควรเกื้อกูลกัน",
+      "ro": "phîi nɔ́ɔng khuuan kʉ̂ʉa kuun kan",
+      "ja": "兄弟は互いに助け合うべきだ。",
+      "en": "Siblings should help each other.",
+      "origin": "authored"
+     },
+     "note": "単独より「เกื้อกูล」「เกื้อหนุน」の形でよく使う。"
+    }
+   ],
+   "note": "単独では主に書き言葉で、普通は「เกื้อกูล」「เกื้อหนุน」などの形で使う。"
+  }
+ },
+ {
+  "id": "tl-28634",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28635",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28636",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28637",
+  "verdict": "fix",
+  "issues": [
+   "เงิน の読みが ngən（短母音）。ro-lexiconでは ngəən、見出し・例文とも修正"
+  ],
+  "fixed": {
+   "id": "tl-28637",
+   "th": "เครื่องเงิน",
+   "action": "add",
+   "ro": "khrʉ̂ʉang ngəən",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "銀製品・銀器",
+     "en": "silverware, silver craft",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เชียงใหม่มีชื่อเสียงเรื่องเครื่องเงิน",
+      "ro": "chiiang mài mii chʉ̂ʉ sǐiang rʉ̂ʉang khrʉ̂ʉang ngəən",
+      "ja": "チェンマイは銀製品で有名だ。",
+      "en": "Chiang Mai is famous for its silverware.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-28638",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28639",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28641",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28642",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28644",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28645",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28647",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28650",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28651",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28652",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28653",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28654",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28655",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28656",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28657",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28658",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28659",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28661",
+  "verdict": "fix",
+  "issues": [
+   "「安い」の意味ではほぼ「ย่อมเยา」の形でのみ使うが、noteがなく単独の形容詞として誤解される"
+  ],
+  "fixed": {
+   "id": "tl-28661",
+   "th": "เยา",
+   "action": "add",
+   "ro": "yao",
+   "kind": "word",
+   "category": "お金・買い物",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（値段が）手頃な・安い",
+     "en": "inexpensive, reasonable (price)",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ร้านนี้ขายของราคาย่อมเยา",
+      "ro": "ráan níi khǎai khɔ̌ɔng raa khaa yɔ̂ɔm yao",
+      "ja": "この店は手頃な値段で品物を売っている。",
+      "en": "This shop sells things at reasonable prices.",
+      "origin": "authored"
+     },
+     "note": "主に「ราคาย่อมเยา（手頃な値段）」の形で使う。"
+    }
+   ],
+   "note": "値段について言うときは普通「ย่อมเยา」の形で使う。"
+  }
+ },
+ {
+  "id": "tl-28662",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28663",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28664",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28665",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28666",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28667",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28668",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28669",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28670",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28671",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28672",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-28673",
+  "verdict": "ok",
+  "issues": []
+ }
+]
