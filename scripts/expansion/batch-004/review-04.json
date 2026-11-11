@@ -1,0 +1,699 @@
+[
+ {
+  "id": "tl-27574",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27575",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27576",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27577",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27578",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27579",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27580",
+  "verdict": "fix",
+  "issues": [
+   "noteの「実際は短母音（จ็อกแจ็ก に近い）」は根拠が確認できず、จ็อก表記なら声調も変わり矛盾するため削除。読み cɔ̂ɔk cɛ̂ɛk はつづりどおりで可。口語ラベル・出典例文は可"
+  ],
+  "fixed": {
+   "id": "tl-27580",
+   "th": "จ้อกแจ้ก",
+   "action": "add",
+   "ro": "cɔ̂ɔk cɛ̂ɛk",
+   "kind": "word",
+   "category": "性質・状態",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "がやがやと・ぺちゃくちゃと（にぎやかにしゃべる様子）",
+     "en": "noisily, chattering",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ตอนครูยังไม่เข้าห้อง เด็กคุยกันจ้อกแจ้กเลย",
+      "ro": "tɔɔn khruu yang mâi khâo hɔ̂ɔng dèk khui kan cɔ̂ɔk cɛ̂ɛk ləəi",
+      "ja": "先生がまだ教室に入っていないとき、子どもたちはがやがやとおしゃべりしていた。",
+      "en": "Before the teacher came into the room, the kids were chattering away.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27581",
+  "verdict": "fix",
+  "issues": [
+   "例文訳「お召し物を召していた」は重複で不自然なため修正。ทรงฉลองพระองค์ の王室語法は正しい"
+  ],
+  "fixed": {
+   "id": "tl-27581",
+   "th": "ฉลองพระองค์",
+   "action": "add",
+   "ro": "chà lɔ̌ɔng phrá ong",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "お召し物・衣服（王族の）",
+     "en": "clothes, garment (of royalty)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "royal"
+     ],
+     "speechStyle": "王室の敬語",
+     "example": {
+      "th": "เจ้าหญิงทรงฉลองพระองค์สีชมพู",
+      "ro": "câo yǐng song chà lɔ̌ɔng phrá ong sǐi chom phuu",
+      "ja": "王女はピンク色のお召し物を着ておられた。",
+      "en": "The princess wore a pink garment.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "王族に対してのみ使う。「着る」は ทรง＋ฉลองพระองค์ の形になる。"
+  }
+ },
+ {
+  "id": "tl-27582",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27584",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27585",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27586",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27587",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27589",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27590",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27591",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27592",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27594",
+  "verdict": "fix",
+  "issues": [
+   "ดื้อๆ の中心は「理由・断り・手順なしに平然と」で、「いきなり（突然）」を主訳にすると意味がずれるため語義・訳を修正"
+  ],
+  "fixed": {
+   "id": "tl-27594",
+   "th": "ดื้อๆ",
+   "action": "add",
+   "ro": "dʉ̂ʉ dʉ̂ʉ",
+   "kind": "word",
+   "category": "性質・状態",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（理由も断りもなく）あっさり・平然と",
+     "en": "just like that, without reason or ceremony",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เขาลาออกไปดื้อๆ",
+      "ro": "khǎo laa ɔ̀ɔk pai dʉ̂ʉ dʉ̂ʉ",
+      "ja": "彼は何の理由もなくあっさり辞めてしまった。",
+      "en": "He just quit, just like that, for no reason.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27595",
+  "verdict": "fix",
+  "issues": [
+   "第2語義の「金属製の」という限定は根拠が確認できないため削除（ボタン一般。日常は กระดุม が普通とのnoteは維持）"
+  ],
+  "fixed": {
+   "id": "tl-27595",
+   "th": "ดุม",
+   "action": "add",
+   "ro": "dum",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（車輪の）ハブ・こしき",
+     "en": "hub (of a wheel)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ดุมล้อรถจักรยานเสีย",
+      "ro": "dum lɔ́ɔ rót càk krà yaan sǐia",
+      "ja": "自転車の車輪のハブが壊れた。",
+      "en": "The bicycle wheel hub is broken.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（衣服の）ボタン",
+     "en": "button",
+     "pos": "名詞",
+     "use": "少なめの用法",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ดุมเสื้อของเขาหลุดไปเม็ดหนึ่ง",
+      "ro": "dum sʉ̂ʉa khɔ̌ɔng khǎo lùt pai mét nʉ̀ng",
+      "ja": "彼の服のボタンが一つ取れた。",
+      "en": "One of the buttons on his shirt came off.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「ボタン」は日常では กระดุม が普通。"
+  }
+ },
+ {
+  "id": "tl-27596",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27597",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27598",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27600",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27601",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27602",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27603",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27604",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27605",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27606",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27607",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27608",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27609",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27610",
+  "verdict": "fix",
+  "issues": [
+   "例文ro: นักท่องเที่ยว は nák thɔ̂ɔng thîiao（SPECの เ-ีย=iia、ท่อง 単独のlexicon表記 thɔ̂ɔng に統一。lexiconの複合語表記 thɔ̂ng thîao は不整合）"
+  ],
+  "fixed": {
+   "id": "tl-27610",
+   "th": "ทัศนา",
+   "action": "add",
+   "ro": "thát sà naa",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "見物する・観覧する",
+     "en": "to view, see, tour",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "literary"
+     ],
+     "speechStyle": "文語",
+     "example": {
+      "th": "บรรดานักท่องเที่ยวชวนกันทัศนาความงามของพระราชวัง",
+      "ro": "ban daa nák thɔ̂ɔng thîiao chuuan kan thát sà naa khwaam ngaam khɔ̌ɔng phrá râat chá wang",
+      "ja": "観光客たちは誘い合って宮殿の美しさを見物した。",
+      "en": "The tourists went together to view the beauty of the palace.",
+      "origin": "source"
+     }
+    }
+   ],
+   "note": "単独では書き言葉。ทัศนาจร（観光旅行）などの複合語で見ることが多い。"
+  }
+ },
+ {
+  "id": "tl-27611",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27612",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27614",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27615",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27616",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27617",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27618",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27619",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27620",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27621",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27622",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27623",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27624",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27625",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27626",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27627",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27628",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27629",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27630",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27631",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27633",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27634",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27635",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27636",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27637",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27638",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27639",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27641",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27642",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27643",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27644",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27645",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27646",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27647",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27648",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27649",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27650",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27651",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27652",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27653",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27654",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27655",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27656",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27657",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27658",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27659",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27661",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27662",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27663",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27664",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27665",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27666",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27667",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27668",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27669",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27670",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27671",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27672",
+  "verdict": "fix",
+  "issues": [
+   "例文en「is determined that he will get a job」は不自然・ja訳とずれるため修正"
+  ],
+  "fixed": {
+   "id": "tl-27672",
+   "th": "มั่นหมาย",
+   "action": "add",
+   "ro": "mân mǎai",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "固く心に決める・強く期待する",
+     "en": "to be determined, firmly intend",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "เขามั่นหมายว่าจะได้งานทำ",
+      "ro": "khǎo mân mǎai wâa cà dâai ngaan tham",
+      "ja": "彼は必ず仕事に就けると固く思っている。",
+      "en": "He fully expects that he will get a job.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-27673",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27674",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27676",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27677",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27678",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27679",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27680",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27681",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-27683",
+  "verdict": "ok",
+  "issues": []
+ }
+]

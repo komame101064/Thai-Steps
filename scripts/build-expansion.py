@@ -69,6 +69,7 @@ for bdir in sorted((P/'scripts/expansion').glob('batch-*'))+sorted((P/'scripts/e
             m={'ja':s['ja'],'en':s['en'],'pos':s['pos'],'use':s['use'],'checked':True,'sourceSense':s['sourceSense'],'registerTags':s['registerTags'],'isSlang':False,'speechStyle':s['speechStyle']}
             if s.get('ro') and s['ro']!=it['ro']:m['ro']=s['ro']
             if s.get('note'):m['note']=s['note']
+            elif it.get('note') and s is it['senses'][0]:m['note']=it['note']  # some authors put the note on the entry; show it on the first sense
             m.update(reviewStatus='reviewed',reviewed=DATE,reviewMethod=METHOD);ms.append(m)
             e=s['example']
             examples[f"{pid}#{s['sourceSense']}"]={'th':e['th'],'ro':e['ro'],'ja':e['ja'],'en':e['en'],'checked':True,'sourceExample':'newthai-v2.4' if e['origin']=='source' else 'thai-steps-'+bdir.name,'speechStyle':'標準的な用例文','reviewStatus':'reviewed','reviewed':DATE,'reviewMethod':METHOD}
