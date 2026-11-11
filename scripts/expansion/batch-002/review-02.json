@@ -1,0 +1,608 @@
+[
+ {
+  "id": "tl-24288",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24289",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24290",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24291",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24292",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24295",
+  "verdict": "fix",
+  "issues": [
+   "機関は2015年に ราชบัณฑิตยสภา に改称済みで、現存機関のような説明は不正確。語義を過去形寄りにし、改称の注記を追加"
+  ],
+  "fixed": {
+   "id": "tl-24295",
+   "th": "ราชบัณฑิตยสถาน",
+   "action": "add",
+   "ro": "râat chá ban dìt tà yá sà thǎan",
+   "kind": "word",
+   "category": "社会・制度",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "王立学士院（タイ語の標準辞書を編纂してきた機関）",
+     "en": "the Royal Institute (of Thailand)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "note": "2015年に ราชบัณฑิตยสภา に改称されたが、辞書の名前などで今も旧称をよく目にする。",
+     "example": {
+      "th": "ผมเคยทำงานกับท่าน สมัยที่ท่านทำงานอยู่ที่ราชบัณฑิตยสถาน",
+      "ro": "phǒm khəəi tham ngaan kàp thân sà mǎi thîi thân tham ngaan yùu thîi râat chá ban dìt tà yá sà thǎan",
+      "ja": "あの方が王立学士院で働いていた頃、私は一緒に仕事をしたことがあります。",
+      "en": "I once worked with him when he was working at the Royal Institute.",
+      "origin": "source"
+     }
+    }
+   ],
+   "note": "2015年の法改正で ราชบัณฑิตยสภา に改組・改称されたため、現在の正式名称ではない。"
+  }
+ },
+ {
+  "id": "tl-24296",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24297",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24299",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24302",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24303",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24304",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24306",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24307",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24308",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24312",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24313",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24315",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24318",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24320",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24321",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24323",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24325",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24329",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24330",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24333",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24335",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24340",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24344",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24345",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24346",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24348",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24349",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24350",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24352",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24353",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24356",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24358",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24360",
+  "verdict": "ok",
+  "issues": [
+   "フラグ（母音長）：เว้น は短母音 wén で lexicon（เว้น/ยกเว้น wén）と一致。原文ヒントが誤り。修正不要"
+  ]
+ },
+ {
+  "id": "tl-24362",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24370",
+  "verdict": "fix",
+  "issues": [
+   "เ-ียว は house 表記で iiao（lexicon：เดียว diiao, เขียว khǐiao, เที่ยว thîiao）。見出し・例文の kîao を kîiao に修正"
+  ],
+  "fixed": {
+   "id": "tl-24370",
+   "th": "เกี้ยว",
+   "action": "add",
+   "ro": "kîiao",
+   "kind": "word",
+   "category": "人・家族",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "言い寄る・口説く",
+     "en": "to court, woo",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "literary"
+     ],
+     "speechStyle": "文語",
+     "note": "書き言葉や เกี้ยวพาราสี の形で使い、会話では จีบ がふつう。",
+     "example": {
+      "th": "ชายหนุ่มพยายามเกี้ยวหญิงสาวในงานเลี้ยง",
+      "ro": "chaai nùm phá yaa yaam kîiao yǐng sǎao nai ngaan líiang",
+      "ja": "若い男が宴会で娘に言い寄ろうとした。",
+      "en": "The young man tried to woo the young woman at the party.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-24371",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24372",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24374",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24375",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24376",
+  "verdict": "ok",
+  "issues": [
+   "フラグ（母音長）：เล่น は lexicon で lên（短母音）。原文ヒントが誤り。修正不要"
+  ]
+ },
+ {
+  "id": "tl-24378",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24379",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24382",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24384",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24385",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24386",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24387",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24388",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24391",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24393",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24394",
+  "verdict": "reject",
+  "issues": [
+   "จำเพาะ の語義「よりによって」は原典の語義（特定の・限定された＝เฉพาะ/เจาะจง）に裏付けがなく、例文 ทำไมต้องจำเพาะเลือกฉันด้วย も不自然（通常は เจาะจง/จำเพาะเจาะจง）。正しい語義と自然な例文を確信して作り直せないため却下"
+  ]
+ },
+ {
+  "id": "tl-24395",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24396",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24400",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24401",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24403",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24405",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24408",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24410",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24411",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24414",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24417",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24419",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24420",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24421",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24427",
+  "verdict": "fix",
+  "issues": [
+   "例文は王室語 พระราชหฤทัย（国王の御心）の用例で、見出しの文語「心」の用法を示していない（tl-24288 と同じ語）。文語の用例に差し替え",
+   "語義は感情としての「心」なので分類を 体・健康 から 一般語彙 に変更し、王室語形の注記を追加"
+  ],
+  "fixed": {
+   "id": "tl-24427",
+   "th": "หฤทัย",
+   "action": "add",
+   "ro": "hà rʉ́ thai",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "心・胸の内",
+     "en": "heart, mind",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "literary"
+     ],
+     "speechStyle": "文語",
+     "note": "単独ではまれで、王室語の พระราชหฤทัย（国王の御心）などの要素として使う。",
+     "example": {
+      "th": "เธอมอบดวงหฤทัยให้เขาแต่เพียงผู้เดียว",
+      "ro": "thəə mɔ̂ɔp duuang hà rʉ́ thai hâi khǎo tɛ̀ɛ phiiang phûu diiao",
+      "ja": "彼女は心を彼ただ一人にささげた。",
+      "en": "She gave her heart to him alone.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "詩・歌詞などで使う文語。国王については พระราชหฤทัย を使う。"
+  }
+ },
+ {
+  "id": "tl-24429",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24430",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24433",
+  "verdict": "ok",
+  "issues": [
+   "フラグ（母音長）：เด่น は lexicon で dèn（短母音）。原文ヒントが誤り。修正不要"
+  ]
+ },
+ {
+  "id": "tl-24434",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24435",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24436",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24438",
+  "verdict": "ok",
+  "issues": [
+   "フラグ（母音長）：เล่น は lexicon で lên（短母音）。原文ヒントが誤り。修正不要"
+  ]
+ },
+ {
+  "id": "tl-24440",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24443",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24449",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24451",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24453",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24454",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24455",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24457",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24458",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24459",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24460",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24462",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24464",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24465",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24466",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24468",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24469",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24471",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24472",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24473",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-24475",
+  "verdict": "ok",
+  "issues": []
+ }
+]

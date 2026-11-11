@@ -1,0 +1,581 @@
+[
+ {
+  "id": "tl-25675",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25679",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25680",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25681",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25682",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25684",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25685",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25688",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25690",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25691",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25692",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25693",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25694",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25699",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25700",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25701",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25702",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25704",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25705",
+  "verdict": "fix",
+  "issues": [
+   "sense2のja「タイの小型シンバル」は不正確（ฉาบは ฉิ่ง より大きいシンバル）→「チャープ（タイのシンバル）」に修正"
+  ],
+  "fixed": {
+   "id": "tl-25705",
+   "th": "ฉาบ",
+   "action": "add",
+   "ro": "chàap",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "塗る・上塗りする（しっくい・コーティングなど）",
+     "en": "to coat, plaster, glaze",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "กล้วยฉาบ（糖衣をからめたバナナチップス）のように食べ物にも使う。",
+     "example": {
+      "th": "ช่างกำลังฉาบปูนผนังบ้าน",
+      "ro": "châang kam lang chàap puun phà nǎng bâan",
+      "ja": "職人が家の壁にモルタルを塗っています。",
+      "en": "The worker is plastering the walls of the house.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "チャープ（タイのシンバル）",
+     "en": "(Thai) cymbals",
+     "pos": "名詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาตีฉาบในวงดนตรีไทย",
+      "ro": "khǎo tii chàap nai wong don trii thai",
+      "ja": "彼はタイ音楽の楽団でチャープを叩いています。",
+      "en": "He plays the cymbals in a Thai music ensemble.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-25706",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25707",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25709",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25710",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25711",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25712",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25713",
+  "verdict": "fix",
+  "issues": [
+   "ตรึก は現代では単独でほぼ使われず ตรึกตรอง の形で用いるため note を追加（読み trʉ̀k は正しい）"
+  ],
+  "fixed": {
+   "id": "tl-25713",
+   "th": "ตรึก",
+   "action": "add",
+   "ro": "trʉ̀k",
+   "kind": "word",
+   "category": "一般語彙",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "よく考える・熟考する",
+     "en": "to ponder, reflect",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "note": "単独ではほとんど使わず、ふつう ตรึกตรอง（熟考する）の形で使う。",
+     "example": {
+      "th": "เขาตรึกตรองอยู่นานก่อนตัดสินใจ",
+      "ro": "khǎo trʉ̀k trɔɔng yùu naan kɔ̀ɔn tàt sǐn cai",
+      "ja": "彼は決める前に長い間よく考えました。",
+      "en": "He pondered for a long time before deciding.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "現代ではほぼ ตรึกตรอง（熟考する）の形で使う。"
+  }
+ },
+ {
+  "id": "tl-25714",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25716",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25717",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25718",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25719",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25720",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25721",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25722",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25723",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25727",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25730",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25731",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25733",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25734",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25735",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25736",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25737",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25738",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25739",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25740",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25742",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25743",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25744",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25745",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25746",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25747",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25751",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25752",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25753",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25754",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25756",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25757",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25758",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25759",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25760",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25761",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25762",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25764",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25767",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25769",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25770",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25772",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25774",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25775",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25776",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25777",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25781",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25782",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25784",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25786",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25787",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25789",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25790",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25792",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25794",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25798",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25799",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25802",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25803",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25804",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25806",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25808",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25809",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25812",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25814",
+  "verdict": "ok",
+  "issues": [
+   "flag: 読み kà tà wee thii は王立学士院の読み（กะ-ตะ-เว-ที）どおりで正しい。source hint は連結音節を落としている"
+  ]
+ },
+ {
+  "id": "tl-25815",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25816",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25817",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25818",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25819",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25820",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25823",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25824",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25826",
+  "verdict": "ok",
+  "issues": []
+ }
+]

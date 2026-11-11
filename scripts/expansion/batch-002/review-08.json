@@ -1,0 +1,567 @@
+[
+ {
+  "id": "tl-25368",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25369",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25372",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25373",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25374",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25375",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25376",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25377",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25380",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25382",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25383",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25384",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25385",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25387",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25391",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25392",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25395",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25397",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25398",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25399",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25401",
+  "verdict": "ok",
+  "issues": [
+   "flag（náam vs nám）: 複合語の第1要素なので nám とする家の規則どおり。จืด cʉ̀ʉt は長母音で正しい。"
+  ]
+ },
+ {
+  "id": "tl-25402",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25403",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25404",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25407",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25408",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25410",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25411",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25412",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25413",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25414",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25415",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25417",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25418",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25419",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25420",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25423",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25425",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25426",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25427",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25428",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25429",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25432",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25433",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25435",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25436",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25438",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25440",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25442",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25443",
+  "verdict": "fix",
+  "issues": [
+   "ja「アソークの木」は日本語として通じない（アソークは地名を連想させる）。和名のアソカノキ・無憂樹に修正し、例文訳も合わせた。"
+  ],
+  "fixed": {
+   "id": "tl-25443",
+   "th": "อโศก",
+   "action": "add",
+   "ro": "à sòok",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "アソカノキ・無憂樹（庭や寺に植える木）",
+     "en": "Asoka tree (Saraca)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "通常 ต้นอโศก の形で使う。",
+     "example": {
+      "th": "เขาปลูกต้นอโศกไว้หน้าบ้าน",
+      "ro": "khǎo plùuk tôn à sòok wái nâa bâan",
+      "ja": "彼は家の前にアソカノキを植えた。",
+      "en": "He planted an Asoka tree in front of his house.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-25444",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25446",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25448",
+  "verdict": "ok",
+  "issues": [
+   "flag（lên の母音長）: เล่น は lexicon で lên（短く発音）。khrʉ̂ʉang も lexicon と一致。プレーヤーの語義は glosses 外だが現代の一般的用法で妥当。"
+  ]
+ },
+ {
+  "id": "tl-25450",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25452",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25453",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25454",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25456",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25457",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25461",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25464",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25465",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25466",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25467",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25469",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25470",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25471",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25474",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25476",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25478",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25479",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25481",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25484",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25485",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25490",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25492",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25493",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25494",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25495",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25497",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25498",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25499",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25501",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25503",
+  "verdict": "fix",
+  "issues": [
+   "例文訳が เพื่อ（〜するために）の目的関係を落として並列にしていたので修正。読みは thɔ́ɔng rɔ̂ɔng で lexicon の綴り長母音方式と一致。"
+  ],
+  "fixed": {
+   "id": "tl-25503",
+   "th": "ท้องร่อง",
+   "action": "add",
+   "ro": "thɔ́ɔng rɔ̂ɔng",
+   "kind": "word",
+   "category": "家・場所",
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（果樹園などの畝の間の）溝・水路",
+     "en": "ditch between raised beds",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาลอกท้องร่องเพื่อใช้เลนเป็นปุ๋ย",
+      "ro": "khǎo lɔ̂ɔk thɔ́ɔng rɔ̂ɔng phʉ̂ʉa chái leen pen pǔi",
+      "ja": "彼は泥を肥料に使うために溝をさらった。",
+      "en": "He dredges the ditch to use the mud as fertilizer.",
+      "origin": "source"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-25504",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25505",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25508",
+  "verdict": "ok",
+  "issues": [
+   "flag（náam vs nám）: 複合語の第1要素なので nám で正しい（家の規則）。"
+  ]
+ },
+ {
+  "id": "tl-25510",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25511",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25512",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25513",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25514",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25515",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25516",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25518",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25519",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25520",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25522",
+  "verdict": "ok",
+  "issues": [
+   "flag（音節数）: มลพิษ の標準読みは มน-ละ-พิด で3音節。source hint の2音節は誤り。mon lá phít を採用。"
+  ]
+ },
+ {
+  "id": "tl-25524",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-25525",
+  "verdict": "ok",
+  "issues": []
+ }
+]
