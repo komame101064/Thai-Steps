@@ -278,3 +278,34 @@ html body .quiz-option .quiz-ja{font-size:15px;line-height:1.6}
 html body .quiz-mark{position:absolute;right:14px;top:50%;transform:translateY(-50%);font-weight:700;color:var(--x-green)}
 html body .quiz-top small{color:var(--x-muted);font-size:11px}
 html body .quiz-result.is-complete{background:#e3eedb;border-color:#b9cfae}
+/* Thai script course (文字) — here the Thai glyph is the subject, so it stays large. */
+html body .s-home-card{grid-column:1/-1}
+html body .s-lead{font-size:13px;color:var(--x-muted);margin:-4px 0 18px;line-height:1.8}
+html body .s-stage-num{font-family:'Steps Latin',sans-serif;font-weight:700;font-size:14px}
+html body .s-row-glyphs{font-size:15px;letter-spacing:.12em;color:#6c7f63}
+html body .s-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:14px 0 6px}
+html body .s-card{display:flex;flex-direction:column;border:1px solid var(--x-line);border-radius:12px;background:var(--x-surface);overflow:hidden}
+html body .s-glyph{font-size:56px;line-height:1.35;text-align:center;padding:10px 0 4px;color:var(--x-ink);background:#f6f8f1}
+html body .s-card-body{display:flex;flex-direction:column;gap:2px;padding:9px 11px 11px}
+html body .s-class{align-self:flex-start;font-size:10px;font-weight:700;border-radius:4px;padding:1px 6px;background:#e9efe0;color:var(--x-green)}
+html body .s-high .s-class{background:#f4ead2;color:#7a5c14}
+html body .s-low .s-class{background:#e1eaf0;color:#2f5468}
+html body .s-high .s-glyph{background:#fbf6ea}
+html body .s-low .s-glyph{background:#eef3f6}
+html body .s-name-ro{font-family:'Steps Latin',sans-serif;font-size:17px;color:var(--x-green);margin-top:3px}
+html body .s-name{font-size:13px;color:#6c7f63}
+html body .s-name-ja,html body .s-note{font-size:12px;color:var(--x-muted);line-height:1.6}
+html body .s-sounds{font-size:12px;color:var(--x-text)}
+html body .s-sounds b{font-family:'Steps Latin',sans-serif;color:var(--x-green)}
+html body .s-audio{align-self:flex-start;display:inline-flex;align-items:center;gap:4px;margin-top:6px;min-height:28px;padding:2px 10px;border:1px solid #cfdcc8;border-radius:999px;background:#f3f7ee;color:var(--x-green);font-size:11px;font-weight:600;cursor:pointer}
+html body .s-audio .ui-icon{width:13px;height:13px}
+html body .s-panel-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+html body .s-readings{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px;margin-top:10px}
+html body .s-reading{display:flex;flex-direction:column;align-items:flex-start;gap:1px;padding:10px 12px;border:1px solid #dce6d3;border-radius:10px;background:#fbfcf8}
+html body .s-reading-th{font-size:28px;line-height:1.5;color:var(--x-ink)}
+html body .s-reading-ro{font-family:'Steps Latin',sans-serif;font-weight:650;font-size:16px;color:var(--x-green)}
+html body .s-reading-ja{font-size:12px;color:var(--x-muted)}
+html body .s-reading .is-hidden{visibility:hidden}
+html body .s-quiz-glyph{font-size:64px;line-height:1.4;text-align:center;margin:4px 0 14px;padding:10px;border-radius:12px;background:#f6f8f1;color:var(--x-ink)}
+html body .s-quiz-audio{display:flex;justify-content:center;margin:-6px 0 12px}
+@media(max-width:650px){html body .s-cards{grid-template-columns:1fr 1fr}html body .s-glyph{font-size:48px}html body .s-readings{grid-template-columns:1fr 1fr}}
