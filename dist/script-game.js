@@ -51,7 +51,7 @@ function sgTick(g){if(!sgAlive(g)||g.phase!=='play'){scriptGameStop();return}
  const left=Math.max(0,g.deadline-Date.now());const bar=document.getElementById('sg-bar'),t=document.getElementById('sg-time');if(bar)bar.style.width=`${left/SG_RUN_MS*100}%`;if(t)t.textContent=Math.ceil(left/1000);if(left<=0)sgFinish(g)}
 const sgFmtTime=s=>`${(Math.round(s*10)/10).toFixed(1)}秒`;
 function sgFinish(g){if(sgGame!==g||g.phase!=='play')return;scriptGameStop();g.phase='end';const games=scriptState.games||(scriptState.games={});
- if(g.mode==='match'){g.time=Math.max(0.1,Math.round((Date.now()-g.startedAt)/100)/10);const prev=games.match&&games.match.bestTime;g.newBest=!(prev>0)||g.time<prev;if(g.newBest)games.match={bestTime:g.time}}
+ if(g.mode==='match'){g.time=Math.max(0.1,Math.round((Date.now()-g.startedAt)/100)/10);const prev=games.match&&games.match.bestTime;g.newBest=g.time>=3&&(!(prev>0)||g.time<prev);if(g.newBest)games.match={bestTime:g.time}}
  else{const prev=games[g.mode]&&games[g.mode].best;g.newBest=g.score>0&&!(prev>=g.score);if(g.newBest)games[g.mode]={best:g.score}}
  if(typeof sanitizeScriptGames==='function')scriptState.games=sanitizeScriptGames(scriptState.games);saveScript();if(typeof view!=='undefined'&&view==='scriptGame')render()}
 function sgMiss(g,item){const key=g.mode==='tone'?item.th:item.ch;if(!g.missed.some(m=>(m.th||m.ch)===key))g.missed.push(item)}

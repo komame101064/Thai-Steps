@@ -90,7 +90,7 @@ ctx2.t.saveScript();const ctx3=makeCtx({...store2});assert.deepEqual(JSON.parse(
  const L=tiles.filter(x=>x.side==='letter'),Sd=tiles.filter(x=>x.side==='sound');const wrong=Sd.find(s=>s.key!==L[0].key);
  T.scriptGameTap(L[0].i);T.scriptGameTap(wrong.i);assert.equal(T.game().mismatches,1);assert.equal(live.size,2);g.timers.flush();assert.equal(T.game().open.length,0);
  for(const x of L){T.scriptGameTap(x.i);T.scriptGameTap(Sd.find(s=>s.key===x.key).i)}
- assert.equal(T.game().phase,'end');assert.equal(live.size,0);assert(T.st().games.match.bestTime>0);assert(T.main().includes(L[0].ch));
+ assert.equal(T.game().phase,'end');assert.equal(live.size,0);assert(!(T.st().games.match&&T.st().games.match.bestTime<3),'an impossibly fast board is not a record');assert(T.main().includes(L[0].ch));
  // romanized readings are never injected into the game view.
  assert(!T.annotated().includes('scriptGame'));
  T.openScriptGame();assert(T.main().includes('スピード読み')&&T.main().includes('ペアそろえ'));assert.equal(live.size,0);

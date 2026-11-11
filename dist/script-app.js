@@ -5,7 +5,7 @@ let scriptState={done:[],games:{}},scriptCurrent=null,scriptQuiz=null,scriptShow
 // Best scores of the 文字ゲーム (script-game.js). Anything that is not a finite number in range is dropped, so a
 // hand-edited backup (or 1e999 → Infinity) cannot leave an unbeatable record.
 function sanitizeScriptGames(g){const out={};if(!g||typeof g!=='object'||Array.isArray(g))return out;
- const best=v=>typeof v==='number'&&Number.isFinite(v)&&v>=0&&v<=100000?Math.round(v):null,time=v=>typeof v==='number'&&Number.isFinite(v)&&v>=0.1&&v<=3600?Math.round(v*10)/10:null;
+ const best=v=>typeof v==='number'&&Number.isFinite(v)&&v>=0&&v<=100000?Math.round(v):null,time=v=>typeof v==='number'&&Number.isFinite(v)&&v>=3&&v<=3600?Math.round(v*10)/10:null;
  for(const k of ['speed','listen','tone']){const b=g[k]&&typeof g[k]==='object'?best(g[k].best):null;if(b!==null)out[k]={best:b}}
  const t=g.match&&typeof g.match==='object'?time(g.match.bestTime):null;if(t!==null)out.match={bestTime:t};return out}
 try{const s=JSON.parse(localStorage.getItem(SCRIPT_KEY)||'{}');if(Array.isArray(s.done))scriptState.done=s.done.filter(x=>typeof x==='string');scriptState.games=sanitizeScriptGames(s.games)}catch(e){}
