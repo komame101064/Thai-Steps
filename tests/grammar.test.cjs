@@ -4,7 +4,7 @@ for(const n of ['data','expansion','readings','vocabulary','structures','advance
 vm.runInContext('this.g={lessons,modules,orderedLessons,structures,segmentExample,romanizeThai,chapterLessons,CURRICULUM,roleInfo}',ctx);
 const {lessons,modules,orderedLessons,structures,segmentExample,romanizeThai,chapterLessons,CURRICULUM,roleInfo}=ctx.g;
 // IDs are learning-record keys: contiguous, stable, each lesson in exactly one chapter.
-assert.equal(lessons.length,46);lessons.forEach((l,i)=>assert.equal(l.id,i+1));
+assert.equal(lessons.length,47);lessons.forEach((l,i)=>assert.equal(l.id,i+1));
 const placed=CURRICULUM.flatMap(c=>c.ids);assert.equal(placed.length,lessons.length);assert.deepEqual([...placed].sort((a,b)=>a-b),lessons.map(l=>l.id));
 assert.deepEqual(orderedLessons.map(l=>l.id),placed);assert.equal(modules.length,CURRICULUM.length);
 const rank={'初級':0,'初中級':1,'中級':2,'上級':3};modules.forEach((m,i)=>{assert(m.name&&m.desc&&m.icon&&m.level in rank);if(i)assert(rank[m.level]>=rank[modules[i-1].level],'chapters go from easy to hard')});
@@ -21,5 +21,5 @@ for(const l of lessons){
   // New lessons: the sentence reading must equal the word-by-word readings, so the 単語 panel never contradicts it.
   if(l.id>36)assert.equal(ws.map(w=>w.ro).join(' ').replace(/\s+/g,' '),e.ro.replace(/\s+/g,' '),'reading mismatch in lesson '+l.id+': '+e.th)});
 }
-for(const l of lessons.filter(l=>l.id>36)){assert(l.extra&&l.extra.length>=2,'notes '+l.id);for(const t of [l.title,l.intro,...l.points,...l.extra,...l.options,...l.examples.flatMap(e=>[e.note,...segmentExample(e.th).flatMap(w=>[w.note||'',w.meaning])])])for(const m of String(t).matchAll(/[฀-๿]+/g))assert(!romanizeThai(m[0]).includes('□'),'no reading for '+m[0]+' in lesson '+l.id)}
-console.log(`PASS: ${lessons.length} grammar lessons in ${modules.length} chapters (初級→上級), stable IDs, every example segments into registered words; advanced readings match word by word; every Thai word shown in advanced lessons has a reading.`);
+for(const l of lessons){if(l.id>36)assert(l.extra&&l.extra.length>=2,'notes '+l.id);for(const t of [l.title,l.intro,...l.points,...(l.extra||[]),...l.options,l.why,...l.examples.flatMap(e=>[e.note,...segmentExample(e.th).flatMap(w=>[w.note||'',w.meaning])])])for(const m of String(t).matchAll(/[฀-๿]+/g))assert(!romanizeThai(m[0]).includes('□'),'no reading for '+m[0]+' in lesson '+l.id)}
+console.log(`PASS: ${lessons.length} grammar lessons in ${modules.length} chapters (初級→上級), stable IDs, every example segments into registered words; advanced readings match word by word; every Thai word shown in any lesson has a reading.`);
