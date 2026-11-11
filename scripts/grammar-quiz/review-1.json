@@ -1,0 +1,33 @@
+{
+  "5": {
+    "0": {
+      "verdict": "fix",
+      "issues": ["near-copy of existingQuestion (same blank ＿＿ before ที่+place, same options มี/เป็น/อยู่, same answer index)", "too many อยู่-location items (Q0/Q5/Q8); 場所＋มี＋名詞 pattern is not tested by a blank"],
+      "fixed": {
+        "kind": "blank",
+        "q": "「机の上に本がある」の空欄に入るのは？",
+        "sentence": {"th": "บนโต๊ะ ＿＿ หนังสือ", "ro": "bon tó ＿＿ nǎng sʉ̌ʉ", "ja": "机の上に本がある。"},
+        "options": [{"th": "อยู่", "ro": "yùu"}, {"th": "เป็น", "ro": "pen"}, {"th": "มี", "ro": "mii"}],
+        "answer": 2,
+        "why": "場所＋มี＋名詞で「その場所に〜がある」と言います。อยู่は物・人が先に来て「〜はそこにある」と言う形、เป็นは職業などの属性を表す語です。"
+      }
+    }
+  },
+  "31": {
+    "4": {
+      "verdict": "fix",
+      "issues": ["Thai ambiguity: พ่อใหญ่ is also a word (grandfather/elder, esp. Isan), so บ้านของพ่อใหญ่ can read as 「おじいさんの家」; adding มาก makes the predicate unambiguous"],
+      "fixed": {
+        "kind": "order",
+        "q": "「父の家はとても大きい」の正しい語順は？",
+        "options": [
+          {"th": "พ่อของบ้านใหญ่มาก", "ro": "phɔ̂ɔ khɔ̌ɔng bâan yài mâak"},
+          {"th": "บ้านของพ่อใหญ่มาก", "ro": "bâan khɔ̌ɔng phɔ̂ɔ yài mâak"},
+          {"th": "ของพ่อใหญ่มากบ้าน", "ro": "khɔ̌ɔng phɔ̂ɔ yài mâak bâan"}
+        ],
+        "answer": 1,
+        "why": "まずบ้านของพ่อ「父の家」を作り、その後ろに述語ใหญ่มากを置きます。พ่อของบ้านは「家の父」になり、บ้านを文末に回す形も誤りです。"
+      }
+    }
+  }
+}

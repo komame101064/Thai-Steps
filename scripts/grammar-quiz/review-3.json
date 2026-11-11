@@ -1,0 +1,145 @@
+{
+ "35": {
+  "6": {
+   "verdict": "fix",
+   "issues": [
+    "Japanese: prompt used けど (แต่) while the item tests ถึง…ก็…; aligned with sentence.ja"
+   ],
+   "fixed": {
+    "kind": "blank",
+    "q": "「たとえ高くても、元は取れる」。空欄に入るのは？",
+    "sentence": {
+     "th": "ถึงจะแพง ＿＿ คุ้ม",
+     "ro": "thʉ̌ng cà phɛɛng ＿＿ khúm",
+     "ja": "たとえ高くても、元は取れる。"
+    },
+    "options": [
+     {
+      "th": "ก็",
+      "ro": "kɔ̂ɔ"
+     },
+     {
+      "th": "หรือ",
+      "ro": "rʉ̌ʉ"
+     },
+     {
+      "th": "ของ",
+      "ro": "khɔ̌ɔng"
+     }
+    ],
+    "answer": 0,
+    "why": "ถึง（จะ）＋条件の後は、ก็＋結果で受けます。หรือ「または」やของ「〜の」は結果をつなげません。"
+   }
+  }
+ },
+ "36": {
+  "6": {
+   "verdict": "fix",
+   "issues": [
+    "distractor: น้อยขึ้น is heard colloquially; replaced with an opposite-meaning option"
+   ],
+   "fixed": {
+    "kind": "fix",
+    "q": "「最近、仕事が少なくなった」を表す正しい文は？",
+    "options": [
+     {
+      "th": "ช่วงนี้งานมากขึ้น",
+      "ro": "chûuang níi ngaan mâak khʉ̂n"
+     },
+     {
+      "th": "ช่วงนี้งานน้อยลง",
+      "ro": "chûuang níi ngaan nɔ́ɔi long"
+     },
+     {
+      "th": "ช่วงนี้งานลงน้อย",
+      "ro": "chûuang níi ngaan long nɔ́ɔi"
+     }
+    ],
+    "answer": 1,
+    "why": "「少なくなる」はน้อย＋ลงです。มากขึ้นは「多くなる」で意味が逆、ลงを状態の語の前に置く語順はできません。"
+   }
+  },
+  "8": {
+   "verdict": "fix",
+   "issues": [
+    "distractor/why: claim that อ้วน never combines with ลง is shaky (cf. ผอมขึ้น is common); replaced with a word-order distractor"
+   ],
+   "fixed": {
+    "kind": "choose",
+    "q": "「今年、太った」と言うなら？",
+    "options": [
+     {
+      "th": "ปีนี้อ้วนขึ้น",
+      "ro": "pii níi ûuan khʉ̂n"
+     },
+     {
+      "th": "ปีนี้ขึ้นอ้วน",
+      "ro": "pii níi khʉ̂n ûuan"
+     },
+     {
+      "th": "ปีนี้อ้วนที่สุด",
+      "ro": "pii níi ûuan thîi sùt"
+     }
+    ],
+    "answer": 0,
+    "why": "太る変化は状態の語อ้วนの後ろにขึ้นを置いたอ้วนขึ้นです。ขึ้นを前に置く語順はなく、อ้วนที่สุดは「いちばん太っている」で変化を表しません。"
+   }
+  }
+ },
+ "24": {
+  "8": {
+   "verdict": "fix",
+   "issues": [
+    "distractor: ของขวัญเขาที่ส่งมา (his present that was sent) is acceptable Thai with nearly the same meaning"
+   ],
+   "fixed": {
+    "kind": "order",
+    "q": "「彼が送ってくれたプレゼント」の正しい語順は？",
+    "options": [
+     {
+      "th": "ที่เขาส่งมาของขวัญ",
+      "ro": "thîi khǎo sòng maa khɔ̌ɔng khwǎn"
+     },
+     {
+      "th": "เขาส่งมาที่ของขวัญ",
+      "ro": "khǎo sòng maa thîi khɔ̌ɔng khwǎn"
+     },
+     {
+      "th": "ของขวัญที่เขาส่งมา",
+      "ro": "khɔ̌ɔng khwǎn thîi khǎo sòng maa"
+     }
+    ],
+    "answer": 2,
+    "why": "名詞ของขวัญの直後にที่、その後に説明節เขาส่งมาを置きます。ที่＋説明節を名詞の前に出す語順や、名詞を最後に回す語順にはしません。"
+   }
+  }
+ },
+ "25": {
+  "7": {
+   "verdict": "fix",
+   "issues": [
+    "why: Japanese gloss 「彼がもう帰ると言った」 was ambiguous (reads as 'he said')"
+   ],
+   "fixed": {
+    "kind": "fix",
+    "q": "「『もう帰る』と彼に言った」として正しい文は？",
+    "options": [
+     {
+      "th": "บอกว่าเขาจะกลับแล้ว",
+      "ro": "bɔ̀ɔk wâa khǎo cà klàp lɛ́ɛo"
+     },
+     {
+      "th": "ว่าบอกเขาจะกลับแล้ว",
+      "ro": "wâa bɔ̀ɔk khǎo cà klàp lɛ́ɛo"
+     },
+     {
+      "th": "บอกเขาว่าจะกลับแล้ว",
+      "ro": "bɔ̀ɔk khǎo wâa cà klàp lɛ́ɛo"
+     }
+    ],
+    "answer": 2,
+    "why": "言う相手はบอกの直後、内容はว่าの後ろです。บอกว่าเขาจะกลับแล้วは「『彼はもう帰る』と言った」で、帰るのが彼になります。"
+   }
+  }
+ }
+}

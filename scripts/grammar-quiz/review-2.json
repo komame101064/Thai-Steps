@@ -1,0 +1,116 @@
+{
+ "16": {
+  "0": {
+   "verdict": "fix",
+   "issues": [
+    "two acceptable answers: อยากได้＋動詞（〜する機会を得たい）も「飲みたい」として通じるため、distractorを差し替え"
+   ],
+   "fixed": {
+    "kind": "blank",
+    "q": "「コーヒーが飲みたい」の空欄に入る語は？",
+    "sentence": {
+     "th": "ผม ＿＿ ดื่มกาแฟ",
+     "ro": "phǒm ＿＿ dʉ̀ʉm kaa fɛɛ",
+     "ja": "コーヒーが飲みたい。"
+    },
+    "options": [
+     {
+      "th": "กำลัง",
+      "ro": "kam lang"
+     },
+     {
+      "th": "เคย",
+      "ro": "khəəi"
+     },
+     {
+      "th": "อยาก",
+      "ro": "yàak"
+     }
+    ],
+    "answer": 2,
+    "why": "動作の希望はอยาก＋動詞。กำลังだと「今飲んでいる」、เคยだと「飲んだことがある」になります。"
+   }
+  },
+  "2": {
+   "verdict": "fix",
+   "issues": [
+    "distractor ทำอาหารไทยอยากเรียน is acceptable spoken Thai as topic-fronting; replaced with a clearly wrong order"
+   ],
+   "fixed": {
+    "kind": "order",
+    "q": "「タイ料理を習いたい」の正しい語順は？",
+    "options": [
+     {
+      "th": "เรียนอยากทำอาหารไทย",
+      "ro": "riian yàak tham aa hǎan thai"
+     },
+     {
+      "th": "อยากเรียนทำอาหารไทย",
+      "ro": "yàak riian tham aa hǎan thai"
+     },
+     {
+      "th": "เรียนทำอาหารไทยอยาก",
+      "ro": "riian tham aa hǎan thai yàak"
+     }
+    ],
+    "answer": 1,
+    "why": "อยากは動詞の前に置き、「習う」の目的語はその後ろに続けます。อยากを動詞の後ろや文末に置く形は誤りです。"
+   }
+  },
+  "8": {
+   "verdict": "fix",
+   "issues": [
+    "two acceptable answers: อยากได้นอนไหม（寝る機会が欲しい？）is grammatical and close in meaning; replaced distractor"
+   ],
+   "fixed": {
+    "kind": "translate",
+    "q": "「寝たい？」とたずねるなら？",
+    "options": [
+     {
+      "th": "อยากไหมนอน",
+      "ro": "yàak mǎi nɔɔn"
+     },
+     {
+      "th": "อยากนอนไหม",
+      "ro": "yàak nɔɔn mǎi"
+     },
+     {
+      "th": "นอนไหมอยาก",
+      "ro": "nɔɔn mǎi yàak"
+     }
+    ],
+    "answer": 1,
+    "why": "動作の希望はอยาก＋動詞で、疑問のไหมは文末に置きます。ไหมを途中に入れたり、อยากを文末に置いたりはしません。"
+   }
+  }
+ },
+ "19": {
+  "6": {
+   "verdict": "fix",
+   "issues": [
+    "Japanese: awkward reference 「文末の語（「少し」という語）」"
+   ],
+   "fixed": {
+    "kind": "meaning",
+    "q": "文末のหน่อยの働きは？",
+    "sentence": {
+     "th": "ช่วยรอหน่อย",
+     "ro": "chûuai rɔɔ nɔ̀ɔi"
+    },
+    "options": [
+     {
+      "ja": "過去の動作であることを示す"
+     },
+     {
+      "ja": "依頼をやわらげる"
+     },
+     {
+      "ja": "「たくさん」という量を表す"
+     }
+    ],
+    "answer": 1,
+    "why": "หน่อยは直訳の「少し」だけでなく、依頼をやわらげる働きがあります。"
+   }
+  }
+ }
+}
