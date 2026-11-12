@@ -582,3 +582,25 @@ html body .x-levels .x-chips button{flex-direction:row;align-items:baseline;just
  html body .h-task .btn{min-height:32px;padding:0 12px}
 }
 @media (max-width:650px){html body .h-task{padding:7px 0}html body .h-today{padding-bottom:8px}}
+/* Home rows (2026-11-12): ring + next item + 始める, no separate ring grid or heading */
+html body .h-rows{padding:4px 14px}
+html body .h-rows .h-tasks{border-top:0}
+html body .h-row{display:flex;align-items:center;gap:10px;padding:12px 0;border-bottom:1px solid #e3e9da}
+html body .h-row:last-child{border-bottom:0}
+html body .h-row-open{display:flex;align-items:center;gap:12px;flex:1;min-width:0;padding:0;border:0;background:none;font:inherit;color:inherit;text-align:left;cursor:pointer}
+html body .h-row .ring{width:48px;height:48px}
+html body .h-row .h-task-body{min-width:0}
+html body .h-row .h-task-body b{display:block;font-size:15px;color:var(--x-ink)}
+html body .h-row .h-task-body small{display:block;font-size:12px;color:var(--x-muted);line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+html body .h-row .btn{flex:none;min-height:36px;padding:0 16px;font-size:13px}
+html body .h-due{display:inline-grid;place-items:center;width:48px;height:48px;flex:none;border-radius:50%;background:#f4ecd5;color:var(--x-brass);font-weight:800;font-size:16px}
+@media (max-width:650px){html body .h-rows{padding:2px 14px}html body .h-row{padding:11px 0}}
+@media (max-width:650px){
+ html body .x-dict-home{padding:16px 14px 14px;margin-bottom:16px}
+ html body .x-dict-home .x-dict-label{font-size:20px;margin-bottom:10px}
+ html body .x-dict-home .x-dict-mark{width:34px;height:34px}
+ html body .x-dict-home .x-search input{height:56px}
+ html body .x-dict-home .x-dict-try{margin-top:12px}
+ html body .h-row{padding:15px 0}
+ html body .h-row .ring{width:52px;height:52px}
+}
