@@ -186,3 +186,6 @@ print(json.dumps(report,ensure_ascii=False))
 import importlib.util as _u
 _s=_u.spec_from_file_location('anr',P/'scripts/apply-native-review.py');_m=_u.module_from_spec(_s);_s.loader.exec_module(_m)
 print('native-review fixes',_m.apply({'word-bank-more.json','slang-bank-more.json','more-examples.json'}))
+# Full-word review (formality, 文語 senses, relations) for the files rebuilt here; idempotent.
+_s=_u.spec_from_file_location('wr',P/'scripts/word-review/apply.py');_m=_u.module_from_spec(_s);_s.loader.exec_module(_m)
+print('word-review',_m.apply({'word-bank-more.json','slang-bank-more.json'}))
