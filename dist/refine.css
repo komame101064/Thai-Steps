@@ -626,3 +626,11 @@ html body .h-due{display:inline-grid;place-items:center;width:48px;height:48px;f
  html body .h-rows:has(.h-due) .h-row{padding:clamp(10px,calc(4dvh - 18px),26px) 0}
  html body .h-rows:has(.h-due) .ring,html body .h-rows:has(.h-due) .h-due{width:clamp(48px,calc(10dvh - 30px),68px);height:clamp(48px,calc(10dvh - 30px),68px)}
 }
+/* Frequency colours: 最高 red, 高 yellow, 中 green, 低 blue (tinted chips, dark text for contrast) */
+html body .w-meta .w-freq.f-top,html body .w-row .w-meta .w-freq.f-top{background:#fbe3df;border-color:#e9b3aa;color:#8e2418}
+html body .w-meta .w-freq.f-high,html body .w-row .w-meta .w-freq.f-high{background:#fbf0c4;border-color:#e3cd7a;color:#6b4f00}
+html body .w-meta .w-freq.f-mid,html body .w-row .w-meta .w-freq.f-mid{background:#e2f0da;border-color:#a9cc98;color:#245a24}
+html body .w-meta .w-freq.f-low,html body .w-row .w-meta .w-freq.f-low{background:#dfeaf6;border-color:#a7c1df;color:#1f4a78}
+html body .w-meta .w-formal{border:1px solid #cfd8c4;border-left:1px solid #cfd8c4;background:#fffefa;color:#3b4d36;padding:0 5px;border-radius:4px;white-space:nowrap;font-weight:600}
+html body .w-meta>.w-formal{padding-left:5px}
+html body .w-speech-style.is-literary{background:#efe9f6;border-color:#cbbde0;color:#4f3a75}
