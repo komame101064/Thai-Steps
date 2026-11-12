@@ -543,3 +543,13 @@ html body .x-levels .x-chips button{flex-direction:row;align-items:baseline;just
 .x-range-panel{padding:10px 12px;margin-bottom:12px}
 .x-range-panel .x-label{display:none}
 .g-card .w-session-bottom .btn,.w-quiz-next .btn{width:100%;max-width:420px}
+.h-level{display:inline-block;margin:0 2px;padding:1px 7px;border-radius:999px;background:var(--x-green);color:#fffefa;font-size:11px;font-weight:700;vertical-align:1px}
+/* Home: a more prominent dictionary */
+.x-dict-home{padding:18px 16px 16px}
+.x-dict-home .x-dict-label{font-size:20px;flex-wrap:wrap;row-gap:2px}
+.x-dict-home .x-dict-label small{flex-basis:100%;font-size:12px;font-weight:500;color:var(--x-muted);margin-top:2px}
+.x-dict-home .x-dict-mark{width:36px;height:36px}
+.x-dict-home .x-search input{height:56px;font-size:16px}
+.x-dict-try{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.x-dict-try button{padding:5px 11px;border:1px solid var(--x-line);border-radius:999px;background:#fffefa;color:var(--x-green);font:inherit;font-size:12.5px;font-weight:600;cursor:pointer}
+.x-dict-try button:hover{border-color:var(--x-green-2)}
