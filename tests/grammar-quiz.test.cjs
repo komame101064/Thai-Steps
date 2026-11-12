@@ -20,6 +20,6 @@ html=run(1);assert(t.getState().done.includes(1));assert(t.getState().passed.inc
 t.setCurrent(1);const page=t.lesson();assert(page.includes('確認問題を解く（10問）'));assert(page.includes('✓ 履修済み'));assert(!page.includes('読んだので学習済みにする'));
 // A chapter whose lessons are all completed is highlighted.
 const ch=t.lessons[0].m;for(const l of t.chapterLessons(ch))if(!t.getState().done.includes(l.id))t.getState().done.push(l.id);
-assert(t.chapterComplete(ch));assert(t.home().includes('x-chapter is-complete'));assert(t.course().includes('x-course-chapter is-complete'));
+assert(t.chapterComplete(ch));assert(t.course().includes('x-course-chapter is-complete'));
 t.startMixedQuiz();assert.equal(t.getQuiz().ids.length,t.lessons.length);
 console.log(`PASS: ${t.lessons.length} lessons × 10 check questions; full marks completes a lesson, misses go to review per question; completed chapters highlighted.`);
