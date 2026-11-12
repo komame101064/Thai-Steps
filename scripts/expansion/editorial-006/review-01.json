@@ -41,8 +41,40 @@
  },
  {
   "id": "tl-51809",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "enで「casual」、注記で親しい相手向けとしながら標準語ラベルになっており矛盾。同型の ไปก่อนนะ 等に合わせ口語 / [\"colloquial\"] に変更"
+  ],
+  "fixed": {
+   "id": "tl-51809",
+   "th": "ขอโทษนะ",
+   "action": "add",
+   "ro": "khɔ̌ɔ thôot ná",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "frequency": 8,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ごめんね",
+     "en": "sorry (casual, softened)",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "友人や家族など親しい相手に使う。目上には ขอโทษครับ／ขอโทษค่ะ を使う。",
+     "example": {
+      "th": "ขอโทษนะ เมื่อวานโทรกลับไม่ได้",
+      "ro": "khɔ̌ɔ thôot ná mʉ̂ʉa waan thoo klàp mâi dâai",
+      "ja": "ごめんね、昨日は折り返し電話できなかった。",
+      "en": "Sorry, I couldn’t call you back yesterday.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-51810",

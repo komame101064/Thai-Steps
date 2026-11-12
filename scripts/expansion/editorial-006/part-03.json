@@ -106,7 +106,8 @@
      "ja": "急がなくていいよ、僕は待てるから。",
      "en": "No need to hurry, I can wait.",
      "origin": "authored"
-    }
+    },
+    "note": "相手を気づかって言う。目上や客にはไม่ต้องรีบครับ／ค่ะと丁寧にする。"
    }
   ]
  },
@@ -133,7 +134,8 @@
      "ja": "心配しないで、もう家に着いたよ。",
      "en": "Don't worry, I'm home now.",
      "origin": "authored"
-    }
+    },
+    "note": "家族や友人など親しい相手を安心させる言い方。丁寧にはไม่ต้องห่วงครับ／ค่ะ。"
    }
   ]
  },
@@ -196,8 +198,30 @@
  {
   "id": "tl-51930",
   "th": "สู้ๆ นะ",
-  "action": "skip",
-  "skipReason": "สู้ๆ（同じ一覧にある）に語尾นะを付けただけで、意味・使い方に教える価値のある差がないため。สู้ๆの注記でนะを付けることを説明。"
+  "action": "add",
+  "ro": "sûu sûu ná",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "がんばってね",
+    "en": "good luck, hang in there",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขอให้สัมภาษณ์งานผ่านนะ สู้ๆ นะ",
+     "ro": "khɔ̌ɔ hâi sǎm phâat ngaan phàan ná sûu sûu ná",
+     "ja": "面接、受かるといいね。がんばってね！",
+     "en": "Hope you pass the interview. Good luck!",
+     "origin": "authored"
+    },
+    "note": "สู้ๆにนะを付けて、やわらかく親しみを込めた励まし。友人・家族などに使う。"
+   }
+  ]
  },
  {
   "id": "tl-51931",
@@ -538,7 +562,8 @@
      "ja": "本当に何も忘れてない？",
      "en": "Are you sure you didn't forget anything?",
      "origin": "authored"
-    }
+    },
+    "note": "親しい相手への念押し。目上に言うと疑っているように聞こえることがある。"
    }
   ]
  },
@@ -789,7 +814,8 @@
      "ja": "試験に受かったの？すばらしい！",
      "en": "You passed the exam? Excellent!",
      "origin": "authored"
-    }
+    },
+    "note": "相手の成果や良い知らせを強くほめる・喜ぶ言い方。"
    }
   ]
  },
@@ -1002,8 +1028,30 @@
  {
   "id": "tl-51959",
   "th": "เสียใจด้วยนะ",
-  "action": "skip",
-  "skipReason": "เสียใจด้วย（同じ一覧にある）に語尾นะを付けただけで、別項にする差がないため。เสียใจด้วยの注記で触れる。"
+  "action": "add",
+  "ro": "sǐia cai dûuai ná",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "残念だったね・気の毒に",
+    "en": "sorry to hear that",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สอบไม่ผ่านเหรอ เสียใจด้วยนะ",
+     "ro": "sɔ̀ɔp mâi phàan rə̌ə sǐia cai dûuai ná",
+     "ja": "試験に落ちたの？残念だったね。",
+     "en": "You failed the exam? I'm sorry to hear that.",
+     "origin": "authored"
+    },
+    "note": "友人など親しい相手の失敗や不運に同情する言い方。弔意を改まって伝えるときはเสียใจด้วยครับ／ค่ะ。"
+   }
+  ]
  },
  {
   "id": "tl-51960",
@@ -1090,7 +1138,8 @@
      "ja": "今日は一日中働いて、疲れたなあ。",
      "en": "I worked all day today, I'm so tired.",
      "origin": "authored"
-    }
+    },
+    "note": "独り言や親しい相手への話し言葉。"
    }
   ]
  },
@@ -1147,7 +1196,8 @@
      "ja": "エアコンがすごく冷たくて、寒いなあ。",
      "en": "The air conditioning is so cold, I'm freezing.",
      "origin": "authored"
-    }
+    },
+    "note": "独り言や親しい相手への話し言葉。タイでは冷房の効いた室内でよく聞く。"
    }
   ]
  },
@@ -1176,7 +1226,8 @@
      "ja": "今日は暑いなあ。冷たい水をちょうだい。",
      "en": "It's so hot today. Can I have some cold water?",
      "origin": "authored"
-    }
+    },
+    "note": "独り言や親しい相手への話し言葉。"
    }
   ]
  },
@@ -1231,7 +1282,8 @@
      "ja": "市場に行くんだけど、一緒に行かない？",
      "en": "I'm going to the market, want to come along?",
      "origin": "authored"
-    }
+    },
+    "note": "友人などを誘う言い方。丁寧にはไปด้วยกันไหมครับ／คะ。"
    }
   ]
  },
@@ -1350,14 +1402,60 @@
  {
   "id": "tl-51972",
   "th": "เจอกันพรุ่งนี้นะ",
-  "action": "skip",
-  "skipReason": "เจอกันพรุ่งนี้（同じ一覧にある）に語尾นะを付けただけで、別項にする差がないため。เจอกันพรุ่งนี้の注記で触れる。"
+  "action": "add",
+  "ro": "cəə kan phrûng níi ná",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "じゃあ明日ね",
+    "en": "see you tomorrow, then",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฝันดีนะ เจอกันพรุ่งนี้นะ",
+     "ro": "fǎn dii ná cəə kan phrûng níi ná",
+     "ja": "おやすみ、じゃあ明日ね。",
+     "en": "Good night, see you tomorrow.",
+     "origin": "authored"
+    },
+    "note": "親しい相手との別れ際によく使う、やわらかい言い方。"
+   }
+  ]
  },
  {
   "id": "tl-51973",
   "th": "แล้วโทรมานะ",
-  "action": "skip",
-  "skipReason": "文頭のแล้ว（それから）は前の文脈を必要とし、単独の定型句としては不自然。自然なのはถึงแล้วโทรมานะ・ว่างๆ โทรมานะなど条件を伴う形で、โทรหาหน่อย・ส่งไลน์มานะと内容も重なるため。"
+  "action": "add",
+  "ro": "lɛ́ɛo thoo maa ná",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "じゃあ、あとで電話してね",
+    "en": "call me later, okay",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ตอนนี้ยุ่งอยู่ แล้วโทรมานะ",
+     "ro": "tɔɔn níi yûng yùu lɛ́ɛo thoo maa ná",
+     "ja": "今忙しいから、あとで電話してね。",
+     "en": "I'm busy right now, call me later.",
+     "origin": "authored"
+    },
+    "note": "親しい相手との会話の終わりに使う話し言葉。แล้วは「それから・あとで」の意味で、ถึงแล้วโทรมานะ（着いたら電話してね）のように条件を前に置くことも多い。"
+   }
+  ]
  },
  {
   "id": "tl-51974",
@@ -1522,7 +1620,8 @@
      "ja": "このお店は何時に開きますか？",
      "en": "What time does this shop open?",
      "origin": "authored"
-    }
+    },
+    "note": "店員など知らない相手に聞くときは、後ろにครับ（男性）／คะ（女性）を付けないとぶっきらぼうに聞こえる。"
    }
   ]
  },
@@ -1549,7 +1648,8 @@
      "ja": "博物館は何時に閉まりますか？",
      "en": "What time does the museum close?",
      "origin": "authored"
-    }
+    },
+    "note": "店員など知らない相手に聞くときは、後ろにครับ（男性）／คะ（女性）を付けないとぶっきらぼうに聞こえる。"
    }
   ]
  },
