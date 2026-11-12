@@ -559,3 +559,26 @@ html body .x-levels .x-chips button{flex-direction:row;align-items:baseline;just
 .x-dict-history-label{align-self:center;font-size:11.5px;font-weight:700;color:var(--x-muted);margin-right:2px}
 .x-dict-try .x-dict-history-clear{border:0;background:none;color:var(--x-muted);font-weight:500;font-size:11.5px;padding:5px 4px;text-decoration:underline}
 #word-history .x-dict-try{margin-top:8px}
+/* Home fits one phone screen (2026-11-12): tighter dictionary, compact rings and task rows */
+@media (max-width:650px){
+ html body main:has(.x-dict-home){padding-top:12px}
+ html body .x-dict-home{padding:12px 14px;margin-bottom:12px}
+ html body .x-dict-home .x-dict-label{font-size:18px;margin-bottom:8px}
+ html body .x-dict-home .x-dict-mark{width:30px;height:30px}
+ html body .x-dict-home .x-search input{height:50px}
+ html body .x-dict-home .x-dict-try{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-top:8px;padding-bottom:2px}
+ html body .x-dict-home .x-dict-try::-webkit-scrollbar{display:none}
+ html body .x-dict-home .x-dict-try button,html body .x-dict-home .x-dict-history-label{flex:none}
+ html body .h-today{padding:12px 14px;margin-bottom:12px}
+ html body .h-head{margin-bottom:8px}
+ html body .h-head h2{font-size:15px}
+ html body .h-rings{margin-bottom:6px;gap:6px}
+ html body .h-ring{flex-direction:row;justify-content:center;gap:8px;padding:8px 4px}
+ html body .h-ring .ring{width:42px;height:42px}
+ html body .h-ring .ring b,html body .h-ring .ring span{font-size:13px}
+ html body .h-ring>span:last-child{text-align:left;font-size:12px}
+ html body .h-task{padding:8px 0;gap:8px}
+ html body .h-task small{font-size:11.5px;line-height:1.35}
+ html body .h-task .btn{min-height:32px;padding:0 12px}
+}
+@media (max-width:650px){html body .h-task{padding:7px 0}html body .h-today{padding-bottom:8px}}
