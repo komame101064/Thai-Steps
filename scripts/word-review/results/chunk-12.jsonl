@@ -278,3 +278,43 @@
 {"id": "tl-03910", "formality": 5, "literary": [], "rel": [], "drop": [], "fix": [], "freq": null}
 {"id": "tl-03913", "formality": 5, "literary": [], "rel": [{"type": "related", "id": "tl-01851", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
 {"id": "tl-03914", "formality": 7, "literary": [], "rel": [], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03915", "formality": 5, "literary": [], "rel": [{"type": "related", "id": "tl-42858", "s": 1, "t": 1}, {"type": "related", "id": "tl-47822", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03919", "formality": 4, "literary": [], "rel": [{"type": "syn", "id": "tl-48020", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03920", "formality": 8, "literary": [], "rel": [{"type": "syn", "id": "tl-01202", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03921", "formality": 6, "literary": [], "rel": [{"type": "related", "id": "tl-00553", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03928", "formality": 5, "literary": [], "rel": [{"type": "syn", "id": "tl-01231", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03933", "formality": 6, "literary": [], "rel": [{"type": "related", "id": "tl-00372", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null, "issue": "tl-01715 สอบสวน が related と syn の両方に重複登録されている"}
+{"id": "tl-03934", "formality": 5, "literary": [], "rel": [], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03940", "formality": 6, "literary": [], "rel": [{"type": "related", "id": "tl-01287", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03941", "formality": 5, "literary": [], "rel": [], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03945", "formality": 5, "literary": [], "rel": [], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03949", "formality": 5, "literary": [], "rel": [], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03950", "formality": 6, "literary": [], "rel": [], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03953", "formality": 5, "literary": [], "rel": [], "drop": [{"type": "similar", "id": "tl-01358", "reason": "ต้อนรับ（歓迎する）は「追い立てる」と無関係（綴りの一部が同じだけ）"}], "fix": [], "freq": null}
+{"id": "tl-03954", "formality": 4, "literary": [], "rel": [], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03961", "formality": 5, "literary": [], "rel": [{"type": "related", "id": "tl-02415", "s": 1, "t": 1}, {"type": "syn", "id": "tl-02500", "s": 1, "t": 2}], "drop": [], "fix": [], "freq": null, "issue": "tl-01867 คุ้นเคย と tl-02228 ชิน が similar/related と syn の両方に重複登録されている"}
+{"id": "tl-03967", "formality": 5, "literary": [], "rel": [{"type": "syn", "id": "tl-47082", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03975", "formality": 6, "literary": [], "rel": [{"type": "related", "id": "tl-02594", "s": 1, "t": 2}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03979", "formality": 6, "literary": [], "rel": [], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03982", "formality": 8, "literary": [1], "rel": [], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03984", "formality": 5, "literary": [], "rel": [], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03985", "formality": 5, "literary": [], "rel": [], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03990", "formality": 5, "literary": [], "rel": [], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03995", "formality": 6, "literary": [], "rel": [{"type": "ant", "id": "tl-46084", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-03997", "formality": 5, "literary": [], "rel": [{"type": "related", "id": "tl-04966", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-04006", "formality": 7, "literary": [], "rel": [{"type": "related", "id": "tl-45894", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-04007", "formality": 5, "literary": [], "rel": [{"type": "related", "id": "tl-00462", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-04010", "formality": 6, "literary": [], "rel": [], "drop": [], "fix": [], "freq": null}
+{"id": "tl-04011", "formality": 5, "literary": [], "rel": [{"type": "related", "id": "tl-00895", "s": 1, "t": 1}, {"type": "related", "id": "tl-00695", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-04017", "formality": 7, "literary": [1], "rel": [{"type": "related", "id": "tl-01640", "s": 1, "t": 1}, {"type": "related", "id": "tl-50013", "s": 3, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-04023", "formality": 3, "literary": [], "rel": [], "drop": [], "fix": [], "freq": null}
+{"id": "tl-04028", "formality": 6, "literary": [], "rel": [], "drop": [], "fix": [], "freq": null}
+{"id": "tl-04031", "formality": 5, "literary": [], "rel": [], "drop": [{"type": "similar", "id": "tl-04120", "reason": "ตึง（ぴんと張った）は「固定する」と意味が異なる（綴りが似ているだけ）"}], "fix": [], "freq": null}
+{"id": "tl-04038", "formality": 5, "literary": [], "rel": [], "drop": [], "fix": [{"field": "sense.ja", "sense": 1, "from": "シェイク", "to": "振る・揺さぶる（容器などを）", "reason": "動詞の語義が外来語の名詞のようで分かりにくい"}], "freq": null}
+{"id": "tl-04041", "formality": 5, "literary": [], "rel": [{"type": "related", "id": "tl-03693", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-04043", "formality": 6, "literary": [], "rel": [{"type": "syn", "id": "tl-01371", "s": 1, "t": 1}, {"type": "syn", "id": "tl-01502", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-04047", "formality": 5, "literary": [], "rel": [], "drop": [], "fix": [], "freq": null}
+{"id": "tl-04050", "formality": 5, "literary": [], "rel": [{"type": "related", "id": "tl-03518", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-40615", "formality": 8, "literary": [], "rel": [{"type": "syn", "id": "tl-00629", "s": 1, "t": 3}, {"type": "related", "id": "tl-03117", "s": 1, "t": 1}, {"type": "related", "id": "tl-03100", "s": 1, "t": 1}, {"type": "related", "id": "tl-02390", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-41980", "formality": 7, "literary": [], "rel": [{"type": "syn", "id": "tl-01722", "s": 1, "t": 2}, {"type": "related", "id": "tl-01276", "s": 1, "t": 1}, {"type": "related", "id": "tl-02784", "s": 1, "t": 1}], "drop": [], "fix": [], "freq": null}
+{"id": "tl-42029", "formality": 5, "literary": [], "rel": [{"type": "related", "id": "tl-48185", "s": 1, "t": 1}, {"type": "related", "id": "tl-00212", "s": 1, "t": 2}], "drop": [], "fix": [], "freq": null}
