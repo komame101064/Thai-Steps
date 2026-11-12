@@ -15,7 +15,7 @@ assert.equal(report.batches.reduce((n,b)=>n+b.published,0),more.length+slangMore
 const files={'word-bank.json':core,'slang-bank.json':slang,'word-bank-more.json':more,'slang-bank-more.json':slangMore};
 function boot(withMore){const ctx={window:{},localStorage:{getItem:()=>null,setItem(){}},fetch:async u=>u in files&&(withMore||!/-more\.json$/.test(u))?{ok:true,json:async()=>files[u]}:{ok:false},view:'home',render(){},esc:s=>String(s),icon:()=>'',toast(){}};vm.createContext(ctx);
  for(const n of ['kana-search','word-topics','word-origins','words-app'])vm.runInContext(fs.readFileSync('dist/'+n+'.js','utf8'),ctx);
- vm.runInContext('this.t={load:loadWordBank,get bank(){return bank},get status(){return bankStatus},selected:selectedWords,setLevel:n=>{wordState.level=n},setQuery:q=>{wordQuery=q},lib:WORD_LIBRARY,topicIds:wordTopicIds}',ctx);return ctx.t}
+ vm.runInContext('this.t={isPhrase,load:loadWordBank,get bank(){return bank},get status(){return bankStatus},selected:selectedWords,setLevel:n=>{wordState.level=n},setQuery:q=>{wordQuery=q},lib:WORD_LIBRARY,topicIds:wordTopicIds}',ctx);return ctx.t}
 (async()=>{const a=boot(false),b=boot(true);await a.load();await b.load();assert.equal(a.status,'ready');assert.equal(b.status,'ready');
  assert.equal(b.bank.length,a.bank.length+more.length+slangMore.length);
  // Study order: words are placed by learning stage and frequency together, so frequent additions come early (ไทย, ญี่ปุ่น) and no frequent word is left in 発展.
@@ -25,7 +25,7 @@ function boot(withMore){const ctx={window:{},localStorage:{getItem:()=>null,setI
  const months='มกราคม กุมภาพันธ์ มีนาคม เมษายน พฤษภาคม มิถุนายน กรกฎาคม สิงหาคม กันยายน ตุลาคม พฤศจิกายน ธันวาคม'.split(' ').map(rk),band=r=>r<=300?0:r<=1000?1:r<=2000?2:r<=3000?3:4;assert(Math.max(...months.map(band))-Math.min(...months.map(band))<=1,'months stay together');
  assert(rk('ข้าวต้ม')<=2000,'reviewed promotion');const orig=a.selected();assert(orig.every(w=>b.bank.find(x=>x.id===w.id).studyRank),'every original word keeps a study rank')}
 
- a.setLevel(0);b.setLevel(0);assert.equal(b.selected().length,a.selected().length+more.length);
+ a.setLevel(0);b.setLevel(0);assert.equal(b.selected().length,a.selected().length+b.bank.filter(w=>w.expansion&&w.collection!=='slang'&&!w.generalHidden&&b.isPhrase(w)===false).length);
  assert.equal(b.lib.unique,new Set(b.bank.map(w=>w.th)).size);
  const w=more[0];b.setQuery(w.th);assert(b.selected().some(x=>x.id===w.id));b.setQuery(w.meanings[0].ja);assert(b.selected().some(x=>x.id===w.id));
  for(const x of more)assert(b.topicIds(x).length,'topic for '+x.id);
