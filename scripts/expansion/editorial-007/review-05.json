@@ -1,0 +1,238 @@
+[
+ {
+  "id": "tl-52336",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52337",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52338",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52339",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52340",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52341",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52342",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52343",
+  "verdict": "fix",
+  "issues": [
+   "作者指摘を検討：英語 Have a nice day からの言い方だが、タイ語のメッセージ・SNSやホテル等の接客で実際に使われるので採用。ただし注記の「店員の別れ際のあいさつでよく使う」は言い過ぎ（一般の店では ขอบคุณค่ะ 程度がふつう）なので、使われる場面を限定し、英語由来であることと異形 ขอให้เป็นวันที่ดี を明記。頻度を4→3に"
+  ],
+  "fixed": {
+   "id": "tl-52343",
+   "th": "ขอให้มีวันที่ดี",
+   "action": "add",
+   "ro": "khɔ̌ɔ hâi mii wan thîi dii",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "よい一日を",
+     "en": "have a nice day",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "英語の Have a nice day から広まった言い方で、主にメッセージ・SNSやホテル・航空会社などの接客の結びで使い、ふだんの会話や一般の店ではあまり言わない。ขอให้เป็นวันที่ดี とも言う。",
+     "example": {
+      "th": "ขอบคุณที่ใช้บริการ ขอให้มีวันที่ดีนะคะ",
+      "ro": "khɔ̀ɔp khun thîi chái bɔɔ rí kaan khɔ̌ɔ hâi mii wan thîi dii ná khá",
+      "ja": "ご利用ありがとうございました。よい一日を。",
+      "en": "Thank you for using our service. Have a nice day.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-52344",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52345",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52346",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52347",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52348",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52349",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52350",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52351",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52352",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52353",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52354",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52355",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52356",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52357",
+  "verdict": "ok",
+  "issues": [
+   "作者指摘を検討：ว่างไหม（予定が空いているか）とは違い、話や頼み事の前に「今ちょっといい？」と相手の時間を尋ねる定番の言い方としてよく使うので採用。読み・用例・訳に問題なし"
+  ]
+ },
+ {
+  "id": "tl-52358",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52359",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52360",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52361",
+  "verdict": "reject",
+  "issues": [
+   "公開済みの定型表現 ตามนั้น（tl-52038、それで決まり・その通りに）と日本語訳も使う場面（打ち合わせ・約束の最後の合意確認）もほぼ同じで、ตกลง を足して นั้น→นี้ にしただけの差はフレーズとして別に教えるほどではない。近接重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-52362",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52363",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52364",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52365",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52366",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52367",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52368",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52369",
+  "verdict": "ok",
+  "issues": [
+   "作者指摘を検討：เป็นเกียรติ＋มาก の組み合わせだが、ขอบคุณมาก と同様にスピーチや招待への返答で「大変光栄です」としてこの形のまま言うのがふつうで、公開済み・本バッチ内に เป็นเกียรติ の定型表現もないため採用。改まった表現の区分と注記（เป็นเกียรติอย่างยิ่ง）も妥当"
+  ]
+ },
+ {
+  "id": "tl-52370",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52371",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52372",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52373",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52374",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52375",
+  "verdict": "ok",
+  "issues": []
+ }
+]

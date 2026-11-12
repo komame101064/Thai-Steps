@@ -1,0 +1,380 @@
+[
+ {
+  "id": "tl-52101",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52102",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52103",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52104",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52105",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52106",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52107",
+  "verdict": "ok",
+  "issues": [
+   "ยินดีค่ะ と性別違いの対だが、公開済みの สวัสดีครับ/ค่ะ・เชิญครับ/ค่ะ と同じ扱いで採用。お礼への返事として実際によく言う"
+  ]
+ },
+ {
+  "id": "tl-52108",
+  "verdict": "ok",
+  "issues": [
+   "ยินดีครับ と性別違いの対だが、公開済みの対と同じ扱いで採用"
+  ]
+ },
+ {
+  "id": "tl-52109",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52110",
+  "verdict": "ok",
+  "issues": [
+   "作者指摘の近接対：公開済みの ฝากตัว（弟子入りする）とは意味が違い、ขอฝากเนื้อฝากตัว（改まった表現）とは文体が違うので採用"
+  ]
+ },
+ {
+  "id": "tl-52111",
+  "verdict": "ok",
+  "issues": [
+   "作者指摘の近接対：ฝากตัวด้วย より改まった着任あいさつで、文体の差を注記で示しているので採用"
+  ]
+ },
+ {
+  "id": "tl-52112",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52113",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52114",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52115",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52116",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52117",
+  "verdict": "reject",
+  "issues": [
+   "作者指摘（弱い）：「มา＋ทำงาน」の動詞句そのもので、決まった言い回しではない。注記どおり「出勤する」の一般的な意味にもなり、フレーズとして教える価値が薄い。ทำงาน・มาเที่ยวเหรอ の項で扱えるので除外"
+  ]
+ },
+ {
+  "id": "tl-52118",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52119",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52120",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52121",
+  "verdict": "reject",
+  "issues": [
+   "作者指摘：公開済みの เก่งจัง（tl-51952、外国人がほめられる場面を注記で扱う）と近い。พูดเก่ง＋จัง の組み合わせで、「口が達者・よくしゃべる」の差はフレーズとして教えるほどではない。外国人のタイ語をほめる定番は พูดไทยเก่งจัง なので、入れるならその形を別候補として。重複として除外"
+  ]
+ },
+ {
+  "id": "tl-52122",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52123",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52124",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52125",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52126",
+  "verdict": "fix",
+  "issues": [
+   "例文の和訳「こう説明して、分かる？」が日本語として不自然。「こう説明したら分かる？」に修正"
+  ],
+  "fixed": {
+   "id": "tl-52126",
+   "th": "เข้าใจไหม",
+   "action": "add",
+   "ro": "khâo cai mǎi",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "frequency": 7,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "分かる？・分かりますか",
+     "en": "do you understand?",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "説明のあとに確認する言い方。目上にはครับ／คะを付けないと押しつけがましく聞こえることがある。",
+     "example": {
+      "th": "อธิบายแบบนี้เข้าใจไหม",
+      "ro": "à thí baai bɛ̀ɛp níi khâo cai mǎi",
+      "ja": "こう説明したら分かる？",
+      "en": "Do you understand when I explain it like this?",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-52127",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52128",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52129",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52130",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52131",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52132",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52133",
+  "verdict": "ok",
+  "issues": [
+   "作者指摘：ฮัลโหล（tl-00866）に丁寧語尾を付けた形だが、公開済みの ขอบคุณครับ/ค่ะ・สวัสดีครับ/ค่ะ と同じ方針（性別別の丁寧形）で採用"
+  ]
+ },
+ {
+  "id": "tl-52134",
+  "verdict": "ok",
+  "issues": [
+   "作者指摘：ฮัลโหลครับ と同じ理由で採用"
+  ]
+ },
+ {
+  "id": "tl-52135",
+  "verdict": "fix",
+  "issues": [
+   "作者指摘の近接対：公開済みの รอสักครู่ とは「電話を切らずに待つ（สาย＝回線）」点で異なるので採用",
+   "ただし電話応対の丁寧な言い方で、รอสักครู่ を改まった表現にした editorial-006 の判断と揃え、改まった表現 / [\"formal\"] に変更"
+  ],
+  "fixed": {
+   "id": "tl-52135",
+   "th": "รอสายสักครู่",
+   "action": "add",
+   "ro": "rɔɔ sǎai sàk khrûu",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "少々お待ちください（電話で）",
+     "en": "please hold the line",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "note": "電話で相手を待たせるときの言い方。会社などでは กรุณารอสายสักครู่ や ถือสายรอสักครู่ とも言う。対面なら รอสักครู่。",
+     "example": {
+      "th": "รอสายสักครู่นะครับ จะโอนสายให้",
+      "ro": "rɔɔ sǎai sàk khrûu ná khráp cà oon sǎai hâi",
+      "ja": "少々お待ちください。おつなぎします。",
+      "en": "Please hold the line. I'll transfer you.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-52136",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52137",
+  "verdict": "ok",
+  "issues": [
+   "公開済みの รับสาย の否定形だが、「電話に出ない」として決まって言う形なので採用"
+  ]
+ },
+ {
+  "id": "tl-52138",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52139",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52140",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52141",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52142",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52143",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52144",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52145",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52146",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52147",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52148",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52149",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52150",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52151",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52152",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52153",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52154",
+  "verdict": "ok",
+  "issues": [
+   "作者指摘の近接対：公開済みの ยินดีด้วย（おめでとう）は祝福、ดีใจด้วย は「一緒に喜ぶ」親しい言い方で、注記で違いを説明しているので採用"
+  ]
+ },
+ {
+  "id": "tl-52155",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52156",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52157",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52158",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52159",
+  "verdict": "ok",
+  "issues": []
+ }
+]

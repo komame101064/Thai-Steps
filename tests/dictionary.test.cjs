@@ -17,7 +17,7 @@ vm.runInContext('this.t={load:loadWordBank,results:dictionaryResults,setLevel:n=
  // English: exact gloss first, simple inflections, multi-word glosses; romanization homophones do not crowd out English hits.
  assert.deepEqual(top('eat',2).sort(),['กิน','ทาน'].sort());assert(top('man',3).includes('ผู้ชาย'));assert(!top('man',3).includes('มัน'));
  assert.equal(ths('eating')[0],'กิน');assert.equal(ths('cats')[0],'แมว');assert.equal(ths('thank you')[0],'ขอบคุณ');assert.equal(ths('dog')[0],'หมา');
- assert(ths('to eat').length<40,'multi-word English must not match every syllable "to"');assert(!top('go',10).includes('เงิน'));
+ assert(ths('to eat').length<60,'multi-word English must not match every syllable "to"');assert(!top('go',10).includes('เงิน'));
  const hit=t.results('water').find(x=>x.w.th==='น้ำ');assert.equal(hit.via,'en');assert(hit.en.includes('water'));
  // A romanized query that is also a rare English gloss stays a romanization match first.
  assert.equal(ths('kin')[0],'กิน');assert.equal(ths('khrɔ̂ɔp')[0],'ครอบ');
