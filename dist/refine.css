@@ -604,3 +604,25 @@ html body .h-due{display:inline-grid;place-items:center;width:48px;height:48px;f
  html body .h-row{padding:15px 0}
  html body .h-row .ring{width:52px;height:52px}
 }
+/* Home scales with screen height: tall phones get larger rows instead of an empty bottom */
+@media (max-width:650px){
+ html body main:has(.x-dict-home){padding-top:clamp(12px,2dvh,22px)}
+ html body .x-dict-home{padding:clamp(16px,2.6dvh,26px) 16px clamp(14px,2.4dvh,24px);margin-bottom:clamp(16px,2.8dvh,28px)}
+ html body .x-dict-home .x-dict-label{font-size:clamp(20px,2.5dvh,24px);margin-bottom:clamp(10px,1.6dvh,16px)}
+ html body .x-dict-home .x-dict-mark{width:clamp(34px,4.2dvh,40px);height:clamp(34px,4.2dvh,40px)}
+ html body .x-dict-home .x-search input{height:clamp(56px,7dvh,66px);font-size:clamp(16px,1.8dvh,17px)}
+ html body .x-dict-home .x-dict-try{margin-top:clamp(12px,1.8dvh,18px)}
+ html body .x-dict-home .x-dict-try button{padding:clamp(5px,.8dvh,8px) clamp(11px,1.4dvh,14px);font-size:clamp(12.5px,1.5dvh,14px)}
+ html body .h-rows{padding:2px 16px}
+ html body .h-row{padding:clamp(15px,calc(5.5dvh - 18px),36px) 0;gap:12px}
+ html body .h-row-open{gap:clamp(12px,1.8dvh,18px)}
+ html body .h-row .ring,html body .h-due{width:clamp(52px,calc(12dvh - 30px),80px);height:clamp(52px,calc(12dvh - 30px),80px)}
+ html body .h-row .ring b{font-size:clamp(14px,2dvh,19px)}
+ html body .h-row .h-task-body b{font-size:clamp(15px,2.3dvh,21px)}
+ html body .h-row .h-task-body small{font-size:clamp(12px,1.6dvh,15px);margin-top:clamp(2px,.5dvh,5px)}
+ html body .h-row .btn{min-height:clamp(36px,5.2dvh,50px);padding:0 clamp(16px,2dvh,20px);font-size:clamp(13px,1.6dvh,15px)}
+}
+@media (max-width:650px){
+ html body .h-rows:has(.h-due) .h-row{padding:clamp(10px,calc(4dvh - 18px),26px) 0}
+ html body .h-rows:has(.h-due) .ring,html body .h-rows:has(.h-due) .h-due{width:clamp(48px,calc(10dvh - 30px),68px);height:clamp(48px,calc(10dvh - 30px),68px)}
+}
