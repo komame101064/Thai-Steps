@@ -1,0 +1,1670 @@
+[
+ {
+  "id": "tl-51862",
+  "th": "แพงไป",
+  "action": "add",
+  "ro": "phɛɛng pai",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "高すぎる",
+    "en": "too expensive",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "แพงไปหน่อย（ちょっと高い）の形でよく使い、値段交渉の前置きにもなる。",
+    "example": {
+     "th": "ตัวนี้แพงไปหน่อย มีถูกกว่านี้ไหม",
+     "ro": "tuua níi phɛɛng pai nɔ̀ɔi mii thùuk kwàa níi mǎi",
+     "ja": "これはちょっと高すぎます。もっと安いのはありますか。",
+     "en": "This one is a bit too expensive. Do you have a cheaper one?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51863",
+  "th": "ลดได้ไหม",
+  "action": "add",
+  "ro": "lót dâai mǎi",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "まけてもらえますか",
+    "en": "can you give a discount?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "市場や露店での値引き交渉に使う。定価のデパートなどでは普通言わない。ครับ/ค่ะを付けると丁寧。",
+    "example": {
+     "th": "ซื้อสองตัว ลดได้ไหมครับ",
+     "ro": "sʉ́ʉ sɔ̌ɔng tuua lót dâai mǎi khráp",
+     "ja": "2枚買ったら、まけてもらえますか。",
+     "en": "If I buy two, can you give me a discount?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51864",
+  "th": "ลดหน่อยได้ไหม",
+  "action": "add",
+  "ro": "lót nɔ̀ɔi dâai mǎi",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "少し安くしてもらえますか",
+    "en": "could you lower the price a little?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ลดได้ไหม に หน่อย が入って柔らかい頼み方になる。市場や露店で使う。",
+    "example": {
+     "th": "แพงจัง ลดหน่อยได้ไหมคะ",
+     "ro": "phɛɛng cang lót nɔ̀ɔi dâai mǎi khá",
+     "ja": "高いですね。少し安くしてもらえますか。",
+     "en": "That is expensive. Could you lower it a little?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51865",
+  "th": "ขอดูหน่อย",
+  "action": "add",
+  "ro": "khɔ̌ɔ duu nɔ̀ɔi",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ちょっと見せてください",
+    "en": "may I have a look?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "店で商品を見せてもらうときなどに使う。ครับ/ค่ะを付けると丁寧。",
+    "example": {
+     "th": "อันนั้นขอดูหน่อยครับ",
+     "ro": "an nán khɔ̌ɔ duu nɔ̀ɔi khráp",
+     "ja": "それ、ちょっと見せてください。",
+     "en": "Could I have a look at that one?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51866",
+  "th": "มีไหม",
+  "action": "add",
+  "ro": "mii mǎi",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（〜は）ありますか",
+    "en": "do you have (it)?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "欲しい物を前に置いて「〜มีไหม」と言うほか、「มี〜ไหม」と間に物を入れる形も多い。",
+    "example": {
+     "th": "น้ำเย็นมีไหมครับ",
+     "ro": "náam yen mii mǎi khráp",
+     "ja": "冷たい水はありますか。",
+     "en": "Do you have cold water?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51867",
+  "th": "มีอันอื่นไหม",
+  "action": "add",
+  "ro": "mii an ʉ̀ʉn mǎi",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ほかのはありますか",
+    "en": "do you have another one?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "色や型の違いを聞くときは มีแบบอื่นไหม、มีสีอื่นไหม とも言う。",
+    "example": {
+     "th": "อันนี้ไม่ชอบ มีอันอื่นไหมคะ",
+     "ro": "an níi mâi chɔ̂ɔp mii an ʉ̀ʉn mǎi khá",
+     "ja": "これは好きではありません。ほかのはありますか。",
+     "en": "I don't like this one. Do you have another one?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51868",
+  "th": "มีไซส์ใหญ่กว่านี้ไหม",
+  "action": "add",
+  "ro": "mii sai yài kwàa níi mǎi",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "これより大きいサイズはありますか",
+    "en": "do you have a bigger size?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ไซส์は英語 size から。小さいサイズは มีไซส์เล็กกว่านี้ไหม。",
+    "example": {
+     "th": "ตัวนี้เล็กไป มีไซส์ใหญ่กว่านี้ไหมครับ",
+     "ro": "tuua níi lék pai mii sai yài kwàa níi mǎi khráp",
+     "ja": "これは小さすぎます。これより大きいサイズはありますか。",
+     "en": "This one is too small. Do you have a bigger size?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51869",
+  "th": "เอาอันนี้",
+  "action": "add",
+  "ro": "ao an níi",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "これにします・これをください",
+    "en": "I'll take this one",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "店で品物を選ぶときの言い方。ครับ/ค่ะを付けると丁寧。",
+    "example": {
+     "th": "สวยดี เอาอันนี้ค่ะ",
+     "ro": "sǔuai dii ao an níi khâ",
+     "ja": "きれいですね。これにします。",
+     "en": "It's pretty. I'll take this one.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51870",
+  "th": "ไม่เอา",
+  "action": "add",
+  "ro": "mâi ao",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "要らない",
+    "en": "I don't want it, no thanks",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "そのままではぶっきらぼうに聞こえるので、店員などには ไม่เอาครับ／ค่ะ や ไม่เป็นไร を使う。",
+    "example": {
+     "th": "ไม่เอาแล้ว อิ่มแล้ว",
+     "ro": "mâi ao lɛ́ɛo ìm lɛ́ɛo",
+     "ja": "もう要らない。お腹いっぱい。",
+     "en": "I don't want any more. I'm full.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51871",
+  "th": "ไม่เอาครับ",
+  "action": "skip",
+  "skipReason": "ไม่เอา（tl-51870）に丁寧語尾 ครับ を付けただけで、教える違いは ไม่เอา の注記で足りるため重複として除外。"
+ },
+ {
+  "id": "tl-51872",
+  "th": "ไม่ต้องใส่ถุง",
+  "action": "add",
+  "ro": "mâi tɔ̂ɔng sài thǔng",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "袋は要りません",
+    "en": "no bag, please",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "コンビニなどでレジ袋が要るか聞かれたときの返事。ครับ/ค่ะを付けると丁寧。",
+    "example": {
+     "th": "อันเดียว ไม่ต้องใส่ถุงค่ะ",
+     "ro": "an diiao mâi tɔ̂ɔng sài thǔng khâ",
+     "ja": "一つだけです。袋は要りません。",
+     "en": "It's just one. I don't need a bag.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51873",
+  "th": "จ่ายด้วยบัตรได้ไหม",
+  "action": "add",
+  "ro": "càai dûuai bàt dâai mǎi",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "カードで払えますか",
+    "en": "can I pay by card?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "口語では ด้วย を省いて จ่ายบัตรได้ไหม とも言う。",
+    "example": {
+     "th": "ขอโทษครับ จ่ายด้วยบัตรได้ไหม",
+     "ro": "khɔ̌ɔ thôot khráp càai dûuai bàt dâai mǎi",
+     "ja": "すみません、カードで払えますか。",
+     "en": "Excuse me, can I pay by card?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51874",
+  "th": "โอนได้ไหม",
+  "action": "add",
+  "ro": "oon dâai mǎi",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "送金（振り込み）で払ってもいいですか",
+    "en": "can I pay by transfer?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "タイではQRコードを読み取るスマホ送金での支払いを指すことが多い。",
+    "example": {
+     "th": "ไม่มีเงินสด โอนได้ไหมครับ",
+     "ro": "mâi mii ngəən sòt oon dâai mǎi khráp",
+     "ja": "現金がありません。送金で払ってもいいですか。",
+     "en": "I don't have cash. Can I pay by transfer?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51875",
+  "th": "ไม่มีเงินทอน",
+  "action": "add",
+  "ro": "mâi mii ngəən thɔɔn",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "おつりがありません",
+    "en": "there is no change",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "大きな札を出されたときに店側が言うことが多い。客が「おつりはありますか」と聞くときは มีเงินทอนไหม。",
+    "example": {
+     "th": "ขอโทษนะคะ ร้านเราไม่มีเงินทอน",
+     "ro": "khɔ̌ɔ thôot ná khá ráan rao mâi mii ngəən thɔɔn",
+     "ja": "すみません、うちの店にはおつりがありません。",
+     "en": "Sorry, our shop has no change.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51876",
+  "th": "เก็บเงินด้วย",
+  "action": "add",
+  "ro": "kèp ngəən dûuai",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "お会計お願いします",
+    "en": "the bill, please",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "飲食店で店員に言う。ครับ/ค่ะを付けると丁寧。เช็คบิลด้วย と同じ意味。",
+    "example": {
+     "th": "น้องครับ เก็บเงินด้วยครับ",
+     "ro": "nɔ́ɔng khráp kèp ngəən dûuai khráp",
+     "ja": "すみません、お会計お願いします。",
+     "en": "Excuse me, the bill, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51877",
+  "th": "เช็คบิลด้วย",
+  "action": "add",
+  "ro": "chék bin dûuai",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "お会計お願いします",
+    "en": "check, please",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "英語の check bill から。เก็บเงินด้วย と同じ意味で、レストランやカフェで広く使う。",
+    "example": {
+     "th": "อิ่มแล้ว เช็คบิลด้วยค่ะ",
+     "ro": "ìm lɛ́ɛo chék bin dûuai khâ",
+     "ja": "お腹いっぱいです。お会計お願いします。",
+     "en": "I'm full. Check, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51878",
+  "th": "ขอเมนูหน่อย",
+  "action": "add",
+  "ro": "khɔ̌ɔ mee nuu nɔ̀ɔi",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "メニューをください",
+    "en": "could I have the menu?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "飲食店で店員に言う。ครับ/ค่ะを付けると丁寧。",
+    "example": {
+     "th": "น้องคะ ขอเมนูหน่อยค่ะ",
+     "ro": "nɔ́ɔng khá khɔ̌ɔ mee nuu nɔ̀ɔi khâ",
+     "ja": "すみません、メニューをください。",
+     "en": "Excuse me, could I have the menu?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51879",
+  "th": "ขอน้ำเปล่า",
+  "action": "add",
+  "ro": "khɔ̌ɔ náam plàao",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "お水をください",
+    "en": "water, please",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "น้ำเปล่า は味の付いていない普通の水。ครับ/ค่ะを付けると丁寧。",
+    "example": {
+     "th": "ขอน้ำเปล่าสองขวดครับ",
+     "ro": "khɔ̌ɔ náam plàao sɔ̌ɔng khùuat khráp",
+     "ja": "水を2本ください。",
+     "en": "Two bottles of water, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51880",
+  "th": "ขอน้ำแข็ง",
+  "action": "add",
+  "ro": "khɔ̌ɔ nám khɛ̌ng",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "氷をください",
+    "en": "ice, please",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "飲み物に入れる氷を頼むときに使う。ครับ/ค่ะを付けると丁寧。",
+    "example": {
+     "th": "ร้อนจัง ขอน้ำแข็งด้วยค่ะ",
+     "ro": "rɔ́ɔn cang khɔ̌ɔ nám khɛ̌ng dûuai khâ",
+     "ja": "暑いですね。氷もお願いします。",
+     "en": "It's so hot. Some ice too, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51881",
+  "th": "ไม่เผ็ด",
+  "action": "add",
+  "ro": "mâi phèt",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "辛くしないでください",
+    "en": "not spicy, please",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "注文で使う。文字どおりには「辛くない」で、เผ็ดไหม と聞かれた答えにもなる。",
+    "example": {
+     "th": "ส้มตำจานนึง ไม่เผ็ดนะคะ",
+     "ro": "sôm tam caan nʉng mâi phèt ná khá",
+     "ja": "ソムタムを一皿、辛くしないでください。",
+     "en": "One papaya salad, not spicy, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51882",
+  "th": "เผ็ดน้อย",
+  "action": "add",
+  "ro": "phèt nɔ́ɔi",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "辛さ控えめで",
+    "en": "mildly spicy, please",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "注文で辛さを少なめに頼む言い方。เอาเผ็ดน้อย の形でもよく言う。",
+    "example": {
+     "th": "เอาเผ็ดน้อยนะครับ",
+     "ro": "ao phèt nɔ́ɔi ná khráp",
+     "ja": "辛さ控えめでお願いします。",
+     "en": "Mildly spicy, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51883",
+  "th": "ไม่ใส่ผงชูรส",
+  "action": "add",
+  "ro": "mâi sài phǒng chuu rót",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "化学調味料は入れないでください",
+    "en": "no MSG, please",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ผงชูรส はうま味調味料（グルタミン酸ナトリウム）。屋台などで注文するときに添える。",
+    "example": {
+     "th": "ผัดไทยไม่ใส่ผงชูรสนะครับ",
+     "ro": "phàt thai mâi sài phǒng chuu rót ná khráp",
+     "ja": "パッタイ、化学調味料は入れないでください。",
+     "en": "Pad thai with no MSG, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51884",
+  "th": "ไม่ใส่น้ำแข็ง",
+  "action": "add",
+  "ro": "mâi sài nám khɛ̌ng",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "氷なしで",
+    "en": "no ice, please",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "飲み物を注文するときに添える。ครับ/ค่ะを付けると丁寧。",
+    "example": {
+     "th": "ขอน้ำเปล่า ไม่ใส่น้ำแข็งครับ",
+     "ro": "khɔ̌ɔ náam plàao mâi sài nám khɛ̌ng khráp",
+     "ja": "水を、氷なしでお願いします。",
+     "en": "Water with no ice, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51885",
+  "th": "อร่อยมาก",
+  "action": "add",
+  "ro": "à rɔ̀ɔi mâak",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 9,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "とてもおいしい",
+    "en": "very delicious",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อาหารร้านนี้อร่อยมาก",
+     "ro": "aa hǎan ráan níi à rɔ̀ɔi mâak",
+     "ja": "この店の料理はとてもおいしいです。",
+     "en": "The food at this restaurant is very delicious.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51886",
+  "th": "อิ่มแล้ว",
+  "action": "add",
+  "ro": "ìm lɛ́ɛo",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "お腹いっぱいです・もう十分です",
+    "en": "I'm full",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "勧められた料理を断るときにも使う。",
+    "example": {
+     "th": "ขอบคุณครับ อิ่มแล้ว",
+     "ro": "khɔ̀ɔp khun khráp ìm lɛ́ɛo",
+     "ja": "ありがとうございます、もうお腹いっぱいです。",
+     "en": "Thank you, I'm full.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51887",
+  "th": "หิวแล้ว",
+  "action": "add",
+  "ro": "hǐu lɛ́ɛo",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "お腹すいた",
+    "en": "I'm hungry now",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หิวแล้ว ไปกินข้าวกันเถอะ",
+     "ro": "hǐu lɛ́ɛo pai kin khâao kan thə̀",
+     "ja": "お腹すいた。ご飯を食べに行こう。",
+     "en": "I'm hungry. Let's go eat.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51888",
+  "th": "กินด้วยกันไหม",
+  "action": "add",
+  "ro": "kin dûuai kan mǎi",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "一緒に食べない？",
+    "en": "want to eat together?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "親しい相手に使う。丁寧には ทานด้วยกันไหมครับ／คะ。",
+    "example": {
+     "th": "ฉันจะไปกินข้าว กินด้วยกันไหม",
+     "ro": "chǎn cà pai kin khâao kin dûuai kan mǎi",
+     "ja": "ご飯を食べに行くけど、一緒に食べない？",
+     "en": "I'm going to eat. Want to eat together?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51889",
+  "th": "ใส่ถุงกลับบ้าน",
+  "action": "add",
+  "ro": "sài thǔng klàp bâan",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "持ち帰りで（袋に入れてください）",
+    "en": "to go, please (in a bag)",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "กลับบ้าน だけ、ใส่ถุง だけでも通じる。店員は ทานที่นี่หรือกลับบ้าน と聞くことが多い。",
+    "example": {
+     "th": "ไม่กินที่นี่ ใส่ถุงกลับบ้านค่ะ",
+     "ro": "mâi kin thîi nîi sài thǔng klàp bâan khâ",
+     "ja": "ここでは食べません。持ち帰りでお願いします。",
+     "en": "I won't eat here. To go, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51890",
+  "th": "กินที่นี่",
+  "action": "add",
+  "ro": "kin thîi nîi",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ここで食べます（店内で）",
+    "en": "for here (eat in)",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "店員に持ち帰りか聞かれたときの答え。丁寧には ทานที่นี่。",
+    "example": {
+     "th": "กินที่นี่หรือกลับบ้านคะ กินที่นี่ครับ",
+     "ro": "kin thîi nîi rʉ̌ʉ klàp bâan khá kin thîi nîi khráp",
+     "ja": "店内ですか、お持ち帰りですか。―ここで食べます。",
+     "en": "For here or to go? — For here.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51891",
+  "th": "ห้องน้ำอยู่ที่ไหน",
+  "action": "add",
+  "ro": "hɔ̂ɔng náam yùu thîi nǎi",
+  "kind": "expression",
+  "category": "移動・道案内",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "トイレはどこですか",
+    "en": "where is the restroom?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ครับ/ค่ะを付けると丁寧。",
+    "example": {
+     "th": "ขอโทษครับ ห้องน้ำอยู่ที่ไหนครับ",
+     "ro": "khɔ̌ɔ thôot khráp hɔ̂ɔng náam yùu thîi nǎi khráp",
+     "ja": "すみません、トイレはどこですか。",
+     "en": "Excuse me, where is the restroom?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51892",
+  "th": "ไปยังไง",
+  "action": "add",
+  "ro": "pai yang ngai",
+  "kind": "expression",
+  "category": "移動・道案内",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（〜へは）どうやって行きますか",
+    "en": "how do I get (there)?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "行き先は ไป と ยังไง の間に入れることも多い（ไปสยามยังไง）。改まった形は ไปอย่างไร。",
+    "example": {
+     "th": "สถานีรถไฟฟ้าไปยังไงครับ",
+     "ro": "sà thǎa nii rót fai fáa pai yang ngai khráp",
+     "ja": "電車の駅へはどうやって行きますか。",
+     "en": "How do I get to the train station?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51893",
+  "th": "อยู่ที่ไหน",
+  "action": "add",
+  "ro": "yùu thîi nǎi",
+  "kind": "expression",
+  "category": "移動・道案内",
+  "frequency": 9,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（〜は）どこにありますか・どこにいますか",
+    "en": "where is ...?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "物や場所にも人にも使う。尋ねたいものを前に置く（〜อยู่ที่ไหน）。",
+    "example": {
+     "th": "ตอนนี้คุณอยู่ที่ไหน",
+     "ro": "tɔɔn níi khun yùu thîi nǎi",
+     "ja": "今どこにいますか。",
+     "en": "Where are you now?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51894",
+  "th": "ไกลไหม",
+  "action": "add",
+  "ro": "klai mǎi",
+  "kind": "expression",
+  "category": "移動・道案内",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "遠いですか",
+    "en": "is it far?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "จากที่นี่ไปสถานีไกลไหมครับ",
+     "ro": "càak thîi nîi pai sà thǎa nii klai mǎi khráp",
+     "ja": "ここから駅まで遠いですか。",
+     "en": "Is it far from here to the station?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51895",
+  "th": "ใกล้ไหม",
+  "action": "add",
+  "ro": "klâi mǎi",
+  "kind": "expression",
+  "category": "移動・道案内",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "近いですか",
+    "en": "is it near?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โรงแรมอยู่ใกล้ไหมคะ",
+     "ro": "roong rɛɛm yùu klâi mǎi khá",
+     "ja": "ホテルは近いですか。",
+     "en": "Is the hotel near?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51896",
+  "th": "จอดตรงนี้",
+  "action": "add",
+  "ro": "cɔ̀ɔt trong níi",
+  "kind": "expression",
+  "category": "移動・道案内",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ここで止めてください",
+    "en": "stop here, please",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "タクシーやバイクタクシーで降りる場所を伝える。ครับ/ค่ะを付けると丁寧（จอดตรงนี้ครับ）。",
+    "example": {
+     "th": "พี่ครับ จอดตรงนี้เลยครับ",
+     "ro": "phîi khráp cɔ̀ɔt trong níi ləəi khráp",
+     "ja": "すみません、ここで止めてください。",
+     "en": "Excuse me, please stop right here.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51897",
+  "th": "จอดตรงนี้ครับ",
+  "action": "skip",
+  "skipReason": "จอดตรงนี้（tl-51896）に丁寧語尾 ครับ を付けただけで、違いは จอดตรงนี้ の注記と用例で扱えるため重複として除外。"
+ },
+ {
+  "id": "tl-51898",
+  "th": "ไปสนามบิน",
+  "action": "add",
+  "ro": "pai sà nǎam bin",
+  "kind": "expression",
+  "category": "移動・道案内",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "空港までお願いします",
+    "en": "to the airport, please",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "タクシーで行き先を告げるときは「ไป＋行き先」の形で言う。ครับ/ค่ะを付けると丁寧。",
+    "example": {
+     "th": "ไปสนามบินครับ ใช้เวลานานไหม",
+     "ro": "pai sà nǎam bin khráp chái wee laa naan mǎi",
+     "ja": "空港までお願いします。時間はかかりますか。",
+     "en": "To the airport, please. Will it take long?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51899",
+  "th": "ใช้เวลานานไหม",
+  "action": "add",
+  "ro": "chái wee laa naan mǎi",
+  "kind": "expression",
+  "category": "時間",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "時間はかかりますか",
+    "en": "does it take long?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นั่งรถไฟไปใช้เวลานานไหมครับ",
+     "ro": "nâng rót fai pai chái wee laa naan mǎi khráp",
+     "ja": "電車で行くと時間はかかりますか。",
+     "en": "Does it take long by train?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51900",
+  "th": "กี่นาที",
+  "action": "add",
+  "ro": "kìi naa thii",
+  "kind": "expression",
+  "category": "時間",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何分ですか・何分かかりますか",
+    "en": "how many minutes?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "อีกกี่นาที（あと何分）の形でもよく使う。",
+    "example": {
+     "th": "เดินไปกี่นาทีครับ",
+     "ro": "dəən pai kìi naa thii khráp",
+     "ja": "歩いて何分ですか。",
+     "en": "How many minutes on foot?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51901",
+  "th": "ถึงแล้ว",
+  "action": "add",
+  "ro": "thʉ̌ng lɛ́ɛo",
+  "kind": "expression",
+  "category": "移動・道案内",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "着いた・着きました",
+    "en": "we've arrived",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ถึงแล้วครับ ลงตรงนี้ได้เลย",
+     "ro": "thʉ̌ng lɛ́ɛo khráp long trong níi dâai ləəi",
+     "ja": "着きました。ここで降りられますよ。",
+     "en": "We're here. You can get off here.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51902",
+  "th": "ถึงหรือยัง",
+  "action": "add",
+  "ro": "thʉ̌ng rʉ̌ʉ yang",
+  "kind": "expression",
+  "category": "移動・道案内",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "もう着いた？",
+    "en": "have you arrived yet?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "くだけた会話では ถึงยัง とも言う。",
+    "example": {
+     "th": "ถึงหรือยัง เรารออยู่หน้าร้านนะ",
+     "ro": "thʉ̌ng rʉ̌ʉ yang rao rɔɔ yùu nâa ráan ná",
+     "ja": "もう着いた？私たち、店の前で待ってるよ。",
+     "en": "Are you here yet? We're waiting in front of the shop.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51903",
+  "th": "รอสักครู่",
+  "action": "add",
+  "ro": "rɔɔ sàk khrûu",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "少々お待ちください",
+    "en": "please wait a moment",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "店員や電話の応対でよく使う丁寧な言い方。親しい相手には รอแป๊บนึง。",
+    "example": {
+     "th": "รอสักครู่นะครับ ผมจะไปถามให้",
+     "ro": "rɔɔ sàk khrûu ná khráp phǒm cà pai thǎam hâi",
+     "ja": "少々お待ちください。聞いてきます。",
+     "en": "Please wait a moment. I'll go and ask.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51904",
+  "th": "รอแป๊บนึง",
+  "action": "add",
+  "ro": "rɔɔ pɛ́p nʉng",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ちょっと待って",
+    "en": "wait a sec",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "親しい相手に使う。แป๊บนึง は แป๊บหนึ่ง の口語形で、นึง は軽く平らに読む。",
+    "example": {
+     "th": "รอแป๊บนึง เปลี่ยนเสื้อก่อน",
+     "ro": "rɔɔ pɛ́p nʉng plìian sʉ̂ʉa kɔ̀ɔn",
+     "ja": "ちょっと待って。先に着替える。",
+     "en": "Wait a sec. Let me change my clothes first.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51905",
+  "th": "เดี๋ยวมา",
+  "action": "add",
+  "ro": "dǐiao maa",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "すぐ戻る",
+    "en": "I'll be right back",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "เดี๋ยวมานะ の形が多い。丁寧には เดี๋ยวมาครับ／ค่ะ。",
+    "example": {
+     "th": "ไปห้องน้ำ เดี๋ยวมานะ",
+     "ro": "pai hɔ̂ɔng náam dǐiao maa ná",
+     "ja": "トイレに行ってくる。すぐ戻るね。",
+     "en": "I'm going to the restroom. I'll be right back.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51906",
+  "th": "มาแล้ว",
+  "action": "add",
+  "ro": "maa lɛ́ɛo",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "来た（来たよ）",
+    "en": "here it comes, it's here",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รถเมล์มาแล้ว",
+     "ro": "rót mee maa lɛ́ɛo",
+     "ja": "バスが来たよ。",
+     "en": "The bus is here.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "はい、今行きます（呼ばれたときの返事）",
+    "en": "coming! (reply when called)",
+    "pos": "定型表現",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "呼ばれて返事をするとき、มาแล้วๆ と重ねることも多い。",
+    "example": {
+     "th": "มาแล้วๆ รอแป๊บนะ",
+     "ro": "maa lɛ́ɛo lɛ́ɛo rɔɔ pɛ́p ná",
+     "ja": "はいはい、今行くよ。ちょっと待ってね。",
+     "en": "Coming, coming! Wait a sec.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51907",
+  "th": "ช่วยหน่อย",
+  "action": "add",
+  "ro": "chûuai nɔ̀ɔi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ちょっと手伝って",
+    "en": "give me a hand",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "「ช่วย＋動詞＋หน่อย」（ช่วยปิดประตูหน่อย）で「〜してくれる？」という依頼にもなる。",
+    "example": {
+     "th": "กระเป๋าหนักมาก ช่วยหน่อยได้ไหม",
+     "ro": "krà pǎo nàk mâak chûuai nɔ̀ɔi dâai mǎi",
+     "ja": "かばんがとても重いんだ。ちょっと手伝ってくれる？",
+     "en": "This bag is really heavy. Can you give me a hand?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51908",
+  "th": "ช่วยได้ไหม",
+  "action": "add",
+  "ro": "chûuai dâai mǎi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "手伝ってもらえますか",
+    "en": "can you help?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "相手を入れて ช่วยผมได้ไหม のようにも言う。ช่วยหน่อยได้ไหม の方がやわらかい。",
+    "example": {
+     "th": "เรื่องนี้ผมทำไม่เป็น ช่วยได้ไหมครับ",
+     "ro": "rʉ̂ʉang níi phǒm tham mâi pen chûuai dâai mǎi khráp",
+     "ja": "これ、僕はやり方がわかりません。手伝ってもらえますか。",
+     "en": "I don't know how to do this. Can you help?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51909",
+  "th": "ขอยืมหน่อย",
+  "action": "add",
+  "ro": "khɔ̌ɔ yʉʉm nɔ̀ɔi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ちょっと貸して",
+    "en": "can I borrow it?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "借りたい物を前に置くか、ขอยืม と หน่อย の間に入れる（ขอยืมปากกาหน่อย）。",
+    "example": {
+     "th": "ปากกาขอยืมหน่อยได้ไหม",
+     "ro": "pàak kaa khɔ̌ɔ yʉʉm nɔ̀ɔi dâai mǎi",
+     "ja": "ペン、ちょっと貸してもらえる？",
+     "en": "Can I borrow your pen?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51910",
+  "th": "ขอถามหน่อย",
+  "action": "add",
+  "ro": "khɔ̌ɔ thǎam nɔ̀ɔi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ちょっとお聞きしたいのですが",
+    "en": "may I ask something?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "道や情報を尋ねる前の前置き。ครับ/ค่ะを付けると丁寧。",
+    "example": {
+     "th": "ขอโทษครับ ขอถามหน่อย สถานีอยู่ที่ไหน",
+     "ro": "khɔ̌ɔ thôot khráp khɔ̌ɔ thǎam nɔ̀ɔi sà thǎa nii yùu thîi nǎi",
+     "ja": "すみません、ちょっとお聞きします。駅はどこですか。",
+     "en": "Excuse me, may I ask something? Where is the station?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51911",
+  "th": "ขอผ่านหน่อย",
+  "action": "add",
+  "ro": "khɔ̌ɔ phàan nɔ̀ɔi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ちょっと通してください",
+    "en": "excuse me, let me through",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "混んだ電車や狭い通路で人の前を通るときに言う。",
+    "example": {
+     "th": "ขอโทษค่ะ ขอผ่านหน่อยนะคะ",
+     "ro": "khɔ̌ɔ thôot khâ khɔ̌ɔ phàan nɔ̀ɔi ná khá",
+     "ja": "すみません、ちょっと通してください。",
+     "en": "Excuse me, please let me through.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51912",
+  "th": "ขอทางหน่อย",
+  "action": "add",
+  "ro": "khɔ̌ɔ thaang nɔ̀ɔi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "道をあけてください",
+    "en": "please make way",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ขอผ่านหน่อย とほぼ同じ。荷物を運ぶときや人混みを抜けるときに使う。",
+    "example": {
+     "th": "ขอทางหน่อยครับ ของหนัก",
+     "ro": "khɔ̌ɔ thaang nɔ̀ɔi khráp khɔ̌ɔng nàk",
+     "ja": "道をあけてください。荷物が重いです。",
+     "en": "Please make way. This is heavy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51913",
+  "th": "ขอตัวก่อน",
+  "action": "add",
+  "ro": "khɔ̌ɔ tuua kɔ̀ɔn",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "お先に失礼します",
+    "en": "excuse me, I have to go",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "集まりや職場から先に帰るときに言う。ขอตัวก่อนนะครับ／คะ の形が多い。",
+    "example": {
+     "th": "พรุ่งนี้ต้องตื่นเช้า ขอตัวก่อนนะครับ",
+     "ro": "phrûng níi tɔ̂ɔng tʉ̀ʉn cháao khɔ̌ɔ tuua kɔ̀ɔn ná khráp",
+     "ja": "明日は早起きしないといけないので、お先に失礼します。",
+     "en": "I have to get up early tomorrow, so I'll be going.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51914",
+  "th": "ขอตัวนะ",
+  "action": "skip",
+  "skipReason": "ขอตัวก่อน（tl-51913）とほぼ同じで、語尾 นะ が付いただけ。ขอตัวก่อนนะ の形を ขอตัวก่อน の用例で示したため重複として除外。"
+ },
+ {
+  "id": "tl-51915",
+  "th": "ขอบใจนะ",
+  "action": "add",
+  "ro": "khɔ̀ɔp cai ná",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ありがとね",
+    "en": "thanks",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "年下や親しい相手に使い、目上には使わない。目上には ขอบคุณครับ／ค่ะ。",
+    "example": {
+     "th": "ขอบใจนะที่ช่วยถือของ",
+     "ro": "khɔ̀ɔp cai ná thîi chûuai thʉ̌ʉ khɔ̌ɔng",
+     "ja": "荷物を持ってくれてありがとね。",
+     "en": "Thanks for helping carry my stuff.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51916",
+  "th": "ไม่เป็นไรหรอก",
+  "action": "add",
+  "ro": "mâi pen rai rɔ̀ɔk",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "気にしないで・大丈夫だよ",
+    "en": "it's fine, don't worry",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "หรอก で「大したことじゃない」という気持ちが加わる。目上には ไม่เป็นไรครับ／ค่ะ。",
+    "example": {
+     "th": "ขอโทษนะที่มาสาย ไม่เป็นไรหรอก",
+     "ro": "khɔ̌ɔ thôot ná thîi maa sǎai mâi pen rai rɔ̀ɔk",
+     "ja": "遅れてごめんね。―気にしないで。",
+     "en": "Sorry I'm late. — Don't worry about it.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51917",
+  "th": "ไม่ต้องเกรงใจ",
+  "action": "add",
+  "ro": "mâi tɔ̂ɔng kreeng cai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "遠慮しないで",
+    "en": "don't be shy, make yourself at home",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "เกรงใจ は相手に迷惑をかけまいと気を遣うこと。もてなす側がよく言う。",
+    "example": {
+     "th": "กินเยอะๆนะ ไม่ต้องเกรงใจ",
+     "ro": "kin yə́ yə́ ná mâi tɔ̂ɔng kreeng cai",
+     "ja": "たくさん食べてね。遠慮しないで。",
+     "en": "Eat a lot. Don't hold back.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51918",
+  "th": "ตามสบายนะ",
+  "action": "add",
+  "ro": "taam sà baai ná",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "楽にしてね・ご自由にどうぞ",
+    "en": "make yourself comfortable",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "客をもてなすときや、相手に好きにしてよいと伝えるときに使う。ตามสบายเลย とも。",
+    "example": {
+     "th": "นั่งตามสบายนะ เดี๋ยวไปเอาน้ำมาให้",
+     "ro": "nâng taam sà baai ná dǐiao pai ao náam maa hâi",
+     "ja": "楽に座ってね。今お水を持ってくるから。",
+     "en": "Sit wherever you like. I'll go get you some water.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51919",
+  "th": "เชิญครับ",
+  "action": "add",
+  "ro": "chəən khráp",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どうぞ",
+    "en": "please, go ahead",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "男性が使う。女性は เชิญค่ะ。席や順番を譲るときや、客を招くときに言う。",
+    "example": {
+     "th": "เชิญครับ นั่งตรงนี้ได้เลย",
+     "ro": "chəən khráp nâng trong níi dâai ləəi",
+     "ja": "どうぞ、ここに座ってください。",
+     "en": "Please, have a seat here.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51920",
+  "th": "เชิญค่ะ",
+  "action": "add",
+  "ro": "chəən khâ",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どうぞ",
+    "en": "please, go ahead",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "女性が使う。男性は เชิญครับ。席や順番を譲るときや、客を招くときに言う。",
+    "example": {
+     "th": "เชิญค่ะ ข้างในมีที่นั่ง",
+     "ro": "chəən khâ khâang nai mii thîi nâng",
+     "ja": "どうぞ。中に席があります。",
+     "en": "Please come in. There are seats inside.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51921",
+  "th": "เชิญเลย",
+  "action": "add",
+  "ro": "chəən ləəi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どうぞどうぞ・お先にどうぞ",
+    "en": "go ahead",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "順番や道を譲るときに言う。ครับ/ค่ะを付けると丁寧。",
+    "example": {
+     "th": "ผมไม่รีบ เชิญเลยครับ",
+     "ro": "phǒm mâi rîip chəən ləəi khráp",
+     "ja": "私は急いでいないので、お先にどうぞ。",
+     "en": "I'm not in a hurry. Go ahead.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51922",
+  "th": "เชิญข้างใน",
+  "action": "add",
+  "ro": "chəən khâang nai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "中へどうぞ",
+    "en": "please come in",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "店員や家の人が客を招き入れるときに言う。",
+    "example": {
+     "th": "สวัสดีค่ะ เชิญข้างในเลยค่ะ",
+     "ro": "sà wàt dii khâ chəən khâang nai ləəi khâ",
+     "ja": "いらっしゃいませ。中へどうぞ。",
+     "en": "Hello, please come on in.",
+     "origin": "authored"
+    }
+   }
+  ]
+ }
+]
