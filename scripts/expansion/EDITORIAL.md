@@ -79,3 +79,5 @@ ordering food, directions and taxis, hotel, time, feelings and reactions, invita
 - `frequency` 1–10: how often a learner hears/uses it in daily life in Thailand.
 - Skip a candidate that is not something Thais actually say as a set phrase, sounds unnatural or
   translated from Japanese, or duplicates another candidate with no difference worth teaching.
+
+editorial-007 is a second batch of conversational set phrases: follow the editorial-006 rules exactly (they apply unchanged).

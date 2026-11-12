@@ -1,0 +1,1094 @@
+[
+ {
+  "id": "tl-52278",
+  "th": "แน่นอนอยู่แล้ว",
+  "action": "add",
+  "ro": "nɛ̂ɛ nɔɔn yùu lɛ́ɛo",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "もちろんだよ・当然でしょ",
+    "en": "of course, naturally",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "誘いや確認に「言うまでもなく」と強く請け合う返事。親しい相手に使い、丁寧にはครับ/ค่ะを付ける。",
+    "example": {
+     "th": "พรุ่งนี้มาไหม แน่นอนอยู่แล้ว",
+     "ro": "phrûng níi maa mǎi nɛ̂ɛ nɔɔn yùu lɛ́ɛo",
+     "ja": "「明日来る？」「もちろんだよ。」",
+     "en": "\"Are you coming tomorrow?\" \"Of course.\"",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52279",
+  "th": "ไม่น่าเชื่อ",
+  "action": "add",
+  "ro": "mâi nâa chʉ̂ʉa",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "信じられない・まさか",
+    "en": "unbelievable, hard to believe",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "驚いたときの反応として単独でも文頭でも使う。良い知らせにも悪い知らせにも使える。",
+    "example": {
+     "th": "ไม่น่าเชื่อ เขาสอบผ่านแล้ว",
+     "ro": "mâi nâa chʉ̂ʉa khǎo sɔ̀ɔp phàan lɛ́ɛo",
+     "ja": "信じられない、彼が試験に受かった。",
+     "en": "Unbelievable, he passed the exam.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52280",
+  "th": "เหลือเชื่อเลย",
+  "action": "skip",
+  "skipReason": "既存の เหลือเชื่อ（信じられない）に強調の เลย を付けただけで、別に教える違いがないため。"
+ },
+ {
+  "id": "tl-52281",
+  "th": "สุดยอดเลย",
+  "action": "add",
+  "ro": "sùt yɔ̂ɔt ləəi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "すごい！・最高！",
+    "en": "awesome!, amazing!",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "感心したときの感嘆として単独で言う。友人同士では สุดยอด だけでも言う。丁寧にはครับ/ค่ะを付ける。",
+    "example": {
+     "th": "ทำอาหารเองเหรอ สุดยอดเลย",
+     "ro": "tham aa hǎan eeng rə̌ə sùt yɔ̂ɔt ləəi",
+     "ja": "自分で料理したの？すごい！",
+     "en": "You cooked this yourself? Amazing!",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52282",
+  "th": "เจ๋งมาก",
+  "action": "skip",
+  "skipReason": "既存の เจ๋ง（かっこいい・すごい）に มาก を付けただけの普通の組み合わせで、定型表現として別に教える違いがないため。"
+ },
+ {
+  "id": "tl-52283",
+  "th": "น่ากินจัง",
+  "action": "add",
+  "ro": "nâa kin cang",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "おいしそう！",
+    "en": "looks delicious!",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "料理や食べ物を見て思わず言う感嘆。親しい相手との会話でよく使う。น่า〜จังで「〜したくなる、〜しそう」という型の代表例。",
+    "example": {
+     "th": "ส้มตำจานนี้น่ากินจัง",
+     "ro": "sôm tam caan níi nâa kin cang",
+     "ja": "このソムタム、おいしそう！",
+     "en": "This som tam looks so delicious!",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52284",
+  "th": "น่าไปจัง",
+  "action": "skip",
+  "skipReason": "น่ากินจัง と同じ「น่า〜จัง」の型に動詞を入れ替えただけで、別に教える違いが少ないため（น่ากินจัง の項で型として扱う）。"
+ },
+ {
+  "id": "tl-52285",
+  "th": "อยากไปจัง",
+  "action": "add",
+  "ro": "yàak pai cang",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "行きたいなあ",
+    "en": "I really want to go",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "写真や話を聞いて行きたい気持ちを込めて言う。อยาก〜จังで「〜したいなあ」という型で、อยากกินจัง（食べたいなあ）なども同様に言える。親しい相手に使う。",
+    "example": {
+     "th": "ทะเลสวยมาก อยากไปจัง",
+     "ro": "thá lee sǔuai mâak yàak pai cang",
+     "ja": "海がすごくきれい。行きたいなあ。",
+     "en": "The sea is so beautiful. I really want to go.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52286",
+  "th": "อยากกินจัง",
+  "action": "skip",
+  "skipReason": "อยากไปจัง と同じ「อยาก〜จัง」の型に動詞を入れ替えただけで、別に教える違いが少ないため（อยากไปจัง の項の注記で扱う）。"
+ },
+ {
+  "id": "tl-52287",
+  "th": "ขอให้สนุกนะ",
+  "action": "add",
+  "ro": "khɔ̌ɔ hâi sà nùk ná",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "楽しんでね",
+    "en": "have fun, enjoy yourself",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "出かける相手、パーティーやイベントに行く相手に言う。丁寧にはขอให้สนุกนะครับ/คะ。",
+    "example": {
+     "th": "ไปงานเลี้ยงเหรอ ขอให้สนุกนะ",
+     "ro": "pai ngaan líiang rə̌ə khɔ̌ɔ hâi sà nùk ná",
+     "ja": "パーティーに行くの？楽しんでね。",
+     "en": "Going to a party? Have fun.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52288",
+  "th": "เที่ยวให้สนุกนะ",
+  "action": "add",
+  "ro": "thîiao hâi sà nùk ná",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "旅行楽しんでね・楽しんできてね",
+    "en": "enjoy your trip",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "旅行や遊びに出かける相手に言う見送りの言葉。ขอให้สนุกนะより旅行・遊びの場面に限られる。",
+    "example": {
+     "th": "พรุ่งนี้ไปเชียงใหม่ใช่ไหม เที่ยวให้สนุกนะ",
+     "ro": "phrûng níi pai chiiang mài châi mǎi thîiao hâi sà nùk ná",
+     "ja": "明日チェンマイに行くんだよね。旅行楽しんでね。",
+     "en": "You're going to Chiang Mai tomorrow, right? Enjoy your trip.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52289",
+  "th": "เดินทางดีๆ",
+  "action": "skip",
+  "skipReason": "既存の เดินทางปลอดภัย（気をつけて行ってね）と同じ場面の言い方で、定型としては เดินทางปลอดภัย の方が一般的なため。"
+ },
+ {
+  "id": "tl-52290",
+  "th": "ถึงแล้วบอกด้วย",
+  "action": "add",
+  "ro": "thʉ̌ng lɛ́ɛo bɔ̀ɔk dûuai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "着いたら教えてね・着いたら連絡してね",
+    "en": "let me know when you get there",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "帰宅や移動する家族・友人・恋人に言う。後ろにนะを付けてやわらかくすることが多い。",
+    "example": {
+     "th": "กลับบ้านดีๆ นะ ถึงแล้วบอกด้วย",
+     "ro": "klàp bâan dii dii ná thʉ̌ng lɛ́ɛo bɔ̀ɔk dûuai",
+     "ja": "気をつけて帰ってね。着いたら教えてね。",
+     "en": "Get home safely. Let me know when you get there.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52291",
+  "th": "ดูแลตัวเองนะ",
+  "action": "skip",
+  "skipReason": "既存の ดูแลตัวเองด้วย（体に気をつけてね）と語気の語尾が違うだけで、別に教える違いがないため。"
+ },
+ {
+  "id": "tl-52292",
+  "th": "คิดถึงเสมอ",
+  "action": "skip",
+  "skipReason": "既存の คิดถึงนะ・คิดถึงจัง と同じ気持ちを表す言い方で、手紙やカード向けの言い回しとして別に教える違いが少ないため。"
+ },
+ {
+  "id": "tl-52293",
+  "th": "รักษาสุขภาพด้วย",
+  "action": "add",
+  "ro": "rák sǎa sùk khà phâap dûuai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "健康に気をつけてね・体を大事にしてね",
+    "en": "take care of your health",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "別れ際や手紙・メッセージの結びで、相手の健康を気づかって言う。目上にも使え、นะครับ/นะคะを付けると丁寧。",
+    "example": {
+     "th": "อากาศหนาวแล้ว รักษาสุขภาพด้วยนะ",
+     "ro": "aa kàat nǎao lɛ́ɛo rák sǎa sùk khà phâap dûuai ná",
+     "ja": "寒くなったから、体に気をつけてね。",
+     "en": "It's gotten cold, so take care of your health.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52294",
+  "th": "หลับฝันดี",
+  "action": "skip",
+  "skipReason": "既存の ฝันดี・นอนหลับฝันดี（おやすみ）とほぼ同じで、別に教える違いがないため。"
+ },
+ {
+  "id": "tl-52295",
+  "th": "ตื่นแล้วเหรอ",
+  "action": "add",
+  "ro": "tʉ̀ʉn lɛ́ɛo rə̌ə",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "もう起きたの？・起きた？",
+    "en": "you're up?, are you awake already?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "朝、起きてきた家族に声をかけたり、朝のメッセージで相手に聞いたりする。親しい相手向け。",
+    "example": {
+     "th": "ตื่นแล้วเหรอ กินข้าวเช้าก่อนนะ",
+     "ro": "tʉ̀ʉn lɛ́ɛo rə̌ə kin khâao cháao kɔ̀ɔn ná",
+     "ja": "もう起きたの？まず朝ご飯を食べてね。",
+     "en": "You're up? Have breakfast first.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52296",
+  "th": "ง่วงนอนจัง",
+  "action": "skip",
+  "skipReason": "既存の ง่วงแล้ว（眠くなった）と同じ場面の言い方で、ง่วงนอน に จัง を付けただけのため別に教える違いが少ない。"
+ },
+ {
+  "id": "tl-52297",
+  "th": "ไปอาบน้ำก่อน",
+  "action": "add",
+  "ro": "pai àap náam kɔ̀ɔn",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "先にシャワー浴びてくる",
+    "en": "I'll go take a shower first",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "会話やチャットを一旦切り上げるときに家族・友人に言う。後ろにนะを付けることが多い。อาบน้ำはシャワーも入浴も含む。",
+    "example": {
+     "th": "เดี๋ยวคุยกันใหม่ ไปอาบน้ำก่อนนะ",
+     "ro": "dǐiao khui kan mài pai àap náam kɔ̀ɔn ná",
+     "ja": "また後で話そう。先にシャワー浴びてくるね。",
+     "en": "Let's talk later. I'm going to take a shower first.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52298",
+  "th": "กลับมาแล้ว",
+  "action": "add",
+  "ro": "klàp maa lɛ́ɛo",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ただいま・帰ってきたよ",
+    "en": "I'm home, I'm back",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "タイ語に「ただいま」専用の決まり文句はなく、帰宅時にこう言う。迎える側は กลับมาแล้วเหรอ（おかえり）と返す。丁寧にはครับ/ค่ะを付ける。",
+    "example": {
+     "th": "แม่ครับ กลับมาแล้วครับ",
+     "ro": "mɛ̂ɛ khráp klàp maa lɛ́ɛo khráp",
+     "ja": "お母さん、ただいま。",
+     "en": "Mom, I'm home.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52299",
+  "th": "กลับมาแล้วเหรอ",
+  "action": "add",
+  "ro": "klàp maa lɛ́ɛo rə̌ə",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "おかえり・帰ってきたの？",
+    "en": "welcome back, oh, you're back?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "帰宅した家族や戻ってきた人を迎えるときの言葉。タイ語に「おかえり」専用の決まり文句はなく、こう声をかける。親しい相手向け。",
+    "example": {
+     "th": "กลับมาแล้วเหรอ เหนื่อยไหม",
+     "ro": "klàp maa lɛ́ɛo rə̌ə nʉ̀ʉai mǎi",
+     "ja": "おかえり。疲れた？",
+     "en": "Oh, you're back. Are you tired?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52300",
+  "th": "เชิญทานข้าว",
+  "action": "skip",
+  "skipReason": "既存の เชิญครับ／เชิญเลย（どうぞ）と重なり、日本語の「召し上がれ」に当たる決まった言い方としては定着しているか確信が持てないため。"
+ },
+ {
+  "id": "tl-52301",
+  "th": "ทานให้อร่อยนะ",
+  "action": "add",
+  "ro": "thaan hâi à rɔ̀ɔi ná",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "おいしく召し上がってね・どうぞ召し上がれ",
+    "en": "enjoy your meal",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "店員が料理を出すときや、料理を作った人・ごちそうする人が言う。店員はทานให้อร่อยนะคะ/ครับと丁寧に言う。",
+    "example": {
+     "th": "อาหารมาแล้วค่ะ ทานให้อร่อยนะคะ",
+     "ro": "aa hǎan maa lɛ́ɛo khâ thaan hâi à rɔ̀ɔi ná khá",
+     "ja": "お料理が来ました。おいしく召し上がってくださいね。",
+     "en": "Here's your food. Enjoy your meal.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52302",
+  "th": "ขอเข้าไปได้ไหม",
+  "action": "add",
+  "ro": "khɔ̌ɔ khâo pai dâai mǎi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "入ってもいいですか",
+    "en": "may I come in?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "部屋や店、家に入る前に許可を求める。丁寧にはขอเข้าไปได้ไหมครับ/คะ。",
+    "example": {
+     "th": "ขอโทษครับ ขอเข้าไปได้ไหมครับ",
+     "ro": "khɔ̌ɔ thôot khráp khɔ̌ɔ khâo pai dâai mǎi khráp",
+     "ja": "すみません、入ってもいいですか。",
+     "en": "Excuse me, may I come in?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52303",
+  "th": "ขอนั่งด้วยได้ไหม",
+  "action": "add",
+  "ro": "khɔ̌ɔ nâng dûuai dâai mǎi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ご一緒してもいいですか・相席してもいいですか",
+    "en": "may I sit with you?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "すでに人が座っている席に同席したいときに言う。空席かどうか聞くだけならที่นี่ว่างไหม。丁寧にはครับ/คะを付ける。",
+    "example": {
+     "th": "โต๊ะเต็มหมดเลย ขอนั่งด้วยได้ไหมคะ",
+     "ro": "tó tem mòt ləəi khɔ̌ɔ nâng dûuai dâai mǎi khá",
+     "ja": "テーブルが全部埋まっていて。ご一緒してもいいですか。",
+     "en": "All the tables are full. May I sit with you?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52304",
+  "th": "ขอใช้ห้องน้ำหน่อย",
+  "action": "add",
+  "ro": "khɔ̌ɔ chái hɔ̂ɔng náam nɔ̀ɔi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "トイレを貸してください・トイレをお借りします",
+    "en": "may I use the bathroom?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "店や知人の家でトイレを借りるときに言う。丁寧には後ろにได้ไหมครับ/คะを付ける。",
+    "example": {
+     "th": "ขอใช้ห้องน้ำหน่อยได้ไหมครับ",
+     "ro": "khɔ̌ɔ chái hɔ̂ɔng náam nɔ̀ɔi dâai mǎi khráp",
+     "ja": "トイレをお借りしてもいいですか。",
+     "en": "May I use the bathroom?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52305",
+  "th": "มีปากกาไหม",
+  "action": "skip",
+  "skipReason": "มี〜ไหม（〜ありますか）の型に名詞を入れただけの普通の文で、定型表現ではないため。"
+ },
+ {
+  "id": "tl-52306",
+  "th": "ยืมปากกาหน่อย",
+  "action": "skip",
+  "skipReason": "名詞を入れ替えられる普通の依頼文で定型表現ではないため。また自然には ขอยืมปากกาหน่อย と ขอ を付けて言うことが多い。"
+ },
+ {
+  "id": "tl-52307",
+  "th": "ขอเวลาสักครู่",
+  "action": "add",
+  "ro": "khɔ̌ɔ wee laa sàk khrûu",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "少々お時間をください",
+    "en": "please give me a moment",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "note": "店員・窓口・仕事の場面で、相手に少し待ってもらうときの丁寧な言い方。ขอเวลาสักครู่นะครับ/คะの形が多い。",
+    "example": {
+     "th": "ขอเวลาสักครู่นะคะ เดี๋ยวกลับมาค่ะ",
+     "ro": "khɔ̌ɔ wee laa sàk khrûu ná khá dǐiao klàp maa khâ",
+     "ja": "少々お時間をください。すぐ戻ります。",
+     "en": "Please give me a moment. I'll be right back.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52308",
+  "th": "ไม่มีเวลา",
+  "action": "skip",
+  "skipReason": "既存の ไม่มี（〜がない）に เวลา（時間）を付けただけの普通の文で、定型表現として別に教える違いがないため。"
+ },
+ {
+  "id": "tl-52309",
+  "th": "ไม่ทันแล้ว",
+  "action": "add",
+  "ro": "mâi than lɛ́ɛo",
+  "kind": "expression",
+  "category": "時間",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "もう間に合わない・間に合わなかった",
+    "en": "it's too late, we won't make it",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "電車・約束・締め切りなどにもう間に合わないと分かったときに言う。",
+    "example": {
+     "th": "รถไฟออกแล้ว ไม่ทันแล้ว",
+     "ro": "rót fai ɔ̀ɔk lɛ́ɛo mâi than lɛ́ɛo",
+     "ja": "電車がもう出ちゃった。間に合わなかった。",
+     "en": "The train has left. We didn't make it.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52310",
+  "th": "ทันพอดี",
+  "action": "add",
+  "ro": "than phɔɔ dii",
+  "kind": "expression",
+  "category": "時間",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ちょうど間に合った・ぎりぎりセーフ",
+    "en": "just in time",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "時間ぎりぎりで間に合ったときに言う。後ろにเลยを付けて強めることが多い。",
+    "example": {
+     "th": "วิ่งมาทันพอดีเลย",
+     "ro": "wîng maa than phɔɔ dii ləəi",
+     "ja": "走ってきて、ちょうど間に合った。",
+     "en": "I ran here and made it just in time.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52311",
+  "th": "สุขสันต์วันสงกรานต์",
+  "action": "add",
+  "ro": "sùk sǎn wan sǒng kraan",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ソンクラーンおめでとう・タイ正月おめでとう",
+    "en": "Happy Songkran",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "4月13〜15日のソンクラーン（タイ正月）に交わすあいさつ。丁寧にはนะครับ/นะคะを付ける。",
+    "example": {
+     "th": "สุขสันต์วันสงกรานต์นะครับ",
+     "ro": "sùk sǎn wan sǒng kraan ná khráp",
+     "ja": "ソンクラーンおめでとうございます。",
+     "en": "Happy Songkran.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52312",
+  "th": "สุขสันต์วันแม่",
+  "action": "add",
+  "ro": "sùk sǎn wan mɛ̂ɛ",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "母の日おめでとう",
+    "en": "Happy Mother's Day",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "タイの母の日は8月12日。母親に直接言うほか、カードやSNSの投稿にも使う。",
+    "example": {
+     "th": "สุขสันต์วันแม่ครับ รักแม่นะ",
+     "ro": "sùk sǎn wan mɛ̂ɛ khráp rák mɛ̂ɛ ná",
+     "ja": "母の日おめでとう。お母さん大好きだよ。",
+     "en": "Happy Mother's Day. I love you, Mom.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52313",
+  "th": "ยินดีด้วยกับความสำเร็จ",
+  "action": "skip",
+  "skipReason": "既存の ยินดีด้วย（おめでとう）に「〜について」の補語を付けただけで、別に教える違いがないため。改まった形は ขอแสดงความยินดี の項で扱う。"
+ },
+ {
+  "id": "tl-52314",
+  "th": "ขอแสดงความเสียใจ",
+  "action": "add",
+  "ro": "khɔ̌ɔ sà dɛɛng khwaam sǐia cai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "お悔やみ申し上げます",
+    "en": "my condolences",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "note": "葬儀や訃報に対する改まったお悔やみの言葉。話し言葉ではขอแสดงความเสียใจด้วยの形が多い。日常の「残念だったね」には เสียใจด้วย を使う。",
+    "example": {
+     "th": "ขอแสดงความเสียใจด้วยนะครับ",
+     "ro": "khɔ̌ɔ sà dɛɛng khwaam sǐia cai dûuai ná khráp",
+     "ja": "お悔やみ申し上げます。",
+     "en": "My condolences.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52315",
+  "th": "ขอแสดงความยินดี",
+  "action": "add",
+  "ro": "khɔ̌ɔ sà dɛɛng khwaam yin dii",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "おめでとうございます（改まった祝辞）",
+    "en": "congratulations (formal)",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "note": "結婚・昇進・卒業などを改まって祝う言い方で、スピーチや祝いのメッセージで使う。〜กับ…で祝う内容を続ける。親しい相手には ยินดีด้วย。",
+    "example": {
+     "th": "ขอแสดงความยินดีกับการเลื่อนตำแหน่งครับ",
+     "ro": "khɔ̌ɔ sà dɛɛng khwaam yin dii kàp kaan lʉ̂ʉan tam nɛ̀ng khráp",
+     "ja": "ご昇進おめでとうございます。",
+     "en": "Congratulations on your promotion.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52316",
+  "th": "ขอบพระคุณมากครับ",
+  "action": "skip",
+  "skipReason": "既存の ขอบพระคุณ（誠にありがとうございます）に มาก・ครับ を付けただけで、別に教える違いがないため（ขอบคุณมากครับ と同じ扱い）。"
+ },
+ {
+  "id": "tl-52317",
+  "th": "ไม่เป็นไรครับผม",
+  "action": "skip",
+  "skipReason": "既存の ไม่เป็นไรครับ と ครับผม の組み合わせで、別に教える違いがないため（ครับผม は既存項目で扱う）。"
+ },
+ {
+  "id": "tl-52318",
+  "th": "ขอโทษที่ไม่ได้รับสาย",
+  "action": "add",
+  "ro": "khɔ̌ɔ thôot thîi mâi dâai ráp sǎai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "電話に出られなくてごめん（ごめんなさい）",
+    "en": "sorry I missed your call",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "着信に気づかなかった・出られなかったときに折り返しやメッセージで言う。丁寧にはนะครับ/นะคะを付ける。",
+    "example": {
+     "th": "ขอโทษที่ไม่ได้รับสายนะ ตอนนั้นประชุมอยู่",
+     "ro": "khɔ̌ɔ thôot thîi mâi dâai ráp sǎai ná tɔɔn nán prà chum yùu",
+     "ja": "電話に出られなくてごめんね。その時会議中だったんだ。",
+     "en": "Sorry I missed your call. I was in a meeting then.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52319",
+  "th": "ไม่เป็นไรค่อยเป็นค่อยไป",
+  "action": "skip",
+  "skipReason": "既存の ไม่เป็นไร と慣用句 ค่อยเป็นค่อยไป（焦らずゆっくり）を続けただけで、一つの定型表現ではないため（ค่อยเป็นค่อยไป 単独なら別項目の候補）。"
+ },
+ {
+  "id": "tl-52320",
+  "th": "ทำดีมาก",
+  "action": "skip",
+  "skipReason": "「よくやったね」は既存の ดีมาก（よくできました）・เก่งมาก（よくできたね）と重なるため。また、ほめ言葉としては ทำได้ดีมาก の形が普通。"
+ },
+ {
+  "id": "tl-52321",
+  "th": "เก่งมากเลย",
+  "action": "skip",
+  "skipReason": "既存の เก่งมาก（よくできたね）に強調の เลย を付けただけで、別に教える違いがないため。"
+ },
+ {
+  "id": "tl-52322",
+  "th": "ขอบคุณที่บอก",
+  "action": "add",
+  "ro": "khɔ̀ɔp khun thîi bɔ̀ɔk",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "教えてくれてありがとう",
+    "en": "thanks for telling me",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "知らせや注意をしてくれた相手へのお礼。丁寧にはขอบคุณที่บอกนะครับ/คะ。",
+    "example": {
+     "th": "ร้านปิดวันนี้เหรอ ขอบคุณที่บอกนะ",
+     "ro": "ráan pìt wan níi rə̌ə khɔ̀ɔp khun thîi bɔ̀ɔk ná",
+     "ja": "お店、今日休みなの？教えてくれてありがとう。",
+     "en": "The shop is closed today? Thanks for telling me.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52323",
+  "th": "ขอบคุณสำหรับอาหาร",
+  "action": "skip",
+  "skipReason": "日本語の「ごちそうさま」を訳したような言い方で、タイ語の会話で食後の定型句として言う習慣がないため。"
+ },
+ {
+  "id": "tl-52324",
+  "th": "อิ่มอร่อย",
+  "action": "skip",
+  "skipReason": "主に広告や宣伝文句で使う形容の組み合わせで、食後のあいさつとして会話で言う定型表現ではないため。"
+ },
+ {
+  "id": "tl-52325",
+  "th": "ไปเที่ยวมาเหรอ",
+  "action": "add",
+  "ro": "pai thîiao maa rə̌ə",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "旅行に行ってきたの？・遊びに行ってきたの？",
+    "en": "have you been on a trip?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "しばらく会わなかった相手や、日焼け・お土産などに気づいたときに聞く。親しい相手向け。",
+    "example": {
+     "th": "ไม่เจอกันนาน ไปเที่ยวมาเหรอ",
+     "ro": "mâi cəə kan naan pai thîiao maa rə̌ə",
+     "ja": "久しぶり。旅行に行ってきたの？",
+     "en": "Long time no see. Have you been on a trip?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52326",
+  "th": "สบายดีนะ",
+  "action": "skip",
+  "skipReason": "既存の สบายดีไหม・สบายดีครับ／ค่ะ と重なり、語尾 นะ による「元気でね／元気だよね」の違いは定型として教えるほどではないため。"
+ },
+ {
+  "id": "tl-52327",
+  "th": "มีอะไรก็บอกนะ",
+  "action": "add",
+  "ro": "mii à rai kɔ̂ɔ bɔ̀ɔk ná",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何かあったら言ってね",
+    "en": "let me know if you need anything",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "困ったことや頼みたいことがあれば遠慮なく言ってほしいと伝える。友人・同僚・目下に使い、丁寧にはมีอะไรก็บอกนะครับ/คะ。",
+    "example": {
+     "th": "ไม่ต้องเกรงใจ มีอะไรก็บอกนะ",
+     "ro": "mâi tɔ̂ɔng kreeng cai mii à rai kɔ̂ɔ bɔ̀ɔk ná",
+     "ja": "遠慮しないで。何かあったら言ってね。",
+     "en": "Don't hold back. Let me know if you need anything.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52328",
+  "th": "ไม่เป็นไรมีอะไรโทรมา",
+  "action": "skip",
+  "skipReason": "既存の ไม่เป็นไร と「มีอะไรโทรมา（何かあったら電話して）」を続けただけで一つの定型表現ではなく、มีอะไรก็บอกนะ・แล้วโทรมานะ と重なるため。"
+ },
+ {
+  "id": "tl-52329",
+  "th": "ขอเบอร์โทรได้ไหม",
+  "action": "skip",
+  "skipReason": "既存の ขอเบอร์หน่อย（電話番号教えて、tl-60029）と同じ依頼で、その項に普通の場面でも使えると注記があるため。"
+ },
+ {
+  "id": "tl-52330",
+  "th": "ช่วงนี้เป็นไงบ้าง",
+  "action": "skip",
+  "skipReason": "既存の เป็นไงบ้าง（最近どう？）に ช่วงนี้（最近）を付けた形で、既存項目の用例そのものになっているため。"
+ },
+ {
+  "id": "tl-52331",
+  "th": "ยุ่งไหม",
+  "action": "add",
+  "ro": "yûng mǎi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "忙しい？",
+    "en": "are you busy?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "頼みごとや話を切り出す前に相手の都合を聞く。ตอนนี้ยุ่งไหม（今忙しい？）の形も多い。丁寧にはยุ่งไหมครับ/คะ。",
+    "example": {
+     "th": "ตอนนี้ยุ่งไหม ขอคุยหน่อย",
+     "ro": "tɔɔn níi yûng mǎi khɔ̌ɔ khui nɔ̀ɔi",
+     "ja": "今忙しい？ちょっと話したいんだけど。",
+     "en": "Are you busy now? I'd like to talk.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52332",
+  "th": "ทำอะไรอยู่",
+  "action": "add",
+  "ro": "tham à rai yùu",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何してるの？",
+    "en": "what are you doing?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "友人・恋人・家族へのチャットや電話の第一声として非常によく使う。あいさつ代わりにもなる。",
+    "example": {
+     "th": "ทำอะไรอยู่ ว่างไหม",
+     "ro": "tham à rai yùu wâang mǎi",
+     "ja": "何してるの？暇？",
+     "en": "What are you doing? Are you free?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52333",
+  "th": "กินอะไรดี",
+  "action": "add",
+  "ro": "kin à rai dii",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何食べようか・何を食べよう",
+    "en": "what should we eat?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "食事の相談で友人・家族に言う。独り言でも使う。〜อะไรดีで「何を〜しようか」という型。",
+    "example": {
+     "th": "หิวแล้ว เที่ยงนี้กินอะไรดี",
+     "ro": "hǐu lɛ́ɛo thîiang níi kin à rai dii",
+     "ja": "お腹すいた。今日のお昼、何食べようか。",
+     "en": "I'm hungry. What should we eat for lunch?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52334",
+  "th": "ไปไหนดี",
+  "action": "add",
+  "ro": "pai nǎi dii",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どこ行こうか",
+    "en": "where should we go?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "遊びや旅行の行き先を相談するときに言う。独り言でも使う。",
+    "example": {
+     "th": "วันหยุดยาวนี้ไปไหนดี",
+     "ro": "wan yùt yaao níi pai nǎi dii",
+     "ja": "今度の連休、どこ行こうか。",
+     "en": "Where should we go this long weekend?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52335",
+  "th": "เอาไงดี",
+  "action": "add",
+  "ro": "ao ngai dii",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どうしようか・どうする？",
+    "en": "what should we do?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "予定が狂ったときや決めかねているときに相手に相談する言い方。親しい相手に使う。丁寧な形はทำอย่างไรดี。",
+    "example": {
+     "th": "ฝนตกหนักเลย เอาไงดี",
+     "ro": "fǒn tòk nàk ləəi ao ngai dii",
+     "ja": "雨がひどいね。どうしようか。",
+     "en": "It's raining hard. What should we do?",
+     "origin": "authored"
+    }
+   }
+  ]
+ }
+]
