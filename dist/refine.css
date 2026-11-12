@@ -537,3 +537,9 @@ html body .w-parts-plus{font-weight:700;color:#7d8c74;font-size:18px}
 .x-levels .x-chips button[aria-pressed=true] b{opacity:1}
 .x-dict-label{margin-bottom:8px}
 html body .x-levels .x-chips button{flex-direction:row;align-items:baseline;justify-content:center;gap:4px;min-height:34px;padding:6px 4px;border-radius:10px}
+/* Next / rating buttons stay within reach: they stick above the bottom navigation while the card scrolls */
+.w-card-rating,.g-card .w-session-bottom,.w-quiz-next,.quiz-next{position:sticky;bottom:12px;z-index:6;background:var(--x-surface);padding:10px 0;margin-left:-2px;margin-right:-2px}
+@media (max-width:650px){.w-card-rating,.g-card .w-session-bottom,.w-quiz-next,.quiz-next{bottom:calc(72px + env(safe-area-inset-bottom));box-shadow:0 -10px 14px -12px rgba(22,51,43,.35)}}
+.x-range-panel{padding:10px 12px;margin-bottom:12px}
+.x-range-panel .x-label{display:none}
+.g-card .w-session-bottom .btn,.w-quiz-next .btn{width:100%;max-width:420px}
