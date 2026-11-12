@@ -23638,5 +23638,426 @@
 "from": "他人を誹謗中傷するな",
 "to": "他人を誹謗中傷するな。",
 "reason": "句読点の統一（半角の . , ? ! を全角に、文末に「。」）"
+},
+{
+"file": "word-bank.json",
+"id": "tl-04083",
+"field": "ro",
+"from": "aa lá bâm",
+"to": "an lá bâm",
+"reason": "อัล は an と読む（末子音 l→n）。aa は母音・末子音の誤り（AI精査 2026-11）"
+},
+{
+"file": "word-bank.json",
+"id": "tl-04390",
+"field": "sense.ja",
+"from": "言語・言葉",
+"to": "言葉・発言（口頭の）",
+"reason": "วาจาは口に出した言葉で、「言語」は誤解を招く（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-04745",
+"field": "sense.ja",
+"from": "冗談・ガグ",
+"to": "冗談・ギャグ",
+"reason": "「ガグ」は誤字（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-03467",
+"field": "ro",
+"from": "phóos",
+"to": "phóot",
+"reason": "末子音のส（ต์）は-tで発音する（AI精査 2026-11）"
+},
+{
+"file": "word-bank.json",
+"id": "tl-05239",
+"field": "ro",
+"from": "ɛ̀ɛp",
+"to": "ɛ́p",
+"reason": "แอป（ɛ́p）と同じ語で、実際の発音は高声・短母音（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-45084",
+"field": "ro",
+"from": "câao tuua",
+"to": "câo tuua",
+"reason": "เจ้า は短母音（câo）。他語の表記とも不一致（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-43798",
+"field": "ro",
+"from": "câao fáa",
+"to": "câo fáa",
+"reason": "เจ้า は短母音（câo）（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-44202",
+"field": "ro",
+"from": "câao phɔ̂ɔ",
+"to": "câo phɔ̂ɔ",
+"reason": "เจ้า は短母音（câo）（AI精査 2026-11）"
+},
+{
+"file": "word-bank.json",
+"id": "tl-05113",
+"field": "ro",
+"from": "wút thí",
+"to": "wút",
+"reason": "単独の วุฒิ は wút と読む（注記どおり wút thí は複合語内の形）（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-46574",
+"field": "ro",
+"from": "câao bâan",
+"to": "câo bâan",
+"reason": "เจ้า は短母音（他の語の câo と同じ）（AI精査 2026-11）"
+},
+{
+"file": "word-bank.json",
+"id": "tl-02124",
+"field": "sense.ja",
+"from": "タオル・浴巾",
+"to": "タオル・バスタオル",
+"reason": "「浴巾」は中国語で日本語として不自然（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-05117",
+"field": "sense.ja",
+"from": "ゆっくりと",
+"to": "少しずつ・徐々に",
+"reason": "語義2と同一訳の重複。英語 gradually に合わせる（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-00228",
+"field": "sense.ja",
+"from": "申し訳ない",
+"to": "ごめん・悪いね（โทษที の形で）",
+"reason": "ที 単独に「申し訳ない」の意味はなく、โทษที の一部である（AI精査 2026-11）",
+"sense": 2
+},
+{
+"file": "word-bank.json",
+"id": "tl-02233",
+"field": "ro",
+"from": "phaai tâai",
+"to": "phaai tâi",
+"reason": "ใต้ は短母音 tâi（ใต้ 単独の表記とも一致）（AI精査 2026-11）"
+},
+{
+"file": "word-bank.json",
+"id": "tl-04346",
+"field": "ro",
+"from": "khâang tâai",
+"to": "khâang tâi",
+"reason": "ใต้ は短母音 tâi（AI精査 2026-11）"
+},
+{
+"file": "word-bank.json",
+"id": "tl-01333",
+"field": "sense.ja",
+"from": "通信する",
+"to": "意思を伝え合う・コミュニケーションをとる",
+"reason": "例文・英訳とも人と意思疎通する意味で、「通信する」は誤解を招く（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-04038",
+"field": "sense.ja",
+"from": "シェイク",
+"to": "振る・揺さぶる（容器などを）",
+"reason": "動詞の語義が外来語の名詞のようで分かりにくい（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-04557",
+"field": "sense.ja",
+"from": "固執する",
+"to": "（信条・伝統などを）堅く守る・よりどころとする",
+"reason": "例文（伝統を守る）に合わず、否定的な「固執」は誤解を招く（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-01949",
+"field": "sense.ja",
+"from": "結婚する",
+"to": "（สละโสด の形で）独身をやめる・結婚する",
+"reason": "สละ単独で「結婚する」の意味はなく、สละโสด の形に限られる（AI精査 2026-11）",
+"sense": 3
+},
+{
+"file": "word-bank.json",
+"id": "tl-00807",
+"field": "sense.ja",
+"from": "悪いことじゃない,かなりいい",
+"to": "（ไม่เลวの形で）悪くない・なかなか良い",
+"reason": "ไม่เลวの意味を明確にし、表記を整える（AI精査 2026-11）",
+"sense": 2
+},
+{
+"file": "word-bank.json",
+"id": "tl-01886",
+"field": "sense.ja",
+"from": "信じられない(形容詞の後)",
+"to": "信じられないほど（形容詞の後）",
+"reason": "副詞用法なので訳を副詞形に（AI精査 2026-11）",
+"sense": 2
+},
+{
+"file": "word-bank.json",
+"id": "tl-03646",
+"field": "sense.ja",
+"from": "見事な・驚くべき",
+"to": "際立った・ひときわ目立つ",
+"reason": "outstanding/strikingの意で「驚くべき」は不正確（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-04603",
+"field": "sense.ja",
+"from": "怖い",
+"to": "ぞっとする・薄気味悪い",
+"reason": "鳥肌が立つような不気味さを表す語で、単なる「怖い」では น่ากลัว と区別できない（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-44652",
+"field": "ro",
+"from": "cɛ̀ɛm chát",
+"to": "cɛ̀m chát",
+"reason": "แจ่มの母音は短い（แจ่ม・แจ่มแจ้งの表記と統一）（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-47248",
+"field": "ro",
+"from": "àp prii",
+"to": "àp pà rii",
+"reason": "อัปรีย์ は อับ-ปะ-รี と読む（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-47750",
+"field": "ro",
+"from": "dèt dìao",
+"to": "dèt dìiao",
+"reason": "เดี่ยว は長母音 iia（既存方式）（AI精査 2026-11）"
+},
+{
+"file": "word-bank.json",
+"id": "tl-00201",
+"field": "ro",
+"from": "câao",
+"to": "câo",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank.json",
+"id": "tl-01153",
+"field": "ro",
+"from": "phrá câao",
+"to": "phrá câo",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-41672",
+"field": "ro",
+"from": "khâa phrá phút thá câao",
+"to": "khâa phrá phút thá câo",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-41673",
+"field": "ro",
+"from": "phrá câao phɛ̀n din",
+"to": "phrá câo phɛ̀n din",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-41894",
+"field": "ro",
+"from": "phrá phút thá câao",
+"to": "phrá phút thá câo",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-42013",
+"field": "ro",
+"from": "phrá câao yùu hǔua",
+"to": "phrá câo yùu hǔua",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-42403",
+"field": "ro",
+"from": "tâai thǔn",
+"to": "tâi thǔn",
+"reason": "ใต้ は綴りどおり短母音 tâi に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-42817",
+"field": "ro",
+"from": "phrá phûu pen câao",
+"to": "phrá phûu pen câo",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-42871",
+"field": "ro",
+"from": "tâai tháao",
+"to": "tâi tháao",
+"reason": "ใต้ は綴りどおり短母音 tâi に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-44312",
+"field": "ro",
+"from": "câao phá nák ngaan",
+"to": "câo phá nák ngaan",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-44965",
+"field": "ro",
+"from": "phrá phút thá câao lǔuang",
+"to": "phrá phút thá câo lǔuang",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-45085",
+"field": "ro",
+"from": "câao aa wâat",
+"to": "câo aa wâat",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-45180",
+"field": "ro",
+"from": "wâai câao",
+"to": "wâai câo",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-45339",
+"field": "ro",
+"from": "mɔ̀ɔm câao",
+"to": "mɔ̀ɔm câo",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-45665",
+"field": "ro",
+"from": "câao kam",
+"to": "câo kam",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-44594",
+"field": "ro",
+"from": "câao nǔu",
+"to": "câo nǔu",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-46097",
+"field": "ro",
+"from": "phrá khun câao",
+"to": "phrá khun câo",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-46287",
+"field": "ro",
+"from": "câao mɛ̂ɛ",
+"to": "câo mɛ̂ɛ",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-46747",
+"field": "ro",
+"from": "câao mʉʉ",
+"to": "câo mʉʉ",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-48309",
+"field": "ro",
+"from": "câao nʉ́ʉa",
+"to": "câo nʉ́ʉa",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-48411",
+"field": "ro",
+"from": "khâao câao",
+"to": "khâao câo",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-48641",
+"field": "ro",
+"from": "câao aa rom",
+"to": "câo aa rom",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-46833",
+"field": "ro",
+"from": "phrá pen câao",
+"to": "phrá pen câo",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51171",
+"field": "ro",
+"from": "mɛ̂ɛ náam câao phrá yaa",
+"to": "mɛ̂ɛ náam câo phrá yaa",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51695",
+"field": "ro",
+"from": "sǎan câao",
+"to": "sǎan câo",
+"reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
 }
 ]
