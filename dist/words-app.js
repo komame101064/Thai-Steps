@@ -210,7 +210,8 @@ function segmentable(text){if(!text)return true;if(headwordBank!==bank){headword
 function isCompoundOf(w,head){if(!head||w.th===head.th||!w.th.includes(head.th))return false;const parts=w.th.split(head.th);if(!parts.every(segmentable))return false;
  const syl=r=>foldWord(r).split(/\s+/).filter(Boolean),hs=syl(head.ro).join(' ');return (' '+syl(w.ro).join(' ')+' ').includes(' '+hs+' ')}
 function dictionaryWords(query=wordQuery){return dictionaryResults(query).map(x=>x.w)}
-function setDictionaryQuery(value){wordQuery=value;wordPage=0;const browse=document.getElementById('word-browse');if(browse)browse.hidden=!!wordQuery.trim();const hist=document.getElementById('word-history');if(hist)hist.hidden=!!wordQuery.trim();refreshWordList()}
+function setDictionaryQuery(value){wordQuery=value;wordPage=0;const browse=document.getElementById('word-browse');if(browse)browse.hidden=!!wordQuery.trim();const hist=document.getElementById('word-history');if(hist)hist.hidden=!!wordQuery.trim();refreshWordList();clearTimeout(searchSaveTimer);const q=wordQuery.trim();if(q)searchSaveTimer=setTimeout(()=>{if(wordQuery.trim()===q&&dictionaryResults().length)rememberSearch(q)},1500)}
+let searchSaveTimer=null;
 // Recent dictionary searches (this browser only; a convenience, not part of the learning records).
 const SEARCH_HISTORY_KEY='thai-steps-search-history';
 function searchHistory(){try{const a=JSON.parse(localStorage.getItem(SEARCH_HISTORY_KEY)||'[]');return Array.isArray(a)?a.filter(x=>typeof x==='string'&&x.trim()).slice(0,8):[]}catch{return []}}
