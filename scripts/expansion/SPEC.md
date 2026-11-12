@@ -136,7 +136,7 @@ tones, Japanese is natural. Write valid JSON (UTF-8, no comments, no trailing co
 ## Conventions confirmed in batch-001 review (follow them)
 
 - น้ำ alone is `náam`, but `nám` as the first element of compounds (น้ำตา nám taa, น้ำมัน nám man, น้ำพริก nám phrík).
-- เจ้า alone is `câao`; in compounds follow the lexicon entry if it has the compound, otherwise `câao`.
+- เจ้า is `câo` and ใต้ is `tâi` everywhere (spelled short vowel; unified in the 2026-11 review).
 - Syllables spelled with ‑่อง/‑้อง etc. keep the spelled long vowel as the lexicon does (ต้อง tɔ̂ɔng, ช่อง chɔ̂ɔng, ซ่อง sɔ̂ɔng).
 - The source readingHint is often wrong (dropped syllables, a different word, wrong tone). The Thai spelling and the standard pronunciation decide.
 - Royal vocabulary needs correct royal grammar in examples (เสด็จไปทรงเปิด…, no bare ทรง + plain verb with ท่าน); do not translate His Highness as 陛下.

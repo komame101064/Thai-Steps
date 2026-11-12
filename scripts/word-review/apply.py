@@ -72,6 +72,10 @@ def apply(only=None):
             if not b or e.get('type') not in ('syn','ant','related'):continue
             stat['rel']+=link(w,e['type'],b,e.get('s'),e.get('t'))
             link(b,e['type'],w,e.get('t'),e.get('s'))
+    # Entries added after the review get a formality from their register label until they are reviewed.
+    DEF={'王室の敬語':10,'宗教・王室への敬語':10,'文語':8,'改まった表現':7,'古めの表現':6,'標準語（口語限定ではない）':5,'標準語・性的な話題':5,'口語':3,'ネット表記':2,'口語・スラング':2,'口語・性的な話題':2,'粗い口語':1,'かなり粗い・性的な俗語':1,'差別的な罵り（理解用）':1}
+    for w in by.values():
+        if not isinstance(w.get('formality'),int):w['formality']=DEF.get(w.get('speechStyle'),5);stat['formalityDefault']=stat.get('formalityDefault',0)+1
     for n in FILES:
         if only and n not in only:continue
         (P/'dist'/n).write_text(json.dumps(data[n],ensure_ascii=False,separators=(',',':'))+'\n')
