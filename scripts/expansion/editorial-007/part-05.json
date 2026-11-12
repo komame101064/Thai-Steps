@@ -1,0 +1,802 @@
+[
+ {
+  "id": "tl-52336",
+  "th": "ขอบคุณที่ดูแล",
+  "action": "add",
+  "ro": "khɔ̀ɔp khun thîi duu lɛɛ",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "面倒を見てくれてありがとう・お世話になりました",
+    "en": "thank you for taking care of (me)",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "家族・友人や病院・ホテルのスタッフなどに言うお礼。丁寧にはครับ（男性）／ค่ะ（女性）、親しい相手にはนะを付ける。",
+    "example": {
+     "th": "ขอบคุณที่ดูแลผมตอนป่วยนะครับ",
+     "ro": "khɔ̀ɔp khun thîi duu lɛɛ phǒm tɔɔn pùuai ná khráp",
+     "ja": "具合が悪いとき、看病してくれてありがとうございました。",
+     "en": "Thank you for taking care of me when I was sick.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52337",
+  "th": "ขอบคุณที่เข้าใจ",
+  "action": "add",
+  "ro": "khɔ̀ɔp khun thîi khâo cai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "分かってくれてありがとう",
+    "en": "thank you for understanding",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "事情を理解して受け入れてくれた相手へのお礼。友人同士でも仕事でも使い、丁寧にはครับ／ค่ะを付ける。",
+    "example": {
+     "th": "ขอบคุณที่เข้าใจนะ วันนี้ไปไม่ได้จริงๆ",
+     "ro": "khɔ̀ɔp khun thîi khâo cai ná wan níi pai mâi dâai cing cing",
+     "ja": "分かってくれてありがとう。今日は本当に行けないんだ。",
+     "en": "Thanks for understanding. I really can't go today.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52338",
+  "th": "ขอโทษที่ลืม",
+  "action": "add",
+  "ro": "khɔ̌ɔ thôot thîi lʉʉm",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "忘れていてごめん（〜を忘れていてすみません）",
+    "en": "sorry for forgetting",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "忘れたことを謝るときの言い方で、後ろに忘れた物事を続けられる（ขอโทษที่ลืม〜）。丁寧にはครับ／ค่ะ、親しい相手にはนะを付ける。",
+    "example": {
+     "th": "ขอโทษที่ลืมวันเกิดเธอนะ",
+     "ro": "khɔ̌ɔ thôot thîi lʉʉm wan kə̀ət thəə ná",
+     "ja": "誕生日を忘れていてごめんね。",
+     "en": "Sorry I forgot your birthday.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52339",
+  "th": "ไม่เป็นไรเข้าใจ",
+  "action": "skip",
+  "skipReason": "「ไม่เป็นไร」（大丈夫）と「เข้าใจ」（分かる）を続けて言っただけで、一つの定型句ではないため（ไม่เป็นไรลองใหม่ などと同じ扱い）。ไม่เป็นไร・เข้าใจแล้ว の項で扱える。"
+ },
+ {
+  "id": "tl-52340",
+  "th": "ยินดีที่ได้ช่วย",
+  "action": "add",
+  "ro": "yin dii thîi dâai chûuai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "お役に立ててうれしいです",
+    "en": "glad to help",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "お礼を言われたときの返事。丁寧にはครับ（男性）／ค่ะ（女性）を付ける。店員や仕事の相手にも使える。",
+    "example": {
+     "th": "ไม่ต้องขอบคุณหรอก ยินดีที่ได้ช่วยครับ",
+     "ro": "mâi tɔ̂ɔng khɔ̀ɔp khun rɔ̀ɔk yin dii thîi dâai chûuai khráp",
+     "ja": "お礼なんていいですよ。お役に立ててうれしいです。",
+     "en": "No need to thank me. I'm glad to help.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52341",
+  "th": "ตามสบายเลย",
+  "action": "skip",
+  "skipReason": "既存の ตามสบายนะ（楽にしてね・ご自由にどうぞ、tl-51918）と語尾が違うだけで、別に教える違いがないため（強調の เลย を付けた形を除外した方針と同じ）。"
+ },
+ {
+  "id": "tl-52342",
+  "th": "เชิญตามสบาย",
+  "action": "add",
+  "ro": "chəən taam sà baai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どうぞご自由に・どうぞごゆっくり",
+    "en": "please make yourself at home / help yourself",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "客を迎える側や店員が、楽にして好きなようにしてくださいと勧める丁寧な言い方。親しい相手への ตามสบายนะ より改まった響きで、ครับ／ค่ะ を付けて言うことが多い。",
+    "example": {
+     "th": "เชิญตามสบายนะครับ ไม่ต้องเกรงใจ",
+     "ro": "chəən taam sà baai ná khráp mâi tɔ̂ɔng kreeng cai",
+     "ja": "どうぞお楽に。遠慮しないでください。",
+     "en": "Please make yourself at home. Don't be shy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52343",
+  "th": "ขอให้มีวันที่ดี",
+  "action": "add",
+  "ro": "khɔ̌ɔ hâi mii wan thîi dii",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "よい一日を",
+    "en": "have a nice day",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "英語の Have a nice day に近い言い方で、店員の別れ際のあいさつやSNS・メッセージでよく使う。友人同士の口頭の会話ではあまり言わない。",
+    "example": {
+     "th": "ขอบคุณที่ใช้บริการ ขอให้มีวันที่ดีนะคะ",
+     "ro": "khɔ̀ɔp khun thîi chái bɔɔ rí kaan khɔ̌ɔ hâi mii wan thîi dii ná khá",
+     "ja": "ご利用ありがとうございました。よい一日を。",
+     "en": "Thank you for using our service. Have a nice day.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52344",
+  "th": "ขอให้เดินทางปลอดภัย",
+  "action": "skip",
+  "skipReason": "既存の เดินทางปลอดภัย（気をつけて行ってね、tl-51817）に祈願の ขอให้ を付けただけで、別に教える違いがないため（ขอไม่เผ็ด を除外した方針と同じ）。"
+ },
+ {
+  "id": "tl-52345",
+  "th": "ขอให้สุขภาพแข็งแรง",
+  "action": "add",
+  "ro": "khɔ̌ɔ hâi sùk khà phâap khɛ̌ng rɛɛng",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "健康でいられますように・お元気で",
+    "en": "wishing you good health",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "誕生日・新年・お見舞い、目上の人へのあいさつなどで相手の健康を祈る言葉。丁寧にはนะครับ／นะคะを付ける。",
+    "example": {
+     "th": "สุขสันต์วันเกิดครับ ขอให้สุขภาพแข็งแรงนะครับ",
+     "ro": "sùk sǎn wan kə̀ət khráp khɔ̌ɔ hâi sùk khà phâap khɛ̌ng rɛɛng ná khráp",
+     "ja": "お誕生日おめでとうございます。どうぞお元気で。",
+     "en": "Happy birthday. Wishing you good health.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52346",
+  "th": "ขอให้ประสบความสำเร็จ",
+  "action": "add",
+  "ro": "khɔ̌ɔ hâi prà sòp khwaam sǎm rèt",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "成功をお祈りします・うまくいきますように",
+    "en": "wishing you success",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "新しい仕事・開業・試験などに臨む相手を励ます祝福の言葉。後ろに ใน〜（〜での）を続けられる。",
+    "example": {
+     "th": "ขอให้ประสบความสำเร็จในงานใหม่นะ",
+     "ro": "khɔ̌ɔ hâi prà sòp khwaam sǎm rèt nai ngaan mài ná",
+     "ja": "新しい仕事がうまくいきますように。",
+     "en": "I hope you succeed in your new job.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52347",
+  "th": "ขอให้สมหวัง",
+  "action": "add",
+  "ro": "khɔ̌ɔ hâi sǒm wǎng",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "願いがかないますように",
+    "en": "may your wish come true",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "恋愛・受験・願い事など、相手の望みがかなうよう祈る言い方。後ろに ใน〜（〜で）を続けることが多い。",
+    "example": {
+     "th": "ขอให้สมหวังในความรักนะ",
+     "ro": "khɔ̌ɔ hâi sǒm wǎng nai khwaam rák ná",
+     "ja": "恋がうまくいきますように。",
+     "en": "I hope things work out in love for you.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52348",
+  "th": "โชคดีมีชัย",
+  "action": "add",
+  "ro": "chôok dii mii chai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "幸運と成功を（祈る決まり文句）",
+    "en": "good luck and success",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "note": "韻を踏んだ祝福の決まり文句で、新年のあいさつやカード、祝いの席で ขอให้ に続けて使う。ふだんの会話での「頑張ってね・幸運を」は โชคดีนะ が普通。",
+    "example": {
+     "th": "ขอให้โชคดีมีชัยตลอดปีนะครับ",
+     "ro": "khɔ̌ɔ hâi chôok dii mii chai tà lɔ̀ɔt pii ná khráp",
+     "ja": "一年を通して幸運と成功に恵まれますように。",
+     "en": "Wishing you good luck and success all year.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52349",
+  "th": "สุขสันต์วันคริสต์มาส",
+  "action": "add",
+  "ro": "sùk sǎn wan khrít sà mâat",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "メリークリスマス",
+    "en": "Merry Christmas",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "カードやSNS、商業施設などで使う。タイでは祝日ではなく、英語のまま เมอร์รี่คริสต์มาส と言うことも多い。",
+    "example": {
+     "th": "สุขสันต์วันคริสต์มาสนะ ขอให้มีความสุขมากๆ",
+     "ro": "sùk sǎn wan khrít sà mâat ná khɔ̌ɔ hâi mii khwaam sùk mâak mâak",
+     "ja": "メリークリスマス。たくさん幸せがありますように。",
+     "en": "Merry Christmas. I wish you lots of happiness.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52350",
+  "th": "สุขสันต์วันวาเลนไทน์",
+  "action": "add",
+  "ro": "sùk sǎn wan waa leen thai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ハッピーバレンタイン",
+    "en": "Happy Valentine's Day",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "2月14日に恋人や友人に、カードやSNS、花などを贈るときに言う。",
+    "example": {
+     "th": "สุขสันต์วันวาเลนไทน์นะ ดอกไม้นี้ให้เธอ",
+     "ro": "sùk sǎn wan waa leen thai ná dɔ̀ɔk máai níi hâi thəə",
+     "ja": "ハッピーバレンタイン。この花は君に。",
+     "en": "Happy Valentine's Day. These flowers are for you.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52351",
+  "th": "ทำบุญด้วยกัน",
+  "action": "skip",
+  "skipReason": "既存の ทำบุญ（徳を積む、tl-05005）に ด้วยกัน（一緒に）を付けただけの普通の言い方で、定型句ではないため。"
+ },
+ {
+  "id": "tl-52352",
+  "th": "ขอให้หายป่วยไวๆ",
+  "action": "skip",
+  "skipReason": "既存の ขอให้หายไวๆ（早く良くなりますように、tl-52041）に ป่วย を加えただけで、別に教える違いがないため。"
+ },
+ {
+  "id": "tl-52353",
+  "th": "ไม่ต้องเป็นห่วง",
+  "action": "skip",
+  "skipReason": "既存の ไม่ต้องห่วง（心配するな、tl-02190）・ไม่ต้องห่วงนะ（tl-51927）とほぼ同じ意味で、別に教える違いがないため。"
+ },
+ {
+  "id": "tl-52354",
+  "th": "ใจเย็นๆ นะ",
+  "action": "skip",
+  "skipReason": "既存の定型表現 ใจเย็นๆ（落ち着いて、tl-49000）に語尾 นะ を付けただけのため（ครับ/ค่ะ/นะ の付いた形は素の形が収録済みなら除外する方針）。"
+ },
+ {
+  "id": "tl-52355",
+  "th": "ค่อยๆ คิด",
+  "action": "skip",
+  "skipReason": "既存の ค่อยๆ（ゆっくり、tl-05117）に動詞を続けた普通の言い方で、ค่อยๆ ทำ・ค่อยๆ พูด など動詞を入れ替えられるため定型句として別に教える違いが少ない。"
+ },
+ {
+  "id": "tl-52356",
+  "th": "ไม่ต้องรีบก็ได้",
+  "action": "skip",
+  "skipReason": "既存の ไม่ต้องรีบ（急がなくていい、tl-51926）に ก็ได้ を付けただけで、別に教える違いがないため。"
+ },
+ {
+  "id": "tl-52357",
+  "th": "มีเวลาไหม",
+  "action": "add",
+  "ro": "mii wee laa mǎi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "時間ある？・ちょっといい？",
+    "en": "do you have time? / got a minute?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "話や頼み事のために相手の時間があるか尋ねる。丁寧には มีเวลาสักครู่ไหมครับ／คะ。既存の ว่างไหม は予定が空いているかを尋ねる言い方。",
+    "example": {
+     "th": "มีเวลาไหม อยากคุยด้วยหน่อย",
+     "ro": "mii wee laa mǎi yàak khui dûuai nɔ̀ɔi",
+     "ja": "時間ある？ちょっと話したいんだけど。",
+     "en": "Do you have time? I'd like to talk with you.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52358",
+  "th": "ขอเวลาคิดก่อน",
+  "action": "skip",
+  "skipReason": "このバッチ part-03 で追加した ขอคิดดูก่อน（少し考えさせてください）と同じ場面・意味で、別に教える違いがないため。"
+ },
+ {
+  "id": "tl-52359",
+  "th": "เดี๋ยวค่อยคุย",
+  "action": "add",
+  "ro": "dǐiao khɔ̂ɔi khui",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "あとで話そう",
+    "en": "let's talk later",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "親しい相手に、今は話せないので後で話そう、と言う口語。กัน を付けて เดี๋ยวค่อยคุยกัน とも言う。別れのあいさつの ไว้คุยกันใหม่ とは違い、話を一旦保留する言い方。",
+    "example": {
+     "th": "ตอนนี้ยุ่งอยู่ เดี๋ยวค่อยคุยนะ",
+     "ro": "tɔɔn níi yûng yùu dǐiao khɔ̂ɔi khui ná",
+     "ja": "今忙しいから、あとで話そう。",
+     "en": "I'm busy right now. Let's talk later.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52360",
+  "th": "คุยกันก่อน",
+  "action": "add",
+  "ro": "khui kan kɔ̀ɔn",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "まず話し合おう",
+    "en": "let's talk it over first",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "決める前や言い争いになったときに、まず話し合おうと提案する言い方。",
+    "example": {
+     "th": "ใจเย็นๆ คุยกันก่อนดีกว่า",
+     "ro": "cai yen yen khui kan kɔ̀ɔn dii kwàa",
+     "ja": "落ち着いて。まず話し合ったほうがいいよ。",
+     "en": "Calm down. Let's talk it over first.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52361",
+  "th": "ตกลงตามนี้",
+  "action": "add",
+  "ro": "tòk long taam níi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "これで決まり・この内容で了解",
+    "en": "agreed, let's go with this",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "打ち合わせや約束の最後に、話した内容で合意したことを確認する。นะ を付けて相手に確かめることが多い。",
+    "example": {
+     "th": "งั้นตกลงตามนี้นะ พรุ่งนี้เจอกันสิบโมง",
+     "ro": "ngán tòk long taam níi ná phrûng níi cəə kan sìp moong",
+     "ja": "じゃあこれで決まりね。明日10時に会おう。",
+     "en": "Then it's settled. See you tomorrow at ten.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52362",
+  "th": "ตกลงไหม",
+  "action": "add",
+  "ro": "tòk long mǎi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "それでいい？・どう、決まり？",
+    "en": "is that OK? / deal?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "提案をしてから相手の同意を求める言い方。親しい相手には นะ を付けた ตกลงนะ も使う。",
+    "example": {
+     "th": "ฉันจ่ายค่าข้าว เธอจ่ายค่ารถ ตกลงไหม",
+     "ro": "chǎn càai khâa khâao thəə càai khâa rót tòk long mǎi",
+     "ja": "私がご飯代、あなたが交通費を払う。それでいい？",
+     "en": "I'll pay for the food and you pay for the ride. Deal?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52363",
+  "th": "ตกลงครับ",
+  "action": "add",
+  "ro": "tòk long khráp",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "わかりました・承知しました（男性）",
+    "en": "OK, agreed (male speaker, polite)",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "男性が提案や依頼を受け入れるときの返事。女性は ตกลงค่ะ と言う。",
+    "example": {
+     "th": "ตกลงครับ เจอกันพรุ่งนี้นะครับ",
+     "ro": "tòk long khráp cəə kan phrûng níi ná khráp",
+     "ja": "わかりました。では明日会いましょう。",
+     "en": "OK. See you tomorrow.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52364",
+  "th": "ได้เลยครับ",
+  "action": "add",
+  "ro": "dâai ləəi khráp",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "かしこまりました・いいですよ（男性）",
+    "en": "sure, certainly (male speaker, polite)",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "男性が頼みを気持ちよく引き受けるときの返事で、男性店員もよく使う。",
+    "example": {
+     "th": "ได้เลยครับ เดี๋ยวจัดให้ครับ",
+     "ro": "dâai ləəi khráp dǐiao càt hâi khráp",
+     "ja": "かしこまりました。すぐご用意します。",
+     "en": "Certainly. I'll get that ready for you.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52365",
+  "th": "ได้เลยค่ะ",
+  "action": "add",
+  "ro": "dâai ləəi khâ",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "かしこまりました・いいですよ（女性）",
+    "en": "sure, certainly (female speaker, polite)",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "女性が頼みを気持ちよく引き受けるときの返事で、女性店員もよく使う。",
+    "example": {
+     "th": "ได้เลยค่ะ รอสักครู่นะคะ",
+     "ro": "dâai ləəi khâ rɔɔ sàk khrûu ná khá",
+     "ja": "かしこまりました。少々お待ちください。",
+     "en": "Certainly. Please wait a moment.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52366",
+  "th": "รับทราบครับ",
+  "action": "skip",
+  "skipReason": "既存の定型表現 รับทราบ（了解しました、tl-01795）に ครับ を付けただけのため（ครับ/ค่ะ/นะ の付いた形は素の形が収録済みなら除外する方針）。"
+ },
+ {
+  "id": "tl-52367",
+  "th": "รับทราบค่ะ",
+  "action": "skip",
+  "skipReason": "既存の定型表現 รับทราบ（了解しました、tl-01795）に ค่ะ を付けただけのため（ครับ/ค่ะ/นะ の付いた形は素の形が収録済みなら除外する方針）。"
+ },
+ {
+  "id": "tl-52368",
+  "th": "ไม่มีปัญหาเลย",
+  "action": "skip",
+  "skipReason": "既存の ไม่มีปัญหา（問題ない、tl-05200）・ไม่มีปัญหาครับ（tl-52040）に強調の เลย を付けただけで、別に教える違いがないため。"
+ },
+ {
+  "id": "tl-52369",
+  "th": "เป็นเกียรติมาก",
+  "action": "add",
+  "ro": "pen kìiat mâak",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "大変光栄です",
+    "en": "it's a great honor",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "note": "スピーチ・表彰・招待を受けたときなどに言う改まった言い方。さらに改まると เป็นเกียรติอย่างยิ่ง。",
+    "example": {
+     "th": "ได้มาพูดที่นี่วันนี้ เป็นเกียรติมากครับ",
+     "ro": "dâai maa phûut thîi nîi wan níi pen kìiat mâak khráp",
+     "ja": "今日ここでお話しできて大変光栄です。",
+     "en": "It's a great honor to speak here today.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52370",
+  "th": "ยินดีต้อนรับกลับมา",
+  "action": "add",
+  "ro": "yin dii tɔ̂ɔn ráp klàp maa",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "おかえりなさい（久しぶりに戻った人を迎えて）",
+    "en": "welcome back",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "旅行・留学・長い休みなどから戻った人を迎える言葉。毎日の帰宅で言う「おかえり」ではない。",
+    "example": {
+     "th": "ยินดีต้อนรับกลับมานะ คิดถึงมากเลย",
+     "ro": "yin dii tɔ̂ɔn ráp klàp maa ná khít thʉ̌ng mâak ləəi",
+     "ja": "おかえり。すごく会いたかったよ。",
+     "en": "Welcome back. I missed you so much.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52371",
+  "th": "แล้วแต่เธอ",
+  "action": "skip",
+  "skipReason": "既存の แล้วแต่คุณ（あなたにお任せします、tl-52037）の代名詞を เธอ に替えただけで、別に教える違いがないため。"
+ },
+ {
+  "id": "tl-52372",
+  "th": "ว่าแต่ว่า",
+  "action": "add",
+  "ro": "wâa tɛ̀ɛ wâa",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ところで・それはそうと",
+    "en": "by the way",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "話題を変えたり本題に戻したりするときの口語で、短く ว่าแต่ とも言う。",
+    "example": {
+     "th": "ว่าแต่ว่า พรุ่งนี้เธอว่างไหม",
+     "ro": "wâa tɛ̀ɛ wâa phrûng níi thəə wâang mǎi",
+     "ja": "ところで、明日空いてる？",
+     "en": "By the way, are you free tomorrow?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52373",
+  "th": "ไหนดูซิ",
+  "action": "add",
+  "ro": "nǎi duu sí",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どれどれ・ちょっと見せて",
+    "en": "let me see",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "親しい相手や年下に、見せてと促す口語。ไหนดูสิ とも書く。",
+    "example": {
+     "th": "ไหนดูซิ ซื้ออะไรมาบ้าง",
+     "ro": "nǎi duu sí sʉ́ʉ à rai maa bâang",
+     "ja": "どれどれ、何を買ってきたの？",
+     "en": "Let me see, what did you buy?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52374",
+  "th": "ช่วยดูให้หน่อย",
+  "action": "add",
+  "ro": "chûuai duu hâi nɔ̀ɔi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ちょっと見てもらえる？",
+    "en": "could you take a look for me?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "書類の確認や故障した物など、代わりに見てほしいと頼む言い方。丁寧にはครับ／ค่ะを付ける。",
+    "example": {
+     "th": "ช่วยดูให้หน่อย ตรงนี้เขียนถูกไหม",
+     "ro": "chûuai duu hâi nɔ̀ɔi trong níi khǐian thùuk mǎi",
+     "ja": "ちょっと見てくれる？ここの書き方、合ってる？",
+     "en": "Could you take a look? Is this part written correctly?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52375",
+  "th": "ขอดูบัตรหน่อย",
+  "action": "skip",
+  "skipReason": "既存の ขอดูหน่อย（ちょっと見せてください、tl-51865）に名詞 บัตร を入れただけの普通の依頼文で、別に教える違いがないため（ยืมปากกาหน่อย を除外した方針と同じ）。"
+ }
+]

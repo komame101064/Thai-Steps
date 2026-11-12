@@ -690,3 +690,5 @@ html body .h-row .ring b{font-size:13px;letter-spacing:-.3px}
 .r-actions{display:flex;gap:8px;flex-wrap:wrap}
 .r-more{display:flex;flex-direction:column;align-items:flex-start;gap:6px;margin:14px 2px}
 @media (max-width:650px){.r-actions{width:100%}.r-actions .btn{flex:1}}
+/* The Thai Steps logo in the header only on the home page */
+body:not([data-view="home"]) .compact-brand{display:none!important}

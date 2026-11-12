@@ -111,13 +111,73 @@
  },
  {
   "id": "tl-52182",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "注記の ลดแอร์หน่อย は「温度を下げる（より冷やす）」とも取れて紛らわしい。弱めてほしいときのふつうの言い方 เบาแอร์หน่อย に替える"
+  ],
+  "fixed": {
+   "id": "tl-52182",
+   "th": "ปิดแอร์หน่อย",
+   "action": "add",
+   "ro": "pìt ɛɛ nɔ̀ɔi",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "エアコン消して",
+     "en": "turn off the air conditioner, please",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "家やタクシーなどで頼む言い方。弱めてほしいときは เบาแอร์หน่อย と言う。",
+     "example": {
+      "th": "หนาวแล้ว ปิดแอร์หน่อยได้ไหม",
+      "ro": "nǎao lɛ́ɛo pìt ɛɛ nɔ̀ɔi dâai mǎi",
+      "ja": "寒くなったから、エアコン消してくれる？",
+      "en": "It’s gotten cold. Could you turn off the air conditioner?",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-52183",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "注記の「あいさつ代わりによく聞く」は裏付けのない主張なので削除"
+  ],
+  "fixed": {
+   "id": "tl-52183",
+   "th": "รถติดมาก",
+   "action": "add",
+   "ro": "rót tìt mâak",
+   "kind": "expression",
+   "category": "移動・道案内",
+   "frequency": 7,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "渋滞がひどい",
+     "en": "the traffic is terrible",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "バンコクでは遅刻の言い訳としてよく聞く。",
+     "example": {
+      "th": "ขอโทษที่มาสาย รถติดมาก",
+      "ro": "khɔ̌ɔ thôot thîi maa sǎai rót tìt mâak",
+      "ja": "遅れてごめんなさい。渋滞がひどくて。",
+      "en": "Sorry I’m late. The traffic is terrible.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-52184",
@@ -241,8 +301,38 @@
  },
  {
   "id": "tl-52202",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "注記どおり後に物や数を続けて言うのがふつうなので、EDITORIALの規則に従い ja に〜の枠を示す"
+  ],
+  "fixed": {
+   "id": "tl-52202",
+   "th": "ขอเพิ่ม",
+   "action": "add",
+   "ro": "khɔ̌ɔ phə̂əm",
+   "kind": "expression",
+   "category": "食べ物・飲み物",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（〜を）追加でください・おかわりください",
+     "en": "more, please",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "ふつうは ขอเพิ่มอีก〜 や ขอ〜เพิ่ม のように、物や数を続けて言う。",
+     "example": {
+      "th": "ข้าวหมดแล้ว ขอเพิ่มอีกจานครับ",
+      "ro": "khâao mòt lɛ́ɛo khɔ̌ɔ phə̂əm ìik caan khráp",
+      "ja": "ご飯がなくなったので、もう一皿追加でお願いします。",
+      "en": "The rice is gone. One more plate, please.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-52203",
