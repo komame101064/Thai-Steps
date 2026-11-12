@@ -553,3 +553,6 @@ html body .x-levels .x-chips button{flex-direction:row;align-items:baseline;just
 .x-dict-try{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 .x-dict-try button{padding:5px 11px;border:1px solid var(--x-line);border-radius:999px;background:#fffefa;color:var(--x-green);font:inherit;font-size:12.5px;font-weight:600;cursor:pointer}
 .x-dict-try button:hover{border-color:var(--x-green-2)}
+/* Room below the content so the last card is not hidden behind the fixed bottom navigation (the footer used to give this space) */
+@media (max-width:650px){html body main{padding-bottom:calc(96px + env(safe-area-inset-bottom))}}
+@media (min-width:651px){html body main{padding-bottom:48px}}
