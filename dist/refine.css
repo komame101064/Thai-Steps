@@ -556,3 +556,6 @@ html body .x-levels .x-chips button{flex-direction:row;align-items:baseline;just
 /* Room below the content so the last card is not hidden behind the fixed bottom navigation (the footer used to give this space) */
 @media (max-width:650px){html body main{padding-bottom:calc(96px + env(safe-area-inset-bottom))}}
 @media (min-width:651px){html body main{padding-bottom:48px}}
+.x-dict-history-label{align-self:center;font-size:11.5px;font-weight:700;color:var(--x-muted);margin-right:2px}
+.x-dict-try .x-dict-history-clear{border:0;background:none;color:var(--x-muted);font-weight:500;font-size:11.5px;padding:5px 4px;text-decoration:underline}
+#word-history .x-dict-try{margin-top:8px}
