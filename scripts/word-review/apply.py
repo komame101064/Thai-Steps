@@ -52,7 +52,8 @@ def apply(only=None):
             for x,y in ((w,d.get('id')),(b,i)):
                 if not x:continue
                 t=d.get('type');rels=x.get('relations') or {}
-                for k in ([t] if t in rels else list(rels)):
+                # 'similar' is shown as 混同しやすい語 (look-alike words): those links are intended and never dropped.
+                for k in [k for k in ([t] if t in rels else list(rels)) if k!='similar']:
                     if y in (rels.get(k) or []):
                         rels[k]=[v for v in rels[k] if v!=y];stat['drop']=stat.get('drop',0)+1
                         det=(x.get('relationDetails') or {}).get(k)
