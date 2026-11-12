@@ -697,3 +697,18 @@ html body .h-rows .h-row:first-child .h-task-body small{-webkit-line-clamp:1;whi
 html body .h-row .ring b{min-width:3.2em;text-align:center}
 /* iOS/Android must not re-inflate text sizes when the content of a row changes */
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+/* Review history */
+.r-history{margin-top:22px}
+.r-hist-day{font-size:13px;color:var(--x-muted);margin:14px 2px 6px;font-weight:700}
+.r-hist{list-style:none;margin:0;padding:0;background:#fffefa;border:1px solid var(--x-line);border-radius:12px;overflow:hidden}
+.r-hist li+li{border-top:1px solid #e9eee1}
+.r-hist button{display:grid;grid-template-columns:28px 1fr auto;grid-template-areas:"m t e" "m s s";align-items:center;column-gap:10px;width:100%;padding:10px 14px;border:0;background:none;text-align:left;font:inherit;color:inherit;cursor:pointer}
+.r-mark{grid-area:m;display:grid;place-items:center;width:26px;height:26px;border-radius:50%;font-weight:800;font-size:14px}
+.r-mark.ok{background:#e2f0da;color:#245a24}.r-mark.ng{background:#fbe3df;color:#8e2418}
+.r-term{grid-area:t;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.r-term b{color:var(--x-green)}.r-term span{color:var(--x-muted);font-size:13px}
+.r-hist small{grid-area:s;font-size:12px;color:var(--x-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.r-hist em{grid-area:e;font-style:normal;font-size:11px;color:var(--x-muted);white-space:nowrap}
+.w-history{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:10px;font-size:11.5px}
+.w-history b{font-size:11.5px;color:var(--x-muted);margin-right:2px}
+.w-history span{padding:2px 7px;border-radius:999px;border:1px solid var(--x-line);background:#fffefa}
+.w-history span.ok{color:#245a24}.w-history span.ng{color:#8e2418}
