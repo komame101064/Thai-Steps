@@ -673,3 +673,11 @@ html body .h-levels button small{font-size:10.5px;font-weight:500;opacity:.8;fon
 html body .h-levels{overflow:visible}
 html body .h-levels button{flex:1 1 0;min-width:0;padding-left:2px;padding-right:2px}
 html body .h-levels button small{font-size:10px;letter-spacing:-.2px}
+/* 単語 / 口語・スラング: two equal tabs */
+html body .x-seg{grid-template-columns:repeat(2,1fr)}
+/* Home rows: whole row is the button, chevron instead of 始める; % inside the ring */
+html body .h-row{padding-right:0}
+html body .h-row-open{width:100%}
+html body .h-go{margin-left:auto;flex:none;font-size:26px;line-height:1;color:var(--x-green);opacity:.55;padding:0 4px}
+html body .h-row .ring b{font-size:13px;letter-spacing:-.3px}
+@media (max-width:650px){html body .h-row .ring b{font-size:clamp(12px,1.6dvh,15px)}}
