@@ -681,3 +681,12 @@ html body .h-row-open{width:100%}
 html body .h-go{margin-left:auto;flex:none;font-size:26px;line-height:1;color:var(--x-green);opacity:.55;padding:0 4px}
 html body .h-row .ring b{font-size:13px;letter-spacing:-.3px}
 @media (max-width:650px){html body .h-row .ring b{font-size:clamp(12px,1.6dvh,15px)}}
+/* Review page: words and grammar side by side, one action row each */
+.r-card{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.r-head{display:flex;align-items:center;gap:14px;min-width:0;flex:1}
+.r-head h2{margin:0 0 2px;font-size:17px}.r-head .subtext{margin:0}
+.r-count{display:inline-grid;place-items:center;width:46px;height:46px;flex:none;border-radius:50%;background:#f4ecd5;color:var(--x-brass);font-weight:800;font-size:17px}
+.r-count.is-zero{background:#e8eee0;color:var(--x-muted)}
+.r-actions{display:flex;gap:8px;flex-wrap:wrap}
+.r-more{display:flex;flex-direction:column;align-items:flex-start;gap:6px;margin:14px 2px}
+@media (max-width:650px){.r-actions{width:100%}.r-actions .btn{flex:1}}
