@@ -692,3 +692,8 @@ html body .h-row .ring b{font-size:13px;letter-spacing:-.3px}
 @media (max-width:650px){.r-actions{width:100%}.r-actions .btn{flex:1}}
 /* The Thai Steps logo in the header only on the home page */
 body:not([data-view="home"]) .compact-brand{display:none!important}
+/* The 単語 row keeps one line whatever level is chosen, so switching levels never changes the layout */
+html body .h-rows .h-row:first-child .h-task-body small{-webkit-line-clamp:1;white-space:nowrap;display:block;overflow:hidden;text-overflow:ellipsis}
+html body .h-row .ring b{min-width:3.2em;text-align:center}
+/* iOS/Android must not re-inflate text sizes when the content of a row changes */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
