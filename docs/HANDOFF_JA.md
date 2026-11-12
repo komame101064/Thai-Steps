@@ -293,3 +293,10 @@ Z世代・SNS・ネット生活・詐欺・新しい社会の話題の一般語5
 ## 10. データ再生成用スクリプトの依存
 
 アプリの起動・テストには外部データは不要です。一部の再生成スクリプトは元のTSVや翻訳キャッシュを `/workspace/data` などに置く前提が残っています。元資料の全ダウンロードファイルは同梱していません。再生成の前に入力パスを引数化し、`dist/sources.html` の出典から元資料を準備してください。既存の生成済みJSONと校閲パッチを上書きする前に差分を確認してください。
+
+## 全語精査（2026-11-12、AIによる点検）
+- `scripts/word-review/`：全10,412項目を20組に分けてAIが1語ずつ点検（手順書 BRIEF.md、結果 results/*.jsonl）。ネイティブ話者の確認ではない。
+- 反映内容：フォーマル度 `formality`（1〜10、画面は最高・高・中・低）、文語の語義、類義語・対義語・関連語の追加（約2万件。収録語どうしのみ、一般語→スラングは結ばない）、明らかな誤りの修正（ローマ字・日本語訳。`scripts/native-review/fixes.json` 経由）、頻度の修正（`freq-approved.json`）。
+- 「混同しやすい語」（similar）は意図的なリンクなので削除しない。
+- 再生成：`build-expansion.py` が最後に `scripts/word-review/apply.py` を呼ぶ。元の語のファイルには `python3 scripts/apply-native-review.py && python3 scripts/word-review/apply.py` を実行。ローマ字が変わったら ja-readings / kana-search を再生成。
+- 未対応の指摘（重複見出し・区分の誤り・テーマ違いなど）は `scripts/word-review/proposals.json` の issues に残している。

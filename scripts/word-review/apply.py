@@ -10,6 +10,8 @@ import json,pathlib,sys
 P=pathlib.Path(__file__).resolve().parents[2];W=P/'scripts/word-review'
 FILES=['word-bank.json','word-bank-more.json','slang-bank.json','slang-bank-more.json']
 REL=('syn','ant','related','similar')
+# Entries whose relations were deliberately emptied in an earlier review (ห้า: neighbouring numbers are not useful links).
+NO_NEW_REL={'tl-00419'}
 def results():
     out={}
     files=sorted(W.glob('results/*.jsonl'),key=lambda p:(p.stem!='pilot',p.stem))  # chunk results override the pilot
@@ -24,7 +26,9 @@ def apply(only=None):
     by={w['id']:w for n in FILES for w in data[n]}
     slang=lambda w:w.get('collection')=='slang'
     stat={'formality':0,'literary':0,'rel':0}
+    dropped={frozenset((i,d.get('id'))) for i,r in R.items() for d in (r.get('drop') or [])}
     def link(a,typ,b,s=None,t=None):
+        if frozenset((a['id'],b['id'])) in dropped or a['id'] in NO_NEW_REL or b['id'] in NO_NEW_REL:return 0
         if a is b or (not slang(a) and slang(b)):return 0
         rels=a.setdefault('relations',{})
         if any(b['id'] in (rels.get(k) or []) for k in REL):return 0
@@ -33,6 +37,11 @@ def apply(only=None):
         tv=[t] if isinstance(t,int) and any(m['sourceSense']==t for m in b['meanings']) else []
         a.setdefault('relationDetails',{}).setdefault(typ,[]).append({'id':b['id'],'sourceSenses':sv,'targetSenses':tv,'review':'ai-2026-11'})
         return 1
+    # Vetted frequency changes (scripts/word-review/freq-approved.json): {id: {to, reason}}.
+    FA=W/'freq-approved.json'
+    for i,x in (json.loads(FA.read_text()) if FA.exists() else {}).items():
+        w=by.get(i)
+        if w and w['frequency']!=x['to']:w['frequency']=x['to'];w['frequencyReview']=x['reason'];stat['freq']=stat.get('freq',0)+1
     for i,r in R.items():
         w=by.get(i)
         if not w:continue
