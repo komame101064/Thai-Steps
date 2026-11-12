@@ -64,8 +64,30 @@
  {
   "id": "tl-52281",
   "th": "สุดยอดเลย",
-  "action": "skip",
-  "skipReason": "既存の สุดยอด（最高・すごい）に強調の เลย を付けただけで、別に教える違いがないため（สุดยอด の項で扱う）。"
+  "action": "add",
+  "ro": "sùt yɔ̂ɔt ləəi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "すごい！・最高！",
+    "en": "awesome!, amazing!",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "感心したときの感嘆として単独で言う。友人同士では สุดยอด だけでも言う。丁寧にはครับ/ค่ะを付ける。",
+    "example": {
+     "th": "ทำอาหารเองเหรอ สุดยอดเลย",
+     "ro": "tham aa hǎan eeng rə̌ə sùt yɔ̂ɔt ləəi",
+     "ja": "自分で料理したの？すごい！",
+     "en": "You cooked this yourself? Amazing!",
+     "origin": "authored"
+    }
+   }
+  ]
  },
  {
   "id": "tl-52282",
@@ -222,10 +244,8 @@
     "en": "let me know when you get there",
     "pos": "定型表現",
     "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
     "note": "帰宅や移動する家族・友人・恋人に言う。後ろにนะを付けてやわらかくすることが多い。",
     "example": {
      "th": "กลับบ้านดีๆ นะ ถึงแล้วบอกด้วย",
@@ -334,10 +354,8 @@
     "en": "I'll go take a shower first",
     "pos": "定型表現",
     "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
     "note": "会話やチャットを一旦切り上げるときに家族・友人に言う。後ろにนะを付けることが多い。อาบน้ำはシャワーも入浴も含む。",
     "example": {
      "th": "เดี๋ยวคุยกันใหม่ ไปอาบน้ำก่อนนะ",
@@ -366,7 +384,7 @@
     "use": "よく使う意味",
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
-    "note": "タイ語に「ただいま」専用の決まり文句はなく、帰宅時にこう言う。迎える側は กลับมาแล้วเหรอ（おかえり）と返すことが多い。丁寧にはครับ/ค่ะを付ける。",
+    "note": "タイ語に「ただいま」専用の決まり文句はなく、帰宅時にこう言う。迎える側は กลับมาแล้วเหรอ（おかえり）と返す。丁寧にはครับ/ค่ะを付ける。",
     "example": {
      "th": "แม่ครับ กลับมาแล้วครับ",
      "ro": "mɛ̂ɛ khráp klàp maa lɛ́ɛo khráp",
@@ -380,8 +398,32 @@
  {
   "id": "tl-52299",
   "th": "กลับมาแล้วเหรอ",
-  "action": "skip",
-  "skipReason": "กลับมาแล้ว（ただいま）に疑問の เหรอ を付けた応答形で、กลับมาแล้ว の項の注記で扱うため。"
+  "action": "add",
+  "ro": "klàp maa lɛ́ɛo rə̌ə",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "おかえり・帰ってきたの？",
+    "en": "welcome back, oh, you're back?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "帰宅した家族や戻ってきた人を迎えるときの言葉。タイ語に「おかえり」専用の決まり文句はなく、こう声をかける。親しい相手向け。",
+    "example": {
+     "th": "กลับมาแล้วเหรอ เหนื่อยไหม",
+     "ro": "klàp maa lɛ́ɛo rə̌ə nʉ̀ʉai mǎi",
+     "ja": "おかえり。疲れた？",
+     "en": "Oh, you're back. Are you tired?",
+     "origin": "authored"
+    }
+   }
+  ]
  },
  {
   "id": "tl-52300",
@@ -524,7 +566,7 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "少々お時間をください・少しお待ちください",
+    "ja": "少々お時間をください",
     "en": "please give me a moment",
     "pos": "定型表現",
     "use": "よく使う意味",
@@ -564,10 +606,8 @@
     "en": "it's too late, we won't make it",
     "pos": "定型表現",
     "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
     "note": "電車・約束・締め切りなどにもう間に合わないと分かったときに言う。",
     "example": {
      "th": "รถไฟออกแล้ว ไม่ทันแล้ว",
@@ -773,13 +813,13 @@
   "id": "tl-52319",
   "th": "ไม่เป็นไรค่อยเป็นค่อยไป",
   "action": "skip",
-  "skipReason": "既存の ไม่เป็นไร と ค่อยเป็นค่อยไป（焦らずゆっくり）の二つの表現を続けただけで、一つの定型表現ではないため。"
+  "skipReason": "既存の ไม่เป็นไร と慣用句 ค่อยเป็นค่อยไป（焦らずゆっくり）を続けただけで、一つの定型表現ではないため（ค่อยเป็นค่อยไป 単独なら別項目の候補）。"
  },
  {
   "id": "tl-52320",
   "th": "ทำดีมาก",
   "action": "skip",
-  "skipReason": "「よくやったね」の意味では ทำได้ดีมาก と言うのが自然で、ทำดีมาก は「善い行いをする」とも取れ、定型のほめ言葉として不自然なため。"
+  "skipReason": "「よくやったね」は既存の ดีมาก（よくできました）・เก่งมาก（よくできたね）と重なるため。また、ほめ言葉としては ทำได้ดีมาก の形が普通。"
  },
  {
   "id": "tl-52321",
@@ -900,30 +940,8 @@
  {
   "id": "tl-52329",
   "th": "ขอเบอร์โทรได้ไหม",
-  "action": "add",
-  "ro": "khɔ̌ɔ bəə thoo dâai mǎi",
-  "kind": "expression",
-  "category": "挨拶・会話",
-  "frequency": 5,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "電話番号を教えてもらえますか",
-    "en": "may I have your phone number?",
-    "pos": "定型表現",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "note": "連絡先を聞く普通の言い方で、仕事や手続きの場面でも使える。丁寧にはครับ/คะを付ける。くだけた ขอเบอร์หน่อย はスラング欄にある。",
-    "example": {
-     "th": "ขอเบอร์โทรได้ไหมครับ เผื่อมีอะไรจะได้ติดต่อ",
-     "ro": "khɔ̌ɔ bəə thoo dâai mǎi khráp phʉ̀ʉa mii à rai cà dâai tìt tɔ̀ɔ",
-     "ja": "電話番号を教えてもらえますか。何かあったときに連絡できるように。",
-     "en": "May I have your phone number, in case I need to contact you?",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "既存の ขอเบอร์หน่อย（電話番号教えて、tl-60029）と同じ依頼で、その項に普通の場面でも使えると注記があるため。"
  },
  {
   "id": "tl-52330",
@@ -946,11 +964,9 @@
     "en": "are you busy?",
     "pos": "定型表現",
     "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "note": "頼みごとや話を切り出す前に相手の都合を聞く。親しい相手向けで、ตอนนี้ยุ่งไหม（今忙しい？）の形も多い。丁寧にはยุ่งไหมครับ/คะ。",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "頼みごとや話を切り出す前に相手の都合を聞く。ตอนนี้ยุ่งไหม（今忙しい？）の形も多い。丁寧にはยุ่งไหมครับ/คะ。",
     "example": {
      "th": "ตอนนี้ยุ่งไหม ขอคุยหน่อย",
      "ro": "tɔɔn níi yûng mǎi khɔ̌ɔ khui nɔ̀ɔi",
@@ -976,10 +992,8 @@
     "en": "what are you doing?",
     "pos": "定型表現",
     "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
     "note": "友人・恋人・家族へのチャットや電話の第一声として非常によく使う。あいさつ代わりにもなる。",
     "example": {
      "th": "ทำอะไรอยู่ ว่างไหม",
@@ -1006,10 +1020,8 @@
     "en": "what should we eat?",
     "pos": "定型表現",
     "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
     "note": "食事の相談で友人・家族に言う。独り言でも使う。〜อะไรดีで「何を〜しようか」という型。",
     "example": {
      "th": "หิวแล้ว เที่ยงนี้กินอะไรดี",
@@ -1036,10 +1048,8 @@
     "en": "where should we go?",
     "pos": "定型表現",
     "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
     "note": "遊びや旅行の行き先を相談するときに言う。独り言でも使う。",
     "example": {
      "th": "วันหยุดยาวนี้ไปไหนดี",

@@ -1,0 +1,327 @@
+[
+ {
+  "id": "tl-52160",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52161",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52162",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52163",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52164",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52165",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52166",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52167",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52168",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52169",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52170",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52171",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52172",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52173",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52174",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52175",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52176",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52177",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52178",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52179",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52180",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52181",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52182",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52183",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52184",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52185",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52186",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52187",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52188",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52189",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52190",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52191",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52192",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52193",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52194",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52195",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52196",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52197",
+  "verdict": "fix",
+  "issues": [
+   "ja「先にメニューを見せてください」は「メニューを持ってきて」の意味になり、注記（注文を聞かれてまだ決めていないときに言う・持ってきてほしいときは ขอเมนูหน่อย）と矛盾する。ขอดู〜ก่อน は「まず見させて」の意味なので ja と例文の ja を修正"
+  ],
+  "fixed": {
+   "id": "tl-52197",
+   "th": "ขอดูเมนูก่อน",
+   "action": "add",
+   "ro": "khɔ̌ɔ duu mee nuu kɔ̀ɔn",
+   "kind": "expression",
+   "category": "食べ物・飲み物",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "まずメニューを見させてください・先にメニューを見てからにします",
+     "en": "let me see the menu first",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "店員に注文を聞かれて、まだ決めていないときに言う。メニューを持ってきてほしいときは ขอเมนูหน่อย と言う。",
+     "example": {
+      "th": "ขอดูเมนูก่อนนะคะ",
+      "ro": "khɔ̌ɔ duu mee nuu kɔ̀ɔn ná khá",
+      "ja": "まずメニューを見てからにしますね。",
+      "en": "Let me look at the menu first.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-52198",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52199",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52200",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52201",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52202",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52203",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52204",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52205",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52206",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52207",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52208",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52209",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52210",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52211",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52212",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52213",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52214",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52215",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52216",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52217",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52218",
+  "verdict": "ok",
+  "issues": []
+ }
+]
