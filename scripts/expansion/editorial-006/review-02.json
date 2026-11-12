@@ -1,0 +1,440 @@
+[
+ {
+  "id": "tl-51862",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51863",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51864",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51865",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51866",
+  "verdict": "ok",
+  "issues": [
+   "作者が枠型と指摘：単独の「มีไหม（ครับ/คะ）」も店で普通に言い、ja に（〜は）と枠を示しているので採用"
+  ]
+ },
+ {
+  "id": "tl-51867",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51868",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51869",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51870",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51871",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51872",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51873",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51874",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51875",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51876",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51877",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51878",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51879",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51880",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51881",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51882",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51883",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51884",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51885",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51886",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51887",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51888",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51889",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51890",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51891",
+  "verdict": "fix",
+  "issues": [
+   "注記の女性語尾が ค่ะ になっているが、疑問文なので คะ が正しい（ครับ/คะ）"
+  ],
+  "fixed": {
+   "id": "tl-51891",
+   "th": "ห้องน้ำอยู่ที่ไหน",
+   "action": "add",
+   "ro": "hɔ̂ɔng náam yùu thîi nǎi",
+   "kind": "expression",
+   "category": "移動・道案内",
+   "frequency": 8,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "トイレはどこですか",
+     "en": "where is the restroom?",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "ครับ/คะ を付けると丁寧。",
+     "example": {
+      "th": "ขอโทษครับ ห้องน้ำอยู่ที่ไหนครับ",
+      "ro": "khɔ̌ɔ thôot khráp hɔ̂ɔng náam yùu thîi nǎi khráp",
+      "ja": "すみません、トイレはどこですか。",
+      "en": "Excuse me, where is the restroom?",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51892",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51893",
+  "verdict": "ok",
+  "issues": [
+   "作者が枠型と指摘：「อยู่ที่ไหน」は単独でも「どこにいるの？」として頻用され、注記で〜อยู่ที่ไหน の形を説明しているので採用"
+  ]
+ },
+ {
+  "id": "tl-51894",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51895",
+  "verdict": "ok",
+  "issues": [
+   "作者が枠型と指摘：ไกลไหม ほどではないが「ใกล้ไหม」も道を聞くときに実際に言い、用例 อยู่ใกล้ไหม も自然なので採用（頻度4は妥当）"
+  ]
+ },
+ {
+  "id": "tl-51896",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51897",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51898",
+  "verdict": "ok",
+  "issues": [
+   "「ไป＋行き先」の枠型だが、タクシーで行き先を告げる定番の言い方として注記で形を説明しているので採用"
+  ]
+ },
+ {
+  "id": "tl-51899",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51900",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51901",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51902",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51903",
+  "verdict": "fix",
+  "issues": [
+   "注記で店員・電話応対の丁寧な言い方とし รอแป๊บนึง と対比しているのに標準語ラベル。ไม่ทราบครับ（part-04）と同様に改まった表現 / [\"formal\"] に変更"
+  ],
+  "fixed": {
+   "id": "tl-51903",
+   "th": "รอสักครู่",
+   "action": "add",
+   "ro": "rɔɔ sàk khrûu",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "frequency": 8,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "少々お待ちください",
+     "en": "please wait a moment",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "note": "店員や電話の応対でよく使う丁寧な言い方で、親しい相手には รอแป๊บนึง と言う。",
+     "example": {
+      "th": "รอสักครู่นะครับ ผมจะไปถามให้",
+      "ro": "rɔɔ sàk khrûu ná khráp phǒm cà pai thǎam hâi",
+      "ja": "少々お待ちください。聞いてきます。",
+      "en": "Please wait a moment. I'll go and ask.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51904",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51905",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51906",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51907",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51908",
+  "verdict": "ok",
+  "issues": [
+   "作者が枠型と指摘：「ช่วยได้ไหม（ครับ）」は単独の依頼として実際に言い、注記で ช่วยหน่อยได้ไหม との差も示しているので採用"
+  ]
+ },
+ {
+  "id": "tl-51909",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51910",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51911",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51912",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51913",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51914",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51915",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51916",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51917",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51918",
+  "verdict": "fix",
+  "issues": [
+   "例文の นั่งตามสบาย の訳が ja「楽に座ってね」と en「Sit wherever you like」で食い違うため、enを和訳に合わせて「Sit and make yourself comfortable.」に修正"
+  ],
+  "fixed": {
+   "id": "tl-51918",
+   "th": "ตามสบายนะ",
+   "action": "add",
+   "ro": "taam sà baai ná",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "楽にしてね・ご自由にどうぞ",
+     "en": "make yourself comfortable",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "客をもてなすときや好きにしてよいと伝えるときに使い、ตามสบายเลย とも言う。",
+     "example": {
+      "th": "นั่งตามสบายนะ เดี๋ยวไปเอาน้ำมาให้",
+      "ro": "nâng taam sà baai ná dǐiao pai ao náam maa hâi",
+      "ja": "楽に座ってね。今お水を持ってくるから。",
+      "en": "Sit and make yourself comfortable. I'll go get you some water.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51919",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51920",
+  "verdict": "fix",
+  "issues": [
+   "例文のenが「Please come in」でタイ語・和訳にない「中に入る」を足している。「Please, go ahead.」に修正",
+   "เชิญครับ と性別違いの対だが、part-01 の สวัสดีครับ/ค่ะ 等と同じ扱いで採用"
+  ],
+  "fixed": {
+   "id": "tl-51920",
+   "th": "เชิญค่ะ",
+   "action": "add",
+   "ro": "chəən khâ",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "frequency": 7,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "どうぞ",
+     "en": "please, go ahead",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "女性が使い（男性は เชิญครับ）、席や順番を譲るときや客を招くときに言う。",
+     "example": {
+      "th": "เชิญค่ะ ข้างในมีที่นั่ง",
+      "ro": "chəən khâ khâang nai mii thîi nâng",
+      "ja": "どうぞ。中に席があります。",
+      "en": "Please, go ahead. There are seats inside.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-51921",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51922",
+  "verdict": "ok",
+  "issues": []
+ }
+]

@@ -59,3 +59,23 @@ and countries / world cities / Thai places / languages / nationalities. All are 
 (not skipped as proper nouns). Use the spelling Thais write most; mention variants in note. Frequency
 1–10 is your estimate of how often a learner meets the word in daily life. Skip anything that is a
 brand, a person, or that you cannot confirm.
+
+editorial-006 is everyday conversational SET PHRASES (定型文) of two or more words, for the フレーズ section:
+greetings and leave-takings, thanks and apologies, introductions, asking for help or repetition, shopping,
+ordering food, directions and taxis, hotel, time, feelings and reactions, invitations, wishes.
+- Every entry: `"kind":"expression"`, first sense `pos` 定型表現, `category` 挨拶・会話 (or お金・買い物 /
+  移動・道案内 / 食べ物・飲み物 / 時間 when clearly better). One sense is normal; add a second only if the
+  phrase really has two common uses.
+- `ja` is the natural Japanese equivalent a Japanese speaker would say in the same situation
+  (「お会計お願いします」), not a word-by-word gloss. Mention in `note` who says it (男性/女性 because of
+  ครับ/ค่ะ, 親しい相手, 店員に…) and any politeness caveat. Phrases with 〜 slots (ผมชื่อ〜) say so in `ja`.
+- Register: most are 標準語 / []; casual forms (กินข้าวยัง, รอแป๊บนึง) are 口語 / ["colloquial"]; formal
+  ones (แล้วพบกันใหม่, ไม่ทราบครับ) 改まった表現 / ["formal"].
+- The example shows the phrase used naturally, ideally as a short exchange in one line
+  (「A: ขอบคุณมาก B: ไม่เป็นไร」is fine as `th` "ขอบคุณมาก ไม่เป็นไร" only if natural; otherwise a sentence).
+  The headword must appear exactly as spelled (spaces inside the headword are part of it).
+- `ro` of the headword: one syllable per Thai syllable, no punctuation; a space in the Thai headword
+  is just a syllable boundary.
+- `frequency` 1–10: how often a learner hears/uses it in daily life in Thailand.
+- Skip a candidate that is not something Thais actually say as a set phrase, sounds unnatural or
+  translated from Japanese, or duplicates another candidate with no difference worth teaching.
