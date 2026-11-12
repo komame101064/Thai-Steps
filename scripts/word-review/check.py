@@ -28,6 +28,8 @@ for i,l in enumerate(open(W/f'results/{chunk}.jsonl'),1):
         elif fx.get('field')=='sense.ja':cur=next((s['ja'] for s in x['senses'] if s['n']==fx.get('sense')),None)
         else:errs.append(f'{r["id"]}: bad fix field {fx}');continue
         if cur!=fx.get('from'):errs.append(f'{r["id"]}: fix.from does not match current text {fx.get("from")!r} vs {cur!r}')
+    for d in r.get('drop') or []:
+        if d.get('id') not in sum(([v.split(':')[0] for v in vs] for vs in x['rel'].values()),[]):errs.append(f'{r["id"]}: drop target is not an existing relation {d}')
     fq=r.get('freq')
     if fq is not None and not (isinstance(fq,dict) and isinstance(fq.get('to'),int) and 1<=fq['to']<=10):errs.append(f'{r["id"]}: bad freq {fq}')
 print(f'{n} results, {len(errs)} errors');print('\n'.join(errs[:40]))

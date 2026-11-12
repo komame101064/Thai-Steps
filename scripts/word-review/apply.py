@@ -47,6 +47,16 @@ def apply(only=None):
         if lit and all('literary' in (m.get('registerTags') or []) for m in w['meanings']) and (not w.get('speechStyle') or w['speechStyle'].startswith('標準') or w['speechStyle']=='改まった表現'):
             w['speechStyle']='文語'
             if 'literary' not in w.setdefault('tags',[]):w['tags'].append('literary')
+        for d in r.get('drop') or []:
+            b=by.get(d.get('id'))
+            for x,y in ((w,d.get('id')),(b,i)):
+                if not x:continue
+                t=d.get('type');rels=x.get('relations') or {}
+                for k in ([t] if t in rels else list(rels)):
+                    if y in (rels.get(k) or []):
+                        rels[k]=[v for v in rels[k] if v!=y];stat['drop']=stat.get('drop',0)+1
+                        det=(x.get('relationDetails') or {}).get(k)
+                        if det:x['relationDetails'][k]=[v for v in det if v.get('id')!=y]
         for e in r.get('rel') or []:
             b=by.get(e.get('id'))
             if not b or e.get('type') not in ('syn','ant','related'):continue
