@@ -21,7 +21,7 @@ def apply(only=None):
         for f in rows:
             if idx is not None:
                 w=idx.get(f['id']);assert w,f
-                if f['field'] in ('ro','speechText'):obj,key=w,f['field']
+                if f['field'] in ('ro','speechText','th'):obj,key=w,f['field']
                 elif f['field'].startswith('sense.'):obj=next(m for m in w['meanings'] if m['sourceSense']==f['sense']);key=f['field'][6:]
                 else:raise AssertionError(f)
             else:

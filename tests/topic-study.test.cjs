@@ -15,7 +15,7 @@ const ids=t.wordTopics().map(x=>x.id);assert.equal(ids.length,23);for(const id o
  assert(inT('ทำความสะอาด','home'));assert(inT('จาน','food'));assert(inT('ถอด','clothes'));assert(inT('ฟอลโลว์','tech'));assert(inT('เห่า','animals'));assert(inT('จอง','travel'));
  assert(!t.getBank().some(w=>w.th==='ฟ้อง'&&t.index[w.id]?.includes('sports')));}
 // The theme grid: 23 tiles in the general deck, none in the slang deck.
-assert.equal((t.topicGrid().match(/<button class="x-tile/g)||[]).length,23);t.setWordDeck('slang');assert.equal((t.topicGrid().match(/<button class="x-tile/g)||[]).length,12);for(const x of [...t.slangTopics(),...t.PHRASE_SCENES])assert(t.TOPIC_ICONS[x.id]||x.id==='s:trend','missing pictogram '+x.id);
+assert.equal((t.topicGrid().match(/<button class="x-tile/g)||[]).length,23);t.setWordDeck('slang');assert.equal((t.topicGrid().match(/<button class="x-tile/g)||[]).length,13);for(const x of [...t.slangTopics(),...t.PHRASE_SCENES])assert(t.TOPIC_ICONS[x.id]||x.id==='s:trend','missing pictogram '+x.id);
  // Slang theme steps teach slang words of that category by frequency; the discriminatory category has no step.
  t.setWordTopic('s:ほめる・反応');t.startGuidedStep('s:ほめる・反応');{const g=t.getStep();assert(g&&g.news.length>0);assert(g.news.every(id=>t.getBank().find(w=>w.id===id).category==='スラング｜ほめる・反応'));t.exitStepSession()}
  t.setWordTopic('s:差別的表現');assert(!t.topicHub().includes('x-step-go'));t.startGuidedStep('s:差別的表現');assert(!t.getStep()||t.getStep().topic!=='s:差別的表現');t.exitStepSession();

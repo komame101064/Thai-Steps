@@ -24059,5 +24059,55 @@
 "from": "sǎan câao",
 "to": "sǎan câo",
 "reason": "เจ้า は綴りどおり短母音 câo に統一（AI精査 2026-11）"
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10043",
+"field": "th",
+"from": "เวอร์",
+"to": "เว่อร์",
+"reason": "一般的な綴りは เว่อร์（AI精査 2026-11、口語欄の点検）"
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10043",
+"field": "ro",
+"from": "wəə",
+"to": "wə̂ə",
+"reason": "เว่อร์ は下声"
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10043",
+"field": "sense.note",
+"sense": 1,
+"from": "英語 over 由来。ほめる強調にも否定的な評価にもなる。",
+"to": "英語 over 由来。ほめる強調にも否定的な評価にもなる。เวอร์ とも書く。",
+"reason": "異綴りを注記"
+},
+{
+"file": "slang-bank.json",
+"id": "tl-21410",
+"field": "th",
+"from": "ฟิว",
+"to": "ฟีล",
+"reason": "英語 feel 由来の語の一般的な綴りは ฟีล（AI精査 2026-11、口語欄の点検）"
+},
+{
+"file": "slang-bank.json",
+"id": "tl-21410",
+"field": "ro",
+"from": "fiu",
+"to": "fiin",
+"reason": "ฟีล は fiin（末尾の ล は n）"
+},
+{
+"file": "slang-bank.json",
+"id": "tl-21410",
+"field": "sense.note",
+"sense": 1,
+"from": "英語 feel 由来の「感じ・雰囲気」。表記・発音に揺れがあり、チャットなどで使う。",
+"to": "英語 feel 由来の「感じ・雰囲気」。ฟิล・ฟิว とも書き、チャットなどで使う。",
+"reason": "表記の揺れを注記"
 }
 ]
