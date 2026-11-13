@@ -33,7 +33,7 @@
   "ro": "sǐiao sǎn lǎng",
   "kind": "word",
   "category": "性質・状態",
-  "frequency": 3,
+  "frequency": 1,
   "senses": [
    {
     "sourceSense": 1,
@@ -61,7 +61,7 @@
   "ro": "krà tìk náam rɔ́ɔn",
   "kind": "word",
   "category": "家・場所",
-  "frequency": 3,
+  "frequency": 2,
   "senses": [
    {
     "sourceSense": 1,
@@ -167,7 +167,7 @@
   "id": "tl-55727",
   "th": "ผ้าก๊อซ",
   "action": "add",
-  "ro": "phâa kɔ́t",
+  "ro": "phâa kɔ́ɔt",
   "kind": "word",
   "category": "体・健康",
   "frequency": 2,
@@ -182,7 +182,7 @@
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
      "th": "พยาบาลใช้ผ้าก๊อซปิดแผลให้",
-     "ro": "phá yaa baan chái phâa kɔ́t pìt phlɛ̌ɛ hâi",
+     "ro": "phá yaa baan chái phâa kɔ́ɔt pìt phlɛ̌ɛ hâi",
      "ja": "看護師がガーゼで傷を覆ってくれた。",
      "en": "The nurse covered the wound with gauze for me.",
      "origin": "authored"
@@ -274,30 +274,8 @@
  {
   "id": "tl-55731",
   "th": "ยางรัด",
-  "action": "add",
-  "ro": "yaang rát",
-  "kind": "word",
-  "category": "家・場所",
-  "frequency": 2,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "輪ゴム",
-    "en": "rubber band",
-    "pos": "名詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "เอายางรัดมัดปากถุงไว้",
-     "ro": "ao yaang rát mát pàak thǔng wái",
-     "ja": "輪ゴムで袋の口を縛っておく。",
-     "en": "Tie the bag closed with a rubber band.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "หนังยาง とも言う。"
+  "action": "skip",
+  "skipReason": "輪ゴムの一般的な呼び方は หนังยาง・ยางวง で、ยางรัด 単独が普通の語として定着しているか確認できないため。"
  },
  {
   "id": "tl-55732",
@@ -525,29 +503,8 @@
  {
   "id": "tl-55741",
   "th": "อะแดปเตอร์",
-  "action": "add",
-  "ro": "à dɛ́p tə̂ə",
-  "kind": "word",
-  "category": "一般語彙",
-  "frequency": 2,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "アダプター（電源・変換用）",
-    "en": "adapter",
-    "pos": "名詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "ฉันลืมอะแดปเตอร์ไว้ที่โรงแรม",
-     "ro": "chǎn lʉʉm à dɛ́p tə̂ə wái thîi roong rɛɛm",
-     "ja": "私はアダプターをホテルに置き忘れた。",
-     "en": "I left my adapter at the hotel.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "แดป の声調を既存の表記例（แอป ɛ́p と แบต bɛ̀t）で確定できず、読みに確信がないため。"
  },
  {
   "id": "tl-55742",
@@ -1339,9 +1296,9 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "のぞき・のぞき魔",
-    "en": "peeping, peeping Tom",
-    "pos": "名詞",
+    "ja": "のぞき見する（「のぞき・のぞき魔」の意味でも使う）",
+    "en": "to peep (also: peeping Tom)",
+    "pos": "動詞",
     "use": "よく使う意味",
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
@@ -1445,29 +1402,8 @@
  {
   "id": "tl-55775",
   "th": "ทาร์ต",
-  "action": "add",
-  "ro": "thâat",
-  "kind": "word",
-  "category": "食べ物・飲み物",
-  "frequency": 2,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "タルト（菓子）",
-    "en": "tart",
-    "pos": "名詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "ร้านนี้ขายทาร์ตไข่อร่อยมาก",
-     "ro": "ráan níi khǎai thâat khài à rɔ̀ɔi mâak",
-     "ja": "この店ではとてもおいしいエッグタルトを売っている。",
-     "en": "This shop sells really tasty egg tarts.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "ทาร์ต の声調（高声か下降声か）を既存の外来語の表記例で確定できないため。"
  },
  {
   "id": "tl-55776",
@@ -1480,7 +1416,7 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "バイクタクシー運転手のベスト（番号入りの制服）",
+    "ja": "バイクタクシー運転手のベスト（番号入り）",
     "en": "motorcycle-taxi driver's vest",
     "pos": "名詞",
     "use": "よく使う意味",
@@ -1491,8 +1427,8 @@
     "example": {
      "th": "คนขับมอเตอร์ไซค์รับจ้างต้องใส่เสื้อวิน",
      "ro": "khon khàp mɔɔ tə̂ə sai ráp câang tɔ̂ɔng sài sʉ̂ʉa win",
-     "ja": "バイクタクシーの運転手は専用のベストを着なければならない。",
-     "en": "Motorcycle-taxi drivers must wear the official vest.",
+     "ja": "バイクタクシーの運転手はベストを着なければならない。",
+     "en": "Motorcycle-taxi drivers must wear the vest.",
      "origin": "authored"
     }
    }

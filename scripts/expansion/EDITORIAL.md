@@ -91,3 +91,5 @@ editorial-010 is about 1,070 more words chosen **by estimated frequency** (most 
 editorial-011 is about 80 `general` entries: standard words that reviewers removed from the editorial-010 slang deck because they are ordinary vocabulary (they belong in the general deck with honest register labels — 口語 only if truly conversational; news words like ยาบ้า, แอบถ่าย are standard), plus frequent everyday nouns. Rules as editorial-009.
 
 editorial-012 is ~580 words that passed a separate candidate screening (free combinations, variants, short forms, senses of existing entries, brands and uncertain loanwords were removed before authoring). Mostly `general` (editorial-009 rules) plus ~80 `slang` (slang rules above; genuine colloquial words only). Loanword spelling: use the form Thais type most often and mention the official/other spelling in `note`. Still skip anything you cannot confirm.
+
+editorial-013 is ~570 `general` words from a second candidate round (core single words, body/health/food, work/written register, household objects/nature), screened the same way as editorial-012. Rules as editorial-012.

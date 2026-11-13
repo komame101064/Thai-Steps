@@ -1,0 +1,463 @@
+[
+ {
+  "id": "tl-55641",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55642",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55643",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55644",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55645",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55646",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55647",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55648",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55649",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55650",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55651",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55652",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55653",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55654",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55655",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55656",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55657",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55658",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55659",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55660",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55661",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55662",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55663",
+  "verdict": "fix",
+  "issues": [
+   "用例では แบบเก็บปลายทาग（代引きで）と名詞的に使っており、enも名詞。語義を「代金引換・着払い」、品詞を名詞に修正"
+  ],
+  "fixed": {
+   "id": "tl-55663",
+   "th": "เก็บปลายทาง",
+   "action": "add",
+   "ro": "kèp plaai thaang",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "代金引換・着払い",
+     "en": "cash on delivery",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "สินค้านี้สั่งแบบเก็บปลายทางได้ไหม",
+      "ro": "sǐn kháa níi sàng bɛ̀ɛp kèp plaai thaang dâai mǎi",
+      "ja": "この商品は代金引換で注文できますか？",
+      "en": "Can I order this item cash on delivery?",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55664",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55665",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55666",
+  "verdict": "reject",
+  "issues": [
+   "อด（〜なしで済ます）＋ข้าว の透明な組み合わせで、既存語 อด の用例（วันนี้เราต้องอดข้าว）ですでに教えている形のため除外"
+  ]
+ },
+ {
+  "id": "tl-55667",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55668",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55669",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55670",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55671",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55672",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55673",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55674",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55675",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55676",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55677",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55678",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55679",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55680",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55681",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55682",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55683",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55684",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55685",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55686",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55687",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55688",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55689",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55690",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55691",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55692",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55693",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55694",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55695",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55696",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55697",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55698",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55699",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55700",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55701",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55702",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55703",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55704",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55705",
+  "verdict": "fix",
+  "issues": [
+   "頻度3は構成語 จุดโทษ（1）より高く過大。1に修正"
+  ],
+  "fixed": {
+   "id": "tl-55705",
+   "th": "ดวลจุดโทษ",
+   "action": "add",
+   "ro": "duuan cùt thôot",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 1,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "PK戦をする",
+     "en": "to have a penalty shootout",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เกมนี้ต้องตัดสินด้วยการดวลจุดโทษ",
+      "ro": "keem níi tɔ̂ɔng tàt sǐn dûuai kaan duuan cùt thôot",
+      "ja": "この試合はPK戦で決着をつけることになりました。",
+      "en": "This match had to be decided by a penalty shootout.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「PK戦」という名詞では การดวลจุดโทษ と言う。"
+  }
+ },
+ {
+  "id": "tl-55706",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55707",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55708",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55709",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55710",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55711",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55712",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55713",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55714",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55715",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55716",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55717",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55718",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55719",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55720",
+  "verdict": "ok",
+  "issues": []
+ }
+]
