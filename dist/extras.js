@@ -14,6 +14,34 @@ let extraId=null,extraQuiz=null;
 function openExtra(id){extraId=id;extraQuiz=null;view='extra';render();window.scrollTo(0,0)}
 const xSay=(th,ro,ja)=>`<div class="ex-say"><button class="w-audio" onclick="speakThaiText('${th}')" aria-label="${th}を再生">${icon('audio')}</button><span class="ex-th" lang="th">${th}</span><b class="ex-ro">${ro}</b>${ja?`<span class="ex-ja">${ja}</span>`:''}</div>`;
 const EXTRAS={
+ tones:{title:'声調',lead:'5つの声調の出し方、聞き分け、文字から声調を決めるしくみ、会話での注意。最後に聞き取りの確認テスト。',body:()=>`
+ <section class="ex-sec"><h2>声調とは</h2><p>タイ語は、同じ音でも<b>声の高さの動き（声調）</b>が違うと別の語になります。声調は5つ。ローマ字では母音の上の記号で表します（記号なし・à・â・á・ǎ）。まずは同じ「khaa」の5つを聞き比べてください。</p>
+ <div class="ex-grid">${xSay('คา','khaa','挟まる（平声）')}${xSay('ข่า','khàa','ガランガル（低声）')}${xSay('ค่า','khâa','値段・価値（下声）')}${xSay('ค้า','kháa','商売する（高声）')}${xSay('ขา','khǎa','脚（上声）')}</div></section>
+ <section class="ex-sec"><h2>音の高さの動き</h2><p>線は声の高さ（上ほど高い）を左から右へ表したものです。</p>${toneChart()}</section>
+ <section class="ex-sec"><h2>1つずつの出し方</h2>
+ <div class="ex-tone"><h3>平声（記号なし）</h3><p>ふつうの高さで、まっすぐ伸ばします。力を抜いて「あー」と言う感じ。日本語の感覚で平らに言えば、たいていこの声調になります。</p>${xSay('มา','maa','来る')}${xSay('ดู','duu','見る')}</div>
+ <div class="ex-tone"><h3>低声（à）</h3><p>平声より低く始め、少し下がりながら言います。落ち着いた低めの声。最後まで低いままで、上げないのがこつです。</p>${xSay('ไก่','kài','鶏')}${xSay('ป่า','pàa','森')}</div>
+ <div class="ex-tone"><h3>下声（â）</h3><p>高いところから一気に下げます。がっかりしたときの「えー」や、強く言い切る「ダメ！」の下がり方に近い音です。</p>${xSay('ไม่','mâi','〜ない')}${xSay('ข้าว','khâao','ご飯')}</div>
+ <div class="ex-tone"><h3>高声（á）</h3><p>高めに始めて、さらに少し上げます。のどを少し締めた、張りのある高い声。短い母音ではきゅっと詰まって聞こえます。</p>${xSay('ม้า','máa','馬')}${xSay('รถ','rót','車')}</div>
+ <div class="ex-tone"><h3>上声（ǎ）</h3><p>いったん低く下げてから、ぐっと上げます。聞き返すときの「ええ？」に近い動き。最初に下げる部分を省かないのがこつです。</p>${xSay('หมา','mǎa','犬')}${xSay('ขาว','khǎao','白い')}</div></section>
+ <section class="ex-sec"><h2>間違えやすい組</h2><p>声調だけが違う語の組です。音声で何度も聞き比べましょう。</p>
+ <div class="ex-pairs">${[['ใกล้','klâi','近い','ไกล','klai','遠い'],['เสือ','sʉ̌ʉa','虎','เสื้อ','sʉ̂ʉa','服'],['ป่า','pàa','森','ป้า','pâa','おば'],['ปู','puu','カニ','ปู่','pùu','祖父'],['หน้า','nâa','顔','หนา','nǎa','厚い']].map(([a,ar,aj,b,br,bj])=>`<div class="ex-pair">${xSay(a,ar,aj)}${xSay(b,br,bj)}</div>`).join('')}<div class="ex-pair">${xSay('ขาว','khǎao','白い')}${xSay('ข่าว','khàao','ニュース')}${xSay('ข้าว','khâao','ご飯')}</div></div></section>
+ <section class="ex-sec"><h2>文字から声調を決めるしくみ</h2><p>タイ文字では、①子音字のグループ（中子音・高子音・低子音）、②音節が「生きている」か「死んでいる」か、③声調記号、の3つで声調が決まります。</p>
+ <ul class="ex-rules"><li><b>生きた音節</b>：長い母音で終わる、または m・n・ng・i・o で終わる（例：มา、ลม）。</li><li><b>死んだ音節</b>：短い母音で終わる、または k・t・p で終わる（例：เด็ก、รถ）。</li></ul>
+ <div class="ex-scroll"><table class="ex-table ex-rule-table"><thead><tr><th></th><th>生きた・記号なし</th><th>死んだ・記号なし</th><th>่（マイエーク）</th><th>้（マイトー）</th><th>๊</th><th>๋</th></tr></thead><tbody>
+ <tr><th>中子音<small>ก จ ด ต บ ป อ など</small></th><td>平</td><td>低</td><td>低</td><td>下</td><td>高</td><td>上</td></tr>
+ <tr><th>高子音<small>ข ฉ ถ ผ ฝ ส ห など</small></th><td>上</td><td>低</td><td>低</td><td>下</td><td>—</td><td>—</td></tr>
+ <tr><th>低子音<small>ค ช ท พ ม น ร ล など</small></th><td>平</td><td>短い母音：高<br>長い母音：下</td><td>下</td><td>高</td><td>—</td><td>—</td></tr></tbody></table></div>
+ <p>同じ記号でもグループで声調が変わる点に注意。例えば ่ は中子音・高子音では低声、低子音では下声になります。</p>
+ <div class="ex-grid">${xSay('ป้า','pâa','中子音＋้＝下声')}${xSay('ข่า','khàa','高子音＋่＝低声')}${xSay('ค่า','khâa','低子音＋่＝下声')}${xSay('ค้า','kháa','低子音＋้＝高声')}${xSay('รถ','rót','低子音・死んだ短母音＝高声')}${xSay('พูด','phûut','低子音・死んだ長母音＝下声')}</div>
+ <p class="ex-note">字ごとのグループや例外は「文字」の各課で少しずつ学べます。</p></section>
+ <section class="ex-sec"><h2>会話でのポイント</h2><ul class="ex-rules">
+ <li><b>疑問文でも語尾を上げない</b>：日本語の「〜ですか↑」の上げ調子で言うと、別の声調に聞こえます。疑問の ไหม（mǎi）はもともと上声なので、その声調のまま言えば十分です。${xSay('ไหม','mǎi','〜ですか')}</li>
+ <li><b>丁寧な語尾は声調まで覚える</b>：男性の ครับ（khráp・高声）。女性は答えるときの ค่ะ（khâ・下声）と、尋ねるときの คะ（khá・高声）を使い分けます。${xSay('ครับ','khráp','男性')}${xSay('ค่ะ','khâ','女性・答える')}${xSay('คะ','khá','女性・尋ねる')}</li>
+ <li><b>よく使う語は会話で声調が変わることがある</b>：ฉัน（chǎn）や เขา（khǎo）は、会話では高声（chán・kháo）に近く発音されることがよくあります。</li>
+ <li><b>感情で高さを変えすぎない</b>：驚きや強調で声全体が高くなっても、声調の「形」（上がる・下がる・平ら）は保たれます。形を崩さないことが大切です。</li></ul></section>
+ <section class="ex-sec"><h2>練習のしかた</h2><ol class="ex-rules"><li>新しい語はローマ字の記号を見て、声調の線を指で空中に描きながら言う。</li><li>คา・ข่า・ค่า・ค้า・ขา の5つを毎日声に出す（順番を変えても言えるように）。</li><li>音声を聞いて、まねして、録音して聞き比べる。</li><li>「文字」の文字ゲーム「声調あて」で聞き分けを鍛える。</li></ol></section>
+ <section class="ex-sec ex-quiz-sec"><h2>確認テスト</h2>${toneQuizView()}</section>`},
  numbers:{title:'数字',lead:'0〜100万までの数え方、タイ数字、順番・数え方・値段・電話番号の言い方。',body:()=>`
  <section class="ex-sec"><h2>0〜10</h2><div class="ex-grid">${NUM_TH.map((t,i)=>xSay(t,NUM_RO[i],String(i))).join('')}${xSay('สิบ','sìp','10')}</div></section>
  <section class="ex-sec"><h2>11〜99：十の位と一の位を並べる</h2><p>「十」は <b>สิบ</b>。12は สิบสอง、30は สามสิบ のように並べます。<b>2つだけ例外</b>があります。</p>
@@ -31,27 +59,33 @@ const EXTRAS={
  <h3>電話番号：1桁ずつ読む</h3><p>電話番号は1桁ずつ読みます。2は สาม（3）と聞き間違えないように <b><span lang="th">โท</span>（thoo）</b>と言うことがよくあります。0は ศูนย์。</p>${xSay('ศูนย์แปดหนึ่ง','sǔun pɛ̀ɛt nʉ̀ng','081…')}
  </section>
  <section class="ex-sec ex-quiz-sec"><h2>確認テスト</h2>${extraQuizView()}</section>`},
- sounds:{title:'発音・声調',lead:'5つの声調、母音の長さ、息の強さ、詰まる音。アプリのローマ字の読み方もここで確認できます。',body:()=>`
- <section class="ex-sec"><h2>5つの声調</h2><p>タイ語は音の高さの動き（声調）で意味が変わります。このアプリのローマ字では、<b>母音の上の記号</b>で声調を表します。</p>
- <table class="ex-table"><thead><tr><th>声調</th><th>記号</th><th>音の動き</th><th>例</th></tr></thead><tbody>
- <tr><td>平声</td><td>なし（a）</td><td>ふつうの高さで平らに</td><td>${xSay('มา','maa','来る')}</td></tr>
- <tr><td>低声</td><td>à</td><td>低めで平らに</td><td>${xSay('ใหม่','mài','新しい')}</td></tr>
- <tr><td>下声</td><td>â</td><td>高く始めて下げる</td><td>${xSay('ไม่','mâi','〜ない')}</td></tr>
- <tr><td>高声</td><td>á</td><td>高めで少し上がる</td><td>${xSay('ม้า','máa','馬')}</td></tr>
- <tr><td>上声</td><td>ǎ</td><td>低く下げてから上げる</td><td>${xSay('หมา','mǎa','犬')}</td></tr></tbody></table>
- <p class="ex-note">聞き比べ：${xSay('ไม่','mâi','〜ない')}${xSay('ไม้','máai','木')}${xSay('ไหม','mǎi','〜ですか')}</p></section>
+ sounds:{title:'発音の基本',lead:'母音の長さ、息の強さ、詰まる音、日本語にない音。アプリのローマ字の読み方もここで確認できます。',body:()=>`
  <section class="ex-sec"><h2>母音の長さ</h2><p>短い母音と長い母音で別の語になります。ローマ字では<b>長い母音を2つ重ねて</b>書きます（a / aa）。</p>${xSay('เข้า','khâo','入る（短い）')}${xSay('ข้าว','khâao','ご飯（長い）')}</section>
  <section class="ex-sec"><h2>息の強さ（有気音・無気音）</h2><p><b>kh・ph・th</b> は息を強く出す音、<b>k・p・t</b> は息をほとんど出さない音です。日本語の「カ・パ・タ」はその中間なので、意識して分けましょう。th は英語の th ではなく「息の強いタ」です。</p>
  ${xSay('ไก่','kài','鶏（息なし）')}${xSay('ไข่','khài','卵（息あり）')}${xSay('ตา','taa','目（息なし）')}${xSay('ถาม','thǎam','尋ねる（息あり）')}</section>
  <section class="ex-sec"><h2>詰まる音で終わる語</h2><p>語末の <b>-k・-t・-p</b> は、口の形だけ作って音を出しません（「ック」「ット」「ップ」の最後を言わない感じ）。</p>${xSay('หก','hòk','6')}${xSay('แปด','pɛ̀ɛt','8')}${xSay('กลับ','klàp','帰る')}</section>
  <section class="ex-sec"><h2>日本語にない音</h2><ul class="ex-rules"><li><b>ng</b>（語頭）：「ング」を1音で。${xSay('งู','nguu','蛇')}</li><li><b>ʉ</b>：口を横に引いたまま「ウ」。${xSay('เสือ','sʉ̌ʉa','虎')}</li><li><b>ə</b>：口を軽く開けたあいまいな「ウ／ア」。${xSay('เดิน','dəən','歩く')}</li><li><b>ɛ</b>：口を大きく開けた「エ」。${xSay('แม่','mɛ̂ɛ','母')}</li><li><b>ɔ</b>：口を大きく開けた「オ」。${xSay('พ่อ','phɔ̂ɔ','父')}</li></ul>
- <p class="ex-note">くだけた会話では r を l で発音したり（ร→ล）、kr・pr などの r を落としたりすることがよくあります。文字の読み方と声調の決まり方は「文字」で学べます。</p></section>`}
+ <p class="ex-note">くだけた会話では r を l で発音したり（ร→ล）、kr・pr などの r を落としたりすることがよくあります。声調は次の「0-2 声調」でくわしく扱います。</p></section>`}
 };
+const TONES=[['平声','mid','M8 30 H92'],['低声','low','M8 40 C40 42 70 46 92 50'],['下声','falling','M8 14 C40 12 70 34 92 52'],['高声','high','M8 22 C40 20 70 14 92 8'],['上声','rising','M8 38 C34 50 56 50 92 12']];
+function toneChart(){return `<div class="ex-tones">${TONES.map(([n,k,d])=>`<figure class="ex-tone-fig"><svg viewBox="0 0 100 60" aria-hidden="true"><path d="M0 10H100M0 30H100M0 50H100" class="g"/><path d="${d}" class="c"/></svg><figcaption>${n}</figcaption></figure>`).join('')}</div>`}
+// Tone of a romanized syllable from its first tone mark: none mid, grave low, circumflex falling, acute high, caron rising.
+function toneOf(ro){const d=String(ro).normalize('NFD');return /̌/.test(d)?4:/́/.test(d)?3:/̂/.test(d)?2:/̀/.test(d)?1:0}
+const TONE_POOL=[['คา','khaa'],['ข่า','khàa'],['ค่า','khâa'],['ค้า','kháa'],['ขา','khǎa'],['ขาว','khǎao'],['ข่าว','khàao'],['ข้าว','khâao'],['ไกล','klai'],['ใกล้','klâi'],['เสือ','sʉ̌ʉa'],['เสื้อ','sʉ̂ʉa'],['ป่า','pàa'],['ป้า','pâa'],['ปู','puu'],['ปู่','pùu'],['หน้า','nâa'],['หนา','nǎa'],['มา','maa'],['ม้า','máa'],['หมา','mǎa'],['ไม่','mâi'],['ไม้','máai'],['ใหม่','mài'],['รถ','rót'],['พูด','phûut'],['ช้าง','cháang'],['หมู','mǔu'],['ดู','duu'],['ไก่','kài']];
+let toneQuiz=null;
+function toneQuizNew(){toneQuiz={qs:shuffle(TONE_POOL).slice(0,8),i:0,ok:0,picked:null};toneSay()}
+function toneSay(){const q=toneQuiz&&toneQuiz.qs[toneQuiz.i];if(q&&typeof speakThaiText==='function')setTimeout(()=>speakThaiText(q[0],false,true),200)}
+function tonePick(t){const q=toneQuiz.qs[toneQuiz.i];toneQuiz.picked=t;if(t===toneOf(q[1]))toneQuiz.ok++;render()}
+function toneQuizView(){if(!toneQuiz)return `<p>音声を聞いて、どの声調かを選びます（8問）。</p><button class="btn" onclick="toneQuizNew();render()">確認テストを始める</button>`;const q=toneQuiz.qs[toneQuiz.i];if(!q)return `<p class="ex-score">${toneQuiz.ok} / ${toneQuiz.qs.length} 問正解</p><button class="btn" onclick="toneQuizNew();render()">もう一度</button>`;const ans=toneOf(q[1]);
+ return `<div class="ex-q"><div class="ex-q-top">${toneQuiz.i+1} / ${toneQuiz.qs.length}</div><div class="ex-q-word"><button class="w-audio" onclick="speakThaiText('${q[0]}')" aria-label="もう一度聞く">${icon('audio')}</button><span lang="th">${q[0]}</span>${toneQuiz.picked!==null?`<b>${q[1]}</b>`:''}</div><div class="ex-q-choices ex-tone-choices">${TONES.map(([n],k)=>{const st=toneQuiz.picked===null?'':k===ans?' is-right':k===toneQuiz.picked?' is-wrong':'';return `<button class="option${st}" ${toneQuiz.picked!==null?'disabled':''} onclick="tonePick(${k})"><span>${n}</span></button>`}).join('')}</div>${toneQuiz.picked!==null?`<button class="btn" onclick="toneQuiz.i++;toneQuiz.picked=null;render();toneSay()">次へ →</button>`:''}</div>`}
 function extraQuizNew(){const pool=[11,15,20,21,37,48,99,100,101,250,999,1500,2026,10000,35000,120000];const qs=shuffle(pool).slice(0,6).map(n=>{const others=shuffle(pool.filter(x=>x!==n)).slice(0,3);return {n,choices:shuffle([n,...others])}});extraQuiz={qs,i:0,ok:0,picked:null}}
 function extraQuizView(){if(!extraQuiz)return `<p>数字を見て、正しい読み方を選びます（6問）。</p><button class="btn" onclick="extraQuizNew();render()">確認テストを始める</button>`;const q=extraQuiz.qs[extraQuiz.i];if(!q)return `<p class="ex-score">${extraQuiz.ok} / ${extraQuiz.qs.length} 問正解</p><button class="btn" onclick="extraQuizNew();render()">もう一度</button>`;
  return `<div class="ex-q"><div class="ex-q-top">${extraQuiz.i+1} / ${extraQuiz.qs.length}</div><div class="ex-q-num">${q.n.toLocaleString()}</div><div class="ex-q-choices">${q.choices.map(c=>{const x=thaiNumber(c),st=extraQuiz.picked===null?'':c===q.n?' is-right':c===extraQuiz.picked?' is-wrong':'';return `<button class="option${st}" ${extraQuiz.picked!==null?'disabled':''} onclick="extraPick(${c})"><span lang="th">${x.th}</span><small>${x.ro}</small></button>`}).join('')}</div>${extraQuiz.picked!==null?`<button class="btn" onclick="extraQuiz.i++;extraQuiz.picked=null;render()">次へ →</button>`:''}</div>`}
 function extraPick(c){const q=extraQuiz.qs[extraQuiz.i];extraQuiz.picked=c;if(c===q.n)extraQuiz.ok++;const x=thaiNumber(q.n);if(typeof speakThaiText==='function')speakThaiText(x.th,false,true);render()}
-function extraView(){const x=EXTRAS[extraId];if(!x)return course();return `<button class="textbtn back" onclick="go('course')">← 文法に戻る</button><article class="ex-ch"><div class="eyebrow">0. 発音と数字</div><h1>${x.title}</h1><p class="ex-lead">${x.lead}</p>${x.body()}</article>`}
+function extraView(){const x=EXTRAS[extraId];if(!x)return course();const sc=extraFrom==='script';return `<button class="textbtn back" onclick="go('${sc?'script':'course'}')">← ${sc?'文字':'文法'}に戻る</button><article class="ex-ch"><div class="eyebrow">${sc?'文字 · 0. 発音と声調':'文法 · 0. 数字'}</div><h1>${x.title}</h1><p class="ex-lead">${x.lead}</p>${x.body()}</article>`}
 // Shown as chapter 0 of the grammar page (before 1. 文の土台), outside the 47 numbered lessons.
-const EXTRA_ORDER=['sounds','numbers'];
-function extrasCards(){return `<section class="x-course-chapter ex-chapter0"><div class="x-section-head"><h2><span class="x-chapter-icon" aria-hidden="true">${icon('audio')}</span>0. 発音と数字<small>入門</small></h2><span>${EXTRA_ORDER.length}課</span></div><div class="x-lessons">${EXTRA_ORDER.map((id,k)=>{const x=EXTRAS[id];return `<button class="x-lesson-row" onclick="openExtra('${id}')"><span class="x-lesson-num">0-${k+1}</span><span class="x-lesson-body"><b>${x.title}</b><small>${x.lead}</small></span><span class="x-lesson-end">${icon('arrow')}</span></button>`}).join('')}</div></section>`}
+let extraFrom='course';
+function extraChapter(title,ids,from,iconName){return `<section class="x-course-chapter ex-chapter0"><div class="x-section-head"><h2><span class="x-chapter-icon" aria-hidden="true">${icon(iconName)}</span>${title}<small>入門</small></h2><span>${ids.length}課</span></div><div class="x-lessons">${ids.map((id,k)=>{const x=EXTRAS[id];return `<button class="x-lesson-row" onclick="extraFrom='${from}';openExtra('${id}')"><span class="x-lesson-num">0-${k+1}</span><span class="x-lesson-body"><b>${x.title}</b><small>${x.lead}</small></span><span class="x-lesson-end">${icon('arrow')}</span></button>`}).join('')}</div></section>`}
+// Grammar chapter 0: numbers. 文字 chapter 0: pronunciation and tones.
+function extrasCards(){return extraChapter('0. 数字',['numbers'],'course','course')}
+function soundCards(){return extraChapter('0. 発音と声調',['sounds','tones'],'script','audio')}
