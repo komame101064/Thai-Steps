@@ -245,7 +245,7 @@
   "ro": "khîi sao",
   "kind": "word",
   "category": "性質・状態",
-  "frequency": 2,
+  "frequency": 1,
   "senses": [
    {
     "sourceSense": 1,
@@ -687,7 +687,7 @@
   "ro": "bà mìi kíiao",
   "kind": "word",
   "category": "食べ物・飲み物",
-  "frequency": 2,
+  "frequency": 1,
   "senses": [
    {
     "sourceSense": 1,
@@ -780,10 +780,10 @@
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "ค่าผ่านทางด่วนขึ้นราคาอีกแล้ว",
-     "ro": "khâa phàan thaang dùuan khʉ̂n raa khaa ìik lɛ́ɛo",
+     "th": "ค่าผ่านทางบนทางด่วนขึ้นราคาอีกแล้ว",
+     "ro": "khâa phàan thaang bon thaang dùuan khʉ̂n raa khaa ìik lɛ́ɛo",
      "ja": "高速道路の通行料がまた値上がりした。",
-     "en": "Expressway tolls have gone up again.",
+     "en": "The tolls on the expressway have gone up again.",
      "origin": "authored"
     }
    }
@@ -807,10 +807,10 @@
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "ไข้เลือดออกติดต่อจากยุงลาย",
-     "ro": "khâi lʉ̂ʉat ɔ̀ɔk tìt tɔ̀ɔ càak yung laai",
-     "ja": "デング熱はネッタイシマカからうつる。",
-     "en": "Dengue fever is transmitted by Aedes mosquitoes.",
+     "th": "หน้าฝนต้องระวังยุงลายกัด",
+     "ro": "nâa fǒn tɔ̂ɔng rá wang yung laai kàt",
+     "ja": "雨季はネッタイシマカに刺されないよう気をつけなければならない。",
+     "en": "In the rainy season you have to watch out for Aedes mosquito bites.",
      "origin": "authored"
     }
    }
@@ -888,10 +888,10 @@
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "ร้านทำเล็บนี้ต่อเล็บปลอมสวยมาก",
-     "ro": "ráan tham lép níi tɔ̀ɔ lép plɔɔm sǔuai mâak",
-     "ja": "このネイルサロンはつけ爪をとてもきれいに付けてくれる。",
-     "en": "This nail salon does beautiful false nails.",
+     "th": "เธอติดเล็บปลอมไปงานแต่งงาน",
+     "ro": "thəə tìt lép plɔɔm pai ngaan tɛ̀ng ngaan",
+     "ja": "彼女はつけ爪をつけて結婚式に行った。",
+     "en": "She wore false nails to the wedding.",
      "origin": "authored"
     }
    }
@@ -1447,10 +1447,10 @@
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "เธอไปให้แม่หมอดูดวงเรื่องงาน",
-     "ro": "thəə pai hâi mɛ̂ɛ mɔ̌ɔ duu duuang rʉ̂ʉang ngaan",
-     "ja": "彼女は仕事のことを女性の占い師に占ってもらいに行った。",
-     "en": "She went to a female fortune-teller to have her career read.",
+     "th": "แม่หมอคนนี้ดูดวงแม่นมาก",
+     "ro": "mɛ̂ɛ mɔ̌ɔ khon níi duu duuang mɛ̂n mâak",
+     "ja": "この女性占い師の占いはとてもよく当たる。",
+     "en": "This female fortune-teller is very accurate.",
      "origin": "authored"
     }
    }
@@ -1476,7 +1476,7 @@
     "example": {
      "th": "ญาติมาร่ำลากันที่สนามบิน",
      "ro": "yâat maa râm laa kan thîi sà nǎam bin",
-     "ja": "親戚が空港に集まって別れを惜しんだ。",
+     "ja": "親戚が空港に来て別れを告げ合った。",
      "en": "Relatives came to the airport to say goodbye.",
      "origin": "authored"
     }
@@ -1860,8 +1860,7 @@
      "origin": "authored"
     }
    }
-  ],
-  "note": "昔は子どものしつけにたたく道具としても使われた。"
+  ]
  },
  {
   "id": "tl-55868",
@@ -1965,7 +1964,7 @@
     "example": {
      "th": "สั่งหมูมะนาวมากินกับเบียร์",
      "ro": "sàng mǔu má naao maa kin kàp biia",
-     "ja": "ビールのつまみにムーマナーオを頼んだ。",
+     "ja": "ムーマナーオを頼んでビールと一緒に食べた。",
      "en": "I ordered pork in lime dressing to go with beer.",
      "origin": "authored"
     }
