@@ -153,8 +153,38 @@
  },
  {
   "id": "tl-56085",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 分類が「挨拶・会話」は不適切（あいさつ表現ではない）。性質・状態へ"
+  ],
+  "fixed": {
+   "id": "tl-56085",
+   "th": "เหน่อ",
+   "action": "add",
+   "ro": "nə̀ə",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（地方の）なまりがある・なまった話し方の",
+     "en": "to have a (regional) accent",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาพูดเหน่อนิดหน่อยเพราะเป็นคนต่างจังหวัด",
+      "ro": "khǎo phûut nə̀ə nít nɔ̀ɔi phrɔ́ pen khon tàang cang wàt",
+      "ja": "彼は地方出身なので、少しなまって話す。",
+      "en": "He speaks with a slight accent because he is from the provinces.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "特に中部の地方（スパンブリーなど）の発音について言うことが多い。"
+  }
  },
  {
   "id": "tl-56086",
@@ -277,8 +307,37 @@
  },
  {
   "id": "tl-56109",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 用例訳「恨んでいない」は ไม่โกรธ（怒っていない）にない意味を足している"
+  ],
+  "fixed": {
+   "id": "tl-56109",
+   "th": "ปลงตก",
+   "action": "add",
+   "ro": "plong tòk",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "悟る・諦めがつく",
+     "en": "to come to terms with, to accept (a loss)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ตอนนี้เขาปลงตกแล้ว ไม่โกรธใครอีก",
+      "ro": "tɔɔn níi khǎo plong tòk lɛ́ɛo mâi kròot khrai ìik",
+      "ja": "今では彼も諦めがついて、もう誰にも怒っていない。",
+      "en": "He has come to terms with it now and isn't angry at anyone anymore.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-56110",
@@ -299,8 +358,10 @@
  },
  {
   "id": "tl-56113",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "最終監査: 既存 เสียว（tl-05036）の語義2「鋭くずきっと痛む」の用例が「กินน้ำเย็นแล้วเสียวฟัน」で、同じ形・同じ意味をすでに教えている（他語義内の形の重複）"
+  ]
  },
  {
   "id": "tl-56114",

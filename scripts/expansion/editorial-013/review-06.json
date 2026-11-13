@@ -128,8 +128,38 @@
  },
  {
   "id": "tl-56386",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: เม็ดเลือดแดงだけ改まった表現になっており、同じ一般医学語の เม็ดเลือดขาว（標準語）と不統一。標準語に修正"
+  ],
+  "fixed": {
+   "id": "tl-56386",
+   "th": "เม็ดเลือดแดง",
+   "action": "add",
+   "ro": "mét lʉ̂ʉat dɛɛng",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "赤血球",
+     "en": "red blood cell",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ผลตรวจเลือดพบว่าเม็ดเลือดแดงต่ำกว่าปกติ",
+      "ro": "phǒn trùuat lʉ̂ʉat phóp wâa mét lʉ̂ʉat dɛɛng tàm kwàa pòk kà tì",
+      "ja": "血液検査で、赤血球が正常値より少ないとわかった。",
+      "en": "The blood test found that the red blood cell count was lower than normal.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "白血球は เม็ดเลือดขาว。"
+  }
  },
  {
   "id": "tl-56387",
