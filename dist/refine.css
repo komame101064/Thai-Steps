@@ -751,7 +751,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 html body .x-seg.f-tabs{grid-template-columns:repeat(4,1fr);margin-bottom:14px}
 .f-tabs button{display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.2;height:46px!important;font-size:12.5px}
 .f-tabs button small{font-size:10.5px;opacity:.8;font-weight:500}
-/* 番外編 */
+/* 0. 発音と数字 */
 .ex-cards{margin:6px 0 16px}
 .ex-card-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .ex-card{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:14px;border:1px solid var(--x-line);border-radius:14px;background:#fffefa;text-align:left;font:inherit;color:inherit;cursor:pointer}
