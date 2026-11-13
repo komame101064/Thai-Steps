@@ -27,7 +27,9 @@
  {
   "id": "tl-55806",
   "verdict": "ok",
-  "issues": []
+  "issues": [
+   "定型的な言い回しとして定着しているため採用"
+  ]
  },
  {
   "id": "tl-55807",
@@ -47,7 +49,9 @@
  {
   "id": "tl-55810",
   "verdict": "ok",
-  "issues": []
+  "issues": [
+   "ช่าง+動詞 型の性質語として辞書にも載る定着語のため採用"
+  ]
  },
  {
   "id": "tl-55811",
@@ -99,7 +103,8 @@
   "id": "tl-55814",
   "verdict": "fix",
   "issues": [
-   "note の「日本式の醤油を指すことが多い」は確認できない主張のため削除し、言い換えた"
+   "note の「商品名や日本式の醤油を指すことが多い」は確認できない主張のため簡潔に修正",
+   "例文の日本料理店の場面は日本の醤油を โชยุ と呼ぶことが多い（ซีอิ๊ว の既存 note）点と食い違うため、一般的な例文に差し替え"
   ],
   "fixed": {
    "id": "tl-55814",
@@ -119,21 +124,23 @@
      "registerTags": [],
      "speechStyle": "標準語（口語限定ではない）",
      "example": {
-      "th": "ร้านอาหารญี่ปุ่นมีซอสถั่วเหลืองบนโต๊ะ",
-      "ro": "ráan aa hǎan yîi pùn mii sɔ́ɔt thùua lʉ̌ʉang bon tó",
-      "ja": "日本料理店ではテーブルに醤油が置いてある。",
-      "en": "Japanese restaurants have soy sauce on the table.",
+      "th": "ใส่ซอสถั่วเหลืองลงในน้ำซุปนิดหน่อย",
+      "ro": "sài sɔ́ɔt thùua lʉ̌ʉang long nai nám súp nít nɔ̀ɔi",
+      "ja": "スープに醤油を少し入れる。",
+      "en": "Add a little soy sauce to the soup.",
       "origin": "authored"
      }
     }
    ],
-   "note": "日常会話ではふつう ซีอิ๊ว と言い、ซอสถั่วเหลือง は商品ラベルなどで使う改まった言い方。"
+   "note": "タイ料理の調味料としては ซีอิ๊ว と言うことが多い。"
   }
  },
  {
   "id": "tl-55815",
   "verdict": "ok",
-  "issues": []
+  "issues": [
+   "製品名として定着した名詞のため採用"
+  ]
  },
  {
   "id": "tl-55816",
@@ -285,7 +292,9 @@
  {
   "id": "tl-55845",
   "verdict": "ok",
-  "issues": []
+  "issues": [
+   "法律・日常で定着した用語（養育費・扶養料）で、ค่า+เลี้ยงดู から意味が限定されるため採用"
+  ]
  },
  {
   "id": "tl-55846",
@@ -299,8 +308,38 @@
  },
  {
   "id": "tl-55848",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "note の「2020年代に」という年代の断定を「近年」に弱めた"
+  ],
+  "fixed": {
+   "id": "tl-55848",
+   "th": "โลกรวน",
+   "action": "add",
+   "ro": "lôok ruuan",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "frequency": 1,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "気候変動（による気候の乱れ）",
+     "en": "climate disruption, climate change",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "โลกรวนทำให้ฝนตกหนักผิดฤดู",
+      "ro": "lôok ruuan tham hâi fǒn tòk nàk phìt rʉ́ duu",
+      "ja": "気候変動のせいで季節外れの大雨が降る。",
+      "en": "Climate disruption brings heavy rain out of season.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "近年メディアで広まった言い方で、気候変動 การเปลี่ยนแปลงสภาพภูมิอากาศ の言い換え。"
+  }
  },
  {
   "id": "tl-55849",
@@ -325,7 +364,9 @@
  {
   "id": "tl-55853",
   "verdict": "ok",
-  "issues": []
+  "issues": [
+   "ร่ำ（既存・文語）の note と例文に ร่ำลา が出るが語義としては未収録。ร่ำลา は報道・会話でも使う一般的な語なので独立見出しとして採用"
+  ]
  },
  {
   "id": "tl-55854",
@@ -379,7 +420,9 @@
  {
   "id": "tl-55863",
   "verdict": "ok",
-  "issues": []
+  "issues": [
+   "ที่+動詞 の道具名詞として語彙化（ที่เปิดขวด 型）しているため採用"
+  ]
  },
  {
   "id": "tl-55864",
@@ -406,7 +449,9 @@
  {
   "id": "tl-55868",
   "verdict": "ok",
-  "issues": []
+  "issues": [
+   "製品名として定着した名詞のため採用"
+  ]
  },
  {
   "id": "tl-55869",
