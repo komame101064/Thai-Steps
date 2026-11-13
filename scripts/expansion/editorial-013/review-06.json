@@ -1,0 +1,458 @@
+[
+ {
+  "id": "tl-56361",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56362",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56363",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56364",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56365",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56366",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56367",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56368",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56369",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56370",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56371",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56372",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56373",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56374",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56375",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56376",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56377",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56378",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56379",
+  "verdict": "reject",
+  "issues": [
+   "กะเทาะ（kà thɔ́、同義）が既に単語帳にあり、つづりの異形の重複"
+  ]
+ },
+ {
+  "id": "tl-56380",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56381",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56382",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56383",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56384",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56385",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56386",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: เม็ดเลือดแดงだけ改まった表現になっており、同じ一般医学語の เม็ดเลือดขาว（標準語）と不統一。標準語に修正"
+  ],
+  "fixed": {
+   "id": "tl-56386",
+   "th": "เม็ดเลือดแดง",
+   "action": "add",
+   "ro": "mét lʉ̂ʉat dɛɛng",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "赤血球",
+     "en": "red blood cell",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ผลตรวจเลือดพบว่าเม็ดเลือดแดงต่ำกว่าปกติ",
+      "ro": "phǒn trùuat lʉ̂ʉat phóp wâa mét lʉ̂ʉat dɛɛng tàm kwàa pòk kà tì",
+      "ja": "血液検査で、赤血球が正常値より少ないとわかった。",
+      "en": "The blood test found that the red blood cell count was lower than normal.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "白血球は เม็ดเลือดขาว。"
+  }
+ },
+ {
+  "id": "tl-56387",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56388",
+  "verdict": "reject",
+  "issues": [
+   "ติด（引っかかる）＋คอ の自由な組み合わせで、独立した語として教える根拠が弱い"
+  ]
+ },
+ {
+  "id": "tl-56389",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56390",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56391",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56392",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56393",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56394",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56395",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56396",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56397",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56398",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56399",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56400",
+  "verdict": "fix",
+  "issues": [
+   "例文訳の「適度に」はタイ語にない意味の追加"
+  ],
+  "fixed": {
+   "id": "tl-56400",
+   "th": "สันคอ",
+   "action": "add",
+   "ro": "sǎn khɔɔ",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（豚の）肩ロース",
+     "en": "pork collar, pork neck",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันชอบหมูสันคอเพราะมีมันแทรก",
+      "ro": "chǎn chɔ̂ɔp mǔu sǎn khɔɔ phrɔ́ mii man sɛ̂ɛk",
+      "ja": "脂が入っているので、私は豚の肩ロースが好きだ。",
+      "en": "I like pork collar because it is marbled with fat.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "料理では หมูสันคอ の形で使うことが多い。"
+  }
+ },
+ {
+  "id": "tl-56401",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56402",
+  "verdict": "fix",
+  "issues": [
+   "例文訳の「コピーに」はタイ語にない語の追加"
+  ],
+  "fixed": {
+   "id": "tl-56402",
+   "th": "รับรองสำเนาถูกต้อง",
+   "action": "add",
+   "ro": "ráp rɔɔng sǎm nao thùuk tɔ̂ɔng",
+   "kind": "expression",
+   "category": "社会・制度",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "原本と相違ありません（書類のコピーに書く証明文）",
+     "en": "certified true copy (written on photocopies)",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "อย่าลืมเขียนรับรองสำเนาถูกต้องแล้วเซ็นชื่อด้วย",
+      "ro": "yàa lʉʉm khǐian ráp rɔɔng sǎm nao thùuk tɔ̂ɔng lɛ́ɛo sen chʉ̂ʉ dûuai",
+      "ja": "「原本と相違ありません」と書いて署名するのを忘れないで。",
+      "en": "Don't forget to write \"certified true copy\" and sign it.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "身分証などのコピーを提出するとき、余白に手書きして署名する決まり文句。"
+  }
+ },
+ {
+  "id": "tl-56403",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56404",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56405",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56406",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56407",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56408",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56409",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56410",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56411",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56412",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56413",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56414",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56415",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56416",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56417",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56418",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56419",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56420",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56421",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56422",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56423",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56424",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56425",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56426",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56427",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56428",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56429",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56430",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56431",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56432",
+  "verdict": "ok",
+  "issues": []
+ }
+]

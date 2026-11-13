@@ -1,0 +1,544 @@
+[
+ {
+  "id": "tl-56433",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56434",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56435",
+  "verdict": "reject",
+  "issues": [
+   "読みを確定できない：既存の คริสเตียน khrít sà tiian・คริสต์มาส khrít sà mâat に倣えば khrít sà tan だが、作者の khrít tan とも実際の発音が揺れ、辞書で確認できない（同じ部の กอริลลา と同じ基準で不採用）"
+  ]
+ },
+ {
+  "id": "tl-56436",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56437",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56438",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56439",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56440",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56441",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56442",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56443",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56444",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56445",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56446",
+  "verdict": "reject",
+  "issues": [
+   "読みを確定できない：โปส- の先例がなく、綴りどおりの pòot と口語の póot（พลาสเตอร์ phláas のように口語声調で書く先例あり）・3音節読みが揺れる",
+   "例文 ระบายสีโปสเตอร์ は「ポスターに色を塗る」とも読め、曖昧"
+  ]
+ },
+ {
+  "id": "tl-56447",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56448",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56449",
+  "verdict": "reject",
+  "issues": [
+   "最終監査: 同じバッチの tl-56206 ตะหงิด の表記ゆれ（ตงิด/ตะหงิด、同音・同義）。重複登録になるため、ตะหงิด の note で異表記として示す"
+  ]
+ },
+ {
+  "id": "tl-56450",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56451",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56452",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56453",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56454",
+  "verdict": "fix",
+  "issues": [
+   "例文訳：คลินิก を「歯科医院」と訳しており、原文にない「歯科」を足している→クリニック"
+  ],
+  "fixed": {
+   "id": "tl-56454",
+   "th": "รากฟันเทียม",
+   "action": "add",
+   "ro": "râak fan thiiam",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "歯科インプラント",
+     "en": "dental implant",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "คุณแม่ไปทำรากฟันเทียมที่คลินิก",
+      "ro": "khun mɛ̂ɛ pai tham râak fan thiiam thîi khlí nìk",
+      "ja": "母はクリニックでインプラントの治療を受けました。",
+      "en": "My mother got a dental implant at the clinic.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56455",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56456",
+  "verdict": "fix",
+  "issues": [
+   "構成語 ต่อม（頻度1）より高い頻度になっていたため1に修正"
+  ],
+  "fixed": {
+   "id": "tl-56456",
+   "th": "ต่อมน้ำเหลือง",
+   "action": "add",
+   "ro": "tɔ̀ɔm nám lʉ̌ʉang",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 1,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "リンパ節",
+     "en": "lymph node",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หมอบอกว่าต่อมน้ำเหลืองที่คอบวม",
+      "ro": "mɔ̌ɔ bɔ̀ɔk wâa tɔ̀ɔm nám lʉ̌ʉang thîi khɔɔ buuam",
+      "ja": "医者は首のリンパ節が腫れていると言いました。",
+      "en": "The doctor said the lymph nodes in my neck were swollen.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56457",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56458",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56459",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56460",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56461",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56462",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56463",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56464",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56465",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56466",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56467",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56468",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56469",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56470",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56471",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56472",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56473",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56474",
+  "verdict": "fix",
+  "issues": [
+   "構成語 ทุเรียน（頻度1）より高い頻度になっていたため1に修正"
+  ],
+  "fixed": {
+   "id": "tl-56474",
+   "th": "ทุเรียนกวน",
+   "action": "add",
+   "ro": "thú riian kuuan",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 1,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ドリアンの練り菓子",
+     "en": "durian paste (sweet)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ป้าซื้อทุเรียนกวนมาเป็นของฝาก",
+      "ro": "pâa sʉ́ʉ thú riian kuuan maa pen khɔ̌ɔng fàak",
+      "ja": "おばがお土産にドリアンの練り菓子を買ってきました。",
+      "en": "My aunt brought back durian paste as a souvenir.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56475",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56476",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56477",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56478",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56479",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56480",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56481",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56482",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: ลูกระนาด は木琴の鍵盤状に並んだ小さな段差（ランブルストリップ）。単独のスピードバンプ（ลูกเนิน）と区別して語義を修正し、noteを追加"
+  ],
+  "fixed": {
+   "id": "tl-56482",
+   "th": "ลูกระนาด",
+   "action": "add",
+   "ro": "lûuk rá nâat",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（道路の）減速用の連続した小さな段差・ランブルストリップ",
+     "en": "rumble strips (a row of small speed bumps)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ขับช้าๆ หน่อย ข้างหน้ามีลูกระนาด",
+      "ro": "khàp cháa cháa nɔ̀ɔi khâang nâa mii lûuk rá nâat",
+      "ja": "前に段差があるから、少しゆっくり運転して。",
+      "en": "Drive a bit slowly, there are speed bumps ahead.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "木琴 ระนาด の鍵盤のように並んだ段差のこと。単独の大きな段差は ลูกเนิน・เนินชะลอความเร็ว と言う。"
+  }
+ },
+ {
+  "id": "tl-56483",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56484",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56485",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56486",
+  "verdict": "fix",
+  "issues": [
+   "構成語 เลื่อย（頻度1）より高い頻度になっていたため1に修正"
+  ],
+  "fixed": {
+   "id": "tl-56486",
+   "th": "ขี้เลื่อย",
+   "action": "add",
+   "ro": "khîi lʉ̂ʉai",
+   "kind": "word",
+   "category": "家・場所",
+   "frequency": 1,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "おがくず",
+     "en": "sawdust",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พื้นโรงเลื่อยเต็มไปด้วยขี้เลื่อย",
+      "ro": "phʉ́ʉn roong lʉ̂ʉai tem pai dûuai khîi lʉ̂ʉai",
+      "ja": "製材所の床はおがくずだらけです。",
+      "en": "The floor of the sawmill is covered in sawdust.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56487",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56488",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56489",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56490",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56491",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56492",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56493",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56494",
+  "verdict": "fix",
+  "issues": [
+   "構成語 นกยูง（頻度1）より高い頻度になっていたため1に修正"
+  ],
+  "fixed": {
+   "id": "tl-56494",
+   "th": "ปลาหางนกยูง",
+   "action": "add",
+   "ro": "plaa hǎang nók yuung",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "frequency": 1,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "グッピー",
+     "en": "guppy",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ลูกสาวเลี้ยงปลาหางนกยูงในตู้ปลา",
+      "ro": "lûuk sǎao líiang plaa hǎang nók yuung nai tûu plaa",
+      "ja": "娘は水槽でグッピーを飼っています。",
+      "en": "My daughter keeps guppies in a fish tank.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56495",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56496",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56497",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56498",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56499",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56500",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56501",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56502",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56503",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56504",
+  "verdict": "ok",
+  "issues": []
+ }
+]

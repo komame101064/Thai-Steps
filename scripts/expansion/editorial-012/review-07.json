@@ -1,0 +1,307 @@
+[
+ {
+  "id": "tl-55881",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55882",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55883",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55884",
+  "verdict": "reject",
+  "issues": [
+   "ผู้ + ฝึกสอน（既存語、「訓練する・指導する」の語義あり）の透明な派生で独立語とは言いにくい。頻度4も構成語（1）を大きく超える"
+  ]
+ },
+ {
+  "id": "tl-55885",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55886",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55887",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55888",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55889",
+  "verdict": "fix",
+  "issues": [
+   "頻度を控えめに（ฝ่ายค้าน と同程度の2）"
+  ],
+  "fixed": {
+   "id": "tl-55889",
+   "th": "ฝ่ายซ้าย",
+   "action": "add",
+   "ro": "fàai sáai",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "左派・左翼",
+     "en": "the left (politics), left wing",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พรรคนี้มีแนวคิดแบบฝ่ายซ้าย",
+      "ro": "phák níi mii nɛɛo khít bɛ̀ɛp fàai sáai",
+      "ja": "この政党は左派的な考え方を持っている。",
+      "en": "This party has left-wing ideas.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "反対は ฝ่ายขวา（右派）。"
+  }
+ },
+ {
+  "id": "tl-55890",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55891",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55892",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55893",
+  "verdict": "fix",
+  "issues": [
+   "頻度を控えめに（ไมโครเวฟ・ไมโครโฟน との釣り合い）"
+  ],
+  "fixed": {
+   "id": "tl-55893",
+   "th": "ไมโครพลาสติก",
+   "action": "add",
+   "ro": "mai khroo phláas tìk",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "マイクロプラスチック",
+     "en": "microplastics",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "นักวิจัยพบไมโครพลาสติกในปลาทะเล",
+      "ro": "nák wí cai phóp mai khroo phláas tìk nai plaa thá lee",
+      "ja": "研究者は海の魚からマイクロプラスチックを見つけた。",
+      "en": "Researchers found microplastics in sea fish.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55894",
+  "verdict": "fix",
+  "issues": [
+   "頻度を控えめに（構成語 อุปถัมภ์ は3）"
+  ],
+  "fixed": {
+   "id": "tl-55894",
+   "th": "ระบบอุปถัมภ์",
+   "action": "add",
+   "ro": "rá bòp ùp pà thǎm",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "縁故主義・パトロン制度（コネや恩顧による人事など）",
+     "en": "patronage system",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ระบบอุปถัมภ์ทำให้คนเก่งไม่ได้รับโอกาส",
+      "ro": "rá bòp ùp pà thǎm tham hâi khon kèng mâi dâai ráp oo kàat",
+      "ja": "縁故主義のせいで有能な人に機会が回ってこない。",
+      "en": "The patronage system keeps talented people from getting opportunities.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55895",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55896",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55897",
+  "verdict": "fix",
+  "issues": [
+   "「主にイサーン」という地域の断定は根拠が弱いため注記から削除"
+  ],
+  "fixed": {
+   "id": "tl-55897",
+   "th": "สาโท",
+   "action": "add",
+   "ro": "sǎa thoo",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "サートー（もち米から造る地酒）",
+     "en": "sato, Thai rice wine",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ชาวบ้านทำสาโทไว้ดื่มในงานบุญ",
+      "ro": "chaao bâan tham sǎa thoo wái dʉ̀ʉm nai ngaan bun",
+      "ja": "村人は祭りで飲むためにサートーを造っておく。",
+      "en": "Villagers make rice wine to drink at the merit-making festival.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "もち米を発酵させて造る、甘みのある地酒。"
+  }
+ },
+ {
+  "id": "tl-55898",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55899",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55900",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55901",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55902",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55903",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55904",
+  "verdict": "fix",
+  "issues": [
+   "複合語の頻度が構成語 คาร์บอน（1）を超えないよう1に"
+  ],
+  "fixed": {
+   "id": "tl-55904",
+   "th": "คาร์บอนเครดิต",
+   "action": "add",
+   "ro": "khaa bɔɔn khree dìt",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 1,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "カーボンクレジット",
+     "en": "carbon credit",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "บริษัทซื้อคาร์บอนเครดิตเพื่อชดเชยการปล่อยก๊าซ",
+      "ro": "bɔɔ rí sàt sʉ́ʉ khaa bɔɔn khree dìt phʉ̂ʉa chót chəəi kaan plɔ̀ɔi káat",
+      "ja": "会社はガスの排出を埋め合わせるためにカーボンクレジットを購入した。",
+      "en": "The company bought carbon credits to offset its gas emissions.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55905",
+  "verdict": "fix",
+  "issues": [
+   "頻度を控えめに（ภาครัฐ・ภาคเอกชน と同程度の2）"
+  ],
+  "fixed": {
+   "id": "tl-55905",
+   "th": "ภาคประชาสังคม",
+   "action": "add",
+   "ro": "phâak prà chaa sǎng khom",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "市民社会（市民団体・NGOなどの民間部門）",
+     "en": "civil society",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ภาคประชาสังคมเรียกร้องให้รัฐบาลแก้ปัญหาฝุ่น",
+      "ro": "phâak prà chaa sǎng khom rîiak rɔ́ɔng hâi rát thà baan kɛ̂ɛ pan hǎa fùn",
+      "ja": "市民社会は政府に粉じん問題の解決を求めた。",
+      "en": "Civil society called on the government to solve the dust problem.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ }
+]

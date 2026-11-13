@@ -1,0 +1,541 @@
+[
+ {
+  "id": "tl-55401",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55402",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55403",
+  "verdict": "reject",
+  "issues": [
+   "ทาน の第1語義（食べる・丁寧）と既存 กินข้าว（注記で「丁寧には ทานข้าว」と既出）で扱われており、ทาน＋ข้าว の透明な組み合わせのため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-55404",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55405",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55406",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55407",
+  "verdict": "reject",
+  "issues": [
+   "既存 คือ（tl-00066）の第2語義「ええと・つまり（説明の前置き）／(sentence-initial) well, I mean」と同じ用法で、その語義内で既に教えている形のため重複"
+  ]
+ },
+ {
+  "id": "tl-55408",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55409",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55410",
+  "verdict": "reject",
+  "issues": [
+   "既存 เสียอีก（tl-05245「予想に反して実際には」）の口語発音形（เสีย→ซะ）で、綴り違いの重複"
+  ]
+ },
+ {
+  "id": "tl-55411",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55412",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55413",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55414",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55415",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55416",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55417",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55418",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55419",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55420",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55421",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55422",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55423",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55424",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55425",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55426",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55427",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55428",
+  "verdict": "reject",
+  "issues": [
+   "既存 ระยะๆ（tl-43138）が「เป็นระยะๆ の形で 時々・断続的に」として同じ表現を既に教えているため重複"
+  ]
+ },
+ {
+  "id": "tl-55429",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55430",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55431",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55432",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55433",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55434",
+  "verdict": "fix",
+  "issues": [
+   "読み lɔ́ɔt təə rîi を確認：実際の発音は高声（ล็อด）で、低子音＋長母音表記＋閉音節の借用語は既存の ซอส sɔ́ɔt・คลาส khláas・โพสต์ phóot と同じく高声・表記どおりの長さで書く慣例に一致。หวย とは別語（同義語）で重複ではない",
+   "最終監査: 読み lɔ́ɔt は辞書読み（ลอด lɔ̂ɔt）とも実際の発音（ล็อต lɔ́t）とも合わない。実際の発音 lɔ́t に統一し、注記を補足"
+  ],
+  "fixed": {
+   "id": "tl-55434",
+   "th": "ลอตเตอรี่",
+   "action": "add",
+   "ro": "lɔ́t təə rîi",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "宝くじ（政府の宝くじ券）",
+     "en": "lottery ticket, lottery",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาซื้อลอตเตอรี่ทุกงวด",
+      "ro": "khǎo sʉ́ʉ lɔ́t təə rîi thúk ngûuat",
+      "ja": "彼は毎回の抽選ごとに宝くじを買っています。",
+      "en": "He buys lottery tickets for every draw.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ふつうは ล็อต（lɔ́t）と短く発音し、ล็อตเตอรี่ とも書く。正式には สลากกินแบ่งรัฐบาล、口語では หวย とも言う。"
+  }
+ },
+ {
+  "id": "tl-55435",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55436",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: ลูกคุณหนู（tl-60674）を不採用にしたため、注に異形として記載"
+  ],
+  "fixed": {
+   "id": "tl-55436",
+   "th": "คุณหนู",
+   "action": "add",
+   "ro": "khun nǔu",
+   "kind": "word",
+   "category": "人・家族",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（裕福な家の）お嬢様・お坊ちゃん",
+     "en": "rich family's young lady/young master",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาโตมาแบบคุณหนู ไม่เคยทำงานบ้านเลย",
+      "ro": "khǎo too maa bɛ̀ɛp khun nǔu mâi khəəi tham ngaan bâan ləəi",
+      "ja": "彼はお坊ちゃん育ちで、家事をしたことが一度もありません。",
+      "en": "He grew up pampered and has never done housework.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "使用人が主人の子を呼ぶ語でもあり、甘やかされて育った人を皮肉る言い方にもなる。この意味では ลูกคุณหนู とも言う。"
+  }
+ },
+ {
+  "id": "tl-55437",
+  "verdict": "ok",
+  "issues": [
+   "読み àp krèet を確認：既存 อัปโหลด àp lòot・เกรด krèet と一致。อัพ（上げる）とは別語"
+  ]
+ },
+ {
+  "id": "tl-55438",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55439",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55440",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55441",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55442",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55443",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55444",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55445",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55446",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: ชั่วข้ามคืน（tl-55631）を不採用にしたため、注にその形を記載"
+  ],
+  "fixed": {
+   "id": "tl-55446",
+   "th": "ข้ามคืน",
+   "action": "add",
+   "ro": "khâam khʉʉn",
+   "kind": "word",
+   "category": "時間",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "一晩で・一夜にして",
+     "en": "overnight",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ความสำเร็จไม่ได้เกิดขึ้นข้ามคืน",
+      "ro": "khwaam sǎm rèt mâi dâai kə̀ət khʉ̂n khâam khʉʉn",
+      "ja": "成功は一夜にして起こるものではありません。",
+      "en": "Success doesn't happen overnight.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「ชั่วข้ามคืน」の形でもよく使う。"
+  }
+ },
+ {
+  "id": "tl-55447",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55448",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55449",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55450",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55451",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55452",
+  "verdict": "ok",
+  "issues": [
+   "意味確認：ใจเด็ก は「子どもっぽい・大人げない（すぐすねる・わがまま）」の意で妥当。「若々しい心」は หัวใจยังเด็ก 等の別表現"
+  ]
+ },
+ {
+  "id": "tl-55453",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55454",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55455",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55456",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55457",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55458",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55459",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55460",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55461",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度過大：ไส้กรอก（2）の下位語なので頻度を親語以下に"
+  ],
+  "fixed": {
+   "id": "tl-55461",
+   "th": "ไส้กรอกอีสาน",
+   "action": "add",
+   "ro": "sâi krɔ̀ɔk ii sǎan",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "イサーン風発酵ソーセージ",
+     "en": "Isan fermented sausage",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ไส้กรอกอีสานกินกับขิงและพริกสด",
+      "ro": "sâi krɔ̀ɔk ii sǎan kin kàp khǐng lɛ́ phrík sòt",
+      "ja": "イサーンソーセージはショウガと生の唐辛子と一緒に食べます。",
+      "en": "Isan sausage is eaten with ginger and fresh chilies.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "豚肉ともち米を発酵させた酸味のあるソーセージ。"
+  }
+ },
+ {
+  "id": "tl-55462",
+  "verdict": "ok",
+  "issues": [
+   "読み fáat fúut を確認：既存 ซีฟู้ด sii fúut・คลาส khláas・พาสปอร์ต pháas と同じ借用語の慣例に一致。公的表記 ฟาสต์ฟูด の注記も正しい"
+  ]
+ },
+ {
+  "id": "tl-55463",
+  "verdict": "reject",
+  "issues": [
+   "最終監査: เข้ารอบ（tl-55508）に ผ่าน を付けただけの形で、語義・例文（準決勝進出）も同一。เข้ารอบ の注に記載済みのため重複として不採用"
+  ]
+ },
+ {
+  "id": "tl-55464",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55465",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55466",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55467",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55468",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55469",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55470",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55471",
+  "verdict": "reject",
+  "issues": [
+   "最終監査: 既存語 หอม（tl-01535）の語義3「頬にキスする」と同じで、その用例も ขอหอมแก้มหน่อยได้ไหม と หอมแก้ม をすでに教えている（既存語義の重複）"
+  ]
+ },
+ {
+  "id": "tl-55472",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55473",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55474",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55475",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55476",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55477",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55478",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55479",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55480",
+  "verdict": "ok",
+  "issues": []
+ }
+]

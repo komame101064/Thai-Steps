@@ -1,0 +1,489 @@
+[
+ {
+  "id": "tl-56217",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56218",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56219",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56220",
+  "verdict": "fix",
+  "issues": [
+   "例文の英訳に原文にない his が加わっていたため修正"
+  ],
+  "fixed": {
+   "id": "tl-56220",
+   "th": "เม็ดเลือดขาว",
+   "action": "add",
+   "ro": "mét lʉ̂ʉat khǎao",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "白血球",
+     "en": "white blood cell",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ผลตรวจพบว่าเม็ดเลือดขาวสูงกว่าปกติ",
+      "ro": "phǒn trùuat phóp wâa mét lʉ̂ʉat khǎao sǔung kwàa pòk kà tì",
+      "ja": "検査の結果、白血球が通常より多いことがわかった。",
+      "en": "The test showed the white blood cell count was higher than normal.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56221",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56222",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56223",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56224",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56225",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56226",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56227",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 例文訳「まったく続かず」は มาก（とても）より強い。訳を原文に合わせた"
+  ],
+  "fixed": {
+   "id": "tl-56227",
+   "th": "สมาธิสั้น",
+   "action": "add",
+   "ro": "sà maa thí sân",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "注意欠如・多動症（ADHD）",
+     "en": "attention deficit hyperactivity disorder (ADHD)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หมอบอกว่าลูกชายของเธอเป็นโรคสมาธิสั้น",
+      "ro": "mɔ̌ɔ bɔ̀ɔk wâa lûuk chaai khɔ̌ɔng thəə pen rôok sà maa thí sân",
+      "ja": "医者は彼女の息子がADHDだと言った。",
+      "en": "The doctor said her son has ADHD.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "集中力が続かない",
+     "en": "having a short attention span",
+     "pos": "形容詞・状態語",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันสมาธิสั้นมาก อ่านหนังสือได้ไม่นาน",
+      "ro": "chǎn sà maa thí sân mâak àan nǎng sʉ̌ʉ dâai mâi naan",
+      "ja": "私はすごく集中力が続かなくて、本を長く読めない。",
+      "en": "I have a very short attention span and can't read for long.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "病名としては โรคสมาธิสั้น の形でよく使う。"
+  }
+ },
+ {
+  "id": "tl-56228",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56229",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56230",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56231",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56232",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56233",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56234",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56235",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56236",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56237",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56238",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56239",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56240",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56241",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56242",
+  "verdict": "reject",
+  "issues": [
+   "ประธาน＋ใน＋พิธี の透明な句で、一語として登録する語ではない（ประธาน で学べる）"
+  ]
+ },
+ {
+  "id": "tl-56243",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56244",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56245",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56246",
+  "verdict": "reject",
+  "issues": [
+   "既存の สภาพภูมิอากาศ（tl-54113）が同じ「気候」を教え、注記で ภูมิอากาศ 単独形も扱っているため重複"
+  ]
+ },
+ {
+  "id": "tl-56247",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56248",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56249",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56250",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56251",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56252",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56253",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56254",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56255",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56256",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56257",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56258",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56259",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56260",
+  "verdict": "reject",
+  "issues": [
+   "既存の โทน（tl-04994）の語義「色調」と例文 โทนสีเข้ม で既に扱われる透明な組み合わせ（โทน＋สี）"
+  ]
+ },
+ {
+  "id": "tl-56261",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56262",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56263",
+  "verdict": "fix",
+  "issues": [
+   "語義1の例文 ผ้าม่านกระพือ はカーテンには ปลิว が自然で不確か。ลมกระพือ（風があおる）の例文に差し替え、語義を調整"
+  ],
+  "fixed": {
+   "id": "tl-56263",
+   "th": "กระพือ",
+   "action": "add",
+   "ro": "krà phʉʉ",
+   "kind": "word",
+   "category": "日常の動作",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（翼を）ばたつかせる・（風が火などを）あおる",
+     "en": "to flap; (of wind) to fan",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ลมกระพือให้ไฟลุกลามเร็วขึ้น",
+      "ro": "lom krà phʉʉ hâi fai lúk laam reo khʉ̂n",
+      "ja": "風があおって火の広がりが速くなった。",
+      "en": "The wind fanned the fire and made it spread faster.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（うわさ・不安などを）あおり立てる・広める",
+     "en": "to fan, stir up (rumors, fear)",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "สื่อบางสำนักกระพือข่าวจนคนตื่นตระหนก",
+      "ro": "sʉ̀ʉ baang sǎm nák krà phʉʉ khàao con khon tʉ̀ʉn trà nòk",
+      "ja": "一部のメディアがニュースをあおり立て、人々がパニックになった。",
+      "en": "Some media outlets stirred up the news until people panicked.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "鳥が羽ばたくことは กระพือปีก と言う。"
+  }
+ },
+ {
+  "id": "tl-56264",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56265",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56266",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56267",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56268",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56269",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56270",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56271",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56272",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56273",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56274",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56275",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56276",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56277",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56278",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56279",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56280",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56281",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56282",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56283",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56284",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56285",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56286",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56287",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56288",
+  "verdict": "ok",
+  "issues": []
+ }
+]

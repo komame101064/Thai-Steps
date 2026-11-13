@@ -145,6 +145,26 @@
       "acceptedAsWritten": 67,
       "fixedByReviewer": 3,
       "consistencyFlags": 0
+    },
+    {
+      "batch": "editorial-012",
+      "candidates": 583,
+      "published": 505,
+      "acceptedAsWritten": 456,
+      "rejectedByReviewer": 36,
+      "skippedByAuthor": 42,
+      "fixedByReviewer": 49,
+      "consistencyFlags": 0
+    },
+    {
+      "batch": "editorial-013",
+      "candidates": 570,
+      "published": 540,
+      "acceptedAsWritten": 502,
+      "skippedByAuthor": 12,
+      "rejectedByReviewer": 18,
+      "fixedByReviewer": 38,
+      "consistencyFlags": 0
     }
   ],
   "frequency": {
@@ -153,7 +173,7 @@
     "reviewedByHand": 32,
     "setForClosedSet": 12,
     "textbookFallback": 136,
-    "editorialFallback": 2723,
+    "editorialFallback": 3720,
     "thresholds": {
       "phupha": [
         3.946,
@@ -179,8 +199,8 @@
       ]
     }
   },
-  "published": 7913,
-  "general": 7588,
-  "slang": 325,
-  "senses": 8653
+  "published": 8958,
+  "general": 8585,
+  "slang": 373,
+  "senses": 9758
 }

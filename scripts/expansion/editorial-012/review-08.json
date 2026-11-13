@@ -1,0 +1,601 @@
+[
+ {
+  "id": "tl-60601",
+  "verdict": "reject",
+  "issues": [
+   "คิด＋ไปเอง（自分で勝手に）の自由な組み合わせで、พูดไปเอง・ทำไปเอง と同型。標準的な言い回しでスラング欄の独立語にはしない"
+  ]
+ },
+ {
+  "id": "tl-60602",
+  "verdict": "reject",
+  "issues": [
+   "หน้าสด は報道や美容記事でも普通に使う標準的な語で、スラング欄にはそぐわない（一般語彙欄で扱うべき）"
+  ]
+ },
+ {
+  "id": "tl-60603",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60604",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60605",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60606",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60607",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60608",
+  "verdict": "reject",
+  "issues": [
+   "ตัวอิจฉา（นางอิจฉา）はドラマ紹介や芸能報道でも使う普通の語で、スラング欄にはそぐわない"
+  ]
+ },
+ {
+  "id": "tl-60609",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60610",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60611",
+  "verdict": "reject",
+  "issues": [
+   "เอา＋ด้วย（〜も）の透明な組み合わせで独立語とは言えない。スラングでもない"
+  ]
+ },
+ {
+  "id": "tl-60612",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60613",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60614",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60615",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60616",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度過大：พุง（2）を含む複合語なので2に"
+  ],
+  "fixed": {
+   "id": "tl-60616",
+   "th": "นอนตีพุง",
+   "action": "add",
+   "ro": "nɔɔn tii phung",
+   "kind": "word",
+   "category": "スラング｜友達の日常",
+   "adult": false,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（何もせず）ごろごろしてのんびり過ごす",
+     "pos": "動詞",
+     "speechStyle": "口語",
+     "note": "満腹の腹をたたいて寝転がる様子から。気楽で満ち足りた響きで、怠けを責める語ではない。",
+     "example": {
+      "th": "วันหยุดนี้อยากนอนตีพุงอยู่บ้านเฉยๆ",
+      "ro": "wan yùt níi yàak nɔɔn tii phung yùu bâan chə̌əi chə̌əi",
+      "ja": "今度の休みは家でただごろごろしていたい。",
+      "context": "週末の予定を聞かれて",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60617",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60618",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60619",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60620",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60621",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60622",
+  "verdict": "fix",
+  "issues": [
+   "แม่ง の読みを既存スラング欄（tl-10004）の表記 mɛ̂ng にそろえる（見出しと例文）"
+  ],
+  "fixed": {
+   "id": "tl-60622",
+   "th": "ช่างแม่ง",
+   "action": "add",
+   "ro": "châang mɛ̂ng",
+   "kind": "expression",
+   "category": "スラング｜粗い言葉",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "vulgar"
+   ],
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "知るか・もうどうでもいい（粗い）",
+     "pos": "定型表現",
+     "speechStyle": "粗い口語",
+     "note": "ช่างมัน（放っておけ・まあいい）の粗い言い方で、แม่ง が入るため下品。親しい仲間内か独り言で使い、目上や人前では避ける。",
+     "example": {
+      "th": "เขาจะว่ายังไงก็ช่างแม่ง ฉันไม่สนแล้ว",
+      "ro": "khǎo cà wâa yang ngai kɔ̂ɔ châang mɛ̂ng chǎn mâi sǒn lɛ́ɛo",
+      "ja": "あいつが何と言おうと知るか。もう気にしない。",
+      "context": "陰口を言われていると聞いて",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60623",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60624",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60625",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60626",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60627",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60628",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60629",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60630",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60631",
+  "verdict": "fix",
+  "issues": [
+   "例文の หน้างานละเอียด は หน้างาน（現場）と紛れる不自然な結合。人に直接 งานละเอียด を使う形に変更"
+  ],
+  "fixed": {
+   "id": "tl-60631",
+   "th": "งานละเอียด",
+   "action": "add",
+   "ro": "ngaan lá ìiat",
+   "kind": "word",
+   "category": "スラング｜ほめる・反応",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（顔立ち・肌が）繊細できれい",
+     "pos": "形容詞・状態語",
+     "speechStyle": "口語・スラング",
+     "note": "งานดี と同じく、人の容姿をほめるくだけた言い方で、特に顔立ちや肌の繊細さを言う。反対は งานหยาบ。物の作りが丁寧なことにも使う。",
+     "example": {
+      "th": "นางแบบคนนี้งานละเอียดมาก",
+      "ro": "naang bɛ̀ɛp khon níi ngaan lá ìiat mâak",
+      "ja": "このモデルは顔立ちがとても繊細できれいだ。",
+      "context": "雑誌の写真を見ながら",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60632",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60633",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度：構成要素 แหก（3、editorial-013）より高い。4→3"
+  ],
+  "fixed": {
+   "id": "tl-60633",
+   "th": "แหกตา",
+   "action": "add",
+   "ro": "hɛ̀ɛk taa",
+   "kind": "word",
+   "category": "スラング｜友達の日常",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（うそ・誇張で）人をだます・ごまかす",
+     "pos": "動詞",
+     "speechStyle": "口語・スラング",
+     "note": "文字どおりは「目をこじ開ける」。人をだますことを責めるくだけた語で、「แหกตาประชาชน」は政治批判でもよく聞く。",
+     "example": {
+      "th": "โฆษณาแหกตา ของจริงไม่เหมือนในรูปเลย",
+      "ro": "khoo sà naa hɛ̀ɛk taa khɔ̌ɔng cing mâi mʉ̌ʉan nai rûup ləəi",
+      "ja": "人をだます広告だ。実物は写真と全然違う。",
+      "context": "ネットで買った物が届いて",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60634",
+  "verdict": "reject",
+  "issues": [
+   "กลัว＋เมีย の字義どおりの動詞＋目的語で、意味も透明。独立した慣用語として登録する根拠が弱い"
+  ]
+ },
+ {
+  "id": "tl-60635",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60636",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60637",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60638",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60639",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60640",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60641",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60642",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60643",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60644",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60645",
+  "verdict": "reject",
+  "issues": [
+   "既存 ปั่น の語義「あおる・操作する」＋กระแส の透明な組み合わせで、報道でも使う標準的な言い方。スラング欄の独立語にはしない"
+  ]
+ },
+ {
+  "id": "tl-60646",
+  "verdict": "reject",
+  "issues": [
+   "定着した慣用形は เชยสะบัดช่อ で、短い形 เชยสะบัด が今よく使う独立語か確認できない。やや古い言い方でもあり見送り"
+  ]
+ },
+ {
+  "id": "tl-60647",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60648",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60649",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60650",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60651",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60652",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60653",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60654",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60655",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60656",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60657",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60658",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60659",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60660",
+  "verdict": "reject",
+  "issues": [
+   "ตำ（ネットで「買う」）＋ด่วน（急ぎ）の自由な組み合わせ。登録すべきは ตำ の「買う」のスラング語義であり、ตำด่วน 単独ではない"
+  ]
+ },
+ {
+  "id": "tl-60661",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60662",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60663",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60664",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60665",
+  "verdict": "reject",
+  "issues": [
+   "本人の注記どおり古めの俗語で、今よく使われる語ではない（スラング欄は現在よく聞く語に限る）"
+  ]
+ },
+ {
+  "id": "tl-60666",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 用例の กระทู้ の声調誤り：thûu→thúu（低子音＋ไม้โท＝高声。既存語 tl-44453 と同じ krà thúu）"
+  ],
+  "fixed": {
+   "id": "tl-60666",
+   "th": "จขกท",
+   "action": "add",
+   "ro": "cɔɔ khɔ̌ɔ kɔɔ thɔɔ",
+   "kind": "word",
+   "category": "スラング｜ネット・SNS",
+   "adult": false,
+   "tags": [
+    "slang"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "スレ主（掲示板の書き込みをした人）",
+     "pos": "名詞",
+     "speechStyle": "ネット表記",
+     "note": "เจ้าของกระทู้（スレッドの持ち主）の頭文字。Pantip などの掲示板の書き言葉で、จขกท. と点を付けることもある。会話では เจ้าของกระทู้ と言うことが多い。",
+     "example": {
+      "th": "จขกท มาตอบคำถามในกระทู้หรือยัง",
+      "ro": "cɔɔ khɔ̌ɔ kɔɔ thɔɔ maa tɔ̀ɔp kham thǎam nai krà thúu rʉ̌ʉ yang",
+      "ja": "スレ主はスレッドの質問にもう答えた？",
+      "context": "掲示板のコメント",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60667",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60668",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60669",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60670",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60671",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60672",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60673",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60674",
+  "verdict": "reject",
+  "issues": [
+   "最終監査: คุณหนู（tl-55436）と同じ意味・ほぼ同じ例文の派生形。重複のため不採用（คุณหนู の注に ลูกคุณหนู を記載）。また一般語で、スラング欄に置く語ではない"
+  ]
+ },
+ {
+  "id": "tl-60675",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60676",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60677",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度過大：หยอก（2）を含む複合語なので2に"
+  ],
+  "fixed": {
+   "id": "tl-60677",
+   "th": "หมาหยอกไก่",
+   "action": "add",
+   "ro": "mǎa yɔ̀ɔk kài",
+   "kind": "word",
+   "category": "スラング｜恋愛・人間関係",
+   "adult": false,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（異性への）本気でない軽いちょっかい",
+     "pos": "名詞",
+     "speechStyle": "口語",
+     "note": "犬が鶏をからかう様子から、本気ではない軽い口説きやからかいを言う。主に男性が女性にちょっかいを出す場面で使う。",
+     "example": {
+      "th": "เขาแค่หมาหยอกไก่ ไม่ได้คิดจริงจังหรอก",
+      "ro": "khǎo khɛ̂ɛ mǎa yɔ̀ɔk kài mâi dâai khít cing cang rɔ̀ɔk",
+      "ja": "彼は軽くちょっかいを出しているだけで、本気じゃないよ。",
+      "context": "友人同士の恋愛話",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60678",
+  "verdict": "ok",
+  "issues": []
+ }
+]

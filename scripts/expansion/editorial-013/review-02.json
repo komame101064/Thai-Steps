@@ -1,0 +1,529 @@
+[
+ {
+  "id": "tl-56073",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56074",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56075",
+  "verdict": "fix",
+  "issues": [
+   "例文訳が「積極的に先手を打って」と語を二重に訳し、べきだ は ต้อง より弱いので修正"
+  ],
+  "fixed": {
+   "id": "tl-56075",
+   "th": "เชิงรุก",
+   "action": "add",
+   "ro": "chəəng rúk",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "積極的な・攻めの（先手を打つ）",
+     "en": "proactive, active, offensive",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "รัฐบาลต้องทำงานเชิงรุกมากขึ้น",
+      "ro": "rát thà baan tɔ̂ɔng tham ngaan chəəng rúk mâak khʉ̂n",
+      "ja": "政府はもっと積極的に取り組まなければならない。",
+      "en": "The government must work more proactively.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56076",
+  "verdict": "reject",
+  "issues": [
+   "ครบ（必要な数に達する）＋วาระ（任期：既存 tl-03273 の意味3）の透明な動詞＋目的語の組み合わせで、ครบปี・ครบกำหนด と同じ生産的パターン"
+  ]
+ },
+ {
+  "id": "tl-56077",
+  "verdict": "fix",
+  "issues": [
+   "単独の名詞ではなく後ろの名詞に付く要素なので pos を 接頭辞 に"
+  ],
+  "fixed": {
+   "id": "tl-56077",
+   "th": "ว่าที่",
+   "action": "add",
+   "ro": "wâa thîi",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "〜になる予定の人・次期〜（名詞の前に付ける）",
+     "en": "-to-be, -elect, prospective",
+     "pos": "接頭辞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ว่าที่เจ้าสาวกำลังเลือกชุดแต่งงาน",
+      "ro": "wâa thîi câo sǎao kam lang lʉ̂ʉak chút tɛ̀ng ngaan",
+      "ja": "花嫁になる予定の女性がウェディングドレスを選んでいる。",
+      "en": "The bride-to-be is choosing a wedding dress.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ว่าที่เจ้าสาว（花嫁予定者）、ว่าที่ผู้ว่าฯ（次期知事）のように後ろに名詞を続けて使う。"
+  }
+ },
+ {
+  "id": "tl-56078",
+  "verdict": "fix",
+  "issues": [
+   "en の public sector は「公的部門（政府）」の意味になり誤解を招くので修正"
+  ],
+  "fixed": {
+   "id": "tl-56078",
+   "th": "ภาคประชาชน",
+   "action": "add",
+   "ro": "phâak prà chaa chon",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "市民側・市民社会（市民団体など）",
+     "en": "civil society, the citizens' side",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ภาคประชาชนเรียกร้องให้รัฐบาลแก้ปัญหาฝุ่น",
+      "ro": "phâak prà chaa chon rîiak rɔ́ɔng hâi rát thà baan kɛ̂ɛ pan hǎa fùn",
+      "ja": "市民側は政府に粉じん問題の解決を求めた。",
+      "en": "Civil society called on the government to solve the dust problem.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56079",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56080",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56081",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56082",
+  "verdict": "reject",
+  "issues": [
+   "ข้าง（横・隣）＋บ้าน の自由な組み合わせ。既存例文でも พุ่มไม้ข้างบ้าน（家の横）と ป้าข้างบ้าน（隣の）の両方に使われ、文脈で ข้าง の意味1から読める。近所の人は既存の เพื่อนบ้าน がある"
+  ]
+ },
+ {
+  "id": "tl-56083",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56084",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56085",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 分類が「挨拶・会話」は不適切（あいさつ表現ではない）。性質・状態へ"
+  ],
+  "fixed": {
+   "id": "tl-56085",
+   "th": "เหน่อ",
+   "action": "add",
+   "ro": "nə̀ə",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（地方の）なまりがある・なまった話し方の",
+     "en": "to have a (regional) accent",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาพูดเหน่อนิดหน่อยเพราะเป็นคนต่างจังหวัด",
+      "ro": "khǎo phûut nə̀ə nít nɔ̀ɔi phrɔ́ pen khon tàang cang wàt",
+      "ja": "彼は地方出身なので、少しなまって話す。",
+      "en": "He speaks with a slight accent because he is from the provinces.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "特に中部の地方（スパンブリーなど）の発音について言うことが多い。"
+  }
+ },
+ {
+  "id": "tl-56086",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56087",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56088",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56089",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56090",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56091",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56092",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56093",
+  "verdict": "ok",
+  "issues": [
+   "既存の สูงสุด と対になる定着語として採用"
+  ]
+ },
+ {
+  "id": "tl-56094",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56095",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56096",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56097",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56098",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56099",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56100",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56101",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56102",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56103",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56104",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56105",
+  "verdict": "ok",
+  "issues": [
+   "意味3（気分が重い：หนังหน่วง・รู้สึกหน่วง）は現在の口語で普通に使われ、意味1・2から導けない独立の用法として保持"
+  ]
+ },
+ {
+  "id": "tl-56106",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56107",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56108",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56109",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 用例訳「恨んでいない」は ไม่โกรธ（怒っていない）にない意味を足している"
+  ],
+  "fixed": {
+   "id": "tl-56109",
+   "th": "ปลงตก",
+   "action": "add",
+   "ro": "plong tòk",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "悟る・諦めがつく",
+     "en": "to come to terms with, to accept (a loss)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ตอนนี้เขาปลงตกแล้ว ไม่โกรธใครอีก",
+      "ro": "tɔɔn níi khǎo plong tòk lɛ́ɛo mâi kròot khrai ìik",
+      "ja": "今では彼も諦めがついて、もう誰にも怒っていない。",
+      "en": "He has come to terms with it now and isn't angry at anyone anymore.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56110",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56111",
+  "verdict": "reject",
+  "issues": [
+   "既存の เมา（tl-00830）の意味3「乗り物に酔う（組み合わせ）」で เมาเรือ の例とともに既に教えている形（ขนาดนี้ と同型の重複）"
+  ]
+ },
+ {
+  "id": "tl-56112",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56113",
+  "verdict": "reject",
+  "issues": [
+   "最終監査: 既存 เสียว（tl-05036）の語義2「鋭くずきっと痛む」の用例が「กินน้ำเย็นแล้วเสียวฟัน」で、同じ形・同じ意味をすでに教えている（他語義内の形の重複）"
+  ]
+ },
+ {
+  "id": "tl-56114",
+  "verdict": "ok",
+  "issues": [
+   "既存の ปวดท้อง・เจ็บคอ と同型の定着した体調表現として採用"
+  ]
+ },
+ {
+  "id": "tl-56115",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56116",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56117",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56118",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56119",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56120",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56121",
+  "verdict": "ok",
+  "issues": [
+   "定着した制度用語として採用"
+  ]
+ },
+ {
+  "id": "tl-56122",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56123",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56124",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56125",
+  "verdict": "ok",
+  "issues": [
+   "政策・金融の定着した用語として採用"
+  ]
+ },
+ {
+  "id": "tl-56126",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56127",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56128",
+  "verdict": "ok",
+  "issues": [
+   "เกณฑ์ の意味1（徴集する）とは別に、ไปเกณฑ์ทหาร（徴兵検査に行く：本人が主語）の定着した言い方として採用"
+  ]
+ },
+ {
+  "id": "tl-56129",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56130",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56131",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56132",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56133",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56134",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56135",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56136",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56137",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56138",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56139",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56140",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56141",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56142",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56143",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56144",
+  "verdict": "ok",
+  "issues": []
+ }
+]

@@ -1,0 +1,564 @@
+[
+ {
+  "id": "tl-55481",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55482",
+  "verdict": "reject",
+  "issues": [
+   "既存の น้ำแข็งใส（tl-51611、かき氷）の表記ゆれ（ไส／ใส）で重複。"
+  ]
+ },
+ {
+  "id": "tl-55483",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55484",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55485",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55486",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55487",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55488",
+  "verdict": "reject",
+  "issues": [
+   "既存 ฉลาก（tl-46488）の語義2「くじ（จับฉลาก「くじを引く」の形で）」で既に扱われている形のため重複。"
+  ]
+ },
+ {
+  "id": "tl-55489",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55490",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55491",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55492",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55493",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55494",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55495",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55496",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55497",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55498",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55499",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55500",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55501",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度過大：ฉีดยา（2）を含む複合語なので2に"
+  ],
+  "fixed": {
+   "id": "tl-55501",
+   "th": "เข็มฉีดยา",
+   "action": "add",
+   "ro": "khěm chìit yaa",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "注射針・注射器",
+     "en": "hypodermic needle, syringe",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เด็กหลายคนกลัวเข็มฉีดยา",
+      "ro": "dèk lǎai khon kluua khěm chìit yaa",
+      "ja": "注射針を怖がる子どもは多い。",
+      "en": "Many children are afraid of needles.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55502",
+  "verdict": "ok",
+  "issues": [
+   "เบนซิน の読み been sin（中子音・低子音の平音節でともに平声、ดีเซล dii seen と同様）を確認。"
+  ]
+ },
+ {
+  "id": "tl-55503",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度：複合語が構成要素 พละ（2）より高い。3→2"
+  ],
+  "fixed": {
+   "id": "tl-55503",
+   "th": "ชุดพละ",
+   "action": "add",
+   "ro": "chút phá lá",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "体操服",
+     "en": "PE uniform, gym clothes",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "วันนี้มีเรียนพละ อย่าลืมเอาชุดพละไปนะ",
+      "ro": "wan níi mii riian phá lá yàa lʉʉm ao chút phá lá pai ná",
+      "ja": "今日は体育があるから、体操服を持って行くのを忘れないでね。",
+      "en": "You have PE today, so don't forget to take your gym clothes.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "พละ は พลศึกษา（体育）の略。"
+  }
+ },
+ {
+  "id": "tl-55504",
+  "verdict": "ok",
+  "issues": [
+   "外来語の読み roon ɔɔn を確認：語末 ล は n、低子音の長母音平音節で平声（既存 ดีเซล dii seen・ฟุตบอล fút bɔɔn と同じ扱い）、ออน は既存 ออนไลน์ ɔɔn・มูฟออน と一致。制汗剤として一般的な語。"
+  ]
+ },
+ {
+  "id": "tl-55505",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55506",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55507",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55508",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55509",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55510",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55511",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55512",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55513",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55514",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55515",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55516",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55517",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55518",
+  "verdict": "ok",
+  "issues": [
+   "外来語の読み phlɛɛn を確認：พ（低子音）の平音節で平声、既存 แพลงตอน phlɛɛng と同じ扱い。口語の名詞・動詞用法とも自然。"
+  ]
+ },
+ {
+  "id": "tl-55519",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55520",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55521",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55522",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55523",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55524",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55525",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55526",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55527",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55528",
+  "verdict": "ok",
+  "issues": [
+   "外来語の読み fíit bɛ̀k を確認：ฟีด は既存 ฟีด fíit、แบ็ก は บ（中子音）短母音閉音節で低声（既存 แบคทีเรีย bɛ̀k と同じ）。表記は王立院式の -แบ็ก、異表記は note にあり、既存 ล็อกอิน 等の -ก 表記とも揃うため可。"
+  ]
+ },
+ {
+  "id": "tl-55529",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55530",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55531",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55532",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55533",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55534",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55535",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55536",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55537",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55538",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55539",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55540",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55541",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55542",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55543",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度：複合語が構成要素 ปรุงรส（2）より高い。3→2"
+  ],
+  "fixed": {
+   "id": "tl-55543",
+   "th": "ผงปรุงรส",
+   "action": "add",
+   "ro": "phǒng prung rót",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "粉末調味料（顆粒だしなど）",
+     "en": "seasoning powder",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แม่ไม่ค่อยใส่ผงปรุงรสในอาหาร",
+      "ro": "mɛ̂ɛ mâi khɔ̂ɔi sài phǒng prung rót nai aa hǎan",
+      "ja": "母は料理にあまり粉末調味料を入れない。",
+      "en": "My mother rarely puts seasoning powder in her cooking.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "うま味調味料（グルタミン酸ナトリウム）単体は ผงชูรส と言う。"
+  }
+ },
+ {
+  "id": "tl-55544",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55545",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55546",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度：複合語が構成要素 การค้า（3）より高い。4→3"
+  ],
+  "fixed": {
+   "id": "tl-55546",
+   "th": "ศูนย์การค้า",
+   "action": "add",
+   "ro": "sǔun kaan kháa",
+   "kind": "word",
+   "category": "家・場所",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ショッピングセンター",
+     "en": "shopping center, mall",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ศูนย์การค้าแห่งใหม่จะเปิดปลายปีนี้",
+      "ro": "sǔun kaan kháa hɛ̀ng mài cà pə̀ət plaai pii níi",
+      "ja": "新しいショッピングセンターが今年の終わりにオープンする。",
+      "en": "A new shopping center will open at the end of this year.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "会話では ห้าง（ห้างสรรพสินค้า）と言うことが多い。"
+  }
+ },
+ {
+  "id": "tl-55547",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55548",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55549",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55550",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55551",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55552",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55553",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55554",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度過大：สังกัด（2）を含む複合語なので2に"
+  ],
+  "fixed": {
+   "id": "tl-55554",
+   "th": "ต้นสังกัด",
+   "action": "add",
+   "ro": "tôn sǎng kàt",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "所属事務所・所属先",
+     "en": "agency or organization one belongs to",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ต้นสังกัดออกแถลงการณ์ขอโทษแฟนๆ",
+      "ro": "tôn sǎng kàt ɔ̀ɔk thà lɛ̌ɛng kaan khɔ̌ɔ thôot fɛɛn fɛɛn",
+      "ja": "所属事務所はファンに謝罪する声明を出した。",
+      "en": "The agency issued a statement apologizing to fans.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55555",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55556",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55557",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55558",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55559",
+  "verdict": "ok",
+  "issues": [
+   "外来語の読み lɔ́k áo を確認：既存 ล็อกอิน lɔ́k in、เช็คเอาท์ chék áo と一致。表記 ล็อก- は既存 ล็อกอิน・ล็อกดาวน์ と揃い、異表記は note にあるため可。"
+  ]
+ },
+ {
+  "id": "tl-55560",
+  "verdict": "ok",
+  "issues": []
+ }
+]

@@ -1,0 +1,770 @@
+[
+ {
+  "id": "tl-56145",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56146",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56147",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56148",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56149",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56150",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56151",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56152",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56153",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56154",
+  "verdict": "fix",
+  "issues": [
+   "頻度 3 は高すぎるため 2 に下げる（同系の既存語・既存の編集頻度分布と比べて）",
+   "ไขว้เขว の形を note に追加。読み khwěe（ขว の二重子音＋長母音 ee、高子音・平音節で上声）は妥当"
+  ],
+  "fixed": {
+   "id": "tl-56154",
+   "th": "เขว",
+   "action": "add",
+   "ro": "khwěe",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（気持ちや方向が）揺らぐ・それる・ぶれる",
+     "en": "to waver, stray, be thrown off course",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พอได้ยินข่าวลือ ใจเขาก็เริ่มเขว",
+      "ro": "phɔɔ dâai yin khàao lʉʉ cai khǎo kɔ̂ɔ rə̂əm khwěe",
+      "ja": "うわさを聞いて、彼の気持ちは揺らぎ始めた。",
+      "en": "When he heard the rumor, his resolve began to waver.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ไขว้เขว（khwâi khwěe、迷う・ぶれる）の形でもよく使う。"
+  }
+ },
+ {
+  "id": "tl-56155",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56156",
+  "verdict": "fix",
+  "issues": [
+   "頻度 4 は高すぎるため 3 に下げる（同系の既存語・既存の編集頻度分布と比べて）"
+  ],
+  "fixed": {
+   "id": "tl-56156",
+   "th": "กลิ่นตัว",
+   "action": "add",
+   "ro": "klìn tuua",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "体臭",
+     "en": "body odor",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "อากาศร้อนแบบนี้ต้องระวังกลิ่นตัว",
+      "ro": "aa kàat rɔ́ɔn bɛ̀ɛp níi tɔ̂ɔng rá wang klìn tuua",
+      "ja": "こんなに暑いと体臭に気をつけないといけない。",
+      "en": "In hot weather like this, you have to watch out for body odor.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56157",
+  "verdict": "fix",
+  "issues": [
+   "頻度 4 は高すぎるため 3 に下げる（同系の既存語・既存の編集頻度分布と比べて）"
+  ],
+  "fixed": {
+   "id": "tl-56157",
+   "th": "รสจัด",
+   "action": "add",
+   "ro": "rót càt",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "味が濃い・刺激が強い（辛い・塩辛いなど）",
+     "en": "strongly flavored, heavily seasoned",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หมอแนะนำให้ลดอาหารรสจัด",
+      "ro": "mɔ̌ɔ nɛ́ nam hâi lót aa hǎan rót càt",
+      "ja": "医者は味の濃い食べ物を減らすよう勧めた。",
+      "en": "The doctor advised cutting down on strongly flavored food.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56158",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56159",
+  "verdict": "fix",
+  "issues": [
+   "頻度 4 は高すぎるため 3 に下げる（同系の既存語・既存の編集頻度分布と比べて）"
+  ],
+  "fixed": {
+   "id": "tl-56159",
+   "th": "เชื้อรา",
+   "action": "add",
+   "ro": "chʉ́ʉa raa",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "カビ・真菌",
+     "en": "mold, fungus",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ห้องน้ำชื้นจนมีเชื้อราขึ้นผนัง",
+      "ro": "hɔ̂ɔng náam chʉ́ʉn con mii chʉ́ʉa raa khʉ̂n phà nǎng",
+      "ja": "浴室が湿っていて、壁にカビが生えた。",
+      "en": "The bathroom is so damp that mold has grown on the wall.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56160",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56161",
+  "verdict": "fix",
+  "issues": [
+   "頻度 4 は高すぎるため 3 に下げる（同系の既存語・既存の編集頻度分布と比べて）"
+  ],
+  "fixed": {
+   "id": "tl-56161",
+   "th": "กรุ๊ปเลือด",
+   "action": "add",
+   "ro": "krúp lʉ̂ʉat",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "血液型",
+     "en": "blood type",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "คุณกรุ๊ปเลือดอะไรคะ",
+      "ro": "khun krúp lʉ̂ʉat à rai khá",
+      "ja": "あなたの血液型は何ですか？",
+      "en": "What is your blood type?",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "正式には หมู่เลือด と言う。"
+  }
+ },
+ {
+  "id": "tl-56162",
+  "verdict": "fix",
+  "issues": [
+   "頻度 4 は高すぎるため 3 に下げる（同系の既存語・既存の編集頻度分布と比べて）"
+  ],
+  "fixed": {
+   "id": "tl-56162",
+   "th": "ยอดรวม",
+   "action": "add",
+   "ro": "yɔ̂ɔt ruuam",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "合計・総額（金額や件数）",
+     "en": "total, sum",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ยอดรวมทั้งหมดสามพันบาท",
+      "ro": "yɔ̂ɔt ruuam tháng mòt sǎam phan bàat",
+      "ja": "合計は全部で3,000バーツです。",
+      "en": "The total comes to three thousand baht.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56163",
+  "verdict": "fix",
+  "issues": [
+   "頻度 4 は高すぎるため 3 に下げる（同系の既存語・既存の編集頻度分布と比べて）"
+  ],
+  "fixed": {
+   "id": "tl-56163",
+   "th": "เชิงบวก",
+   "action": "add",
+   "ro": "chəəng bùuak",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "前向きな・肯定的な・プラスの",
+     "en": "positive",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เธอเป็นคนคิดเชิงบวกเสมอ",
+      "ro": "thəə pen khon khít chəəng bùuak sà mə̌ə",
+      "ja": "彼女はいつも前向きに考える人だ。",
+      "en": "She is always a positive thinker.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "反対は เชิงลบ（否定的な）。"
+  }
+ },
+ {
+  "id": "tl-56164",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56165",
+  "verdict": "fix",
+  "issues": [
+   "頻度 4 は高すぎるため 3 に下げる（同系の既存語・既存の編集頻度分布と比べて）"
+  ],
+  "fixed": {
+   "id": "tl-56165",
+   "th": "ผู้ส่ง",
+   "action": "add",
+   "ro": "phûu sòng",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "送り主・差出人",
+     "en": "sender",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "กรุณาเขียนชื่อผู้ส่งไว้หลังซอง",
+      "ro": "kà rú naa khǐian chʉ̂ʉ phûu sòng wái lǎng sɔɔng",
+      "ja": "封筒の裏に差出人の名前を書いてください。",
+      "en": "Please write the sender's name on the back of the envelope.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "受取人は ผู้รับ。"
+  }
+ },
+ {
+  "id": "tl-56166",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56167",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56168",
+  "verdict": "fix",
+  "issues": [
+   "頻度 4 は高すぎるため 3 に下げる（同系の既存語・既存の編集頻度分布と比べて）"
+  ],
+  "fixed": {
+   "id": "tl-56168",
+   "th": "สิทธิประโยชน์",
+   "action": "add",
+   "ro": "sìt thí prà yòot",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "特典・給付（制度上受けられる利益）・福利厚生",
+     "en": "benefits, entitlements",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "บริษัทนี้มีสิทธิประโยชน์ดีสำหรับพนักงาน",
+      "ro": "bɔɔ rí sàt níi mii sìt thí prà yòot dii sǎm ràp phá nák ngaan",
+      "ja": "この会社は従業員向けの福利厚生がよい。",
+      "en": "This company has good benefits for its employees.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56169",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56170",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56171",
+  "verdict": "fix",
+  "issues": [
+   "頻度 4 は高すぎるため 3 に下げる（同系の既存語・既存の編集頻度分布と比べて）"
+  ],
+  "fixed": {
+   "id": "tl-56171",
+   "th": "ใช้สิทธิ",
+   "action": "add",
+   "ro": "chái sìt thí",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（選挙で）投票する",
+     "en": "to vote, cast one's ballot",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ปีนี้มีคนมาใช้สิทธิมากกว่าครั้งก่อน",
+      "ro": "pii níi mii khon maa chái sìt thí mâak kwàa khráng kɔ̀ɔn",
+      "ja": "今年は前回より多くの人が投票に来た。",
+      "en": "More people came to vote this year than last time.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "権利を行使する・（制度を）利用する",
+     "en": "to exercise a right, use an entitlement",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พนักงานใช้สิทธิลาพักร้อนได้ปีละสิบวัน",
+      "ro": "phá nák ngaan chái sìt thí laa phák rɔ́ɔn dâai pii lá sìp wan",
+      "ja": "従業員は年に10日、有給休暇を取る権利を使える。",
+      "en": "Employees can use their right to ten days of annual leave a year.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "สิทธิ์（sìt）と書いて ใช้สิทธิ์（chái sìt）とも言う。"
+  }
+ },
+ {
+  "id": "tl-56172",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56173",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56174",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56175",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56176",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56177",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56178",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56179",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56180",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56181",
+  "verdict": "fix",
+  "issues": [
+   "頻度 3 は高すぎるため 2 に下げる（同系の既存語・既存の編集頻度分布と比べて）"
+  ],
+  "fixed": {
+   "id": "tl-56181",
+   "th": "หัก ณ ที่จ่าย",
+   "action": "add",
+   "ro": "hàk ná thîi càai",
+   "kind": "expression",
+   "category": "お金・買い物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "源泉徴収する",
+     "en": "to withhold (tax) at source",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ค่าจ้างนี้ต้องหัก ณ ที่จ่ายสามเปอร์เซ็นต์",
+      "ro": "khâa câang níi tɔ̂ɔng hàk ná thîi càai sǎam pəə sen",
+      "ja": "この報酬は3%を源泉徴収しなければならない。",
+      "en": "Three percent must be withheld at source from this fee.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ภาษีหัก ณ ที่จ่าย＝源泉徴収税。"
+  }
+ },
+ {
+  "id": "tl-56182",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56183",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56184",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56185",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56186",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56187",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56188",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56189",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56190",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56191",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56192",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56193",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56194",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56195",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56196",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56197",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56198",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56199",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56200",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56201",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56202",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56203",
+  "verdict": "reject",
+  "issues": [
+   "読みが確定できない：สำรอก の รอก が สำ に導かれて低声（sǎm rɔ̀ɔk、สำรวจ・สำเร็จ型）か下降声（sǎm rɔ̂ɔk、สำรับ型）か、根拠を確認できないため除外"
+  ]
+ },
+ {
+  "id": "tl-56204",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56205",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56206",
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 異表記 ตงิด（tl-56449 を却下）と ตงิดใจ の形を note に追記"
+  ],
+  "fixed": {
+   "id": "tl-56206",
+   "th": "ตะหงิด",
+   "action": "add",
+   "ro": "tà ngìt",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（ตะหงิดๆ で）なんとなく変だと感じる・引っかかる",
+     "en": "(with reduplication) to have a nagging feeling something is off",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ฉันรู้สึกตะหงิดๆ ว่าเขาโกหก",
+      "ro": "chǎn rúu sʉ̀k tà ngìt tà ngìt wâa khǎo koo hòk",
+      "ja": "彼が嘘をついているような気がなんとなくする。",
+      "en": "I have a nagging feeling that he is lying.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ふつう ตะหงิดๆ と重ねて使う。ตงิดๆ とも書き、ตะหงิดใจ・ตงิดใจ の形もある。"
+  }
+ },
+ {
+  "id": "tl-56207",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56208",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56209",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56210",
+  "verdict": "fix",
+  "issues": [
+   "頻度 3 は高すぎるため 2 に下げる（同系の既存語・既存の編集頻度分布と比べて）"
+  ],
+  "fixed": {
+   "id": "tl-56210",
+   "th": "สตรีทฟู้ด",
+   "action": "add",
+   "ro": "sà trìit fúut",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "屋台料理・ストリートフード",
+     "en": "street food",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ชาวต่างชาติหลายคนมาไทยเพื่อกินสตรีทฟู้ด",
+      "ro": "chaao tàang châat lǎai khon maa thai phʉ̂ʉa kin sà trìit fúut",
+      "ja": "多くの外国人が屋台料理を食べにタイへ来る。",
+      "en": "Many foreigners come to Thailand to eat street food.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "タイ語では อาหารริมทาง とも言う。"
+  }
+ },
+ {
+  "id": "tl-56211",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56212",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56213",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56214",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56215",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56216",
+  "verdict": "ok",
+  "issues": []
+ }
+]
