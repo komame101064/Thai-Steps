@@ -127,6 +127,22 @@
       "fixedByReviewer": 25,
       "skippedByAuthor": 19,
       "consistencyFlags": 0
+    },
+    {
+      "batch": "editorial-010",
+      "candidates": 1068,
+      "published": 956,
+      "acceptedAsWritten": 933,
+      "skippedByAuthor": 56,
+      "rejectedByReviewer": 56,
+      "fixedByReviewer": 23,
+      "consistencyFlags": 0
+    },
+    {
+      "batch": "editorial-011",
+      "candidates": 0,
+      "published": 0,
+      "consistencyFlags": 0
     }
   ],
   "frequency": {
@@ -135,7 +151,7 @@
     "reviewedByHand": 32,
     "setForClosedSet": 12,
     "textbookFallback": 136,
-    "editorialFallback": 1870,
+    "editorialFallback": 2653,
     "thresholds": {
       "phupha": [
         3.946,
@@ -161,8 +177,8 @@
       ]
     }
   },
-  "published": 6887,
-  "general": 6735,
-  "slang": 152,
-  "senses": 7590
+  "published": 7843,
+  "general": 7518,
+  "slang": 325,
+  "senses": 8580
 }
