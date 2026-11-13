@@ -1,5 +1,5 @@
-// 文法の確認テスト＝並べ替え問題。日本語文を見て、バラバラのタイ語を順にタップして文を組み立てる。
-// 問題は dist/reorder-items.js（scripts/build-reorder.cjs で例文と確認問題から作成）。キーは従来どおり "課ID:番号"（state.missed と互換）。
+// 並べ替え練習（確認テストとは別）。日本語文を見て、バラバラのタイ語を順にタップして文を組み立てる。
+// 問題は dist/reorder-items.js（scripts/build-reorder.cjs で例文と確認問題から作成）。練習の結果は学習記録に保存しない。
 let build=null,buildSel=null;
 const BUILD_LEVELS=[
  {id:1,name:'やさしい',desc:'2〜3語・余分な語1つ',min:2,max:3,extra:1},
@@ -33,22 +33,19 @@ function buildSetAll(mode){const s=buildSelected();s.clear();(mode==='done'?stat
 function buildSaveSel(){state.buildRange=[...buildSelected()];save();render()}
 function buildCandidates(lv){const out=[];for(const id of buildSelected())reorderItems(id).forEach((it,k)=>{if(buildFits(it,lv))out.push(`${id}:${k}`)});return out}
 function startFreeBuild(){withReorder(()=>{const lv=buildLevel(state.buildLevel||2),c=buildCandidates(lv);if(!c.length){toast('この範囲と難易度に合う問題がありません。範囲を広げるか難易度を変えてください。');return}startReorder(shuffle(c).slice(0,state.buildCount||10),'free',{level:lv.id,title:'並べ替え練習'})})}
-function buildSetupView(){const sel=buildSelected(),ready=reorderReady(),lv=buildLevel(state.buildLevel||2),avail=ready?buildCandidates(lv).length:0,miss=state.missed.length;
+function buildSetupView(){const sel=buildSelected(),ready=reorderReady(),lv=buildLevel(state.buildLevel||2),avail=ready?buildCandidates(lv).length:0;
  const chapters=modules.map((m,i)=>{const ls=lessons.filter(l=>l.m===i),n=ls.filter(l=>sel.has(l.id)).length;return `<details class="bq-ch"${n&&n<ls.length?' open':''}><summary><label onclick="event.stopPropagation()"><input type="checkbox" ${n===ls.length?'checked':''} onchange="buildToggleChapter(${i})"> ${i+1}. ${esc(m.name)}</label><span>${n}/${ls.length}</span></summary><div class="bq-ls">${ls.map(l=>`<label><input type="checkbox" ${sel.has(l.id)?'checked':''} onchange="buildToggleLesson(${l.id})"><span class="bq-ln">${displayNumber(l.id)}</span>${esc(l.title)}${state.done.includes(l.id)?'<em>✓</em>':''}</label>`).join('')}</div></details>`}).join('');
  return `<button class="textbtn back" onclick="go('course')">← 文法に戻る</button><section class="bq bq-setup"><h1>並べ替え練習</h1><p class="bq-lead">日本語の文に合うように、バラバラのタイ語を左から順に並べます。範囲と難易度を選んでください。</p>
  <div class="bq-sec"><div class="bq-sec-h"><h2>難易度</h2></div><div class="bq-levels">${BUILD_LEVELS.map(x=>`<button class="bq-lv${x.id===lv.id?' is-on':''}" aria-pressed="${x.id===lv.id}" onclick="state.buildLevel=${x.id};save();render()"><b>${'★'.repeat(x.id)}<span>${'☆'.repeat(4-x.id)}</span> ${x.name}</b><small>${x.desc}</small></button>`).join('')}</div></div>
  <div class="bq-sec"><div class="bq-sec-h"><h2>出題範囲</h2><span>${sel.size}課を選択中</span></div><div class="bq-quick"><button onclick="buildSetAll('done')" ${state.done.length?'':'disabled'}>履修済みの課（${state.done.length}）</button><button onclick="buildSetAll('all')">すべての課</button><button onclick="buildSetAll('none')">選択を解除</button></div><div class="bq-chs">${chapters}</div></div>
  <div class="bq-sec bq-start"><label>問題数 <select class="field" onchange="state.buildCount=Number(this.value);save()">${[5,10,20].map(n=>`<option value="${n}" ${(state.buildCount||10)===n?'selected':''}>${n}問</option>`).join('')}</select></label><span class="bq-avail">${ready?(avail?`この条件で出せる文：${avail}`:'この範囲にはこの難易度の文がありません。範囲を広げてください'):'問題を読み込んでいます…'}</span><button class="btn" onclick="startFreeBuild()" ${ready&&avail?'':'disabled'}>はじめる →</button></div>
- ${miss?`<div class="bq-sec bq-missed"><span>間違えた問題が${miss}問あります</span><button class="btn light" onclick="startQuiz([...state.missed],'review')">間違えた問題を解く</button></div>`:''}</section>`}
+ </section>`}
 function buildCur(){return build.items[build.k]}
 function buildPick(n){const q=buildCur();if(q.checked!==null||q.picked.includes(n))return;q.picked.push(n);if(state.buildSound!==false)speakThaiText(q.chips[n].th,false,true);renderBuild()}
 function buildUnpick(pos){const q=buildCur();if(q.checked!==null)return;q.picked.splice(pos,1);renderBuild()}
 function buildReset(){const q=buildCur();q.picked=[];q.checked=null;renderBuild()}
 function buildCheck(){const q=buildCur();if(!q.picked.length||q.checked!==null)return;const got=q.picked.map(n=>q.chips[n].th).join(''),want=q.tokens.map(t=>t.th).join('');q.checked=got===want;
- if(build.results[build.k]===undefined){build.results[build.k]=q.checked;
-  if(q.checked)state.missed=state.missed.filter(x=>x!==q.key);else if(!state.missed.includes(q.key))state.missed.push(q.key);
-  if(build.origin==='lesson'&&build.results.filter(r=>r!==undefined).length===build.items.length){const id=build.lessonId;if(build.results.every(Boolean)){if(!state.done.includes(id))state.done.push(id);if(!state.passed.includes(id))state.passed.push(id);build.completed=true}else state.passed=state.passed.filter(x=>x!==id)}
-  if(typeof syncWrong==='function')syncWrong();save()}
+ if(build.results[build.k]===undefined)build.results[build.k]=q.checked;
  speakThaiText(q.it.th,false,true);renderBuild()}
 function buildNext(){build.k=Math.min(build.k+1,build.items.length);renderBuild();window.scrollTo(0,0)}
 function buildRetryWrong(){const wrong=build.items.filter((q,n)=>!build.results[n]).map(q=>q.key);if(!wrong.length)return;startReorder(wrong,build.origin==='lesson'?'review':build.origin,{...build.opts,lessonId:null})}
@@ -57,7 +54,7 @@ function buildExit(){const b=build;build=null;if(b&&b.origin==='lesson'){current
 function renderBuild(){if(view!=='build')return;$('#main').innerHTML=buildView()}
 function buildChip(c,attrs,cls=''){const ro=state.buildRo!==false&&!(build&&build.level&&build.level.noRo);return `<button class="bq-chip ${cls}" ${attrs}><span class="bq-th">${esc(c.th)}</span>${ro?`<span class="bq-ro">${esc(c.ro)}</span>`:''}</button>`}
 function buildView(){if(!build)return buildSetupView();const n=build.items.length,lv=build.level;
- if(build.k>=n){const ok=build.results.filter(Boolean).length,lessonRun=build.origin==='lesson';return `<section class="bq"><div class="bq-top"><button class="textbtn" onclick="buildExit()">← 終了する</button><span>${lessonRun?'確認テスト':'並べ替え練習'}</span></div><div class="bq-done${lessonRun&&build.completed?' is-complete':''}"><div class="bq-score">${ok} / ${n}</div><p>${lessonRun?(ok===n?'全問正解！この課を履修済みにしました。':`全${n}問正解で履修済みになります。間違えた問題は「復習」に残ります。`):(ok===n?'全問正解です。語順が身についています。':'間違えた問題は「復習」に残ります。もう一度並べて語順を確かめましょう。')}</p><div class="bq-actions">${ok<n?`<button class="btn" onclick="buildRetryWrong()">間違えた問題をもう一度</button>`:''}<button class="btn light" onclick="buildAgain()">${lessonRun?'もう一度テスト':'別の問題で練習'}</button>${lessonRun&&build.completed&&orderedLessons.findIndex(l=>l.id===build.lessonId)<orderedLessons.length-1?`<button class="btn light" onclick="current=${build.lessonId};build=null;moveLesson(1)">次の課へ →</button>`:''}<button class="btn light" onclick="buildExit()">戻る</button></div></div></section>`}
+ if(build.k>=n){const ok=build.results.filter(Boolean).length,lessonRun=build.origin==='lesson';return `<section class="bq"><div class="bq-top"><button class="textbtn" onclick="buildExit()">← 終了する</button><span>${lessonRun?'確認テスト':'並べ替え練習'}</span></div><div class="bq-done${lessonRun&&build.completed?' is-complete':''}"><div class="bq-score">${ok} / ${n}</div><p>${lessonRun?(ok===n?'全問正解！この課を履修済みにしました。':`全${n}問正解で履修済みになります。間違えた問題は「復習」に残ります。`):(ok===n?'全問正解です。語順が身についています。':'間違えた文は、もう一度並べて語順を確かめましょう。')}</p><div class="bq-actions">${ok<n?`<button class="btn" onclick="buildRetryWrong()">間違えた問題をもう一度</button>`:''}<button class="btn light" onclick="buildAgain()">${lessonRun?'もう一度テスト':'別の問題で練習'}</button>${lessonRun&&build.completed&&orderedLessons.findIndex(l=>l.id===build.lessonId)<orderedLessons.length-1?`<button class="btn light" onclick="current=${build.lessonId};build=null;moveLesson(1)">次の課へ →</button>`:''}<button class="btn light" onclick="buildExit()">戻る</button></div></div></section>`}
  const q=buildCur(),done=q.checked!==null,need=q.tokens.length,showRo=state.buildRo!==false&&!(lv&&lv.noRo);
  const line=q.picked.length?q.picked.map((c,pos)=>buildChip(q.chips[c],done?'disabled':`onclick="buildUnpick(${pos})" aria-label="${esc(q.chips[c].th)} を外す"`,'is-placed')).join(''):`<span class="bq-placeholder">下の語をタップして、左から順に並べます</span>`;
  const bank=q.chips.map((c,k)=>q.picked.includes(k)?`<span class="bq-chip is-ghost" aria-hidden="true"><span class="bq-th">${esc(c.th)}</span>${showRo?`<span class="bq-ro">${esc(c.ro)}</span>`:''}</span>`:buildChip(c,done?'disabled':`onclick="buildPick(${k})"`)).join('');
