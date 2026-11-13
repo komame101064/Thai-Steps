@@ -147,7 +147,7 @@
   "ro": "sìi lìiam phʉ̌ʉn phâa",
   "kind": "word",
   "category": "一般語彙",
-  "frequency": 3,
+  "frequency": 2,
   "senses": [
    {
     "sourceSense": 1,
@@ -812,30 +812,8 @@
  {
   "id": "tl-56391",
   "th": "ออทิสติก",
-  "action": "add",
-  "ro": "ɔɔ thít tìk",
-  "kind": "word",
-  "category": "体・健康",
-  "frequency": 2,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "自閉症（の）",
-    "en": "autism; autistic",
-    "pos": "名詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "ลูกชายของเธอเป็นเด็กออทิสติก",
-     "ro": "lûuk chaai khɔ̌ɔng thəə pen dèk ɔɔ thít tìk",
-     "ja": "彼女の息子は自閉症だ。",
-     "en": "Her son is autistic.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "เด็กออทิสติก（自閉症の子）のように人を表す語の後に付けて使うことが多い。"
+  "action": "skip",
+  "skipReason": "外来語の読み（ทิส・ติก の音節の切り方。既存の ลิปสติก は líp sà tìk、พลาสติก は phláas tìk）が定まらず、ローマ字を確定できないため。"
  },
  {
   "id": "tl-56392",
@@ -899,7 +877,7 @@
   "ro": "hǔua kà thí",
   "kind": "word",
   "category": "食べ物・飲み物",
-  "frequency": 3,
+  "frequency": 1,
   "senses": [
    {
     "sourceSense": 1,
@@ -1089,15 +1067,15 @@
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "หมูสันคอย่างนุ่มกว่าเนื้อส่วนอื่น",
-     "ro": "mǔu sǎn khɔɔ yâang nûm kwàa nʉ́ʉa sùuan ʉ̀ʉn",
-     "ja": "豚の肩ロースを焼くと、ほかの部位より柔らかい。",
-     "en": "Grilled pork collar is more tender than other cuts.",
+     "th": "ฉันชอบหมูสันคอเพราะมีมันแทรก",
+     "ro": "chǎn chɔ̂ɔp mǔu sǎn khɔɔ phrɔ́ mii man sɛ̂ɛk",
+     "ja": "脂が適度に入っているので、私は豚の肩ロースが好きだ。",
+     "en": "I like pork collar because it is marbled with fat.",
      "origin": "authored"
     }
    }
   ],
-  "note": "料理では หมูสันคอ の形で使うことが多い。もとは「首の後ろ」の意味。"
+  "note": "料理では หมูสันคอ の形で使うことが多い。"
  },
  {
   "id": "tl-56401",
@@ -1275,7 +1253,7 @@
   "ro": "wâan hǎang cɔɔ rá khêe",
   "kind": "word",
   "category": "自然・天気・色",
-  "frequency": 3,
+  "frequency": 1,
   "senses": [
    {
     "sourceSense": 1,
