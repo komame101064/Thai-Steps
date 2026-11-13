@@ -1,0 +1,471 @@
+[
+ {
+  "id": "tl-55801",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55802",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55803",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55804",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55805",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55806",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55807",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55808",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55809",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55810",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55811",
+  "verdict": "fix",
+  "issues": [
+   "แหวว は綴りが長母音 แ-ว（แวว wɛɛo と同じ）なので wɛ̌ɛo に修正（見出し・例文）"
+  ],
+  "fixed": {
+   "id": "tl-55811",
+   "th": "หวานแหวว",
+   "action": "add",
+   "ro": "wǎan wɛ̌ɛo",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 1,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "甘くかわいらしい・ガーリーな（服装・雰囲気）",
+     "en": "sweet and cute, girly (style)",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เธอชอบแต่งตัวหวานแหววมาก",
+      "ro": "thəə chɔ̂ɔp tɛ̀ng tuua wǎan wɛ̌ɛo mâak",
+      "ja": "彼女はガーリーでかわいらしい服装が大好きだ。",
+      "en": "She loves dressing in a sweet, girly style.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55812",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55813",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55814",
+  "verdict": "fix",
+  "issues": [
+   "note の「日本式の醤油を指すことが多い」は確認できない主張のため削除し、言い換えた"
+  ],
+  "fixed": {
+   "id": "tl-55814",
+   "th": "ซอสถั่วเหลือง",
+   "action": "add",
+   "ro": "sɔ́ɔt thùua lʉ̌ʉang",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "醤油（大豆のソース）",
+     "en": "soy sauce",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ร้านอาหารญี่ปุ่นมีซอสถั่วเหลืองบนโต๊ะ",
+      "ro": "ráan aa hǎan yîi pùn mii sɔ́ɔt thùua lʉ̌ʉang bon tó",
+      "ja": "日本料理店ではテーブルに醤油が置いてある。",
+      "en": "Japanese restaurants have soy sauce on the table.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "日常会話ではふつう ซีอิ๊ว と言い、ซอสถั่วเหลือง は商品ラベルなどで使う改まった言い方。"
+  }
+ },
+ {
+  "id": "tl-55815",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55816",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55817",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55818",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55819",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55820",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55821",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55822",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55823",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55824",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55825",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55826",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55827",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55828",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55829",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55830",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55831",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55832",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55833",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55834",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55835",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55836",
+  "verdict": "reject",
+  "issues": [
+   "งานวิ่ง は งาน（行事・催し：既存語義）+ วิ่ง の生産的な組み合わせ（งาน+X 型、ร้าน+X と同様）で、独立語として教える必要がない。境界例として明示的に却下"
+  ]
+ },
+ {
+  "id": "tl-55837",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55838",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55839",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55840",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55841",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55842",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55843",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55844",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55845",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55846",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55847",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55848",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55849",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55850",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55851",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55852",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55853",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55854",
+  "verdict": "reject",
+  "issues": [
+   "ทำบัญชี は ทำ + บัญชี（帳簿：既存語義）の透明な動詞＋目的語の組み合わせで、独立語として教える根拠が弱いため却下"
+  ]
+ },
+ {
+  "id": "tl-55855",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55856",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55857",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55858",
+  "verdict": "reject",
+  "issues": [
+   "หักภาษี は หัก（差し引く・控除する：既存語義）+ ภาษี（税金）の透明な動詞＋目的語の組み合わせ。語彙化しているのは หักภาษี ณ ที่จ่าย の形で、単独見出しは自由結合として却下"
+  ]
+ },
+ {
+  "id": "tl-55859",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55860",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55861",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55862",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55863",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55864",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55865",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55866",
+  "verdict": "ok",
+  "issues": [
+   "境界例を確認：ลิปมัน（既存）の同義語だが綴り違いではない別語で、商品表示などで広く使われる。บาล์ม は ปาล์ม paam の前例に合わせ baam で妥当。採用"
+  ]
+ },
+ {
+  "id": "tl-55867",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55868",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55869",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55870",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55871",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55872",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55873",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55874",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55875",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55876",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55877",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55878",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55879",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55880",
+  "verdict": "ok",
+  "issues": []
+ }
+]
