@@ -1,0 +1,652 @@
+[
+ {
+  "id": "tl-60469",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60470",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60471",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60472",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60473",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60474",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60475",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60476",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60477",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60478",
+  "verdict": "reject",
+  "issues": [
+   "แม่ม่าย は「未亡人・夫と別れた女性」を言う標準語で俗語ではない（note自身も一般語と認めている）。スラング欄に置く語ではない。一般語の ม่าย（tl-46377）の注にもこの形が載っている。"
+  ]
+ },
+ {
+  "id": "tl-60479",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60480",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60481",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60482",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60483",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60484",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60485",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60486",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60487",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60488",
+  "verdict": "reject",
+  "issues": [
+   "ไร้ยางอาย は報道・書き言葉でも使う標準語（やや改まった非難語）で俗語・口語ではない。スラング欄に置く語ではない。"
+  ]
+ },
+ {
+  "id": "tl-60489",
+  "verdict": "fix",
+  "issues": [
+   "例文訳の末尾が「！」なので「。」に"
+  ],
+  "fixed": {
+   "id": "tl-60489",
+   "th": "ไอ้บ้า",
+   "action": "add",
+   "ro": "âi bâa",
+   "kind": "word",
+   "category": "スラング｜粗い言葉",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "vulgar"
+   ],
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ばか野郎・このばか",
+     "pos": "名詞",
+     "speechStyle": "粗い口語",
+     "note": "ไอ้（粗い呼びかけ）+ บ้า（ばか・いかれた）。親しい男友達同士では軽い冗談にもなるが、他人や目上に言えばけんかになる。女性には อีบ้า を使う。",
+     "example": {
+      "th": "ไอ้บ้า ขับรถยังไงเนี่ย",
+      "ro": "âi bâa khàp rót yang ngai nîia",
+      "ja": "このばか野郎、なんて運転してるんだ。",
+      "context": "割り込んできた車に怒鳴る",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60490",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60491",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60492",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60493",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60494",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60495",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60496",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60497",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60498",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60499",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60500",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60501",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60502",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60503",
+  "verdict": "fix",
+  "issues": [
+   "流行の盛りが2010年代半ばであることを note に追記し、frequency を5→4に"
+  ],
+  "fixed": {
+   "id": "tl-60503",
+   "th": "เงิบ",
+   "action": "add",
+   "ro": "ngə̂əp",
+   "kind": "word",
+   "category": "スラング｜ネット・SNS",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（自信満々に言ったことが外れて）恥をかく・面目を失う",
+     "pos": "動詞",
+     "speechStyle": "口語・スラング",
+     "note": "2010年代半ばにネットから広まった俗語。偉そうな発言が事実と違ってばつが悪くなることを、からかい気味に言う。今も使うが、やや古く感じる人もいる。",
+     "example": {
+      "th": "พูดมั่นใจมาก สุดท้ายก็เงิบ",
+      "ro": "phûut mân cai mâak sùt tháai kɔ̂ɔ ngə̂əp",
+      "ja": "自信満々に言ったのに、結局恥をかいた。",
+      "context": "ネットの論争を見て",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60504",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60505",
+  "verdict": "reject",
+  "issues": [
+   "แอบถ่าย は แอบ+ถ่าย の普通の複合動詞で、報道でも使う標準語（note自身も一般の言い方と認めている）。スラング欄に置く語ではない。"
+  ]
+ },
+ {
+  "id": "tl-60506",
+  "verdict": "reject",
+  "issues": [
+   "ยาบ้า は1990年代に公式名称になり、ニュース・公的文書でも使う標準の名称で俗語ではない。スラング欄に置く語ではない。"
+  ]
+ },
+ {
+  "id": "tl-60507",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60508",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60509",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60510",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60511",
+  "verdict": "reject",
+  "issues": [
+   "ขุดคุ้ย は報道でも普通に使う標準語（note自身も俗語ではないと認めている）。スラング欄に置く語ではない。"
+  ]
+ },
+ {
+  "id": "tl-60512",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60513",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60514",
+  "verdict": "fix",
+  "issues": [
+   "例文の แฟนคลับ はファン自身を指すので、訳「ファンクラブが」を「ファンたちが」に"
+  ],
+  "fixed": {
+   "id": "tl-60514",
+   "th": "ปั่นยอด",
+   "action": "add",
+   "ro": "pàn yɔ̂ɔt",
+   "kind": "word",
+   "category": "スラング｜ネット・SNS",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（再生数・いいね・売上などの）数字を上げる・水増しする",
+     "pos": "動詞",
+     "speechStyle": "口語・スラング",
+     "note": "ปั่น（かき回す）+ ยอด（数値）。ファンが繰り返し再生して応援する意味にも、不正な水増しの意味にも使う。",
+     "example": {
+      "th": "แฟนคลับช่วยกันปั่นยอดวิวเอ็มวีใหม่",
+      "ro": "fɛɛn khlàp chûuai kan pàn yɔ̂ɔt wiu em wii mài",
+      "ja": "ファンたちが新しいMVの再生数をみんなで上げている。",
+      "context": "アイドルファンの会話",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60515",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60516",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60517",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60518",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60519",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60520",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60521",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60522",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60523",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60524",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60525",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60526",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60527",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60528",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60529",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60530",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60531",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60532",
+  "verdict": "fix",
+  "issues": [
+   "粗い口語でも vulgar でもない軽い悪口・自嘲語なので、カテゴリーを 粗い言葉 から 友達の日常 へ移した"
+  ],
+  "fixed": {
+   "id": "tl-60532",
+   "th": "ขี้แพ้",
+   "action": "add",
+   "ro": "khîi phɛ́ɛ",
+   "kind": "word",
+   "category": "スラング｜友達の日常",
+   "adult": false,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "負け犬・いつも負ける人",
+     "pos": "名詞",
+     "speechStyle": "口語",
+     "note": "ขี้（〜しがちな）+ แพ้（負ける）。人をけなす言い方で、自嘲にも使う。",
+     "example": {
+      "th": "อย่าทำตัวเป็นขี้แพ้ ลองใหม่อีกครั้ง",
+      "ro": "yàa tham tuua pen khîi phɛ́ɛ lɔɔng mài ìik khráng",
+      "ja": "負け犬みたいになるな、もう一度やってみよう。",
+      "context": "落ち込む友人を励ます",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60533",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60534",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60535",
+  "verdict": "fix",
+  "issues": [
+   "卑語ではない見下し語なので、カテゴリーを 粗い言葉 から 友達の日常 へ移した",
+   "2010年代前半の流行語で盛りを過ぎたことを note に追記し、frequency を4→3に"
+  ],
+  "fixed": {
+   "id": "tl-60535",
+   "th": "สก๊อย",
+   "action": "add",
+   "ro": "sà kɔ́ɔi",
+   "kind": "word",
+   "category": "スラング｜友達の日常",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ヤンキー少女・派手な不良少女",
+     "pos": "名詞",
+     "speechStyle": "口語・スラング",
+     "note": "派手な格好でバイクの後ろに乗るような不良少女を指す俗語で、見下しを含む。2010年代前半に広まった語で、今も通じるが流行の盛りは過ぎた。本人に言えば侮辱になる。",
+     "example": {
+      "th": "วัยรุ่นแถวนี้ชอบแต่งตัวแบบสก๊อย",
+      "ro": "wai rûn thɛ̌ɛo níi chɔ̂ɔp tɛ̀ng tuua bɛ̀ɛp sà kɔ́ɔi",
+      "ja": "この辺りの若い子たちは、ヤンキー少女風の格好をしたがる。",
+      "context": "近所の若者について話す",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60536",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60537",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60538",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60539",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60540",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60541",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60542",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60543",
+  "verdict": "reject",
+  "issues": [
+   "既存のスラング欄 วันไนต์สแตนด์（tl-10119、一夜限りの関係）の略形・綴り違い（ไนท์/ไนต์）で、意味が同じ重複。読みも既存（nái）と食い違う。"
+  ]
+ },
+ {
+  "id": "tl-60544",
+  "verdict": "reject",
+  "issues": [
+   "คู่นอน は医療・保健でも使う標準語（speechStyle も標準語・性的な話題で、俗語ではないと note に明記）。スラング欄に置く語ではない。"
+  ]
+ },
+ {
+  "id": "tl-60545",
+  "verdict": "fix",
+  "issues": [
+   "tags に vulgar があるのに speechStyle は 口語・性的な話題 で不整合。下品語ではなく強い悪口なので vulgar を外した"
+  ],
+  "fixed": {
+   "id": "tl-60545",
+   "th": "บ้ากาม",
+   "action": "add",
+   "ro": "bâa kaam",
+   "kind": "word",
+   "category": "スラング｜下ネタ",
+   "adult": true,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "色狂いの・性欲に取りつかれた",
+     "pos": "形容詞・状態語",
+     "speechStyle": "口語・性的な話題",
+     "note": "บ้า（狂った）+ กาม（性欲）。性的にしつこい人を強くけなす言い方。",
+     "example": {
+      "th": "ระวังผู้ชายบ้ากามบนรถเมล์ด้วยนะ",
+      "ro": "rá wang phûu chaai bâa kaam bon rót mee dûuai ná",
+      "ja": "バスの中の色狂いの男には気をつけてね。",
+      "context": "友人に注意する",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60546",
+  "verdict": "reject",
+  "issues": [
+   "ตัณหา は仏教語由来の標準語（note自身も俗語ではないと明記）。スラング欄に置く語ではない。"
+  ]
+ },
+ {
+  "id": "tl-60547",
+  "verdict": "reject",
+  "issues": [
+   "ยั่วยวน はやや書き言葉寄りの標準語（note自身も俗語ではないと明記）。一般語の ยั่ว（tl-03651）が同じ意味を扱っており、スラング欄に置く語ではない。"
+  ]
+ },
+ {
+  "id": "tl-60548",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60549",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60550",
+  "verdict": "fix",
+  "issues": [
+   "主にゴシップ誌の見出し語でやや古めなので note に追記し、frequency を4→3に"
+  ],
+  "fixed": {
+   "id": "tl-60550",
+   "th": "อึ๋ม",
+   "action": "add",
+   "ro": "ʉ̌m",
+   "kind": "word",
+   "category": "スラング｜下ネタ",
+   "adult": true,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "胸が大きい・グラマーな",
+     "pos": "形容詞・状態語",
+     "speechStyle": "口語・性的な話題",
+     "note": "女性の胸の大きさを言う俗語で、主にゴシップ記事の見出しで見るやや古めの言い方。会話ではあまり使わず、本人に言うとセクハラになる。",
+     "example": {
+      "th": "นิตยสารนี้ชอบลงรูปนางแบบอึ๋ม",
+      "ro": "nít tà yá sǎan níi chɔ̂ɔp long rûup naang bɛ̀ɛp ʉ̌m",
+      "ja": "この雑誌はグラマーなモデルの写真をよく載せる。",
+      "context": "雑誌について話す",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ }
+]
