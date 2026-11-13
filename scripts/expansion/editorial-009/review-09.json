@@ -1,0 +1,624 @@
+[
+ {
+  "id": "tl-53801",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53802",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53803",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53804",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53805",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53806",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53807",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53808",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53809",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53810",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53811",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53812",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53813",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53814",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53815",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53816",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53817",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53818",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53819",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53820",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53821",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53822",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53823",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53824",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53825",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53826",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53827",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53828",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53829",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53830",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53831",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53832",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53833",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53834",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53835",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53836",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53837",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53838",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53839",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53840",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53841",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53842",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53843",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53844",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53845",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53846",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53847",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53848",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53849",
+  "verdict": "fix",
+  "issues": [
+   "en の Cavendish banana は品種を断定しすぎ（กล้วยหอม は香りのよい大型種の総称）。一般化"
+  ],
+  "fixed": {
+   "id": "tl-53849",
+   "th": "กล้วยหอม",
+   "action": "add",
+   "ro": "klûuai hɔ̌ɔm",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "バナナ（日本でよく見る大型の品種）",
+     "en": "banana (large sweet variety, e.g. Cavendish)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันกินกล้วยหอมเป็นอาหารเช้า",
+      "ro": "chǎn kin klûuai hɔ̌ɔm pen aa hǎan cháao",
+      "ja": "私は朝ごはんにバナナを食べる。",
+      "en": "I eat a banana for breakfast.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "タイには多くの品種があり、กล้วย だけでは小型の品種を指すことも多い。"
+  }
+ },
+ {
+  "id": "tl-53850",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53851",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53852",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53853",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53854",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53855",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53856",
+  "verdict": "fix",
+  "issues": [
+   "例文jaの「ピンク色のピンクミルク」が重複表現のため修正（en の love も ชอบ に合わせ like）"
+  ],
+  "fixed": {
+   "id": "tl-53856",
+   "th": "นมเย็น",
+   "action": "add",
+   "ro": "nom yen",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ピンクミルク（赤いシロップ入りの甘い冷たい牛乳）",
+     "en": "pink milk (iced milk with red syrup)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เด็ก ๆ ชอบนมเย็นสีชมพู",
+      "ro": "dèk dèk chɔ̂ɔp nom yen sǐi chom phuu",
+      "ja": "子どもたちはピンク色の冷たいミルクが好きだ。",
+      "en": "Children like pink iced milk.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "文字どおりには「冷たい牛乳」で、飲み物屋では普通ピンクミルクを指す。"
+  }
+ },
+ {
+  "id": "tl-53857",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53858",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53859",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53860",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53861",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53862",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53863",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53864",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53865",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53866",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53867",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53868",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53869",
+  "verdict": "ok",
+  "issues": [
+   "読みは bùp fêe で確定：外来語は綴り上の声調でなく実際の発音に従う辞書の慣例（กอล์ฟ kɔ́f・เชฟ chéef・คาเฟ่ khaa fêe）に合わせる。一般に บุฟเฟ่ต์ とも書かれ、เฟต์ は下降調・長母音、บุฟ は中子音の促音節で低声。ต์ は黙字。外部辞書での確認はできていない"
+  ]
+ },
+ {
+  "id": "tl-53870",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53871",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53872",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53873",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53874",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53875",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53876",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53877",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53878",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53879",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53880",
+  "verdict": "fix",
+  "issues": [
+   "例文roの ตัว は辞書どおり tuua（tua は誤り）"
+  ],
+  "fixed": {
+   "id": "tl-53880",
+   "th": "เสื้อใน",
+   "action": "add",
+   "ro": "sʉ̂ʉa nai",
+   "kind": "word",
+   "category": "一般語彙",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ブラジャー・（上半身の）下着",
+     "en": "bra, undershirt",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เสื้อในตัวนี้ใส่สบาย",
+      "ro": "sʉ̂ʉa nai tuua níi sài sà baai",
+      "ja": "このブラジャーは着け心地がいい。",
+      "en": "This bra is comfortable to wear.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "女性のブラジャーを指すことが多い。改まると เสื้อชั้นใน。"
+  }
+ },
+ {
+  "id": "tl-53881",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53882",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53883",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53884",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53885",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53886",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53887",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53888",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53889",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53890",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53891",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53892",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53893",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53894",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53895",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53896",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53897",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53898",
+  "verdict": "fix",
+  "issues": [
+   "เตียงคู่ はダブルベッドの意味にも使われ曖昧なため、noteにその旨を追加"
+  ],
+  "fixed": {
+   "id": "tl-53898",
+   "th": "เตียงคู่",
+   "action": "add",
+   "ro": "tiiang khûu",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ツインベッド（ベッド2台）",
+     "en": "twin beds",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เราขอห้องเตียงคู่เพราะมากับเพื่อน",
+      "ro": "rao khɔ̌ɔ hɔ̂ɔng tiiang khûu phrɔ́ maa kàp phʉ̂ʉan",
+      "ja": "友達と来たのでツインの部屋を頼んだ。",
+      "en": "We asked for a twin room because we came with a friend.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ホテルでは普通ベッド2台のツインを指すが、ダブルベッドの意味に使われることもある。ダブルベッドは เตียงใหญ่ と言うことが多い。"
+  }
+ },
+ {
+  "id": "tl-53899",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53900",
+  "verdict": "ok",
+  "issues": []
+ }
+]
