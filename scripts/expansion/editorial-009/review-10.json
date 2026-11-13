@@ -1,0 +1,621 @@
+[
+ {
+  "id": "tl-53901",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53902",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53903",
+  "verdict": "fix",
+  "issues": [
+   "会話では別の語を使う改まった語なので頻度4は高い→3"
+  ],
+  "fixed": {
+   "id": "tl-53903",
+   "th": "สัญญาณไฟจราจร",
+   "action": "add",
+   "ro": "sǎn yaan fai cà raa cɔɔn",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "交通信号・信号機",
+     "en": "traffic light, traffic signal",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ขับรถต้องดูสัญญาณไฟจราจรเสมอ",
+      "ro": "khàp rót tɔ̂ɔng duu sǎn yaan fai cà raa cɔɔn sà mə̌ə",
+      "ja": "車を運転するときは常に信号を見なければなりません。",
+      "en": "When driving you must always watch the traffic lights.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "改まった言い方。会話では ไฟจราจร や ไฟแดง（赤信号）などと言うことが多い。"
+  }
+ },
+ {
+  "id": "tl-53904",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53905",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53906",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53907",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53908",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53909",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53910",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53911",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53912",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53913",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53914",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53915",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53916",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53917",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53918",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53919",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53920",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53921",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53922",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53923",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53924",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53925",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53926",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53927",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53928",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53929",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53930",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53931",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53932",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53933",
+  "verdict": "fix",
+  "issues": [
+   "例文jaの「手首を結びます」が手首同士を縛る意に読めるため修正"
+  ],
+  "fixed": {
+   "id": "tl-53933",
+   "th": "ผูกข้อมือ",
+   "action": "add",
+   "ro": "phùuk khɔ̂ɔ mʉʉ",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（祝福の儀礼で）手首に白い糸を結ぶ",
+     "en": "to tie a sacred string around the wrist (blessing rite)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ผู้ใหญ่ผูกข้อมือให้คู่บ่าวสาวด้วยด้ายขาว",
+      "ro": "phûu yài phùuk khɔ̂ɔ mʉʉ hâi khûu bàao sǎao dûuai dâai khǎao",
+      "ja": "年長者が新郎新婦の手首に白い糸を結びます。",
+      "en": "The elders tie white string around the bride and groom's wrists.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "東北部・北部の祝福儀礼（บายศรีสู่ขวัญ）などで行う。"
+  }
+ },
+ {
+  "id": "tl-53934",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53935",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53936",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53937",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53938",
+  "verdict": "fix",
+  "issues": [
+   "主語＋動詞の形なので ไฟดับ と同様に動詞として扱い、名詞用法はnoteへ"
+  ],
+  "fixed": {
+   "id": "tl-53938",
+   "th": "น้ำรั่ว",
+   "action": "add",
+   "ro": "náam rûua",
+   "kind": "word",
+   "category": "家・場所",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "水が漏れる・水漏れする",
+     "en": "(water) to leak",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ห้องน้ำมีน้ำรั่วจากเพดาน",
+      "ro": "hɔ̂ɔng náam mii náam rûua càak phee daan",
+      "ja": "浴室の天井から水漏れがしています。",
+      "en": "There's water leaking from the bathroom ceiling.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "名詞的に「水漏れ」の意味でも使う。"
+  }
+ },
+ {
+  "id": "tl-53939",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53940",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53941",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53942",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53943",
+  "verdict": "fix",
+  "issues": [
+   "例文で計量単位のように使っていて不自然（レシピはช้อนโต๊ะ/ช้อนชา）→道具として使う例文に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-53943",
+   "th": "ช้อนตวง",
+   "action": "add",
+   "ro": "chɔ́ɔn tuuang",
+   "kind": "word",
+   "category": "家・場所",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "計量スプーン",
+     "en": "measuring spoon",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ช้อนตวงชุดนี้มีสี่ขนาด",
+      "ro": "chɔ́ɔn tuuang chút níi mii sìi khà nàat",
+      "ja": "この計量スプーンのセットには4つのサイズがあります。",
+      "en": "This set of measuring spoons comes in four sizes.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-53944",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53945",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53946",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53947",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53948",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53949",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53950",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53951",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53952",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53953",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53954",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53955",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53956",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53957",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53958",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53959",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53960",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53961",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53962",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53963",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53964",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53965",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53966",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53967",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53968",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53969",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53970",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53971",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53972",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53973",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53974",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53975",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53976",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53977",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53978",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53979",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53980",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53981",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53982",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53983",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53984",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53985",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53986",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53987",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53988",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53989",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53990",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53991",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53992",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53993",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53994",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53995",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53996",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53997",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53998",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53999",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54000",
+  "verdict": "ok",
+  "issues": []
+ }
+]

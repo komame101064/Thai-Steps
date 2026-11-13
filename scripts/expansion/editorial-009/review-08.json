@@ -1,0 +1,541 @@
+[
+ {
+  "id": "tl-53701",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53702",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53703",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53704",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53705",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53706",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53707",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53708",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53709",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53710",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53711",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53712",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53713",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53714",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53715",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53716",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53717",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53718",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53719",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53720",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53721",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53722",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53723",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53724",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53725",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53726",
+  "verdict": "fix",
+  "issues": [
+   "読み dii prèet chan は綴り（เปรส＝低声長母音、ชัน＝平声）どおりで妥当と判断し維持",
+   "noteのカタカナ「ディープレッチャン」は不正確なため、異綴り ดีเปรสชั่น と話し言葉の下降調 chân の説明に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-53726",
+   "th": "พายุดีเปรสชัน",
+   "action": "add",
+   "ro": "phaa yú dii prèet chan",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "熱帯低気圧",
+     "en": "tropical depression",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พายุดีเปรสชันทำให้ภาคใต้มีฝนตกหนัก",
+      "ro": "phaa yú dii prèet chan tham hâi phâak tâi mii fǒn tòk nàk",
+      "ja": "熱帯低気圧のせいで南部は大雨になっています。",
+      "en": "The tropical depression is bringing heavy rain to the south.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ดีเปรสชั่น とも書かれ、話し言葉では最後の音節を下降調（chân）で発音することも多い。"
+  }
+ },
+ {
+  "id": "tl-53727",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53728",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53729",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53730",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53731",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53732",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53733",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53734",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53735",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53736",
+  "verdict": "ok",
+  "issues": [
+   "読み rii sai khə̂n を確認：外来語末音節の下降調（lexicon の เวอร์ชั่น wəə chân 等と同型）で実際の発音どおり。維持"
+  ]
+ },
+ {
+  "id": "tl-53737",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53738",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53739",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53740",
+  "verdict": "ok",
+  "issues": [
+   "読み khaa bɔɔn を確認：綴りどおり（lexicon ฟุตบอล fút bɔɔn と同様の長母音表記）で妥当。維持"
+  ]
+ },
+ {
+  "id": "tl-53741",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53742",
+  "verdict": "ok",
+  "issues": [
+   "読み soo lâa seel を確認：lexicon の ดอลลาร์ dɔn lâa・กีตาร์ kii tâa、เซลล์ seel と一致。維持"
+  ]
+ },
+ {
+  "id": "tl-53743",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53744",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53745",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53746",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53747",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53748",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53749",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53750",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53751",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53752",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53753",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53754",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53755",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53756",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53757",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53758",
+  "verdict": "ok",
+  "issues": [
+   "読み een nii yoo を確認：綴りどおりの標準的な読みで妥当。維持"
+  ]
+ },
+ {
+  "id": "tl-53759",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53760",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53761",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53762",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53763",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53764",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53765",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53766",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53767",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53768",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53769",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53770",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53771",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53772",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53773",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53774",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53775",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53776",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53777",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53778",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53779",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53780",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53781",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53782",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53783",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53784",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53785",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53786",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53787",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53788",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53789",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53790",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53791",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53792",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53793",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53794",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53795",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53796",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53797",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53798",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53799",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53800",
+  "verdict": "ok",
+  "issues": []
+ }
+]

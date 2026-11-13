@@ -1,0 +1,2977 @@
+[
+ {
+  "id": "tl-53301",
+  "th": "บูด",
+  "action": "add",
+  "ro": "bùut",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（食べ物が）腐って酸っぱくなった・傷んだ",
+    "en": "spoiled, gone sour (food)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แกงหม้อนี้บูดแล้ว อย่ากินนะ",
+     "ro": "kɛɛng mɔ̂ɔ níi bùut lɛ́ɛo yàa kin ná",
+     "ja": "この鍋のカレーは傷んでいるから、食べないでね。",
+     "en": "This pot of curry has gone bad, don't eat it.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（หน้าบูด の形で）ふくれっ面の・不機嫌な顔の",
+    "en": "sulky, sullen-faced (in หน้าบูด)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ทำไมวันนี้หน้าบูดจัง",
+     "ro": "tham mai wan níi nâa bùut cang",
+     "ja": "どうして今日はそんなにふくれっ面なの？",
+     "en": "Why are you so sulky today?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53302",
+  "th": "ขึ้นรา",
+  "action": "add",
+  "ro": "khʉ̂n raa",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "かびが生える",
+    "en": "to get moldy",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขนมปังขึ้นราแล้ว ต้องทิ้งไป",
+     "ro": "khà nǒm pang khʉ̂n raa lɛ́ɛo tɔ̂ɔng thíng pai",
+     "ja": "パンにかびが生えたので、捨てなければならない。",
+     "en": "The bread has gone moldy; it has to be thrown away.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53303",
+  "th": "หืน",
+  "action": "add",
+  "ro": "hʉ̌ʉn",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（油や油を含む食品が）酸化して嫌なにおいがする",
+    "en": "rancid",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "น้ำมันขวดนี้หืนแล้ว ใช้ทำอาหารไม่ได้",
+     "ro": "nám man khùuat níi hʉ̌ʉn lɛ́ɛo chái tham aa hǎan mâi dâai",
+     "ja": "この瓶の油は古くなって嫌なにおいがするので、料理には使えない。",
+     "en": "This bottle of oil has gone rancid; it can't be used for cooking.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53304",
+  "th": "เหม็นอับ",
+  "action": "add",
+  "ro": "měn àp",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "かび臭い・むっとこもったにおいの",
+    "en": "musty, stale-smelling",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ห้องนี้ปิดไว้นาน เลยเหม็นอับ",
+     "ro": "hɔ̂ɔng níi pìt wái naan ləəi měn àp",
+     "ja": "この部屋は長く閉め切っていたので、かび臭い。",
+     "en": "This room has been shut for a long time, so it smells musty.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53305",
+  "th": "เหม็นเปรี้ยว",
+  "action": "add",
+  "ro": "měn prîiao",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "酸っぱいにおいがする（汗・傷んだ食べ物など）",
+    "en": "smelling sour",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เสื้อที่ใส่ไปวิ่งเหม็นเปรี้ยวมาก",
+     "ro": "sʉ̂ʉa thîi sài pai wîng měn prîiao mâak",
+     "ja": "ランニングに着ていったシャツがとても酸っぱいにおいがする。",
+     "en": "The shirt I wore running smells really sour.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53306",
+  "th": "หอมหวาน",
+  "action": "add",
+  "ro": "hɔ̌ɔm wǎan",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "甘い香りの",
+    "en": "sweet-smelling",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ดอกไม้นี้มีกลิ่นหอมหวาน",
+     "ro": "dɔ̀ɔk máai níi mii klìn hɔ̌ɔm wǎan",
+     "ja": "この花は甘い香りがする。",
+     "en": "This flower has a sweet scent.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（思い出・恋などが）甘美な・甘い",
+    "en": "sweet, blissful (memories, love)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วงเวลานั้นเป็นความทรงจำที่หอมหวาน",
+     "ro": "chûuang wee laa nán pen khwaam song cam thîi hɔ̌ɔm wǎan",
+     "ja": "あの頃は甘美な思い出です。",
+     "en": "That time is a sweet memory.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53307",
+  "th": "หอมกรุ่น",
+  "action": "add",
+  "ro": "hɔ̌ɔm krùn",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（湯気とともに）よい香りがふんわり漂う",
+    "en": "fragrant, with a warm lingering aroma",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กาแฟร้อนหอมกรุ่นไปทั้งห้อง",
+     "ro": "kaa fɛɛ rɔ́ɔn hɔ̌ɔm krùn pai tháng hɔ̂ɔng",
+     "ja": "熱いコーヒーの香りが部屋中に漂っている。",
+     "en": "The aroma of hot coffee fills the whole room.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53308",
+  "th": "หอมฉุย",
+  "action": "add",
+  "ro": "hɔ̌ɔm chǔi",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "いい香りがぷんと立つ",
+    "en": "giving off a strong pleasant smell",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ข้าวผัดจานนี้หอมฉุยเลย",
+     "ro": "khâao phàt caan níi hɔ̌ɔm chǔi ləəi",
+     "ja": "このチャーハンはいい香りがぷんとする。",
+     "en": "This fried rice smells wonderful.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53309",
+  "th": "เหม็นเขียว",
+  "action": "add",
+  "ro": "měn khǐiao",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "青臭い（生の野菜・草など）",
+    "en": "smelling grassy or raw (vegetables, leaves)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผักชนิดนี้ถ้ากินดิบจะเหม็นเขียว",
+     "ro": "phàk chá nít níi thâa kin dìp cà měn khǐiao",
+     "ja": "この野菜は生で食べると青臭い。",
+     "en": "This vegetable tastes grassy if you eat it raw.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53310",
+  "th": "เหม็นไหม้",
+  "action": "add",
+  "ro": "měn mâi",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "焦げ臭い",
+    "en": "smelling burnt",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ในครัวมีกลิ่นเหม็นไหม้ ลืมปิดเตาหรือเปล่า",
+     "ro": "nai khruua mii klìn měn mâi lʉʉm pìt tao rʉ̌ʉ plàao",
+     "ja": "台所が焦げ臭い。コンロを消し忘れた？",
+     "en": "There's a burning smell in the kitchen. Did you forget to turn off the stove?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53311",
+  "th": "จืดชืด",
+  "action": "add",
+  "ro": "cʉ̀ʉt chʉ̂ʉt",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（味が）まったくない・味気ない",
+    "en": "bland, tasteless",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ซุปนี้จืดชืด ไม่มีรสชาติเลย",
+     "ro": "súp níi cʉ̀ʉt chʉ̂ʉt mâi mii rót châat ləəi",
+     "ja": "このスープは味気なくて、まったく味がしない。",
+     "en": "This soup is bland; it has no taste at all.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "面白みのない・退屈な",
+    "en": "dull, boring",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หนังเรื่องนี้จืดชืดจนเกือบหลับ",
+     "ro": "nǎng rʉ̂ʉang níi cʉ̀ʉt chʉ̂ʉt con kʉ̀ʉap làp",
+     "ja": "この映画は退屈で、寝そうになった。",
+     "en": "This movie was so dull I almost fell asleep.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53312",
+  "th": "หวานเจี๊ยบ",
+  "action": "add",
+  "ro": "wǎan cíiap",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ものすごく甘い・甘ったるい",
+    "en": "extremely sweet",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ชาเย็นแก้วนี้หวานเจี๊ยบเลย",
+     "ro": "chaa yen kɛ̂ɛo níi wǎan cíiap ləəi",
+     "ja": "このタイティーはものすごく甘い。",
+     "en": "This Thai iced tea is super sweet.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53313",
+  "th": "เปรี้ยวจี๊ด",
+  "action": "add",
+  "ro": "prîiao cíit",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ものすごく酸っぱい",
+    "en": "extremely sour",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "มะนาวลูกนี้เปรี้ยวจี๊ดมาก",
+     "ro": "má naao lûuk níi prîiao cíit mâak",
+     "ja": "このライムはものすごく酸っぱい。",
+     "en": "This lime is incredibly sour.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53314",
+  "th": "เค็มปี๋",
+  "action": "add",
+  "ro": "khem pǐi",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ひどくしょっぱい",
+    "en": "extremely salty",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "แกงนี้เค็มปี๋ ใส่น้ำปลาเยอะไป",
+     "ro": "kɛɛng níi khem pǐi sài nám plaa yə́ pai",
+     "ja": "このカレーはひどくしょっぱい。ナンプラーを入れすぎだ。",
+     "en": "This curry is way too salty; too much fish sauce went in.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53315",
+  "th": "ขมปี๋",
+  "action": "add",
+  "ro": "khǒm pǐi",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ひどく苦い",
+    "en": "extremely bitter",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ยาตัวนี้ขมปี๋ กินยากมาก",
+     "ro": "yaa tuua níi khǒm pǐi kin yâak mâak",
+     "ja": "この薬はひどく苦くて、とても飲みにくい。",
+     "en": "This medicine is terribly bitter and very hard to take.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53316",
+  "th": "กลมกล่อม",
+  "action": "add",
+  "ro": "klom klɔ̀ɔm",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（味が）まろやかでバランスのよい",
+    "en": "well-balanced, mellow (flavor)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "น้ำซุปร้านนี้รสชาติกลมกล่อม",
+     "ro": "nám súp ráan níi rót châat klom klɔ̀ɔm",
+     "ja": "この店のスープはまろやかでバランスのいい味だ。",
+     "en": "This shop's broth has a well-balanced flavor.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53317",
+  "th": "นัว",
+  "action": "add",
+  "ro": "nuua",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "うまみがあってコクのある",
+    "en": "rich and savory, full of umami",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ส้มตำร้านนี้นัวมาก",
+     "ro": "sôm tam ráan níi nuua mâak",
+     "ja": "この店のソムタムはすごくうまみがある。",
+     "en": "This shop's papaya salad is really rich and savory.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "イサーン（東北タイ）方言から広まった口語で、料理の味をほめるときに使う。"
+ },
+ {
+  "id": "tl-53318",
+  "th": "กรุบกรอบ",
+  "action": "add",
+  "ro": "krùp krɔ̀ɔp",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "こりこり・しゃきしゃきした（歯ごたえ）",
+    "en": "crunchy",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แตงกวาสดกรุบกรอบดี",
+     "ro": "tɛɛng kwaa sòt krùp krɔ̀ɔp dii",
+     "ja": "新鮮なきゅうりはしゃきしゃきして歯ごたえがいい。",
+     "en": "Fresh cucumbers are nicely crunchy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53319",
+  "th": "หนึบ",
+  "action": "add",
+  "ro": "nʉ̀p",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "もちもち・むっちりした（弾力のある歯ごたえ）",
+    "en": "chewy, firm and springy",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เส้นบะหมี่ร้านนี้เหนียวหนึบอร่อยมาก",
+     "ro": "sên bà mìi ráan níi nǐiao nʉ̀p à rɔ̀ɔi mâak",
+     "ja": "この店の麺はもちもちしていてとてもおいしい。",
+     "en": "The noodles at this shop are chewy and delicious.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "単独より เหนียวหนึบ・หนึบหนับ の形でよく使う。"
+ },
+ {
+  "id": "tl-53320",
+  "th": "นุ่มนิ่ม",
+  "action": "add",
+  "ro": "nûm nîm",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ふわふわ・ふにゃっと柔らかい",
+    "en": "soft and squishy",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หมอนใบนี้นุ่มนิ่มมาก",
+     "ro": "mɔ̌ɔn bai níi nûm nîm mâak",
+     "ja": "この枕はとてもふわふわだ。",
+     "en": "This pillow is really soft.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53321",
+  "th": "หยุ่น",
+  "action": "add",
+  "ro": "yùn",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "弾力がある・ぷりっとした",
+    "en": "springy, elastic",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลูกชิ้นร้านนี้เนื้อหยุ่นดี",
+     "ro": "lûuk chín ráan níi nʉ́ʉa yùn dii",
+     "ja": "この店のルークチン（団子）は弾力があっていい。",
+     "en": "The meatballs at this shop have a nice springy texture.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "หยุ่นๆ・นุ่มหยุ่น の形でもよく使う。"
+ },
+ {
+  "id": "tl-53322",
+  "th": "ร่วน",
+  "action": "add",
+  "ro": "rûuan",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（粘りがなく）ぱらぱら・ほろほろした",
+    "en": "loose, crumbly, not sticky",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ข้าวผัดจานนี้เม็ดข้าวร่วนสวย",
+     "ro": "khâao phàt caan níi mét khâao rûuan sǔuai",
+     "ja": "このチャーハンはご飯粒がきれいにぱらっとしている。",
+     "en": "The rice grains in this fried rice are nicely separate.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ดินร่วน（さらさらした耕しやすい土）のようにも使う。"
+ },
+ {
+  "id": "tl-53323",
+  "th": "ชุ่มฉ่ำ",
+  "action": "add",
+  "ro": "chûm chàm",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "みずみずしい・潤いたっぷりの",
+    "en": "juicy, moist and fresh",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แตงโมลูกนี้ชุ่มฉ่ำหวานดี",
+     "ro": "tɛɛng moo lûuk níi chûm chàm wǎan dii",
+     "ja": "このスイカはみずみずしくて甘い。",
+     "en": "This watermelon is juicy and sweet.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53324",
+  "th": "หนืด",
+  "action": "add",
+  "ro": "nʉ̀ʉt",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "粘りけがある・どろっとした",
+    "en": "thick, viscous, sticky",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "น้ำผึ้งหนืดมากเวลาอากาศเย็น",
+     "ro": "nám phʉ̂ng nʉ̀ʉt mâak wee laa aa kàat yen",
+     "ja": "寒いときは、はちみつがとても粘っこくなる。",
+     "en": "Honey gets very thick when the weather is cold.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53325",
+  "th": "เหนอะหนะ",
+  "action": "add",
+  "ro": "nə̀ nà",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "べとべとした・ねばねばした",
+    "en": "sticky, gooey",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เหงื่อออกจนตัวเหนอะหนะ",
+     "ro": "ngʉ̀ʉa ɔ̀ɔk con tuua nə̀ nà",
+     "ja": "汗をかいて体がべとべとだ。",
+     "en": "I've sweated so much my body is all sticky.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53326",
+  "th": "แข็งกระด้าง",
+  "action": "add",
+  "ro": "khɛ̌ng krà dâang",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "硬くてごわごわした",
+    "en": "stiff, coarse",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผ้าผืนนี้แข็งกระด้าง ใส่ไม่สบาย",
+     "ro": "phâa phʉ̌ʉn níi khɛ̌ng krà dâang sài mâi sà baai",
+     "ja": "この布はごわごわして着心地が悪い。",
+     "en": "This cloth is stiff and uncomfortable to wear.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（態度・口調が）とげとげしい・ぶっきらぼうな",
+    "en": "harsh, curt (manner, tone)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาพูดด้วยน้ำเสียงแข็งกระด้าง",
+     "ro": "khǎo phûut dûuai nám sǐiang khɛ̌ng krà dâang",
+     "ja": "彼はぶっきらぼうな口調で話した。",
+     "en": "He spoke in a harsh tone.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53327",
+  "th": "อ่อนนุ่ม",
+  "action": "add",
+  "ro": "ɔ̀ɔn nûm",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "柔らかくしなやかな",
+    "en": "soft, gentle",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผ้าห่มผืนนี้อ่อนนุ่มมาก",
+     "ro": "phâa hòm phʉ̌ʉn níi ɔ̀ɔn nûm mâak",
+     "ja": "この毛布はとても柔らかい。",
+     "en": "This blanket is very soft.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53328",
+  "th": "หลวม",
+  "action": "add",
+  "ro": "lǔuam",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（服・靴などが）ゆるい・ぶかぶかの",
+    "en": "loose, baggy (clothes, shoes)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กางเกงตัวนี้หลวมไปหน่อย",
+     "ro": "kaang keeng tuua níi lǔuam pai nɔ̀ɔi",
+     "ja": "このズボンは少しゆるすぎる。",
+     "en": "These trousers are a bit too loose.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（ひも・ねじなどが）ゆるんだ",
+    "en": "loose, slack (knots, screws)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เชือกผูกรองเท้าหลวมแล้ว",
+     "ro": "chʉ̂ʉak phùuk rɔɔng tháao lǔuam lɛ́ɛo",
+     "ja": "靴ひもがゆるんでいる。",
+     "en": "Your shoelaces have come loose.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53329",
+  "th": "หนาวเหน็บ",
+  "action": "add",
+  "ro": "nǎao nèp",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "凍えるように寒い・骨身にしみる寒さの",
+    "en": "bitterly cold",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คืนนี้บนดอยหนาวเหน็บมาก",
+     "ro": "khʉʉn níi bon dɔɔi nǎao nèp mâak",
+     "ja": "今夜は山の上がひどく寒い。",
+     "en": "It's bitterly cold up on the mountain tonight.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53330",
+  "th": "เย็นสบาย",
+  "action": "add",
+  "ro": "yen sà baai",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "涼しくて気持ちいい",
+    "en": "pleasantly cool",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตอนเช้าอากาศเย็นสบาย",
+     "ro": "tɔɔn cháao aa kàat yen sà baai",
+     "ja": "朝は涼しくて気持ちがいい。",
+     "en": "The weather is pleasantly cool in the morning.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53331",
+  "th": "อับชื้น",
+  "action": "add",
+  "ro": "àp chʉ́ʉn",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "じめじめした・湿気がこもった",
+    "en": "damp, humid and stuffy",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วงหน้าฝนห้องนี้อับชื้นมาก",
+     "ro": "chûuang nâa fǒn hɔ̂ɔng níi àp chʉ́ʉn mâak",
+     "ja": "雨季はこの部屋がとてもじめじめする。",
+     "en": "This room gets very damp in the rainy season.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53332",
+  "th": "เฉิ่ม",
+  "action": "add",
+  "ro": "chə̀əm",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ダサい・野暮ったい・流行遅れの",
+    "en": "unfashionable, uncool, frumpy",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ชุดนี้ดูเฉิ่มไปหน่อยนะ",
+     "ro": "chút níi duu chə̀əm pai nɔ̀ɔi ná",
+     "ja": "この服はちょっと野暮ったく見えるね。",
+     "en": "This outfit looks a bit frumpy.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "相手に直接言うと失礼になることがある。"
+ },
+ {
+  "id": "tl-53333",
+  "th": "ซูบ",
+  "action": "add",
+  "ro": "sûup",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（顔・体が）やつれた・こけた",
+    "en": "gaunt, haggard",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วงนี้เขาหน้าซูบลงมาก",
+     "ro": "chûuang níi khǎo nâa sûup long mâak",
+     "ja": "最近、彼は顔がずいぶんやつれた。",
+     "en": "Lately his face has become very gaunt.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ซูบผอม の形でもよく使う。"
+ },
+ {
+  "id": "tl-53334",
+  "th": "ผอมแห้ง",
+  "action": "add",
+  "ro": "phɔ̌ɔm hɛ̂ɛng",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "やせこけた・がりがりの",
+    "en": "skinny, emaciated",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หมาจรตัวนั้นผอมแห้งน่าสงสาร",
+     "ro": "mǎa con tuua nán phɔ̌ɔm hɛ̂ɛng nâa sǒng sǎan",
+     "ja": "あの野良犬はやせこけていてかわいそうだ。",
+     "en": "That stray dog is skinny and pitiful.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53335",
+  "th": "ผอมบาง",
+  "action": "add",
+  "ro": "phɔ̌ɔm baang",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ほっそりした・きゃしゃな",
+    "en": "slender, slight",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอรูปร่างผอมบางแต่แข็งแรง",
+     "ro": "thəə rûup râang phɔ̌ɔm baang tɛ̀ɛ khɛ̌ng rɛɛng",
+     "ja": "彼女は体つきがほっそりしているが、丈夫だ。",
+     "en": "She is slender but strong.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53336",
+  "th": "จ้ำม่ำ",
+  "action": "add",
+  "ro": "câm mâm",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（子どもなどが）ぽっちゃりした・丸々とした",
+    "en": "chubby, plump",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลูกสาวเขาแก้มจ้ำม่ำน่ารักมาก",
+     "ro": "lûuk sǎao khǎo kɛ̂ɛm câm mâm nâa rák mâak",
+     "ja": "彼の娘はほっぺがぽっちゃりしていて、とてもかわいい。",
+     "en": "His daughter has chubby cheeks and is very cute.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53337",
+  "th": "ขาวใส",
+  "action": "add",
+  "ro": "khǎao sǎi",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（肌が）色白で透明感のある",
+    "en": "fair and clear (skin)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ครีมนี้โฆษณาว่าทำให้ผิวขาวใส",
+     "ro": "khriim níi khoo sà naa wâa tham hâi phǐu khǎao sǎi",
+     "ja": "このクリームは、白く透明感のある肌になると宣伝している。",
+     "en": "This cream is advertised as making skin fair and clear.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53338",
+  "th": "หัวล้าน",
+  "action": "add",
+  "ro": "hǔua láan",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "頭がはげた",
+    "en": "bald",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พ่อเริ่มหัวล้านตั้งแต่อายุสี่สิบ",
+     "ro": "phɔ̂ɔ rə̂əm hǔua láan tâng tɛ̀ɛ aa yú sìi sìp",
+     "ja": "父は40歳からはげ始めた。",
+     "en": "My father started going bald at forty.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "本人に向けて言うとからかいや失礼になることがある。"
+ },
+ {
+  "id": "tl-53339",
+  "th": "มอซอ",
+  "action": "add",
+  "ro": "mɔɔ sɔɔ",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（服などが）くすんでみすぼらしい・薄汚れた",
+    "en": "shabby, dingy",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาใส่เสื้อเก่ามอซอมาทำงาน",
+     "ro": "khǎo sài sʉ̂ʉa kào mɔɔ sɔɔ maa tham ngaan",
+     "ja": "彼は古くてくすんだシャツを着て仕事に来た。",
+     "en": "He came to work in a shabby old shirt.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53340",
+  "th": "ซอมซ่อ",
+  "action": "add",
+  "ro": "sɔɔm sɔ̂ɔ",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "みすぼらしい・粗末な",
+    "en": "shabby, run-down",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บ้านหลังนั้นดูซอมซ่อมาก",
+     "ro": "bâan lǎng nán duu sɔɔm sɔ̂ɔ mâak",
+     "ja": "あの家はとてもみすぼらしく見える。",
+     "en": "That house looks very run-down.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53341",
+  "th": "ชัดแจ๋ว",
+  "action": "add",
+  "ro": "chát cɛ̌ɛo",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "とてもはっきりした・くっきりした",
+    "en": "crystal clear, very sharp",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "กล้องตัวใหม่ถ่ายรูปได้ชัดแจ๋ว",
+     "ro": "klɔ̂ɔng tuua mài thàai rûup dâai chát cɛ̌ɛo",
+     "ja": "新しいカメラはくっきりした写真が撮れる。",
+     "en": "The new camera takes crystal-clear photos.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53342",
+  "th": "พร่ามัว",
+  "action": "add",
+  "ro": "phrâa muua",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（視界が）かすんだ・ぼやけた",
+    "en": "blurry, hazy (vision)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วงนี้ตาพร่ามัว มองอะไรไม่ค่อยชัด",
+     "ro": "chûuang níi taa phrâa muua mɔɔng à rai mâi khɔ̂ɔi chát",
+     "ja": "最近目がかすんで、物がよく見えない。",
+     "en": "Lately my eyes are blurry and I can't see things clearly.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53343",
+  "th": "แปลกประหลาด",
+  "action": "add",
+  "ro": "plɛ̀ɛk prà làat",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "奇妙な・不思議な",
+    "en": "strange, bizarre",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เมื่อคืนฉันฝันแปลกประหลาดมาก",
+     "ro": "mʉ̂ʉa khʉʉn chǎn fǎn plɛ̀ɛk prà làat mâak",
+     "ja": "ゆうべ、とても奇妙な夢を見た。",
+     "en": "Last night I had a very strange dream.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53344",
+  "th": "แปลกใหม่",
+  "action": "add",
+  "ro": "plɛ̀ɛk mài",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "目新しい・斬新な",
+    "en": "novel, new and different",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้มีเมนูแปลกใหม่ทุกเดือน",
+     "ro": "ráan níi mii mee nuu plɛ̀ɛk mài thúk dʉʉan",
+     "ja": "この店には毎月目新しいメニューがある。",
+     "en": "This shop has novel menu items every month.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53345",
+  "th": "อลังการ",
+  "action": "add",
+  "ro": "à lang kaan",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "壮大な・豪華絢爛な",
+    "en": "grand, magnificent, spectacular",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "งานแต่งงานครั้งนี้จัดอย่างอลังการ",
+     "ro": "ngaan tɛ̀ng ngaan khráng níi càt yàang à lang kaan",
+     "ja": "今回の結婚式は豪華絢爛に行われた。",
+     "en": "This wedding was held on a grand scale.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53346",
+  "th": "เรียบหรู",
+  "action": "add",
+  "ro": "rîiap rǔu",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "シンプルで上品な・シックな",
+    "en": "simple yet elegant",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ห้องพักตกแต่งแบบเรียบหรู",
+     "ro": "hɔ̂ɔng phák tòk tɛ̀ng bɛ̀ɛp rîiap rǔu",
+     "ja": "客室はシンプルで上品に装飾されている。",
+     "en": "The guest rooms are decorated in a simple, elegant style.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53347",
+  "th": "แออัด",
+  "action": "add",
+  "ro": "ɛɛ àt",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（人・物で）混み合った・すし詰めの",
+    "en": "crowded, congested",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รถไฟฟ้าตอนเช้าแออัดมาก",
+     "ro": "rót fai fáa tɔɔn cháao ɛɛ àt mâak",
+     "ja": "朝の電車はとても混み合っている。",
+     "en": "The sky train is very crowded in the morning.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53348",
+  "th": "กระจิ๋ว",
+  "action": "add",
+  "ro": "krà cǐu",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ちっちゃな・ちっぽけな",
+    "en": "tiny, teeny",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ห้องน้ำโรงแรมนี้เล็กกระจิ๋วเลย",
+     "ro": "hɔ̂ɔng náam roong rɛɛm níi lék krà cǐu ləəi",
+     "ja": "このホテルのトイレはちっぽけだ。",
+     "en": "The bathroom in this hotel is tiny.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "เล็กกระจิ๋ว・กระจิ๋วหลิว の形でよく使う。"
+ },
+ {
+  "id": "tl-53349",
+  "th": "เล็กจิ๋ว",
+  "action": "add",
+  "ro": "lék cǐu",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ごく小さい・ちっちゃな",
+    "en": "tiny, minute",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "มดตัวเล็กจิ๋วเดินเป็นแถว",
+     "ro": "mót tuua lék cǐu dəən pen thɛ̌ɛo",
+     "ja": "ごく小さなアリが列になって歩いている。",
+     "en": "Tiny ants are walking in a line.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53350",
+  "th": "ยาวเหยียด",
+  "action": "add",
+  "ro": "yaao yìiat",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（列・リストなどが）長々と続く",
+    "en": "very long, stretching on",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คนต่อแถวยาวเหยียดหน้าร้าน",
+     "ro": "khon tɔ̀ɔ thɛ̌ɛo yaao yìiat nâa ráan",
+     "ja": "店の前に人が長々と列を作っている。",
+     "en": "People are queuing in a very long line in front of the shop.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53351",
+  "th": "สั้นกุด",
+  "action": "add",
+  "ro": "sân kùt",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ちょん切ったように短い・ばっさり短い",
+    "en": "very short, cropped",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เธอตัดผมสั้นกุดจนจำแทบไม่ได้",
+     "ro": "thəə tàt phǒm sân kùt con cam thɛ̂ɛp mâi dâai",
+     "ja": "彼女は髪をばっさり短く切って、ほとんど見分けがつかなかった。",
+     "en": "She cut her hair so short I could barely recognize her.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53352",
+  "th": "สูงลิ่ว",
+  "action": "add",
+  "ro": "sǔung lîu",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "そびえ立つほど高い",
+    "en": "towering, sky-high",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ในเมืองมีตึกสูงลิ่วเต็มไปหมด",
+     "ro": "nai mʉʉang mii tʉ̀k sǔung lîu tem pai mòt",
+     "ja": "街には高層ビルがいたるところにそびえ立っている。",
+     "en": "The city is full of towering buildings.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（値段などが）跳ね上がった・とんでもなく高い",
+    "en": "sky-high (prices)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ราคาที่ดินแถวนี้สูงลิ่ว",
+     "ro": "raa khaa thîi din thɛ̌ɛo níi sǔung lîu",
+     "ja": "この辺りの地価はとんでもなく高い。",
+     "en": "Land prices around here are sky-high.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53353",
+  "th": "ตื้นเขิน",
+  "action": "add",
+  "ro": "tʉ̂ʉn khə̌ən",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（川・運河などが）土砂で浅くなった",
+    "en": "shallow, silted up",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คลองนี้ตื้นเขินจนเรือแล่นไม่ได้",
+     "ro": "khlɔɔng níi tʉ̂ʉn khə̌ən con rʉʉa lɛ̂n mâi dâai",
+     "ja": "この運河は浅くなって、船が通れない。",
+     "en": "This canal has silted up so much that boats can't pass.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（考えなどが）浅はかな",
+    "en": "shallow, superficial (ideas)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ความคิดแบบนี้ตื้นเขินเกินไป",
+     "ro": "khwaam khít bɛ̀ɛp níi tʉ̂ʉn khə̌ən kəən pai",
+     "ja": "こういう考え方は浅はかすぎる。",
+     "en": "This way of thinking is too shallow.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53354",
+  "th": "หนาเตอะ",
+  "action": "add",
+  "ro": "nǎa tə̀",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（化粧などが）こってり厚い",
+    "en": "caked-on, thickly applied",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "วันนี้เธอแต่งหน้าหนาเตอะ",
+     "ro": "wan níi thəə tɛ̀ng nâa nǎa tə̀",
+     "ja": "今日の彼女は化粧がこってり厚い。",
+     "en": "She's wearing really heavy makeup today.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53355",
+  "th": "บางเฉียบ",
+  "action": "add",
+  "ro": "baang chìiap",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "極薄の・薄くて洗練された",
+    "en": "ultra-thin, sleek",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โทรศัพท์รุ่นใหม่บางเฉียบ",
+     "ro": "thoo rá sàp rûn mài baang chìiap",
+     "ja": "新しい機種の電話は極薄だ。",
+     "en": "The new phone model is ultra-thin.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53356",
+  "th": "คมกริบ",
+  "action": "add",
+  "ro": "khom kríp",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（刃物が）切れ味鋭い",
+    "en": "razor-sharp",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "มีดเล่มนี้คมกริบ ระวังด้วย",
+     "ro": "mîit lêm níi khom kríp rá wang dûuai",
+     "ja": "このナイフはとても鋭いから、気をつけて。",
+     "en": "This knife is razor-sharp, be careful.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53357",
+  "th": "แหลมคม",
+  "action": "add",
+  "ro": "lɛ̌ɛm khom",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（考え・質問・頭脳が）鋭い",
+    "en": "sharp, incisive",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นักข่าวคนนี้ถามคำถามแหลมคม",
+     "ro": "nák khàao khon níi thǎam kham thǎam lɛ̌ɛm khom",
+     "ja": "この記者は鋭い質問をする。",
+     "en": "This reporter asks sharp questions.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53358",
+  "th": "เปียกโชก",
+  "action": "add",
+  "ro": "pìiak chôok",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "びしょぬれの",
+    "en": "soaking wet",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฝนตกหนัก ฉันเปียกโชกทั้งตัว",
+     "ro": "fǒn tòk nàk chǎn pìiak chôok tháng tuua",
+     "ja": "大雨で、私は全身びしょぬれになった。",
+     "en": "It rained hard and I got soaked from head to toe.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53359",
+  "th": "แห้งกรอบ",
+  "action": "add",
+  "ro": "hɛ̂ɛng krɔ̀ɔp",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "からからに乾いた・ぱりぱりの",
+    "en": "dry and crisp, brittle",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ใบไม้แห้งกรอบเต็มสนาม",
+     "ro": "bai máai hɛ̂ɛng krɔ̀ɔp tem sà nǎam",
+     "ja": "からからに乾いた落ち葉が庭一面にある。",
+     "en": "Dry, crisp leaves cover the whole yard.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53360",
+  "th": "ร้อนจัด",
+  "action": "add",
+  "ro": "rɔ́ɔn càt",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ひどく暑い・猛烈に暑い",
+    "en": "scorching hot",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วันนี้อากาศร้อนจัด อย่าออกไปกลางแดด",
+     "ro": "wan níi aa kàat rɔ́ɔn càt yàa ɔ̀ɔk pai klaang dɛ̀ɛt",
+     "ja": "今日はひどく暑いから、日なたに出ないで。",
+     "en": "It's scorching today; don't go out in the sun.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53361",
+  "th": "ร้อนระอุ",
+  "action": "add",
+  "ro": "rɔ́ɔn rá ù",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "灼熱の・熱気がこもった",
+    "en": "sweltering, blazing hot",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ถนนร้อนระอุในตอนบ่าย",
+     "ro": "thà nǒn rɔ́ɔn rá ù nai tɔɔn bàai",
+     "ja": "午後は道路が灼熱になる。",
+     "en": "The roads are blazing hot in the afternoon.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（情勢が）緊迫した・白熱した",
+    "en": "heated, tense (situation)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "การเมืองช่วงนี้ร้อนระอุ",
+     "ro": "kaan mʉʉang chûuang níi rɔ́ɔn rá ù",
+     "ja": "最近は政治情勢が緊迫している。",
+     "en": "Politics is heated these days.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53362",
+  "th": "เย็นเฉียบ",
+  "action": "add",
+  "ro": "yen chìiap",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ひやっと冷たい・身を切るように冷たい",
+    "en": "ice-cold",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "น้ำในลำธารเย็นเฉียบ",
+     "ro": "nám nai lam thaan yen chìiap",
+     "ja": "小川の水は身を切るように冷たい。",
+     "en": "The water in the stream is ice-cold.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53363",
+  "th": "เฉยชา",
+  "action": "add",
+  "ro": "chə̌əi chaa",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "無関心な・冷淡な",
+    "en": "indifferent, cold",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วงนี้แฟนทำตัวเฉยชากับฉัน",
+     "ro": "chûuang níi fɛɛn tham tuua chə̌əi chaa kàp chǎn",
+     "ja": "最近、恋人が私に冷たい態度をとる。",
+     "en": "Lately my partner has been acting cold toward me.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53364",
+  "th": "เป็นระเบียบ",
+  "action": "add",
+  "ro": "pen rá bìiap",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "整然とした・きちんと片付いた",
+    "en": "tidy, orderly",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ห้องของเธอเป็นระเบียบมาก",
+     "ro": "hɔ̂ɔng khɔ̌ɔng thəə pen rá bìiap mâak",
+     "ja": "彼女の部屋はとてもきちんと片付いている。",
+     "en": "Her room is very tidy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53365",
+  "th": "กระจัดกระจาย",
+  "action": "add",
+  "ro": "krà càt krà caai",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "散らばった・ばらばらの",
+    "en": "scattered",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ของเล่นวางกระจัดกระจายเต็มพื้น",
+     "ro": "khɔ̌ɔng lên waang krà càt krà caai tem phʉ́ʉn",
+     "ja": "おもちゃが床一面に散らばっている。",
+     "en": "Toys are scattered all over the floor.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53366",
+  "th": "ฝืนใจ",
+  "action": "add",
+  "ro": "fʉ̌ʉn cai",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "気が進まないのを我慢して（〜する）・嫌々〜する",
+    "en": "to force oneself, do reluctantly",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาฝืนใจกินผักเพราะหมอสั่ง",
+     "ro": "khǎo fʉ̌ʉn cai kin phàk phrɔ́ mɔ̌ɔ sàng",
+     "ja": "医者に言われたので、彼は嫌々野菜を食べている。",
+     "en": "He forces himself to eat vegetables because the doctor told him to.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53367",
+  "th": "ปุบปับ",
+  "action": "add",
+  "ro": "pùp pàp",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "急に・慌ただしく",
+    "en": "suddenly, abruptly",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เขาลาออกปุบปับโดยไม่บอกใคร",
+     "ro": "khǎo laa ɔ̀ɔk pùp pàp dooi mâi bɔ̀ɔk khrai",
+     "ja": "彼は誰にも言わずに急に辞めた。",
+     "en": "He quit abruptly without telling anyone.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53368",
+  "th": "ทีละนิด",
+  "action": "add",
+  "ro": "thii lá nít",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "少しずつ",
+    "en": "little by little",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาเก็บเงินทีละนิดจนซื้อรถได้",
+     "ro": "khǎo kèp ngəən thii lá nít con sʉ́ʉ rót dâai",
+     "ja": "彼は少しずつお金を貯めて、車を買えるまでになった。",
+     "en": "He saved little by little until he could buy a car.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53369",
+  "th": "ทีละน้อย",
+  "action": "add",
+  "ro": "thii lá nɔ́ɔi",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "少しずつ・徐々に",
+    "en": "bit by bit, gradually",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อาการของเขาดีขึ้นทีละน้อย",
+     "ro": "aa kaan khɔ̌ɔng khǎo dii khʉ̂n thii lá nɔ́ɔi",
+     "ja": "彼の具合は少しずつよくなっている。",
+     "en": "His condition is improving bit by bit.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53370",
+  "th": "เรื่อยไป",
+  "action": "add",
+  "ro": "rʉ̂ʉai pai",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（そのまま）ずっと・どこまでも",
+    "en": "on and on, continually",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ถ้าไม่แก้ปัญหา หนี้ก็จะเพิ่มขึ้นเรื่อยไป",
+     "ro": "thâa mâi kɛ̂ɛ pan hǎa nîi kɔ̂ɔ cà phə̂əm khʉ̂n rʉ̂ʉai pai",
+     "ja": "問題を解決しなければ、借金はずっと増え続ける。",
+     "en": "If the problem isn't solved, the debt will keep growing.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53371",
+  "th": "สุดขีด",
+  "action": "add",
+  "ro": "sùt khìit",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "極度に・限界まで",
+    "en": "to the extreme, utterly",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาเหนื่อยสุดขีดหลังทำงานทั้งคืน",
+     "ro": "khǎo nʉ̀ʉai sùt khìit lǎng tham ngaan tháng khʉʉn",
+     "ja": "彼は一晩中働いたあと、疲れ切っていた。",
+     "en": "He was utterly exhausted after working all night.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53372",
+  "th": "ละเอียดถี่ถ้วน",
+  "action": "add",
+  "ro": "lá ìiat thìi thûuan",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "綿密な・念入りな",
+    "en": "thorough, meticulous",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กรุณาตรวจเอกสารให้ละเอียดถี่ถ้วน",
+     "ro": "kà rú naa trùuat èek kà sǎan hâi lá ìiat thìi thûuan",
+     "ja": "書類を念入りに確認してください。",
+     "en": "Please check the documents thoroughly.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53373",
+  "th": "ส่งเดช",
+  "action": "add",
+  "ro": "sòng dèet",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "いい加減に・でたらめに",
+    "en": "haphazardly, at random",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "อย่าตอบข้อสอบส่งเดชนะ",
+     "ro": "yàa tɔ̀ɔp khɔ̂ɔ sɔ̀ɔp sòng dèet ná",
+     "ja": "試験の答えをでたらめに書いちゃだめだよ。",
+     "en": "Don't just answer the exam questions at random.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53374",
+  "th": "ชุ่ย",
+  "action": "add",
+  "ro": "chûi",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（仕事などが）雑な・ずさんな",
+    "en": "sloppy, careless",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "งานนี้ทำชุ่ยมาก ต้องแก้ใหม่หมด",
+     "ro": "ngaan níi tham chûi mâak tɔ̂ɔng kɛ̂ɛ mài mòt",
+     "ja": "この仕事はとても雑なので、全部やり直さないといけない。",
+     "en": "This work was done very sloppily; it all has to be redone.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53375",
+  "th": "อืดอาด",
+  "action": "add",
+  "ro": "ʉ̀ʉt àat",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "のろのろした・動きが遅い",
+    "en": "sluggish, slow",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาทำงานอืดอาด เสร็จไม่ทันเวลา",
+     "ro": "khǎo tham ngaan ʉ̀ʉt àat sèt mâi than wee laa",
+     "ja": "彼は仕事がのろくて、期限に間に合わない。",
+     "en": "He works sluggishly and doesn't finish on time.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53376",
+  "th": "ยืดยาด",
+  "action": "add",
+  "ro": "yʉ̂ʉt yâat",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ぐずぐずした・手間取る",
+    "en": "dawdling, slow",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อย่ายืดยาด เดี๋ยวไปไม่ทันรถ",
+     "ro": "yàa yʉ̂ʉt yâat dǐiao pai mâi than rót",
+     "ja": "ぐずぐずしないで。車に乗り遅れるよ。",
+     "en": "Don't dawdle, or we'll miss our ride.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53377",
+  "th": "แคล่วคล่อง",
+  "action": "add",
+  "ro": "khlɛ̂ɛo khlɔ̂ɔng",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "てきぱきした・すらすらとした・機敏な",
+    "en": "fluent, nimble, deft",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาพูดภาษาอังกฤษได้แคล่วคล่อง",
+     "ro": "khǎo phûut phaa sǎa ang krìt dâai khlɛ̂ɛo khlɔ̂ɔng",
+     "ja": "彼は英語をすらすらと話せる。",
+     "en": "He speaks English fluently.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53378",
+  "th": "เงียบสงบ",
+  "action": "add",
+  "ro": "ngîiap sà ngòp",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "静かで穏やかな・閑静な",
+    "en": "quiet and peaceful",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หมู่บ้านนี้เงียบสงบ เหมาะกับการพักผ่อน",
+     "ro": "mùu bâan níi ngîiap sà ngòp mɔ̀ kàp kaan phák phɔ̀ɔn",
+     "ja": "この村は静かで穏やかで、休養に向いている。",
+     "en": "This village is quiet and peaceful, perfect for relaxing.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53379",
+  "th": "ดังลั่น",
+  "action": "add",
+  "ro": "dang lân",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（音が）大きく鳴り響く",
+    "en": "resounding, very loud",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เสียงฟ้าร้องดังลั่นทั้งคืน",
+     "ro": "sǐiang fáa rɔ́ɔng dang lân tháng khʉʉn",
+     "ja": "雷の音が一晩中鳴り響いた。",
+     "en": "Thunder roared all night.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53380",
+  "th": "แผ่วเบา",
+  "action": "add",
+  "ro": "phɛ̀ɛo bao",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（声・音が）かすかな・弱々しい",
+    "en": "faint, soft",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอพูดด้วยเสียงแผ่วเบา",
+     "ro": "thəə phûut dûuai sǐiang phɛ̀ɛo bao",
+     "ja": "彼女はかすかな声で話した。",
+     "en": "She spoke in a faint voice.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53381",
+  "th": "สะดวกสบาย",
+  "action": "add",
+  "ro": "sà dùuak sà baai",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "便利で快適な",
+    "en": "convenient and comfortable",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บ้านใหม่อยู่ใกล้สถานี สะดวกสบายมาก",
+     "ro": "bâan mài yùu klâi sà thǎa nii sà dùuak sà baai mâak",
+     "ja": "新しい家は駅に近くて、とても便利で快適だ。",
+     "en": "The new house is near the station, so it's very convenient.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53382",
+  "th": "ไม่สะดวก",
+  "action": "add",
+  "ro": "mâi sà dùuak",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "都合が悪い・（今は）対応できない",
+    "en": "inconvenient, not a good time",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตอนนี้ไม่สะดวกคุย ไว้โทรกลับนะ",
+     "ro": "tɔɔn níi mâi sà dùuak khui wái thoo klàp ná",
+     "ja": "今は話せないので、あとで折り返すね。",
+     "en": "I can't talk right now; I'll call you back.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "誘いや依頼をやんわり断るときにもよく使う。"
+ },
+ {
+  "id": "tl-53383",
+  "th": "เฉียดฉิว",
+  "action": "add",
+  "ro": "chìiat chǐu",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "すれすれの・ぎりぎりの",
+    "en": "by a hair, narrowly",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เราสอบผ่านแบบเฉียดฉิว",
+     "ro": "rao sɔ̀ɔp phàan bɛ̀ɛp chìiat chǐu",
+     "ja": "私たちはぎりぎりで試験に合格した。",
+     "en": "We passed the exam by a hair.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53384",
+  "th": "ไม่เข้าท่า",
+  "action": "add",
+  "ro": "mâi khâo thâa",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "感心しない・まずい・ぱっとしない",
+    "en": "unwise, not sensible, lame",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ความคิดนี้ไม่เข้าท่าเลย",
+     "ro": "khwaam khít níi mâi khâo thâa ləəi",
+     "ja": "その考えはまったくいただけない。",
+     "en": "That idea doesn't make sense at all.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53385",
+  "th": "เข้ากัน",
+  "action": "add",
+  "ro": "khâo kan",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（色・味などが）合う・調和する",
+    "en": "to go well together, match",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สีเสื้อกับกางเกงเข้ากันดี",
+     "ro": "sǐi sʉ̂ʉa kàp kaang keeng khâo kan dii",
+     "ja": "シャツとズボンの色がよく合っている。",
+     "en": "The shirt and trousers go well together.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（人と）うまくやっていく・相性が合う",
+    "en": "to get along",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอกับแม่สามีเข้ากันไม่ได้",
+     "ro": "thəə kàp mɛ̂ɛ sǎa mii khâo kan mâi dâai",
+     "ja": "彼女は姑と折り合いが悪い。",
+     "en": "She doesn't get along with her mother-in-law.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53386",
+  "th": "ลงตัว",
+  "action": "add",
+  "ro": "long tuua",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ちょうどよく収まる・調和がとれた",
+    "en": "fitting perfectly, well-balanced",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ห้องนี้จัดวางของได้ลงตัว",
+     "ro": "hɔ̂ɔng níi càt waang khɔ̌ɔng dâai long tuua",
+     "ja": "この部屋は物の配置がうまく収まっている。",
+     "en": "Everything in this room is arranged just right.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（話・予定が）まとまる・決まる",
+    "en": "settled, worked out (plans)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แผนเที่ยวยังไม่ลงตัว",
+     "ro": "phɛ̌ɛn thîiao yang mâi long tuua",
+     "ja": "旅行の計画はまだまとまっていない。",
+     "en": "The travel plans haven't been settled yet.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53387",
+  "th": "ไร้ที่ติ",
+  "action": "add",
+  "ro": "rái thîi tì",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "非の打ち所のない・完璧な",
+    "en": "flawless, impeccable",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "การแสดงคืนนี้ไร้ที่ติ",
+     "ro": "kaan sà dɛɛng khʉʉn níi rái thîi tì",
+     "ja": "今夜の公演は非の打ち所がなかった。",
+     "en": "Tonight's performance was flawless.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53388",
+  "th": "จืดจาง",
+  "action": "add",
+  "ro": "cʉ̀ʉt caang",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（色などが）薄れた・色あせた",
+    "en": "faded, pale",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สีผนังบ้านจืดจางลงเพราะแดด",
+     "ro": "sǐi phà nǎng bâan cʉ̀ʉt caang long phrɔ́ dɛ̀ɛt",
+     "ja": "日差しで家の壁の色があせてきた。",
+     "en": "The color of the house walls has faded in the sun.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（気持ち・関係が）冷めた・薄れた",
+    "en": "faded, cooled (feelings)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ความรักของทั้งคู่จืดจางลง",
+     "ro": "khwaam rák khɔ̌ɔng tháng khûu cʉ̀ʉt caang long",
+     "ja": "二人の愛は冷めていった。",
+     "en": "The couple's love faded.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53389",
+  "th": "สดใหม่",
+  "action": "add",
+  "ro": "sòt mài",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "新鮮な・できたての",
+    "en": "fresh",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้ใช้วัตถุดิบสดใหม่ทุกวัน",
+     "ro": "ráan níi chái wát thù dìp sòt mài thúk wan",
+     "ja": "この店は毎日新鮮な食材を使っている。",
+     "en": "This shop uses fresh ingredients every day.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53390",
+  "th": "ฉูดฉาด",
+  "action": "add",
+  "ro": "chùut chàat",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（色が）派手な・けばけばしい",
+    "en": "gaudy, loud (colors)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอชอบใส่เสื้อสีฉูดฉาด",
+     "ro": "thəə chɔ̂ɔp sài sʉ̂ʉa sǐi chùut chàat",
+     "ja": "彼女は派手な色の服を着るのが好きだ。",
+     "en": "She likes wearing loud-colored clothes.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53391",
+  "th": "แสบตา",
+  "action": "add",
+  "ro": "sɛ̀ɛp taa",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "目がしみる・目がひりひりする",
+    "en": "stinging (eyes)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ควันไฟทำให้แสบตา",
+     "ro": "khwan fai tham hâi sɛ̀ɛp taa",
+     "ja": "火の煙で目がしみる。",
+     "en": "The smoke from the fire makes my eyes sting.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（光・色が）目に痛いほどまぶしい",
+    "en": "glaring, dazzling",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ไฟป้ายโฆษณาสว่างจนแสบตา",
+     "ro": "fai pâai khoo sà naa sà wàang con sɛ̀ɛp taa",
+     "ja": "広告看板の明かりが目に痛いほどまぶしい。",
+     "en": "The billboard lights are so bright they hurt the eyes.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53392",
+  "th": "จัดจ้าน",
+  "action": "add",
+  "ro": "càt câan",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（味が）刺激が強い・濃い",
+    "en": "strong, intense (flavor)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อาหารอีสานรสชาติจัดจ้าน",
+     "ro": "aa hǎan ii sǎan rót châat càt câan",
+     "ja": "イサーン料理は味が強烈だ。",
+     "en": "Isan food has intense flavors.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（色が）どぎつい・強烈な",
+    "en": "vivid, loud (colors)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ภาพวาดนี้ใช้สีจัดจ้าน",
+     "ro": "phâap wâat níi chái sǐi càt câan",
+     "ja": "この絵は強烈な色使いだ。",
+     "en": "This painting uses vivid colors.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53393",
+  "th": "หลากสี",
+  "action": "add",
+  "ro": "làak sǐi",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "色とりどりの",
+    "en": "multicolored",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตลาดนี้มีดอกไม้หลากสีขายเต็มไปหมด",
+     "ro": "tà làat níi mii dɔ̀ɔk máai làak sǐi khǎai tem pai mòt",
+     "ja": "この市場では色とりどりの花がたくさん売られている。",
+     "en": "This market sells colorful flowers everywhere.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53394",
+  "th": "สวยหรู",
+  "action": "add",
+  "ro": "sǔuai rǔu",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "豪華で美しい・きらびやかな",
+    "en": "luxurious and beautiful",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โรงแรมนี้ตกแต่งสวยหรู",
+     "ro": "roong rɛɛm níi tòk tɛ̀ng sǔuai rǔu",
+     "ja": "このホテルは豪華で美しく装飾されている。",
+     "en": "This hotel is luxuriously decorated.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（言葉・約束が）聞こえはいい（が中身がない）",
+    "en": "fine-sounding, fancy (words)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นักการเมืองชอบพูดคำสวยหรู",
+     "ro": "nák kaan mʉʉang chɔ̂ɔp phûut kham sǔuai rǔu",
+     "ja": "政治家は聞こえのいい言葉を言いたがる。",
+     "en": "Politicians like to use fine-sounding words.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53395",
+  "th": "ลุ่มลึก",
+  "action": "add",
+  "ro": "lûm lʉ́k",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "奥深い・深遠な",
+    "en": "profound, deep",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "หนังสือเล่มนี้มีความคิดลุ่มลึก",
+     "ro": "nǎng sʉ̌ʉ lêm níi mii khwaam khít lûm lʉ́k",
+     "ja": "この本には奥深い考えが込められている。",
+     "en": "This book contains profound ideas.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53396",
+  "th": "ฉลาดแกมโกง",
+  "action": "add",
+  "ro": "chà làat kɛɛm koong",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ずる賢い・悪知恵が働く",
+    "en": "cunning, sly",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาเป็นคนฉลาดแกมโกง ต้องระวังหน่อย",
+     "ro": "khǎo pen khon chà làat kɛɛm koong tɔ̂ɔng rá wang nɔ̀ɔi",
+     "ja": "彼はずる賢い人だから、少し気をつけないといけない。",
+     "en": "He's a cunning person, so you need to be a bit careful.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53397",
+  "th": "โง่เขลา",
+  "action": "add",
+  "ro": "ngôo khlǎo",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "愚かな・無知な",
+    "en": "foolish, ignorant",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันโง่เขลาที่เชื่อคำโกหกของเขา",
+     "ro": "chǎn ngôo khlǎo thîi chʉ̂ʉa kham koo hòk khɔ̌ɔng khǎo",
+     "ja": "彼の嘘を信じた私が愚かだった。",
+     "en": "I was foolish to believe his lies.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53398",
+  "th": "บื้อ",
+  "action": "add",
+  "ro": "bʉ̂ʉ",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "間抜けな・鈍い",
+    "en": "dumb, dim-witted",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ทำไมบื้ออย่างนี้ บอกตั้งหลายรอบแล้ว",
+     "ro": "tham mai bʉ̂ʉ yàang níi bɔ̀ɔk tâng lǎai rɔ̂ɔp lɛ́ɛo",
+     "ja": "なんでこんなに鈍いの。何回も言ったのに。",
+     "en": "Why are you so dim? I've told you so many times.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "親しい相手へのからかい・悪口で、目上の人には使わない。"
+ },
+ {
+  "id": "tl-53399",
+  "th": "แก่แดด",
+  "action": "add",
+  "ro": "kɛ̀ɛ dɛ̀ɛt",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（子どもが）ませた・大人びた",
+    "en": "precocious (of a child)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เด็กคนนี้พูดจาแก่แดดมาก",
+     "ro": "dèk khon níi phûut caa kɛ̀ɛ dɛ̀ɛt mâak",
+     "ja": "この子はとてもませた口をきく。",
+     "en": "This kid talks in a very precocious way.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53400",
+  "th": "ไฮโซ",
+  "action": "add",
+  "ro": "hai soo",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "上流階級の・ハイソな・セレブ風の",
+    "en": "high-society, posh",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ร้านอาหารนี้ดูไฮโซ ราคาคงแพง",
+     "ro": "ráan aa hǎan níi duu hai soo raa khaa khong phɛɛng",
+     "ja": "このレストランはハイソな感じだから、値段も高いだろう。",
+     "en": "This restaurant looks posh, so it's probably expensive.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "英語 high society から。名詞として「上流階級の人・セレブ」の意味でも使う。"
+ }
+]

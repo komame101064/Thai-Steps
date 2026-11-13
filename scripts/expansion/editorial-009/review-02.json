@@ -1,0 +1,560 @@
+[
+ {
+  "id": "tl-53101",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53102",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53103",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53104",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53105",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53106",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53107",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53108",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53109",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53110",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53111",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53112",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53113",
+  "verdict": "fix",
+  "issues": [
+   "ตัว の表記は辞書どおり tuua（見出し・例文のro）"
+  ],
+  "fixed": {
+   "id": "tl-53113",
+   "th": "พลิกตัว",
+   "action": "add",
+   "ro": "phlík tuua",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "寝返りを打つ・体の向きを変える",
+     "en": "to turn over (in bed), roll over",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาพลิกตัวไปมาทั้งคืนเพราะนอนไม่หลับ",
+      "ro": "khǎo phlík tuua pai maa tháng khʉʉn phrɔ́ nɔɔn mâi làp",
+      "ja": "彼は眠れなくて一晩中寝返りを打っていた。",
+      "en": "He tossed and turned all night because he couldn't sleep.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-53114",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53115",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53116",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53117",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53118",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53119",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53120",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53121",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53122",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53123",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53124",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53125",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53126",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53127",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53128",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53129",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53130",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53131",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53132",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53133",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53134",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53135",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53136",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53137",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53138",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53139",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53140",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53141",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53142",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53143",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53144",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで บ่อย は辞書どおり bɔ̀ɔi"
+  ],
+  "fixed": {
+   "id": "tl-53144",
+   "th": "สั่งของ",
+   "action": "add",
+   "ro": "sàng khɔ̌ɔng",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "品物を注文する・取り寄せる",
+     "en": "to order goods",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันสั่งของออนไลน์บ่อยมาก",
+      "ro": "chǎn sàng khɔ̌ɔng ɔɔn lai bɔ̀ɔi mâak",
+      "ja": "私はよくネットで物を注文する。",
+      "en": "I order things online very often.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-53145",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53146",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53147",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53148",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53149",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53150",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53151",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53152",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53153",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53154",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53155",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53156",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53157",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53158",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53159",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53160",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53161",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53162",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53163",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53164",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53165",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53166",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53167",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53168",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53169",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53170",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53171",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53172",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53173",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53174",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53175",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53176",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53177",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53178",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53179",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53180",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53181",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53182",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53183",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53184",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53185",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53186",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53187",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53188",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53189",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53190",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53191",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53192",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53193",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53194",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53195",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53196",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53197",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53198",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53199",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53200",
+  "verdict": "ok",
+  "issues": []
+ }
+]

@@ -1,0 +1,595 @@
+[
+ {
+  "id": "tl-53001",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53002",
+  "verdict": "reject",
+  "issues": [
+   "既存語 กดไลค์（tl-04979）の別綴り。重複のため除外"
+  ]
+ },
+ {
+  "id": "tl-53003",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53004",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53005",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53006",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53007",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53008",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53009",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53010",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53011",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53012",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53013",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53014",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53015",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53016",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53017",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53018",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53019",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53020",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53021",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53022",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53023",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53024",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53025",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53026",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53027",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53028",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53029",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53030",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53031",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53032",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53033",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53034",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53035",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53036",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53037",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53038",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53039",
+  "verdict": "fix",
+  "issues": [
+   "自動詞「（エンジンが）止まる」は語順の逆の เครื่องดับ が普通なので、語義から削除"
+  ],
+  "fixed": {
+   "id": "tl-53039",
+   "th": "ดับเครื่อง",
+   "action": "add",
+   "ro": "dàp khrʉ̂ʉang",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "エンジンを切る",
+     "en": "to turn off the engine",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาดับเครื่องแล้วลงจากรถ",
+      "ro": "khǎo dàp khrʉ̂ʉang lɛ́ɛo long càak rót",
+      "ja": "彼はエンジンを切って車から降りた。",
+      "en": "He turned off the engine and got out of the car.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-53040",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53041",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53042",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53043",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53044",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53045",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53046",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53047",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53048",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53049",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53050",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53051",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53052",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53053",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53054",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53055",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53056",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53057",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53058",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53059",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53060",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53061",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53062",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53063",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53064",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53065",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53066",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53067",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53068",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53069",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53070",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53071",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53072",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53073",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53074",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53075",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53076",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53077",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53078",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53079",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53080",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53081",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53082",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53083",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53084",
+  "verdict": "fix",
+  "issues": [
+   "noteの「เข้าโรงพยาบาล が改まった言い方」は根拠がないため「とも言う」に修正"
+  ],
+  "fixed": {
+   "id": "tl-53084",
+   "th": "นอนโรงพยาบาล",
+   "action": "add",
+   "ro": "nɔɔn roong phá yaa baan",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "入院する",
+     "en": "to be in hospital",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พ่อป่วยต้องนอนโรงพยาบาลสามวัน",
+      "ro": "phɔ̂ɔ pùuai tɔ̂ɔng nɔɔn roong phá yaa baan sǎam wan",
+      "ja": "父は病気で3日間入院しなければならなかった。",
+      "en": "Dad was ill and had to stay in hospital for three days.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "เข้าโรงพยาบาล（入院する）とも言う。"
+  }
+ },
+ {
+  "id": "tl-53085",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53086",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53087",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53088",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53089",
+  "verdict": "fix",
+  "issues": [
+   "ปฐม は ปะ-ถม（ร なし）で、連結音 มะ が入る：pà thǒm má phá yaa baan（見出し・例文のro）"
+  ],
+  "fixed": {
+   "id": "tl-53089",
+   "th": "ปฐมพยาบาล",
+   "action": "add",
+   "ro": "pà thǒm má phá yaa baan",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "応急手当て（をする）",
+     "en": "first aid; to give first aid",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "เจ้าหน้าที่ปฐมพยาบาลผู้บาดเจ็บก่อนส่งโรงพยาบาล",
+      "ro": "câo nâa thîi pà thǒm má phá yaa baan phûu bàat cèp kɔ̀ɔn sòng roong phá yaa baan",
+      "ja": "職員は負傷者に応急手当てをしてから病院へ送った。",
+      "en": "Staff gave first aid to the injured before sending them to hospital.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "名詞としても使う（การปฐมพยาบาล 応急手当て）。"
+  }
+ },
+ {
+  "id": "tl-53090",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53091",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53092",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53093",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53094",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53095",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53096",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53097",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53098",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53099",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53100",
+  "verdict": "ok",
+  "issues": []
+ }
+]

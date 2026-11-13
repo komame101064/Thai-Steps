@@ -1,0 +1,2782 @@
+[
+ {
+  "id": "tl-53401",
+  "th": "พนักงานประจำ",
+  "action": "add",
+  "ro": "phá nák ngaan prà cam",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "正社員",
+    "en": "permanent employee, full-time staff",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาได้เป็นพนักงานประจำแล้ว",
+     "ro": "khǎo dâai pen phá nák ngaan prà cam lɛ́ɛo",
+     "ja": "彼は正社員になりました。",
+     "en": "He has become a permanent employee.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53402",
+  "th": "พนักงานชั่วคราว",
+  "action": "add",
+  "ro": "phá nák ngaan chûua khraao",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "臨時社員・臨時スタッフ",
+    "en": "temporary employee",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้รับพนักงานชั่วคราวช่วงปีใหม่",
+     "ro": "ráan níi ráp phá nák ngaan chûua khraao chûuang pii mài",
+     "ja": "この店は新年の時期に臨時スタッフを募集しています。",
+     "en": "This shop hires temporary staff over the New Year period.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53403",
+  "th": "ขึ้นเงินเดือน",
+  "action": "add",
+  "ro": "khʉ̂n ngəən dʉʉan",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "昇給する・給料を上げる",
+    "en": "to raise a salary, get a pay raise",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ปีนี้บริษัทไม่ขึ้นเงินเดือนให้พนักงาน",
+     "ro": "pii níi bɔɔ rí sàt mâi khʉ̂n ngəən dʉʉan hâi phá nák ngaan",
+     "ja": "今年、会社は社員の給料を上げません。",
+     "en": "This year the company is not giving staff a raise.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会社が「上げる」場合にも、社員が「上がる」（ได้ขึ้นเงินเดือน）場合にも使う。"
+ },
+ {
+  "id": "tl-53404",
+  "th": "ค่าล่วงเวลา",
+  "action": "add",
+  "ro": "khâa lûuang wee laa",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "残業代",
+    "en": "overtime pay",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เดือนนี้ได้ค่าล่วงเวลาเยอะมาก",
+     "ro": "dʉʉan níi dâai khâa lûuang wee laa yə́ mâak",
+     "ja": "今月は残業代がたくさん出ました。",
+     "en": "I got a lot of overtime pay this month.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会話では ค่าโอที（OT代）ともよく言う。"
+ },
+ {
+  "id": "tl-53405",
+  "th": "เลิกจ้าง",
+  "action": "add",
+  "ro": "lə̂ək câang",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "解雇する・雇用を打ち切る",
+    "en": "to lay off, terminate employment",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โรงงานเลิกจ้างพนักงานกว่าห้าร้อยคน",
+     "ro": "roong ngaan lə̂ək câang phá nák ngaan kwàa hâa rɔ́ɔi khon",
+     "ja": "工場は500人以上の従業員を解雇した。",
+     "en": "The factory laid off more than 500 workers.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53406",
+  "th": "คนตกงาน",
+  "action": "add",
+  "ro": "khon tòk ngaan",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "失業者",
+    "en": "unemployed person",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วงนี้มีคนตกงานเพิ่มขึ้น",
+     "ro": "chûuang níi mii khon tòk ngaan phə̂əm khʉ̂n",
+     "ja": "最近、失業者が増えています。",
+     "en": "Recently the number of unemployed people has risen.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "改まった言い方は ผู้ว่างงาน。"
+ },
+ {
+  "id": "tl-53407",
+  "th": "อัตราการว่างงาน",
+  "action": "add",
+  "ro": "àt traa kaan wâang ngaan",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "失業率",
+    "en": "unemployment rate",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "อัตราการว่างงานลดลงเล็กน้อย",
+     "ro": "àt traa kaan wâang ngaan lót long lék nɔ́ɔi",
+     "ja": "失業率がわずかに下がった。",
+     "en": "The unemployment rate fell slightly.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53408",
+  "th": "สัมภาษณ์งาน",
+  "action": "add",
+  "ro": "sǎm phâat ngaan",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "就職面接（を受ける）",
+    "en": "job interview",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พรุ่งนี้ฉันต้องไปสัมภาษณ์งาน",
+     "ro": "phrûng níi chǎn tɔ̂ɔng pai sǎm phâat ngaan",
+     "ja": "明日、私は就職の面接に行かなければなりません。",
+     "en": "Tomorrow I have to go to a job interview.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ไปสัมภาษณ์งาน（面接に行く）のように動詞的にも使う。"
+ },
+ {
+  "id": "tl-53409",
+  "th": "ทดลองงาน",
+  "action": "add",
+  "ro": "thót lɔɔng ngaan",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "試用期間として働く",
+    "en": "to work on probation",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พนักงานใหม่ต้องทดลองงานสามเดือน",
+     "ro": "phá nák ngaan mài tɔ̂ɔng thót lɔɔng ngaan sǎam dʉʉan",
+     "ja": "新入社員は3か月の試用期間で働かなければなりません。",
+     "en": "New employees must work a three-month probation.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "「試用期間」は ช่วงทดลองงาน と言う。"
+ },
+ {
+  "id": "tl-53410",
+  "th": "เลื่อนตำแหน่ง",
+  "action": "add",
+  "ro": "lʉ̂ʉan tam nɛ̀ng",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "昇進する・昇進させる",
+    "en": "to be promoted, promote",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พี่สาวเพิ่งได้เลื่อนตำแหน่งเป็นผู้จัดการ",
+     "ro": "phîi sǎao phə̂əng dâai lʉ̂ʉan tam nɛ̀ng pen phûu càt kaan",
+     "ja": "姉はマネージャーに昇進したばかりです。",
+     "en": "My older sister has just been promoted to manager.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53411",
+  "th": "ย้ายงาน",
+  "action": "add",
+  "ro": "yáai ngaan",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "転職する",
+    "en": "to change jobs",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาอยากย้ายงานเพราะเงินเดือนน้อย",
+     "ro": "khǎo yàak yáai ngaan phrɔ́ ngəən dʉʉan nɔ́ɔi",
+     "ja": "彼は給料が少ないので転職したがっています。",
+     "en": "He wants to change jobs because his salary is low.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53412",
+  "th": "หัวหน้างาน",
+  "action": "add",
+  "ro": "hǔua nâa ngaan",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "上司・職場の主任",
+    "en": "supervisor, boss at work",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หัวหน้างานให้ฉันทำรายงานนี้",
+     "ro": "hǔua nâa ngaan hâi chǎn tham raai ngaan níi",
+     "ja": "上司は私にこの報告書を作るように言いました。",
+     "en": "My supervisor had me write this report.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53413",
+  "th": "ฝ่ายบุคคล",
+  "action": "add",
+  "ro": "fàai bùk khon",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "人事部",
+    "en": "human resources department",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ส่งใบลาให้ฝ่ายบุคคลแล้วหรือยัง",
+     "ro": "sòng bai laa hâi fàai bùk khon lɛ́ɛo rʉ̌ʉ yang",
+     "ja": "休暇届はもう人事部に出しましたか？",
+     "en": "Have you sent the leave form to HR yet?",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会話では HR（エイチアール）とも言う。"
+ },
+ {
+  "id": "tl-53414",
+  "th": "ฝ่ายบัญชี",
+  "action": "add",
+  "ro": "fàai ban chii",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "経理部",
+    "en": "accounting department",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ใบเสร็จทั้งหมดต้องส่งให้ฝ่ายบัญชี",
+     "ro": "bai sèt tháng mòt tɔ̂ɔng sòng hâi fàai ban chii",
+     "ja": "領収書はすべて経理部に提出しなければなりません。",
+     "en": "All receipts must be sent to the accounting department.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53415",
+  "th": "ฝ่ายขาย",
+  "action": "add",
+  "ro": "fàai khǎai",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "営業部・販売部門",
+    "en": "sales department",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาทำงานอยู่ฝ่ายขายมาห้าปีแล้ว",
+     "ro": "khǎo tham ngaan yùu fàai khǎai maa hâa pii lɛ́ɛo",
+     "ja": "彼は営業部で5年働いています。",
+     "en": "He has worked in the sales department for five years.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53416",
+  "th": "วาระการประชุม",
+  "action": "add",
+  "ro": "waa rá kaan prà chum",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "会議の議題・議事日程",
+    "en": "meeting agenda",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ช่วยส่งวาระการประชุมให้ทุกคนก่อนวันจันทร์",
+     "ro": "chûuai sòng waa rá kaan prà chum hâi thúk khon kɔ̀ɔn wan can",
+     "ja": "月曜日までに会議の議題を全員に送ってください。",
+     "en": "Please send the meeting agenda to everyone before Monday.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53417",
+  "th": "รายงานการประชุม",
+  "action": "add",
+  "ro": "raai ngaan kaan prà chum",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "議事録",
+    "en": "minutes of a meeting",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ใครเป็นคนเขียนรายงานการประชุมวันนี้",
+     "ro": "khrai pen khon khǐian raai ngaan kaan prà chum wan níi",
+     "ja": "今日の議事録は誰が書きますか？",
+     "en": "Who is writing today's meeting minutes?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53418",
+  "th": "งานนำเสนอ",
+  "action": "add",
+  "ro": "ngaan nam sà nə̌ə",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "プレゼン（資料）・発表",
+    "en": "presentation",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันยังทำงานนำเสนอไม่เสร็จเลย",
+     "ro": "chǎn yang tham ngaan nam sà nə̌ə mâi sèt ləəi",
+     "ja": "私はまだプレゼン資料を作り終えていません。",
+     "en": "I still haven't finished my presentation.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53419",
+  "th": "กำหนดส่ง",
+  "action": "add",
+  "ro": "kam nòt sòng",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "提出期限・締め切り",
+    "en": "deadline (for submission)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กำหนดส่งรายงานคือวันศุกร์นี้",
+     "ro": "kam nòt sòng raai ngaan khʉʉ wan sùk níi",
+     "ja": "レポートの締め切りは今週の金曜日です。",
+     "en": "The deadline for the report is this Friday.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53420",
+  "th": "เดดไลน์",
+  "action": "add",
+  "ro": "dèet lai",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "締め切り",
+    "en": "deadline",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "งานนี้มีเดดไลน์วันศุกร์",
+     "ro": "ngaan níi mii dèet lai wan sùk",
+     "ja": "この仕事は金曜日が締め切りです。",
+     "en": "This job has a Friday deadline.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "英語 deadline から。会社や学校の会話でよく使う。改まった言い方は กำหนดส่ง。実際の発音は dèt lai と短めになることも多い。"
+ },
+ {
+  "id": "tl-53421",
+  "th": "ลากิจ",
+  "action": "add",
+  "ro": "laa kìt",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "私用で休暇を取る",
+    "en": "to take personal leave",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พรุ่งนี้ผมขอลากิจหนึ่งวันครับ",
+     "ro": "phrûng níi phǒm khɔ̌ɔ laa kìt nʉ̀ng wan khráp",
+     "ja": "明日、私用で1日休みをいただきたいです。",
+     "en": "I'd like to take a day of personal leave tomorrow.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "病気休暇は ลาป่วย、年次休暇は ลาพักร้อน。"
+ },
+ {
+  "id": "tl-53422",
+  "th": "ลาพักร้อน",
+  "action": "add",
+  "ro": "laa phák rɔ́ɔn",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "年次有給休暇を取る",
+    "en": "to take annual leave",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เดือนหน้าฉันจะลาพักร้อนไปญี่ปุ่น",
+     "ro": "dʉʉan nâa chǎn cà laa phák rɔ́ɔn pai yîi pùn",
+     "ja": "来月、私は有給休暇を取って日本へ行きます。",
+     "en": "Next month I'll take annual leave and go to Japan.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53423",
+  "th": "ตอกบัตร",
+  "action": "add",
+  "ro": "tɔ̀ɔk bàt",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "タイムカードを押す・出退勤を打刻する",
+    "en": "to clock in or out",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พนักงานต้องตอกบัตรก่อนแปดโมงเช้า",
+     "ro": "phá nák ngaan tɔ̂ɔng tɔ̀ɔk bàt kɔ̀ɔn pɛ̀ɛt moong cháao",
+     "ja": "従業員は朝8時前にタイムカードを押さなければなりません。",
+     "en": "Employees must clock in before 8 a.m.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "指紋やカードによる打刻にも使う。"
+ },
+ {
+  "id": "tl-53424",
+  "th": "งานประจำ",
+  "action": "add",
+  "ro": "ngaan prà cam",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "定職・本業",
+    "en": "regular job, day job",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขามีงานประจำและขายของออนไลน์ด้วย",
+     "ro": "khǎo mii ngaan prà cam lɛ́ khǎai khɔ̌ɔng ɔɔn lai dûuai",
+     "ja": "彼は定職があり、ネットで物も売っています。",
+     "en": "He has a regular job and also sells things online.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53425",
+  "th": "อาชีพเสริม",
+  "action": "add",
+  "ro": "aa chîip sə̌əm",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "副業",
+    "en": "side job, second occupation",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หลายคนทำอาชีพเสริมเพื่อหารายได้เพิ่ม",
+     "ro": "lǎai khon tham aa chîip sə̌əm phʉ̂ʉa hǎa raai dâai phə̂əm",
+     "ja": "多くの人が収入を増やすために副業をしています。",
+     "en": "Many people do side jobs to earn extra income.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53426",
+  "th": "รายได้เสริม",
+  "action": "add",
+  "ro": "raai dâai sə̌əm",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "副収入",
+    "en": "extra income",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอมีรายได้เสริมจากการสอนภาษาอังกฤษ",
+     "ro": "thəə mii raai dâai sə̌əm càak kaan sɔ̌ɔn phaa sǎa ang krìt",
+     "ja": "彼女は英語を教えて副収入を得ています。",
+     "en": "She has extra income from teaching English.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53427",
+  "th": "ประกันสังคม",
+  "action": "add",
+  "ro": "prà kan sǎng khom",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "社会保険",
+    "en": "social security (insurance)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันใช้สิทธิประกันสังคมที่โรงพยาบาลนี้",
+     "ro": "chǎn chái sìt thí prà kan sǎng khom thîi roong phá yaa baan níi",
+     "ja": "私はこの病院で社会保険を使っています。",
+     "en": "I use my social security coverage at this hospital.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会社員が加入する公的保険。医療・失業・年金などを含む。"
+ },
+ {
+  "id": "tl-53428",
+  "th": "กองทุนสำรองเลี้ยงชีพ",
+  "action": "add",
+  "ro": "kɔɔng thun sǎm rɔɔng líiang chîip",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "退職積立基金（企業のプロビデントファンド）",
+    "en": "provident fund",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "บริษัทนี้มีกองทุนสำรองเลี้ยงชีพให้พนักงาน",
+     "ro": "bɔɔ rí sàt níi mii kɔɔng thun sǎm rɔɔng líiang chîip hâi phá nák ngaan",
+     "ja": "この会社には社員向けの退職積立基金があります。",
+     "en": "This company has a provident fund for its employees.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会話では略して PVD とも言う。"
+ },
+ {
+  "id": "tl-53429",
+  "th": "เกษียณอายุ",
+  "action": "add",
+  "ro": "kà sǐian aa yú",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "定年退職する",
+    "en": "to retire (at retirement age)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พ่อจะเกษียณอายุปีหน้า",
+     "ro": "phɔ̂ɔ cà kà sǐian aa yú pii nâa",
+     "ja": "父は来年定年退職します。",
+     "en": "My father will retire next year.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "単に เกษียณ とも言う。"
+ },
+ {
+  "id": "tl-53430",
+  "th": "เงินบำนาญ",
+  "action": "add",
+  "ro": "ngəən bam naan",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "年金（退職後に毎月受け取るもの）",
+    "en": "pension",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ข้าราชการเกษียณจะได้เงินบำนาญทุกเดือน",
+     "ro": "khâa râat chá kaan kà sǐian cà dâai ngəən bam naan thúk dʉʉan",
+     "ja": "退職した公務員は毎月年金を受け取ります。",
+     "en": "Retired civil servants receive a pension every month.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "主に公務員の退職年金を指す。"
+ },
+ {
+  "id": "tl-53431",
+  "th": "ค่าแรงขั้นต่ำ",
+  "action": "add",
+  "ro": "khâa rɛɛng khân tàm",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "最低賃金",
+    "en": "minimum wage",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รัฐบาลประกาศขึ้นค่าแรงขั้นต่ำ",
+     "ro": "rát thà baan prà kàat khʉ̂n khâa rɛɛng khân tàm",
+     "ja": "政府は最低賃金の引き上げを発表した。",
+     "en": "The government announced a rise in the minimum wage.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53432",
+  "th": "สหภาพแรงงาน",
+  "action": "add",
+  "ro": "sà hà phâap rɛɛng ngaan",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "労働組合",
+    "en": "labor union",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "สหภาพแรงงานเรียกร้องให้ขึ้นค่าจ้าง",
+     "ro": "sà hà phâap rɛɛng ngaan rîiak rɔ́ɔng hâi khʉ̂n khâa câang",
+     "ja": "労働組合は賃上げを要求した。",
+     "en": "The labor union demanded a wage increase.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53433",
+  "th": "นัดหยุดงาน",
+  "action": "add",
+  "ro": "nát yùt ngaan",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ストライキをする",
+    "en": "to go on strike",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พนักงานโรงงานนัดหยุดงานเป็นวันที่สาม",
+     "ro": "phá nák ngaan roong ngaan nát yùt ngaan pen wan thîi sǎam",
+     "ja": "工場の従業員のストライキは3日目に入った。",
+     "en": "The factory workers are on strike for a third day.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53434",
+  "th": "สัญญาจ้าง",
+  "action": "add",
+  "ro": "sǎn yaa câang",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "雇用契約",
+    "en": "employment contract",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สัญญาจ้างของฉันจะหมดสิ้นปีนี้",
+     "ro": "sǎn yaa câang khɔ̌ɔng chǎn cà mòt sîn pii níi",
+     "ja": "私の雇用契約は今年の末で切れます。",
+     "en": "My employment contract ends at the end of this year.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53435",
+  "th": "สลิปเงินเดือน",
+  "action": "add",
+  "ro": "sà líp ngəən dʉʉan",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "給与明細",
+    "en": "pay slip",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ธนาคารขอสลิปเงินเดือนย้อนหลังสามเดือน",
+     "ro": "thá naa khaan khɔ̌ɔ sà líp ngəən dʉʉan yɔ́ɔn lǎng sǎam dʉʉan",
+     "ja": "銀行は過去3か月分の給与明細を求めた。",
+     "en": "The bank asked for pay slips for the past three months.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53436",
+  "th": "ใบอนุญาตทำงาน",
+  "action": "add",
+  "ro": "bai à nú yâat tham ngaan",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "労働許可証",
+    "en": "work permit",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คนต่างชาติต้องมีใบอนุญาตทำงาน",
+     "ro": "khon tàang châat tɔ̂ɔng mii bai à nú yâat tham ngaan",
+     "ja": "外国人は労働許可証が必要です。",
+     "en": "Foreigners need a work permit.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会話では英語のまま เวิร์กเพอร์มิต とも言う。"
+ },
+ {
+  "id": "tl-53437",
+  "th": "บริษัทแม่",
+  "action": "add",
+  "ro": "bɔɔ rí sàt mɛ̂ɛ",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "親会社",
+    "en": "parent company",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บริษัทแม่อยู่ที่ญี่ปุ่น",
+     "ro": "bɔɔ rí sàt mɛ̂ɛ yùu thîi yîi pùn",
+     "ja": "親会社は日本にあります。",
+     "en": "The parent company is in Japan.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53438",
+  "th": "บริษัทลูก",
+  "action": "add",
+  "ro": "bɔɔ rí sàt lûuk",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "子会社",
+    "en": "subsidiary",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บริษัทลูกในไทยมีพนักงานสองร้อยคน",
+     "ro": "bɔɔ rí sàt lûuk nai thai mii phá nák ngaan sɔ̌ɔng rɔ́ɔi khon",
+     "ja": "タイの子会社には従業員が200人います。",
+     "en": "The subsidiary in Thailand has 200 employees.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53439",
+  "th": "ผู้ถือหุ้น",
+  "action": "add",
+  "ro": "phûu thʉ̌ʉ hûn",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "株主",
+    "en": "shareholder",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บริษัทจะประชุมผู้ถือหุ้นเดือนหน้า",
+     "ro": "bɔɔ rí sàt cà prà chum phûu thʉ̌ʉ hûn dʉʉan nâa",
+     "ja": "会社は来月株主総会を開きます。",
+     "en": "The company will hold a shareholders' meeting next month.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53440",
+  "th": "ตลาดหุ้น",
+  "action": "add",
+  "ro": "tà làat hûn",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "株式市場",
+    "en": "stock market",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วันนี้ตลาดหุ้นปรับตัวลงแรง",
+     "ro": "wan níi tà làat hûn pràp tuua long rɛɛng",
+     "ja": "今日、株式市場は大きく下落した。",
+     "en": "The stock market fell sharply today.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53441",
+  "th": "ราคาหุ้น",
+  "action": "add",
+  "ro": "raa khaa hûn",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "株価",
+    "en": "share price",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ราคาหุ้นของบริษัทนี้ขึ้นมาเยอะ",
+     "ro": "raa khaa hûn khɔ̌ɔng bɔɔ rí sàt níi khʉ̂n maa yə́",
+     "ja": "この会社の株価はかなり上がった。",
+     "en": "This company's share price has risen a lot.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53442",
+  "th": "การลงทุน",
+  "action": "add",
+  "ro": "kaan long thun",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "投資",
+    "en": "investment",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "การลงทุนมีความเสี่ยงเสมอ",
+     "ro": "kaan long thun mii khwaam sìiang sà mə̌ə",
+     "ja": "投資には常にリスクがあります。",
+     "en": "Investment always carries risk.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53443",
+  "th": "เงินปันผล",
+  "action": "add",
+  "ro": "ngəən pan phǒn",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "配当金",
+    "en": "dividend",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ปีนี้หุ้นตัวนี้จ่ายเงินปันผลสูง",
+     "ro": "pii níi hûn tuua níi càai ngəən pan phǒn sǔung",
+     "ja": "今年この株は高い配当を出した。",
+     "en": "This stock paid a high dividend this year.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53444",
+  "th": "กองทุนรวม",
+  "action": "add",
+  "ro": "kɔɔng thun ruuam",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "投資信託",
+    "en": "mutual fund",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันซื้อกองทุนรวมทุกเดือน",
+     "ro": "chǎn sʉ́ʉ kɔɔng thun ruuam thúk dʉʉan",
+     "ja": "私は毎月投資信託を買っています。",
+     "en": "I buy mutual funds every month.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53445",
+  "th": "พันธบัตร",
+  "action": "add",
+  "ro": "phan thá bàt",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "債券",
+    "en": "bond",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "รัฐบาลออกพันธบัตรออมทรัพย์ขายให้ประชาชน",
+     "ro": "rát thà baan ɔ̀ɔk phan thá bàt ɔɔm sáp khǎai hâi prà chaa chon",
+     "ja": "政府は国民向けに貯蓄債券を発行して売り出した。",
+     "en": "The government issued savings bonds for sale to the public.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53446",
+  "th": "อัตราดอกเบี้ย",
+  "action": "add",
+  "ro": "àt traa dɔ̀ɔk bîia",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "金利",
+    "en": "interest rate",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ธนาคารลดอัตราดอกเบี้ยเงินฝาก",
+     "ro": "thá naa khaan lót àt traa dɔ̀ɔk bîia ngəən fàak",
+     "ja": "銀行は預金金利を下げた。",
+     "en": "The bank cut its deposit interest rate.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53447",
+  "th": "บัญชีออมทรัพย์",
+  "action": "add",
+  "ro": "ban chii ɔɔm sáp",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "普通預金口座",
+    "en": "savings account",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันเปิดบัญชีออมทรัพย์ที่ธนาคารใกล้บ้าน",
+     "ro": "chǎn pə̀ət ban chii ɔɔm sáp thîi thá naa khaan klâi bâan",
+     "ja": "私は家の近くの銀行で普通預金口座を開きました。",
+     "en": "I opened a savings account at a bank near my home.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53448",
+  "th": "บัญชีฝากประจำ",
+  "action": "add",
+  "ro": "ban chii fàak prà cam",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "定期預金口座",
+    "en": "fixed deposit account",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บัญชีฝากประจำได้ดอกเบี้ยมากกว่า",
+     "ro": "ban chii fàak prà cam dâai dɔ̀ɔk bîia mâak kwàa",
+     "ja": "定期預金口座のほうが利息が多くつきます。",
+     "en": "A fixed deposit account earns more interest.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53449",
+  "th": "สมุดบัญชี",
+  "action": "add",
+  "ro": "sà mùt ban chii",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（銀行の）通帳",
+    "en": "bankbook, passbook",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อย่าลืมเอาสมุดบัญชีไปธนาคารด้วย",
+     "ro": "yàa lʉʉm ao sà mùt ban chii pai thá naa khaan dûuai",
+     "ja": "銀行に通帳を持っていくのを忘れないでね。",
+     "en": "Don't forget to take your bankbook to the bank.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53450",
+  "th": "บัตรเดบิต",
+  "action": "add",
+  "ro": "bàt dee bìt",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "デビットカード",
+    "en": "debit card",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้รับบัตรเดบิตไหม",
+     "ro": "ráan níi ráp bàt dee bìt mǎi",
+     "ja": "この店はデビットカードが使えますか？",
+     "en": "Does this shop accept debit cards?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53451",
+  "th": "สินเชื่อ",
+  "action": "add",
+  "ro": "sǐn chʉ̂ʉa",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "融資・ローン",
+    "en": "loan, credit",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขายื่นขอสินเชื่อจากธนาคาร",
+     "ro": "khǎo yʉ̂ʉn khɔ̌ɔ sǐn chʉ̂ʉa càak thá naa khaan",
+     "ja": "彼は銀行に融資を申し込んだ。",
+     "en": "He applied for a loan from the bank.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会話では เงินกู้ もよく使う。"
+ },
+ {
+  "id": "tl-53452",
+  "th": "สินเชื่อบ้าน",
+  "action": "add",
+  "ro": "sǐn chʉ̂ʉa bâan",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "住宅ローン",
+    "en": "home loan, mortgage",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เราผ่อนสินเชื่อบ้านมาสิบปีแล้ว",
+     "ro": "rao phɔ̀ɔn sǐn chʉ̂ʉa bâan maa sìp pii lɛ́ɛo",
+     "ja": "私たちは住宅ローンを10年間返済しています。",
+     "en": "We have been paying off our home loan for ten years.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53453",
+  "th": "เงินดาวน์",
+  "action": "add",
+  "ro": "ngəən daao",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "頭金",
+    "en": "down payment",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ซื้อรถคันนี้ต้องวางเงินดาวน์เท่าไร",
+     "ro": "sʉ́ʉ rót khan níi tɔ̂ɔng waang ngəən daao thâo rai",
+     "ja": "この車を買うには頭金をいくら払う必要がありますか？",
+     "en": "How much down payment is needed to buy this car?",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "「頭金を払う」は วางเงินดาวน์ または ดาวน์ だけでも言う。"
+ },
+ {
+  "id": "tl-53454",
+  "th": "ลูกหนี้",
+  "action": "add",
+  "ro": "lûuk nîi",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "債務者・借り手",
+    "en": "debtor",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลูกหนี้หลายคนไม่สามารถจ่ายหนี้ได้",
+     "ro": "lûuk nîi lǎai khon mâi sǎa mâat càai nîi dâai",
+     "ja": "多くの債務者が借金を返済できない。",
+     "en": "Many debtors cannot repay their debts.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53455",
+  "th": "เจ้าหนี้",
+  "action": "add",
+  "ro": "câo nîi",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "債権者・貸し手",
+    "en": "creditor",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เจ้าหนี้โทรมาทวงเงินทุกวัน",
+     "ro": "câo nîi thoo maa thuuang ngəən thúk wan",
+     "ja": "債権者が毎日お金の催促の電話をかけてくる。",
+     "en": "The creditor calls every day demanding the money.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53456",
+  "th": "ทวงหนี้",
+  "action": "add",
+  "ro": "thuuang nîi",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "借金を取り立てる・返済を催促する",
+    "en": "to demand repayment, collect a debt",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาไปทวงหนี้เพื่อนที่ยืมเงินไป",
+     "ro": "khǎo pai thuuang nîi phʉ̂ʉan thîi yʉʉm ngəən pai",
+     "ja": "彼はお金を借りた友人に返済を催促しに行った。",
+     "en": "He went to ask his friend who borrowed money to pay it back.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53457",
+  "th": "หนี้นอกระบบ",
+  "action": "add",
+  "ro": "nîi nɔ̂ɔk rá bòp",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ヤミ金などからの借金（正規の金融機関以外からの借金）",
+    "en": "informal debt, loan-shark debt",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หลายครอบครัวมีหนี้นอกระบบดอกเบี้ยสูง",
+     "ro": "lǎai khrɔ̂ɔp khruua mii nîi nɔ̂ɔk rá bòp dɔ̀ɔk bîia sǔung",
+     "ja": "多くの家庭が高利のヤミ金の借金を抱えている。",
+     "en": "Many families have high-interest informal debts.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53458",
+  "th": "ค้ำประกัน",
+  "action": "add",
+  "ro": "khám prà kan",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（借金などの）保証人になる・保証する",
+    "en": "to guarantee, act as guarantor",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พี่ชายค้ำประกันเงินกู้ให้ผม",
+     "ro": "phîi chaai khám prà kan ngəən kûu hâi phǒm",
+     "ja": "兄が私のローンの保証人になってくれた。",
+     "en": "My older brother guaranteed my loan.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53459",
+  "th": "ผู้ค้ำประกัน",
+  "action": "add",
+  "ro": "phûu khám prà kan",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "保証人",
+    "en": "guarantor",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "การเช่าห้องนี้ต้องมีผู้ค้ำประกัน",
+     "ro": "kaan châo hɔ̂ɔng níi tɔ̂ɔng mii phûu khám prà kan",
+     "ja": "この部屋を借りるには保証人が必要です。",
+     "en": "Renting this room requires a guarantor.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53460",
+  "th": "หลักประกัน",
+  "action": "add",
+  "ro": "làk prà kan",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "担保",
+    "en": "collateral, security",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ธนาคารใช้ที่ดินเป็นหลักประกันเงินกู้",
+     "ro": "thá naa khaan chái thîi din pen làk prà kan ngəən kûu",
+     "ja": "銀行は土地をローンの担保にした。",
+     "en": "The bank took the land as collateral for the loan.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53461",
+  "th": "จำนอง",
+  "action": "add",
+  "ro": "cam nɔɔng",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（不動産を）抵当に入れる",
+    "en": "to mortgage (property)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาจำนองบ้านกับธนาคาร",
+     "ro": "khǎo cam nɔɔng bâan kàp thá naa khaan",
+     "ja": "彼は家を銀行の抵当に入れた。",
+     "en": "He mortgaged his house with the bank.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "品物を質に入れるのは จำนำ。"
+ },
+ {
+  "id": "tl-53462",
+  "th": "โรงรับจำนำ",
+  "action": "add",
+  "ro": "roong ráp cam nam",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "質屋",
+    "en": "pawnshop",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอเอาทองไปจำนำที่โรงรับจำนำ",
+     "ro": "thəə ao thɔɔng pai cam nam thîi roong ráp cam nam",
+     "ja": "彼女は金を質屋に入れに行った。",
+     "en": "She took her gold to pawn at the pawnshop.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53463",
+  "th": "ล้มละลาย",
+  "action": "add",
+  "ro": "lóm lá laai",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "破産する・倒産する",
+    "en": "to go bankrupt",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บริษัทนี้ล้มละลายเมื่อปีที่แล้ว",
+     "ro": "bɔɔ rí sàt níi lóm lá laai mʉ̂ʉa pii thîi lɛ́ɛo",
+     "ja": "この会社は昨年倒産した。",
+     "en": "This company went bankrupt last year.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53464",
+  "th": "รายรับ",
+  "action": "add",
+  "ro": "raai ráp",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "収入（収支のうちの入り）",
+    "en": "income, receipts",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เดือนนี้รายรับน้อยกว่ารายจ่าย",
+     "ro": "dʉʉan níi raai ráp nɔ́ɔi kwàa raai càai",
+     "ja": "今月は収入が支出より少ない。",
+     "en": "This month income is less than expenses.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "対になる語は รายจ่าย（支出）。"
+ },
+ {
+  "id": "tl-53465",
+  "th": "ใบแจ้งหนี้",
+  "action": "add",
+  "ro": "bai cɛ̂ɛng nîi",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "請求書",
+    "en": "invoice, bill",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ใบแจ้งหนี้ค่าไฟมาแล้ว",
+     "ro": "bai cɛ̂ɛng nîi khâa fai maa lɛ́ɛo",
+     "ja": "電気代の請求書が届きました。",
+     "en": "The electricity bill has arrived.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53466",
+  "th": "ใบเสนอราคา",
+  "action": "add",
+  "ro": "bai sà nə̌ə raa khaa",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "見積書",
+    "en": "quotation",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วยส่งใบเสนอราคาให้เราภายในวันศุกร์",
+     "ro": "chûuai sòng bai sà nə̌ə raa khaa hâi rao phaai nai wan sùk",
+     "ja": "金曜日までに見積書を送ってください。",
+     "en": "Please send us the quotation by Friday.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53467",
+  "th": "ภาษีเงินได้",
+  "action": "add",
+  "ro": "phaa sǐi ngəən dâai",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "所得税",
+    "en": "income tax",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ปีนี้ฉันเสียภาษีเงินได้ไปเกือบสองหมื่นบาท",
+     "ro": "pii níi chǎn sǐia phaa sǐi ngəən dâai pai kʉ̀ʉap sɔ̌ɔng mʉ̀ʉn bàat",
+     "ja": "今年、私は所得税を2万バーツ近く払いました。",
+     "en": "This year I paid almost 20,000 baht in income tax.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53468",
+  "th": "ยื่นภาษี",
+  "action": "add",
+  "ro": "yʉ̂ʉn phaa sǐi",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "税の申告をする",
+    "en": "to file a tax return",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อย่าลืมยื่นภาษีก่อนสิ้นเดือนมีนาคม",
+     "ro": "yàa lʉʉm yʉ̂ʉn phaa sǐi kɔ̀ɔn sîn dʉʉan mii naa khom",
+     "ja": "3月末までに税の申告をするのを忘れないでください。",
+     "en": "Don't forget to file your taxes before the end of March.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53469",
+  "th": "ลดหย่อนภาษี",
+  "action": "add",
+  "ro": "lót yɔ̀ɔn phaa sǐi",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "税の控除を受ける・税を控除する",
+    "en": "to get a tax deduction",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ประกันชีวิตใช้ลดหย่อนภาษีได้",
+     "ro": "prà kan chii wít chái lót yɔ̀ɔn phaa sǐi dâai",
+     "ja": "生命保険は税控除に使えます。",
+     "en": "Life insurance can be used for a tax deduction.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53470",
+  "th": "คืนภาษี",
+  "action": "add",
+  "ro": "khʉʉn phaa sǐi",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "税金の還付",
+    "en": "tax refund",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ปีนี้ฉันขอคืนภาษีได้สามพันบาท",
+     "ro": "pii níi chǎn khɔ̌ɔ khʉʉn phaa sǐi dâai sǎam phan bàat",
+     "ja": "今年、私は3千バーツの税還付を受けられました。",
+     "en": "This year I was able to claim a 3,000-baht tax refund.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "「還付を申請する」は ขอคืนภาษี。空港での付加価値税の還付にも使う。"
+ },
+ {
+  "id": "tl-53471",
+  "th": "สรรพากร",
+  "action": "add",
+  "ro": "sǎn phaa kɔɔn",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "税務当局・税務署",
+    "en": "the Revenue Department, tax office",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สรรพากรส่งจดหมายมาถึงบ้าน",
+     "ro": "sǎn phaa kɔɔn sòng còt mǎai maa thʉ̌ng bâan",
+     "ja": "税務署から家に手紙が届いた。",
+     "en": "The tax office sent a letter to my home.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "正式名称は กรมสรรพากร（歳入局）。"
+ },
+ {
+  "id": "tl-53472",
+  "th": "เลขประจำตัวผู้เสียภาษี",
+  "action": "add",
+  "ro": "lêek prà cam tuua phûu sǐia phaa sǐi",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "納税者番号",
+    "en": "taxpayer identification number",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ใบเสร็จนี้ต้องมีเลขประจำตัวผู้เสียภาษีของบริษัท",
+     "ro": "bai sèt níi tɔ̂ɔng mii lêek prà cam tuua phûu sǐia phaa sǐi khɔ̌ɔng bɔɔ rí sàt",
+     "ja": "この領収書には会社の納税者番号が必要です。",
+     "en": "This receipt must show the company's taxpayer ID number.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "タイ人個人の場合は身分証の13桁の番号と同じ。"
+ },
+ {
+  "id": "tl-53473",
+  "th": "เงินเฟ้อ",
+  "action": "add",
+  "ro": "ngəən fə́ə",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "インフレ（物価の上昇）",
+    "en": "inflation",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เงินเฟ้อทำให้ของแพงขึ้นทุกปี",
+     "ro": "ngəən fə́ə tham hâi khɔ̌ɔng phɛɛng khʉ̂n thúk pii",
+     "ja": "インフレで物の値段が毎年上がっている。",
+     "en": "Inflation makes things more expensive every year.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53474",
+  "th": "ภาวะเศรษฐกิจถดถอย",
+  "action": "add",
+  "ro": "phaa wá sèet thà kìt thòt thɔ̌ɔi",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "景気後退",
+    "en": "economic recession",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "หลายประเทศกลัวภาวะเศรษฐกิจถดถอย",
+     "ro": "lǎai prà thêet kluua phaa wá sèet thà kìt thòt thɔ̌ɔi",
+     "ja": "多くの国が景気後退を恐れている。",
+     "en": "Many countries fear a recession.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "เศรษฐกิจถดถอย だけでも言う。"
+ },
+ {
+  "id": "tl-53475",
+  "th": "จีดีพี",
+  "action": "add",
+  "ro": "cii dii phii",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "GDP（国内総生産）",
+    "en": "GDP",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "จีดีพีของไทยปีนี้โตขึ้นเล็กน้อย",
+     "ro": "cii dii phii khɔ̌ɔng thai pii níi too khʉ̂n lék nɔ́ɔi",
+     "ja": "タイの今年のGDPはわずかに伸びた。",
+     "en": "Thailand's GDP grew slightly this year.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "正式には ผลิตภัณฑ์มวลรวมในประเทศ。"
+ },
+ {
+  "id": "tl-53476",
+  "th": "การส่งออก",
+  "action": "add",
+  "ro": "kaan sòng ɔ̀ɔk",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "輸出",
+    "en": "export",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "การส่งออกข้าวเพิ่มขึ้นในปีนี้",
+     "ro": "kaan sòng ɔ̀ɔk khâao phə̂əm khʉ̂n nai pii níi",
+     "ja": "今年、米の輸出が増えた。",
+     "en": "Rice exports increased this year.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53477",
+  "th": "การนำเข้า",
+  "action": "add",
+  "ro": "kaan nam khâo",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "輸入",
+    "en": "import",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ไทยพึ่งการนำเข้าน้ำมันจากต่างประเทศ",
+     "ro": "thai phʉ̂ng kaan nam khâo nám man càak tàang prà thêet",
+     "ja": "タイは石油を外国からの輸入に頼っている。",
+     "en": "Thailand relies on oil imports from abroad.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53478",
+  "th": "อสังหาริมทรัพย์",
+  "action": "add",
+  "ro": "à sǎng hǎa rim má sáp",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "不動産",
+    "en": "real estate",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ราคาอสังหาริมทรัพย์ในเมืองสูงขึ้นทุกปี",
+     "ro": "raa khaa à sǎng hǎa rim má sáp nai mʉʉang sǔung khʉ̂n thúk pii",
+     "ja": "都市部の不動産価格は毎年上がっている。",
+     "en": "Real estate prices in the city rise every year.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会話では อสังหาฯ（à sǎng hǎa）と略すことが多い。"
+ },
+ {
+  "id": "tl-53479",
+  "th": "ให้เช่า",
+  "action": "add",
+  "ro": "hâi châo",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "貸す（賃貸に出す）",
+    "en": "to rent out, let",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาให้เช่าคอนโดเดือนละหมื่นบาท",
+     "ro": "khǎo hâi châo khɔɔn doo dʉʉan lá mʉ̀ʉn bàat",
+     "ja": "彼はコンドミニアムを月1万バーツで貸している。",
+     "en": "He rents out his condo for 10,000 baht a month.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "看板の「貸します・賃貸物件あり」の表示にもよく使う。"
+ },
+ {
+  "id": "tl-53480",
+  "th": "ผู้เช่า",
+  "action": "add",
+  "ro": "phûu châo",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "借主・テナント",
+    "en": "tenant",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผู้เช่าต้องจ่ายค่าเช่าทุกวันที่ห้า",
+     "ro": "phûu châo tɔ̂ɔng càai khâa châo thúk wan thîi hâa",
+     "ja": "借主は毎月5日に家賃を払わなければなりません。",
+     "en": "Tenants must pay rent on the fifth of every month.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53481",
+  "th": "เจ้าของห้อง",
+  "action": "add",
+  "ro": "câo khɔ̌ɔng hɔ̂ɔng",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（賃貸の）部屋の持ち主・大家",
+    "en": "landlord, room owner",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เจ้าของห้องจะมาซ่อมแอร์พรุ่งนี้",
+     "ro": "câo khɔ̌ɔng hɔ̂ɔng cà maa sɔ̂ɔm ɛɛ phrûng níi",
+     "ja": "大家さんが明日エアコンを直しに来ます。",
+     "en": "The landlord is coming to fix the air conditioner tomorrow.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53482",
+  "th": "สัญญาเช่า",
+  "action": "add",
+  "ro": "sǎn yaa châo",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "賃貸契約",
+    "en": "lease, rental contract",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สัญญาเช่าห้องนี้มีอายุหนึ่งปี",
+     "ro": "sǎn yaa châo hɔ̂ɔng níi mii aa yú nʉ̀ng pii",
+     "ja": "この部屋の賃貸契約は期間が1年です。",
+     "en": "The lease for this room is for one year.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53483",
+  "th": "เงินมัดจำ",
+  "action": "add",
+  "ro": "ngəən mát cam",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "手付金・敷金（デポジット）",
+    "en": "deposit",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ต้องจ่ายเงินมัดจำสองเดือนก่อนเข้าอยู่",
+     "ro": "tɔ̂ɔng càai ngəən mát cam sɔ̌ɔng dʉʉan kɔ̀ɔn khâo yùu",
+     "ja": "入居前に2か月分の敷金を払う必要があります。",
+     "en": "You must pay a two-month deposit before moving in.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "賃貸では เงินประกัน と同じ意味で使うことも多い。"
+ },
+ {
+  "id": "tl-53484",
+  "th": "เงินประกัน",
+  "action": "add",
+  "ro": "ngəən prà kan",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "保証金（デポジット）",
+    "en": "security deposit",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ย้ายออกแล้วจะได้เงินประกันคืนไหม",
+     "ro": "yáai ɔ̀ɔk lɛ́ɛo cà dâai ngəən prà kan khʉʉn mǎi",
+     "ja": "退去したら保証金は返ってきますか？",
+     "en": "Will I get the security deposit back after I move out?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53485",
+  "th": "ค่าส่วนกลาง",
+  "action": "add",
+  "ro": "khâa sùuan klaang",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "共益費・管理費",
+    "en": "common area fee, maintenance fee",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ค่าส่วนกลางของคอนโดนี้แพงมาก",
+     "ro": "khâa sùuan klaang khɔ̌ɔng khɔɔn doo níi phɛɛng mâak",
+     "ja": "このコンドミニアムの管理費はとても高い。",
+     "en": "The common fee for this condo is very expensive.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53486",
+  "th": "นิติบุคคล",
+  "action": "add",
+  "ro": "ní tì bùk khon",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "法人",
+    "en": "juristic person, legal entity",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ร้านของเราจดทะเบียนเป็นนิติบุคคลแล้ว",
+     "ro": "ráan khɔ̌ɔng rao còt thá biian pen ní tì bùk khon lɛ́ɛo",
+     "ja": "私たちの店は法人登記を済ませました。",
+     "en": "Our shop has been registered as a legal entity.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（コンドミニアムなどの）管理組合・管理事務所",
+    "en": "condominium juristic person, building management office",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ถ้าน้ำไม่ไหลให้แจ้งนิติบุคคล",
+     "ro": "thâa náam mâi lǎi hâi cɛ̂ɛng ní tì bùk khon",
+     "ja": "水が出なければ管理事務所に連絡してください。",
+     "en": "If there's no water, inform the building management.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "コンドミニアムの住人は管理組合・管理事務所の意味で日常的に使う。"
+ },
+ {
+  "id": "tl-53487",
+  "th": "โฉนด",
+  "action": "add",
+  "ro": "chà nòot",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "土地の権利書",
+    "en": "title deed",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เก็บโฉนดที่ดินไว้ในที่ปลอดภัย",
+     "ro": "kèp chà nòot thîi din wái nai thîi plɔ̀ɔt phai",
+     "ja": "土地の権利書は安全な場所に保管してください。",
+     "en": "Keep the land title deed in a safe place.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ふつう โฉนดที่ดิน（土地の権利書）の形で使う。"
+ },
+ {
+  "id": "tl-53488",
+  "th": "โอนกรรมสิทธิ์",
+  "action": "add",
+  "ro": "oon kam má sìt",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "所有権を移転する・名義を変更する",
+    "en": "to transfer ownership",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "เราไปโอนกรรมสิทธิ์บ้านที่สำนักงานที่ดิน",
+     "ro": "rao pai oon kam má sìt bâan thîi sǎm nák ngaan thîi din",
+     "ja": "私たちは土地事務所で家の所有権移転をした。",
+     "en": "We transferred ownership of the house at the land office.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53489",
+  "th": "ค่านายหน้า",
+  "action": "add",
+  "ro": "khâa naai nâa",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "仲介手数料・コミッション",
+    "en": "brokerage fee, commission",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขายบ้านต้องจ่ายค่านายหน้าสามเปอร์เซ็นต์",
+     "ro": "khǎai bâan tɔ̂ɔng càai khâa naai nâa sǎam pəə sen",
+     "ja": "家を売るときは3パーセントの仲介手数料を払います。",
+     "en": "When you sell a house you pay a three percent commission.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53490",
+  "th": "ประกันชีวิต",
+  "action": "add",
+  "ro": "prà kan chii wít",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "生命保険",
+    "en": "life insurance",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แม่ซื้อประกันชีวิตให้ลูกทุกคน",
+     "ro": "mɛ̂ɛ sʉ́ʉ prà kan chii wít hâi lûuk thúk khon",
+     "ja": "母は子ども全員に生命保険をかけた。",
+     "en": "My mother bought life insurance for all her children.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53491",
+  "th": "ประกันรถ",
+  "action": "add",
+  "ro": "prà kan rót",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "自動車保険",
+    "en": "car insurance",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ประกันรถของฉันจะหมดเดือนหน้า",
+     "ro": "prà kan rót khɔ̌ɔng chǎn cà mòt dʉʉan nâa",
+     "ja": "私の自動車保険は来月切れます。",
+     "en": "My car insurance expires next month.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53492",
+  "th": "ประกันภัย",
+  "action": "add",
+  "ro": "prà kan phai",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "損害保険（保険全般）",
+    "en": "insurance (non-life)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บริษัทประกันภัยจ่ายค่าซ่อมให้ทั้งหมด",
+     "ro": "bɔɔ rí sàt prà kan phai càai khâa sɔ̂ɔm hâi tháng mòt",
+     "ja": "保険会社が修理代を全額払ってくれた。",
+     "en": "The insurance company paid all the repair costs.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "บริษัทประกันภัย（保険会社）の形でよく使う。"
+ },
+ {
+  "id": "tl-53493",
+  "th": "เบี้ยประกัน",
+  "action": "add",
+  "ro": "bîia prà kan",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "保険料",
+    "en": "insurance premium",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เบี้ยประกันปีนี้แพงขึ้นกว่าเดิม",
+     "ro": "bîia prà kan pii níi phɛɛng khʉ̂n kwàa dəəm",
+     "ja": "今年の保険料は前より高くなった。",
+     "en": "This year's insurance premium is higher than before.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53494",
+  "th": "ผู้เอาประกัน",
+  "action": "add",
+  "ro": "phûu ao prà kan",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "被保険者",
+    "en": "the insured",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ผู้เอาประกันต้องแจ้งประวัติสุขภาพให้ครบ",
+     "ro": "phûu ao prà kan tɔ̂ɔng cɛ̂ɛng prà wàt sùk khà phâap hâi khróp",
+     "ja": "被保険者は健康状態の履歴をすべて告知しなければなりません。",
+     "en": "The insured must disclose their full health history.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "契約書では ผู้เอาประกันภัย とも書く。"
+ },
+ {
+  "id": "tl-53495",
+  "th": "กรมธรรม์",
+  "action": "add",
+  "ro": "krom má than",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "保険証券",
+    "en": "insurance policy (document)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "อ่านกรมธรรม์ให้ดีก่อนเซ็น",
+     "ro": "àan krom má than hâi dii kɔ̀ɔn sen",
+     "ja": "署名する前に保険証券をよく読んでください。",
+     "en": "Read the policy carefully before signing.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53496",
+  "th": "เคลมประกัน",
+  "action": "add",
+  "ro": "khleem prà kan",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "保険金を請求する",
+    "en": "to make an insurance claim",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เมื่อวานรถชน เลยต้องเคลมประกัน",
+     "ro": "mʉ̂ʉa waan rót chon ləəi tɔ̂ɔng khleem prà kan",
+     "ja": "昨日車をぶつけたので、保険を請求しなければなりません。",
+     "en": "My car was in a crash yesterday, so I have to make an insurance claim.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "英語 claim から。เคลม だけでも言う。会話では kheem と発音されることもある。"
+ },
+ {
+  "id": "tl-53497",
+  "th": "ผู้รับผลประโยชน์",
+  "action": "add",
+  "ro": "phûu ráp phǒn prà yòot",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（保険金などの）受取人",
+    "en": "beneficiary",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "เขาระบุลูกสาวเป็นผู้รับผลประโยชน์",
+     "ro": "khǎo rá bù lûuk sǎao pen phûu ráp phǒn prà yòot",
+     "ja": "彼は娘を受取人に指定した。",
+     "en": "He named his daughter as the beneficiary.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53498",
+  "th": "เซ็นสัญญา",
+  "action": "add",
+  "ro": "sen sǎn yaa",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "契約書に署名する・契約する",
+    "en": "to sign a contract",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เราจะเซ็นสัญญากันวันจันทร์",
+     "ro": "rao cà sen sǎn yaa kan wan can",
+     "ja": "私たちは月曜日に契約に署名します。",
+     "en": "We will sign the contract on Monday.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53499",
+  "th": "ทำสัญญา",
+  "action": "add",
+  "ro": "tham sǎn yaa",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "契約を結ぶ",
+    "en": "to make a contract",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ก่อนเข้าอยู่ต้องทำสัญญาเช่าหนึ่งปี",
+     "ro": "kɔ̀ɔn khâo yùu tɔ̂ɔng tham sǎn yaa châo nʉ̀ng pii",
+     "ja": "入居前に1年の賃貸契約を結ぶ必要があります。",
+     "en": "Before moving in you must sign a one-year lease.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-53500",
+  "th": "ทะเบียนบ้าน",
+  "action": "add",
+  "ro": "thá biian bâan",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "住居登録簿（住民登録）",
+    "en": "house registration (book)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ทำบัตรประชาชนต้องใช้ทะเบียนบ้าน",
+     "ro": "tham bàt prà chaa chon tɔ̂ɔng chái thá biian bâan",
+     "ja": "身分証を作るには住居登録簿が必要です。",
+     "en": "You need the house registration book to get an ID card.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "世帯ごとの住民登録簿。住所の移転は ย้ายทะเบียนบ้าน と言う。"
+ }
+]
