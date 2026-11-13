@@ -1,0 +1,489 @@
+[
+ {
+  "id": "tl-54565",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54566",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54567",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54568",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54569",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54570",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54571",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54572",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54573",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54574",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54575",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54576",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54577",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54578",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54579",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54580",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54581",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54582",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54583",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54584",
+  "verdict": "fix",
+  "issues": [
+   "อาร์ต の声調：中子音＋長母音＋死音節（ต）なので低声 àat（家の表記 การ์ด kàat・รีสอร์ต sɔ̀ɔt と同様）。見出しと例文のroを修正"
+  ],
+  "fixed": {
+   "id": "tl-54584",
+   "th": "อาร์ต",
+   "action": "add",
+   "ro": "àat",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "アートっぽい・芸術的な",
+     "en": "arty, artistic",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ร้านกาแฟนี้แต่งร้านอาร์ตมาก",
+      "ro": "ráan kaa fɛɛ níi tɛ̀ng ráan àat mâak",
+      "ja": "このカフェは内装がとてもアートっぽい。",
+      "en": "This café is decorated in a very arty way.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "英語 art から。名詞「芸術」のほか、口語で「おしゃれで芸術っぽい」の意味でも使う。"
+  }
+ },
+ {
+  "id": "tl-54585",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54586",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54587",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54588",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54589",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54590",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54591",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54592",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54593",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54594",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54595",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54596",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54597",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54598",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54599",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54600",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54601",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54602",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54603",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54604",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54605",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54606",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54607",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54608",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54609",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54610",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54611",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54612",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54613",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54614",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54615",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54616",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54617",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54618",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54619",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54620",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54621",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54622",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54623",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54624",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54625",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54626",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54627",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54628",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54629",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54630",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54631",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54632",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54633",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54634",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54635",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54636",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54637",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54638",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54639",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54640",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54641",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54642",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54643",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54644",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54645",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54646",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54647",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54648",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54649",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54650",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54651",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54652",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54653",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54654",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54655",
+  "verdict": "ok",
+  "issues": []
+ }
+]

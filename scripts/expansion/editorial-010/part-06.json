@@ -1,0 +1,2456 @@
+[
+ {
+  "id": "tl-54656",
+  "th": "ลูกจ้างชั่วคราว",
+  "action": "add",
+  "ro": "lûuk câang chûua khraao",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "臨時雇用者・臨時職員",
+    "en": "temporary employee",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บริษัทจ้างลูกจ้างชั่วคราวเพิ่มช่วงปลายปี",
+     "ro": "bɔɔ rí sàt câang lûuk câang chûua khraao phə̂əm chûuang plaai pii",
+     "ja": "会社は年末に臨時雇用者を増やす。",
+     "en": "The company hires more temporary workers at the end of the year.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54657",
+  "th": "ทรัพยากรมนุษย์",
+  "action": "add",
+  "ro": "sáp phá yaa kɔɔn má nút",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "人材・人的資源（ฝ่าย〜で人事部）",
+    "en": "human resources",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฝ่ายทรัพยากรมนุษย์จะสัมภาษณ์คุณพรุ่งนี้",
+     "ro": "fàai sáp phá yaa kɔɔn má nút cà sǎm phâat khun phrûng níi",
+     "ja": "人事部が明日あなたを面接します。",
+     "en": "The human resources department will interview you tomorrow.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54658",
+  "th": "เอชอาร์",
+  "action": "skip",
+  "skipReason": "会話・文書ではラテン文字の HR と書くことが多く、เอช の声調（èet/éet）も確認できないため見送り。"
+ },
+ {
+  "id": "tl-54659",
+  "th": "ภาระงาน",
+  "action": "add",
+  "ro": "phaa rá ngaan",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "業務負担・仕事量",
+    "en": "workload",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วงนี้ภาระงานของพยาบาลหนักมาก",
+     "ro": "chûuang níi phaa rá ngaan khɔ̌ɔng phá yaa baan nàk mâak",
+     "ja": "最近は看護師の業務負担がとても重い。",
+     "en": "Nurses' workload is very heavy these days.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54660",
+  "th": "อัตราการเกิด",
+  "action": "add",
+  "ro": "àt traa kaan kə̀ət",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "出生率",
+    "en": "birth rate",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อัตราการเกิดของไทยลดลงทุกปี",
+     "ro": "àt traa kaan kə̀ət khɔ̌ɔng thai lót long thúk pii",
+     "ja": "タイの出生率は毎年下がっている。",
+     "en": "Thailand's birth rate falls every year.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54661",
+  "th": "แอดมิชชัน",
+  "action": "skip",
+  "skipReason": "2018年以降の入試制度はTCASに変わり、一般には แอดมิชชั่น と表記が揺れ、末音節の声調も表記と一致しないため見送り。"
+ },
+ {
+  "id": "tl-54662",
+  "th": "โรงเรียนรัฐ",
+  "action": "add",
+  "ro": "roong riian rát",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "公立学校",
+    "en": "public school, state school",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลูกฉันเรียนที่โรงเรียนรัฐใกล้บ้าน",
+     "ro": "lûuk chǎn riian thîi roong riian rát klâi bâan",
+     "ja": "うちの子は家の近くの公立学校に通っている。",
+     "en": "My child goes to a public school near our house.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "โรงเรียนรัฐบาล とも言う。対になる語は โรงเรียนเอกชน（私立学校）。"
+ },
+ {
+  "id": "tl-54663",
+  "th": "ออกกลางคัน",
+  "action": "add",
+  "ro": "ɔ̀ɔk klaang khan",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "中退する・途中でやめる",
+    "en": "to drop out (of school)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาออกกลางคันตอนเรียนปีสอง",
+     "ro": "khǎo ɔ̀ɔk klaang khan tɔɔn riian pii sɔ̌ɔng",
+     "ja": "彼は2年生のときに中退した。",
+     "en": "He dropped out in his second year.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54664",
+  "th": "ภาควิชา",
+  "action": "add",
+  "ro": "phâak wí chaa",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "学科（大学の）",
+    "en": "(university) department",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอเป็นอาจารย์ภาควิชาภาษาญี่ปุ่น",
+     "ro": "thəə pen aa caan phâak wí chaa phaa sǎa yîi pùn",
+     "ja": "彼女は日本語学科の教員です。",
+     "en": "She is a lecturer in the Department of Japanese.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54665",
+  "th": "นักศึกษาฝึกงาน",
+  "action": "add",
+  "ro": "nák sʉ̀k sǎa fʉ̀k ngaan",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "インターン学生・実習生",
+    "en": "student intern",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ปีนี้มีนักศึกษาฝึกงานมาช่วยงานสามคน",
+     "ro": "pii níi mii nák sʉ̀k sǎa fʉ̀k ngaan maa chûuai ngaan sǎam khon",
+     "ja": "今年はインターン学生が3人手伝いに来ている。",
+     "en": "This year three student interns have come to help out.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54666",
+  "th": "บุคลากรทางการแพทย์",
+  "action": "add",
+  "ro": "bùk khá laa kɔɔn thaang kaan phɛ̂ɛt",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "医療従事者",
+    "en": "medical personnel, healthcare workers",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "บุคลากรทางการแพทย์ทำงานหนักมากในช่วงโรคระบาด",
+     "ro": "bùk khá laa kɔɔn thaang kaan phɛ̂ɛt tham ngaan nàk mâak nai chûuang rôok rá bàat",
+     "ja": "医療従事者は感染症の流行中、懸命に働いた。",
+     "en": "Healthcare workers worked very hard during the epidemic.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54667",
+  "th": "ระบบสาธารณสุข",
+  "action": "add",
+  "ro": "rá bòp sǎa thaa rá ná sùk",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "公衆衛生制度・医療制度",
+    "en": "public health system",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "รัฐบาลต้องลงทุนในระบบสาธารณสุขมากขึ้น",
+     "ro": "rát thà baan tɔ̂ɔng long thun nai rá bòp sǎa thaa rá ná sùk mâak khʉ̂n",
+     "ja": "政府は医療制度にもっと投資する必要がある。",
+     "en": "The government needs to invest more in the public health system.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54668",
+  "th": "โรคอ้วน",
+  "action": "add",
+  "ro": "rôok ûuan",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "肥満（症）",
+    "en": "obesity",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เด็กไทยเป็นโรคอ้วนมากขึ้น",
+     "ro": "dèk thai pen rôok ûuan mâak khʉ̂n",
+     "ja": "タイの子どもの肥満が増えている。",
+     "en": "More and more Thai children are obese.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54669",
+  "th": "กัญชาเสรี",
+  "action": "add",
+  "ro": "kan chaa sěe rii",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "大麻解禁（大麻の自由化）",
+    "en": "cannabis liberalization",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นโยบายกัญชาเสรีทำให้มีร้านกัญชาเยอะมาก",
+     "ro": "ná yoo baai kan chaa sěe rii tham hâi mii ráan kan chaa yə́ mâak",
+     "ja": "大麻解禁政策で大麻店がとても増えた。",
+     "en": "The cannabis liberalization policy led to a lot of cannabis shops.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "2022年の大麻解禁政策を指すニュース語。その後、規制は再び強められている。"
+ },
+ {
+  "id": "tl-54670",
+  "th": "อุบัติเหตุทางถนน",
+  "action": "add",
+  "ro": "ù bàt tì hèet thaang thà nǒn",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "交通事故",
+    "en": "road accident",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วงสงกรานต์มีอุบัติเหตุทางถนนเยอะ",
+     "ro": "chûuang sǒng kraan mii ù bàt tì hèet thaang thà nǒn yə́",
+     "ja": "ソンクラーンの時期は交通事故が多い。",
+     "en": "There are many road accidents during Songkran.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54671",
+  "th": "ตรวจหาเชื้อ",
+  "action": "add",
+  "ro": "trùuat hǎa chʉ́ʉa",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "感染検査をする・病原体を調べる",
+    "en": "to test for infection",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผู้ป่วยทุกคนต้องตรวจหาเชื้อก่อนเข้าโรงพยาบาล",
+     "ro": "phûu pùuai thúk khon tɔ̂ɔng trùuat hǎa chʉ́ʉa kɔ̀ɔn khâo roong phá yaa baan",
+     "ja": "患者は全員、入院前に感染検査を受けなければならない。",
+     "en": "All patients must be tested for infection before being admitted to hospital.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54672",
+  "th": "ผลบวก",
+  "action": "add",
+  "ro": "phǒn bùuak",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "陽性（検査結果）",
+    "en": "positive (test result)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผลตรวจของเขาออกมาเป็นผลบวก",
+     "ro": "phǒn trùuat khɔ̌ɔng khǎo ɔ̀ɔk maa pen phǒn bùuak",
+     "ja": "彼の検査結果は陽性だった。",
+     "en": "His test result came back positive.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "プラスの影響・好影響",
+    "en": "positive effect",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ข่าวนี้ส่งผลบวกต่อตลาดหุ้น",
+     "ro": "khàao níi sòng phǒn bùuak tɔ̀ɔ tà làat hûn",
+     "ja": "このニュースは株式市場にプラスの影響を与えた。",
+     "en": "This news had a positive effect on the stock market.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54673",
+  "th": "ผลลบ",
+  "action": "add",
+  "ro": "phǒn lóp",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "陰性（検査結果）",
+    "en": "negative (test result)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตรวจสองครั้งแล้วได้ผลลบทั้งสองครั้ง",
+     "ro": "trùuat sɔ̌ɔng khráng lɛ́ɛo dâai phǒn lóp tháng sɔ̌ɔng khráng",
+     "ja": "2回検査して、2回とも陰性だった。",
+     "en": "I was tested twice and was negative both times.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "マイナスの影響・悪影響",
+    "en": "negative effect",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ข่าวนี้ส่งผลลบต่อยอดขาย",
+     "ro": "khàao níi sòng phǒn lóp tɔ̀ɔ yɔ̂ɔt khǎai",
+     "ja": "このニュースは売り上げにマイナスの影響を与えた。",
+     "en": "This news had a negative effect on sales.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54674",
+  "th": "ยารักษาโรค",
+  "action": "add",
+  "ro": "yaa rák sǎa rôok",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（病気の）治療薬・薬",
+    "en": "medicine (for treating disease)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ยารักษาโรคบางชนิดราคาแพงมาก",
+     "ro": "yaa rák sǎa rôok baang chá nít raa khaa phɛɛng mâak",
+     "ja": "一部の治療薬はとても高価だ。",
+     "en": "Some kinds of medicine are very expensive.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54675",
+  "th": "นักจิตวิทยา",
+  "action": "add",
+  "ro": "nák cìt tà wít thá yaa",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "心理学者・心理士",
+    "en": "psychologist",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ถ้าเครียดมากควรไปคุยกับนักจิตวิทยา",
+     "ro": "thâa khrîiat mâak khuuan pai khui kàp nák cìt tà wít thá yaa",
+     "ja": "ストレスがひどいなら心理士に相談したほうがいい。",
+     "en": "If you are very stressed, you should talk to a psychologist.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54676",
+  "th": "มลภาวะ",
+  "action": "add",
+  "ro": "mon lá phaa wá",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "公害・環境汚染",
+    "en": "pollution",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "รถยนต์เป็นต้นเหตุของมลภาวะในเมือง",
+     "ro": "rót yon pen tôn hèet khɔ̌ɔng mon lá phaa wá nai mʉʉang",
+     "ja": "自動車は都市の環境汚染の原因だ。",
+     "en": "Cars are a cause of pollution in the city.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会話やニュースでは มลพิษ のほうがよく使われる。"
+ },
+ {
+  "id": "tl-54677",
+  "th": "อุทกภัย",
+  "action": "add",
+  "ro": "ù thók kà phai",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "水害・洪水災害",
+    "en": "flood disaster",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "อุทกภัยปีนี้สร้างความเสียหายมาก",
+     "ro": "ù thók kà phai pii níi sâang khwaam sǐia hǎai mâak",
+     "ja": "今年の水害は大きな被害をもたらした。",
+     "en": "This year's floods caused a lot of damage.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "公的・報道の語。会話では น้ำท่วม（洪水）と言う。"
+ },
+ {
+  "id": "tl-54678",
+  "th": "พลังงานสะอาด",
+  "action": "add",
+  "ro": "phá lang ngaan sà àat",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "クリーンエネルギー",
+    "en": "clean energy",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หลายประเทศหันมาใช้พลังงานสะอาด",
+     "ro": "lǎai prà thêet hǎn maa chái phá lang ngaan sà àat",
+     "ja": "多くの国がクリーンエネルギーの利用に転換している。",
+     "en": "Many countries are switching to clean energy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54679",
+  "th": "พลังงานหมุนเวียน",
+  "action": "add",
+  "ro": "phá lang ngaan mǔn wiian",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "再生可能エネルギー",
+    "en": "renewable energy",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บริษัทนี้ลงทุนในพลังงานหมุนเวียน",
+     "ro": "bɔɔ rí sàt níi long thun nai phá lang ngaan mǔn wiian",
+     "ja": "この会社は再生可能エネルギーに投資している。",
+     "en": "This company invests in renewable energy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54680",
+  "th": "นิวเคลียร์",
+  "action": "add",
+  "ro": "niu khliia",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "原子力・核",
+    "en": "nuclear",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ญี่ปุ่นมีโรงไฟฟ้านิวเคลียร์หลายแห่ง",
+     "ro": "yîi pùn mii roong fai fáa niu khliia lǎai hɛ̀ng",
+     "ja": "日本には原子力発電所がいくつもある。",
+     "en": "Japan has several nuclear power plants.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "単独より โรงไฟฟ้านิวเคลียร์（原子力発電所）・อาวุธนิวเคลียร์（核兵器）など複合語で使う。"
+ },
+ {
+  "id": "tl-54681",
+  "th": "ถ่านหิน",
+  "action": "add",
+  "ro": "thàan hǐn",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "石炭",
+    "en": "coal",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โรงงานนี้ใช้ถ่านหินเป็นเชื้อเพลิง",
+     "ro": "roong ngaan níi chái thàan hǐn pen chʉ́ʉa phləəng",
+     "ja": "この工場は石炭を燃料にしている。",
+     "en": "This factory uses coal as fuel.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54682",
+  "th": "ก๊าซธรรมชาติ",
+  "action": "add",
+  "ro": "káat tham má châat",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "天然ガス",
+    "en": "natural gas",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ราคาก๊าซธรรมชาติสูงขึ้นมาก",
+     "ro": "raa khaa káat tham má châat sǔung khʉ̂n mâak",
+     "ja": "天然ガスの価格が大きく上がった。",
+     "en": "The price of natural gas has risen sharply.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54683",
+  "th": "น้ำมันดิบ",
+  "action": "add",
+  "ro": "nám man dìp",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "原油",
+    "en": "crude oil",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ราคาน้ำมันดิบลดลงอีกแล้ว",
+     "ro": "raa khaa nám man dìp lót long ìik lɛ́ɛo",
+     "ja": "原油価格がまた下がった。",
+     "en": "The price of crude oil has fallen again.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54684",
+  "th": "คัดแยกขยะ",
+  "action": "add",
+  "ro": "khát yɛ̂ɛk khà yà",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ゴミを分別する",
+    "en": "to sort (separate) waste",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ที่คอนโดนี้ต้องคัดแยกขยะก่อนทิ้ง",
+     "ro": "thîi khɔɔn doo níi tɔ̂ɔng khát yɛ̂ɛk khà yà kɔ̀ɔn thíng",
+     "ja": "このマンションでは捨てる前にゴミを分別しなければならない。",
+     "en": "In this condo you have to sort your rubbish before throwing it away.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54685",
+  "th": "เผาป่า",
+  "action": "add",
+  "ro": "phǎo pàa",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "森林を焼く・野焼きをする",
+    "en": "to burn forest",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ห้ามเผาป่าในหน้าแล้ง",
+     "ro": "hâam phǎo pàa nai nâa lɛ́ɛng",
+     "ja": "乾季に森を焼くことは禁止されている。",
+     "en": "Burning forests is banned in the dry season.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54686",
+  "th": "ดาต้า",
+  "action": "add",
+  "ro": "daa tâa",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "データ（主にモバイルデータ通信）",
+    "en": "data (esp. mobile data)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เดือนนี้ฉันใช้ดาต้ามือถือหมดแล้ว",
+     "ro": "dʉʉan níi chǎn chái daa tâa mʉʉ thʉ̌ʉ mòt lɛ́ɛo",
+     "ja": "今月はスマホのデータ通信量を使い切った。",
+     "en": "I've used up my mobile data this month.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "一般には ข้อมูล と言う。ดาต้า はモバイル通信やIT分野で使う。"
+ },
+ {
+  "id": "tl-54687",
+  "th": "ไซเบอร์",
+  "action": "add",
+  "ro": "sai bəə",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "サイバー（ネット空間の）",
+    "en": "cyber",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ภัยไซเบอร์เพิ่มขึ้นทุกปี",
+     "ro": "phai sai bəə phə̂əm khʉ̂n thúk pii",
+     "ja": "サイバー犯罪の脅威は毎年増えている。",
+     "en": "Cyber threats increase every year.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "単独より ภัยไซเบอร์（サイバー脅威）・โลกไซเบอร์（ネット世界）など複合語で使う。"
+ },
+ {
+  "id": "tl-54688",
+  "th": "ข้อมูลรั่วไหล",
+  "action": "add",
+  "ro": "khɔ̂ɔ muun rûua lǎi",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "情報漏えい（データが漏れること）",
+    "en": "data leak",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บริษัทขอโทษลูกค้าเรื่องข้อมูลรั่วไหล",
+     "ro": "bɔɔ rí sàt khɔ̌ɔ thôot lûuk kháa rʉ̂ʉang khɔ̂ɔ muun rûua lǎi",
+     "ja": "会社は情報漏えいについて顧客に謝罪した。",
+     "en": "The company apologized to customers over the data leak.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54689",
+  "th": "ลิงก์ปลอม",
+  "action": "add",
+  "ro": "líng plɔɔm",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "偽リンク（詐欺のリンク）",
+    "en": "fake link, phishing link",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อย่ากดลิงก์ปลอมในข้อความแปลกๆ",
+     "ro": "yàa kòt líng plɔɔm nai khɔ̂ɔ khwaam plɛ̀ɛk plɛ̀ɛk",
+     "ja": "怪しいメッセージの偽リンクを押さないで。",
+     "en": "Don't click fake links in strange messages.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54690",
+  "th": "แอปดูดเงิน",
+  "action": "add",
+  "ro": "ɛ́p dùut ngəən",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "不正送金アプリ（口座のお金を抜き取る詐欺アプリ）",
+    "en": "money-draining scam app",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ป้าของฉันโดนแอปดูดเงินไปห้าหมื่นบาท",
+     "ro": "pâa khɔ̌ɔng chǎn doon ɛ́p dùut ngəən pai hâa mʉ̀ʉn bàat",
+     "ja": "私のおばは不正送金アプリで5万バーツを抜き取られた。",
+     "en": "My aunt lost 50,000 baht to a money-draining app.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54691",
+  "th": "อีสปอร์ต",
+  "action": "add",
+  "ro": "ii sà pɔ̀ɔt",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "eスポーツ",
+    "en": "esports",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อีสปอร์ตเป็นที่นิยมในหมู่วัยรุ่น",
+     "ro": "ii sà pɔ̀ɔt pen thîi ní yom nai mùu wai rûn",
+     "ja": "eスポーツは若者の間で人気がある。",
+     "en": "Esports are popular among young people.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54692",
+  "th": "ยอดไลก์",
+  "action": "add",
+  "ro": "yɔ̂ɔt lai",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "いいね数",
+    "en": "number of likes",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โพสต์นี้มียอดไลก์เป็นหมื่น",
+     "ro": "phóos níi mii yɔ̂ɔt lai pen mʉ̀ʉn",
+     "ja": "この投稿にはいいねが何万もついている。",
+     "en": "This post has tens of thousands of likes.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54693",
+  "th": "ซับสไครบ์",
+  "action": "add",
+  "ro": "sáp sà khrai",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "チャンネル登録する",
+    "en": "to subscribe (to a channel)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ถ้าชอบคลิปนี้ อย่าลืมกดซับสไครบ์นะ",
+     "ro": "thâa chɔ̂ɔp khlíp níi yàa lʉʉm kòt sáp sà khrai ná",
+     "ja": "この動画が気に入ったら、チャンネル登録を忘れずにね。",
+     "en": "If you like this video, don't forget to subscribe.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "กดซับ と略したり、กดติดตาม（フォローする）とも言う。"
+ },
+ {
+  "id": "tl-54694",
+  "th": "ค่ายเพลง",
+  "action": "add",
+  "ro": "khâai phleeng",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "レコード会社・音楽レーベル",
+    "en": "record label",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอเซ็นสัญญากับค่ายเพลงใหญ่",
+     "ro": "thəə sen sǎn yaa kàp khâai phleeng yài",
+     "ja": "彼女は大手レコード会社と契約した。",
+     "en": "She signed a contract with a major record label.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54695",
+  "th": "นักแสดงนำ",
+  "action": "add",
+  "ro": "nák sà dɛɛng nam",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "主演俳優",
+    "en": "lead actor",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นักแสดงนำของละครเรื่องนี้เก่งมาก",
+     "ro": "nák sà dɛɛng nam khɔ̌ɔng lá khɔɔn rʉ̂ʉang níi kèng mâak",
+     "ja": "このドラマの主演俳優はとても演技がうまい。",
+     "en": "The lead actor in this drama is very good.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54696",
+  "th": "ยอดผู้ชม",
+  "action": "add",
+  "ro": "yɔ̂ɔt phûu chom",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "視聴者数・再生回数",
+    "en": "viewer count, number of views",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คลิปนี้มียอดผู้ชมเกินล้านแล้ว",
+     "ro": "khlíp níi mii yɔ̂ɔt phûu chom kəən láan lɛ́ɛo",
+     "ja": "この動画の視聴者数はもう100万を超えた。",
+     "en": "This video already has more than a million views.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54697",
+  "th": "เคป๊อป",
+  "action": "add",
+  "ro": "khee pɔ́p",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "Kポップ（韓国のポップ音楽）",
+    "en": "K-pop",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลูกสาวฉันชอบฟังเพลงเคป๊อปมาก",
+     "ro": "lûuk sǎao chǎn chɔ̂ɔp fang phleeng khee pɔ́p mâak",
+     "ja": "うちの娘はKポップを聴くのが大好きだ。",
+     "en": "My daughter loves listening to K-pop.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ラテン文字で K-pop と書くことも多い。"
+ },
+ {
+  "id": "tl-54698",
+  "th": "ประกวดนางงาม",
+  "action": "add",
+  "ro": "prà kùuat naang ngaam",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "美人コンテスト・ミスコン",
+    "en": "beauty pageant",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คนไทยชอบดูการประกวดนางงามมาก",
+     "ro": "khon thai chɔ̂ɔp duu kaan prà kùuat naang ngaam mâak",
+     "ja": "タイ人は美人コンテストを見るのが大好きだ。",
+     "en": "Thai people love watching beauty pageants.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "動詞句として「ミスコンに出る」の意味でも使う。"
+ },
+ {
+  "id": "tl-54699",
+  "th": "บอยคอต",
+  "action": "skip",
+  "skipReason": "บอยคอต／บอยคอตต์ と表記が揺れ、末音節の実際の声調（khɔ̂ɔt か khɔ̀ɔt か）を確認できないため見送り。"
+ },
+ {
+  "id": "tl-54700",
+  "th": "เซ็นเซอร์",
+  "action": "add",
+  "ro": "sen səə",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "検閲する・（映像に）ぼかしを入れる",
+    "en": "to censor",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉากนี้ถูกเซ็นเซอร์ในทีวี",
+     "ro": "chàak níi thùuk sen səə nai thii wii",
+     "ja": "この場面はテレビではぼかしが入った。",
+     "en": "This scene was censored on TV.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "センサー",
+    "en": "sensor",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ไฟในห้องน้ำมีเซ็นเซอร์ตรวจจับคน",
+     "ro": "fai nai hɔ̂ɔng náam mii sen səə trùuat càp khon",
+     "ja": "トイレの照明には人感センサーが付いている。",
+     "en": "The bathroom light has a motion sensor.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54701",
+  "th": "ละเมิดลิขสิทธิ์",
+  "action": "add",
+  "ro": "lá mə̂ət lík khà sìt",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "著作権を侵害する",
+    "en": "to infringe copyright",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ห้ามใช้รูปนี้ เพราะจะละเมิดลิขสิทธิ์",
+     "ro": "hâam chái rûup níi phrɔ́ cà lá mə̂ət lík khà sìt",
+     "ja": "この写真は使ってはいけない。著作権の侵害になるから。",
+     "en": "Don't use this picture, because it would infringe copyright.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54702",
+  "th": "สินค้าปลอม",
+  "action": "add",
+  "ro": "sǐn kháa plɔɔm",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "偽造品・偽物",
+    "en": "counterfeit goods",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตลาดนี้ขายสินค้าปลอมเยอะ",
+     "ro": "tà làat níi khǎai sǐn kháa plɔɔm yə́",
+     "ja": "この市場では偽物がたくさん売られている。",
+     "en": "This market sells a lot of counterfeit goods.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54703",
+  "th": "ข้อร้องเรียน",
+  "action": "add",
+  "ro": "khɔ̂ɔ rɔ́ɔng riian",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "苦情・申し立て",
+    "en": "complaint",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "บริษัทได้รับข้อร้องเรียนจากลูกค้าหลายราย",
+     "ro": "bɔɔ rí sàt dâai ráp khɔ̂ɔ rɔ́ɔng riian càak lûuk kháa lǎai raai",
+     "ja": "会社は多くの顧客から苦情を受けた。",
+     "en": "The company received complaints from many customers.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54704",
+  "th": "โครงสร้างพื้นฐาน",
+  "action": "add",
+  "ro": "khroong sâang phʉ́ʉn thǎan",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "インフラ・基盤設備",
+    "en": "infrastructure",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เมืองนี้ยังขาดโครงสร้างพื้นฐานที่ดี",
+     "ro": "mʉʉang níi yang khàat khroong sâang phʉ́ʉn thǎan thîi dii",
+     "ja": "この町はまだ良いインフラが不足している。",
+     "en": "This town still lacks good infrastructure.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54705",
+  "th": "คนไร้บ้าน",
+  "action": "add",
+  "ro": "khon rái bâan",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ホームレス（の人）",
+    "en": "homeless person",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "มีคนไร้บ้านนอนอยู่หน้าสถานีรถไฟ",
+     "ro": "mii khon rái bâan nɔɔn yùu nâa sà thǎa nii rót fai",
+     "ja": "駅の前でホームレスの人が寝ている。",
+     "en": "A homeless person is sleeping in front of the train station.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54706",
+  "th": "ค้ามนุษย์",
+  "action": "add",
+  "ro": "kháa má nút",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "人身売買",
+    "en": "human trafficking",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตำรวจจับแก๊งค้ามนุษย์ได้ที่ชายแดน",
+     "ro": "tam rùuat càp kɛ́ng kháa má nút dâai thîi chaai dɛɛn",
+     "ja": "警察は国境で人身売買グループを逮捕した。",
+     "en": "Police caught a human trafficking gang at the border.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "名詞としては การค้ามนุษย์ の形でもよく使う。"
+ },
+ {
+  "id": "tl-54707",
+  "th": "ความรุนแรงในครอบครัว",
+  "action": "add",
+  "ro": "khwaam run rɛɛng nai khrɔ̂ɔp khruua",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "家庭内暴力・DV",
+    "en": "domestic violence",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ความรุนแรงในครอบครัวเป็นปัญหาสังคมที่สำคัญ",
+     "ro": "khwaam run rɛɛng nai khrɔ̂ɔp khruua pen pan hǎa sǎng khom thîi sǎm khan",
+     "ja": "家庭内暴力は重要な社会問題だ。",
+     "en": "Domestic violence is a serious social problem.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54708",
+  "th": "แอลจีบีทีคิว",
+  "action": "skip",
+  "skipReason": "ふつうラテン文字で LGBTQ と書き、タイ文字表記はまれ。แอล の読み（ɛɛo/ɛɛn）も確定できないため見送り。"
+ },
+ {
+  "id": "tl-54709",
+  "th": "ไข่ข้น",
+  "action": "add",
+  "ro": "khài khôn",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "半熟のスクランブルエッグ（とろとろ卵）",
+    "en": "soft creamy scrambled eggs",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้ขายข้าวไข่ข้นอร่อยมาก",
+     "ro": "ráan níi khǎai khâao khài khôn à rɔ̀ɔi mâak",
+     "ja": "この店のとろとろ卵ご飯はとてもおいしい。",
+     "en": "This shop sells really tasty rice with creamy scrambled eggs.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54710",
+  "th": "ฟูก",
+  "action": "add",
+  "ro": "fûuk",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "敷き布団・（綿の）マットレス",
+    "en": "futon mattress, thin mattress",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คืนนี้นอนบนฟูกที่พื้นไปก่อนนะ",
+     "ro": "khʉʉn níi nɔɔn bon fûuk thîi phʉ́ʉn pai kɔ̀ɔn ná",
+     "ja": "今夜はとりあえず床の敷き布団で寝てね。",
+     "en": "Sleep on the mattress on the floor for tonight.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ベッド用のマットレスは ที่นอน と言うことが多い。"
+ },
+ {
+  "id": "tl-54711",
+  "th": "เครื่องปรับอากาศ",
+  "action": "add",
+  "ro": "khrʉ̂ʉang pràp aa kàat",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "エアコン・空調機",
+    "en": "air conditioner",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ห้องประชุมทุกห้องมีเครื่องปรับอากาศ",
+     "ro": "hɔ̂ɔng prà chum thúk hɔ̂ɔng mii khrʉ̂ʉang pràp aa kàat",
+     "ja": "すべての会議室にエアコンがある。",
+     "en": "Every meeting room has air conditioning.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会話ではふつう แอร์ と言う。"
+ },
+ {
+  "id": "tl-54712",
+  "th": "สนามหญ้า",
+  "action": "add",
+  "ro": "sà nǎam yâa",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "芝生・芝生の庭",
+    "en": "lawn",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เด็กๆ วิ่งเล่นบนสนามหญ้า",
+     "ro": "dèk dèk wîng lên bon sà nǎam yâa",
+     "ja": "子どもたちが芝生の上で走り回って遊んでいる。",
+     "en": "The children are running around on the lawn.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54713",
+  "th": "สายยาง",
+  "action": "add",
+  "ro": "sǎai yaang",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ホース（ゴムホース）",
+    "en": "hose",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาใช้สายยางรดน้ำต้นไม้",
+     "ro": "khǎo chái sǎai yaang rót náam tôn máai",
+     "ja": "彼はホースで木に水をやる。",
+     "en": "He waters the plants with a hose.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54714",
+  "th": "ลูกกุญแจ",
+  "action": "add",
+  "ro": "lûuk kun cɛɛ",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "鍵（錠に差すほう）",
+    "en": "key",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันทำลูกกุญแจบ้านหายอีกแล้ว",
+     "ro": "chǎn tham lûuk kun cɛɛ bâan hǎai ìik lɛ́ɛo",
+     "ja": "また家の鍵をなくした。",
+     "en": "I've lost my house key again.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会話では単に กุญแจ と言うことが多い。"
+ },
+ {
+  "id": "tl-54715",
+  "th": "กล่องพัสดุ",
+  "action": "add",
+  "ro": "klɔ̀ɔng phát sà dù",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "小包の箱・段ボール箱",
+    "en": "parcel box",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วยวางกล่องพัสดุไว้หน้าห้องได้ไหม",
+     "ro": "chûuai waang klɔ̀ɔng phát sà dù wái nâa hɔ̂ɔng dâai mǎi",
+     "ja": "荷物の箱を部屋の前に置いておいてもらえますか？",
+     "en": "Could you leave the parcel box in front of my room?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54716",
+  "th": "หมอนอิง",
+  "action": "add",
+  "ro": "mɔ̌ɔn ing",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "クッション（背もたれ用の枕）",
+    "en": "cushion",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โซฟาตัวนี้มีหมอนอิงสี่ใบ",
+     "ro": "soo faa tuua níi mii mɔ̌ɔn ing sìi bai",
+     "ja": "このソファにはクッションが4つある。",
+     "en": "This sofa has four cushions.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54717",
+  "th": "ผ้านวม",
+  "action": "add",
+  "ro": "phâa nuuam",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "掛け布団",
+    "en": "quilt, comforter",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อากาศหนาวต้องห่มผ้านวม",
+     "ro": "aa kàat nǎao tɔ̂ɔng hòm phâa nuuam",
+     "ja": "寒いので掛け布団をかけないといけない。",
+     "en": "It's cold, so you need a quilt.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54718",
+  "th": "รถเข็นเด็ก",
+  "action": "add",
+  "ro": "rót khěn dèk",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ベビーカー",
+    "en": "baby stroller",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ห้างนี้มีรถเข็นเด็กให้ยืม",
+     "ro": "hâang níi mii rót khěn dèk hâi yʉʉm",
+     "ja": "このデパートではベビーカーを貸してくれる。",
+     "en": "This department store lends out baby strollers.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54719",
+  "th": "ขวดนม",
+  "action": "add",
+  "ro": "khùuat nom",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "哺乳瓶・牛乳瓶",
+    "en": "baby bottle, milk bottle",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อย่าลืมล้างขวดนมของลูก",
+     "ro": "yàa lʉʉm láang khùuat nom khɔ̌ɔng lûuk",
+     "ja": "子どもの哺乳瓶を洗うのを忘れないで。",
+     "en": "Don't forget to wash the baby's bottle.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54720",
+  "th": "เครื่องชงกาแฟ",
+  "action": "add",
+  "ro": "khrʉ̂ʉang chong kaa fɛɛ",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "コーヒーメーカー",
+    "en": "coffee maker",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ที่ออฟฟิศมีเครื่องชงกาแฟใหม่",
+     "ro": "thîi ɔ́ɔp fís mii khrʉ̂ʉang chong kaa fɛɛ mài",
+     "ja": "会社に新しいコーヒーメーカーがある。",
+     "en": "There is a new coffee maker at the office.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54721",
+  "th": "ถ่านไฟฉาย",
+  "action": "add",
+  "ro": "thàan fai chǎai",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "乾電池",
+    "en": "battery (dry cell)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นาฬิกาเรือนนี้ใช้ถ่านไฟฉายสองก้อน",
+     "ro": "naa lí kaa rʉʉan níi chái thàan fai chǎai sɔ̌ɔng kɔ̂ɔn",
+     "ja": "この時計は乾電池を2本使う。",
+     "en": "This clock uses two batteries.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会話では単に ถ่าน とも言う。"
+ },
+ {
+  "id": "tl-54722",
+  "th": "รางปลั๊ก",
+  "action": "add",
+  "ro": "raang plák",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "電源タップ・延長コード",
+    "en": "power strip",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วยหยิบรางปลั๊กมาให้หน่อย",
+     "ro": "chûuai yìp raang plák maa hâi nɔ̀ɔi",
+     "ja": "電源タップを取ってきてくれる？",
+     "en": "Could you grab the power strip for me?",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ปลั๊กพ่วง とも言う。"
+ },
+ {
+  "id": "tl-54723",
+  "th": "กะละมัง",
+  "action": "add",
+  "ro": "kà lá mang",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "たらい・洗い桶",
+    "en": "basin, washbowl",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แม่ใช้กะละมังซักผ้า",
+     "ro": "mɛ̂ɛ chái kà lá mang sák phâa",
+     "ja": "母はたらいで洗濯する。",
+     "en": "My mother washes clothes in a basin.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54724",
+  "th": "ไม้จิ้มฟัน",
+  "action": "add",
+  "ro": "máai cîm fan",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "つまようじ",
+    "en": "toothpick",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขอไม้จิ้มฟันหน่อยครับ",
+     "ro": "khɔ̌ɔ máai cîm fan nɔ̀ɔi khráp",
+     "ja": "つまようじをください。",
+     "en": "Could I have a toothpick, please?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54725",
+  "th": "ลิปมัน",
+  "action": "add",
+  "ro": "líp man",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "リップクリーム",
+    "en": "lip balm",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ปากแห้งต้องทาลิปมัน",
+     "ro": "pàak hɛ̂ɛng tɔ̂ɔng thaa líp man",
+     "ja": "唇が乾くのでリップクリームを塗らないと。",
+     "en": "My lips are dry, so I need to put on lip balm.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54726",
+  "th": "ยาน้ำ",
+  "action": "add",
+  "ro": "yaa náam",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "水薬・シロップ薬",
+    "en": "liquid medicine, syrup",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เด็กเล็กมักกินยาน้ำแทนยาเม็ด",
+     "ro": "dèk lék mák kin yaa náam thɛɛn yaa mét",
+     "ja": "小さい子どもは錠剤の代わりに水薬を飲むことが多い。",
+     "en": "Young children often take liquid medicine instead of tablets.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54727",
+  "th": "ยาเม็ด",
+  "action": "add",
+  "ro": "yaa mét",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "錠剤",
+    "en": "tablet, pill",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ยาเม็ดนี้ต้องกินวันละสองครั้ง",
+     "ro": "yaa mét níi tɔ̂ɔng kin wan lá sɔ̌ɔng khráng",
+     "ja": "この錠剤は1日2回飲まなければならない。",
+     "en": "These tablets must be taken twice a day.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54728",
+  "th": "ยางรถ",
+  "action": "add",
+  "ro": "yaang rót",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "車のタイヤ",
+    "en": "car tire",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ยางรถเก่ามากแล้ว ควรเปลี่ยนใหม่",
+     "ro": "yaang rót kào mâak lɛ́ɛo khuuan plìian mài",
+     "ja": "車のタイヤがかなり古いので、新しく替えたほうがいい。",
+     "en": "The tires are very old; you should replace them.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54729",
+  "th": "ยางแบน",
+  "action": "add",
+  "ro": "yaang bɛɛn",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "パンク（タイヤの空気が抜けること）",
+    "en": "flat tire",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ระหว่างทางยางแบน เลยมาสาย",
+     "ro": "rá wàang thaang yaang bɛɛn ləəi maa sǎai",
+     "ja": "途中でタイヤがパンクしたので遅れた。",
+     "en": "I got a flat tire on the way, so I was late.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54730",
+  "th": "ไฟเลี้ยว",
+  "action": "add",
+  "ro": "fai líiao",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ウインカー・方向指示器",
+    "en": "turn signal",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เปิดไฟเลี้ยวก่อนเลี้ยวทุกครั้ง",
+     "ro": "pə̀ət fai líiao kɔ̀ɔn líiao thúk khráng",
+     "ja": "曲がる前には毎回ウインカーを出す。",
+     "en": "Always turn on your signal before turning.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54731",
+  "th": "ท้ายรถ",
+  "action": "add",
+  "ro": "tháai rót",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "車の後部・トランク",
+    "en": "rear of a car, trunk",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เอากระเป๋าไว้ท้ายรถได้เลย",
+     "ro": "ao krà pǎo wái tháai rót dâai ləəi",
+     "ja": "かばんはトランクに入れていいよ。",
+     "en": "You can put your bag in the back of the car.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54732",
+  "th": "ป้ายทะเบียน",
+  "action": "add",
+  "ro": "pâai thá biian",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ナンバープレート",
+    "en": "license plate",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กล้องจับป้ายทะเบียนรถคันนั้นได้",
+     "ro": "klɔ̂ɔng càp pâai thá biian rót khan nán dâai",
+     "ja": "カメラがあの車のナンバープレートを捉えた。",
+     "en": "The camera captured that car's license plate.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54733",
+  "th": "อู่ซ่อมรถ",
+  "action": "add",
+  "ro": "ùu sɔ̂ɔm rót",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "自動車整備工場",
+    "en": "car repair shop, garage",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รถเสีย ต้องลากไปอู่ซ่อมรถ",
+     "ro": "rót sǐia tɔ̂ɔng lâak pai ùu sɔ̂ɔm rót",
+     "ja": "車が故障したので整備工場へ引っ張っていかないといけない。",
+     "en": "The car broke down and has to be towed to a garage.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会話では単に อู่ とも言う。"
+ },
+ {
+  "id": "tl-54734",
+  "th": "ทางโค้ง",
+  "action": "add",
+  "ro": "thaang khóong",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "カーブ（道路の）",
+    "en": "bend, curve (in a road)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขับช้าๆ ข้างหน้าเป็นทางโค้ง",
+     "ro": "khàp cháa cháa khâang nâa pen thaang khóong",
+     "ja": "ゆっくり運転して。この先はカーブだ。",
+     "en": "Drive slowly; there's a bend ahead.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54735",
+  "th": "ไหล่ทาง",
+  "action": "add",
+  "ro": "lài thaang",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "路肩",
+    "en": "road shoulder",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รถเสียจอดอยู่บนไหล่ทาง",
+     "ro": "rót sǐia cɔ̀ɔt yùu bon lài thaang",
+     "ja": "故障した車が路肩に停まっている。",
+     "en": "A broken-down car is parked on the shoulder.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54736",
+  "th": "ด่านตรวจ",
+  "action": "add",
+  "ro": "dàan trùuat",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "検問所・検問",
+    "en": "checkpoint",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วงปีใหม่มีด่านตรวจเยอะมาก",
+     "ro": "chûuang pii mài mii dàan trùuat yə́ mâak",
+     "ja": "年末年始は検問がとても多い。",
+     "en": "There are a lot of checkpoints during the New Year period.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54737",
+  "th": "ขบวนรถไฟ",
+  "action": "add",
+  "ro": "khà buuan rót fai",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "列車・列車の便",
+    "en": "train (a particular service)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขบวนรถไฟเที่ยวนี้ไปเชียงใหม่",
+     "ro": "khà buuan rót fai thîiao níi pai chiiang mài",
+     "ja": "この便の列車はチェンマイ行きだ。",
+     "en": "This train service goes to Chiang Mai.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54738",
+  "th": "พี่วิน",
+  "action": "add",
+  "ro": "phîi win",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "バイクタクシーの運転手（親しみを込めた呼び方）",
+    "en": "motorcycle taxi driver",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ฉันนั่งพี่วินไปทำงานทุกเช้า",
+     "ro": "chǎn nâng phîi win pai tham ngaan thúk cháao",
+     "ja": "私は毎朝バイクタクシーで通勤している。",
+     "en": "I take a motorcycle taxi to work every morning.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "วินมอเตอร์ไซค์（バイクタクシー乗り場）の運転手を指す口語で、本人への呼びかけにも使う。"
+ },
+ {
+  "id": "tl-54739",
+  "th": "รถรับส่ง",
+  "action": "add",
+  "ro": "rót ráp sòng",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "送迎車・シャトルバス",
+    "en": "shuttle (pick-up and drop-off vehicle)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โรงแรมมีรถรับส่งไปสนามบินฟรี",
+     "ro": "roong rɛɛm mii rót ráp sòng pai sà nǎam bin frii",
+     "ja": "ホテルには空港への無料送迎車がある。",
+     "en": "The hotel has a free shuttle to the airport.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54740",
+  "th": "รถดับเพลิง",
+  "action": "add",
+  "ro": "rót dàp phləəng",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "消防車",
+    "en": "fire engine",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รถดับเพลิงมาถึงภายในสิบนาที",
+     "ro": "rót dàp phləəng maa thʉ̌ng phaai nai sìp naa thii",
+     "ja": "消防車は10分以内に到着した。",
+     "en": "The fire engine arrived within ten minutes.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54741",
+  "th": "รถตำรวจ",
+  "action": "add",
+  "ro": "rót tam rùuat",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "パトカー",
+    "en": "police car",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "มีรถตำรวจจอดอยู่หน้าบ้าน",
+     "ro": "mii rót tam rùuat cɔ̀ɔt yùu nâa bâan",
+     "ja": "家の前にパトカーが停まっている。",
+     "en": "There is a police car parked in front of the house.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54742",
+  "th": "รถสิบล้อ",
+  "action": "add",
+  "ro": "rót sìp lɔ́ɔ",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "大型トラック",
+    "en": "heavy truck (lit. ten-wheeler)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รถสิบล้อชนรถเก๋งบนทางด่วน",
+     "ro": "rót sìp lɔ́ɔ chon rót kěng bon thaang dùuan",
+     "ja": "大型トラックが高速道路で乗用車に衝突した。",
+     "en": "A heavy truck crashed into a car on the expressway.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "文字どおりは「10輪車」だが、大型トラック全般を指して使う。"
+ },
+ {
+  "id": "tl-54743",
+  "th": "ข้าวหมูกรอบ",
+  "action": "add",
+  "ro": "khâao mǔu krɔ̀ɔp",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "カリカリ豚のせご飯",
+    "en": "rice with crispy pork",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขอข้าวหมูกรอบหนึ่งจานครับ",
+     "ro": "khɔ̌ɔ khâao mǔu krɔ̀ɔp nʉ̀ng caan khráp",
+     "ja": "カリカリ豚のせご飯を1皿ください。",
+     "en": "One plate of rice with crispy pork, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54744",
+  "th": "กุนเชียง",
+  "action": "add",
+  "ro": "kun chiiang",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "中華ソーセージ（甘い腸詰め）",
+    "en": "Chinese sausage",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันชอบกินข้าวผัดกุนเชียง",
+     "ro": "chǎn chɔ̂ɔp kin khâao phàt kun chiiang",
+     "ja": "私は中華ソーセージ入りのチャーハンが好きだ。",
+     "en": "I like fried rice with Chinese sausage.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54745",
+  "th": "หมูหยอง",
+  "action": "add",
+  "ro": "mǔu yɔ̌ɔng",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "豚肉でんぶ（ポークフロス）",
+    "en": "pork floss",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เด็กๆ ชอบกินข้าวต้มกับหมูหยอง",
+     "ro": "dèk dèk chɔ̂ɔp kin khâao tôm kàp mǔu yɔ̌ɔng",
+     "ja": "子どもたちは豚肉でんぶと一緒におかゆを食べるのが好きだ。",
+     "en": "The children like eating rice porridge with pork floss.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54746",
+  "th": "หมูสะเต๊ะ",
+  "action": "add",
+  "ro": "mǔu sà té",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "豚のサテ（串焼き）",
+    "en": "pork satay",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หมูสะเต๊ะต้องกินกับน้ำจิ้มถั่ว",
+     "ro": "mǔu sà té tɔ̂ɔng kin kàp nám cîm thùua",
+     "ja": "豚のサテはピーナッツソースと一緒に食べるものだ。",
+     "en": "Pork satay should be eaten with peanut sauce.",
+     "origin": "authored"
+    }
+   }
+  ]
+ }
+]
