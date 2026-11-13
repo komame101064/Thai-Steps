@@ -86,8 +86,10 @@
  },
  {
   "id": "tl-56449",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "最終監査: 同じバッチの tl-56206 ตะหงิด の表記ゆれ（ตงิด/ตะหงิด、同音・同義）。重複登録になるため、ตะหงิด の note で異表記として示す"
+  ]
  },
  {
   "id": "tl-56450",
@@ -338,8 +340,38 @@
  },
  {
   "id": "tl-56482",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: ลูกระนาด は木琴の鍵盤状に並んだ小さな段差（ランブルストリップ）。単独のスピードバンプ（ลูกเนิน）と区別して語義を修正し、noteを追加"
+  ],
+  "fixed": {
+   "id": "tl-56482",
+   "th": "ลูกระนาด",
+   "action": "add",
+   "ro": "lûuk rá nâat",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（道路の）減速用の連続した小さな段差・ランブルストリップ",
+     "en": "rumble strips (a row of small speed bumps)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ขับช้าๆ หน่อย ข้างหน้ามีลูกระนาด",
+      "ro": "khàp cháa cháa nɔ̀ɔi khâang nâa mii lûuk rá nâat",
+      "ja": "前に段差があるから、少しゆっくり運転して。",
+      "en": "Drive a bit slowly, there are speed bumps ahead.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "木琴 ระนาด の鍵盤のように並んだ段差のこと。単独の大きな段差は ลูกเนิน・เนินชะลอความเร็ว と言う。"
+  }
  },
  {
   "id": "tl-56483",

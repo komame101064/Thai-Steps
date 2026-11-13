@@ -296,8 +296,38 @@
  },
  {
   "id": "tl-56556",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: noteで น้ำป่าไหลหลาก（鉄砲水）を同義の言い方として挙げていた誤りを修正"
+  ],
+  "fixed": {
+   "id": "tl-56556",
+   "th": "โคลนถล่ม",
+   "action": "add",
+   "ro": "khloon thà lòm",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "土石流・泥流",
+     "en": "mudslide",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "โคลนถล่มทับบ้านเรือนหลายหลัง",
+      "ro": "khloon thà lòm tháp bâan rʉʉan lǎai lǎng",
+      "ja": "土石流で多くの家屋が埋まった。",
+      "en": "A mudslide buried many houses.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ニュースでは ดินโคลนถล่ม とも言う。鉄砲水は น้ำป่าไหลหลาก で、別の現象。"
+  }
  },
  {
   "id": "tl-56557",
@@ -361,8 +391,38 @@
  },
  {
   "id": "tl-56569",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 「カーキ色」は既存 tl-45819 กากี（茶系のカーキ）の訳と重なり誤解を招くため削除し、違いをnoteに追記"
+  ],
+  "fixed": {
+   "id": "tl-56569",
+   "th": "สีเขียวขี้ม้า",
+   "action": "add",
+   "ro": "sǐi khǐiao khîi máa",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "オリーブドラブ・暗い緑色（軍服の緑）",
+     "en": "olive drab, military green",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ทหารใส่ชุดสีเขียวขี้ม้า",
+      "ro": "thá hǎan sài chút sǐi khǐiao khîi máa",
+      "ja": "兵士はオリーブグリーンの服を着ている。",
+      "en": "The soldiers wear olive-green uniforms.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "茶色がかった カーキ色（กากี、公務員の制服の色）とは別の色。"
+  }
  },
  {
   "id": "tl-56570",

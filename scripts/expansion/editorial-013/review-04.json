@@ -80,8 +80,54 @@
  },
  {
   "id": "tl-56227",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 例文訳「まったく続かず」は มาก（とても）より強い。訳を原文に合わせた"
+  ],
+  "fixed": {
+   "id": "tl-56227",
+   "th": "สมาธิสั้น",
+   "action": "add",
+   "ro": "sà maa thí sân",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "注意欠如・多動症（ADHD）",
+     "en": "attention deficit hyperactivity disorder (ADHD)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หมอบอกว่าลูกชายของเธอเป็นโรคสมาธิสั้น",
+      "ro": "mɔ̌ɔ bɔ̀ɔk wâa lûuk chaai khɔ̌ɔng thəə pen rôok sà maa thí sân",
+      "ja": "医者は彼女の息子がADHDだと言った。",
+      "en": "The doctor said her son has ADHD.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "集中力が続かない",
+     "en": "having a short attention span",
+     "pos": "形容詞・状態語",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันสมาธิสั้นมาก อ่านหนังสือได้ไม่นาน",
+      "ro": "chǎn sà maa thí sân mâak àan nǎng sʉ̌ʉ dâai mâi naan",
+      "ja": "私はすごく集中力が続かなくて、本を長く読めない。",
+      "en": "I have a very short attention span and can't read for long.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "病名としては โรคสมาธิสั้น の形でよく使う。"
+  }
  },
  {
   "id": "tl-56228",

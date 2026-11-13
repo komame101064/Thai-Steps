@@ -652,8 +652,40 @@
  },
  {
   "id": "tl-56206",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 異表記 ตงิด（tl-56449 を却下）と ตงิดใจ の形を note に追記"
+  ],
+  "fixed": {
+   "id": "tl-56206",
+   "th": "ตะหงิด",
+   "action": "add",
+   "ro": "tà ngìt",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（ตะหงิดๆ で）なんとなく変だと感じる・引っかかる",
+     "en": "(with reduplication) to have a nagging feeling something is off",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ฉันรู้สึกตะหงิดๆ ว่าเขาโกหก",
+      "ro": "chǎn rúu sʉ̀k tà ngìt tà ngìt wâa khǎo koo hòk",
+      "ja": "彼が嘘をついているような気がなんとなくする。",
+      "en": "I have a nagging feeling that he is lying.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ふつう ตะหงิดๆ と重ねて使う。ตงิดๆ とも書き、ตะหงิดใจ・ตงิดใจ の形もある。"
+  }
  },
  {
   "id": "tl-56207",
