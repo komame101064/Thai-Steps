@@ -42,6 +42,15 @@ def apply(only=None):
     for i,x in (json.loads(FA.read_text()) if FA.exists() else {}).items():
         w=by.get(i)
         if w and w['frequency']!=x['to']:w['frequency']=x['to'];w['frequencyReview']=x['reason'];stat['freq']=stat.get('freq',0)+1
+    # Slang deck review (scripts/slang-review/results-*.json): category and frequency judged for everyday native use.
+    for f in sorted((P/'scripts/slang-review').glob('results-*.json')):
+        for x in json.loads(f.read_text()):
+            w=by.get(x.get('id'))
+            if not w or w.get('collection')!='slang':continue
+            c='スラング｜'+x['category'] if x.get('category') else None
+            if c and w.get('category')!=c:w['category']=c;stat['slangCategory']=stat.get('slangCategory',0)+1
+            fq=x.get('frequency')
+            if isinstance(fq,int) and 1<=fq<=10 and w['frequency']!=fq:w['frequency']=fq;stat['slangFreq']=stat.get('slangFreq',0)+1
     for i,r in R.items():
         w=by.get(i)
         if not w:continue
