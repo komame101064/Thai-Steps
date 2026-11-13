@@ -1,0 +1,563 @@
+[
+ {
+  "id": "tl-53501",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53502",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53503",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53504",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53505",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53506",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53507",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53508",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53509",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53510",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53511",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53512",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53513",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53514",
+  "verdict": "fix",
+  "issues": [
+   "末尾 ชัน は実際の発音・王立学士院の読み・本バンクの แอปพลิเคชัน 等と同じく下降声 chân。見出しと例文のroを修正し、noteも訂正"
+  ],
+  "fixed": {
+   "id": "tl-53514",
+   "th": "คอร์รัปชัน",
+   "action": "add",
+   "ro": "khɔɔ ráp chân",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "汚職・腐敗",
+     "en": "corruption",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ประชาชนอยากให้รัฐบาลแก้ปัญหาคอร์รัปชัน",
+      "ro": "prà chaa chon yàak hâi rát thà baan kɛ̂ɛ pan hǎa khɔɔ ráp chân",
+      "ja": "国民は政府に汚職問題を解決してほしいと思っている。",
+      "en": "People want the government to solve the corruption problem.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "คอร์รัปชัน は正書法の綴りで、発音は末尾が下降声（chân）。คอรัปชั่น とも書かれる。"
+  }
+ },
+ {
+  "id": "tl-53515",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53516",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53517",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53518",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53519",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53520",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53521",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53522",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53523",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53524",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53525",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53526",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53527",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53528",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53529",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53530",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53531",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53532",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53533",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53534",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53535",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53536",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53537",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53538",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53539",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53540",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53541",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53542",
+  "verdict": "fix",
+  "issues": [
+   "「監査役」は日本の会社機関で別概念のため削除"
+  ],
+  "fixed": {
+   "id": "tl-53542",
+   "th": "ผู้สอบบัญชี",
+   "action": "add",
+   "ro": "phûu sɔ̀ɔp ban chii",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "会計監査人（会社の会計を監査する公認の監査人）",
+     "en": "auditor",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ผู้สอบบัญชีกำลังตรวจงบการเงินของบริษัท",
+      "ro": "phûu sɔ̀ɔp ban chii kam lang trùuat ngóp kaan ngəən khɔ̌ɔng bɔɔ rí sàt",
+      "ja": "監査人が会社の財務諸表を監査している。",
+      "en": "The auditor is checking the company's financial statements.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-53543",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53544",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53545",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53546",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53547",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53548",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53549",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53550",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53551",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53552",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53553",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53554",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53555",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53556",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53557",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53558",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53559",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53560",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53561",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53562",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53563",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53564",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53565",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53566",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53567",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53568",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53569",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53570",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53571",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53572",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53573",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53574",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53575",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53576",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53577",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53578",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53579",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53580",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53581",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53582",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53583",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53584",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53585",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53586",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53587",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53588",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53589",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53590",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53591",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53592",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53593",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53594",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53595",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53596",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53597",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53598",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53599",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53600",
+  "verdict": "ok",
+  "issues": []
+ }
+]
