@@ -107,6 +107,16 @@
       "rejectedByReviewer": 4,
       "fixedByReviewer": 9,
       "consistencyFlags": 0
+    },
+    {
+      "batch": "editorial-008",
+      "candidates": 70,
+      "published": 66,
+      "fixedByReviewer": 3,
+      "acceptedAsWritten": 63,
+      "rejectedByReviewer": 3,
+      "skippedByAuthor": 1,
+      "consistencyFlags": 0
     }
   ],
   "frequency": {
@@ -141,8 +151,8 @@
       ]
     }
   },
-  "published": 5646,
+  "published": 5712,
   "general": 5560,
-  "slang": 86,
-  "senses": 6316
+  "slang": 152,
+  "senses": 6385
 }

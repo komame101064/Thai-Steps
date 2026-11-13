@@ -1,0 +1,216 @@
+[
+ {
+  "id": "tl-60236",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60237",
+  "verdict": "ok",
+  "issues": [
+   "เบลอ bləə（平声）で可"
+  ]
+ },
+ {
+  "id": "tl-60238",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60239",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60240",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60241",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60242",
+  "verdict": "ok",
+  "issues": [
+   "แอค ɛ́k は借用語の実際の発音どおり（ro-lexicon の แอป ɛ́p と同じ扱い）で可"
+  ]
+ },
+ {
+  "id": "tl-60243",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60244",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60245",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60246",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60247",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60248",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60249",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60250",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60251",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60252",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60253",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60254",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60255",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60256",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60257",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60258",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60259",
+  "verdict": "fix",
+  "issues": [
+   "noteの「แอ๋ は単独では使わない」は言い過ぎ（辞書でも แอ๋ 単独で『ひどく酔った』の意味があり、แอ๋แล้ว 等も言う）。「ほぼ เมาแอ๋ の形で使う」に修正。読み mao ɛ̌ɛ（อ中子音＋ไม้จัตวา＝上声）は正しい"
+  ],
+  "fixed": {
+   "id": "tl-60259",
+   "th": "เมาแอ๋",
+   "action": "add",
+   "ro": "mao ɛ̌ɛ",
+   "kind": "expression",
+   "category": "スラング｜遊ぶ・飲む",
+   "adult": false,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "べろべろに酔う・泥酔する",
+     "pos": "形容詞・状態語",
+     "speechStyle": "口語",
+     "note": "แอ๋ は「ひどく酔った」様子を表す語で、ほぼ เมาแอ๋ の形で使う。友人の酔い方を笑って話すときなどに使う。",
+     "example": {
+      "th": "เมื่อคืนเพื่อนเมาแอ๋ เดินกลับบ้านไม่ไหว",
+      "ro": "mʉ̂ʉa khʉʉn phʉ̂ʉan mao ɛ̌ɛ dəən klàp bâan mâi wǎi",
+      "ja": "昨夜、友達はべろべろに酔って、歩いて帰れなかった。",
+      "context": "飲み会の翌日の雑談",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60260",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60261",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60262",
+  "verdict": "ok",
+  "issues": [
+   "著者確認依頼の件：ตื๊ด は ต（中子音）＋ไม้ตรี＝高声、ื＋末子音は長母音で tʉ́ʉt で正しい。สายตื๊ด・ไปตื๊ด・เพลงตื๊ด は今も若者に通じる語で、頻度4は妥当"
+  ]
+ },
+ {
+  "id": "tl-60263",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60264",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60265",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60266",
+  "verdict": "ok",
+  "issues": [
+   "ปรี๊ด príit（ป中子音＋ไม้ตรี＝高声、長母音・末子音ด）で可"
+  ]
+ },
+ {
+  "id": "tl-60267",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60268",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60269",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60270",
+  "verdict": "ok",
+  "issues": []
+ }
+]

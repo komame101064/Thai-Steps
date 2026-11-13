@@ -36,7 +36,7 @@ def hint_syllables(h):
         base,tone,_=split_tone(s);out.append((':' in s,tone))
     return out
 MONO=re.compile('^'+ONSET+r'(aa|ii|ʉʉ|uu|ee|ɛɛ|oo|ɔɔ|əə|[aiʉueɛoɔə])(?:ng|[ktpnm])?$')
-SLANG_CATEGORIES={'スラング｜下ネタ','スラング｜恋愛・人間関係','スラング｜誘う・返す','スラング｜差別的表現','スラング｜一般','スラング｜ネット・SNS','スラング｜ほめる・反応','スラング｜友達の日常','スラング｜気持ち'}
+SLANG_CATEGORIES={'スラング｜粗い言葉','スラング｜遊ぶ・飲む','スラング｜隠語・報道','スラング｜下ネタ','スラング｜恋愛・人間関係','スラング｜誘う・返す','スラング｜差別的表現','スラング｜一般','スラング｜ネット・SNS','スラング｜ほめる・反応','スラング｜友達の日常','スラング｜気持ち'}
 SLANG_STYLES={'口語','口語・スラング','粗い口語','口語・性的な話題','かなり粗い・性的な俗語','標準語・性的な話題','差別的な罵り（理解用）','ネット表記'}
 def validate(batch):
     if batch.startswith('editorial-'):return validate_editorial(batch)
