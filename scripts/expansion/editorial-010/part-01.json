@@ -157,7 +157,7 @@
   "ro": "yɛ̂ɛ long",
   "kind": "word",
   "category": "性質・状態",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -637,7 +637,7 @@
   "ro": "khoo wít",
   "kind": "word",
   "category": "体・健康",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -692,7 +692,7 @@
   "ro": "chái bɔɔ rí kaan",
   "kind": "word",
   "category": "お金・買い物",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -719,7 +719,7 @@
   "ro": "hâi bɔɔ rí kaan",
   "kind": "word",
   "category": "お金・買い物",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -828,7 +828,7 @@
   "ro": "pai than",
   "kind": "word",
   "category": "時間",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -882,7 +882,7 @@
   "ro": "pen krà sɛ̌ɛ",
   "kind": "word",
   "category": "趣味・メディア",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -909,7 +909,7 @@
   "ro": "sòng phǒn krà thóp",
   "kind": "word",
   "category": "社会・制度",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -939,7 +939,7 @@
   "ro": "rót chon",
   "kind": "word",
   "category": "移動・道案内",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -982,7 +982,7 @@
   "ro": "pen nîi",
   "kind": "word",
   "category": "お金・買い物",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1009,7 +1009,7 @@
   "ro": "cham rá ngəən",
   "kind": "word",
   "category": "お金・買い物",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1039,7 +1039,7 @@
   "ro": "yùt ngaan",
   "kind": "word",
   "category": "仕事・学習",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1066,7 +1066,7 @@
   "ro": "hǎa khɔ̂ɔ muun",
   "kind": "word",
   "category": "仕事・学習",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1304,7 +1304,7 @@
   "ro": "dûuai tuua eeng",
   "kind": "word",
   "category": "一般語彙",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1358,7 +1358,7 @@
   "ro": "pòk kà tì lɛ́ɛo",
   "kind": "word",
   "category": "時間",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1381,62 +1381,14 @@
  {
   "id": "tl-54247",
   "th": "แล้วกัน",
-  "action": "add",
-  "ro": "lɛ́ɛo kan",
-  "kind": "word",
-  "category": "助詞・語気",
-  "frequency": 7,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "〜することにしよう・〜ということで（決めて締めくくる）",
-    "en": "let's just..., I'll go with...",
-    "pos": "助詞",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "งั้นกินข้าวผัดแล้วกัน",
-     "ro": "ngán kin khâao phàt lɛ́ɛo kan",
-     "ja": "じゃあ、チャーハンにしよう。",
-     "en": "Then let's just have fried rice.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "文末で決定・提案を軽く締めくくる。ก็แล้วกัน とも言う。"
+  "action": "skip",
+  "skipReason": "既存の ก็แล้วกัน（〜にしよう）と同じ語の短縮形で、意味も同じため重複として除外。"
  },
  {
   "id": "tl-54248",
   "th": "นิดนึง",
-  "action": "add",
-  "ro": "nít nʉng",
-  "kind": "word",
-  "category": "量・程度・比較",
-  "frequency": 8,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "ちょっと・少し",
-    "en": "a little, a bit",
-    "pos": "副詞",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "รอนิดนึงนะ เดี๋ยวมา",
-     "ro": "rɔɔ nít nʉng ná dǐiao maa",
-     "ja": "ちょっと待ってね、すぐ来るから。",
-     "en": "Wait a moment, I'll be right back.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "นิดหนึ่ง の口語形。"
+  "action": "skip",
+  "skipReason": "既存の นิดหนึ่ง の口語発音どおりの表記ゆれで、意味も同じため重複として除外。"
  },
  {
   "id": "tl-54249",
@@ -1526,7 +1478,7 @@
   "ro": "khɔɔ rɔɔ mɔɔ",
   "kind": "word",
   "category": "社会・制度",
-  "frequency": 5,
+  "frequency": 4,
   "senses": [
    {
     "sourceSense": 1,
@@ -1556,7 +1508,7 @@
   "ro": "sùk khà phâap cìt",
   "kind": "word",
   "category": "体・健康",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1583,7 +1535,7 @@
   "ro": "rá wàang prà thêet",
   "kind": "word",
   "category": "社会・制度",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1611,7 +1563,7 @@
   "ro": "ɔ̀ɔk dəən thaang",
   "kind": "word",
   "category": "移動・道案内",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1638,7 +1590,7 @@
   "ro": "phaa thîiao",
   "kind": "word",
   "category": "趣味・メディア",
-  "frequency": 6,
+  "frequency": 4,
   "senses": [
    {
     "sourceSense": 1,
@@ -1665,7 +1617,7 @@
   "ro": "khʉ̂n khrʉ̂ʉang",
   "kind": "word",
   "category": "移動・道案内",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1693,7 +1645,7 @@
   "ro": "taam than",
   "kind": "word",
   "category": "一般語彙",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1737,7 +1689,7 @@
   "ro": "pai sǎai",
   "kind": "word",
   "category": "時間",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1765,7 +1717,7 @@
   "ro": "ɛ̀ɛt lai",
   "kind": "word",
   "category": "趣味・メディア",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1795,7 +1747,7 @@
   "ro": "tìt tɔ̀ɔ klàp",
   "kind": "word",
   "category": "仕事・学習",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1822,7 +1774,7 @@
   "ro": "tìt an dàp",
   "kind": "word",
   "category": "趣味・メディア",
-  "frequency": 5,
+  "frequency": 4,
   "senses": [
    {
     "sourceSense": 1,
@@ -1849,7 +1801,7 @@
   "ro": "càt khʉ̂n",
   "kind": "word",
   "category": "社会・制度",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1879,7 +1831,7 @@
   "ro": "pə̀ət hâi bɔɔ rí kaan",
   "kind": "word",
   "category": "社会・制度",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1906,7 +1858,7 @@
   "ro": "prà sòp ù bàt tì hèet",
   "kind": "word",
   "category": "社会・制度",
-  "frequency": 5,
+  "frequency": 4,
   "senses": [
    {
     "sourceSense": 1,
@@ -1936,7 +1888,7 @@
   "ro": "thùuk càp",
   "kind": "word",
   "category": "社会・制度",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1963,7 +1915,7 @@
   "ro": "sǐia nâa",
   "kind": "word",
   "category": "人・家族",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -1990,7 +1942,7 @@
   "ro": "sǐia khwaam rúu sʉ̀k",
   "kind": "word",
   "category": "人・家族",
-  "frequency": 5,
+  "frequency": 4,
   "senses": [
    {
     "sourceSense": 1,
@@ -2017,7 +1969,7 @@
   "ro": "dâai ngaan",
   "kind": "word",
   "category": "仕事・学習",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -2044,7 +1996,7 @@
   "ro": "dâai kam rai",
   "kind": "word",
   "category": "お金・買い物",
-  "frequency": 5,
+  "frequency": 4,
   "senses": [
    {
     "sourceSense": 1,
@@ -2071,7 +2023,7 @@
   "ro": "khleem",
   "kind": "word",
   "category": "お金・買い物",
-  "frequency": 5,
+  "frequency": 4,
   "senses": [
    {
     "sourceSense": 1,
@@ -2099,7 +2051,7 @@
   "ro": "khâo prà chum",
   "kind": "word",
   "category": "仕事・学習",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -2126,7 +2078,7 @@
   "ro": "ráp ngaan",
   "kind": "word",
   "category": "仕事・学習",
-  "frequency": 5,
+  "frequency": 4,
   "senses": [
    {
     "sourceSense": 1,
@@ -2153,7 +2105,7 @@
   "ro": "sɔ̀ɔp tìt",
   "kind": "word",
   "category": "仕事・学習",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -2181,7 +2133,7 @@
   "ro": "khâo riian",
   "kind": "word",
   "category": "仕事・学習",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -2224,7 +2176,7 @@
   "ro": "tham eeng",
   "kind": "word",
   "category": "日常の動作",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -2251,7 +2203,7 @@
   "ro": "tham phlâat",
   "kind": "word",
   "category": "一般語彙",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -2278,7 +2230,7 @@
   "ro": "khít ɔ̀ɔk",
   "kind": "word",
   "category": "日常の動作",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -2306,7 +2258,7 @@
   "ro": "tham tɔ̀ɔ",
   "kind": "word",
   "category": "日常の動作",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -2333,7 +2285,7 @@
   "ro": "tham mài",
   "kind": "word",
   "category": "日常の動作",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -2360,7 +2312,7 @@
   "ro": "tʉ̀ʉn cháao",
   "kind": "word",
   "category": "日常の動作",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -2387,7 +2339,7 @@
   "ro": "dəən hâang",
   "kind": "word",
   "category": "趣味・メディア",
-  "frequency": 6,
+  "frequency": 4,
   "senses": [
    {
     "sourceSense": 1,
@@ -2416,7 +2368,7 @@
   "ro": "lʉ̂ʉat ɔ̀ɔk",
   "kind": "word",
   "category": "体・健康",
-  "frequency": 6,
+  "frequency": 4,
   "senses": [
    {
     "sourceSense": 1,
@@ -2443,7 +2395,7 @@
   "ro": "hǎai dii",
   "kind": "word",
   "category": "体・健康",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -2470,7 +2422,7 @@
   "ro": "plìian sʉ̂ʉa phâa",
   "kind": "word",
   "category": "日常の動作",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -2497,7 +2449,7 @@
   "ro": "tɔ̀ɔp khɔ̂ɔ khwaam",
   "kind": "word",
   "category": "趣味・メディア",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -2524,7 +2476,7 @@
   "ro": "lòot ɛ́p",
   "kind": "word",
   "category": "趣味・メディア",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -2554,7 +2506,7 @@
   "ro": "mʉʉ sɔ̌ɔng",
   "kind": "word",
   "category": "お金・買い物",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,
@@ -2577,62 +2529,14 @@
  {
   "id": "tl-54289",
   "th": "ยังไงก็",
-  "action": "add",
-  "ro": "yang ngai kɔ̂ɔ",
-  "kind": "word",
-  "category": "接続表現",
-  "frequency": 7,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "どうせ・いずれにしても・何があっても",
-    "en": "anyway, in any case",
-    "pos": "副詞",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "ฝนตกหรือไม่ตก ยังไงก็ต้องไปทำงาน",
-     "ro": "fǒn tòk rʉ̌ʉ mâi tòk yang ngai kɔ̂ɔ tɔ̂ɔng pai tham ngaan",
-     "ja": "雨が降っても降らなくても、どのみち仕事には行かなければならない。",
-     "en": "Rain or no rain, I have to go to work anyway.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "อย่างไรก็ の口語形。"
+  "action": "skip",
+  "skipReason": "既存の ยังไงก็ตาม（とにかく・どうであっても）とほぼ同義の短縮形で、独立した見出しにすると重複になるため除外。"
  },
  {
   "id": "tl-54290",
   "th": "เพราะงั้น",
-  "action": "add",
-  "ro": "phrɔ́ ngán",
-  "kind": "word",
-  "category": "接続表現",
-  "frequency": 7,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "だから・それで",
-    "en": "so, therefore",
-    "pos": "接続詞",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "พรุ่งนี้ฝนจะตก เพราะงั้นเอาร่มไปด้วยนะ",
-     "ro": "phrûng níi fǒn cà tòk phrɔ́ ngán ao rôm pai dûuai ná",
-     "ja": "明日は雨が降るよ。だから傘を持って行ってね。",
-     "en": "It'll rain tomorrow, so take an umbrella.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "เพราะฉะนั้น の口語形。"
+  "action": "skip",
+  "skipReason": "既存の เพราะฉะนั้น（だから）の口語の縮約形で、意味も同じため重複として除外。"
  },
  {
   "id": "tl-54291",
@@ -2641,7 +2545,7 @@
   "ro": "prà maan wâa",
   "kind": "word",
   "category": "接続表現",
-  "frequency": 6,
+  "frequency": 5,
   "senses": [
    {
     "sourceSense": 1,

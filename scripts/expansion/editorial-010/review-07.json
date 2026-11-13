@@ -1,0 +1,548 @@
+[
+ {
+  "id": "tl-54747",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54748",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54749",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54750",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54751",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54752",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54753",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54754",
+  "verdict": "fix",
+  "issues": [
+   "語義「黒い草ゼリー」が不自然な日本語のため修正"
+  ],
+  "fixed": {
+   "id": "tl-54754",
+   "th": "เฉาก๊วย",
+   "action": "add",
+   "ro": "chǎo kúuai",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "仙草ゼリー（黒いゼリー状のデザート）",
+     "en": "grass jelly",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เฉาก๊วยใส่น้ำแข็งช่วยให้หายร้อน",
+      "ro": "chǎo kúuai sài nám khɛ̌ng chûuai hâi hǎai rɔ́ɔn",
+      "ja": "氷入りの仙草ゼリーで暑さがやわらぎます。",
+      "en": "Grass jelly with ice helps you cool down.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-54755",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54756",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54757",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54758",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54759",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54760",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54761",
+  "verdict": "fix",
+  "issues": [
+   "noteの「とも言う」は ผักกาดหอม＝玉レタスと誤解させるため修正"
+  ],
+  "fixed": {
+   "id": "tl-54761",
+   "th": "ผักกาดหอม",
+   "action": "add",
+   "ro": "phàk kàat hɔ̌ɔm",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "レタス・サニーレタス",
+     "en": "lettuce",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ล้างผักกาดหอมให้สะอาดก่อนกิน",
+      "ro": "láang phàk kàat hɔ̌ɔm hâi sà àat kɔ̀ɔn kin",
+      "ja": "食べる前にレタスをよく洗ってください。",
+      "en": "Wash the lettuce well before eating it.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "結球する玉レタスは ผักกาดแก้ว と言う。"
+  }
+ },
+ {
+  "id": "tl-54762",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54763",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54764",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54765",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54766",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54767",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54768",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54769",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54770",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54771",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54772",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54773",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54774",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54775",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54776",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54777",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54778",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54779",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54780",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54781",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54782",
+  "verdict": "reject",
+  "issues": [
+   "คน＋動詞の自由な組み合わせで語彙化した語とは言いにくい。辞書的な語 ผู้ซื้อ と ลูกค้า は既に収録済み"
+  ]
+ },
+ {
+  "id": "tl-54783",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54784",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54785",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54786",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54787",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54788",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54789",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54790",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54791",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54792",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54793",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54794",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54795",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54796",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54797",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54798",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54799",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54800",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54801",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54802",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54803",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54804",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54805",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54806",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54807",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54808",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54809",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54810",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54811",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54812",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54813",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54814",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54815",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54816",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54817",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54818",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54819",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54820",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54821",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54822",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54823",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54824",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54825",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54826",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54827",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54828",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54829",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54830",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54831",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54832",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54833",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54834",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54835",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54836",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54837",
+  "verdict": "fix",
+  "issues": [
+   "น้ำมันหอย は会話に限らず料理の説明でも普通に使う標準的な呼び方なので口語ラベルを外し、noteを修正"
+  ],
+  "fixed": {
+   "id": "tl-54837",
+   "th": "น้ำมันหอย",
+   "action": "add",
+   "ro": "nám man hɔ̌ɔi",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "オイスターソース",
+     "en": "oyster sauce",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ผัดผักใส่น้ำมันหอยจะอร่อยขึ้น",
+      "ro": "phàt phàk sài nám man hɔ̌ɔi cà à rɔ̀ɔi khʉ̂n",
+      "ja": "野菜炒めにオイスターソースを入れるとおいしくなります。",
+      "en": "Stir-fried vegetables taste better with oyster sauce.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "商品ラベルでは ซอสหอยนางรม と書くことが多い。"
+  }
+ }
+]
