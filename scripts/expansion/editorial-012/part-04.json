@@ -63,7 +63,7 @@
   "ro": "din sɔ̌ɔ kòt",
   "kind": "word",
   "category": "仕事・学習",
-  "frequency": 3,
+  "frequency": 2,
   "senses": [
    {
     "sourceSense": 1,
@@ -619,7 +619,7 @@
   "ro": "kèp plaai thaang",
   "kind": "word",
   "category": "お金・買い物",
-  "frequency": 4,
+  "frequency": 2,
   "senses": [
    {
     "sourceSense": 1,
@@ -1166,10 +1166,10 @@
   "id": "tl-55681",
   "th": "เหลืองอร่าม",
   "action": "add",
-  "ro": "lʉ̌ʉang à râam",
+  "ro": "lʉ̌ʉang à ràam",
   "kind": "word",
   "category": "自然・天気・色",
-  "frequency": 2,
+  "frequency": 1,
   "senses": [
    {
     "sourceSense": 1,
@@ -1181,7 +1181,7 @@
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
      "th": "เจดีย์สีทองเหลืองอร่ามอยู่กลางแดด",
-     "ro": "cee dii sǐi thɔɔng lʉ̌ʉang à râam yùu klaang dɛ̀ɛt",
+     "ro": "cee dii sǐi thɔɔng lʉ̌ʉang à ràam yùu klaang dɛ̀ɛt",
      "ja": "金色の仏塔が日差しの中で輝いています。",
      "en": "The golden pagoda gleams in the sun.",
      "origin": "authored"
@@ -1196,7 +1196,7 @@
   "ro": "lâm bʉ̂k",
   "kind": "word",
   "category": "体・健康",
-  "frequency": 2,
+  "frequency": 1,
   "senses": [
    {
     "sourceSense": 1,
@@ -1388,29 +1388,8 @@
  {
   "id": "tl-55689",
   "th": "ผัดผัก",
-  "action": "add",
-  "ro": "phàt phàk",
-  "kind": "word",
-  "category": "食べ物・飲み物",
-  "frequency": 4,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "野菜炒め",
-    "en": "stir-fried vegetables",
-    "pos": "名詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "ฉันสั่งผัดผักกับข้าวสวย",
-     "ro": "chǎn sàng phàt phàk kàp khâao sǔuai",
-     "ja": "私は野菜炒めとご飯を注文しました。",
-     "en": "I ordered stir-fried vegetables and rice.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "「ผัด（炒める）＋ผัก（野菜）」の透明な組み合わせで、既存の用例でも自由な動詞句として使われているため見送り。"
  },
  {
   "id": "tl-55690",
@@ -1502,7 +1481,7 @@
   "ro": "tâo huuai",
   "kind": "word",
   "category": "食べ物・飲み物",
-  "frequency": 3,
+  "frequency": 2,
   "senses": [
    {
     "sourceSense": 1,
@@ -1525,29 +1504,8 @@
  {
   "id": "tl-55694",
   "th": "มัสตาร์ด",
-  "action": "add",
-  "ro": "mát tàat",
-  "kind": "word",
-  "category": "食べ物・飲み物",
-  "frequency": 2,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "マスタード",
-    "en": "mustard",
-    "pos": "名詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "ฉันชอบกินไส้กรอกกับมัสตาร์ด",
-     "ro": "chǎn chɔ̂ɔp kin sâi krɔ̀ɔk kàp mát tàat",
-     "ja": "私はソーセージをマスタードと一緒に食べるのが好きです。",
-     "en": "I like eating sausages with mustard.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "既存語に前例がなく、音節数（mát tàat か mát sà tàat か）と声調を確定できないため見送り。"
  },
  {
   "id": "tl-55695",
