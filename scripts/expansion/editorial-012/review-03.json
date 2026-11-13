@@ -1,0 +1,669 @@
+[
+ {
+  "id": "tl-55561",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55562",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55563",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55564",
+  "verdict": "fix",
+  "issues": [
+   "例文の ชิงโชคได้รางวัลใหญ่ は「当選する」と読めるため ได้ を削除"
+  ],
+  "fixed": {
+   "id": "tl-55564",
+   "th": "ชิงโชค",
+   "action": "add",
+   "ro": "ching chôok",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "懸賞・抽選に応募する",
+     "en": "to enter a prize draw",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ซื้อครบห้าร้อยบาทมีสิทธิ์ชิงโชครางวัลใหญ่",
+      "ro": "sʉ́ʉ khróp hâa rɔ́ɔi bàat mii sìt ching chôok raang wan yài",
+      "ja": "500バーツ以上買うと大賞の抽選に応募できる。",
+      "en": "Spend 500 baht and you can enter a draw for a big prize.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55565",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55566",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55567",
+  "verdict": "reject",
+  "issues": [
+   "ช่วย＋งาน（行事）の透明な動詞＋目的語の結合で、例文も ช่วย＋งานแต่งงาน と解析される。見出しとしての語彙化が不十分なため不採用"
+  ]
+ },
+ {
+  "id": "tl-55568",
+  "verdict": "fix",
+  "issues": [
+   "外来語末尾 -นิก/-นิค は既存の เทคนิค・คลินิก に合わせ nìk（低声）に修正"
+  ],
+  "fixed": {
+   "id": "tl-55568",
+   "th": "แพนิก",
+   "action": "add",
+   "ro": "phɛɛ nìk",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "パニックになる・あわてふためく",
+     "en": "to panic",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "อย่าแพนิก ค่อยๆ คิดก่อน",
+      "ro": "yàa phɛɛ nìk khɔ̂ɔi khɔ̂ɔi khít kɔ̀ɔn",
+      "ja": "パニックにならないで、まずゆっくり考えて。",
+      "en": "Don't panic, think it through slowly first.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "แพนิค とも書く。โรคแพนิก は「パニック障害」。"
+  }
+ },
+ {
+  "id": "tl-55569",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55570",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55571",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55572",
+  "verdict": "reject",
+  "issues": [
+   "เร็ว＋強調の添え語 จี๋ の組み合わせとして一般的に定着しているか確認できない（จี๋ 単独の強調用法も不確か）。疑わしいため不採用"
+  ]
+ },
+ {
+  "id": "tl-55573",
+  "verdict": "reject",
+  "issues": [
+   "作者の疑義語：読み chʉ̂ʉt chaa は規則どおりだが、書き言葉寄りの稀な語で現代の一般語とは言えない（会話・報道では เย็นชา・เฉยชา が普通）。例文 ตอบรับอย่างชืดชา も自然さに確信が持てないため不採用"
+  ]
+ },
+ {
+  "id": "tl-55574",
+  "verdict": "fix",
+  "issues": [
+   "語義2の例文 ความคิด…เก่าเก็บ は不自然（考え方には ล้าสมัย が普通）。มุกเก่าเก็บ の用例に差し替え、語義を調整"
+  ],
+  "fixed": {
+   "id": "tl-55574",
+   "th": "เก่าเก็บ",
+   "action": "add",
+   "ro": "kào kèp",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（品物が）長くしまわれていた・売れ残りの",
+     "en": "old stock, long kept in storage",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ร้านนี้ลดราคาสินค้าเก่าเก็บ",
+      "ro": "ráan níi lót raa khaa sǐn kháa kào kèp",
+      "ja": "この店は売れ残りの在庫品を値下げしている。",
+      "en": "This shop is discounting old stock.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（ネタ・話題などが）古くさい・使い古された",
+     "en": "stale, old (of jokes, topics)",
+     "pos": "形容詞・状態語",
+     "use": "よく使う別の意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "มุกนี้เก่าเก็บแล้ว ไม่มีใครขำ",
+      "ro": "múk níi kào kèp lɛ́ɛo mâi mii khrai khǎm",
+      "ja": "このネタはもう古くさくて、誰も笑わない。",
+      "en": "This joke is stale; nobody laughs.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55575",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55576",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55577",
+  "verdict": "fix",
+  "issues": [
+   "作者の疑義語：実在の慣用句（ถือยศถือศักดิ์・しきたりや格式にこだわる）で読み câo yót câo yàang も正しいので採用。語義を「礼儀作法にうるさい」から「格式ばった・身分やしきたりにこだわる」寄りに調整"
+  ],
+  "fixed": {
+   "id": "tl-55577",
+   "th": "เจ้ายศเจ้าอย่าง",
+   "action": "add",
+   "ro": "câo yót câo yàang",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "格式ばった・身分や作法・しきたりにこだわる",
+     "en": "standing on ceremony; particular about rank and protocol",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "คุณยายของเขาเป็นคนเจ้ายศเจ้าอย่าง",
+      "ro": "khun yaai khɔ̌ɔng khǎo pen khon câo yót câo yàang",
+      "ja": "彼の祖母は格式やしきたりにこだわる人だ。",
+      "en": "His grandmother is a stickler for rank and protocol.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55578",
+  "verdict": "reject",
+  "issues": [
+   "作者の疑義語：น่า＋ชัง の生産的結合で、ชัง 自体が既存の文語見出し。単独で「憎たらしい」と使うのは稀で、標準語ラベルは不正確。熟語化しているのは逆の意味の น่ารักน่าชัง（別見出し）なので不採用"
+  ]
+ },
+ {
+  "id": "tl-55579",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55580",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55581",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55582",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55583",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55584",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55585",
+  "verdict": "fix",
+  "issues": [
+   "語義2（体温計）は既存見出し ปรอทวัดไข้ の短縮形で、例文もその見出しを含むため削除。注記で参照"
+  ],
+  "fixed": {
+   "id": "tl-55585",
+   "th": "ปรอท",
+   "action": "add",
+   "ro": "pà rɔ̀ɔt",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "水銀",
+     "en": "mercury",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ปรอทเป็นโลหะที่มีพิษ",
+      "ro": "pà rɔ̀ɔt pen loo hà thîi mii phít",
+      "ja": "水銀は毒性のある金属だ。",
+      "en": "Mercury is a toxic metal.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "体温計の意味では既存の ปรอทวัดไข้ を参照（会話では ปรอท だけで体温計を指すこともある）。"
+  }
+ },
+ {
+  "id": "tl-55586",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55587",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55588",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55589",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55590",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55591",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55592",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55593",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55594",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55595",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55596",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55597",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55598",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55599",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55600",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55601",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55602",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55603",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55604",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55605",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55606",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55607",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55608",
+  "verdict": "fix",
+  "issues": [
+   "ชาตินิยม の標準読みは ชาด-นิ-ยม（châat ní yom）で連結音節なし。見出し・例文のroを修正"
+  ],
+  "fixed": {
+   "id": "tl-55608",
+   "th": "ชาตินิยม",
+   "action": "add",
+   "ro": "châat ní yom",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ナショナリズム・民族主義・愛国主義",
+     "en": "nationalism",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "กระแสชาตินิยมแรงขึ้นในช่วงนี้",
+      "ro": "krà sɛ̌ɛ châat ní yom rɛɛng khʉ̂n nai chûuang níi",
+      "ja": "最近ナショナリズムの風潮が強まっている。",
+      "en": "Nationalist sentiment has grown stronger recently.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55609",
+  "verdict": "fix",
+  "issues": [
+   "例文 …หน่วยเลือกตั้งแต่เช้า は ตั้งแต่ と区切られ見出しが崩れる。…หน่วยเลือกตั้งตั้งแต่เช้า に修正"
+  ],
+  "fixed": {
+   "id": "tl-55609",
+   "th": "หน่วยเลือกตั้ง",
+   "action": "add",
+   "ro": "nùuai lʉ̂ʉak tâng",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "投票所",
+     "en": "polling station",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ประชาชนไปใช้สิทธิ์ที่หน่วยเลือกตั้งตั้งแต่เช้า",
+      "ro": "prà chaa chon pai chái sìt thîi nùuai lʉ̂ʉak tâng tâng tɛ̀ɛ cháao",
+      "ja": "人々は朝から投票所へ投票に行った。",
+      "en": "People went to vote at the polling stations from early morning.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55610",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55611",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55612",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55613",
+  "verdict": "fix",
+  "issues": [
+   "พ は既存の ซัพพลายเออร์（sáp phlaai）に合わせ ph と表記。sáp phɔ̀ɔt に修正"
+  ],
+  "fixed": {
+   "id": "tl-55613",
+   "th": "ซัพพอร์ต",
+   "action": "add",
+   "ro": "sáp phɔ̀ɔt",
+   "kind": "word",
+   "category": "日常の動作",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "支える・支援する・応援する",
+     "en": "to support",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ขอบคุณที่ซัพพอร์ตกันมาตลอด",
+      "ro": "khɔ̀ɔp khun thîi sáp phɔ̀ɔt kan maa tà lɔ̀ɔt",
+      "ja": "ずっと支えてくれてありがとう。",
+      "en": "Thank you for always supporting me.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "会話での英語由来語。改まった言い方は สนับสนุน。"
+  }
+ },
+ {
+  "id": "tl-55614",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55615",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55616",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55617",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55618",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55619",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55620",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55621",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55622",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55623",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55624",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55625",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55626",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55627",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55628",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55629",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55630",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55631",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55632",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55633",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55634",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55635",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55636",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55637",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55638",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55639",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55640",
+  "verdict": "ok",
+  "issues": []
+ }
+]

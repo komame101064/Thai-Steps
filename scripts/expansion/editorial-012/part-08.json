@@ -266,7 +266,7 @@
   "id": "tl-60610",
   "th": "รีทวีต",
   "action": "skip",
-  "skipReason": "ทว の二重子音（thw）がアプリのローマ字体系になく、表記を確定できない。旧Twitter改名で使用も減りつつあるため見送り。"
+  "skipReason": "外来語の声調を既存語の前例で確認できず、旧Twitterの改名で使用も減りつつあるため見送り。"
  },
  {
   "id": "tl-60611",
@@ -300,32 +300,8 @@
  {
   "id": "tl-60612",
   "th": "สะเหร่อ",
-  "action": "add",
-  "ro": "sà rə̀ə",
-  "kind": "word",
-  "category": "スラング｜友達の日常",
-  "adult": false,
-  "tags": [
-   "colloquial",
-   "slang"
-  ],
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "イタい・身の丈に合わないかっこつけをする",
-    "pos": "形容詞・状態語",
-    "speechStyle": "口語・スラング",
-    "note": "場違いなかっこつけや出しゃばった言動をけなす語。สะเหล่อ と書くこともある。かなり否定的なので本人には言わない。",
-    "example": {
-     "th": "เขาชอบทำตัวสะเหร่อเวลาอยู่ต่อหน้าสาวๆ",
-     "ro": "khǎo chɔ̂ɔp tham tuua sà rə̀ə wee laa yùu tɔ̀ɔ nâa sǎao sǎao",
-     "ja": "彼は女の子の前だとイタいふるまいをしがちだ。",
-     "context": "共通の友人のうわさ話",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "綴りが สะเหร่อ／เสร่อ／สะเหล่อ と揺れ、標準的な見出し形と読みを確定できないため。"
  },
  {
   "id": "tl-60613",
@@ -678,31 +654,8 @@
  {
   "id": "tl-60628",
   "th": "ฟีเวอร์",
-  "action": "add",
-  "ro": "fii wəə",
-  "kind": "word",
-  "category": "スラング｜友達の日常",
-  "adult": false,
-  "tags": [
-   "colloquial"
-  ],
-  "frequency": 4,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "大ブームになっている・熱狂的な人気の",
-    "pos": "形容詞・状態語",
-    "speechStyle": "口語",
-    "note": "英語 fever から。「ชาบูฟีเวอร์」のように名詞の後ろにつけて「〜ブーム」とも言う。報道や広告でも使う。",
-    "example": {
-     "th": "ตอนนี้ร้านชาบูฟีเวอร์มาก เปิดใหม่ทุกซอย",
-     "ro": "tɔɔn níi ráan chaa buu fii wəə mâak pə̀ət mài thúk sɔɔi",
-     "ja": "今はしゃぶしゃぶ店が大ブームで、どの路地にも新しい店ができている。",
-     "context": "街の流行について話す",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "報道や広告でも使う一般的な外来語で、スラング欄にはそぐわないため。"
  },
  {
   "id": "tl-60629",
@@ -1092,32 +1045,8 @@
  {
   "id": "tl-60644",
   "th": "ซัมติง",
-  "action": "add",
-  "ro": "sam ting",
-  "kind": "word",
-  "category": "スラング｜恋愛・人間関係",
-  "adult": false,
-  "tags": [
-   "colloquial",
-   "slang"
-  ],
-  "frequency": 4,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "（男女の）何かある関係・いい感じの仲",
-    "pos": "名詞",
-    "speechStyle": "口語・スラング",
-    "note": "英語 something から。付き合っているとは言えないが特別な関係がありそうなことを、うわさ話で言う。ซัมธิง とも書く。",
-    "example": {
-     "th": "สองคนนี้ต้องมีซัมติงกันแน่ๆ",
-     "ro": "sɔ̌ɔng khon níi tɔ̂ɔng mii sam ting kan nɛ̂ɛ nɛ̂ɛ",
-     "ja": "この二人、絶対に何かあるよ。",
-     "context": "同僚二人のうわさ話",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "外来語の声調（ติง の読み）を確定できず、前回の มีซัมติง と同じ理由で見送り。"
  },
  {
   "id": "tl-60645",
@@ -1181,33 +1110,8 @@
  {
   "id": "tl-60647",
   "th": "ฟันแล้วทิ้ง",
-  "action": "add",
-  "ro": "fan lɛ́ɛo thíng",
-  "kind": "expression",
-  "category": "スラング｜下ネタ",
-  "adult": true,
-  "tags": [
-   "colloquial",
-   "vulgar",
-   "slang"
-  ],
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "やり逃げする（関係を持った後に相手を捨てる）",
-    "pos": "動詞",
-    "speechStyle": "かなり粗い・性的な俗語",
-    "note": "ฟัน（性行為をする、の俗語）＋「捨てる」。相手を物扱いする下品な言い方で、非難やうわさ話で聞く。理解用にとどめる。",
-    "example": {
-     "th": "ระวังผู้ชายคนนั้นนะ ชอบฟันแล้วทิ้ง",
-     "ro": "rá wang phûu chaai khon nán ná chɔ̂ɔp fan lɛ́ɛo thíng",
-     "ja": "あの男には気をつけて。やり逃げする癖があるから。",
-     "context": "友人に忠告する",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "既存の ฟัน（性行為をする、の俗語）の用例「หมอนั่นหวังฟันแล้วทิ้ง」で既に扱っているため重複。"
  },
  {
   "id": "tl-60648",
@@ -1301,31 +1205,8 @@
  {
   "id": "tl-60651",
   "th": "รีโพสต์",
-  "action": "add",
-  "ro": "rii phóos",
-  "kind": "word",
-  "category": "スラング｜ネット・SNS",
-  "adult": false,
-  "tags": [
-   "colloquial"
-  ],
-  "frequency": 4,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "リポストする（他人の投稿を再共有する）",
-    "pos": "動詞",
-    "speechStyle": "口語",
-    "note": "英語 repost から。他人の投稿を自分のアカウントで共有すること。旧Twitterでは รีทวีต と言った。",
-    "example": {
-     "th": "ถ้าชอบโพสต์นี้ ช่วยรีโพสต์ด้วยนะ",
-     "ro": "thâa chɔ̂ɔp phóos níi chûuai rii phóos dûuai ná",
-     "ja": "この投稿が気に入ったら、リポストしてね。",
-     "context": "SNSの投稿の呼びかけ",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "SNSの一般的な機能名の外来語で、โพสต์ と同様に一般語彙に属し、スラング欄にはそぐわないため。"
  },
  {
   "id": "tl-60652",
@@ -1599,10 +1480,10 @@
     "speechStyle": "口語・性的な話題",
     "note": "男性器をおどけて言う婉曲的な俗語で、子どもの話や冗談の場面で使う。下品さは強くないが、改まった場では避ける。",
     "example": {
-     "th": "ผู้ชายบางคนเรียกอวัยวะเพศตัวเองว่าไอ้จ้อน",
-     "ro": "phûu chaai baang khon rîiak à wai yá wá phêet tuua eeng wâa âi cɔ̂ɔn",
-     "ja": "自分の性器を「ไอ้จ้อน」と呼ぶ男性もいる。",
-     "context": "俗語の説明",
+     "th": "ใส่กางเกงซะลูก อย่าวิ่งโชว์ไอ้จ้อน",
+     "ro": "sài kaang keeng sá lûuk yàa wîng choo âi cɔ̂ɔn",
+     "ja": "ズボンをはきなさい。おちんちんを出して走り回らないの。",
+     "context": "風呂上がりの幼い息子に母親が",
      "origin": "authored"
     }
    }
@@ -1715,7 +1596,7 @@
     "ja": "スレ主（掲示板の書き込みをした人）",
     "pos": "名詞",
     "speechStyle": "ネット表記",
-    "note": "เจ้าของกระทู้（スレッドの持ち主）の頭文字。Pantip などの掲示板で使い、จขกท. と点を付けることもある。読むときは文字名で読む。",
+    "note": "เจ้าของกระทู้（スレッドの持ち主）の頭文字。Pantip などの掲示板の書き言葉で、จขกท. と点を付けることもある。会話では เจ้าของกระทู้ と言うことが多い。",
     "example": {
      "th": "จขกท มาตอบคำถามในกระทู้หรือยัง",
      "ro": "cɔɔ khɔ̌ɔ kɔɔ thɔɔ maa tɔ̀ɔp kham thǎam nai krà thûu rʉ̌ʉ yang",
@@ -1764,32 +1645,8 @@
  {
   "id": "tl-60669",
   "th": "แอ๊บแมน",
-  "action": "add",
-  "ro": "ɛ́p mɛɛn",
-  "kind": "word",
-  "category": "スラング｜恋愛・人間関係",
-  "adult": false,
-  "tags": [
-   "colloquial",
-   "slang"
-  ],
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "男らしく装う（特にゲイがストレートらしくふるまう）",
-    "pos": "動詞",
-    "speechStyle": "口語・スラング",
-    "note": "แอ๊บ（〜のふりをする）＋英語 man。ゲイの男性がストレートらしく装うことを言うことが多い。からかいにもなるので使う相手に注意。",
-    "example": {
-     "th": "เขาแอ๊บแมนต่อหน้าที่บ้าน แต่กับเพื่อนเป็นตัวเอง",
-     "ro": "khǎo ɛ́p mɛɛn tɔ̀ɔ nâa thîi bâan tɛ̀ɛ kàp phʉ̂ʉan pen tuua eeng",
-     "ja": "彼は家族の前では男らしくふるまうが、友達の前では素の自分でいる。",
-     "context": "友人同士の恋愛話",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "既存の แอ๊บ の注記で「แอ๊บแมน（男らしく装う）」として扱っているため重複。"
  },
  {
   "id": "tl-60670",
@@ -1812,9 +1669,9 @@
     "speechStyle": "口語・スラング",
     "note": "ตก は「釣る」の意から。จีบ（口説く）より「落とす・ものにする」感じが強い。女性が男性を落とすときは ตกผู้ と言う。",
     "example": {
-     "th": "ฝีมือตกสาวของเขาเก่งมาก",
-     "ro": "fǐi mʉʉ tòk sǎao khɔ̌ɔng khǎo kèng mâak",
-     "ja": "彼は女の子を口説き落とす腕前がすごい。",
+     "th": "เขาตกสาวเก่งมาก ไม่เคยพลาดเลย",
+     "ro": "khǎo tòk sǎao kèng mâak mâi khəəi phlâat ləəi",
+     "ja": "彼は女の子を落とすのがとても上手で、失敗したことがない。",
      "context": "友人同士の恋愛話",
      "origin": "authored"
     }
@@ -1824,61 +1681,14 @@
  {
   "id": "tl-60671",
   "th": "ตัวจี๊ด",
-  "action": "add",
-  "ro": "tuua cíit",
-  "kind": "word",
-  "category": "スラング｜友達の日常",
-  "adult": false,
-  "tags": [
-   "colloquial",
-   "slang"
-  ],
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "手ごわい人・ずけずけ物を言う問題児",
-    "pos": "名詞",
-    "speechStyle": "口語・スラング",
-    "note": "鋭い発言や行動で周りをちくりと刺す、扱いにくい人。悪口にもなるが、愛嬌のある「問題児」の意味でも使う。",
-    "example": {
-     "th": "เขาเป็นตัวจี๊ดของทีม ชอบค้านทุกเรื่อง",
-     "ro": "khǎo pen tuua cíit khɔ̌ɔng thiim chɔ̂ɔp kháan thúk rʉ̂ʉang",
-     "ja": "彼はチームの問題児で、何にでも反対する。",
-     "context": "職場のチームについて話す",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "中心となる意味（口うるさい人か、手を焼かせる人か）を確定できないため。"
  },
  {
   "id": "tl-60672",
   "th": "เมนชั่น",
-  "action": "add",
-  "ro": "men chân",
-  "kind": "word",
-  "category": "スラング｜ネット・SNS",
-  "adult": false,
-  "tags": [
-   "colloquial"
-  ],
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "（SNSで）メンションする",
-    "pos": "動詞",
-    "speechStyle": "口語",
-    "note": "英語 mention から。@で相手の名前を付けて知らせること。เมนชัน とも書く。",
-    "example": {
-     "th": "ถ้าเห็นโพสต์นี้ช่วยเมนชั่นเพื่อนด้วย",
-     "ro": "thâa hěn phóos níi chûuai men chân phʉ̂ʉan dûuai",
-     "ja": "この投稿を見たら、友達をメンションしてね。",
-     "context": "SNSの投稿の呼びかけ",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "SNSの一般的な機能名の外来語で、スラング欄にはそぐわないうえ、声調の前例も確認できないため。"
  },
  {
   "id": "tl-60673",
@@ -2030,31 +1840,7 @@
  {
   "id": "tl-60678",
   "th": "รวยเละ",
-  "action": "add",
-  "ro": "ruuai lé",
-  "kind": "word",
-  "category": "スラング｜友達の日常",
-  "adult": false,
-  "tags": [
-   "colloquial",
-   "slang"
-  ],
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "ぼろもうけする・大金持ちになる",
-    "pos": "動詞",
-    "speechStyle": "口語・スラング",
-    "note": "เละ（ぐちゃぐちゃ）を強調に使い、お金がありあまるほど手に入ることを言う。商売や宝くじの話でよく使う。",
-    "example": {
-     "th": "ถ้าถูกหวยงวดนี้ รวยเละแน่",
-     "ro": "thâa thùuk hǔuai ngûuat níi ruuai lé nɛ̂ɛ",
-     "ja": "今回の宝くじが当たったら、大金持ちになるのは間違いない。",
-     "context": "宝くじを買いながら",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "既存の เละ（動作の後ろの強調）のスラング項目で扱う「〜เละ」の強調形で、独立語として登録する根拠が弱いため。"
  }
 ]
