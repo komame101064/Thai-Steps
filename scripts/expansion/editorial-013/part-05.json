@@ -633,7 +633,7 @@
     "example": {
      "th": "ยางรถรั่วเลยต้องใช้ยางอะไหล่",
      "ro": "yaang rót rûua ləəi tɔ̂ɔng chái yaang à lài",
-     "ja": "タイヤがパンクしたので、スペアタイヤを使うしかありません。",
+     "ja": "タイヤがパンクしたので、スペアタイヤを使わなければなりません。",
      "en": "The tire is leaking, so we have to use the spare tire.",
      "origin": "authored"
     }
@@ -646,7 +646,7 @@
   "action": "add",
   "ro": "khǎa tâng",
   "kind": "word",
-  "category": "一般語彙",
+  "category": "移動・道案内",
   "frequency": 3,
   "senses": [
    {
@@ -658,30 +658,15 @@
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "เขากางขาตั้งแล้วจอดรถไว้หน้าบ้าน",
-     "ro": "khǎo kaang khǎa tâng lɛ́ɛo cɔ̀ɔt rót wái nâa bâan",
+     "th": "เขากางขาตั้งแล้วจอดมอเตอร์ไซค์ไว้หน้าบ้าน",
+     "ro": "khǎo kaang khǎa tâng lɛ́ɛo cɔ̀ɔt mɔɔ tə̂ə sai wái nâa bâan",
      "ja": "彼はスタンドを立てて、家の前にバイクを止めました。",
      "en": "He put down the kickstand and parked in front of the house.",
      "origin": "authored"
     }
-   },
-   {
-    "sourceSense": 2,
-    "ja": "台・スタンド（三脚など物を立てる脚）",
-    "en": "stand, tripod",
-    "pos": "名詞",
-    "use": "よく使う別の意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "ฉันซื้อขาตั้งกล้องมาถ่ายวิดีโอ",
-     "ro": "chǎn sʉ́ʉ khǎa tâng klɔ̂ɔng maa thàai wí dii oo",
-     "ja": "動画を撮るためにカメラの三脚を買いました。",
-     "en": "I bought a camera tripod to shoot videos.",
-     "origin": "authored"
-    }
    }
-  ]
+  ],
+  "note": "カメラの三脚は ขาตั้งกล้อง と言う。"
  },
  {
   "id": "tl-56313",
@@ -1946,10 +1931,10 @@
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "สายฟ้าผ่าต้นไม้ใหญ่หน้าบ้าน",
-     "ro": "sǎai fáa phàa tôn máai yài nâa bâan",
-     "ja": "家の前の大きな木に雷が落ちました。",
-     "en": "Lightning struck the big tree in front of the house.",
+     "th": "เมื่อคืนมีสายฟ้าแลบทั้งคืน",
+     "ro": "mʉ̂ʉa khʉʉn mii sǎai fáa lɛ̂ɛp tháng khʉʉn",
+     "ja": "昨夜は一晩中、稲妻が光っていました。",
+     "en": "Last night lightning flashed all night long.",
      "origin": "authored"
     }
    }
@@ -1986,7 +1971,7 @@
   "id": "tl-56359",
   "th": "เซรามิก",
   "action": "add",
-  "ro": "see raa mík",
+  "ro": "see raa mìk",
   "kind": "word",
   "category": "家・場所",
   "frequency": 2,
@@ -2001,7 +1986,7 @@
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
      "th": "แม่ซื้อจานเซรามิกมาใหม่",
-     "ro": "mɛ̂ɛ sʉ́ʉ caan see raa mík maa mài",
+     "ro": "mɛ̂ɛ sʉ́ʉ caan see raa mìk maa mài",
      "ja": "母はセラミックの皿を新しく買ってきました。",
      "en": "My mother bought new ceramic plates.",
      "origin": "authored"

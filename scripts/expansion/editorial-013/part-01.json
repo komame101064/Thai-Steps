@@ -1,0 +1,2118 @@
+[
+ {
+  "id": "tl-56001",
+  "th": "ข้าวเปล่า",
+  "action": "add",
+  "ro": "khâao plàao",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "白ごはん（おかずなしで頼む白飯）",
+    "en": "plain steamed rice",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขอข้าวเปล่าเพิ่มอีกหนึ่งจานครับ",
+     "ro": "khɔ̌ɔ khâao plàao phə̂əm ìik nʉ̀ng caan khráp",
+     "ja": "白ごはんをもう一皿追加でお願いします。",
+     "en": "One more plate of plain rice, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56002",
+  "th": "สูสี",
+  "action": "add",
+  "ro": "sǔu sǐi",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "互角の・接戦の",
+    "en": "evenly matched, neck and neck",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "การแข่งขันครั้งนี้สูสีมาก",
+     "ro": "kaan khɛ̀ng khǎn khráng níi sǔu sǐi mâak",
+     "ja": "今回の試合は大接戦だ。",
+     "en": "This match is very close.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56003",
+  "th": "ดำรงตำแหน่ง",
+  "action": "skip",
+  "skipReason": "既存の ดำรง の語義2「（地位・役職に）就いている（ดำรงตำแหน่ง の形で）」として既に教えている形のため重複。"
+ },
+ {
+  "id": "tl-56004",
+  "th": "ยอดเงิน",
+  "action": "add",
+  "ro": "yɔ̂ɔt ngəən",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "金額・合計額（支払い・振込などの）",
+    "en": "amount (of money), total sum",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กรุณาตรวจสอบยอดเงินก่อนกดยืนยัน",
+     "ro": "kà rú naa trùuat sɔ̀ɔp yɔ̂ɔt ngəən kɔ̀ɔn kòt yʉʉn yan",
+     "ja": "確定を押す前に金額を確認してください。",
+     "en": "Please check the amount before pressing confirm.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56005",
+  "th": "เชิงลบ",
+  "action": "add",
+  "ro": "chəəng lóp",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "否定的な・マイナスの・悪い方の",
+    "en": "negative",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อย่าคิดในเชิงลบมากเกินไป",
+     "ro": "yàa khít nai chəəng lóp mâak kəən pai",
+     "ja": "あまり否定的に考えすぎないで。",
+     "en": "Don't think too negatively.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "反対は เชิงบวก（肯定的な）。ในเชิงลบ（否定的に）の形でよく使う。"
+ },
+ {
+  "id": "tl-56006",
+  "th": "มีผล",
+  "action": "add",
+  "ro": "mii phǒn",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "効力を生じる・発効する（法律・規則などが）",
+    "en": "to take effect, come into force",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กฎหมายใหม่มีผลตั้งแต่วันพรุ่งนี้",
+     "ro": "kòt mǎai mài mii phǒn tâng tɛ̀ɛ wan phrûng níi",
+     "ja": "新しい法律は明日から施行される。",
+     "en": "The new law takes effect from tomorrow.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（〜に）影響する（มีผลต่อ〜の形で）",
+    "en": "to affect, have an effect on",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "การนอนน้อยมีผลต่อสุขภาพ",
+     "ro": "kaan nɔɔn nɔ́ɔi mii phǒn tɔ̀ɔ sùk khà phâap",
+     "ja": "睡眠不足は健康に影響する。",
+     "en": "Lack of sleep affects your health.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "報道では มีผลบังคับใช้（施行される）の形もよく使う。"
+ },
+ {
+  "id": "tl-56007",
+  "th": "ขั้นต่ำ",
+  "action": "add",
+  "ro": "khân tàm",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "最低限・最低（額・ライン）",
+    "en": "minimum",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บัตรนี้ต้องจ่ายขั้นต่ำเดือนละสองพันบาท",
+     "ro": "bàt níi tɔ̂ɔng càai khân tàm dʉʉan lá sɔ̌ɔng phan bàat",
+     "ja": "このカードは毎月最低2,000バーツを支払う必要がある。",
+     "en": "With this card you must pay a minimum of 2,000 baht a month.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56008",
+  "th": "กันชน",
+  "action": "add",
+  "ro": "kan chon",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "バンパー（車の）",
+    "en": "bumper (of a car)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กันชนหลังรถของฉันมีรอยขีด",
+     "ro": "kan chon lǎng rót khɔ̌ɔng chǎn mii rɔɔi khìit",
+     "ja": "私の車の後ろのバンパーに引っかき傷がある。",
+     "en": "There is a scratch on my car's rear bumper.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56009",
+  "th": "อุดตัน",
+  "action": "add",
+  "ro": "ùt tan",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "詰まる・ふさがる（管・血管などが）",
+    "en": "to be clogged, blocked",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ท่อน้ำในห้องน้ำอุดตันอีกแล้ว",
+     "ro": "thɔ̂ɔ náam nai hɔ̂ɔng náam ùt tan ìik lɛ́ɛo",
+     "ja": "トイレの排水管がまた詰まった。",
+     "en": "The pipe in the bathroom is clogged again.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "医療では หลอดเลือดอุดตัน（血管が詰まる）の形でも使う。"
+ },
+ {
+  "id": "tl-56010",
+  "th": "ปะทุ",
+  "action": "add",
+  "ro": "pà thú",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "噴火する・噴き出す",
+    "en": "to erupt, burst out",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ภูเขาไฟปะทุเมื่อเช้านี้",
+     "ro": "phuu khǎo fai pà thú mʉ̂ʉa cháao níi",
+     "ja": "今朝、火山が噴火した。",
+     "en": "The volcano erupted this morning.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（対立・感情などが）噴き出す・再燃する",
+    "en": "to flare up (conflict, anger)",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ความขัดแย้งปะทุขึ้นอีกครั้ง",
+     "ro": "khwaam khàt yɛ́ɛng pà thú khʉ̂n ìik khráng",
+     "ja": "対立が再び噴き出した。",
+     "en": "The conflict flared up again.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56011",
+  "th": "แพลง",
+  "action": "add",
+  "ro": "phlɛɛng",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（足首・手首などを）くじく・ねんざする",
+    "en": "to sprain (ankle, wrist)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันเตะฟุตบอลแล้วข้อเท้าแพลง",
+     "ro": "chǎn tè fút bɔɔn lɛ́ɛo khɔ̂ɔ tháao phlɛɛng",
+     "ja": "サッカーをしていて足首をねんざした。",
+     "en": "I sprained my ankle playing football.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ข้อเท้าแพลง（足首をねんざする）の形で使うことが多い。"
+ },
+ {
+  "id": "tl-56012",
+  "th": "ครบกำหนด",
+  "action": "add",
+  "ro": "khróp kam nòt",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "期限が来る・満期になる",
+    "en": "to fall due, reach maturity",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เงินฝากนี้จะครบกำหนดเดือนหน้า",
+     "ro": "ngəən fàak níi cà khróp kam nòt dʉʉan nâa",
+     "ja": "この預金は来月満期になる。",
+     "en": "This deposit matures next month.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56013",
+  "th": "สุทธิ",
+  "action": "add",
+  "ro": "sùt thí",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "正味の・純〜（利益・重量・価格など）",
+    "en": "net (profit, weight, price)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บริษัทมีกำไรสุทธิเพิ่มขึ้นปีนี้",
+     "ro": "bɔɔ rí sàt mii kam rai sùt thí phə̂əm khʉ̂n pii níi",
+     "ja": "会社の純利益は今年増えた。",
+     "en": "The company's net profit rose this year.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "กำไรสุทธิ（純利益）、น้ำหนักสุทธิ（正味重量）など名詞の後ろに付けて使う。"
+ },
+ {
+  "id": "tl-56014",
+  "th": "ลงวันที่",
+  "action": "add",
+  "ro": "long wan thîi",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "日付を記入する・〜付けである（書類に）",
+    "en": "to date (a document)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "กรุณาลงวันที่และเซ็นชื่อด้านล่าง",
+     "ro": "kà rú naa long wan thîi lɛ́ sen chʉ̂ʉ dâan lâang",
+     "ja": "下に日付を記入して署名してください。",
+     "en": "Please date and sign below.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56015",
+  "th": "บัตรคิว",
+  "action": "add",
+  "ro": "bàt khiu",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "整理券・順番待ちの番号札",
+    "en": "queue ticket, numbered ticket",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รับบัตรคิวแล้วนั่งรอสักครู่",
+     "ro": "ráp bàt khiu lɛ́ɛo nâng rɔɔ sàk khrûu",
+     "ja": "整理券を取って、座って少々お待ちください。",
+     "en": "Take a queue ticket and have a seat for a moment.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56016",
+  "th": "เวลาทำการ",
+  "action": "add",
+  "ro": "wee laa tham kaan",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "営業時間・業務時間（銀行・役所・会社などの）",
+    "en": "business hours, office hours",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เวลาทำการของธนาคารคือเก้าโมงถึงสี่โมงเย็น",
+     "ro": "wee laa tham kaan khɔ̌ɔng thá naa khaan khʉʉ kâao moong thʉ̌ng sìi moong yen",
+     "ja": "銀行の営業時間は9時から午後4時までです。",
+     "en": "The bank's business hours are from 9 a.m. to 4 p.m.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56017",
+  "th": "ทางหนีไฟ",
+  "action": "add",
+  "ro": "thaang nǐi fai",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "非常口・火災時の避難経路",
+    "en": "fire exit, fire escape",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ทางหนีไฟอยู่สุดทางเดินด้านซ้าย",
+     "ro": "thaang nǐi fai yùu sùt thaang dəən dâan sáai",
+     "ja": "非常口は廊下の突き当たりの左側にあります。",
+     "en": "The fire exit is at the end of the corridor on the left.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56018",
+  "th": "บัตรเชิญ",
+  "action": "add",
+  "ro": "bàt chəən",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "招待状",
+    "en": "invitation card",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เราได้รับบัตรเชิญงานแต่งงานของเพื่อน",
+     "ro": "rao dâai ráp bàt chəən ngaan tɛ̀ng ngaan khɔ̌ɔng phʉ̂ʉan",
+     "ja": "私たちは友人の結婚式の招待状を受け取った。",
+     "en": "We received an invitation to a friend's wedding.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56019",
+  "th": "ธุรกรรม",
+  "action": "add",
+  "ro": "thú rá kam",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（金融の）取引・手続き",
+    "en": "(financial) transaction",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "คุณสามารถทำธุรกรรมผ่านแอปได้ทุกวัน",
+     "ro": "khun sǎa mâat tham thú rá kam phàan ɛ́p dâai thúk wan",
+     "ja": "アプリで毎日取引ができます。",
+     "en": "You can make transactions through the app every day.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ทำธุรกรรม（取引をする）、ธุรกรรมทางการเงิน（金融取引）の形でよく使う。"
+ },
+ {
+  "id": "tl-56020",
+  "th": "ผันผวน",
+  "action": "add",
+  "ro": "phǎn phǔuan",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "変動する・激しく上下する",
+    "en": "to fluctuate, be volatile",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ราคาน้ำมันผันผวนมากในช่วงนี้",
+     "ro": "raa khaa nám man phǎn phǔuan mâak nai chûuang níi",
+     "ja": "最近、石油価格の変動が激しい。",
+     "en": "Oil prices have been fluctuating a lot lately.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56021",
+  "th": "ประจำปี",
+  "action": "add",
+  "ro": "prà cam pii",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "年次の・毎年恒例の",
+    "en": "annual, yearly",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พนักงานทุกคนต้องตรวจสุขภาพประจำปี",
+     "ro": "phá nák ngaan thúk khon tɔ̂ɔng trùuat sùk khà phâap prà cam pii",
+     "ja": "社員は全員、年次健康診断を受けなければならない。",
+     "en": "Every employee must have an annual health check.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56022",
+  "th": "ศูนย์บริการ",
+  "action": "add",
+  "ro": "sǔun bɔɔ rí kaan",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "サービスセンター（修理・案内などの窓口）",
+    "en": "service center",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันเอารถไปซ่อมที่ศูนย์บริการ",
+     "ro": "chǎn ao rót pai sɔ̂ɔm thîi sǔun bɔɔ rí kaan",
+     "ja": "車をサービスセンターに修理に出した。",
+     "en": "I took my car to the service center for repair.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56023",
+  "th": "อำนวยความสะดวก",
+  "action": "add",
+  "ro": "am nuuai khwaam sà dùuak",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "便宜を図る・手助けする",
+    "en": "to facilitate, assist",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "เจ้าหน้าที่คอยอำนวยความสะดวกให้นักท่องเที่ยว",
+     "ro": "câo nâa thîi khɔɔi am nuuai khwaam sà dùuak hâi nák thɔ̂ng thîao",
+     "ja": "係員が観光客の便宜を図っている。",
+     "en": "Staff are on hand to assist tourists.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56024",
+  "th": "ถือสา",
+  "action": "add",
+  "ro": "thʉ̌ʉ sǎa",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "気にする・とがめる（主に否定文で）",
+    "en": "to take offense, mind",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาพูดเล่นอย่าถือสาเลยนะ",
+     "ro": "khǎo phûut lên yàa thʉ̌ʉ sǎa ləəi ná",
+     "ja": "彼は冗談で言ったんだから、気にしないでね。",
+     "en": "He was joking, so don't take it to heart.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ไม่ถือสา（気にしない）、อย่าถือสา（気にしないで）の形で使うことが多い。"
+ },
+ {
+  "id": "tl-56025",
+  "th": "โลเล",
+  "action": "add",
+  "ro": "loo lee",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "優柔不断な・考えがころころ変わる",
+    "en": "indecisive, wavering",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาโลเลตัดสินใจไม่ได้สักที",
+     "ro": "khǎo loo lee tàt sǐn cai mâi dâai sàk thii",
+     "ja": "彼は優柔不断で、なかなか決められない。",
+     "en": "He is so indecisive that he can never make up his mind.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56026",
+  "th": "สะเก็ด",
+  "action": "add",
+  "ro": "sà kèt",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "かさぶた（สะเก็ดแผล）",
+    "en": "scab",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อย่าแกะสะเก็ดแผลนะ แผลจะหายช้า",
+     "ro": "yàa kɛ̀ sà kèt phlɛ̌ɛ ná phlɛ̌ɛ cà hǎai cháa",
+     "ja": "かさぶたをはがさないで。傷の治りが遅くなるよ。",
+     "en": "Don't pick the scab, or the wound will heal slowly.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "破片・かけら（爆発・ガラスなどの）",
+    "en": "fragment, splinter (e.g. shrapnel)",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "มีคนบาดเจ็บจากสะเก็ดระเบิดสามคน",
+     "ro": "mii khon bàat cèp càak sà kèt rá bə̀ət sǎam khon",
+     "ja": "爆発物の破片で3人がけがをした。",
+     "en": "Three people were injured by shrapnel.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56027",
+  "th": "ทะลัก",
+  "action": "add",
+  "ro": "thá lák",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（水などが）どっとあふれ出る・流れ込む",
+    "en": "to gush, pour out",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "น้ำทะลักเข้าบ้านเมื่อคืนนี้",
+     "ro": "náam thá lák khâo bâan mʉ̂ʉa khʉʉn níi",
+     "ja": "昨夜、水が家の中にどっと流れ込んだ。",
+     "en": "Water poured into the house last night.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（人が）どっと押し寄せる",
+    "en": "to flood in, pour in (people)",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นักท่องเที่ยวทะลักเข้าเมืองช่วงสงกรานต์",
+     "ro": "nák thɔ̂ng thîao thá lák khâo mʉʉang chûuang sǒng kraan",
+     "ja": "ソンクラーンの時期には観光客が町にどっと押し寄せる。",
+     "en": "Tourists pour into the city during Songkran.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56028",
+  "th": "โรคประจำตัว",
+  "action": "add",
+  "ro": "rôok prà cam tuua",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "持病",
+    "en": "chronic illness, pre-existing condition",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คุณมีโรคประจำตัวไหมคะ",
+     "ro": "khun mii rôok prà cam tuua mǎi khá",
+     "ja": "持病はありますか？",
+     "en": "Do you have any chronic illnesses?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56029",
+  "th": "คอลเซ็นเตอร์",
+  "action": "add",
+  "ro": "khɔɔn sen tə̂ə",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "コールセンター",
+    "en": "call center",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ถ้ามีปัญหาโทรหาคอลเซ็นเตอร์ได้ตลอดเวลา",
+     "ro": "thâa mii pan hǎa thoo hǎa khɔɔn sen tə̂ə dâai tà lɔ̀ɔt wee laa",
+     "ja": "問題があれば、いつでもコールセンターに電話できます。",
+     "en": "If you have a problem, you can call the call center at any time.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "แก๊งคอลเซ็นเตอร์ は電話詐欺グループのこと。"
+ },
+ {
+  "id": "tl-56030",
+  "th": "ยอดคงเหลือ",
+  "action": "add",
+  "ro": "yɔ̂ɔt khong lʉ̌ʉa",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "残高（口座・カードなどの）",
+    "en": "balance (of an account)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คุณสามารถดูยอดคงเหลือในบัญชีผ่านแอปได้",
+     "ro": "khun sǎa mâat duu yɔ̂ɔt khong lʉ̌ʉa nai ban chii phàan ɛ́p dâai",
+     "ja": "口座の残高はアプリで確認できます。",
+     "en": "You can check your account balance through the app.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56031",
+  "th": "หน่วยกิต",
+  "action": "add",
+  "ro": "nùuai kìt",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（大学などの履修）単位",
+    "en": "(academic) credit",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เทอมนี้ฉันลงเรียนสิบแปดหน่วยกิต",
+     "ro": "thəəm níi chǎn long riian sìp pɛ̀ɛt nùuai kìt",
+     "ja": "今学期は18単位を履修している。",
+     "en": "I'm taking 18 credits this semester.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56032",
+  "th": "ฝึกอบรม",
+  "action": "add",
+  "ro": "fʉ̀k ɔ̀p rom",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "研修する・研修を受ける",
+    "en": "to train, undergo training",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พนักงานใหม่ต้องฝึกอบรมสองสัปดาห์",
+     "ro": "phá nák ngaan mài tɔ̂ɔng fʉ̀k ɔ̀p rom sɔ̌ɔng sàp daa",
+     "ja": "新入社員は2週間研修を受けなければならない。",
+     "en": "New employees must undergo two weeks of training.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56033",
+  "th": "เน้นย้ำ",
+  "action": "add",
+  "ro": "nén yám",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（繰り返し）強調する・念を押す",
+    "en": "to stress, emphasize repeatedly",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แพทย์เน้นย้ำให้ล้างมือบ่อยบ่อย",
+     "ro": "phɛ̂ɛt nén yám hâi láang mʉʉ bɔ̀ɔi bɔ̀ɔi",
+     "ja": "医師はこまめに手を洗うよう強調した。",
+     "en": "Doctors stressed washing hands often.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56034",
+  "th": "จัดซื้อ",
+  "action": "add",
+  "ro": "càt sʉ́ʉ",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（組織が）調達する・購入する",
+    "en": "to procure, purchase (for an organization)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฝ่ายจัดซื้อกำลังหาผู้ขายรายใหม่",
+     "ro": "fàai càt sʉ́ʉ kam lang hǎa phûu khǎai raai mài",
+     "ja": "購買部は新しい仕入れ先を探している。",
+     "en": "The purchasing department is looking for a new supplier.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ฝ่ายจัดซื้อ（購買部）の形でよく使う。"
+ },
+ {
+  "id": "tl-56035",
+  "th": "จ้างงาน",
+  "action": "add",
+  "ro": "câang ngaan",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "雇用する（主に経済・報道で）",
+    "en": "to employ, create jobs",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โรงงานใหม่จะจ้างงานคนในพื้นที่กว่าห้าร้อยคน",
+     "ro": "roong ngaan mài cà câang ngaan khon nai phʉ́ʉn thîi kwàa hâa rɔ́ɔi khon",
+     "ja": "新工場は地元の人を500人以上雇用する予定だ。",
+     "en": "The new factory will employ more than 500 local people.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "การจ้างงาน（雇用）の形でもよく使う。"
+ },
+ {
+  "id": "tl-56036",
+  "th": "อ่อนค่า",
+  "action": "add",
+  "ro": "ɔ̀ɔn khâa",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（通貨の価値が）下がる・安くなる",
+    "en": "to weaken, depreciate (currency)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เงินบาทอ่อนค่าลงเมื่อเทียบกับดอลลาร์",
+     "ro": "ngəən bàat ɔ̀ɔn khâa long mʉ̂ʉa thîiap kàp dɔn lâa",
+     "ja": "バーツがドルに対して下落した。",
+     "en": "The baht weakened against the dollar.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "反対は แข็งค่า（通貨が高くなる）。"
+ },
+ {
+  "id": "tl-56037",
+  "th": "ข้อยกเว้น",
+  "action": "add",
+  "ro": "khɔ̂ɔ yók wén",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "例外",
+    "en": "exception",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กฎนี้ไม่มีข้อยกเว้นสำหรับใคร",
+     "ro": "kòt níi mâi mii khɔ̂ɔ yók wén sǎm ràp khrai",
+     "ja": "この規則には誰に対しても例外はない。",
+     "en": "This rule has no exceptions for anyone.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56038",
+  "th": "ลงสมัคร",
+  "action": "skip",
+  "skipReason": "既存の สมัคร の語義2「立候補する（組み合わせ）」で ลงสมัคร の形として既に教えているため重複。"
+ },
+ {
+  "id": "tl-56039",
+  "th": "ลงพื้นที่",
+  "action": "add",
+  "ro": "long phʉ́ʉn thîi",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "現地入りする・現場に出向く（役人・記者などが）",
+    "en": "to go to the field, visit the site",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นักข่าวลงพื้นที่ทำข่าวน้ำท่วม",
+     "ro": "nák khàao long phʉ́ʉn thîi tham khàao náam thûuam",
+     "ja": "記者が洪水の取材のために現地入りした。",
+     "en": "Reporters went to the area to cover the flood.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56040",
+  "th": "งัดแงะ",
+  "action": "add",
+  "ro": "ngát ngɛ́",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "こじ開ける（ドア・金庫などを）",
+    "en": "to pry open, break open",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขโมยงัดแงะประตูบ้านเข้ามาตอนกลางคืน",
+     "ro": "khà mooi ngát ngɛ́ prà tuu bâan khâo maa tɔɔn klaang khʉʉn",
+     "ja": "泥棒が夜中に家のドアをこじ開けて入った。",
+     "en": "A thief pried open the front door and got in at night.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56041",
+  "th": "สะลึมสะลือ",
+  "action": "add",
+  "ro": "sà lʉm sà lʉʉ",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "寝ぼけている・うとうとしている",
+    "en": "drowsy, half-awake",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันยังสะลึมสะลืออยู่ตอนรับโทรศัพท์",
+     "ro": "chǎn yang sà lʉm sà lʉʉ yùu tɔɔn ráp thoo rá sàp",
+     "ja": "電話に出たとき、私はまだ寝ぼけていた。",
+     "en": "I was still half-asleep when I answered the phone.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56042",
+  "th": "เหล่",
+  "action": "add",
+  "ro": "lèe",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "斜視である（ตาเหล่）",
+    "en": "cross-eyed, squinting",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เด็กคนนี้ตาเหล่ตั้งแต่เกิด",
+     "ro": "dèk khon níi taa lèe tâng tɛ̀ɛ kə̀ət",
+     "ja": "この子は生まれつき斜視だ。",
+     "en": "This child has been cross-eyed since birth.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "横目で見る・（異性を）ちらちら見る",
+    "en": "to look sideways, ogle",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เขาแอบเหล่สาวโต๊ะข้างๆ",
+     "ro": "khǎo ɛ̀ɛp lèe sǎao tó khâang khâang",
+     "ja": "彼は隣のテーブルの女性をこっそり横目で見ていた。",
+     "en": "He was sneaking glances at the woman at the next table.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56043",
+  "th": "ยู่ยี่",
+  "action": "add",
+  "ro": "yûu yîi",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "しわくちゃの・くしゃくしゃの",
+    "en": "crumpled, wrinkled",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เสื้อเชิ้ตตัวนี้ยู่ยี่หมดแล้ว",
+     "ro": "sʉ̂ʉa chə́ət tuua níi yûu yîi mòt lɛ́ɛo",
+     "ja": "このシャツはすっかりしわくちゃになった。",
+     "en": "This shirt is all crumpled.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56044",
+  "th": "ตะกอน",
+  "action": "add",
+  "ro": "tà kɔɔn",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "沈殿物・おり",
+    "en": "sediment, deposit",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "น้ำในขวดนี้มีตะกอนอยู่ก้นขวด",
+     "ro": "náam nai khùuat níi mii tà kɔɔn yùu kôn khùuat",
+     "ja": "この瓶の水は底に沈殿物がある。",
+     "en": "The water in this bottle has sediment at the bottom.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56045",
+  "th": "ฉนวน",
+  "action": "add",
+  "ro": "chà nǔuan",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "絶縁体・断熱材（電線の被覆など）",
+    "en": "insulator, insulation",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สายไฟเส้นนี้ฉนวนขาดแล้ว อันตรายมาก",
+     "ro": "sǎai fai sên níi chà nǔuan khàat lɛ́ɛo an tà raai mâak",
+     "ja": "この電線は被覆が破れていて、とても危険だ。",
+     "en": "The insulation on this wire is torn, which is very dangerous.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ฉนวนกาซา（ガザ地区）のように「細長い地帯」の意味でも使う。"
+ },
+ {
+  "id": "tl-56046",
+  "th": "เมือก",
+  "action": "add",
+  "ro": "mʉ̂ʉak",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "粘液・ぬめり",
+    "en": "mucus, slime",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หอยทากทิ้งเมือกไว้บนพื้น",
+     "ro": "hɔ̌ɔi thâak thíng mʉ̂ʉak wái bon phʉ́ʉn",
+     "ja": "カタツムリが床に粘液を残していった。",
+     "en": "The snail left slime on the floor.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56047",
+  "th": "ปูด",
+  "action": "add",
+  "ro": "pùut",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（こぶ状に）腫れて盛り上がる",
+    "en": "to swell up into a lump",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หัวของเขาปูดเพราะชนประตู",
+     "ro": "hǔua khɔ̌ɔng khǎo pùut phrɔ́ chon prà tuu",
+     "ja": "彼はドアにぶつかって頭にこぶができた。",
+     "en": "He has a bump on his head from hitting the door.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（秘密・情報を）漏らす・すっぱ抜く",
+    "en": "to leak, let out (a secret)",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ใครเป็นคนปูดเรื่องนี้ออกมา",
+     "ro": "khrai pen khon pùut rʉ̂ʉang níi ɔ̀ɔk maa",
+     "ja": "この件を漏らしたのは誰だ？",
+     "en": "Who leaked this?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56048",
+  "th": "ถลุง",
+  "action": "add",
+  "ro": "thà lǔng",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（お金を）湯水のように使う・浪費する",
+    "en": "to squander, blow (money)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เขาถลุงเงินเดือนหมดในสามวัน",
+     "ro": "khǎo thà lǔng ngəən dʉʉan mòt nai sǎam wan",
+     "ja": "彼は給料を3日で使い果たした。",
+     "en": "He blew his whole salary in three days.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（鉱石を）製錬する",
+    "en": "to smelt (ore)",
+    "pos": "動詞",
+    "use": "少なめの用法",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โรงงานนี้ถลุงเหล็กมานานหลายสิบปี",
+     "ro": "roong ngaan níi thà lǔng lèk maa naan lǎai sìp pii",
+     "ja": "この工場は何十年も鉄を製錬してきた。",
+     "en": "This plant has been smelting iron for decades.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56049",
+  "th": "ฮวบ",
+  "action": "add",
+  "ro": "hûuap",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "がくっと・急に（大きく下がる・落ちる）",
+    "en": "sharply, abruptly (of a drop)",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ยอดขายลดลงฮวบหลังมีข่าวนี้",
+     "ro": "yɔ̂ɔt khǎai lót long hûuap lǎng mii khàao níi",
+     "ja": "このニュースの後、売り上げががくっと落ちた。",
+     "en": "Sales dropped sharply after this news.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ลดลงฮวบ、ร่วงฮวบ のように下降を表す動詞の後に置く。ฮวบฮาบ とも言う。"
+ },
+ {
+  "id": "tl-56050",
+  "th": "ตีแผ่",
+  "action": "add",
+  "ro": "tii phɛ̀ɛ",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "暴露する・明るみに出す",
+    "en": "to expose, reveal",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สารคดีเรื่องนี้ตีแผ่ปัญหาแรงงานเด็ก",
+     "ro": "sǎa rá khá dii rʉ̂ʉang níi tii phɛ̀ɛ pan hǎa rɛɛng ngaan dèk",
+     "ja": "このドキュメンタリーは児童労働の問題を明るみに出した。",
+     "en": "This documentary exposes the problem of child labor.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56051",
+  "th": "โละ",
+  "action": "add",
+  "ro": "ló",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "一掃する・まとめて処分する",
+    "en": "to clear out, get rid of",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ฉันโละเสื้อผ้าเก่าทิ้งไปเยอะเลย",
+     "ro": "chǎn ló sʉ̂ʉa phâa kào thíng pai yə́ ləəi",
+     "ja": "古い服をたくさん処分した。",
+     "en": "I got rid of a lot of old clothes.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "店の在庫一掃は โละสต็อก と言う。"
+ },
+ {
+  "id": "tl-56052",
+  "th": "กาฝาก",
+  "action": "add",
+  "ro": "kaa fàak",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（他人に頼って生きる）寄生虫のような人",
+    "en": "parasite, freeloader (person)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาเป็นกาฝากของครอบครัวไม่ยอมทำงาน",
+     "ro": "khǎo pen kaa fàak khɔ̌ɔng khrɔ̂ɔp khruua mâi yɔɔm tham ngaan",
+     "ja": "彼は家族に寄生していて、働こうとしない。",
+     "en": "He is a parasite on his family and refuses to work.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "寄生植物（ヤドリギなど）",
+    "en": "parasitic plant, mistletoe",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ต้นมะม่วงมีกาฝากขึ้นเต็มกิ่ง",
+     "ro": "tôn má mûuang mii kaa fàak khʉ̂n tem kìng",
+     "ja": "マンゴーの木の枝一面に寄生植物が生えている。",
+     "en": "Parasitic plants have grown all over the mango tree's branches.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56053",
+  "th": "เกร่อ",
+  "action": "add",
+  "ro": "krə̀ə",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ありふれている・どこにでもある",
+    "en": "all over the place, too common",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ช่วงนี้มีร้านชาไข่มุกเปิดเกร่อไปหมด",
+     "ro": "chûuang níi mii ráan chaa khài múk pə̀ət krə̀ə pai mòt",
+     "ja": "最近はタピオカミルクティーの店がどこにでもできている。",
+     "en": "These days bubble tea shops are opening everywhere.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56054",
+  "th": "ฝาชี",
+  "action": "add",
+  "ro": "fǎa chii",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（食卓用の）フードカバー（料理にかぶせる傘状のふた）",
+    "en": "food cover (dome-shaped)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เอาฝาชีครอบกับข้าวไว้ด้วยนะ",
+     "ro": "ao fǎa chii khrɔ̂ɔp kàp khâao wái dûuai ná",
+     "ja": "おかずにフードカバーをかぶせておいてね。",
+     "en": "Put the food cover over the dishes, okay?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56055",
+  "th": "ตอแย",
+  "action": "add",
+  "ro": "tɔɔ yɛɛ",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ちょっかいを出す・絡む",
+    "en": "to pester, provoke, mess with",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "อย่าไปตอแยกับคนเมา",
+     "ro": "yàa pai tɔɔ yɛɛ kàp khon mao",
+     "ja": "酔っ払いに絡まないで。",
+     "en": "Don't mess with drunk people.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56056",
+  "th": "สอพลอ",
+  "action": "add",
+  "ro": "sɔ̌ɔ phlɔɔ",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ごまをする・へつらう",
+    "en": "to flatter, toady",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาชอบสอพลอเจ้านายเพื่อให้ได้เลื่อนตำแหน่ง",
+     "ro": "khǎo chɔ̂ɔp sɔ̌ɔ phlɔɔ câo naai phʉ̂ʉa hâi dâai lʉ̂ʉan tam nɛ̀ng",
+     "ja": "彼は昇進のために上司にごまをすってばかりいる。",
+     "en": "He always flatters the boss to get promoted.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ประจบสอพลอ の形でもよく使う。"
+ },
+ {
+  "id": "tl-56057",
+  "th": "ฉกฉวย",
+  "action": "add",
+  "ro": "chòk chǔuai",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（機会・利益を）すかさずつかむ・つけ込む",
+    "en": "to seize, exploit (an opportunity)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บางคนฉกฉวยโอกาสขึ้นราคาสินค้าช่วงน้ำท่วม",
+     "ro": "baang khon chòk chǔuai oo kàat khʉ̂n raa khaa sǐn kháa chûuang náam thûuam",
+     "ja": "洪水の時期につけ込んで商品を値上げする人もいる。",
+     "en": "Some people exploit floods to raise prices.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ฉกฉวยโอกาส（機会につけ込む）の形で使うことが多い。"
+ },
+ {
+  "id": "tl-56058",
+  "th": "จิ้มจุ่ม",
+  "action": "add",
+  "ro": "cîm cùm",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "チムチュム（素焼きの土鍋で肉や野菜を煮る東北タイ式の鍋料理）",
+    "en": "Thai-Isan clay-pot hot pot",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คืนนี้ไปกินจิ้มจุ่มกันไหม",
+     "ro": "khʉʉn níi pai kin cîm cùm kan mǎi",
+     "ja": "今夜チムチュムを食べに行かない？",
+     "en": "Shall we go eat jim jum tonight?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56059",
+  "th": "โซเดียม",
+  "action": "add",
+  "ro": "soo diiam",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ナトリウム（塩分）",
+    "en": "sodium",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อาหารสำเร็จรูปมีโซเดียมสูง",
+     "ro": "aa hǎan sǎm rèt rûup mii soo diiam sǔung",
+     "ja": "インスタント食品はナトリウムが多い。",
+     "en": "Instant foods are high in sodium.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56060",
+  "th": "หินปูน",
+  "action": "add",
+  "ro": "hǐn puun",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "歯石",
+    "en": "tartar (on teeth)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันไปขูดหินปูนที่คลินิกทุกหกเดือน",
+     "ro": "chǎn pai khùut hǐn puun thîi khlí nìk thúk hòk dʉʉan",
+     "ja": "私は半年ごとにクリニックで歯石を取ってもらう。",
+     "en": "I have my teeth scaled at the clinic every six months.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "石灰岩",
+    "en": "limestone",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "จังหวัดกระบี่มีภูเขาหินปูนสวยสวยมากมาย",
+     "ro": "cang wàt krà bìi mii phuu khǎo hǐn puun sǔuai sǔuai mâak maai",
+     "ja": "クラビー県には美しい石灰岩の山がたくさんある。",
+     "en": "Krabi province has many beautiful limestone mountains.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ขูดหินปูน（歯石を取る）の形でよく使う。"
+ },
+ {
+  "id": "tl-56061",
+  "th": "สำเร็จการศึกษา",
+  "action": "add",
+  "ro": "sǎm rèt kaan sʉ̀k sǎa",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "卒業する・課程を修了する",
+    "en": "to graduate",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "เธอสำเร็จการศึกษาจากมหาวิทยาลัยเมื่อปีที่แล้ว",
+     "ro": "thəə sǎm rèt kaan sʉ̀k sǎa càak má hǎa wít thá yaa lai mʉ̂ʉa pii thîi lɛ́ɛo",
+     "ja": "彼女は昨年大学を卒業した。",
+     "en": "She graduated from university last year.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会話では เรียนจบ と言うことが多い。"
+ },
+ {
+  "id": "tl-56062",
+  "th": "เงินบาท",
+  "action": "add",
+  "ro": "ngəən bàat",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "タイバーツ（通貨）",
+    "en": "Thai baht",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นักท่องเที่ยวแลกเงินบาทที่สนามบิน",
+     "ro": "nák thɔ̂ng thîao lɛ̂ɛk ngəən bàat thîi sà nǎam bin",
+     "ja": "観光客は空港でタイバーツに両替する。",
+     "en": "Tourists exchange money for Thai baht at the airport.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56063",
+  "th": "แผนงาน",
+  "action": "add",
+  "ro": "phɛ̌ɛn ngaan",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "作業計画・業務計画",
+    "en": "work plan",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ทีมต้องส่งแผนงานภายในวันศุกร์นี้",
+     "ro": "thiim tɔ̂ɔng sòng phɛ̌ɛn ngaan phaai nai wan sùk níi",
+     "ja": "チームは今週の金曜日までに作業計画を提出しなければならない。",
+     "en": "The team must submit the work plan by this Friday.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56064",
+  "th": "ประธานกรรมการ",
+  "action": "add",
+  "ro": "prà thaan kam má kaan",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "取締役会長・委員長",
+    "en": "chairman (of a board or committee)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ประธานกรรมการบริษัทประกาศลาออกเมื่อวานนี้",
+     "ro": "prà thaan kam má kaan bɔɔ rí sàt prà kàat laa ɔ̀ɔk mʉ̂ʉa waan níi",
+     "ja": "会社の取締役会長が昨日辞任を発表した。",
+     "en": "The company chairman announced his resignation yesterday.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56065",
+  "th": "ค่าดำเนินการ",
+  "action": "add",
+  "ro": "khâa dam nəən kaan",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "手数料・事務手数料",
+    "en": "service fee, processing fee",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "การโอนเงินต่างประเทศมีค่าดำเนินการสามร้อยบาท",
+     "ro": "kaan oon ngəən tàang prà thêet mii khâa dam nəən kaan sǎam rɔ́ɔi bàat",
+     "ja": "海外送金には300バーツの手数料がかかる。",
+     "en": "International transfers have a 300-baht processing fee.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56066",
+  "th": "ผู้รับจ้าง",
+  "action": "add",
+  "ro": "phûu ráp câang",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "請負業者・受注者",
+    "en": "contractor",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ผู้รับจ้างต้องสร้างถนนให้เสร็จภายในหนึ่งปี",
+     "ro": "phûu ráp câang tɔ̂ɔng sâang thà nǒn hâi sèt phaai nai nʉ̀ng pii",
+     "ja": "請負業者は1年以内に道路を完成させなければならない。",
+     "en": "The contractor must finish the road within a year.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "契約書では発注者（ผู้ว่าจ้าง）と対で使う。"
+ },
+ {
+  "id": "tl-56067",
+  "th": "เงินสมทบ",
+  "action": "add",
+  "ro": "ngəən sǒm thóp",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "拠出金・掛け金（社会保険・基金などの）",
+    "en": "contribution (to social security, a fund)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "นายจ้างต้องจ่ายเงินสมทบประกันสังคมทุกเดือน",
+     "ro": "naai câang tɔ̂ɔng càai ngəən sǒm thóp prà kan sǎng khom thúk dʉʉan",
+     "ja": "雇用主は毎月、社会保険の拠出金を払わなければならない。",
+     "en": "Employers must pay social security contributions every month.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56068",
+  "th": "เงินต้น",
+  "action": "add",
+  "ro": "ngəən tôn",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "元金・元本",
+    "en": "principal (of a loan or deposit)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันผ่อนบ้านมาห้าปีแต่เงินต้นยังลดไม่มาก",
+     "ro": "chǎn phɔ̀ɔn bâan maa hâa pii tɛ̀ɛ ngəən tôn yang lót mâi mâak",
+     "ja": "家のローンを5年払ってきたが、元金はまだあまり減っていない。",
+     "en": "I've paid off the house for five years, but the principal hasn't gone down much.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56069",
+  "th": "ขาดดุล",
+  "action": "add",
+  "ro": "khàat dun",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "赤字になる（貿易・財政などが）",
+    "en": "to run a deficit",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ประเทศขาดดุลการค้าติดต่อกันสามปี",
+     "ro": "prà thêet khàat dun kaan kháa tìt tɔ̀ɔ kan sǎam pii",
+     "ja": "その国は3年連続で貿易赤字になった。",
+     "en": "The country ran a trade deficit for three years in a row.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "反対は เกินดุล（黒字になる）。"
+ },
+ {
+  "id": "tl-56070",
+  "th": "คำชี้แจง",
+  "action": "add",
+  "ro": "kham chíi cɛɛng",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "注意書き・記入上の説明",
+    "en": "instructions, explanatory notes",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "กรุณาอ่านคำชี้แจงก่อนทำแบบสอบถาม",
+     "ro": "kà rú naa àan kham chíi cɛɛng kɔ̀ɔn tham bɛ̀ɛp sɔ̀ɔp thǎam",
+     "ja": "アンケートに答える前に注意書きを読んでください。",
+     "en": "Please read the instructions before filling in the questionnaire.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（公式な）説明・釈明",
+    "en": "official explanation, statement",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "บริษัทออกคำชี้แจงเรื่องข้อมูลรั่วไหล",
+     "ro": "bɔɔ rí sàt ɔ̀ɔk kham chíi cɛɛng rʉ̂ʉang khɔ̂ɔ muun rûua lǎi",
+     "ja": "会社は情報漏えいについて説明を発表した。",
+     "en": "The company issued a statement about the data leak.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56071",
+  "th": "แก้ไขเพิ่มเติม",
+  "action": "add",
+  "ro": "kɛ̂ɛ khǎi phə̂əm təəm",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（法律・規則などを）改正する",
+    "en": "to amend (a law, rules)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "รัฐบาลเสนอแก้ไขเพิ่มเติมกฎหมายแรงงาน",
+     "ro": "rát thà baan sà nə̌ə kɛ̂ɛ khǎi phə̂əm təəm kòt mǎai rɛɛng ngaan",
+     "ja": "政府は労働法の改正を提案した。",
+     "en": "The government proposed amending the labor law.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56072",
+  "th": "เลขประจำตัวประชาชน",
+  "action": "add",
+  "ro": "lêek prà cam tuua prà chaa chon",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "国民ID番号（13桁の個人番号）",
+    "en": "national ID number",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "กรุณากรอกเลขประจำตัวประชาชนสิบสามหลัก",
+     "ro": "kà rú naa krɔ̀ɔk lêek prà cam tuua prà chaa chon sìp sǎam làk",
+     "ja": "13桁の国民ID番号を記入してください。",
+     "en": "Please fill in your 13-digit national ID number.",
+     "origin": "authored"
+    }
+   }
+  ]
+ }
+]
