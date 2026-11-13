@@ -1,0 +1,186 @@
+[
+ {
+  "id": "tl-55341",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55342",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55343",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55344",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55345",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55346",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55347",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55348",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55349",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55350",
+  "verdict": "ok",
+  "issues": [
+   "読みを確認：nâa khɛ̂ng（既存 tl-43802 แข้ง khɛ̂ng・例文参照と一致）"
+  ]
+ },
+ {
+  "id": "tl-55351",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55352",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55353",
+  "verdict": "ok",
+  "issues": [
+   "読みを確認：seen luu lái（語末ล→n は บิล bin・อีเมล ii meel・ฟุตบอล fút bɔɔn と同じ、ไลท์ は ไฮไลท์ hai lái と一致）"
+  ]
+ },
+ {
+  "id": "tl-55354",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55355",
+  "verdict": "fix",
+  "issues": [
+   "例文の ล้มจักรยาน は不自然なので ขี่จักรยานล้ม に修正"
+  ],
+  "fixed": {
+   "id": "tl-55355",
+   "th": "ไหปลาร้า",
+   "action": "add",
+   "ro": "hǎi plaa ráa",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "鎖骨（鎖骨のあたり）",
+     "en": "collarbone, clavicle",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาขี่จักรยานล้มจนกระดูกไหปลาร้าหัก",
+      "ro": "khǎo khìi càk krà yaan lóm con krà dùuk hǎi plaa ráa hàk",
+      "ja": "彼は自転車で転んで鎖骨を折った。",
+      "en": "He fell off his bike and broke his collarbone.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "骨そのものを指すときは กระดูกไหปลาร้า と言うことが多い。"
+  }
+ },
+ {
+  "id": "tl-55356",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55357",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55358",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55359",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55360",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55361",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55362",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55363",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55364",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55365",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55366",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55367",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55368",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55369",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55370",
+  "verdict": "ok",
+  "issues": []
+ }
+]
