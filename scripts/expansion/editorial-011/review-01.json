@@ -1,0 +1,261 @@
+[
+ {
+  "id": "tl-55301",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55302",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55303",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55304",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55305",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55306",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55307",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55308",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55309",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55310",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55311",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55312",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55313",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55314",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55315",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55316",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55317",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55318",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55319",
+  "verdict": "fix",
+  "issues": [
+   "例文訳の「白酒」は日本語では雛祭りの白酒や中国の白酒と紛れるため、ラオカーオ（タイの無色の蒸留酒）に修正"
+  ],
+  "fixed": {
+   "id": "tl-55319",
+   "th": "เหล้าขาว",
+   "action": "add",
+   "ro": "lâo khǎao",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "タイの無色の蒸留酒（米などで作る安い酒）",
+     "en": "Thai white spirit, clear rice liquor",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ชาวบ้านบางคนดื่มเหล้าขาวเพราะราคาถูก",
+      "ro": "chaao bâan baang khon dʉ̀ʉm lâo khǎao phrɔ́ raa khaa thùuk",
+      "ja": "値段が安いので、ラオカーオ（タイの無色の蒸留酒）を飲む村人もいます。",
+      "en": "Some villagers drink white liquor because it is cheap.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55320",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55321",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55322",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55323",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55324",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55325",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55326",
+  "verdict": "fix",
+  "issues": [
+   "注の「辞書のつづりは แม่หม้าย」という断定は確認できないため、異つづりの説明に弱めた"
+  ],
+  "fixed": {
+   "id": "tl-55326",
+   "th": "แม่ม่าย",
+   "action": "add",
+   "ro": "mɛ̂ɛ mâai",
+   "kind": "word",
+   "category": "人・家族",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "未亡人・夫と死別または離婚した女性",
+     "en": "widow; divorced woman",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หลังสามีเสียชีวิต เธอก็กลายเป็นแม่ม่าย",
+      "ro": "lǎng sǎa mii sǐia chii wít thəə kɔ̂ɔ klaai pen mɛ̂ɛ mâai",
+      "ja": "夫が亡くなった後、彼女は未亡人になりました。",
+      "en": "After her husband died, she became a widow.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "แม่หม้าย ともつづる（読みは同じ）。"
+  }
+ },
+ {
+  "id": "tl-55327",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55328",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55329",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55330",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55331",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55332",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55333",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55334",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55335",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55336",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55337",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55338",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55339",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55340",
+  "verdict": "ok",
+  "issues": []
+ }
+]
