@@ -2,31 +2,8 @@
  {
   "id": "tl-54292",
   "th": "ว่าแต่",
-  "action": "add",
-  "ro": "wâa tɛ̀ɛ",
-  "kind": "word",
-  "category": "接続表現",
-  "frequency": 6,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "ところで・それはそうと（話題を変える）",
-    "en": "by the way",
-    "pos": "接続詞",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "ว่าแต่พรุ่งนี้เธอว่างไหม",
-     "ro": "wâa tɛ̀ɛ phrûng níi thəə wâang mǎi",
-     "ja": "ところで、明日は空いてる？",
-     "en": "By the way, are you free tomorrow?",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "既存の ว่าแต่ว่า（ところで）と同じ語の短い形で、意味も同じため重複として追加しない。"
  },
  {
   "id": "tl-54293",
@@ -809,31 +786,8 @@
  {
   "id": "tl-54320",
   "th": "สรุปคือ",
-  "action": "add",
-  "ro": "sà rùp khʉʉ",
-  "kind": "word",
-  "category": "接続表現",
-  "frequency": 6,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "要するに・結局のところ",
-    "en": "in short, so basically",
-    "pos": "接続詞",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "สรุปคือพรุ่งนี้ไม่ต้องไปทำงานใช่ไหม",
-     "ro": "sà rùp khʉʉ phrûng níi mâi tɔ̂ɔng pai tham ngaan châi mǎi",
-     "ja": "要するに、明日は出勤しなくていいってこと？",
-     "en": "So basically, we don't have to go to work tomorrow, right?",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "既存の สรุป（要するに・まとめると）に คือ が付いただけで意味が同じため重複として追加しない。"
  },
  {
   "id": "tl-54321",
@@ -934,10 +888,10 @@
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "เด็กร้องไห้ทั้งคืน",
-     "ro": "dèk rɔ́ɔng hâi tháng khʉʉn",
-     "ja": "子どもが一晩中泣いていました。",
-     "en": "The child cried all night.",
+     "th": "ลูกไม่สบาย ฉันเลยไม่ได้นอนทั้งคืน",
+     "ro": "lûuk mâi sà baai chǎn ləəi mâi dâai nɔɔn tháng khʉʉn",
+     "ja": "子どもの具合が悪くて、一晩中眠れませんでした。",
+     "en": "My child was sick, so I didn't sleep all night.",
      "origin": "authored"
     }
    }
@@ -1319,7 +1273,7 @@
   "action": "add",
   "ro": "bɛ̀t sǎm rɔɔng",
   "kind": "word",
-  "category": "家・場所",
+  "category": "一般語彙",
   "frequency": 5,
   "senses": [
    {
@@ -1341,37 +1295,13 @@
     }
    }
   ],
-  "note": "แบตเตอรี่สำรอง の略。พาวเวอร์แบงก์ とも言う。"
+  "note": "แบตเตอรี่สำรอง の略。พาวเวอร์แบงก์ と同じ意味。"
  },
  {
   "id": "tl-54338",
   "th": "ยาพารา",
-  "action": "add",
-  "ro": "yaa phaa raa",
-  "kind": "word",
-  "category": "体・健康",
-  "frequency": 6,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "パラセタモール（解熱鎮痛剤）",
-    "en": "paracetamol",
-    "pos": "名詞",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "ปวดหัวนิดหน่อย กินยาพาราแล้วนอนพัก",
-     "ro": "pùuat hǔua nít nɔ̀ɔi kin yaa phaa raa lɛ́ɛo nɔɔn phák",
-     "ja": "頭が少し痛いので、解熱鎮痛剤を飲んで横になります。",
-     "en": "I have a slight headache, so I'll take a paracetamol and lie down.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "ยาพาราเซตามอล の略。タイで最も一般的な市販の解熱鎮痛剤。"
+  "action": "skip",
+  "skipReason": "既存の พารา（パラセタモール）に ยา を付けた形で意味が同じため重複として追加しない。"
  },
  {
   "id": "tl-54339",
@@ -2070,7 +2000,7 @@
     }
    }
   ],
-  "note": "英語 search から。改まった言い方は ค้นหา。"
+  "note": "英語 search から。เซิร์ช と書かれることもある。改まった言い方は ค้นหา。"
  },
  {
   "id": "tl-54363",
@@ -2581,10 +2511,10 @@
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "ฉันอยากย้อมผมสีน้ำตาล",
-     "ro": "chǎn yàak yɔ́ɔm phǒm sǐi nám taan",
-     "ja": "髪を茶色に染めたい。",
-     "en": "I want to dye my hair brown.",
+     "th": "ร้านนี้ย้อมผมราคาไม่แพง",
+     "ro": "ráan níi yɔ́ɔm phǒm raa khaa mâi phɛɛng",
+     "ja": "この店は髪を染める料金が高くありません。",
+     "en": "This salon doesn't charge much to dye your hair.",
      "origin": "authored"
     }
    }
