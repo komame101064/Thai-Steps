@@ -51,59 +51,8 @@
  },
  {
   "id": "tl-53111",
-  "verdict": "fix",
-  "issues": [
-   "読みは phrii sen（中声）で確定：ต์ は黙字で เปอร์เซ็นต์ pəə sen・เซ็น sen と同じ扱い",
-   "noteの「phrii sén と高く発音されることも多い」は根拠を確認できないため削除"
-  ],
-  "fixed": {
-   "id": "tl-53111",
-   "th": "พรีเซนต์",
-   "action": "add",
-   "ro": "phrii sen",
-   "kind": "word",
-   "category": "仕事・学習",
-   "frequency": 4,
-   "senses": [
-    {
-     "sourceSense": 1,
-     "ja": "プレゼンする・発表する",
-     "en": "to present, give a presentation",
-     "pos": "動詞",
-     "use": "よく使う意味",
-     "registerTags": [
-      "colloquial"
-     ],
-     "speechStyle": "口語",
-     "example": {
-      "th": "พรุ่งนี้ฉันต้องพรีเซนต์งานต่อหน้าลูกค้า",
-      "ro": "phrûng níi chǎn tɔ̂ɔng phrii sen ngaan tɔ̀ɔ nâa lûuk kháa",
-      "ja": "明日、私は顧客の前で仕事のプレゼンをしなければならない。",
-      "en": "Tomorrow I have to present my work in front of the client.",
-      "origin": "authored"
-     }
-    },
-    {
-     "sourceSense": 2,
-     "ja": "（商品などを）売り込む・紹介する",
-     "en": "to promote, pitch (a product)",
-     "pos": "動詞",
-     "use": "よく使う別の意味",
-     "registerTags": [
-      "colloquial"
-     ],
-     "speechStyle": "口語",
-     "example": {
-      "th": "พนักงานพรีเซนต์สินค้าใหม่ให้เราฟัง",
-      "ro": "phá nák ngaan phrii sen sǐn kháa mài hâi rao fang",
-      "ja": "店員が新商品を私たちに紹介してくれた。",
-      "en": "The staff member pitched the new product to us.",
-      "origin": "authored"
-     }
-    }
-   ],
-   "note": "英語 present から。名詞は พรีเซนเทชัน。"
-  }
+  "verdict": "ok",
+  "issues": []
  },
  {
   "id": "tl-53112",
@@ -296,8 +245,37 @@
  },
  {
   "id": "tl-53144",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "例文のroで บ่อย は辞書どおり bɔ̀ɔi"
+  ],
+  "fixed": {
+   "id": "tl-53144",
+   "th": "สั่งของ",
+   "action": "add",
+   "ro": "sàng khɔ̌ɔng",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "品物を注文する・取り寄せる",
+     "en": "to order goods",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันสั่งของออนไลน์บ่อยมาก",
+      "ro": "chǎn sàng khɔ̌ɔng ɔɔn lai bɔ̀ɔi mâak",
+      "ja": "私はよくネットで物を注文する。",
+      "en": "I order things online very often.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-53145",
