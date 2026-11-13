@@ -346,10 +346,10 @@
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "เขาเปลี่ยนล้อแม็กรถใหม่ทั้งสี่ล้อ",
-     "ro": "khǎo plìian lɔ́ɔ mɛ́k rót mài tháng sìi lɔ́ɔ",
-     "ja": "彼は車のアルミホイールを4本とも新しくした。",
-     "en": "He replaced all four of his car's alloy wheels.",
+     "th": "เขาเปลี่ยนล้อแม็กใหม่ทั้งสี่ล้อ",
+     "ro": "khǎo plìian lɔ́ɔ mɛ́k mài tháng sìi lɔ́ɔ",
+     "ja": "彼はアルミホイールを4本とも新しくした。",
+     "en": "He replaced all four alloy wheels with new ones.",
      "origin": "authored"
     }
    }
@@ -650,7 +650,7 @@
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
      "th": "ลิงแสมชอบแย่งอาหารจากนักท่องเที่ยว",
-     "ro": "ling sà mɛ̌ɛm chɔ̂ɔp yɛ̂ɛng aa hǎan càak nák thɔ̂ng thîiao",
+     "ro": "ling sà mɛ̌ɛm chɔ̂ɔp yɛ̂ɛng aa hǎan càak nák thɔ̂ɔng thîiao",
      "ja": "カニクイザルはよく観光客から食べ物を奪う。",
      "en": "Crab-eating macaques often snatch food from tourists.",
      "origin": "authored"
@@ -724,7 +724,7 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "さなぎ（特にカイコのさなぎ）",
+    "ja": "さなぎ",
     "en": "pupa, chrysalis",
     "pos": "名詞",
     "use": "よく使う意味",
@@ -1428,7 +1428,7 @@
   "id": "tl-56557",
   "th": "สุริยุปราคา",
   "action": "skip",
-  "skipReason": "同じ意味の สุริยอุปราคา が既に登録済みのため、表記違いとして見送り。"
+  "skipReason": "同じ意味の สุริยอุปราคา が既に登録済みのため、表記違いとして見送り（辞書の標準表記は สุริยุปราคา なので、既存見出しの表記を見直す余地あり）。"
  },
  {
   "id": "tl-56558",
@@ -1742,7 +1742,7 @@
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
      "th": "นักท่องเที่ยวมาถ่ายรูปกับพีระมิดในอียิปต์",
-     "ro": "nák thɔ̂ng thîiao maa thàai rûup kàp phii rá mít nai ii yíp",
+     "ro": "nák thɔ̂ɔng thîiao maa thàai rûup kàp phii rá mít nai ii yíp",
      "ja": "観光客がエジプトのピラミッドと写真を撮りに来る。",
      "en": "Tourists come to take photos with the pyramids in Egypt.",
      "origin": "authored"
