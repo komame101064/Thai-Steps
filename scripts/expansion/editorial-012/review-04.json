@@ -111,37 +111,11 @@
  },
  {
   "id": "tl-55663",
-  "verdict": "fix",
+  "verdict": "reject",
   "issues": [
-   "用例では แบบเก็บปลายทาง（代引きで）と名詞的に使っており、enも名詞。語義を「代金引換・着払い」、品詞を名詞に修正"
-  ],
-  "fixed": {
-   "id": "tl-55663",
-   "th": "เก็บปลายทาง",
-   "action": "add",
-   "ro": "kèp plaai thaang",
-   "kind": "word",
-   "category": "お金・買い物",
-   "frequency": 2,
-   "senses": [
-    {
-     "sourceSense": 1,
-     "ja": "代金引換・着払い",
-     "en": "cash on delivery",
-     "pos": "名詞",
-     "use": "よく使う意味",
-     "registerTags": [],
-     "speechStyle": "標準語（口語限定ではない）",
-     "example": {
-      "th": "สินค้านี้สั่งแบบเก็บปลายทางได้ไหม",
-      "ro": "sǐn kháa níi sàng bɛ̀ɛp kèp plaai thaang dâai mǎi",
-      "ja": "この商品は代金引換で注文できますか？",
-      "en": "Can I order this item cash on delivery?",
-      "origin": "authored"
-     }
-    }
-   ]
-  }
+   "用例では แบบเก็บปลายทาง（代引きで）と名詞的に使っており、enも名詞。語義を「代金引換・着払い」、品詞を名詞に修正",
+   "最終監査: 既存の เก็บเงินปลายทาง（tl-53874）の短縮形で重複。なお「着払い」は送料の受取人払いで代引きとは別"
+  ]
  },
  {
   "id": "tl-55664",
@@ -192,8 +166,10 @@
  },
  {
   "id": "tl-55673",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "最終監査: เล่น＋สงกรานต์ の動詞＋目的語。同じバッチの เล่นน้ำ 語義2（ソンクランの水かけ）と同じ内容で重複"
+  ]
  },
  {
   "id": "tl-55674",
@@ -207,8 +183,40 @@
  },
  {
   "id": "tl-55676",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 分類が「人・家族」で不適切（口出しする動作の語）。日常の動作へ"
+  ],
+  "fixed": {
+   "id": "tl-55676",
+   "th": "จุ้น",
+   "action": "add",
+   "ro": "cûn",
+   "kind": "word",
+   "category": "日常の動作",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "余計な口出しをする・おせっかいを焼く",
+     "en": "to meddle, be nosy",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "อย่ามาจุ้นเรื่องของฉัน",
+      "ro": "yàa maa cûn rʉ̂ʉang khɔ̌ɔng chǎn",
+      "ja": "私のことに口出ししないで。",
+      "en": "Don't meddle in my business.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ややきつい言い方。ขี้จุ้น（おせっかいな）の形でもよく使う。"
+  }
  },
  {
   "id": "tl-55677",
@@ -217,8 +225,54 @@
  },
  {
   "id": "tl-55678",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 第1の意味は注のとおり報道の決まった言い方で、口語ラベルと注が矛盾する。標準語に修正"
+  ],
+  "fixed": {
+   "id": "tl-55678",
+   "th": "มือดี",
+   "action": "add",
+   "ro": "mʉʉ dii",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（いたずら・犯行をした）何者か",
+     "en": "some unknown person (who did mischief)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "มือดีขโมยป้ายจราจรไปหลายอัน",
+      "ro": "mʉʉ dii khà mooi pâai cà raa cɔɔn pai lǎai an",
+      "ja": "何者かが交通標識をいくつも盗んでいきました。",
+      "en": "Someone stole several traffic signs.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "腕がいい・腕利きの",
+     "en": "skilled, good with one's hands",
+     "pos": "形容詞・状態語",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หมอคนนี้มือดีมาก",
+      "ro": "mɔ̌ɔ khon níi mʉʉ dii mâak",
+      "ja": "この医者はとても腕がいいです。",
+      "en": "This doctor is very skilled.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "第1の意味はニュースで皮肉をこめて使う。"
+  }
  },
  {
   "id": "tl-55679",

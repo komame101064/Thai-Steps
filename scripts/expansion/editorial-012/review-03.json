@@ -6,8 +6,10 @@
  },
  {
   "id": "tl-55562",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "最終監査: 既存語 เวร（tl-01559）の語義3「当番」の用例がすでに คืนนี้ฉันอยู่เวร で、อยู่＋เวร の形を教えている（既存語義の重複）"
+  ]
  },
  {
   "id": "tl-55563",
@@ -104,8 +106,10 @@
  },
  {
   "id": "tl-55569",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "最終監査: 既存語 ปัด（tl-03311）の語義3「端数を丸める」と同義で、ปัด＋เศษ の透明な組み合わせ（既存語義の重複）"
+  ]
  },
  {
   "id": "tl-55570",
@@ -241,13 +245,73 @@
  },
  {
   "id": "tl-55580",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 語義2「黒糖」は現代では น้ำตาลอ้อย・น้ำตาลทรายแดง が普通で、用例 แม่ใส่น้ำอ้อยในขนม はジュースとも読めて語義を示せない。語義2を削除",
+   "最終監査: 頻度過大：อ้อย（2）を含む複合語なので2に"
+  ],
+  "fixed": {
+   "id": "tl-55580",
+   "th": "น้ำอ้อย",
+   "action": "add",
+   "ro": "nám ɔ̂ɔi",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "サトウキビジュース",
+     "en": "sugarcane juice",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "น้ำอ้อยเย็นๆ ช่วยให้สดชื่น",
+      "ro": "nám ɔ̂ɔi yen yen chûuai hâi sòt chʉ̂ʉn",
+      "ja": "冷たいサトウキビジュースで気分がすっきりする。",
+      "en": "Cold sugarcane juice is refreshing.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-55581",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度過大：ข้าวเจ้า（1）を含む複合語なので頻度を部分以下に"
+  ],
+  "fixed": {
+   "id": "tl-55581",
+   "th": "แป้งข้าวเจ้า",
+   "action": "add",
+   "ro": "pɛ̂ng khâao câo",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 1,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "米粉（うるち米の粉）",
+     "en": "rice flour",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ขนมนี้ทำจากแป้งข้าวเจ้า",
+      "ro": "khà nǒm níi tham càak pɛ̂ng khâao câo",
+      "ja": "このお菓子は米粉で作られている。",
+      "en": "This dessert is made from rice flour.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "もち米の粉は แป้งข้าวเหนียว。"
+  }
  },
  {
   "id": "tl-55582",
@@ -321,8 +385,38 @@
  },
  {
   "id": "tl-55590",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 化粧品の一般名称で、商品表示にも使う標準的な外来語。口語ラベルは不適切"
+  ],
+  "fixed": {
+   "id": "tl-55590",
+   "th": "คลีนซิ่ง",
+   "action": "add",
+   "ro": "khliin sîng",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（化粧落としの）クレンジング",
+     "en": "makeup remover, cleansing",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ก่อนนอนต้องใช้คลีนซิ่งล้างเครื่องสำอาง",
+      "ro": "kɔ̀ɔn nɔɔn tɔ̂ɔng chái khliin sîng láang khrʉ̂ʉang sǎm aang",
+      "ja": "寝る前にクレンジングで化粧を落とさないといけない。",
+      "en": "Before bed you need to remove makeup with cleansing.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "คลีนซิ่งออยล์（クレンジングオイル）、คลีนซิ่งวอเตอร์ などとも言う。"
+  }
  },
  {
   "id": "tl-55591",
@@ -558,8 +652,53 @@
  },
  {
   "id": "tl-55619",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度過大：ชั่ง（3）を含む複合語なので3に"
+  ],
+  "fixed": {
+   "id": "tl-55619",
+   "th": "ชั่งน้ำหนัก",
+   "action": "add",
+   "ro": "châng nám nàk",
+   "kind": "word",
+   "category": "日常の動作",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "重さを量る・体重を量る",
+     "en": "to weigh",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แม่ค้าชั่งน้ำหนักผลไม้ก่อนคิดเงิน",
+      "ro": "mɛ̂ɛ kháa châng nám nàk phǒn lá máai kɔ̀ɔn khít ngəən",
+      "ja": "店のおばさんは会計の前に果物の重さを量った。",
+      "en": "The vendor weighed the fruit before charging.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（利害・得失を）比べてよく考える",
+     "en": "to weigh up (pros and cons)",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ต้องชั่งน้ำหนักข้อดีข้อเสียให้ดีก่อน",
+      "ro": "tɔ̂ɔng châng nám nàk khɔ̂ɔ dii khɔ̂ɔ sǐia hâi dii kɔ̀ɔn",
+      "ja": "まず長所と短所をよく比べて考えないといけない。",
+      "en": "You need to weigh up the pros and cons first.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-55620",
@@ -583,8 +722,37 @@
  },
  {
   "id": "tl-55624",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度：複合語が構成要素 ความเข้าใจ（3）より高い。4→3"
+  ],
+  "fixed": {
+   "id": "tl-55624",
+   "th": "ปรับความเข้าใจ",
+   "action": "add",
+   "ro": "pràp khwaam khâo cai",
+   "kind": "word",
+   "category": "挨拶・会話",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "話し合って誤解を解く・わだかまりを解く",
+     "en": "to talk things through, clear up a misunderstanding",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เราสองคนคุยกันเพื่อปรับความเข้าใจ",
+      "ro": "rao sɔ̌ɔng khon khui kan phʉ̂ʉa pràp khwaam khâo cai",
+      "ja": "私たち二人は誤解を解くために話し合った。",
+      "en": "The two of us talked to clear up the misunderstanding.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-55625",
@@ -618,8 +786,10 @@
  },
  {
   "id": "tl-55631",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "最終監査: ข้ามคืน（tl-55446）と語義・例文の型が同一（一夜にして）。ชั่ว を添えた強調形なので重複として不採用（ข้ามคืน の注に記載）"
+  ]
  },
  {
   "id": "tl-55632",

@@ -84,8 +84,39 @@
  },
  {
   "id": "tl-60616",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度過大：พุง（2）を含む複合語なので2に"
+  ],
+  "fixed": {
+   "id": "tl-60616",
+   "th": "นอนตีพุง",
+   "action": "add",
+   "ro": "nɔɔn tii phung",
+   "kind": "word",
+   "category": "スラング｜友達の日常",
+   "adult": false,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（何もせず）ごろごろしてのんびり過ごす",
+     "pos": "動詞",
+     "speechStyle": "口語",
+     "note": "満腹の腹をたたいて寝転がる様子から。気楽で満ち足りた響きで、怠けを責める語ではない。",
+     "example": {
+      "th": "วันหยุดนี้อยากนอนตีพุงอยู่บ้านเฉยๆ",
+      "ro": "wan yùt níi yàak nɔɔn tii phung yùu bâan chə̌əi chə̌əi",
+      "ja": "今度の休みは家でただごろごろしていたい。",
+      "context": "週末の予定を聞かれて",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-60617",
@@ -233,8 +264,40 @@
  },
  {
   "id": "tl-60633",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度：構成要素 แหก（3、editorial-013）より高い。4→3"
+  ],
+  "fixed": {
+   "id": "tl-60633",
+   "th": "แหกตา",
+   "action": "add",
+   "ro": "hɛ̀ɛk taa",
+   "kind": "word",
+   "category": "スラング｜友達の日常",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（うそ・誇張で）人をだます・ごまかす",
+     "pos": "動詞",
+     "speechStyle": "口語・スラング",
+     "note": "文字どおりは「目をこじ開ける」。人をだますことを責めるくだけた語で、「แหกตาประชาชน」は政治批判でもよく聞く。",
+     "example": {
+      "th": "โฆษณาแหกตา ของจริงไม่เหมือนในรูปเลย",
+      "ro": "khoo sà naa hɛ̀ɛk taa khɔ̌ɔng cing mâi mʉ̌ʉan nai rûup ləəi",
+      "ja": "人をだます広告だ。実物は写真と全然違う。",
+      "context": "ネットで買った物が届いて",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-60634",
@@ -408,8 +471,39 @@
  },
  {
   "id": "tl-60666",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 用例の กระทู้ の声調誤り：thûu→thúu（低子音＋ไม้โท＝高声。既存語 tl-44453 と同じ krà thúu）"
+  ],
+  "fixed": {
+   "id": "tl-60666",
+   "th": "จขกท",
+   "action": "add",
+   "ro": "cɔɔ khɔ̌ɔ kɔɔ thɔɔ",
+   "kind": "word",
+   "category": "スラング｜ネット・SNS",
+   "adult": false,
+   "tags": [
+    "slang"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "スレ主（掲示板の書き込みをした人）",
+     "pos": "名詞",
+     "speechStyle": "ネット表記",
+     "note": "เจ้าของกระทู้（スレッドの持ち主）の頭文字。Pantip などの掲示板の書き言葉で、จขกท. と点を付けることもある。会話では เจ้าของกระทู้ と言うことが多い。",
+     "example": {
+      "th": "จขกท มาตอบคำถามในกระทู้หรือยัง",
+      "ro": "cɔɔ khɔ̌ɔ kɔɔ thɔɔ maa tɔ̀ɔp kham thǎam nai krà thúu rʉ̌ʉ yang",
+      "ja": "スレ主はスレッドの質問にもう答えた？",
+      "context": "掲示板のコメント",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-60667",
@@ -448,8 +542,10 @@
  },
  {
   "id": "tl-60674",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "最終監査: คุณหนู（tl-55436）と同じ意味・ほぼ同じ例文の派生形。重複のため不採用（คุณหนู の注に ลูกคุณหนู を記載）。また一般語で、スラング欄に置く語ではない"
+  ]
  },
  {
   "id": "tl-60675",
@@ -463,8 +559,39 @@
  },
  {
   "id": "tl-60677",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度過大：หยอก（2）を含む複合語なので2に"
+  ],
+  "fixed": {
+   "id": "tl-60677",
+   "th": "หมาหยอกไก่",
+   "action": "add",
+   "ro": "mǎa yɔ̀ɔk kài",
+   "kind": "word",
+   "category": "スラング｜恋愛・人間関係",
+   "adult": false,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（異性への）本気でない軽いちょっかい",
+     "pos": "名詞",
+     "speechStyle": "口語",
+     "note": "犬が鶏をからかう様子から、本気ではない軽い口説きやからかいを言う。主に男性が女性にちょっかいを出す場面で使う。",
+     "example": {
+      "th": "เขาแค่หมาหยอกไก่ ไม่ได้คิดจริงจังหรอก",
+      "ro": "khǎo khɛ̂ɛ mǎa yɔ̀ɔk kài mâi dâai khít cing cang rɔ̀ɔk",
+      "ja": "彼は軽くちょっかいを出しているだけで、本気じゃないよ。",
+      "context": "友人同士の恋愛話",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-60678",

@@ -11,8 +11,37 @@
  },
  {
   "id": "tl-55723",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度過大：กระติก（1）の下位語なので頻度を親語以下に"
+  ],
+  "fixed": {
+   "id": "tl-55723",
+   "th": "กระติกน้ำร้อน",
+   "action": "add",
+   "ro": "krà tìk náam rɔ́ɔn",
+   "kind": "word",
+   "category": "家・場所",
+   "frequency": 1,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "電気ポット・保温ポット",
+     "en": "electric hot-water pot, thermos",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ในห้องพักมีกระติกน้ำร้อนให้ใช้",
+      "ro": "nai hɔ̂ɔng phák mii krà tìk náam rɔ́ɔn hâi chái",
+      "ja": "客室には電気ポットが備え付けてあります。",
+      "en": "There is an electric hot-water pot in the room for you to use.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-55724",
@@ -243,8 +272,38 @@
  },
  {
   "id": "tl-55752",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: ナタデココ（店頭・商品名で多い）も วุ้นมะพร้าว と呼ぶことを注記しないと学習者が混乱する"
+  ],
+  "fixed": {
+   "id": "tl-55752",
+   "th": "วุ้นมะพร้าว",
+   "action": "add",
+   "ro": "wún má phráao",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ココナッツゼリー",
+     "en": "coconut jelly",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "อากาศร้อนแบบนี้กินวุ้นมะพร้าวแล้วสดชื่น",
+      "ro": "aa kàat rɔ́ɔn bɛ̀ɛp níi kin wún má phráao lɛ́ɛo sòt chʉ̂ʉn",
+      "ja": "こんなに暑いときは、ココナッツゼリーを食べるとさっぱりする。",
+      "en": "In hot weather like this, coconut jelly is refreshing.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "タイではナタデココも วุ้นมะพร้าว と呼ぶことが多い。"
+  }
  },
  {
   "id": "tl-55753",
@@ -313,8 +372,37 @@
  },
  {
   "id": "tl-55766",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度過大：คนชรา（1）を含む複合語なので頻度を部分以下に"
+  ],
+  "fixed": {
+   "id": "tl-55766",
+   "th": "บ้านพักคนชรา",
+   "action": "add",
+   "ro": "bâan phák khon chá raa",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 1,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "老人ホーム",
+     "en": "nursing home, home for the elderly",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "คุณยายย้ายไปอยู่บ้านพักคนชรา",
+      "ro": "khun yaai yáai pai yùu bâan phák khon chá raa",
+      "ja": "祖母は老人ホームに移った。",
+      "en": "Grandma moved into a nursing home.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-55767",
@@ -333,8 +421,38 @@
  },
  {
   "id": "tl-55770",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 「カフェ芸人」は日本語に存在せず喫茶店の芸人と誤解させる。語義と用例訳を「ナイトクラブの舞台のお笑い芸人」に"
+  ],
+  "fixed": {
+   "id": "tl-55770",
+   "th": "ตลกคาเฟ่",
+   "action": "add",
+   "ro": "tà lòk khaa fêe",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（ナイトクラブの舞台出身の）お笑い芸人・その演芸",
+     "en": "comedians from Thai nightclub stage shows",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาเริ่มอาชีพจากการเป็นตลกคาเฟ่",
+      "ro": "khǎo rə̂əm aa chîip càak kaan pen tà lòk khaa fêe",
+      "ja": "彼はナイトクラブの舞台のお笑い芸人としてキャリアを始めた。",
+      "en": "He started his career as a nightclub comedian.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ここでの คาเฟ่ は歌謡ショーを見せるナイトクラブのことで、喫茶店ではない。"
+  }
  },
  {
   "id": "tl-55771",
@@ -390,8 +508,37 @@
  },
  {
   "id": "tl-55781",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度：複合語が構成要素 วุ้นเส้น（1）より高い。2→1"
+  ],
+  "fixed": {
+   "id": "tl-55781",
+   "th": "กุ้งอบวุ้นเส้น",
+   "action": "add",
+   "ro": "kûng òp wún sên",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 1,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "エビと春雨の土鍋蒸し焼き",
+     "en": "baked shrimp with glass noodles",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "สั่งกุ้งอบวุ้นเส้นมาหนึ่งหม้อ",
+      "ro": "sàng kûng òp wún sên maa nʉ̀ng mɔ̂ɔ",
+      "ja": "エビと春雨の蒸し焼きを一鍋注文した。",
+      "en": "I ordered a pot of baked shrimp with glass noodles.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-55782",
@@ -410,8 +557,38 @@
  },
  {
   "id": "tl-55785",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度過大：ซิม（1）を含む複合語なので1に"
+  ],
+  "fixed": {
+   "id": "tl-55785",
+   "th": "ซิมม้า",
+   "action": "add",
+   "ro": "sim máa",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 1,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（詐欺などに使う）名義貸しSIM",
+     "en": "SIM card registered in someone else's name for crime",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ตำรวจจับแก๊งขายซิมม้าให้แก๊งคอลเซ็นเตอร์",
+      "ro": "tam rùuat càp kɛ́ng khǎai sim máa hâi kɛ́ng khɔɔn sen tə̂ə",
+      "ja": "警察は電話詐欺グループに名義貸しSIMを売る一味を逮捕した。",
+      "en": "Police arrested a gang selling proxy SIM cards to call-center scammers.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "บัญชีม้า（名義貸し口座）と同じく、ม้า は犯罪に名義を貸す手先のこと。報道でよく使う。"
+  }
  },
  {
   "id": "tl-55786",

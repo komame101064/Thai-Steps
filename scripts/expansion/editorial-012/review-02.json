@@ -105,8 +105,37 @@
  },
  {
   "id": "tl-55501",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度過大：ฉีดยา（2）を含む複合語なので2に"
+  ],
+  "fixed": {
+   "id": "tl-55501",
+   "th": "เข็มฉีดยา",
+   "action": "add",
+   "ro": "khěm chìit yaa",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "注射針・注射器",
+     "en": "hypodermic needle, syringe",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เด็กหลายคนกลัวเข็มฉีดยา",
+      "ro": "dèk lǎai khon kluua khěm chìit yaa",
+      "ja": "注射針を怖がる子どもは多い。",
+      "en": "Many children are afraid of needles.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-55502",
@@ -117,8 +146,38 @@
  },
  {
   "id": "tl-55503",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度：複合語が構成要素 พละ（2）より高い。3→2"
+  ],
+  "fixed": {
+   "id": "tl-55503",
+   "th": "ชุดพละ",
+   "action": "add",
+   "ro": "chút phá lá",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "体操服",
+     "en": "PE uniform, gym clothes",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "วันนี้มีเรียนพละ อย่าลืมเอาชุดพละไปนะ",
+      "ro": "wan níi mii riian phá lá yàa lʉʉm ao chút phá lá pai ná",
+      "ja": "今日は体育があるから、体操服を持って行くのを忘れないでね。",
+      "en": "You have PE today, so don't forget to take your gym clothes.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "พละ は พลศึกษา（体育）の略。"
+  }
  },
  {
   "id": "tl-55504",
@@ -323,8 +382,38 @@
  },
  {
   "id": "tl-55543",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度：複合語が構成要素 ปรุงรส（2）より高い。3→2"
+  ],
+  "fixed": {
+   "id": "tl-55543",
+   "th": "ผงปรุงรส",
+   "action": "add",
+   "ro": "phǒng prung rót",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "粉末調味料（顆粒だしなど）",
+     "en": "seasoning powder",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แม่ไม่ค่อยใส่ผงปรุงรสในอาหาร",
+      "ro": "mɛ̂ɛ mâi khɔ̂ɔi sài phǒng prung rót nai aa hǎan",
+      "ja": "母は料理にあまり粉末調味料を入れない。",
+      "en": "My mother rarely puts seasoning powder in her cooking.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "うま味調味料（グルタミン酸ナトリウム）単体は ผงชูรส と言う。"
+  }
  },
  {
   "id": "tl-55544",
@@ -338,8 +427,38 @@
  },
  {
   "id": "tl-55546",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度：複合語が構成要素 การค้า（3）より高い。4→3"
+  ],
+  "fixed": {
+   "id": "tl-55546",
+   "th": "ศูนย์การค้า",
+   "action": "add",
+   "ro": "sǔun kaan kháa",
+   "kind": "word",
+   "category": "家・場所",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ショッピングセンター",
+     "en": "shopping center, mall",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ศูนย์การค้าแห่งใหม่จะเปิดปลายปีนี้",
+      "ro": "sǔun kaan kháa hɛ̀ng mài cà pə̀ət plaai pii níi",
+      "ja": "新しいショッピングセンターが今年の終わりにオープンする。",
+      "en": "A new shopping center will open at the end of this year.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "会話では ห้าง（ห้างสรรพสินค้า）と言うことが多い。"
+  }
  },
  {
   "id": "tl-55547",
@@ -378,8 +497,37 @@
  },
  {
   "id": "tl-55554",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度過大：สังกัด（2）を含む複合語なので2に"
+  ],
+  "fixed": {
+   "id": "tl-55554",
+   "th": "ต้นสังกัด",
+   "action": "add",
+   "ro": "tôn sǎng kàt",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "所属事務所・所属先",
+     "en": "agency or organization one belongs to",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ต้นสังกัดออกแถลงการณ์ขอโทษแฟนๆ",
+      "ro": "tôn sǎng kàt ɔ̀ɔk thà lɛ̌ɛng kaan khɔ̌ɔ thôot fɛɛn fɛɛn",
+      "ja": "所属事務所はファンに謝罪する声明を出した。",
+      "en": "The agency issued a statement apologizing to fans.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-55555",

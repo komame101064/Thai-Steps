@@ -174,10 +174,39 @@
  },
  {
   "id": "tl-55434",
-  "verdict": "ok",
+  "verdict": "fix",
   "issues": [
-   "読み lɔ́ɔt təə rîi を確認：実際の発音は高声（ล็อด）で、低子音＋長母音表記＋閉音節の借用語は既存の ซอส sɔ́ɔt・คลาส khláas・โพสต์ phóot と同じく高声・表記どおりの長さで書く慣例に一致。หวย とは別語（同義語）で重複ではない"
-  ]
+   "読み lɔ́ɔt təə rîi を確認：実際の発音は高声（ล็อด）で、低子音＋長母音表記＋閉音節の借用語は既存の ซอส sɔ́ɔt・คลาส khláas・โพสต์ phóot と同じく高声・表記どおりの長さで書く慣例に一致。หวย とは別語（同義語）で重複ではない",
+   "最終監査: 読み lɔ́ɔt は辞書読み（ลอด lɔ̂ɔt）とも実際の発音（ล็อต lɔ́t）とも合わない。実際の発音 lɔ́t に統一し、注記を補足"
+  ],
+  "fixed": {
+   "id": "tl-55434",
+   "th": "ลอตเตอรี่",
+   "action": "add",
+   "ro": "lɔ́t təə rîi",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "宝くじ（政府の宝くじ券）",
+     "en": "lottery ticket, lottery",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาซื้อลอตเตอรี่ทุกงวด",
+      "ro": "khǎo sʉ́ʉ lɔ́t təə rîi thúk ngûuat",
+      "ja": "彼は毎回の抽選ごとに宝くじを買っています。",
+      "en": "He buys lottery tickets for every draw.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ふつうは ล็อต（lɔ́t）と短く発音し、ล็อตเตอรี่ とも書く。正式には สลากกินแบ่งรัฐบาล、口語では หวย とも言う。"
+  }
  },
  {
   "id": "tl-55435",
@@ -186,8 +215,38 @@
  },
  {
   "id": "tl-55436",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: ลูกคุณหนู（tl-60674）を不採用にしたため、注に異形として記載"
+  ],
+  "fixed": {
+   "id": "tl-55436",
+   "th": "คุณหนู",
+   "action": "add",
+   "ro": "khun nǔu",
+   "kind": "word",
+   "category": "人・家族",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（裕福な家の）お嬢様・お坊ちゃん",
+     "en": "rich family's young lady/young master",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาโตมาแบบคุณหนู ไม่เคยทำงานบ้านเลย",
+      "ro": "khǎo too maa bɛ̀ɛp khun nǔu mâi khəəi tham ngaan bâan ləəi",
+      "ja": "彼はお坊ちゃん育ちで、家事をしたことが一度もありません。",
+      "en": "He grew up pampered and has never done housework.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "使用人が主人の子を呼ぶ語でもあり、甘やかされて育った人を皮肉る言い方にもなる。この意味では ลูกคุณหนู とも言う。"
+  }
  },
  {
   "id": "tl-55437",
@@ -238,8 +297,38 @@
  },
  {
   "id": "tl-55446",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: ชั่วข้ามคืน（tl-55631）を不採用にしたため、注にその形を記載"
+  ],
+  "fixed": {
+   "id": "tl-55446",
+   "th": "ข้ามคืน",
+   "action": "add",
+   "ro": "khâam khʉʉn",
+   "kind": "word",
+   "category": "時間",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "一晩で・一夜にして",
+     "en": "overnight",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ความสำเร็จไม่ได้เกิดขึ้นข้ามคืน",
+      "ro": "khwaam sǎm rèt mâi dâai kə̀ət khʉ̂n khâam khʉʉn",
+      "ja": "成功は一夜にして起こるものではありません。",
+      "en": "Success doesn't happen overnight.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「ชั่วข้ามคืน」の形でもよく使う。"
+  }
  },
  {
   "id": "tl-55447",
@@ -315,8 +404,38 @@
  },
  {
   "id": "tl-55461",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "最終監査: 頻度過大：ไส้กรอก（2）の下位語なので頻度を親語以下に"
+  ],
+  "fixed": {
+   "id": "tl-55461",
+   "th": "ไส้กรอกอีสาน",
+   "action": "add",
+   "ro": "sâi krɔ̀ɔk ii sǎan",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "イサーン風発酵ソーセージ",
+     "en": "Isan fermented sausage",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ไส้กรอกอีสานกินกับขิงและพริกสด",
+      "ro": "sâi krɔ̀ɔk ii sǎan kin kàp khǐng lɛ́ phrík sòt",
+      "ja": "イサーンソーセージはショウガと生の唐辛子と一緒に食べます。",
+      "en": "Isan sausage is eaten with ginger and fresh chilies.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "豚肉ともち米を発酵させた酸味のあるソーセージ。"
+  }
  },
  {
   "id": "tl-55462",
@@ -327,8 +446,10 @@
  },
  {
   "id": "tl-55463",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "最終監査: เข้ารอบ（tl-55508）に ผ่าน を付けただけの形で、語義・例文（準決勝進出）も同一。เข้ารอบ の注に記載済みのため重複として不採用"
+  ]
  },
  {
   "id": "tl-55464",
@@ -367,8 +488,10 @@
  },
  {
   "id": "tl-55471",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "最終監査: 既存語 หอม（tl-01535）の語義3「頬にキスする」と同じで、その用例も ขอหอมแก้มหน่อยได้ไหม と หอมแก้ม をすでに教えている（既存語義の重複）"
+  ]
  },
  {
   "id": "tl-55472",
