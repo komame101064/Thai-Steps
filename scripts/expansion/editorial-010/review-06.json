@@ -1,0 +1,522 @@
+[
+ {
+  "id": "tl-54656",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54657",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54658",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54659",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54660",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54661",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54662",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54663",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54664",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54665",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54666",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54667",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54668",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54669",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54670",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54671",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54672",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54673",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54674",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54675",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54676",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54677",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54678",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54679",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54680",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54681",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54682",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54683",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54684",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54685",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54686",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54687",
+  "verdict": "fix",
+  "issues": [
+   "例文の訳に原文にない「犯罪」が加わっていたので削除。読み sai bəə は ไซส์ sai・เบอร์ bəə と同じ綴りどおりの読みで可"
+  ],
+  "fixed": {
+   "id": "tl-54687",
+   "th": "ไซเบอร์",
+   "action": "add",
+   "ro": "sai bəə",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "サイバー（ネット空間の）",
+     "en": "cyber",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ภัยไซเบอร์เพิ่มขึ้นทุกปี",
+      "ro": "phai sai bəə phə̂əm khʉ̂n thúk pii",
+      "ja": "サイバー脅威は毎年増えている。",
+      "en": "Cyber threats increase every year.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "単独より ภัยไซเบอร์（サイバー脅威）・โลกไซเบอร์（ネット世界）など複合語で使う。"
+  }
+ },
+ {
+  "id": "tl-54688",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54689",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54690",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54691",
+  "verdict": "ok",
+  "issues": [
+   "外来語の読み判断: สปอร์ต は既存 พาสปอร์ต pháas pɔ̀ɔt と同じく sà pɔ̀ɔt。ii sà pɔ̀ɔt で可"
+  ]
+ },
+ {
+  "id": "tl-54692",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54693",
+  "verdict": "ok",
+  "issues": [
+   "外来語の読み判断: ซับ は既存 sáp、ส は สปอนเซอร์ sà pɔɔn səə と同じく sà、ไคร は低子音・平音節で綴りどおり khrai。sáp sà khrai で可"
+  ]
+ },
+ {
+  "id": "tl-54694",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54695",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54696",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54697",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54698",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54699",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54700",
+  "verdict": "ok",
+  "issues": [
+   "外来語の読み判断: เซ็น sen（既存）＋เซอร์ səə（สปอนเซอร์ と同じ）で sen səə 可。「検閲」「センサー」の両義ともこの綴りで一般的"
+  ]
+ },
+ {
+  "id": "tl-54701",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54702",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54703",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54704",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54705",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54706",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54707",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54708",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54709",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54710",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54711",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54712",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54713",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54714",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54715",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54716",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54717",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54718",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54719",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54720",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54721",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54722",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54723",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54724",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54725",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54726",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54727",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54728",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54729",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54730",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54731",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54732",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54733",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54734",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54735",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54736",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54737",
+  "verdict": "fix",
+  "issues": [
+   "例文 ขบวนรถไฟเที่ยวนี้ は ขบวน と เที่ยว が重なり不自然なため差し替え"
+  ],
+  "fixed": {
+   "id": "tl-54737",
+   "th": "ขบวนรถไฟ",
+   "action": "add",
+   "ro": "khà buuan rót fai",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "列車・列車の便",
+     "en": "train (a particular service)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ขบวนรถไฟออกจากสถานีตรงเวลา",
+      "ro": "khà buuan rót fai ɔ̀ɔk càak sà thǎa nii trong wee laa",
+      "ja": "列車は時刻どおりに駅を出発した。",
+      "en": "The train left the station on time.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-54738",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54739",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54740",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54741",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54742",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54743",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54744",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54745",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54746",
+  "verdict": "ok",
+  "issues": []
+ }
+]

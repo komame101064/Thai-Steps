@@ -810,3 +810,49 @@ html body .x-seg.f-tabs{grid-template-columns:repeat(4,1fr);margin-bottom:14px}
 .ex-tone-choices{grid-template-columns:repeat(5,1fr)}
 .ex-tone-choices .option{align-items:center;padding:12px 4px}
 .ex-tone-choices .option span{font-size:14px}
+/* 並べ替え練習 */
+.bq{max-width:720px;margin:0 auto}
+.bq-top{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:.82rem;color:var(--x-muted);margin-bottom:8px}
+.bq-mode{font-weight:700;color:var(--x-green)}
+.bq-progress{height:4px;background:var(--x-soft);border-radius:4px;overflow:hidden;margin-bottom:12px}
+.bq-progress span{display:block;height:100%;background:var(--x-green)}
+.bq-card{background:var(--x-surface);border:1px solid var(--x-line);border-radius:16px;padding:16px}
+.bq-from{font-size:.72rem;color:var(--x-muted);margin-bottom:6px}
+.bq-ja{font-size:1.18rem;font-weight:700;color:var(--x-ink);margin:0 0 6px;line-height:1.5}
+.bq-hint-btn{font-size:.78rem;padding:2px 0}
+.bq-hint{font-size:.85rem;color:var(--x-brass);background:#fbf6e6;border-radius:8px;padding:6px 10px;margin:4px 0 2px}
+.bq-line{display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-height:68px;margin-top:10px;padding:8px;border:2px dashed var(--x-line);border-radius:12px;background:#fbfcf8}
+.bq-line.is-ok{border-style:solid;border-color:#3d8a5f;background:#eef7ef}
+.bq-line.is-ng{border-style:solid;border-color:#c0574a;background:#fbefed}
+.bq-placeholder{font-size:.82rem;color:var(--x-muted);padding:0 4px}
+.bq-count{font-size:.74rem;color:var(--x-muted);margin:6px 2px 10px}
+.bq-bank{display:flex;flex-wrap:wrap;gap:8px}
+.bq-chip{display:inline-flex;flex-direction:column;align-items:center;gap:1px;min-width:48px;padding:8px 12px;border-radius:12px;border:1.5px solid var(--x-line);background:#fff;color:var(--x-ink);font:inherit;cursor:pointer;box-shadow:0 1px 0 var(--x-line);touch-action:manipulation}
+.bq-chip:active{transform:translateY(1px)}
+.bq-chip.is-placed{border-color:var(--x-green);background:var(--x-soft)}
+.bq-chip.is-ghost{visibility:visible;opacity:.25;cursor:default;box-shadow:none;border-style:dashed}
+.bq-chip:disabled{cursor:default}
+.bq-th{font-family:'Noto Looped Thai','Noto Sans Thai',sans-serif;font-size:1.25rem;line-height:1.35}
+.bq-ro{font-size:.72rem;color:var(--x-muted)}
+.bq-result{margin-top:14px;padding:12px;border-radius:12px}
+.bq-result.is-ok{background:#eef7ef}.bq-result.is-ng{background:#fbefed}
+.bq-verdict{font-weight:700;font-size:.9rem;margin-bottom:4px}
+.bq-result.is-ok .bq-verdict{color:#2e7a4f}.bq-result.is-ng .bq-verdict{color:#a8473b}
+.bq-answer{display:flex;align-items:center;gap:8px}
+.bq-ans-th{font-family:'Noto Looped Thai','Noto Sans Thai',sans-serif;font-size:1.3rem;color:var(--x-ink)}
+.bq-ans-ro{font-size:.9rem;font-weight:600;color:var(--x-green);margin:2px 0 6px}
+.bq-gloss{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:.76rem;color:var(--x-muted)}
+.bq-gloss b{font-weight:600;color:var(--x-ink);margin-right:3px;font-family:'Noto Looped Thai','Noto Sans Thai',sans-serif}
+.bq-note{font-size:.8rem;color:var(--x-muted);margin:6px 0 0}
+.bq-actions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+.bq-actions .btn{flex:1;min-width:120px}
+.bq-opts{display:flex;gap:16px;margin-top:12px;font-size:.78rem;color:var(--x-muted)}
+.bq-opts input{accent-color:var(--x-green)}
+.bq-done{text-align:center;background:var(--x-surface);border:1px solid var(--x-line);border-radius:16px;padding:24px 16px}
+.bq-score{font-size:2.2rem;font-weight:800;color:var(--x-green)}
+.bq-course-card{display:grid;grid-template-columns:40px minmax(0,1fr) auto;gap:12px;align-items:center;width:100%;margin:0 0 14px;padding:12px 14px;border-radius:14px;border:1.5px solid var(--x-green);background:var(--x-soft);color:var(--x-text);font:inherit;text-align:left;cursor:pointer}
+.bq-course-icon{display:grid;place-items:center;width:40px;height:40px;border-radius:10px;background:var(--x-green);color:#fff}
+.bq-course-body b{display:block;font-size:.98rem;color:var(--x-ink)}
+.bq-course-body small{font-size:.76rem;color:var(--x-muted)}
+.bq-entry{margin-left:8px}
+@media (max-width:560px){.bq-entry{margin:8px 0 0;width:100%}.bq-card{padding:14px 12px}.bq-th{font-size:1.15rem}}

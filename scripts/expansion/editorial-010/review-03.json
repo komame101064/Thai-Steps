@@ -1,0 +1,574 @@
+[
+ {
+  "id": "tl-54383",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54384",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54385",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54386",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54387",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54388",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54389",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54390",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54391",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54392",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54393",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54394",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54395",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54396",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54397",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54398",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54399",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54400",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54401",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54402",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54403",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54404",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54405",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54406",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54407",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54408",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54409",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54410",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54411",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54412",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54413",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54414",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54415",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54416",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54417",
+  "verdict": "fix",
+  "issues": [
+   "読み phəə fék は既存語 เอฟเฟกต์ ép fék と同じ扱いで妥当（綴りは長母音だが実際の発音は高声・短母音）と判断し維持",
+   "最もよく見る綴り เพอร์เฟค を note に追加"
+  ],
+  "fixed": {
+   "id": "tl-54417",
+   "th": "เพอร์เฟกต์",
+   "action": "add",
+   "ro": "phəə fék",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "完璧な・申し分ない",
+     "en": "perfect",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "งานแต่งวันนั้นเพอร์เฟกต์มาก",
+      "ro": "ngaan tɛ̀ng wan nán phəə fék mâak",
+      "ja": "あの日の結婚式は完璧だった。",
+      "en": "The wedding that day was perfect.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "英語 perfect から。เพอร์เฟค と綴ることも非常に多く、เพอร์เฟ็กต์ とも書く。"
+  }
+ },
+ {
+  "id": "tl-54418",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54419",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54420",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54421",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54422",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54423",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54424",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54425",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54426",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54427",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54428",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54429",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54430",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54431",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54432",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54433",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54434",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54435",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54436",
+  "verdict": "fix",
+  "issues": [
+   "読みを mɛ́t に統一：ม（低子音）＋閉音節の英語借用語で、実際の発音は高声・短母音。辞書の แชท chɛ́t、แฮชแท็ก hɛ́t と同じ扱い（例文roも修正）",
+   "会話で非常によく使う「マスク」（ใส่แมส）の意味が欠けていたので第2義として追加"
+  ],
+  "fixed": {
+   "id": "tl-54436",
+   "th": "แมส",
+   "action": "add",
+   "ro": "mɛ́t",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "大衆受けする・一般に広く知られた",
+     "en": "mainstream, widely popular",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เพลงนี้แมสมาก ใครๆ ก็ร้องได้",
+      "ro": "phleeng níi mɛ́t mâak khrai khrai kɔ̂ɔ rɔ́ɔng dâai",
+      "ja": "この曲はすごく広まっていて、誰でも歌える。",
+      "en": "This song is really mainstream; everyone can sing it.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "マスク（顔につける）",
+     "en": "face mask",
+     "pos": "名詞",
+     "use": "よく使う別の意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ออกไปข้างนอกอย่าลืมใส่แมสนะ",
+      "ro": "ɔ̀ɔk pai khâang nɔ̂ɔk yàa lʉʉm sài mɛ́t ná",
+      "ja": "外に出るときはマスクをつけるのを忘れないでね。",
+      "en": "Don't forget to wear a mask when you go out.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "英語 mass から。若い世代を中心に使う口語。「マスク」の意味は英語 mask から来た別語源（แมสก์ とも綴る）。"
+  }
+ },
+ {
+  "id": "tl-54437",
+  "verdict": "fix",
+  "issues": [
+   "เทรนด์ の読みを既存語（tl-50052 threen）に合わせて threen に修正（見出し・例文）"
+  ],
+  "fixed": {
+   "id": "tl-54437",
+   "th": "ตามเทรนด์",
+   "action": "add",
+   "ro": "taam threen",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "流行に合わせた・流行に乗った",
+     "en": "following the trend, trendy",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เธอแต่งตัวตามเทรนด์ตลอด",
+      "ro": "thəə tɛ̀ng tuua taam threen tà lɔ̀ɔt",
+      "ja": "彼女はいつも流行に合わせた服装をしている。",
+      "en": "She always dresses according to the trends.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-54438",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54439",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54440",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54441",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54442",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54443",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54444",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54445",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54446",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54447",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54448",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54449",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54450",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54451",
+  "verdict": "ok",
+  "issues": [
+   "読み see lép を確認：เซ は綴りどおり長母音・平声、เลบ は借用語で実際の発音は高声・短母音（既存の เอฟเฟกต์ ép fék と同じ扱い）。維持"
+  ]
+ },
+ {
+  "id": "tl-54452",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54453",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54454",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54455",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54456",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54457",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54458",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54459",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54460",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54461",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54462",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54463",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54464",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54465",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54466",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54467",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54468",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54469",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54470",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54471",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54472",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54473",
+  "verdict": "ok",
+  "issues": []
+ }
+]

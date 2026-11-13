@@ -1,0 +1,521 @@
+[
+ {
+  "id": "tl-54292",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54293",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54294",
+  "verdict": "reject",
+  "issues": [
+   "既存の ขนาด（tl-00253）の語義1「〜ほど・こんなに」が英訳 (ขนาดนี้/นั้น) で ขนาดนั้น を既に教えている。ขนาด＋นั้น の規則的な組み合わせで重複のため不採用。"
+  ]
+ },
+ {
+  "id": "tl-54295",
+  "verdict": "reject",
+  "issues": [
+   "既存の ขนาด（tl-00253）の語義1が (ขนาดนี้/นั้น) として ขนาดนี้ を既に扱っている。ขนาด＋นี้ の規則的な組み合わせで重複のため不採用。"
+  ]
+ },
+ {
+  "id": "tl-54296",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54297",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54298",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54299",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54300",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54301",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54302",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54303",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54304",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54305",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54306",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54307",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54308",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54309",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54310",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54311",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54312",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54313",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54314",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54315",
+  "verdict": "reject",
+  "issues": [
+   "แม้ に助動詞 จะ が付いただけの自由な組み合わせで、意味は既存の แม้（tl-01188）・แม้ว่า（tl-01344）と同じ。独立語として教える価値が薄いため不採用（ถึงจะ は「〜して初めて」の独自用法があるので別扱い）。"
+  ]
+ },
+ {
+  "id": "tl-54316",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54317",
+  "verdict": "reject",
+  "issues": [
+   "既存の อยู่ดี（tl-00877）の語義2「突如として」(อยู่ดีๆ) out of the blue が同じ語・同じ意味を既に教えているため重複として不採用。"
+  ]
+ },
+ {
+  "id": "tl-54318",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54319",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54320",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54321",
+  "verdict": "reject",
+  "issues": [
+   "既存の เมื่อวันก่อน（tl-05252「先日」）の短い形で意味・例文もほぼ同じ。著者が ว่าแต่（既存 ว่าแต่ว่า の短形）を重複として除いたのと同じ基準で不採用。"
+  ]
+ },
+ {
+  "id": "tl-54322",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54323",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54324",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54325",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54326",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54327",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54328",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54329",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54330",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54331",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54332",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54333",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54334",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54335",
+  "verdict": "fix",
+  "issues": [
+   "note の「พ.ร.บ.รถยนต์ の略」は不正確。強制保険の呼び名は พ.ร.บ.คุ้มครองผู้ประสบภัยจากรถ（法律名）に由来するので説明を修正"
+  ],
+  "fixed": {
+   "id": "tl-54335",
+   "th": "พ.ร.บ.",
+   "action": "add",
+   "ro": "phɔɔ rɔɔ bɔɔ",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（国会で制定される）法律",
+     "en": "act (of parliament)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "สภาผ่านร่าง พ.ร.บ. ฉบับใหม่แล้ว",
+      "ro": "sà phaa phàan râang phɔɔ rɔɔ bɔɔ chà bàp mài lɛ́ɛo",
+      "ja": "議会は新しい法案を可決しました。",
+      "en": "Parliament has passed the new bill.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "自賠責保険（車・バイクの強制保険）",
+     "en": "compulsory motor insurance",
+     "pos": "名詞",
+     "use": "よく使う別の意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "อย่าลืมต่อ พ.ร.บ. รถก่อนหมดอายุ",
+      "ro": "yàa lʉʉm tɔ̀ɔ phɔɔ rɔɔ bɔɔ rót kɔ̀ɔn mòt aa yú",
+      "ja": "期限が切れる前に車の自賠責保険を更新するのを忘れないで。",
+      "en": "Don't forget to renew your car's compulsory insurance before it expires.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "พระราชบัญญัติ の略で「ポー・ロー・ボー」と読む。ร่าง พ.ร.บ. は「法案」。車・バイクの強制保険は「自動車事故被害者保護法」（พ.ร.บ.คุ้มครองผู้ประสบภัยจากรถ）に基づく保険なので、口語で単に พ.ร.บ.（รถ）と呼ぶ。"
+  }
+ },
+ {
+  "id": "tl-54336",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54337",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54338",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54339",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54340",
+  "verdict": "ok",
+  "issues": [
+   "（OK判断の記録）สลิป sà líp は既存の สลิปโอนเงิน・สลิปเงินเดือน の家の表記と一致。"
+  ]
+ },
+ {
+  "id": "tl-54341",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54342",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54343",
+  "verdict": "ok",
+  "issues": [
+   "（OK判断の記録）เคาน์เตอร์ の読みは khao tə̂ə で可：ค（低子音）＋เ-า の平音節で中声、น์ は黙字。家の表記で同型の外来語 เมาส์ mao、เซ็นเตอร์ sen tə̂ə・คอมพิวเตอร์ khɔm phiu tə̂ə に一致。俗表記 เค้าเตอร์ の高声読みは採らない。"
+  ]
+ },
+ {
+  "id": "tl-54344",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54345",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54346",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54347",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54348",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54349",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54350",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54351",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54352",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54353",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54354",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54355",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54356",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54357",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54358",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54359",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54360",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54361",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54362",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54363",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54364",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54365",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54366",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54367",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54368",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54369",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54370",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54371",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54372",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54373",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54374",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54375",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54376",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54377",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54378",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54379",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54380",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54381",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-54382",
+  "verdict": "ok",
+  "issues": []
+ }
+]

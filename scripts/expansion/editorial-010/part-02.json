@@ -1,0 +1,2550 @@
+[
+ {
+  "id": "tl-54292",
+  "th": "ว่าแต่",
+  "action": "skip",
+  "skipReason": "既存の ว่าแต่ว่า（ところで）と同じ語の短い形で、意味も同じため重複として追加しない。"
+ },
+ {
+  "id": "tl-54293",
+  "th": "ถ้าเกิด",
+  "action": "add",
+  "ro": "thâa kə̀ət",
+  "kind": "word",
+  "category": "接続表現",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "もし〜したら・万一〜なら",
+    "en": "if, in case",
+    "pos": "接続詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ถ้าเกิดฝนตก เราจะไม่ไปทะเล",
+     "ro": "thâa kə̀ət fǒn tòk rao cà mâi pai thá lee",
+     "ja": "もし雨が降ったら、海には行きません。",
+     "en": "If it rains, we won't go to the beach.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54294",
+  "th": "ขนาดนั้น",
+  "action": "add",
+  "ro": "khà nàat nán",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "そんなに・それほど",
+    "en": "that much, so",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ไม่ต้องรีบขนาดนั้นก็ได้",
+     "ro": "mâi tɔ̂ɔng rîip khà nàat nán kɔ̂ɔ dâai",
+     "ja": "そんなに急がなくてもいいですよ。",
+     "en": "You don't have to hurry that much.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54295",
+  "th": "ขนาดนี้",
+  "action": "add",
+  "ro": "khà nàat níi",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "こんなに・これほど",
+    "en": "this much, so",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ไม่เคยเห็นรถติดขนาดนี้มาก่อน",
+     "ro": "mâi khəəi hěn rót tìt khà nàat níi maa kɔ̀ɔn",
+     "ja": "こんなに渋滞しているのは見たことがありません。",
+     "en": "I have never seen traffic this bad before.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54296",
+  "th": "หน่อยนึง",
+  "action": "add",
+  "ro": "nɔ̀ɔi nʉng",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ちょっと・少し",
+    "en": "a little, a bit",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ขอพักหน่อยนึงนะ",
+     "ro": "khɔ̌ɔ phák nɔ̀ɔi nʉng ná",
+     "ja": "ちょっと休ませてね。",
+     "en": "Let me rest a little.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "หน่อยหนึ่ง の口語の言い方。นึง は หนึ่ง が短くなった形。"
+ },
+ {
+  "id": "tl-54297",
+  "th": "เป็นกันเอง",
+  "action": "add",
+  "ro": "pen kan eeng",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "気さくな・打ち解けた・堅苦しくない",
+    "en": "friendly, informal, easygoing",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เจ้าของร้านนี้เป็นกันเองมาก",
+     "ro": "câo khɔ̌ɔng ráan níi pen kan eeng mâak",
+     "ja": "この店の店主はとても気さくです。",
+     "en": "The owner of this shop is very friendly.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54298",
+  "th": "เอาแต่ใจ",
+  "action": "add",
+  "ro": "ao tɛ̀ɛ cai",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "わがままな・自分勝手な",
+    "en": "selfish, spoiled",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลูกคนเล็กเอาแต่ใจมาก",
+     "ro": "lûuk khon lék ao tɛ̀ɛ cai mâak",
+     "ja": "末っ子はとてもわがままです。",
+     "en": "The youngest child is very spoiled.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54299",
+  "th": "เรื่องมาก",
+  "action": "add",
+  "ro": "rʉ̂ʉang mâak",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "注文が多い・うるさい・面倒くさい（性格）",
+    "en": "fussy, demanding",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ลูกค้าคนนี้เรื่องมากจริงๆ",
+     "ro": "lûuk kháa khon níi rʉ̂ʉang mâak cing cing",
+     "ja": "このお客さんは本当に注文が多い。",
+     "en": "This customer is really fussy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54300",
+  "th": "นิสัยดี",
+  "action": "add",
+  "ro": "ní sǎi dii",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "性格がよい・人柄がよい",
+    "en": "good-natured, nice",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แฟนใหม่ของเขานิสัยดีมาก",
+     "ro": "fɛɛn mài khɔ̌ɔng khǎo ní sǎi dii mâak",
+     "ja": "彼の新しい恋人はとても性格がいい。",
+     "en": "His new partner is very nice.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54301",
+  "th": "นิสัยเสีย",
+  "action": "add",
+  "ro": "ní sǎi sǐia",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "性格が悪い・悪い癖がついている",
+    "en": "ill-mannered, spoiled",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตามใจลูกมากไป ลูกจะนิสัยเสีย",
+     "ro": "taam cai lûuk mâak pai lûuk cà ní sǎi sǐia",
+     "ja": "子どもを甘やかしすぎると、性格が悪くなります。",
+     "en": "If you indulge your child too much, they will become spoiled.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54302",
+  "th": "เสียมารยาท",
+  "action": "add",
+  "ro": "sǐia maa rá yâat",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "失礼な・無作法な",
+    "en": "rude, impolite",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พูดแบบนั้นเสียมารยาทมาก",
+     "ro": "phûut bɛ̀ɛp nán sǐia maa rá yâat mâak",
+     "ja": "そんな言い方はとても失礼です。",
+     "en": "Saying that is very rude.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54303",
+  "th": "น่าลอง",
+  "action": "add",
+  "ro": "nâa lɔɔng",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "試してみたい・試す価値がある",
+    "en": "worth trying",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เมนูใหม่ของร้านนี้น่าลองนะ",
+     "ro": "mee nuu mài khɔ̌ɔng ráan níi nâa lɔɔng ná",
+     "ja": "この店の新メニュー、試してみたいね。",
+     "en": "This shop's new menu item looks worth trying.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54304",
+  "th": "มีประสบการณ์",
+  "action": "add",
+  "ro": "mii prà sòp kaan",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "経験がある・経験豊富な",
+    "en": "experienced",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บริษัทต้องการคนที่มีประสบการณ์",
+     "ro": "bɔɔ rí sàt tɔ̂ɔng kaan khon thîi mii prà sòp kaan",
+     "ja": "会社は経験のある人を求めています。",
+     "en": "The company wants someone with experience.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54305",
+  "th": "มีเหตุผล",
+  "action": "add",
+  "ro": "mii hèet phǒn",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "筋が通った・理性的な",
+    "en": "reasonable, rational",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอเป็นคนมีเหตุผล",
+     "ro": "thəə pen khon mii hèet phǒn",
+     "ja": "彼女は理性的な人です。",
+     "en": "She is a reasonable person.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54306",
+  "th": "มีชื่อเสียง",
+  "action": "add",
+  "ro": "mii chʉ̂ʉ sǐiang",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "有名な・名の知れた",
+    "en": "famous, well-known",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้มีชื่อเสียงเรื่องต้มยำกุ้ง",
+     "ro": "ráan níi mii chʉ̂ʉ sǐiang rʉ̂ʉang tôm yam kûng",
+     "ja": "この店はトムヤムクンで有名です。",
+     "en": "This restaurant is famous for its tom yum goong.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54307",
+  "th": "ตรงต่อเวลา",
+  "action": "add",
+  "ro": "trong tɔ̀ɔ wee laa",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "時間に正確な・時間を守る",
+    "en": "punctual",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รถไฟที่นี่ตรงต่อเวลามาก",
+     "ro": "rót fai thîi nîi trong tɔ̀ɔ wee laa mâak",
+     "ja": "ここの電車はとても時間に正確です。",
+     "en": "The trains here are very punctual.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54308",
+  "th": "เป็นที่นิยม",
+  "action": "add",
+  "ro": "pen thîi ní yom",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "人気がある・広く好まれている",
+    "en": "popular",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กาแฟเย็นเป็นที่นิยมในหมู่คนทำงาน",
+     "ro": "kaa fɛɛ yen pen thîi ní yom nai mùu khon tham ngaan",
+     "ja": "アイスコーヒーは働く人たちの間で人気があります。",
+     "en": "Iced coffee is popular among working people.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54309",
+  "th": "มาแรง",
+  "action": "add",
+  "ro": "maa rɛɛng",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "勢いがある・人気急上昇中の",
+    "en": "on the rise, trending",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "นักร้องหน้าใหม่คนนี้กำลังมาแรง",
+     "ro": "nák rɔ́ɔng nâa mài khon níi kam lang maa rɛɛng",
+     "ja": "この新人歌手は今、人気急上昇中です。",
+     "en": "This new singer is really on the rise.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54310",
+  "th": "คล้ายกัน",
+  "action": "add",
+  "ro": "khláai kan",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（互いに）似ている",
+    "en": "similar, alike",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สองคนนี้หน้าตาคล้ายกันมาก",
+     "ro": "sɔ̌ɔng khon níi nâa taa khláai kan mâak",
+     "ja": "この二人は顔立ちがよく似ています。",
+     "en": "These two look very much alike.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54311",
+  "th": "อย่างหนัก",
+  "action": "add",
+  "ro": "yàang nàk",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ひどく・激しく・懸命に",
+    "en": "heavily, hard",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฝนตกอย่างหนักตั้งแต่เมื่อคืน",
+     "ro": "fǒn tòk yàang nàk tâng tɛ̀ɛ mʉ̂ʉa khʉʉn",
+     "ja": "昨夜から激しい雨が降っています。",
+     "en": "It has been raining heavily since last night.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54312",
+  "th": "อย่างมาก",
+  "action": "add",
+  "ro": "yàang mâak",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "大いに・非常に",
+    "en": "greatly, very much",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ข่าวนี้ได้รับความสนใจอย่างมาก",
+     "ro": "khàao níi dâai ráp khwaam sǒn cai yàang mâak",
+     "ja": "このニュースは大きな注目を集めました。",
+     "en": "This news attracted a great deal of attention.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "せいぜい・多くても",
+    "en": "at most",
+    "pos": "副詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ไปถึงที่นั่นอย่างมากก็ครึ่งชั่วโมง",
+     "ro": "pai thʉ̌ng thîi nân yàang mâak kɔ̂ɔ khrʉ̂ng chûua moong",
+     "ja": "そこへ行くのにかかるのは、多くても30分です。",
+     "en": "It takes half an hour at most to get there.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54313",
+  "th": "ติดต่อกัน",
+  "action": "add",
+  "ro": "tìt tɔ̀ɔ kan",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "連続して・続けて",
+    "en": "in a row, consecutively",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฝนตกติดต่อกันสามวันแล้ว",
+     "ro": "fǒn tòk tìt tɔ̀ɔ kan sǎam wan lɛ́ɛo",
+     "ja": "3日連続で雨が降っています。",
+     "en": "It has rained three days in a row.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54314",
+  "th": "ถึงจะ",
+  "action": "add",
+  "ro": "thʉ̌ng cà",
+  "kind": "word",
+  "category": "接続表現",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "たとえ〜でも・〜けれども",
+    "en": "even if, although",
+    "pos": "接続詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ถึงจะเหนื่อย ฉันก็ต้องทำงานให้เสร็จ",
+     "ro": "thʉ̌ng cà nʉ̀ʉai chǎn kɔ̂ɔ tɔ̂ɔng tham ngaan hâi sèt",
+     "ja": "疲れていても、仕事を終わらせなければなりません。",
+     "en": "Even though I'm tired, I have to finish the work.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（〜して）初めて・やっと（ต้อง〜ถึงจะ〜の形で）",
+    "en": "only then, only if",
+    "pos": "接続詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ต้องจองก่อนถึงจะได้ที่นั่ง",
+     "ro": "tɔ̂ɔng cɔɔng kɔ̀ɔn thʉ̌ng cà dâai thîi nâng",
+     "ja": "先に予約して初めて席が取れます。",
+     "en": "You only get a seat if you book in advance.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54315",
+  "th": "แม้จะ",
+  "action": "add",
+  "ro": "mɛ́ɛ cà",
+  "kind": "word",
+  "category": "接続表現",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "〜ではあるが・たとえ〜でも",
+    "en": "although, even though",
+    "pos": "接続詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แม้จะฝนตก แต่คนก็มากันเยอะ",
+     "ro": "mɛ́ɛ cà fǒn tòk tɛ̀ɛ khon kɔ̂ɔ maa kan yə́",
+     "ja": "雨が降っていたが、大勢の人が来た。",
+     "en": "Although it was raining, a lot of people came.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ถึงจะ より書き言葉・ニュース寄り。後半に แต่ や ก็ がよく続く。"
+ },
+ {
+  "id": "tl-54316",
+  "th": "ในกรณีที่",
+  "action": "add",
+  "ro": "nai kɔɔ rá nii thîi",
+  "kind": "expression",
+  "category": "接続表現",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "〜の場合には",
+    "en": "in case, in the event that",
+    "pos": "接続詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ในกรณีที่เกิดไฟไหม้ ให้ใช้บันไดหนีไฟ",
+     "ro": "nai kɔɔ rá nii thîi kə̀ət fai mâi hâi chái ban dai nǐi fai",
+     "ja": "火災が発生した場合は、非常階段を使ってください。",
+     "en": "In case of fire, use the fire escape stairs.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54317",
+  "th": "อยู่ดีๆ",
+  "action": "add",
+  "ro": "yùu dii dii",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何の前触れもなく・急に",
+    "en": "all of a sudden, out of nowhere",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "อยู่ดีๆ ไฟก็ดับ",
+     "ro": "yùu dii dii fai kɔ̂ɔ dàp",
+     "ja": "突然、停電しました。",
+     "en": "All of a sudden, the power went out.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "後ろに ก็ を伴うことが多い。"
+ },
+ {
+  "id": "tl-54318",
+  "th": "ตั้งนาน",
+  "action": "add",
+  "ro": "tâng naan",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "長いこと・ずいぶん長く（思ったより長い）",
+    "en": "for ages, for so long",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "รอตั้งนาน ในที่สุดรถเมล์ก็มา",
+     "ro": "rɔɔ tâng naan nai thîi sùt rót mee kɔ̂ɔ maa",
+     "ja": "ずいぶん待って、やっとバスが来ました。",
+     "en": "After waiting for ages, the bus finally came.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54319",
+  "th": "โดยปกติ",
+  "action": "add",
+  "ro": "dooi pòk kà tì",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "通常は・普段は",
+    "en": "usually, normally",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โดยปกติฉันตื่นนอนตอนหกโมง",
+     "ro": "dooi pòk kà tì chǎn tʉ̀ʉn nɔɔn tɔɔn hòk moong",
+     "ja": "普段、私は6時に起きます。",
+     "en": "I usually wake up at six.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54320",
+  "th": "สรุปคือ",
+  "action": "skip",
+  "skipReason": "既存の สรุป（要するに・まとめると）に คือ が付いただけで意味が同じため重複として追加しない。"
+ },
+ {
+  "id": "tl-54321",
+  "th": "วันก่อน",
+  "action": "add",
+  "ro": "wan kɔ̀ɔn",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "先日・この前",
+    "en": "the other day",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วันก่อนฉันเจอเพื่อนเก่าที่ห้าง",
+     "ro": "wan kɔ̀ɔn chǎn cəə phʉ̂ʉan kào thîi hâang",
+     "ja": "先日、デパートで昔の友達に会いました。",
+     "en": "The other day I ran into an old friend at the mall.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54322",
+  "th": "ครั้งก่อน",
+  "action": "add",
+  "ro": "khráng kɔ̀ɔn",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "前回・この前",
+    "en": "last time",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ครั้งก่อนอาหารร้านนี้อร่อยกว่านี้",
+     "ro": "khráng kɔ̀ɔn aa hǎan ráan níi à rɔ̀ɔi kwàa níi",
+     "ja": "前回はこの店の料理はもっとおいしかった。",
+     "en": "Last time, the food here was better than this.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54323",
+  "th": "ครั้งสุดท้าย",
+  "action": "add",
+  "ro": "khráng sùt tháai",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "最後（の回）・最後に",
+    "en": "the last time",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ครั้งสุดท้ายที่เจอกันคือเมื่อสองปีก่อน",
+     "ro": "khráng sùt tháai thîi cəə kan khʉʉ mʉ̂ʉa sɔ̌ɔng pii kɔ̀ɔn",
+     "ja": "最後に会ったのは2年前です。",
+     "en": "The last time we met was two years ago.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54324",
+  "th": "ทั้งคืน",
+  "action": "add",
+  "ro": "tháng khʉʉn",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "一晩中",
+    "en": "all night",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลูกไม่สบาย ฉันเลยไม่ได้นอนทั้งคืน",
+     "ro": "lûuk mâi sà baai chǎn ləəi mâi dâai nɔɔn tháng khʉʉn",
+     "ja": "子どもの具合が悪くて、一晩中眠れませんでした。",
+     "en": "My child was sick, so I didn't sleep all night.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54325",
+  "th": "ตลอดชีวิต",
+  "action": "add",
+  "ro": "tà lɔ̀ɔt chii wít",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "一生・生涯",
+    "en": "for life, all one's life",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันจะจำวันนี้ไปตลอดชีวิต",
+     "ro": "chǎn cà cam wan níi pai tà lɔ̀ɔt chii wít",
+     "ja": "この日のことは一生覚えています。",
+     "en": "I will remember this day for the rest of my life.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54326",
+  "th": "โพล",
+  "action": "add",
+  "ro": "phoon",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "世論調査",
+    "en": "poll, opinion poll",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผลโพลล่าสุดออกมาแล้ว",
+     "ro": "phǒn phoon lâa sùt ɔ̀ɔk maa lɛ́ɛo",
+     "ja": "最新の世論調査の結果が出ました。",
+     "en": "The results of the latest poll are out.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "英語 poll から。โพลล์ と書かれることもある。"
+ },
+ {
+  "id": "tl-54327",
+  "th": "หมายจับ",
+  "action": "add",
+  "ro": "mǎai càp",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "逮捕状",
+    "en": "arrest warrant",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ศาลออกหมายจับผู้ต้องหาแล้ว",
+     "ro": "sǎan ɔ̀ɔk mǎai càp phûu tɔ̂ɔng hǎa lɛ́ɛo",
+     "ja": "裁判所は容疑者の逮捕状を出しました。",
+     "en": "The court has issued an arrest warrant for the suspect.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54328",
+  "th": "ความมั่นคง",
+  "action": "add",
+  "ro": "khwaam mân khong",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "安定・安定性（仕事・生活など）",
+    "en": "stability, security",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "งานนี้เงินดีแต่ไม่มีความมั่นคง",
+     "ro": "ngaan níi ngəən dii tɛ̀ɛ mâi mii khwaam mân khong",
+     "ja": "この仕事は給料はいいが、安定していない。",
+     "en": "This job pays well but isn't stable.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（国の）安全保障・治安",
+    "en": "(national) security",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "รัฐบาลให้ความสำคัญกับความมั่นคงของประเทศ",
+     "ro": "rát thà baan hâi khwaam sǎm khan kàp khwaam mân khong khɔ̌ɔng prà thêet",
+     "ja": "政府は国の安全保障を重視しています。",
+     "en": "The government places importance on national security.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54329",
+  "th": "ผู้ติดเชื้อ",
+  "action": "add",
+  "ro": "phûu tìt chʉ́ʉa",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "感染者",
+    "en": "infected person",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "วันนี้มีผู้ติดเชื้อรายใหม่ห้าสิบคน",
+     "ro": "wan níi mii phûu tìt chʉ́ʉa raai mài hâa sìp khon",
+     "ja": "今日は新規感染者が50人いました。",
+     "en": "There were fifty new infections today.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54330",
+  "th": "ผู้เสียชีวิต",
+  "action": "add",
+  "ro": "phûu sǐia chii wít",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "死者・亡くなった人",
+    "en": "the dead, fatality",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "อุบัติเหตุครั้งนี้มีผู้เสียชีวิตสามราย",
+     "ro": "ù bàt tì hèet khráng níi mii phûu sǐia chii wít sǎam raai",
+     "ja": "この事故では3人の死者が出ました。",
+     "en": "Three people died in this accident.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54331",
+  "th": "ผู้บาดเจ็บ",
+  "action": "add",
+  "ro": "phûu bàat cèp",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "負傷者・けが人",
+    "en": "the injured",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "เจ้าหน้าที่นำผู้บาดเจ็บส่งโรงพยาบาล",
+     "ro": "câo nâa thîi nam phûu bàat cèp sòng roong phá yaa baan",
+     "ja": "職員が負傷者を病院へ運びました。",
+     "en": "Officials took the injured to the hospital.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54332",
+  "th": "ข่าวด่วน",
+  "action": "add",
+  "ro": "khàao dùuan",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ニュース速報",
+    "en": "breaking news",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เมื่อกี้มีข่าวด่วนทางทีวี",
+     "ro": "mʉ̂ʉa kîi mii khàao dùuan thaang thii wii",
+     "ja": "さっきテレビでニュース速報がありました。",
+     "en": "There was breaking news on TV just now.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54333",
+  "th": "โลกออนไลน์",
+  "action": "add",
+  "ro": "lôok ɔɔn lai",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ネットの世界・ネット上",
+    "en": "the online world",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คลิปนี้กำลังเป็นที่พูดถึงในโลกออนไลน์",
+     "ro": "khlíp níi kam lang pen thîi phûut thʉ̌ng nai lôok ɔɔn lai",
+     "ja": "この動画はネット上で話題になっています。",
+     "en": "This clip is being talked about online.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54334",
+  "th": "คนดัง",
+  "action": "add",
+  "ro": "khon dang",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "有名人・芸能人",
+    "en": "celebrity, famous person",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "มีคนดังมากินที่ร้านนี้บ่อย",
+     "ro": "mii khon dang maa kin thîi ráan níi bɔ̀ɔi",
+     "ja": "この店には有名人がよく食べに来ます。",
+     "en": "Celebrities often come to eat at this restaurant.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54335",
+  "th": "พ.ร.บ.",
+  "action": "add",
+  "ro": "phɔɔ rɔɔ bɔɔ",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（国会で制定される）法律",
+    "en": "act (of parliament)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "สภาผ่านร่าง พ.ร.บ. ฉบับใหม่แล้ว",
+     "ro": "sà phaa phàan râang phɔɔ rɔɔ bɔɔ chà bàp mài lɛ́ɛo",
+     "ja": "議会は新しい法案を可決しました。",
+     "en": "Parliament has passed the new bill.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "自賠責保険（車・バイクの強制保険）",
+    "en": "compulsory motor insurance",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "อย่าลืมต่อ พ.ร.บ. รถก่อนหมดอายุ",
+     "ro": "yàa lʉʉm tɔ̀ɔ phɔɔ rɔɔ bɔɔ rót kɔ̀ɔn mòt aa yú",
+     "ja": "期限が切れる前に車の自賠責保険を更新するのを忘れないで。",
+     "en": "Don't forget to renew your car's compulsory insurance before it expires.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "พระราชบัญญัติ の略で「ポー・ロー・ボー」と読む。ร่าง พ.ร.บ. は「法案」。車の強制保険は พ.ร.บ.รถยนต์ の略。"
+ },
+ {
+  "id": "tl-54336",
+  "th": "บุหรี่ไฟฟ้า",
+  "action": "add",
+  "ro": "bù rìi fai fáa",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "電子たばこ",
+    "en": "e-cigarette, vape",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ในไทยห้ามขายบุหรี่ไฟฟ้า",
+     "ro": "nai thai hâam khǎai bù rìi fai fáa",
+     "ja": "タイでは電子たばこの販売が禁止されています。",
+     "en": "Selling e-cigarettes is banned in Thailand.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54337",
+  "th": "แบตสำรอง",
+  "action": "add",
+  "ro": "bɛ̀t sǎm rɔɔng",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "モバイルバッテリー",
+    "en": "power bank",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ขอยืมแบตสำรองหน่อยได้ไหม",
+     "ro": "khɔ̌ɔ yʉʉm bɛ̀t sǎm rɔɔng nɔ̀ɔi dâai mǎi",
+     "ja": "モバイルバッテリーを借りてもいい？",
+     "en": "Can I borrow your power bank?",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "แบตเตอรี่สำรอง の略。พาวเวอร์แบงก์ と同じ意味。"
+ },
+ {
+  "id": "tl-54338",
+  "th": "ยาพารา",
+  "action": "skip",
+  "skipReason": "既存の พารา（パラセタモール）に ยา を付けた形で意味が同じため重複として追加しない。"
+ },
+ {
+  "id": "tl-54339",
+  "th": "สายการบิน",
+  "action": "add",
+  "ro": "sǎai kaan bin",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "航空会社",
+    "en": "airline",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สายการบินนี้ตั๋วราคาถูก",
+     "ro": "sǎai kaan bin níi tǔua raa khaa thùuk",
+     "ja": "この航空会社はチケットが安い。",
+     "en": "This airline has cheap tickets.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54340",
+  "th": "สลิป",
+  "action": "add",
+  "ro": "sà líp",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（振込などの）明細・控え",
+    "en": "slip, (transfer) receipt",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โอนเงินแล้ว เดี๋ยวส่งสลิปให้นะ",
+     "ro": "oon ngəən lɛ́ɛo dǐiao sòng sà líp hâi ná",
+     "ja": "振り込んだよ。あとで明細を送るね。",
+     "en": "I've transferred the money. I'll send you the slip.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "スマホ送金の完了画面を指すことが多い。"
+ },
+ {
+  "id": "tl-54341",
+  "th": "ค่าจัดส่ง",
+  "action": "add",
+  "ro": "khâa càt sòng",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "送料・配送料",
+    "en": "delivery fee, shipping cost",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สั่งครบห้าร้อยบาทไม่มีค่าจัดส่ง",
+     "ro": "sàng khróp hâa rɔ́ɔi bàat mâi mii khâa càt sòng",
+     "ja": "500バーツ以上注文すると送料無料です。",
+     "en": "Orders of 500 baht or more have no delivery fee.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54342",
+  "th": "เลขพัสดุ",
+  "action": "add",
+  "ro": "lêek phát sà dù",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（荷物の）追跡番号",
+    "en": "tracking number",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านส่งเลขพัสดุมาทางแชทแล้ว",
+     "ro": "ráan sòng lêek phát sà dù maa thaang chɛ́t lɛ́ɛo",
+     "ja": "お店がチャットで追跡番号を送ってきました。",
+     "en": "The shop sent the tracking number via chat.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54343",
+  "th": "เคาน์เตอร์",
+  "action": "add",
+  "ro": "khao tə̂ə",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "カウンター（受付・売り場など）",
+    "en": "counter",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กรุณาชำระเงินที่เคาน์เตอร์",
+     "ro": "kà rú naa cham rá ngəən thîi khao tə̂ə",
+     "ja": "お支払いはカウンターでお願いします。",
+     "en": "Please pay at the counter.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54344",
+  "th": "คูปอง",
+  "action": "add",
+  "ro": "khuu pɔɔng",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "クーポン・割引券",
+    "en": "coupon",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ใช้คูปองนี้ลดได้ห้าสิบบาท",
+     "ro": "chái khuu pɔɔng níi lót dâai hâa sìp bàat",
+     "ja": "このクーポンを使うと50バーツ引きになります。",
+     "en": "With this coupon you get 50 baht off.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54345",
+  "th": "บัตรสมาชิก",
+  "action": "add",
+  "ro": "bàt sà maa chík",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "会員カード",
+    "en": "membership card",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "มีบัตรสมาชิกไหมคะ",
+     "ro": "mii bàt sà maa chík mǎi khá",
+     "ja": "会員カードはお持ちですか？",
+     "en": "Do you have a membership card?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54346",
+  "th": "พ่อค้าแม่ค้า",
+  "action": "add",
+  "ro": "phɔ̂ɔ kháa mɛ̂ɛ kháa",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "商売人・売り手（の人たち）",
+    "en": "vendors, traders",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พ่อค้าแม่ค้าในตลาดเริ่มขายตั้งแต่ตีห้า",
+     "ro": "phɔ̂ɔ kháa mɛ̂ɛ kháa nai tà làat rə̂əm khǎai tâng tɛ̀ɛ tii hâa",
+     "ja": "市場の商売人たちは朝5時から売り始めます。",
+     "en": "Vendors at the market start selling from 5 a.m.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54347",
+  "th": "ตกเครื่อง",
+  "action": "add",
+  "ro": "tòk khrʉ̂ʉang",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "飛行機に乗り遅れる",
+    "en": "to miss a flight",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "รถติดมากจนเกือบตกเครื่อง",
+     "ro": "rót tìt mâak con kʉ̀ʉap tòk khrʉ̂ʉang",
+     "ja": "渋滞がひどくて、飛行機に乗り遅れるところでした。",
+     "en": "The traffic was so bad I almost missed my flight.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54348",
+  "th": "ขอเบอร์",
+  "action": "add",
+  "ro": "khɔ̌ɔ bəə",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "電話番号を聞く",
+    "en": "to ask for someone's phone number",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เขากล้าเดินไปขอเบอร์ผู้หญิงคนนั้น",
+     "ro": "khǎo klâa dəən pai khɔ̌ɔ bəə phûu yǐng khon nán",
+     "ja": "彼は思い切ってあの女性に電話番号を聞きに行った。",
+     "en": "He worked up the courage to go ask that woman for her number.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54349",
+  "th": "ยอมรับผิด",
+  "action": "add",
+  "ro": "yɔɔm ráp phìt",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "非を認める・過ちを認める",
+    "en": "to admit one's fault",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขายอมรับผิดและขอโทษทุกคน",
+     "ro": "khǎo yɔɔm ráp phìt lɛ́ khɔ̌ɔ thôot thúk khon",
+     "ja": "彼は非を認めて、みんなに謝りました。",
+     "en": "He admitted his mistake and apologized to everyone.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54350",
+  "th": "ติดหวัด",
+  "action": "add",
+  "ro": "tìt wàt",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "風邪がうつる・風邪をひく",
+    "en": "to catch a cold",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ระวังจะติดหวัดจากลูกนะ",
+     "ro": "rá wang cà tìt wàt càak lûuk ná",
+     "ja": "子どもから風邪がうつらないように気をつけてね。",
+     "en": "Be careful not to catch a cold from your child.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54351",
+  "th": "แจ้งเกิด",
+  "action": "add",
+  "ro": "cɛ̂ɛng kə̀ət",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（芸能人などが）ブレイクする・世に出る",
+    "en": "to make one's breakthrough",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "นักแสดงคนนี้แจ้งเกิดจากละครเรื่องแรก",
+     "ro": "nák sà dɛɛng khon níi cɛ̂ɛng kə̀ət càak lá khɔɔn rʉ̂ʉang rɛ̂ɛk",
+     "ja": "この俳優は最初のドラマでブレイクしました。",
+     "en": "This actor made a breakthrough with their first drama.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "出生届を出す",
+    "en": "to register a birth",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พ่อไปแจ้งเกิดลูกที่อำเภอ",
+     "ro": "phɔ̂ɔ pai cɛ̂ɛng kə̀ət lûuk thîi am phəə",
+     "ja": "父親が役所へ子どもの出生届を出しに行きました。",
+     "en": "The father went to the district office to register the baby's birth.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54352",
+  "th": "รถคว่ำ",
+  "action": "add",
+  "ro": "rót khwâm",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "車が横転する",
+    "en": "(a vehicle) to overturn",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รถคว่ำบนทางด่วนเมื่อเช้านี้",
+     "ro": "rót khwâm bon thaang dùuan mʉ̂ʉa cháao níi",
+     "ja": "今朝、高速道路で車が横転しました。",
+     "en": "A car overturned on the expressway this morning.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54353",
+  "th": "ควบคุมตัว",
+  "action": "add",
+  "ro": "khûuap khum tuua",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "身柄を拘束する",
+    "en": "to take into custody, detain",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ตำรวจควบคุมตัวผู้ต้องหาไว้แล้ว",
+     "ro": "tam rùuat khûuap khum tuua phûu tɔ̂ɔng hǎa wái lɛ́ɛo",
+     "ja": "警察は容疑者の身柄を拘束しました。",
+     "en": "The police have taken the suspect into custody.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54354",
+  "th": "ช่วยชีวิต",
+  "action": "add",
+  "ro": "chûuai chii wít",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "命を救う・救命する",
+    "en": "to save a life",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หมอช่วยชีวิตเด็กคนนั้นไว้ได้",
+     "ro": "mɔ̌ɔ chûuai chii wít dèk khon nán wái dâai",
+     "ja": "医師はその子の命を救うことができました。",
+     "en": "The doctor was able to save that child's life.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54355",
+  "th": "ได้ใจ",
+  "action": "add",
+  "ro": "dâai cai",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "調子に乗る・図に乗る",
+    "en": "to get cocky, get carried away",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "อย่าชมเขามาก เดี๋ยวเขาได้ใจ",
+     "ro": "yàa chom khǎo mâak dǐiao khǎo dâai cai",
+     "ja": "彼をあまり褒めないで。調子に乗るから。",
+     "en": "Don't praise him too much, or he'll get cocky.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "人の心をつかむ・好感を得る",
+    "en": "to win people's hearts",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "คำพูดของเธอได้ใจคนดูมาก",
+     "ro": "kham phûut khɔ̌ɔng thəə dâai cai khon duu mâak",
+     "ja": "彼女の言葉は観客の心をすっかりつかみました。",
+     "en": "Her words really won the audience over.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54356",
+  "th": "ยื่นเรื่อง",
+  "action": "add",
+  "ro": "yʉ̂ʉn rʉ̂ʉang",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "申請を出す・（書類を）提出する",
+    "en": "to submit an application, file a request",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันยื่นเรื่องขอวีซ่าไปแล้ว",
+     "ro": "chǎn yʉ̂ʉn rʉ̂ʉang khɔ̌ɔ wii sâa pai lɛ́ɛo",
+     "ja": "ビザの申請はもう出しました。",
+     "en": "I have already submitted my visa application.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54357",
+  "th": "คอมเพลน",
+  "action": "add",
+  "ro": "khɔm phleen",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "苦情を言う・クレームをつける",
+    "en": "to complain",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ลูกค้าคอมเพลนเรื่องอาหารช้า",
+     "ro": "lûuk kháa khɔm phleen rʉ̂ʉang aa hǎan cháa",
+     "ja": "客が料理が遅いと苦情を言いました。",
+     "en": "A customer complained that the food was slow.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "英語 complain から。คอมเพลนต์ などの表記もある。改まった場面では ร้องเรียน を使う。"
+ },
+ {
+  "id": "tl-54358",
+  "th": "ลาหยุด",
+  "action": "add",
+  "ro": "laa yùt",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "休みを取る（届けを出して）",
+    "en": "to take a day off",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พรุ่งนี้ฉันลาหยุดไปหาหมอ",
+     "ro": "phrûng níi chǎn laa yùt pai hǎa mɔ̌ɔ",
+     "ja": "明日は休みを取って病院に行きます。",
+     "en": "I'm taking tomorrow off to see a doctor.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54359",
+  "th": "ลาคลอด",
+  "action": "add",
+  "ro": "laa khlɔ̂ɔt",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "産休を取る",
+    "en": "to take maternity leave",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เพื่อนร่วมงานลาคลอดสามเดือน",
+     "ro": "phʉ̂ʉan rûuam ngaan laa khlɔ̂ɔt sǎam dʉʉan",
+     "ja": "同僚が3か月の産休を取りました。",
+     "en": "My coworker took three months of maternity leave.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54360",
+  "th": "ขาดงาน",
+  "action": "add",
+  "ro": "khàat ngaan",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "欠勤する・仕事を休む（無断などで）",
+    "en": "to be absent from work",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ถ้าขาดงานบ่อย อาจโดนไล่ออก",
+     "ro": "thâa khàat ngaan bɔ̀ɔi àat doon lâi ɔ̀ɔk",
+     "ja": "欠勤が多いと、解雇されるかもしれません。",
+     "en": "If you miss work often, you may get fired.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54361",
+  "th": "ให้คะแนน",
+  "action": "add",
+  "ro": "hâi khá nɛɛn",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "点数をつける・評価する",
+    "en": "to rate, give a score",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลูกค้าให้คะแนนร้านนี้ห้าดาว",
+     "ro": "lûuk kháa hâi khá nɛɛn ráan níi hâa daao",
+     "ja": "客はこの店に星5つの評価をつけました。",
+     "en": "Customers gave this shop five stars.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54362",
+  "th": "เสิร์ช",
+  "action": "add",
+  "ro": "sə̀ət",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（ネットで）検索する",
+    "en": "to search (online)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ไม่รู้ก็ลองเสิร์ชดูสิ",
+     "ro": "mâi rúu kɔ̂ɔ lɔɔng sə̀ət duu sì",
+     "ja": "わからないなら、検索してみなよ。",
+     "en": "If you don't know, try searching for it.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "英語 search から。เซิร์ช と書かれることもある。改まった言い方は ค้นหา。"
+ },
+ {
+  "id": "tl-54363",
+  "th": "อ่านออกเสียง",
+  "action": "add",
+  "ro": "àan ɔ̀ɔk sǐiang",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "音読する・声に出して読む",
+    "en": "to read aloud",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ครูให้นักเรียนอ่านออกเสียงทีละคน",
+     "ro": "khruu hâi nák riian àan ɔ̀ɔk sǐiang thii lá khon",
+     "ja": "先生は生徒に一人ずつ音読させました。",
+     "en": "The teacher had the students read aloud one by one.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54364",
+  "th": "แปลภาษา",
+  "action": "add",
+  "ro": "plɛɛ phaa sǎa",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "翻訳する・通訳する",
+    "en": "to translate",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันใช้แอปแปลภาษาตอนไปเที่ยว",
+     "ro": "chǎn chái ɛ́p plɛɛ phaa sǎa tɔɔn pai thîiao",
+     "ja": "旅行のときは翻訳アプリを使います。",
+     "en": "I use a translation app when I travel.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54365",
+  "th": "พูดตาม",
+  "action": "add",
+  "ro": "phûut taam",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "後について言う・復唱する",
+    "en": "to repeat after someone",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฟังแล้วพูดตามครูนะ",
+     "ro": "fang lɛ́ɛo phûut taam khruu ná",
+     "ja": "聞いたら、先生の後について言ってくださいね。",
+     "en": "Listen and then repeat after the teacher.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54366",
+  "th": "รู้ใจ",
+  "action": "add",
+  "ro": "rúu cai",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "気持ちを察する・心がわかる",
+    "en": "to know what someone wants, understand someone",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แฟนฉันรู้ใจฉันที่สุด",
+     "ro": "fɛɛn chǎn rúu cai chǎn thîi sùt",
+     "ja": "恋人は誰よりも私の気持ちをわかってくれます。",
+     "en": "My partner understands me better than anyone.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54367",
+  "th": "ตั้งเป้า",
+  "action": "add",
+  "ro": "tâng pâo",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "目標を立てる",
+    "en": "to set a goal",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ปีนี้ฉันตั้งเป้าจะลดน้ำหนักห้ากิโล",
+     "ro": "pii níi chǎn tâng pâo cà lót nám nàk hâa kì loo",
+     "ja": "今年は5キロ痩せるという目標を立てました。",
+     "en": "This year I've set a goal to lose five kilos.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54368",
+  "th": "ดูออก",
+  "action": "add",
+  "ro": "duu ɔ̀ɔk",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "見てわかる・見抜く",
+    "en": "to be able to tell, see through",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ดูออกเลยว่าเขาโกหก",
+     "ro": "duu ɔ̀ɔk ləəi wâa khǎo koo hòk",
+     "ja": "彼が嘘をついているのは見てすぐわかります。",
+     "en": "You can tell right away that he's lying.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54369",
+  "th": "พูดไม่ออก",
+  "action": "add",
+  "ro": "phûut mâi ɔ̀ɔk",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（驚き・感動などで）言葉が出ない",
+    "en": "to be speechless",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ได้ยินข่าวนี้แล้วพูดไม่ออกเลย",
+     "ro": "dâai yin khàao níi lɛ́ɛo phûut mâi ɔ̀ɔk ləəi",
+     "ja": "このニュースを聞いて、言葉が出ませんでした。",
+     "en": "I was speechless when I heard this news.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54370",
+  "th": "อ่านออก",
+  "action": "add",
+  "ro": "àan ɔ̀ɔk",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（文字が）読める・読み取れる",
+    "en": "to be able to read, make out",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลายมือนี้อ่านออกไหม",
+     "ro": "laai mʉʉ níi àan ɔ̀ɔk mǎi",
+     "ja": "この字、読める？",
+     "en": "Can you read this handwriting?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54371",
+  "th": "ฟังออก",
+  "action": "add",
+  "ro": "fang ɔ̀ɔk",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "聞き取れる・聞いて理解できる",
+    "en": "to understand (by listening)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาพูดเร็วมาก ฟังออกไหม",
+     "ro": "khǎo phûut reo mâak fang ɔ̀ɔk mǎi",
+     "ja": "彼はすごく早口だけど、聞き取れる？",
+     "en": "He talks really fast. Can you understand him?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54372",
+  "th": "สังเกตเห็น",
+  "action": "add",
+  "ro": "sǎng kèet hěn",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "気づく・目に留まる",
+    "en": "to notice",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันสังเกตเห็นว่าเขาดูเหนื่อยมาก",
+     "ro": "chǎn sǎng kèet hěn wâa khǎo duu nʉ̀ʉai mâak",
+     "ja": "彼がとても疲れているように見えることに気づきました。",
+     "en": "I noticed that he looked very tired.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54373",
+  "th": "หลุดปาก",
+  "action": "add",
+  "ro": "lùt pàak",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "口を滑らせる・うっかり言ってしまう",
+    "en": "to let something slip",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ฉันเผลอหลุดปากบอกความลับไป",
+     "ro": "chǎn phlə̌ə lùt pàak bɔ̀ɔk khwaam láp pai",
+     "ja": "うっかり口を滑らせて秘密を言ってしまいました。",
+     "en": "I accidentally let the secret slip.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54374",
+  "th": "ปล่อยไก่",
+  "action": "add",
+  "ro": "plɔ̀ɔi kài",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（無知や間違いをさらして）恥をかく・へまをする",
+    "en": "to make a fool of oneself",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เขาปล่อยไก่กลางที่ประชุม เพราะเรียกชื่อลูกค้าผิด",
+     "ro": "khǎo plɔ̀ɔi kài klaang thîi prà chum phrɔ́ rîiak chʉ̂ʉ lûuk kháa phìt",
+     "ja": "彼は会議中に客の名前を呼び間違えて、恥をかきました。",
+     "en": "He embarrassed himself in the meeting by getting a client's name wrong.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "文字どおりは「鶏を放す」。くだけた慣用句。"
+ },
+ {
+  "id": "tl-54375",
+  "th": "เผลอหลับ",
+  "action": "add",
+  "ro": "phlə̌ə làp",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "うっかり寝てしまう",
+    "en": "to doze off",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันเผลอหลับไปตอนดูทีวี",
+     "ro": "chǎn phlə̌ə làp pai tɔɔn duu thii wii",
+     "ja": "テレビを見ているうちにうっかり寝てしまいました。",
+     "en": "I dozed off while watching TV.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54376",
+  "th": "หลับใน",
+  "action": "add",
+  "ro": "làp nai",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（運転中などに）居眠りする・一瞬意識が飛ぶ",
+    "en": "to fall asleep at the wheel, microsleep",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คนขับหลับในจนรถชนเสาไฟ",
+     "ro": "khon khàp làp nai con rót chon sǎo fai",
+     "ja": "運転手が居眠りして、車が電柱にぶつかりました。",
+     "en": "The driver fell asleep at the wheel and hit a utility pole.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54377",
+  "th": "พักเที่ยง",
+  "action": "add",
+  "ro": "phák thîiang",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "昼休みにする・昼休み",
+    "en": "to take a lunch break; lunch break",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พักเที่ยงแล้ว ไปกินข้าวกัน",
+     "ro": "phák thîiang lɛ́ɛo pai kin khâao kan",
+     "ja": "昼休みだ、ご飯を食べに行こう。",
+     "en": "It's lunch break. Let's go eat.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54378",
+  "th": "สั่งกลับบ้าน",
+  "action": "add",
+  "ro": "sàng klàp bâan",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "持ち帰りで注文する・テイクアウトにする",
+    "en": "to order takeaway",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วันนี้เหนื่อย สั่งกลับบ้านดีกว่า",
+     "ro": "wan níi nʉ̀ʉai sàng klàp bâan dii kwàa",
+     "ja": "今日は疲れたから、テイクアウトにしよう。",
+     "en": "I'm tired today, so let's get takeaway.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54379",
+  "th": "อดอาหาร",
+  "action": "add",
+  "ro": "òt aa hǎan",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "絶食する・食事を抜く",
+    "en": "to fast, go without food",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ก่อนตรวจเลือดต้องอดอาหารแปดชั่วโมง",
+     "ro": "kɔ̀ɔn trùuat lʉ̂ʉat tɔ̂ɔng òt aa hǎan pɛ̀ɛt chûua moong",
+     "ja": "血液検査の前は8時間絶食しなければなりません。",
+     "en": "You must fast for eight hours before a blood test.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54380",
+  "th": "ทำผม",
+  "action": "add",
+  "ro": "tham phǒm",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "髪をセットする・（美容院で）髪をやってもらう",
+    "en": "to do one's hair",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พรุ่งนี้มีงานแต่ง ต้องไปทำผมแต่เช้า",
+     "ro": "phrûng níi mii ngaan tɛ̀ng tɔ̂ɔng pai tham phǒm tɛ̀ɛ cháao",
+     "ja": "明日は結婚式があるので、朝早く髪をセットしに行かなければ。",
+     "en": "There's a wedding tomorrow, so I have to get my hair done early.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54381",
+  "th": "ย้อมผม",
+  "action": "add",
+  "ro": "yɔ́ɔm phǒm",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "髪を染める",
+    "en": "to dye one's hair",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้ย้อมผมราคาไม่แพง",
+     "ro": "ráan níi yɔ́ɔm phǒm raa khaa mâi phɛɛng",
+     "ja": "この店は髪を染める料金が高くありません。",
+     "en": "This salon doesn't charge much to dye your hair.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-54382",
+  "th": "โกนหนวด",
+  "action": "add",
+  "ro": "koon nùuat",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ひげを剃る",
+    "en": "to shave (one's beard)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พ่อโกนหนวดทุกเช้า",
+     "ro": "phɔ̂ɔ koon nùuat thúk cháao",
+     "ja": "父は毎朝ひげを剃ります。",
+     "en": "My father shaves every morning.",
+     "origin": "authored"
+    }
+   }
+  ]
+ }
+]
