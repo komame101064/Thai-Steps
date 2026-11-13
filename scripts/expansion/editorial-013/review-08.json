@@ -1,0 +1,370 @@
+[
+ {
+  "id": "tl-56505",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56506",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56507",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56508",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56509",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56510",
+  "verdict": "fix",
+  "issues": [
+   "noteで ข้าวต้ม を「味付けしないかゆ」と説明しており誤解を招く（ข้าวต้ม は通常味付きの雑炊）。白がゆ ข้าวต้มขาว に修正"
+  ],
+  "fixed": {
+   "id": "tl-56510",
+   "th": "ข้าวต้มกุ๊ย",
+   "action": "add",
+   "ro": "khâao tôm kúi",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "カオトムクイ（白がゆと小皿のおかずを出す大衆食堂・その食事）",
+     "en": "plain rice porridge with side dishes (popular late-night eatery)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หลังเลิกงานดึก เราไปกินข้าวต้มกุ๊ยกัน",
+      "ro": "lǎng lə̂ək ngaan dʉ̀k rao pai kin khâao tôm kúi kan",
+      "ja": "夜遅く仕事が終わった後、私たちはカオトムクイを食べに行った。",
+      "en": "After finishing work late, we went to eat rice porridge with side dishes.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "夜遅くまで開いている店が多い。味付けしない白がゆ（ข้าวต้มขาว）に炒め物などのおかずを合わせて食べる。"
+  }
+ },
+ {
+  "id": "tl-56511",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56512",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56513",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56514",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56515",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56516",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56517",
+  "verdict": "ok",
+  "issues": [
+   "外来語の声調を確認：แม็ก は低子音＋短母音＋閉音節で mɛ́k（規則どおり高声調）で採用。ล้อแม็กซ์ 等の異表記は既存バンクになし"
+  ]
+ },
+ {
+  "id": "tl-56518",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56519",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56520",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56521",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56522",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56523",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56524",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56525",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56526",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56527",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56528",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56529",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56530",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56531",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56532",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56533",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56534",
+  "verdict": "ok",
+  "issues": [
+   "外来語の声調を確認：สก็อต は sà kɔ́t（高声調で読まれる。既存の บล็อก blɔ́k・ช็อกโกแลต と同じ扱い）で採用。ลายสก๊อต 表記は既存バンクになく重複なし"
+  ]
+ },
+ {
+  "id": "tl-56535",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56536",
+  "verdict": "ok",
+  "issues": [
+   "外来語の声調を確認：เบจ は中子音＋長母音＋閉音節で bèet（既存の เบรก brèek・เกสต์ kèet と同じ扱い）で採用"
+  ]
+ },
+ {
+  "id": "tl-56537",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56538",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56539",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56540",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56541",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56542",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56543",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56544",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56545",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56546",
+  "verdict": "ok",
+  "issues": [
+   "外来語の声調を確認：ยีสต์ は yíit（低子音＋長母音＋閉音節だが外来語は高声調で読まれ、既存の โพสต์ phóot と同じ扱い）で採用"
+  ]
+ },
+ {
+  "id": "tl-56547",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56548",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56549",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56550",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56551",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56552",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56553",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56554",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56555",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56556",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56557",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56558",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56559",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56560",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56561",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56562",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56563",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56564",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56565",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56566",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56567",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56568",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56569",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56570",
+  "verdict": "ok",
+  "issues": []
+ }
+]
