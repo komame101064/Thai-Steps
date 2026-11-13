@@ -350,30 +350,8 @@
  {
   "id": "tl-55414",
   "th": "เจลแอลกอฮอล์",
-  "action": "add",
-  "ro": "ceen ɛɛn kɔɔ hɔɔ",
-  "kind": "word",
-  "category": "体・健康",
-  "frequency": 4,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "アルコールジェル（手指消毒用）",
-    "en": "alcohol (hand sanitizer) gel",
-    "pos": "名詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "ร้านค้าหลายแห่งตั้งเจลแอลกอฮอล์ไว้หน้าประตู",
-     "ro": "ráan kháa lǎai hɛ̀ng tâng ceen ɛɛn kɔɔ hɔɔ wái nâa prà tuu",
-     "ja": "多くの店が入口にアルコールジェルを置いています。",
-     "en": "Many shops put alcohol gel at the entrance.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "เจลล้างมือ とも言う。"
+  "action": "skip",
+  "skipReason": "既存の เจลล้างมือ（ハンドジェル）と同じ物を指す別名で、重複になるため。"
  },
  {
   "id": "tl-55415",
@@ -487,29 +465,8 @@
  {
   "id": "tl-55419",
   "th": "อีกนาน",
-  "action": "add",
-  "ro": "ìik naan",
-  "kind": "expression",
-  "category": "時間",
-  "frequency": 5,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "まだ長く・当分（先だ）",
-    "en": "a long time yet, long (from now)",
-    "pos": "副詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "รถไฟจะมาอีกนานไหมครับ",
-     "ro": "rót fai cà maa ìik naan mǎi khráp",
-     "ja": "電車が来るまで、まだ時間がかかりますか。",
-     "en": "Will it be long before the train comes?",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "อีก＋นาน の自由な組み合わせで、独立した語として登録する必要がないため。"
  },
  {
   "id": "tl-55420",
@@ -904,8 +861,30 @@
  {
   "id": "tl-55434",
   "th": "ลอตเตอรี่",
-  "action": "skip",
-  "skipReason": "綴り（ลอตเตอรี่／ล็อตเตอรี่）と実際の発音で声調・母音の長さが揺れ、読みに確証がないため。宝くじは หวย／สลากกินแบ่ง で表せる。"
+  "action": "add",
+  "ro": "lɔ́ɔt təə rîi",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "宝くじ（政府の宝くじ券）",
+    "en": "lottery ticket, lottery",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาซื้อลอตเตอรี่ทุกงวด",
+     "ro": "khǎo sʉ́ʉ lɔ́ɔt təə rîi thúk ngûuat",
+     "ja": "彼は毎回の抽選ごとに宝くじを買っています。",
+     "en": "He buys lottery tickets for every draw.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ล็อตเตอรี่ とも書く。正式には สลากกินแบ่งรัฐบาล、口語では หวย とも言う。"
  },
  {
   "id": "tl-55435",
@@ -1037,7 +1016,7 @@
     "example": {
      "th": "พรุ่งนี้ฉันต้องไปทำฟันที่คลินิก",
      "ro": "phrûng níi chǎn tɔ̂ɔng pai tham fan thîi khlí nìk",
-     "ja": "明日、歯医者で歯の治療を受けなければなりません。",
+     "ja": "明日、クリニックで歯の治療を受けなければなりません。",
      "en": "Tomorrow I have to go to the clinic to get my teeth done.",
      "origin": "authored"
     }
@@ -1632,8 +1611,30 @@
  {
   "id": "tl-55462",
   "th": "ฟาสต์ฟู้ด",
-  "action": "skip",
-  "skipReason": "ฟาสต์ の声調に既存語の前例がなく（綴りどおりか高声か）読みを確定できないため。綴りも ฟาสต์ฟูด／ฟาสต์ฟู้ด と揺れる。"
+  "action": "add",
+  "ro": "fáat fúut",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ファストフード",
+    "en": "fast food",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วงนี้ฉันกินฟาสต์ฟู้ดบ่อยเกินไป",
+     "ro": "chûuang níi chǎn kin fáat fúut bɔ̀ɔi kəən pai",
+     "ja": "最近、ファストフードを食べすぎています。",
+     "en": "Lately I've been eating fast food too often.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "公的な表記は ฟาสต์ฟูด。"
  },
  {
   "id": "tl-55463",
@@ -2073,7 +2074,7 @@
     "example": {
      "th": "ราคาน้ำมันสูงประกอบกับค่าเงินอ่อน ทำให้ของแพงขึ้น",
      "ro": "raa khaa nám man sǔung prà kɔ̀ɔp kàp khâa ngəən ɔ̀ɔn tham hâi khɔ̌ɔng phɛɛng khʉ̂n",
-     "ja": "原油高に通貨安が重なり、物価が上がりました。",
+     "ja": "燃料価格の高さに通貨安が重なり、物の値段が上がりました。",
      "en": "High oil prices, coupled with a weak currency, have pushed prices up.",
      "origin": "authored"
     }
