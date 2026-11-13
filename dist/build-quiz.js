@@ -5,7 +5,7 @@ const BUILD_LEVELS=[
  {id:1,name:'やさしい',desc:'2〜3語・余分な語1つ',min:2,max:3,extra:1},
  {id:2,name:'ふつう',desc:'3〜5語・余分な語1つ',min:3,max:5,extra:1},
  {id:3,name:'むずかしい',desc:'5〜7語・余分な語2つ・語を細かく分割',min:5,max:7,extra:2,fine:true},
- {id:4,name:'上級',desc:'7語以上・余分な語3つ・読みなし',min:7,max:99,extra:3,fine:true,noRo:true}];
+ {id:4,name:'上級',desc:'7語以上・余分な語3つ・語を細かく分割',min:7,max:99,extra:3,fine:true}];
 function reorderReady(){return typeof REORDER_ITEMS!=='undefined'}
 function withReorder(fn){if(reorderReady())return fn();if(typeof loadLazyScript==='function')loadLazyScript('reorder-items.js').then(()=>reorderReady()?fn():toast('問題を読み込めませんでした。通信状態を確認してください。'))}
 function reorderItems(id){return reorderReady()?REORDER_ITEMS[id]||[]:[]}
