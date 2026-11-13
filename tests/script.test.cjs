@@ -18,5 +18,5 @@ ls.forEach((l,i)=>{const qs=t.scriptQuestions(i);assert.equal(qs.length,10,l.id)
 const run=(id,miss)=>{t.startScriptQuiz(id);const qz=t.getQuiz();qz.qs.forEach((q,i)=>{t.scriptAnswer(i===miss?q.options.findIndex(o=>o!==q.answer):q.options.indexOf(q.answer));t.scriptNextQuestion()});return t.scriptQuizView()};
 assert(run('s01',2).includes('9 / 10'));assert(!t.getState().done.includes('s01'));
 assert(run('s01',-1).includes('履修済みにしました'));assert(t.getState().done.includes('s01'));assert(JSON.parse(store['thai-steps-script-v1']).done.includes('s01'));
-assert(t.scriptView().includes('文字'));assert(/openScript(Lesson)?\(/.test(t.home()));
+assert(t.scriptView().includes('文字'));assert(/openScript(Lesson)?\(|startScriptQuiz\(/.test(t.home()));
 console.log(`PASS: script course — 44 consonants taught once, ${ls.length} lessons in order, 10-question tests, full marks complete a lesson (own storage key).`);
