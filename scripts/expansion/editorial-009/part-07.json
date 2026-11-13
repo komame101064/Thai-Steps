@@ -488,7 +488,8 @@
      "origin": "authored"
     }
    }
-  ]
+  ],
+  "note": "外来語のため発音に多少の揺れがある（2音節目は短く高く「レット」と言うのが普通）。"
  },
  {
   "id": "tl-53619",
@@ -1006,13 +1007,13 @@
     }
    }
   ],
-  "note": "เอ็กซเรย์・เอ็กซ์เรย์ とも書く。動詞としても使う。"
+  "note": "เอ็กซเรย์・เอ็กซ์เรย์ とも書き、発音は短い「エック」。動詞としても使う。"
  },
  {
   "id": "tl-53638",
   "th": "แอดมิท",
   "action": "add",
-  "ro": "ɛ́t mít",
+  "ro": "ɛ̀ɛt mít",
   "kind": "word",
   "category": "体・健康",
   "frequency": 4,
@@ -1029,7 +1030,7 @@
     "speechStyle": "口語",
     "example": {
      "th": "คุณแม่ต้องแอดมิทที่โรงพยาบาลสามวัน",
-     "ro": "khun mɛ̂ɛ tɔ̂ɔng ɛ́t mít thîi roong phá yaa baan sǎam wan",
+     "ro": "khun mɛ̂ɛ tɔ̂ɔng ɛ̀ɛt mít thîi roong phá yaa baan sǎam wan",
      "ja": "母は三日間入院しなければなりません。",
      "en": "My mother has to be admitted to the hospital for three days.",
      "origin": "authored"
@@ -1334,22 +1335,6 @@
      "en": "The doctor gave me antibiotics for five days.",
      "origin": "authored"
     }
-   },
-   {
-    "sourceSense": 2,
-    "ja": "殺菌剤・消毒薬",
-    "en": "disinfectant",
-    "pos": "名詞",
-    "use": "よく使う別の意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "ใช้ยาฆ่าเชื้อเช็ดโต๊ะทุกวัน",
-     "ro": "chái yaa khâa chʉ́ʉa chét tó thúk wan",
-     "ja": "毎日、消毒薬でテーブルを拭きます。",
-     "en": "I wipe the table with disinfectant every day.",
-     "origin": "authored"
-    }
    }
   ]
  },
@@ -1414,7 +1399,7 @@
   "id": "tl-53652",
   "th": "พลาสเตอร์ยา",
   "action": "add",
-  "ro": "phláat təə yaa",
+  "ro": "phláas tə̂ə yaa",
   "kind": "word",
   "category": "体・健康",
   "frequency": 4,
@@ -1429,7 +1414,7 @@
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
      "th": "เด็กหกล้ม แม่เลยติดพลาสเตอร์ยาให้",
-     "ro": "dèk hòk lóm mɛ̂ɛ ləəi tìt phláat təə yaa hâi",
+     "ro": "dèk hòk lóm mɛ̂ɛ ləəi tìt phláas tə̂ə yaa hâi",
      "ja": "子どもが転んだので、母が絆創膏を貼ってあげました。",
      "en": "The child fell, so the mother put a plaster on.",
      "origin": "authored"
@@ -2442,7 +2427,7 @@
     }
    }
   ],
-  "note": "英語 weight から。เล่นเวต とも書く。"
+  "note": "英語 weight から（魔法の意味の เวท とは別語）。เล่นเวต とも書く。"
  },
  {
   "id": "tl-53689",
@@ -2536,7 +2521,7 @@
   "id": "tl-53693",
   "th": "วอร์มอัพ",
   "action": "add",
-  "ro": "wɔɔm áp",
+  "ro": "wɔɔm àp",
   "kind": "word",
   "category": "体・健康",
   "frequency": 4,
@@ -2551,7 +2536,7 @@
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
      "th": "วอร์มอัพก่อนเล่นกีฬาทุกครั้ง",
-     "ro": "wɔɔm áp kɔ̀ɔn lên kii laa thúk khráng",
+     "ro": "wɔɔm àp kɔ̀ɔn lên kii laa thúk khráng",
      "ja": "スポーツの前には毎回ウォーミングアップをします。",
      "en": "I warm up every time before playing sports.",
      "origin": "authored"
