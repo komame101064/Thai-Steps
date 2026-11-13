@@ -1,0 +1,396 @@
+[
+ {
+  "id": "tl-56001",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56002",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56003",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56004",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56005",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56006",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56007",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56008",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56009",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56010",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56011",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56012",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56013",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56014",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56015",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56016",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56017",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56018",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56019",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56020",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56021",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56022",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56023",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56024",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56025",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56026",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56027",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56028",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56029",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56030",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56031",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56032",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56033",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56034",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56035",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56036",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56037",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56038",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56039",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56040",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56041",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56042",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56043",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56044",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56045",
+  "verdict": "fix",
+  "issues": [
+   "例文の「สายไฟเส้นนี้ฉนวนขาด」は不自然なため、ฉนวนหุ้มสายไฟ…ชำรุด の自然な文に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-56045",
+   "th": "ฉนวน",
+   "action": "add",
+   "ro": "chà nǔuan",
+   "kind": "word",
+   "category": "一般語彙",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "絶縁体・断熱材（電線の被覆など）",
+     "en": "insulator, insulation",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉนวนหุ้มสายไฟเส้นนี้ชำรุดแล้ว อันตรายมาก",
+      "ro": "chà nǔuan hûm sǎai fai sên níi cham rút lɛ́ɛo an tà raai mâak",
+      "ja": "この電線の被覆は傷んでいて、とても危険だ。",
+      "en": "The insulation on this wire is damaged; it's very dangerous.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ฉนวนกาซา（ガザ地区）のように「細長い地帯」の意味でも使う。"
+  }
+ },
+ {
+  "id": "tl-56046",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56047",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56048",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56049",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56050",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56051",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56052",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56053",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56054",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56055",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56056",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56057",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56058",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56059",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56060",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56061",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56062",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56063",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56064",
+  "verdict": "reject",
+  "issues": [
+   "ประธาน（議長・委員長・会長）+ กรรมการ（委員会）の透明な組み合わせで、既存の ประธาน で足りる。独立語として教える必要がない"
+  ]
+ },
+ {
+  "id": "tl-56065",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56066",
+  "verdict": "reject",
+  "issues": [
+   "ผู้ + 既存の รับจ้าง の自由な組み合わせ（ผู้+動詞）で、独立した語彙項目にならない"
+  ]
+ },
+ {
+  "id": "tl-56067",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56068",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56069",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56070",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56071",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56072",
+  "verdict": "ok",
+  "issues": []
+ }
+]
