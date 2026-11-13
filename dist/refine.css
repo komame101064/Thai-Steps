@@ -691,7 +691,7 @@ html body .h-row .ring b{font-size:13px;letter-spacing:-.3px}
 .r-more{display:flex;flex-direction:column;align-items:flex-start;gap:6px;margin:14px 2px}
 @media (max-width:650px){.r-actions{width:100%}.r-actions .btn{flex:1}}
 /* The Thai Steps logo in the header only on the home page */
-body:not([data-view="home"]) .compact-brand{display:none!important}
+/* (logo shown on every page again) */
 /* The 単語 row keeps one line whatever level is chosen, so switching levels never changes the layout */
 html body .h-rows .h-row:first-child .h-task-body small{-webkit-line-clamp:1;white-space:nowrap;display:block;overflow:hidden;text-overflow:ellipsis}
 html body .h-row .ring b{min-width:3.2em;text-align:center}
@@ -702,7 +702,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .r-hist-day{font-size:13px;color:var(--x-muted);margin:14px 2px 6px;font-weight:700}
 .r-hist{list-style:none;margin:0;padding:0;background:#fffefa;border:1px solid var(--x-line);border-radius:12px;overflow:hidden}
 .r-hist li+li{border-top:1px solid #e9eee1}
-.r-hist button{display:grid;grid-template-columns:28px 1fr auto;grid-template-areas:"m t e" "m s s";align-items:center;column-gap:10px;width:100%;padding:10px 14px;border:0;background:none;text-align:left;font:inherit;color:inherit;cursor:pointer}
+.r-hist .r-hist-main{display:grid;grid-template-columns:28px 1fr auto;grid-template-areas:"m t e" "m s s";align-items:center;column-gap:10px;width:100%;padding:10px 14px;border:0;background:none;text-align:left;font:inherit;color:inherit;cursor:pointer}
 .r-mark{grid-area:m;display:grid;place-items:center;width:26px;height:26px;border-radius:50%;font-weight:800;font-size:14px}
 .r-mark.ok{background:#e2f0da;color:#245a24}.r-mark.ng{background:#fbe3df;color:#8e2418}
 .r-term{grid-area:t;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.r-term b{color:var(--x-green)}.r-term span{color:var(--x-muted);font-size:13px}
@@ -783,3 +783,8 @@ html body .x-seg.f-tabs{grid-template-columns:repeat(4,1fr);margin-bottom:14px}
 .ex-q-choices .option span{font-size:19px}.ex-q-choices .option small{font-size:13px;color:var(--x-green)}
 .ex-q-choices .option.is-right{border-color:#5c9a4c;background:#e2f0da}.ex-q-choices .option.is-wrong{border-color:#c46a5c;background:#fbe3df}
 .ex-score{font-size:20px;font-weight:700}
+.r-hist li{display:flex;align-items:stretch}
+.r-hist .r-hist-main{flex:1;min-width:0}
+.r-hist-del{flex:none;width:44px;border:0;border-left:1px solid #eef1e8;background:none;color:var(--x-muted);font-size:18px;cursor:pointer}
+.r-hist-del:hover{color:#8e2418;background:#fbefec}
+.r-hist-foot{margin:10px 2px}
