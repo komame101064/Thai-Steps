@@ -31,8 +31,37 @@
  },
  {
   "id": "tl-55727",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "ก๊อซ の読みを既存の外来語 ก๊อก kɔ́k・ก๊อป kɔ́p に合わせ短母音 kɔ́t に統一（見出し・例文）"
+  ],
+  "fixed": {
+   "id": "tl-55727",
+   "th": "ผ้าก๊อซ",
+   "action": "add",
+   "ro": "phâa kɔ́t",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ガーゼ",
+     "en": "gauze",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พยาบาลใช้ผ้าก๊อซปิดแผลให้",
+      "ro": "phá yaa baan chái phâa kɔ́t pìt phlɛ̌ɛ hâi",
+      "ja": "看護師がガーゼで傷を覆ってくれた。",
+      "en": "The nurse covered the wound with gauze for me.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-55728",
@@ -56,8 +85,37 @@
  },
  {
   "id": "tl-55732",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "頻度2は構成語 แลน（頻度1）を超えるため1に修正"
+  ],
+  "fixed": {
+   "id": "tl-55732",
+   "th": "สายแลน",
+   "action": "add",
+   "ro": "sǎai lɛɛn",
+   "kind": "word",
+   "category": "一般語彙",
+   "frequency": 1,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "LANケーブル",
+     "en": "LAN cable, Ethernet cable",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ช่วยต่อสายแลนเข้ากับคอมให้หน่อย",
+      "ro": "chûuai tɔ̀ɔ sǎai lɛɛn khâo kàp khɔɔm hâi nɔ̀ɔi",
+      "ja": "LANケーブルをパソコンにつないでくれる？",
+      "en": "Could you connect the LAN cable to the computer for me?",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-55733",
@@ -295,8 +353,10 @@
  },
  {
   "id": "tl-55774",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "แคค の母音の長さ・声調（綴りは長母音、実際は短く khɛ́k）を示す既存の外来語の表記例がなく読みを確定できない。サボテンは既存の กระบองเพชร で学べる"
+  ]
  },
  {
   "id": "tl-55775",
@@ -365,8 +425,10 @@
  },
  {
   "id": "tl-55788",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "ดีปเฟค・ดีปเฟก・ดีพเฟค と表記が割れ、この綴りが最も一般的だと確認できない（注記でも複数表記と英字表記を挙げている）"
+  ]
  },
  {
   "id": "tl-55789",
