@@ -24003,8 +24003,8 @@
 "field": "sense.note",
 "sense": 1,
 "from": "英語 feel 由来の「感じ・雰囲気」。表記・発音に揺れがあり、チャットなどで使う。",
-"to": "英語 feel 由来の「感じ・雰囲気」。ฟิล・ฟิว とも書き、チャットなどで使う。",
-"reason": "表記の揺れを注記"
+"to": "英語 feel 由来。ฟิล・ฟิว とも書く。",
+"reason": "訳の重複を削り短縮（AI再点検 2026-11）"
 },
 {
 "file": "slang-bank.json",
@@ -24012,8 +24012,8 @@
 "field": "sense.note",
 "sense": 1,
 "from": "数字5の読みが笑い声に似ることから。チャット表記で、文中では笑いとして読む。",
-"to": "数字5の読みが笑い声に似ることから。チャット表記で、文中では笑いとして読む。タイ語キーボードでシフトを押さずに打った ถถถ も同じ意味。",
-"reason": "ถถถ を注記（口語欄の点検 2026-11）"
+"to": "チャットの笑い表記。ถถถ も同じ意味。",
+"reason": "短縮（AI再点検 2026-11）"
 },
 {
 "file": "word-bank.json",
@@ -41080,6 +41080,7280 @@
 "from": "会社員が加入する公的保険。医療・失業・年金などを含む。",
 "to": "",
 "reason": "制度の解説だけで誤用防止にならない（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51950",
+"field": "sense.note",
+"from": "ほめるときや、満足を伝える返事として使う。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51951",
+"field": "sense.note",
+"from": "相手の成果や良い知らせを強くほめる・喜ぶ言い方。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51952",
+"field": "sense.note",
+"from": "能力をほめる話し言葉。タイ語を話す外国人がよく言われる。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51953",
+"field": "sense.note",
+"from": "景色・物・人に感嘆して言う話し言葉。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51954",
+"field": "sense.note",
+"from": "人・動物・物に感嘆して言う話し言葉。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51956",
+"field": "sense.note",
+"from": "嫌な出来事に対する感想や、相手の不運への同情に使う話し言葉。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51957",
+"field": "sense.note",
+"from": "困ったことに気づいた瞬間に口から出る言葉。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51958",
+"field": "sense.note",
+"from": "不幸や失敗に同情を表す。自分の非を謝る「ごめんなさい」ではない。親しい相手にはเสียใจด้วยนะ。",
+"to": "同情を表す。自分の非を謝る言葉ではない。",
+"reason": "長いため短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51960",
+"field": "sense.note",
+"from": "気にしている相手を親しげに安心させる話し言葉。目上には使わない。",
+"to": "親しい相手に使い、目上には使わない。",
+"reason": "長いため短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51961",
+"field": "sense.note",
+"from": "退屈なときにも、嫌気がさしたときにも使う独り言・話し言葉。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51962",
+"field": "sense.note",
+"from": "独り言や親しい相手への話し言葉。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51963",
+"field": "sense.note",
+"from": "แล้วで「もう〜になった」という状態の変化を表す。",
+"to": "",
+"reason": "文法の豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51964",
+"field": "sense.note",
+"from": "独り言や親しい相手への話し言葉。タイでは冷房の効いた室内でよく聞く。",
+"to": "",
+"reason": "豆知識と言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51965",
+"field": "sense.note",
+"from": "独り言や親しい相手への話し言葉。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51966",
+"field": "sense.note",
+"from": "出かける・旅行するなど遊びに誘う言い方。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51967",
+"field": "sense.note",
+"from": "友人などを誘う言い方。丁寧にはไปด้วยกันไหมครับ／คะ。",
+"to": "丁寧には ไปด้วยกันไหมครับ／คะ。",
+"reason": "長いため短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51968",
+"field": "sense.note",
+"from": "予定を聞いて誘う前置きとしてよく使う。丁寧にはว่างไหมครับ／คะ。",
+"to": "誘う前置きとしてよく使う。",
+"reason": "長いため短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51969",
+"field": "sense.note",
+"from": "話し言葉ではเมื่อไหร่（mʉ̂ʉa rài）と書き・発音することが多い。",
+"to": "話し言葉では เมื่อไหร่ とも書く。",
+"reason": "長いため短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51970",
+"field": "sense.note",
+"from": "待ち合わせの時間を決めるときに使う。ดีを付けると「何時がいい？」と相談する感じになる。",
+"to": "ดี を付けると「何時がいい？」と相談する感じ。",
+"reason": "長いため短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51971",
+"field": "sense.note",
+"from": "別れ際のあいさつ。親しい相手にはเจอกันพรุ่งนี้นะとนะを付けることが多い。",
+"to": "親しい相手には เจอกันพรุ่งนี้นะ が多い。",
+"reason": "長いため短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51974",
+"field": "sense.note",
+"from": "โทรหา＋相手で「〜に電話する」。相手（ฉัน・ผมなど）は省かれることが多い。",
+"to": "相手（ฉัน・ผม など）は省かれることが多い。",
+"reason": "長いため短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51975",
+"field": "sense.note",
+"from": "ไลน์はメッセージアプリのLINE。タイでは連絡手段として非常に広く使われる。",
+"to": "",
+"reason": "豆知識のみのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51976",
+"field": "sense.note",
+"from": "連絡先としてLINEのIDを尋ねる言い方。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51977",
+"field": "sense.note",
+"from": "観光地で人に撮影を頼むときに使う。ช่วย〜ได้ไหมを添えるとより丁寧。",
+"to": "ช่วย〜ได้ไหม を添えるとより丁寧。",
+"reason": "長いため短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51978",
+"field": "sense.note",
+"from": "撮影の許可を求める言い方。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51979",
+"field": "sense.note",
+"from": "店員など知らない相手に聞くときは、後ろにครับ（男性）／คะ（女性）を付けないとぶっきらぼうに聞こえる。",
+"to": "店員などには ครับ／คะ を付けないとぶっきらぼうに聞こえる。",
+"reason": "長いため短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51980",
+"field": "sense.note",
+"from": "店員など知らない相手に聞くときは、後ろにครับ（男性）／คะ（女性）を付けないとぶっきらぼうに聞こえる。",
+"to": "店員などには ครับ／คะ を付けないとぶっきらぼうに聞こえる。",
+"reason": "長いため短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51982",
+"field": "sense.note",
+"from": "曜日を尋ねるのがふつうだが、文脈により「今日は何の日（祝日など）？」の意味にもなる。",
+"to": "「今日は何の日？」の意味にもなる。",
+"reason": "長いため短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51983",
+"field": "sense.note",
+"from": "日付を尋ねる。話し言葉ではเท่าไหร่（thâo rài）とも書き・発音する。",
+"to": "話し言葉では เท่าไหร่ とも書く。",
+"reason": "長いため短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51984",
+"field": "sense.note",
+"from": "ホテルの受付で使う。丁寧には文末にครับ（男性）/คะ（女性）を付ける。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51986",
+"field": "sense.note",
+"from": "店やホテルで気軽に尋ねる言い方。「รหัสไวไฟคืออะไร」とも言う。",
+"to": "รหัสไวไฟคืออะไร とも言う。",
+"reason": "長いため短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51987",
+"field": "sense.note",
+"from": "カードや設備が使えるか、使ってよいかを尋ねる。前に対象の名詞を置くことが多い。",
+"to": "前に対象の名詞を置くことが多い。",
+"reason": "長いため短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52335",
+"field": "sense.note",
+"from": "予定が狂ったときや決めかねているときに相手に相談する言い方。親しい相手に使う。丁寧な形はทำอย่างไรดี。",
+"to": "親しい相手に使う。改まるとทำอย่างไรดี。",
+"reason": "訳の言い換えを削って短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52336",
+"field": "sense.note",
+"from": "家族・友人や病院・ホテルのスタッフなどに言うお礼。丁寧にはครับ（男性）／ค่ะ（女性）、親しい相手にはนะを付ける。",
+"to": "家族・友人や病院・ホテルのスタッフなどへのお礼。",
+"reason": "当たり前の部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52337",
+"field": "sense.note",
+"from": "事情を理解して受け入れてくれた相手へのお礼。友人同士でも仕事でも使い、丁寧にはครับ／ค่ะを付ける。",
+"to": "",
+"reason": "当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52338",
+"field": "sense.note",
+"from": "忘れたことを謝るときの言い方で、後ろに忘れた物事を続けられる（ขอโทษที่ลืม〜）。丁寧にはครับ／ค่ะ、親しい相手にはนะを付ける。",
+"to": "後ろに忘れた物事を続けられる（ขอโทษที่ลืม〜）。",
+"reason": "当たり前の部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52340",
+"field": "sense.note",
+"from": "お礼を言われたときの返事。丁寧にはครับ（男性）／ค่ะ（女性）を付ける。店員や仕事の相手にも使える。",
+"to": "店員や仕事の相手にも使える。",
+"reason": "当たり前の部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52342",
+"field": "sense.note",
+"from": "客を迎える側や店員が、楽にして好きなようにしてくださいと勧める丁寧な言い方。親しい相手への ตามสบายนะ より改まった響きで、ครับ／ค่ะ を付けて言うことが多い。",
+"to": "親しい相手へのตามสบายนะより改まった言い方。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52343",
+"field": "sense.note",
+"from": "英語の Have a nice day から広まった言い方で、主にメッセージ・SNSやホテル・航空会社などの接客の結びで使い、ふだんの会話や一般の店ではあまり言わない。ขอให้เป็นวันที่ดี とも言う。",
+"to": "主にメッセージや接客の結びで使い、ふだんの会話ではあまり言わない。",
+"reason": "語源を削って短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52345",
+"field": "sense.note",
+"from": "誕生日・新年・お見舞い、目上の人へのあいさつなどで相手の健康を祈る言葉。丁寧にはนะครับ／นะคะを付ける。",
+"to": "誕生日・新年・目上へのあいさつなどで使う。",
+"reason": "当たり前の部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52348",
+"field": "sense.note",
+"from": "韻を踏んだ祝福の決まり文句で、新年のあいさつやカード、祝いの席で ขอให้ に続けて使う。ふだんの会話での「頑張ってね・幸運を」は โชคดีนะ が普通。",
+"to": "祝いの決まり文句でขอให้に続けて使う。会話ではโชคดีนะがふつう。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52349",
+"field": "sense.note",
+"from": "カードやSNS、商業施設などで使う。タイでは祝日ではなく、英語のまま เมอร์รี่คริสต์มาส と言うことも多い。",
+"to": "英語のままเมอร์รี่คริสต์มาสとも言う。",
+"reason": "豆知識を削って短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52350",
+"field": "sense.note",
+"from": "2月14日に恋人や友人に、カードやSNS、花などを贈るときに言う。",
+"to": "",
+"reason": "当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52357",
+"field": "sense.note",
+"from": "話や頼み事のために相手の時間があるか尋ねる。丁寧には มีเวลาสักครู่ไหมครับ／คะ。既存の ว่างไหม は予定が空いているかを尋ねる言い方。",
+"to": "丁寧にはมีเวลาสักครู่ไหม。予定の空きを聞くならว่างไหม。",
+"reason": "収録状況への言及を削って短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52359",
+"field": "sense.note",
+"from": "親しい相手に、今は話せないので後で話そう、と言う口語。กัน を付けて เดี๋ยวค่อยคุยกัน とも言う。別れのあいさつの ไว้คุยกันใหม่ とは違い、話を一旦保留する言い方。",
+"to": "เดี๋ยวค่อยคุยกันとも言う。別れのあいさつではなく話を後に回す言い方。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52360",
+"field": "sense.note",
+"from": "決める前や言い争いになったときに、まず話し合おうと提案する言い方。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52362",
+"field": "sense.note",
+"from": "提案をしてから相手の同意を求める言い方。親しい相手には นะ を付けた ตกลงนะ も使う。",
+"to": "親しい相手にはตกลงนะも使う。",
+"reason": "訳の言い換えを削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52363",
+"field": "sense.note",
+"from": "男性が提案や依頼を受け入れるときの返事。女性は ตกลงค่ะ と言う。",
+"to": "女性はตกลงค่ะと言う。",
+"reason": "訳の言い換えを削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52374",
+"field": "sense.note",
+"from": "書類の確認や故障した物など、代わりに見てほしいと頼む言い方。丁寧にはครับ／ค่ะを付ける。",
+"to": "書類や故障した物などを見てほしいと頼む言い方。",
+"reason": "当たり前の部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53011",
+"field": "sense.note",
+"from": "タイ語では薬は「食べる（กิน）」と言う。丁寧には ทานยา。",
+"to": "丁寧にはทานยา。",
+"reason": "豆知識を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53021",
+"field": "sense.note",
+"from": "パソコンの「コピー」の正式な訳語でもある。会話では ก๊อปปี้ が多い。",
+"to": "会話ではก๊อปปี้が多い。",
+"reason": "豆知識を削って短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53027",
+"field": "sense.note",
+"from": "ที่จอดรถ で「駐車場・駐車スペース」。",
+"to": "",
+"reason": "他の語の説明のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53035",
+"field": "sense.note",
+"from": "แบต は แบตเตอรี่ の略。",
+"to": "",
+"reason": "語源の説明のみのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53042",
+"field": "sense.note",
+"from": "เครื่องดูดฝุ่น で「掃除機」。",
+"to": "",
+"reason": "他の語の説明のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53053",
+"field": "sense.note",
+"from": "英語 tutor から。ติวเตอร์ で「家庭教師・塾の講師」。",
+"to": "",
+"reason": "語源と他の語の説明のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53068",
+"field": "sense.note",
+"from": "ネット通販でよく見る言い方。ทักแชต、略して ทัก とも。",
+"to": "ทักแชต、略してทักとも言う。",
+"reason": "豆知識を削って短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53078",
+"field": "sense.note",
+"from": "โอที は英語 OT（overtime）から。改まった言い方は ทำงานล่วงเวลา。",
+"to": "改まった言い方はทำงานล่วงเวลา。",
+"reason": "語源を削って短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53091",
+"field": "sense.note",
+"from": "เครื่องปรุงรส で「調味料」。",
+"to": "",
+"reason": "他の語の説明のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53470",
+"field": "sense.note",
+"from": "「還付を申請する」は ขอคืนภาษี。空港での付加価値税の還付にも使う。",
+"to": "「還付を申請する」は ขอคืนภาษี と言う。",
+"reason": "注釈を短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53472",
+"field": "sense.note",
+"from": "タイ人個人の場合は身分証の13桁の番号と同じ。",
+"to": "",
+"reason": "豆知識の注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53486",
+"field": "sense.note",
+"from": "コンドミニアムの住人は管理組合・管理事務所の意味で日常的に使う。",
+"to": "",
+"reason": "語義2の説明の重複（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53496",
+"field": "sense.note",
+"from": "英語 claim から。เคลม だけでも言う。会話では kheem と発音されることもある。",
+"to": "เคลม だけでも言う。",
+"reason": "語源・発音の豆知識を削り短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53500",
+"field": "sense.note",
+"from": "世帯ごとの住民登録簿。住所の移転は ย้ายทะเบียนบ้าน と言う。",
+"to": "住所の移転は ย้ายทะเบียนบ้าน と言う。",
+"reason": "訳の言い換え部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53508",
+"field": "sense.note",
+"from": "สมาชิกสภาผู้แทนราษฎร（下院議員）の略。「ソーソー」と読む。",
+"to": "สมาชิกสภาผู้แทนราษฎร の略。",
+"reason": "読みの重複を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53514",
+"field": "sense.note",
+"from": "คอร์รัปชัน は正書法の綴りで、発音は末尾が下降声（chân）。คอรัปชั่น とも書かれる。",
+"to": "คอรัปชั่น とも書かれる。",
+"reason": "長い解説を短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53520",
+"field": "sense.note",
+"from": "ใบสั่งยา（処方箋）、ใบสั่งซื้อ（注文書）などの複合語にも使う。",
+"to": "",
+"reason": "他の語の説明（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53536",
+"field": "sense.note",
+"from": "ร้านถ่ายเอกสาร はコピー店。",
+"to": "",
+"reason": "他の語の説明（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53553",
+"field": "sense.note",
+"from": "ราคาค้าส่ง（卸値）のように名詞の前後でも使う。",
+"to": "ราคาค้าส่ง（卸値）のようにも使う。",
+"reason": "不自然な説明を簡潔に（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53559",
+"field": "sense.note",
+"from": "法律・行政で使われてきた語。近年は แรงงานข้ามชาติ と言うほうが中立的とされる。",
+"to": "近年は แรงงานข้ามชาติ のほうが中立的とされる。",
+"reason": "注釈を短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53573",
+"field": "sense.note",
+"from": "タイの中央銀行は ธนาคารแห่งประเทศไทย（タイ銀行）。",
+"to": "",
+"reason": "豆知識の注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53574",
+"field": "sense.note",
+"from": "แบงก์ は紙幣（banknote）の口語。แบงก์ร้อย（100バーツ札）なども同様。",
+"to": "แบงก์ は紙幣の口語。แบงก์ร้อย（100バーツ札）とも言う。",
+"reason": "注釈を短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53576",
+"field": "sense.note",
+"from": "英語の OTP。รหัส OTP とローマ字で書くことも多い。",
+"to": "OTP と英字で書くことも多い。",
+"reason": "「ローマ字」は不正確・短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53578",
+"field": "sense.note",
+"from": "詐欺の送金先に使われる他人名義の口座。2020年代のニュースで頻出。",
+"to": "詐欺の送金先に使われる他人名義の口座。",
+"reason": "豆知識部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53584",
+"field": "ro",
+"from": "kaan thɔ̂ng thîao",
+"to": "kaan thɔ̂ɔng thîiao",
+"reason": "ท่องเที่ยวの表記統一（長母音）（AI再点検 2026-11）"
+},
+{
+"file": "more-examples.json",
+"key": "tl-53584#1",
+"field": "example.ro",
+"from": "kaan thɔ̂ng thîao pen raai dâai làk khɔ̌ɔng phuu kèt",
+"to": "kaan thɔ̂ɔng thîiao pen raai dâai làk khɔ̌ɔng phuu kèt",
+"reason": "ท่องเที่ยวの表記統一（AI再点検 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53607",
+"field": "sense.note",
+"from": "文字どおりには「家が回る」。เวียนหัวบ้านหมุน とも言う。",
+"to": "เวียนหัวบ้านหมุน とも言う。",
+"reason": "字義の豆知識を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53618",
+"field": "sense.note",
+"from": "外来語のため発音に多少の揺れがある（2音節目は短く高く「レット」と言うのが普通）。",
+"to": "",
+"reason": "発音ゆれの解説は不要（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53619",
+"field": "sense.note",
+"from": "脳梗塞は เส้นเลือดในสมองตีบ。両方をまとめて โรคหลอดเลือดสมอง（脳卒中）と言う。",
+"to": "脳梗塞は เส้นเลือดในสมองตีบ と言う。",
+"reason": "注釈を短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53624",
+"field": "sense.note",
+"from": "会話では เป็นไทรอยด์ で「甲状腺の病気がある」の意味にもなる。正式には ต่อมไทรอยด์。",
+"to": "เป็นไทรอยด์ で「甲状腺の病気がある」の意味になる。",
+"reason": "注釈を短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53631",
+"field": "sense.note",
+"from": "医学的には脚気（ビタミンB1欠乏症）も指すが、日常では正座などによるしびれの意味が普通。",
+"to": "医学的には脚気も指すが、日常では手足のしびれの意味。",
+"reason": "注釈を短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53637",
+"field": "sense.note",
+"from": "เอ็กซเรย์・เอ็กซ์เรย์ とも書き、発音は短い「エック」。動詞としても使う。",
+"to": "เอ็กซเรย์・เอ็กซ์เรย์ とも書く。動詞としても使う。",
+"reason": "注釈を短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53638",
+"field": "sense.note",
+"from": "英語 admit から。改まった言い方は นอนโรงพยาบาล・เข้ารับการรักษาในโรงพยาบาล。แอดมิด とも書く。",
+"to": "改まった言い方は นอนโรงพยาบาล。แอดมิด とも書く。",
+"reason": "語源を削り短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53643",
+"field": "sense.note",
+"from": "点滴を受ける側は ได้รับน้ำเกลือ・โดนให้น้ำเกลือ などと言う。",
+"to": "",
+"reason": "不確かな言い方を含む余計な注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53650",
+"field": "sense.note",
+"from": "正式な用語。会話では ยาฆ่าเชื้อ と言うことが多い。",
+"to": "会話では ยาฆ่าเชื้อ と言うことが多い。",
+"reason": "当たり前の部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53655",
+"field": "sense.note",
+"from": "薬の袋によく書かれている。",
+"to": "",
+"reason": "豆知識の注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53656",
+"field": "sense.note",
+"from": "薬の袋によく書かれている。",
+"to": "",
+"reason": "豆知識の注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53657",
+"field": "sense.note",
+"from": "正式名は หลักประกันสุขภาพถ้วนหน้า。「30バーツ医療」とも呼ばれた。",
+"to": "正式名は หลักประกันสุขภาพถ้วนหน้า。",
+"reason": "豆知識部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53666",
+"field": "sense.note",
+"from": "文字どおりには「カラスの足」。",
+"to": "",
+"reason": "字義の説明は訳と重複（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-53683#1",
+"field": "example.ro",
+"from": "nák thɔ̂ng thîao chɔ̂ɔp pai nûuat phɛ̌ɛn thai",
+"to": "nák thɔ̂ɔng thîiao chɔ̂ɔp pai nûuat phɛ̌ɛn thai",
+"reason": "ท่องเที่ยวの表記統一（AI再点検 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53685",
+"field": "sense.note",
+"from": "一般には แคลอรี่ と書くことが多く、発音も最後が下降声調になる。",
+"to": "一般には แคลอรี่ と書くことが多い。",
+"reason": "注釈を短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53688",
+"field": "sense.note",
+"from": "英語 weight から（魔法の意味の เวท とは別語）。เล่นเวต とも書く。",
+"to": "เล่นเวต とも書く。",
+"reason": "語源を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53706",
+"field": "sense.note",
+"from": "スポーツ報道や会話で使う短い言い方。正式には รอบชิงชนะเลิศ。",
+"to": "正式には รอบชิงชนะเลิศ と言う。",
+"reason": "注釈を短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53718",
+"field": "sense.note",
+"from": "字義は「炎症止め」だが、タイでは抗生物質（ยาปฏิชีวนะ）をふつうこう呼ぶ。",
+"to": "字義は「炎症止め」だが、ふつう抗生物質を指す。",
+"reason": "注釈を短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53722",
+"field": "sense.note",
+"from": "字義は「肝臓が割れるほど暑い」。くだけた誇張表現。",
+"to": "くだけた誇張表現。",
+"reason": "字義の豆知識を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53726",
+"field": "sense.note",
+"from": "ดีเปรสชั่น とも書かれ、話し言葉では最後の音節を下降調（chân）で発音することも多い。",
+"to": "ดีเปรสชั่น とも書く。",
+"reason": "注釈を短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-53761#1",
+"field": "example.ro",
+"from": "nák thɔ̂ng thîao tʉ̀ʉn cháao maa duu thá lee mɔ̀ɔk",
+"to": "nák thɔ̂ɔng thîiao tʉ̀ʉn cháao maa duu thá lee mɔ̀ɔk",
+"reason": "ท่องเที่ยวの表記統一（AI再点検 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53767",
+"field": "sense.note",
+"from": "本来の名 เหี้ย は強い罵り言葉でもあるため、動物を指すときはこの婉曲な言い方を使う。",
+"to": "本来の名 เหี้ย は強い罵り言葉なので、この婉曲表現を使う。",
+"reason": "注釈を短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53788",
+"field": "sense.note",
+"from": "本来は副鼻腔のことで、正式な病名は ไซนัสอักเสบ。",
+"to": "正式な病名は ไซนัสอักเสบ。",
+"reason": "注釈を短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53794",
+"field": "sense.note",
+"from": "英語の Hong Kong foot から来たくだけた言い方。",
+"to": "くだけた言い方。",
+"reason": "語源を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53797",
+"field": "sense.note",
+"from": "水がめ（水を貯める甕）の意味にもなるので文脈で判断する。",
+"to": "水がめの意味もある。",
+"reason": "注釈を短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53803",
+"field": "sense.note",
+"from": "タイの寝具では枕と並んでごく一般的。",
+"to": "",
+"reason": "豆知識の注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53807",
+"field": "sense.note",
+"from": "細い金属の繊維を丸めたたわしを指す。",
+"to": "",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53813",
+"field": "sense.note",
+"from": "タイではご飯をスプーンとフォークで食べるのが普通。",
+"to": "",
+"reason": "豆知識だけの注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53814",
+"field": "sense.note",
+"from": "ล์ は発音しない。อะลูมิเนียมฟอยล์ ともいう。",
+"to": "อะลูมิเนียมฟอยล์ ともいう。",
+"reason": "別表記だけ残し短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53815",
+"field": "sense.note",
+"from": "差し込み口・プラグ・延長タップのどれにも使う。",
+"to": "",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53838",
+"field": "sense.note",
+"from": "東北・ラオス料理に欠かせない調味料。",
+"to": "",
+"reason": "豆知識だけの注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53840",
+"field": "sense.note",
+"from": "食堂の卓上調味料の定番。",
+"to": "",
+"reason": "豆知識だけの注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53849",
+"field": "sense.note",
+"from": "タイには多くの品種があり、กล้วย だけでは小型の品種を指すことも多い。",
+"to": "กล้วย だけだと小型の品種を指すことも多い。",
+"reason": "紛らわしい語との違いだけに短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53854",
+"field": "sense.note",
+"from": "มะนาว はライムのこと。",
+"to": "",
+"reason": "他の語の説明だけ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53856",
+"field": "sense.note",
+"from": "文字どおりには「冷たい牛乳」で、飲み物屋では普通ピンクミルクを指す。",
+"to": "飲み物屋では普通ピンクミルクを指す。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53865",
+"field": "sense.note",
+"from": "ガパオ炒めなどをその場で作る店。อาหารตามสั่ง は料理そのものも指す。",
+"to": "อาหารตามสั่ง は料理そのものも指す。",
+"reason": "訳の言い換え部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53869",
+"field": "sense.note",
+"from": "ต์ は発音しない。焼肉やしゃぶしゃぶの食べ放題店にもいう。",
+"to": "",
+"reason": "豆知識・当たり前の内容（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-53878#1",
+"field": "example.ro",
+"from": "nák thɔ̂ng thîao chɔ̂ɔp sʉ́ʉ kaang keeng cháang pen khɔ̌ɔng fàak",
+"to": "nák thɔ̂ɔng thîiao chɔ̂ɔp sʉ́ʉ kaang keeng cháang pen khɔ̌ɔng fàak",
+"reason": "ท่องเที่ยว の読みを統一（AI再点検 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53889",
+"field": "sense.note",
+"from": "国境や空港の審査場を指す。",
+"to": "",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-53889#1",
+"field": "example.ja",
+"from": "入国審査は長い列ができていた。",
+"to": "入国審査には長い列ができていた。",
+"reason": "助詞が不自然（AI再点検 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53891",
+"field": "sense.note",
+"from": "英語 delay から。改まった言い方は ล่าช้า。",
+"to": "改まった言い方は ล่าช้า。",
+"reason": "語源を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53898",
+"field": "sense.note",
+"from": "ホテルでは普通ベッド2台のツインを指すが、ダブルベッドの意味に使われることもある。ダブルベッドは เตียงใหญ่ と言うことが多い。",
+"to": "ダブルベッドは普通 เตียงใหญ่ と言う。",
+"reason": "長い注釈を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53903",
+"field": "sense.note",
+"from": "改まった言い方。会話では ไฟจราจร や ไฟแดง（赤信号）などと言うことが多い。",
+"to": "会話では ไฟจราจร や ไฟแดง と言うことが多い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-53906#1",
+"field": "example.ro",
+"from": "nák thɔ̂ng thîao chɔ̂ɔp nâng rót túk túk chom mʉʉang",
+"to": "nák thɔ̂ɔng thîiao chɔ̂ɔp nâng rót túk túk chom mʉʉang",
+"reason": "ท่องเที่ยว の読みを統一（AI再点検 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53911",
+"field": "sense.note",
+"from": "掲示や案内で使う改まった語。会話ではふつう ตั๋ว と言う。",
+"to": "会話ではふつう ตั๋ว と言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53922",
+"field": "sense.note",
+"from": "旧暦9月の初めの9〜10日間。黄色い旗は菜食料理の目印。",
+"to": "",
+"reason": "豆知識だけの注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-53922#1",
+"field": "example.ja",
+"from": "菜食期間の時期には、食堂に黄色い旗が出ます。",
+"to": "キンジェー祭りの期間には、食堂に黄色い旗が出ます。",
+"reason": "「菜食期間の時期」が重複して不自然（AI再点検 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53923",
+"field": "sense.note",
+"from": "เจ は肉・魚に加えてニンニクやネギ類も避ける菜食。一般的な菜食主義は มังสวิรัติ。",
+"to": "เจ はニンニク・ネギ類も避ける。一般の菜食は มังสวิรัติ。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53932",
+"field": "sense.note",
+"from": "中国（潮州）語由来。",
+"to": "",
+"reason": "語源だけの注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53933",
+"field": "sense.note",
+"from": "東北部・北部の祝福儀礼（บายศรีสู่ขวัญ）などで行う。",
+"to": "",
+"reason": "豆知識だけの注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53954",
+"field": "sense.note",
+"from": "電気工事や製品表示で使う正式な語。日常会話ではふつう ปลั๊ก（ปลั๊กไฟ）と言う。",
+"to": "日常会話ではふつう ปลั๊ก（ปลั๊กไฟ）と言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53961",
+"field": "sense.note",
+"from": "タイでは大人も暑さ対策に日常的に使う。",
+"to": "",
+"reason": "豆知識だけの注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54002",
+"field": "sense.note",
+"from": "学生同士の会話では英語由来の ธีสิส もよく使われる。",
+"to": "会話では ธีสิส もよく使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54004",
+"field": "sense.note",
+"from": "「新学期の始まり（วันเปิดเทอม）」のように名詞的にも使う。反対は ปิดเทอม（学期が終わる・休みに入る）。",
+"to": "反対は ปิดเทอม（学期が終わる・休みに入る）。",
+"reason": "訳の言い換え部分を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54006",
+"field": "sense.note",
+"from": "入試に合格する意味では สอบติด もよく使う。反対は สอบตก（試験に落ちる）。",
+"to": "入試の合格は สอบติด とも言う。反対は สอบตก。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54012",
+"field": "sense.note",
+"from": "一般に「教科書」は หนังสือเรียน がふつう。แบบเรียน は国語の読本など学校用教材の名前によく使われる。",
+"to": "一般の教科書はふつう หนังสือเรียน と言う。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54032",
+"field": "sense.note",
+"from": "「卒業式の日」は วันรับปริญญา。家族や友人が花束を持って祝いに行く大事な行事。",
+"to": "「卒業式の日」は วันรับปริญญา。",
+"reason": "豆知識部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54056",
+"field": "sense.note",
+"from": "タイの แม่ชี は正式な比丘尼ではなく、戒律を守って寺などで修行する白衣の女性。キリスト教の修道女も แม่ชี と呼ぶ。",
+"to": "正式な比丘尼ではない。キリスト教の修道女も แม่ชี と呼ぶ。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54086",
+"field": "sense.note",
+"from": "書類や法律で使う語。会話では สามี・ภรรยา や แฟน と言う。",
+"to": "会話では สามี・ภรรยา や แฟน と言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54087",
+"field": "sense.note",
+"from": "夫から見た義母。夫の母は แม่สามี。",
+"to": "夫の母は แม่สามี。",
+"reason": "訳の言い換え部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54103",
+"field": "sense.note",
+"from": "会話では แคปหน้าจอ（画面をキャプチャする）もよく使う。สกรีนช็อท と書くこともある。",
+"to": "会話では แคปหน้าจอ（画面をキャプチャする）もよく使う。",
+"reason": "別表記の説明を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54117",
+"field": "sense.note",
+"from": "学校にも仕事・待ち合わせにも使う。",
+"to": "",
+"reason": "当たり前の内容（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-54146#1",
+"field": "example.ro",
+"from": "khon thîi nîi mii khwaam pen mít kàp nák thɔ̂ng thîao",
+"to": "khon thîi nîi mii khwaam pen mít kàp nák thɔ̂ɔng thîiao",
+"reason": "ท่องเที่ยว の読みを統一（AI再点検 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54152",
+"field": "sense.note",
+"from": "法律・公的な文書でも使う中立的な語。ผู้พิการ ともいう。",
+"to": "中立的な語。ผู้พิการ ともいう。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54155",
+"field": "sense.note",
+"from": "報道で使う改まった語。会話では นักข่าว が普通。",
+"to": "会話では นักข่าว が普通。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-54159#1",
+"field": "example.ro",
+"from": "khǎo pen blɔ́k kə̂ə dâan kaan thɔ̂ng thîao",
+"to": "khǎo pen blɔ́k kə̂ə dâan kaan thɔ̂ɔng thîiao",
+"reason": "ท่องเที่ยว の読みを統一（AI再点検 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54164",
+"field": "sense.note",
+"from": "エムヴィー（เอ็มวี・MV）とも言う。มิวสิควิดีโอ と書くこともある。",
+"to": "เอ็มวี（MV）とも言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54200",
+"field": "sense.note",
+"from": "ลอกข้อสอบ（答案を写す）より広く、問題の持ち出しなど組織的な不正にも使う。",
+"to": "ลอกข้อสอบより広く、組織的な不正にも使う。",
+"reason": "注釈を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54252",
+"field": "sense.note",
+"from": "คณะรัฐมนตรี の略語で、文字名で「コー・ロー・モー」と読む。ニュースでよく使う。",
+"to": "คณะรัฐมนตรี の略語。",
+"reason": "読みはroにあり、注釈を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54260",
+"field": "sense.note",
+"from": "タイではLINEが広く使われ、連絡先交換の定番の言い方。",
+"to": "",
+"reason": "豆知識のみの注釈を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54263",
+"field": "sense.note",
+"from": "ニュースや案内で多い言い方。",
+"to": "",
+"reason": "文体表示と重複する当たり前の注釈を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54271",
+"field": "sense.note",
+"from": "英語の claim から。日本語の「クレーム（苦情）」の意味ではない。",
+"to": "",
+"reason": "語源と断り書きのみの注釈を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54291",
+"field": "sense.note",
+"from": "相手の気持ちや話の中身を大まかに言い換えるときの口語。ニュースなどでは「〜と推定される」の意味でも使う。",
+"to": "報道では「約〜と推定される」の意味でも使う。",
+"reason": "訳の言い換え部分を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54296",
+"field": "sense.note",
+"from": "หน่อยหนึ่ง の口語の言い方。นึง は หนึ่ง が短くなった形。",
+"to": "หน่อยหนึ่ง の口語形。",
+"reason": "注釈を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54326",
+"field": "sense.note",
+"from": "英語 poll から。โพลล์ と書かれることもある。",
+"to": "โพลล์ とも書く。",
+"reason": "語源部分を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54335",
+"field": "sense.note",
+"from": "พระราชบัญญัติ の略で「ポー・ロー・ボー」と読む。ร่าง พ.ร.บ. は「法案」。車・バイクの強制保険は「自動車事故被害者保護法」（พ.ร.บ.คุ้มครองผู้ประสบภัยจากรถ）に基づく保険なので、口語で単に พ.ร.บ.（รถ）と呼ぶ。",
+"to": "พระราชบัญญัติ の略。ร่าง พ.ร.บ. は「法案」。",
+"reason": "長い解説を短縮（保険の説明は語義2で示されている）（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54357",
+"field": "sense.note",
+"from": "英語 complain から。คอมเพลนต์ などの表記もある。改まった場面では ร้องเรียน を使う。",
+"to": "改まった場面では ร้องเรียน を使う。",
+"reason": "語源・表記ゆれを削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54362",
+"field": "sense.note",
+"from": "英語 search から。เซิร์ช と書かれることもある。改まった言い方は ค้นหา。",
+"to": "เซิร์ช とも書く。改まった言い方は ค้นหา。",
+"reason": "語源を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54374",
+"field": "sense.note",
+"from": "文字どおりは「鶏を放す」。くだけた慣用句。",
+"to": "",
+"reason": "直訳の豆知識と文体表示の重複のみのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54391",
+"field": "sense.note",
+"from": "โดน は会話的な受け身で、改まった文では ถูกแฮก と書く。แฮ็ก とも綴る。",
+"to": "改まった文では ถูกแฮก。แฮ็ก とも書く。",
+"reason": "注釈を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54395",
+"field": "sense.note",
+"from": "ネット通販で「カートに入れる」の意味で使う。文字どおり「かごに入れる」の意味にもなる。",
+"to": "",
+"reason": "訳の言い換えのみの注釈を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54416",
+"field": "sense.note",
+"from": "中国語の「仙」に由来。เซียนบอล（サッカー通）、เซียนพระ（お守り鑑定の名人）のように複合語でも使う。",
+"to": "เซียนบอล（サッカー通）のように複合語でも使う。",
+"reason": "語源を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54417",
+"field": "sense.note",
+"from": "英語 perfect から。เพอร์เฟค と綴ることも非常に多く、เพอร์เฟ็กต์ とも書く。",
+"to": "เพอร์เฟค と綴ることも多い。",
+"reason": "語源を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54436",
+"field": "sense.note",
+"from": "英語 mass から。若い世代を中心に使う口語。「マスク」の意味は英語 mask から来た別語源（แมสก์ とも綴る）。",
+"to": "若い世代を中心に使う口語。",
+"reason": "語源の説明を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54438",
+"field": "sense.note",
+"from": "英語 minimal から。インテリアや服装について言う。",
+"to": "インテリアや服装について言う。",
+"reason": "語源を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54445",
+"field": "sense.note",
+"from": "โพล は英語 poll から。",
+"to": "",
+"reason": "語源のみの注釈を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54451",
+"field": "sense.note",
+"from": "英語 celeb から。",
+"to": "",
+"reason": "語源のみの注釈を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54475",
+"field": "sense.note",
+"from": "主に経済ニュースで使う。",
+"to": "",
+"reason": "訳・文体表示から明らかな注釈を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54490",
+"field": "sense.note",
+"from": "ここでの เด็ก は子どもではなく「若者」の意味。",
+"to": "",
+"reason": "断り書き的な注釈を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54496",
+"field": "sense.note",
+"from": "英語の MV を読んだもの。มิวสิกวิดีโอ とも言う。",
+"to": "มิวสิกวิดีโอ とも言う。",
+"reason": "由来の説明を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54504",
+"field": "sense.note",
+"from": "法律・ニュース・標識の語。会話ではふつう มอเตอร์ไซค์ と言う。",
+"to": "会話ではふつう มอเตอร์ไซค์ と言う。",
+"reason": "注釈を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54506",
+"field": "sense.note",
+"from": "日本でいうアセトアミノフェン。会話では略して พารา と言うことが多い。",
+"to": "アセトアミノフェンのこと。会話では略して พารา。",
+"reason": "注釈を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-54507#1",
+"field": "example.ro",
+"from": "khʉ̂n khǎo tɔ̂ng plìian pen kiia tàm",
+"to": "khʉ̂n khǎo tɔ̂ɔng plìian pen kiia tàm",
+"reason": "ต้อง の長母音の誤り（AI再点検 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54511",
+"field": "sense.note",
+"from": "タイの店では กาแฟดำ に砂糖が入ることもあるので、不要なら ไม่ใส่น้ำตาล と伝える。",
+"to": "砂糖入りで出る店もあり、不要なら ไม่ใส่น้ำตาล と言う。",
+"reason": "注釈を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54538",
+"field": "sense.note",
+"from": "มุก は「ギャグ・冗談」。お笑い番組や友人同士の会話で使う。",
+"to": "",
+"reason": "他の語の説明と当たり前の補足のみのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54567",
+"field": "sense.note",
+"from": "「前では合掌し、後ろでだます」という成句。人を批判するときに使う。",
+"to": "人を批判するときに使う成句。",
+"reason": "直訳の解説を削り短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54584",
+"field": "sense.note",
+"from": "英語 art から。名詞「芸術」のほか、口語で「おしゃれで芸術っぽい」の意味でも使う。",
+"to": "",
+"reason": "語源と訳の言い換えだけの注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54585",
+"field": "sense.note",
+"from": "「108」が原義。ร้อยแปดพันเก้า とも言う。",
+"to": "ร้อยแปดพันเก้า とも言う。",
+"reason": "原義の豆知識を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54588",
+"field": "sense.note",
+"from": "เน้น（強調する）を重ねた口語。料理の具や内容が詰まっていることをほめるときに使う。",
+"to": "料理の具や内容が詰まっていることをほめるときに使う。",
+"reason": "語構成の説明を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54602",
+"field": "sense.note",
+"from": "ซะ は เสีย の口語形で、เสียเลย の会話での言い方。動詞句の後ろに付ける。",
+"to": "เสียเลย の口語形。動詞句の後ろに付ける。",
+"reason": "説明を短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54604",
+"field": "sense.note",
+"from": "映画の宣伝文句から広まった口語で、ややおどけた言い方。ふつうは อลังการ だけでも「豪華な」。",
+"to": "ややおどけた口語。อลังการ だけでも「豪華な」。",
+"reason": "由来の説明を削り短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54628",
+"field": "sense.note",
+"from": "もとは僧が托鉢の鉢を伏せて施しを拒むことから。",
+"to": "",
+"reason": "語源の豆知識だけの注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54638",
+"field": "sense.note",
+"from": "非常事態宣言の法令は พ.ร.ก.ฉุกเฉิน と略される。",
+"to": "",
+"reason": "他の語（法令略称）の説明で学習上不要（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54644",
+"field": "sense.note",
+"from": "主に公務員退職者の年金。民間の老齢年金は เงินบำนาญชราภาพ など。",
+"to": "",
+"reason": "訳の言い換えと他の語の説明（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54647",
+"field": "sense.note",
+"from": "タイ証券取引所は ตลาดหลักทรัพย์แห่งประเทศไทย（SET）。",
+"to": "",
+"reason": "固有名の豆知識（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-54692#1",
+"field": "example.ro",
+"from": "phóos níi mii yɔ̂ɔt lai pen mʉ̀ʉn",
+"to": "phóot níi mii yɔ̂ɔt lai pen mʉ̀ʉn",
+"reason": "โพสต์ の読みを phóot に統一（AI再点検 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54742",
+"field": "sense.note",
+"from": "文字どおりは「10輪車」だが、大型トラック全般を指して使う。",
+"to": "",
+"reason": "直訳の説明で訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54760",
+"field": "sense.note",
+"from": "タイで最も身近な養殖魚で、塩焼き（ปลานิลเผาเกลือ）が定番。",
+"to": "",
+"reason": "豆知識だけの注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54763",
+"field": "sense.note",
+"from": "英語 crop から。読みは実際の発音（高声）に合わせたもので、母音は短く聞こえることもある。",
+"to": "",
+"reason": "語源と読みの断り書きだけの注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54773",
+"field": "sense.note",
+"from": "タイでは葬儀や服喪の場で黒（または白黒）の服を着る。",
+"to": "",
+"reason": "文化の豆知識で語の使い方の注意ではない（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54784",
+"field": "sense.note",
+"from": "会話では単に อำเภอ とも言う。バンコクでは区役所 สำนักงานเขต にあたる。",
+"to": "会話では単に อำเภอ とも言う。",
+"reason": "他の語の説明を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54820",
+"field": "sense.note",
+"from": "タイの มัธยม は日本の中学・高校にあたる6年間。",
+"to": "",
+"reason": "訳の言い換えだけの注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54850",
+"field": "sense.note",
+"from": "แพ็กกระเป๋า とも書く（辞書式の表記は แพ็ก）。改まった言い方は จัดกระเป๋า。",
+"to": "แพ็กกระเป๋า とも書く。จัดกระเป๋า とも言う。",
+"reason": "จัดกระเป๋า は改まった言い方ではなく一般的な別表現。短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54868",
+"field": "sense.note",
+"from": "タイの自動車保険の等級で、自損事故も含めて補償される。ประกันชั้น 1 とも書く。",
+"to": "ประกันชั้น 1 とも書く。",
+"reason": "訳の言い換え部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54877",
+"field": "sense.note",
+"from": "正式には「タイ国籍を持たない者の身分証」で、色からこう呼ばれる。บัตรสีชมพู とも言う。",
+"to": "บัตรสีชมพู とも言う。",
+"reason": "訳の言い換えと由来の説明を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54896",
+"field": "sense.note",
+"from": "タイの伝統薬草で、カプセルなどで売られている。",
+"to": "",
+"reason": "豆知識だけの注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54929",
+"field": "sense.note",
+"from": "卵をソーセージやひき肉と一緒に小さな鍋で焼き、鍋ごと出す朝食。",
+"to": "",
+"reason": "訳の言い換えだけ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54929",
+"field": "sense.ja",
+"from": "目玉焼きのフライパン料理（小さな鉄鍋で焼いて出す朝食）",
+"to": "カイクラタ（小さな鉄鍋で目玉焼きと具を焼き、鍋ごと出す朝食）",
+"reason": "「目玉焼きのフライパン料理」が不自然で、用例の名称とも合わない（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54965",
+"field": "sense.note",
+"from": "主に規格や説明書の語で、差し込み口（コンセント）は เต้ารับ。会話ではどちらも ปลั๊ก と言うことが多い。",
+"to": "差し込み口は เต้ารับ。会話ではどちらも ปลั๊ก と言うことが多い。",
+"reason": "長いので短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54990",
+"field": "sense.note",
+"from": "直訳は「婿の卵」。",
+"to": "",
+"reason": "語源・豆知識だけ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55007",
+"field": "sense.note",
+"from": "野菜としては ผักกวางตุ้ง とも言う。地名の「広東」も同じ綴り。",
+"to": "野菜としては ผักกวางตุ้ง とも言う。",
+"reason": "地名の豆知識を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-55309#1",
+"field": "example.ro",
+"from": "khǎo phóos rûup khûu kàp fɛɛn mài",
+"to": "khǎo phóot rûup khûu kàp fɛɛn mài",
+"reason": "โพสต์ の読みは phóot（AI再点検 2026-11）"
+},
+{
+"file": "more-examples.json",
+"key": "tl-55325#1",
+"field": "example.ro",
+"from": "thəə chái fin tə̂ə kɔ̀ɔn phóos rûup thúk khráng",
+"to": "thəə chái fin tə̂ə kɔ̀ɔn phóot rûup thúk khráng",
+"reason": "โพสต์ の読みは phóot（AI再点検 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55347",
+"field": "sense.note",
+"from": "「臆病な」の意味は比喩的な口語で、ขี้ขลาด とほぼ同じ。",
+"to": "",
+"reason": "語義2の説明の重複（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55355",
+"field": "sense.ja",
+"from": "鎖骨（鎖骨のあたり）",
+"to": "鎖骨・鎖骨のあたり",
+"reason": "括弧書きが不自然（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55405",
+"field": "sense.note",
+"from": "正書法では「จริง ๆ แล้ว」と空けて書く。文頭に置いて本音や事実を切り出す。",
+"to": "正書法では「จริง ๆ แล้ว」と空けて書く。",
+"reason": "訳の言い換え部分を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55411",
+"field": "sense.note",
+"from": "形容詞や動詞の後に置き、「冗談ではないほど〜だ」と程度を強める。",
+"to": "形容詞や動詞の後に置いて程度を強める。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55423",
+"field": "sense.note",
+"from": "英語 confirm から。改まった場面では ยืนยัน を使う。",
+"to": "改まった場面では ยืนยัน を使う。",
+"reason": "語源部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55424",
+"field": "sense.note",
+"from": "店・会社・メディアなどが営業をやめるときに使う。",
+"to": "",
+"reason": "訳の言い換えだけ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55426",
+"field": "sense.note",
+"from": "送別会・新年会など、集まって飲み食いすること。",
+"to": "",
+"reason": "訳の言い換えだけ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55434",
+"field": "sense.note",
+"from": "ふつうは ล็อต（lɔ́t）と短く発音し、ล็อตเตอรี่ とも書く。正式には สลากกินแบ่งรัฐบาล、口語では หวย とも言う。",
+"to": "ล็อตเตอรี่ とも書く。正式には สลากกินแบ่งรัฐบาล、口語では หวย。",
+"reason": "長いので短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55436",
+"field": "sense.note",
+"from": "使用人が主人の子を呼ぶ語でもあり、甘やかされて育った人を皮肉る言い方にもなる。この意味では ลูกคุณหนู とも言う。",
+"to": "甘やかされて育った人を皮肉る言い方にもなる。",
+"reason": "長いので短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55438",
+"field": "sense.note",
+"from": "英語 deal から。ビジネスの会話や報道でよく使う。",
+"to": "",
+"reason": "語源と当たり前の説明だけ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55443",
+"field": "sense.note",
+"from": "英語 enjoy から。若者を中心に会話や SNS で使う。",
+"to": "若者を中心に会話や SNS で使う。",
+"reason": "語源部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55449",
+"field": "sense.note",
+"from": "外見をほめる言い方。",
+"to": "",
+"reason": "当たり前の説明（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55472",
+"field": "sense.note",
+"from": "会話でよく使う。窓口での引き出しも含めた一般的な語は ถอนเงิน。",
+"to": "窓口での引き出しも含む一般的な語は ถอนเงิน。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55473",
+"field": "sense.note",
+"from": "緊張や不安で胸がどきどきするときにも使う。",
+"to": "",
+"reason": "訳の言い換えだけ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55474",
+"field": "sense.note",
+"from": "英語 serious から。",
+"to": "",
+"reason": "語源だけ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55481",
+"field": "sense.note",
+"from": "タイ語では信号の「青」を「緑（เขียว）」と言う。",
+"to": "",
+"reason": "豆知識だけ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55503",
+"field": "sense.note",
+"from": "พละ は พลศึกษา（体育）の略。",
+"to": "",
+"reason": "語源の豆知識だけ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55505",
+"field": "sense.note",
+"from": "卵と豚肉を煮込んだ ไข่พะโล้ がよく知られている。",
+"to": "",
+"reason": "豆知識だけ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55518",
+"field": "sense.note",
+"from": "英語の plan から。改まった場面では แผน・วางแผน を使う。",
+"to": "改まった場面では แผน・วางแผน を使う。",
+"reason": "語源部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55523",
+"field": "sense.note",
+"from": "ดอง（漬ける）から。書類や申請を処理せず放置する意味でも使う。",
+"to": "書類や申請を処理せず放置する意味でも使う。",
+"reason": "語源部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55539",
+"field": "sense.note",
+"from": "経口補水液（ผงเกลือแร่）やスポーツドリンクを指して เกลือแร่ と言うこともある。",
+"to": "経口補水液やスポーツドリンクを指すこともある。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55544",
+"field": "sense.note",
+"from": "ขนมกุยช่าย はニラ入りの蒸し点心。",
+"to": "",
+"reason": "他の語の説明だけ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55558",
+"field": "sense.note",
+"from": "ปลาซิว（小さな淡水魚）のように肝が小さい、という比喩。",
+"to": "",
+"reason": "語源の説明だけ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55563",
+"field": "sense.note",
+"from": "「ขายหมดแล้ว（完売）」の意味で使われることもある。",
+"to": "「完売した・販売を終えた」の意味でも使う。",
+"reason": "短く明確に（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55585",
+"field": "sense.note",
+"from": "体温計の意味では既存の ปรอทวัดไข้ を参照（会話では ปรอท だけで体温計を指すこともある）。",
+"to": "会話では ปรอท だけで体温計を指すこともある。",
+"reason": "内部参照の文言を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55613",
+"field": "sense.note",
+"from": "会話での英語由来語。改まった言い方は สนับสนุน。",
+"to": "改まった言い方は สนับสนุน。",
+"reason": "当たり前の部分を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55620",
+"field": "sense.note",
+"from": "โปร は โปรเบชัน（試用期間）の略。改まった言い方は ผ่านการทดลองงาน。",
+"to": "改まった言い方は ผ่านการทดลองงาน。",
+"reason": "語源説明を削り別表現だけ残す（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55718",
+"field": "sense.note",
+"from": "文字どおりには「大きな家」。この意味は政治報道でよく使う。",
+"to": "政治報道でよく使う言い方。",
+"reason": "直訳の豆知識を削って短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55726",
+"field": "sense.note",
+"from": "南部料理によく使う、独特の強いにおいがある豆。",
+"to": "",
+"reason": "訳の言い換え・豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55747",
+"field": "sense.note",
+"from": "ふつう干物を揚げて食べる。",
+"to": "",
+"reason": "食べ方の豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55750",
+"field": "sense.note",
+"from": "名前に「東京」が入るが、タイの屋台菓子。",
+"to": "",
+"reason": "名前の豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55770",
+"field": "sense.note",
+"from": "ここでの คาเฟ่ は歌謡ショーを見せるナイトクラブのことで、喫茶店ではない。",
+"to": "คาเฟ่ は喫茶店ではなく歌謡ショーのナイトクラブのこと。",
+"reason": "紛らわしさの注意だけに短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55784",
+"field": "sense.note",
+"from": "2020年代初めに高値で取引されるブームになった。",
+"to": "",
+"reason": "流行の豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55785",
+"field": "sense.note",
+"from": "บัญชีม้า（名義貸し口座）と同じく、ม้า は犯罪に名義を貸す手先のこと。報道でよく使う。",
+"to": "ม้า は犯罪に名義を貸す手先の意。บัญชีม้า も同様。",
+"reason": "長い説明を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55793",
+"field": "sense.note",
+"from": "政治・経済の議論で、大企業の独占を批判するときによく使う。",
+"to": "",
+"reason": "訳の「批判的に」の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55805",
+"field": "sense.note",
+"from": "人・木・建物などが細く高いようすを描写する言い方で、書き言葉でよく使う。",
+"to": "書き言葉でよく使う描写的な言い方。",
+"reason": "訳の言い換え部分を削って短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55826",
+"field": "sense.note",
+"from": "正式には ไก่ผัดเม็ดมะม่วงหิมพานต์ だが、メニューや会話では短く言うことが多い。",
+"to": "正式には ไก่ผัดเม็ดมะม่วงหิมพานต์。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55834",
+"field": "sense.note",
+"from": "名詞的には ช่วงทดเวลา（บาดเจ็บ）「アディショナルタイム」の形で使う。",
+"to": "「アディショナルタイム」は ช่วงทดเวลาบาดเจ็บ と言う。",
+"reason": "括弧の混じった分かりにくい表記を整理（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55848",
+"field": "sense.note",
+"from": "近年メディアで広まった言い方で、気候変動 การเปลี่ยนแปลงสภาพภูมิอากาศ の言い換え。",
+"to": "正式な言い方は การเปลี่ยนแปลงสภาพภูมิอากาศ。",
+"reason": "経緯の説明を削り別表現だけに短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55851",
+"field": "sense.note",
+"from": "もとはリケー（タイの大衆劇）の役者を応援する女性ファンを指した。",
+"to": "",
+"reason": "語源の豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55875",
+"field": "sense.note",
+"from": "種（เม็ดแมงลัก）は水で戻してデザートや飲み物に入れる。",
+"to": "",
+"reason": "種の食べ方の豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55881",
+"field": "sense.note",
+"from": "中国語（潮州語）由来の名。単に เก๊กฮวย とも言う。",
+"to": "単に เก๊กฮวย とも言う。",
+"reason": "語源の豆知識を削除し別表現だけ残す（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55882",
+"field": "sense.note",
+"from": "ふつうは赤アリ（มดแดง）の卵で、イサーンや北部の料理に使う。ไข่มดแดง とも言う。",
+"to": "ไข่มดแดง とも言う。",
+"reason": "料理の豆知識を削り別表現だけ残す（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55883",
+"field": "sense.note",
+"from": "厳密にはミズオオトカゲ（เหี้ย）とは別種だが、会話では混同されることもある。",
+"to": "ミズオオトカゲ（เหี้ย）とは別種だが、混同されやすい。",
+"reason": "紛らわしい語との違いだけに短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55887",
+"field": "sense.note",
+"from": "公式の表記は ออดิชัน だが、ออดิชั่น と書くことが多い。動詞としても使う。",
+"to": "ออดิชัน とも書く。動詞としても使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55891",
+"field": "sense.note",
+"from": "正式な訳語は สารกึ่งตัวนำ。報道では英語の音訳もよく使う。",
+"to": "正式な訳語は สารกึ่งตัวนำ。",
+"reason": "当たり前の説明を削って短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55895",
+"field": "sense.note",
+"from": "経済の専門語。対になる語は อุปทาน（供給）。会話では ความต้องการ を使うことが多い。",
+"to": "対になる語は อุปทาน（供給）。会話では ความต้องการ が多い。",
+"reason": "訳と重なる部分を削って短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55897",
+"field": "sense.note",
+"from": "もち米を発酵させて造る、甘みのある地酒。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55898",
+"field": "sense.note",
+"from": "ทองหยอด・ฝอยทอง と並ぶ縁起物の菓子。",
+"to": "",
+"reason": "他の語の説明・豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55900",
+"field": "sense.note",
+"from": "ココナッツミルクを使わない、ディルなどの香草が入るイサーン料理。",
+"to": "",
+"reason": "料理の豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55901",
+"field": "sense.note",
+"from": "熟したバナナ・米粉・ココナッツで作り、バナナの葉に包んで蒸す菓子。",
+"to": "",
+"reason": "作り方の豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55902",
+"field": "sense.note",
+"from": "揚げたもち米せんべいに糖蜜をかけたもの。",
+"to": "",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-56027#2",
+"field": "example.ro",
+"from": "nák thɔ̂ng thîao thá lák khâo mʉʉang chûuang sǒng kraan",
+"to": "nák thɔ̂ɔng thîiao thá lák khâo mʉʉang chûuang sǒng kraan",
+"reason": "ท่องเที่ยว の母音の長短を規定どおり thɔ̂ɔng thîiao に修正（AI再点検 2026-11）"
+},
+{
+"file": "more-examples.json",
+"key": "tl-56062#1",
+"field": "example.ro",
+"from": "nák thɔ̂ng thîao lɛ̂ɛk ngəən bàat thîi sà nǎam bin",
+"to": "nák thɔ̂ɔng thîiao lɛ̂ɛk ngəən bàat thîi sà nǎam bin",
+"reason": "ท่องเที่ยว の母音の長短を規定どおり thɔ̂ɔng thîiao に修正（AI再点検 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56073",
+"field": "sense.note",
+"from": "ครูแนะแนว（進路指導の先生）のように名詞の前後に付けても使う。",
+"to": "ครูแนะแนว（進路指導の先生）の形でもよく使う。",
+"reason": "分かりにくい説明を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56086",
+"field": "sense.note",
+"from": "タイの伝統的な考え方による言い方で、เป็นร้อนใน（口内炎などができる）の形で使う。",
+"to": "เป็นร้อนใน（口内炎などができる）の形で使う。",
+"reason": "訳と重なる説明を削って短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56135",
+"field": "sense.note",
+"from": "証券取引所は ตลาดหลักทรัพย์。",
+"to": "",
+"reason": "他の語の説明なので削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56148",
+"field": "sense.note",
+"from": "ニュースの見出しで多い。似た語に หวุดหวิด（ぎりぎりで）がある。",
+"to": "หวิด＋動詞の形で使う。",
+"reason": "豆知識を削り短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56206",
+"field": "sense.note",
+"from": "ふつう ตะหงิดๆ と重ねて使う。ตงิดๆ とも書き、ตะหงิดใจ・ตงิดใจ の形もある。",
+"to": "ふつう ตะหงิดๆ と重ねて使う。ตงิดๆ とも書く。",
+"reason": "長いので短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56271",
+"field": "sense.note",
+"from": "ニュースの見出しなどでよく使う。",
+"to": "",
+"reason": "豆知識だけなので削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56291",
+"field": "sense.note",
+"from": "タイで一般的な、色白でも色黒でもない肌色を指す。",
+"to": "",
+"reason": "訳の言い換えなので削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56301",
+"field": "sense.note",
+"from": "大学が共通選抜とは別に独自に行う入試。今は รับตรง と言うことも多い。",
+"to": "今は รับตรง と言うことも多い。",
+"reason": "訳の言い換え部分を削り短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56312",
+"field": "sense.note",
+"from": "カメラの三脚は ขาตั้งกล้อง と言う。",
+"to": "",
+"reason": "他の語の説明なので削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56318",
+"field": "sense.note",
+"from": "主に悪いことをする人が大胆になる様子に使う。ニュースでよく見る。",
+"to": "主に悪事を働く者が大胆になる様子に使う。",
+"reason": "豆知識部分を削り短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56323",
+"field": "sense.note",
+"from": "ニュースや記事で「珍しい物を食べる」の意味で使う。",
+"to": "",
+"reason": "訳の言い換えなので削除（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "more-examples.json",
+"key": "tl-56323#2",
+"field": "example.ro",
+"from": "nák thɔ̂ng thîao lɔɔng pə̀əp má lɛɛng thɔ̂ɔt",
+"to": "nák thɔ̂ɔng thîiao lɔɔng pə̀əp má lɛɛng thɔ̂ɔt",
+"reason": "ท่องเที่ยวの母音長短の誤り（AI再点検 2026-11）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56346",
+"field": "sense.note",
+"from": "ขี้เมา は「酔っ払い」。麺（เส้นใหญ่ など）でもご飯でも作る。",
+"to": "",
+"reason": "語源・豆知識なので削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56351",
+"field": "sense.note",
+"from": "法律・行政の用語。ふだんは ชาวต่างชาติ、外国人労働者は แรงงานต่างด้าว と言う。",
+"to": "ふだんは ชาวต่างชาติ と言う。",
+"reason": "訳と重複する部分・他語の説明を削り短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56356",
+"field": "sense.note",
+"from": "タイではワゴン車（รถตู้）の送迎も多い。",
+"to": "",
+"reason": "豆知識なので削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56384",
+"field": "sense.note",
+"from": "くだけた言い方。標準語は รักแร้。กลิ่นขี้เต่า は「わきが・わきのにおい」。",
+"to": "くだけた言い方。標準語は รักแร้。",
+"reason": "長いので短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56402",
+"field": "sense.note",
+"from": "身分証などのコピーを提出するとき、余白に手書きして署名する決まり文句。",
+"to": "コピーの余白に手書きし、署名を添える決まり文句。",
+"reason": "長いので短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56423",
+"field": "sense.note",
+"from": "辞書の正式なつづりは นอต。ボルトもナットもまとめて น็อต と言うことが多い。",
+"to": "นอต とも書く。",
+"reason": "長いので短く（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56430",
+"field": "sense.note",
+"from": "バンコクの冠水ニュースでよく聞く語。",
+"to": "",
+"reason": "豆知識なので削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56439",
+"field": "sense.note",
+"from": "白い種類（จาระเม็ดขาว）と黒い種類（จาระเม็ดดำ）がある。",
+"to": "",
+"reason": "豆知識なので削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56444",
+"field": "sense.note",
+"from": "บานเย็น はオシロイバナのこと。その花の色に由来する。",
+"to": "",
+"reason": "語源なので削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56452",
+"field": "sense.note",
+"from": "もとは中国系の大道芸・見せ物のこと。今は「茶番」の意味で使うことが多い。",
+"to": "",
+"reason": "語源・訳の言い換えなので削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56473",
+"field": "sense.note",
+"from": "タイ北部の料理。",
+"to": "",
+"reason": "訳と重複する注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56481",
+"field": "sense.note",
+"from": "車のフロントガラスに貼る、年ごとの自動車税納付の証。",
+"to": "",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56482",
+"field": "sense.note",
+"from": "木琴 ระนาด の鍵盤のように並んだ段差のこと。単独の大きな段差は ลูกเนิน・เนินชะลอความเร็ว と言う。",
+"to": "単独の大きな段差は เนินชะลอความเร็ว と言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56487",
+"field": "sense.note",
+"from": "針のような細長い花の形から。ワイクルー（先生を敬う儀式）の花台によく使う。",
+"to": "",
+"reason": "語源・豆知識のみ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56506",
+"field": "sense.note",
+"from": "マンゴーもち米（ข้าวเหนียวมะม่วง）によく使われる品種。",
+"to": "",
+"reason": "豆知識のみ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56507",
+"field": "sense.note",
+"from": "主に鼠径ヘルニアなど腸が出るものを指す。椎間板ヘルニアは หมอนรองกระดูกทับเส้นประสาท と言う。",
+"to": "椎間板ヘルニアは หมอนรองกระดูกทับเส้นประสาท と言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56510",
+"field": "sense.note",
+"from": "夜遅くまで開いている店が多い。味付けしない白がゆ（ข้าวต้มขาว）に炒め物などのおかずを合わせて食べる。",
+"to": "",
+"reason": "豆知識のみ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56511",
+"field": "sense.note",
+"from": "天気予報・ニュースでよく聞く語。",
+"to": "",
+"reason": "当たり前の注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56524",
+"field": "sense.note",
+"from": "黄色い花が房になって垂れる。ดอกคูน とも呼ぶ（特に東北部）。",
+"to": "ดอกคูน とも呼ぶ（特に東北部）。",
+"reason": "描写部分を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56528",
+"field": "sense.note",
+"from": "ロッブリーなど町なかや寺院で見かける猿の多くがこの種。",
+"to": "",
+"reason": "豆知識のみ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56531",
+"field": "sense.note",
+"from": "揚げたカイコのさなぎ（ดักแด้ทอด）は昆虫食として屋台で売られている。",
+"to": "",
+"reason": "豆知識のみ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56539",
+"field": "sense.note",
+"from": "小説などの描写でよく使い、แสยะยิ้ม・ยิ้มแสยะ の形が多い。悪意や不気味さを感じさせる笑い。",
+"to": "แสยะยิ้ม・ยิ้มแสยะ の形が多く、悪意や不気味さを含む。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56540",
+"field": "sense.note",
+"from": "อย่างมุบมิบ・ทำกันมุบมิบ の形でよく使う。不正や隠しごとの響きがあり、お金をこっそり着服する意味でも使う。",
+"to": "อย่างมุบมิบ の形が多く、不正・着服の響きがある。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56542",
+"field": "sense.note",
+"from": "ข้าวมันไก่（カオマンガイ）のご飯や、ココナッツミルクで炊いて ส้มตำ と食べる ข้าวมันส้มตำ がある。",
+"to": "ข้าวมันไก่・ข้าวมันส้มตำ などの形でよく使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56547",
+"field": "sense.note",
+"from": "ふつう揚げて食べる。หมูแดดเดียว（一日干しの豚肉）もある。",
+"to": "",
+"reason": "豆知識・他の語の説明（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56556",
+"field": "sense.note",
+"from": "ニュースでは ดินโคลนถล่ม とも言う。鉄砲水は น้ำป่าไหลหลาก で、別の現象。",
+"to": "ดินโคลนถล่ม とも言う。鉄砲水（น้ำป่าไหลหลาก）とは別。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56564",
+"field": "sense.note",
+"from": "東北部などでは食用にもされる。",
+"to": "",
+"reason": "豆知識のみ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56565",
+"field": "sense.note",
+"from": "外来種の ปลาหมอคางดำ（ブラックチンティラピア）はニュースでよく話題になる別の魚。",
+"to": "",
+"reason": "他の語の説明（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56566",
+"field": "sense.note",
+"from": "2つ目の意味は「火に飛び込む羽アリ」から来た比喩で、経済ニュースや会話で使う。",
+"to": "",
+"reason": "語源説明のみ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-56567",
+"field": "sense.note",
+"from": "北部では กว่าง だけで呼ぶことが多く、オス同士を戦わせる遊びがある。",
+"to": "北部では กว่าง とだけ呼ぶことが多い。",
+"reason": "豆知識を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10001",
+"field": "sense.note",
+"from": "英語 chill 由来。くつろいだ場面で使う。会話では chiu と発音されることが多く、ชิว（chiu）とも書く。",
+"to": "英語 chill 由来のくだけた語。ชิว とも書く。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10022",
+"field": "sense.note",
+"from": "主語や動詞を省いた短い待機のお願い。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "当たり前の注釈（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10024",
+"field": "sense.note",
+"from": "傷つけた言葉を帳消しにする万能表現ではない。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "断り書きのみ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10025",
+"field": "sense.note",
+"from": "本気でなく遊び半分という意味。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10026",
+"field": "sense.note",
+"from": "笑いを誘う話や人を評するくだけた語。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10028",
+"field": "sense.note",
+"from": "友達関係などの小さな不安・落ち込み。医学的な診断名ではない。",
+"to": "友達関係などの小さな不安・落ち込みに使う。",
+"reason": "断り書きを削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10029",
+"field": "sense.note",
+"from": "英語 fail に由来する俗語で、失敗やがっかりした気分を表します。英語に寄せる読み方もあり、発音表記は追加確認中です。",
+"to": "英語 fail 由来のくだけた語。",
+"reason": "断り書きを削除し短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10030",
+"field": "sense.note",
+"from": "ゲームやネットでも使う。体温が高いという意味ではない。",
+"to": "ゲームやネットでもよく使う。",
+"reason": "断り書きを削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10031",
+"field": "sense.note",
+"from": "面倒な話に対する大げさなぼやき。実際の頭痛にも文脈次第でなる。",
+"to": "面倒な話に対する大げさなぼやき。",
+"reason": "不自然な後半を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10032",
+"field": "sense.note",
+"from": "仕事や活動への意欲が消えた状態の比喩。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10035",
+"field": "sense.note",
+"from": "友達とのお金の話で使う。容器が割れる字義とは別。",
+"to": "友達とのお金の話で使うくだけた語。",
+"reason": "断り書きを削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10037",
+"field": "sense.note",
+"from": "おごったり贈り物をしたりする人を指す。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10038",
+"field": "sense.note",
+"from": "成功・見栄え・評判のよさをほめる。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10041",
+"field": "sense.note",
+"from": "満足・感動・ときめきなど。性的な意味に限定されない。",
+"to": "満足・感動・ときめきなどに広く使う。",
+"reason": "断り書きを削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10042",
+"field": "sense.note",
+"from": "この欄は人物などをほめる俗語の意味。料理の「おいしい・辛くてうまい」と分ける。",
+"to": "料理の「辛くてうまい」とは別の、人をほめる用法。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-examples.json",
+"key": "tl-10043#1",
+"field": "example.ro",
+"from": "chom wəə pai lɛ́ɛo",
+"to": "chom wə̂ə pai lɛ́ɛo",
+"reason": "見出しの読みと声調をそろえる（AI再点検 2026-11）"
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10045",
+"field": "sense.note",
+"from": "冗談や企画が不発なこと。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10046",
+"field": "sense.note",
+"from": "料理・場所・腕前などへの強いほめ言葉。「摘む」の意味とは別。",
+"to": "料理・場所・腕前などへの強いほめ言葉。",
+"reason": "断り書きを削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10047",
+"field": "sense.note",
+"from": "くだけた肯定的評価。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10048",
+"field": "sense.note",
+"from": "服装や雰囲気のよさを表す俗語。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10061",
+"field": "sense.note",
+"from": "現実の交際の事実を示す語ではない。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "断り書きのみ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10065",
+"field": "sense.note",
+"from": "相手や文脈により失恋にも待ち合わせの不履行にもなる。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10075",
+"field": "sense.note",
+"from": "酔いが少し回った状態。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10076",
+"field": "sense.note",
+"from": "翌日にも酔いの影響が残っている状態。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10077",
+"field": "sense.note",
+"from": "飲み物のグラスを合わせる動作。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10078",
+"field": "sense.note",
+"from": "掛け声にもなるが、飲めない人に強要する表現にはしない。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "断り書きのみ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10085",
+"field": "sense.note",
+"from": "นะ (ná) を伸ばしたチャット風表記。「おじ・おば」を表す น้า (náa) とは文脈と用法で区別する。",
+"to": "นะ を伸ばしたチャット風の表記。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10090",
+"field": "sense.note",
+"from": "本来はオオトカゲ。人に向けると強い侮辱。聞いて理解する用を中心に。",
+"to": "本来はミズオオトカゲ。人に向けると強い侮辱。",
+"reason": "不自然な後半を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10091",
+"field": "sense.note",
+"from": "เหี้ย (hîia) の婉曲・崩し表記でも、丁寧になるわけではない。",
+"to": "เหี้ย の崩し表記だが、丁寧にはならない。",
+"reason": "日本語が不自然（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10106",
+"field": "sense.note",
+"from": "医学的な名称ではない。露骨な ควย (khuai) よりやわらかいが私的な語。",
+"to": "ควย よりやわらかいが、私的な場でだけ使う。",
+"reason": "当たり前の部分を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10107",
+"field": "sense.note",
+"from": "医学的な名称ではない。หี (hǐi) よりやわらかいが私的な語。",
+"to": "หี よりやわらかいが、私的な場でだけ使う。",
+"reason": "当たり前の部分を削り短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10109",
+"field": "sense.note",
+"from": "中立的な医学語は ทวารหนัก (thá waan nàk)。この欄は俗語として学ぶ。",
+"to": "中立的な医学語は ทวารหนัก。",
+"reason": "メタな記述を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10112",
+"field": "sense.note",
+"from": "มีเซ็กซ์ (mii sék) よりかなり露骨で、悪態にもなる。聞き取り中心に。",
+"to": "มีเซ็กซ์ よりかなり露骨で、悪態にもなる。",
+"reason": "メタな記述を削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-10121",
+"field": "sense.note",
+"from": "ถุงยางอนามัย（thǔng yaang à naa mai）の短縮。性的な話題の標準的な略称で、罵り語ではありません。",
+"to": "ถุงยางอนามัย の短縮形。",
+"reason": "断り書きを削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-20010",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "人に使うと見下した響きになる。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-20121",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "親しい男友達同士以外では強い侮辱になる。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-20174",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "かなり露骨な俗語。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 3
+},
+{
+"file": "slang-bank.json",
+"id": "tl-20265",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 3
+},
+{
+"file": "slang-bank.json",
+"id": "tl-20268",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "犯罪・暴力の話で使う隠語。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 3
+},
+{
+"file": "slang-bank.json",
+"id": "tl-20414",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "หมอนี่・หมอนั่น の形で使う、ぞんざいな言い方。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-20451",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "หมูๆ と重ねて使うことが多い。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 3
+},
+{
+"file": "slang-bank.json",
+"id": "tl-20453",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "เส้นใหญ่（強いコネがある）の形でも使う。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 3
+},
+{
+"file": "slang-bank.json",
+"id": "tl-20459",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "人に向けると非常に強い侮辱。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-20630",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "女性に付けると強い侮辱。親しい女友達同士でも使う。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-20769",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "人に向けると強い侮辱。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-20988",
+"field": "sense.note",
+"from": "妻を指す日常口語です。単独で強い悪態になる語ではありませんが、改まった場ではより丁寧な言い方を選びます。",
+"to": "改まった場では ภรรยา を使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-21028",
+"field": "sense.note",
+"from": "差別や侮蔑につながる呼び方です。意味を理解するために収録し、友達への気軽な呼び方としては扱いません。",
+"to": "人種差別的な語。使わないこと。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-21349",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "粗い言い方。親しい間柄以外では使わない。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-21349",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "粗い言い方。親しい間柄以外では使わない。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 3
+},
+{
+"file": "slang-examples.json",
+"key": "tl-21410#1",
+"field": "example.th",
+"from": "ร้านนี้ฟิวดีมาก",
+"to": "ร้านนี้ฟีลดีมาก",
+"reason": "用例に見出し語の表記を使う（AI再点検 2026-11）"
+},
+{
+"file": "slang-examples.json",
+"key": "tl-21410#1",
+"field": "example.ro",
+"from": "ráan níi fiu dii mâak",
+"to": "ráan níi fiin dii mâak",
+"reason": "用例修正に合わせる（AI再点検 2026-11）"
+},
+{
+"file": "slang-bank.json",
+"id": "tl-21563",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-21606",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-21700",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-21722",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-21759",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "かなり下品な語。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-21892",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "โดนเด้ง の形で使うことが多い。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-21950",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "人に向けると失礼。普通は เท้า と言う。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-21971",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "かなり粗い悪態。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-21971",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "粗い言い方。親しい間柄以外では使わない。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-21980",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "人に向けると侮辱になる。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22083",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22136",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 3
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22146",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "人に向けると見下す響きになる。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22402",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 3
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22442",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "見下す響きのある粗い言い方。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22542",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "แย่งซีน（見せ場を奪う）の形でよく使う。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22582",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22628",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "非常に粗い語。普通は กิน を使う。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22628",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "粗い言い方。親しい間柄以外では使わない。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22629",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22677",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22681",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22689",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "ไอ้นรก の形で罵りに使う。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 3
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22757",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "รถโหลด の形でよく使う。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 3
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22761",
+"field": "sense.note",
+"from": "案件・計画などをひとまず保留にする意味。物を掛けるという一般語義とは区別する。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "訳の言い換え・断り書き（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22776",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "人に向けると失礼。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22826",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22837",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 3
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22844",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 3
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22902",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 3
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22954",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-22958",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23014",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 3
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23037",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "ไม่มีน้ำยา（能がない）の形で使うことが多い。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23107",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "เมาเละ・แพ้เละ のように動詞の後に付ける。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23142",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23192",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23206",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23219",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "見下した響きがある。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23222",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "非常にきつい命令。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23228",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "粗い言い方。親しい間柄以外では使わない。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23234",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23236",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "ยัยนี่・ยัยนั่น の形で使う。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23237",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "非常に強い侮辱。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23265",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "非常に侮蔑的な語。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23312",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "人に向けると強い侮辱。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23321",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "粗い言い方。親しい間柄以外では使わない。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23428",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "人に向けると強い侮辱。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23620",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "粗い言い方。親しい間柄以外では使わない。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23620",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "粗い言い方。親しい間柄以外では使わない。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23631",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23648",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23715",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23894",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "受け側は รับ と言う。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23969",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "かなり粗い悪態。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-23969",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "ไอ้เวรเอ๊ย の形で人を罵る。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24036",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "ซุ่ม〜 の形で動詞の前に置く。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24121",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24201",
+"field": "sense.note",
+"from": "差別や侮蔑につながる呼び方です。意味を理解するために収録し、友達への気軽な呼び方としては扱いません。",
+"to": "女性蔑視を含む罵り。使わないこと。",
+"reason": "定型の注記を短く置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24345",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "非常にきつい罵り。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24354",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "ห่าอะไร の形で使う粗い語。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24354",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "ไอ้ห่า の形で使う強い罵り。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24405",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "人に向けると強い侮辱。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24445",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "人を犬扱いする見下した言い方。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24512",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24575",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "ไอ้หอก の形で使う罵り。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24587",
+"field": "sense.note",
+"from": "差別や侮蔑につながる呼び方です。意味を理解するために収録し、友達への気軽な呼び方としては扱いません。",
+"to": "障害者差別的な響きがあり、使わないこと。",
+"reason": "定型の注記を短く置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24624",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24691",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "〜ได้โล่ の形で皮肉に使う。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24728",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "人に向けると見下す響きになる。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24741",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 3
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24800",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "非常に強い侮辱。",
+"reason": "定型の内部注記を置き換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24879",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 3
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24905",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank.json",
+"id": "tl-24956",
+"field": "sense.note",
+"from": "元データにスラング・粗い用法として収録。親しさや場面によって響きが変わります。",
+"to": "粗い言い方。親しい間柄以外では使わない。",
+"reason": "定型の内部注記（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60001",
+"field": "sense.note",
+"from": "男女どちらにも使う俗語。仲間内の冗談でよく聞くが、本人に向けて言うとからかいになる。",
+"to": "男女とも使う。本人に言うとからかいになる。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60001",
+"field": "sense.note",
+"from": "性的でない派生用法。ใหม่ซิงๆ（新品そのもの）のように重ねて言うことが多い。",
+"to": "ใหม่ซิงๆ の形で使うことが多い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60002",
+"field": "sense.note",
+"from": "ยัง〜อยู่（まだ〜だ）の型に ซิง を入れた言い方。自分について冗談めかして言うか友人をからかうときに使い、親しくない相手に聞くのは失礼。",
+"to": "親しくない相手に聞くのは失礼。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60003",
+"field": "sense.note",
+"from": "เสีย（失う）＋ ซิง。男女とも使う。友人同士の打ち明け話でよく聞くが、あけすけな言い方なので改まった場では使わない。",
+"to": "あけすけな言い方で、改まった場では使わない。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60004",
+"field": "sense.note",
+"from": "相手を征服の対象のように扱う下品な響きがあり、主に男性の自慢話や下ネタの雑談で耳にする。本人や恋人について言うのは失礼。",
+"to": "下品な響きがあり、人に向けると失礼。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60004",
+"field": "sense.note",
+"from": "スポーツ報道でよく使う非性的な比喩。เปิดซิงชัยชนะ（初勝利を挙げる）の形が多い。",
+"to": "เปิดซิงชัยชนะ（初勝利を挙げる）の形が多い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60005",
+"field": "sense.note",
+"from": "若者の俗語で日本語の「ヤる」に近い。เย็ด ほど露骨ではないが下品で、ごく親しい間柄の雑談に限る。",
+"to": "เย็ด ほど露骨ではないが下品。親しい間柄に限る。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60006",
+"field": "sense.note",
+"from": "擬音のような軽い俗語で、ซั่ม より柔らかく冗談っぽい。恋人同士や友人の冗談で使うが、性的な意味ははっきり伝わる。",
+"to": "ซั่ม より柔らかく冗談っぽい言い方。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60007",
+"field": "sense.note",
+"from": "一般語「上下に揺さぶる」を性的に使った露骨な言い方。アダルト系の話題や下品な雑談で使われ、普通の会話では避ける。",
+"to": "露骨な性的表現。普通の会話では避ける。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60007",
+"field": "sense.note",
+"from": "性的でない元の意味。枝や物を上下に揺らす動作に使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換え（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60008",
+"field": "sense.note",
+"from": "แตก（射精する）＋ ใน（中に）。アダルト動画の分類名にも使われる非常に露骨な俗語で、ごく親しい間柄以外では使わない。",
+"to": "非常に露骨な俗語。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60009",
+"field": "sense.note",
+"from": "เอา（ヤる）＋ สด（生の）。露骨な言い方で、保健の話では ไม่ใส่ถุงยาง（コンドームを着けない）と言うのが普通。",
+"to": "露骨な言い方。普通は ไม่ใส่ถุงยาง と言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60010",
+"field": "sense.note",
+"from": "ฉิ่ง（小さなシンバル）を打ち合わせる様子にたとえた俗語。からかいや下品な冗談で使われ、当事者に向けると失礼になりうる。",
+"to": "下品な冗談で使い、当事者に向けると失礼。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60011",
+"field": "sense.note",
+"from": "英語 tomboy から。タイでは広く通じる自称・他称でそれ自体は侮蔑語ではないが、からかう調子で言えば失礼になる。",
+"to": "英語 tomboy 由来。からかう調子だと失礼になる。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60012",
+"field": "sense.note",
+"from": "英語 lady から。トム（ทอม）との組み合わせで語られることが多い。自称・他称として通じ、それ自体は侮蔑語ではない。",
+"to": "英語 lady 由来。ทอม と対で使うことが多い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60013",
+"field": "sense.note",
+"from": "女性的な男性やゲイを見下す俗語。仲間内の自虐で使う人もいるが、他人に向ければ侮辱になる。学習者は使わず、中立的には เกย์ と言う。",
+"to": "侮辱語。中立的には เกย์ と言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60014",
+"field": "sense.note",
+"from": "本来は動物のホエジカ。ゲイであることを表に出さない男性を指し、詮索やからかいの響きがあるため本人に向けると失礼。",
+"to": "本来はホエジカ。本人に向けると失礼。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60015",
+"field": "sense.note",
+"from": "ゲイや女性的な男性の大げさなふるまいを言う。仲間内では冗談で使うが、他人に言うと嘲りになる。แต๋วแตก（オネエ全開）の形も多い。",
+"to": "แต๋วแตก の形も多い。他人に言うと嘲りになる。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60016",
+"field": "sense.note",
+"from": "金銭的な援助を受けて年上の裕福な男性（เสี่ย）と関係を持つ女性を指す。陰口や揶揄で使われ、本人に言えば侮辱になる。",
+"to": "陰口や揶揄で使い、本人に言えば侮辱。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60017",
+"field": "sense.note",
+"from": "金回りのよい商売人を指し、呼びかけにも使う。相手を持ち上げる響きがあり、性的な意味は含まない。",
+"to": "呼びかけにも使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60017",
+"field": "sense.note",
+"from": "เด็กเสี่ย と対になる意味。皮肉や陰口で使われる。",
+"to": "皮肉や陰口で使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60018",
+"field": "sense.note",
+"from": "英語 sideline から。SNSやアプリで客を募る個人売春を指し、報道でも使われる。人に向けて言えば侮辱になる。",
+"to": "英語 sideline 由来。人に向けると侮辱。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60019",
+"field": "sense.note",
+"from": "直訳は「入浴・蒸し・マッサージ」。報道でも使う一般的な呼び名で、普通のマッサージ店（ร้านนวด）とは別物。",
+"to": "普通のマッサージ店（ร้านนวด）とは別物。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60020",
+"field": "sense.note",
+"from": "เที่ยวผู้หญิง は「買春する」の意で、「女の子と遊びに行く」ではない。女性を物扱いする響きがあり、自慢話としては嫌がられる。",
+"to": "「女の子と遊びに行く」ではなく買春の意味。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60022",
+"field": "sense.note",
+"from": "売春する女性を見下す卑俗な蔑称で、描写のつもりでも侮辱になる。理解用にとどめ、中立的には โสเภณี や พนักงานบริการ と言う。カレーの กะหรี่（แกงกะหรี่）と同じ綴り。",
+"to": "卑俗な蔑称。中立的には โสเภณี と言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60022",
+"field": "sense.note",
+"from": "売春と関係なく女性を侮辱する強い罵り言葉。理解用にとどめ、使わない。",
+"to": "強い罵り言葉。使わないこと。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60023",
+"field": "sense.note",
+"from": "直訳は「子どもを食べる」だが、恋愛で年の離れた年下を相手にすることを言う。冗談やからかいで使い、男女どちらにも言う。",
+"to": "冗談やからかいで使い、男女どちらにも言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60024",
+"field": "sense.note",
+"from": "主に ได้เสียกัน の形で、男女が関係を持ったことを遠回しに言う。やや古風で、ニュースや年配者の話にも出る。",
+"to": "ได้เสียกัน の形で使う、やや古風な言い方。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60025",
+"field": "sense.note",
+"from": "直訳は「引くカーテン」。車を入れた後にカーテンを引いて隠す造りから来た、安い連れ込み宿の俗称。",
+"to": "安い連れ込み宿の俗称。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60026",
+"field": "sense.note",
+"from": "直訳は「世界の主」。男性器を大げさにおどけて言う婉曲表現で、下ネタの冗談で使う。",
+"to": "下ネタの冗談で使うおどけた言い方。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60027",
+"field": "sense.note",
+"from": "普通は「弟」。下ネタの文脈でだけこの意味になる軽い婉曲語。",
+"to": "普通は「弟」。下ネタの文脈でだけこの意味。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60028",
+"field": "sense.note",
+"from": "มีแฟนหรือยัง の短縮。気になる相手への探りの定番だが、初対面でいきなり聞くと軽く見られることもある。答えは มีแล้ว（いる）／ยัง（まだ）。",
+"to": "มีแฟนหรือยัง の短縮。初対面で聞くと軽く見られることも。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60029",
+"field": "sense.note",
+"from": "เบอร์ は電話番号。今は ขอไลน์หน่อย（LINE教えて）も同じくらい使う。ナンパ以外の普通の場面でも使える。",
+"to": "ขอไลน์หน่อย（LINE教えて）も同じくらい使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60030",
+"field": "sense.note",
+"from": "飲み会の後の二次会の誘いが基本。二人きりで言うと「この後もう一軒（あるいはホテル）」という含みに聞こえることもある。口語では ไปต่อมั้ย とも書く。",
+"to": "二人きりで言うと性的な含みに聞こえることもある。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60031",
+"field": "sense.note",
+"from": "二人きりで言えば、ほぼ性的な誘いと受け取られる直接的な言い方。断るなら ไม่ดีกว่า（やめとく）などで返す。",
+"to": "二人きりで言えば、ほぼ性的な誘いと受け取られる。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60032",
+"field": "sense.note",
+"from": "かなりあけすけな誘いで、恋人同士の冗談か、ごく親しい相手にしか言わない。親しくない相手に言うと非常に失礼。",
+"to": "親しくない相手に言うと非常に失礼。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60033",
+"field": "sense.note",
+"from": "「ツアー客が押し寄せる」のたとえ。2020年前後からSNSで定着し、今も普通に使う。受け身的に「โดนทัวร์ลง」の形が多い。",
+"to": "โดนทัวร์ลง の形が多い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-60033#1",
+"field": "example.ro",
+"from": "phóos nán doon thuua long tháng khʉʉn",
+"to": "phóot nán doon thuua long tháng khʉʉn",
+"reason": "โพสต์ の読みを規定どおりに（AI再点検 2026-11）"
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60034",
+"field": "sense.note",
+"from": "2020年前後から若者の間で広まった語で、占い・パワースポット巡り・お守りなどをまとめて指す。略して「มู」とも言い、「ไปมูกัน」（開運祈願に行こう）のように動詞的にも使う。",
+"to": "略して มู とも言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60035",
+"field": "sense.note",
+"from": "สาย（〜系の人）＋มู（มูเตลูの略）。占いやお参りに熱心な人を指し、自称にも他称にも使う。からかい気味にも好意的にも使える。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "語源と訳の言い換え（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60036",
+"field": "sense.note",
+"from": "英語 fandom の略。K-POP、タイの俳優・BLドラマなどのファン集団を指す。「ด้อมเรา」（うちのファンダム）のように使う。",
+"to": "英語 fandom の略。ด้อมเรา（うちのファンダム）のように使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60037",
+"field": "sense.note",
+"from": "英語 main から。ファン用語で「เมนใคร」（推しは誰）のように使う。生理を指す「เมนส์」とは別語だが、くだけた表記では同じ綴りになることもある。",
+"to": "英語 main 由来。生理を指す เมนส์ とは別語。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60038",
+"field": "sense.note",
+"from": "วาย は Y（やおい／Yaoi）から。ニュースでも使う一般的な言い方で、俗語ではない。BL好きの人は「สายวาย」と言う。",
+"to": "BL好きの人は สายวาย と言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60039",
+"field": "sense.note",
+"from": "英語 ship（relationship）から。ファン用語で、俳優・アイドルの二人組を恋愛関係として応援すること。本来の「チップ」の意味とは別。",
+"to": "英語 ship 由来のファン用語。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60041",
+"field": "sense.note",
+"from": "イサーン方言の อีหยัง（何）＋วะ。2020年前後にネットのミームとして全国的に流行した。今は少し古いがまだ通じる。วะ を含むくだけた言い方なので目上には使わない。",
+"to": "イサーン方言由来。วะ を含むので目上には使わない。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-60041#1",
+"field": "example.ro",
+"from": "hěn phóos nán lɛ́ɛo bɛ̀ɛp ì yǎng wá",
+"to": "hěn phóot nán lɛ́ɛo bɛ̀ɛp ì yǎng wá",
+"reason": "โพสต์ の読みを規定どおりに（AI再点検 2026-11）"
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60042",
+"field": "sense.note",
+"from": "2020年代初めにSNSで広まった、かわいさを表すふざけた言い方。「น่ารักตะมุตะมิ」の形も多い。子ども・動物・小物などに使い、今は少し古めに聞こえることもある。",
+"to": "น่ารักตะมุตะมิ の形も多い。やや古めの流行語。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60043",
+"field": "sense.note",
+"from": "本来「（髪を）短く刈った」の意で、坊主頭の男子生徒のイメージから。2000〜2010年代のネット掲示板やオンラインゲームでよく使われ、今はやや古めだが通じる。軽い悪口。",
+"to": "やや古めのネット語で、軽い悪口。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60044",
+"field": "sense.note",
+"from": "「โป๊ะแตก」の形でもよく使う。ウソ、加工写真、隠し事などが露見すること。本来の「浮き桟橋」などの意味とは別。",
+"to": "โป๊ะแตก の形でもよく使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60045",
+"field": "sense.note",
+"from": "本義「強く打つ」から。ネットや芸能ニュースで、批判に強く反論する意味でよく使う。「ฟาดกลับ」（言い返す）の形が多い。",
+"to": "ฟาดกลับ（言い返す）の形が多い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60046",
+"field": "sense.note",
+"from": "ปัง（大成功・映える）をふざけて伸ばした言い方。2019〜2020年頃の流行語で、今は少し古く、ネタっぽく聞こえる。",
+"to": "2019年頃の流行語で、今はネタっぽく聞こえる。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60047",
+"field": "sense.note",
+"from": "「ตัวแม่」（その道の女王）を英語 mom 風に崩した形。2020年代前半のネット流行語で、主にファンや若い女性がほめ言葉として使う。",
+"to": "ตัวแม่ を崩した形。主にほめ言葉として使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60049",
+"field": "sense.note",
+"from": "2019年前後にネットで流行したほめ言葉。「ต๊าซ」とも書く。今は少し古い。",
+"to": "ต๊าซ とも書く。今は少し古い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60050",
+"field": "sense.note",
+"from": "本来「カレー・汁物」。2020年代に若者の間で流行。「โดนแกง」（はめられた）の形が多い。冗談のいたずらにも、本当の裏切りにも使う。",
+"to": "โดนแกง（はめられた）の形が多い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60053",
+"field": "sense.note",
+"from": "白目をむくように目を上に向ける＝あきれ・うんざりの気持ち。2010年代から定着し、SNSでは文字だけで反応として書くこともある。",
+"to": "SNSでは文字だけで反応として書くこともある。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60054",
+"field": "sense.note",
+"from": "「心の接着剤」の意。比較的以前からある口語で、恋人・家族・友人グループのどれにも使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源・豆知識のみ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60056",
+"field": "sense.note",
+"from": "英語 idol。アイドル歌手・グループのほか、「ไอดอลของฉัน」（私の憧れの人・お手本）の意味でも使う。俗語ではなく一般的な外来語。",
+"to": "ไอดอลของฉัน（私の憧れの人）の意味でも使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60057",
+"field": "sense.note",
+"from": "英語 feel-good。映画・ドラマ・音楽によく使い、「หนังฟีลกู๊ด」（ほっこり映画）の形も多い。",
+"to": "หนังฟีลกู๊ด（ほっこり映画）の形も多い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60059",
+"field": "sense.note",
+"from": "FacebookやTikTokのライブ配信販売。俗語ではなく一般的な口語で、名詞的にも使う。ไลฟ์ は「lái」と高く発音されることも多い。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "豆知識のみ（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60060",
+"field": "sense.note",
+"from": "一般的な口語。目立つ言動を「ネタ作り・再生数稼ぎ」と皮肉る意味でも使う（「ทำคอนเทนต์หรือเปล่า」＝ネタのためにやってるの？）。",
+"to": "ネタ作り・再生数稼ぎと皮肉る意味でも使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60061",
+"field": "sense.note",
+"from": "Facebookの近況（ステータス）を書くこと。2010年代のFacebook全盛期によく使われ、今は「โพสต์」と言う方が多く、やや古め。",
+"to": "今は「โพสต์」と言う方が多く、やや古い言い方。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60062",
+"field": "sense.note",
+"from": "อวย（ほめる）＋ยศ（位）で「位を上げるほどほめちぎる」。ファンが推しを熱烈にほめるときや、皮肉で「持ち上げすぎ」と言うときに使う。อวย 単独でも同じ意味。",
+"to": "推しの絶賛や、皮肉で「持ち上げすぎ」に使う。อวยだけでも同じ。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60063",
+"field": "sense.note",
+"from": "1990年代に若者の間で大流行したほめ言葉。今はかなり古く聞こえ、使うと「昔の流行語」として冗談めいた響きになる。",
+"to": "1990年代の流行語で、今使うと古く冗談めいて聞こえる。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60064",
+"field": "sense.note",
+"from": "แอ๊บ（ふりをする）＋แบ๊ว（あどけなくかわいい）。2000年代半ばに広まった語で、今も通じるがやや古めの響き。からかい・批判の調子があり、本人に言うと失礼になりうる。",
+"to": "やや古めの響き。からかう語で、本人に言うと失礼になりうる。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60065",
+"field": "sense.note",
+"from": "独自のファッションやインディー音楽を好む若者を指し、2000年代前半〜半ばに流行した。今は当時を振り返る文脈で使われることが多く、やや古い。",
+"to": "2000年代の流行語で、今は昔を振り返る文脈が多い。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60066",
+"field": "sense.note",
+"from": "標準形は「จังเลย」。2010年前後〜2010年代前半のネット・SNSで流行したわざと崩した表記（いわゆるภาษาวิบัติ）。今はかなり古い印象で、正式な文章では使わない。",
+"to": "「จังเลย」の崩し表記。今はかなり古く、正式な文では使わない。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60067",
+"field": "sense.note",
+"from": "標準形は「บอกตรงๆ」。2010年代前半にネットで流行した崩し表記で、文頭に置いて本音を言う前置きにする。今は古めで、冗談めかした響きになる。",
+"to": "「บอกตรงๆ」の崩し表記で文頭に置く。今は古めで冗談っぽい。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60068",
+"field": "sense.note",
+"from": "標準形は「ใช่มั้ย／ใช่ไหม」。2010年前後〜2010年代前半にネットや若者の会話で流行した甘えた崩し方。今は古く、わざとかわいく言う冗談として使う程度。",
+"to": "「ใช่มั้ย」の崩し形。今は古く、わざとかわいく言う冗談程度。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60069",
+"field": "sense.note",
+"from": "標準形は「อะไร」。2010年代前半のネットで流行した崩し表記で、驚きやあきれを冗談っぽく表す。今は古めの響き。",
+"to": "「อะไร」の崩し表記。今は古めで冗談っぽい響き。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60070",
+"field": "sense.note",
+"from": "標準形は「เทพจริงๆ」。子音を入れ替えた崩し表記で、2010年前後〜2010年代前半にゲームやネット掲示板で流行した。今は古い印象。",
+"to": "「เทพจริงๆ」の崩し表記。今は古い印象。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60071",
+"field": "sense.note",
+"from": "直訳は「その物は持っていなければならない」。2017年ごろSNSや買い物の話題で流行し、今も物欲を正当化する冗談として普通に使う。",
+"to": "物欲を正当化する冗談として使う。",
+"reason": "直訳・時期の解説を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60072",
+"field": "sense.note",
+"from": "直訳は「薬を塗る」。2010年代後半からレビューやSNSの買い物の話題で広まり、今も普通に使う。「โดนป้ายยา」（勧められて欲しくなった）の形が多い。",
+"to": "「โดนป้ายยา」（勧められて欲しくなった）の形が多い。",
+"reason": "語源・時期を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60073",
+"field": "sense.note",
+"from": "必要もないのに面倒や危険を自分から招く行動を止める言い方。2020年前後から広まり、今も普通に使う。親しい相手向けで、目上には使わない。",
+"to": "親しい相手向けで、目上には使わない。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60074",
+"field": "sense.note",
+"from": "2022年ごろからTikTokなどで広まった語で、今も使われる。「ตัวตึง＋分野」の形で、ある界隈で有名・影響力のある人を指す。",
+"to": "「ตัวตึง＋分野」の形で、その界隈の有名人を指す。",
+"reason": "時期の豆知識を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60076",
+"field": "sense.note",
+"from": "英語 short ＋ feel から、気分がショートする意味。2010年代に若者の間で広まり、今も普通に通じる。物事にも人にも使い、「ช็อตฟีลมาก」で強める。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "語源・時期の豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60077",
+"field": "sense.note",
+"from": "ตาย（死ぬ）をくだけて言い換えた語で、2020年前後にネットで広まった。今も冗談で使うが流行のピークは過ぎ、少し古めの響き。疲れた・ショックだなどの誇張に使い、実際の死を話す場面では不謹慎になる。",
+"to": "誇張の冗談で使い、実際の死の話では不謹慎。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60079",
+"field": "sense.note",
+"from": "ฟิน（満たされて幸せ）＋เวอร์（英語 over、大げさ）。2010年代前半、ฟินの流行とともに広まった。今は少し古いが、ドラマや推しの話題でまだ聞く。",
+"to": "今は少し古いが、推しやドラマの話でまだ聞く。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60080",
+"field": "sense.note",
+"from": "英語 strong から。2010年代半ばに「ใจสตรอง」などの形で流行し、今もよく使う。体力より精神的な強さに使うことが多い。",
+"to": "主に「ใจสตรอง」の形で精神的な強さに使う。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60084",
+"field": "sense.note",
+"from": "ゲイ・LGBTQの言葉から広まり、2000年代後半〜2010年代に一般化した。特定の時期だけの流行語ではなく今も普通に使う（より新しい言い方に「ตัวมัม」がある）。ほめ言葉だが、男性に使うとからかいの響きになることがある。",
+"to": "ほめ言葉だが、男性に使うとからかいの響きになる。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60085",
+"field": "sense.note",
+"from": "2019年のタイ映画『ฮาวทูทิ้ง』（邦題『ハッピー・オールド・イヤー』）の題名から、2019〜2020年ごろ広まった流行語。今は少し古いが、片付けの話では通じる。",
+"to": "2019年の同名映画から広まった語で、今は少し古め。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60086",
+"field": "sense.note",
+"from": "แว้นはエンジンをふかす音から。2000年代に広まり、今もニュースや日常会話で普通に使う語で、一時の流行語ではない。見下した否定的な呼び方なので、本人に向けると侮辱になる。",
+"to": "見下した呼び方で、本人に向けると侮辱になる。",
+"reason": "語源・時期を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60087",
+"field": "sense.note",
+"from": "ほぼ「ละครตบจูบ」の形で、恋敵同士の平手打ちや強引なキスが続く昔ながらのタイのテレビドラマを指す。特定の時期の流行語ではなく長く使われている言い方で、やや見下した響きがある。",
+"to": "ほぼ「ละครตบจูบ」の形で使い、やや見下した響きがある。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60088",
+"field": "sense.note",
+"from": "「流れ（กระแส）にしがみつく」。報道や広告の話でも使う定着した口語表現で、特定の時期の流行語ではない。便乗を批判する響きになることが多いが、中立的にも使う。",
+"to": "便乗を批判する響きが多いが、中立的にも使う。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60089",
+"field": "sense.note",
+"from": "「流れ（กระแส）にぶら下がる」。เกาะกระแสより批判的で、騒ぎに乗じて自分の名前や商品を売り込む人を責めるときに使う。ここ10年ほどSNSや報道で普通に使われ、特定の時期の流行語ではない。",
+"to": "เกาะกระแสより批判的な言い方。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60091",
+"field": "sense.note",
+"from": "英語 love の借用で、英語混じりの若者言葉として2000年代ごろから使われ、特定の時期の流行語ではない。ふざけた・かわいこぶった響きで、真剣な告白には使わない。発音は語末を f のように言う人も多い。",
+"to": "ふざけた響きで、真剣な告白には使わない。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60092",
+"field": "sense.note",
+"from": "麺なしスープ「เกาเหลา」は麺（เส้น）を入れないことから、「ไม่กินเส้น（反りが合わない）」にかけたしゃれ。昔から使われている定着した俗語で、特定の時期の流行語ではない。芸能人同士の不仲の報道にもよく出る。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "語源・豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60094",
+"field": "sense.note",
+"from": "果物の「ลำไย（リュウガン）」を音の似た「รำคาญ（いらいらする）」にかけた言い方。2017〜2018年ごろSNSで流行し、今は少し古い響き。親しい相手への軽い文句で、目上には使わない。",
+"to": "「รำคาญ」にかけた語。親しい相手への軽い文句で、目上には使わない。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60095",
+"field": "sense.note",
+"from": "เกิน（超える）＋ต้าน（抵抗する）で「抵抗できる限度を超えた」。多くは「น่ารักเกินต้าน」の形。ここ10年ほどSNSや広告の文句でよく見る言い方で、特定の時期の流行語とは言いにくく、今も古くない。",
+"to": "多くは「น่ารักเกินต้าน」の形で使う。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60097",
+"field": "sense.note",
+"from": "本来は「みぞおちを打たれて息が詰まる」（จุกท้องなど）。そこから、図星の言葉や悲しい話に打ちのめされる意味で使い、「จุกๆ」「จุกอก」とも言う。2010年代からSNSでよく使われ、今も古くない。特定の時期だけの流行語ではない。",
+"to": "「จุกๆ」「จุกอก」とも言う。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60098",
+"field": "sense.note",
+"from": "Facebookの「いいね（ถูกใจ）」にかけた言い方で、親指を立てた画像のミームとともに2020年ごろ流行した。今は少し古いが、ふざけた反応としてまだ使われる。",
+"to": "ミーム由来のふざけた反応で、今は少し古め。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60099",
+"field": "sense.note",
+"from": "「心に良い」。2010年代後半にSNSで広まり、かわいい動物・好きな俳優・優しい話などへの反応として今もよく使う。まだ古い感じはあまりない。",
+"to": "かわいい動物や推しなどへの反応として使う。",
+"reason": "時期の解説を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-60100#1",
+"field": "example.ro",
+"from": "khǎo hǐu sɛ̌ɛng phóos ùuat thúk wan",
+"to": "khǎo hǐu sɛ̌ɛng phóot ùuat thúk wan",
+"reason": "โพสต์の読みはphóot（AI再点検 2026-11）"
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60100",
+"field": "sense.note",
+"from": "「（スポットライトの）光に飢えている」。2010年代からSNSで広まり今も普通に使う語で、特定の時期の流行語ではない。人を批判する言い方なので、本人に言うとけんかになりうる。",
+"to": "人を批判する語で、本人に言うとけんかになりうる。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60102",
+"field": "sense.note",
+"from": "2000年代の流行語「แอ๊บแบ๊ว（かわいこぶる）」から広まり、今は「แอ๊บใส（純情ぶる）」「แอ๊บแมน（男らしく装う）」などの形で普通に使う。特定の時期だけの流行語ではない。相手を皮肉る響きがある。",
+"to": "「แอ๊บใส（純情ぶる）」などの形で使い、皮肉の響きがある。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60201",
+"field": "sense.note",
+"from": "หรือเปล่า（rʉ̌ʉ plàao）の เปล่า が縮んだ形で、ปะ とも書く。友人同士の誘い・確認に使い、目上や丁寧な場面では ไหม／หรือเปล่า を使う。",
+"to": "ปะとも書く。親しい相手に使い、丁寧な場面ではไหม／หรือเปล่า。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60202",
+"field": "sense.note",
+"from": "促しの文末詞 สิ（sì）のくだけた形。親しい相手に「早く〜して」「〜に決まってるじゃん」と言うときに使い、目上に言うとぞんざいに聞こえる。",
+"to": "สิのくだけた形。目上に言うとぞんざいに聞こえる。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60203",
+"field": "sense.note",
+"from": "聞き返しの เหรอ（rə̌ə、もとは หรือ）がさらにくだけた発音・綴り。チャットでは หรอ と書くことが多く、会話でも rɔ̌ɔ と言う。目上には ครับ／คะ を添える。",
+"to": "เหรอのくだけた形。目上にはครับ／คะを添える。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60204",
+"field": "sense.note",
+"from": "疑問の ไหม（mǎi）→ มั้ย（mái）がさらに縮んだ形。チャットで特によく書き、会話でも親しい相手に軽く聞くときに使う。丁寧な場面では使わない。",
+"to": "ไหมが縮んだ形。親しい相手に使い、丁寧な場面では使わない。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60205",
+"field": "sense.note",
+"from": "勧誘・促しの เถอะ（thə̀）のくだけた発音・綴り。親しい相手との会話やチャットで使い、柔らかく「もう〜しよう」と言う感じ。",
+"to": "เถอะのくだけた形で、親しい相手に使う。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60206",
+"field": "sense.note",
+"from": "เดี๋ยว（dǐiao）のくだけた綴り・短い発音。主にチャットで書き、「เด๋วมา（すぐ戻る）」「เด๋วก่อน（ちょっと待って）」のように使う。正式な文章では เดี๋ยว と書く。",
+"to": "เดี๋ยวのくだけた綴り。正式な文章ではเดี๋ยวと書く。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60207",
+"field": "sense.note",
+"from": "否定の返事 เปล่า（plàao）の l を落としたくだけた発音・綴り（pl→p）。「何でもない」「そうじゃない」と軽く打ち消す。目上には เปล่าครับ／ค่ะ などと言う。",
+"to": "เปล่าのくだけた形。目上にはเปล่าครับ／ค่ะと言う。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60207",
+"field": "sense.note",
+"from": "หรือเปล่า の หรือ を省いた形で、文末につけて「〜なの？」と確かめる。ป่ะ はこれがさらに縮んだ形。",
+"to": "หรือเปล่าの略。ป่ะはさらに縮んだ形。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60208",
+"field": "sense.note",
+"from": "疑問の ไหม（mǎi）の、会話での実際の発音（高声 mái）に合わせた綴り。チャットや気軽な文章でとても多い。正式な文章や試験では ไหม と書く。",
+"to": "ไหมの会話での発音に合わせた綴り。正式な文章ではไหมと書く。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60209",
+"field": "sense.note",
+"from": "男性の丁寧語尾 ครับ（khráp）をかわいく・軽くくずした形。チャットやSNSでよく書き、会話でも親しい相手に甘えた感じで言う。女性が文字でふざけて使うこともある。改まった場面では使わない。",
+"to": "ครับのくだけた形。改まった場面では使わない。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60211",
+"field": "sense.note",
+"from": "สุด（最も・極み）を重ねた強調で、形容詞・動詞の後ろに置く。良いことにも悪いことにも使え（เหนื่อยสุดๆ＝疲れ切った）、くだけているが失礼さはない。",
+"to": "形容詞・動詞の後ろに置き、悪いことにも使う。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60212",
+"field": "sense.note",
+"from": "本来は「強く・激しく」の意。若者言葉として形容詞・動詞の後ろに置き、「ものすごく」と大げさに強調する（ง่วงอย่างแรง＝死ぬほど眠い）。今も友人同士で普通に使う。",
+"to": "形容詞・動詞の後ろに置いて大げさに強調する。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60213",
+"field": "sense.note",
+"from": "ดี（良い）に強調の จัด（ひどく・強く、เผ็ดจัด のように標準語にもある）をつけた若者言葉。音楽・店・服などを気軽にほめるときに使う。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "語源と当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60214",
+"field": "sense.note",
+"from": "ตัวแม่（女王・第一人者）の男性版で、ある分野で抜きん出た人を指す。ほめ言葉だが、「ตัวพ่อเรื่องกิน（食べることの帝王）」のように冗談やからかい半分でも使う。ตัวแม่ ほど頻繁ではない。",
+"to": "ตัวแม่の男性版。冗談やからかい半分でも使う。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60215",
+"field": "sense.note",
+"from": "予想外のことに驚いて頭が真っ白になる様子。「เหวอไปเลย」の形が多い。うれしい驚きよりも、戸惑い・ショックに使うことが多い。",
+"to": "「เหวอไปเลย」の形が多く、戸惑いやショックに使う。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60216",
+"field": "sense.note",
+"from": "泣き声の擬音。チャットやSNSで แงงง と伸ばして書き、甘えた・おどけた嘆きを表す。会話で冗談めかして言うこともある。本当に深刻な場面には使わない。",
+"to": "チャットでแงงงと伸ばして書く。深刻な場面には使わない。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60217",
+"field": "sense.note",
+"from": "聞き取れなかったときや驚いたときの聞き返し。ฮะ、หา とも書く。ぶっきらぼうに響くので、目上には「อะไรนะครับ／คะ」などを使う。",
+"to": "ぶっきらぼうに響くので、目上には「อะไรนะครับ／คะ」と言う。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60219",
+"field": "sense.note",
+"from": "大笑いの擬音。チャットやSNSで กร๊ากกก と伸ばして書き、555 より大げさにウケている感じを出す。会話で声に出して言うこともある。",
+"to": "チャットでกร๊ากกกと伸ばして書き、555より大げさ。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60221",
+"field": "sense.note",
+"from": "จริงหรือเปล่า（本当かどうか）のくだけた形。驚き・半信半疑の反応として友人同士でよく言う。目上には จริงเหรอครับ／คะ などを使う。",
+"to": "友人同士で使う。目上にはจริงเหรอครับ／คะと言う。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60222",
+"field": "sense.note",
+"from": "ใช่หรือเปล่า（そうかどうか）のくだけた形で、文末につけて同意・確認を求める。ใช่มั้ย とほぼ同じ。丁寧な場面では ใช่ไหมครับ／คะ を使う。",
+"to": "ใช่มั้ยとほぼ同じ。丁寧な場面ではใช่ไหมครับ／คะ。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60223",
+"field": "sense.note",
+"from": "บ้าหรือเปล่า（頭がおかしいんじゃないの）のくだけた形。親しい相手への突っ込みや、ありえない話への反応として使う。本気で言うとかなり失礼なので、親しい間柄に限る。",
+"to": "本気で言うとかなり失礼なので、親しい間柄に限る。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60224",
+"field": "sense.note",
+"from": "吐きそうなほど気持ち悪いときの声。腐った物・汚い物を見たときや、甘ったるい話への冗談の反応にも使う。อี๋ より「吐き気」の感じが強い。",
+"to": "อี๋より吐き気の感じが強い。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60225",
+"field": "sense.note",
+"from": "虫・汚れ・気持ち悪い物を見たときの声。อี๋ย、อี๊ とも書く。女性が言う印象が強いが男性も使う。人に向けると「気持ち悪い」と言うことになり失礼。",
+"to": "人に向けると「気持ち悪い」の意味になり失礼。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60226",
+"field": "sense.note",
+"from": "悪態 เชี่ย（chîia）をぼかした言い方で、驚き・失敗に思わず出る。เชร้ด、เชด とも書く。เชี่ย より弱いが下品な言葉の仲間なので、目上や改まった場では言わない。",
+"to": "เชี่ยをぼかした悪態。目上や改まった場では言わない。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60227",
+"field": "sense.note",
+"from": "英語 friend zone から。好意を持っても友達としか見られない状態を言い、「โดนเฟรนด์โซน（友達止まりにされる）」の形が多い。",
+"to": "「โดนเฟรนด์โซน」（友達止まりにされる）の形が多い。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60228",
+"field": "sense.note",
+"from": "คอมเมนต์（comment）の略で、名詞にも動詞にも使う。เมนต์、เม้นท์ とも書く。SNSでの会話で普通に使う。",
+"to": "เมนต์、เม้นท์とも書く。名詞にも使う。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60229",
+"field": "sense.note",
+"from": "อันฟอลโลว์（unfollow）の略。SNSの人間関係の話でよく使い、意図的に縁を切るニュアンスが出ることが多い。",
+"to": "意図的に縁を切るニュアンスが出やすい。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60230",
+"field": "sense.note",
+"from": "うそをつく・いい子ぶる人をののしる強い言葉で、人に向けて言うとけんかになる。親しい友人同士の冗談でも使うが、下品な部類なので目上や初対面では使わない。",
+"to": "下品なののしり語で、人に向けるとけんかになる。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60231",
+"field": "sense.note",
+"from": "うっかりミスや間の抜けた行動を言う。自分について自虐的に言うことが多く、เด๋อด๋า とも言う。人に言うと軽い悪口になる。",
+"to": "自虐で使うことが多く、人に言うと軽い悪口になる。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60232",
+"field": "sense.note",
+"from": "寝不足や混乱で頭が働かない状態、話についていけず固まった様子を言う。自分に使うのが普通で、人に言うと「鈍い」とからかうことになる。",
+"to": "自分に使うのが普通で、人に言うとからかいになる。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60233",
+"field": "sense.note",
+"from": "อาร์ติสต์（artist）の略で、綴りどおりなら低声だが会話では高く tít と言う。個性的・マイペースで気分屋な人を言い、ほめ半分・からかい半分。「ติสต์แตก（気分屋すぎる）」の形も多い。",
+"to": "ほめ半分・からかい半分。「ติสต์แตก」の形も多い。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60234",
+"field": "sense.note",
+"from": "表情や態度を作ってかっこよく・きれいに見せようとすること。「เก๊กหล่อ（イケメンぶる）」「เก๊กสวย（美人ぶる）」の形が多い。からかいにも使う。",
+"to": "「เก๊กหล่อ」「เก๊กสวย」の形が多い。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60236",
+"field": "sense.note",
+"from": "友人同士で体の調子を言うときの普通の口語。少し酔ってふわっとした状態にも使うが、泥酔の意味ではない。มึนหัว とも言う。",
+"to": "泥酔の意味ではない。มึนหัวとも言う。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60236",
+"field": "sense.note",
+"from": "話や状況が複雑でついていけないときに言う。งง とほぼ同じで、มึนงง と重ねることもある。",
+"to": "งงとほぼ同じで、มึนงงとも言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60237",
+"field": "sense.note",
+"from": "英語 blur から。寝不足や疲れで物忘れ・うっかりミスをする状態で、主に自分について言う。相手に言うと軽いからかいになる。",
+"to": "主に自分について言い、相手に言うとからかいになる。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60238",
+"field": "sense.note",
+"from": "直訳は「心がふくらむ」。うれしい言葉や優しさに触れたときの気持ちで、SNSの書き込みや友人との会話で使う若者寄りの言い方。",
+"to": "若者寄りのくだけた言い方。",
+"reason": "直訳を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60239",
+"field": "sense.note",
+"from": "話し始めや言葉に詰まったときに挟むつなぎ言葉で、若い人の会話で非常によく聞く。多用すると幼く聞こえるので、改まった場では使わない。",
+"to": "多用すると幼く聞こえ、改まった場では使わない。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60240",
+"field": "sense.note",
+"from": "恋人や仲の良い友達（特に女性同士）へのLINEや電話の最後に添える甘えた言い方。จุ๊บ 一つでも使う。親しくない相手に使うと馴れ馴れしい。",
+"to": "恋人や親しい友達に使い、親しくない相手には馴れ馴れしい。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60241",
+"field": "sense.note",
+"from": "LINEなどで既読が付いたのに返事をしないこと。อ่านแล้วไม่ตอบ とも言う。不満や冗談まじりの文句として友人同士で使う。",
+"to": "อ่านแล้วไม่ตอบとも言う。",
+"reason": "訳の言い換えを省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60242",
+"field": "sense.note",
+"from": "素性を隠した匿名アカウントのことで、主にX（旧Twitter）で使う。แอค は account の略で แอ็ค とも書く。悪口や詮索に使われるという悪いイメージがある。",
+"to": "主にX（旧Twitter）で使い、悪いイメージがある。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60243",
+"field": "sense.note",
+"from": "英語 spoil から。正式な表記は สปอยล์ だが、SNSでは สปอย もよく見る。ห้ามสปอย（ネタバレ禁止）の形でよく使う。",
+"to": "正式な表記はสปอยล์。「ห้ามสปอย」（ネタバレ禁止）の形が多い。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60244",
+"field": "sense.note",
+"from": "ややくだけた言い方だが、ニュースの見出しでも頻出する。ชาวโซเชียล もほぼ同じ意味で使う。",
+"to": "ニュースの見出しでも使う。ชาวโซเชียลもほぼ同義。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60245",
+"field": "sense.note",
+"from": "周りが知っているニュースや噂を自分だけ知らないこと。自分について冗談めかして言うことが多い。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60246",
+"field": "sense.note",
+"from": "直訳は「画面のふちにしがみつく」。ドラマの最終回、試合、速報などを待つ場面で使い、番組の宣伝文句でもよく見る。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "直訳・豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60247",
+"field": "sense.note",
+"from": "裏付けのない記事や噂を書くことを批判する言い方で、ข่าวนั่งเทียน（でっち上げ記事）、นั่งเทียนเขียน の形が多い。",
+"to": "「ข่าวนั่งเทียน」「นั่งเทียนเขียน」の形が多い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60248",
+"field": "sense.note",
+"from": "英語 bully から。学校や職場でのいじめ、ネットでの中傷、容姿いじりに使い、報道でも普通に使われる。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源・当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60249",
+"field": "sense.note",
+"from": "แอบ（こっそり）＋ชอบ（好き）。気持ちを相手に伝えていない段階で使い、友人同士の恋愛話で非常によく聞く。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源・当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60250",
+"field": "sense.note",
+"from": "会った瞬間に好きになるような感覚を言う軽い言い方。ปิ๊งกัน（互いにときめく）の形もある。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60250",
+"field": "sense.note",
+"from": "ปิ๊งไอเดีย の形で、良い考えがぱっと浮かぶこと。恋愛の意味とは別。",
+"to": "ปิ๊งไอเดียの形で使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60251",
+"field": "sense.note",
+"from": "恋愛で相手が突然連絡を絶つ場面でよく使うが、友人や仕事相手にも使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60252",
+"field": "sense.note",
+"from": "相手に隠して二人以上と交際すること。非難する言い方で、本人に向けて言えば責める言葉になる。",
+"to": "非難する言い方で、本人に言えば責める言葉になる。",
+"reason": "訳の言い換えを省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60253",
+"field": "sense.note",
+"from": "ฟีล（英語 feel）＋แฟน（恋人）。正式に付き合っていない二人の恋人っぽいふるまいや関係を言う。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "語源と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60254",
+"field": "sense.note",
+"from": "ขอ（求める）＋คบ（付き合う）。正式に交際を申し込むことで、ขอเป็นแฟน とも言う。",
+"to": "ขอเป็นแฟนとも言う。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60255",
+"field": "sense.note",
+"from": "けなす響きのある言葉。特に女性に向けて「軽い（すぐ体を許す）」の意味で使うと侮辱になるので、学習者は人に向けて使わない方がよい。自分について自嘲で言うのは普通。",
+"to": "女性に向けると「軽い」の意味で侮辱になる。",
+"reason": "長い解説を短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60256",
+"field": "sense.note",
+"from": "恋人や夫婦が相手を呼ぶ甘い言い方。友人に使うと冗談かからかいになる。歌や手紙では「愛しい人」の意味でも使う。",
+"to": "友人に使うと冗談かからかいになる。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60257",
+"field": "sense.note",
+"from": "วง（輪）を作る意味で、多くは酒の席。ตั้งวงกินเหล้า のようにも言う。",
+"to": "多くは酒の席に使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60258",
+"field": "sense.note",
+"from": "仲間で集まって酒を飲む場。ในวงเหล้า（飲みの席で）の形が多く、ニュースでもけんかの発端としてよく出る。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "当たり前の内容・豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60259",
+"field": "sense.note",
+"from": "แอ๋ は「ひどく酔った」様子を表す語で、ほぼ เมาแอ๋ の形で使う。友人の酔い方を笑って話すときなどに使う。",
+"to": "แอ๋はほぼเมาแอ๋の形でだけ使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60260",
+"field": "sense.note",
+"from": "直訳は「喉が硬い」。たくさん飲んでも酔いにくい人に言う。反対は คออ่อน。",
+"to": "反対はคออ่อน。",
+"reason": "直訳・言い換えを省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60261",
+"field": "sense.note",
+"from": "少し飲んだだけで酔ってしまう人に言う。自分について断りの理由として言うことも多い。反対は คอแข็ง。",
+"to": "反対はคอแข็ง。",
+"reason": "訳の言い換えを省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60262",
+"field": "sense.note",
+"from": "電子音楽のビート音から来た語で、パーティー好きの若者が使う。สายตื๊ด（パーティー好き）、เพลงตื๊ด（EDM系の曲）の形も多い。",
+"to": "「สายตื๊ด」（パーティー好き）の形も多い。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60263",
+"field": "sense.note",
+"from": "พัง（壊れる）を心に使った言い方で、失恋やつらい知らせのときにSNSや友人との会話で使う。大げさな冗談として言うこともある。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "語源・当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60264",
+"field": "sense.note",
+"from": "จิต（心）＋ตก（落ちる）。悪い想像や不安でくよくよする状態。อย่าจิตตก（くよくよしないで）の形で励ますのにもよく使う。",
+"to": "「อย่าจิตตก」（くよくよしないで）の形で励ましにも使う。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60265",
+"field": "sense.note",
+"from": "何かをする気分が失せること。性的な場面で「萎える」の意味にもなるが、普段は食事・遊び・仕事などに広く使う。",
+"to": "性的な場面では「萎える」の意味にもなる。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60266",
+"field": "sense.note",
+"from": "怒りが一気に上がることを言う擬音的な語。ปรี๊ดแตก（ブチ切れる）の形でもよく使う。",
+"to": "「ปรี๊ดแตก」（ブチ切れる）の形も多い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60267",
+"field": "sense.note",
+"from": "感情的に怒鳴ったり文句を言ったりすること。วีนแตก とも言う。人を ขี้วีน（すぐキレる人）と呼ぶと悪口になる。",
+"to": "วีนแตกとも言う。「ขี้วีน」と呼ぶと悪口になる。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60268",
+"field": "sense.note",
+"from": "嫌な相手が痛い目にあったときなどに感じる満足。人の不幸を喜ぶ響きがあるので、当事者の前では言わない方がよい。",
+"to": "人の不幸を喜ぶ響きがあり、当事者の前では言わない。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60269",
+"field": "sense.note",
+"from": "บาย は英語 bye から。誘いや提案を軽く断る友人同士の言い方で、目上の人の誘いを断るのには向かない。",
+"to": "友人同士の言い方で、目上の誘いを断るのには向かない。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60270",
+"field": "sense.note",
+"from": "ไหวไหม / ไหวหรือเปล่า のくだけた形で、ปะ は เปล่า が縮まったもの。ไหวป่ะ とも書く。答えは ไหว（いける）か ไม่ไหว（無理）。",
+"to": "ไหวป่ะとも書く。答えはไหว（いける）かไม่ไหว（無理）。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60301",
+"field": "sense.note",
+"from": "ดื่มเหล้า よりくだけた言い方。เหล้า は本来は蒸留酒だが、กินเหล้า はビールも含めて「飲む・飲みに行く」の意味で広く使う。",
+"to": "ดื่มเหล้าよりくだけた言い方で、ビールも含む。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60306",
+"field": "sense.note",
+"from": "人の外見や服装、店、デザインなどを「見栄えがいい」とほめる一般的な口語。หล่อ・สวย ほど直接的でない。",
+"to": "หล่อ・สวยより控えめなほめ方。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60307",
+"field": "sense.note",
+"from": "英語 mood から。「ไม่มีมู้ด」で「その気分じゃない」、「มู้ดดี」で「機嫌がいい」。",
+"to": "「ไม่มีมู้ด」で「その気分じゃない」。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60309",
+"field": "sense.note",
+"from": "「ไปต่อไหม」（次行く？）の形でよく使う。既存の「ไปต่อไหม」も参照。二人きりで言うと、もう一軒だけでなくホテルなどへの誘いという含みに取られることもある。",
+"to": "二人きりで言うと、ホテルなどへの誘いの含みに取られうる。",
+"reason": "他の語の参照を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60309",
+"field": "sense.note",
+"from": "「ได้ไปต่อ」で「次へ進める」。スポーツやオーディション番組でよく使う一般的な言い方。",
+"to": "「ได้ไปต่อ」（次へ進める）の形が多い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60311",
+"field": "sense.note",
+"from": "秘密や不正をばらすこと。友人同士の話からニュースの見出し（แฉ〜）まで広く使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60312",
+"field": "sense.note",
+"from": "ตีน（足、粗い語）を使った粗い言い方。親しい友人同士の冗談でも使うが、知らない人や目上に言うと喧嘩になる。穏やかに言うなら กวนประสาท や กวน。",
+"to": "粗い語で、他人や目上には使わない。穏やかにはกวนประสาท。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60315",
+"field": "sense.note",
+"from": "「マイクの後ろ」が原義で、公開の場でなく個人的に連絡すること。「ทักหลังไมค์」（DMする）の形が多い。",
+"to": "「ทักหลังไมค์」（DMする）の形が多い。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60316",
+"field": "sense.note",
+"from": "「ติดตาม（フォロー）ボタンを押す」の意味。動画の最後の「ฝากกดติดตามด้วย」は決まり文句。",
+"to": "「ฝากกดติดตามด้วย」は動画の決まり文句。",
+"reason": "直訳を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60319",
+"field": "sense.note",
+"from": "悪気の有無にかかわらず余計なことを言ってしまう性格を言う。ปากหมา ほど粗くなく、本人にも言える。",
+"to": "ปากหมาほど粗くなく、本人にも言える。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60320",
+"field": "sense.note",
+"from": "หมา（犬）を使った粗い言い方で、相手を強くけなす。親友に冗談で言うこともあるが、普通は侮辱になる。穏やかに言うなら ปากเสีย。",
+"to": "粗い語で普通は侮辱になる。穏やかにはปากเสีย。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60322",
+"field": "sense.note",
+"from": "怒りや興奮で急に熱くなること。友人同士の会話で使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60324",
+"field": "sense.note",
+"from": "英語 moment から。「โมเมนต์น่ารัก」（かわいい瞬間）のように、ドラマやアイドルの話でよく使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源・豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60325",
+"field": "sense.note",
+"from": "英語 fake。公式の綴りは เฟก だが เฟค もよく書く。アカウント（แอคเฟค）、ニュース、人の態度などに使う。",
+"to": "正式な綴りはเฟก。",
+"reason": "語源・言い換えを省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60326",
+"field": "sense.note",
+"from": "潮州語由来で、幸運や商売繁盛を言う。華人系の言葉だが一般に広く使う。反対は ซวย。",
+"to": "反対はซวย。",
+"reason": "語源の豆知識を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60328",
+"field": "sense.note",
+"from": "มุก（ネタ・ギャグ）を言うこと。ギャグが滑ることは「มุกแป้ก」と言う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "他の語の説明のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60330",
+"field": "sense.note",
+"from": "SNSに写真を上げること。「ลงไอจี」「ลงเฟซ」のように投稿先を続けても言う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60331",
+"field": "sense.note",
+"from": "主に容姿や投稿でSNS上の人気者になった一般人を言う。宣伝を請け負う発信者は อินฟลู と言うことが多い。",
+"to": "宣伝を請け負う発信者はอินฟลูと言うことが多い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60333",
+"field": "sense.note",
+"from": "からかいや非難に使い、「มั่นหน้ามาก」で「よくそんなに自信があるね」。本人に言うと失礼になることがある。",
+"to": "からかい・非難に使い、本人に言うと失礼になりうる。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60334",
+"field": "sense.note",
+"from": "ซะ（เสีย のくだけた形）＋ งั้น（อย่างนั้น のくだけた形）。予想外の結果にあきれて文末に付ける。",
+"to": "予想外の結果にあきれて文末に付ける。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60336",
+"field": "sense.note",
+"from": "งั้น（อย่างนั้น のくだけた形）の重ね形。よくも悪くもなく、やや物足りないという評価に使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60337",
+"field": "sense.note",
+"from": "「何を食べる？」などへの返事で「何でもいいよ」。กินได้หมด（何でも食べられる）のように動詞の後にも付く。",
+"to": "「กินได้หมด」のように動詞の後にも付く。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60338",
+"field": "sense.note",
+"from": "「アメリカ式の分担」の意味で、各自が自分の分を払うこと。単に หารกัน（人数で割る）とも言う。",
+"to": "単にหารกันとも言う。",
+"reason": "直訳を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60340",
+"field": "sense.note",
+"from": "英語 sorry から。友人への軽い謝罪に使い、ちゃんと謝るときや目上には ขอโทษ を使う。",
+"to": "軽い謝罪で、目上やきちんと謝るときはขอโทษ。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60341",
+"field": "sense.note",
+"from": "เสียเงิน のくだけた言い方（ตังค์ はお金の口語）。「ไม่อยากเสียตังค์」（お金を使いたくない）など。",
+"to": "เสียเงินのくだけた言い方。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60344",
+"field": "sense.note",
+"from": "英語 hangover の略。แฮงก์ とも書く。一般的な言い方は เมาค้าง。",
+"to": "แฮงก์とも書く。一般的な言い方はเมาค้าง。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60347",
+"field": "sense.note",
+"from": "小さくてかわいい雑貨や飾りを言う。主に女性がよく使う口語。",
+"to": "主に女性がよく使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60347",
+"field": "sense.note",
+"from": "「กุ๊กกิ๊กกัน」の形で、仲のいいカップルの様子を言う。ほほえましい響きで、性的な意味はない。",
+"to": "「กุ๊กกิ๊กกัน」の形で使い、性的な意味はない。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60348",
+"field": "sense.note",
+"from": "โดด（跳ぶ）を使った学生の口語。仕事をさぼるのは โดดงาน。",
+"to": "仕事をさぼるのはโดดงาน。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60350",
+"field": "sense.note",
+"from": "東北タイ（イサーン）の方言で、標準語の อะไร にあたる。中部の俗語ではない。ro は中部タイ語の綴りの読みで、実際のイサーン語の声調とは異なる。อิหยัง とも書き、バンコクでもおどけて使われる。",
+"to": "イサーン方言。อิหยังとも書き、バンコクでもおどけて使う。",
+"reason": "断り書きを省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60351",
+"field": "sense.note",
+"from": "東北（イサーン）・北部方言の否定詞で、標準語の ไม่ にあたる。歌詞や地方出身者の会話でよく聞く。「บ่เป็นหยัง」は ไม่เป็นไร（大丈夫）。ro は中部タイ語式の読みで、イサーン語の実際の声調とは異なる。",
+"to": "イサーン・北部方言。「บ่เป็นหยัง」は「大丈夫」。",
+"reason": "断り書きを省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60352",
+"field": "sense.note",
+"from": "歌詞・言葉・商品などが心に響くこと。単に โดน とも言う。",
+"to": "単にโดนとも言う。",
+"reason": "言い換えを省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60353",
+"field": "sense.note",
+"from": "สเปค（好みのタイプ）に ตรง（合う）が付いた形。สเปก とも書く。",
+"to": "สเปกとも書く。",
+"reason": "語構成の説明を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60354",
+"field": "sense.note",
+"from": "英語 spec から。恋愛では「理想のタイプ」の意味。公式の綴りは สเปก。",
+"to": "正式な綴りはสเปก。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60354",
+"field": "sense.note",
+"from": "スマホやパソコンの性能を言う一般的な外来語で、俗語ではない。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60357",
+"field": "sense.note",
+"from": "ผัว（夫）・เมีย（妻）のくだけた語で、親しい間では普通に使う。丁寧には สามีภรรยา と言い、目上の夫婦に使うと失礼。",
+"to": "目上の夫婦に使うと失礼。丁寧にはสามีภรรยา。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60358",
+"field": "sense.note",
+"from": "SNSで広まった自虐的な言い方で、今も普通に使う。犬なら ทาสหมา。",
+"to": "自虐的な言い方。犬ならทาสหมา。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60359",
+"field": "sense.note",
+"from": "ติด（〜に依存する・はまる）＋ เกม。親が子どもについてよく言う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成の説明だけのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60360",
+"field": "sense.note",
+"from": "ติด（離れられない）＋ บ้าน。外出せず家で過ごすのが好きな人を言う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60361",
+"field": "sense.note",
+"from": "問題や失礼を追及せずに流すこと。「ปล่อยผ่านไม่ได้」で「見過ごせない」。",
+"to": "「ปล่อยผ่านไม่ได้」で「見過ごせない」。",
+"reason": "言い換えを省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60362",
+"field": "sense.note",
+"from": "「前世の因果」が原義で、不運や気の毒な出来事を嘆くときに言う。年配の人もよく使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60363",
+"field": "sense.note",
+"from": "「第三の手」が原義で、カップルの間に入ってくる人を言う。ニュースや会話で広く使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源と当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60364",
+"field": "sense.note",
+"from": "「心がたくさんある」が原義で、一人に決められず何人にも気を持つことを言う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60365",
+"field": "sense.note",
+"from": "เส้น（コネ）を持つ人の意味で、職場や学校で縁故で得をする人を陰で言う。本人に言うと侮辱になる。",
+"to": "陰で言う語で、本人に言うと侮辱になる。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60366",
+"field": "sense.note",
+"from": "บอล は ฟุตบอล の略。店やバーで仲間と試合中継を観ることにもよく使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源・当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60367",
+"field": "sense.note",
+"from": "誘いを断るときの定番の言い方で、理由をぼかして角を立てない。目上にも使える。",
+"to": "誘いを角を立てずに断る定番で、目上にも使える。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60368",
+"field": "sense.note",
+"from": "仕事を理由に誘いや約束を断るときに使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60369",
+"field": "sense.note",
+"from": "「角を曲がる」が原義で、映画やドラマの結末についてよく言う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源・当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60370",
+"field": "sense.note",
+"from": "遠回しに相手をけなすこと。「พูดแขวะ」の形が多い。",
+"to": "「พูดแขวะ」の形が多い。",
+"reason": "言い換えを省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-60371#1",
+"field": "example.ro",
+"from": "phóos níi cìk kàt rát thà baan rɛɛng mâak",
+"to": "phóot níi cìk kàt rát thà baan rɛɛng mâak",
+"reason": "โพสต์の読みはphóot（AI再点検 2026-11）"
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60371",
+"field": "sense.note",
+"from": "鳥がつついたりかんだりするのが原義。冗談めかした皮肉にも、SNSでの遠回しな批判にも使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源・当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60372",
+"field": "sense.note",
+"from": "ออก（出る）を使った日常の言い方で、給料日の喜びを言うときによく使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60375",
+"field": "sense.note",
+"from": "เล่น（遊ぶ）を使い、SNSやゲームなどでスマホを触ること。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60376",
+"field": "sense.note",
+"from": "โทรม（ぼろぼろの・やつれた）は soom と読む。寝不足や疲れで顔がやつれて見えること。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60382",
+"field": "sense.note",
+"from": "ทัก（声をかける）＋ ไลน์（LINE）。タイではLINEが主な連絡手段で、仕事でも使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成・豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60383",
+"field": "sense.note",
+"from": "「シェアボタンを押す」の意味。拡散を頼む投稿で「ช่วยกันกดแชร์」とよく言う。",
+"to": "「ช่วยกันกดแชร์」の形でよく使う。",
+"reason": "直訳を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "more-examples.json",
+"key": "tl-60385#1",
+"field": "example.ro",
+"from": "kɔ̀ɔn phóos thəə tɛ̀ng rûup naan mâak",
+"to": "kɔ̀ɔn phóot thəə tɛ̀ng rûup naan mâak",
+"reason": "โพสต์の読みはphóot（AI再点検 2026-11）"
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60385",
+"field": "sense.note",
+"from": "แต่ง（整える・飾る）＋รูป（写真）で、アプリで肌や明るさを直すこと。「盛りすぎ」という含みで言うこともあるが、それ自体は失礼な語ではない。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成と当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60386",
+"field": "sense.note",
+"from": "直訳は「（二人の間に）何かある」で、性的関係を遠回しに言う口語。下品な語ではないが、文脈によってはただ「何かあったの」の意味にもなる。",
+"to": "性的関係の婉曲表現。文脈により単に「何かある」の意味にもなる。",
+"reason": "直訳を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60387",
+"field": "sense.note",
+"from": "相手をほめたり甘い言葉をかけたりするのがうまい人に使う。ほめ言葉にも、「口先だけ」という皮肉にもなる。",
+"to": "「口先だけ」という皮肉にもなる。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60388",
+"field": "sense.note",
+"from": "間違いや本心（好き・寂しいなど）を認めようとしない人に使う。軽い非難やからかいで、強い悪口ではない。",
+"to": "軽い非難やからかいで、強い悪口ではない。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60389",
+"field": "sense.note",
+"from": "交際や結婚を決める前の「様子見」に使う。ขอดูใจกันก่อน（まずはお互い様子を見たい）の形が多い。ไปดูใจ（危篤の人に最期に会いに行く）という別の意味もあるので文脈で区別する。",
+"to": "「ขอดูใจกันก่อน」の形が多い。ไปดูใจは「最期に会いに行く」。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60390",
+"field": "sense.note",
+"from": "ฮา（笑える）を強めた言い方で、動画や話がとても面白いときに使う。くだけた表現なので改まった場では使わない。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60391",
+"field": "sense.note",
+"from": "กลิ้ง（転がる）を添えて、転げ回るほど笑う様子を表す。くだけた口語だが失礼ではない。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成と当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60392",
+"field": "sense.note",
+"from": "「สาย〜（〜系の人）」の形で、グループでいつも場を盛り上げる人を言う。ほめ言葉として使うことが多い。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60393",
+"field": "sense.note",
+"from": "本気の話を冗談っぽく言うときに พูดติดตลก（冗談めかして言う）の形でよく使う。悪い意味はない。",
+"to": "「พูดติดตลก」（冗談めかして言う）の形でよく使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60394",
+"field": "sense.note",
+"from": "悲しいのに笑うしかない皮肉な状況や、毒のある冗談に使う。เป็นตลกร้าย で「皮肉な話だ」。",
+"to": "「เป็นตลกร้าย」で「皮肉な話だ」。",
+"reason": "言い換えを省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60395",
+"field": "sense.note",
+"from": "เพลีย（だるい）＋จิต（心）で、体より気持ちが疲れたときに使う。2010年代から SNS で広まり、今も使われる。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "語構成と時期の豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60397",
+"field": "sense.note",
+"from": "「梁（คาน）に上がる」、つまり嫁に行けず取り残されるという古い言い回し。女性本人に言うと失礼になりうるので、自虐や冗談で使うことが多い。",
+"to": "本人に言うと失礼になりうる。自虐や冗談で使うことが多い。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60400",
+"field": "sense.note",
+"from": "เสือ（虎）にたとえて、多くの女性を口説く男性を言う。非難やからかいに使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60401",
+"field": "sense.note",
+"from": "恋人を指す甘い言い方で、呼びかけにも「〜の恋人」と言うのにも使う。少し照れくさい響きがある。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60402",
+"field": "sense.note",
+"from": "英語 baby をかわいらしく崩した表記で、恋人同士の呼びかけに使う。人前で使うとからかわれやすい甘い言い方。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "語源と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60403",
+"field": "sense.note",
+"from": "งอน（すねる）に ขี้（〜しがち）を付けた語。恋人や子どもに使うことが多く、かわいらしさを含むこともある。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成の説明だけのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60404",
+"field": "sense.note",
+"from": "อ้อน（甘える）とほぼ同じ意味で、甘えた声やしぐさでねだる様子を強調する。恋人・子ども・ペットに使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60406",
+"field": "sense.note",
+"from": "「死ぬときも一緒の友」の意で、困ったときに必ず助けてくれる友人を言う。ほめ言葉。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60407",
+"field": "sense.note",
+"from": "ことわざ เพื่อนกินหาง่าย เพื่อนตายหายาก（飲み食いの友は得やすく、真の友は得がたい）から。都合のいいときだけ寄ってくる友人という含みがある。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "ことわざの豆知識と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60408",
+"field": "sense.note",
+"from": "ซี้（仲がいい）を ปึ้ก で強めた言い方。เพื่อนซี้ปึ้ก の形でも使う、親しい間柄のくだけた語。",
+"to": "「เพื่อนซี้ปึ้ก」の形でも使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60409",
+"field": "sense.note",
+"from": "友人や仲間が意見の対立やお金のことで仲が壊れるときに使う。新聞でも使う一般的な表現。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60410",
+"field": "sense.note",
+"from": "英語 cool から。見た目や態度がかっこいい、動じないという意味で若い人がよく使う。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "語源と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60411",
+"field": "sense.note",
+"from": "มือ（〜の腕の人）＋โปร（プロ）で、趣味でもプロ並みに上手な人をほめる。反対は มือใหม่（初心者）。",
+"to": "反対はมือใหม่（初心者）。",
+"reason": "語構成を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60412",
+"field": "sense.note",
+"from": "ตัว（〜な人）＋ท็อป（トップ）で、その分野やグループで一番の人を言う。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "語構成と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60413",
+"field": "sense.note",
+"from": "英語 aura から。มีออร่า（オーラがある）、ออร่าแรง（オーラがすごい）の形で人の魅力をほめる。",
+"to": "「มีออร่า」「ออร่าแรง」の形で使う。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60414",
+"field": "sense.note",
+"from": "店や土地の一番の名物料理、とっておきのものに使う。เมนูเด็ด とも言う。",
+"to": "เมนูเด็ดとも言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60415",
+"field": "sense.note",
+"from": "อิ่ม（満腹）を แปล้ で強めた言い方で、食べすぎてお腹がふくれた様子を言う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60416",
+"field": "sense.note",
+"from": "一度にたくさん食べる人に使う。ほめ言葉にもからかいにもなる、ふつうの口語。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60417",
+"field": "sense.note",
+"from": "อาหารคลีน（ヘルシー食）から生まれた言い方。2010年代半ばから広まり、今もダイエットの話でよく使う。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "語源と時期の豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60419",
+"field": "sense.note",
+"from": "2010年代から広まった語で、恋人同士の甘い雰囲気や、かわいらしいしぐさに使う。今も使われるが、少し子どもっぽい響きがある。",
+"to": "少し子どもっぽい響きがある。",
+"reason": "時期の豆知識を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60420",
+"field": "sense.note",
+"from": "パステル色やリボンなど、甘くきらきらした女の子らしい雰囲気に使う。2010年代から使われ、皮肉で「夢見がち」の意味になることもある。",
+"to": "皮肉で「夢見がち」の意味になることもある。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60421",
+"field": "sense.note",
+"from": "ขา〜（〜の常連）の形で、よく遊びに出かける人、夜遊びをする人を言う。ขาประจำ（常連客）と同じ ขา の使い方。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成の説明だけのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60423",
+"field": "sense.note",
+"from": "「สาย〜（〜系の人）」の形で、食べ歩きやグルメが趣味の人を言う。สายเที่ยว、สายมู などと同じ作り。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "他の語の説明と言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60424",
+"field": "sense.note",
+"from": "「สาย〜（〜系の人）」の形で、旅行やお出かけが好きな人を言う。旅行情報の SNS 投稿でもよく使う。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60425",
+"field": "sense.note",
+"from": "คอ〜（〜好き）の形で、酒好きの人を言う。คอหนัง（映画好き）などと同じ作り。強い悪口ではない。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成と当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60426",
+"field": "sense.note",
+"from": "「銅の喉」の意で、強い酒をいくら飲んでも平気な人を言う。คอแข็ง（酒に強い）より大げさな言い方。",
+"to": "คอแข็ง（酒に強い）より大げさな言い方。",
+"reason": "直訳を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60431",
+"field": "sense.note",
+"from": "「頭から水に突っ込むほど酔う」という慣用句で、ひどく酔った状態を大げさに言う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "直訳と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60432",
+"field": "sense.note",
+"from": "เละ（ぐちゃぐちゃ）を添えて、立てないほど酔った様子を言う。เมาแอ๋ とほぼ同じ。",
+"to": "เมาแอ๋とほぼ同じ。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60433",
+"field": "sense.note",
+"from": "店で代金を払わずに逃げることや、借りた金を返さないことに使う。ニュースでも使う一般的な口語。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60434",
+"field": "sense.note",
+"from": "「ほこりを蹴る」の意で、仕事がなく暇にしている状態を言う。ตกงาน（失業する）のくだけた言い方。",
+"to": "ตกงานのくだけた言い方。",
+"reason": "直訳を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60435",
+"field": "sense.note",
+"from": "แซง（追い越す）＋คิว（列・順番）。ลัดคิว とほぼ同じで、比喩的に「順番を飛ばして先に出世する」などにも使う。",
+"to": "ลัดคิวとほぼ同じ。",
+"reason": "語構成を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60436",
+"field": "sense.note",
+"from": "「夜明けまで」の意で、ร้านโต้รุ่ง（夜明けまで開いている店）、ปาร์ตี้โต้รุ่ง のように使う。",
+"to": "「ร้านโต้รุ่ง」（夜明けまで開いている店）の形が多い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60438",
+"field": "sense.note",
+"from": "ปั่น（回す・こぐ）から、締め切りに追われて猛スピードで仕事を仕上げることを言う。学生は ปั่นการบ้าน（宿題を急いで片づける）とも言う。",
+"to": "宿題ならปั่นการบ้านと言う。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60439",
+"field": "sense.note",
+"from": "งอก（芽が出る）から、片づけたそばから仕事が次々に増える状況をぼやくときに使う。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "語源と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60441",
+"field": "sense.note",
+"from": "英語 short から。給料日前などにお金が足りなくなったときに使う。単に ช็อต とも言う。",
+"to": "単にช็อตとも言う。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60442",
+"field": "sense.note",
+"from": "ตูด（尻）を使った粗い言い方で、お金などを使い果たしたことを強調する。親しい友人同士でだけ使い、目上の前では避ける。",
+"to": "粗い言い方で、親しい友人同士だけで使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60444",
+"field": "sense.note",
+"from": "お金のことばかり考える人をけなす言い方で、本人に言うと悪口になる。恋愛では「金目当て」の意味にもなる。",
+"to": "人をけなす語で、本人に言うと悪口になる。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60447",
+"field": "sense.note",
+"from": "「店を預ける」の意で、他人の投稿のコメント欄などで自分の店を宣伝すること。ฝากร้านด้วยนะคะ のように頼む形が多い。",
+"to": "「ฝากร้านด้วยนะคะ」のように頼む形が多い。",
+"reason": "直訳を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60451",
+"field": "sense.note",
+"from": "英語 in trend から。2000年代から使われ今も通じるが、やや古めの響きがある。อินเทรน とも書く。",
+"to": "やや古めの響き。อินเทรนとも書く。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60453",
+"field": "sense.note",
+"from": "ไถ（こする・すく）から、指で画面をこすってタイムラインを見続けることを言う。ไถมือถือ（スマホをいじる）とも言う。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "語源の説明のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60454",
+"field": "sense.note",
+"from": "「世界が美しい」の意で、現実の厳しさを知らず楽観的すぎる人をからかう言い方。2010年代から広まり、今もよく使う。",
+"to": "楽観的すぎる人をからかう言い方。",
+"reason": "直訳・時期を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60457",
+"field": "sense.note",
+"from": "遠慮なくきつい言葉を言う人に使う。本人に言うと非難になるが、強い悪口ではない。",
+"to": "本人に言うと非難になるが、強い悪口ではない。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60458",
+"field": "sense.note",
+"from": "目上に口答えしたり、実力以上に大きな口をたたいたりする人を叱る・けなすときに使う。「口がいい」というほめ言葉ではない。",
+"to": "叱る・けなす語で、「口がいい」というほめ言葉ではない。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60459",
+"field": "sense.note",
+"from": "標準語でも使い、にやにや笑ったりふざけたりする茶目っ気のある態度に使う。ยิ้มทะเล้น（いたずらっぽい笑み）の形が多い。",
+"to": "「ยิ้มทะเล้น」（いたずらっぽい笑み）の形が多い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60460",
+"field": "sense.note",
+"from": "いつも騒ぎを起こしたり、ふざけて場を乱したりする人。からかい半分で使うことが多い。",
+"to": "からかい半分で使うことが多い。",
+"reason": "言い換えを省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60461",
+"field": "sense.note",
+"from": "แกล้ง（意地悪をする・からかう）に ขี้（〜しがち）を付けた語。子どもや恋人のちょっかいに使う軽い表現。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成の説明のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60462",
+"field": "sense.note",
+"from": "自分の能力を自慢したり、できないのにできると見せかけたりすることを非難する言い方。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60463",
+"field": "sense.note",
+"from": "遠回しに皮肉や嫌味を言うこと。แดก（粗い「食う」）を含むが、この語自体は下品ではなく一般的な口語。",
+"to": "แดกを含むが、この語自体は下品ではない。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60464",
+"field": "sense.note",
+"from": "期待していた物やチャンスを手に入れ損ねるときに使う。同じつづりで十二支の「子年」や「曽祖父母」の意味もあるので文脈で区別する。",
+"to": "同じ綴りで「子年」「曽祖父母」の意味もある。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60466",
+"field": "sense.note",
+"from": "ปัง（大成功・最高）を添えて強くほめる言い方で、SNS や友人同士で使う。服装やメイクをほめるときに多い。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60467",
+"field": "sense.note",
+"from": "鋭い痛みや、言葉が胸に刺さる感覚を表す語。เจ็บจี๊ด（ずきっと痛い）、จี๊ดในใจ（胸にぐさっとくる）の形でよく使う。",
+"to": "「เจ็บจี๊ด」「จี๊ดในใจ」の形でよく使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60468",
+"field": "sense.note",
+"from": "สาวประเภทสอง（トランス女性）を縮めた口語。กะเทย より穏やかに聞こえる言い方として使われるが、本人が望む呼び方を尊重する。",
+"to": "กะเทยより穏やかな言い方。本人の望む呼び方を尊重する。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60469",
+"field": "sense.note",
+"from": "もとは「ピンを刺す」。SNSやLINEで投稿を上に固定すること、地図で場所にピンを立てることに使う普通の言い方。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源と当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60470",
+"field": "sense.note",
+"from": "恋愛で浮気をしない人をほめる言い方。反対の意味は เจ้าชู้（浮気性の）。",
+"to": "反対はเจ้าชู้（浮気性の）。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60471",
+"field": "sense.note",
+"from": "สละ（手放す）+ โสด（独身）。結婚の報告やお祝い、芸能ニュースでよく使う明るい言い方。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成と当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60472",
+"field": "sense.note",
+"from": "粗さのない普通の言い方。แอปหาคู่（マッチングアプリ）などの複合語でもよく使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "当たり前の内容と他の語の説明のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60473",
+"field": "sense.note",
+"from": "แอป（アプリ）+ หาคู่（相手を探す）。個々のアプリ名の代わりに広く使う普通の言い方。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成と当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60474",
+"field": "sense.note",
+"from": "英語 match から。アプリで互いに「いいね」して成立すること。服や色が「合う」の意味にも使う。แม็ตช์ とも書く。",
+"to": "แม็ตช์とも書く。服や色が「合う」の意味にも使う。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60476",
+"field": "sense.note",
+"from": "もとは「持ち主がいる」。人について、もう恋人や配偶者がいることを冗談めかして言う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60477",
+"field": "sense.note",
+"from": "芸能ニュースで「〜と連れ立って現れた」とよく使う。もとの意味は「（棒などを）くるくる回す」。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "豆知識・語源のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60479",
+"field": "sense.note",
+"from": "英語 hot から。店・話題・人が人気だという意味で、ข่าวฮอต（話題のニュース）のようにも使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60479",
+"field": "sense.note",
+"from": "見た目や服装が色っぽいという意味。本人に言うとひやかしに聞こえることがある。",
+"to": "本人に言うとひやかしに聞こえることがある。",
+"reason": "言い換えを省き短縮（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60484",
+"field": "sense.note",
+"from": "英語 ego から。อีโก้สูง（プライドが高い・我が強い）の形が多く、たいてい批判的に使う。",
+"to": "「อีโก้สูง」の形が多く、たいてい批判的に使う。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60485",
+"field": "sense.note",
+"from": "都合の悪いことを聞かれても、知らない・聞こえないふりをしてやり過ごすこと。冗談にも非難にも使う。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60489",
+"field": "sense.note",
+"from": "ไอ้（粗い呼びかけ）+ บ้า（ばか・いかれた）。親しい男友達同士では軽い冗談にもなるが、他人や目上に言えばけんかになる。女性には อีบ้า を使う。",
+"to": "他人や目上に言えばけんかになる。女性にはอีบ้า。",
+"reason": "語構成を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60490",
+"field": "sense.note",
+"from": "สัตว์（獣）を崩した悪態 สัส に ไอ้ が付いた形。人に向ければ強い侮辱だが、ごく親しい男友達同士では乱暴な呼びかけにもなる。理解用にとどめる。",
+"to": "強い侮辱で、ごく親しい男友達同士以外では使わない。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60491",
+"field": "sense.note",
+"from": "เหี้ย（ミズオオトカゲ）を使った、タイ語で最も強い部類の罵り。人に向ければ深刻な侮辱。理解用にとどめる。",
+"to": "最も強い部類の罵りで、理解用にとどめる。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60492",
+"field": "sense.note",
+"from": "ควาย（水牛）は愚かさのたとえ。人の頭の悪さを強くけなす言い方で、冗談でも相手を怒らせやすい。",
+"to": "冗談でも相手を怒らせやすい強い悪口。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60493",
+"field": "sense.note",
+"from": "ตัว（〜の元）+ ปัญหา（問題）。いつもトラブルを起こす人を指す悪口。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60494",
+"field": "sense.note",
+"from": "「一位に立つ」。店の味や人の得意分野などを「この分野では一番」とほめる言い方。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "直訳と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60495",
+"field": "sense.note",
+"from": "ติด（〜に入る）+ เทรนด์（トレンド）。主にX（旧Twitter）などのトレンド一覧に入ること。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成と当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60496",
+"field": "sense.note",
+"from": "ตก（落ちる）+ ยุค（時代）。流行・機械・考え方が古いこと。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60497",
+"field": "sense.note",
+"from": "แม่ค้า（女性の商人）+ ออนไลน์。SNSや通販サイトで商売する人を指す。男性は พ่อค้าออนไลน์ とも言う。",
+"to": "男性はพ่อค้าออนไลน์とも言う。",
+"reason": "語構成を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60498",
+"field": "sense.note",
+"from": "英語 pre-order から。入荷前に代金を払って予約する買い方で、ネット通販でよく使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源と当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60500",
+"field": "sense.note",
+"from": "ชาว（〜の人々）+ โซเชียล（SNS）。ニュースでネット上の反応を伝えるときの決まった言い方。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成と当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60501",
+"field": "sense.note",
+"from": "英語 hack から。แฮ็ก とも書く。乗っ取られた側は โดนแฮก と言う。",
+"to": "แฮ็กとも書く。乗っ取られた側はโดนแฮก。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60502",
+"field": "sense.note",
+"from": "account の略。แอ็ค とも書く。แอคหลุม（捨てアカ）のような複合語でも使う。",
+"to": "แอ็คとも書く。",
+"reason": "語源と他の語の説明を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60503",
+"field": "sense.note",
+"from": "2010年代半ばにネットから広まった俗語。偉そうな発言が事実と違ってばつが悪くなることを、からかい気味に言う。今も使うが、やや古く感じる人もいる。",
+"to": "からかい気味に使い、やや古く感じる人もいる。",
+"reason": "時期の豆知識を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60504",
+"field": "sense.note",
+"from": "หลุด（漏れる）。本人の同意なく出回った私的な動画、特に性的なものを指すことが多い。",
+"to": "性的な話題の語。場面を選んで使う。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60508",
+"field": "sense.note",
+"from": "英語 fake news から。同じ意味の標準語 ข่าวปลอม の方がよく使われる。เฟกนิวส์ とも書く。",
+"to": "標準語のข่าวปลอมの方がよく使われる。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60509",
+"field": "sense.note",
+"from": "英語 cancel から。標準語は ยกเลิก。会話やチャットで約束や予約を取り消すときによく使う。",
+"to": "標準語はยกเลิก。",
+"reason": "語源と当たり前の内容を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60512",
+"field": "sense.note",
+"from": "「キーボードのならず者」。ネット上でだけ攻撃的なコメントをする人をけなす言い方。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "直訳と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60513",
+"field": "sense.note",
+"from": "英語 IO（information operation）から。組織的に多数のアカウントで世論を誘導すること、またはそのアカウントを指し、政治の話題でよく使う。",
+"to": "主に政治の話題で使う。",
+"reason": "語源の解説を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60514",
+"field": "sense.note",
+"from": "ปั่น（かき回す）+ ยอด（数値）。ファンが繰り返し再生して応援する意味にも、不正な水増しの意味にも使う。",
+"to": "ファンの応援にも不正な水増しにも使う。",
+"reason": "語構成を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60515",
+"field": "sense.note",
+"from": "英語 warp（ワープ）から。その人のSNSへ「ワープする」情報のことで、ขอวาร์ป（アカウント教えて）の形で使う。",
+"to": "「ขอวาร์ป」（アカウント教えて）の形で使う。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60518",
+"field": "sense.note",
+"from": "もとは呪術で呪物を放つ意味。今は歌・料理・スポーツなどで得意な技を存分に見せることを言う。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "語源と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60519",
+"field": "sense.note",
+"from": "「目のつぶれた鶏のように戸惑う」というたとえ。すっかり混乱した様子をおどけて言う、粗さのない表現。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源と当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60520",
+"field": "sense.note",
+"from": "英語 stream から。ゲーム実況などのライブ配信をすること。配信者は สตรีมเมอร์。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源と他の語の説明のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60523",
+"field": "sense.note",
+"from": "กระแส（流れ・世論）が ตีกลับ（跳ね返る）。宣伝や発言が狙いと逆に批判を集めることで、ニュースでもよく使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成と当たり前の内容のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60524",
+"field": "sense.note",
+"from": "「顔が裂ける」。自信満々だったのに失敗して恥をかくこと。親しい間柄で使うややくだけた言い方。",
+"to": "親しい間柄で使うくだけた言い方。",
+"reason": "直訳と言い換えを省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60525",
+"field": "sense.note",
+"from": "เติม（足す・チャージする）+ เกม。ゲーム内の通貨やアイテムにお金を払うこと。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60526",
+"field": "sense.note",
+"from": "อวด（見せびらかす）+ รวย（金持ちの）。ブランド品や高級車をSNSで見せびらかすことを批判的に言う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語構成と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60527",
+"field": "sense.note",
+"from": "「顔が臭う」。ある人が嫌でたまらない気持ちを言う。本人に直接言うとかなり失礼。",
+"to": "本人に直接言うとかなり失礼。",
+"reason": "直訳を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60528",
+"field": "sense.note",
+"from": "「足をなめる」。ตีน は足の粗い言い方なので、เลีย（ごまをする）よりきつく下品に響く。",
+"to": "ตีนを含む下品な言い方で、เลียよりきつい。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60529",
+"field": "sense.note",
+"from": "もとは「かかと」の粗い言い方。相手の言葉を強く突っぱねたり、人をこき下ろしたりする非常に下品な罵り。理解用にとどめる。",
+"to": "非常に下品な罵りで、理解用にとどめる。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60531",
+"field": "sense.note",
+"from": "อีดอกทอง（尻軽女）を縮めた、女性をおとしめる強い罵り。親しい女友達同士では乱暴な冗談にもなるが、他人に向ければ深刻な侮辱。理解用にとどめる。",
+"to": "女性をおとしめる強い罵りで、理解用にとどめる。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60532",
+"field": "sense.note",
+"from": "ขี้（〜しがちな）+ แพ้（負ける）。人をけなす言い方で、自嘲にも使う。",
+"to": "人をけなす語で、自嘲にも使う。",
+"reason": "語構成を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60533",
+"field": "sense.note",
+"from": "เผือก（首を突っ込む）に ขี้（〜しがちな）が付いた形。他人のうわさに首を突っ込む人を軽くからかう言い方。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "語構成と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60534",
+"field": "sense.note",
+"from": "主に男性について、女性にすぐ声をかけたり触れようとしたりすることをからかい・非難して言う。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60535",
+"field": "sense.note",
+"from": "派手な格好でバイクの後ろに乗るような不良少女を指す俗語で、見下しを含む。2010年代前半に広まった語で、今も通じるが流行の盛りは過ぎた。本人に言えば侮辱になる。",
+"to": "見下した語で、本人に言えば侮辱になる。",
+"reason": "時期の豆知識を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60536",
+"field": "sense.note",
+"from": "จีบ よりくだけた言い方で、軽いノリで異性に声をかけること。主に男性が女性に対して使う。",
+"to": "จีบよりくだけた軽い言い方。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60537",
+"field": "sense.note",
+"from": "「視線を送る」。好意を目で伝える意味が多いが、合図の目配せにも使う。",
+"to": "目配せの合図にも使う。",
+"reason": "直訳を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60538",
+"field": "sense.note",
+"from": "もとはスポーツの「控え選手」。恋愛では本命がだめなときのために取っておかれる相手のこと。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60539",
+"field": "sense.note",
+"from": "「どこにも行かない物」のたとえ。いつもそばにいると思われて大事にされない恋人などに使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "たとえの説明と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60540",
+"field": "sense.note",
+"from": "ตัวเอง（あなた）を甘えて崩した形。恋人同士で使うが、友人同士がふざけて使うことも多い。",
+"to": "ตัวเองの甘えた崩し。友人同士がふざけて使うことも多い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60541",
+"field": "sense.note",
+"from": "ไบเซ็กชวล の略。会話で普通に使う言い方で、それ自体は侮辱ではない。",
+"to": "ไบเซ็กชวลの略で、侮辱的な語ではない。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60542",
+"field": "sense.note",
+"from": "英語 virgin から。ซิง より遠回しな言い方。",
+"to": "ซิงより遠回しな言い方。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60545",
+"field": "sense.note",
+"from": "บ้า（狂った）+ กาม（性欲）。性的にしつこい人を強くけなす言い方。",
+"to": "人を強くけなす言い方。",
+"reason": "語構成を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60548",
+"field": "sense.note",
+"from": "英語 nude から。ถ่ายนู้ด（ヌードを撮る）、ภาพนู้ด（ヌード写真）の形でよく使う。",
+"to": "「ถ่ายนู้ด」「ภาพนู้ด」の形でよく使う。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60549",
+"field": "sense.note",
+"from": "คลิปหลุด の写真版。本人の同意なく出回った私的な写真を指す。",
+"to": "性的な話題の語。場面を選んで使う。",
+"reason": "他の語の説明と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60549",
+"field": "sense.note",
+"from": "発表前の新製品などの写真が外に出たもの。性的な意味はない。",
+"to": "この意味では性的な含みはない。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60550",
+"field": "sense.note",
+"from": "女性の胸の大きさを言う俗語で、主にゴシップ記事の見出しで見るやや古めの言い方。会話ではあまり使わず、本人に言うとセクハラになる。",
+"to": "主にゴシップ記事の語で、本人に言うとセクハラになる。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60603",
+"field": "sense.note",
+"from": "งาน（作品）がいい、の意から、主に人の容姿や物の仕上がりをほめるくだけた言い方。友人同士のうわさ話でよく使う。",
+"to": "主に人の容姿をほめるくだけた言い方。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60604",
+"field": "sense.note",
+"from": "英語 fluke から。辞書式の綴りは ฟลุก で ฟลุค とも書くが、会話やネットでは ฟลุ๊ค が多い。自分の成功を謙遜して言うときにもよく使う。",
+"to": "ฟลุก、ฟลุคとも書く。成功を謙遜して言うのにも使う。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60605",
+"field": "sense.note",
+"from": "งานดี・งานละเอียด の反対で、主に容姿をけなすくだけた言い方。本人に言うとかなり失礼。物の仕上がりが雑なことにも使う。",
+"to": "容姿に使うと、本人にはかなり失礼。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60606",
+"field": "sense.note",
+"from": "見た目や質がぱっとせず安っぽいことをからかう語。物、服装、出来ばえに使う。強い悪口ではないが、本人に言えば失礼。",
+"to": "強い悪口ではないが、本人に言えば失礼。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60607",
+"field": "sense.note",
+"from": "力を込めるときの「ふんっ」という声から。「ฮึบไว้」「ฮึบๆ」の形で自分や相手を励ます。SNSのコメントでも多い。",
+"to": "「ฮึบไว้」「ฮึบๆ」の形で自分や相手を励ます。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60609",
+"field": "sense.note",
+"from": "不自然に上品ぶったり、かわいこぶったりする態度をけなす語。かなり否定的で、本人に言うと失礼。",
+"to": "かなり否定的で、本人に言うと失礼。",
+"reason": "訳の言い換えを省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60613",
+"field": "sense.note",
+"from": "มง は มงกุฎ（王冠）の略。2010年代後半にミスコンの応援から広まり、今は服装や写真、出来ばえを大げさにほめるときにも使う。",
+"to": "ミスコンの応援から広まり、服装などを大げさにほめるのにも使う。",
+"reason": "語源・時期を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60614",
+"field": "sense.note",
+"from": "言動が少しずれていて変わっていることを、軽くからかって言う。親しい間柄の冗談で使い、強い悪口ではない。",
+"to": "親しい間の冗談で使い、強い悪口ではない。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60615",
+"field": "sense.note",
+"from": "甘えた声で楽しそうに話し込む様子を、やや冷やかして言う。主に男女のやりとりに使う。",
+"to": "主に男女のやりとりを冷やかして言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60616",
+"field": "sense.note",
+"from": "満腹の腹をたたいて寝転がる様子から。気楽で満ち足りた響きで、怠けを責める語ではない。",
+"to": "満ち足りた響きで、怠けを責める語ではない。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60617",
+"field": "sense.note",
+"from": "筋の通らない理屈で自分の非をごまかすこと。「แถไปเรื่อย」「แถสีข้าง」とも言う。相手を責める響きがある。",
+"to": "「แถไปเรื่อย」「แถสีข้าง」とも言い、責める響きがある。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60619",
+"field": "sense.note",
+"from": "グループの中でいつも皆を笑わせる人。ほめ言葉として使い、悪い意味はない。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60620",
+"field": "sense.note",
+"from": "文字どおりは「肝臓が痛い」。腹立たしいことやあきれることに参った気持ちを大げさに言う。病気の話ではない。",
+"to": "大げさな言い方で、病気の話ではない。",
+"reason": "直訳を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60621",
+"field": "sense.note",
+"from": "疲れや寝不足、ショックで反応が鈍くなった状態。「อึนๆ」と重ねても言う。มึน（くらくらする）より「ぼんやり・ぽかん」の感じ。",
+"to": "「อึนๆ」とも言う。มึนより「ぽかん」の感じ。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60622",
+"field": "sense.note",
+"from": "ช่างมัน（放っておけ・まあいい）の粗い言い方で、แม่ง が入るため下品。親しい仲間内か独り言で使い、目上や人前では避ける。",
+"to": "แม่งを含む下品な言い方で、目上や人前では避ける。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60624",
+"field": "sense.note",
+"from": "連絡がなく顔を見せない人を責めたりからかったりする言い方。หัว（頭）を使うのでぞんざいで、目上には使わない。",
+"to": "ぞんざいな言い方で、目上には使わない。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60625",
+"field": "sense.note",
+"from": "内気で声が小さく、押しの弱い様子をからかい気味に言う。強い悪口ではない。「ติ๋มๆ」と重ねることが多い。",
+"to": "からかい気味の語で、「ติ๋มๆ」と重ねることが多い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60630",
+"field": "sense.note",
+"from": "相手のひどい行いを皮肉ってあきれる言い方で、ほめ言葉ではない。やや古風だが今も使う。",
+"to": "皮肉の言い方で、ほめ言葉ではない。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60631",
+"field": "sense.note",
+"from": "งานดี と同じく、人の容姿をほめるくだけた言い方で、特に顔立ちや肌の繊細さを言う。反対は งานหยาบ。物の作りが丁寧なことにも使う。",
+"to": "反対はงานหยาบ。物の作りが丁寧なことにも使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60632",
+"field": "sense.note",
+"from": "ก๊าก は大笑いの擬声語。チャットでは 555 と並ぶ反応としてもよく使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源の豆知識のため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60633",
+"field": "sense.note",
+"from": "文字どおりは「目をこじ開ける」。人をだますことを責めるくだけた語で、「แหกตาประชาชน」は政治批判でもよく聞く。",
+"to": "「แหกตาประชาชน」は政治批判でよく聞く。",
+"reason": "直訳を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60635",
+"field": "sense.note",
+"from": "求められていないのに口を出したり、目立とうとしたりすることを責める語。相手に言うとかなりきつい。",
+"to": "相手に言うとかなりきつい。",
+"reason": "訳の言い換えを省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60637",
+"field": "sense.note",
+"from": "うれしさや興奮で体をばたばたさせる様子。推しの話題などで大げさに喜ぶときによく使う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60639",
+"field": "sense.note",
+"from": "前後不覚になるほどひどく酔うこと。เมาแอ๋・เมาหัวราน้ำ と近い。友人同士で冗談めかして使う。",
+"to": "เมาแอ๋・เมาหัวราน้ำと近い。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60640",
+"field": "sense.note",
+"from": "ส่งกำลังใจ（励ましを送る）と同じ意味の短いSNSの言い方。ハートの絵文字とともにコメントや投稿で使う。",
+"to": "ส่งกำลังใจを短くしたSNSの言い方。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60641",
+"field": "sense.note",
+"from": "深刻に考えず力を抜いて流すこと。友人を励ますときや、「もう気にしない」と自分に言うときに使う。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60642",
+"field": "sense.note",
+"from": "เลิศ を強めた大げさなほめ言葉。皮肉で「ご立派なこと」の意味に使うこともある。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60643",
+"field": "sense.note",
+"from": "登録前の新車につける赤い仮ナンバープレートから。「รถป้ายแดง」で新車を指す。",
+"to": "「รถป้ายแดง」で新車を指す。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60643",
+"field": "sense.note",
+"from": "新車のたとえから、「แม่ป้ายแดง（新米ママ）」「แฟนป้ายแดง（できたての恋人）」のように人にも使う。",
+"to": "「แม่ป้ายแดง」「แฟนป้ายแดง」のように人に使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 2
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60648",
+"field": "sense.note",
+"from": "ตอแหล（うそつき・白々しい）を和らげた言い方。仲間内のからかいで使い、本気で言えば失礼。",
+"to": "ตอแหลを和らげた語。本気で言えば失礼。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60649",
+"field": "sense.note",
+"from": "恥ずかしさで体を丸めてしまう様子から。照れやきまり悪さをかわいらしく大げさに言う。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "語源と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60650",
+"field": "sense.note",
+"from": "文字どおりは「貧しくて干からびた」。お金がまったくないことを冗談めかして言う。ถังแตก と近い。",
+"to": "ถังแตกと近い。",
+"reason": "直訳を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60652",
+"field": "sense.note",
+"from": "英語 no と สน（สนใจ＝気にかける）、care を組み合わせた言葉遊び。短く โนสน とも言う。",
+"to": "短くโนสนとも言う。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60653",
+"field": "sense.note",
+"from": "ผู้ は ผู้ชาย を縮めた若者言葉。恋人候補の男性を探すことを冗談めかして言い、女性やゲイの男性がよく使う。",
+"to": "冗談めかした言い方で、女性やゲイの男性がよく使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60654",
+"field": "sense.note",
+"from": "マッチングアプリで「いいね」を示す操作から。逆に興味なしは ปัดซ้าย。",
+"to": "興味なしはปัดซ้าย。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60656",
+"field": "sense.note",
+"from": "ส้นตีน（かかと）を使った非常に下品な罵りで、相手の顔や態度が憎たらしいことを言う。理解用にとどめ、自分では使わない。",
+"to": "非常に下品な罵りで、理解用にとどめる。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60657",
+"field": "sense.note",
+"from": "凧が風に乗る様子から。話や遊び、カラオケなどで勢いがついて止まらなくなること。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60658",
+"field": "sense.note",
+"from": "「枠から落ちる」の意から、熱中しすぎて常識を外れること。ติ่งตกขอบ（過激なオタク）の形が最も多く、批判的な響き。",
+"to": "「ติ่งตกขอบ」（過激なオタク）の形が多く、批判的な響き。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60659",
+"field": "sense.note",
+"from": "แท็ก は แฮชแท็ก のこと。ファンが同じタグで大量に投稿し、Xなどのトレンドに載せる活動を言う。",
+"to": "友人同士の会話やSNSで使う俗語。",
+"reason": "訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60662",
+"field": "sense.note",
+"from": "男性器をおどけて言う婉曲的な俗語で、子どもの話や冗談の場面で使う。下品さは強くないが、改まった場では避ける。",
+"to": "下品さは強くないが、改まった場では避ける。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60663",
+"field": "sense.note",
+"from": "「ไม่กินเส้นกัน（反りが合わない）」と否定で使うことが多い。人と人の相性について言い、「麺を食べる」とは文脈で区別する。",
+"to": "多くは「ไม่กินเส้นกัน」と否定で使う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60664",
+"field": "sense.note",
+"from": "英語 drama queen から。小さなことで大げさに騒ぐ人をからかう。男性にも使う。",
+"to": "男性にも使う。",
+"reason": "語源と言い換えを省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60666",
+"field": "sense.note",
+"from": "เจ้าของกระทู้（スレッドの持ち主）の頭文字。Pantip などの掲示板の書き言葉で、จขกท. と点を付けることもある。会話では เจ้าของกระทู้ と言うことが多い。",
+"to": "掲示板の書き言葉で、会話ではเจ้าของกระทู้と言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60667",
+"field": "sense.note",
+"from": "体をくっつけて絡み合う様子で、人前でいちゃつくことをやや非難して言う。物事がごちゃごちゃに入り乱れる意味でも使う。",
+"to": "人前でいちゃつくことをやや非難して言う。",
+"reason": "短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60670",
+"field": "sense.note",
+"from": "ตก は「釣る」の意から。จีบ（口説く）より「落とす・ものにする」感じが強い。女性が男性を落とすときは ตกผู้ と言う。",
+"to": "จีบより「落とす」感じが強い。女性が男性を落とすのはตกผู้。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60673",
+"field": "sense.note",
+"from": "財布がぺちゃんこになる様子から、お金を使い果たしたことを冗談めかして言う。",
+"to": "親しい相手とのくだけた会話で使う。",
+"reason": "語源と訳の言い換えのため削除（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60675",
+"field": "sense.note",
+"from": "文字どおりは「吐いてしまう」。程度がひどいことを大げさに言う強調で、「เหนื่อยอ้วกแตก（吐きそうなほど疲れる）」のように後ろにつける。",
+"to": "「เหนื่อยอ้วกแตก」のように後ろにつけて強める。",
+"reason": "直訳を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60676",
+"field": "sense.note",
+"from": "英語 low society の略で、ไฮโซ（ハイソ）の反対。人に言うと見下す響きがあるが、自分のことを冗談で言うことも多い。",
+"to": "ไฮโซの反対。人に言うと見下す響きがある。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
+"sense": 1
+},
+{
+"file": "slang-bank-more.json",
+"id": "tl-60677",
+"field": "sense.note",
+"from": "犬が鶏をからかう様子から、本気ではない軽い口説きやからかいを言う。主に男性が女性にちょっかいを出す場面で使う。",
+"to": "主に男性が女性に軽くちょっかいを出す場面で使う。",
+"reason": "語源を省き短縮（AI再点検 2026-11）",
 "sense": 1
 }
 ]

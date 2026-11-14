@@ -7,8 +7,11 @@ FILES=['word-bank.json','word-bank-more.json','slang-bank.json','slang-bank-more
 fixes=json.loads(FIX.read_text());idx={(f['file'],f.get('id') or f.get('key'),f['field'],f.get('sense')):f for f in fixes}
 stat={'added':0,'updated':0,'same':0,'skipped':0};dirty=set()
 data={n:json.loads((P/'dist'/n).read_text()) for n in FILES+EXF}
+# slang senses always keep a short usage note: a deleted slang note becomes a one-line register note
+SLANG_NOTE={'口語':'親しい相手とのくだけた会話で使う。','口語・スラング':'友人同士の会話やSNSで使う俗語。','粗い口語':'粗い言い方。親しい間柄以外では使わない。','口語・性的な話題':'性的な話題の語。場面を選んで使う。'}
 def put(file,ident,field,sense,cur,to,reason,key=False,obj=None,attr=None):
     k=(file,ident,field,sense)
+    if field=='sense.note' and not to and file.startswith('slang'):to=SLANG_NOTE.get(obj.get('speechStyle'),'くだけた会話で使う。')
     if cur is None or cur==to:stat['same' if cur==to else 'skipped']+=1;return
     obj[attr]=to;dirty.add(file)  # write the new text into dist now; the fix records original→final
     if k in idx:
@@ -36,6 +39,11 @@ for res in sorted(W.glob('results/*.jsonl')):
                 key=f"{r['id']}#{x['sense']}";e=ex.get(key)
                 if e:put(e[0],key,'example.'+fd[3:],None,e[1].get(fd[3:]),x['to'],x['reason'],key=True,obj=e[1],attr=fd[3:])
 for n in dirty:(P/'dist'/n).write_text(json.dumps(data[n],ensure_ascii=False,separators=(',',':'))+'\n')
+if 'slang-examples.json' in dirty:  # tests require scripts/slang-example-review.json to match dist/slang-examples.json
+    src=P/'scripts/slang-example-review.json';raw=src.read_text();sd=json.loads(raw)
+    for k,v in data['slang-examples.json'].items():
+        if k in sd:sd[k].update({f:v[f] for f in ('th','ro','ja') if f in v})
+    src.write_text(json.dumps(sd,ensure_ascii=False,indent=2 if raw.startswith('{\n  ') else None)+'\n')
 FIX.write_text(json.dumps(fixes,ensure_ascii=False,indent=0)+'\n')
 print(stat,'total fixes',len(fixes))
 if '--apply' in sys.argv:print(subprocess.run([sys.executable,str(P/'scripts/apply-native-review.py')],capture_output=True,text=True).stdout[-600:])
