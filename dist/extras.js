@@ -13,6 +13,24 @@ const THAI_DIGITS='๐๑๒๓๔๕๖๗๘๙',toThaiDigits=n=>String(n).rep
 let extraId=null,extraQuiz=null;
 function openExtra(id){extraId=id;extraQuiz=null;view='extra';render();window.scrollTo(0,0)}
 const xSay=(th,ro,ja)=>`<div class="ex-say"><button class="w-audio" onclick="speakThaiText('${th}')" aria-label="${th}を再生">${icon('audio')}</button><span class="ex-th" lang="th">${th}</span><b class="ex-ro">${ro}</b>${ja?`<span class="ex-ja">${ja}</span>`:''}</div>`;
+
+// 時刻のふつうの言い方（会話）：0時 เที่ยงคืน／1〜5時 ตี〜／6〜11時 〜โมงเช้า／12時 เที่ยง／13時 บ่ายโมง／14〜16時 บ่าย〜โมง／17〜18時 〜โมงเย็น／19〜23時 〜ทุ่ม
+function thaiHour(h){const n=k=>thaiNumber(k);
+ if(h===0)return {th:'เที่ยงคืน',ro:'thîiang khʉʉn'};if(h<=5)return {th:'ตี'+n(h).th,ro:'tii '+n(h).ro};
+ if(h<=11)return {th:n(h).th+'โมงเช้า',ro:n(h).ro+' moong cháao'};if(h===12)return {th:'เที่ยง',ro:'thîiang'};
+ if(h===13)return {th:'บ่ายโมง',ro:'bàai moong'};if(h<=16)return {th:'บ่าย'+n(h-12).th+'โมง',ro:'bàai '+n(h-12).ro+' moong'};
+ if(h<=18)return {th:n(h-12).th+'โมงเย็น',ro:n(h-12).ro+' moong yen'};return {th:n(h-18).th+'ทุ่ม',ro:n(h-18).ro+' thûm'}}
+function thaiTime(h,m=0){const x=thaiHour(h);if(!m)return x;if(m===30)return {th:x.th+'ครึ่ง',ro:x.ro+' khrʉ̂ng'};const y=thaiNumber(m);return {th:x.th+y.th+'นาที',ro:x.ro+' '+y.ro+' naa thii'}}
+const hm=(h,m=0)=>`${h}:${String(m).padStart(2,'0')}`;
+const sayTime=(h,m=0)=>{const x=thaiTime(h,m);return xSay(x.th,x.ro,hm(h,m))};
+const sayN=(n,unitTh,unitRo,ja)=>{const x=thaiNumber(n);return xSay(x.th+unitTh,x.ro+' '+unitRo,ja)};
+const WEEK=[['วันจันทร์','wan can','月曜日'],['วันอังคาร','wan ang khaan','火曜日'],['วันพุธ','wan phút','水曜日'],['วันพฤหัส','wan phá rʉ́ hàt','木曜日'],['วันศุกร์','wan sùk','金曜日'],['วันเสาร์','wan sǎo','土曜日'],['วันอาทิตย์','wan aa thít','日曜日']];
+const MONTHS=[['มกราคม','mók kà raa khom'],['กุมภาพันธ์','kum phaa phan'],['มีนาคม','mii naa khom'],['เมษายน','mee sǎa yon'],['พฤษภาคม','phrʉ́t sà phaa khom'],['มิถุนายน','mí thù naa yon'],['กรกฎาคม','kà rá kà daa khom'],['สิงหาคม','sǐng hǎa khom'],['กันยายน','kan yaa yon'],['ตุลาคม','tù laa khom'],['พฤศจิกายน','phrʉ́t sà cì kaa yon'],['ธันวาคม','than waa khom']];
+let timeQuiz=null;
+function timeQuizNew(){const pool=[[0,0],[2,0],[6,0],[8,30],[10,0],[12,0],[13,0],[14,0],[15,30],[17,0],[18,0],[19,0],[20,30],[22,0],[23,0],[9,15]];const qs=shuffle(pool).slice(0,6).map(t=>({t,choices:shuffle([t,...shuffle(pool.filter(x=>thaiTime(...x).th!==thaiTime(...t).th)).slice(0,3)])}));timeQuiz={qs,i:0,ok:0,picked:null}}
+function timePick(k){const q=timeQuiz.qs[timeQuiz.i];timeQuiz.picked=k;if(q.choices[k]===q.t)timeQuiz.ok++;if(typeof speakThaiText==='function')speakThaiText(thaiTime(...q.t).th,false,true);render()}
+function timeQuizView(){if(!timeQuiz)return `<p>時刻を見て、ふつうの言い方を選びます（6問）。</p><button class="btn" onclick="timeQuizNew();render()">確認テストを始める</button>`;const q=timeQuiz.qs[timeQuiz.i];if(!q)return `<p class="ex-score">${timeQuiz.ok} / ${timeQuiz.qs.length} 問正解</p><button class="btn" onclick="timeQuizNew();render()">もう一度</button>`;
+ return `<div class="ex-q"><div class="ex-q-top">${timeQuiz.i+1} / ${timeQuiz.qs.length}</div><div class="ex-q-num">${hm(...q.t)}</div><div class="ex-q-choices">${q.choices.map((c,k)=>{const x=thaiTime(...c),st=timeQuiz.picked===null?'':c===q.t?' is-right':k===timeQuiz.picked?' is-wrong':'';return `<button class="option${st}" ${timeQuiz.picked!==null?'disabled':''} onclick="timePick(${k})"><span lang="th">${x.th}</span><small>${x.ro}</small></button>`}).join('')}</div>${timeQuiz.picked!==null?`<button class="btn" onclick="timeQuiz.i++;timeQuiz.picked=null;render()">次へ →</button>`:''}</div>`}
 const EXTRAS={
  tones:{title:'声調',lead:'5つの声調の出し方、聞き分け、文字から声調を決めるしくみ、会話での注意。最後に聞き取りの確認テスト。',body:()=>`
  <section class="ex-sec"><h2>声調とは</h2><p>タイ語は、同じ音でも<b>声の高さの動き（声調）</b>が違うと別の語になります。声調は5つ。ローマ字では母音の上の記号で表します（記号なし・à・â・á・ǎ）。まずは同じ「khaa」の5つを聞き比べてください。</p>
@@ -59,6 +77,28 @@ const EXTRAS={
  <h3>電話番号：1桁ずつ読む</h3><p>電話番号は1桁ずつ読みます。2は สาม（3）と聞き間違えないように <b><span lang="th">โท</span>（thoo）</b>と言うことがよくあります。0は ศูนย์。</p>${xSay('ศูนย์แปดหนึ่ง','sǔun pɛ̀ɛt nʉ̀ng','081…')}
  </section>
  <section class="ex-sec ex-quiz-sec"><h2>確認テスト</h2>${extraQuizView()}</section>`},
+ time:{title:'時刻・時間',lead:'1日を朝・昼・夕方・夜で言い分けるタイ式の時刻、24時間制、分・半、時間の長さ。最後に確認テスト。',body:()=>`
+ <section class="ex-sec"><h2>何時？</h2>${xSay('กี่โมงแล้ว','kìi moong lɛ́ɛo','何時になった？（今何時？）')}${xSay('ตอนนี้กี่โมง','tɔɔn níi kìi moong','今何時？')}</section>
+ <section class="ex-sec"><h2>会話の時刻：時間帯で言い方が変わる</h2><p>会話では、1日をいくつかの時間帯に分け、<b>時間帯ごとに違う語</b>で時刻を言います。数字は時間帯の中で数え直します（夜7時が「1」）。</p>
+ <ul class="ex-rules"><li><b>午前1〜5時</b>：<span lang="th">ตี</span>（tii）＋数</li><li><b>午前6〜11時</b>：数＋<span lang="th">โมงเช้า</span>（moong cháao）</li><li><b>正午</b>：<span lang="th">เที่ยง</span>（thîiang）　<b>午前0時</b>：<span lang="th">เที่ยงคืน</span>（thîiang khʉʉn）</li><li><b>午後1〜4時</b>：<span lang="th">บ่าย</span>（bàai）＋数＋<span lang="th">โมง</span>。1時だけ บ่ายโมง</li><li><b>午後5〜6時</b>：数＋<span lang="th">โมงเย็น</span>（moong yen）</li><li><b>午後7〜11時</b>：数＋<span lang="th">ทุ่ม</span>（thûm）。7時が หนึ่งทุ่ม</li></ul>
+ <div class="ex-grid">${[0,1,5,6,8,11,12,13,14,16,17,18,19,20,23].map(h=>sayTime(h)).join('')}</div></section>
+ <section class="ex-sec"><h2>分と半</h2><p>分は数＋<b><span lang="th">นาที</span></b>（naa thii）、30分は<b><span lang="th">ครึ่ง</span></b>（khrʉ̂ng＝半）を時刻の後ろに付けます。</p><div class="ex-grid">${sayTime(8,30)}${sayTime(14,30)}${sayTime(20,30)}${sayTime(9,15)}${sayTime(13,45)}</div></section>
+ <section class="ex-sec"><h2>24時間制（改まった言い方）</h2><p>ニュース・駅・空港・公式の案内では、数＋<b><span lang="th">นาฬิกา</span></b>（naa lí kaa）の24時間制を使います。</p><div class="ex-grid">${[[9,'9:00'],[14,'14:00'],[21,'21:00']].map(([h,j])=>{const x=thaiNumber(h);return xSay(x.th+'นาฬิกา',x.ro+' naa lí kaa',j)}).join('')}</div></section>
+ <section class="ex-sec"><h2>時間の長さ</h2><p>長さは数＋<b><span lang="th">ชั่วโมง</span></b>（時間）・<b><span lang="th">นาที</span></b>（分）・<b><span lang="th">วินาที</span></b>（秒）。「約」は前に <span lang="th">ประมาณ</span>（prà maan）。</p>
+ <div class="ex-grid">${sayN(2,'ชั่วโมง','chûua moong','2時間')}${sayN(30,'นาที','naa thii','30分')}${xSay('ครึ่งชั่วโมง','khrʉ̂ng chûua moong','30分（半時間）')}${xSay('ประมาณหนึ่งชั่วโมง','prà maan nʉ̀ng chûua moong','約1時間')}</div></section>
+ <section class="ex-sec"><h2>1日の時間帯</h2><div class="ex-grid">${xSay('ตอนเช้า','tɔɔn cháao','朝・午前中')}${xSay('ตอนบ่าย','tɔɔn bàai','午後')}${xSay('ตอนเย็น','tɔɔn yen','夕方')}${xSay('ตอนกลางคืน','tɔɔn klaang khʉʉn','夜')}${xSay('กลางวัน','klaang wan','昼間')}${xSay('ดึก','dʉ̀k','夜遅い')}</div></section>
+ <section class="ex-sec ex-quiz-sec"><h2>確認テスト</h2>${timeQuizView()}</section>`},
+ dates:{title:'日付・曜日',lead:'曜日、月、日付と年（仏暦）、昨日・明日・来週などの言い方、「〜日前・〜日後」。',body:()=>`
+ <section class="ex-sec"><h2>曜日</h2><p>曜日は <span lang="th">วัน</span>（日）＋曜日名。「何曜日？」は วันอะไร。</p><div class="ex-grid">${WEEK.map(([t,r,j])=>xSay(t,r,j)).join('')}</div>${xSay('วันนี้วันอะไร','wan níi wan à rai','今日は何曜日？')}</section>
+ <section class="ex-sec"><h2>月</h2><p>31日まである月は <b>-คม</b>（khom）、30日の月は <b>-ยน</b>（yon）で終わります（2月だけ -พันธ์）。</p><div class="ex-grid">${MONTHS.map(([t,r],i)=>xSay(t,r,(i+1)+'月')).join('')}</div></section>
+ <section class="ex-sec"><h2>日付：日・月・年の順</h2><p>日付は <span lang="th">วันที่</span>（wan thîi）＋日＋月＋年の順。「何日？」は วันที่เท่าไร。</p>
+ ${(()=>{const d=thaiNumber(14);return xSay('วันที่'+d.th+' พฤศจิกายน','wan thîi '+d.ro+' phrʉ́t sà cì kaa yon','11月14日')})()}${xSay('วันนี้วันที่เท่าไร','wan níi wan thîi thâo rai','今日は何日？')}
+ <h3>年は仏暦（พ.ศ.）</h3><p>タイでは仏暦がふつうで、<b>西暦＋543</b>です。西暦は <span lang="th">ค.ศ.</span>（khɔɔ sɔ̌ɔ）と言って区別します。</p>${(()=>{const y=thaiNumber(2569);return xSay('พ.ศ. '+y.th,'phɔɔ sɔ̌ɔ '+y.ro,'仏暦2569年（西暦2026年）')})()}</section>
+ <section class="ex-sec"><h2>昨日・今日・明日</h2><div class="ex-grid">${xSay('เมื่อวานซืน','mʉ̂ʉa waan sʉʉn','おととい')}${xSay('เมื่อวาน','mʉ̂ʉa waan','昨日')}${xSay('วันนี้','wan níi','今日')}${xSay('พรุ่งนี้','phrûng níi','明日')}${xSay('มะรืนนี้','má rʉʉn níi','明後日')}${xSay('ทุกวัน','thúk wan','毎日')}</div></section>
+ <section class="ex-sec"><h2>先週・今週・来週</h2><p>「来〜」は後ろに <span lang="th">หน้า</span>（nâa）、「先〜」は <span lang="th">ที่แล้ว</span>（thîi lɛ́ɛo）、「今〜」は <span lang="th">นี้</span>（níi）。週は会話では <span lang="th">อาทิตย์</span>、改まると <span lang="th">สัปดาห์</span>。</p>
+ <div class="ex-grid">${xSay('อาทิตย์ที่แล้ว','aa thít thîi lɛ́ɛo','先週')}${xSay('อาทิตย์นี้','aa thít níi','今週')}${xSay('อาทิตย์หน้า','aa thít nâa','来週')}${xSay('เดือนที่แล้ว','dʉʉan thîi lɛ́ɛo','先月')}${xSay('เดือนนี้','dʉʉan níi','今月')}${xSay('เดือนหน้า','dʉʉan nâa','来月')}${xSay('ปีที่แล้ว','pii thîi lɛ́ɛo','去年')}${xSay('ปีนี้','pii níi','今年')}${xSay('ปีหน้า','pii nâa','来年')}</div></section>
+ <section class="ex-sec"><h2>〜日前・〜日後</h2><p>「〜前」は数＋単位＋<span lang="th">ที่แล้ว</span>、「〜後」は <span lang="th">อีก</span>（ìik）＋数＋単位。</p>
+ <div class="ex-grid">${(()=>{const n=thaiNumber(3);return xSay(n.th+'วันที่แล้ว',n.ro+' wan thîi lɛ́ɛo','3日前')+xSay('อีก'+n.th+'วัน','ìik '+n.ro+' wan','3日後')})()}${(()=>{const n=thaiNumber(2);return xSay(n.th+'ปีที่แล้ว',n.ro+' pii thîi lɛ́ɛo','2年前')+xSay('อีก'+n.th+'อาทิตย์','ìik '+n.ro+' aa thít','2週間後')})()}</div></section>`},
  sounds:{title:'発音の基本',lead:'母音の長さ、息の強さ、詰まる音、日本語にない音。アプリのローマ字の読み方もここで確認できます。',body:()=>`
  <section class="ex-sec"><h2>母音の長さ</h2><p>短い母音と長い母音で別の語になります。ローマ字では<b>長い母音を2つ重ねて</b>書きます（a / aa）。</p>${xSay('เข้า','khâo','入る（短い）')}${xSay('ข้าว','khâao','ご飯（長い）')}</section>
  <section class="ex-sec"><h2>息の強さ（有気音・無気音）</h2><p><b>kh・ph・th</b> は息を強く出す音、<b>k・p・t</b> は息をほとんど出さない音です。日本語の「カ・パ・タ」はその中間なので、意識して分けましょう。th は英語の th ではなく「息の強いタ」です。</p>
@@ -82,10 +122,10 @@ function extraQuizNew(){const pool=[11,15,20,21,37,48,99,100,101,250,999,1500,20
 function extraQuizView(){if(!extraQuiz)return `<p>数字を見て、正しい読み方を選びます（6問）。</p><button class="btn" onclick="extraQuizNew();render()">確認テストを始める</button>`;const q=extraQuiz.qs[extraQuiz.i];if(!q)return `<p class="ex-score">${extraQuiz.ok} / ${extraQuiz.qs.length} 問正解</p><button class="btn" onclick="extraQuizNew();render()">もう一度</button>`;
  return `<div class="ex-q"><div class="ex-q-top">${extraQuiz.i+1} / ${extraQuiz.qs.length}</div><div class="ex-q-num">${q.n.toLocaleString()}</div><div class="ex-q-choices">${q.choices.map(c=>{const x=thaiNumber(c),st=extraQuiz.picked===null?'':c===q.n?' is-right':c===extraQuiz.picked?' is-wrong':'';return `<button class="option${st}" ${extraQuiz.picked!==null?'disabled':''} onclick="extraPick(${c})"><span lang="th">${x.th}</span><small>${x.ro}</small></button>`}).join('')}</div>${extraQuiz.picked!==null?`<button class="btn" onclick="extraQuiz.i++;extraQuiz.picked=null;render()">次へ →</button>`:''}</div>`}
 function extraPick(c){const q=extraQuiz.qs[extraQuiz.i];extraQuiz.picked=c;if(c===q.n)extraQuiz.ok++;const x=thaiNumber(q.n);if(typeof speakThaiText==='function')speakThaiText(x.th,false,true);render()}
-function extraView(){const x=EXTRAS[extraId];if(!x)return course();const sc=extraFrom==='script';return `<button class="textbtn back" onclick="go('${sc?'script':'course'}')">← ${sc?'文字':'文法'}に戻る</button><article class="ex-ch"><div class="eyebrow">${sc?'文字 · 0. 発音と声調':'文法 · 0. 数字'}</div><h1>${x.title}</h1><p class="ex-lead">${x.lead}</p>${x.body()}</article>`}
+function extraView(){const x=EXTRAS[extraId];if(!x)return course();const sc=extraFrom==='script';return `<button class="textbtn back" onclick="go('${sc?'script':'course'}')">← ${sc?'文字':'文法'}に戻る</button><article class="ex-ch"><div class="eyebrow">${sc?'文字 · 0. 発音と声調':'文法 · 0. 数字と時間'}</div><h1>${x.title}</h1><p class="ex-lead">${x.lead}</p>${x.body()}</article>`}
 // Shown as chapter 0 of the grammar page (before 1. 文の土台), outside the 47 numbered lessons.
 let extraFrom='course';
 function extraChapter(title,ids,from,iconName){return `<section class="x-course-chapter ex-chapter0"><div class="x-section-head"><h2><span class="x-chapter-icon" aria-hidden="true">${icon(iconName)}</span>${title}<small>入門</small></h2><span>${ids.length}課</span></div><div class="x-lessons">${ids.map((id,k)=>{const x=EXTRAS[id];return `<button class="x-lesson-row" onclick="extraFrom='${from}';openExtra('${id}')"><span class="x-lesson-num">0-${k+1}</span><span class="x-lesson-body"><b>${x.title}</b><small>${x.lead}</small></span><span class="x-lesson-end">${icon('arrow')}</span></button>`}).join('')}</div></section>`}
-// Grammar chapter 0: numbers. 文字 chapter 0: pronunciation and tones.
-function extrasCards(){return extraChapter('0. 数字',['numbers'],'course','course')}
+// Grammar chapter 0: numbers, time, dates. 文字 chapter 0: pronunciation and tones.
+function extrasCards(){return extraChapter('0. 数字と時間',['numbers','time','dates'],'course','course')}
 function soundCards(){return extraChapter('0. 発音と声調',['sounds','tones'],'script','audio')}

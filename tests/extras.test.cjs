@@ -5,3 +5,11 @@ for(const [n,th,ro] of [[0,'ศูนย์','sǔun'],[11,'สิบเอ็ด
 for(const [id,f,label] of [['numbers','course','0. 数字'],['sounds','script','0. 発音と声調'],['tones','script','0. 発音と声調']]){t.setFrom(f);t.setId(id);const h=t.extraView();assert(h.includes(label)&&h.includes(t.EXTRAS[id].title),id)}
 assert.deepStrictEqual(['khaa','khàa','khâa','kháa','khǎa'].map(t.toneOf),[0,1,2,3,4]);assert(t.TONE_POOL.length>=20&&new Set(t.TONE_POOL.map(x=>t.toneOf(x[1]))).size===5);
 console.log('PASS: 番外編 numbers (เอ็ด, ยี่สิบ, หมื่น/แสน/ล้าน) and pronunciation chapters.');
+{const fs=require('fs'),vm=require('vm'),assert=require('assert');const c={console,Math,window:{},document:{}};vm.createContext(c);vm.runInContext('function icon(){return ""};function shuffle(a){return a}',c);vm.runInContext(fs.readFileSync('dist/extras.js','utf8'),c);
+const T=(h,m)=>vm.runInContext(`thaiTime(${h},${m||0}).th`,c);
+// Conversational time: ตี (1–5), โมงเช้า (6–11), เที่ยง, บ่าย (13–16), โมงเย็น (17–18), ทุ่ม (19–23), เที่ยงคืน; ครึ่ง and นาที.
+assert.deepEqual([0,3,7,12,13,15,17,19,23].map(h=>T(h)),['เที่ยงคืน','ตีสาม','เจ็ดโมงเช้า','เที่ยง','บ่ายโมง','บ่ายสามโมง','ห้าโมงเย็น','หนึ่งทุ่ม','ห้าทุ่ม']);
+assert.equal(T(8,30),'แปดโมงเช้าครึ่ง');assert.equal(T(14,15),'บ่ายสองโมงสิบห้านาที');
+const E=vm.runInContext('EXTRAS',c);for(const id of ['time','dates']){const h=E[id].body();assert(h.includes('ex-say')&&!h.includes('undefined'),id)}
+assert(vm.runInContext('extrasCards()',c).includes('時刻・時間'));
+console.log('PASS: chapter 0 time and dates — conversational clock, half/minutes, weekdays, months, dates and relative days.')}
