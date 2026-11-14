@@ -46,23 +46,60 @@ function customSegment(th){const m=customLex(),max=customLex.max,n=th.length,cos
   out.push(t.kind==='word'?{th:t.th,ro:t.x.ro,mean:t.x.mean}:t.kind==='other'?{th:t.th,ro:t.th,mean:''}:{th:t.th,ro:'',mean:'',unk:true})}
  for(const t of out)if(t.unk){const r=typeof romanizeThai==='function'?romanizeThai(t.th):'';t.ro=r&&!r.includes('□')?r:''}
  return out}
-function parseCustom(text){return String(text||'').split(/\n+/).map(l=>l.trim()).filter(Boolean).slice(0,50).map(l=>{const k=l.search(/[\/／\t]/);let a=(k<0?l:l.slice(0,k)).trim(),b=(k<0?'':l.slice(k+1)).trim();const thai=x=>/[฀-๿]/.test(x);if(!thai(a)&&thai(b))[a,b]=[b,a];return {th:a,ja:b}}).filter(x=>/[฀-๿]/.test(x.th))}
-function customItems(text){const items=[],skipped=[];for(const x of parseCustom(text)){const t=customSegment(x.th);if(!t||t.length<2){skipped.push(x.th);continue}items.push({ja:x.ja,th:x.th.replace(/\s+/g,''),ro:t.map(y=>y.ro).filter(Boolean).join(' '),t:t.map(y=>[y.th,y.ro,y.mean]),unk:t.filter(y=>y.unk).map(y=>y.th)})}return {items,skipped}}
+// 1行＝1文。日本語だけの行はタイ語の文を用意する。タイ語を含む行はそのまま使う（「/」で日本語訳を添えられる）。
+function parseCustom(text){const thai=x=>/[฀-๿]/.test(x);return String(text||'').split(/\n+/).map(l=>l.trim()).filter(Boolean).slice(0,30).map(l=>{const parts=l.split(/\s*[\/／\t]\s*/).map(x=>x.trim()).filter(Boolean);return {th:parts.find(thai)||'',ja:parts.find(x=>!thai(x))||''}}).filter(x=>x.th||x.ja)}
+const bqJaKey=s=>String(s||'').normalize('NFKC').replace(/[\s。、，．,.!?！？「」『』()（）・…〜~"'”“]/g,'');
+function jaBigrams(s){const k=bqJaKey(s),out=new Set();for(let i=0;i<k.length-1;i++)out.add(k.slice(i,i+2));if(k.length===1)out.add(k);return out}
+function jaSim(a,b){if(!a.size||!b.size)return 0;let n=0;for(const x of a)if(b.has(x))n++;return 2*n/(a.size+b.size)}
+// アプリ内の日本語訳付きのタイ語文（文法の例文・確認問題・単語の用例）
+let customCorpusCache=null;
+function customCorpus(){const tag=(reorderReady()?1:0)+(typeof senseExamples!=='undefined'&&senseExamples?2:0);if(customCorpusCache&&customCorpusCache.tag===tag)return customCorpusCache.list;const list=[],seen=new Set(),add=(ja,th,ro)=>{th=String(th||'').replace(/\s+/g,'');if(!ja||!th||!ro||seen.has(th)||/[＿_]/.test(th))return;seen.add(th);list.push({ja,th,ro,key:bqJaKey(ja),bg:null})};
+ if(reorderReady())for(const id in REORDER_ITEMS)for(const it of REORDER_ITEMS[id])add(it.ja,it.th,it.ro);
+ for(const l of lessons)for(const e of l.examples)add(e.ja,e.th,e.ro);
+ if(tag&2)for(const e of Object.values(senseExamples))if(e.checked!==false)add(e.ja,e.th,e.ro);
+ customCorpusCache={tag,list};return list}
+function corpusMatches(ja){const key=bqJaKey(ja),bg=jaBigrams(ja),out=[];for(const e of customCorpus()){if(e.key===key){out.push({...e,score:1});continue}if(!e.bg)e.bg=jaBigrams(e.ja);const sc=jaSim(bg,e.bg);if(sc>=0.75)out.push({...e,score:sc})}return out.sort((x,y)=>y.score-x.score).slice(0,2)}
+// 例文にない文は機械翻訳（Google 翻訳）で作る。結果は端末に保存し、同じ文を何度も送らない。
+async function machineThai(ja){const cache=state.buildMT||(state.buildMT={});if(cache[ja])return cache[ja];
+ const r=await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=ja&tl=th&dt=t&q='+encodeURIComponent(ja));if(!r.ok)throw Error('mt');const d=await r.json(),th=((d&&d[0])||[]).map(x=>(x&&x[0])||'').join('').trim();if(!/[฀-๿]/.test(th))throw Error('mt');
+ const ks=Object.keys(cache);if(ks.length>=200)delete cache[ks[0]];cache[ja]=th;save();return th}
+// 行ごとの候補：例文と同じ文→その例文／なければ機械翻訳。近い例文もほかの候補として出す。
+async function customResolve(text){const rows=[];let mtError=false;for(const x of parseCustom(text)){
+  if(x.th){rows.push({ja:x.ja,opts:[{th:x.th.replace(/\s+/g,''),raw:x.th,ja:x.ja,src:'input'}],pick:0});continue}
+  const m=corpusMatches(x.ja),exact=m.filter(e=>e.score===1),opts=exact.slice(0,1).map(e=>({th:e.th,ro:e.ro,ja:e.ja,src:'example'}));
+  if(!exact.length){try{const th=await machineThai(x.ja);opts.push({th:th.replace(/\s+/g,''),raw:th,ja:x.ja,src:'mt'})}catch{mtError=true}}
+  if(!exact.length)for(const e of m)if(!opts.some(o=>o.th===e.th))opts.push({th:e.th,ro:e.ro,ja:e.ja,src:'near'});
+  const saved=(state.buildPick||{})[x.ja],k=opts.findIndex(o=>o.th===saved);rows.push({ja:x.ja,opts,pick:k>=0?k:0})}
+ rows.mtError=mtError;return rows}
+// 語に分ける。文の読みがあるときは、その読みを語ごとに割り当てる（音節数が合う場合）。
+function customRefine(t){const m=customLex(),out=[];for(const x of t){const n=x.ro?x.ro.split(/\s+/).length:0;let parts=null;
+  if(n>=2&&!x.unk){const keep=m.get(x.th);m.delete(x.th);try{const s=customSegment(x.th);if(s&&s.length>=2&&s.every(y=>!y.unk))parts=s}finally{if(keep)m.set(x.th,keep)}}
+  parts?out.push(...parts):out.push(x)}return out}
+function customTokens(o,lv=buildLevel(state.buildLevel||2)){let t=customSegment(o.raw||o.th);if(!t)return null;if(lv&&(lv.fine||t.length<lv.min))t=customRefine(t);if(o.ro){const S=o.ro.replace(/[.,!?…"“”'‘’()「」:;]/g,' ').split(/\s+/).filter(Boolean),c=t.map(x=>x.ro?x.ro.split(/\s+/).length:0);if(c.every(Boolean)&&c.reduce((p,q)=>p+q,0)===S.length){let j=0;t.forEach((x,i)=>{x.ro=S.slice(j,j+c[i]).join(' ');j+=c[i]})}}return t}
+function customItemsFromRows(rows){const items=[],skipped=[];for(const r of rows){const o=r.opts[r.pick],t=o&&customTokens(o);if(!t||t.length<2){skipped.push(r.ja||(o&&o.th)||'');continue}
+ items.push({ja:o.ja||r.ja,th:o.th,ro:o.ro||t.map(y=>y.ro).filter(Boolean).join(' '),t:t.map(y=>[y.th,y.ro,y.mean]),unk:t.filter(y=>y.unk).map(y=>y.th),src:o.src})}return {items,skipped}}
 function customDistractors(tokens,count){if(!count)return [];const have=new Set(tokens.map(t=>t.th)),pick=[],add=list=>{for(const x of shuffle(list)){if(pick.length>=count)return;if(x[0]&&!have.has(x[0])&&!pick.some(p=>p.th===x[0])&&x[0].length<=12)pick.push({th:x[0],ro:x[1],mean:x[2]||''})}};
  add(buildCustom.flatMap(it=>it.t));if(pick.length<count&&reorderReady()){const ids=Object.keys(REORDER_ITEMS);for(let n=0;n<6&&pick.length<count;n++)add(reorderItems(ids[Math.floor(Math.random()*ids.length)]).flatMap(it=>it.t))}return pick}
 function buildMakeCustom(key,lv){const it=buildCustom[Number(String(key).slice(2))];if(!it)return null;const tokens=it.t.map(x=>({th:x[0],ro:x[1],mean:x[2]||''}));
  return {key,id:null,k:null,l:null,it,tokens,chips:buildChips(tokens,customDistractors(tokens,lv?lv.extra:1)),picked:[],checked:null}}
-function withCustomDict(fn){if(typeof bankStatus==='undefined'||bankStatus==='ready'||typeof loadWordBank!=='function')return fn();toast('辞書を読み込んでいます…');loadWordBank().then(fn)}
+let customBusy=false;
+function withCustomData(fn){const jobs=[];if(typeof bankStatus!=='undefined'&&bankStatus!=='ready'&&typeof loadWordBank==='function')jobs.push(loadWordBank());if(typeof senseExamplesStatus!=='undefined'&&senseExamplesStatus!=='ready'&&typeof loadSenseExamples==='function')jobs.push(loadSenseExamples());if(!reorderReady()&&typeof loadLazyScript==='function')jobs.push(loadLazyScript('reorder-items.js').catch(()=>{}));return Promise.all(jobs).then(fn)}
 function customText(){const el=typeof document!=='undefined'&&document.getElementById&&document.getElementById('bq-custom');if(el){state.buildCustomText=el.value;save()}return state.buildCustomText||''}
-function buildPreviewCustom(){const text=customText();withCustomDict(()=>{const r=customItems(text);buildPreview=r;if(!r.items.length&&!r.skipped.length)toast('タイ語の文を入力してください。');render()})}
-function startCustomBuild(){const text=customText();withCustomDict(()=>withReorder(()=>{const r=customItems(text);if(!r.items.length){toast(r.skipped.length?'2語以上の文を入力してください。':'タイ語の文を入力してください。');return}
- buildCustom=r.items;buildPreview=null;startReorder(shuffle(r.items.map((_,k)=>'u:'+k)),'custom',{level:state.buildLevel||2,title:'入力した文'});buildListenAuto();if(r.skipped.length)toast(`${r.skipped.length}文は1語だけのため除きました。`)}))}
-function customSetupView(){const p=buildPreview;
- const prev=p?`<div class="bq-prev">${p.items.map(it=>`<div class="bq-prev-row"><div class="bq-prev-toks">${it.t.map(x=>`<span class="${it.unk.includes(x[0])?'is-unk':''}"><b>${esc(x[0])}</b><small>${esc(x[1]||'?')}</small></span>`).join('')}</div>${it.ja?`<div class="bq-prev-ja">${esc(it.ja)}</div>`:''}</div>`).join('')}${p.items.some(it=>it.unk.length)?'<p class="bq-prev-note">点線の語は辞書にない部分です。読みが出ない場合があります。</p>':''}${p.skipped.length?`<p class="bq-prev-note">1語だけの文（${p.skipped.length}）は出題しません。</p>`:''}</div>`:'';
- return `<div class="bq-sec bq-custom"><div class="bq-sec-h"><h2>練習する文</h2><span>1行に1文</span></div>
- <textarea id="bq-custom" class="field bq-text" rows="5" lang="th" spellcheck="false" placeholder="ฉันชอบกินข้าวผัด / 私はチャーハンが好きです&#10;พรุ่งนี้จะไปทะเล" oninput="state.buildCustomText=this.value;save()">${esc(state.buildCustomText||'')}</textarea>
- <p class="bq-help">「/」の後に日本語訳を書くと、訳を見て並べる問題になります。訳がない文は音声を聞いて並べます。</p>
- <div class="bq-custom-actions"><button class="btn light" onclick="buildPreviewCustom()">区切りを確認</button><button class="btn" onclick="startCustomBuild()">この文で練習 →</button></div>${prev}</div>`}
+async function buildMakeThai(){const text=customText();if(!parseCustom(text).length){toast('日本語の文を入力してください。');return}
+ customBusy=true;render();try{await withCustomData(async()=>{const rows=await customResolve(text);buildPreview={text,rows};if(rows.mtError)toast('タイ語にできない文がありました。通信状態を確認してください。')})}finally{customBusy=false;render()}}
+function customPick(i,k){const r=buildPreview.rows[i];r.pick=k;const map=state.buildPick||(state.buildPick={}),ks=Object.keys(map);map[r.ja]=r.opts[k].th;if(ks.length>200)delete map[ks[0]];save();render()}
+async function startCustomBuild(){const text=customText();if(!buildPreview||buildPreview.text!==text){await buildMakeThai();if(!buildPreview||buildPreview.text!==text)return}
+ const r=customItemsFromRows(buildPreview.rows);if(!r.items.length){toast('練習できる文がありません。もう少し長い文を入力してください。');return}
+ buildCustom=r.items;startReorder(shuffle(r.items.map((_,k)=>'u:'+k)),'custom',{level:state.buildLevel||2,title:'入力した文'});buildListenAuto();if(r.skipped.length)toast(`${r.skipped.length}文は短すぎるため除きました。`)}
+const CUSTOM_SRC={example:'アプリの例文',mt:'機械翻訳・未確認',near:'近い例文',input:'入力したタイ語'};
+function customSetupView(){const p=buildPreview&&buildPreview.text===(state.buildCustomText||'')?buildPreview:null;
+ const rows=p?p.rows.map((r,i)=>{const o=r.opts[r.pick],t=o&&customTokens(o);
+  return `<div class="bq-prev-row">${r.ja?`<div class="bq-prev-q">${esc(r.ja)}</div>`:''}${t?`<div class="bq-prev-toks">${t.map(x=>`<span class="${x.unk?'is-unk':''}"><b>${esc(x.th)}</b><small>${esc(x.ro||'?')}</small></span>`).join('')}</div>`:'<p class="bq-prev-note">タイ語にできませんでした。</p>'}
+  ${r.opts.length>1?`<div class="bq-cands">${r.opts.map((x,k)=>`<label class="${k===r.pick?'is-on':''}"><input type="radio" name="bqp${i}" ${k===r.pick?'checked':''} onchange="customPick(${i},${k})"><span class="bq-src is-${x.src}">${CUSTOM_SRC[x.src]}</span><span class="bq-cand-th">${esc(x.th)}</span>${x.src==='near'?`<small>${esc(x.ja)}</small>`:''}</label>`).join('')}</div>`:o?`<span class="bq-src is-${o.src}">${CUSTOM_SRC[o.src]}</span>`:''}</div>`}).join(''):'';
+ return `<div class="bq-sec bq-custom"><div class="bq-sec-h"><h2>練習する文</h2><span>日本語で1行に1文</span></div>
+ <textarea id="bq-custom" class="field bq-text" rows="4" placeholder="私はチャーハンが好きです&#10;明日、友だちと海に行きます" oninput="state.buildCustomText=this.value;save();const v=document.querySelector('.bq-prev');if(v)v.hidden=true">${esc(state.buildCustomText||'')}</textarea>
+ <p class="bq-help">アプリの例文に同じ文があればその訳を使い、なければ Google 翻訳でタイ語にします（入力した日本語が Google に送られます）。機械翻訳は確認されていない訳です。タイ語を直接入力することもできます。</p>
+ <div class="bq-custom-actions"><button class="btn light" onclick="buildMakeThai()" ${customBusy?'disabled':''}>${customBusy?'作成中…':'タイ語にする'}</button><button class="btn" onclick="startCustomBuild()" ${customBusy?'disabled':''}>この文で練習 →</button></div>${p?`<div class="bq-prev">${rows}</div>`:''}</div>`}
 // 範囲・難易度を選ぶ画面
 function openBuildSetup(){build=null;quiz=null;view='build';render();window.scrollTo(0,0);withReorder(()=>{if(view==='build'&&!build)render()})}
 function buildSelected(){if(!buildSel){const saved=Array.isArray(state.buildRange)?state.buildRange.filter(id=>lessons[id-1]):[];buildSel=new Set(saved.length?saved:(state.done.length?state.done:orderedLessons.slice(0,6).map(l=>l.id)))}return buildSel}
@@ -102,7 +139,7 @@ function buildView(){if(!build)return buildSetupView();const n=build.items.lengt
  const result=done?`<div class="bq-result ${q.checked?'is-ok':'is-ng'}"><div class="bq-verdict">${q.checked?'正解':'正しい語順'}</div><div class="bq-answer"><span class="bq-ans-th">${q.tokens.map(t=>esc(t.th)).join(' ')}</span><button class="speak is-icon" onclick="speakThaiText(build.items[build.k].it.th)" aria-label="文を再生" title="文を再生">${icon('audio')}</button></div><div class="bq-ans-ro">${esc(q.it.ro)}</div><div class="bq-gloss">${q.tokens.map(t=>`<span><b>${esc(t.th)}</b>${esc(t.mean)}</span>`).join('')}</div>${q.it.why?`<p class="bq-note">${esc(q.it.why)}</p>`:''}</div>`:'';
  const mode=build.origin==='lesson'?'確認テスト':lv?`${'★'.repeat(lv.id)} ${lv.name}`:'並べ替え';
  return `<section class="bq"><div class="bq-top"><button class="textbtn" onclick="buildExit()">← 終了する</button><span>${build.k+1} / ${n}</span><span class="bq-mode">${mode}</span></div><div class="progress bq-progress"><span style="width:${build.k/n*100}%"></span></div>
- <div class="bq-card"><div class="bq-from">${q.l?`${esc(displayNumber(q.id))} ${esc(q.l.title)}`:'入力した文'}</div>${q.it.ja?`<p class="bq-ja">${esc(q.it.ja)}</p>`:`<p class="bq-ja bq-listen"><button class="speak is-icon" onclick="speakThaiText(build.items[build.k].it.th)" aria-label="文を聞く" title="文を聞く">${icon('audio')}</button><span>音声を聞いて並べましょう</span></p>`}
+ <div class="bq-card"><div class="bq-from">${q.l?`${esc(displayNumber(q.id))} ${esc(q.l.title)}`:`入力した文${q.it.src==='mt'?' · <span class="bq-src is-mt">機械翻訳・未確認</span>':''}`}</div>${q.it.ja?`<p class="bq-ja">${esc(q.it.ja)}</p>`:`<p class="bq-ja bq-listen"><button class="speak is-icon" onclick="speakThaiText(build.items[build.k].it.th)" aria-label="文を聞く" title="文を聞く">${icon('audio')}</button><span>音声を聞いて並べましょう</span></p>`}
  ${q.l?`<button class="textbtn bq-hint-btn" onclick="build.hint=!build.hint;renderBuild()">${build.hint?'ヒントを隠す':'ヒント：文の形'}</button>${build.hint?`<div class="bq-hint">${esc(q.l.pattern)}</div>`:''}`:''}
  <div class="bq-line ${done?(q.checked?'is-ok':'is-ng'):''}" aria-live="polite">${line}</div>
  <div class="bq-count">${q.picked.length} / ${need}語${q.chips.length>need?` · 使わない語が${q.chips.length-need}つ混ざっています`:''}</div>
