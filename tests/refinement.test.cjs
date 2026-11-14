@@ -8,7 +8,7 @@ for(const change of review.changes){
  assert.equal(m.ja,change.after.meaning);assert.equal(e.ja,change.after.example);assert(m.checked&&e.checked);assert.equal(e.th,change.thaiExample);assert.equal(e.ro,change.romanExample);
 }
 const term=th=>bank.find(w=>w.th===th),sense=(th,n)=>term(th).meanings.find(m=>m.sourceSense===n);
-assert(!sense('นำ',2).ja.includes('鉛'));assert.equal(sense('ซึ่ง',2).pos,'前置詞');assert(sense('ซึ่ง',2).note.includes('単体'));
+assert(!sense('นำ',2).ja.includes('鉛'));assert.equal(sense('ซึ่ง',2).pos,'前置詞');assert(sense('ซึ่ง',2).note.includes('นำมาซึ่ง'));
 assert(sense('ตี',3).ja.includes('1〜5時'));assert.equal(sense('ร้าน',2).pos,'類別詞');
 const ctx={console,window:{scrollTo(){}},document:{querySelector:()=>({})},localStorage:{getItem:()=>JSON.stringify({dailyGoal:999,records:{'tl-00001':{stage:2.8,seen:-1,correct:'Infinity',due:'NaN'},'tl-00002':null}}),setItem(){}},Date,Math,location:{hash:''},setTimeout,clearTimeout};vm.createContext(ctx);
 for(const name of ['data','expansion','readings','vocabulary','structures','words-app'])vm.runInContext(fs.readFileSync('dist/'+name+'.js','utf8'),ctx);
