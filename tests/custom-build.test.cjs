@@ -16,7 +16,7 @@ const u=t.customSegment('ผมชอบกฮฮฮ');assert.equal(u.map(y=>y.t
 assert.deepEqual(JSON.parse(JSON.stringify(t.parseCustom('ฉันหิว / お腹がすいた\n私は学生です／ผมเป็นนักเรียน\n明日海に行きます\n\nไปไหน'))),[{th:'ฉันหิว',ja:'お腹がすいた'},{th:'ผมเป็นนักเรียน',ja:'私は学生です'},{th:'',ja:'明日海に行きます'},{th:'ไปไหน',ja:''}]);
 (async()=>{
  const sent=[];ctx.fetch=async url=>{url=String(url);if(url.includes('translate.googleapis.com')){const q=decodeURIComponent(url.split('q=')[1]);sent.push(q);return {ok:true,json:async()=>[[['ฉันอยากไปทะเลกับเพื่อนพรุ่งนี้',q]]]}}const f=url.split('?')[0].replace(/^\.?\//,'');return {ok:true,json:async()=>JSON.parse(fs.readFileSync('dist/'+f,'utf8'))}};
- const st=t.getState();st.buildSrc='custom';t.openBuildSetup();assert(t.buildView().includes('タイ語にする'));
+ const st=t.getState();st.buildSrc='custom';t.openBuildSetup();assert(t.buildView().includes('この文で練習')&&!t.buildView().includes('区切り'));
  // A sentence that is already in the app uses that checked example (no network); others are machine-translated and labelled.
  const L=vm.runInContext('lessons',ctx),ex=L[0].examples[0];
  st.buildCustomText=ex.ja+'\n明日、友だちと海に行きたい\nฉันชอบกินข้าวผัด / 私はチャーハンが好きです';
@@ -24,7 +24,7 @@ assert.deepEqual(JSON.parse(JSON.stringify(t.parseCustom('ฉันหิว / �
  assert.equal(P.rows[0].opts[0].src,'example');assert.equal(P.rows[0].opts[0].th,ex.th.replace(/\s+/g,''));
  assert.equal(P.rows[1].opts[0].src,'mt');assert.deepEqual(sent,['明日、友だちと海に行きたい']);
  assert.equal(P.rows[2].opts[0].src,'input');
- const v=t.buildView();assert(v.includes('機械翻訳・未確認')&&v.includes('アプリの例文'));
+
  // Translations are cached on the device, so the same sentence is not sent twice.
  vm.runInContext('buildPreview=null',ctx);await t.buildMakeThai();assert.equal(sent.length,1);
  // Practice: one puzzle per line, Japanese shown as the prompt, extra words by level, records untouched.

@@ -87,19 +87,13 @@ function withCustomData(fn){const jobs=[];if(typeof bankStatus!=='undefined'&&ba
 function customText(){const el=typeof document!=='undefined'&&document.getElementById&&document.getElementById('bq-custom');if(el){state.buildCustomText=el.value;save()}return state.buildCustomText||''}
 async function buildMakeThai(){const text=customText();if(!parseCustom(text).length){toast('日本語の文を入力してください。');return}
  customBusy=true;render();try{await withCustomData(async()=>{const rows=await customResolve(text);buildPreview={text,rows};if(rows.mtError)toast('タイ語にできない文がありました。通信状態を確認してください。')})}finally{customBusy=false;render()}}
-function customPick(i,k){const r=buildPreview.rows[i];r.pick=k;const map=state.buildPick||(state.buildPick={}),ks=Object.keys(map);map[r.ja]=r.opts[k].th;if(ks.length>200)delete map[ks[0]];save();render()}
 async function startCustomBuild(){const text=customText();if(!buildPreview||buildPreview.text!==text){await buildMakeThai();if(!buildPreview||buildPreview.text!==text)return}
  const r=customItemsFromRows(buildPreview.rows);if(!r.items.length){toast('練習できる文がありません。もう少し長い文を入力してください。');return}
  buildCustom=r.items;startReorder(shuffle(r.items.map((_,k)=>'u:'+k)),'custom',{level:state.buildLevel||2,title:'入力した文'});buildListenAuto();if(r.skipped.length)toast(`${r.skipped.length}文は短すぎるため除きました。`)}
-const CUSTOM_SRC={example:'アプリの例文',mt:'機械翻訳・未確認',near:'近い例文',input:'入力したタイ語'};
-function customSetupView(){const p=buildPreview&&buildPreview.text===(state.buildCustomText||'')?buildPreview:null;
- const rows=p?p.rows.map((r,i)=>{const o=r.opts[r.pick],t=o&&customTokens(o);
-  return `<div class="bq-prev-row">${r.ja?`<div class="bq-prev-q">${esc(r.ja)}</div>`:''}${t?`<div class="bq-prev-toks">${t.map(x=>`<span class="${x.unk?'is-unk':''}"><b>${esc(x.th)}</b><small>${esc(x.ro||'?')}</small></span>`).join('')}</div>`:'<p class="bq-prev-note">タイ語にできませんでした。</p>'}
-  ${r.opts.length>1?`<div class="bq-cands">${r.opts.map((x,k)=>`<label class="${k===r.pick?'is-on':''}"><input type="radio" name="bqp${i}" ${k===r.pick?'checked':''} onchange="customPick(${i},${k})"><span class="bq-src is-${x.src}">${CUSTOM_SRC[x.src]}</span><span class="bq-cand-th">${esc(x.th)}</span>${x.src==='near'?`<small>${esc(x.ja)}</small>`:''}</label>`).join('')}</div>`:o?`<span class="bq-src is-${o.src}">${CUSTOM_SRC[o.src]}</span>`:''}</div>`}).join(''):'';
- return `<div class="bq-sec bq-custom"><div class="bq-sec-h"><h2>練習する文</h2><span>日本語で1行に1文</span></div>
- <textarea id="bq-custom" class="field bq-text" rows="4" placeholder="私はチャーハンが好きです&#10;明日、友だちと海に行きます" oninput="state.buildCustomText=this.value;save();const v=document.querySelector('.bq-prev');if(v)v.hidden=true">${esc(state.buildCustomText||'')}</textarea>
+function customSetupView(){return `<div class="bq-sec bq-custom"><div class="bq-sec-h"><h2>練習する文</h2><span>日本語で1行に1文</span></div>
+ <textarea id="bq-custom" class="field bq-text" rows="4" placeholder="私はチャーハンが好きです&#10;明日、友だちと海に行きます" oninput="state.buildCustomText=this.value;save()">${esc(state.buildCustomText||'')}</textarea>
  <p class="bq-help">アプリの例文に同じ文があればその訳を使い、なければ Google 翻訳でタイ語にします（入力した日本語が Google に送られます）。機械翻訳は確認されていない訳です。タイ語を直接入力することもできます。</p>
- <div class="bq-custom-actions"><button class="btn light" onclick="buildMakeThai()" ${customBusy?'disabled':''}>${customBusy?'作成中…':'タイ語にする'}</button><button class="btn" onclick="startCustomBuild()" ${customBusy?'disabled':''}>この文で練習 →</button></div>${p?`<div class="bq-prev">${rows}</div>`:''}</div>`}
+ <button class="btn bq-custom-start" onclick="startCustomBuild()" ${customBusy?'disabled':''}>${customBusy?'タイ語を準備中…':'この文で練習 →'}</button></div>`}
 // 範囲・難易度を選ぶ画面
 function openBuildSetup(){build=null;quiz=null;view='build';render();window.scrollTo(0,0);withReorder(()=>{if(view==='build'&&!build)render()})}
 function buildSelected(){if(!buildSel){const saved=Array.isArray(state.buildRange)?state.buildRange.filter(id=>lessons[id-1]):[];buildSel=new Set(saved.length?saved:(state.done.length?state.done:orderedLessons.slice(0,6).map(l=>l.id)))}return buildSel}
