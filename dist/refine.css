@@ -941,3 +941,27 @@ html body .x-dict-mark{width:24px;height:24px;border-radius:7px}
  html body .w-row-meaning>div:first-child{font-size:14.5px;line-height:1.5}
  html body .w-row-actions{width:auto;margin:0;flex-direction:row;gap:2px;justify-content:flex-end}
 }
+/* ===== Ergonomics: every control at least ~44px to tap ===== */
+html body .textbtn{min-height:44px;display:inline-flex;align-items:center;gap:4px;padding-top:0;padding-bottom:0}
+html body .hdr-set{min-height:44px;padding:0 6px}
+html body #main :is(.w-options,.x-step-more,.w-filter-more,.w-sources,.w-origin-details,.w-example-original)>summary{min-height:44px;display:flex;align-items:center;cursor:pointer}
+html body #main :is(.w-options,.x-step-more,.w-sources,.w-origin-details,.w-example-original)>summary::-webkit-details-marker{display:none}
+html body #main :is(.w-options,.x-step-more,.w-sources,.w-origin-details,.w-example-original)>summary::before{content:'▸';margin-right:6px;font-size:.8em;color:var(--x-muted)}
+html body #main :is(.w-options,.x-step-more,.w-sources,.w-origin-details,.w-example-original)[open]>summary::before{content:'▾'}
+html body #main .w-seg>summary{min-height:40px;display:inline-flex;align-items:center}
+html body .w-row-actions .w-iconbtn,html body .w-iconbtn{width:44px;height:44px}
+html body .w-row-actions .speak,html body .w-row-actions .w-audio{width:44px;height:44px}
+html body .w-example .w-audio,html body .w-example-top .w-audio,html body .w-example-top button{min-width:44px;min-height:40px}
+html body .x-fav,html body .x-rev{min-height:44px;min-width:48px}
+html body select.field,html body .field{min-height:44px}
+html body .x-chapter-chips button,html body .bq-quick button,html body .x-dict-try button{min-height:40px}
+html body .w-sources a{display:inline-block;padding:10px 0}
+html body .w-sources{margin-top:18px;font-size:12px;color:var(--x-muted)}
+html body .x-range-panel button,html body .h-levels button{min-height:44px}
+html body .w-options summary,html body .x-step-more summary,html body .w-filter-more summary{font-size:13px}
+/* 詳細：音声・お気に入り・復習を1行に。カード：主ボタンは親指の届く下端に */
+html body .w-detail-actions{display:flex;align-items:center;gap:10px;margin:10px 0 4px}
+html body .w-detail-actions .w-audio,html body .w-detail-actions .speak{width:48px;height:48px}
+html body .w-card-reveal .btn{flex:1;min-height:52px;font-size:15px}
+html body .w-card-rating .btn{min-height:52px}
+@media (max-width:700px){html body .w-card-rating{position:sticky;bottom:calc(74px + env(safe-area-inset-bottom));z-index:4;background:linear-gradient(180deg,rgba(255,254,250,0),var(--x-surface) 30%);padding-top:14px;margin-top:8px}}
