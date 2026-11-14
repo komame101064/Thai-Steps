@@ -24,7 +24,9 @@ const PHRASE_FEMALE=new Set(["tl-51802", "tl-51804", "tl-51808", "tl-51811", "tl
 // Phrases that only add an intensifier (〜มาก/〜จัง/〜นิดหน่อย/〜จริงๆ/〜เลย) to an expression that works alone (ปวดท้องมาก → ปวดท้อง):
 // not taught as separate phrases. Set combinations (ขอบคุณมาก, ได้เลย, ช่วยด้วย, แพงไป, 〜หน่อย requests) stay. Kept in the bank for search and records.
 const PHRASE_PADDED=new Set(["tl-00498", "tl-51885", "tl-51950", "tl-51951", "tl-51952", "tl-51953", "tl-51954", "tl-51955", "tl-51956", "tl-51961", "tl-51962", "tl-51964", "tl-51965", "tl-51991", "tl-51993", "tl-51994", "tl-51948", "tl-52031", "tl-52039", "tl-52155", "tl-52156", "tl-52157", "tl-52158", "tl-52159", "tl-52160", "tl-52161", "tl-52162", "tl-52165", "tl-52166", "tl-52167", "tl-52183", "tl-52207", "tl-52223", "tl-52224", "tl-52240", "tl-52283", "tl-52285", "tl-52369"]);
-const wordInDeck=(w,deck=wordDeck)=>PHRASE_FEMALE.has(w.id)||PHRASE_PADDED.has(w.id)?false:deck==='slang'?w.collection==='slang':deck==='phrase'?w.collection!=='slang'&&!w.generalHidden&&isPhrase(w):w.collection!=='slang'&&!w.generalHidden&&!isPhrase(w);
+// Everyday sentence-like words that also belong in the phrase deck (they stay in the word deck too): お腹が痛い, 頭が痛い, 具合が悪い, 渋滞している.
+const PHRASE_ALSO=new Set(["tl-01098","tl-01058","tl-01149","tl-01107"]);
+const wordInDeck=(w,deck=wordDeck)=>PHRASE_FEMALE.has(w.id)||PHRASE_PADDED.has(w.id)?false:deck==='slang'?w.collection==='slang':deck==='phrase'?w.collection!=='slang'&&!w.generalHidden&&(isPhrase(w)||PHRASE_ALSO.has(w.id)):w.collection!=='slang'&&!w.generalHidden&&!isPhrase(w);
 // Words and phrases are separate decks: phrases have their own steps and are not in the word ranges.
 const deckOf=w=>w.collection==='slang'?'slang':isPhrase(w)?'phrase':'general';
 function setWordDeck(deck){wordDeck=['general','slang','phrase'].includes(deck)?deck:'general';wordTopic='';phraseQuery='';wordScope='all';wordQuery='';wordPos='';wordCategory='';wordFrequency='';wordFormality='';wordCurrent=null;wordTrail=[];wordSession=null;wordPage=0;render();window.scrollTo(0,0)}
