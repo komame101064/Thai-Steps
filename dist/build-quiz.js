@@ -16,14 +16,53 @@ function buildFits(it,lv){const n=buildToks(it,lv).length;return n>=lv.min&&n<=l
 // 余分な語：同じ課の別の文から（文法的に紛らわしい語）→足りなければ他の課から
 function buildDistractors(id,tokens,count){if(!count)return [];const have=new Set(tokens.map(t=>t.th)),pick=[],add=list=>{for(const it of shuffle(list))for(const x of shuffle(it.t)){if(pick.length>=count)return;if(!have.has(x[0])&&!pick.some(p=>p.th===x[0])&&x[0].length<=12)pick.push({th:x[0],ro:x[1],mean:x[2]||''})}};
  add(reorderItems(id));if(pick.length<count){const ids=Object.keys(REORDER_ITEMS);for(let n=0;n<4&&pick.length<count;n++)add(reorderItems(ids[Math.floor(Math.random()*ids.length)]))}return pick}
-function buildMake(key,lv){const x=quizItem(key),it=reorderItems(x.id)[x.k];if(!it)return null;const l=lessons[x.id-1],tokens=buildToks(it,lv),extra=buildDistractors(x.id,tokens,lv?lv.extra:(tokens.length>=5?2:1));
- let chips=shuffle([...tokens.map((t,k)=>({...t,k})),...extra.map(t=>({...t,k:-1}))]);
- if(chips.filter(c=>c.k>=0).every((c,n,a)=>n===0||a[n-1].k<c.k))chips.reverse();// 正解の並びのままにしない
- return {key:x.key,id:x.id,k:x.k,l,it,tokens,chips,picked:[],checked:null}}
+function buildChips(tokens,extra){let chips=shuffle([...tokens.map((t,k)=>({...t,k})),...extra.map(t=>({...t,k:-1}))]);
+ if(tokens.length>1&&chips.filter(c=>c.k>=0).every((c,n,a)=>n===0||a[n-1].k<c.k))chips.reverse();// 正解の並びのままにしない
+ return chips}
+function buildMake(key,lv){if(String(key).startsWith('u:'))return buildMakeCustom(key,lv);const x=quizItem(key),it=reorderItems(x.id)[x.k];if(!it)return null;const l=lessons[x.id-1],tokens=buildToks(it,lv),extra=buildDistractors(x.id,tokens,lv?lv.extra:(tokens.length>=5?2:1));
+ return {key:x.key,id:x.id,k:x.k,l,it,tokens,chips:buildChips(tokens,extra),picked:[],checked:null}}
 function startReorder(keys,origin,opts={}){withReorder(()=>{const lv=opts.level?buildLevel(opts.level):null,items=keys.map(k=>buildMake(k,lv)).filter(Boolean);if(!items.length){toast('この条件の問題がありません。');return}
  build={origin,title:opts.title||'',lessonId:opts.lessonId||null,level:lv,keys:items.map(q=>q.key),items,k:0,results:[],hint:false,opts};quiz=null;view='build';render();window.scrollTo(0,0)})}
 // 課の確認テスト：その課の問題から10問。全問正解で履修済み。
 function startLessonTest(id){withReorder(()=>{const keys=shuffle(reorderItems(id).map((_,k)=>`${id}:${k}`)).slice(0,10);startReorder(keys,'lesson',{lessonId:id,title:`${displayNumber(id)} ${lessons[id-1].title}`})})}
+// 入力した文で練習：利用者が入力したタイ語の文を辞書の語に分けて並べ替え問題にする（1行1文、「/」の後に日本語訳）。
+let buildCustom=[],buildPreview=null;
+function customLex(){if(customLex.m&&customLex.b===bank)return customLex.m;const m=new Map();let max=1;
+ if(typeof segEntries==='function'&&bank.length)for(const [th,x] of segEntries())m.set(th,{ro:x.ro,mean:x.meanings?.[0]?.ja||'',c:isPhrase(x)||/定型|表現|フレーズ/.test(x.pos||'')&&/\s/.test(x.ro)?10:1});// 決まり文句は語に分けられるなら分ける
+ for(const k in vocabulary)if(!m.has(k)){const v=vocabulary[k];m.set(k,{ro:v.ro.replace(/ŋ/g,'ng'),mean:v.meaning||'',c:1})}
+ for(const k of m.keys())if(k.length>max)max=k.length;customLex.m=m;customLex.b=bank;customLex.max=max;return m}
+// 最少の語数で全体を覆う分け方（辞書にない部分は1つにまとめて「未登録」とする）
+function customSegment(th){const m=customLex(),max=customLex.max,n=th.length,cost=new Array(n+1).fill(Infinity),back=new Array(n+1).fill(null);cost[0]=0;
+ for(let i=0;i<n;i++){if(cost[i]===Infinity)continue;const ch=th[i],relax=(e,c,tok)=>{if(cost[i]+c<cost[e]){cost[e]=cost[i]+c;back[e]={i,tok}}};
+  if(/[\s.,!?…"“”'‘’()「」:;。、？！]/.test(ch)){relax(i+1,0,null);continue}
+  if(ch==='ๆ'){relax(i+1,0,{kind:'rep'});continue}
+  if(/[0-9A-Za-z๐-๙]/.test(ch)){let e=i;while(e<n&&/[0-9A-Za-z๐-๙.,:]/.test(th[e]))e++;relax(e,1,{kind:'other'});continue}
+  for(let L=1;L<=max&&i+L<=n;L++){const x=m.get(th.slice(i,i+L));if(x)relax(i+L,x.c,{kind:'word',x})}
+  relax(i+1,8,{kind:'unk'})}
+ const raw=[];for(let e=n;e>0;){const b=back[e];if(!b)return null;if(b.tok)raw.push({...b.tok,th:th.slice(b.i,e)});e=b.i}raw.reverse();
+ const out=[];for(const t of raw){const last=out[out.length-1];
+  if(t.kind==='rep'&&last){last.th+='ๆ';last.ro=last.ro?last.ro+' '+last.ro.split(' ').pop():'';continue}
+  if(t.kind==='unk'&&last&&last.unk){last.th+=t.th;continue}
+  out.push(t.kind==='word'?{th:t.th,ro:t.x.ro,mean:t.x.mean}:t.kind==='other'?{th:t.th,ro:t.th,mean:''}:{th:t.th,ro:'',mean:'',unk:true})}
+ for(const t of out)if(t.unk){const r=typeof romanizeThai==='function'?romanizeThai(t.th):'';t.ro=r&&!r.includes('□')?r:''}
+ return out}
+function parseCustom(text){return String(text||'').split(/\n+/).map(l=>l.trim()).filter(Boolean).slice(0,50).map(l=>{const k=l.search(/[\/／\t]/);let a=(k<0?l:l.slice(0,k)).trim(),b=(k<0?'':l.slice(k+1)).trim();const thai=x=>/[฀-๿]/.test(x);if(!thai(a)&&thai(b))[a,b]=[b,a];return {th:a,ja:b}}).filter(x=>/[฀-๿]/.test(x.th))}
+function customItems(text){const items=[],skipped=[];for(const x of parseCustom(text)){const t=customSegment(x.th);if(!t||t.length<2){skipped.push(x.th);continue}items.push({ja:x.ja,th:x.th.replace(/\s+/g,''),ro:t.map(y=>y.ro).filter(Boolean).join(' '),t:t.map(y=>[y.th,y.ro,y.mean]),unk:t.filter(y=>y.unk).map(y=>y.th)})}return {items,skipped}}
+function customDistractors(tokens,count){if(!count)return [];const have=new Set(tokens.map(t=>t.th)),pick=[],add=list=>{for(const x of shuffle(list)){if(pick.length>=count)return;if(x[0]&&!have.has(x[0])&&!pick.some(p=>p.th===x[0])&&x[0].length<=12)pick.push({th:x[0],ro:x[1],mean:x[2]||''})}};
+ add(buildCustom.flatMap(it=>it.t));if(pick.length<count&&reorderReady()){const ids=Object.keys(REORDER_ITEMS);for(let n=0;n<6&&pick.length<count;n++)add(reorderItems(ids[Math.floor(Math.random()*ids.length)]).flatMap(it=>it.t))}return pick}
+function buildMakeCustom(key,lv){const it=buildCustom[Number(String(key).slice(2))];if(!it)return null;const tokens=it.t.map(x=>({th:x[0],ro:x[1],mean:x[2]||''}));
+ return {key,id:null,k:null,l:null,it,tokens,chips:buildChips(tokens,customDistractors(tokens,lv?lv.extra:1)),picked:[],checked:null}}
+function withCustomDict(fn){if(typeof bankStatus==='undefined'||bankStatus==='ready'||typeof loadWordBank!=='function')return fn();toast('辞書を読み込んでいます…');loadWordBank().then(fn)}
+function customText(){const el=typeof document!=='undefined'&&document.getElementById&&document.getElementById('bq-custom');if(el){state.buildCustomText=el.value;save()}return state.buildCustomText||''}
+function buildPreviewCustom(){const text=customText();withCustomDict(()=>{const r=customItems(text);buildPreview=r;if(!r.items.length&&!r.skipped.length)toast('タイ語の文を入力してください。');render()})}
+function startCustomBuild(){const text=customText();withCustomDict(()=>withReorder(()=>{const r=customItems(text);if(!r.items.length){toast(r.skipped.length?'2語以上の文を入力してください。':'タイ語の文を入力してください。');return}
+ buildCustom=r.items;buildPreview=null;startReorder(shuffle(r.items.map((_,k)=>'u:'+k)),'custom',{level:state.buildLevel||2,title:'入力した文'});buildListenAuto();if(r.skipped.length)toast(`${r.skipped.length}文は1語だけのため除きました。`)}))}
+function customSetupView(){const p=buildPreview;
+ const prev=p?`<div class="bq-prev">${p.items.map(it=>`<div class="bq-prev-row"><div class="bq-prev-toks">${it.t.map(x=>`<span class="${it.unk.includes(x[0])?'is-unk':''}"><b>${esc(x[0])}</b><small>${esc(x[1]||'?')}</small></span>`).join('')}</div>${it.ja?`<div class="bq-prev-ja">${esc(it.ja)}</div>`:''}</div>`).join('')}${p.items.some(it=>it.unk.length)?'<p class="bq-prev-note">点線の語は辞書にない部分です。読みが出ない場合があります。</p>':''}${p.skipped.length?`<p class="bq-prev-note">1語だけの文（${p.skipped.length}）は出題しません。</p>`:''}</div>`:'';
+ return `<div class="bq-sec bq-custom"><div class="bq-sec-h"><h2>練習する文</h2><span>1行に1文</span></div>
+ <textarea id="bq-custom" class="field bq-text" rows="5" lang="th" spellcheck="false" placeholder="ฉันชอบกินข้าวผัด / 私はチャーハンが好きです&#10;พรุ่งนี้จะไปทะเล" oninput="state.buildCustomText=this.value;save()">${esc(state.buildCustomText||'')}</textarea>
+ <p class="bq-help">「/」の後に日本語訳を書くと、訳を見て並べる問題になります。訳がない文は音声を聞いて並べます。</p>
+ <div class="bq-custom-actions"><button class="btn light" onclick="buildPreviewCustom()">区切りを確認</button><button class="btn" onclick="startCustomBuild()">この文で練習 →</button></div>${prev}</div>`}
 // 範囲・難易度を選ぶ画面
 function openBuildSetup(){build=null;quiz=null;view='build';render();window.scrollTo(0,0);withReorder(()=>{if(view==='build'&&!build)render()})}
 function buildSelected(){if(!buildSel){const saved=Array.isArray(state.buildRange)?state.buildRange.filter(id=>lessons[id-1]):[];buildSel=new Set(saved.length?saved:(state.done.length?state.done:orderedLessons.slice(0,6).map(l=>l.id)))}return buildSel}
@@ -33,12 +72,13 @@ function buildSetAll(mode){const s=buildSelected();s.clear();(mode==='done'?stat
 function buildSaveSel(){state.buildRange=[...buildSelected()];save();render()}
 function buildCandidates(lv){const out=[];for(const id of buildSelected())reorderItems(id).forEach((it,k)=>{if(buildFits(it,lv))out.push(`${id}:${k}`)});return out}
 function startFreeBuild(){withReorder(()=>{const lv=buildLevel(state.buildLevel||2),c=buildCandidates(lv);if(!c.length){toast('この範囲と難易度に合う問題がありません。範囲を広げるか難易度を変えてください。');return}startReorder(shuffle(c).slice(0,state.buildCount||10),'free',{level:lv.id,title:'並べ替え練習'})})}
-function buildSetupView(){const sel=buildSelected(),ready=reorderReady(),lv=buildLevel(state.buildLevel||2),avail=ready?buildCandidates(lv).length:0;
+function buildSetupView(){const src=state.buildSrc==='custom'?'custom':'lessons',sel=buildSelected(),ready=reorderReady(),lv=buildLevel(state.buildLevel||2),avail=ready?buildCandidates(lv).length:0;
  const chapters=modules.map((m,i)=>{const ls=lessons.filter(l=>l.m===i),n=ls.filter(l=>sel.has(l.id)).length;return `<details class="bq-ch"${n&&n<ls.length?' open':''}><summary><label onclick="event.stopPropagation()"><input type="checkbox" ${n===ls.length?'checked':''} onchange="buildToggleChapter(${i})"> ${i+1}. ${esc(m.name)}</label><span>${n}/${ls.length}</span></summary><div class="bq-ls">${ls.map(l=>`<label><input type="checkbox" ${sel.has(l.id)?'checked':''} onchange="buildToggleLesson(${l.id})"><span class="bq-ln">${displayNumber(l.id)}</span>${esc(l.title)}${state.done.includes(l.id)?'<em>✓</em>':''}</label>`).join('')}</div></details>`}).join('');
  return `<button class="textbtn back" onclick="go('course')">← 文法に戻る</button><section class="bq bq-setup"><h1>並べ替え練習</h1>
+ <div class="bq-tabs" role="tablist">${[['lessons','課の例文から'],['custom','自分の文で']].map(([v,t])=>`<button role="tab" aria-selected="${src===v}" class="${src===v?'is-on':''}" onclick="state.buildSrc='${v}';save();render()">${t}</button>`).join('')}</div>
  <div class="bq-sec"><div class="bq-sec-h"><h2>難易度</h2></div><div class="bq-levels">${BUILD_LEVELS.map(x=>`<button class="bq-lv${x.id===lv.id?' is-on':''}" aria-pressed="${x.id===lv.id}" onclick="state.buildLevel=${x.id};save();render()"><b>${'★'.repeat(x.id)}<span>${'☆'.repeat(4-x.id)}</span> ${x.name}</b><small>${x.desc}</small></button>`).join('')}</div></div>
- <div class="bq-sec"><div class="bq-sec-h"><h2>出題範囲</h2><span>${sel.size}課を選択中</span></div><div class="bq-quick"><button onclick="buildSetAll('done')" ${state.done.length?'':'disabled'}>履修済みの課（${state.done.length}）</button><button onclick="buildSetAll('all')">すべての課</button><button onclick="buildSetAll('none')">選択を解除</button></div><div class="bq-chs">${chapters}</div></div>
- <div class="bq-sec bq-start"><label>問題数 <select class="field" onchange="state.buildCount=Number(this.value);save()">${[5,10,20].map(n=>`<option value="${n}" ${(state.buildCount||10)===n?'selected':''}>${n}問</option>`).join('')}</select></label><span class="bq-avail">${ready?(avail?`この条件で出せる文：${avail}`:'この範囲にはこの難易度の文がありません。範囲を広げてください'):'問題を読み込んでいます…'}</span><button class="btn" onclick="startFreeBuild()" ${ready&&avail?'':'disabled'}>はじめる →</button></div>
+ ${src==='custom'?customSetupView():`<div class="bq-sec"><div class="bq-sec-h"><h2>出題範囲</h2><span>${sel.size}課を選択中</span></div><div class="bq-quick"><button onclick="buildSetAll('done')" ${state.done.length?'':'disabled'}>履修済みの課（${state.done.length}）</button><button onclick="buildSetAll('all')">すべての課</button><button onclick="buildSetAll('none')">選択を解除</button></div><div class="bq-chs">${chapters}</div></div>
+ <div class="bq-sec bq-start"><label>問題数 <select class="field" onchange="state.buildCount=Number(this.value);save()">${[5,10,20].map(n=>`<option value="${n}" ${(state.buildCount||10)===n?'selected':''}>${n}問</option>`).join('')}</select></label><span class="bq-avail">${ready?(avail?`この条件で出せる文：${avail}`:'この範囲にはこの難易度の文がありません。範囲を広げてください'):'問題を読み込んでいます…'}</span><button class="btn" onclick="startFreeBuild()" ${ready&&avail?'':'disabled'}>はじめる →</button></div>`}
  </section>`}
 function buildCur(){return build.items[build.k]}
 function buildPick(n){const q=buildCur();if(q.checked!==null||q.picked.includes(n))return;q.picked.push(n);if(state.buildSound!==false)speakThaiText(q.chips[n].th,false,true);renderBuild()}
@@ -47,10 +87,11 @@ function buildReset(){const q=buildCur();q.picked=[];q.checked=null;renderBuild(
 function buildCheck(){const q=buildCur();if(!q.picked.length||q.checked!==null)return;const got=q.picked.map(n=>q.chips[n].th).join(''),want=q.tokens.map(t=>t.th).join('');q.checked=got===want;
  if(build.results[build.k]===undefined)build.results[build.k]=q.checked;
  speakThaiText(q.it.th,false,true);renderBuild()}
-function buildNext(){build.k=Math.min(build.k+1,build.items.length);renderBuild();window.scrollTo(0,0)}
+function buildListenAuto(){const q=build&&build.items[build.k];if(q&&!q.l&&!q.it.ja&&typeof speakThaiText==='function')speakThaiText(q.it.th,false,true)}// 訳のない文は出題時に読み上げる
+function buildNext(){build.k=Math.min(build.k+1,build.items.length);renderBuild();window.scrollTo(0,0);buildListenAuto()}
 function buildRetryWrong(){const wrong=build.items.filter((q,n)=>!build.results[n]).map(q=>q.key);if(!wrong.length)return;startReorder(wrong,build.origin==='lesson'?'review':build.origin,{...build.opts,lessonId:null})}
 function buildAgain(){const b=build;if(b.origin==='lesson')startLessonTest(b.lessonId);else if(b.origin==='free')startFreeBuild();else startReorder(shuffle([...b.keys]),b.origin,b.opts)}
-function buildExit(){const b=build;build=null;if(b&&b.origin==='lesson'){current=b.lessonId;view='lesson';render();window.scrollTo(0,0)}else if(b&&b.origin==='free'){openBuildSetup()}else go(b&&b.origin==='review'?'review':'course')}
+function buildExit(){const b=build;build=null;if(b&&b.origin==='lesson'){current=b.lessonId;view='lesson';render();window.scrollTo(0,0)}else if(b&&(b.origin==='free'||b.origin==='custom')){openBuildSetup()}else go(b&&b.origin==='review'?'review':'course')}
 function renderBuild(){if(view!=='build')return;$('#main').innerHTML=buildView()}
 function buildChip(c,attrs,cls=''){const ro=state.buildRo!==false&&!(build&&build.level&&build.level.noRo);return `<button class="bq-chip ${cls}" ${attrs}><span class="bq-th">${esc(c.th)}</span>${ro?`<span class="bq-ro">${esc(c.ro)}</span>`:''}</button>`}
 function buildView(){if(!build)return buildSetupView();const n=build.items.length,lv=build.level;
@@ -61,8 +102,8 @@ function buildView(){if(!build)return buildSetupView();const n=build.items.lengt
  const result=done?`<div class="bq-result ${q.checked?'is-ok':'is-ng'}"><div class="bq-verdict">${q.checked?'正解':'正しい語順'}</div><div class="bq-answer"><span class="bq-ans-th">${q.tokens.map(t=>esc(t.th)).join(' ')}</span><button class="speak is-icon" onclick="speakThaiText(build.items[build.k].it.th)" aria-label="文を再生" title="文を再生">${icon('audio')}</button></div><div class="bq-ans-ro">${esc(q.it.ro)}</div><div class="bq-gloss">${q.tokens.map(t=>`<span><b>${esc(t.th)}</b>${esc(t.mean)}</span>`).join('')}</div>${q.it.why?`<p class="bq-note">${esc(q.it.why)}</p>`:''}</div>`:'';
  const mode=build.origin==='lesson'?'確認テスト':lv?`${'★'.repeat(lv.id)} ${lv.name}`:'並べ替え';
  return `<section class="bq"><div class="bq-top"><button class="textbtn" onclick="buildExit()">← 終了する</button><span>${build.k+1} / ${n}</span><span class="bq-mode">${mode}</span></div><div class="progress bq-progress"><span style="width:${build.k/n*100}%"></span></div>
- <div class="bq-card"><div class="bq-from">${esc(displayNumber(q.id))} ${esc(q.l.title)}</div><p class="bq-ja">${esc(q.it.ja)}</p>
- <button class="textbtn bq-hint-btn" onclick="build.hint=!build.hint;renderBuild()">${build.hint?'ヒントを隠す':'ヒント：文の形'}</button>${build.hint?`<div class="bq-hint">${esc(q.l.pattern)}</div>`:''}
+ <div class="bq-card"><div class="bq-from">${q.l?`${esc(displayNumber(q.id))} ${esc(q.l.title)}`:'入力した文'}</div>${q.it.ja?`<p class="bq-ja">${esc(q.it.ja)}</p>`:`<p class="bq-ja bq-listen"><button class="speak is-icon" onclick="speakThaiText(build.items[build.k].it.th)" aria-label="文を聞く" title="文を聞く">${icon('audio')}</button><span>音声を聞いて並べましょう</span></p>`}
+ ${q.l?`<button class="textbtn bq-hint-btn" onclick="build.hint=!build.hint;renderBuild()">${build.hint?'ヒントを隠す':'ヒント：文の形'}</button>${build.hint?`<div class="bq-hint">${esc(q.l.pattern)}</div>`:''}`:''}
  <div class="bq-line ${done?(q.checked?'is-ok':'is-ng'):''}" aria-live="polite">${line}</div>
  <div class="bq-count">${q.picked.length} / ${need}語${q.chips.length>need?` · 使わない語が${q.chips.length-need}つ混ざっています`:''}</div>
  <div class="bq-bank">${bank}</div>

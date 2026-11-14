@@ -965,3 +965,20 @@ html body .w-detail-actions .w-audio,html body .w-detail-actions .speak{width:48
 html body .w-card-reveal .btn{flex:1;min-height:52px;font-size:15px}
 html body .w-card-rating .btn{min-height:52px}
 @media (max-width:700px){html body .w-card-rating{position:sticky;bottom:calc(74px + env(safe-area-inset-bottom));z-index:4;background:linear-gradient(180deg,rgba(255,254,250,0),var(--x-surface) 30%);padding-top:14px;margin-top:8px}}
+
+/* 並べ替え：自分の文で */
+.bq-tabs{display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:4px;margin:0 0 12px;border-radius:14px;background:var(--x-soft);border:1px solid var(--x-line)}
+.bq-tabs button{min-height:44px;border:0;border-radius:10px;background:transparent;font:inherit;font-weight:600;color:var(--x-muted);cursor:pointer}
+.bq-tabs button.is-on{background:var(--x-green);color:#fff}
+.bq-text{display:block;width:100%;box-sizing:border-box;min-height:132px;padding:10px 12px;font:inherit;font-size:1.05rem;line-height:1.7;resize:vertical}
+.bq-help{margin:6px 0 10px;font-size:.78rem;color:var(--x-muted);line-height:1.5}
+.bq-custom-actions{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.bq-custom-actions .btn{min-height:44px}
+.bq-prev{margin-top:12px;border-top:1px solid var(--x-line);padding-top:10px;display:grid;gap:10px}
+.bq-prev-toks{display:flex;flex-wrap:wrap;gap:4px}
+.bq-prev-toks span{display:inline-flex;flex-direction:column;align-items:center;padding:4px 8px;border-radius:8px;background:#fff;border:1px solid var(--x-line)}
+.bq-prev-toks span.is-unk{border-style:dashed;border-color:#b08a3c}
+.bq-prev-toks b{font-weight:500;font-size:1rem}.bq-prev-toks small{font-size:.7rem;color:var(--x-muted)}
+.bq-prev-ja{font-size:.82rem;color:var(--x-text);margin-top:3px}
+.bq-prev-note{margin:0;font-size:.76rem;color:var(--x-muted)}
+.bq-listen{display:flex;align-items:center;gap:10px}
