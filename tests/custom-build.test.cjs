@@ -4,7 +4,7 @@ vm.createContext(ctx);
 for(const n of ['data','expansion','readings','vocabulary','structures','advanced','curriculum','word-topics','words-app','lesson-quizzes','reorder-items','build-quiz'])vm.runInContext(fs.readFileSync('dist/'+n+'.js','utf8'),ctx);
 vm.runInContext(fs.readFileSync('dist/app.js','utf8').split("window.addEventListener('hashchange'")[0],ctx);
 const read=n=>JSON.parse(fs.readFileSync('dist/'+n,'utf8'));ctx.__bank=[...read('word-bank.json'),...read('word-bank-more.json'),...read('slang-bank.json'),...read('slang-bank-more.json')];
-vm.runInContext("bank=__bank;bankStatus='ready';render=()=>{};renderBuild=()=>{};toast=m=>{this.lastToast=m};this.t={customSegment,parseCustom,startCustomBuild,buildMakeThai,openBuildSetup,buildView,buildPick,buildCheck,buildNext,getState:()=>state,getBuild:()=>build,getView:()=>view}",ctx);
+vm.runInContext("bank=__bank;bankStatus='ready';render=()=>{};renderBuild=()=>{};toast=m=>{this.lastToast=m};this.t={grammarLessonsFor,savedList,toggleSaveCur,saveAllCustom,startSavedBuild,removeSaved,customSegment,parseCustom,startCustomBuild,buildMakeThai,openBuildSetup,buildView,buildPick,buildCheck,buildNext,getState:()=>state,getBuild:()=>build,getView:()=>view}",ctx);
 const t=ctx.t,seg=s=>t.customSegment(s).map(x=>x.th);
 // A typed sentence is split into dictionary words that join back to the sentence, each with a reading.
 assert.deepEqual(seg('ฉันชอบกินข้าวผัด'),['ฉัน','ชอบ','กิน','ข้าวผัด']);
@@ -32,5 +32,12 @@ assert.deepEqual(JSON.parse(JSON.stringify(t.parseCustom('ฉันหิว / �
  await t.startCustomBuild();const b=t.getBuild();assert.equal(t.getView(),'build');assert.equal(b.origin,'custom');assert.equal(b.items.length,3);
  for(const q of b.items){assert(q.it.ja);assert.equal(q.chips.length-q.tokens.length,1);assert.equal(q.tokens.map(x=>x.th).join(''),q.it.th);assert(q.tokens.every(x=>x.ro));q.tokens.forEach(tok=>t.buildPick(q.chips.findIndex((c,i)=>c.th===tok.th&&!q.picked.includes(i))));const h=t.buildView();assert(h.includes(q.it.ja));if(q.it.src==='mt')assert(h.includes('機械翻訳'));t.buildCheck();assert.strictEqual(q.checked,true);t.buildNext()}
  assert.equal(JSON.stringify([st.missed,st.done,st.passed]),before);
+ // Each sentence points to its grammar lessons (word-level markers), shown after answering and in the hint.
+ const G=th=>[...t.grammarLessonsFor(th)];assert(G('แม่กำลังทำอาหาร').includes(12));assert(G('สถานีอยู่ที่ไหน').includes(8));assert(G('พรุ่งนี้ฉันอยากไปทะเล').includes(16));assert(!G('ฉันได้ยินเสียงเพลง').includes(17));assert.deepEqual(G('ฉันกินข้าว'),[1]);
+ const R=vm.runInContext('REORDER_ITEMS',ctx);let hit=0,tot=0;for(const id in R)for(const it of R[id]){tot++;if(G(it.th).includes(+id))hit++}assert(hit/tot>0.85,hit+'/'+tot);
+ // Saving: from a puzzle, all at once from the results, listed on the setup tab with grammar links, practised again, removed.
+ await t.startCustomBuild();const b2=t.getBuild();t.toggleSaveCur();assert.equal(t.savedList().length,1);b2.k=b2.items.length;t.saveAllCustom();assert.equal(t.savedList().length,3);
+ assert(t.buildView().includes('すべて保存済み'));vm.runInContext('build=null',ctx);const sv=t.buildView();assert(sv.includes('保存した文')&&sv.includes('この文の文法')&&sv.includes('openLesson('));
+ t.startSavedBuild();assert.equal(t.getBuild().title,'保存した文');assert.equal(t.getBuild().items.length,3);t.removeSaved(0);assert.equal(t.savedList().length,2);assert(Array.isArray(st.buildSaved));
  console.log('PASS: Japanese sentences become reorder puzzles — app examples first, machine translation (labelled, cached) otherwise; Thai input still works.');
 })().catch(e=>{console.error(e);process.exit(1)});
