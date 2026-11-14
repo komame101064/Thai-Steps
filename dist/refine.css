@@ -748,7 +748,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 /* seven footer items on phones */
 @media (max-width:650px){html body .navbtn span{font-size:9.5px;letter-spacing:-.3px}}
 .f-list .w-iconbtn.on{color:var(--x-brass)}.f-list .w-iconbtn.on svg{fill:currentColor}
-html body .x-seg.f-tabs{grid-template-columns:repeat(4,1fr);margin-bottom:14px}
+html body .x-seg.f-tabs{grid-template-columns:repeat(5,minmax(0,1fr));margin-bottom:14px}
 .f-tabs button{display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.2;height:46px!important;font-size:12.5px}
 .f-tabs button small{font-size:10.5px;opacity:.8;font-weight:500}
 /* 0. 発音と数字 */
@@ -1024,3 +1024,13 @@ html body .x-daily .x-step-go{display:block;width:100%;min-height:50px;font-size
 .x-daily-bar{height:6px;border-radius:99px;background:#e3e9da;margin-top:5px;overflow:hidden}.x-daily-bar i{display:block;height:100%;background:var(--x-green);border-radius:inherit}
 .x-daily-fin{margin:0 0 4px;font-size:.85rem;color:var(--x-muted)}.x-daily-fin b{display:block;color:var(--x-green);font-size:1rem;margin-bottom:2px}
 html body .x-daily .x-step-more{margin-top:8px}
+
+/* お気に入り：用例・分解した語 */
+.w-example-acts{display:flex;gap:6px;align-items:center}
+.w-seg-item{display:inline-flex;align-items:center;gap:2px}
+.w-seg-fav{flex:none;width:32px;height:32px;border-radius:50%;border:1px solid var(--x-line);background:#fff;display:grid;place-items:center;padding:0;color:#b8c2b0;cursor:pointer}
+.w-seg-fav svg{width:15px;height:15px}.w-seg-fav.on{color:#c9932b;border-color:#e2c27a}.w-seg-fav.on svg{fill:currentColor}
+.w-seg-row{row-gap:8px}
+.f-ex .f-main{align-items:flex-start;text-align:left}.f-ex-th{display:block;font-size:1.05rem}.f-ex-ro{display:block;font-size:.8rem;color:var(--x-green);font-weight:600}
+.w-example-acts .w-iconbtn.on{color:#a5741c}.w-example-acts .w-iconbtn.on svg{fill:currentColor}
+html body .f-tabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:2px}html body .f-tabs button{min-width:0;padding:6px 2px;font-size:.78rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
