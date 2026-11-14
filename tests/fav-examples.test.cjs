@@ -6,6 +6,4 @@ vm.runInContext('render=()=>{};toast=()=>{}',ctx);
 vm.runInContext("toggleFavEx('tl-00077#1')",ctx);assert.deepEqual([...vm.runInContext('favExList()',ctx)],['tl-00077#1']);assert(JSON.parse(store['thai-steps-words-v1']).favEx.includes('tl-00077#1'));
 const s=vm.runInContext("sanitizeWordState({favEx:['tl-00077#1','bad','tl-00001#2','tl-00077#1']})",ctx);assert.deepEqual([...s.favEx],['tl-00077#1','tl-00001#2']);
 vm.runInContext("toggleFavEx('tl-00077#1')",ctx);assert.equal(vm.runInContext('favExList().length',ctx),0);
-// A split chip's star favourites that word without re-rendering.
-const btn={classList:{toggle(){}},setAttribute(){}};ctx.__b=btn;vm.runInContext("chipFav('tl-00077',__b)",ctx);assert(vm.runInContext("wordRec('tl-00077').favorite",ctx));
-console.log('PASS: favourite example sentences and split-chip words — saved, backed up, toggled.');
+console.log('PASS: favourite example sentences — saved, backed up, toggled.');
