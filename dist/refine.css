@@ -1008,3 +1008,19 @@ html body .w-card-rating .btn{min-height:52px}
 .bq-saved-th{display:flex;align-items:center;gap:6px;font-size:1.1rem;margin-top:2px}.bq-saved-th .speak{flex:none}
 .bq-saved-ro{font-size:.8rem;color:var(--x-muted)}
 .bq-saved-del{flex:none;min-height:40px;font-size:.78rem;color:var(--x-muted)}
+/* 今日の学習（単語ステップ） */
+html body .x-daily{padding:16px}
+.x-daily-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:12px}
+.x-daily-head h2{margin:0;font-size:1.15rem;color:var(--x-ink)}
+.x-daily-count{font-size:.8rem;color:var(--x-muted);font-variant-numeric:tabular-nums}
+.x-daily-badge{font-size:.78rem;font-weight:700;color:var(--x-green);background:var(--x-soft);padding:4px 10px;border-radius:999px}
+.x-daily-tasks{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.x-task{display:flex;align-items:baseline;gap:6px;padding:10px 12px;border-radius:12px;background:var(--x-soft);border:1px solid var(--x-line)}
+.x-task b{font-size:1.5rem;line-height:1;color:var(--x-green);font-variant-numeric:tabular-nums}
+.x-task span{font-size:.8rem;color:var(--x-text)}
+.x-task.is-zero{background:#fff}.x-task.is-zero b{color:#b8c2b0}
+html body .x-daily .x-step-go{display:block;width:100%;min-height:50px;font-size:1rem}
+.x-daily-meta{display:flex;justify-content:space-between;gap:8px;margin-top:12px;font-size:.76rem;color:var(--x-muted)}
+.x-daily-bar{height:6px;border-radius:99px;background:#e3e9da;margin-top:5px;overflow:hidden}.x-daily-bar i{display:block;height:100%;background:var(--x-green);border-radius:inherit}
+.x-daily-fin{margin:0 0 4px;font-size:.85rem;color:var(--x-muted)}.x-daily-fin b{display:block;color:var(--x-green);font-size:1rem;margin-bottom:2px}
+html body .x-daily .x-step-more{margin-top:8px}
