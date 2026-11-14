@@ -19,7 +19,9 @@ if(![0,...WORD_LEVELS.map(([n])=>n)].includes(wordState.level))wordState.level=0
 let bank=[],bankMap=new Map(),bankStatus='idle',wordScope='all',wordQuery='',wordPos='',wordCategory='',wordFrequency='',wordFormality='',wordSort='frequency-desc',wordPage=0,wordCurrent=null,wordTrail=[],wordSession=null;
 let wordTopic='';
 let wordDeck='general';const PAGE_SIZE=40;
-const wordInDeck=(w,deck=wordDeck)=>deck==='slang'?w.collection==='slang':deck==='phrase'?w.collection!=='slang'&&!w.generalHidden&&isPhrase(w):w.collection!=='slang'&&!w.generalHidden&&!isPhrase(w);
+// Female-ending duplicates of phrases (〜ค่ะ/〜คะ): the deck teaches the 〜ครับ form, whose note names the female form. Kept in the bank for search and old records.
+const PHRASE_FEMALE=new Set(["tl-51802", "tl-51804", "tl-51808", "tl-51811", "tl-51833", "tl-51861", "tl-51920", "tl-51946", "tl-52108", "tl-52134", "tl-52365"]);
+const wordInDeck=(w,deck=wordDeck)=>PHRASE_FEMALE.has(w.id)?false:deck==='slang'?w.collection==='slang':deck==='phrase'?w.collection!=='slang'&&!w.generalHidden&&isPhrase(w):w.collection!=='slang'&&!w.generalHidden&&!isPhrase(w);
 // Words and phrases are separate decks: phrases have their own steps and are not in the word ranges.
 const deckOf=w=>w.collection==='slang'?'slang':isPhrase(w)?'phrase':'general';
 function setWordDeck(deck){wordDeck=['general','slang','phrase'].includes(deck)?deck:'general';wordTopic='';phraseQuery='';wordScope='all';wordQuery='';wordPos='';wordCategory='';wordFrequency='';wordFormality='';wordCurrent=null;wordTrail=[];wordSession=null;wordPage=0;render();window.scrollTo(0,0)}
