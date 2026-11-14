@@ -994,3 +994,17 @@ html body .w-card-rating .btn{min-height:52px}
 .bq-cands .bq-src{margin:0}.bq-cand-th{font-size:.95rem;overflow-wrap:anywhere}
 .bq-cands small{grid-column:2/-1;font-size:.74rem;color:var(--x-muted)}
 .bq-custom-start{display:block;width:100%;min-height:48px;margin-top:4px}
+
+.bq-from{display:flex;align-items:center;flex-wrap:wrap;gap:4px}
+.bq-save{margin-left:auto;min-height:36px;padding:4px 12px;border:1px solid var(--x-line);border-radius:999px;font-size:.78rem}
+.bq-save.is-on{background:var(--x-soft);border-color:var(--x-green);color:var(--x-green);font-weight:600}
+.bq-gram{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:10px}
+.bq-gram-h{width:100%;font-size:.74rem;color:var(--x-muted)}
+.bq-gram-c{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:6px 12px;border-radius:10px;border:1px solid var(--x-line);background:#fff;font:inherit;font-size:.82rem;color:var(--x-text);text-align:left;cursor:pointer}
+.bq-gram-c b{color:var(--x-green);font-size:.76rem}
+.bq-saved-list{display:grid;gap:10px;margin-bottom:12px}
+.bq-saved-row{display:flex;gap:8px;align-items:flex-start;padding-bottom:10px;border-bottom:1px dashed var(--x-line)}
+.bq-saved-main{flex:1;min-width:0}.bq-saved-ja{font-weight:600;color:var(--x-ink)}
+.bq-saved-th{display:flex;align-items:center;gap:6px;font-size:1.1rem;margin-top:2px}.bq-saved-th .speak{flex:none}
+.bq-saved-ro{font-size:.8rem;color:var(--x-muted)}
+.bq-saved-del{flex:none;min-height:40px;font-size:.78rem;color:var(--x-muted)}
