@@ -41,7 +41,7 @@ def apply(only=None):
     FA=W/'freq-approved.json'
     for i,x in (json.loads(FA.read_text()) if FA.exists() else {}).items():
         w=by.get(i)
-        if w and w['frequency']!=x['to']:w['frequency']=x['to'];w['frequencyReview']=x['reason'];stat['freq']=stat.get('freq',0)+1
+        if w and w['frequency']!=x['to']:w.setdefault('frequencyMeasured',w['frequency']);w['frequency']=x['to'];w['frequencyReview']=x['reason']  # keep the measured value for calibration;stat['freq']=stat.get('freq',0)+1
     # Slang deck review (scripts/slang-review/results-*.json): category and frequency judged for everyday native use.
     for f in sorted((P/'scripts/slang-review').glob('results-*.json')):
         for x in json.loads(f.read_text()):

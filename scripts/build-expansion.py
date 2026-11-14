@@ -91,7 +91,7 @@ base_general=[w for w in json.loads((P/'dist/word-bank.json').read_text()) if w.
 def _count(src,th):
     d=_cc[src];return d.get(th) or d.get(th.replace('ฯ','').strip())
 def _thresholds(src):
-    xs=sorted((math.log10(_count(src,w['th'])),w['frequency']) for w in base_general if _count(src,w['th']))
+    xs=sorted((math.log10(_count(src,w['th'])),w.get('frequencyMeasured',w['frequency'])) for w in base_general if _count(src,w['th']))  # measured values: review overrides do not move the scale
     vals=[x for x,_ in xs];cnt=collections.Counter(f for _,f in xs);th=[];acc=0
     for f in range(1,10):acc+=cnt[f];th.append(vals[min(acc,len(vals)-1)])
     return th
