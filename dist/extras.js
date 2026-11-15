@@ -112,8 +112,8 @@ const EXTRAS={
  <div class="ex-grid">${xSay('อาทิตย์ที่แล้ว','aa thít thîi lɛ́ɛo','先週')}${xSay('อาทิตย์นี้','aa thít níi','今週')}${xSay('อาทิตย์หน้า','aa thít nâa','来週')}${xSay('เดือนที่แล้ว','dʉʉan thîi lɛ́ɛo','先月')}${xSay('เดือนนี้','dʉʉan níi','今月')}${xSay('เดือนหน้า','dʉʉan nâa','来月')}${xSay('ปีที่แล้ว','pii thîi lɛ́ɛo','去年')}${xSay('ปีนี้','pii níi','今年')}${xSay('ปีหน้า','pii nâa','来年')}</div></section>
  <section class="ex-sec"><h2>〜日前・〜日後</h2><p>「〜前」は数＋単位＋<span lang="th">ที่แล้ว</span>、「〜後」は <span lang="th">อีก</span>（ìik）＋数＋単位。</p>
  <div class="ex-grid">${(()=>{const n=thaiNumber(3);return xSay(n.th+'วันที่แล้ว',n.ro+' wan thîi lɛ́ɛo','3日前')+xSay('อีก'+n.th+'วัน','ìik '+n.ro+' wan','3日後')})()}${(()=>{const n=thaiNumber(2);return xSay(n.th+'ปีที่แล้ว',n.ro+' pii thîi lɛ́ɛo','2年前')+xSay('อีก'+n.th+'อาทิตย์','ìik '+n.ro+' aa thít','2週間後')})()}</div></section>`},
- pairs:{title:'似た音の聞き分け',lead:'声調や母音の長さだけが違う語を組にして聞き比べ、音だけで聞き分ける練習。',body:()=>{if(!pairsReady()){pairsLoad();return '<p role="status">読み込んでいます…</p>'}return `
- <section class="ex-sec"><h2>聞き比べる</h2><p>押すと発音します。同じ組の語は、声の高さの動き（声調）や母音の長さだけが違います。</p>${pairSetsView()}</section>
+ pairs:{title:'似た音の聞き分け',lead:'声調・母音の長さ・弱く聞こえる l/r（kai と klai）・息の有無（kao と khao）だけが違う語を組にして、音だけで聞き分ける練習。',body:()=>{if(!pairsReady()){pairsLoad();return '<p role="status">読み込んでいます…</p>'}return `
+ <section class="ex-sec"><h2>聞き比べる</h2><p>押すと発音します。同じ組の語は、声調・母音の長さ・弱く聞こえる l / r・息を出すかどうか（k と kh、p と ph、t と th、c と ch）だけが違います。</p>${pairSetsView()}</section>
  <section class="ex-sec ex-quiz-sec"><h2>聞き取りテスト</h2>${pairQuizView()}</section>`}},
  sounds:{title:'発音の基本',lead:'母音の長さ、息の強さ、詰まる音、日本語にない音。アプリのローマ字の読み方もここで確認できます。',body:()=>`
  <section class="ex-sec"><h2>母音の長さ</h2><p>短い母音と長い母音で別の語になります。ローマ字では<b>長い母音を2つ重ねて</b>書きます（a / aa）。</p>${xSay('เข้า','khâo','入る（短い）')}${xSay('ข้าว','khâao','ご飯（長い）')}</section>
