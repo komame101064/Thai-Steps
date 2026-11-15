@@ -11,7 +11,9 @@ const rank={'初級':0,'初中級':1,'中級':2,'上級':3};modules.forEach((m,i
 assert.equal(modules.filter(m=>m.level==='上級').length,2);
 modules.forEach((m,i)=>assert(chapterLessons(i).length>=5,m.name));
 // Original lessons keep their content; only their chapter changed.
-assert.equal(lessons[0].title,'基本の語順：主語＋動詞＋目的語');assert.equal(lessons[35].title,'変化する ขึ้น／ลง');
+assert.equal(lessons[0].origTitle,'基本の語順：主語＋動詞＋目的語');assert.equal(lessons[35].origTitle,'変化する ขึ้น／ลง');
+// Headings say in Japanese what the lesson lets you say; the Thai key words are in the pattern line.
+for(const l of lessons){assert(l.title&&l.head,'heading '+l.id);assert(!/[\u0e00-\u0e7f]/.test(l.title),'Thai in title '+l.id);assert(!/SVO|\bS\b|\bV\b/.test(l.head),'symbols in head '+l.id)}
 const allRo=new Set();
 for(const l of lessons){
  assert(l.title&&l.intro&&l.points.length>=2&&l.examples.length>=2,l.id);assert(l.options[l.answer]&&l.why&&l.q,l.id);
