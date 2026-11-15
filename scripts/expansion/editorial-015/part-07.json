@@ -785,8 +785,8 @@
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "ผักนี้กินดิบแล้วรสเฝื่อน ต้องลวกก่อน",
-     "ro": "phàk níi kin dìp lɛ́ɛo rót fʉ̀ʉan tɔ̂ɔng lûuak kɔ̀ɔn",
+     "th": "ผักนี้ถ้ากินดิบจะมีรสเฝื่อน ต้องลวกก่อน",
+     "ro": "phàk níi thâa kin dìp cà mii rót fʉ̀ʉan tɔ̂ɔng lûuak kɔ̀ɔn",
      "ja": "この野菜は生で食べるとえぐみがあるから、先にゆでないと。",
      "en": "This vegetable tastes acrid raw, so you need to blanch it first.",
      "origin": "authored"
@@ -942,29 +942,8 @@
  {
   "id": "tl-57863",
   "th": "น้ำคำ",
-  "action": "add",
-  "ro": "nám kham",
-  "kind": "word",
-  "category": "一般語彙",
-  "frequency": 2,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "（人の）言葉・口先（約束や甘い言葉として）",
-    "en": "one's words (promises, sweet talk)",
-    "pos": "名詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "อย่าไปเชื่อน้ำคำของคนเจ้าชู้",
-     "ro": "yàa pai chʉ̂ʉa nám kham khɔ̌ɔng khon câo chúu",
-     "ja": "浮気者の言葉なんか信じちゃだめだよ。",
-     "en": "Don't believe a womanizer's words.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "書き言葉・歌詞寄りの語で、日常会話でよく使う口語語彙という今回の目的に合わないため。"
  },
  {
   "id": "tl-57871",
@@ -1197,7 +1176,7 @@
     "example": {
      "th": "ไม่น่าเชื่อว่าเพื่อนสนิทจะมาตีท้ายครัว",
      "ro": "mâi nâa chʉ̂ʉa wâa phʉ̂ʉan sà nìt cà maa tii tháai khruua",
-     "ja": "親友に恋人を寝取られるなんて信じられない。",
+     "ja": "親友がパートナーを寝取りに来るなんて信じられない。",
      "context": "友人に裏切られた話",
      "origin": "authored"
     }
@@ -1266,31 +1245,7 @@
  {
   "id": "tl-61036",
   "th": "หล่อลากไส้",
-  "action": "add",
-  "ro": "lɔ̀ɔ lâak sâi",
-  "kind": "word",
-  "category": "スラング｜ほめる・反応",
-  "adult": false,
-  "tags": [
-   "colloquial",
-   "slang"
-  ],
-  "frequency": 2,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "とびきりイケメンな（おどけた誇張）",
-    "pos": "形容詞・状態語",
-    "speechStyle": "口語・スラング",
-    "note": "おどけた大げさなほめ言葉で、からかいや自虐でも使う。真面目なほめ言葉ではない。",
-    "example": {
-     "th": "วันนี้แต่งตัวหล่อลากไส้เลยนะ จะไปไหน",
-     "ro": "wan níi tɛ̀ng tuua lɔ̀ɔ lâak sâi ləəi ná cà pai nǎi",
-     "ja": "今日はやけにイケメンにキメてるじゃん。どこ行くの？",
-     "context": "おしゃれした友人をからかう",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "おどけた誇張表現として存在はするが、流行した時期と現在どの程度使われるかを確信をもって示せないため。"
  }
 ]
