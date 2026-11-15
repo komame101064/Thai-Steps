@@ -1,0 +1,773 @@
+[
+ {
+  "id": "tl-56611",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56627",
+  "verdict": "fix",
+  "issues": [
+   "頻度（入力の freqGuess をそのまま採用）が高めなので 6 に"
+  ],
+  "fixed": {
+   "id": "tl-56627",
+   "th": "คนละเรื่อง",
+   "action": "add",
+   "ro": "khon lá rʉ̂ʉang",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "別の話・関係のない話",
+     "en": "a different matter, unrelated",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "นั่นมันคนละเรื่องกันเลย",
+      "ro": "nân man khon lá rʉ̂ʉang kan ləəi",
+      "ja": "それは全く別の話だよ。",
+      "en": "That's a completely different matter.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「คนละเรื่องกัน」の形で、相手が話を混同しているときに言うことが多い。"
+  }
+ },
+ {
+  "id": "tl-56643",
+  "verdict": "reject",
+  "issues": [
+   "既存の tl-51902 ถึงหรือยัง（もう着いた？）の短縮形で、その note に「ถึงยัง とも言う」と既出。重複"
+  ]
+ },
+ {
+  "id": "tl-56659",
+  "verdict": "reject",
+  "issues": [
+   "既存の tl-52212 รวมเท่าไร（全部でいくら？）と同義で、その note に ทั้งหมดเท่าไร の形も既出。ทั้งหมด＋เท่าไหร่ の自由な組み合わせ"
+  ]
+ },
+ {
+  "id": "tl-56675",
+  "verdict": "reject",
+  "issues": [
+   "เก็บ（しまう・保管する、tl-00255 語義1）＋ไว้ の生産的な動詞＋ไว้の組み合わせで、固定した意味がない"
+  ]
+ },
+ {
+  "id": "tl-56691",
+  "verdict": "reject",
+  "issues": [
+   "ลุย（tl-01626 語義1「思い切って取りかかる」）＋命令の เลย の生産的な組み合わせ（ไปเลย・กินเลย と同型）"
+  ]
+ },
+ {
+  "id": "tl-56707",
+  "verdict": "fix",
+  "issues": [
+   "例文enに原文にない「she」（性別）が加わっていたため修正",
+   "頻度6はやや高いので5に"
+  ],
+  "fixed": {
+   "id": "tl-56707",
+   "th": "ไม่ธรรมดา",
+   "action": "add",
+   "ro": "mâi tham má daa",
+   "kind": "expression",
+   "category": "性質・状態",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ただ者ではない・並ではない",
+     "en": "extraordinary, no ordinary",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เด็กคนนี้ไม่ธรรมดาเลย เล่นเปียโนเก่งมาก",
+      "ro": "dèk khon níi mâi tham má daa ləəi lên piia noo kèng mâak",
+      "ja": "この子はただ者じゃない。ピアノがすごく上手だ。",
+      "en": "This kid is no ordinary kid; plays the piano really well.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "人・物・出来事が予想以上にすごいとほめるときに使う。"
+  }
+ },
+ {
+  "id": "tl-56723",
+  "verdict": "reject",
+  "issues": [
+   "คือ（tl-00066 語義2 つなぎ）＋แบบ（tl-00068 語義2 つなぎ）の既存の二語義を並べただけで、tl-60239 แบบว่า とも機能が重なる"
+  ]
+ },
+ {
+  "id": "tl-56739",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56755",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56771",
+  "verdict": "reject",
+  "issues": [
+   "既存 tl-02180 เรื่อยๆ の語義2「まあまあ・相変わらず（口語）」そのもので、ก็ が付いただけ"
+  ]
+ },
+ {
+  "id": "tl-56787",
+  "verdict": "reject",
+  "issues": [
+   "ไม่＋หวาน の自由な否定で意味は構成語から分かる（review-13 の ไม่สะดวก 却下と同じ基準）"
+  ]
+ },
+ {
+  "id": "tl-56803",
+  "verdict": "reject",
+  "issues": [
+   "นอน＋（หรือ）ยัง の生産的な「V＋ยัง？」で、หรือยัง（tl-00334）が登録済み。กินข้าวยัง のような決まった挨拶ではない（part-07 の อาบน้ำยัง skip と同基準）"
+  ]
+ },
+ {
+  "id": "tl-56819",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56835",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56851",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56867",
+  "verdict": "reject",
+  "issues": [
+   "นอน＋พัก の動詞連続で、意味は構成語から直接導ける自由な組み合わせ"
+  ]
+ },
+ {
+  "id": "tl-56883",
+  "verdict": "reject",
+  "issues": [
+   "นั่ง（乗る）＋วิน（tl-05260 バイクタクシー）の生産的な「นั่ง＋乗り物」（นั่งรถเมล์・นั่งเรือ と同型）"
+  ]
+ },
+ {
+  "id": "tl-56899",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56915",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56931",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56947",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56963",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56979",
+  "verdict": "reject",
+  "issues": [
+   "既存 tl-00807 เลว の語義2「（ไม่เลวの形で）悪くない・なかなか良い」と完全に重複"
+  ]
+ },
+ {
+  "id": "tl-56995",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57011",
+  "verdict": "fix",
+  "issues": [
+   "頻度（入力の freqGuess をそのまま採用）が高めなので 4 に"
+  ],
+  "fixed": {
+   "id": "tl-57011",
+   "th": "สาบานได้",
+   "action": "add",
+   "ro": "sǎa baan dâai",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "誓ってもいい・本当だって",
+     "en": "I swear, honestly",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เราไม่ได้บอกใครเลย สาบานได้",
+      "ro": "rao mâi dâai bɔ̀ɔk khrai ləəi sǎa baan dâai",
+      "ja": "誰にも言ってないよ、誓って本当。",
+      "en": "I didn't tell anyone, I swear.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "自分の言葉が本当だと強く訴えるときに言う。สาบานได้เลย の形も多い。"
+  }
+ },
+ {
+  "id": "tl-57027",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57043",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57059",
+  "verdict": "fix",
+  "issues": [
+   "頻度（入力の freqGuess をそのまま採用）が高めなので 4 に"
+  ],
+  "fixed": {
+   "id": "tl-57059",
+   "th": "นอนเช้า",
+   "action": "add",
+   "ro": "nɔɔn cháao",
+   "kind": "word",
+   "category": "日常の動作",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "朝方に寝る（夜更かしして）",
+     "en": "to go to bed at dawn (after staying up)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เมื่อคืนเล่นเกมจนนอนเช้า",
+      "ro": "mʉ̂ʉa khʉʉn lên keem con nɔɔn cháao",
+      "ja": "昨夜はゲームをしていて、寝たのは朝方だった。",
+      "en": "Last night I played games until I went to bed at dawn.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「早く寝る」ではない点に注意（早寝は นอนเร็ว・นอนแต่หัวค่ำ）。"
+  }
+ },
+ {
+  "id": "tl-57075",
+  "verdict": "fix",
+  "issues": [
+   "頻度（入力の freqGuess をそのまま採用）が高めなので 4 に"
+  ],
+  "fixed": {
+   "id": "tl-57075",
+   "th": "กินเที่ยว",
+   "action": "add",
+   "ro": "kin thîiao",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "飲み食いして遊び歩く",
+     "en": "to eat out and go out, to enjoy oneself",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เงินเดือนหมดไปกับการกินเที่ยว",
+      "ro": "ngəən dʉʉan mòt pai kàp kaan kin thîiao",
+      "ja": "給料は飲み食いと遊びで消えてしまう。",
+      "en": "My salary goes on eating out and going out.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57091",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57107",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57123",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57139",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57155",
+  "verdict": "reject",
+  "issues": [
+   "既存スラング tl-60097 จุก が同じ意味（胸が詰まって何も言えない）を持ち、note に「จุกอก とも言う」と既出。単独の จุก で意味を担うため別項目は重複（ใจเสาะ は เสาะ 単独では使わないので扱いが異なる）"
+  ]
+ },
+ {
+  "id": "tl-57171",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57187",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57203",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57219",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57235",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57251",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57267",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57283",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57299",
+  "verdict": "fix",
+  "issues": [
+   "例文では述語（ปวดท้องเมนส์มาก）として使っているのに pos が名詞だったため動詞に"
+  ],
+  "fixed": {
+   "id": "tl-57299",
+   "th": "ปวดท้องเมนส์",
+   "action": "add",
+   "ro": "pùuat thɔ́ɔng meen",
+   "kind": "expression",
+   "category": "体・健康",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "生理痛がある・生理でお腹が痛い",
+     "en": "to have menstrual cramps",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "วันนี้ปวดท้องเมนส์มาก ขอลาครึ่งวัน",
+      "ro": "wan níi pùuat thɔ́ɔng meen mâak khɔ̌ɔ laa khrʉ̂ng wan",
+      "ja": "今日は生理痛がひどいので、半休をください。",
+      "en": "I have bad period cramps today, so I'd like a half day off.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "เมนส์ は英語 menses から来た「生理」の口語。改まった言い方は ปวดประจำเดือน。"
+  }
+ },
+ {
+  "id": "tl-57315",
+  "verdict": "reject",
+  "issues": [
+   "既存 tl-02489 เห็นแก่ の語義2「〜のことだけ考える」＋เงิน の生産的な組み合わせ（เห็นแก่กิน・เห็นแก่ได้ と同型）"
+  ]
+ },
+ {
+  "id": "tl-57331",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57347",
+  "verdict": "fix",
+  "issues": [
+   "頻度（入力の freqGuess をそのまま採用）が高めなので 3 に"
+  ],
+  "fixed": {
+   "id": "tl-57347",
+   "th": "หามรุ่งหามค่ำ",
+   "action": "add",
+   "ro": "hǎam rûng hǎam khâm",
+   "kind": "expression",
+   "category": "仕事・学習",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "朝から晩まで（休みなく働く）",
+     "en": "day and night, around the clock",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พ่อทำงานหามรุ่งหามค่ำเพื่อส่งลูกเรียน",
+      "ro": "phɔ̂ɔ tham ngaan hǎam rûng hǎam khâm phʉ̂ʉa sòng lûuk riian",
+      "ja": "父は子どもを学校に行かせるため、朝から晩まで働いた。",
+      "en": "Father worked day and night to put his children through school.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "主に「働く」と一緒に使う慣用句。"
+  }
+ },
+ {
+  "id": "tl-57363",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57379",
+  "verdict": "reject",
+  "issues": [
+   "แอป＋เด้ง の主語＋動詞の自由な組み合わせ。語彙単位は「（アプリ・ゲームが）落ちる」の意味の เด้ง で、そちらの語義追加を検討すべき"
+  ]
+ },
+ {
+  "id": "tl-57395",
+  "verdict": "reject",
+  "issues": [
+   "เก็บ（集める・取る）＋โค้ド（tl-54097 登録済み）の自由な組み合わせ"
+  ]
+ },
+ {
+  "id": "tl-57411",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57427",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57443",
+  "verdict": "reject",
+  "issues": [
+   "โซดา＋มะนาว の品目＋修飾の組み合わせ（review-13 の ไก่ทอดเกาหลี と同基準）。メニューでは มะนาวโซดา の語順も多く、どちらが主か確認できない"
+  ]
+ },
+ {
+  "id": "tl-57459",
+  "verdict": "fix",
+  "issues": [
+   "頻度（入力の freqGuess をそのまま採用）が高めなので 2 に"
+  ],
+  "fixed": {
+   "id": "tl-57459",
+   "th": "ค่าเปิดขวด",
+   "action": "add",
+   "ro": "khâa pə̀ət khùuat",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（酒の）持ち込み料",
+     "en": "corkage fee",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ร้านนี้คิดค่าเปิดขวดขวดละสามร้อยบาท",
+      "ro": "ráan níi khít khâa pə̀ət khùuat khùuat lá sǎam rɔ́ɔi bàat",
+      "ja": "この店は持ち込み料を1本300バーツ取る。",
+      "en": "This restaurant charges a corkage fee of 300 baht per bottle.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57475",
+  "verdict": "fix",
+  "issues": [
+   "enの「table cloth」はテーブルクロスと誤解されるため修正"
+  ],
+  "fixed": {
+   "id": "tl-57475",
+   "th": "ผ้าเช็ดโต๊ะ",
+   "action": "add",
+   "ro": "phâa chét tó",
+   "kind": "word",
+   "category": "家・場所",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "台ふきん",
+     "en": "cloth for wiping tables, table rag",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เอาผ้าเช็ดโต๊ะมาเช็ดหน่อย",
+      "ro": "ao phâa chét tó maa chét nɔ̀ɔi",
+      "ja": "台ふきんを持ってきて、ちょっと拭いて。",
+      "en": "Bring the table rag and give it a wipe.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57491",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57507",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60708",
+  "verdict": "fix",
+  "issues": [
+   "noteの「卑語ではない」とtagsのvulgarが矛盾。性的・下品な語ではないのでtagsを colloquial のみにし、穏やかな形 ช่างมัน（tl-04262）をnoteに追加"
+  ],
+  "fixed": {
+   "id": "tl-60708",
+   "th": "ช่างหัวมัน",
+   "action": "add",
+   "ro": "châang hǔua man",
+   "kind": "expression",
+   "category": "スラング｜粗い言葉",
+   "adult": false,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "知ったことか・放っとけ",
+     "pos": "定型表現",
+     "speechStyle": "粗い口語",
+     "note": "物事や人を突き放す、ややきつい言い方。親しい相手や独り言で使い、目上の人には使わない。穏やかな形は ช่างมัน。",
+     "example": {
+      "th": "ช่างหัวมันเถอะ อย่าไปคิดมาก",
+      "ro": "châang hǔua man thə̀ yàa pai khít mâak",
+      "ja": "放っとけよ。気にしすぎるな。",
+      "context": "落ち込む友人を励ます",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60724",
+  "verdict": "reject",
+  "issues": [
+   "อย่ามา＋V の生産的な形（อย่ามาโกหก・อย่ามาอ้าง）で、意味は既存の เนียน（tl-03192 語義1・スラング tl-10080）から導ける"
+  ]
+ },
+ {
+  "id": "tl-60740",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60756",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60772",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60788",
+  "verdict": "reject",
+  "issues": [
+   "ไม่＋เกิด の否定で、語彙単位は芸能界の「เกิด＝売れる」（既存 tl-00111 に未登録の語義）。また「（計画などが）うまくいかない」の一般的な ไม่เกิด もあり、見出しとして範囲が不明確"
+  ]
+ },
+ {
+  "id": "tl-60804",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60820",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60836",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60852",
+  "verdict": "fix",
+  "issues": [
+   "頻度（入力の freqGuess をそのまま採用）が高めなので 3 に"
+  ],
+  "fixed": {
+   "id": "tl-60852",
+   "th": "ดวด",
+   "action": "add",
+   "ro": "dùuat",
+   "kind": "word",
+   "category": "スラング｜遊ぶ・飲む",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（酒を）がぶ飲みする",
+     "pos": "動詞",
+     "speechStyle": "口語・スラング",
+     "note": "酒を大量に飲むことを言うくだけた俗語。ふつうは ดื่ม・กิน を使う。",
+     "example": {
+      "th": "เมื่อคืนดวดเบียร์ไปกี่ขวด",
+      "ro": "mʉ̂ʉa khʉʉn dùuat biia pai kìi khùuat",
+      "ja": "昨夜はビールを何本がぶ飲みしたの？",
+      "context": "二日酔いの友人に",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60868",
+  "verdict": "reject",
+  "issues": [
+   "น่า＋V の生産的な形（น่าตี・น่าตบ と同型）で、意味は既存の ถีบ（tl-04613）から導ける"
+  ]
+ },
+ {
+  "id": "tl-60884",
+  "verdict": "fix",
+  "issues": [
+   "noteの ภรรยาแห่งชาติ は一般的と確認できないため削除"
+  ],
+  "fixed": {
+   "id": "tl-60884",
+   "th": "สามีแห่งชาติ",
+   "action": "add",
+   "ro": "sǎa mii hɛ̀ng châat",
+   "kind": "word",
+   "category": "スラング｜ネット・SNS",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "国民の夫（大人気の男性芸能人）",
+     "pos": "名詞",
+     "speechStyle": "口語・スラング",
+     "note": "多くの女性ファンが「夫にしたい」と言う人気男性俳優・歌手のあだ名。女性版は เมียแห่งชาติ。",
+     "example": {
+      "th": "พระเอกเรื่องนี้ได้ฉายาว่าสามีแห่งชาติ",
+      "ro": "phrá èek rʉ̂ʉang níi dâai chǎa yaa wâa sǎa mii hɛ̀ng châat",
+      "ja": "このドラマの主演男優は「国民の夫」と呼ばれている。",
+      "context": "ドラマの話題",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60900",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60916",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60932",
+  "verdict": "ok",
+  "issues": []
+ }
+]
