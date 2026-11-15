@@ -128,32 +128,8 @@
  {
   "id": "tl-56653",
   "th": "ไปกัน",
-  "action": "add",
-  "ro": "pai kan",
-  "kind": "expression",
-  "category": "挨拶・会話",
-  "frequency": 6,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "（一緒に）行こう",
-    "en": "let's go (together)",
-    "pos": "定型表現",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "ทุกคนพร้อมแล้ว ไปกันเลย",
-     "ro": "thúk khon phrɔ́ɔm lɛ́ɛo pai kan ləəi",
-     "ja": "みんな準備できたね、さあ行こう。",
-     "en": "Everyone's ready, let's go.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "単独でも言うが、「ไปกันเถอะ」「ไปกันเลย」「ไปกันได้แล้ว」の形が多い。"
+  "action": "skip",
+  "skipReason": "既収録の「ไปกันเถอะ」「ไปกันได้แล้ว」の一部を切り取った形で、「行こう」の意味はそれらの見出しで既に教えているため。"
  },
  {
   "id": "tl-56669",
@@ -186,32 +162,8 @@
  {
   "id": "tl-56685",
   "th": "ทักมา",
-  "action": "add",
-  "ro": "thák maa",
-  "kind": "word",
-  "category": "日常の動作",
-  "frequency": 6,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "（チャット・SNSで）メッセージを送ってくる・連絡してくる",
-    "en": "to message (me), to DM",
-    "pos": "動詞",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "ถ้าสนใจสินค้า ทักมาได้เลยนะ",
-     "ro": "thâa sǒn cai sǐn kháa thák maa dâai ləəi ná",
-     "ja": "商品に興味があれば、気軽にメッセージをください。",
-     "en": "If you're interested in the product, just message us.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "ทัก は本来「声をかける」。ネットでは「ทักแชท」「ทักไลน์」のように使い、送る側からは「ทักไป」と言う。"
+  "action": "skip",
+  "skipReason": "既収録の ทัก に「メッセージを送る・連絡する」の語義があり、「ทักมานะ」も見出しとして収録済みのため（既存語の語義・変形）。"
  },
  {
   "id": "tl-56701",
@@ -383,8 +335,8 @@
     "example": {
      "th": "เร็วๆ หน่อย เดี๋ยวไม่ทันรถ",
      "ro": "reo reo nɔ̀ɔi dǐiao mâi than rót",
-     "ja": "ちょっと急いで、バスに間に合わなくなるよ。",
-     "en": "Hurry up, or we'll miss the bus.",
+     "ja": "ちょっと急いで、乗り遅れちゃうよ。",
+     "en": "Hurry up a bit, or we'll miss our ride.",
      "origin": "authored"
     }
    }
@@ -510,32 +462,8 @@
  {
   "id": "tl-56861",
   "th": "ทำไม่ไหว",
-  "action": "add",
-  "ro": "tham mâi wǎi",
-  "kind": "expression",
-  "category": "日常の動作",
-  "frequency": 5,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "（体力・量的に）とてもできない・手に負えない",
-    "en": "can't manage it, it's too much",
-    "pos": "定型表現",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "งานเยอะเกินไป คนเดียวทำไม่ไหว",
-     "ro": "ngaan yə́ kəən pai khon diiao tham mâi wǎi",
-     "ja": "仕事が多すぎて、一人ではとてもこなせない。",
-     "en": "There's too much work, I can't manage it alone.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "能力がない「ทำไม่ได้」と違い、体力や量の面で無理だという意味。"
+  "action": "skip",
+  "skipReason": "既収録の ไม่ไหว を動詞に付ける生産的な形（กินไม่ไหว・เดินไม่ไหว など）で、固有の意味を持つ成句ではないため。"
  },
  {
   "id": "tl-56877",
@@ -985,10 +913,8 @@
     "en": "to sit and chat, to have a talk",
     "pos": "動詞",
     "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
     "example": {
      "th": "ไปนั่งคุยกันที่ร้านกาแฟไหม",
      "ro": "pai nâng khui kan thîi ráan kaa fɛɛ mǎi",
@@ -1212,8 +1138,10 @@
     "en": "air-conditioner technician",
     "pos": "名詞",
     "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
     "example": {
      "th": "แอร์ไม่เย็น ต้องเรียกช่างแอร์มาดู",
      "ro": "ɛɛ mâi yen tɔ̂ɔng rîiak châang ɛɛ maa duu",
@@ -1222,7 +1150,8 @@
      "origin": "authored"
     }
    }
-  ]
+  ],
+  "note": "แอร์ は เครื่องปรับอากาศ（エアコン）の口語。正式には「ช่างซ่อมเครื่องปรับอากาศ」などと言う。"
  },
  {
   "id": "tl-57277",
@@ -1574,29 +1503,8 @@
  {
   "id": "tl-57469",
   "th": "ตั๋วเดือน",
-  "action": "add",
-  "ro": "tǔua dʉʉan",
-  "kind": "word",
-  "category": "移動・道案内",
-  "frequency": 2,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "（月単位の）定期券・月ぎめ券",
-    "en": "monthly pass",
-    "pos": "名詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "ผมซื้อตั๋วเดือนไว้ขึ้นรถทุกวัน",
-     "ro": "phǒm sʉ́ʉ tǔua dʉʉan wái khʉ̂n rót thúk wan",
-     "ja": "毎日乗るので、月ぎめの定期券を買ってある。",
-     "en": "I bought a monthly pass to ride every day.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "月ぎめ券の呼び方は交通機関ごとに異なり（บัตรรายเดือน など）、ตั๋วเดือน が今日の日常語として一般的か確認できないため。"
  },
  {
   "id": "tl-57485",
@@ -1794,10 +1702,24 @@
   "senses": [
    {
     "sourceSense": 1,
+    "ja": "見え透いたうそでだます・ごまかす",
+    "pos": "動詞",
+    "speechStyle": "口語・スラング",
+    "note": "文字どおりは「目をえぐる」。相手をばかにしたような、すぐばれるうそやごまかしに言う。「อย่ามาจกตา」（ごまかすな）の形が多い。",
+    "example": {
+     "th": "อย่ามาจกตากันเลย ฉันรู้ความจริงหมดแล้ว",
+     "ro": "yàa maa còk taa kan ləəi chǎn rúu khwaam cing mòt lɛ́ɛo",
+     "ja": "見え透いたうそはやめて、本当のことは全部知ってるから。",
+     "context": "友人の言い訳を問い詰める",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
     "ja": "（写真・宣伝が）盛りすぎで実物と違う",
     "pos": "形容詞・状態語",
     "speechStyle": "口語・スラング",
-    "note": "ネット通販や宿の写真が実物よりずっと良く見えるときに言う。「ตรงปก」の反対の意味で使う。",
+    "note": "ネット通販や宿の写真が実物よりずっと良く見えるときに言う。「ตรงปก」（写真どおり）の反対。",
     "example": {
      "th": "รูปในเว็บจกตามาก ห้องจริงเล็กนิดเดียว",
      "ro": "rûup nai wép còk taa mâak hɔ̂ɔng cing lék nít diiao",
