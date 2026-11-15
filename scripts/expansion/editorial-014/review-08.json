@@ -76,8 +76,10 @@
  },
  {
   "id": "tl-56752",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "既存の พอแล้ว（tl-52026）に「もうやめて・もういい」の語義があり、ได้ を加えて強めただけの近い言い回しで別見出しにする違いがない。"
+  ]
  },
  {
   "id": "tl-56768",
@@ -110,8 +112,10 @@
  },
  {
   "id": "tl-56848",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "บ้าน＋อยู่ไหน（X อยู่ไหน）の生産的な疑問の組み合わせで、同型の โกรธเหรอ・แน่ใจเหรอ と同様に語彙化した意味がない。"
+  ]
  },
  {
   "id": "tl-56864",
@@ -276,8 +280,40 @@
  },
  {
   "id": "tl-57360",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "แอร์ は既存項目（tl-01063）で口語扱いなので、ล้างแอร์ も 口語 / [\"colloquial\"] に修正"
+  ],
+  "fixed": {
+   "id": "tl-57360",
+   "th": "ล้างแอร์",
+   "action": "add",
+   "ro": "láang ɛɛ",
+   "kind": "word",
+   "category": "家・場所",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "エアコンを洗浄する（業者によるクリーニング）",
+     "en": "to have the air conditioner cleaned",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "タイでは業者に頼む定期的な分解洗浄を指すのがふつう。",
+     "example": {
+      "th": "เราควรล้างแอร์ทุกหกเดือน",
+      "ro": "rao khuuan láang ɛɛ thúk hòk dʉʉan",
+      "ja": "エアコンは半年ごとに洗浄したほうがいい。",
+      "en": "We should get the air conditioner cleaned every six months.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-57376",
@@ -301,8 +337,38 @@
  },
  {
   "id": "tl-57440",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "既存の ไข่ลวก（tl-51206「半熟卵（軽くゆでた卵）」）と訳が同じで区別できないため、jaとnoteで固ゆで寄りのねっとり半熟であることを明示"
+  ],
+  "fixed": {
+   "id": "tl-57440",
+   "th": "ไข่ยางมะตูม",
+   "action": "add",
+   "ro": "khài yaang má tuum",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（黄身がねっとりした）半熟ゆで卵",
+     "en": "soft-boiled egg (jammy yolk)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "黄身がねっとりした状態をマトゥーム（ベルノキ）の実の果肉にたとえた名前。白身もゆるい軽くゆでた卵は ไข่ลวก。",
+     "example": {
+      "th": "ตอนเช้าฉันชอบกินไข่ยางมะตูมกับขนมปัง",
+      "ro": "tɔɔn cháao chǎn chɔ̂ɔp kin khài yaang má tuum kàp khà nǒm pang",
+      "ja": "朝は半熟ゆで卵とパンを食べるのが好き。",
+      "en": "In the morning I like soft-boiled eggs with bread.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-57456",
@@ -311,8 +377,10 @@
  },
  {
   "id": "tl-57472",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "ปลั๊กสามตา は「3口の電源タップ・3口アダプター」の意でも使われ（アース付きプラグはふつう ปลั๊กสามขา）、「アース付き3穴」という語義を確信できない。"
+  ]
  },
  {
   "id": "tl-57488",
@@ -326,8 +394,40 @@
  },
  {
   "id": "tl-60705",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "ว่ะ（tl-01849・tl-10008）の tags に合わせ、粗い口語として tags に vulgar を追加"
+  ],
+  "fixed": {
+   "id": "tl-60705",
+   "th": "เออว่ะ",
+   "action": "add",
+   "ro": "əə wâ",
+   "kind": "expression",
+   "category": "スラング｜ほめる・反応",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "vulgar"
+   ],
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "だよな・確かに；あ、そうだった",
+     "pos": "定型表現",
+     "speechStyle": "粗い口語",
+     "note": "เออ（うん）＋ว่ะ（粗い語尾）。親しい友人同士（特に男性）の相づちで、相手の言葉に納得したときや何かに気づいたときに言う。目上には使わない。",
+     "example": {
+      "th": "เออว่ะ ลืมไปเลย",
+      "ro": "əə wâ lʉʉm pai ləəi",
+      "ja": "あ、そうだった。すっかり忘れてた。",
+      "context": "友人に約束を指摘されて",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-60721",
