@@ -151,38 +151,8 @@
  },
  {
   "id": "tl-57713",
-  "verdict": "fix",
-  "issues": [
-   "本来の意味は「Aを責めてBに遠回しに当てる（当てこすり）」で、例文の「上司への怒りを部下にぶつける（八つ当たり）」は意味がずれる。語義・例文・noteを修正"
-  ],
-  "fixed": {
-   "id": "tl-57713",
-   "th": "ตีวัวกระทบคราด",
-   "action": "add",
-   "ro": "tii wuua krà thóp khrâat",
-   "kind": "expression",
-   "category": "人・家族",
-   "frequency": 3,
-   "senses": [
-    {
-     "sourceSense": 1,
-     "ja": "当てこする・（別の人やことを責めて）本当の相手に遠回しに当てつける",
-     "en": "to criticize someone indirectly by targeting another",
-     "pos": "定型表現",
-     "use": "よく使う意味",
-     "registerTags": [],
-     "speechStyle": "標準語（口語限定ではない）",
-     "example": {
-      "th": "เขาบ่นเรื่องคนมาสาย จริงๆ คือตีวัวกระทบคราดฉัน",
-      "ro": "khǎo bòn rʉ̂ʉang khon maa sǎai cing cing khʉʉ tii wuua krà thóp khrâat chǎn",
-      "ja": "彼は遅刻する人のことをぼやいているが、実は私への当てこすりだ。",
-      "en": "He's complaining about people who come late, but really it's a dig at me.",
-      "origin": "authored"
-     }
-    }
-   ],
-   "note": "字義は「牛をたたいて（牛が引く）まぐわに当てる」。ある人を責めるふりをして、実際は別の人に聞かせて当てつけること。"
-  }
+  "verdict": "ok",
+  "issues": []
  },
  {
   "id": "tl-57721",
@@ -331,8 +301,38 @@
  },
  {
   "id": "tl-57857",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "例文enが「spoiling the child を信じた」と逆の意味になっていたので修正"
+  ],
+  "fixed": {
+   "id": "tl-57857",
+   "th": "รักวัวให้ผูก รักลูกให้ตี",
+   "action": "add",
+   "ro": "rák wuua hâi phùuk rák lûuk hâi tii",
+   "kind": "expression",
+   "category": "人・家族",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "かわいい子には厳しくしつけよ",
+     "en": "spare the rod and spoil the child",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พ่อแม่สมัยก่อนเชื่อว่ารักวัวให้ผูก รักลูกให้ตี",
+      "ro": "phɔ̂ɔ mɛ̂ɛ sà mǎi kɔ̀ɔn chʉ̂ʉa wâa rák wuua hâi phùuk rák lûuk hâi tii",
+      "ja": "昔の親は、かわいい子ほど厳しくしつけるべきだと信じていた。",
+      "en": "Parents in the old days believed that if you love your child, you must discipline them strictly.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "字義は「牛がかわいければつなげ、子がかわいければたたけ」。今は体罰を肯定する古い考えとして引かれることも多い。"
+  }
  },
  {
   "id": "tl-57865",
@@ -346,8 +346,39 @@
  },
  {
   "id": "tl-60966",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "借用語の読み：既存の ฮอต hɔ́t・ฮอตสปอต sà pɔ́t に合わせ短母音・高声 phɔ́t に統一（見出し・例文とも）"
+  ],
+  "fixed": {
+   "id": "tl-60966",
+   "th": "พอต",
+   "action": "add",
+   "ro": "phɔ́t",
+   "kind": "word",
+   "category": "スラング｜隠語・報道",
+   "adult": false,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ポッド型電子たばこ",
+     "pos": "名詞",
+     "speechStyle": "口語",
+     "note": "英語podから。若者の間やニュースで電子たばこ（บุหรี่ไฟฟ้า）の一種を指す。タイでは電子たばこの販売・輸入は違法。",
+     "example": {
+      "th": "วัยรุ่นสมัยนี้สูบพอตกันเยอะ",
+      "ro": "wai rûn sà mǎi níi sùup phɔ́t kan yə́",
+      "ja": "最近の若者はポッド型電子たばこを吸う人が多い。",
+      "context": "若者の喫煙について話す",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-60974",
@@ -420,8 +451,40 @@
  },
  {
   "id": "tl-61030",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "posは名詞だが例文が述語用法（ตีนผีมาก）だったので名詞用法（เป็นพวกตีนผี）の例文に修正"
+  ],
+  "fixed": {
+   "id": "tl-61030",
+   "th": "ตีนผี",
+   "action": "add",
+   "ro": "tiin phǐi",
+   "kind": "word",
+   "category": "スラング｜粗い言葉",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "vulgar"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "乱暴な運転をする人・暴走ドライバー",
+     "pos": "名詞",
+     "speechStyle": "粗い口語",
+     "note": "字義は「おばけの足」。ตีน（足の粗い言い方）を含むので粗い。スピードを出す危ない運転手をけなす。",
+     "example": {
+      "th": "คนขับแท็กซี่คันนั้นเป็นพวกตีนผี ขับเร็วสุดๆ",
+      "ro": "khon khàp thɛ́k sîi khan nán pen phûuak tiin phǐi khàp reo sùt sùt",
+      "ja": "あのタクシーの運転手は暴走ドライバーだ。すごいスピードで走る。",
+      "context": "タクシーを降りて友人に話す",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-61038",

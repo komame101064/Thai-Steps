@@ -158,8 +158,39 @@
  },
  {
   "id": "tl-57808",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "noteの「口語では高声調で言う人も多い」は裏付けがなく、既存のแน่นเอี้ยด（nɛ̂n îiat）とも合わないため削除。読みîiatは綴りどおりで正しい"
+  ],
+  "fixed": {
+   "id": "tl-57808",
+   "th": "เต็มเอี้ยด",
+   "action": "add",
+   "ro": "tem îiat",
+   "kind": "word",
+   "category": "量・程度・比較",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ぎっしり満杯の・すし詰めの",
+     "en": "packed full",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "รถไฟฟ้าตอนเช้าคนเต็มเอี้ยด",
+      "ro": "rót fai fáa tɔɔn cháao khon tem îiat",
+      "ja": "朝の電車は人ですし詰めだ。",
+      "en": "The morning train is packed full of people.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-57816",
@@ -188,8 +219,38 @@
  },
  {
   "id": "tl-57856",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "noteの「ずる賢い人に悪知恵をつける意味でも使う」は確認できないため削除"
+  ],
+  "fixed": {
+   "id": "tl-57856",
+   "th": "สอนจระเข้ว่ายน้ำ",
+   "action": "add",
+   "ro": "sɔ̌ɔn cɔɔ rá khêe wâai náam",
+   "kind": "expression",
+   "category": "一般語彙",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "その道に長けた人にわざわざ教える・釈迦に説法",
+     "en": "to teach someone what they already know well",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ไปสอนหมอเรื่องสุขภาพ ก็เหมือนสอนจระเข้ว่ายน้ำ",
+      "ro": "pai sɔ̌ɔn mɔ̌ɔ rʉ̂ʉang sùk khà phâap kɔ̂ɔ mʉ̌ʉan sɔ̌ɔn cɔɔ rá khêe wâai náam",
+      "ja": "医者に健康のことを教えるなんて、釈迦に説法だ。",
+      "en": "Teaching a doctor about health is like teaching a crocodile to swim.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "สอนจระเข้ให้ว่ายน้ำとも言う。"
+  }
  },
  {
   "id": "tl-57864",
@@ -208,13 +269,77 @@
  },
  {
   "id": "tl-60973",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "jaにタイ語（โดนสวมเขา〜）が混在。受け身の用法はnoteで説明済みなのでjaを日本語のみに修正"
+  ],
+  "fixed": {
+   "id": "tl-60973",
+   "th": "สวมเขา",
+   "action": "add",
+   "ro": "sǔuam khǎo",
+   "kind": "expression",
+   "category": "スラング｜恋愛・人間関係",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "浮気する（恋人・配偶者を裏切る）",
+     "pos": "動詞",
+     "speechStyle": "口語",
+     "note": "直訳は「角（เขา）をかぶせる」。โดนสวมเขา・ถูกสวมเขาで「浮気された」。かなり一般的で、ニュースでも使う。",
+     "example": {
+      "th": "เขาเพิ่งรู้ว่าโดนแฟนสวมเขา",
+      "ro": "khǎo phə̂əng rúu wâa doon fɛɛn sǔuam khǎo",
+      "ja": "彼は恋人に浮気されていたと知ったばかりだ。",
+      "context": "友人の恋愛トラブルの噂話",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-60981",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "バンクに既にทะแม่งๆ（なんか変だ・どこか怪しい）がある。แหม่งๆはその口語の短縮形なので、noteで元の形を明示（แปลกๆに近いという説明は由来として不正確）"
+  ],
+  "fixed": {
+   "id": "tl-60981",
+   "th": "แหม่งๆ",
+   "action": "add",
+   "ro": "mɛ̀ng mɛ̀ng",
+   "kind": "word",
+   "category": "スラング｜気持ち",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "なんか変な・怪しい・しっくりこない",
+     "pos": "形容詞・状態語",
+     "speechStyle": "口語・スラング",
+     "note": "ทะแม่งๆ（なんか変だ）を縮めたくだけた言い方。何かが引っかかる・怪しいと感じるときに使う。",
+     "example": {
+      "th": "เรื่องนี้ฟังดูแหม่งๆ นะ",
+      "ro": "rʉ̂ʉang níi fang duu mɛ̀ng mɛ̀ng ná",
+      "ja": "この話、なんか怪しいね。",
+      "context": "友人の話を聞いて違和感を覚える",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-60989",
@@ -243,8 +368,10 @@
  },
  {
   "id": "tl-61029",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "คน＋เก่า（元の）の自由な組み合わせに近く、文脈で「古株」にもなると注記自身が言う。バンクに既にเก่า「元の・以前の」とแฟนเก่า「元恋人」があり、別見出しとして教える固定の意味が弱い。"
+  ]
  },
  {
   "id": "tl-61037",

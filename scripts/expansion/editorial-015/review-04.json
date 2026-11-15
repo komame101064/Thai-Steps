@@ -1,0 +1,291 @@
+[
+ {
+  "id": "tl-57604",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57612",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57620",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57628",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57636",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57644",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57652",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57660",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57668",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57676",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57684",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57692",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57700",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57708",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57716",
+  "verdict": "fix",
+  "issues": [
+   "noteの「中国語の成語に由来」は不正確（成語ではなく俗な言い回し）。出典表現を明記して修正"
+  ],
+  "fixed": {
+   "id": "tl-57716",
+   "th": "ไม่เห็นโลงศพไม่หลั่งน้ำตา",
+   "action": "add",
+   "ro": "mâi hěn loong sòp mâi làng nám taa",
+   "kind": "expression",
+   "category": "一般語彙",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "痛い目を見るまで懲りない・分からない",
+     "en": "won't learn until disaster strikes",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "บอกแล้วไม่ฟัง ไม่เห็นโลงศพไม่หลั่งน้ำตาจริงๆ",
+      "ro": "bɔ̀ɔk lɛ́ɛo mâi fang mâi hěn loong sòp mâi làng nám taa cing cing",
+      "ja": "言っても聞かないんだから、本当に痛い目を見るまで分からないんだね。",
+      "en": "I told you but you didn't listen; you really won't learn until it's too late.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "直訳は「棺を見るまで涙を流さない」。中国語の言い回し（不見棺材不落涙）に由来する。"
+  }
+ },
+ {
+  "id": "tl-57724",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57732",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57740",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57748",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57756",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57764",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57772",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57780",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57788",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57796",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57804",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57812",
+  "verdict": "reject",
+  "issues": [
+   "既存のจ้ำ（tl-45032）第1語義「急ぎ足で進む」とそのnote「จ้ำอ้าว（せかせかと急ぐ）の形でよく使う」で既に教えている。同条件のขมวดคิ้วを作者がスキップしており、それと揃える"
+  ]
+ },
+ {
+  "id": "tl-57820",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57828",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57836",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57844",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57852",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57860",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57868",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60961",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60969",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60977",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60985",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60993",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61001",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61009",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61017",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61025",
+  "verdict": "fix",
+  "issues": [
+   "第2語義「恋愛で気を持たせる」は通常เลี้ยงต้อยで言い、เลี้ยงไข้のこの用法は確認できないため削除。第1語義・読み・例文は正しい"
+  ],
+  "fixed": {
+   "id": "tl-61025",
+   "th": "เลี้ยงไข้",
+   "action": "add",
+   "ro": "líiang khâi",
+   "kind": "expression",
+   "category": "スラング｜一般",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（話や問題を）わざと長引かせる・じらす",
+     "pos": "動詞",
+     "speechStyle": "口語",
+     "note": "元は「医者が熱を下げずに治療を長引かせる」というたとえ。ドラマ・交渉・問題解決などを決着させずに引き延ばすことを非難して言う。",
+     "example": {
+      "th": "ละครเรื่องนี้เลี้ยงไข้คนดูมาสามเดือนแล้ว",
+      "ro": "lá khɔɔn rʉ̂ʉang níi líiang khâi khon duu maa sǎam dʉʉan lɛ́ɛo",
+      "ja": "このドラマはもう3か月も視聴者をじらしている。",
+      "context": "展開の遅いドラマに文句を言う",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-61033",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61041",
+  "verdict": "ok",
+  "issues": []
+ }
+]
