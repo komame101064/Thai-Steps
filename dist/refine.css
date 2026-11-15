@@ -1034,3 +1034,14 @@ html body .x-daily .x-step-more{margin-top:8px}
 .f-ex .f-main{align-items:flex-start;text-align:left}.f-ex-th{display:block;font-size:1.05rem}.f-ex-ro{display:block;font-size:.8rem;color:var(--x-green);font-weight:600}
 .w-example-acts .w-iconbtn.on{color:#a5741c}.w-example-acts .w-iconbtn.on svg{fill:currentColor}
 html body .f-tabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:2px}html body .f-tabs button{min-width:0;padding:6px 2px;font-size:.78rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* 似た音の聞き分け */
+.ex-sets{display:grid;gap:10px;margin-bottom:12px}
+.ex-set{border:1px solid var(--x-line);border-radius:12px;background:#fff;padding:10px}
+.ex-set-h{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}.ex-set-h b{font-family:'Steps Latin',sans-serif;color:var(--x-muted)}
+.ex-set-w{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:6px}
+.ex-set-item{display:flex;flex-direction:column;align-items:flex-start;gap:1px;min-height:56px;padding:6px 8px;border-radius:10px;border:1px solid var(--x-line);background:var(--x-soft);font:inherit;text-align:left;cursor:pointer}
+.ex-set-item b{font-size:1.02rem;color:var(--x-green)}.ex-set-item span{font-size:.9rem}.ex-set-item small{font-size:.72rem;color:var(--x-muted)}
+.ex-q-play{display:grid;place-items:center;width:64px;height:64px;margin:6px auto 12px;border-radius:50%;border:1px solid var(--x-line);background:var(--x-soft);color:var(--x-green);cursor:pointer}.ex-q-play svg{width:28px;height:28px}
+.ex-pair-replay{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.ex-chip{display:inline-flex;align-items:center;gap:4px;min-height:40px;padding:4px 10px;border-radius:999px;border:1px solid var(--x-line);background:#fff;font:inherit;cursor:pointer}.ex-chip svg{width:16px;height:16px}

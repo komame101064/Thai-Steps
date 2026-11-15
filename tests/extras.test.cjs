@@ -13,3 +13,10 @@ assert.equal(T(8,30),'แปดโมงเช้าครึ่ง');assert.equ
 const E=vm.runInContext('EXTRAS',c);for(const id of ['time','dates']){const h=E[id].body();assert(h.includes('ex-say')&&!h.includes('undefined'),id)}
 assert(vm.runInContext('extrasCards()',c).includes('時刻・時間'));
 console.log('PASS: chapter 0 time and dates — conversational clock, half/minutes, weekdays, months, dates and relative days.')}
+{const fs=require('fs'),vm=require('vm'),assert=require('assert');const c={console,Math,window:{},document:{}};vm.createContext(c);vm.runInContext('function icon(){return ""};function shuffle(a){return a};function esc(s){return String(s)};var view="extra";function render(){}',c);vm.runInContext(fs.readFileSync('dist/tone-sets.js','utf8'),c);vm.runInContext(fs.readFileSync('dist/extras.js','utf8'),c);
+const S=vm.runInContext('TONE_SETS',c);assert(S.length>=60);
+// Each set: 3+ different readings of one sound skeleton (tone / length only), no loanwords; ข้าว・ข่าว・ขาว・เขา are in one set.
+const strip=r=>r.normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/(.)\1/g,'$1');for(const s of S){assert(s.w.length>=3);assert.equal(new Set(s.w.map(x=>x[2])).size,s.w.length);assert(s.w.every(x=>strip(x[2])===s.k&&!x[1].includes('์')))}
+const kh=S.find(s=>s.k==='khao').w.map(x=>x[1]);for(const t of ['ข้าว','ข่าว','ขาว','เขา'])assert(kh.includes(t));
+assert(vm.runInContext("soundCards()",c).includes('似た音の聞き分け'));c.setTimeout=()=>{};vm.runInContext("setTimeout=()=>{};pairQuizNew();pairPick(pairQuiz.qs[0].ans)",c);assert.equal(vm.runInContext('pairQuiz.ok',c),1);
+console.log(`PASS: similar-sound listening — ${S.length} sets (tone / vowel length), quiz scores by ear.`)}
