@@ -1088,3 +1088,12 @@ html body .f-tabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap
  .ps-cell span{position:absolute;left:0;right:0;bottom:24%;text-align:center;font-family:'Steps Thai',sans-serif;font-size:38pt;line-height:1}
  .ps-cell.is-trace span{color:#c4c4c4}
 }
+
+.s-write-order{margin:10px 0 0;padding:10px 12px;border-radius:12px;background:var(--x-soft)}
+.s-write-order h2{margin:0 0 6px;font-size:.95rem}
+.s-order-item{display:grid;grid-template-columns:auto 1fr;gap:0 10px;align-items:start;margin-bottom:6px}
+.s-order-item>p,.s-order-item>ol{grid-column:2}.s-order-item p{margin:0;font-size:.86rem}
+.s-order-ch{grid-row:span 2;font-family:'Steps Thai',sans-serif;font-size:2rem;line-height:1.2;color:var(--x-green);min-width:1.4em;text-align:center}
+.s-order-item ol{margin:4px 0 0;padding-left:1.3em;font-size:.88rem;line-height:1.6}
+.s-order-note{margin:2px 0 0;font-size:.72rem;color:var(--x-muted)}
+@media print{.ps-start{font-size:7pt;color:#333}}

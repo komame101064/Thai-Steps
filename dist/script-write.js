@@ -8,6 +8,11 @@ function writeChars(set=writeSet){const D=typeof SCRIPT_DATA!=='undefined'?SCRIP
  if(set==='vowel')return D.vowels.map(v=>{const f=v.form.replace(/\([^)]*\)/g,'').replace(/[–-]/g,'อ');return {ch:f,say:f,ro:v.ro,ja:v.length==='short'?'短母音':v.length==='long'?'長母音':''}}).filter((x,i,a)=>a.findIndex(y=>y.ch===x.ch)===i);
  if(set==='tone')return D.toneMarks.map(t=>({ch:'อ'+t.mark,say:t.name,ro:t.nameRo,ja:t.name}));
  return D.digits.map(d=>({ch:d.ch,say:d.ch,ro:d.ro,ja:String(d.value)}))}
+// Stroke-order notes (dist/script-strokes.js, AI-written from Thai school handwriting conventions): for a practice item,
+// the base letter (a consonant/digit) or the vowel / tone symbols written on the carrier อ.
+function writeStrokeKeys(c){const t=c.ch;if(writeSet==='vowel'||writeSet==='tone')return [...t.replace(/อ/g,'')].filter((x,i,a)=>a.indexOf(x)===i);return [t]}
+function writeStrokesHTML(c){if(typeof SCRIPT_STROKES==='undefined')return '';const parts=writeStrokeKeys(c).map(k=>[k,SCRIPT_STROKES[k]]).filter(x=>x[1]);if(!parts.length)return '';
+ return `<div class="s-write-order"><h2>書き順</h2>${parts.map(([k,d])=>`<div class="s-order-item">${parts.length>1||writeSet==='vowel'||writeSet==='tone'?`<span class="s-order-ch" lang="th">${esc(k)}</span>`:''}<p><b>${d.n}画</b> · 書き始め：${esc(d.start)}</p><ol>${d.steps.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div>`).join('')}<p class="s-order-note">学校で習う手書きの書き方の一般的な順です（AI作成）。</p></div>`}
 function openWrite(){view='scriptWrite';writeStrokes=[];render();window.scrollTo(0,0)}
 function writeSelect(i){writeIdx=i;writeStrokes=[];render();writeSay()}
 function writeMove(d){const n=writeChars().length;writeIdx=(writeIdx+d+n)%n;writeStrokes=[];render();writeSay()}
@@ -21,7 +26,7 @@ function scriptWriteView(){const cs=writeChars();if(writeIdx>=cs.length)writeIdx
  <div class="s-write-pick">${cs.map((x,i)=>`<button class="${i===writeIdx?'is-on':''}" onclick="writeSelect(${i})" lang="th" aria-label="${esc(x.ro)}">${esc(x.ch)}</button>`).join('')}</div>
  ${c?`<div class="s-write-main"><div class="s-write-info"><span class="s-write-glyph" lang="th">${esc(c.ch)}</span><span><b>${esc(c.ro)}</b><small>${esc(c.ja)}</small></span><button class="w-audio is-icon" onclick="writeSay()" aria-label="発音">${icon('audio')}</button></div>
  <canvas id="write-canvas" class="s-write-canvas" width="600" height="600" aria-label="なぞり書きの欄"></canvas>
- <div class="s-write-actions"><button class="btn light" onclick="writeMove(-1)" aria-label="前の字">←</button><button class="btn light" onclick="writeStrokes=[];writeCanvasDraw()">消す</button><button class="btn light" onclick="writeShow=!writeShow;writeCanvasDraw();this.textContent=writeShow?'見本を隠す':'見本を出す'">${writeShow?'見本を隠す':'見本を出す'}</button><button class="btn light" onclick="writeMove(1)" aria-label="次の字">→</button></div></div>`:''}
+ ${writeStrokesHTML(c)}<div class="s-write-actions"><button class="btn light" onclick="writeMove(-1)" aria-label="前の字">←</button><button class="btn light" onclick="writeStrokes=[];writeCanvasDraw()">消す</button><button class="btn light" onclick="writeShow=!writeShow;writeCanvasDraw();this.textContent=writeShow?'見本を隠す':'見本を出す'">${writeShow?'見本を隠す':'見本を出す'}</button><button class="btn light" onclick="writeMove(1)" aria-label="次の字">→</button></div></div>`:''}
  <div class="s-write-print"><h2>ノートで練習</h2><p>見本・なぞり書き・空欄が並んだ練習シートを印刷できます（A4）。</p><button class="btn" onclick="writePrint()">「${WRITE_SETS.find(x=>x[0]===writeSet)[1]}」の練習シートを印刷</button></div></section>`}
 // ---- tracing canvas ----
 let writeDrawing=false;
@@ -39,5 +44,5 @@ function writeCanvasDraw(){const cv=document.getElementById('write-canvas');if(!
  g.strokeStyle='#1f4a3c';g.lineWidth=14;g.lineCap='round';g.lineJoin='round';for(const s of writeStrokes){g.beginPath();s.forEach(([x,y],i)=>i?g.lineTo(x,y):g.moveTo(x,y));if(s.length===1)g.lineTo(s[0][0]+.1,s[0][1]);g.stroke()}}
 // ---- printable sheet ----
 function writePrint(){const cs=writeChars(),title=WRITE_SETS.find(x=>x[0]===writeSet)[1];let el=document.getElementById('print-sheet');if(!el){el=document.createElement('div');el.id='print-sheet';document.body.appendChild(el)}
- el.innerHTML=`<h1>Thai Steps 書き方練習シート：${esc(title)}</h1><p class="ps-tip">小さな丸（頭）から書き始め、ペンを離さずに書きます。灰色の字をなぞってから、空欄に書きましょう。</p>`+cs.map(c=>`<div class="ps-row"><div class="ps-label"><b>${esc(c.ro)}</b><small>${esc(c.ja)}</small></div>${[0,1,2,3,4,5,6,7].map(i=>`<div class="ps-cell${i===0?' is-model':i<4?' is-trace':''}"><span lang="th">${i<4?esc(c.ch):''}</span></div>`).join('')}</div>`).join('');
+ el.innerHTML=`<h1>Thai Steps 書き方練習シート：${esc(title)}</h1><p class="ps-tip">小さな丸（頭）から書き始め、ペンを離さずに書きます。灰色の字をなぞってから、空欄に書きましょう。</p>`+cs.map(c=>`<div class="ps-row"><div class="ps-label"><b>${esc(c.ro)}</b><small>${esc(c.ja)}</small>${typeof SCRIPT_STROKES!=='undefined'?writeStrokeKeys(c).map(k=>SCRIPT_STROKES[k]).filter(Boolean).map(d=>`<small class="ps-start">${d.n}画・${esc(d.start)}から</small>`).join(''):''}</div>${[0,1,2,3,4,5,6,7].map(i=>`<div class="ps-cell${i===0?' is-model':i<4?' is-trace':''}"><span lang="th">${i<4?esc(c.ch):''}</span></div>`).join('')}</div>`).join('');
  const doPrint=()=>window.print();if(document.fonts&&document.fonts.load)document.fonts.load('400 40px "Steps Thai"').then(doPrint,doPrint);else doPrint()}
