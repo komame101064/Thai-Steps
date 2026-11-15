@@ -1,0 +1,256 @@
+[
+ {
+  "id": "tl-57608",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57616",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57624",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57632",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57640",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57648",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57656",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57664",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57672",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57680",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57688",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57696",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57704",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57712",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57720",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57728",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57736",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57744",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57752",
+  "verdict": "fix",
+  "issues": [
+   "noteの「พี่ๆ น้องๆ（仲間たち）のように」は別の語の例で、น้องนุ่งの用法と誤解されるため修正"
+  ],
+  "fixed": {
+   "id": "tl-57752",
+   "th": "น้องนุ่ง",
+   "action": "add",
+   "ro": "nɔ́ɔng nûng",
+   "kind": "word",
+   "category": "人・家族",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "弟や妹たち・年下の身内（総称）",
+     "en": "younger siblings and relatives",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ฉันต้องส่งเงินไปช่วยน้องนุ่งที่บ้าน",
+      "ro": "chǎn tɔ̂ɔng sòng ngəən pai chûuai nɔ́ɔng nûng thîi bâan",
+      "ja": "実家の弟や妹たちを助けるために仕送りしなければならない。",
+      "en": "I have to send money home to help my younger siblings.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "น้องをまとめて言うくだけた言い方。職場や仲間内の後輩を含めて言うこともある。"
+  }
+ },
+ {
+  "id": "tl-57760",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57768",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57776",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57784",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57792",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57800",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57808",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57816",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57824",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57832",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57840",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57848",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57856",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57864",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57872",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60965",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60973",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60981",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60989",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60997",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61005",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61013",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61021",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61029",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61037",
+  "verdict": "reject",
+  "issues": [
+   "「ดวงจู๋」が今よく使われる定着した言い方だと確認できない（一般的なのはดวงซวย・ดวงตก・ดวงกุด）。จู๋は男性器の俗語でもあり、誤った語を教える恐れがあるため不採用。"
+  ]
+ }
+]
