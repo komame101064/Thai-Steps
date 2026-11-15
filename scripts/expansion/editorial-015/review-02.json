@@ -1,0 +1,290 @@
+[
+ {
+  "id": "tl-57602",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57610",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57618",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57626",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57634",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57642",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57650",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57658",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57666",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57674",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57682",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57690",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57698",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57706",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57714",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57722",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57730",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57738",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57746",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57754",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57762",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57770",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57778",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57786",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57794",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57802",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57810",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57818",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57826",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57834",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57842",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57850",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57858",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57866",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57874",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60967",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60975",
+  "verdict": "fix",
+  "issues": [
+   "ดริ้งค์ は中子音ด＋ไม้โทで下降声。既存の นั่งดริ้ง（nâng drîng）とも合わせ dríng→drîng（見出し・例文）"
+  ],
+  "fixed": {
+   "id": "tl-60975",
+   "th": "ดริ้งค์",
+   "action": "add",
+   "ro": "drîng",
+   "kind": "word",
+   "category": "スラング｜遊ぶ・飲む",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（軽く）酒を飲む・一杯やる",
+     "pos": "動詞",
+     "speechStyle": "口語・スラング",
+     "note": "英語drinkから。友人同士で使う。表記はดริ้งค์・ดริ้งが多く、辞書式はดริงก์。",
+     "example": {
+      "th": "เย็นนี้ไปดริ้งค์กันไหม",
+      "ro": "yen níi pai drîng kan mǎi",
+      "ja": "今晩一杯やりに行かない？",
+      "context": "仕事帰りに同僚を誘う",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60983",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60991",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60999",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61007",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61015",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61023",
+  "verdict": "fix",
+  "issues": [
+   "語源を拱手の礼に結びつける説明は根拠が確認できないため削除し、身ぶりを添えることがあるという記述にとどめた"
+  ],
+  "fixed": {
+   "id": "tl-61023",
+   "th": "ซูฮก",
+   "action": "add",
+   "ro": "suu hók",
+   "kind": "word",
+   "category": "スラング｜ほめる・反応",
+   "adult": false,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "脱帽する・恐れ入る",
+     "pos": "動詞",
+     "speechStyle": "口語",
+     "note": "中国語由来の口語。相手の腕前に感心したとき冗談めかして言い、拱手の身ぶりを添えることもある。ซู้ฮก と書かれることもある。",
+     "example": {
+      "th": "ทำได้ขนาดนี้ ขอซูฮกเลย",
+      "ro": "tham dâai khà nàat níi khɔ̌ɔ suu hók ləəi",
+      "ja": "ここまでできるなんて、脱帽だよ。",
+      "context": "友人の腕前に感心する",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-61031",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61039",
+  "verdict": "ok",
+  "issues": []
+ }
+]
