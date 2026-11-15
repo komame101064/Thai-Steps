@@ -2,32 +2,8 @@
  {
   "id": "tl-56611",
   "th": "รอแป๊บ",
-  "action": "add",
-  "ro": "rɔɔ pɛ́p",
-  "kind": "expression",
-  "category": "挨拶・会話",
-  "frequency": 8,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "ちょっと待って",
-    "en": "wait a sec",
-    "pos": "定型表現",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "รอแป๊บนะ เดี๋ยวลงไป",
-     "ro": "rɔɔ pɛ́p ná dǐiao long pai",
-     "ja": "ちょっと待ってね、すぐ下りていくから。",
-     "en": "Wait a sec, I'll come down right away.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "แป๊บ は「ちょっとの間」の口語。รอแป๊บนึง・แป๊บนึงนะ の形もよく使う。丁寧に言うなら รอสักครู่。"
+  "action": "skip",
+  "skipReason": "editorial-006 で รอแป๊บนึงを登録済みで、同じ意味の短縮形にすぎないため。"
  },
  {
   "id": "tl-56627",
@@ -44,8 +20,10 @@
     "en": "a different matter, unrelated",
     "pos": "定型表現",
     "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
     "example": {
      "th": "นั่นมันคนละเรื่องกันเลย",
      "ro": "nân man khon lá rʉ̂ʉang kan ləəi",
@@ -102,8 +80,10 @@
     "en": "how much is it altogether?",
     "pos": "定型表現",
     "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
     "example": {
      "th": "พี่ครับ ทั้งหมดเท่าไหร่ครับ",
      "ro": "phîi khráp tháng mòt thâo rài khráp",
@@ -433,32 +413,8 @@
  {
   "id": "tl-56899",
   "th": "ถูกเผง",
-  "action": "add",
-  "ro": "thùuk phěeng",
-  "kind": "expression",
-  "category": "挨拶・会話",
-  "frequency": 5,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "大当たり・まさにその通り",
-    "en": "exactly right, spot on",
-    "pos": "形容詞・状態語",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "ที่เธอทายมาถูกเผงเลย",
-     "ro": "thîi thəə thaai maa thùuk phěeng ləəi",
-     "ja": "君の当て推量、ずばり大当たりだよ。",
-     "en": "Your guess was spot on.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "ถูก（正しい）を強めた言い方。"
+  "action": "skip",
+  "skipReason": "既存の เผง（ぴったり・ずばり）の項目が ถูกเผง を用例として扱っており、別項目にすると重複するため。"
  },
  {
   "id": "tl-56915",
@@ -665,9 +621,25 @@
      "en": "He fell out of love with his partner long ago.",
      "origin": "authored"
     }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "心の底から・全身全霊で（รัก〜หมดใจ など）",
+    "en": "with all one's heart",
+    "pos": "副詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันรักเธอหมดใจ",
+     "ro": "chǎn rák thəə mòt cai",
+     "ja": "私は君を心から愛している。",
+     "en": "I love you with all my heart.",
+     "origin": "authored"
+    }
    }
   ],
-  "note": "恋愛関係で使うことが多く、仕事などへの意欲がなくなる意味にも使う。"
+  "note": "動詞の後に付くと逆に「心のすべてで」の意味になる（รักหมดใจ・ทุ่มเทหมดใจ）。文の形で見分ける。"
  },
  {
   "id": "tl-57043",
@@ -1042,7 +1014,7 @@
   "id": "tl-57299",
   "th": "ปวดท้องเมนส์",
   "action": "add",
-  "ro": "pùuat thɔ́ɔng men",
+  "ro": "pùuat thɔ́ɔng meen",
   "kind": "expression",
   "category": "体・健康",
   "frequency": 4,
@@ -1059,7 +1031,7 @@
     "speechStyle": "口語",
     "example": {
      "th": "วันนี้ปวดท้องเมนส์มาก ขอลาครึ่งวัน",
-     "ro": "wan níi pùuat thɔ́ɔng men mâak khɔ̌ɔ laa khrʉ̂ng wan",
+     "ro": "wan níi pùuat thɔ́ɔng meen mâak khɔ̌ɔ laa khrʉ̂ng wan",
      "ja": "今日は生理痛がひどいので、半休をください。",
      "en": "I have bad period cramps today, so I'd like a half day off.",
      "origin": "authored"
@@ -1415,10 +1387,11 @@
   "action": "add",
   "ro": "châang hǔua man",
   "kind": "expression",
-  "category": "スラング｜気持ち",
+  "category": "スラング｜粗い言葉",
   "adult": false,
   "tags": [
-   "colloquial"
+   "colloquial",
+   "vulgar"
   ],
   "frequency": 5,
   "senses": [
@@ -1487,7 +1460,7 @@
     "ja": "（座って）お酒を飲む・軽く飲む",
     "pos": "動詞",
     "speechStyle": "口語・スラング",
-    "note": "ดริ้ง は英語 drink から。バーなどで落ち着いて飲むことを言う若者・会社員の口語。",
+    "note": "ดริ้ง は英語 drink から。バーなどで気軽に座って飲むことを言う若者・会社員の口語。なお เด็กนั่งดริ้ง は客の横で飲んで歩合を得るホステスを指す別の言い方。",
     "example": {
      "th": "เย็นนี้ไปนั่งดริ้งกันไหม",
      "ro": "yen níi pai nâng drîng kan mǎi",
@@ -1514,15 +1487,15 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "身の丈以上・分不相応",
+    "ja": "度を越した・身の丈を超えた（やりすぎ）",
     "pos": "形容詞・状態語",
     "speechStyle": "口語・スラング",
-    "note": "เบอร์（サイズ・号数）を超えるという意味から。人の振る舞いが分不相応なことや、相手が自分には釣り合わないことを言う。",
+    "note": "เบอร์（サイズ・号数）を超えるという意味から。立場以上の出過ぎた振る舞いや、大げさすぎる様子を言う（ทำตัวเกินเบอร์・เล่นใหญ่เกินเบอร์）。",
     "example": {
-     "th": "แฟนเขาสวยเกินเบอร์ไปหน่อยนะ",
-     "ro": "fɛɛn khǎo sǔuai kəən bəə pai nɔ̀ɔi ná",
-     "ja": "彼の恋人、彼にはちょっと美人すぎるよね。",
-     "context": "友人の噂話",
+     "th": "อย่าทำตัวเกินเบอร์นะ เพิ่งมาทำงานได้อาทิตย์เดียว",
+     "ro": "yàa tham tuua kəən bəə ná phə̂əng maa tham ngaan dâai aa thít diiao",
+     "ja": "出過ぎたまねはするなよ。働き始めてまだ1週間なんだから。",
+     "context": "職場の先輩が新人に",
      "origin": "authored"
     }
    }
@@ -1640,7 +1613,7 @@
     "ja": "（好みの）タイプ",
     "pos": "名詞",
     "speechStyle": "口語",
-    "note": "英語 type から。発音は ไทย（タイ）と同じ。「ไม่ใช่ไทป์（タイプじゃない）」の形でよく使う。",
+    "note": "英語 type から（末尾の ป์ は読まない）。「ไม่ใช่ไทป์（タイプじゃない）」の形でよく使う。",
     "example": {
      "th": "ผู้ชายคนนั้นไม่ใช่ไทป์เราเลย",
      "ro": "phûu chaai khon nán mâi châi thai rao ləəi",
