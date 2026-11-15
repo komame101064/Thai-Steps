@@ -110,7 +110,7 @@
      "colloquial"
     ],
     "speechStyle": "口語",
-    "note": "มัน（それ・脂っこい）と同じ発音で、ส์ は読まない。สนุก より勢いや興奮のある楽しさ。",
+    "note": "มัน（それ・脂っこい）と同じ発音で、ส์ は読まない。くだけた文では มัน とも書く。สนุก より勢いや興奮のある楽しさ。",
     "example": {
      "th": "คอนเสิร์ตเมื่อคืนมันส์มาก",
      "ro": "khɔɔn sə̀ət mʉ̂ʉa khʉʉn man mâak",
@@ -237,14 +237,60 @@
  {
   "id": "tl-56768",
   "th": "อย่าเครียด",
-  "action": "skip",
-  "skipReason": "อย่า（〜するな）＋เครียด（ストレスを感じる）の透明な組み合わせで、語彙化した独立の意味がない（editorial-010/012/013 の却下基準に合わせる）"
+  "action": "add",
+  "ro": "yàa khrîiat",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "思いつめないで・気にしすぎないで",
+    "en": "don't stress, take it easy",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "悩んでいる相手を励ます言い方。อย่าคิดมาก とも言う。",
+    "example": {
+     "th": "อย่าเครียดนะ เดี๋ยวทุกอย่างก็ดีขึ้น",
+     "ro": "yàa khrîiat ná dǐiao thúk yàang kɔ̂ɔ dii khʉ̂n",
+     "ja": "思いつめないでね。そのうち全部よくなるよ。",
+     "en": "Don't stress, everything will get better soon.",
+     "origin": "authored"
+    }
+   }
+  ]
  },
  {
   "id": "tl-56784",
   "th": "เอาเท่านี้",
-  "action": "skip",
-  "skipReason": "เอา＋既存の เท่านี้（これだけ）の透明な組み合わせで、เท่านี้ で足りる"
+  "action": "add",
+  "ro": "ao thâo níi",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（注文・買い物で）これだけでいい・以上で",
+    "en": "that's all (I'll take this much)",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "注文や買い物を締めくくるときの言い方。",
+    "example": {
+     "th": "เอาเท่านี้ก่อน เดี๋ยวสั่งเพิ่ม",
+     "ro": "ao thâo níi kɔ̀ɔn dǐiao sàng phə̂əm",
+     "ja": "とりあえずこれだけで。あとで追加します。",
+     "en": "That's all for now; I'll order more later.",
+     "origin": "authored"
+    }
+   }
+  ]
  },
  {
   "id": "tl-56800",
@@ -267,20 +313,88 @@
  {
   "id": "tl-56848",
   "th": "บ้านอยู่ไหน",
-  "action": "skip",
-  "skipReason": "บ้าน＋อยู่ไหน（どこにある）の透明な組み合わせで、語彙化した独立の意味がない（editorial-010/012/013 の却下基準に合わせる）"
+  "action": "add",
+  "ro": "bâan yùu nǎi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "家はどこ？・どこに住んでるの？",
+    "en": "where do you live?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "主語を省いたくだけた聞き方。丁寧には บ้านคุณอยู่ที่ไหนครับ／คะ。",
+    "example": {
+     "th": "บ้านอยู่ไหน เดี๋ยวไปส่ง",
+     "ro": "bâan yùu nǎi dǐiao pai sòng",
+     "ja": "家どこ？送っていくよ。",
+     "en": "Where do you live? I'll take you home.",
+     "origin": "authored"
+    }
+   }
+  ]
  },
  {
   "id": "tl-56864",
   "th": "พิมพ์ผิด",
-  "action": "skip",
-  "skipReason": "พิมพ์（打つ）＋ผิด（間違って）の透明な組み合わせで、เขียนผิด・พูดผิด と同じ生産的な型"
+  "action": "add",
+  "ro": "phim phìt",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "打ち間違える・誤字をする",
+    "en": "to make a typo",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "チャットで誤字を訂正するときの決まり文句としてもよく使う。",
+    "example": {
+     "th": "ขอโทษ พิมพ์ผิดไปนิดหน่อย",
+     "ro": "khɔ̌ɔ thôot phim phìt pai nít nɔ̀ɔi",
+     "ja": "ごめん、ちょっと打ち間違えた。",
+     "en": "Sorry, I made a small typo.",
+     "origin": "authored"
+    }
+   }
+  ]
  },
  {
   "id": "tl-56880",
   "th": "ซื้อกับข้าว",
-  "action": "skip",
-  "skipReason": "ซื้อ＋กับข้าว の動詞＋目的語の透明な組み合わせで、語彙化した独立の意味がない（editorial-010/012/013 の却下基準に合わせる）"
+  "action": "add",
+  "ro": "sʉ́ʉ kàp khâao",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "おかずを買う・食材の買い出しをする",
+    "en": "to buy food for meals",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "調理済みのおかずを買うことも、料理の材料を買うことも指す。",
+    "example": {
+     "th": "แม่ไปซื้อกับข้าวที่ตลาดทุกเช้า",
+     "ro": "mɛ̂ɛ pai sʉ́ʉ kàp khâao thîi tà làat thúk cháao",
+     "ja": "母は毎朝市場へおかずを買いに行く。",
+     "en": "My mother goes to the market every morning to buy food.",
+     "origin": "authored"
+    }
+   }
+  ]
  },
  {
   "id": "tl-56896",
@@ -345,8 +459,29 @@
  {
   "id": "tl-56944",
   "th": "ลูกชิ้นปลา",
-  "action": "skip",
-  "skipReason": "既存の ลูกชิ้น（tl-51037、肉・魚の練り団子）＋ปลา の透明な組み合わせ"
+  "action": "add",
+  "ro": "lûuk chín plaa",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "魚のつみれ・フィッシュボール",
+    "en": "fish ball",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขอก๋วยเตี๋ยวลูกชิ้นปลาหนึ่งชาม",
+     "ro": "khɔ̌ɔ kǔuai tǐiao lûuk chín plaa nʉ̀ng chaam",
+     "ja": "魚団子入りのクイッティアオを一杯ください。",
+     "en": "One bowl of noodles with fish balls, please.",
+     "origin": "authored"
+    }
+   }
+  ]
  },
  {
   "id": "tl-56960",
@@ -462,8 +597,29 @@
  {
   "id": "tl-57072",
   "th": "กินข้าวนอกบ้าน",
-  "action": "skip",
-  "skipReason": "กินข้าว＋นอกบ้าน（家の外で）の透明な組み合わせで、語彙化した独立の意味がない（editorial-010/012/013 の却下基準に合わせる）"
+  "action": "add",
+  "ro": "kin khâao nɔ̂ɔk bâan",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "外食する",
+    "en": "to eat out",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วันเสาร์เรามักกินข้าวนอกบ้าน",
+     "ro": "wan sǎo rao mák kin khâao nɔ̂ɔk bâan",
+     "ja": "土曜日はたいてい外食する。",
+     "en": "We usually eat out on Saturdays.",
+     "origin": "authored"
+    }
+   }
+  ]
  },
  {
   "id": "tl-57088",
@@ -501,8 +657,30 @@
  {
   "id": "tl-57120",
   "th": "ลองใส่",
-  "action": "skip",
-  "skipReason": "ลอง（試す）＋ใส่（着る）の透明な組み合わせで、ลองชิม・ลองดู と同じ型"
+  "action": "add",
+  "ro": "lɔɔng sài",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（服・靴などを）試着する",
+    "en": "to try on",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "服のほか靴・指輪・眼鏡などにも使う。",
+    "example": {
+     "th": "ขอลองใส่ตัวนี้ได้ไหม",
+     "ro": "khɔ̌ɔ lɔɔng sài tuua níi dâai mǎi",
+     "ja": "これを試着してもいいですか。",
+     "en": "Can I try this one on?",
+     "origin": "authored"
+    }
+   }
+  ]
  },
  {
   "id": "tl-57136",
@@ -824,8 +1002,8 @@
     "speechStyle": "標準語（口語限定ではない）",
     "note": "新郎の付き添い役は เพื่อนเจ้าบ่าว。",
     "example": {
-     "th": "ฉันได้เป็นเพื่อนเจ้าสาวในงานแต่งของพี่",
-     "ro": "chǎn dâai pen phʉ̂ʉan câo sǎao nai ngaan tɛ̀ng khɔ̌ɔng phîi",
+     "th": "ฉันได้เป็นเพื่อนเจ้าสาวในงานแต่งของพี่สาว",
+     "ro": "chǎn dâai pen phʉ̂ʉan câo sǎao nai ngaan tɛ̀ng khɔ̌ɔng phîi sǎao",
      "ja": "姉の結婚式でブライズメイドを務めた。",
      "en": "I was a bridesmaid at my sister's wedding.",
      "origin": "authored"
@@ -864,8 +1042,30 @@
  {
   "id": "tl-57360",
   "th": "ล้างแอร์",
-  "action": "skip",
-  "skipReason": "ล้าง（洗う）＋แอร์ の動詞＋目的語の透明な組み合わせ（既存の แอร์・ล้าง で読める）"
+  "action": "add",
+  "ro": "láang ɛɛ",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "エアコンを洗浄する（業者によるクリーニング）",
+    "en": "to have the air conditioner cleaned",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "タイでは業者に頼む定期的な分解洗浄を指すのがふつう。",
+    "example": {
+     "th": "เราควรล้างแอร์ทุกหกเดือน",
+     "ro": "rao khuuan láang ɛɛ thúk hòk dʉʉan",
+     "ja": "エアコンは半年ごとに洗浄したほうがいい。",
+     "en": "We should get the air conditioner cleaned every six months.",
+     "origin": "authored"
+    }
+   }
+  ]
  },
  {
   "id": "tl-57376",
@@ -1054,8 +1254,31 @@
  {
   "id": "tl-60705",
   "th": "เออว่ะ",
-  "action": "skip",
-  "skipReason": "เออ（うん）＋ว่ะ（粗い語尾）の透明な組み合わせで、どちらも既存語にある"
+  "action": "add",
+  "ro": "əə wâ",
+  "kind": "expression",
+  "category": "スラング｜ほめる・反応",
+  "adult": false,
+  "tags": [
+   "colloquial"
+  ],
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "だよな・確かに；あ、そうだった",
+    "pos": "定型表現",
+    "speechStyle": "粗い口語",
+    "note": "เออ（うん）＋ว่ะ（粗い語尾）。親しい友人同士（特に男性）の相づちで、相手の言葉に納得したときや何かに気づいたときに言う。目上には使わない。",
+    "example": {
+     "th": "เออว่ะ ลืมไปเลย",
+     "ro": "əə wâ lʉʉm pai ləəi",
+     "ja": "あ、そうだった。すっかり忘れてた。",
+     "context": "友人に約束を指摘されて",
+     "origin": "authored"
+    }
+   }
+  ]
  },
  {
   "id": "tl-60721",
@@ -1326,7 +1549,7 @@
   "th": "โคตรพ่อโคตรแม่",
   "action": "add",
   "ro": "khôot phɔ̂ɔ khôot mɛ̂ɛ",
-  "kind": "expression",
+  "kind": "word",
   "category": "スラング｜粗い言葉",
   "adult": false,
   "tags": [
