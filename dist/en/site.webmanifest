@@ -1,0 +1,19 @@
+{
+ "name": "English Steps",
+ "short_name": "English Steps",
+ "description": "日本語話者のための英語入門：基本200語とフレーズ",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#f5f4ec",
+ "theme_color": "#1f4a3c",
+ "lang": "ja",
+ "icons": [
+  {
+   "src": "icon.svg",
+   "sizes": "any",
+   "type": "image/svg+xml",
+   "purpose": "any"
+  }
+ ]
+}

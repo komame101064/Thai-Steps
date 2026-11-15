@@ -72,7 +72,7 @@ function favorites(){const fw=W.filter(w=>rec(w.id).fav),fp=P.filter(p=>rec(p.id
  ${xs.length?`<div class="row-actions" style="margin-bottom:10px"><button class="btn light" onclick="startQuiz('${favTab}',${favTab==='w'?'W':'P'}.filter(x=>rec(x.id).fav),'${favTab==='w'?'enja':'jaen'}')">お気に入りでテスト</button></div><ul class="list">${xs.map(x=>favTab==='w'?`<li><button class="item" onclick="openWord('${x.id}')"><b>${esc(x.w)}</b><small>${esc(x.ja)}</small></button>${audioBtn(x.w)}${starBtn(x.id)}</li>`:`<li><button class="item" onclick="speak(${esc(JSON.stringify(x.en))})"><b>${esc(x.en)}</b><small>${esc(x.ja)}</small></button>${audioBtn(x.en)}${starBtn(x.id)}</li>`).join('')}</ul>`:'<div class="empty">☆ を押すとここに集まります。</div>'}`}
 function settings(){return `<h1>設定</h1><section class="card settings"><label>音声の速さ<select onchange="S.rate=Number(this.value);save()">${[[0.7,'ゆっくり'],[0.8,'やや遅め'],[0.9,'ふつう'],[1,'速め']].map(([v,t])=>`<option value="${v}" ${S.rate===v?'selected':''}>${t}</option>`).join('')}</select></label><label>1日のステップ数<select onchange="S.perDay=Number(this.value);save()">${[1,2,3].map(n=>`<option ${S.perDay===n?'selected':''}>${n}</option>`).join('')}</select></label></section>
  <section class="card"><h2>学習データ</h2><p class="muted">学習記録はこの端末のブラウザに保存されます。書き出して別の端末で読み込めます。</p><div class="row-actions"><button class="btn light" onclick="exportData()">書き出す</button><label class="btn light">読み込む<input type="file" accept="application/json" hidden onchange="importData(this.files[0])"></label></div></section>
- <p class="muted"><a href="../">Thai Steps（タイ語）へ</a></p>`}
+`}
 function exportData(){const b=new Blob([JSON.stringify({app:KEY,version:1,state:S},null,2)],{type:'application/json'}),u=URL.createObjectURL(b),a=document.createElement('a');a.href=u;a.download='english-steps-progress.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)}
 function importData(f){if(!f)return;f.text().then(t=>{const v=JSON.parse(t);if(v.app!==KEY)throw Error();S=sanitize(v.state);save();toast('読み込みました');render()}).catch(()=>toast('読み込めませんでした'))}
 // ---- sessions ----
@@ -104,7 +104,8 @@ function resultView(){const s=sess;return `<section class="card result"><p class
 function endSession(){if(sess&&sess.kind==='step'&&sess.i>=sess.tasks.length)finishSession();sess=null;render();window.scrollTo(0,0)}
 // ---- boot ----
 load();
-Promise.all(['data/words.json','data/phrases.json'].map(u=>fetch(u+'?v=20261115a').then(r=>{if(!r.ok)throw Error();return r.json()}))).then(([w,p])=>{W=w;P=p;byId=new Map([...W,...P].map(x=>[x.id,x]));loadState='ready';render()}).catch(()=>{loadState='error';render()});
+Promise.all(['data/words.json','data/phrases.json'].map(u=>fetch(u+'?v=20261115b').then(r=>{if(!r.ok)throw Error();return r.json()}))).then(([w,p])=>{W=w;P=p;byId=new Map([...W,...P].map(x=>[x.id,x]));loadState='ready';render()}).catch(()=>{loadState='error';render()});
+if(typeof navigator!=='undefined'&&'serviceWorker'in navigator&&location.protocol==='https:')navigator.serviceWorker.register('sw.js',{scope:'./'}).catch(()=>{});
 window.addEventListener('hashchange',()=>{const v=location.hash.slice(1);if(['home','words','phrases','review','favorites','settings'].includes(v))go(v)});
 render();
 if(typeof module!=='undefined')module.exports={};
