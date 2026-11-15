@@ -16,4 +16,7 @@ vm.runInContext(fs.readFileSync('dist/en/en.js','utf8').replace("window.addEvent
  assert(Object.values(st.rec).every(r=>r.stage===1&&r.due>Date.now()+20*3600000));assert(!store['thai-steps-words-v1']);
  // Backups: bad ids and values are dropped.
  const z=vm.runInContext("sanitize({rec:{'en-001':{seen:2,stage:9,fav:1},'x':{}},perDay:7,rate:3})",ctx);assert.deepEqual(Object.keys(z.rec),['en-001']);assert.equal(z.rec['en-001'].stage,6);assert.equal(z.perDay,1);
+ // A separate app: own manifest, icon and worker; Thai Steps does not link to it and its worker leaves /en/ alone.
+ const m=JSON.parse(fs.readFileSync('dist/en/site.webmanifest','utf8'));assert(m.name==='English Steps'&&m.start_url==='./'&&m.scope==='./');assert(fs.existsSync('dist/en/sw.js')&&fs.existsSync('dist/en/icon.svg'));
+ assert(!fs.readFileSync('dist/app.js','utf8').includes('href="en/"'));assert(!fs.readFileSync('dist/en/en.js','utf8').includes('href="../"'));assert(fs.readFileSync('dist/sw.js','utf8').includes('English Steps is a separate app'));
  console.log('PASS: English Steps — 200 words, 120 phrases, step learning with spaced follow-up, separate storage, safe import.')})().catch(e=>{console.error(e);process.exit(1)});
