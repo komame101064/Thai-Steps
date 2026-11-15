@@ -3,17 +3,17 @@
 // scriptState.games (sanitized by sanitizeScriptGames in script-app.js) so they travel with the settings export.
 // All top-level names start with sg to stay clear of the other files' globals.
 const SG_MODES=[
- {id:'speed',title:'スピード読み',desc:'60秒で、出てきた字の音（頭子音）をできるだけ多く選ぶ。',kind:'run'},
- {id:'listen',title:'聞いて選ぶ',desc:'字の名前を聞いて、その字を選ぶ。60秒勝負。',kind:'run'},
- {id:'tone',title:'声調あて',desc:'1音節の語を見て、5つの声調から選ぶ。60秒勝負。',kind:'run'},
+ {id:'speed',title:'スピード読み',desc:'30秒で、出てきた字の音（頭子音）をできるだけ多く選ぶ。',kind:'run'},
+ {id:'listen',title:'聞いて選ぶ',desc:'字の名前を聞いて、その字を選ぶ。30秒勝負。',kind:'run'},
+ {id:'tone',title:'声調あて',desc:'1音節の語を見て、5つの声調から選ぶ。30秒勝負。',kind:'run'},
  {id:'match',title:'ペアそろえ',desc:'字と音のカードを2枚ずつめくって6組そろえる。タイムを縮めよう。',kind:'match'}];
-const SG_TONE_ORDER=['mid','low','falling','high','rising'],SG_RUN_MS=60000,SG_MIN=4,SG_PAIRS=6;
+const SG_TONE_ORDER=['mid','low','falling','high','rising'],SG_RUN_MS=30000,SG_MIN=4,SG_PAIRS=6;
 let sgGame=null,sgTimer=null,sgWait=null,sgSeq=0;
 const sgShuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
 const sgSound=c=>c&&typeof c.initial==='string'?c.initial:'';
 const sgSoundLabel=s=>s===''?'無音':s;
-// Lessons in play: finished ones plus the current one (done may be out of order or hold stale ids, so filter by id).
-function sgLessons(){const ls=typeof scriptLessons==='function'?scriptLessons():[],next=ls.length?scriptNext():null;return ls.filter(l=>scriptState.done.includes(l.id)||(next&&l.id===next.id))}
+// No progress lock: every lesson's letters and readings are in play from the start.
+function sgLessons(){return typeof scriptLessons==='function'?scriptLessons():[]}
 function sgLetters(ls=sgLessons()){const seen=new Set,out=[];for(const l of ls)for(const ch of l.newConsonants||[]){const c=consonantInfo(ch);if(c&&!seen.has(ch)){seen.add(ch);out.push(c)}}return out}
 function sgSounds(letters){return [...new Set(letters.map(sgSound))]}
 // Tone items: one-syllable readings whose data tone is exactly one of the five tones; digits are left out.
@@ -70,9 +70,9 @@ function sgLeave(){scriptGameStop();sgGame=null;openScript()}
 
 // ---- views ----
 function scriptGameCard(){const ready=SG_MODES.filter(m=>sgAvailability(m.id).ok).length;
- return `<button type="button" class="sg-entry" onclick="openScriptGame()"><span class="sg-entry-icon" aria-hidden="true">${icon('spark')}</span><span class="sg-entry-body"><b>文字ゲーム</b><small>${ready?`スピード読み・聞き取り・声調・ペア · ${ready}/4 モード`:'課を進めるとゲームが解放されます'}</small></span><span class="sg-entry-end">${icon('arrow')}</span></button>`}
+ return `<button type="button" class="sg-entry" onclick="openScriptGame()"><span class="sg-entry-icon" aria-hidden="true">${icon('spark')}</span><span class="sg-entry-body"><b>文字ゲーム</b><small>スピード読み・聞き取り・声調・ペア</small></span><span class="sg-entry-end">${icon('arrow')}</span></button>`}
 function sgHub(){const ls=sgLessons(),letters=sgLetters(ls),next=typeof scriptNext==='function'?scriptNext():null;
- return `<button class="textbtn back" onclick="sgLeave()">← 文字の一覧に戻る</button><div class="x-head"><h1>文字ゲーム</h1><span class="x-inventory">習った字 ${letters.length} · 読み ${sgToneItems(ls).length}</span></div><p class="s-lead">出題は履修済みの課と、いま学んでいる課（${next?`第${Number(next.id.replace(/^s/,''))}課 ${typeof thaiRuns==='function'?thaiRuns(next.title):esc(next.title)}`:''}）の字だけ。連続正解でコンボ倍率が上がります。</p>${next&&SG_MODES.some(m=>!sgAvailability(m.id,ls).ok)?`<p class="sg-unlock"><button class="btn light" onclick="openScriptLesson('${next.id}')">第${Number(next.id.replace(/^s/,''))}課を学ぶ ${icon('arrow')}</button><span>課を履修すると出題範囲が広がり、ゲームが解放されます。</span></p>`:''}
+ return `<button class="textbtn back" onclick="sgLeave()">← 文字の一覧に戻る</button><div class="x-head"><h1>文字ゲーム</h1><span class="x-inventory">字 ${letters.length} · 読み ${sgToneItems(ls).length}</span></div><p class="s-lead">すべての字から出題します。連続正解でコンボ倍率が上がります。</p>
  <div class="sg-modes">${SG_MODES.map(m=>{const a=sgAvailability(m.id,ls),b=sgBest(m.id);return `<article class="sg-mode${a.ok?'':' is-locked'}"><div class="sg-mode-head"><h2>${esc(m.title)}</h2><span class="sg-best">${b!==undefined?(m.id==='match'?`ベスト ${sgFmtTime(b)}`:`ベスト ${b}点`):'記録なし'}</span></div><p>${esc(m.desc)}</p>${a.ok?`${m.id==='listen'&&sgVoiceWarning()?`<p class="sg-warn" role="note">${esc(sgVoiceWarning())}</p>`:''}<button class="btn sg-start" onclick="startScriptGame('${m.id}')">はじめる ${icon('arrow')}</button>`:`<p class="sg-lock" role="note">${esc(a.why)}</p>`}</article>`}).join('')}</div>`}
 function sgHud(g){const left=Math.max(0,g.deadline-Date.now()),m=sgMult(g.combo);
  return `<div class="sg-hud"><button class="sg-quit" onclick="openScriptGame()" aria-label="ゲームをやめる">×</button><div class="sg-stat"><small>スコア</small><b>${g.score}</b></div><div class="sg-stat sg-combo${g.combo>=2?' is-on':''}"><small>コンボ</small><b>${g.combo}${m>1?`<em>×${m}</em>`:''}</b></div><div class="sg-stat"><small>残り</small><b><span id="sg-time">${Math.ceil(left/1000)}</span>秒</b></div></div><div class="sg-timer" aria-hidden="true"><div id="sg-bar" style="width:${left/SG_RUN_MS*100}%"></div></div>`}

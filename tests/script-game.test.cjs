@@ -29,7 +29,7 @@ const TONES=['mid','low','falling','high','rising'];
 // Every lesson prefix (done = s01…s(i), so the learner is on lesson i+1) plus a non-contiguous record with a stale id.
 const states=[...ls.map((l,i)=>ls.slice(0,i).map(x=>x.id)),['s01','s05','s09','s13','zz99'],ls.map(l=>l.id)];
 let checked={speed:0,listen:0,tone:0,match:0},unlocked=new Set;
-for(const done of states){t.setDone(done);const next=t.scriptNext(),inPlay=ls.filter(l=>done.includes(l.id)||l.id===next.id);
+for(const done of states){t.setDone(done);const inPlay=ls; /* no progress lock: every lesson is in play */
  const taught=new Set(inPlay.flatMap(l=>l.newConsonants||[])),readings=inPlay.flatMap(l=>l.readings||[]);
  assert.deepEqual(t.sgLessons().map(l=>l.id),inPlay.map(l=>l.id));
  const letters=t.sgLetters();for(const c of letters)assert(taught.has(c.ch),`${c.ch} not taught`);
@@ -50,8 +50,8 @@ for(const done of states){t.setDone(done);const next=t.scriptNext(),inPlay=ls.fi
  const tones=new Set(items.map(r=>r.tone));assert.equal(t.sgAvailability('tone').ok,items.length>=4&&tones.size>=2);
  if(t.sgAvailability('tone').ok){unlocked.add('tone');for(let k=0;k<40;k++){const q=t.sgToneQuestion(items,null);const src=readings.find(r=>r.th===q.target.th);assert.equal(q.answer,src.tone,'tone must be the data tone');assert.deepEqual([...q.options].sort(),[...TONES].sort());checked.tone++}}}
 assert.equal(unlocked.size,4);
-// A fresh learner (s01 only: ก ด ต) has every mode locked.
-t.setDone([]);for(const m of ['speed','listen','tone','match'])assert(!t.sgAvailability(m).ok,m+' should be locked at s01');
+// No progress lock: a fresh learner can play every mode.
+t.setDone([]);for(const m of ['speed','listen','tone','match'])assert(t.sgAvailability(m).ok,m+' should be open from the start');
 assert(t.scriptView().includes('文字ゲーム'));
 
 // Best scores: sanitize drops junk, keeps valid numbers, and survive save → reload and export → import.
