@@ -1098,3 +1098,14 @@ html body .f-tabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap
 .s-order-note{margin:2px 0 0;font-size:.72rem;color:var(--x-muted)}
 @media print{.ps-start{font-size:7pt;color:#333}}
 .s-order-unsure{color:var(--x-brass);font-size:.72rem}
+.s-write-tip{padding:8px 12px}.s-write-tip summary{cursor:pointer;font-weight:700;color:var(--x-green)}.s-write-tip[open] summary{margin-bottom:4px}
+.s-write-pick{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:8px 0 10px;padding-bottom:2px}.s-write-pick button{flex:none;min-width:44px;min-height:44px}
+.s-write-main{padding:10px}.s-write-info{margin-bottom:6px}.s-write-glyph{font-size:2rem}
+.s-write-canvas{width:min(100%,42vh,420px)}
+.s-write-canvas{aspect-ratio:4/3;width:min(100%,52vh,520px)}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.s-write-back{margin:0 0 6px}
+.s-write-info b{display:inline}.s-write-info .w-audio{min-height:40px;width:40px}
+.s-write-canvas{width:min(100%,44vh,520px)}
+.s-write-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:4px 10px;margin-bottom:6px}.s-write-top .s-write-back{margin:0}
+.s-write-top .s-write-tip{margin:0;padding:6px 12px;font-size:.84rem}.s-write-top .s-write-tip[open]{flex-basis:100%}
