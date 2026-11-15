@@ -1,0 +1,2002 @@
+[
+ {
+  "id": "en-001",
+  "w": "hello",
+  "pos": "間投詞",
+  "ja": "こんにちは・やあ",
+  "ipa": "həˈloʊ",
+  "theme": "greetings",
+  "ex": "Hello, my name is Ken.",
+  "exJa": "こんにちは、私の名前はケンです。"
+ },
+ {
+  "id": "en-002",
+  "w": "goodbye",
+  "pos": "間投詞",
+  "ja": "さようなら",
+  "ipa": "ɡʊdˈbaɪ",
+  "theme": "greetings",
+  "ex": "Goodbye, see you tomorrow.",
+  "exJa": "さようなら、また明日。"
+ },
+ {
+  "id": "en-003",
+  "w": "yes",
+  "pos": "副詞",
+  "ja": "はい・ええ",
+  "ipa": "jɛs",
+  "theme": "greetings",
+  "ex": "Yes, I am a student.",
+  "exJa": "はい、私は学生です。"
+ },
+ {
+  "id": "en-004",
+  "w": "no",
+  "pos": "副詞",
+  "ja": "いいえ・いや",
+  "ipa": "noʊ",
+  "theme": "greetings",
+  "ex": "No, thank you.",
+  "exJa": "いいえ、結構です。"
+ },
+ {
+  "id": "en-005",
+  "w": "please",
+  "pos": "副詞",
+  "ja": "どうぞ・お願いします",
+  "ipa": "pliz",
+  "theme": "greetings",
+  "ex": "Water, please.",
+  "exJa": "水をお願いします。"
+ },
+ {
+  "id": "en-006",
+  "w": "thank",
+  "pos": "動詞",
+  "ja": "感謝する・ありがとう",
+  "ipa": "θæŋk",
+  "theme": "greetings",
+  "ex": "Thank you very much.",
+  "exJa": "どうもありがとうございます。"
+ },
+ {
+  "id": "en-007",
+  "w": "sorry",
+  "pos": "形容詞",
+  "ja": "ごめんなさい・すまなく思う・残念で",
+  "ipa": "ˈsɑri",
+  "theme": "greetings",
+  "ex": "I am sorry, I am late.",
+  "exJa": "ごめんなさい、遅れました。"
+ },
+ {
+  "id": "en-008",
+  "w": "excuse",
+  "pos": "動詞",
+  "ja": "許す・（Excuse me で）すみません",
+  "ipa": "ɪkˈskjuz",
+  "theme": "greetings",
+  "ex": "Excuse me, where is the station?",
+  "exJa": "すみません、駅はどこですか。"
+ },
+ {
+  "id": "en-009",
+  "w": "I",
+  "pos": "代名詞",
+  "ja": "私は・私が",
+  "ipa": "aɪ",
+  "theme": "people",
+  "ex": "I am a student.",
+  "exJa": "私は学生です。"
+ },
+ {
+  "id": "en-010",
+  "w": "you",
+  "pos": "代名詞",
+  "ja": "あなたは・あなたを・あなたたち",
+  "ipa": "ju",
+  "theme": "people",
+  "ex": "Are you hungry?",
+  "exJa": "お腹がすいていますか。"
+ },
+ {
+  "id": "en-011",
+  "w": "he",
+  "pos": "代名詞",
+  "ja": "彼は・彼が",
+  "ipa": "hi",
+  "theme": "people",
+  "ex": "He is my brother.",
+  "exJa": "彼は私の兄です。"
+ },
+ {
+  "id": "en-012",
+  "w": "she",
+  "pos": "代名詞",
+  "ja": "彼女は・彼女が",
+  "ipa": "ʃi",
+  "theme": "people",
+  "ex": "She is a teacher.",
+  "exJa": "彼女は先生です。"
+ },
+ {
+  "id": "en-013",
+  "w": "it",
+  "pos": "代名詞",
+  "ja": "それは・それを",
+  "ipa": "ɪt",
+  "theme": "grammar",
+  "ex": "It is very hot today.",
+  "exJa": "今日はとても暑いです。"
+ },
+ {
+  "id": "en-014",
+  "w": "we",
+  "pos": "代名詞",
+  "ja": "私たちは・私たちが",
+  "ipa": "wi",
+  "theme": "people",
+  "ex": "We live in Tokyo.",
+  "exJa": "私たちは東京に住んでいます。"
+ },
+ {
+  "id": "en-015",
+  "w": "they",
+  "pos": "代名詞",
+  "ja": "彼らは・それらは",
+  "ipa": "ðeɪ",
+  "theme": "people",
+  "ex": "They are my friends.",
+  "exJa": "彼らは私の友達です。"
+ },
+ {
+  "id": "en-016",
+  "w": "me",
+  "pos": "代名詞",
+  "ja": "私を・私に",
+  "ipa": "mi",
+  "theme": "people",
+  "ex": "Please help me.",
+  "exJa": "私を手伝ってください。"
+ },
+ {
+  "id": "en-017",
+  "w": "my",
+  "pos": "限定詞",
+  "ja": "私の",
+  "ipa": "maɪ",
+  "theme": "people",
+  "ex": "This is my bag.",
+  "exJa": "これは私のかばんです。"
+ },
+ {
+  "id": "en-018",
+  "w": "your",
+  "pos": "限定詞",
+  "ja": "あなたの・あなたたちの",
+  "ipa": "jʊr",
+  "theme": "people",
+  "ex": "What is your name?",
+  "exJa": "あなたの名前は何ですか。"
+ },
+ {
+  "id": "en-019",
+  "w": "his",
+  "pos": "限定詞",
+  "ja": "彼の",
+  "ipa": "hɪz",
+  "theme": "people",
+  "ex": "His car is new.",
+  "exJa": "彼の車は新しいです。"
+ },
+ {
+  "id": "en-020",
+  "w": "her",
+  "pos": "限定詞",
+  "ja": "彼女の・彼女を",
+  "ipa": "hɝ",
+  "theme": "people",
+  "ex": "Her mother is a doctor.",
+  "exJa": "彼女のお母さんは医者です。"
+ },
+ {
+  "id": "en-021",
+  "w": "this",
+  "pos": "限定詞",
+  "ja": "これ・この",
+  "ipa": "ðɪs",
+  "theme": "grammar",
+  "ex": "This is my friend.",
+  "exJa": "こちらは私の友達です。"
+ },
+ {
+  "id": "en-022",
+  "w": "that",
+  "pos": "限定詞",
+  "ja": "あれ・あの・それ",
+  "ipa": "ðæt",
+  "theme": "grammar",
+  "ex": "That bus goes to the airport.",
+  "exJa": "あのバスは空港へ行きます。"
+ },
+ {
+  "id": "en-023",
+  "w": "a",
+  "pos": "限定詞",
+  "ja": "1つの・ある",
+  "ipa": "ə",
+  "theme": "grammar",
+  "ex": "I have a dog.",
+  "exJa": "私は犬を1匹飼っています。"
+ },
+ {
+  "id": "en-024",
+  "w": "the",
+  "pos": "限定詞",
+  "ja": "その・例の",
+  "ipa": "ðə",
+  "theme": "grammar",
+  "ex": "The station is near here.",
+  "exJa": "駅はこの近くです。"
+ },
+ {
+  "id": "en-025",
+  "w": "be",
+  "pos": "動詞",
+  "ja": "～である・いる・ある",
+  "ipa": "bi",
+  "theme": "grammar",
+  "ex": "I am happy today.",
+  "exJa": "今日はうれしいです。"
+ },
+ {
+  "id": "en-026",
+  "w": "have",
+  "pos": "動詞",
+  "ja": "持っている・食べる・飼っている",
+  "ipa": "hæv",
+  "theme": "actions",
+  "ex": "I have two children.",
+  "exJa": "私には子どもが2人います。"
+ },
+ {
+  "id": "en-027",
+  "w": "do",
+  "pos": "動詞",
+  "ja": "する・行う",
+  "ipa": "du",
+  "theme": "actions",
+  "ex": "What do you do on Sunday?",
+  "exJa": "日曜日は何をしますか。"
+ },
+ {
+  "id": "en-028",
+  "w": "can",
+  "pos": "助動詞",
+  "ja": "～できる・～してもいい",
+  "ipa": "kæn",
+  "theme": "grammar",
+  "ex": "Can you speak English?",
+  "exJa": "英語を話せますか。"
+ },
+ {
+  "id": "en-029",
+  "w": "not",
+  "pos": "副詞",
+  "ja": "～ない",
+  "ipa": "nɑt",
+  "theme": "grammar",
+  "ex": "I do not eat meat.",
+  "exJa": "私は肉を食べません。"
+ },
+ {
+  "id": "en-030",
+  "w": "name",
+  "pos": "名詞",
+  "ja": "名前",
+  "ipa": "neɪm",
+  "theme": "people",
+  "ex": "My name is Yuki.",
+  "exJa": "私の名前はユキです。"
+ },
+ {
+  "id": "en-031",
+  "w": "man",
+  "pos": "名詞",
+  "ja": "男性・男の人",
+  "ipa": "mæn",
+  "theme": "people",
+  "ex": "That man is my father.",
+  "exJa": "あの男性は私の父です。"
+ },
+ {
+  "id": "en-032",
+  "w": "woman",
+  "pos": "名詞",
+  "ja": "女性・女の人",
+  "ipa": "ˈwʊmən",
+  "theme": "people",
+  "ex": "The woman is a doctor.",
+  "exJa": "その女性は医者です。"
+ },
+ {
+  "id": "en-033",
+  "w": "child",
+  "pos": "名詞",
+  "ja": "子ども",
+  "ipa": "tʃaɪld",
+  "theme": "people",
+  "ex": "The child is sleeping.",
+  "exJa": "その子は眠っています。"
+ },
+ {
+  "id": "en-034",
+  "w": "friend",
+  "pos": "名詞",
+  "ja": "友達・友人",
+  "ipa": "frɛnd",
+  "theme": "people",
+  "ex": "She is my best friend.",
+  "exJa": "彼女は私の一番の友達です。"
+ },
+ {
+  "id": "en-035",
+  "w": "family",
+  "pos": "名詞",
+  "ja": "家族",
+  "ipa": "ˈfæməli",
+  "theme": "people",
+  "ex": "I love my family.",
+  "exJa": "私は家族が大好きです。"
+ },
+ {
+  "id": "en-036",
+  "w": "mother",
+  "pos": "名詞",
+  "ja": "母・お母さん",
+  "ipa": "ˈmʌðɚ",
+  "theme": "people",
+  "ex": "My mother cooks very well.",
+  "exJa": "母は料理がとても上手です。"
+ },
+ {
+  "id": "en-037",
+  "w": "father",
+  "pos": "名詞",
+  "ja": "父・お父さん",
+  "ipa": "ˈfɑðɚ",
+  "theme": "people",
+  "ex": "My father works at a bank.",
+  "exJa": "父は銀行で働いています。"
+ },
+ {
+  "id": "en-038",
+  "w": "go",
+  "pos": "動詞",
+  "ja": "行く",
+  "ipa": "ɡoʊ",
+  "theme": "actions",
+  "ex": "I go to school by bus.",
+  "exJa": "私はバスで学校へ行きます。"
+ },
+ {
+  "id": "en-039",
+  "w": "come",
+  "pos": "動詞",
+  "ja": "来る・（相手の所へ）行く",
+  "ipa": "kʌm",
+  "theme": "actions",
+  "ex": "Please come to my house.",
+  "exJa": "私の家に来てください。"
+ },
+ {
+  "id": "en-040",
+  "w": "eat",
+  "pos": "動詞",
+  "ja": "食べる",
+  "ipa": "it",
+  "theme": "actions",
+  "ex": "We eat rice every day.",
+  "exJa": "私たちは毎日ご飯を食べます。"
+ },
+ {
+  "id": "en-041",
+  "w": "drink",
+  "pos": "動詞",
+  "ja": "飲む",
+  "ipa": "drɪŋk",
+  "theme": "actions",
+  "ex": "I drink coffee in the morning.",
+  "exJa": "私は朝コーヒーを飲みます。"
+ },
+ {
+  "id": "en-042",
+  "w": "want",
+  "pos": "動詞",
+  "ja": "欲しい・～したい",
+  "ipa": "wɑnt",
+  "theme": "actions",
+  "ex": "I want some water.",
+  "exJa": "水が欲しいです。"
+ },
+ {
+  "id": "en-043",
+  "w": "like",
+  "pos": "動詞",
+  "ja": "好きである・好む",
+  "ipa": "laɪk",
+  "theme": "feelings",
+  "ex": "I like cats.",
+  "exJa": "私は猫が好きです。"
+ },
+ {
+  "id": "en-044",
+  "w": "water",
+  "pos": "名詞",
+  "ja": "水",
+  "ipa": "ˈwɔtɚ",
+  "theme": "food",
+  "ex": "Can I have some water?",
+  "exJa": "お水をもらえますか。"
+ },
+ {
+  "id": "en-045",
+  "w": "rice",
+  "pos": "名詞",
+  "ja": "米・ご飯",
+  "ipa": "raɪs",
+  "theme": "food",
+  "ex": "I eat rice for lunch.",
+  "exJa": "私は昼食にご飯を食べます。"
+ },
+ {
+  "id": "en-046",
+  "w": "bread",
+  "pos": "名詞",
+  "ja": "パン",
+  "ipa": "brɛd",
+  "theme": "food",
+  "ex": "I have bread for breakfast.",
+  "exJa": "朝食にパンを食べます。"
+ },
+ {
+  "id": "en-047",
+  "w": "coffee",
+  "pos": "名詞",
+  "ja": "コーヒー",
+  "ipa": "ˈkɔfi",
+  "theme": "food",
+  "ex": "A coffee, please.",
+  "exJa": "コーヒーを1つお願いします。"
+ },
+ {
+  "id": "en-048",
+  "w": "tea",
+  "pos": "名詞",
+  "ja": "お茶・紅茶",
+  "ipa": "ti",
+  "theme": "food",
+  "ex": "Do you want tea?",
+  "exJa": "お茶はいかがですか。"
+ },
+ {
+  "id": "en-049",
+  "w": "food",
+  "pos": "名詞",
+  "ja": "食べ物・料理",
+  "ipa": "fud",
+  "theme": "food",
+  "ex": "The food here is good.",
+  "exJa": "ここの料理はおいしいです。"
+ },
+ {
+  "id": "en-050",
+  "w": "cat",
+  "pos": "名詞",
+  "ja": "猫",
+  "ipa": "kæt",
+  "theme": "animals",
+  "ex": "The cat is sleeping on the bed.",
+  "exJa": "猫がベッドの上で寝ています。"
+ },
+ {
+  "id": "en-051",
+  "w": "dog",
+  "pos": "名詞",
+  "ja": "犬",
+  "ipa": "dɔɡ",
+  "theme": "animals",
+  "ex": "My dog is very big.",
+  "exJa": "うちの犬はとても大きいです。"
+ },
+ {
+  "id": "en-052",
+  "w": "house",
+  "pos": "名詞",
+  "ja": "家・住宅",
+  "ipa": "haʊs",
+  "theme": "home",
+  "ex": "Our house is near the station.",
+  "exJa": "私たちの家は駅の近くです。"
+ },
+ {
+  "id": "en-053",
+  "w": "school",
+  "pos": "名詞",
+  "ja": "学校",
+  "ipa": "skul",
+  "theme": "places",
+  "ex": "My children walk to school.",
+  "exJa": "子どもたちは歩いて学校へ行きます。"
+ },
+ {
+  "id": "en-054",
+  "w": "and",
+  "pos": "接続詞",
+  "ja": "～と・そして",
+  "ipa": "ænd",
+  "theme": "grammar",
+  "ex": "I have a cat and a dog.",
+  "exJa": "私は猫と犬を飼っています。"
+ },
+ {
+  "id": "en-055",
+  "w": "but",
+  "pos": "接続詞",
+  "ja": "しかし・でも",
+  "ipa": "bʌt",
+  "theme": "grammar",
+  "ex": "It is small but good.",
+  "exJa": "小さいけれど良いです。"
+ },
+ {
+  "id": "en-056",
+  "w": "or",
+  "pos": "接続詞",
+  "ja": "または・それとも",
+  "ipa": "ɔr",
+  "theme": "grammar",
+  "ex": "Coffee or tea?",
+  "exJa": "コーヒーですか、それとも紅茶ですか。"
+ },
+ {
+  "id": "en-057",
+  "w": "because",
+  "pos": "接続詞",
+  "ja": "～なので・なぜなら",
+  "ipa": "bɪˈkɔz",
+  "theme": "grammar",
+  "ex": "I am tired because I work a lot.",
+  "exJa": "たくさん働くので疲れています。"
+ },
+ {
+  "id": "en-058",
+  "w": "what",
+  "pos": "疑問詞",
+  "ja": "何・何の",
+  "ipa": "wʌt",
+  "theme": "grammar",
+  "ex": "What do you want to eat?",
+  "exJa": "何を食べたいですか。"
+ },
+ {
+  "id": "en-059",
+  "w": "where",
+  "pos": "疑問詞",
+  "ja": "どこに・どこで",
+  "ipa": "wɛr",
+  "theme": "grammar",
+  "ex": "Where is the toilet?",
+  "exJa": "トイレはどこですか。"
+ },
+ {
+  "id": "en-060",
+  "w": "who",
+  "pos": "疑問詞",
+  "ja": "誰",
+  "ipa": "hu",
+  "theme": "grammar",
+  "ex": "Who is that woman?",
+  "exJa": "あの女性は誰ですか。"
+ },
+ {
+  "id": "en-061",
+  "w": "when",
+  "pos": "疑問詞",
+  "ja": "いつ・～するとき",
+  "ipa": "wɛn",
+  "theme": "grammar",
+  "ex": "When does the train come?",
+  "exJa": "電車はいつ来ますか。"
+ },
+ {
+  "id": "en-062",
+  "w": "why",
+  "pos": "疑問詞",
+  "ja": "なぜ・どうして",
+  "ipa": "waɪ",
+  "theme": "grammar",
+  "ex": "Why are you sad?",
+  "exJa": "どうして悲しいのですか。"
+ },
+ {
+  "id": "en-063",
+  "w": "how",
+  "pos": "疑問詞",
+  "ja": "どうやって・どのように・どれくらい",
+  "ipa": "haʊ",
+  "theme": "grammar",
+  "ex": "How are you?",
+  "exJa": "お元気ですか。"
+ },
+ {
+  "id": "en-064",
+  "w": "which",
+  "pos": "疑問詞",
+  "ja": "どれ・どちらの",
+  "ipa": "wɪtʃ",
+  "theme": "grammar",
+  "ex": "Which bus goes to the hotel?",
+  "exJa": "どのバスがホテルへ行きますか。"
+ },
+ {
+  "id": "en-065",
+  "w": "see",
+  "pos": "動詞",
+  "ja": "見る・見える・会う",
+  "ipa": "si",
+  "theme": "actions",
+  "ex": "I see a bird in the tree.",
+  "exJa": "木に鳥が見えます。"
+ },
+ {
+  "id": "en-066",
+  "w": "know",
+  "pos": "動詞",
+  "ja": "知っている・分かる",
+  "ipa": "noʊ",
+  "theme": "actions",
+  "ex": "I do not know.",
+  "exJa": "分かりません。"
+ },
+ {
+  "id": "en-067",
+  "w": "make",
+  "pos": "動詞",
+  "ja": "作る・～させる",
+  "ipa": "meɪk",
+  "theme": "actions",
+  "ex": "My mother makes bread.",
+  "exJa": "母はパンを作ります。"
+ },
+ {
+  "id": "en-068",
+  "w": "get",
+  "pos": "動詞",
+  "ja": "手に入れる・受け取る・着く",
+  "ipa": "ɡɛt",
+  "theme": "actions",
+  "ex": "Where can I get a ticket?",
+  "exJa": "切符はどこで買えますか。"
+ },
+ {
+  "id": "en-069",
+  "w": "take",
+  "pos": "動詞",
+  "ja": "取る・持って行く・（乗り物に）乗る",
+  "ipa": "teɪk",
+  "theme": "actions",
+  "ex": "Let's take a taxi.",
+  "exJa": "タクシーに乗りましょう。"
+ },
+ {
+  "id": "en-070",
+  "w": "give",
+  "pos": "動詞",
+  "ja": "与える・あげる・渡す",
+  "ipa": "ɡɪv",
+  "theme": "actions",
+  "ex": "Please give me the menu.",
+  "exJa": "メニューをください。"
+ },
+ {
+  "id": "en-071",
+  "w": "say",
+  "pos": "動詞",
+  "ja": "言う",
+  "ipa": "seɪ",
+  "theme": "actions",
+  "ex": "What did he say?",
+  "exJa": "彼は何と言いましたか。"
+ },
+ {
+  "id": "en-072",
+  "w": "speak",
+  "pos": "動詞",
+  "ja": "話す",
+  "ipa": "spik",
+  "theme": "actions",
+  "ex": "I speak a little English.",
+  "exJa": "私は少し英語を話します。"
+ },
+ {
+  "id": "en-073",
+  "w": "understand",
+  "pos": "動詞",
+  "ja": "理解する・分かる",
+  "ipa": "ˌʌndɚˈstænd",
+  "theme": "actions",
+  "ex": "I do not understand.",
+  "exJa": "分かりません。"
+ },
+ {
+  "id": "en-074",
+  "w": "need",
+  "pos": "動詞",
+  "ja": "必要とする・～する必要がある",
+  "ipa": "nid",
+  "theme": "actions",
+  "ex": "I need a doctor.",
+  "exJa": "医者が必要です。"
+ },
+ {
+  "id": "en-075",
+  "w": "buy",
+  "pos": "動詞",
+  "ja": "買う",
+  "ipa": "baɪ",
+  "theme": "money",
+  "ex": "I want to buy this bag.",
+  "exJa": "このかばんを買いたいです。"
+ },
+ {
+  "id": "en-076",
+  "w": "pay",
+  "pos": "動詞",
+  "ja": "払う・支払う",
+  "ipa": "peɪ",
+  "theme": "money",
+  "ex": "Can I pay by card?",
+  "exJa": "カードで払えますか。"
+ },
+ {
+  "id": "en-077",
+  "w": "help",
+  "pos": "動詞",
+  "ja": "手伝う・助ける",
+  "ipa": "hɛlp",
+  "theme": "actions",
+  "ex": "Can you help me?",
+  "exJa": "手伝ってもらえますか。"
+ },
+ {
+  "id": "en-078",
+  "w": "live",
+  "pos": "動詞",
+  "ja": "住む・生きる",
+  "ipa": "lɪv",
+  "theme": "home",
+  "ex": "I live in a small house.",
+  "exJa": "私は小さな家に住んでいます。"
+ },
+ {
+  "id": "en-079",
+  "w": "work",
+  "pos": "動詞",
+  "ja": "働く・（機械が）動く",
+  "ipa": "wɝk",
+  "theme": "work",
+  "ex": "My sister works at a hotel.",
+  "exJa": "姉はホテルで働いています。"
+ },
+ {
+  "id": "en-080",
+  "w": "sleep",
+  "pos": "動詞",
+  "ja": "眠る・寝る",
+  "ipa": "slip",
+  "theme": "actions",
+  "ex": "I sleep at eleven.",
+  "exJa": "私は11時に寝ます。"
+ },
+ {
+  "id": "en-081",
+  "w": "read",
+  "pos": "動詞",
+  "ja": "読む",
+  "ipa": "rid",
+  "theme": "actions",
+  "ex": "I read a book every night.",
+  "exJa": "私は毎晩本を読みます。"
+ },
+ {
+  "id": "en-082",
+  "w": "write",
+  "pos": "動詞",
+  "ja": "書く",
+  "ipa": "raɪt",
+  "theme": "actions",
+  "ex": "Please write your name here.",
+  "exJa": "ここにお名前を書いてください。"
+ },
+ {
+  "id": "en-083",
+  "w": "open",
+  "pos": "動詞",
+  "ja": "開ける・開く",
+  "ipa": "ˈoʊpən",
+  "theme": "actions",
+  "ex": "Can I open the window?",
+  "exJa": "窓を開けてもいいですか。"
+ },
+ {
+  "id": "en-084",
+  "w": "stop",
+  "pos": "動詞",
+  "ja": "止まる・止める・やめる",
+  "ipa": "stɑp",
+  "theme": "transport",
+  "ex": "Please stop here.",
+  "exJa": "ここで止めてください。"
+ },
+ {
+  "id": "en-085",
+  "w": "wait",
+  "pos": "動詞",
+  "ja": "待つ",
+  "ipa": "weɪt",
+  "theme": "actions",
+  "ex": "Please wait a minute.",
+  "exJa": "少し待ってください。"
+ },
+ {
+  "id": "en-086",
+  "w": "sit",
+  "pos": "動詞",
+  "ja": "座る",
+  "ipa": "sɪt",
+  "theme": "actions",
+  "ex": "Please sit here.",
+  "exJa": "ここに座ってください。"
+ },
+ {
+  "id": "en-087",
+  "w": "walk",
+  "pos": "動詞",
+  "ja": "歩く",
+  "ipa": "wɔk",
+  "theme": "actions",
+  "ex": "I walk to the station.",
+  "exJa": "私は駅まで歩きます。"
+ },
+ {
+  "id": "en-088",
+  "w": "look",
+  "pos": "動詞",
+  "ja": "見る・～に見える",
+  "ipa": "lʊk",
+  "theme": "actions",
+  "ex": "Look at that big bird!",
+  "exJa": "あの大きな鳥を見て！"
+ },
+ {
+  "id": "en-089",
+  "w": "listen",
+  "pos": "動詞",
+  "ja": "聞く・耳を傾ける",
+  "ipa": "ˈlɪsən",
+  "theme": "actions",
+  "ex": "Please listen to the teacher.",
+  "exJa": "先生の話を聞いてください。"
+ },
+ {
+  "id": "en-090",
+  "w": "think",
+  "pos": "動詞",
+  "ja": "思う・考える",
+  "ipa": "θɪŋk",
+  "theme": "feelings",
+  "ex": "I think it is good.",
+  "exJa": "それは良いと思います。"
+ },
+ {
+  "id": "en-091",
+  "w": "feel",
+  "pos": "動詞",
+  "ja": "感じる・～な気分だ",
+  "ipa": "fil",
+  "theme": "feelings",
+  "ex": "I feel sick today.",
+  "exJa": "今日は気分が悪いです。"
+ },
+ {
+  "id": "en-092",
+  "w": "love",
+  "pos": "動詞",
+  "ja": "愛する・大好きである",
+  "ipa": "lʌv",
+  "theme": "feelings",
+  "ex": "I love this song.",
+  "exJa": "この歌が大好きです。"
+ },
+ {
+  "id": "en-093",
+  "w": "use",
+  "pos": "動詞",
+  "ja": "使う",
+  "ipa": "juz",
+  "theme": "actions",
+  "ex": "Can I use your phone?",
+  "exJa": "電話を使ってもいいですか。"
+ },
+ {
+  "id": "en-094",
+  "w": "call",
+  "pos": "動詞",
+  "ja": "電話する・呼ぶ",
+  "ipa": "kɔl",
+  "theme": "actions",
+  "ex": "Please call a taxi.",
+  "exJa": "タクシーを呼んでください。"
+ },
+ {
+  "id": "en-095",
+  "w": "learn",
+  "pos": "動詞",
+  "ja": "学ぶ・習う",
+  "ipa": "lɝn",
+  "theme": "actions",
+  "ex": "I learn English every day.",
+  "exJa": "私は毎日英語を学んでいます。"
+ },
+ {
+  "id": "en-096",
+  "w": "play",
+  "pos": "動詞",
+  "ja": "遊ぶ・（スポーツを）する・演奏する",
+  "ipa": "pleɪ",
+  "theme": "actions",
+  "ex": "The children play in the park.",
+  "exJa": "子どもたちは公園で遊びます。"
+ },
+ {
+  "id": "en-097",
+  "w": "ask",
+  "pos": "動詞",
+  "ja": "尋ねる・頼む",
+  "ipa": "æsk",
+  "theme": "actions",
+  "ex": "Can I ask a question?",
+  "exJa": "質問してもいいですか。"
+ },
+ {
+  "id": "en-098",
+  "w": "tell",
+  "pos": "動詞",
+  "ja": "伝える・教える・話す",
+  "ipa": "tɛl",
+  "theme": "actions",
+  "ex": "Please tell me your name.",
+  "exJa": "お名前を教えてください。"
+ },
+ {
+  "id": "en-099",
+  "w": "brother",
+  "pos": "名詞",
+  "ja": "兄・弟・兄弟",
+  "ipa": "ˈbrʌðɚ",
+  "theme": "people",
+  "ex": "My brother is a student.",
+  "exJa": "私の兄は学生です。"
+ },
+ {
+  "id": "en-100",
+  "w": "sister",
+  "pos": "名詞",
+  "ja": "姉・妹・姉妹",
+  "ipa": "ˈsɪstɚ",
+  "theme": "people",
+  "ex": "I have one sister.",
+  "exJa": "私には姉妹が1人います。"
+ },
+ {
+  "id": "en-101",
+  "w": "people",
+  "pos": "名詞",
+  "ja": "人々・人たち",
+  "ipa": "ˈpipəl",
+  "theme": "people",
+  "ex": "Many people live in this city.",
+  "exJa": "この町には多くの人が住んでいます。"
+ },
+ {
+  "id": "en-102",
+  "w": "teacher",
+  "pos": "名詞",
+  "ja": "先生・教師",
+  "ipa": "ˈtitʃɚ",
+  "theme": "work",
+  "ex": "My teacher is very kind.",
+  "exJa": "私の先生はとても親切です。"
+ },
+ {
+  "id": "en-103",
+  "w": "student",
+  "pos": "名詞",
+  "ja": "学生・生徒",
+  "ipa": "ˈstudənt",
+  "theme": "work",
+  "ex": "I am a student.",
+  "exJa": "私は学生です。"
+ },
+ {
+  "id": "en-104",
+  "w": "doctor",
+  "pos": "名詞",
+  "ja": "医者",
+  "ipa": "ˈdɑktɚ",
+  "theme": "work",
+  "ex": "I need a doctor.",
+  "exJa": "医者が必要です。"
+ },
+ {
+  "id": "en-105",
+  "w": "milk",
+  "pos": "名詞",
+  "ja": "牛乳・ミルク",
+  "ipa": "mɪlk",
+  "theme": "food",
+  "ex": "The cat drinks milk.",
+  "exJa": "猫が牛乳を飲んでいます。"
+ },
+ {
+  "id": "en-106",
+  "w": "meat",
+  "pos": "名詞",
+  "ja": "肉",
+  "ipa": "mit",
+  "theme": "food",
+  "ex": "I do not eat meat.",
+  "exJa": "私は肉を食べません。"
+ },
+ {
+  "id": "en-107",
+  "w": "fish",
+  "pos": "名詞",
+  "ja": "魚",
+  "ipa": "fɪʃ",
+  "theme": "food",
+  "ex": "This fish is very good.",
+  "exJa": "この魚はとてもおいしいです。"
+ },
+ {
+  "id": "en-108",
+  "w": "apple",
+  "pos": "名詞",
+  "ja": "りんご",
+  "ipa": "ˈæpəl",
+  "theme": "food",
+  "ex": "This apple is red.",
+  "exJa": "このりんごは赤いです。"
+ },
+ {
+  "id": "en-109",
+  "w": "breakfast",
+  "pos": "名詞",
+  "ja": "朝食・朝ご飯",
+  "ipa": "ˈbrɛkfəst",
+  "theme": "food",
+  "ex": "I have breakfast at seven.",
+  "exJa": "私は7時に朝食をとります。"
+ },
+ {
+  "id": "en-110",
+  "w": "lunch",
+  "pos": "名詞",
+  "ja": "昼食・昼ご飯",
+  "ipa": "lʌntʃ",
+  "theme": "food",
+  "ex": "Let's have lunch together.",
+  "exJa": "一緒にお昼を食べましょう。"
+ },
+ {
+  "id": "en-111",
+  "w": "dinner",
+  "pos": "名詞",
+  "ja": "夕食・晩ご飯",
+  "ipa": "ˈdɪnɚ",
+  "theme": "food",
+  "ex": "What is for dinner?",
+  "exJa": "夕食は何ですか。"
+ },
+ {
+  "id": "en-112",
+  "w": "bird",
+  "pos": "名詞",
+  "ja": "鳥",
+  "ipa": "bɝd",
+  "theme": "animals",
+  "ex": "The bird is in the tree.",
+  "exJa": "鳥が木にいます。"
+ },
+ {
+  "id": "en-113",
+  "w": "hand",
+  "pos": "名詞",
+  "ja": "手",
+  "ipa": "hænd",
+  "theme": "body",
+  "ex": "Wash your hands, please.",
+  "exJa": "手を洗ってください。"
+ },
+ {
+  "id": "en-114",
+  "w": "eye",
+  "pos": "名詞",
+  "ja": "目",
+  "ipa": "aɪ",
+  "theme": "body",
+  "ex": "She has blue eyes.",
+  "exJa": "彼女は青い目をしています。"
+ },
+ {
+  "id": "en-115",
+  "w": "head",
+  "pos": "名詞",
+  "ja": "頭",
+  "ipa": "hɛd",
+  "theme": "body",
+  "ex": "My head hurts.",
+  "exJa": "頭が痛いです。"
+ },
+ {
+  "id": "en-116",
+  "w": "foot",
+  "pos": "名詞",
+  "ja": "足（くるぶしから下）",
+  "ipa": "fʊt",
+  "theme": "body",
+  "ex": "My foot hurts.",
+  "exJa": "足が痛いです。"
+ },
+ {
+  "id": "en-117",
+  "w": "room",
+  "pos": "名詞",
+  "ja": "部屋",
+  "ipa": "rum",
+  "theme": "home",
+  "ex": "My room is small.",
+  "exJa": "私の部屋は狭いです。"
+ },
+ {
+  "id": "en-118",
+  "w": "door",
+  "pos": "名詞",
+  "ja": "ドア・戸",
+  "ipa": "dɔr",
+  "theme": "home",
+  "ex": "Please open the door.",
+  "exJa": "ドアを開けてください。"
+ },
+ {
+  "id": "en-119",
+  "w": "bed",
+  "pos": "名詞",
+  "ja": "ベッド・寝床",
+  "ipa": "bɛd",
+  "theme": "home",
+  "ex": "The bed is very big.",
+  "exJa": "ベッドはとても大きいです。"
+ },
+ {
+  "id": "en-120",
+  "w": "table",
+  "pos": "名詞",
+  "ja": "テーブル・食卓",
+  "ipa": "ˈteɪbəl",
+  "theme": "home",
+  "ex": "A table for two, please.",
+  "exJa": "2人用の席をお願いします。"
+ },
+ {
+  "id": "en-121",
+  "w": "toilet",
+  "pos": "名詞",
+  "ja": "トイレ・便器",
+  "ipa": "ˈtɔɪlət",
+  "theme": "home",
+  "ex": "Where is the toilet?",
+  "exJa": "トイレはどこですか。"
+ },
+ {
+  "id": "en-122",
+  "w": "key",
+  "pos": "名詞",
+  "ja": "鍵",
+  "ipa": "ki",
+  "theme": "home",
+  "ex": "I cannot find my key.",
+  "exJa": "鍵が見つかりません。"
+ },
+ {
+  "id": "en-123",
+  "w": "station",
+  "pos": "名詞",
+  "ja": "駅",
+  "ipa": "ˈsteɪʃən",
+  "theme": "places",
+  "ex": "Where is the station?",
+  "exJa": "駅はどこですか。"
+ },
+ {
+  "id": "en-124",
+  "w": "shop",
+  "pos": "名詞",
+  "ja": "店・商店",
+  "ipa": "ʃɑp",
+  "theme": "places",
+  "ex": "The shop opens at ten.",
+  "exJa": "その店は10時に開きます。"
+ },
+ {
+  "id": "en-125",
+  "w": "restaurant",
+  "pos": "名詞",
+  "ja": "レストラン・飲食店",
+  "ipa": "ˈrɛstərɑnt",
+  "theme": "places",
+  "ex": "This restaurant is very good.",
+  "exJa": "このレストランはとても良いです。"
+ },
+ {
+  "id": "en-126",
+  "w": "hotel",
+  "pos": "名詞",
+  "ja": "ホテル",
+  "ipa": "hoʊˈtɛl",
+  "theme": "places",
+  "ex": "Our hotel is near the station.",
+  "exJa": "私たちのホテルは駅の近くです。"
+ },
+ {
+  "id": "en-127",
+  "w": "hospital",
+  "pos": "名詞",
+  "ja": "病院",
+  "ipa": "ˈhɑspɪtəl",
+  "theme": "places",
+  "ex": "Where is the hospital?",
+  "exJa": "病院はどこですか。"
+ },
+ {
+  "id": "en-128",
+  "w": "airport",
+  "pos": "名詞",
+  "ja": "空港",
+  "ipa": "ˈɛrpɔrt",
+  "theme": "places",
+  "ex": "This bus goes to the airport.",
+  "exJa": "このバスは空港へ行きます。"
+ },
+ {
+  "id": "en-129",
+  "w": "bank",
+  "pos": "名詞",
+  "ja": "銀行",
+  "ipa": "bæŋk",
+  "theme": "money",
+  "ex": "The bank closes at three.",
+  "exJa": "銀行は3時に閉まります。"
+ },
+ {
+  "id": "en-130",
+  "w": "street",
+  "pos": "名詞",
+  "ja": "通り・道",
+  "ipa": "strit",
+  "theme": "places",
+  "ex": "This street is very busy.",
+  "exJa": "この通りはとても混んでいます。"
+ },
+ {
+  "id": "en-131",
+  "w": "city",
+  "pos": "名詞",
+  "ja": "都市・町",
+  "ipa": "ˈsɪti",
+  "theme": "places",
+  "ex": "Tokyo is a big city.",
+  "exJa": "東京は大きな都市です。"
+ },
+ {
+  "id": "en-132",
+  "w": "day",
+  "pos": "名詞",
+  "ja": "日・昼間",
+  "ipa": "deɪ",
+  "theme": "time",
+  "ex": "Have a good day!",
+  "exJa": "良い一日を！"
+ },
+ {
+  "id": "en-133",
+  "w": "time",
+  "pos": "名詞",
+  "ja": "時間・時・回",
+  "ipa": "taɪm",
+  "theme": "time",
+  "ex": "What time is it?",
+  "exJa": "何時ですか。"
+ },
+ {
+  "id": "en-134",
+  "w": "morning",
+  "pos": "名詞",
+  "ja": "朝・午前",
+  "ipa": "ˈmɔrnɪŋ",
+  "theme": "time",
+  "ex": "Good morning!",
+  "exJa": "おはようございます。"
+ },
+ {
+  "id": "en-135",
+  "w": "night",
+  "pos": "名詞",
+  "ja": "夜",
+  "ipa": "naɪt",
+  "theme": "time",
+  "ex": "Good night!",
+  "exJa": "おやすみなさい。"
+ },
+ {
+  "id": "en-136",
+  "w": "week",
+  "pos": "名詞",
+  "ja": "週・1週間",
+  "ipa": "wik",
+  "theme": "time",
+  "ex": "I work five days a week.",
+  "exJa": "私は週5日働きます。"
+ },
+ {
+  "id": "en-137",
+  "w": "year",
+  "pos": "名詞",
+  "ja": "年・1年",
+  "ipa": "jɪr",
+  "theme": "time",
+  "ex": "I am thirty years old.",
+  "exJa": "私は30歳です。"
+ },
+ {
+  "id": "en-138",
+  "w": "minute",
+  "pos": "名詞",
+  "ja": "分・ちょっとの間",
+  "ipa": "ˈmɪnɪt",
+  "theme": "time",
+  "ex": "The station is five minutes from here.",
+  "exJa": "駅はここから5分です。"
+ },
+ {
+  "id": "en-139",
+  "w": "weather",
+  "pos": "名詞",
+  "ja": "天気・天候",
+  "ipa": "ˈwɛðɚ",
+  "theme": "weather",
+  "ex": "How is the weather today?",
+  "exJa": "今日の天気はどうですか。"
+ },
+ {
+  "id": "en-140",
+  "w": "rain",
+  "pos": "名詞",
+  "ja": "雨",
+  "ipa": "reɪn",
+  "theme": "weather",
+  "ex": "There is a lot of rain today.",
+  "exJa": "今日は雨がたくさん降っています。"
+ },
+ {
+  "id": "en-141",
+  "w": "car",
+  "pos": "名詞",
+  "ja": "車・自動車",
+  "ipa": "kɑr",
+  "theme": "transport",
+  "ex": "My car is old.",
+  "exJa": "私の車は古いです。"
+ },
+ {
+  "id": "en-142",
+  "w": "bus",
+  "pos": "名詞",
+  "ja": "バス",
+  "ipa": "bʌs",
+  "theme": "transport",
+  "ex": "I go to work by bus.",
+  "exJa": "私はバスで仕事に行きます。"
+ },
+ {
+  "id": "en-143",
+  "w": "train",
+  "pos": "名詞",
+  "ja": "電車・列車",
+  "ipa": "treɪn",
+  "theme": "transport",
+  "ex": "The train is very fast.",
+  "exJa": "その電車はとても速いです。"
+ },
+ {
+  "id": "en-144",
+  "w": "taxi",
+  "pos": "名詞",
+  "ja": "タクシー",
+  "ipa": "ˈtæksi",
+  "theme": "transport",
+  "ex": "Let's take a taxi.",
+  "exJa": "タクシーに乗りましょう。"
+ },
+ {
+  "id": "en-145",
+  "w": "ticket",
+  "pos": "名詞",
+  "ja": "切符・チケット",
+  "ipa": "ˈtɪkɪt",
+  "theme": "transport",
+  "ex": "One ticket to the airport, please.",
+  "exJa": "空港まで切符を1枚ください。"
+ },
+ {
+  "id": "en-146",
+  "w": "money",
+  "pos": "名詞",
+  "ja": "お金",
+  "ipa": "ˈmʌni",
+  "theme": "money",
+  "ex": "I do not have much money.",
+  "exJa": "お金があまりありません。"
+ },
+ {
+  "id": "en-147",
+  "w": "card",
+  "pos": "名詞",
+  "ja": "カード",
+  "ipa": "kɑrd",
+  "theme": "money",
+  "ex": "Can I pay by card?",
+  "exJa": "カードで払えますか。"
+ },
+ {
+  "id": "en-148",
+  "w": "phone",
+  "pos": "名詞",
+  "ja": "電話・携帯電話",
+  "ipa": "foʊn",
+  "theme": "home",
+  "ex": "Can I use your phone?",
+  "exJa": "電話を使ってもいいですか。"
+ },
+ {
+  "id": "en-149",
+  "w": "book",
+  "pos": "名詞",
+  "ja": "本",
+  "ipa": "bʊk",
+  "theme": "home",
+  "ex": "This book is very good.",
+  "exJa": "この本はとても良いです。"
+ },
+ {
+  "id": "en-150",
+  "w": "bag",
+  "pos": "名詞",
+  "ja": "かばん・袋",
+  "ipa": "bæɡ",
+  "theme": "home",
+  "ex": "Do you need a bag?",
+  "exJa": "袋はご入用ですか。"
+ },
+ {
+  "id": "en-151",
+  "w": "question",
+  "pos": "名詞",
+  "ja": "質問・問題",
+  "ipa": "ˈkwɛstʃən",
+  "theme": "grammar",
+  "ex": "Can I ask a question?",
+  "exJa": "質問してもいいですか。"
+ },
+ {
+  "id": "en-152",
+  "w": "tree",
+  "pos": "名詞",
+  "ja": "木",
+  "ipa": "tri",
+  "theme": "nature",
+  "ex": "There is a big tree near my house.",
+  "exJa": "家の近くに大きな木があります。"
+ },
+ {
+  "id": "en-153",
+  "w": "one",
+  "pos": "名詞",
+  "ja": "1・1つ",
+  "ipa": "wʌn",
+  "theme": "numbers",
+  "ex": "I have one brother.",
+  "exJa": "私には兄弟が1人います。"
+ },
+ {
+  "id": "en-154",
+  "w": "two",
+  "pos": "名詞",
+  "ja": "2・2つ",
+  "ipa": "tu",
+  "theme": "numbers",
+  "ex": "Two coffees, please.",
+  "exJa": "コーヒーを2つお願いします。"
+ },
+ {
+  "id": "en-155",
+  "w": "ten",
+  "pos": "名詞",
+  "ja": "10・10個",
+  "ipa": "tɛn",
+  "theme": "numbers",
+  "ex": "The shop opens at ten.",
+  "exJa": "その店は10時に開きます。"
+ },
+ {
+  "id": "en-156",
+  "w": "red",
+  "pos": "形容詞",
+  "ja": "赤い・赤",
+  "ipa": "rɛd",
+  "theme": "colors",
+  "ex": "I like the red bag.",
+  "exJa": "私は赤いかばんが好きです。"
+ },
+ {
+  "id": "en-157",
+  "w": "blue",
+  "pos": "形容詞",
+  "ja": "青い・青",
+  "ipa": "blu",
+  "theme": "colors",
+  "ex": "The sky is blue today.",
+  "exJa": "今日は空が青いです。"
+ },
+ {
+  "id": "en-158",
+  "w": "white",
+  "pos": "形容詞",
+  "ja": "白い・白",
+  "ipa": "waɪt",
+  "theme": "colors",
+  "ex": "I have a white cat.",
+  "exJa": "私は白い猫を飼っています。"
+ },
+ {
+  "id": "en-159",
+  "w": "black",
+  "pos": "形容詞",
+  "ja": "黒い・黒",
+  "ipa": "blæk",
+  "theme": "colors",
+  "ex": "My dog is black.",
+  "exJa": "うちの犬は黒いです。"
+ },
+ {
+  "id": "en-160",
+  "w": "good",
+  "pos": "形容詞",
+  "ja": "良い・おいしい・上手な",
+  "ipa": "ɡʊd",
+  "theme": "description",
+  "ex": "This coffee is good.",
+  "exJa": "このコーヒーはおいしいです。"
+ },
+ {
+  "id": "en-161",
+  "w": "bad",
+  "pos": "形容詞",
+  "ja": "悪い・ひどい",
+  "ipa": "bæd",
+  "theme": "description",
+  "ex": "The weather is bad today.",
+  "exJa": "今日は天気が悪いです。"
+ },
+ {
+  "id": "en-162",
+  "w": "big",
+  "pos": "形容詞",
+  "ja": "大きい",
+  "ipa": "bɪɡ",
+  "theme": "description",
+  "ex": "That is a big house.",
+  "exJa": "あれは大きな家です。"
+ },
+ {
+  "id": "en-163",
+  "w": "small",
+  "pos": "形容詞",
+  "ja": "小さい・狭い",
+  "ipa": "smɔl",
+  "theme": "description",
+  "ex": "My room is small.",
+  "exJa": "私の部屋は狭いです。"
+ },
+ {
+  "id": "en-164",
+  "w": "hot",
+  "pos": "形容詞",
+  "ja": "暑い・熱い・辛い",
+  "ipa": "hɑt",
+  "theme": "weather",
+  "ex": "It is very hot today.",
+  "exJa": "今日はとても暑いです。"
+ },
+ {
+  "id": "en-165",
+  "w": "cold",
+  "pos": "形容詞",
+  "ja": "寒い・冷たい",
+  "ipa": "koʊld",
+  "theme": "weather",
+  "ex": "The water is cold.",
+  "exJa": "水が冷たいです。"
+ },
+ {
+  "id": "en-166",
+  "w": "new",
+  "pos": "形容詞",
+  "ja": "新しい",
+  "ipa": "nu",
+  "theme": "description",
+  "ex": "I want a new phone.",
+  "exJa": "新しい電話が欲しいです。"
+ },
+ {
+  "id": "en-167",
+  "w": "old",
+  "pos": "形容詞",
+  "ja": "古い・年をとった",
+  "ipa": "oʊld",
+  "theme": "description",
+  "ex": "This house is very old.",
+  "exJa": "この家はとても古いです。"
+ },
+ {
+  "id": "en-168",
+  "w": "happy",
+  "pos": "形容詞",
+  "ja": "うれしい・幸せな",
+  "ipa": "ˈhæpi",
+  "theme": "feelings",
+  "ex": "I am very happy today.",
+  "exJa": "今日はとてもうれしいです。"
+ },
+ {
+  "id": "en-169",
+  "w": "hungry",
+  "pos": "形容詞",
+  "ja": "お腹がすいた",
+  "ipa": "ˈhʌŋɡri",
+  "theme": "feelings",
+  "ex": "I am hungry. Let's eat.",
+  "exJa": "お腹がすきました。食べましょう。"
+ },
+ {
+  "id": "en-170",
+  "w": "tired",
+  "pos": "形容詞",
+  "ja": "疲れた",
+  "ipa": "ˈtaɪɚd",
+  "theme": "feelings",
+  "ex": "I am very tired today.",
+  "exJa": "今日はとても疲れています。"
+ },
+ {
+  "id": "en-171",
+  "w": "sick",
+  "pos": "形容詞",
+  "ja": "病気の・気分が悪い",
+  "ipa": "sɪk",
+  "theme": "body",
+  "ex": "My child is sick.",
+  "exJa": "子どもが病気です。"
+ },
+ {
+  "id": "en-172",
+  "w": "beautiful",
+  "pos": "形容詞",
+  "ja": "美しい・きれいな",
+  "ipa": "ˈbjutəfəl",
+  "theme": "description",
+  "ex": "The city is beautiful.",
+  "exJa": "その町は美しいです。"
+ },
+ {
+  "id": "en-173",
+  "w": "expensive",
+  "pos": "形容詞",
+  "ja": "高い・高価な",
+  "ipa": "ɪkˈspɛnsɪv",
+  "theme": "money",
+  "ex": "This hotel is expensive.",
+  "exJa": "このホテルは高いです。"
+ },
+ {
+  "id": "en-174",
+  "w": "cheap",
+  "pos": "形容詞",
+  "ja": "安い",
+  "ipa": "tʃip",
+  "theme": "money",
+  "ex": "The food here is cheap.",
+  "exJa": "ここの料理は安いです。"
+ },
+ {
+  "id": "en-175",
+  "w": "easy",
+  "pos": "形容詞",
+  "ja": "簡単な・やさしい",
+  "ipa": "ˈizi",
+  "theme": "description",
+  "ex": "This question is easy.",
+  "exJa": "この問題は簡単です。"
+ },
+ {
+  "id": "en-176",
+  "w": "difficult",
+  "pos": "形容詞",
+  "ja": "難しい",
+  "ipa": "ˈdɪfɪkəlt",
+  "theme": "description",
+  "ex": "English is difficult for me.",
+  "exJa": "英語は私には難しいです。"
+ },
+ {
+  "id": "en-177",
+  "w": "fast",
+  "pos": "形容詞",
+  "ja": "速い・素早い",
+  "ipa": "fæst",
+  "theme": "description",
+  "ex": "The train is very fast.",
+  "exJa": "その電車はとても速いです。"
+ },
+ {
+  "id": "en-178",
+  "w": "near",
+  "pos": "形容詞",
+  "ja": "近い・～の近くに",
+  "ipa": "nɪr",
+  "theme": "places",
+  "ex": "The station is near.",
+  "exJa": "駅は近いです。"
+ },
+ {
+  "id": "en-179",
+  "w": "far",
+  "pos": "形容詞",
+  "ja": "遠い・遠くに",
+  "ipa": "fɑr",
+  "theme": "places",
+  "ex": "Is the airport far?",
+  "exJa": "空港は遠いですか。"
+ },
+ {
+  "id": "en-180",
+  "w": "busy",
+  "pos": "形容詞",
+  "ja": "忙しい・混んでいる",
+  "ipa": "ˈbɪzi",
+  "theme": "work",
+  "ex": "I am busy today.",
+  "exJa": "今日は忙しいです。"
+ },
+ {
+  "id": "en-181",
+  "w": "clean",
+  "pos": "形容詞",
+  "ja": "きれいな・清潔な",
+  "ipa": "klin",
+  "theme": "home",
+  "ex": "The room is very clean.",
+  "exJa": "部屋はとてもきれいです。"
+ },
+ {
+  "id": "en-182",
+  "w": "many",
+  "pos": "限定詞",
+  "ja": "たくさんの・多くの",
+  "ipa": "ˈmɛni",
+  "theme": "grammar",
+  "ex": "There are many people here.",
+  "exJa": "ここにはたくさんの人がいます。"
+ },
+ {
+  "id": "en-183",
+  "w": "some",
+  "pos": "限定詞",
+  "ja": "いくらかの・いくつかの",
+  "ipa": "sʌm",
+  "theme": "grammar",
+  "ex": "I want some bread.",
+  "exJa": "パンが少し欲しいです。"
+ },
+ {
+  "id": "en-184",
+  "w": "every",
+  "pos": "限定詞",
+  "ja": "毎～・すべての",
+  "ipa": "ˈɛvri",
+  "theme": "grammar",
+  "ex": "I drink coffee every day.",
+  "exJa": "私は毎日コーヒーを飲みます。"
+ },
+ {
+  "id": "en-185",
+  "w": "all",
+  "pos": "限定詞",
+  "ja": "すべての・全部",
+  "ipa": "ɔl",
+  "theme": "grammar",
+  "ex": "All my friends are here.",
+  "exJa": "友達はみんなここにいます。"
+ },
+ {
+  "id": "en-186",
+  "w": "in",
+  "pos": "前置詞",
+  "ja": "～の中に・～で",
+  "ipa": "ɪn",
+  "theme": "grammar",
+  "ex": "The cat is in the house.",
+  "exJa": "猫は家の中にいます。"
+ },
+ {
+  "id": "en-187",
+  "w": "on",
+  "pos": "前置詞",
+  "ja": "～の上に・～に（曜日）",
+  "ipa": "ɑn",
+  "theme": "grammar",
+  "ex": "The book is on the table.",
+  "exJa": "本はテーブルの上にあります。"
+ },
+ {
+  "id": "en-188",
+  "w": "at",
+  "pos": "前置詞",
+  "ja": "～で・～に（時刻）",
+  "ipa": "æt",
+  "theme": "grammar",
+  "ex": "I get up at six.",
+  "exJa": "私は6時に起きます。"
+ },
+ {
+  "id": "en-189",
+  "w": "to",
+  "pos": "前置詞",
+  "ja": "～へ・～まで",
+  "ipa": "tu",
+  "theme": "grammar",
+  "ex": "I go to school.",
+  "exJa": "私は学校へ行きます。"
+ },
+ {
+  "id": "en-190",
+  "w": "from",
+  "pos": "前置詞",
+  "ja": "～から",
+  "ipa": "frʌm",
+  "theme": "grammar",
+  "ex": "I am from Japan.",
+  "exJa": "私は日本から来ました。"
+ },
+ {
+  "id": "en-191",
+  "w": "with",
+  "pos": "前置詞",
+  "ja": "～と一緒に・～で",
+  "ipa": "wɪð",
+  "theme": "grammar",
+  "ex": "I live with my family.",
+  "exJa": "私は家族と住んでいます。"
+ },
+ {
+  "id": "en-192",
+  "w": "for",
+  "pos": "前置詞",
+  "ja": "～のために・～用の・～の間",
+  "ipa": "fɔr",
+  "theme": "grammar",
+  "ex": "This is for you.",
+  "exJa": "これはあなたへのものです。"
+ },
+ {
+  "id": "en-193",
+  "w": "here",
+  "pos": "副詞",
+  "ja": "ここに・ここで",
+  "ipa": "hɪr",
+  "theme": "places",
+  "ex": "Please sit here.",
+  "exJa": "ここに座ってください。"
+ },
+ {
+  "id": "en-194",
+  "w": "there",
+  "pos": "副詞",
+  "ja": "そこに・あそこに",
+  "ipa": "ðɛr",
+  "theme": "places",
+  "ex": "The toilet is over there.",
+  "exJa": "トイレはあそこです。"
+ },
+ {
+  "id": "en-195",
+  "w": "now",
+  "pos": "副詞",
+  "ja": "今・現在",
+  "ipa": "naʊ",
+  "theme": "time",
+  "ex": "I am busy now.",
+  "exJa": "今忙しいです。"
+ },
+ {
+  "id": "en-196",
+  "w": "today",
+  "pos": "副詞",
+  "ja": "今日・本日",
+  "ipa": "təˈdeɪ",
+  "theme": "time",
+  "ex": "It is cold today.",
+  "exJa": "今日は寒いです。"
+ },
+ {
+  "id": "en-197",
+  "w": "tomorrow",
+  "pos": "副詞",
+  "ja": "明日",
+  "ipa": "təˈmɑroʊ",
+  "theme": "time",
+  "ex": "See you tomorrow.",
+  "exJa": "また明日。"
+ },
+ {
+  "id": "en-198",
+  "w": "yesterday",
+  "pos": "副詞",
+  "ja": "昨日",
+  "ipa": "ˈjɛstɚdeɪ",
+  "theme": "time",
+  "ex": "I was tired yesterday.",
+  "exJa": "昨日は疲れていました。"
+ },
+ {
+  "id": "en-199",
+  "w": "very",
+  "pos": "副詞",
+  "ja": "とても・非常に",
+  "ipa": "ˈvɛri",
+  "theme": "description",
+  "ex": "It is very cold today.",
+  "exJa": "今日はとても寒いです。"
+ },
+ {
+  "id": "en-200",
+  "w": "again",
+  "pos": "副詞",
+  "ja": "もう一度・また",
+  "ipa": "əˈɡɛn",
+  "theme": "grammar",
+  "ex": "Please say that again.",
+  "exJa": "もう一度言ってください。"
+ }
+]

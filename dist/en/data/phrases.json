@@ -1,0 +1,962 @@
+[
+ {
+  "id": "ep-001",
+  "en": "Hello.",
+  "ja": "こんにちは。",
+  "theme": "greetings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-002",
+  "en": "Thank you.",
+  "ja": "ありがとう。",
+  "theme": "greetings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-003",
+  "en": "Thank you very much.",
+  "ja": "どうもありがとうございます。",
+  "theme": "greetings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-004",
+  "en": "You're welcome.",
+  "ja": "どういたしまして。",
+  "theme": "greetings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-005",
+  "en": "I'm sorry.",
+  "ja": "ごめんなさい。",
+  "theme": "greetings",
+  "note": "謝る時に使う。呼びかけはExcuse me",
+  "level": 1
+ },
+ {
+  "id": "ep-006",
+  "en": "Excuse me.",
+  "ja": "すみません。",
+  "theme": "greetings",
+  "note": "人を呼ぶ・前を通る時に使う",
+  "level": 1
+ },
+ {
+  "id": "ep-007",
+  "en": "Yes.",
+  "ja": "はい。",
+  "theme": "basics",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-008",
+  "en": "No.",
+  "ja": "いいえ。",
+  "theme": "basics",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-009",
+  "en": "Please.",
+  "ja": "お願いします。",
+  "theme": "basics",
+  "note": "頼み事に添えると丁寧になる",
+  "level": 1
+ },
+ {
+  "id": "ep-010",
+  "en": "No, thank you.",
+  "ja": "いいえ、結構です。",
+  "theme": "basics",
+  "note": "断る時もthank youを添える",
+  "level": 1
+ },
+ {
+  "id": "ep-011",
+  "en": "OK.",
+  "ja": "わかりました。",
+  "theme": "basics",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-012",
+  "en": "Good morning.",
+  "ja": "おはようございます。",
+  "theme": "greetings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-013",
+  "en": "Good night.",
+  "ja": "おやすみなさい。",
+  "theme": "greetings",
+  "note": "別れ際や寝る前。会った時は使わない",
+  "level": 1
+ },
+ {
+  "id": "ep-014",
+  "en": "Goodbye.",
+  "ja": "さようなら。",
+  "theme": "greetings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-015",
+  "en": "See you.",
+  "ja": "またね。",
+  "theme": "greetings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-016",
+  "en": "Nice to meet you.",
+  "ja": "はじめまして。",
+  "theme": "greetings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-017",
+  "en": "How are you?",
+  "ja": "元気ですか？",
+  "theme": "greetings",
+  "note": "挨拶代わり。軽く答えればよい",
+  "level": 1
+ },
+ {
+  "id": "ep-018",
+  "en": "I'm fine, thanks.",
+  "ja": "元気です、ありがとう。",
+  "theme": "greetings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-019",
+  "en": "My name is Ken.",
+  "ja": "私の名前はケンです。",
+  "theme": "greetings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-020",
+  "en": "What's your name?",
+  "ja": "お名前は？",
+  "theme": "greetings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-021",
+  "en": "I don't understand.",
+  "ja": "わかりません。",
+  "theme": "basics",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-022",
+  "en": "I don't know.",
+  "ja": "知りません。",
+  "theme": "basics",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-023",
+  "en": "Sorry?",
+  "ja": "えっ、何ですか？",
+  "theme": "basics",
+  "note": "聞き返す時は語尾を上げる",
+  "level": 1
+ },
+ {
+  "id": "ep-024",
+  "en": "Please speak slowly.",
+  "ja": "ゆっくり話してください。",
+  "theme": "basics",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-025",
+  "en": "Could you say that again?",
+  "ja": "もう一度言ってもらえますか？",
+  "theme": "basics",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-026",
+  "en": "Do you speak Japanese?",
+  "ja": "日本語を話せますか？",
+  "theme": "basics",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-027",
+  "en": "I don't speak English well.",
+  "ja": "英語はあまり話せません。",
+  "theme": "basics",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-028",
+  "en": "What does this mean?",
+  "ja": "これはどういう意味ですか？",
+  "theme": "basics",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-029",
+  "en": "Can you help me?",
+  "ja": "手伝ってもらえますか？",
+  "theme": "help",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-030",
+  "en": "Help!",
+  "ja": "助けて！",
+  "theme": "help",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-031",
+  "en": "Of course.",
+  "ja": "もちろん。",
+  "theme": "basics",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-032",
+  "en": "No problem.",
+  "ja": "大丈夫です。",
+  "theme": "basics",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-033",
+  "en": "Me too.",
+  "ja": "私もです。",
+  "theme": "basics",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-034",
+  "en": "Really?",
+  "ja": "本当？",
+  "theme": "basics",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-035",
+  "en": "Just a moment, please.",
+  "ja": "少々お待ちください。",
+  "theme": "basics",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-036",
+  "en": "Where's the restroom?",
+  "ja": "お手洗いはどこですか？",
+  "theme": "directions",
+  "note": "英国ではtoiletでも自然",
+  "level": 1
+ },
+ {
+  "id": "ep-037",
+  "en": "How much is this?",
+  "ja": "これはいくらですか？",
+  "theme": "shopping",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-038",
+  "en": "I'll take this.",
+  "ja": "これをください。",
+  "theme": "shopping",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-039",
+  "en": "Do you have this?",
+  "ja": "これはありますか？",
+  "theme": "shopping",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-040",
+  "en": "I'm just looking.",
+  "ja": "見ているだけです。",
+  "theme": "shopping",
+  "note": "店員に声をかけられた時に使う",
+  "level": 1
+ },
+ {
+  "id": "ep-041",
+  "en": "Can I pay by card?",
+  "ja": "カードで払えますか？",
+  "theme": "shopping",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-042",
+  "en": "Cash, please.",
+  "ja": "現金でお願いします。",
+  "theme": "shopping",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-043",
+  "en": "That's too expensive.",
+  "ja": "高すぎます。",
+  "theme": "shopping",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-044",
+  "en": "Do you have a smaller one?",
+  "ja": "もっと小さいのはありますか？",
+  "theme": "shopping",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-045",
+  "en": "Can I try this on?",
+  "ja": "試着してもいいですか？",
+  "theme": "shopping",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-046",
+  "en": "A bag, please.",
+  "ja": "袋をください。",
+  "theme": "shopping",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-047",
+  "en": "Can I have a receipt?",
+  "ja": "レシートをもらえますか？",
+  "theme": "shopping",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-048",
+  "en": "I'm hungry.",
+  "ja": "お腹がすきました。",
+  "theme": "food",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-049",
+  "en": "Water, please.",
+  "ja": "水をください。",
+  "theme": "food",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-050",
+  "en": "A table for two, please.",
+  "ja": "2人です。",
+  "theme": "food",
+  "note": "店で人数を伝える言い方",
+  "level": 2
+ },
+ {
+  "id": "ep-051",
+  "en": "Can I see the menu?",
+  "ja": "メニューを見せてください。",
+  "theme": "food",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-052",
+  "en": "What do you recommend?",
+  "ja": "おすすめは何ですか？",
+  "theme": "food",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-053",
+  "en": "I'd like this.",
+  "ja": "これにします。",
+  "theme": "food",
+  "note": "注文はI wantよりI'd likeが丁寧",
+  "level": 1
+ },
+ {
+  "id": "ep-054",
+  "en": "The same, please.",
+  "ja": "同じものをください。",
+  "theme": "food",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-055",
+  "en": "Is this spicy?",
+  "ja": "これは辛いですか？",
+  "theme": "food",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-056",
+  "en": "I can't eat pork.",
+  "ja": "豚肉が食べられません。",
+  "theme": "food",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-057",
+  "en": "It's delicious.",
+  "ja": "おいしいです。",
+  "theme": "food",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-058",
+  "en": "I'm full.",
+  "ja": "お腹いっぱいです。",
+  "theme": "food",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-059",
+  "en": "To go, please.",
+  "ja": "持ち帰りでお願いします。",
+  "theme": "food",
+  "note": "英国ではTake away, please.",
+  "level": 2
+ },
+ {
+  "id": "ep-060",
+  "en": "Check, please.",
+  "ja": "お会計をお願いします。",
+  "theme": "food",
+  "note": "英国ではThe bill, please.",
+  "level": 2
+ },
+ {
+  "id": "ep-061",
+  "en": "Where is the station?",
+  "ja": "駅はどこですか？",
+  "theme": "directions",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-062",
+  "en": "Is it near here?",
+  "ja": "この近くですか？",
+  "theme": "directions",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-063",
+  "en": "Is it far?",
+  "ja": "遠いですか？",
+  "theme": "directions",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-064",
+  "en": "How do I get to the hotel?",
+  "ja": "ホテルへはどう行けばいいですか？",
+  "theme": "directions",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-065",
+  "en": "Go straight.",
+  "ja": "まっすぐ行ってください。",
+  "theme": "directions",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-066",
+  "en": "Turn right.",
+  "ja": "右に曲がってください。",
+  "theme": "directions",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-067",
+  "en": "Turn left.",
+  "ja": "左に曲がってください。",
+  "theme": "directions",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-068",
+  "en": "It's over there.",
+  "ja": "あそこです。",
+  "theme": "directions",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-069",
+  "en": "I'm lost.",
+  "ja": "道に迷いました。",
+  "theme": "directions",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-070",
+  "en": "Can you show me on the map?",
+  "ja": "地図で教えてもらえますか？",
+  "theme": "directions",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-071",
+  "en": "What time is it?",
+  "ja": "今何時ですか？",
+  "theme": "time",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-072",
+  "en": "What time does it open?",
+  "ja": "何時に開きますか？",
+  "theme": "time",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-073",
+  "en": "What time does it close?",
+  "ja": "何時に閉まりますか？",
+  "theme": "time",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-074",
+  "en": "How long does it take?",
+  "ja": "どれくらい時間がかかりますか？",
+  "theme": "time",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-075",
+  "en": "See you tomorrow.",
+  "ja": "また明日。",
+  "theme": "greetings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-076",
+  "en": "What day is it today?",
+  "ja": "今日は何曜日ですか？",
+  "theme": "time",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-077",
+  "en": "Sorry I'm late.",
+  "ja": "遅れてすみません。",
+  "theme": "time",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-078",
+  "en": "Are you free tomorrow?",
+  "ja": "明日は空いていますか？",
+  "theme": "time",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-079",
+  "en": "Let's meet at six.",
+  "ja": "6時に会いましょう。",
+  "theme": "time",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-080",
+  "en": "I'm happy.",
+  "ja": "うれしいです。",
+  "theme": "feelings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-081",
+  "en": "I'm tired.",
+  "ja": "疲れました。",
+  "theme": "feelings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-082",
+  "en": "I'm sleepy.",
+  "ja": "眠いです。",
+  "theme": "feelings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-083",
+  "en": "I'm cold.",
+  "ja": "寒いです。",
+  "theme": "feelings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-084",
+  "en": "I like it.",
+  "ja": "気に入りました。",
+  "theme": "feelings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-085",
+  "en": "I don't like it.",
+  "ja": "好きではありません。",
+  "theme": "feelings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-086",
+  "en": "That's great!",
+  "ja": "すごいですね！",
+  "theme": "feelings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-087",
+  "en": "Don't worry.",
+  "ja": "気にしないで。",
+  "theme": "feelings",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-088",
+  "en": "I'm worried.",
+  "ja": "心配です。",
+  "theme": "feelings",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-089",
+  "en": "That's too bad.",
+  "ja": "それは残念です。",
+  "theme": "feelings",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-090",
+  "en": "I'm looking forward to it.",
+  "ja": "楽しみにしています。",
+  "theme": "feelings",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-091",
+  "en": "Where are you from?",
+  "ja": "どこの出身ですか？",
+  "theme": "smalltalk",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-092",
+  "en": "I'm from Japan.",
+  "ja": "日本から来ました。",
+  "theme": "smalltalk",
+  "note": "",
+  "level": 1
+ },
+ {
+  "id": "ep-093",
+  "en": "It's hot today.",
+  "ja": "今日は暑いですね。",
+  "theme": "smalltalk",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-094",
+  "en": "Nice weather, isn't it?",
+  "ja": "いい天気ですね。",
+  "theme": "smalltalk",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-095",
+  "en": "What do you do?",
+  "ja": "お仕事は何ですか？",
+  "theme": "smalltalk",
+  "note": "職業を尋ねる定番の言い方",
+  "level": 2
+ },
+ {
+  "id": "ep-096",
+  "en": "What do you like to do?",
+  "ja": "趣味は何ですか？",
+  "theme": "smalltalk",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-097",
+  "en": "How was your day?",
+  "ja": "今日はどうでしたか？",
+  "theme": "smalltalk",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-098",
+  "en": "Have a nice day.",
+  "ja": "よい一日を。",
+  "theme": "greetings",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-099",
+  "en": "I have a reservation.",
+  "ja": "予約しています。",
+  "theme": "travel",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-100",
+  "en": "I'd like to check in.",
+  "ja": "チェックインをお願いします。",
+  "theme": "travel",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-101",
+  "en": "One ticket to Kyoto, please.",
+  "ja": "京都まで1枚ください。",
+  "theme": "travel",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-102",
+  "en": "Where is the bus stop?",
+  "ja": "バス停はどこですか？",
+  "theme": "travel",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-103",
+  "en": "Which train goes to the airport?",
+  "ja": "空港へ行くのはどの電車ですか？",
+  "theme": "travel",
+  "note": "",
+  "level": 3
+ },
+ {
+  "id": "ep-104",
+  "en": "Please take me to this address.",
+  "ja": "この住所までお願いします。",
+  "theme": "travel",
+  "note": "タクシーで住所を見せながら言う",
+  "level": 2
+ },
+ {
+  "id": "ep-105",
+  "en": "Can you take a picture?",
+  "ja": "写真を撮ってもらえますか？",
+  "theme": "travel",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-106",
+  "en": "Is there Wi-Fi?",
+  "ja": "Wi-Fiはありますか？",
+  "theme": "travel",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-107",
+  "en": "Where is the exit?",
+  "ja": "出口はどこですか？",
+  "theme": "travel",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-108",
+  "en": "Is this seat taken?",
+  "ja": "この席は空いていますか？",
+  "theme": "travel",
+  "note": "Yesなら使用中、Noなら座れる",
+  "level": 3
+ },
+ {
+  "id": "ep-109",
+  "en": "Can I leave my bag here?",
+  "ja": "ここに荷物を預けられますか？",
+  "theme": "travel",
+  "note": "",
+  "level": 3
+ },
+ {
+  "id": "ep-110",
+  "en": "Call the police!",
+  "ja": "警察を呼んで！",
+  "theme": "help",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-111",
+  "en": "Call an ambulance!",
+  "ja": "救急車を呼んで！",
+  "theme": "help",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-112",
+  "en": "I need a doctor.",
+  "ja": "医者に診てもらいたいです。",
+  "theme": "help",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-113",
+  "en": "I don't feel well.",
+  "ja": "具合が悪いです。",
+  "theme": "help",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-114",
+  "en": "It hurts here.",
+  "ja": "ここが痛いです。",
+  "theme": "help",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-115",
+  "en": "Where is the hospital?",
+  "ja": "病院はどこですか？",
+  "theme": "help",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-116",
+  "en": "Is there a pharmacy near here?",
+  "ja": "近くに薬局はありますか？",
+  "theme": "help",
+  "note": "",
+  "level": 3
+ },
+ {
+  "id": "ep-117",
+  "en": "I'm allergic to nuts.",
+  "ja": "ナッツアレルギーがあります。",
+  "theme": "help",
+  "note": "",
+  "level": 3
+ },
+ {
+  "id": "ep-118",
+  "en": "I lost my wallet.",
+  "ja": "財布をなくしました。",
+  "theme": "help",
+  "note": "",
+  "level": 2
+ },
+ {
+  "id": "ep-119",
+  "en": "My passport was stolen.",
+  "ja": "パスポートを盗まれました。",
+  "theme": "help",
+  "note": "",
+  "level": 3
+ },
+ {
+  "id": "ep-120",
+  "en": "Be careful!",
+  "ja": "気をつけて！",
+  "theme": "help",
+  "note": "",
+  "level": 1
+ }
+]
