@@ -42,6 +42,19 @@ def apply(only=None):
     for i,x in (json.loads(FA.read_text()) if FA.exists() else {}).items():
         w=by.get(i)
         if w and w['frequency']!=x['to']:w.setdefault('frequencyMeasured',w['frequency']);w['frequency']=x['to'];w['frequencyReview']=x['reason']  # keep the measured value for calibration;stat['freq']=stat.get('freq',0)+1
+    # Senses used mainly in writing (scripts/word-review/literary-extra.json): shown as 文語. Royal, dated and colloquial styles are kept.
+    LX=W/'literary-extra.json'
+    for i,x in (json.loads(LX.read_text()) if LX.exists() else {}).items():
+        w=by.get(i)
+        if not w:continue
+        for m in w['meanings']:
+            if m['sourceSense'] not in x['senses']:continue
+            tags=m.setdefault('registerTags',[])
+            if 'literary' not in tags:tags.append('literary');stat['literary']+=1
+            if not m.get('speechStyle') or m['speechStyle'].startswith('標準') or m['speechStyle']=='改まった表現':m['speechStyle']='文語'
+        if all('literary' in (m.get('registerTags') or []) for m in w['meanings']) and (not w.get('speechStyle') or w['speechStyle'].startswith('標準') or w['speechStyle']=='改まった表現'):
+            w['speechStyle']='文語'
+            if 'literary' not in w.setdefault('tags',[]):w['tags'].append('literary')
     # Slang deck review (scripts/slang-review/results-*.json): category and frequency judged for everyday native use.
     for f in sorted((P/'scripts/slang-review').glob('results-*.json')):
         for x in json.loads(f.read_text()):

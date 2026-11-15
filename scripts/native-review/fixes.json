@@ -48704,5 +48704,104 @@
 "to": "もし〜なら（やや改まった）",
 "reason": "ถ้า と同じ形にそろえる（AI精査 2026-11）",
 "sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-00195",
+"field": "sense.ja",
+"from": "〜する・〜した（関係節を導く、書き言葉）",
+"to": "〜する・〜した（関係節を導く）",
+"reason": "「書き言葉」は文語ラベルで示す（AI精査 2026-11）",
+"sense": 2
+},
+{
+"file": "word-bank.json",
+"id": "tl-00140",
+"field": "sense.ja",
+"from": "〜する・〜した（関係節を導く、やや書き言葉）",
+"to": "〜する・〜した（関係節を導く）",
+"reason": "「書き言葉」は文語ラベルで示す（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-00202",
+"field": "sense.ja",
+"from": "それで・だから（結果を導く。主語の後に置く、やや書き言葉）",
+"to": "それで・だから（結果を導く。主語の後に置く）",
+"reason": "「書き言葉」は文語ラベルで示す（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-01163",
+"field": "sense.ja",
+"from": "どの・いずれの（書き言葉）",
+"to": "どの・いずれの",
+"reason": "「書き言葉」は文語ラベルで示す（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-00365",
+"field": "sense.ja",
+"from": "したがって・だから（書き言葉寄り）",
+"to": "したがって・だから",
+"reason": "「書き言葉」は文語ラベルで示す（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-41526",
+"field": "sense.ja",
+"from": "目・瞳（書き言葉寄り）",
+"to": "目・瞳",
+"reason": "「書き言葉」は文語ラベルで示す（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-41531",
+"field": "sense.ja",
+"from": "どれほど・いかほど（書き言葉）",
+"to": "どれほど・いかほど",
+"reason": "「書き言葉」は文語ラベルで示す（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-43866",
+"field": "sense.ja",
+"from": "敗れる・負ける（書き言葉・報道）",
+"to": "敗れる・負ける（報道で多い）",
+"reason": "「書き言葉」は文語ラベルで示す（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-45692",
+"field": "sense.ja",
+"from": "愛欲・性欲（仏教・書き言葉で）",
+"to": "愛欲・性欲（仏教の語）",
+"reason": "「書き言葉」は文語ラベルで示す（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-42792",
+"field": "sense.ja",
+"from": "（文末で）〜ではない・〜などしない（書き言葉の否定）",
+"to": "（文末で）〜ではない・〜などしない",
+"reason": "「書き言葉」は文語ラベルで示す（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51939",
+"field": "sense.ja",
+"from": "本当か？（書き言葉寄り）",
+"to": "本当か？",
+"reason": "「書き言葉」は文語ラベルで示す（AI精査 2026-11）",
+"sense": 1
 }
 ]
