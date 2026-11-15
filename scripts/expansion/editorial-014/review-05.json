@@ -1,0 +1,444 @@
+[
+ {
+  "id": "tl-56605",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56621",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56637",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56653",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56669",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56685",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56701",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56717",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56733",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56749",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56765",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56781",
+  "verdict": "reject",
+  "issues": [
+   "既存の เร็วๆ（早く・急いで）＋หน่อย の自由な組み合わせ（ช้าๆ หน่อย・เบาๆ หน่อย なども同様）で、固定した意味がない"
+  ]
+ },
+ {
+  "id": "tl-56797",
+  "verdict": "reject",
+  "issues": [
+   "คุย＋ไม่สะดวก の自由な組み合わせ。ไม่สะดวก 自体も自由な否定として却下済み（editorial-014 part-13）。注記のとおり ไม่สะดวกคุย と語順も入れ替わり、固定表現ではない"
+  ]
+ },
+ {
+  "id": "tl-56813",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56829",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56845",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56861",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56877",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56893",
+  "verdict": "reject",
+  "issues": [
+   "既存の ติดต่อ（連絡する）＋ไม่ได้ の規則的な不可能形で、固定した意味がない"
+  ]
+ },
+ {
+  "id": "tl-56909",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56925",
+  "verdict": "fix",
+  "issues": [
+   "例文の en に原文にない性別（girl）が加わっていたため修正"
+  ],
+  "fixed": {
+   "id": "tl-56925",
+   "th": "หน้าหวาน",
+   "action": "add",
+   "ro": "nâa wǎan",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "甘く優しい顔立ちの",
+     "en": "sweet-looking, having a sweet face",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "น้องคนนี้หน้าหวานมาก",
+      "ro": "nɔ́ɔng khon níi nâa wǎan mâak",
+      "ja": "この子はとても優しい顔立ちだ。",
+      "en": "This kid has a really sweet face.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "主に女性の顔立ちをほめる言い方。対になるのは「หน้าคม」（彫りが深い顔）。"
+  }
+ },
+ {
+  "id": "tl-56941",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56957",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56973",
+  "verdict": "reject",
+  "issues": [
+   "既存語 สำเนา（写し・コピー）＋บัตรประชาชน の自由な組み合わせ（สำเนาทะเบียนบ้าน なども同様）。口語語彙でもない"
+  ]
+ },
+ {
+  "id": "tl-56989",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57005",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57021",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57037",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57053",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57069",
+  "verdict": "reject",
+  "issues": [
+   "既存の แช่ の語義2「冷やす・冷蔵する」＋ตู้เย็น の自由な組み合わせ"
+  ]
+ },
+ {
+  "id": "tl-57085",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57101",
+  "verdict": "reject",
+  "issues": [
+   "既存の เปิด の語義2「電源を入れる・つける」＋เน็ต の自由な組み合わせ（ปิดเน็ต・เปิดไฟ なども同様）"
+  ]
+ },
+ {
+  "id": "tl-57117",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57133",
+  "verdict": "reject",
+  "issues": [
+   "นั่ง＋คุย の自由な動詞連続（นั่งกิน・นั่งดู と同様）で、固有の意味がない"
+  ]
+ },
+ {
+  "id": "tl-57149",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57165",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57181",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57197",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57213",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57229",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57245",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57261",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57277",
+  "verdict": "reject",
+  "issues": [
+   "既存語 เบอร์（電話番号）＋ติดต่อ の意味が透明な組み合わせで、別見出しにする差がない"
+  ]
+ },
+ {
+  "id": "tl-57293",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57309",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57325",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57341",
+  "verdict": "reject",
+  "issues": [
+   "既存のスラング語 เบี้ยว に「支払いを逃れる」の語義があり、เบี้ยว＋หนี้ はその自由な組み合わせ"
+  ]
+ },
+ {
+  "id": "tl-57357",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57373",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57389",
+  "verdict": "reject",
+  "issues": [
+   "既存の โหลด に「荷物を積む・手荷物を預ける」の語義があり、โหลด＋กระเป๋า はその自由な組み合わせ（注記も โหลด の語義説明）"
+  ]
+ },
+ {
+  "id": "tl-57405",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57421",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57437",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57453",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57469",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57485",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57501",
+  "verdict": "fix",
+  "issues": [
+   "例文の en に原文にない性別（him）が加わっていたため修正"
+  ],
+  "fixed": {
+   "id": "tl-57501",
+   "th": "ยาเขียว",
+   "action": "add",
+   "ro": "yaa khǐiao",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ヤーキアオ（解熱用の緑色のタイ伝統薬）",
+     "en": "Thai green herbal antipyretic",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ลูกตัวร้อน แม่เลยให้กินยาเขียว",
+      "ro": "lûuk tuua rɔ́ɔn mɛ̂ɛ ləəi hâi kin yaa khǐiao",
+      "ja": "子どもが熱っぽいので、母はヤーキアオを飲ませた。",
+      "en": "The child had a fever, so the mother gave the child green herbal medicine.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "薬草を粉にした伝統薬で、水に溶かして飲む。"
+  }
+ },
+ {
+  "id": "tl-60702",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60718",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60734",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60750",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60766",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60782",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60798",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60814",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60830",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60846",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60862",
+  "verdict": "reject",
+  "issues": [
+   "既存の เชิด「つんとする」＋ใส่（〜に向かって。既存語の語義3）の自由な組み合わせ（ด่าใส่・ตะคอกใส่ と同様）"
+  ]
+ },
+ {
+  "id": "tl-60878",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60894",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60910",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60926",
+  "verdict": "ok",
+  "issues": []
+ }
+]
