@@ -1,0 +1,413 @@
+[
+ {
+  "id": "tl-56607",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56623",
+  "verdict": "reject",
+  "issues": [
+   "既存の เมื่อวันก่อน（tl-05252「先日」）の短い形で意味が同じ。editorial-010 でも同じ理由で不採用（tl-54321）。"
+  ]
+ },
+ {
+  "id": "tl-56639",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56655",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56671",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56687",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56703",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56719",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56735",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56751",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56767",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56783",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56799",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56815",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56831",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56847",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56863",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56879",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56895",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56911",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56927",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56943",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56959",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56975",
+  "verdict": "reject",
+  "issues": [
+   "既存の วันหยุดยาว（tl-51470「連休」）から วัน を省いた形で意味・用例が同じ。วันก่อน と同じ基準で重複として不採用。"
+  ]
+ },
+ {
+  "id": "tl-56991",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57007",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57023",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57039",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57055",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57071",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57087",
+  "verdict": "fix",
+  "issues": [
+   "「子どもを迎えに行く」だけでは รับ＋ลูก の自由な組み合わせ。慣用の意味（提案・発言を受けて応じる、報道で多用）を注記から語義2に移し用例を追加"
+  ],
+  "fixed": {
+   "id": "tl-57087",
+   "th": "รับลูก",
+   "action": "add",
+   "ro": "ráp lûuk",
+   "kind": "word",
+   "category": "日常の動作",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "子どもを迎えに行く",
+     "en": "to pick up one’s child",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แม่ไปรับลูกที่โรงเรียนทุกวัน",
+      "ro": "mɛ̂ɛ pai ráp lûuk thîi roong riian thúk wan",
+      "ja": "母は毎日学校へ子どもを迎えに行く。",
+      "en": "The mother picks up her child at school every day.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（相手の提案・発言を）受けて応じる・引き継いで動く",
+     "en": "to take up (someone's proposal or cue) and act on it",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "รัฐบาลรับลูกข้อเสนอของประชาชนทันที",
+      "ro": "rát thà baan ráp lûuk khɔ̂ɔ sà nə̌ə khɔ̌ɔng prà chaa chon than thii",
+      "ja": "政府は市民の提案をすぐに受けて動いた。",
+      "en": "The government promptly took up the public's proposal.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57103",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57119",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57135",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57151",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57167",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57183",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57199",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57215",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57231",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57247",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57263",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57279",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57295",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57311",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57327",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57343",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57359",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57375",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57391",
+  "verdict": "reject",
+  "issues": [
+   "เล่น＋สงกรานต์ の動詞＋目的語。既存の เล่นน้ำ（tl-55442）語義2「ソンクラーンで水かけをする」と同じ内容。editorial-012 でも同じ理由で不採用（tl-55673）。"
+  ]
+ },
+ {
+  "id": "tl-57407",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57423",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57439",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57455",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57471",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57487",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57503",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60704",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60720",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60736",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60752",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60768",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60784",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60800",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60816",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60832",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60848",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60864",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60880",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60896",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60912",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60928",
+  "verdict": "ok",
+  "issues": []
+ }
+]
