@@ -1,0 +1,401 @@
+[
+ {
+  "id": "tl-56604",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56620",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56636",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56652",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56668",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56684",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56700",
+  "verdict": "reject",
+  "issues": [
+   "既存の ตายแล้ว（tl-05186「しまった・大変だ」）と同じ驚き・失敗の声で、ตาย（tl-00121）にも同じ間投詞の語義がある。ตาย＋ล่ะ の形にすぎず、別見出しにするほどの違いがない。"
+  ]
+ },
+ {
+  "id": "tl-56716",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56732",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56748",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56764",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56780",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56796",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56812",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56828",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56844",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56860",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56876",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56892",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56908",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56924",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56940",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56956",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56972",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56988",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57004",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57020",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57036",
+  "verdict": "fix",
+  "issues": [
+   "เทค の読みを既存の เทคนิค（thék nìk）・เทคโนโลยี に合わせて thék に統一（見出し・例文）"
+  ],
+  "fixed": {
+   "id": "tl-57036",
+   "th": "เทคแคร์",
+   "action": "add",
+   "ro": "thék khɛɛ",
+   "kind": "word",
+   "category": "日常の動作",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "気遣う・面倒を見る（恋人や客などを）",
+     "en": "to take care of, look after",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "英語 take care から。เทกแคร์ とも書く。標準的には ดูแล・เอาใจใส่。",
+     "example": {
+      "th": "แฟนเขาเทคแคร์ดีมาก",
+      "ro": "fɛɛn khǎo thék khɛɛ dii mâak",
+      "ja": "あの人の恋人はすごく気遣いが細やかだ。",
+      "en": "Their partner takes really good care of them.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57052",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57068",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57084",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57100",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57116",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57132",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57148",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57164",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57180",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57196",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57212",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57228",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57244",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57260",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57276",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57292",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57308",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57324",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57340",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57356",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57372",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57388",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57404",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57420",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57436",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57452",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57468",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57484",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57500",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60701",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60717",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60733",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60749",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60765",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60781",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60797",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60813",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60829",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60845",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60861",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60877",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60893",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60909",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60925",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60941",
+  "verdict": "ok",
+  "issues": []
+ }
+]

@@ -1,0 +1,449 @@
+[
+ {
+  "id": "tl-56601",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56617",
+  "verdict": "reject",
+  "issues": [
+   "既存の เอา（tl-00074）の語義3が「まあまあ・やめなよ（ไม่เอาน่า の形でなだめる）」でこの表現そのものを扱っており重複。同バッチに เอาน่า（tl-56618）もある。"
+  ]
+ },
+ {
+  "id": "tl-56633",
+  "verdict": "reject",
+  "issues": [
+   "หมด（なくなる・尽きる）＋แล้ว（完了）の自由な組み合わせで、例文も หมด の語義そのもの。ยังไม่ได้・ไม่ทัน と同様に別見出しにする差がない。"
+  ]
+ },
+ {
+  "id": "tl-56649",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56665",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56681",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56697",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56713",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56729",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56745",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56761",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56777",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56793",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56809",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56825",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56841",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56857",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56873",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56889",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56905",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56921",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56937",
+  "verdict": "reject",
+  "issues": [
+   "既存の อัพ（tl-05001）の語義2「アップロードする・投稿する」の綴り違い（อัป/อัพ）に รูป を付けた自由な組み合わせ。"
+  ]
+ },
+ {
+  "id": "tl-56953",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56969",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56985",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57001",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57017",
+  "verdict": "reject",
+  "issues": [
+   "既存見出し มารับ（tl-54227 迎えに来る）に依頼の หน่อย を付けただけの自由な組み合わせ（どの動詞にも付く）。"
+  ]
+ },
+ {
+  "id": "tl-57033",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57049",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57065",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57081",
+  "verdict": "reject",
+  "issues": [
+   "ติด（動けなくなる・足止めされる）＋既存語 ไฟแดง（赤信号）の自由な組み合わせ（ติดฝน 等と同じ型）で、注記自体がその型を説明している。"
+  ]
+ },
+ {
+  "id": "tl-57097",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57113",
+  "verdict": "reject",
+  "issues": [
+   "既存の ฝาก（tl-00704）の語義1が「人づてに伝える・伝言を頼む」で同じ意味。さらに同バッチで ฝากบอกด้วย（tl-56993）が採用済みで重複する。"
+  ]
+ },
+ {
+  "id": "tl-57129",
+  "verdict": "reject",
+  "issues": [
+   "既存の เคลียร์（tl-02529）の語義「解決する・はっきりさせる」に相互の กัน を付けた自由な組み合わせ。例文も実際は คุยเคลียร์กัน の形。"
+  ]
+ },
+ {
+  "id": "tl-57145",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57161",
+  "verdict": "reject",
+  "issues": [
+   "既存の ยิบ（tl-47412）の唯一の語義が「（細かさを強めて）事細かに」で、ละเอียด＋ยิบ の組み合わせはその語義そのもの。口語限定とも言い難い。"
+  ]
+ },
+ {
+  "id": "tl-57177",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57193",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57209",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57225",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57241",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57257",
+  "verdict": "fix",
+  "issues": [
+   "注の「助手席はเบาะหน้า」は不正確（เบาะหน้า は前の座席全般で、運転席も含む）。注を修正"
+  ],
+  "fixed": {
+   "id": "tl-57257",
+   "th": "เบาะหลัง",
+   "action": "add",
+   "ro": "bɔ̀ lǎng",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（車の）後部座席",
+     "en": "back seat",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เด็กที่นั่งเบาะหลังก็ต้องคาดเข็มขัด",
+      "ro": "dèk thîi nâng bɔ̀ lǎng kɔ̂ɔ tɔ̂ɔng khâat khěm khàt",
+      "ja": "後部座席に座る子どももシートベルトを締めなければならない。",
+      "en": "Children in the back seat must also wear seat belts.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "前の座席はเบาะหน้าと言う。"
+  }
+ },
+ {
+  "id": "tl-57273",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57289",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57305",
+  "verdict": "reject",
+  "issues": [
+   "既存の บูด（tl-53301）の語義2が「（หน้าบูด の形で）ふくれっ面の・不機嫌な顔の」でこの形そのものを扱っており重複（แดดเปรี้ยง と同じ扱い）。"
+  ]
+ },
+ {
+  "id": "tl-57321",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57337",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57353",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57369",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57385",
+  "verdict": "reject",
+  "issues": [
+   "既存の โยน（tl-01378）の語義2「責任を押しつける（組み合わせ）」＋งาน の組み合わせで、意味が既存語義で尽きている。"
+  ]
+ },
+ {
+  "id": "tl-57401",
+  "verdict": "reject",
+  "issues": [
+   "既存の แกล้ง（からかう）と เล่น（遊びで〜する・ふざける、動詞の後）の両語義の自由な組み合わせ。"
+  ]
+ },
+ {
+  "id": "tl-57417",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57433",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57449",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57465",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57481",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57497",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57513",
+  "verdict": "fix",
+  "issues": [
+   "เติบ は中子音・促音節・声調記号なしで低声。既存の เติบ（tl-43640）も tə̀əp。見出しと例文のroの təəp（平声）を tə̀əp に修正"
+  ],
+  "fixed": {
+   "id": "tl-57513",
+   "th": "มือเติบ",
+   "action": "add",
+   "ro": "mʉʉ tə̀əp",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "金遣いが荒い・気前よく使う",
+     "en": "free-spending, extravagant",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ได้โบนัสทีไรเขามือเติบทุกที",
+      "ro": "dâai boo nát thii rai khǎo mʉʉ tə̀əp thúk thii",
+      "ja": "ボーナスが出るたびに、彼は金遣いが荒くなる。",
+      "en": "Every time he gets a bonus, he spends freely.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "反対は「けち」のขี้เหนียว。"
+  }
+ },
+ {
+  "id": "tl-60714",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60730",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60746",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60762",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60778",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60794",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60810",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60826",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60842",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60858",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60874",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60890",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60906",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60922",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60938",
+  "verdict": "ok",
+  "issues": []
+ }
+]

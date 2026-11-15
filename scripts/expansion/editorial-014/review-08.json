@@ -1,0 +1,502 @@
+[
+ {
+  "id": "tl-56608",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56624",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56640",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56656",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56672",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56688",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56704",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56720",
+  "verdict": "fix",
+  "issues": [
+   "noteの「測った熱は เป็นไข้」は不正確（เป็นไข้ は検温とは無関係に「熱が出る・発熱して病気だ」）なので修正"
+  ],
+  "fixed": {
+   "id": "tl-56720",
+   "th": "ตัวร้อน",
+   "action": "add",
+   "ro": "tuua rɔ́ɔn",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "体が熱い・熱がある",
+     "en": "to have a fever, feel feverish",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "体に触ると熱い・熱っぽいという言い方。病気として熱が出ていることは เป็นไข้・มีไข้ とも言う。",
+     "example": {
+      "th": "ลูกตัวร้อนตั้งแต่เมื่อคืน",
+      "ro": "lûuk tuua rɔ́ɔn tâng tɛ̀ɛ mʉ̂ʉa khʉʉn",
+      "ja": "子どもが昨夜から熱を出している。",
+      "en": "My child has had a fever since last night.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56736",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56752",
+  "verdict": "reject",
+  "issues": [
+   "既存の พอแล้ว（tl-52026）に「もうやめて・もういい」の語義があり、ได้ を加えて強めただけの近い言い回しで別見出しにする違いがない。"
+  ]
+ },
+ {
+  "id": "tl-56768",
+  "verdict": "reject",
+  "issues": [
+   "อย่า（〜しないで）＋既存の เครียด（tl-00961）の透明な組み合わせで語彙化した意味がない。同じ基準で โกรธเหรอ 等が skip されている（慣用的な อย่าคิดมาก は別項目で既に扱われる）。"
+  ]
+ },
+ {
+  "id": "tl-56784",
+  "verdict": "reject",
+  "issues": [
+   "既存の เท่านี้（tl-05127）に「ここまで・これで終わり（締めくくり）」の語義があり、เอา＋数量表現の生産的な組み合わせにすぎないため。"
+  ]
+ },
+ {
+  "id": "tl-56800",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56816",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56832",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56848",
+  "verdict": "reject",
+  "issues": [
+   "บ้าน＋อยู่ไหน（X อยู่ไหน）の生産的な疑問の組み合わせで、同型の โกรธเหรอ・แน่ใจเหรอ と同様に語彙化した意味がない。"
+  ]
+ },
+ {
+  "id": "tl-56864",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56880",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56896",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56912",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56928",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56944",
+  "verdict": "reject",
+  "issues": [
+   "既存の ลูกชิ้น（tl-51037「肉・魚の練り団子」）＋ปลา の透明な組み合わせで、ลูกชิ้น の語義に魚団子が含まれているため。"
+  ]
+ },
+ {
+  "id": "tl-56960",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56976",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56992",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57008",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57024",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57040",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57056",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57072",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57088",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57104",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57120",
+  "verdict": "reject",
+  "issues": [
+   "ลอง（試しに〜する、tl-00264）＋ใส่（着る、tl-00212）の生産的な組み合わせ（ลองกิน・ลองชิม と同型）で、独立見出しにする語彙化した意味がない。"
+  ]
+ },
+ {
+  "id": "tl-57136",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57152",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57168",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57184",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57200",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57216",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57232",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57248",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57264",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57280",
+  "verdict": "reject",
+  "issues": [
+   "既存の คอม（tl-03438）に「歩合・手数料（ค่าคอม の形で）」の語義があり重複する。読みも既存 คอม khɔɔm と食い違う（khâa khɔm）。"
+  ]
+ },
+ {
+  "id": "tl-57296",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57312",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57328",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57344",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57360",
+  "verdict": "fix",
+  "issues": [
+   "แอร์ は既存項目（tl-01063）で口語扱いなので、ล้างแอร์ も 口語 / [\"colloquial\"] に修正"
+  ],
+  "fixed": {
+   "id": "tl-57360",
+   "th": "ล้างแอร์",
+   "action": "add",
+   "ro": "láang ɛɛ",
+   "kind": "word",
+   "category": "家・場所",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "エアコンを洗浄する（業者によるクリーニング）",
+     "en": "to have the air conditioner cleaned",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "タイでは業者に頼む定期的な分解洗浄を指すのがふつう。",
+     "example": {
+      "th": "เราควรล้างแอร์ทุกหกเดือน",
+      "ro": "rao khuuan láang ɛɛ thúk hòk dʉʉan",
+      "ja": "エアコンは半年ごとに洗浄したほうがいい。",
+      "en": "We should get the air conditioner cleaned every six months.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57376",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57392",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57408",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57424",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57440",
+  "verdict": "fix",
+  "issues": [
+   "既存の ไข่ลวก（tl-51206「半熟卵（軽くゆでた卵）」）と訳が同じで区別できないため、jaとnoteで固ゆで寄りのねっとり半熟であることを明示"
+  ],
+  "fixed": {
+   "id": "tl-57440",
+   "th": "ไข่ยางมะตูม",
+   "action": "add",
+   "ro": "khài yaang má tuum",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（黄身がねっとりした）半熟ゆで卵",
+     "en": "soft-boiled egg (jammy yolk)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "黄身がねっとりした状態をマトゥーム（ベルノキ）の実の果肉にたとえた名前。白身もゆるい軽くゆでた卵は ไข่ลวก。",
+     "example": {
+      "th": "ตอนเช้าฉันชอบกินไข่ยางมะตูมกับขนมปัง",
+      "ro": "tɔɔn cháao chǎn chɔ̂ɔp kin khài yaang má tuum kàp khà nǒm pang",
+      "ja": "朝は半熟ゆで卵とパンを食べるのが好き。",
+      "en": "In the morning I like soft-boiled eggs with bread.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57456",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57472",
+  "verdict": "reject",
+  "issues": [
+   "ปลั๊กสามตา は「3口の電源タップ・3口アダプター」の意でも使われ（アース付きプラグはふつう ปลั๊กสามขา）、「アース付き3穴」という語義を確信できない。"
+  ]
+ },
+ {
+  "id": "tl-57488",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57504",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60705",
+  "verdict": "fix",
+  "issues": [
+   "ว่ะ（tl-01849・tl-10008）の tags に合わせ、粗い口語として tags に vulgar を追加"
+  ],
+  "fixed": {
+   "id": "tl-60705",
+   "th": "เออว่ะ",
+   "action": "add",
+   "ro": "əə wâ",
+   "kind": "expression",
+   "category": "スラング｜ほめる・反応",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "vulgar"
+   ],
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "だよな・確かに；あ、そうだった",
+     "pos": "定型表現",
+     "speechStyle": "粗い口語",
+     "note": "เออ（うん）＋ว่ะ（粗い語尾）。親しい友人同士（特に男性）の相づちで、相手の言葉に納得したときや何かに気づいたときに言う。目上には使わない。",
+     "example": {
+      "th": "เออว่ะ ลืมไปเลย",
+      "ro": "əə wâ lʉʉm pai ləəi",
+      "ja": "あ、そうだった。すっかり忘れてた。",
+      "context": "友人に約束を指摘されて",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60721",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60737",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60753",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60769",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60785",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60801",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60817",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60833",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60849",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60865",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60881",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60897",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60913",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60929",
+  "verdict": "ok",
+  "issues": []
+ }
+]

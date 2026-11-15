@@ -1,0 +1,506 @@
+[
+ {
+  "id": "tl-56612",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56628",
+  "verdict": "reject",
+  "issues": [
+   "既収録の คุ้ม（割に合う）に否定の ไม่ を付けただけの組み合わせ。著者が同じ理由で ไม่ปัง を除外しているのと揃える。"
+  ]
+ },
+ {
+  "id": "tl-56644",
+  "verdict": "reject",
+  "issues": [
+   "進行の กำลัง＋ไป（行く）をそのまま組み合わせた文で、動詞を入れ替えられる（กำลังกิน など）。著者が除外した ใกล้แล้ว・เดี๋ยวไปส่ง と同じ扱い。"
+  ]
+ },
+ {
+  "id": "tl-56660",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56676",
+  "verdict": "fix",
+  "issues": [
+   "例文 เพื่อนให้ยืมเงินฉัน は目的語の語順が不自然（普通は ให้ฉันยืมเงิน）。見出し語が連続する自然な文に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-56676",
+   "th": "ให้ยืม",
+   "action": "add",
+   "ro": "hâi yʉʉm",
+   "kind": "word",
+   "category": "日常の動作",
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "貸す",
+     "en": "to lend",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "ยืม だけだと「借りる」。「貸す」は ให้ยืม と言う。",
+     "example": {
+      "th": "ให้ยืมเงินหน่อยได้ไหม พรุ่งนี้จะคืนให้",
+      "ro": "hâi yʉʉm ngəən nɔ̀ɔi dâai mǎi phrûng níi cà khʉʉn hâi",
+      "ja": "お金ちょっと貸してくれる？明日返すから。",
+      "en": "Can you lend me some money? I will pay you back tomorrow.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56692",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56708",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56724",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56740",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56756",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56772",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56788",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56804",
+  "verdict": "reject",
+  "issues": [
+   "ตื่น（起きる）＋疑問の ยัง の普通の疑問文で、ถึงยัง・เสร็จยัง など動詞を入れ替えられる。挨拶として定着した กินข้าวยัง とは違い、著者が除外した มากับใคร と同じ扱い。"
+  ]
+ },
+ {
+  "id": "tl-56820",
+  "verdict": "reject",
+  "issues": [
+   "既収録の ยุ่ง（干渉する・首を突っ込む）に禁止の อย่า を付けただけで、注記のとおり อย่ายุ่งกับ〜 と自由に展開できる組み合わせ。"
+  ]
+ },
+ {
+  "id": "tl-56836",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56852",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56868",
+  "verdict": "reject",
+  "issues": [
+   "พัก（休む）＋既収録の ก่อน（とりあえず・先に）の組み合わせで、กินก่อน・ไปก่อน など動詞を入れ替えられる。"
+  ]
+ },
+ {
+  "id": "tl-56884",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56900",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56916",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56932",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56948",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56964",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56980",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56996",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57012",
+  "verdict": "reject",
+  "issues": [
+   "เชื่อ（信じる）＋勧めの เถอะ の組み合わせで、注記のとおり เชื่อฉันเถอะ のように間に語が入る自由な表現。"
+  ]
+ },
+ {
+  "id": "tl-57028",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57044",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57060",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57076",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57092",
+  "verdict": "reject",
+  "issues": [
+   "อยู่（いる）＋既収録の ต่อ（続ける）の組み合わせで、ทำต่อ・นั่งต่อ など動詞を入れ替えられる。"
+  ]
+ },
+ {
+  "id": "tl-57108",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57124",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57140",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57156",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57172",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57188",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57204",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57220",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57236",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57252",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで เก้า が kâo になっている（レキシコンは kâao）"
+  ],
+  "fixed": {
+   "id": "tl-57252",
+   "th": "สายด่วน",
+   "action": "add",
+   "ro": "sǎai dùuan",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ホットライン・緊急相談電話",
+     "en": "hotline",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ถ้าเจอเหตุฉุกเฉินให้โทรสายด่วนหนึ่งเก้าหนึ่ง",
+      "ro": "thâa cəə hèet chùk chə̌ən hâi thoo sǎai dùuan nʉ̀ng kâao nʉ̀ng",
+      "ja": "緊急事態にあったら、ホットライン191に電話してください。",
+      "en": "In an emergency, call the 191 hotline.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57268",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57284",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57300",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57316",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57332",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57348",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57364",
+  "verdict": "reject",
+  "issues": [
+   "ขับรถ（既収録）＋既収録の เล่น（気軽に・遊びで〜する）の組み合わせで、意味が部分の和にとどまる。"
+  ]
+ },
+ {
+  "id": "tl-57380",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57396",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57412",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57428",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57444",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57460",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57476",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57492",
+  "verdict": "fix",
+  "issues": [
+   "借用語末尾 -เมอร์ の声調：バンクの慣例（โปรแกรมเมอร์ mə̂ə・สตรีมเมอร์ mə̂ə）と実際の発音に合わせ sam mə̂ə に"
+  ],
+  "fixed": {
+   "id": "tl-57492",
+   "th": "ซัมเมอร์",
+   "action": "add",
+   "ro": "sam mə̂ə",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（大学の）夏学期・夏期講習",
+     "en": "summer session (at university)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "英語 summer から。ลงซัมเมอร์（夏学期を履修する）の形でよく言う。",
+     "example": {
+      "th": "เทอมนี้สอบตก ต้องลงซัมเมอร์อีกวิชา",
+      "ro": "thəəm níi sɔ̀ɔp tòk tɔ̂ɔng long sam mə̂ə ìik wí chaa",
+      "ja": "今学期は単位を落としたから、夏学期にもう1科目取らないといけない。",
+      "en": "I failed a course this term, so I have to take another subject in the summer session.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57508",
+  "verdict": "reject",
+  "issues": [
+   "既収録の เจื่อนๆ（気まずそうな表情・笑み）と ยิ้ม の組み合わせで、ยิ้มแห้ง も既収録。別見出しにする違いが乏しい。"
+  ]
+ },
+ {
+  "id": "tl-60709",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60725",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60741",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60757",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60773",
+  "verdict": "reject",
+  "issues": [
+   "「リアルな・本物の」という意味の เรียล 単独のスラングとしての定着度・一般性を確認できない（リアリティ番組などの複合語以外）。不確かなため除外。"
+  ]
+ },
+ {
+  "id": "tl-60789",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60805",
+  "verdict": "reject",
+  "issues": [
+   "既収録の เน็ต（ネット）と กาก（ひどい・質が悪い、スラング欄にも既収録）の組み合わせで、เกมกาก・ทีมกาก など自由に作れる。著者が除外した จอแตก と同じ扱い。"
+  ]
+ },
+ {
+  "id": "tl-60821",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60837",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60853",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60869",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60885",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60901",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60917",
+  "verdict": "fix",
+  "issues": [
+   "末子音 ส は閉音節で t（規則・既収録 รูมเซอร์วิส səə wít）。wís → wít"
+  ],
+  "fixed": {
+   "id": "tl-60917",
+   "th": "แฟนเซอร์วิส",
+   "action": "add",
+   "ro": "fɛɛn səə wít",
+   "kind": "word",
+   "category": "スラング｜ネット・SNS",
+   "adult": false,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ファンサービス",
+     "pos": "名詞",
+     "speechStyle": "口語",
+     "note": "アイドルや俳優がファンを喜ばせるしぐさや演出。アイドルファンやドラマのファンの間でよく使う。",
+     "example": {
+      "th": "คู่นี้แฟนเซอร์วิสเก่งมาก แฟนคลับกรี๊ดกันใหญ่",
+      "ro": "khûu níi fɛɛn səə wít kèng mâak fɛɛn khlàp kríit kan yài",
+      "ja": "このペアはファンサービスが上手で、ファンはキャーキャー大騒ぎだ。",
+      "context": "ファンミーティングの感想",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60933",
+  "verdict": "ok",
+  "issues": []
+ }
+]

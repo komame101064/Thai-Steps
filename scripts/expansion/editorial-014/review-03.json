@@ -1,0 +1,469 @@
+[
+ {
+  "id": "tl-56603",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56619",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56635",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56651",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56667",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56683",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56699",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56715",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56731",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56747",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56763",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56779",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56795",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56811",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56827",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56843",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56859",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56875",
+  "verdict": "reject",
+  "issues": [
+   "อยู่（いる）＋เฉยๆ（何もせずに）の自由な動詞＋副詞の組み合わせで固定した意味がない。既存の เฉยๆ（tl-01397）語義2でもこの用法を扱っている"
+  ]
+ },
+ {
+  "id": "tl-56891",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56907",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56923",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56939",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56955",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56971",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56987",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57003",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57019",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57035",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57051",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57067",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57083",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57099",
+  "verdict": "reject",
+  "issues": [
+   "既存の ไถ（tl-04499 語義2「滑らせて進む」）と ไถฟีด（tl-60453「フィードをだらだらスクロールする」）で足り、ไถ＋目的語（ไถจอ・ไถโทรศัพท์ など）の自由な組み合わせ"
+  ]
+ },
+ {
+  "id": "tl-57115",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57131",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57147",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57163",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57179",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57195",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57211",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57227",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57243",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57259",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57275",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57291",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57307",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57323",
+  "verdict": "fix",
+  "issues": [
+   "「愛想を振りまく」は人当たりがよいという意味で、noteや英訳（flirt）の「気を持たせる・魅力を振りまく」と食い違うため、語義と例文の日本語訳を修正"
+  ],
+  "fixed": {
+   "id": "tl-57323",
+   "th": "หว่านเสน่ห์",
+   "action": "add",
+   "ro": "wàan sà nèe",
+   "kind": "word",
+   "category": "一般語彙",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（誰にでも）魅力を振りまく・気を持たせる",
+     "en": "to spread one's charm around",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "異性に気を持たせる意味で、やや批判的に使うことが多い。",
+     "example": {
+      "th": "เขาชอบหว่านเสน่ห์ไปทั่ว",
+      "ro": "khǎo chɔ̂ɔp wàan sà nèe pai thûua",
+      "ja": "彼はいろんな人に気を持たせるのが好きだ。",
+      "en": "He likes to flirt with everyone.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57339",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57355",
+  "verdict": "fix",
+  "issues": [
+   "noteの「語調をそろえるために ท่า を添えた」は根拠のない語源説明なので削り、重ね言葉という事実だけにした"
+  ],
+  "fixed": {
+   "id": "tl-57355",
+   "th": "อาบน้ำอาบท่า",
+   "action": "add",
+   "ro": "àap náam àap thâa",
+   "kind": "expression",
+   "category": "日常の動作",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "風呂に入って身支度する・体を洗ってさっぱりする",
+     "en": "to bathe and freshen up",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "อาบน้ำ（シャワーを浴びる）を言葉を重ねて言う口語の言い方（重ね言葉）。",
+     "example": {
+      "th": "กลับบ้านไปอาบน้ำอาบท่าก่อน",
+      "ro": "klàp bâan pai àap náam àap thâa kɔ̀ɔn",
+      "ja": "先に家に帰って風呂に入ってくる。",
+      "en": "I'll go home and freshen up first.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57371",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57387",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57403",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57419",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57435",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57451",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57467",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57483",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57499",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57515",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60716",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60732",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60748",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60764",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60780",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60796",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60812",
+  "verdict": "reject",
+  "issues": [
+   "既存の ฟีด（tl-50053「SNSのフィード」）と意味が同じで、หน้า（画面・ページ）＋ฟีด の自由な組み合わせ（หน้าเพจ・หน้าโปรไฟล์ と同型）"
+  ]
+ },
+ {
+  "id": "tl-60828",
+  "verdict": "fix",
+  "issues": [
+   "流行語なので広まった時期をnoteに明記"
+  ],
+  "fixed": {
+   "id": "tl-60828",
+   "th": "มนุษย์ลุง",
+   "action": "add",
+   "ro": "má nút lung",
+   "kind": "word",
+   "category": "スラング｜ネット・SNS",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "マナーが悪く図々しい年配男性",
+     "pos": "名詞",
+     "speechStyle": "口語・スラング",
+     "note": "2020年代にSNSで広まったネット語。年上男性を揶揄する言い方で、本人の前では失礼。",
+     "example": {
+      "th": "มนุษย์ลุงที่ทำงานชอบทักแชทมาตอนดึก",
+      "ro": "má nút lung thîi tham ngaan chɔ̂ɔp thák chɛ́t maa tɔɔn dʉ̀k",
+      "ja": "職場の図々しいおじさんが、よく夜遅くにチャットしてくる。",
+      "context": "同僚に愚痴をこぼす",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60844",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60860",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60876",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60892",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60908",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60924",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60940",
+  "verdict": "ok",
+  "issues": []
+ }
+]

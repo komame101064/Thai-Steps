@@ -1,0 +1,487 @@
+[
+ {
+  "id": "tl-56613",
+  "verdict": "reject",
+  "issues": [
+   "เอา＋มา の自由な動詞連続。既存の เอา の語義1「取る・持っていく／持ってくる」で扱える"
+  ]
+ },
+ {
+  "id": "tl-56629",
+  "verdict": "reject",
+  "issues": [
+   "既存語 หวัด（tl-01083）の語義1が「やあ・こんにちは」で、注に「หวัดดี の形で使う」とあり、既に同じ内容を教えている"
+  ]
+ },
+ {
+  "id": "tl-56645",
+  "verdict": "reject",
+  "issues": [
+   "ไม่＋สะดวก の自由な否定。editorial-009（tl-53382）でも同じ理由で却下済み。สะดวก に「都合がよい」の語義あり"
+  ]
+ },
+ {
+  "id": "tl-56661",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56677",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56693",
+  "verdict": "ok",
+  "issues": [
+   "既存 ทำอะไรอยู่ の口語短縮形。editorial-014 は口語短縮形を別見出しとして扱う方針なので可"
+  ]
+ },
+ {
+  "id": "tl-56709",
+  "verdict": "fix",
+  "issues": [
+   "例文が裸の ยิ่งกว่าอะไร で終わり不自然気味、訳も รัก を「大切にしている」と意訳していた。明確な比較の例文に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-56709",
+   "th": "ยิ่งกว่า",
+   "action": "add",
+   "ro": "yîng kwàa",
+   "kind": "expression",
+   "category": "量・程度・比較",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "〜以上に・〜よりもさらに",
+     "en": "even more than, beyond",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ปีนี้ร้อนยิ่งกว่าปีที่แล้ว",
+      "ro": "pii níi rɔ́ɔn yîng kwàa pii thîi lɛ́ɛo",
+      "ja": "今年は去年よりさらに暑い。",
+      "en": "This year is even hotter than last year.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56725",
+  "verdict": "reject",
+  "issues": [
+   "กลุ่ม＋ไลน์（LINE＝ブランド名）の自由な組み合わせ"
+  ]
+ },
+ {
+  "id": "tl-56741",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56757",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56773",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56789",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56805",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56821",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56837",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56853",
+  "verdict": "ok",
+  "issues": [
+   "งั้น＋ไม่เป็นไร だが、誘いや頼みを引っ込める会話の決まった返答として既存の定型表現（ไม่เป็นไรนะ, กินอะไรดี 等）と同水準なので可"
+  ]
+ },
+ {
+  "id": "tl-56869",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56885",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56901",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56917",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56933",
+  "verdict": "reject",
+  "issues": [
+   "既存語 เจี๊ยบ（tl-44058）の語義1「きんきんに（冷たい…を強める）」で既に扱っている組み合わせ"
+  ]
+ },
+ {
+  "id": "tl-56949",
+  "verdict": "reject",
+  "issues": [
+   "ร้าน＋ข้างทาง（既存語「道端」）の名詞の自由な組み合わせ（会話の決まり文句でもない）。なお例文の อร่อย の ro も à rɔ̀i で辞書（à rɔ̀ɔi）と不一致"
+  ]
+ },
+ {
+  "id": "tl-56965",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56981",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56997",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57013",
+  "verdict": "reject",
+  "issues": [
+   "既存のスラング語 อ่านไม่ตอบ（既読スルーする）の異形で、意味も同一"
+  ]
+ },
+ {
+  "id": "tl-57029",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57045",
+  "verdict": "reject",
+  "issues": [
+   "ลือ（既存語「噂する」）＋กัน＋ว่า の文法的な枠で、固定した意味や会話の決まり文句としての機能がない"
+  ]
+ },
+ {
+  "id": "tl-57061",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57077",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57093",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57109",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57125",
+  "verdict": "reject",
+  "issues": [
+   "ไป＋ทำธุระ の自由な組み合わせ。語彙単位は ทำธุระ の方"
+  ]
+ },
+ {
+  "id": "tl-57141",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57157",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57173",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57189",
+  "verdict": "reject",
+  "issues": [
+   "既存語 เปรี้ยง（tl-47492）の語義1が「（日差しが）かんかんに照りつける」で、注に「主に แดดเปรี้ยง の形で使う」とあり重複"
+  ]
+ },
+ {
+  "id": "tl-57205",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57221",
+  "verdict": "reject",
+  "issues": [
+   "ไก่ทอด（既存語）＋เกาหลี の自由な組み合わせ"
+  ]
+ },
+ {
+  "id": "tl-57237",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57253",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57269",
+  "verdict": "fix",
+  "issues": [
+   "例文 ขอเปิด… は「（私が）開けてもいい？」と読め、訳「してもらえる？」と合わない。ขอ を外した依頼文に修正"
+  ],
+  "fixed": {
+   "id": "tl-57269",
+   "th": "ฮอตสปอต",
+   "action": "add",
+   "ro": "hɔ́t sà pɔ́t",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "テザリング（スマホのホットスポット）",
+     "en": "mobile hotspot, tethering",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เปิดฮอตสปอตให้หน่อยได้ไหม",
+      "ro": "pə̀ət hɔ́t sà pɔ́t hâi nɔ̀ɔi dâai mǎi",
+      "ja": "テザリングをオンにしてもらえる？",
+      "en": "Could you turn on your hotspot for me?",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57285",
+  "verdict": "reject",
+  "issues": [
+   "既存語 เซลล์（tl-02584）に語義「販売員」があり、เซลส์ はその綴りの異形"
+  ]
+ },
+ {
+  "id": "tl-57301",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57317",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57333",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57349",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57365",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57381",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57397",
+  "verdict": "fix",
+  "issues": [
+   "例文訳が原文にない「（私が）言われた／me」を補っていた。訳のみ修正"
+  ],
+  "fixed": {
+   "id": "tl-57397",
+   "th": "ขอเป็นแฟน",
+   "action": "add",
+   "ro": "khɔ̌ɔ pen fɛɛn",
+   "kind": "expression",
+   "category": "人・家族",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "付き合ってと告白する・恋人になってと申し込む",
+     "en": "to ask someone out (to be one’s partner)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เมื่อวานเขาขอเป็นแฟนแล้ว",
+      "ro": "mʉ̂ʉa waan khǎo khɔ̌ɔ pen fɛɛn lɛ́ɛo",
+      "ja": "昨日、彼は付き合ってほしいと告白した。",
+      "en": "Yesterday he asked to be (her) partner.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57413",
+  "verdict": "reject",
+  "issues": [
+   "既存語 ทึบ（tl-43430）の語義2「頭が鈍い・のみこみが悪い」と同内容で、หัว＋形容詞の生産的な型（หัวดี・หัวช้า…）"
+  ]
+ },
+ {
+  "id": "tl-57429",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57445",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57461",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57477",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57493",
+  "verdict": "reject",
+  "issues": [
+   "家庭教師の一般的な言い方は ครูสอนพิเศษ で、ครูพิเศษ は特別講師・非常勤講師の意味でも使われ、「家庭教師」が第一義だと確信できない"
+  ]
+ },
+ {
+  "id": "tl-57509",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60710",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60726",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60742",
+  "verdict": "reject",
+  "issues": [
+   "既存語 เม้ามอย（tl-53192、注で เม้าท์มอย の綴りにも言及）の綴りの異形"
+  ]
+ },
+ {
+  "id": "tl-60758",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60774",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60790",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60806",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60822",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60838",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60854",
+  "verdict": "reject",
+  "issues": [
+   "既存語 โผล่หน้า（顔を出す・姿を見せる）とほぼ同義の異形で、意味は โผล่（出現する）＋หัว から導ける"
+  ]
+ },
+ {
+  "id": "tl-60870",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60886",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60902",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60918",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60934",
+  "verdict": "ok",
+  "issues": []
+ }
+]
