@@ -210,22 +210,6 @@
      "en": "This is nothing, don't worry.",
      "origin": "authored"
     }
-   },
-   {
-    "sourceSense": 2,
-    "ja": "ささいなこと・小さな問題",
-    "en": "a trivial matter",
-    "pos": "名詞",
-    "use": "よく使う別の意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "อย่าทะเลาะกันเพราะเรื่องเล็ก",
-     "ro": "yàa thá lɔ́ kan phrɔ́ rʉ̂ʉang lék",
-     "ja": "ささいなことでけんかしないで。",
-     "en": "Don't fight over little things.",
-     "origin": "authored"
-    }
    }
   ]
  },
@@ -262,32 +246,8 @@
  {
   "id": "tl-56748",
   "th": "ด้วยคน",
-  "action": "add",
-  "ro": "dûuai khon",
-  "kind": "expression",
-  "category": "挨拶・会話",
-  "frequency": 5,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "私も（一緒に）・私も入れて",
-    "en": "me too; count me in",
-    "pos": "定型表現",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "note": "動詞の後に付けて ไปด้วยคน（私も行く）・เอาด้วยคน（私も乗った）のように言う。SNSのコメントでは単独で「私も同じ」の意味にも使う。",
-    "example": {
-     "th": "จะไปทะเลกันเหรอ ไปด้วยคน",
-     "ro": "cà pai thá lee kan rə̌ə pai dûuai khon",
-     "ja": "海に行くの？私も行く。",
-     "en": "You're going to the beach? Count me in.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "同じ用法の定型表現 ไปด้วยคน（「私も一緒に行く・私も混ぜて」）が既に収録済みで、ด้วยคน 単独の見出しは重複に近いため見送り。"
  },
  {
   "id": "tl-56764",
@@ -699,8 +659,8 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "最後の最後でしくじる・詰めを誤る",
-    "en": "to fail at the last moment",
+    "ja": "土壇場でしくじる・最後の詰めを誤る",
+    "en": "to fail at the crucial final stage",
     "pos": "動詞",
     "use": "よく使う意味",
     "registerTags": [],
@@ -733,7 +693,7 @@
     "use": "よく使う意味",
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
-    "note": "直訳は「斧で死骸を割る」。率直だが配慮のない話し方を言う慣用句。",
+    "note": "率直だが相手への配慮のない話し方を言う慣用句。",
     "example": {
      "th": "เขาพูดจาขวานผ่าซาก ไม่เกรงใจใคร",
      "ro": "khǎo phûut caa khwǎan phàa sâak mâi kreeng cai khrai",
@@ -799,8 +759,10 @@
     "en": "air-conditioned room",
     "pos": "名詞",
     "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
     "note": "宿などで ห้องพัดลม（扇風機の部屋）と対比してよく言う。",
     "example": {
      "th": "ห้องแอร์คืนละแปดร้อยบาท ห้องพัดลมห้าร้อย",
@@ -890,7 +852,7 @@
     "example": {
      "th": "ฉันรู้สึกกระอักกระอ่วนที่ต้องปฏิเสธเขา",
      "ro": "chǎn rúu sʉ̀k krà àk krà ùuan thîi tɔ̂ɔng pà tì sèet khǎo",
-     "ja": "彼の頼みを断らなければならず、気まずく感じた。",
+     "ja": "彼を断らなければならないことに気まずさを感じた。",
      "en": "I felt awkward having to turn him down.",
      "origin": "authored"
     }
@@ -1086,29 +1048,8 @@
  {
   "id": "tl-57452",
   "th": "น้ำจิ้มสุกี้",
-  "action": "add",
-  "ro": "nám cîm sù kîi",
-  "kind": "word",
-  "category": "食べ物・飲み物",
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "タイスキのたれ",
-    "en": "sukiyaki dipping sauce",
-    "pos": "名詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "น้ำจิ้มสุกี้ร้านนี้อร่อยมาก",
-     "ro": "nám cîm sù kîi ráan níi à rɔ̀ɔi mâak",
-     "ja": "この店のタイスキのたれはとてもおいしい。",
-     "en": "This shop's suki dipping sauce is really tasty.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "น้ำจิ้ม（つけだれ）＋สุกี้（タイスキ）の透明な組み合わせで、両方とも既に収録済みのため見送り。"
  },
  {
   "id": "tl-57468",
@@ -1243,7 +1184,7 @@
   "id": "tl-60717",
   "th": "เสียเซลฟ์",
   "action": "add",
-  "ro": "sǐia seo",
+  "ro": "sǐia seen",
   "kind": "word",
   "category": "スラング｜気持ち",
   "adult": false,
@@ -1258,10 +1199,10 @@
     "ja": "プライドが傷つく・へこむ",
     "pos": "動詞",
     "speechStyle": "口語・スラング",
-    "note": "英語 self（自尊心）から。人前で恥をかいたり認めてもらえなかったりしたときに使う若者言葉で、今も普通に使う。เซลฟ์ は sen のように発音する人もいる。",
+    "note": "英語 self（自尊心）から。人前で恥をかいたり認めてもらえなかったりしたときに使う若者言葉で、今も普通に使う。",
     "example": {
      "th": "โดนปฏิเสธต่อหน้าเพื่อน เสียเซลฟ์มาก",
-     "ro": "doon pà tì sèet tɔ̀ɔ nâa phʉ̂ʉan sǐia seo mâak",
+     "ro": "doon pà tì sèet tɔ̀ɔ nâa phʉ̂ʉan sǐia seen mâak",
      "ja": "友達の前で断られて、すごくへこんだ。",
      "context": "振られた話を友人にする",
      "origin": "authored"
@@ -1302,32 +1243,8 @@
  {
   "id": "tl-60749",
   "th": "เซ็งเป็ด",
-  "action": "add",
-  "ro": "seng pèt",
-  "kind": "word",
-  "category": "スラング｜気持ち",
-  "adult": false,
-  "tags": [
-   "colloquial",
-   "slang"
-  ],
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "すごくうんざりする・つまらなくてやってられない",
-    "pos": "形容詞・状態語",
-    "speechStyle": "口語・スラング",
-    "note": "เซ็ง（うんざりする）をおどけて強めた言い方。昔からある俗語で少し古めに聞こえるが、今も通じる。",
-    "example": {
-     "th": "ฝนตกทั้งวัน อดไปเที่ยว เซ็งเป็ดเลย",
-     "ro": "fǒn tòk tháng wan òt pai thîiao seng pèt ləəi",
-     "ja": "一日中雨で遊びに行けなかった。ほんとうんざり。",
-     "context": "休日の予定が雨で流れて",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "เซ็ง（既収録）をおどけて強めた古い俗語で、今はやや古く聞こえるため（古くなった流行語は見送りの方針）。"
  },
  {
   "id": "tl-60765",
@@ -1377,7 +1294,7 @@
     "ja": "（迷っていないで）買っちゃえ・即買い",
     "pos": "定型表現",
     "speechStyle": "口語・スラング",
-    "note": "ตำ（つく・つき砕く）を「ネット通販で買う・ポチる」の意味に使うネット語から。2020年前後に広まり、今もSNSや通販の話題でよく使う。",
+    "note": "ตำ（つく・つき砕く）を「ネット通販で買う・ポチる」の意味に使うネット語から。ここ数年SNSや通販の話題で広まった言い方。",
     "example": {
      "th": "ลดเหลือครึ่งราคา ตำเลย อย่าคิดนาน",
      "ro": "lót lʉ̌ʉa khrʉ̂ng raa khaa tam ləəi yàa khít naan",
@@ -1456,32 +1373,8 @@
  {
   "id": "tl-60845",
   "th": "รูดปรื๊ด",
-  "action": "add",
-  "ro": "rûut prʉ́ʉt",
-  "kind": "word",
-  "category": "スラング｜友達の日常",
-  "adult": false,
-  "tags": [
-   "colloquial",
-   "slang"
-  ],
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "（カードで）ためらわずにサッと払う",
-    "pos": "動詞",
-    "speechStyle": "口語・スラング",
-    "note": "รูด（カードを通す）に勢いを表す擬音 ปรื๊ด を付けたおどけた言い方。散財を冗談めかして言うときに使う。",
-    "example": {
-     "th": "เห็นของลดราคาก็รูดปรื๊ดเลย",
-     "ro": "hěn khɔ̌ɔng lót raa khaa kɔ̂ɔ rûut prʉ́ʉt ləəi",
-     "ja": "セール品を見たら、すぐカードでサッと払っちゃった。",
-     "context": "買い物の失敗談",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "広告などで見かける擬音的な言い回しだが、今の日常会話でよく使われる語として確認できないため見送り。รูด・รูดบัตร は既収録。"
  },
  {
   "id": "tl-60861",
