@@ -12,7 +12,7 @@ function writeChars(set=writeSet){const D=typeof SCRIPT_DATA!=='undefined'?SCRIP
 // the base letter (a consonant/digit) or the vowel / tone symbols written on the carrier อ.
 function writeStrokeKeys(c){const t=c.ch;if(writeSet==='vowel'||writeSet==='tone')return [...t.replace(/อ/g,'')].filter((x,i,a)=>a.indexOf(x)===i);return [t]}
 function writeStrokesHTML(c){if(typeof SCRIPT_STROKES==='undefined')return '';const parts=writeStrokeKeys(c).map(k=>[k,SCRIPT_STROKES[k]]).filter(x=>x[1]);if(!parts.length)return '';
- return `<div class="s-write-order"><h2>書き順</h2>${parts.map(([k,d])=>`<div class="s-order-item">${parts.length>1||writeSet==='vowel'||writeSet==='tone'?`<span class="s-order-ch" lang="th">${esc(k)}</span>`:''}<p><b>${d.n}画</b> · 書き始め：${esc(d.start)}</p><ol>${d.steps.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div>`).join('')}<p class="s-order-note">学校で習う手書きの書き方の一般的な順です（AI作成）。</p></div>`}
+ return `<div class="s-write-order"><h2>書き順</h2>${parts.map(([k,d])=>`<div class="s-order-item">${parts.length>1||writeSet==='vowel'||writeSet==='tone'?`<span class="s-order-ch" lang="th">${esc(k)}</span>`:''}<p><b>${d.n}画</b> · 書き始め：${esc(d.start)}${d.u?' <small class="s-order-unsure">細部は手本で確認を</small>':''}</p><ol>${d.steps.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div>`).join('')}<p class="s-order-note">学校で習う手書きの書き方の一般的な順です（AI作成）。</p></div>`}
 function openWrite(){view='scriptWrite';writeStrokes=[];render();window.scrollTo(0,0)}
 function writeSelect(i){writeIdx=i;writeStrokes=[];render();writeSay()}
 function writeMove(d){const n=writeChars().length;writeIdx=(writeIdx+d+n)%n;writeStrokes=[];render();writeSay()}
