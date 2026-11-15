@@ -264,7 +264,7 @@ function wordMeta(w){return `<div class="w-meta"><span class="w-freq f-${freqBan
 // The long label 標準語（口語限定ではない） reads as 標準語 in tags; the full wording stays in the data.
 const styleLabel=s=>String(s||'').replace('標準語（口語限定ではない）','標準語');
 function wordAudio(id,label='発音',slow=false){if(slow)return '';return `<button class="w-audio is-icon" aria-label="${esc(bankMap.get(id)?.th||'単語')}の発音" title="発音" onclick="playWord('${id}',false)">${icon('audio')}</button>`}
-function playWord(id,slow=false){const w=bankMap.get(id);if(w)speakThaiText(w.speechText||w.th,slow)}
+function playWord(id,slow=false){const w=bankMap.get(id);if(w)speakThaiText(w.speechText||speechText(w.th,w.ro),slow)}
 // Favourite example sentences (keys 'tl-…#sense', newest first; saved with the word records and in the export).
 function favExList(){return Array.isArray(wordState.favEx)?wordState.favEx:(wordState.favEx=[])}
 function isFavEx(k){return favExList().includes(k)}
@@ -340,7 +340,7 @@ function logWordHistory(id,mode,ok,t=Date.now()){const h=Array.isArray(wordState
 function answerWord(id){if(!wordSession||wordSession.kind!=='quiz'||wordSession.answered!==null||!wordSession.choices.includes(id))return;const target=wordSession.ids[wordSession.i],ok=id===target;wordSession.answered=id;wordSession.results.push({id:target,correct:ok});applyWordResult(target,ok);render();autoSpeakSession(true)}
 function assessCard(ok){if(!wordSession?.revealed)return;const id=wordSession.ids[wordSession.i];wordSession.results.push({id,correct:ok});applyWordResult(id,ok,Date.now(),'card');nextWordQuestion()}
 // Cards and tests read the word aloud by themselves (setting 自動で発音). In the 日本語→タイ語 test the word is read after answering, not before.
-function autoSpeakSession(after=false){if(wordState.autoplay===false||!wordSession)return;const ws=wordSession;if(ws.i>=ws.ids.length)return;const w=bankMap.get(ws.ids[ws.i]);if(!w)return;if(!after&&ws.kind==='quiz'&&ws.mode==='ja-th')return;if(after&&!(ws.kind==='quiz'&&ws.mode==='ja-th'))return;const i=ws.i;setTimeout(()=>{if(wordSession===ws&&ws.i===i&&typeof speakThaiText==='function')speakThaiText(w.speechText||w.th,false,true)},250)}
+function autoSpeakSession(after=false){if(wordState.autoplay===false||!wordSession)return;const ws=wordSession;if(ws.i>=ws.ids.length)return;const w=bankMap.get(ws.ids[ws.i]);if(!w)return;if(!after&&ws.kind==='quiz'&&ws.mode==='ja-th')return;if(after&&!(ws.kind==='quiz'&&ws.mode==='ja-th'))return;const i=ws.i;setTimeout(()=>{if(wordSession===ws&&ws.i===i&&typeof speakThaiText==='function')speakThaiText(w.speechText||speechText(w.th,w.ro),false,true)},250)}
 function nextWordQuestion(){if(!wordSession)return;wordSession.i++;wordSession.revealed=false;wordSession.answered=null;if(wordSession.i<wordSession.ids.length&&wordSession.kind==='quiz')wordSession.choices=makeWordQuestion(bankMap.get(wordSession.ids[wordSession.i]));render();window.scrollTo(0,0);autoSpeakSession()}
 function revealWordCard(){wordSession.revealed=true;render()}
 function exitWordSession(){wordSession=null;render();window.scrollTo(0,0)}
@@ -395,8 +395,10 @@ function speechText(th,ro){th=String(th||'');if(!th.includes('ๆ')||!ro||bankSt
  if(toks){out='';let p=0;const prev=[];for(const t of toks){const at=th.indexOf(t.th,p);if(at<0){out=th;break}out+=th.slice(p,at);p=at+t.th.length;/* keep the original spaces and punctuation */
   if(t.kind==='rep'){const k=segSyl(t.ro).length;let n=0,unit=[];for(let i=prev.length-1;i>=0&&n<k;i--){unit.unshift(prev[i].th);n+=segSyl(prev[i].ro).length}out+=n===k?' '+unit.join(''):'ๆ';continue}out+=t.th;prev.push(t)}if(out!==th)out+=th.slice(p)}
  if(!out.includes('ๆ'))return out;
- // Fallback (sentence not fully split): a registered word of 2+ syllables right before ๆ whose reading appears twice in a row in the romanization.
- const idx=segEntries(),R=' '+segSyl(ro).join(' ')+' ';return out.replace(/ๆ/g,(m,pos,str)=>{const before=str.slice(0,pos).replace(/\s+$/,'');for(let L=Math.min(segMax,before.length);L>1;L--){const w=idx.get(before.slice(-L));if(!w)continue;const sy=segSyl(w.ro);if(sy.length>1&&R.includes(' '+sy.join(' ')+' '+sy.join(' ')+' '))return ' '+w.th}return m})}
+ // Every remaining ๆ (also inside a word such as ใจเย็นๆ, ค่อยๆ): voices are inconsistent (some repeat one syllable, some the whole
+ // word), so it is always written out. The unit is the registered word right before ๆ whose reading appears twice in a row in the
+ // romanization (ใจเย็นๆ, cai yen yen → เย็น); the longest such word wins (มาแล้วๆ, maa lɛ́ɛo maa lɛ́ɛo → มาแล้ว).
+ const idx=segEntries(),R=' '+segSyl(ro).join(' ')+' ';return out.replace(/ๆ/g,(m,pos,str)=>{const before=str.slice(0,pos).replace(/\s+$/,'');for(let L=Math.min(segMax,before.length);L>=1;L--){const tail=before.slice(-L);if(/[\sๆ]/.test(tail)||!/^[ก-ฮเแโใไ]/.test(tail))continue;const w=idx.get(tail);const r=w?segSyl(w.ro):(L<=6&&typeof romanizeThai==='function'?segSyl(romanizeThai(tail)):[]);if(!r.length||r.some(x=>x.includes('□')))continue;if(R.includes(' '+r.join(' ')+' '+r.join(' ')+' '))return ' '+tail}return m})}
 function playSenseExample(id,n,slow=false){const e=senseExamples?.[id+'#'+n];if(e)speakThaiText(e.speechText||speechText(e.th,e.ro),slow)}
 // Guided step session, built on how memory consolidates:
 //  1. spaced retrieval — words whose review date has come are tested first (expanding 1→3→7→14→30→60-day gaps);
@@ -411,11 +413,11 @@ function startGuidedStep(topic=''){if(bankStatus!=='ready')return;topic=allTopic
  const due=bank.filter(w=>wordInDeck(w,tdeck)&&(!topic||topicHas(w,topic)&&(tdeck!=='general'||wordInLevel(w)))&&dueWord(w)&&quizzable(topicWord(w,topic))&&!news.includes(w)).sort((a,b)=>(wordRec(a.id).due||0)-(wordRec(b.id).due||0)).slice(0,15);
  if(!news.length&&!due.length)return;wordTopic=topic.startsWith('lv:')?'':topic;const q=news.filter(w=>quizzable(topicWord(w,topic))),tasks=[...due.map(w=>({id:w.id,type:'review'})),...news.map(w=>({id:w.id,type:'learn'})),...shuffle(q).map(w=>({id:w.id,type:'recall'})),...shuffle(q).map(w=>({id:w.id,type:'produce'}))];
  stepSession={topic,from:wordState.stepWords,n:stepNumber(),news:news.map(w=>w.id),tasks,i:0,answered:null,choices:null,missed:{},firstReview:{},done:false};prepareStepTask();wordCurrent=null;wordSession=null;render();window.scrollTo(0,0)}
-function prepareStepTask(){const s=stepSession,t=s.tasks[s.i];s.answered=null;s.choices=t&&t.type!=='learn'?makeWordQuestion(stepWord(t.id)):null;if(t&&(t.type==='learn'||t.type==='recall'||t.type==='review'))setTimeout(()=>{if(stepSession&&stepSession.tasks[stepSession.i]===t&&wordState.autoplay!==false){const w=bankMap.get(t.id);if(w)speakThaiText(w.speechText||w.th,false,true)}},250)}
+function prepareStepTask(){const s=stepSession,t=s.tasks[s.i];s.answered=null;s.choices=t&&t.type!=='learn'?makeWordQuestion(stepWord(t.id)):null;if(t&&(t.type==='learn'||t.type==='recall'||t.type==='review'))setTimeout(()=>{if(stepSession&&stepSession.tasks[stepSession.i]===t&&wordState.autoplay!==false){const w=bankMap.get(t.id);if(w)speakThaiText(w.speechText||speechText(w.th,w.ro),false,true)}},250)}
 function answerStepTask(id){const s=stepSession,t=s.tasks[s.i];if(!t||s.answered!==null)return;s.answered=id;const ok=id===t.id;
  if(t.type==='review'&&!(t.id in s.firstReview)){s.firstReview[t.id]=ok;applyWordResult(t.id,ok)}
  if(!ok){if(t.type!=='review')s.missed[t.id]=true;s.tasks.splice(Math.min(s.i+4,s.tasks.length),0,{...t,retry:true})}
- if((t.type==='produce'||ok)&&wordState.autoplay!==false){const w=bankMap.get(t.id);if(w)speakThaiText(w.speechText||w.th,false,true)}render()}
+ if((t.type==='produce'||ok)&&wordState.autoplay!==false){const w=bankMap.get(t.id);if(w)speakThaiText(w.speechText||speechText(w.th,w.ro),false,true)}render()}
 function nextStepTask(){const s=stepSession;s.i++;if(s.i>=s.tasks.length)finishGuidedStep();else prepareStepTask();render();window.scrollTo(0,0)}
 function finishGuidedStep(){const s=stepSession;if(s.done)return;s.done=true;for(const id of s.news)applyWordResult(id,!s.missed[id],Date.now(),'step');if(s.topic){markStudyDay();s.cleared=true}else s.cleared=completeStep({step:{from:s.from,ids:s.news}})}
 function stepWord(id){return topicWord(bankMap.get(id),stepSession?.topic||'')}
