@@ -1,0 +1,258 @@
+[
+ {
+  "id": "tl-57605",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57613",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57621",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57629",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57637",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57645",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57653",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57661",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57669",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57677",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57685",
+  "verdict": "reject",
+  "issues": [
+   "既存 tl-46166 แลบ の語義1「（舌を）ぺろっと出す」がこの意味を教えており、แลบลิ้น は แลบ+ลิ้น の自由結合に近い（既存語の語義の重複。review-03 の เบ้ปาก と同じ扱い）"
+  ]
+ },
+ {
+  "id": "tl-57693",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57701",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57709",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57717",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57725",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57733",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57741",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57749",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57757",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57765",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57773",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57781",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57789",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57797",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57805",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57813",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57821",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57829",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57837",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57845",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57853",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57861",
+  "verdict": "reject",
+  "issues": [
+   "既存 tl-47155 ตกใน の語義2「（涙を見せずに）心の中で泣く（น้ำตาตกใน）」がこの慣用句をすでに教えている（既存語の語義の重複）"
+  ]
+ },
+ {
+  "id": "tl-57869",
+  "verdict": "fix",
+  "issues": [
+   "例文訳「独身で」では見出し語 สาวแก่（婚期を過ぎた独身女性）の意味が訳に出ていないため、語義に合わせて修正"
+  ],
+  "fixed": {
+   "id": "tl-57869",
+   "th": "สาวแก่",
+   "action": "add",
+   "ro": "sǎao kɛ̀ɛ",
+   "kind": "word",
+   "category": "人・家族",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "婚期を過ぎた独身女性・オールドミス",
+     "en": "old maid, older unmarried woman",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ป้าของฉันเป็นสาวแก่ ไม่เคยแต่งงาน",
+      "ro": "pâa khɔ̌ɔng chǎn pen sǎao kɛ̀ɛ mâi khəəi tɛ̀ng ngaan",
+      "ja": "私のおばはオールドミスで、一度も結婚したことがない。",
+      "en": "My aunt is an old maid who never married.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "古い価値観の言い方で、本人に向かって言うと失礼。口語ではขึ้นคาน（売れ残る）もよく使う。"
+  }
+ },
+ {
+  "id": "tl-60962",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60970",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60978",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60986",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60994",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61002",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61010",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61018",
+  "verdict": "reject",
+  "issues": [
+   "既存見出し ไอ้งั่ง（tl-04135 一般／tl-24405 スラング）が同じ意味「ばか野郎・間抜け」を教えており、例文も ไอ้งั่ง の形そのもの。単独の งั่ง を別見出しにする新しい内容がない"
+  ]
+ },
+ {
+  "id": "tl-61026",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61034",
+  "verdict": "ok",
+  "issues": []
+ }
+]
