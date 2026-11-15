@@ -1,0 +1,431 @@
+[
+ {
+  "id": "tl-57601",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57609",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57617",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57625",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57633",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57641",
+  "verdict": "fix",
+  "issues": [
+   "第2語義のposが名詞だが例文は動詞用法（ยูเทิร์นนโยบาย）。動詞に統一し訳語を調整"
+  ],
+  "fixed": {
+   "id": "tl-57641",
+   "th": "ยูเทิร์น",
+   "action": "add",
+   "ro": "yuu thəən",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "Uターン（する）",
+     "en": "U-turn; to make a U-turn",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ขับไปอีกนิดแล้วยูเทิร์นตรงไฟแดง",
+      "ro": "khàp pai ìik nít lɛ́ɛo yuu thəən trong fai dɛɛng",
+      "ja": "もう少し走ってから、信号のところでUターンして。",
+      "en": "Drive a bit further, then make a U-turn at the traffic light.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（方針などを）急に転換する・撤回する",
+     "en": "to do a U-turn (on a policy or decision)",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "รัฐบาลยูเทิร์นนโยบายนี้หลังถูกวิจารณ์หนัก",
+      "ro": "rát thà baan yuu thəən ná yoo baai níi lǎng thùuk wí caan nàk",
+      "ja": "政府は強い批判を受けて、この政策を急に撤回した。",
+      "en": "The government did a U-turn on this policy after heavy criticism.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "標準的な言い方は「กลับรถ」（Uターンする）。"
+  }
+ },
+ {
+  "id": "tl-57649",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57657",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57665",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57673",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57681",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57689",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57697",
+  "verdict": "fix",
+  "issues": [
+   "例文訳「一目散で」が不自然なので「一目散に」に修正"
+  ],
+  "fixed": {
+   "id": "tl-57697",
+   "th": "แจ้น",
+   "action": "add",
+   "ro": "cɛ̂n",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "一目散に（走る・行く）",
+     "en": "(run/go off) straight away, in a dash",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ลูกวิ่งแจ้นไปฟ้องแม่ทันที",
+      "ro": "lûuk wîng cɛ̂n pai fɔ́ɔng mɛ̂ɛ than thii",
+      "ja": "子どもはすぐさま一目散に母親に言いつけに行った。",
+      "en": "The kid ran straight off to tell on him to Mom.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "主に「วิ่งแจ้น」「ไปแจ้น」の形で使う。"
+  }
+ },
+ {
+  "id": "tl-57705",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57713",
+  "verdict": "fix",
+  "issues": [
+   "本来の意味は「Aを責めてBに遠回しに当てる（当てこすり）」で、例文の「上司への怒りを部下にぶつける（八つ当たり）」は意味がずれる。語義・例文・noteを修正"
+  ],
+  "fixed": {
+   "id": "tl-57713",
+   "th": "ตีวัวกระทบคราด",
+   "action": "add",
+   "ro": "tii wuua krà thóp khrâat",
+   "kind": "expression",
+   "category": "人・家族",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "当てこする・（別の人やことを責めて）本当の相手に遠回しに当てつける",
+     "en": "to criticize someone indirectly by targeting another",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาบ่นเรื่องคนมาสาย จริงๆ คือตีวัวกระทบคราดฉัน",
+      "ro": "khǎo bòn rʉ̂ʉang khon maa sǎai cing cing khʉʉ tii wuua krà thóp khrâat chǎn",
+      "ja": "彼は遅刻する人のことをぼやいているが、実は私への当てこすりだ。",
+      "en": "He's complaining about people who come late, but really it's a dig at me.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "字義は「牛をたたいて（牛が引く）まぐわに当てる」。ある人を責めるふりをして、実際は別の人に聞かせて当てつけること。"
+  }
+ },
+ {
+  "id": "tl-57721",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57729",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57737",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57745",
+  "verdict": "fix",
+  "issues": [
+   "「二股をかける」は日本語では恋愛の意に取られやすい。対立する両陣営にいい顔をする人の意なので訳語を修正"
+  ],
+  "fixed": {
+   "id": "tl-57745",
+   "th": "นกสองหัว",
+   "action": "add",
+   "ro": "nók sɔ̌ɔng hǔua",
+   "kind": "word",
+   "category": "人・家族",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "両方の側にいい顔をする人・どっちつかずの裏切り者",
+     "en": "double-dealer, someone who plays both sides",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "อย่าไว้ใจเขา เขาเป็นนกสองหัว",
+      "ro": "yàa wái cai khǎo khǎo pen nók sɔ̌ɔng hǔua",
+      "ja": "彼を信用するな。あいつは両方にいい顔をするやつだ。",
+      "en": "Don't trust him; he plays both sides.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "字義は「頭が二つの鳥」。非難の言葉。"
+  }
+ },
+ {
+  "id": "tl-57753",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57761",
+  "verdict": "fix",
+  "issues": [
+   "ニュース見出しでも普通に使う語（note自体がそう述べる）で口語限定ではない。登録を標準語に修正"
+  ],
+  "fixed": {
+   "id": "tl-57761",
+   "th": "หนุ่มใหญ่",
+   "action": "add",
+   "ro": "nùm yài",
+   "kind": "word",
+   "category": "人・家族",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "中年の男性・男盛りの大人の男",
+     "en": "mature man, man in his forties or so",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หนุ่มใหญ่คนนี้ดูแลตัวเองดีมาก",
+      "ro": "nùm yài khon níi duu lɛɛ tuua eeng dii mâak",
+      "ja": "この中年男性は自分の体にとても気をつかっている。",
+      "en": "This middle-aged man takes very good care of himself.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ニュースの見出しでも「〜歳の男性」の意味でよく使う。"
+  }
+ },
+ {
+  "id": "tl-57769",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57777",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57785",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57793",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57801",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57809",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57817",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57825",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57833",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57841",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57849",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57857",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57865",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57873",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60966",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60974",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60982",
+  "verdict": "reject",
+  "issues": [
+   "同じ editorial-015 の part-08 に จิกหมอน（キュンとして悶える、例文もほぼ同一）があり、ฟิน も既存見出し（tl-04978/tl-10041）。ฟิน＋จิกหมอน の組み合わせで別見出しにする価値が薄く重複。part-08 の จิกหมอน が不採用になる場合のみ再検討"
+  ]
+ },
+ {
+  "id": "tl-60990",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60998",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61006",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61014",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61022",
+  "verdict": "fix",
+  "issues": [
+   "note の「แฮงก์เอาต์（王立学術院式）」は根拠が確認できない主張なので削除し、異綴りとして記載"
+  ],
+  "fixed": {
+   "id": "tl-61022",
+   "th": "แฮงเอาท์",
+   "action": "add",
+   "ro": "hɛɛng áo",
+   "kind": "word",
+   "category": "スラング｜遊ぶ・飲む",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（友人と）出かけて遊ぶ・つるむ",
+     "pos": "動詞",
+     "speechStyle": "口語・スラング",
+     "note": "英語hang outから。若者や都市部でよく使う。「แฮงเอาต์」「แฮงก์เอาต์」とも書く。普通の言い方は「ไปเที่ยว」「ไปเจอเพื่อน」。",
+     "example": {
+      "th": "เสาร์นี้ไปแฮงเอาท์กับเพื่อนที่คาเฟ่",
+      "ro": "sǎo níi pai hɛɛng áo kàp phʉ̂ʉan thîi khaa fêe",
+      "ja": "今度の土曜は友だちとカフェで遊ぶ。",
+      "context": "週末の予定を話す",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-61030",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61038",
+  "verdict": "ok",
+  "issues": []
+ }
+]

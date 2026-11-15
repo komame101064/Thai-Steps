@@ -1,0 +1,292 @@
+[
+ {
+  "id": "tl-57603",
+  "verdict": "fix",
+  "issues": [
+   "例文の日本語「鵜呑みにしないで聞かないと」が二重否定でぎこちないため修正"
+  ],
+  "fixed": {
+   "id": "tl-57603",
+   "th": "ฟังหูไว้หู",
+   "action": "add",
+   "ro": "fang hǔu wái hǔu",
+   "kind": "expression",
+   "category": "一般語彙",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "話を鵜呑みにせず半信半疑で聞く",
+     "en": "to take with a grain of salt",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ข่าวในโซเชียลต้องฟังหูไว้หูนะ",
+      "ro": "khàao nai soo chiian tɔ̂ɔng fang hǔu wái hǔu ná",
+      "ja": "SNSのニュースは話半分に聞かないとね。",
+      "en": "You should take news on social media with a grain of salt.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "直訳は「耳で聞いて耳に留めておく」（すぐに信じない）。"
+  }
+ },
+ {
+  "id": "tl-57611",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57619",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57627",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57635",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57643",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57651",
+  "verdict": "fix",
+  "issues": [
+   "第2義「横取りする・先を越す」（恋愛の文脈）は ตัดหน้า が普通で、ปาดหน้า のこの用法は確信が持てないため削除"
+  ],
+  "fixed": {
+   "id": "tl-57651",
+   "th": "ปาดหน้า",
+   "action": "add",
+   "ro": "pàat nâa",
+   "kind": "word",
+   "category": "日常の動作",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（車・バイクが）前に割り込む",
+     "en": "to cut in front (in traffic)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "มีมอเตอร์ไซค์ปาดหน้าเกือบชน",
+      "ro": "mii mɔɔ tə̂ə sai pàat nâa kʉ̀ʉap chon",
+      "ja": "バイクが前に割り込んできて、ぶつかりそうになった。",
+      "en": "A motorbike cut in front of me and nearly hit me.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57659",
+  "verdict": "reject",
+  "issues": [
+   "綴りと用法に確信が持てない：擬音は เปรี๊ยะ（ไม้ตรี）表記も多く、平手打ちの音はふつう เพียะ/เพี้ยะ。頻度も低いため不採用"
+  ]
+ },
+ {
+  "id": "tl-57667",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57675",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57683",
+  "verdict": "reject",
+  "issues": [
+   "既存 tl-46888 เบ้「（顔・口を）ゆがめる」がこの意味を教えており、เบ้ปาก は เบ้+ปาก の自由結合（辞書でも เบ้ の用例）。既存語の意味の重複"
+  ]
+ },
+ {
+  "id": "tl-57691",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57699",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57707",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57715",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57723",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57731",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57739",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57747",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57755",
+  "verdict": "reject",
+  "issues": [
+   "既存 tl-48318 เต็ง「本命・最有力候補」と同じ意味で、新しい内容がない。ตัวเต็ง の形は既存項目の note で触れるのが適切"
+  ]
+ },
+ {
+  "id": "tl-57763",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57771",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57779",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57787",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57795",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57803",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57811",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57819",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57827",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57835",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57843",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57851",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57859",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57867",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57875",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60968",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60976",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60984",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60992",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61000",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61008",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61016",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61024",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61032",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61040",
+  "verdict": "ok",
+  "issues": []
+ }
+]

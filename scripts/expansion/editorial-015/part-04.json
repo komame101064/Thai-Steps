@@ -156,32 +156,8 @@
  {
   "id": "tl-57660",
   "th": "ปึ้ง",
-  "action": "add",
-  "ro": "pʉ̂ng",
-  "kind": "word",
-  "category": "一般語彙",
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "どん・ばたん（重い物がぶつかる・閉まる音）",
-    "en": "bang, thud (sound)",
-    "pos": "副詞",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "เขาปิดประตูดังปึ้งแล้วเดินออกไป",
-     "ro": "khǎo pìt prà tuu dang pʉ̂ng lɛ́ɛo dəən ɔ̀ɔk pai",
-     "ja": "彼はドアをばたんと閉めて出て行った。",
-     "en": "He slammed the door and walked out.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "ดังปึ้ง（どんと音がする）の形でよく使う。"
+  "action": "skip",
+  "skipReason": "物音の擬音語としてはปึง・ปัง・ปึ้กなど綴りの揺れが大きく、この綴りが定着した形だと確認できないため。"
  },
  {
   "id": "tl-57668",
@@ -910,7 +886,7 @@
   "id": "tl-60961",
   "th": "เลท",
   "action": "add",
-  "ro": "lêet",
+  "ro": "léet",
   "kind": "word",
   "category": "スラング｜友達の日常",
   "adult": false,
@@ -925,10 +901,10 @@
     "ja": "遅れる・遅刻する",
     "pos": "形容詞・状態語",
     "speechStyle": "口語",
-    "note": "英語lateから。標準語はสาย・มาสาย。友人同士や職場のくだけた会話でよく使い、失礼な語ではない。",
+    "note": "英語lateから。綴りどおりならlêetだが、会話では高い声調でléetと言うのが普通。標準語はสาย・มาสาย。友人同士や職場のくだけた会話でよく使い、失礼な語ではない。",
     "example": {
      "th": "ขอโทษนะ วันนี้มาเลทนิดนึง",
-     "ro": "khɔ̌ɔ thôot ná wan níi maa lêet nít nʉng",
+     "ro": "khɔ̌ɔ thôot ná wan níi maa léet nít nʉng",
      "ja": "ごめん、今日はちょっと遅れた。",
      "context": "待ち合わせに遅れて友人に謝る",
      "origin": "authored"
@@ -1005,32 +981,8 @@
  {
   "id": "tl-60993",
   "th": "เธค",
-  "action": "add",
-  "ro": "thêek",
-  "kind": "word",
-  "category": "スラング｜遊ぶ・飲む",
-  "adult": false,
-  "tags": [
-   "colloquial",
-   "slang"
-  ],
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "ディスコ・クラブ",
-    "pos": "名詞",
-    "speechStyle": "口語",
-    "note": "ดิสโก้เธค（discotheque）の略。1990〜2000年代によく使われ、今は少し古い。今の若者はผับ・บาร์と言うことが多い。",
-    "example": {
-     "th": "สมัยก่อนพวกเราชอบไปเที่ยวเธคทุกคืนวันศุกร์",
-     "ro": "sà mǎi kɔ̀ɔn phûuak rao chɔ̂ɔp pai thîiao thêek thúk khʉʉn wan sùk",
-     "ja": "昔、私たちは毎週金曜の夜にディスコへ遊びに行ったものだ。",
-     "context": "昔の夜遊びを懐かしむ",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "1990〜2000年代の言い方で今は古く（今はผับ・บาร์が普通）、借用語としての声調・母音の長さも確定できないため。"
  },
  {
   "id": "tl-61001",
