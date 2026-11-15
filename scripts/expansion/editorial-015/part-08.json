@@ -36,7 +36,7 @@
   "ro": "lûuk máai lòn mâi klai tôn",
   "kind": "expression",
   "category": "一般語彙",
-  "frequency": 5,
+  "frequency": 4,
   "senses": [
    {
     "sourceSense": 1,
@@ -64,7 +64,7 @@
   "ro": "plaa mɔ̌ɔ taai phrɔ́ pàak",
   "kind": "expression",
   "category": "一般語彙",
-  "frequency": 5,
+  "frequency": 4,
   "senses": [
    {
     "sourceSense": 1,
@@ -92,7 +92,7 @@
   "ro": "nám taa cɔɔ rá khêe",
   "kind": "expression",
   "category": "一般語彙",
-  "frequency": 5,
+  "frequency": 4,
   "senses": [
    {
     "sourceSense": 1,
@@ -376,7 +376,7 @@
   "ro": "khaang khók khʉ̂n wɔɔ",
   "kind": "expression",
   "category": "一般語彙",
-  "frequency": 4,
+  "frequency": 3,
   "senses": [
    {
     "sourceSense": 1,
@@ -389,7 +389,7 @@
     "example": {
      "th": "พอได้เป็นหัวหน้าก็ทำตัวเป็นคางคกขึ้นวอ",
      "ro": "phɔɔ dâai pen hǔua nâa kɔ̂ɔ tham tuua pen khaang khók khʉ̂n wɔɔ",
-     "ja": "課長になったとたん、成り上がり者のように偉ぶり出した。",
+     "ja": "上司になったとたん、成り上がり者のように偉ぶり出した。",
      "en": "As soon as he became the boss, he started acting like an arrogant upstart.",
      "origin": "authored"
     }
@@ -404,7 +404,7 @@
   "ro": "dâai khʉ̂ʉp cà ao sɔ̀ɔk",
   "kind": "expression",
   "category": "一般語彙",
-  "frequency": 4,
+  "frequency": 3,
   "senses": [
    {
     "sourceSense": 1,
@@ -432,7 +432,7 @@
   "ro": "mɛɛo mâi yùu nǔu râa rəəng",
   "kind": "expression",
   "category": "一般語彙",
-  "frequency": 4,
+  "frequency": 3,
   "senses": [
    {
     "sourceSense": 1,
@@ -460,7 +460,7 @@
   "ro": "cai mâi yùu kàp nʉ́ʉa kàp tuua",
   "kind": "expression",
   "category": "一般語彙",
-  "frequency": 4,
+  "frequency": 3,
   "senses": [
    {
     "sourceSense": 1,
@@ -740,7 +740,8 @@
      "origin": "authored"
     }
    }
-  ]
+  ],
+  "note": "綴りどおりの声調はîiat（下降）だが、口語では高声調でíiatのように言う人も多い。"
  },
  {
   "id": "tl-57816",
@@ -831,32 +832,8 @@
  {
   "id": "tl-57840",
   "th": "เท่าหม้อแกง",
-  "action": "add",
-  "ro": "thâo mɔ̂ɔ kɛɛng",
-  "kind": "expression",
-  "category": "量・程度・比較",
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "ものすごく大きい（誇張）",
-    "en": "huge (exaggeration)",
-    "pos": "形容詞・状態語",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "เขียนตัวหนังสือตัวเท่าหม้อแกงเลย",
-     "ro": "khǐian tuua nǎng sʉ̌ʉ tuua thâo mɔ̂ɔ kɛɛng ləəi",
-     "ja": "字をものすごく大きく書いたね。",
-     "en": "You wrote the letters huge.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "直訳は「カレー鍋ほどの大きさ」。ふざけた誇張表現。"
+  "action": "skip",
+  "skipReason": "「ものすごく大きい」の意味で使われる固定した言い方か確認できない（กล่องเท่าหม้อแกง等の誇張の比喩か、定型句か判断できない）ため保留。"
  },
  {
   "id": "tl-57848",
@@ -995,7 +972,6 @@
      "th": "เขาตีเนียนเข้ามานั่งกินข้าวด้วย",
      "ro": "khǎo tii niian khâo maa nâng kin khâao dûuai",
      "ja": "あいつ、しれっと紛れ込んで一緒にご飯を食べてる。",
-     "en": "He casually slipped in and started eating with us.",
      "context": "友人同士の食事会で",
      "origin": "authored"
     }
@@ -1026,7 +1002,6 @@
      "th": "เขาเพิ่งรู้ว่าโดนแฟนสวมเขา",
      "ro": "khǎo phə̂əng rúu wâa doon fɛɛn sǔuam khǎo",
      "ja": "彼は恋人に浮気されていたと知ったばかりだ。",
-     "en": "He just found out his girlfriend cheated on him.",
      "context": "友人の恋愛トラブルの噂話",
      "origin": "authored"
     }
@@ -1057,7 +1032,6 @@
      "th": "เรื่องนี้ฟังดูแหม่งๆ นะ",
      "ro": "rʉ̂ʉang níi fang duu mɛ̀ng mɛ̀ng ná",
      "ja": "この話、なんか怪しいね。",
-     "en": "This story sounds kind of fishy.",
      "context": "友人の話を聞いて違和感を覚える",
      "origin": "authored"
     }
@@ -1083,12 +1057,11 @@
     "ja": "幅を利かせる人・顔役・親分格",
     "pos": "名詞",
     "speechStyle": "口語",
-    "note": "直訳は「大きな足」。地域や業界で影響力を持つ人。ニュースでは裏社会の大物を指すこともある。",
+    "note": "地域や業界で影響力を持つ人。ニュースでは裏社会の大物を指すこともある。",
     "example": {
      "th": "เขาเป็นขาใหญ่ในซอยนี้ ไม่มีใครกล้ายุ่ง",
      "ro": "khǎo pen khǎa yài nai sɔɔi níi mâi mii khrai klâa yûng",
      "ja": "彼はこの路地の顔役で、誰も手出しできない。",
-     "en": "He's the big shot on this street; no one dares mess with him.",
      "context": "近所の事情を話す",
      "origin": "authored"
     }
@@ -1119,7 +1092,6 @@
      "th": "คืนนี้นักร้องคนนี้ท็อปฟอร์มมาก",
      "ro": "khʉʉn níi nák rɔ́ɔng khon níi thɔ́p fɔɔm mâak",
      "ja": "今夜のこの歌手は絶好調だ。",
-     "en": "This singer is in top form tonight.",
      "context": "コンサートを見ながら",
      "origin": "authored"
     }
@@ -1150,7 +1122,6 @@
      "th": "สมัยก่อนพ่อเคยเป็นจิ๊กโก๋ประจำซอย",
      "ro": "sà mǎi kɔ̀ɔn phɔ̂ɔ khəəi pen cík kǒo prà cam sɔɔi",
      "ja": "昔、父は路地の不良だった。",
-     "en": "Back in the day, Dad was the neighborhood tough guy.",
      "context": "家族の昔話",
      "origin": "authored"
     }
@@ -1181,7 +1152,6 @@
      "th": "ข่าวลือว่าเขามีเมียเก็บอยู่ต่างจังหวัด",
      "ro": "khàao lʉʉ wâa khǎo mii miia kèp yùu tàang cang wàt",
      "ja": "彼には地方に囲っている愛人がいるという噂だ。",
-     "en": "Rumor has it he keeps a mistress in the provinces.",
      "context": "噂話",
      "origin": "authored"
     }
@@ -1212,7 +1182,6 @@
      "th": "ดูซีรีส์ฉากนี้แล้วจิกหมอนเลย",
      "ro": "duu sii rîi chàak níi lɛ́ɛo cìk mɔ̌ɔn ləəi",
      "ja": "ドラマのこのシーンを見て、キュンとして悶えた。",
-     "en": "Watching this scene in the series made me squeal and clutch my pillow.",
      "context": "ドラマの感想をSNSに書く",
      "origin": "authored"
     }
@@ -1243,7 +1212,6 @@
      "th": "เขายังลืมคนเก่าไม่ได้",
      "ro": "khǎo yang lʉʉm khon kào mâi dâai",
      "ja": "彼はまだ元恋人を忘れられない。",
-     "en": "He still can't forget his ex.",
      "context": "友人の恋愛相談",
      "origin": "authored"
     }
@@ -1274,7 +1242,6 @@
      "th": "ช่วงนี้ดวงจู๋มาก ทำอะไรก็พัง",
      "ro": "chûuang níi duuang cǔu mâak tham à rai kɔ̂ɔ phang",
      "ja": "最近は運が最悪で、何をやってもだめになる。",
-     "en": "My luck has been terrible lately; everything I do falls apart.",
      "context": "友人に愚痴をこぼす",
      "origin": "authored"
     }
