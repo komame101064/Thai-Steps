@@ -1050,3 +1050,4 @@ html body .f-tabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap
 .ex-q .btn.ex-next{display:block;width:100%;min-height:50px;margin:12px 0 8px;position:sticky;bottom:calc(12px + env(safe-area-inset-bottom));z-index:5;box-shadow:0 6px 18px rgba(20,40,30,.18)}
 @media (max-width:900px){.ex-q .btn.ex-next{bottom:calc(84px + env(safe-area-inset-bottom))}}
 .ex-q-choices .option{min-height:52px}
+.w-seg-rep{display:inline-block;margin-left:4px;padding:0 5px;border-radius:6px;background:var(--x-soft);color:var(--x-green);font-style:normal;font-size:.68rem;vertical-align:1px}
