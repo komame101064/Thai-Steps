@@ -21,8 +21,39 @@
  },
  {
   "id": "tl-57637",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "語義1「最愛の子」は ลูก+รัก の自由結合で、既存 ลูก（tl-00108）で足りる。見出しとして教える価値のある「お気に入り・ひいきされている人」だけを残した"
+  ],
+  "fixed": {
+   "id": "tl-57637",
+   "th": "ลูกรัก",
+   "action": "add",
+   "ro": "lûuk rák",
+   "kind": "word",
+   "category": "人・家族",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "お気に入り・ひいきされている人（上司・先生などの）",
+     "en": "favorite, pet (of a boss or teacher)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เขาเป็นลูกรักของหัวหน้า ทำอะไรก็ไม่โดนว่า",
+      "ro": "khǎo pen lûuk rák khɔ̌ɔng hǔua nâa tham à rai kɔ̂ɔ mâi doon wâa",
+      "ja": "彼は上司のお気に入りで、何をしても叱られない。",
+      "en": "He's the boss's pet; he never gets scolded whatever he does.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-57645",
@@ -78,8 +109,38 @@
  },
  {
   "id": "tl-57725",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "noteの皮肉の言い方「ทำดีได้ดีไม่มีจริง」は定着した形として確認できないため、よく知られた もじり ทำดีได้ดีมีที่ไหน ทำชั่วได้ดีมีถมไป に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-57725",
+   "th": "ทำดีได้ดี ทำชั่วได้ชั่ว",
+   "action": "add",
+   "ro": "tham dii dâai dii tham chûua dâai chûua",
+   "kind": "expression",
+   "category": "一般語彙",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "善い行いには善い報い、悪い行いには悪い報い（因果応報）",
+     "en": "good deeds bring good, evil deeds bring evil",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ยายสอนเสมอว่าทำดีได้ดี ทำชั่วได้ชั่ว",
+      "ro": "yaai sɔ̌ɔn sà mə̌ə wâa tham dii dâai dii tham chûua dâai chûua",
+      "ja": "祖母はいつも、善い行いには善い報い、悪い行いには悪い報いがあると教えてくれた。",
+      "en": "Grandma always taught that good deeds bring good and evil deeds bring evil.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "仏教的なことわざ。皮肉を込めて「ทำดีได้ดีมีที่ไหน ทำชั่วได้ดีมีถมไป（善いことをして報われることなどない）」ともじることもある。"
+  }
  },
  {
   "id": "tl-57733",
@@ -148,8 +209,10 @@
  },
  {
   "id": "tl-57837",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "ฟูฟ่อง の語義に確信が持てない（辞書的には「ふくらんだ・（暮らし向きが）盛り上がった」寄りで、泡立ちはふつう ฟองฟู などと言う）。卵白の例文も自然か確認できない。ฟู（tl-03838）・ฟอง（tl-02053）は既存のため不採用"
+  ]
  },
  {
   "id": "tl-57845",
@@ -215,8 +278,40 @@
  },
  {
   "id": "tl-60978",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "noteの「本来は形容」という語源説明と「ニュースでも普通に使う」（口語・スラングの表示と矛盾）は根拠が弱いため削除し、SNSでの広まりと会計用語との区別だけを記載"
+  ],
+  "fixed": {
+   "id": "tl-60978",
+   "th": "ด้อยค่า",
+   "action": "add",
+   "ro": "dɔ̂ɔi khâa",
+   "kind": "word",
+   "category": "スラング｜ネット・SNS",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "見下す・価値をおとしめる",
+     "pos": "動詞",
+     "speechStyle": "口語・スラング",
+     "note": "2021年ごろからSNSで「〜を見下す・軽んじる」という意味の動詞として広まった言い方。会計用語の「減損」（การด้อยค่า）とは別の使い方。",
+     "example": {
+      "th": "อย่าด้อยค่าตัวเองแบบนั้นสิ",
+      "ro": "yàa dɔ̂ɔi khâa tuua eeng bɛ̀ɛp nán sì",
+      "ja": "そんなふうに自分を卑下しないで。",
+      "context": "落ち込んでいる友人を励ます",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-60986",
