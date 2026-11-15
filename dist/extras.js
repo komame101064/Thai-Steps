@@ -31,6 +31,19 @@ function timeQuizNew(){const pool=[[0,0],[2,0],[6,0],[8,30],[10,0],[12,0],[13,0]
 function timePick(k){const q=timeQuiz.qs[timeQuiz.i];timeQuiz.picked=k;if(q.choices[k]===q.t)timeQuiz.ok++;if(typeof speakThaiText==='function')speakThaiText(thaiTime(...q.t).th,false,true);render()}
 function timeQuizView(){if(!timeQuiz)return `<p>時刻を見て、ふつうの言い方を選びます（6問）。</p><button class="btn" onclick="timeQuizNew();render()">確認テストを始める</button>`;const q=timeQuiz.qs[timeQuiz.i];if(!q)return `<p class="ex-score">${timeQuiz.ok} / ${timeQuiz.qs.length} 問正解</p><button class="btn" onclick="timeQuizNew();render()">もう一度</button>`;
  return `<div class="ex-q"><div class="ex-q-top">${timeQuiz.i+1} / ${timeQuiz.qs.length}</div><div class="ex-q-num">${hm(...q.t)}</div><div class="ex-q-choices">${q.choices.map((c,k)=>{const x=thaiTime(...c),st=timeQuiz.picked===null?'':c===q.t?' is-right':k===timeQuiz.picked?' is-wrong':'';return `<button class="option${st}" ${timeQuiz.picked!==null?'disabled':''} onclick="timePick(${k})"><span lang="th">${x.th}</span><small>${x.ro}</small></button>`}).join('')}</div>${timeQuiz.picked!==null?`<button class="btn" onclick="timeQuiz.i++;timeQuiz.picked=null;render()">次へ →</button>`:''}</div>`}
+
+// 似た音の聞き分け：声調・母音の長さだけが違う1音節語のグループ（dist/tone-sets.js）。グループを聞き比べ、音声だけで選ぶ練習。
+let pairQuiz=null,pairOpen=0;
+function pairsReady(){return typeof TONE_SETS!=='undefined'}
+function pairsLoad(){if(!pairsReady()&&typeof loadLazyScript==='function')loadLazyScript('tone-sets.js').then(()=>{if(view==='extra')render()})}
+function pairSay(th){if(typeof speakThaiText==='function')speakThaiText(th,false,true)}
+function pairQuizNew(only){const sets=only!=null?[TONE_SETS[only]]:TONE_SETS.slice(0,40),qs=[];for(let i=0;i<10;i++){const st=sets[Math.floor(Math.random()*sets.length)],ch=shuffle([...st.w]).slice(0,Math.min(4,st.w.length));qs.push({ch,ans:Math.floor(Math.random()*ch.length)})}pairQuiz={qs,i:0,ok:0,picked:null,only};render();setTimeout(()=>pairSay(qs[0].ch[qs[0].ans][1]),150)}
+function pairPick(k){const q=pairQuiz.qs[pairQuiz.i];if(pairQuiz.picked!==null)return;pairQuiz.picked=k;if(k===q.ans)pairQuiz.ok++;render()}
+function pairNext(){pairQuiz.i++;pairQuiz.picked=null;render();const q=pairQuiz.qs[pairQuiz.i];if(q)setTimeout(()=>pairSay(q.ch[q.ans][1]),150)}
+function pairQuizView(){if(!pairQuiz)return `<p>音声を聞いて、どの語かを選びます（10問）。</p><button class="btn" onclick="pairQuizNew()">聞き取りテストを始める</button>`;const q=pairQuiz.qs[pairQuiz.i];
+ if(!q)return `<p class="ex-score">${pairQuiz.ok} / ${pairQuiz.qs.length} 問正解</p><button class="btn" onclick="pairQuizNew(pairQuiz.only)">もう一度</button>`;const done=pairQuiz.picked!==null;
+ return `<div class="ex-q"><div class="ex-q-top">${pairQuiz.i+1} / ${pairQuiz.qs.length}</div><button class="ex-q-play" onclick="pairSay(${esc(JSON.stringify(q.ch[q.ans][1]))})" aria-label="もう一度聞く">${icon('audio')}</button><div class="ex-q-choices">${q.ch.map(([id,th,ro,ja],k)=>{const st=!done?'':k===q.ans?' is-right':k===pairQuiz.picked?' is-wrong':'';return `<button class="option${st}" ${done?'disabled':''} onclick="pairPick(${k})"><span><b>${esc(ro)}</b>${done?` <span lang="th">${esc(th)}</span> ${esc(ja)}`:''}</span></button>`}).join('')}</div>${done?`<div class="ex-pair-replay">${q.ch.map(([id,th,ro])=>`<button class="ex-chip" onclick="pairSay(${esc(JSON.stringify(th))})">${icon('audio')} ${esc(ro)}</button>`).join('')}</div><button class="btn" onclick="pairNext()">次へ →</button>`:''}</div>`}
+function pairSetsView(){const n=pairOpen?TONE_SETS.length:12;return `<div class="ex-sets">${TONE_SETS.slice(0,n).map((st,i)=>`<div class="ex-set"><div class="ex-set-h"><b>${esc(st.k)}</b><button class="textbtn" onclick="pairQuizNew(${i});document.querySelector('.ex-quiz-sec')?.scrollIntoView({behavior:'smooth'})">この組でテスト</button></div><div class="ex-set-w">${st.w.map(([id,th,ro,ja])=>`<button class="ex-set-item" onclick="pairSay(${esc(JSON.stringify(th))})"><b>${esc(ro)}</b><span lang="th">${esc(th)}</span><small>${esc(ja)}</small></button>`).join('')}</div></div>`).join('')}</div>${pairOpen?'':`<button class="btn light" onclick="pairOpen=1;render()">すべての組を見る（${TONE_SETS.length}組）</button>`}`}
 const EXTRAS={
  tones:{title:'声調',lead:'5つの声調の出し方、聞き分け、文字から声調を決めるしくみ、会話での注意。最後に聞き取りの確認テスト。',body:()=>`
  <section class="ex-sec"><h2>声調とは</h2><p>タイ語は、同じ音でも<b>声の高さの動き（声調）</b>が違うと別の語になります。声調は5つ。ローマ字では母音の上の記号で表します（記号なし・à・â・á・ǎ）。まずは同じ「khaa」の5つを聞き比べてください。</p>
@@ -99,6 +112,9 @@ const EXTRAS={
  <div class="ex-grid">${xSay('อาทิตย์ที่แล้ว','aa thít thîi lɛ́ɛo','先週')}${xSay('อาทิตย์นี้','aa thít níi','今週')}${xSay('อาทิตย์หน้า','aa thít nâa','来週')}${xSay('เดือนที่แล้ว','dʉʉan thîi lɛ́ɛo','先月')}${xSay('เดือนนี้','dʉʉan níi','今月')}${xSay('เดือนหน้า','dʉʉan nâa','来月')}${xSay('ปีที่แล้ว','pii thîi lɛ́ɛo','去年')}${xSay('ปีนี้','pii níi','今年')}${xSay('ปีหน้า','pii nâa','来年')}</div></section>
  <section class="ex-sec"><h2>〜日前・〜日後</h2><p>「〜前」は数＋単位＋<span lang="th">ที่แล้ว</span>、「〜後」は <span lang="th">อีก</span>（ìik）＋数＋単位。</p>
  <div class="ex-grid">${(()=>{const n=thaiNumber(3);return xSay(n.th+'วันที่แล้ว',n.ro+' wan thîi lɛ́ɛo','3日前')+xSay('อีก'+n.th+'วัน','ìik '+n.ro+' wan','3日後')})()}${(()=>{const n=thaiNumber(2);return xSay(n.th+'ปีที่แล้ว',n.ro+' pii thîi lɛ́ɛo','2年前')+xSay('อีก'+n.th+'อาทิตย์','ìik '+n.ro+' aa thít','2週間後')})()}</div></section>`},
+ pairs:{title:'似た音の聞き分け',lead:'声調や母音の長さだけが違う語を組にして聞き比べ、音だけで聞き分ける練習。',body:()=>{if(!pairsReady()){pairsLoad();return '<p role="status">読み込んでいます…</p>'}return `
+ <section class="ex-sec"><h2>聞き比べる</h2><p>押すと発音します。同じ組の語は、声の高さの動き（声調）や母音の長さだけが違います。</p>${pairSetsView()}</section>
+ <section class="ex-sec ex-quiz-sec"><h2>聞き取りテスト</h2>${pairQuizView()}</section>`}},
  sounds:{title:'発音の基本',lead:'母音の長さ、息の強さ、詰まる音、日本語にない音。アプリのローマ字の読み方もここで確認できます。',body:()=>`
  <section class="ex-sec"><h2>母音の長さ</h2><p>短い母音と長い母音で別の語になります。ローマ字では<b>長い母音を2つ重ねて</b>書きます（a / aa）。</p>${xSay('เข้า','khâo','入る（短い）')}${xSay('ข้าว','khâao','ご飯（長い）')}</section>
  <section class="ex-sec"><h2>息の強さ（有気音・無気音）</h2><p><b>kh・ph・th</b> は息を強く出す音、<b>k・p・t</b> は息をほとんど出さない音です。日本語の「カ・パ・タ」はその中間なので、意識して分けましょう。th は英語の th ではなく「息の強いタ」です。</p>
@@ -128,4 +144,4 @@ let extraFrom='course';
 function extraChapter(title,ids,from,iconName){return `<section class="x-course-chapter ex-chapter0"><div class="x-section-head"><h2><span class="x-chapter-icon" aria-hidden="true">${icon(iconName)}</span>${title}<small>入門</small></h2><span>${ids.length}課</span></div><div class="x-lessons">${ids.map((id,k)=>{const x=EXTRAS[id];return `<button class="x-lesson-row" onclick="extraFrom='${from}';openExtra('${id}')"><span class="x-lesson-num">0-${k+1}</span><span class="x-lesson-body"><b>${x.title}</b><small>${x.lead}</small></span><span class="x-lesson-end">${icon('arrow')}</span></button>`}).join('')}</div></section>`}
 // Grammar chapter 0: numbers, time, dates. 文字 chapter 0: pronunciation and tones.
 function extrasCards(){return extraChapter('0. 数字と時間',['numbers','time','dates'],'course','course')}
-function soundCards(){return extraChapter('0. 発音と声調',['sounds','tones'],'script','audio')}
+function soundCards(){return extraChapter('0. 発音と声調',['sounds','tones','pairs'],'script','audio')}
