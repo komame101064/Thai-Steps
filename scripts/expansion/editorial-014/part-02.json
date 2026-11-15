@@ -276,14 +276,62 @@
  {
   "id": "tl-56762",
   "th": "ใครโทรมา",
-  "action": "skip",
-  "skipReason": "ใคร（誰）＋โทรมา（電話してくる）の自由な組み合わせの疑問文で、決まった表現ではないため。"
+  "action": "add",
+  "ro": "khrai thoo maa",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "誰から電話？・誰が電話してきたの？",
+    "en": "Who's calling?, Who called?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "電話が鳴ったときや、電話を切った相手に聞く。",
+    "example": {
+     "th": "ใครโทรมาตอนดึกขนาดนี้",
+     "ro": "khrai thoo maa tɔɔn dʉ̀k khà nàat níi",
+     "ja": "こんな夜遅くに誰から電話？",
+     "en": "Who's calling this late at night?",
+     "origin": "authored"
+    }
+   }
+  ]
  },
  {
   "id": "tl-56778",
   "th": "ว่างวันไหน",
-  "action": "skip",
-  "skipReason": "ว่าง（空いている）＋วันไหน（どの日）の自由な組み合わせの疑問文で、決まった表現ではないため。"
+  "action": "add",
+  "ro": "wâang wan nǎi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何日（何曜日）が空いてる？",
+    "en": "Which day are you free?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "予定を合わせるときに使う。丁寧に言うときは ครับ/คะ を付ける。",
+    "example": {
+     "th": "อาทิตย์หน้าว่างวันไหน ไปกินข้าวกัน",
+     "ro": "aa thít nâa wâang wan nǎi pai kin khâao kan",
+     "ja": "来週は何曜日が空いてる？ご飯に行こうよ。",
+     "en": "Which day are you free next week? Let's go eat.",
+     "origin": "authored"
+    }
+   }
+  ]
  },
  {
   "id": "tl-56794",
@@ -316,8 +364,32 @@
  {
   "id": "tl-56810",
   "th": "ไปแล้วเหรอ",
-  "action": "skip",
-  "skipReason": "ไป＋แล้ว＋เหรอ の自由な組み合わせで、「もう行ったの？」「もう帰るの？」など文脈で意味が決まり、決まった表現ではないため。"
+  "action": "add",
+  "ro": "pai lɛ́ɛo rə̌ə",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "もう行っちゃうの？・もう帰るの？",
+    "en": "Leaving already?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "立ち去ろうとする相手を引き止めるときに言う。文脈によっては「（あの人は）もう行ったの？」の意味にもなる。",
+    "example": {
+     "th": "ไปแล้วเหรอ อยู่ต่ออีกหน่อยสิ",
+     "ro": "pai lɛ́ɛo rə̌ə yùu tɔ̀ɔ ìik nɔ̀ɔi sì",
+     "ja": "もう行っちゃうの？もう少しいなよ。",
+     "en": "Leaving already? Stay a little longer.",
+     "origin": "authored"
+    }
+   }
+  ]
  },
  {
   "id": "tl-56826",
@@ -901,8 +973,30 @@
  {
   "id": "tl-57226",
   "th": "ร้านมือถือ",
-  "action": "skip",
-  "skipReason": "ร้าน（店）＋มือถือ（携帯電話、登録済み）の自由な組み合わせのため。"
+  "action": "add",
+  "ro": "ráan mʉʉ thʉ̌ʉ",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "携帯ショップ・スマホ販売修理店",
+    "en": "mobile phone shop",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "スマホや付属品の販売、修理をする街の店を広く指す。",
+    "example": {
+     "th": "จอแตก ต้องเอาไปร้านมือถือ",
+     "ro": "cɔɔ tɛ̀ɛk tɔ̂ɔng ao pai ráan mʉʉ thʉ̌ʉ",
+     "ja": "画面が割れたので、携帯ショップに持っていかなきゃ。",
+     "en": "The screen cracked, so I have to take it to a phone shop.",
+     "origin": "authored"
+    }
+   }
+  ]
  },
  {
   "id": "tl-57242",
@@ -1159,7 +1253,7 @@
   "id": "tl-57434",
   "th": "คอสเพลย์",
   "action": "add",
-  "ro": "khɔ́ɔs phlee",
+  "ro": "khɔ́ɔt phlee",
   "kind": "word",
   "category": "趣味・メディア",
   "frequency": 3,
@@ -1175,7 +1269,7 @@
     "note": "「コスプレをする」は แต่งคอสเพลย์。略して คอส とも言う。",
     "example": {
      "th": "เธอชอบแต่งคอสเพลย์ไปงานการ์ตูน",
-     "ro": "thəə chɔ̂ɔp tɛ̀ng khɔ́ɔs phlee pai ngaan kaa tuun",
+     "ro": "thəə chɔ̂ɔp tɛ̀ng khɔ́ɔt phlee pai ngaan kaa tuun",
      "ja": "彼女はコスプレをして漫画のイベントに行くのが好きだ。",
      "en": "She likes to cosplay at comic events.",
      "origin": "authored"
@@ -1500,9 +1594,9 @@
     "speechStyle": "口語",
     "note": "ฟีด（フィード）に ขึ้น（出る・上がる）。SNSで投稿や広告が自分のタイムラインに表示されることを言う。",
     "example": {
-     "th": "โพสต์นี้ขึ้นฟีดฉันบ่อยมาก",
-     "ro": "phóos níi khʉ̂n fíit chǎn bɔ̀ɔi mâak",
-     "ja": "この投稿、私のフィードによく流れてくる。",
+     "th": "คลิปนี้ขึ้นฟีดฉันบ่อยมาก",
+     "ro": "khlíp níi khʉ̂n fíit chǎn bɔ̀ɔi mâak",
+     "ja": "この動画、私のフィードによく流れてくる。",
      "context": "SNSを見ながら",
      "origin": "authored"
     }
@@ -1592,7 +1686,7 @@
     "ja": "なかなかのものだ・かなりイケてる",
     "pos": "定型表現",
     "speechStyle": "口語・スラング",
-    "note": "「เด็ด（絶品・最高）と言える」の意。料理や物、人の見た目などを「これは上物」とほめる。2010年代にネットで広まった言い回しで、今は少しおどけた響き。",
+    "note": "「เด็ด（絶品・最高）と言える」の意。料理や物、人の見た目などを「これは上物」とほめる、少しおどけた口語の言い回し。",
     "example": {
      "th": "ร้านนี้ต้มยำจัดว่าเด็ด",
      "ro": "ráan níi tôm yam càt wâa dèt",
@@ -1708,15 +1802,15 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "ぼけっとした・間が抜けた",
+    "ja": "ぼんやりして抜けている・物忘れが多い",
     "pos": "形容詞・状態語",
     "speechStyle": "口語",
-    "note": "寝起きや疲れでぼうっとしている様子や、状況が分からずぽかんとしている様子に使う。「หน้าป้ำเป๋อ」（ぼけっとした顔）の形が多い。",
+    "note": "うっかり物を忘れたり、ぼうっとして抜けていたりする様子を言う。自分のことを笑って言うことも多い。",
     "example": {
-     "th": "ตื่นมาหน้าป้ำเป๋อเลย",
-     "ro": "tʉ̀ʉn maa nâa pâm pə̌ə ləəi",
-     "ja": "起きたばかりで、ぼけっとした顔をしている。",
-     "context": "寝起きの友達をからかう",
+     "th": "ช่วงนี้ฉันป้ำเป๋อ ลืมกุญแจอีกแล้ว",
+     "ro": "chûuang níi chǎn pâm pə̌ə lʉʉm kun cɛɛ ìik lɛ́ɛo",
+     "ja": "最近ぼんやりしていて、また鍵を忘れた。",
+     "context": "友達に自分の失敗を話す",
      "origin": "authored"
     }
    }

@@ -119,7 +119,7 @@
   "id": "tl-56665",
   "th": "อยู่ตรงไหน",
   "action": "skip",
-  "skipReason": "อยู่（いる・ある）＋ตรงไหน（どこ）の自由な組み合わせで、決まった意味がない。ตรงไหんは既存語。"
+  "skipReason": "อยู่（いる・ある）＋ตรงไหน（どこ）の自由な組み合わせで、決まった意味がない。ตรงไหนは既存語。"
  },
  {
   "id": "tl-56681",
@@ -250,32 +250,8 @@
  {
   "id": "tl-56761",
   "th": "ส่งโลมา",
-  "action": "add",
-  "ro": "sòng loo maa",
-  "kind": "expression",
-  "category": "挨拶・会話",
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "位置情報送って（ふざけた言い方）",
-    "en": "send me your location (playful)",
-    "pos": "定型表現",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "ส่งโลมาหน่อย เดี๋ยวขับไปหา",
-     "ro": "sòng loo maa nɔ̀ɔi dǐiao khàp pai hǎa",
-     "ja": "位置情報送って。車でそっちに行くから。",
-     "en": "Send me your location, I'll drive over.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "ส่งโลเคชั่นมาのโล（location）とมาが「イルカ（โลมา）」と同じ音になる言葉遊び。親しい相手とのチャットや会話で使う。"
+  "action": "skip",
+  "skipReason": "ส่งโลเคชั่นมาの略「โล」＋มาをイルカ（โลมา）にかけた言葉遊びと思われるが、現在よく使われる表現であることを確認できない。"
  },
  {
   "id": "tl-56777",
@@ -292,8 +268,10 @@
     "en": "let's talk later",
     "pos": "定型表現",
     "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
     "example": {
      "th": "ตอนนี้ฉันรีบ แล้วค่อยคุยกันนะ",
      "ro": "tɔɔn níi chǎn rîip lɛ́ɛo khɔ̂ɔi khui kan ná",
@@ -571,13 +549,13 @@
     }
    }
   ],
-  "note": "อัปはอัปโหลド（upload）の略。อัพรูปと書く人も多い。"
+  "note": "อัปはอัปโหลด（upload）の略。อัพรูปと書く人も多い。"
  },
  {
   "id": "tl-56953",
   "th": "เซล",
   "action": "add",
-  "ro": "seeo",
+  "ro": "seen",
   "kind": "word",
   "category": "お金・買い物",
   "frequency": 5,
@@ -594,32 +572,14 @@
     "speechStyle": "口語",
     "example": {
      "th": "ช่วงเซลกลางปี ของถูกมาก",
-     "ro": "chûuang seeo klaang pii khɔ̌ɔng thùuk mâak",
+     "ro": "chûuang seen klaang pii khɔ̌ɔng thùuk mâak",
      "ja": "年の半ばのセール期間は物がとても安い。",
      "en": "Things are very cheap during the mid-year sale.",
      "origin": "authored"
     }
-   },
-   {
-    "sourceSense": 2,
-    "ja": "営業担当・セールスの人",
-    "en": "salesperson",
-    "pos": "名詞",
-    "use": "よく使う別の意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "เซลขายรถโทรมาอีกแล้ว",
-     "ro": "seeo khǎai rót thoo maa ìik lɛ́ɛo",
-     "ja": "車の営業の人からまた電話が来た。",
-     "en": "The car salesperson called again.",
-     "origin": "authored"
-    }
    }
   ],
-  "note": "英語sale・salesから。「セール」はเซลล์、「営業担当」はเซลส์とも書く。標準的には「値引き」はลดราคา、「営業担当」はพนักงานขาย。細胞のเซลล์とは別語。"
+  "note": "英語saleから。เซลล์とも書き、会話ではセーウに近く発音する人も多い。標準的な言い方はลดราคา。営業担当のเซลส์、細胞のเซลล์とは別語。"
  },
  {
   "id": "tl-56969",
@@ -840,8 +800,10 @@
     "en": "to get stopped at a red light",
     "pos": "動詞",
     "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
     "example": {
      "th": "ขอโทษที่มาสาย ติดไฟแดงนานมาก",
      "ro": "khɔ̌ɔ thôot thîi maa sǎai tìt fai dɛɛng naan mâak",
@@ -856,32 +818,8 @@
  {
   "id": "tl-57097",
   "th": "ส่งโลเคชั่น",
-  "action": "add",
-  "ro": "sòng loo khee chân",
-  "kind": "word",
-  "category": "移動・道案内",
-  "frequency": 5,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "位置情報を送る",
-    "en": "to send one's location",
-    "pos": "動詞",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "ถึงแล้วส่งโลเคชั่นมาในไลน์นะ",
-     "ro": "thʉ̌ng lɛ́ɛo sòng loo khee chân maa nai lai ná",
-     "ja": "着いたらLINEで位置情報を送ってね。",
-     "en": "When you arrive, send me your location on LINE.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "正書法ではโลเคชัน。会話ではส่งโลと略すことも多い（ふざけてส่งโลมาとも言う）。"
+  "action": "skip",
+  "skipReason": "ส่ง（送る）＋โลเคชั่น（位置情報）の自由な組み合わせ。โลเคชั่นは同じバッチの別項目（tl-56962）で扱う。"
  },
  {
   "id": "tl-57113",
@@ -898,8 +836,10 @@
     "en": "to ask someone to pass on a message",
     "pos": "動詞",
     "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
     "example": {
      "th": "ถ้าเจอพี่ชาย ฝากบอกว่าฉันโทรมานะ",
      "ro": "thâa cəə phîi chaai fàak bɔ̀ɔk wâa chǎn thoo maa ná",
@@ -1078,8 +1018,10 @@
     "en": "grocery store, corner shop",
     "pos": "名詞",
     "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
     "example": {
      "th": "ซื้อน้ำปลาที่ร้านชำหน้าปากซอย",
      "ro": "sʉ́ʉ nám plaa thîi ráan cham nâa pàak sɔɔi",
@@ -1271,7 +1213,7 @@
   "id": "tl-57337",
   "th": "มิกเซอร์",
   "action": "add",
-  "ro": "mík səə",
+  "ro": "mík sə̂ə",
   "kind": "word",
   "category": "食べ物・飲み物",
   "frequency": 3,
@@ -1288,7 +1230,7 @@
     "speechStyle": "口語",
     "example": {
      "th": "ขอมิกเซอร์เพิ่มอีกชุด",
-     "ro": "khɔ̌ɔ mík səə phə̂əm ìik chút",
+     "ro": "khɔ̌ɔ mík sə̂ə phə̂əm ìik chút",
      "ja": "割り材をもう1セット追加でください。",
      "en": "One more set of mixers, please.",
      "origin": "authored"
@@ -1340,8 +1282,10 @@
     "en": "to miss one's stop",
     "pos": "動詞",
     "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
     "example": {
      "th": "มัวแต่เล่นมือถือ เลยป้ายไปสองป้าย",
      "ro": "muua tɛ̀ɛ lên mʉʉ thʉ̌ʉ ləəi pâai pai sɔ̌ɔng pâai",
@@ -1750,26 +1694,12 @@
     "ja": "（ライブ販売で）購入を確定する・CFと書き込む",
     "pos": "動詞",
     "speechStyle": "口語・スラング",
-    "note": "英語confirmの略CF。SNSのライブ販売で、買いたい人がコメント欄にCF（＋商品番号）と書き込んで購入を確定する。文字ではCFとローマ字で書くことが多い。",
+    "note": "英語confirmの略CF。SNSのライブ販売で、買いたい人がコメント欄にCF（＋商品番号）と書き込んで購入を確定する。文字ではCFとローマ字で書くことが多い。テレビCM（commercial film）の意味でも使うが、そちらは業界・報道の普通の語。",
     "example": {
      "th": "ชอบตัวไหน ซีเอฟเข้ามาได้เลยค่ะ",
      "ro": "chɔ̂ɔp tuua nǎi sii ép khâo maa dâai ləəi khâ",
      "ja": "気に入った商品があったら、CFって書き込んでくださいね。",
      "context": "ライブ配信で服を売る出品者",
-     "origin": "authored"
-    }
-   },
-   {
-    "sourceSense": 2,
-    "ja": "テレビCM",
-    "pos": "名詞",
-    "speechStyle": "口語",
-    "note": "commercial filmの略で、芸能・広告業界や報道でも使う普通の言い方。正式にはภาพยนตร์โฆษณา。",
-    "example": {
-     "th": "ดาราคนนี้ถ่ายซีเอฟมาหลายตัวแล้ว",
-     "ro": "daa raa khon níi thàai sii ép maa lǎai tuua lɛ́ɛo",
-     "ja": "この芸能人はもういくつもCMに出ている。",
-     "context": "芸能人の話をする友人同士",
      "origin": "authored"
     }
    }

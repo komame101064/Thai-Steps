@@ -1,0 +1,1286 @@
+[
+ {
+  "id": "tl-56610",
+  "th": "ใกล้ถึง",
+  "action": "skip",
+  "skipReason": "既存の定型表現 ใกล้ถึงแล้ว（tl-52186「もうすぐ着く」）と同じで、แล้ว を落とした形にすぎないため重複として除外"
+ },
+ {
+  "id": "tl-56626",
+  "th": "ก็แค่",
+  "action": "skip",
+  "skipReason": "ก็＋แค่ の透明な組み合わせで、意味は既存の แค่（tl-00058「〜だけ」）の語義1と同じ。独立見出しにする根拠が弱い"
+ },
+ {
+  "id": "tl-56642",
+  "th": "เสร็จแล้ว",
+  "action": "skip",
+  "skipReason": "เสร็จ（終わる）＋แล้วの透明な組み合わせ（自由な結合）で、独立した語・定型表現として教える根拠が弱い。เสร็จ・แล้ว はどちらも既存語"
+ },
+ {
+  "id": "tl-56658",
+  "th": "ลดหน่อย",
+  "action": "skip",
+  "skipReason": "既存の定型表現 ลดหน่อยได้ไหม（tl-51864）の一部で、意味も同じため重複として除外"
+ },
+ {
+  "id": "tl-56674",
+  "th": "ไปด้วย",
+  "action": "skip",
+  "skipReason": "ไป＋ด้วยの透明な組み合わせ（自由な結合）で、独立した語・定型表現として教える根拠が弱い。既存の ไปด้วยคน・ไปด้วยกันไหม で同じ用法を扱っている"
+ },
+ {
+  "id": "tl-56690",
+  "th": "ไปอาบน้ำ",
+  "action": "skip",
+  "skipReason": "ไป＋อาบน้ำ（ไป＋動詞）の透明な組み合わせ（自由な結合）で、独立した語・定型表現として教える根拠が弱い"
+ },
+ {
+  "id": "tl-56706",
+  "th": "ไม่เบา",
+  "action": "skip",
+  "skipReason": "既存の เบา の語義（「なかなかの・かなりのものだ（ไม่เบา）」）で既に教えている形のため重複"
+ },
+ {
+  "id": "tl-56722",
+  "th": "ถึงบ้านยัง",
+  "action": "add",
+  "ro": "thʉ̌ng bâan yang",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "もう家に着いた？",
+    "en": "are you home yet?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "別れたあとにLINEなどで相手の無事を確かめる決まり文句。答えは ถึงแล้ว（着いたよ）。",
+    "example": {
+     "th": "ถึงบ้านยัง ถึงแล้วทักมาบอกด้วยนะ",
+     "ro": "thʉ̌ng bâan yang thʉ̌ng lɛ́ɛo thák maa bɔ̀ɔk dûuai ná",
+     "ja": "もう家に着いた？着いたらメッセージで知らせてね。",
+     "en": "Are you home yet? Message me when you get there.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56738",
+  "th": "น่าจะใช่",
+  "action": "skip",
+  "skipReason": "น่าจะ＋ใช่の透明な組み合わせ（自由な結合）で、独立した語・定型表現として教える根拠が弱い。น่าจะ（tl-00208）・ใช่ は既存語"
+ },
+ {
+  "id": "tl-56754",
+  "th": "ค่อยว่ากัน",
+  "action": "add",
+  "ro": "khɔ̂ɔi wâa kan",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "そのときにまた考えよう・あとで決めよう",
+    "en": "let's deal with it later",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "今は決めずに先送りする言い方。เดี๋ยวค่อยว่ากัน・ไว้ค่อยว่ากัน の形でよく使う。",
+    "example": {
+     "th": "เรื่องนั้นไว้พรุ่งนี้ค่อยว่ากัน",
+     "ro": "rʉ̂ʉang nán wái phrûng níi khɔ̂ɔi wâa kan",
+     "ja": "その件は明日また考えよう。",
+     "en": "Let's deal with that tomorrow.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56770",
+  "th": "ไม่ต้องเครียด",
+  "action": "skip",
+  "skipReason": "ไม่ต้อง＋เครียดの透明な組み合わせ（自由な結合）で、独立した語・定型表現として教える根拠が弱い（ไม่ต้อง＋動詞・形容詞は生産的）"
+ },
+ {
+  "id": "tl-56786",
+  "th": "ใส่กล่อง",
+  "action": "add",
+  "ro": "sài klɔ̀ɔng",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（持ち帰り用に）容器に入れて",
+    "en": "(put it) in a box, to go",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "屋台や食堂で持ち帰りを頼むときの言い方。袋に入れてもらうなら ใส่ถุง。",
+    "example": {
+     "th": "เอาข้าวผัดหนึ่งที่ ใส่กล่องนะ",
+     "ro": "ao khâao phàt nʉ̀ng thîi sài klɔ̀ɔng ná",
+     "ja": "チャーハン一つ、容器に入れて持ち帰りでね。",
+     "en": "One fried rice, in a box to go, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56802",
+  "th": "แฮปปี้เบิร์ธเดย์",
+  "action": "add",
+  "ro": "hɛ́p pîi bə̀ət dee",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "誕生日おめでとう（英語 Happy birthday から）",
+    "en": "happy birthday",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "友人同士やSNSでよく使う。แฮปปี้เบิร์ดเดย์ とも書く。タイ語本来の言い方は สุขสันต์วันเกิด。",
+    "example": {
+     "th": "แฮปปี้เบิร์ธเดย์นะ ขอให้มีความสุขมากๆ",
+     "ro": "hɛ́p pîi bə̀ət dee ná khɔ̌ɔ hâi mii khwaam sùk mâak mâak",
+     "ja": "誕生日おめでとう。たくさん幸せがありますように。",
+     "en": "Happy birthday! I wish you lots of happiness.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56818",
+  "th": "เรื่องอะไร",
+  "action": "add",
+  "ro": "rʉ̂ʉang à rai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何の話・何のこと",
+    "en": "what about?, what is it about?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เมื่อกี้คุยเรื่องอะไรกันอยู่",
+     "ro": "mʉ̂ʉa kîi khui rʉ̂ʉang à rai kan yùu",
+     "ja": "さっき何の話をしてたの？",
+     "en": "What were you talking about just now?",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（反語で）なんで〜しなきゃいけないの・冗談じゃない",
+    "en": "why on earth would (I)…",
+    "pos": "定型表現",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "文頭に置いて、するつもりはないという強い拒否・不満を表す。",
+    "example": {
+     "th": "เรื่องอะไรฉันจะต้องขอโทษเขาก่อน",
+     "ro": "rʉ̂ʉang à rai chǎn cà tɔ̂ɔng khɔ̌ɔ thôot khǎo kɔ̀ɔn",
+     "ja": "なんで私が先に彼に謝らなきゃいけないの。",
+     "en": "Why on earth should I apologize to him first?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56834",
+  "th": "ทำไมไม่รับสาย",
+  "action": "skip",
+  "skipReason": "ทำไม＋ไม่＋รับสาย の自由な疑問文で、定型表現ではない。รับสาย は既存語"
+ },
+ {
+  "id": "tl-56850",
+  "th": "อ่าฮะ",
+  "action": "add",
+  "ro": "àa há",
+  "kind": "word",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "うんうん・なるほど（相づち）",
+    "en": "uh-huh",
+    "pos": "間投詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "話を聞いていることを示す軽い相づち。อาฮะ・อ่าห้ะ とも書く。目上には ครับ／ค่ะ で返すほうが丁寧。",
+    "example": {
+     "th": "อ่าฮะ แล้วยังไงต่อ",
+     "ro": "àa há lɛ́ɛo yang ngai tɔ̀ɔ",
+     "ja": "うんうん、それでどうなったの？",
+     "en": "Uh-huh, and then what?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56866",
+  "th": "จำไว้",
+  "action": "skip",
+  "skipReason": "จำ＋ไว้（動詞＋ไว้ の生産的な形）で、意味は既存の จำ（tl-00236）から読める"
+ },
+ {
+  "id": "tl-56882",
+  "th": "พาไปกิน",
+  "action": "skip",
+  "skipReason": "พา＋ไป＋กินの透明な組み合わせ（自由な結合）で、独立した語・定型表現として教える根拠が弱い"
+ },
+ {
+  "id": "tl-56898",
+  "th": "ไหมล่ะ",
+  "action": "skip",
+  "skipReason": "ไหม＋ล่ะ の文末詞の組み合わせ。既存の ล่ะ と ใช่ไหมล่ะ で扱えるため独立見出しにしない"
+ },
+ {
+  "id": "tl-56914",
+  "th": "ไม่เข้าท่า",
+  "action": "skip",
+  "skipReason": "editorial-009 で同じ語が「ไม่＋เข้าท่า の否定句で、เข้าท่า は既に語彙にある」として却下済み"
+ },
+ {
+  "id": "tl-56930",
+  "th": "ถูกคอ",
+  "action": "add",
+  "ro": "thùuk khɔɔ",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "気が合う・馬が合う",
+    "en": "to get along well, hit it off",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ถูกคอกัน の形が多い。食べ物が口に合うは ถูกปาก。",
+    "example": {
+     "th": "เราสองคนคุยกันถูกคอตั้งแต่วันแรก",
+     "ro": "rao sɔ̌ɔng khon khui kan thùuk khɔɔ tâng tɛ̀ɛ wan rɛ̂ɛk",
+     "ja": "私たち二人は初日から話が合った。",
+     "en": "The two of us hit it off from the first day.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56946",
+  "th": "ก๋วยเตี๋ยวต้มยำ",
+  "action": "skip",
+  "skipReason": "ก๋วยเตี๋ยว＋ต้มยำ の透明な組み合わせ（料理名＋味付け）で、บะหมี่เกี๊ยว などと同じく独立見出しにしない"
+ },
+ {
+  "id": "tl-56962",
+  "th": "โลเคชั่น",
+  "action": "add",
+  "ro": "loo khee chân",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "位置情報・現在地（地図アプリで共有するもの）",
+    "en": "location (pin), current location",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "英語 location から。正式な表記は โลเคชัน だが、ふだんは โลเคชั่น と書くことが多い。撮影地（ロケ地）の意味でも使う。",
+    "example": {
+     "th": "ส่งโลเคชั่นมาหน่อย เดี๋ยวขับรถไปรับ",
+     "ro": "sòng loo khee chân maa nɔ̀ɔi dǐiao khàp rót pai ráp",
+     "ja": "位置情報を送って。今から車で迎えに行くから。",
+     "en": "Send me your location; I'll drive over and pick you up.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56978",
+  "th": "ก็ว่าทำไม",
+  "action": "add",
+  "ro": "kɔ̂ɔ wâa tham mai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どうりで（〜なわけだ）",
+    "en": "no wonder",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "理由がわかって納得したときに言う。มิน่าล่ะ・มิน่าเล่า とほぼ同じ。",
+    "example": {
+     "th": "อ๋อ เขาป่วยนี่เอง ก็ว่าทำไมไม่มาทำงาน",
+     "ro": "ɔ̌ɔ khǎo pùuai nîi eeng kɔ̂ɔ wâa tham mai mâi maa tham ngaan",
+     "ja": "ああ、彼は病気だったのか。どうりで仕事に来ないわけだ。",
+     "en": "Oh, he's sick. No wonder he didn't come to work.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56994",
+  "th": "ไม่โกรธหรอก",
+  "action": "skip",
+  "skipReason": "ไม่＋โกรธ＋หรอก の自由な組み合わせで定型表現ではない"
+ },
+ {
+  "id": "tl-57010",
+  "th": "ไม่ได้โกหก",
+  "action": "skip",
+  "skipReason": "ไม่ได้＋โกหก の自由な否定文で定型表現ではない"
+ },
+ {
+  "id": "tl-57026",
+  "th": "ขี้โกหก",
+  "action": "add",
+  "ro": "khîi koo hòk",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "嘘つき（な）・よく嘘をつく",
+    "en": "lying, (be) a liar",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "人を指して คนขี้โกหก とも言う。",
+    "example": {
+     "th": "อย่าไปเชื่อเขา เขาขี้โกหก",
+     "ro": "yàa pai chʉ̂ʉa khǎo khǎo khîi koo hòk",
+     "ja": "彼を信じちゃだめ。嘘つきだから。",
+     "en": "Don't believe him. He's a liar.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57042",
+  "th": "พอเถอะ",
+  "action": "skip",
+  "skipReason": "พอ＋เถอะ の組み合わせで、既存の定型表現 พอแล้ว（もういい）と同じ用法。独立見出しにしない"
+ },
+ {
+  "id": "tl-57058",
+  "th": "ขี้เกียจตื่น",
+  "action": "skip",
+  "skipReason": "ขี้เกียจ＋動詞（ตื่น）の生産的な組み合わせで定型表現ではない"
+ },
+ {
+  "id": "tl-57074",
+  "th": "เติมข้าว",
+  "action": "skip",
+  "skipReason": "เติม（足す・おかわりする）＋ข้าวの透明な組み合わせ（自由な結合）で、独立した語・定型表現として教える根拠が弱い（อดข้าว などと同じ扱い）"
+ },
+ {
+  "id": "tl-57090",
+  "th": "โผล่มา",
+  "action": "skip",
+  "skipReason": "既存の โผล่ に方向の มา が付いた生産的な形で、独立見出しにしない"
+ },
+ {
+  "id": "tl-57106",
+  "th": "แชร์กัน",
+  "action": "skip",
+  "skipReason": "แชร์＋กันの透明な組み合わせ（自由な結合）で、独立した語・定型表現として教える根拠が弱い。費用を分担する意味は แชร์ の語義として扱うべきもの"
+ },
+ {
+  "id": "tl-57122",
+  "th": "คิดดูก่อน",
+  "action": "skip",
+  "skipReason": "既存の定型表現 ขอคิดดูก่อน（tl-52222）から ขอ を落とした形で、意味も同じため重複"
+ },
+ {
+  "id": "tl-57138",
+  "th": "แย่งกัน",
+  "action": "skip",
+  "skipReason": "แย่ง＋กัน（相互）の生産的な組み合わせで、แย่ง は既存語"
+ },
+ {
+  "id": "tl-57154",
+  "th": "อิ่มตื้อ",
+  "action": "add",
+  "ro": "ìm tʉ̂ʉ",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "お腹がぱんぱんで苦しい・満腹で動けない",
+    "en": "stuffed, uncomfortably full",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "อิ่มแปล้ と近い。食べすぎて苦しいニュアンスが強い。",
+    "example": {
+     "th": "กินเยอะจนอิ่มตื้อ ลุกไม่ไหวเลย",
+     "ro": "kin yə́ con ìm tʉ̂ʉ lúk mâi wǎi ləəi",
+     "ja": "食べすぎてお腹がぱんぱんで、立ち上がれない。",
+     "en": "I ate so much I'm stuffed and can't get up.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57170",
+  "th": "ผอมกะหร่อง",
+  "action": "add",
+  "ro": "phɔ̌ɔm kà rɔ̀ɔng",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "がりがりに痩せた",
+    "en": "skinny, all skin and bones",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "やせすぎを遠慮なく言う表現で、本人に言うと失礼になりうる。",
+    "example": {
+     "th": "ช่วงนี้เขาผอมกะหร่องเลย ไม่สบายหรือเปล่า",
+     "ro": "chûuang níi khǎo phɔ̌ɔm kà rɔ̀ɔng ləəi mâi sà baai rʉ̌ʉ plàao",
+     "ja": "最近彼、がりがりに痩せてるね。具合でも悪いのかな。",
+     "en": "He's gotten really skinny lately. Is he sick?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57186",
+  "th": "ตาปรือ",
+  "action": "skip",
+  "skipReason": "既存の ปรือ（tl-46227「眠くて目がとろんとする」）の語義そのもので、ตา＋ปรือ の透明な組み合わせ"
+ },
+ {
+  "id": "tl-57202",
+  "th": "เทรด",
+  "action": "add",
+  "ro": "thrèet",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（株・暗号資産などを）売買する・トレードする",
+    "en": "to trade (stocks, crypto, etc.)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "英語 trade から。発音は外来語の慣用で低声（เดต・เบรก と同じ）。",
+    "example": {
+     "th": "ช่วงนี้เขาเทรดหุ้นทุกวัน",
+     "ro": "chûuang níi khǎo thrèet hûn thúk wan",
+     "ja": "最近彼は毎日株のトレードをしている。",
+     "en": "These days he trades stocks every day.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57218",
+  "th": "ข้าวเพิ่ม",
+  "action": "skip",
+  "skipReason": "ข้าว＋เพิ่มの透明な組み合わせ（自由な結合）で、独立した語・定型表現として教える根拠が弱い"
+ },
+ {
+  "id": "tl-57234",
+  "th": "โต๊ะว่าง",
+  "action": "skip",
+  "skipReason": "โต๊ะ＋ว่าง（名詞＋形容詞）の透明な組み合わせ（自由な結合）で、独立した語・定型表現として教える根拠が弱い"
+ },
+ {
+  "id": "tl-57250",
+  "th": "ท้ายซอย",
+  "action": "add",
+  "ro": "tháai sɔɔi",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ソイ（路地）の奥のほう",
+    "en": "the far end of a soi (side street)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "反対は ปากซอย（路地の入り口）。",
+    "example": {
+     "th": "บ้านผมอยู่ท้ายซอยนี้",
+     "ro": "bâan phǒm yùu tháai sɔɔi níi",
+     "ja": "僕の家はこのソイの奥にある。",
+     "en": "My house is at the end of this soi.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57266",
+  "th": "น้ำไม่ไหล",
+  "action": "skip",
+  "skipReason": "น้ำ＋ไม่＋ไหล の自由な文（主語＋否定＋動詞）で、定型表現として立てる根拠が弱い"
+ },
+ {
+  "id": "tl-57282",
+  "th": "เด็กฝึกงาน",
+  "action": "add",
+  "ro": "dèk fʉ̀k ngaan",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "インターン生・実習生",
+    "en": "intern, trainee",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "職場でふだん使う言い方。改まった言い方は นักศึกษาฝึกงาน。",
+    "example": {
+     "th": "บริษัทเรารับเด็กฝึกงานทุกปี",
+     "ro": "bɔɔ rí sàt rao ráp dèk fʉ̀k ngaan thúk pii",
+     "ja": "うちの会社は毎年インターン生を受け入れている。",
+     "en": "Our company takes interns every year.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57298",
+  "th": "ผลตรวจ",
+  "action": "skip",
+  "skipReason": "ผล＋ตรวจ の透明な組み合わせで、ผล・ตรวจ はどちらも既存語（ผลตรวจ は既存例文にも出ている）"
+ },
+ {
+  "id": "tl-57314",
+  "th": "หน้าม้า",
+  "action": "add",
+  "ro": "nâa máa",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "サクラ（客や支持者を装う人）",
+    "en": "shill, plant",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "คนที่รีวิวดีๆ พวกนั้นเป็นหน้าม้าทั้งนั้น",
+     "ro": "khon thîi rii wiu dii dii phûuak nán pen nâa máa tháng nán",
+     "ja": "いいレビューを書いているあの人たちは、みんなサクラだよ。",
+     "en": "Those people writing glowing reviews are all shills.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57330",
+  "th": "ติดเพื่อน",
+  "action": "add",
+  "ro": "tìt phʉ̂ʉan",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "友達と遊んでばかりいる・友達優先",
+    "en": "to be always out with friends",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "ติดเกม・ติดแฟน と同じ「〜にはまって離れない」の ติด。",
+    "example": {
+     "th": "ลูกชายช่วงนี้ติดเพื่อน ไม่ค่อยอยู่บ้าน",
+     "ro": "lûuk chaai chûuang níi tìt phʉ̂ʉan mâi khɔ̂ɔi yùu bâan",
+     "ja": "息子は最近友達と遊んでばかりで、あまり家にいない。",
+     "en": "My son is always out with his friends these days and is hardly home.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57346",
+  "th": "งานกอง",
+  "action": "skip",
+  "skipReason": "งาน＋กอง（主語＋動詞）の自由な組み合わせで、慣用句として定着しているのは งานกองเป็นภูเขา などの形"
+ },
+ {
+  "id": "tl-57362",
+  "th": "ตามใจปาก",
+  "action": "add",
+  "ro": "taam cai pàak",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "食べたいものを好きなだけ食べる",
+    "en": "to eat whatever one craves",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "กินตามใจปาก の形でよく使う。",
+    "example": {
+     "th": "ช่วงนี้กินตามใจปากจนน้ำหนักขึ้น",
+     "ro": "chûuang níi kin taam cai pàak con nám nàk khʉ̂n",
+     "ja": "最近好きなだけ食べていたら体重が増えた。",
+     "en": "Lately I've been eating whatever I want and gained weight.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57378",
+  "th": "โหลดไม่ขึ้น",
+  "action": "skip",
+  "skipReason": "โหลด＋ไม่ขึ้น（動詞＋ไม่ขึ้น の生産的な形）で、เปิดไม่ขึ้น などと同型。独立見出しにする根拠が弱い"
+ },
+ {
+  "id": "tl-57394",
+  "th": "กดรับ",
+  "action": "skip",
+  "skipReason": "กด＋รับ の透明な組み合わせ（กดรับสาย・กดรับคูปอง など）で、独立した語として教える根拠が弱い"
+ },
+ {
+  "id": "tl-57410",
+  "th": "อยู่เวร",
+  "action": "skip",
+  "skipReason": "editorial-012 で同じ語が「既存の เวร（tl-01559）の語義『当番』の用例ですでに教えている」として却下済み"
+ },
+ {
+  "id": "tl-57426",
+  "th": "ช็อปเพลิน",
+  "action": "skip",
+  "skipReason": "ช้อป＋เพลิน（動詞＋เพลิน の生産的な形。กินเพลิน・ดูเพลิน と同型）で、表記も ช้อป／ช็อป と揺れる"
+ },
+ {
+  "id": "tl-57442",
+  "th": "ชาชัก",
+  "action": "add",
+  "ro": "chaa chák",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "テーチャック（高い所から注いで泡立てる甘いミルクティー）",
+    "en": "teh tarik (pulled milk tea)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "マレー系の飲み物で、ロティの店やムスリムの食堂でよく出る。",
+    "example": {
+     "th": "ร้านโรตีร้านนี้ชาชักอร่อยมาก",
+     "ro": "ráan roo tii ráan níi chaa chák à rɔ̀ɔi mâak",
+     "ja": "このロティの店はテーチャックがとてもおいしい。",
+     "en": "The teh tarik at this roti shop is really good.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57458",
+  "th": "ขาจร",
+  "action": "add",
+  "ro": "khǎa cɔɔn",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "一見の客・たまに来る客",
+    "en": "occasional (non-regular) customer",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "反対は ขาประจำ（常連）。",
+    "example": {
+     "th": "ร้านนี้มีแต่ขาประจำ ขาจรไม่ค่อยมี",
+     "ro": "ráan níi mii tɛ̀ɛ khǎa prà cam khǎa cɔɔn mâi khɔ̂ɔi mii",
+     "ja": "この店は常連ばかりで、一見の客はあまりいない。",
+     "en": "This shop has only regulars; walk-in customers are rare.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57474",
+  "th": "ที่คว่ำจาน",
+  "action": "add",
+  "ro": "thîi khwâm caan",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "水切りかご（食器を伏せて置く台）",
+    "en": "dish rack",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ล้างจานเสร็จแล้วก็วางไว้บนที่คว่ำจาน",
+     "ro": "láang caan sèt lɛ́ɛo kɔ̂ɔ waang wái bon thîi khwâm caan",
+     "ja": "皿を洗い終わったら水切りかごに置いておいて。",
+     "en": "After washing the dishes, put them on the dish rack.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57490",
+  "th": "ซีวี",
+  "action": "add",
+  "ro": "sii wii",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "履歴書・CV",
+    "en": "CV, résumé",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "英語 CV から。เรซูเม่ とも言う。",
+    "example": {
+     "th": "ส่งซีวีไปสมัครงานหลายที่แล้ว",
+     "ro": "sòng sii wii pai sà màk ngaan lǎai thîi lɛ́ɛo",
+     "ja": "もう何か所にも履歴書を送って応募した。",
+     "en": "I've already sent my CV to apply at several places.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57506",
+  "th": "เกลียดตัวกินไข่",
+  "action": "add",
+  "ro": "klìiat tuua kin khài",
+  "kind": "expression",
+  "category": "一般語彙",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "嫌っていながら利益だけはちゃっかり受け取る",
+    "en": "to despise someone yet take what they offer",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ことわざ เกลียดตัวกินไข่ เกลียดปลาไหลกินน้ำแกง の前半で、この部分だけでも使う。",
+    "example": {
+     "th": "บ่นบริษัททุกวันแต่ไม่ยอมลาออก เกลียดตัวกินไข่ชัดๆ",
+     "ro": "bòn bɔɔ rí sàt thúk wan tɛ̀ɛ mâi yɔɔm laa ɔ̀ɔk klìiat tuua kin khài chát chát",
+     "ja": "毎日会社の文句を言うのに辞めようとしない。嫌いなくせに恩恵だけは受け取るとはこのことだ。",
+     "en": "Complaining about the company every day but never quitting: a clear case of hating the hen but eating its eggs.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60707",
+  "th": "ตายห่า",
+  "action": "add",
+  "ro": "taai hàa",
+  "kind": "expression",
+  "category": "スラング｜粗い言葉",
+  "adult": false,
+  "tags": [
+   "colloquial",
+   "vulgar"
+  ],
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "しまった・やっべ・ちくしょう（驚き・焦り）",
+    "pos": "間投詞",
+    "speechStyle": "粗い口語",
+    "note": "ห่า（疫病）を使った呪いの言葉から来た粗い感嘆。親しい仲での独り言や驚きに使い、目上や改まった場では使わない。人に向けて ไปตายห่า と言うと強い罵りになる。",
+    "example": {
+     "th": "ตายห่า ลืมกระเป๋าตังค์ไว้ที่ร้าน",
+     "ro": "taai hàa lʉʉm krà pǎo tang wái thîi ráan",
+     "ja": "やっべ、財布を店に置き忘れた。",
+     "context": "友人と店を出た直後に気づく",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60723",
+  "th": "ไม่ไหวจะเคลียร์",
+  "action": "skip",
+  "skipReason": "editorial-008 で同じ語が「2000年代後半〜2010年代前半の流行語で、今も日常的に使うとは確認できない」として却下済み"
+ },
+ {
+  "id": "tl-60739",
+  "th": "แบกทีม",
+  "action": "add",
+  "ro": "bɛ̀ɛk thiim",
+  "kind": "word",
+  "category": "スラング｜ネット・SNS",
+  "adult": false,
+  "tags": [
+   "colloquial",
+   "slang"
+  ],
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（一人で）チームを背負う・チームを勝たせる",
+    "pos": "動詞",
+    "speechStyle": "口語・スラング",
+    "note": "オンラインゲームの言い方から広まり、仕事やグループ課題で一人が大活躍する場面にも使う。",
+    "example": {
+     "th": "ตาที่แล้วชนะเพราะเขาแบกทีมคนเดียวเลย",
+     "ro": "taa thîi lɛ́ɛo chá ná phrɔ́ khǎo bɛ̀ɛk thiim khon diiao ləəi",
+     "ja": "前の試合は彼が一人でチームを背負ったから勝てた。",
+     "context": "オンラインゲームのあとで友人と話す",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60755",
+  "th": "โหดสัส",
+  "action": "skip",
+  "skipReason": "既存の โหด（tl-02755）と粗い強調語 สัส（tl-10092）の生産的な組み合わせ（形容詞＋สัส）で、独立見出しにしない"
+ },
+ {
+  "id": "tl-60771",
+  "th": "คิ้วท์",
+  "action": "add",
+  "ro": "khíu",
+  "kind": "word",
+  "category": "スラング｜ほめる・反応",
+  "adult": false,
+  "tags": [
+   "colloquial",
+   "slang"
+  ],
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "かわいい・キュート",
+    "pos": "形容詞・状態語",
+    "speechStyle": "口語・スラング",
+    "note": "英語 cute から。คิวท์ とも書く。若い人やSNSで น่ารัก の代わりに軽く使う。",
+    "example": {
+     "th": "น้องหมาตัวนี้คิ้วท์มาก",
+     "ro": "nɔ́ɔng mǎa tuua níi khíu mâak",
+     "ja": "この子犬、すごくキュート。",
+     "context": "友人とペットの写真を見る",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60787",
+  "th": "งงในงง",
+  "action": "add",
+  "ro": "ngong nai ngong",
+  "kind": "expression",
+  "category": "スラング｜気持ち",
+  "adult": false,
+  "tags": [
+   "colloquial",
+   "slang"
+  ],
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "わけがわからない・頭が混乱しきっている",
+    "pos": "定型表現",
+    "speechStyle": "口語・スラング",
+    "note": "งง（混乱する）を重ねて強めた言い方。冗談めかして使うことが多い。",
+    "example": {
+     "th": "อ่านคำอธิบายแล้วยิ่งงงในงงเลย",
+     "ro": "àan kham à thí baai lɛ́ɛo yîng ngong nai ngong ləəi",
+     "ja": "説明を読んだら、ますますわけがわからなくなった。",
+     "context": "友人とアプリの設定に苦戦する",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60803",
+  "th": "บอท",
+  "action": "add",
+  "ro": "bɔ́t",
+  "kind": "word",
+  "category": "スラング｜ネット・SNS",
+  "adult": false,
+  "tags": [
+   "colloquial",
+   "slang"
+  ],
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ボット（自動で動くプログラム・偽アカウント）",
+    "pos": "名詞",
+    "speechStyle": "口語",
+    "note": "英語 bot から。SNSの自動アカウントやゲームのコンピューター操作キャラを指す。แชทบอท の บอท。",
+    "example": {
+     "th": "คอมเมนต์พวกนี้น่าจะมาจากบอท",
+     "ro": "khɔm mén phûuak níi nâa cà maa càak bɔ́t",
+     "ja": "このコメントたちは、たぶんボットが書いたものだ。",
+     "context": "SNSの不自然なコメントを見て",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（ゲームで）下手なプレイヤー",
+    "pos": "名詞",
+    "speechStyle": "口語・スラング",
+    "note": "「ボットのように弱い」という意味のからかい。相手に言うと悪口になる。",
+    "example": {
+     "th": "เล่นอย่างกับบอท แพ้ทุกตาเลย",
+     "ro": "lên yàang kàp bɔ́t phɛ́ɛ thúk taa ləəi",
+     "ja": "ボットみたいなプレイで、毎回負けてる。",
+     "context": "友人のゲームプレイをからかう",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60819",
+  "th": "แหยง",
+  "action": "add",
+  "ro": "yɛ̌ɛng",
+  "kind": "word",
+  "category": "スラング｜気持ち",
+  "adult": false,
+  "tags": [
+   "colloquial"
+  ],
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "怖じ気づく・ひるむ",
+    "pos": "動詞",
+    "speechStyle": "口語",
+    "note": "怖さや気味悪さでしり込みする気持ち。กลัว より口語的で軽い。",
+    "example": {
+     "th": "เห็นหมาตัวใหญ่แล้วแหยงเลย ไม่กล้าเดินผ่าน",
+     "ro": "hěn mǎa tuua yài lɛ́ɛo yɛ̌ɛng ləəi mâi klâa dəən phàan",
+     "ja": "大きな犬を見てひるんでしまい、そばを通れなかった。",
+     "context": "散歩中の出来事を友人に話す",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60835",
+  "th": "กินแห้ว",
+  "action": "skip",
+  "skipReason": "既存の แห้ว（tl-10067「期待が外れる・振られる」）と同じ意味で、その元の形にすぎないため重複"
+ },
+ {
+  "id": "tl-60851",
+  "th": "ยกซด",
+  "action": "add",
+  "ro": "yók sòt",
+  "kind": "word",
+  "category": "スラング｜遊ぶ・飲む",
+  "adult": false,
+  "tags": [
+   "colloquial"
+  ],
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（瓶やグラスごと）ぐいっと飲み干す",
+    "pos": "動詞",
+    "speechStyle": "口語",
+    "note": "ยก（持ち上げる）＋ซด（すする）。飲み会でよく使うくだけた言い方。",
+    "example": {
+     "th": "เขายกซดเบียร์หมดขวดในทีเดียว",
+     "ro": "khǎo yók sòt biia mòt khùuat nai thii diiao",
+     "ja": "彼はビールを一本、一気に飲み干した。",
+     "context": "飲み会で友人の飲みっぷりを話す",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60867",
+  "th": "ประสาทแดก",
+  "action": "add",
+  "ro": "prà sàat dɛ̀ɛk",
+  "kind": "word",
+  "category": "スラング｜粗い言葉",
+  "adult": false,
+  "tags": [
+   "colloquial",
+   "vulgar"
+  ],
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "頭がおかしい・イカれてる",
+    "pos": "形容詞・状態語",
+    "speechStyle": "粗い口語",
+    "note": "ประสาทกิน（頭がおかしい）の กิน を粗い แดก に替えた言い方。親しい仲でのからかいや悪口で、目上には使わない。",
+    "example": {
+     "th": "ฝนตกหนักขนาดนี้ยังจะไปวิ่ง ประสาทแดกแล้ว",
+     "ro": "fǒn tòk nàk khà nàat níi yang cà pai wîng prà sàat dɛ̀ɛk lɛ́ɛo",
+     "ja": "こんな大雨なのにまだ走りに行くなんて、頭おかしいよ。",
+     "context": "友人の無茶をからかう",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60883",
+  "th": "บูมเมอร์",
+  "action": "add",
+  "ro": "buum mə̂ə",
+  "kind": "word",
+  "category": "スラング｜ネット・SNS",
+  "adult": false,
+  "tags": [
+   "colloquial",
+   "slang"
+  ],
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "考えの古い年長者・老害（からかい）",
+    "pos": "名詞",
+    "speechStyle": "口語・スラング",
+    "note": "英語 boomer から。2020年前後の \"OK boomer\" の流行とともにネットで広まり、年長者の古い考えをからかうのに使う。本人に言うと失礼。",
+    "example": {
+     "th": "พูดแบบนี้บูมเมอร์มากเลยนะ",
+     "ro": "phûut bɛ̀ɛp níi buum mə̂ə mâak ləəi ná",
+     "ja": "そういう言い方、すごく老害っぽいよ。",
+     "context": "友人が古い価値観を口にした",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60899",
+  "th": "นิยายวาย",
+  "action": "add",
+  "ro": "ní yaai waai",
+  "kind": "word",
+  "category": "スラング｜ネット・SNS",
+  "adult": false,
+  "tags": [
+   "colloquial",
+   "slang"
+  ],
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "BL小説",
+    "pos": "名詞",
+    "speechStyle": "口語・スラング",
+    "note": "วาย はBL（男性同士の恋愛もの）を指すファン用語。BLドラマは ซีรีส์วาย。",
+    "example": {
+     "th": "ช่วงนี้ติดอ่านนิยายวายทุกคืน",
+     "ro": "chûuang níi tìt àan ní yaai waai thúk khʉʉn",
+     "ja": "最近、毎晩BL小説を読むのにはまっている。",
+     "context": "友人と趣味の話をする",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60915",
+  "th": "ลงเรือ",
+  "action": "add",
+  "ro": "long rʉʉa",
+  "kind": "word",
+  "category": "スラング｜ネット・SNS",
+  "adult": false,
+  "tags": [
+   "colloquial",
+   "slang"
+  ],
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（カップリングを）推し始める・〜のファンになる",
+    "pos": "動詞",
+    "speechStyle": "口語・スラング",
+    "note": "ファン用語で、応援するカップルを「船」にたとえる。本来の意味は「船に乗る」。",
+    "example": {
+     "th": "ดูซีรีส์เรื่องนี้แล้วลงเรือคู่นี้เต็มตัว",
+     "ro": "duu sii rîi rʉ̂ʉang níi lɛ́ɛo long rʉʉa khûu níi tem tuua",
+     "ja": "このドラマを見て、このカップルを本格的に推し始めた。",
+     "context": "ドラマ好きの友人同士の会話",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60931",
+  "th": "ไฮซ้อ",
+  "action": "add",
+  "ro": "hai sɔ́ɔ",
+  "kind": "word",
+  "category": "スラング｜一般",
+  "adult": false,
+  "tags": [
+   "colloquial",
+   "slang"
+  ],
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "裕福な華人系マダム（風の人）",
+    "pos": "名詞",
+    "speechStyle": "口語・スラング",
+    "note": "ไฮโซ（上流の）＋ซ้อ（華人系の奥さんへの呼び方）。金のアクセサリーなど派手な装いのお金持ち奥様のイメージで、からかい半分に使う。",
+    "example": {
+     "th": "แต่งตัวไฮซ้อมาเลยนะวันนี้",
+     "ro": "tɛ̀ng tuua hai sɔ́ɔ maa ləəi ná wan níi",
+     "ja": "今日はお金持ちマダム風の格好で来たね。",
+     "context": "友人の服装をからかう",
+     "origin": "authored"
+    }
+   }
+  ]
+ }
+]
