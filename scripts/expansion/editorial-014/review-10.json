@@ -1,0 +1,423 @@
+[
+ {
+  "id": "tl-56610",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56626",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56642",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56658",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56674",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56690",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56706",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56722",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56738",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56754",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56770",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56786",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56802",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56818",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56834",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56850",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56866",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56882",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56898",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56914",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56930",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56946",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56962",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56978",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56994",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57010",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57026",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57042",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57058",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57074",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57090",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57106",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57122",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57138",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57154",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57170",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57186",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57202",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57218",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57234",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57250",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57266",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57282",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57298",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57314",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57330",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57346",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57362",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57378",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57394",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57410",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57426",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57442",
+  "verdict": "fix",
+  "issues": [
+   "「テーチャック」は日本語として通じない造語のため、日本で通じる名称「テ・タリック」に修正"
+  ],
+  "fixed": {
+   "id": "tl-57442",
+   "th": "ชาชัก",
+   "action": "add",
+   "ro": "chaa chák",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "テ・タリック（高い所から注いで泡立てる甘いミルクティー）",
+     "en": "teh tarik (pulled milk tea)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "マレー系の飲み物で、ロティの店やムスリムの食堂でよく出る。",
+     "example": {
+      "th": "ร้านโรตีร้านนี้ชาชักอร่อยมาก",
+      "ro": "ráan roo tii ráan níi chaa chák à rɔ̀ɔi mâak",
+      "ja": "このロティの店はテーチャックがとてもおいしい。",
+      "en": "The teh tarik at this roti shop is really good.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57458",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57474",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57490",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57506",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60707",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60723",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60739",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60755",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60771",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60787",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60803",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60819",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60835",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60851",
+  "verdict": "fix",
+  "issues": [
+   "ซด は低子音字の短母音・閉音節で高声調 sót（見出しと例文のroの sòt が誤り）"
+  ],
+  "fixed": {
+   "id": "tl-60851",
+   "th": "ยกซด",
+   "action": "add",
+   "ro": "yók sót",
+   "kind": "word",
+   "category": "スラング｜遊ぶ・飲む",
+   "adult": false,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（瓶やグラスごと）ぐいっと飲み干す",
+     "pos": "動詞",
+     "speechStyle": "口語",
+     "note": "ยก（持ち上げる）＋ซด（すする）。飲み会でよく使うくだけた言い方。",
+     "example": {
+      "th": "เขายกซดเบียร์หมดขวดในทีเดียว",
+      "ro": "khǎo yók sót biia mòt khùuat nai thii diiao",
+      "ja": "彼はビールを一本、一気に飲み干した。",
+      "context": "飲み会で友人の飲みっぷりを話す",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60867",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60883",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60899",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60915",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60931",
+  "verdict": "ok",
+  "issues": []
+ }
+]

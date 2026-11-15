@@ -88,7 +88,7 @@
   "id": "tl-56875",
   "verdict": "reject",
   "issues": [
-   "既存の เฉยๆ（tl-01397）の語義2「何もせずに・じっとして（อยู่เฉยๆ）」で既に教えており、อยู่＋เฉยๆ の組み合わせを別項目にする必要がない"
+   "อยู่（いる）＋เฉยๆ（何もせずに）の自由な動詞＋副詞の組み合わせで固定した意味がない。既存の เฉยๆ（tl-01397）語義2でもこの用法を扱っている"
   ]
  },
  {
@@ -230,8 +230,40 @@
  },
  {
   "id": "tl-57323",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "「愛想を振りまく」は人当たりがよいという意味で、noteや英訳（flirt）の「気を持たせる・魅力を振りまく」と食い違うため、語義と例文の日本語訳を修正"
+  ],
+  "fixed": {
+   "id": "tl-57323",
+   "th": "หว่านเสน่ห์",
+   "action": "add",
+   "ro": "wàan sà nèe",
+   "kind": "word",
+   "category": "一般語彙",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（誰にでも）魅力を振りまく・気を持たせる",
+     "en": "to spread one's charm around",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "異性に気を持たせる意味で、やや批判的に使うことが多い。",
+     "example": {
+      "th": "เขาชอบหว่านเสน่ห์ไปทั่ว",
+      "ro": "khǎo chɔ̂ɔp wàan sà nèe pai thûua",
+      "ja": "彼はいろんな人に気を持たせるのが好きだ。",
+      "en": "He likes to flirt with everyone.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-57339",
@@ -242,7 +274,7 @@
   "id": "tl-57355",
   "verdict": "fix",
   "issues": [
-   "noteの「語調をそろえるために ท่า を添えた」は根拠が不確か（ท่า は水浴びする船着き場の意とされる）ため、説明を重ね言葉という事実のみに修正"
+   "noteの「語調をそろえるために ท่า を添えた」は根拠のない語源説明なので削り、重ね言葉という事実だけにした"
   ],
   "fixed": {
    "id": "tl-57355",
@@ -364,8 +396,40 @@
  },
  {
   "id": "tl-60828",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "流行語なので広まった時期をnoteに明記"
+  ],
+  "fixed": {
+   "id": "tl-60828",
+   "th": "มนุษย์ลุง",
+   "action": "add",
+   "ro": "má nút lung",
+   "kind": "word",
+   "category": "スラング｜ネット・SNS",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "マナーが悪く図々しい年配男性",
+     "pos": "名詞",
+     "speechStyle": "口語・スラング",
+     "note": "2020年代にSNSで広まったネット語。年上男性を揶揄する言い方で、本人の前では失礼。",
+     "example": {
+      "th": "มนุษย์ลุงที่ทำงานชอบทักแชทมาตอนดึก",
+      "ro": "má nút lung thîi tham ngaan chɔ̂ɔp thák chɛ́t maa tɔɔn dʉ̀k",
+      "ja": "職場の図々しいおじさんが、よく夜遅くにチャットしてくる。",
+      "context": "同僚に愚痴をこぼす",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-60844",
