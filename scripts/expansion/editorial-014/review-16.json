@@ -1,0 +1,534 @@
+[
+ {
+  "id": "tl-56616",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56632",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56648",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56664",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56680",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56696",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56712",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56728",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56744",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56760",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56776",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56792",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56808",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56824",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56840",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56856",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56872",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56888",
+  "verdict": "fix",
+  "issues": [
+   "語義2の例文enに原文にない「us」が加わっていたため修正"
+  ],
+  "fixed": {
+   "id": "tl-56888",
+   "th": "ตามไป",
+   "action": "add",
+   "ro": "taam pai",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "後から行く",
+     "en": "to come along later, join later",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ไปก่อนเลย เดี๋ยวตามไป",
+      "ro": "pai kɔ̀ɔn ləəi dǐiao taam pai",
+      "ja": "先に行ってて。後から行くから。",
+      "en": "Go ahead, I'll follow you later.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "追いかけて行く・ついて行く",
+     "en": "to follow, go after",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หมาวิ่งตามไปจนถึงปากซอย",
+      "ro": "mǎa wîng taam pai con thʉ̌ng pàak sɔɔi",
+      "ja": "犬が路地の入り口まで追いかけていった。",
+      "en": "The dog ran after them all the way to the mouth of the lane.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56904",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56920",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56936",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56952",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56968",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56984",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57000",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57016",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57032",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57048",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57064",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57080",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57096",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57112",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57128",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57144",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57160",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57176",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57192",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57208",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57224",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57240",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57256",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57272",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57288",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57304",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57320",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57336",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57352",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57368",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57384",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57400",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57416",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57432",
+  "verdict": "fix",
+  "issues": [
+   "ช้อนซื้อ は経済ニュースでも普通に使う語で、口語限定ではないため標準語に変更"
+  ],
+  "fixed": {
+   "id": "tl-57432",
+   "th": "ช้อนซื้อ",
+   "action": "add",
+   "ro": "chɔ́ɔn sʉ́ʉ",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（値下がりしたところを）安値で買う・押し目買いする",
+     "en": "to buy the dip",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "ช้อน（すくう）から。株・金・不動産などの話で使う。",
+     "example": {
+      "th": "หุ้นลงเยอะ หลายคนเข้าไปช้อนซื้อ",
+      "ro": "hûn long yə́ lǎai khon khâo pai chɔ́ɔn sʉ́ʉ",
+      "ja": "株が大きく下がり、多くの人が押し目買いに入った。",
+      "en": "Stocks fell a lot, and many people bought the dip.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57448",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57464",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57480",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57496",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57512",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60713",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60729",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60745",
+  "verdict": "fix",
+  "issues": [
+   "noteの「辞書の綴りは กระจิดริด」は確認できない断定のため、異綴りの紹介に改めた"
+  ],
+  "fixed": {
+   "id": "tl-60745",
+   "th": "กระจิ๊ดริด",
+   "action": "add",
+   "ro": "krà cít rít",
+   "kind": "word",
+   "category": "スラング｜一般",
+   "adult": false,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ちっちゃい・ほんのちょっとの",
+     "pos": "形容詞・状態語",
+     "speechStyle": "口語",
+     "note": "กระจิดริด とも書く。กระจิ๋ว と同じく小ささを誇張する言い方で、不満やからかいを込めることが多い。",
+     "example": {
+      "th": "ให้มาแค่ชิ้นกระจิ๊ดริดเอง",
+      "ro": "hâi maa khɛ̂ɛ chín krà cít rít eeng",
+      "ja": "ほんのちっちゃい一切れしかくれなかった。",
+      "context": "おすそ分けが少なくて不満",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60761",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60777",
+  "verdict": "fix",
+  "issues": [
+   "noteのアプリ表示名（ยกเลิกข้อความ）は確認できないため削除"
+  ],
+  "fixed": {
+   "id": "tl-60777",
+   "th": "อันเซนด์",
+   "action": "add",
+   "ro": "an sen",
+   "kind": "word",
+   "category": "スラング｜ネット・SNS",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（LINEなどで）送信を取り消す",
+     "pos": "動詞",
+     "speechStyle": "口語・スラング",
+     "note": "英語 unsend から。อันเซ็นด์ とも書く。",
+     "example": {
+      "th": "เมื่อกี้อันเซนด์อะไรไป",
+      "ro": "mʉ̂ʉa kîi an sen à rai pai",
+      "ja": "さっき何を送信取消したの？",
+      "context": "LINEのトークで",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60793",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60809",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60825",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60841",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60857",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60873",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60889",
+  "verdict": "reject",
+  "issues": [
+   "สายเทา が「グレーな世界の人」を指す定着した語であることを確認できない（報道で一般的なのは ทุนสีเทา・ธุรกิจสีเทา など）。例文の กลุ่มสายเทา も不確か"
+  ]
+ },
+ {
+  "id": "tl-60905",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60921",
+  "verdict": "fix",
+  "issues": [
+   "โพสต์ のroを ro-lexicon の表記 phóos に統一（見出し・例文）",
+   "略語 จขพ. は一般的と確認できないため削除し、เจ้าของกระทู้ との対比に変更"
+  ],
+  "fixed": {
+   "id": "tl-60921",
+   "th": "เจ้าของโพสต์",
+   "action": "add",
+   "ro": "câo khɔ̌ɔng phóos",
+   "kind": "word",
+   "category": "スラング｜ネット・SNS",
+   "adult": false,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "投稿主・スレ主",
+     "pos": "名詞",
+     "speechStyle": "口語",
+     "note": "コメント欄で投稿した本人を指す。掲示板のスレ主は เจ้าของกระทู้ という。",
+     "example": {
+      "th": "เจ้าของโพสต์มาตอบแล้ว",
+      "ro": "câo khɔ̌ɔng phóos maa tɔ̀ɔp lɛ́ɛo",
+      "ja": "投稿主が返信してきた。",
+      "context": "SNSのコメント欄",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60937",
+  "verdict": "ok",
+  "issues": []
+ }
+]
