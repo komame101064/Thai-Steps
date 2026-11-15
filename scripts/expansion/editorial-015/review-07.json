@@ -1,0 +1,289 @@
+[
+ {
+  "id": "tl-57607",
+  "verdict": "fix",
+  "issues": [
+   "ja の「きゃっきゃっ」は声を上げてはしゃぐ様子で、「小声で笑う」と矛盾するため削除"
+  ],
+  "fixed": {
+   "id": "tl-57607",
+   "th": "คิกคัก",
+   "action": "add",
+   "ro": "khík khák",
+   "kind": "word",
+   "category": "一般語彙",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "くすくす（声を抑えて楽しげに笑う様子）",
+     "en": "giggling",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เด็กผู้หญิงสองคนหัวเราะคิกคักอยู่หลังห้อง",
+      "ro": "dèk phûu yǐng sɔ̌ɔng khon hǔua rɔ́ khík khák yùu lǎng hɔ̂ɔng",
+      "ja": "女の子二人が部屋の後ろでくすくす笑っている。",
+      "en": "Two girls are giggling at the back of the room.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "หัวเราะคิกคักの形でよく使う。声を抑えた楽しげな笑い。"
+  }
+ },
+ {
+  "id": "tl-57615",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57623",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57631",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57639",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57647",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57655",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57663",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57671",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57679",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57687",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57695",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57703",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57711",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57719",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57727",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57735",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57743",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57751",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57759",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57767",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57775",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57783",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57791",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57799",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57807",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57815",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57823",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57831",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57839",
+  "verdict": "reject",
+  "issues": [
+   "既存 tl-53348 กระจิ๋ว が同じ訳語「ちっちゃな・ちっぽけな」で、その note が กระจิ๋วหลิว の形を既に教えている（既存語の重複）。強調形でも既存項目が示していない ร้อนจี๋・หมดเนื้อหมดตัว は採用"
+  ]
+ },
+ {
+  "id": "tl-57847",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57855",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57863",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57871",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60964",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60972",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60980",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60988",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60996",
+  "verdict": "fix",
+  "issues": [
+   "スラング｜一般 は非常に頻度の高い語専用（editorial-008）。頻度3の慣用句なので スラング｜友達の日常 に変更"
+  ],
+  "fixed": {
+   "id": "tl-60996",
+   "th": "ตกกระป๋อง",
+   "action": "add",
+   "ro": "tòk krà pɔ̌ɔng",
+   "kind": "expression",
+   "category": "スラング｜友達の日常",
+   "adult": false,
+   "tags": [
+    "colloquial"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "落ち目になる・干される",
+     "pos": "定型表現",
+     "speechStyle": "口語",
+     "note": "人気や地位を失って相手にされなくなること。芸能人や職場の人についてよく言う。",
+     "example": {
+      "th": "ตั้งแต่เปลี่ยนหัวหน้า เขาก็ตกกระป๋องไปเลย",
+      "ro": "tâng tɛ̀ɛ plìian hǔua nâa khǎo kɔ̂ɔ tòk krà pɔ̌ɔng pai ləəi",
+      "ja": "上司が替わってから、彼はすっかり干されてしまった。",
+      "context": "職場のうわさ話",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-61004",
+  "verdict": "reject",
+  "issues": [
+   "既存 เกรียน（tl-60043）が「（ネットで）荒らす」を教え、คีย์บอร์ด も既存見出し。เกรียน＋คีย์บอร์ด の自由結合に近く、定着した言い方は นักเลงคีย์บอร์ด。別見出しとする根拠が弱い"
+  ]
+ },
+ {
+  "id": "tl-61012",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61020",
+  "verdict": "reject",
+  "issues": [
+   "既存 tl-60656 หน้าส้นตีน「むかつく顔（のやつ）」と同じ意味の短縮形で、新しい内容がない（既存語の異形）"
+  ]
+ },
+ {
+  "id": "tl-61028",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61036",
+  "verdict": "ok",
+  "issues": []
+ }
+]
