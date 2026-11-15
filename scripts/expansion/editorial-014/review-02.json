@@ -1,0 +1,415 @@
+[
+ {
+  "id": "tl-56602",
+  "verdict": "reject",
+  "issues": [
+   "既存の ประมาณ（tl-00457）の語義2が「そんな感じ・だいたいそのくらい（ประมาณนั้น の形で）」の口語・定型表現としてこの句をそのまま扱っており、重複するため。"
+  ]
+ },
+ {
+  "id": "tl-56618",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56634",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56650",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56666",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56682",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56698",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56714",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56730",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56746",
+  "verdict": "reject",
+  "issues": [
+   "同じ editorial-014 の รู้แล้ว（tl-56639、注記で รู้แล้วน่า に言及、例文もほぼ同じ）に促しの น่า（tl-00129）を付けただけの組み合わせで、別見出しにする違いがないため。"
+  ]
+ },
+ {
+  "id": "tl-56762",
+  "verdict": "reject",
+  "issues": [
+   "ใคร＋โทรมา の普通の疑問文（誰が電話してきたの）で、固定した意味を持つ定型表現ではないため。"
+  ]
+ },
+ {
+  "id": "tl-56778",
+  "verdict": "reject",
+  "issues": [
+   "ว่าง（空いている）＋วันไหน（どの日）の普通の疑問文で、自由な組み合わせのため。"
+  ]
+ },
+ {
+  "id": "tl-56794",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56810",
+  "verdict": "reject",
+  "issues": [
+   "ไป＋แล้ว＋เหรอ の自由な組み合わせで（注記のとおり「もう行ったの？」にもなる）、固有の意味を持つ定型表現ではないため。"
+  ]
+ },
+ {
+  "id": "tl-56826",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56842",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56858",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56874",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56890",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56906",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56922",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56938",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56954",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56970",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56986",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57002",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57018",
+  "verdict": "fix",
+  "issues": [
+   "見出しの ไซซ์ は既存語 ไซส์（tl-01121）の綴りの異形。バンクと揃え、より一般的な ไซส์ に統一（例文・注記も修正）"
+  ],
+  "fixed": {
+   "id": "tl-57018",
+   "th": "มีไซส์อื่นไหม",
+   "action": "add",
+   "ro": "mii sai ʉ̀ʉn mǎi",
+   "kind": "expression",
+   "category": "お金・買い物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "他のサイズはありますか？",
+     "en": "Do you have other sizes?",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "服や靴の店で使う。ไซส์ は ไซซ์ とも書く。丁寧に言うときは ครับ/ค่ะ を付ける。",
+     "example": {
+      "th": "ตัวนี้เล็กไป มีไซส์อื่นไหม",
+      "ro": "tuua níi lék pai mii sai ʉ̀ʉn mǎi",
+      "ja": "これは小さすぎます。他のサイズはありますか？",
+      "en": "This one is too small. Do you have other sizes?",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57034",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57050",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57066",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57082",
+  "verdict": "reject",
+  "issues": [
+   "既存の เสีย（tl-00188）の語義「故障している」に主語 รถ が付いただけの自由な組み合わせのため（รถติด のような語彙化した語ではない）。"
+  ]
+ },
+ {
+  "id": "tl-57098",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57114",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57130",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57146",
+  "verdict": "reject",
+  "issues": [
+   "มา＋文末詞 ดิ（tl-60202「〜してよ」、既存）の自由な組み合わせで、別見出しにする違いがないため。"
+  ]
+ },
+ {
+  "id": "tl-57162",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57178",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57194",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57210",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57226",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57242",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57258",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57274",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57290",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57306",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57322",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57338",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57354",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57370",
+  "verdict": "reject",
+  "issues": [
+   "既存の เก้อ（tl-45446）の語義2「無駄に・空振りで（ไปเก้อ・รอเก้อ など）」がこの形を明示して扱っており、重複するため。"
+  ]
+ },
+ {
+  "id": "tl-57386",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57402",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57418",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57434",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57450",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57466",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57482",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57498",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57514",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60715",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60731",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60747",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60763",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60779",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60795",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60811",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60827",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60843",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60859",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60875",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60891",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60907",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60923",
+  "verdict": "reject",
+  "issues": [
+   "สาย〜（〜系の人）の生産的な組み合わせで、สายคอนเทนต์ が「何でもネタにする人」という定まった意味の語として広く定着しているとは確認できないため。"
+  ]
+ },
+ {
+  "id": "tl-60939",
+  "verdict": "ok",
+  "issues": []
+ }
+]

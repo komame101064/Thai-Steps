@@ -1,0 +1,402 @@
+[
+ {
+  "id": "tl-56608",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56624",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56640",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56656",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56672",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56688",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56704",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56720",
+  "verdict": "fix",
+  "issues": [
+   "noteの「測った熱は เป็นไข้」は不正確（เป็นไข้ は検温とは無関係に「熱が出る・発熱して病気だ」）なので修正"
+  ],
+  "fixed": {
+   "id": "tl-56720",
+   "th": "ตัวร้อน",
+   "action": "add",
+   "ro": "tuua rɔ́ɔn",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "体が熱い・熱がある",
+     "en": "to have a fever, feel feverish",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "体に触ると熱い・熱っぽいという言い方。病気として熱が出ていることは เป็นไข้・มีไข้ とも言う。",
+     "example": {
+      "th": "ลูกตัวร้อนตั้งแต่เมื่อคืน",
+      "ro": "lûuk tuua rɔ́ɔn tâng tɛ̀ɛ mʉ̂ʉa khʉʉn",
+      "ja": "子どもが昨夜から熱を出している。",
+      "en": "My child has had a fever since last night.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-56736",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56752",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56768",
+  "verdict": "reject",
+  "issues": [
+   "อย่า（〜しないで）＋既存の เครียด（tl-00961）の透明な組み合わせで語彙化した意味がない。同じ基準で โกรธเหรอ 等が skip されている（慣用的な อย่าคิดมาก は別項目で既に扱われる）。"
+  ]
+ },
+ {
+  "id": "tl-56784",
+  "verdict": "reject",
+  "issues": [
+   "既存の เท่านี้（tl-05127）に「ここまで・これで終わり（締めくくり）」の語義があり、เอา＋数量表現の生産的な組み合わせにすぎないため。"
+  ]
+ },
+ {
+  "id": "tl-56800",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56816",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56832",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56848",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56864",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56880",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56896",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56912",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56928",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56944",
+  "verdict": "reject",
+  "issues": [
+   "既存の ลูกชิ้น（tl-51037「肉・魚の練り団子」）＋ปลา の透明な組み合わせで、ลูกชิ้น の語義に魚団子が含まれているため。"
+  ]
+ },
+ {
+  "id": "tl-56960",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56976",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56992",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57008",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57024",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57040",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57056",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57072",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57088",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57104",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57120",
+  "verdict": "reject",
+  "issues": [
+   "ลอง（試しに〜する、tl-00264）＋ใส่（着る、tl-00212）の生産的な組み合わせ（ลองกิน・ลองชิม と同型）で、独立見出しにする語彙化した意味がない。"
+  ]
+ },
+ {
+  "id": "tl-57136",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57152",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57168",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57184",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57200",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57216",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57232",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57248",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57264",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57280",
+  "verdict": "reject",
+  "issues": [
+   "既存の คอม（tl-03438）に「歩合・手数料（ค่าคอม の形で）」の語義があり重複する。読みも既存 คอม khɔɔm と食い違う（khâa khɔm）。"
+  ]
+ },
+ {
+  "id": "tl-57296",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57312",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57328",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57344",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57360",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57376",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57392",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57408",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57424",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57440",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57456",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57472",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57488",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57504",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60705",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60721",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60737",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60753",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60769",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60785",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60801",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60817",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60833",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60849",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60865",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60881",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60897",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60913",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60929",
+  "verdict": "ok",
+  "issues": []
+ }
+]
