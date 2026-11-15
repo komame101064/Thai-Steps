@@ -48650,5 +48650,59 @@
 "from": "cai yen cai yen tâng sà tì kɔ̀ɔn",
 "to": "cai yen yen tâng sà tì kɔ̀ɔn",
 "reason": "ใจเย็นๆ は ใจเย็นเย็（เย็น だけを重ねる）"
+},
+{
+"file": "word-bank.json",
+"id": "tl-05116",
+"field": "sense.ja",
+"from": "それで・その結果",
+"to": "だから・それで・その結果",
+"reason": "日常会話で「だから」に当たる最も普通の言い方なので「だから」で引けるようにする（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-00030",
+"field": "sense.ja",
+"from": "それで・その結果",
+"to": "だから・それで（結果）",
+"reason": "ก็เลย の略で、話し言葉の「だから」に当たる（AI精査 2026-11）",
+"sense": 3
+},
+{
+"file": "word-bank.json",
+"id": "tl-00202",
+"field": "sense.ja",
+"from": "そこで・それゆえ（結果を導く）",
+"to": "それで・だから（結果を導く。主語の後に置く、やや書き言葉）",
+"reason": "จึง は書き言葉寄りで主語の後ろに置くことを明記（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-01450",
+"field": "sense.ja",
+"from": "それゆえ・だから",
+"to": "それゆえ・だから（改まった言い方）",
+"reason": "話し言葉では ก็เลย・เพราะฉะนั้น が普通（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-00365",
+"field": "sense.ja",
+"from": "したがって・だから",
+"to": "したがって・だから（書き言葉寄り）",
+"reason": "文章・ニュースでよく使う（AI精査 2026-11）",
+"sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-01166",
+"field": "sense.ja",
+"from": "もし（やや改まった）",
+"to": "もし〜なら（やや改まった）",
+"reason": "ถ้า と同じ形にそろえる（AI精査 2026-11）",
+"sense": 1
 }
 ]

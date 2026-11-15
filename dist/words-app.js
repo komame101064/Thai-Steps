@@ -212,12 +212,15 @@ function romanMatch(w,q){const f=foldRo(q);if(!f)return Infinity;let best=Infini
 const TONE_RE=/[̀-̌]|[àáâǎèéêěìíîǐòóôǒùúûǔ]/i;
 // A gloss that starts with the query and then a particle (雷が鳴る, 雷を…) is about that very thing, so it ranks
 // just after exact matches; a longer compound (雷魚, かみなりうお) is a different thing and ranks after other prefixes.
-const PARTICLE_AFTER=/^[がをにはのでともへやか]/;
+// A particle counts only when a new word follows it (もしもし and もしかすると are other words, not もし+particle).
+const PARTICLE_AFTER=/^[がをにはのでともへやか](?![ぁ-ゖ])/;
 function prefixScore(term,q){const rest=term.slice(q.length);return PARTICLE_AFTER.test(rest)?2:/^[\u3400-\u9fffァ-ヶ]/.test(rest)?5:4}
 function dictionaryMatch(w,raw){const t0=String(raw).trim(),q=THAI_RE.test(t0)?t0:t0.normalize('NFKC');const out={score:Infinity,en:null,via:''};if(!q)return {...out,score:0};
  const take=(n,via,en=null)=>{if(n<out.score){out.score=n;out.via=via;out.en=en}};
  if(THAI_RE.test(q)){const t=q.replace(/\s+/g,'');if(w.th===t)take(0,'th');else if(w.th.startsWith(t))take(4,'th');else if(w.th.includes(t))take(8,'th')}
- if(JA_RE.test(q)){const qk=jaKey(q);w.meanings.forEach((m,mi)=>{const extra=mi?2:0;jaTerms(m.ja).forEach((term,ti)=>{const tk=jaKey(term);if(tk&&tk===qk)take(extra+(ti?1:0),'ja');else if(qk&&tk.startsWith(qk))take(prefixScore(tk,qk)+extra,'ja')});if((qk.length>1||/[\u3400-\u9fff]/.test(qk))&&jaKey(m.ja).includes(qk))take(8+(mi?1:0),'ja')});
+ if(JA_RE.test(q)){const qk=jaKey(q);w.meanings.forEach((m,mi)=>{const extra=mi?2:0;jaTerms(m.ja).forEach((term,ti)=>{const tk=jaKey(term);if(tk&&tk===qk)take(extra,'ja');else if(qk&&tk.startsWith(qk))take(prefixScore(tk,qk)+extra,'ja')});if((qk.length>1||/[\u3400-\u9fff]/.test(qk))&&jaKey(m.ja).includes(qk))take(8+(mi?1:0),'ja');
+   /* a gloss that is a pattern of the query (もし〜なら for もし) is that word itself, so it ranks with the exact matches */
+   if(qk)String(m.ja).replace(/（[^）]*）|\([^)]*\)/g,'').split(/[・／\/、，,；;]/).forEach(t=>{t=t.normalize('NFKC').trim();if(t.startsWith(qk)&&/^[〜～~]/.test(t.slice(qk.length)))take(extra,'ja')})});
   if(/^[ぁ-ゖァ-ヶー\s]+$/.test(q)){const h=toHiragana(q).replace(/\s+/g,''),hira=/[ぁ-ゖ]/.test(q),lift=hira?0:2,rd=typeof JA_READINGS==='undefined'?null:JA_READINGS[w.id];
    // Readings of the Japanese gloss (あさって → 明後日). Hiragana input reads as Japanese first; katakana input stays a Thai pronunciation search first.
    w.meanings.forEach((m,mi)=>{const rs=rd?.[m.sourceSense]||[],extra=mi?2:0;jaTerms(m.ja).forEach((term,ti)=>{const cands=[...(rs[ti]||[]),...(/^[ぁ-ゖァ-ヶー]+$/.test(term)?[toHiragana(term)]:[])];
