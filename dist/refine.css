@@ -1059,3 +1059,32 @@ html body .f-tabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap
 .r-due{width:100%;margin-top:8px}.r-due>summary{min-height:44px;display:flex;align-items:center;cursor:pointer;color:var(--x-green);font-weight:600}
 .r-due .r-hist{margin-top:4px}
 .r-due .r-hist-main{padding-left:12px}.r-due .r-hist li{padding-right:4px}
+
+/* 文字 › 書き方練習 */
+.s-write-card .bq-course-icon{font-family:'Steps Thai',sans-serif;font-size:1.6rem}
+.s-write h1{margin:4px 0 8px}
+.s-write-tip{margin:0 0 12px;padding:10px 12px;border-radius:12px;background:var(--x-soft);font-size:.86rem;line-height:1.7}
+.s-write-pick{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 12px}
+.s-write-pick button{min-width:48px;min-height:48px;border-radius:10px;border:1px solid var(--x-line);background:#fff;font-family:'Steps Thai',sans-serif;font-size:1.4rem;cursor:pointer}
+.s-write-pick button.is-on{background:var(--x-green);color:#fff;border-color:var(--x-green)}
+.s-write-main{background:var(--x-surface);border:1px solid var(--x-line);border-radius:14px;padding:12px}
+.s-write-info{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+.s-write-glyph{font-family:'Steps Thai',sans-serif;font-size:2.6rem;line-height:1;color:var(--x-ink)}
+.s-write-info b{display:block}.s-write-info small{color:var(--x-muted)}.s-write-info .w-audio{margin-left:auto}
+.s-write-canvas{display:block;width:100%;max-width:420px;aspect-ratio:1;margin:0 auto;border-radius:12px;border:1px solid var(--x-line);touch-action:none;background:#fffefa}
+.s-write-actions{display:grid;grid-template-columns:56px 1fr 1fr 56px;gap:8px;margin-top:10px}
+.s-write-print{margin-top:14px;padding:14px;border-radius:14px;border:1px solid var(--x-line);background:var(--x-surface)}
+.s-write-print h2{margin:0 0 4px;font-size:1.05rem}.s-write-print p{margin:0 0 10px;font-size:.86rem;color:var(--x-muted)}
+#print-sheet{display:none}
+@media print{
+ @page{size:A4;margin:12mm}
+ body>*:not(#print-sheet){display:none!important}
+ #print-sheet{display:block;font-family:system-ui,sans-serif;color:#000}
+ #print-sheet h1{font-size:14pt;margin:0 0 2mm}.ps-tip{font-size:9pt;margin:0 0 4mm}
+ .ps-row{display:grid;grid-template-columns:22mm repeat(8,1fr);border-top:.3mm solid #999;break-inside:avoid}
+ .ps-row:last-child{border-bottom:.3mm solid #999}
+ .ps-label{display:flex;flex-direction:column;justify-content:center;font-size:8pt;padding-right:2mm}.ps-label small{color:#555}
+ .ps-cell{position:relative;height:21mm;border-left:.2mm solid #bbb;background:linear-gradient(#000 0 0) 0 30%/100% .15mm no-repeat,linear-gradient(#000 0 0) 0 72%/100% .15mm no-repeat}
+ .ps-cell span{position:absolute;left:0;right:0;bottom:24%;text-align:center;font-family:'Steps Thai',sans-serif;font-size:38pt;line-height:1}
+ .ps-cell.is-trace span{color:#c4c4c4}
+}
