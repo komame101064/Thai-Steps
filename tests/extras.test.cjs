@@ -16,9 +16,9 @@ console.log('PASS: chapter 0 time and dates — conversational clock, half/minut
 {const fs=require('fs'),vm=require('vm'),assert=require('assert');const c={console,Math,window:{},document:{}};vm.createContext(c);vm.runInContext('function icon(){return ""};function shuffle(a){return a};function esc(s){return String(s)};var view="extra";function render(){}',c);vm.runInContext(fs.readFileSync('dist/tone-sets.js','utf8'),c);vm.runInContext(fs.readFileSync('dist/extras.js','utf8'),c);
 const S=vm.runInContext('TONE_SETS',c);assert(S.length>=60);
 // Each set: 3+ different readings of one sound skeleton (tone / length only), no loanwords; ข้าว・ข่าว・ขาว・เขา are in one set.
-const strip=r=>r.normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/(.)\1/g,'$1'),key=r=>strip(r).replace(/^(kh|ph|th|ch|k|p|t|c)([lr]?)/,(m,a)=>({kh:'k',ph:'p',th:'t',ch:'c'})[a]||a);for(const s of S){assert(s.w.length>=3&&s.w.length<=10);assert.equal(new Set(s.w.map(x=>x[2])).size,s.w.length);assert.equal(new Set(s.w.map(x=>key(x[2]))).size,1,s.k);assert(s.w.every(x=>!x[1].includes('์')))}
+const strip=r=>r.normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/(.)\1/g,'$1'),key=r=>strip(r).replace(/^(kh|ph|th|ch|k|p|t|c)([lr]?)/,(m,a)=>({kh:'k',ph:'p',th:'t',ch:'c'})[a]||a);for(const s of S){assert(s.w.length>=3&&s.w.length<=12);assert.equal(new Set(s.w.map(x=>x[2])).size,s.w.length);assert.equal(new Set(s.w.map(x=>key(x[2]))).size,1,s.k);assert(s.w.every(x=>!x[1].includes('์')))}
 // Soft l/r clusters and aspiration share a set: ไก่ kài / ไกล klai / ไข่ khài.
 {const g=S.find(s=>s.w.some(x=>x[1]==='ไกล'));assert(g&&['ไก่','ไข่'].every(t=>g.w.some(x=>x[1]===t)),'kai/klai/khai')}
-const kh=S.find(s=>s.w.some(x=>x[1]==='ข้าว')).w.map(x=>x[1]);for(const t of ['ข้าว','ข่าว','ขาว','เขา'])assert(kh.includes(t));
+const kh=S.find(s=>s.w.some(x=>x[1]==='ข้าว')).w.map(x=>x[1]);for(const t of ['ข้าว','ข่าว','ขาว','เขา','กาว','เข่า'])assert(kh.includes(t));
 assert(vm.runInContext("soundCards()",c).includes('似た音の聞き分け'));c.setTimeout=()=>{};vm.runInContext("setTimeout=()=>{};pairQuizNew();pairPick(pairQuiz.qs[0].ans)",c);assert.equal(vm.runInContext('pairQuiz.ok',c),1);
 console.log(`PASS: similar-sound listening — ${S.length} sets (tone, length, l/r, aspiration), quiz scores by ear.`)}
