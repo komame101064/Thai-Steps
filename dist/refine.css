@@ -1045,3 +1045,8 @@ html body .f-tabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap
 .ex-q-play{display:grid;place-items:center;width:64px;height:64px;margin:6px auto 12px;border-radius:50%;border:1px solid var(--x-line);background:var(--x-soft);color:var(--x-green);cursor:pointer}.ex-q-play svg{width:28px;height:28px}
 .ex-pair-replay{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
 .ex-chip{display:inline-flex;align-items:center;gap:4px;min-height:40px;padding:4px 10px;border-radius:999px;border:1px solid var(--x-line);background:#fff;font:inherit;cursor:pointer}.ex-chip svg{width:16px;height:16px}
+
+/* 0章のテスト：答えたら「次へ」を画面下に固定（スクロール不要） */
+.ex-q .btn.ex-next{display:block;width:100%;min-height:50px;margin:12px 0 8px;position:sticky;bottom:calc(12px + env(safe-area-inset-bottom));z-index:5;box-shadow:0 6px 18px rgba(20,40,30,.18)}
+@media (max-width:900px){.ex-q .btn.ex-next{bottom:calc(84px + env(safe-area-inset-bottom))}}
+.ex-q-choices .option{min-height:52px}
