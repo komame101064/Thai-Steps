@@ -1110,3 +1110,6 @@ html body .f-tabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap
 .s-write-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:4px 10px;margin-bottom:6px}.s-write-top .s-write-back{margin:0}
 .s-write-top .s-write-tip{margin:0;padding:6px 12px;font-size:.84rem}.s-write-top .s-write-tip[open]{flex-basis:100%}
 .lesson-head{margin:-4px 0 12px;font-size:.95rem;color:var(--x-green);font-weight:600}
+.h-backup{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 12px;padding:10px 12px;border-radius:12px;border:1px solid #e3cf9a;background:#fff8e6}
+.h-backup p{margin:0;flex:1 1 220px}.h-backup b{display:block;color:var(--x-ink)}.h-backup small{font-size:.8rem;color:var(--x-muted);line-height:1.6}
+.h-backup-actions{display:flex;gap:8px;align-items:center}.h-backup .btn{min-height:40px;padding:0 14px}
