@@ -1051,3 +1051,11 @@ html body .f-tabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap
 @media (max-width:900px){.ex-q .btn.ex-next{bottom:calc(84px + env(safe-area-inset-bottom))}}
 .ex-q-choices .option{min-height:52px}
 .w-seg-rep{display:inline-block;margin-left:4px;padding:0 5px;border-radius:6px;background:var(--x-soft);color:var(--x-green);font-style:normal;font-size:.68rem;vertical-align:1px}
+
+/* 復習：語ごとの星 */
+.r-hist li{align-items:center}
+.r-star{flex:none;width:44px;height:44px;border:0;background:none;color:#a9b3a2}
+.r-star.on{color:#b07d1c}.r-star.on svg{fill:currentColor}
+.r-due{width:100%;margin-top:8px}.r-due>summary{min-height:44px;display:flex;align-items:center;cursor:pointer;color:var(--x-green);font-weight:600}
+.r-due .r-hist{margin-top:4px}
+.r-due .r-hist-main{padding-left:12px}.r-due .r-hist li{padding-right:4px}
