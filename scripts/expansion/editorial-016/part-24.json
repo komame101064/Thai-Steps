@@ -184,30 +184,8 @@
  {
   "id": "tl-50471",
   "th": "เลยไป",
-  "action": "add",
-  "ro": "ləəi pai",
-  "kind": "word",
-  "category": "移動・道案内",
-  "frequency": 4,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "通り過ぎる・行き過ぎる",
-    "en": "to go past, overshoot",
-    "pos": "動詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "ขับเลยไปแล้ว ต้องกลับรถ",
-     "ro": "khàp ləəi pai lɛ́ɛo tɔ̂ɔng klàp rót",
-     "ja": "通り過ぎちゃった、Uターンしないと。",
-     "en": "We drove past it; we have to turn around.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "เลย はここでは「越える・過ぎる」の動詞。「それで行った」の意味の เลย＋ไป と同じ形なので文脈で区別する。"
+  "action": "skip",
+  "skipReason": "เลย（越える・過ぎる）＋ไป の組み合わせで、「それで行った」の เลย＋ไป とも同形。教えるなら既存の เลย に「越える・過ぎる」の動詞の語義を加えるべきため。"
  },
  {
   "id": "tl-50510",
@@ -655,8 +633,30 @@
  {
   "id": "tl-52761",
   "th": "เทสเตอร์",
-  "action": "skip",
-  "skipReason": "เทส の声調・母音の長さを綴りから確定できず、アプリの表記で読みを確定できないため。"
+  "action": "add",
+  "ro": "thées tə̂ə",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（化粧品などの）テスター・試用品",
+    "en": "tester (product sample for trying)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลองทาเทสเตอร์ก่อนซื้อได้นะคะ",
+     "ro": "lɔɔng thaa thées tə̂ə kɔ̀ɔn sʉ́ʉ dâai ná khá",
+     "ja": "買う前にテスターで試し塗りしてもいいですよ。",
+     "en": "You can try the tester before you buy.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "英語 tester から。"
  },
  {
   "id": "tl-52800",
@@ -1120,22 +1120,6 @@
      "en": "Snakes shed their skin several times a year.",
      "origin": "authored"
     }
-   },
-   {
-    "sourceSense": 2,
-    "ja": "化けの皮がはがれる・本性を現す",
-    "en": "to drop one’s mask, show one’s true colors",
-    "pos": "動詞",
-    "use": "よく使う別の意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "พอแต่งงานแล้ว เขาก็ลอกคราบให้เห็นนิสัยจริง",
-     "ro": "phɔɔ tɛ̀ng ngaan lɛ́ɛo khǎo kɔ̂ɔ lɔ̂ɔk khrâap hâi hěn ní sǎi cing",
-     "ja": "結婚したとたん、彼は化けの皮がはがれて本性を見せた。",
-     "en": "As soon as they married, he dropped the mask and showed his true nature.",
-     "origin": "authored"
-    }
    }
   ]
  },
@@ -1272,29 +1256,8 @@
  {
   "id": "tl-58323",
   "th": "กวางโจว",
-  "action": "add",
-  "ro": "kwaang coo",
-  "kind": "word",
-  "category": "移動・道案内",
-  "frequency": 2,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "広州（中国の都市）",
-    "en": "Guangzhou",
-    "pos": "名詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "บริษัทเรามีโรงงานที่กวางโจว",
-     "ro": "bɔɔ rí sàt rao mii roong ngaan thîi kwaang coo",
-     "ja": "うちの会社は広州に工場がある。",
-     "en": "Our company has a factory in Guangzhou.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "โจว の末尾の ว を含む音節をアプリの表記で書く前例がなく、読みを正しく示せないため。"
  },
  {
   "id": "tl-60121",
