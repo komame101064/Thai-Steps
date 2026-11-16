@@ -1,0 +1,468 @@
+[
+ {
+  "id": "tl-50109",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50148",
+  "verdict": "fix",
+  "issues": [
+   "例文の日本語訳に原文にない理由の「から」が加わっていたので削除"
+  ],
+  "fixed": {
+   "id": "tl-50148",
+   "th": "ก็นะ",
+   "action": "add",
+   "ro": "kɔ̂ɔ ná",
+   "kind": "expression",
+   "category": "助詞・語気",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "まあね・まあ仕方ないよね（言わずに含みを残す相づち）",
+     "en": "well, you know; what can you do",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "แพงไปหน่อย แต่ก็นะ ของดี",
+      "ro": "phɛɛng pai nɔ̀ɔi tɛ̀ɛ kɔ̂ɔ ná khɔ̌ɔng dii",
+      "ja": "ちょっと高いけど、まあね、いい物だよ。",
+      "en": "It is a bit pricey, but, well, it is good stuff.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「言わなくても分かるでしょ」という含みや、あきらめ・納得の気持ちを添える。"
+  }
+ },
+ {
+  "id": "tl-50187",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50226",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50265",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50304",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50343",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50382",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50421",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50460",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50499",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50538",
+  "verdict": "ok",
+  "issues": [
+   "ครึ้ม と同義だが มืดครึ้ม は天気予報などで定着した複合語のため可"
+  ]
+ },
+ {
+  "id": "tl-50577",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50616",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50655",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50694",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50733",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50772",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50811",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50850",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50889",
+  "verdict": "fix",
+  "issues": [
+   "สิวอุดตัน は白ニキビだけでなく黒ニキビ（สิวหัวดำ）も含む面皰全般を指すため、語義を「毛穴の詰まりによるニキビ」中心に修正"
+  ],
+  "fixed": {
+   "id": "tl-50889",
+   "th": "สิวอุดตัน",
+   "action": "add",
+   "ro": "sǐu ùt tan",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "毛穴の詰まりによるニキビ（白ニキビ・黒ニキビ）",
+     "en": "comedones, clogged-pore acne",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ช่วงนี้มีสิวอุดตันขึ้นที่หน้าผาก",
+      "ro": "chûuang níi mii sǐu ùt tan khʉ̂n thîi nâa phàak",
+      "ja": "最近、おでこに白ニキビができている。",
+      "en": "Lately I have clogged-pore acne on my forehead.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50928",
+  "verdict": "ok",
+  "issues": [
+   "คัน（かゆい）＋คอ だが ปวดหัว・มึนหัว と同様の頻出症状表現として可"
+  ]
+ },
+ {
+  "id": "tl-50967",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51764",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52046",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52085",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52399",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52438",
+  "verdict": "ok",
+  "issues": [
+   "ฝ่าย＋รัฐบาล は透明だが、既存の ฝ่ายค้าน と対になる政治用語として定着しているため可"
+  ]
+ },
+ {
+  "id": "tl-52477",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52516",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52555",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52594",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52633",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52672",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52711",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52750",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52789",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52828",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52867",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52906",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52945",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52984",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55041",
+  "verdict": "fix",
+  "issues": [
+   "例文の日本語訳で見出し語をメロンと訳していたのでカンタロープに統一"
+  ],
+  "fixed": {
+   "id": "tl-55041",
+   "th": "แคนตาลูป",
+   "action": "add",
+   "ro": "khɛɛn taa lûup",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "カンタロープメロン",
+     "en": "cantaloupe",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แคนตาลูปลูกนี้หวานหอมมาก",
+      "ro": "khɛɛn taa lûup lûuk níi wǎan hɔ̌ɔm mâak",
+      "ja": "このカンタロープはとても甘くて香りがいい。",
+      "en": "This cantaloupe is very sweet and fragrant.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55080",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55119",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55158",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55197",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55236",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55275",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55384",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55928",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55967",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56576",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57530",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57569",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57883",
+  "verdict": "ok",
+  "issues": [
+   "ล่ม 語義1に近いが、定足数不足で議会が流会になる報道用語として固定しているため可"
+  ]
+ },
+ {
+  "id": "tl-57922",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57961",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58000",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58039",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58078",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58117",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58156",
+  "verdict": "reject",
+  "issues": [
+   "既存の ชวน（tl-00685）語義2「〜したくさせる（動詞の前）」が ชวน＋ทะเลาะ をそのまま教える自由な組み合わせ（ชวนง่วง・ชวนหัวเราะ と同型）のため。"
+  ]
+ },
+ {
+  "id": "tl-58195",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58234",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58273",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58312",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60110",
+  "verdict": "ok",
+  "issues": [
+   "ดาร์ก dàak は การ์ด kàat と同じ扱いで一貫しており可"
+  ]
+ },
+ {
+  "id": "tl-60149",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60188",
+  "verdict": "reject",
+  "issues": [
+   "ปัญญานิ่ม が現代の口語・罵り言葉として定着しているか確認できない（既存の ปัญญาอ่อน・ปัญญาควาย はある）。不確かなため登録しない。"
+  ]
+ },
+ {
+  "id": "tl-60297",
+  "verdict": "reject",
+  "issues": [
+   "ป๋าดัน が芸能ゴシップの定着した表現か十分に確認できない（ป๋า＋ดัน の臨時的な組み合わせの可能性）。不確かなため登録しない。"
+  ]
+ },
+ {
+  "id": "tl-60586",
+  "verdict": "ok",
+  "issues": []
+ }
+]

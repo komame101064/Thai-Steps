@@ -1,0 +1,410 @@
+[
+ {
+  "id": "tl-50115",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50154",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50193",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50232",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50271",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50310",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50349",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50388",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50427",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50466",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50505",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50544",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50583",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50622",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50661",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50700",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50739",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50778",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50817",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50856",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50895",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50934",
+  "verdict": "fix",
+  "issues": [
+   "注記「発音は「บิ้ว」と高く言う」は、บิ้วの綴りが規則上は下降声調になるため誤解を招く。声調をローマ字で示す形に修正。"
+  ],
+  "fixed": {
+   "id": "tl-50934",
+   "th": "บิวท์อิน",
+   "action": "add",
+   "ro": "bíu in",
+   "kind": "word",
+   "category": "家・場所",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "作り付けの・ビルトインの（家具など）",
+     "en": "built-in",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ห้องนอนนี้มีตู้เสื้อผ้าบิวท์อิน",
+      "ro": "hɔ̂ɔng nɔɔn níi mii tûu sʉ̂ʉa phâa bíu in",
+      "ja": "この寝室には作り付けのクローゼットがある。",
+      "en": "This bedroom has a built-in wardrobe.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "作り付け家具（を入れる工事）",
+     "en": "built-in furniture (installation)",
+     "pos": "名詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เราจ้างช่างมาทำบิวท์อินทั้งคอนโด",
+      "ro": "rao câang châang maa tham bíu in tháng khɔɔn doo",
+      "ja": "私たちは職人を雇って、コンドミニアム全体に作り付け家具を入れた。",
+      "en": "We hired a carpenter to put built-in furniture throughout the condo.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "発音は高い声調のbíuが普通。บิ้วอินとも書く。"
+  }
+ },
+ {
+  "id": "tl-50973",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51770",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52052",
+  "verdict": "reject",
+  "issues": [
+   "既存の見出しขมา（tl-46181）の用例がまさに「เขาไปขอขมาพ่อแม่ก่อนบวช」で、ขอขมาの形を既に教えている。既存語の用例で学べる組み合わせは追加しない方針（ประคบเย็น等の扱いと同じ）。"
+  ]
+ },
+ {
+  "id": "tl-52091",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52405",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52444",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52483",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52522",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52561",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52600",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52639",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52678",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52717",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52756",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52795",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52834",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52873",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52912",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52951",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52990",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55047",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55086",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55125",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55164",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55203",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55242",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55281",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55390",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55934",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55973",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56582",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57536",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57575",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57889",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57928",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57967",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58006",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58045",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58084",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58123",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58162",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58201",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58240",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58279",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58318",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60116",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60155",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60194",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60553",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60592",
+  "verdict": "ok",
+  "issues": []
+ }
+]

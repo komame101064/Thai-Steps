@@ -1,0 +1,457 @@
+[
+ {
+  "id": "tl-50099",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50138",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50177",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50216",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50255",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50294",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50333",
+  "verdict": "fix",
+  "issues": [
+   "語域：会話でよく使う言い方（改まった言い方は ผู้สูงอายุ）なので 口語 に修正"
+  ],
+  "fixed": {
+   "id": "tl-50333",
+   "th": "คนเฒ่าคนแก่",
+   "action": "add",
+   "ro": "khon thâo khon kɛ̀ɛ",
+   "kind": "word",
+   "category": "人・家族",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "お年寄り・年配の人たち",
+     "en": "old folks, the elderly",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "คนเฒ่าคนแก่ในหมู่บ้านชอบมานั่งคุยกันที่วัด",
+      "ro": "khon thâo khon kɛ̀ɛ nai mùu bâan chɔ̂ɔp maa nâng khui kan thîi wát",
+      "ja": "村のお年寄りたちはお寺に来て座っておしゃべりするのが好きだ。",
+      "en": "The old folks in the village like to come and chat at the temple.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50372",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50411",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50450",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50489",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50528",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50567",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50606",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50645",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50684",
+  "verdict": "fix",
+  "issues": [
+   "ro: 借用語の実際の発音（下降調）に合わせ kən→kə̂n（ro-lexicon の แอปเปิล ɛ́p pə̂n、part-20 の ซิงเกิ้ลมัม sing kə̂n と統一）"
+  ],
+  "fixed": {
+   "id": "tl-50684",
+   "th": "ซิงเกิล",
+   "action": "add",
+   "ro": "sing kə̂n",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（音楽の）シングル・シングル曲",
+     "en": "single (song release)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "วงนี้ปล่อยซิงเกิลใหม่เมื่อวาน",
+      "ro": "wong níi plɔ̀ɔi sing kə̂n mài mʉ̂ʉa waan",
+      "ja": "このバンドは昨日新しいシングルをリリースした。",
+      "en": "This band released a new single yesterday.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ซิงเกิ้ล とも書く。"
+  }
+ },
+ {
+  "id": "tl-50723",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50762",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50801",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50840",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50879",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50918",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50957",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50996",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51793",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52075",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52389",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52428",
+  "verdict": "fix",
+  "issues": [
+   "語義・注記：วันพระใหญ่ は本来、満月・新月の仏日（陰暦8日の วันพระเล็ก に対する）。「重要な仏教祭日を指す」とした説明を修正"
+  ],
+  "fixed": {
+   "id": "tl-52428",
+   "th": "วันพระใหญ่",
+   "action": "add",
+   "ro": "wan phrá yài",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "大きな仏日（月に2回の満月・新月の仏日）",
+     "en": "major Buddhist holy day (full-moon / new-moon day)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "วันพระใหญ่คนไทยนิยมไปทำบุญที่วัด",
+      "ro": "wan phrá yài khon thai ní yom pai tham bun thîi wát",
+      "ja": "大きな仏日には、タイ人はよくお寺へ功徳を積みに行く。",
+      "en": "On major Buddhist holy days, Thais often go to make merit at temples.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "วันพระ のうち満月と新月の日を指し、上弦・下弦（陰暦8日）の日は วันพระเล็ก という。マーカブーチャーなどの仏教祭日を指して言うこともある。"
+  }
+ },
+ {
+  "id": "tl-52467",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52506",
+  "verdict": "reject",
+  "issues": [
+   "既存の เลือกตั้ง・การเลือกตั้ง と ท้องถิ่น（地元の・地域の）の透明な組み合わせで、例文も การเลือกตั้งท้องถิ่น の形。กุญแจสำรอง 等のスキップ基準と同じく自由な組み合わせとして除外"
+  ]
+ },
+ {
+  "id": "tl-52545",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52584",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52623",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52662",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52701",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52740",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52779",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52818",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52857",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52896",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52935",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52974",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55031",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55070",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55109",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55148",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55187",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55226",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55265",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55374",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55918",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55957",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55996",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57520",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57559",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57598",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57912",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57951",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57990",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58029",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58068",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58107",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58146",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58185",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58224",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58263",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58302",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58341",
+  "verdict": "reject",
+  "issues": [
+   "語義1「サッカーで足を払って倒す」の用法が確認できない（足を払う意味は ตัดขา／ปัดขา、比喩の「足を引っ張る・出世を妨げる」は ตัดแข้งตัดขา が定着した形）。語形と両語義に確信が持てないため"
+  ]
+ },
+ {
+  "id": "tl-60139",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60178",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60287",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60576",
+  "verdict": "ok",
+  "issues": []
+ }
+]

@@ -1,0 +1,391 @@
+[
+ {
+  "id": "tl-50119",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50158",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50197",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50236",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50275",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50314",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50353",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50392",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50431",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50470",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50509",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50548",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50587",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50626",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50665",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50704",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50743",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50782",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50821",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50860",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50899",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50938",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50977",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51774",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52056",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52095",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52409",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52448",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52487",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52526",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52565",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52604",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52643",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52682",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52721",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52760",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52799",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52838",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52877",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52916",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52955",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52994",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55051",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55090",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55129",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55168",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55207",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55246",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55285",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55394",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55938",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55977",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56586",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57540",
+  "verdict": "fix",
+  "issues": [
+   "例文訳の「〜のようなものだ」はタイ語（ถือเป็น＝〜と言える）にない比喩の和らげを加えているので訳を修正"
+  ],
+  "fixed": {
+   "id": "tl-57540",
+   "th": "ลาภลอย",
+   "action": "add",
+   "ro": "lâap lɔɔi",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "思わぬもうけ・棚からぼた餅",
+     "en": "windfall, unexpected gain",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ถูกหวยครั้งนี้ถือเป็นลาภลอย",
+      "ro": "thùuk hǔuai khráng níi thʉ̌ʉ pen lâap lɔɔi",
+      "ja": "今回宝くじが当たったのは、思わぬもうけと言える。",
+      "en": "Winning the lottery this time is a real windfall.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57579",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57893",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57932",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57971",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58010",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58049",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58088",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58127",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58166",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58205",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58244",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58283",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58322",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60120",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60159",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60198",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60557",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60596",
+  "verdict": "ok",
+  "issues": []
+ }
+]

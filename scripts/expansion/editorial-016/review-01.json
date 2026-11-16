@@ -1,0 +1,432 @@
+[
+ {
+  "id": "tl-50097",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50136",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50175",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50214",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50253",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50292",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50331",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50370",
+  "verdict": "fix",
+  "issues": [
+   "「逆である」という述語的な意味なので分類を接続表現から一般語彙へ（接続表現はในทางกลับกัน＝既存tl-55430）"
+  ],
+  "fixed": {
+   "id": "tl-50370",
+   "th": "กลับกัน",
+   "action": "add",
+   "ro": "klàp kan",
+   "kind": "expression",
+   "category": "一般語彙",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "逆である・立場や順序が反対になる",
+     "en": "to be the other way around, reversed",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ถ้ากลับกัน คุณจะรู้สึกยังไง",
+      "ro": "thâa klàp kan khun cà rúu sʉ̀k yang ngai",
+      "ja": "もし立場が逆だったら、あなたはどう感じますか？",
+      "en": "If it were the other way around, how would you feel?",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「ในทางกลับกัน」（逆に・一方で）の形で接続表現としてもよく使う。"
+  }
+ },
+ {
+  "id": "tl-50409",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50448",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50487",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50526",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50565",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50604",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50643",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50682",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50721",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50760",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50799",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50838",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50877",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50916",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50955",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50994",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51791",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52073",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52387",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52426",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52465",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52504",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52543",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52582",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52621",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52660",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52699",
+  "verdict": "reject",
+  "issues": [
+   "ทำ＋รก（既存tl-03184第1語義「散らかった」）の使役的な自由な組み合わせ。用例「ทำรกในห้องนั่งเล่น」もやや不自然（ทำห้องรกの形が普通）"
+  ]
+ },
+ {
+  "id": "tl-52738",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52777",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52816",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52855",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52894",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52933",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52972",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55029",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55068",
+  "verdict": "reject",
+  "issues": [
+   "既存のผงกะหรี่（tl-54915）とปูผัดผงกะหรี่（tl-54949）があり、ผัด＋ผงกะหรี่の自由な組み合わせ"
+  ]
+ },
+ {
+  "id": "tl-55107",
+  "verdict": "fix",
+  "issues": [
+   "用例「ขนมจากร้านนี้…」は「この店からのお菓子」とも読めて曖昧なため、見出し語が一語として明確な用例に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-55107",
+   "th": "ขนมจาก",
+   "action": "add",
+   "ro": "khà nǒm càak",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "カノムチャーク（もち米粉とココナッツの生地をニッパヤシの葉で包んで焼いた菓子）",
+     "en": "grilled sticky-rice and coconut sweet wrapped in nipa palm leaf",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ขนมจากเป็นขนมพื้นบ้านที่ห่อด้วยใบจาก",
+      "ro": "khà nǒm càak pen khà nǒm phʉ́ʉn bâan thîi hɔ̀ɔ dûuai bai càak",
+      "ja": "カノムチャークはニッパヤシの葉で包んだ郷土菓子だ。",
+      "en": "Khanom chak is a traditional sweet wrapped in nipa palm leaves.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "จากはニッパヤシ（ใบจาก）のこと。"
+  }
+ },
+ {
+  "id": "tl-55146",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55185",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55224",
+  "verdict": "reject",
+  "issues": [
+   "字義どおりの「魚の骨が喉に刺さる」はก้าง＋ติด＋คอの自由な組み合わせ。教えるならก้าง（魚の骨）を見出し語にすべき"
+  ]
+ },
+ {
+  "id": "tl-55263",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55372",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55916",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55955",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55994",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57518",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57557",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57596",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57910",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57949",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57988",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58027",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58066",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58105",
+  "verdict": "reject",
+  "issues": [
+   "既存のปิดปาก（tl-03522）の第3語義「口をつぐむ・黙っている」が同じ意味を教えており、เงียบを添えた強調形にすぎない"
+  ]
+ },
+ {
+  "id": "tl-58144",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58183",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58222",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58261",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58300",
+  "verdict": "reject",
+  "issues": [
+   "既存のซีก（tl-43008）の第1語義が同一の用例「ประเทศไทยอยู่ในซีกโลกเหนือ」でซีกโลกを教えており重複"
+  ]
+ },
+ {
+  "id": "tl-58339",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60137",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60176",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60285",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60574",
+  "verdict": "ok",
+  "issues": []
+ }
+]

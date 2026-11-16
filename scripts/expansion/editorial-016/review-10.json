@@ -1,0 +1,401 @@
+[
+ {
+  "id": "tl-50106",
+  "verdict": "reject",
+  "issues": [
+   "既存語 พัก（tl-00381）の語義2が「しばらくの間・時期（พักนี้で「最近」）」として พักนี้ をすでに教えているため（既存語の語義で教えられる語）。"
+  ]
+ },
+ {
+  "id": "tl-50145",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50184",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50223",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50262",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50301",
+  "verdict": "reject",
+  "issues": [
+   "เกิน（超える）＋งบ（予算）の意味どおりの自由な組み合わせで、両方とも既存語。同型の ยอดพุ่ง・เติมเน็ต が見送られているのと揃える。"
+  ]
+ },
+ {
+  "id": "tl-50340",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50379",
+  "verdict": "reject",
+  "issues": [
+   "既存語 ปา（tl-42612）の語義2が「〜にもなる（ปาเข้าไป の形で…）」として同じ内容をすでに教えているため。"
+  ]
+ },
+ {
+  "id": "tl-50418",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50457",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50496",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50535",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50574",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50613",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50652",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50691",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50730",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50769",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50808",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50847",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50886",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50925",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50964",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51761",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51800",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52082",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52396",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52435",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52474",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52513",
+  "verdict": "reject",
+  "issues": [
+   "ย้าย（移る）＋พรรค（党）の意味どおりの組み合わせで、両方とも既存語の語義で教えられるため。"
+  ]
+ },
+ {
+  "id": "tl-52552",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52591",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52630",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52669",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52708",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52747",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52786",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52825",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52864",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52903",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52942",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52981",
+  "verdict": "fix",
+  "issues": [
+   "มูมมาม は「食べ方がだらしなく汚い・食べこぼす」意で、「がつがつ（貪欲に）」の意はないため訳語と例文訳を修正"
+  ],
+  "fixed": {
+   "id": "tl-52981",
+   "th": "มูมมาม",
+   "action": "add",
+   "ro": "muum maam",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（食べ方が）汚い・食べ散らかす",
+     "en": "messy, sloppy (eating)",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ลูกกินมูมมามจนข้าวหกเต็มโต๊ะ",
+      "ro": "lûuk kin muum maam con khâao hòk tem tó",
+      "ja": "子どもが食べ散らかして、テーブル中にご飯をこぼした。",
+      "en": "The child ate so sloppily that rice spilled all over the table.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55038",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55077",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55116",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55155",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55194",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55233",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55272",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55381",
+  "verdict": "reject",
+  "issues": [
+   "既存語 ฟิว（tl-04960）の語義2が「ヒューズ（標準綴りと異なる表記）」で、ฟิวส์ はその綴り違いにあたる。追加すると重複するため（必要なら既存項目側で標準綴りを扱う）。"
+  ]
+ },
+ {
+  "id": "tl-55925",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55964",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56573",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57527",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57566",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57880",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57919",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57958",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57997",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58036",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58075",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58114",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58153",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58192",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58231",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58270",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58309",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60107",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60146",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60185",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60294",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60583",
+  "verdict": "ok",
+  "issues": []
+ }
+]

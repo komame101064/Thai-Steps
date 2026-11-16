@@ -1,0 +1,593 @@
+[
+ {
+  "id": "tl-50131",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50170",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで อร่อย を à rɔ̀ɔi に（辞書表記に統一）"
+  ],
+  "fixed": {
+   "id": "tl-50170",
+   "th": "ขอบอก",
+   "action": "add",
+   "ro": "khɔ̌ɔ bɔ̀ɔk",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "言っておくけど・これだけは言わせて（感想・意見を強める）",
+     "en": "I have to say, let me tell you",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ขอบอก ร้านนี้อร่อยมาก",
+      "ro": "khɔ̌ɔ bɔ̀ɔk ráan níi à rɔ̀ɔi mâak",
+      "ja": "言っておくけど、この店はすごくおいしいよ。",
+      "en": "Let me tell you, this place is really delicious.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "文頭や文末に置いて自分の感想を強調するくだけた言い方で、会話やSNSでよく使う。"
+  }
+ },
+ {
+  "id": "tl-50209",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50248",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50287",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50326",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50365",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50404",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50443",
+  "verdict": "fix",
+  "issues": [
+   "ไหว้ の読みを辞書表記 wâai に統一（見出し・例文）"
+  ],
+  "fixed": {
+   "id": "tl-50443",
+   "th": "ไหว้ครู",
+   "action": "add",
+   "ro": "wâai khruu",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ワイクルー（先生・師に敬意を表す儀式）",
+     "en": "teacher-respect ceremony (wai khru)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ทุกปีโรงเรียนจะจัดพิธีไหว้ครูหลังเปิดเทอม",
+      "ro": "thúk pii roong riian cà càt phí thii wâai khruu lǎng pə̀ət thəəm",
+      "ja": "毎年、学校は新学期が始まった後にワイクルーの儀式を行います。",
+      "en": "Every year the school holds a wai khru ceremony after the term starts.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "生徒が花などを供えて先生に感謝と敬意を表す学校行事。ムエタイの試合前に師へ捧げる舞もไหว้ครูと呼ぶ。"
+  }
+ },
+ {
+  "id": "tl-50482",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50521",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50560",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50599",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50638",
+  "verdict": "fix",
+  "issues": [
+   "例文1のroで ต้อง を tɔ̂ɔng に（辞書表記に統一）"
+  ],
+  "fixed": {
+   "id": "tl-50638",
+   "th": "ฝ่ายปกครอง",
+   "action": "add",
+   "ro": "fàai pòk khrɔɔng",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（学校の）生活指導部",
+     "en": "student affairs and discipline office (at school)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "นักเรียนที่มาสายต้องไปพบฝ่ายปกครอง",
+      "ro": "nák riian thîi maa sǎai tɔ̂ɔng pai phóp fàai pòk khrɔɔng",
+      "ja": "遅刻した生徒は生活指導部に行かなければならない。",
+      "en": "Students who come late must report to the discipline office.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "行政当局・地方行政の職員（郡役所など）",
+     "en": "the administrative authorities, local administration officials",
+     "pos": "名詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เจ้าหน้าที่ฝ่ายปกครองออกตรวจร้านเหล้าที่เปิดเกินเวลา",
+      "ro": "câo nâa thîi fàai pòk khrɔɔng ɔ̀ɔk trùuat ráan lâo thîi pə̀ət kəən wee laa",
+      "ja": "行政の職員が、営業時間を過ぎて開いている酒場を見回った。",
+      "en": "Administrative officials inspected bars open past closing time.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50677",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50716",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50755",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50794",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50833",
+  "verdict": "fix",
+  "issues": [
+   "พาส の読みを既存語（พาสปอร์ต pháas）に合わせ高声 pháas に（見出し・例文）"
+  ],
+  "fixed": {
+   "id": "tl-50833",
+   "th": "พาสต้า",
+   "action": "add",
+   "ro": "pháas tâa",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "パスタ",
+     "en": "pasta",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "คืนนี้ฉันจะทำพาสต้าให้ทุกคนกิน",
+      "ro": "khʉʉn níi chǎn cà tham pháas tâa hâi thúk khon kin",
+      "ja": "今夜はみんなにパスタを作ってあげる。",
+      "en": "Tonight I will make pasta for everyone.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50872",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50911",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50950",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50989",
+  "verdict": "reject",
+  "issues": [
+   "既存の หนี้ท่วมหัว（tl-57048、借金で首が回らない）の短い形にすぎず、同じ意味を既存語が教えているため"
+  ]
+ },
+ {
+  "id": "tl-51786",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52068",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52382",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52421",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52460",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52499",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52538",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52577",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52616",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52655",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで ต้อง を tɔ̂ɔng に（辞書表記に統一）"
+  ],
+  "fixed": {
+   "id": "tl-52655",
+   "th": "วางมัดจำ",
+   "action": "add",
+   "ro": "waang mát cam",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "手付金・保証金を払う",
+     "en": "to put down a deposit",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ถ้าจะเช่าห้องนี้ ต้องวางมัดจำสองเดือน",
+      "ro": "thâa cà châo hɔ̂ɔng níi tɔ̂ɔng waang mát cam sɔ̌ɔng dʉʉan",
+      "ja": "この部屋を借りるなら、2か月分の保証金を払わなければならない。",
+      "en": "To rent this room you must put down a two-month deposit.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "วางはここで「（お金を）置く・預ける」の意味。"
+  }
+ },
+ {
+  "id": "tl-52694",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52733",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52772",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52811",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52850",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52889",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52928",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52967",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55024",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55063",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55102",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55141",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55180",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55219",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55258",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで ต้อง を tɔ̂ɔng に（辞書表記に統一）"
+  ],
+  "fixed": {
+   "id": "tl-55258",
+   "th": "รักษารากฟัน",
+   "action": "add",
+   "ro": "rák sǎa râak fan",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "根管治療（をする）",
+     "en": "to have root canal treatment",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฟันซี่นี้ต้องรักษารากฟันก่อนครอบฟัน",
+      "ro": "fan sîi níi tɔ̂ɔng rák sǎa râak fan kɔ̀ɔn khrɔ̂ɔp fan",
+      "ja": "この歯はかぶせ物をする前に根管治療をしなければならない。",
+      "en": "This tooth needs a root canal before it is crowned.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55297",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55911",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55950",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55989",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56598",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57552",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57591",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで ต้อง を tɔ̂ɔng に（辞書表記に統一）"
+  ],
+  "fixed": {
+   "id": "tl-57591",
+   "th": "มรณบัตร",
+   "action": "add",
+   "ro": "mɔɔ rá ná bàt",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "死亡証明書",
+     "en": "death certificate",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "ต้องใช้มรณบัตรในการขอรับเงินประกัน",
+      "ro": "tɔ̂ɔng chái mɔɔ rá ná bàt nai kaan khɔ̌ɔ ráp ngəən prà kan",
+      "ja": "保険金を請求するには死亡証明書が必要だ。",
+      "en": "A death certificate is required to claim the insurance money.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "役所が発行する公式の書類名。出生証明書はสูติบัตร。"
+  }
+ },
+ {
+  "id": "tl-57905",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57944",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57983",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58022",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58061",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58100",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58139",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58178",
+  "verdict": "reject",
+  "issues": [
+   "既存の อม（tl-02633）の語義「横領する・着服する」に เงิน を付けただけで、既存語義が教えているため"
+  ]
+ },
+ {
+  "id": "tl-58217",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58256",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58295",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58334",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60132",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60171",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60280",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60569",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60686",
+  "verdict": "ok",
+  "issues": []
+ }
+]

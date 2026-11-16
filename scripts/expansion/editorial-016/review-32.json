@@ -1,0 +1,392 @@
+[
+ {
+  "id": "tl-50128",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50167",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50206",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50245",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50284",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50323",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50362",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50401",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50440",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50479",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50518",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50557",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50596",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50635",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50674",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50713",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50752",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50791",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50830",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50869",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50908",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50947",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50986",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51783",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52065",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52379",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52418",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52457",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52496",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52535",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52574",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52613",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52652",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52691",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52730",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52769",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52808",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52847",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52886",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52925",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52964",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55021",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55060",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55099",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55138",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55177",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55216",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55255",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55294",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55908",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55947",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55986",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56595",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57549",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57588",
+  "verdict": "fix",
+  "issues": [
+   "บอมบ์ は綴りどおり長母音（คาร์บอน khaa bɔɔn と同じ扱い）。見出しと例文のroを bɔm→bɔɔm に修正"
+  ],
+  "fixed": {
+   "id": "tl-57588",
+   "th": "คาร์บอมบ์",
+   "action": "add",
+   "ro": "khaa bɔɔm",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "自動車爆弾",
+     "en": "car bomb",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "英語 car bomb から。主にニュースで使う。",
+     "example": {
+      "th": "เกิดเหตุคาร์บอมบ์หน้าสถานีตำรวจ",
+      "ro": "kə̀ət hèet khaa bɔɔm nâa sà thǎa nii tam rùuat",
+      "ja": "警察署の前で自動車爆弾事件が起きた。",
+      "en": "A car bomb attack happened in front of the police station.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57902",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57941",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57980",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58019",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58058",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58097",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58136",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58175",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58214",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58253",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58292",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58331",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60129",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60168",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60277",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60566",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60683",
+  "verdict": "ok",
+  "issues": []
+ }
+]

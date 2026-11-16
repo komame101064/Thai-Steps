@@ -1,0 +1,430 @@
+[
+ {
+  "id": "tl-50104",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50143",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50182",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50221",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50260",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50299",
+  "verdict": "fix",
+  "issues": [
+   "例文「ร้านไม่มีทอนแบงก์พัน」の語順が不自然なため、店員の自然な言い方に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-50299",
+   "th": "ไม่มีทอน",
+   "action": "add",
+   "ro": "mâi mii thɔɔn",
+   "kind": "expression",
+   "category": "お金・買い物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "お釣りがない（店がお釣りを出せない）",
+     "en": "no change (cannot give change)",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "แบงก์พันไม่มีทอนนะคะ ขอแบงก์ย่อยได้ไหมคะ",
+      "ro": "bɛ́ng phan mâi mii thɔɔn ná khá khɔ̌ɔ bɛ́ng yɔ̂ɔi dâai mǎi khá",
+      "ja": "千バーツ札だとお釣りがないんです。細かいお札はありますか？",
+      "en": "We don't have change for a 1,000-baht note. Do you have smaller notes?",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "店員が言うことが多い。客が「お釣りはありますか」と聞くときはมีทอนไหมと言う。"
+  }
+ },
+ {
+  "id": "tl-50338",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50377",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50416",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50455",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50494",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50533",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50572",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50611",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50650",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50689",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50728",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50767",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50806",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50845",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50884",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50923",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50962",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51759",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51798",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52080",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52394",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52433",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52472",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52511",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52550",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52589",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52628",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52667",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52706",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52745",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52784",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52823",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52862",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52901",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52940",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52979",
+  "verdict": "reject",
+  "issues": [
+   "คลุก（混ぜ合わせる）＋ข้าวの自由な組み合わせ。既存のคลุกの用例（เขาคลุกข้าวกับน้ำปลาให้แมวกิน）でそのまま学べる"
+  ]
+ },
+ {
+  "id": "tl-55036",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55075",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55114",
+  "verdict": "reject",
+  "issues": [
+   "既存見出しบัวลอยにไข่หวาน（甘い落とし卵）を加えただけの料理名で、บัวลอยの項で足りる自由な組み合わせ"
+  ]
+ },
+ {
+  "id": "tl-55153",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55192",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55231",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55270",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55379",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55923",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55962",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56571",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57525",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57564",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57878",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57917",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57956",
+  "verdict": "fix",
+  "issues": [
+   "สไลด์の読みを既存見出しสไลด์（sà lai）に統一"
+  ],
+  "fixed": {
+   "id": "tl-57956",
+   "th": "รถสไลด์",
+   "action": "add",
+   "ro": "rót sà lai",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "積載車（故障車を荷台に載せて運ぶレッカー車）",
+     "en": "flatbed tow truck",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "รถเสียกลางทาง ต้องเรียกรถสไลด์มาลาก",
+      "ro": "rót sǐia klaang thaang tɔ̂ɔng rîiak rót sà lai maa lâak",
+      "ja": "車が途中で故障したので、積載車を呼んで運んでもらわなければならなかった。",
+      "en": "The car broke down on the way, so we had to call a flatbed tow truck.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "荷台がスライドして傾くことから。สไลด์は英語slideから。"
+  }
+ },
+ {
+  "id": "tl-57995",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58034",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58073",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58112",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58151",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58190",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58229",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58268",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58307",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60105",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60144",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60183",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60292",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60581",
+  "verdict": "ok",
+  "issues": []
+ }
+]

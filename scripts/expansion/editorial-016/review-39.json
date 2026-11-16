@@ -1,0 +1,522 @@
+[
+ {
+  "id": "tl-50135",
+  "verdict": "reject",
+  "issues": [
+   "既存の定型表現 ลดหน่อยได้ไหม（tl-51864「少し安くしてもらえますか」）とほぼ同じ表現で、例文も ขอลดหน่อยได้ไหม と既存項目をそのまま含む。ขอ を付けただけの変形のため不採用。"
+  ]
+ },
+ {
+  "id": "tl-50174",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50213",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50252",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで เก้า を kâo としているが、語彙表どおり kâao に統一"
+  ],
+  "fixed": {
+   "id": "tl-50252",
+   "th": "เพลงฮิต",
+   "action": "add",
+   "ro": "phleeng hít",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ヒット曲・人気の歌",
+     "en": "hit song",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ร้านนี้เปิดแต่เพลงฮิตยุคเก้าศูนย์",
+      "ro": "ráan níi pə̀ət tɛ̀ɛ phleeng hít yúk kâao sǔun",
+      "ja": "この店は90年代のヒット曲ばかり流している。",
+      "en": "This place only plays hit songs from the nineties.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50291",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50330",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50369",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50408",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50447",
+  "verdict": "reject",
+  "issues": [
+   "既存の งาน（tl-00139）の語義2「行事・催し」と ประจำปี（tl-56021「年次の・毎年恒例の」）の意味どおりの組み合わせで、固有の意味がない（งานออฟฟิศ・งานธุรการ と同じ扱い）。"
+  ]
+ },
+ {
+  "id": "tl-50486",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50525",
+  "verdict": "reject",
+  "issues": [
+   "既存の ผลิต（tl-01295「製造する」）に名詞化の การ を付けただけの規則的な形（ผู้ผลิต・ผลผลิต なども既存）。การ＋動詞の自由な名詞化は見出しにしない扱いのため不採用。"
+  ]
+ },
+ {
+  "id": "tl-50564",
+  "verdict": "reject",
+  "issues": [
+   "既存の เกิน（tl-00376 語義1「超える・多すぎる」）＋พอ（十分）の意味どおりの組み合わせ。同じ理由で เกินงบ（tl-50301）も不採用になっている。"
+  ]
+ },
+ {
+  "id": "tl-50603",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50642",
+  "verdict": "fix",
+  "issues": [
+   "เดอร์ の声調：既存の ออเดอร์ ɔɔ də̂ə・ไรเดอร์ rai də̂ə・同バッチの ลีดเดอร์ lîit də̂ə と揃えて də̂ə（見出しと例文のro）"
+  ],
+  "fixed": {
+   "id": "tl-50642",
+   "th": "เชียร์ลีดเดอร์",
+   "action": "add",
+   "ro": "chiia lîit də̂ə",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "チアリーダー",
+     "en": "cheerleader",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "น้องสาวเป็นเชียร์ลีดเดอร์ของโรงเรียน",
+      "ro": "nɔ́ɔng sǎao pen chiia lîit də̂ə khɔ̌ɔng roong riian",
+      "ja": "妹は学校のチアリーダーです。",
+      "en": "My younger sister is a cheerleader at her school.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50681",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50720",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50759",
+  "verdict": "reject",
+  "issues": [
+   "สร้าง（作る）＋จาก（〜から）＋เรื่องจริง（本当の話）の文としての自由な組み合わせで、語として登録する固有の意味がない（ถ้าเป็นไปได้ を見送った基準と同じ）。"
+  ]
+ },
+ {
+  "id": "tl-50798",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50837",
+  "verdict": "reject",
+  "issues": [
+   "既存の ผล（tl-01158）の語義1「結果・成果」と แล็บ（tl-03563）の意味どおりの組み合わせで、固有の意味がない。注記どおり ผลตรวจ と同じことを言っているだけ。"
+  ]
+ },
+ {
+  "id": "tl-50876",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50915",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50954",
+  "verdict": "reject",
+  "issues": [
+   "既存の กล่อง（tl-00907「箱」）＋กระดาษ（紙）の意味どおりの組み合わせ。同じ型の กล่องโฟม（tl-50790）が不採用になっているのと揃える。また読みの กล่อง も語彙表（klɔ̀ɔng）と不一致。"
+  ]
+ },
+ {
+  "id": "tl-50993",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51790",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52072",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52386",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52425",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52464",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52503",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52542",
+  "verdict": "reject",
+  "issues": [
+   "同じeditorial-016で เสื้อชูชีพ（tl-52543「救命胴衣・ライフジャケット」）が採用済みで、単独の ชูชีพ は主にその短い形として使われる。訳「救命用の（救命具）」も品詞（名詞）と合わず、短い形・長い形の重複になるため不採用。"
+  ]
+ },
+ {
+  "id": "tl-52581",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52620",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52659",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52698",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52737",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52776",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52815",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52854",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52893",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52932",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52971",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55028",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55067",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55106",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55145",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55184",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55223",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55262",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55371",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55915",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55954",
+  "verdict": "reject",
+  "issues": [
+   "既存の โต๊ะ（tl-00656「机」）＋พับ（折り畳む）の意味どおりの組み合わせ。กล่องโฟม・กล่องกระดาษ と同じく、材質・形態を足しただけの物の名前は見出しにしない扱いに揃える。"
+  ]
+ },
+ {
+  "id": "tl-55993",
+  "verdict": "fix",
+  "issues": [
+   "語義2（木が実をたくさんつける）は農業・園芸でもふつうに使う標準的な言い方なので、口語ラベルを外して標準語にした"
+  ],
+  "fixed": {
+   "id": "tl-55993",
+   "th": "ลูกดก",
+   "action": "add",
+   "ro": "lûuk dòk",
+   "kind": "word",
+   "category": "人・家族",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "子だくさんの",
+     "en": "having many children",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "บ้านนั้นลูกดกมาก มีลูกแปดคน",
+      "ro": "bâan nán lûuk dòk mâak mii lûuk pɛ̀ɛt khon",
+      "ja": "あの家は子だくさんで、子どもが8人いる。",
+      "en": "That family has lots of kids — eight children.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（木が）実をたくさんつける",
+     "en": "bearing a lot of fruit",
+     "pos": "形容詞・状態語",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ปีนี้มะม่วงลูกดก",
+      "ro": "pii níi má mûuang lûuk dòk",
+      "ja": "今年はマンゴーが実をたくさんつけた。",
+      "en": "The mango trees are bearing a lot of fruit this year.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57517",
+  "verdict": "reject",
+  "issues": [
+   "既存の เอื้อเฟื้อ（tl-42350「親切に助ける・分け与える」）と เผื่อแผ่（tl-43416「気前よく分かち合う」）を並べただけの言い方で、意味は両見出しがすでに教えている（พักเบรก を見送った基準と同じ）。"
+  ]
+ },
+ {
+  "id": "tl-57556",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57595",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57909",
+  "verdict": "reject",
+  "issues": [
+   "ย่าน（地区）＋既存の การค้า（tl-53583「商業」）の意味どおりの組み合わせで、固有の意味がない（ศูนย์การค้า のような特定の意味を持つ語ではない）。"
+  ]
+ },
+ {
+  "id": "tl-57948",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57987",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58026",
+  "verdict": "reject",
+  "issues": [
+   "既存の ไร่（tl-02299「畑・農園」）＋อ้อย（tl-44022「サトウキビ」）の意味どおりの組み合わせで、ไร่＋作物名（ไร่ข้าวโพด・ไร่มัน…）はいくらでも作れる。料理名として定着した ตำ＋〜 とは違い固有の意味がない。"
+  ]
+ },
+ {
+  "id": "tl-58065",
+  "verdict": "reject",
+  "issues": [
+   "既存の ทรุด（tl-04184）の語義2「崩れる・沈下する」が地盤・建物の沈下（語義1）をそのまま教えている。語義2「へたり込む」も ทรุด＋ตัว（体）が崩れる意味どおりの用法で、既存語義で学べるため不採用。"
+  ]
+ },
+ {
+  "id": "tl-58104",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58143",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58182",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58221",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58260",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58299",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58338",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60136",
+  "verdict": "reject",
+  "issues": [
+   "既存の อัพ（tl-05001・スラング tl-22582）の語義1「上げる・強化する・レベルアップする」が同じ意味をすでに教えており、อัพ＋เวล（level）の組み合わせにすぎない（อัปสตอรี่ も同様に不採用）。表記も อัพเวล／อัปเวล／อัพเลเวล と揺れる。"
+  ]
+ },
+ {
+  "id": "tl-60175",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60284",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60573",
+  "verdict": "fix",
+  "issues": [
+   "注記の「2000年前後に流行」「日本語風の響きから」という時期・語源の説明は確認できないため削除し、用法の説明だけ残した"
+  ],
+  "fixed": {
+   "id": "tl-60573",
+   "th": "คิกขุ",
+   "action": "add",
+   "ro": "khík khù",
+   "kind": "word",
+   "category": "スラング｜友達の日常",
+   "frequency": 2,
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ぶりっ子の・かわいこぶった",
+     "pos": "形容詞・状態語",
+     "speechStyle": "口語・スラング",
+     "note": "かわいこぶった振る舞いをからかって言う口語。คิขุ とも書く。少し古い響きがあり、今はふざけたりからかったりするときに使う。本人に向けると皮肉になる。",
+     "example": {
+      "th": "อายุสามสิบแล้วยังทำตัวคิกขุอยู่เลย",
+      "ro": "aa yú sǎam sìp lɛ́ɛo yang tham tuua khík khù yùu ləəi",
+      "ja": "もう30歳なのにまだぶりっ子してる。",
+      "context": "友人同士のからかい",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ }
+]

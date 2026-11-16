@@ -1,0 +1,1699 @@
+[
+ {
+  "id": "tl-50128",
+  "th": "ปวดฟัน",
+  "action": "add",
+  "ro": "pùuat fan",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "歯が痛い・歯痛がする",
+    "en": "to have a toothache",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ปวดหัว・ปวดท้อง と同じ形。名詞的に「歯痛」の意味でも使う。",
+    "example": {
+     "th": "เมื่อคืนปวดฟันจนนอนไม่หลับ",
+     "ro": "mʉ̂ʉa khʉʉn pùuat fan con nɔɔn mâi làp",
+     "ja": "昨夜は歯が痛くて眠れなかった。",
+     "en": "Last night my tooth hurt so much I couldn't sleep.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-50167",
+  "th": "ใครว่า",
+  "action": "add",
+  "ro": "khrai wâa",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "〜なんて誰が言ったの・そんなことない（反論）",
+    "en": "who says (so)?, that's not true",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "相手の言ったことや思い込みを打ち消すときに文頭に置く。疑問の「誰が言ったの？」の意味でも使う。",
+    "example": {
+     "th": "ใครว่าอาหารไทยเผ็ดทุกอย่าง",
+     "ro": "khrai wâa aa hǎan thai phèt thúk yàang",
+     "ja": "タイ料理が全部辛いなんて誰が言ったの？",
+     "en": "Who says all Thai food is spicy?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-50206",
+  "th": "เครียดงาน",
+  "action": "skip",
+  "skipReason": "เครียด（ストレスを感じる）＋งาน（仕事）の自由な組み合わせで、既存の เครียด で意味が分かるため。"
+ },
+ {
+  "id": "tl-50245",
+  "th": "หนีเรียน",
+  "action": "add",
+  "ro": "nǐi riian",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "授業をさぼる・学校をずる休みする",
+    "en": "to skip class, play truant",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สมัยมัธยมเขาชอบหนีเรียนไปเล่นเกม",
+     "ro": "sà mǎi mát thá yom khǎo chɔ̂ɔp nǐi riian pai lên keem",
+     "ja": "中学・高校のころ、彼はよく授業をさぼってゲームをしに行っていた。",
+     "en": "In secondary school he often skipped class to play games.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-50284",
+  "th": "ยกเวท",
+  "action": "skip",
+  "skipReason": "既存の เวท の第2語義（ウエイト・筋力トレーニング）で教えられており、ยก（持ち上げる）との組み合わせで意味が分かるため。"
+ },
+ {
+  "id": "tl-50323",
+  "th": "มองโลกในแง่ดี",
+  "action": "add",
+  "ro": "mɔɔng lôok nai ngɛ̂ɛ dii",
+  "kind": "expression",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "物事を前向きにとらえる・楽観的だ",
+    "en": "to be optimistic, look on the bright side",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "直訳は「世界を良い面から見る」。反対は มองโลกในแง่ร้าย（悲観的だ）。",
+    "example": {
+     "th": "เธอเป็นคนมองโลกในแง่ดีเสมอ",
+     "ro": "thəə pen khon mɔɔng lôok nai ngɛ̂ɛ dii sà mə̌ə",
+     "ja": "彼女はいつも物事を前向きにとらえる人だ。",
+     "en": "She is always an optimistic person.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-50362",
+  "th": "ไม่มีทางเลือก",
+  "action": "skip",
+  "skipReason": "ไม่มี（ない）＋既存の ทางเลือก（選択肢）の自由な組み合わせのため。"
+ },
+ {
+  "id": "tl-50401",
+  "th": "ลักขโมย",
+  "action": "add",
+  "ro": "lák khà mooi",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "盗む・窃盗をはたらく",
+    "en": "to steal, commit theft",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ニュースや規則などで使う。日常会話では ขโมย だけが普通。",
+    "example": {
+     "th": "ชายคนนี้ถูกจับข้อหาลักขโมยรถจักรยานยนต์",
+     "ro": "chaai khon níi thùuk càp khɔ̂ɔ hǎa lák khà mooi rót càk krà yaan yon",
+     "ja": "この男はバイク窃盗の容疑で逮捕された。",
+     "en": "This man was arrested on a charge of stealing a motorcycle.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-50440",
+  "th": "เช่าซื้อ",
+  "action": "add",
+  "ro": "châo sʉ́ʉ",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "割賦で買う・分割払いの購入契約（ハイヤーパーチェス）",
+    "en": "to buy on hire purchase",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "車やバイクの分割購入によく使う。「割賦契約」は สัญญาเช่าซื้อ。",
+    "example": {
+     "th": "ผมเช่าซื้อรถคันนี้ผ่อนห้าปี",
+     "ro": "phǒm châo sʉ́ʉ rót khan níi phɔ̀ɔn hâa pii",
+     "ja": "私はこの車を5年の割賦契約で買った。",
+     "en": "I bought this car on a five-year hire-purchase plan.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-50479",
+  "th": "หวยออก",
+  "action": "add",
+  "ro": "hǔuai ɔ̀ɔk",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "宝くじの当選番号が発表される",
+    "en": "the lottery results come out",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "「宝くじの抽選日」は วันหวยออก。「何番が出た？」は หวยออกอะไร。",
+    "example": {
+     "th": "หวยออกวันที่หนึ่งกับวันที่สิบหก",
+     "ro": "hǔuai ɔ̀ɔk wan thîi nʉ̀ng kàp wan thîi sìp hòk",
+     "ja": "宝くじの当選番号は1日と16日に発表される。",
+     "en": "Lottery results come out on the 1st and the 16th.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-50518",
+  "th": "แอดมินเพจ",
+  "action": "skip",
+  "skipReason": "แอดมิน（管理人）＋既存の เพจ（SNSのページ）の自由な組み合わせのため。見出しにするなら แอดมิน 単独が適切。"
+ },
+ {
+  "id": "tl-50557",
+  "th": "หัวปั่น",
+  "action": "add",
+  "ro": "hǔua pàn",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（忙しさや問題で）頭が混乱する・てんてこ舞いになる",
+    "en": "frazzled, in a whirl",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "หัวหมุน とほぼ同じ。語順が逆の ปั่นหัว（人を操る）とは別の語。",
+    "example": {
+     "th": "งานเข้าเยอะจนหัวปั่นไปหมด",
+     "ro": "ngaan khâo yə́ con hǔua pàn pai mòt",
+     "ja": "仕事が次々に来て、頭がてんてこ舞いだ。",
+     "en": "So much work came in that my head is spinning.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-50596",
+  "th": "ระทึกใจ",
+  "action": "skip",
+  "skipReason": "既存の ระทึก（ハラハラする）の注記で ระทึกใจ の形を教えているため。"
+ },
+ {
+  "id": "tl-50635",
+  "th": "ต่อโท",
+  "action": "add",
+  "ro": "tɔ̀ɔ thoo",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "大学院の修士課程に進む",
+    "en": "to go on to a master's degree",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "ต่อปริญญาโท（修士課程に進む）を短くした口語。博士課程は ต่อเอก。",
+    "example": {
+     "th": "จบแล้วเธออยากไปต่อโทที่ญี่ปุ่น",
+     "ro": "còp lɛ́ɛo thəə yàak pai tɔ̀ɔ thoo thîi yîi pùn",
+     "ja": "卒業したら、彼女は日本で修士課程に進みたい。",
+     "en": "After graduating, she wants to do a master's in Japan.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-50674",
+  "th": "ดังข้ามคืน",
+  "action": "skip",
+  "skipReason": "ดัง（有名な）＋既存の ข้ามคืน（一夜にして）の組み合わせで、既存語義で意味が分かるため。"
+ },
+ {
+  "id": "tl-50713",
+  "th": "จัดดอกไม้",
+  "action": "add",
+  "ro": "càt dɔ̀ɔk máai",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "花を生ける・フラワーアレンジメントをする",
+    "en": "to arrange flowers",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "名詞の「生け花・フラワーアレンジメント」は การจัดดอกไม้。",
+    "example": {
+     "th": "แม่ชอบจัดดอกไม้ไว้บนโต๊ะกินข้าว",
+     "ro": "mɛ̂ɛ chɔ̂ɔp càt dɔ̀ɔk máai wái bon tó kin khâao",
+     "ja": "母は食卓に花を生けるのが好きだ。",
+     "en": "My mother likes to arrange flowers on the dining table.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-50752",
+  "th": "อาร์ตทอย",
+  "action": "add",
+  "ro": "àat thɔɔi",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "アートトイ（収集用のデザイナーズフィギュア）",
+    "en": "art toy, designer toy",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "英語 art toy から。2020年代にタイで大流行した。",
+    "example": {
+     "th": "ช่วงนี้วัยรุ่นนิยมสะสมอาร์ตทอยกันมาก",
+     "ro": "chûuang níi wai rûn ní yom sà sǒm àat thɔɔi kan mâak",
+     "ja": "最近、若者の間でアートトイ集めがとても流行っている。",
+     "en": "These days collecting art toys is very popular among young people.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-50791",
+  "th": "เศษอาหาร",
+  "action": "add",
+  "ro": "sèet aa hǎan",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "食べ残し・生ごみ",
+    "en": "food scraps, food waste",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อย่าทิ้งเศษอาหารลงในอ่างล้างจาน",
+     "ro": "yàa thíng sèet aa hǎan long nai àang láang caan",
+     "ja": "食べ残しを流しに捨てないで。",
+     "en": "Don't throw food scraps into the sink.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-50830",
+  "th": "ฮันนี่โทสต์",
+  "action": "add",
+  "ro": "han nîi thóos",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ハニートースト（厚切りパンのデザート）",
+    "en": "honey toast",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "食パンを厚く切って焼き、バター・はちみつ・アイスなどをのせたタイのカフェの定番デザート。",
+    "example": {
+     "th": "ร้านนี้ฮันนี่โทสต์อร่อยมาก",
+     "ro": "ráan níi han nîi thóos à rɔ̀ɔi mâak",
+     "ja": "この店はハニートーストがとてもおいしい。",
+     "en": "The honey toast at this place is really good.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-50869",
+  "th": "ตะคริวกิน",
+  "action": "add",
+  "ro": "tà khriu kin",
+  "kind": "expression",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（筋肉が）つる・こむら返りを起こす",
+    "en": "to get a cramp",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "直訳は「こむら返りが食う」。ตะคริวกินขา（足がつる）のように後ろに部位を置く。เป็นตะคริว とも言う。",
+    "example": {
+     "th": "ว่ายน้ำอยู่ดีๆ ก็ตะคริวกินขา",
+     "ro": "wâai náam yùu dii dii kɔ̂ɔ tà khriu kin khǎa",
+     "ja": "普通に泳いでいたら、急に足がつった。",
+     "en": "I was swimming along fine when I suddenly got a cramp in my leg.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-50908",
+  "th": "ทำสีผม",
+  "action": "add",
+  "ro": "tham sǐi phǒm",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "髪を染める・（美容院で）カラーをする",
+    "en": "to color one's hair",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ย้อมผม とほぼ同じ意味で、美容院でのカラーについてよく使う。",
+    "example": {
+     "th": "พรุ่งนี้ฉันจะไปทำสีผมที่ร้าน",
+     "ro": "phrûng níi chǎn cà pai tham sǐi phǒm thîi ráan",
+     "ja": "明日、美容院へ髪を染めに行く。",
+     "en": "Tomorrow I'm going to the salon to get my hair colored.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-50947",
+  "th": "พอยต์",
+  "action": "skip",
+  "skipReason": "綴り（พอยต์・พอยท์）と声調の揺れがあり読みを確定できないため。また「ポイント・得点」の意味は既存の แต้ม で教えられるため。"
+ },
+ {
+  "id": "tl-50986",
+  "th": "ปล่อยกู้",
+  "action": "add",
+  "ro": "plɔ̀ɔi kûu",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（銀行などが）金を貸し出す・融資する",
+    "en": "to lend money, extend loans",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "貸す側の言い方。借りる側は กู้（กู้เงิน）。",
+    "example": {
+     "th": "ธนาคารปล่อยกู้ให้ธุรกิจเล็กๆ มากขึ้น",
+     "ro": "thá naa khaan plɔ̀ɔi kûu hâi thú rá kìt lék lék mâak khʉ̂n",
+     "ja": "銀行は小さな事業への融資を増やしている。",
+     "en": "Banks are lending more to small businesses.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-51783",
+  "th": "คนกรุง",
+  "action": "add",
+  "ro": "khon krung",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "都会の人・バンコクの人",
+    "en": "city people, Bangkokians",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "กรุง はここではバンコク（กรุงเทพฯ）を指す。地方の人と対比して使うことが多い。",
+    "example": {
+     "th": "คนกรุงส่วนใหญ่เดินทางด้วยรถไฟฟ้า",
+     "ro": "khon krung sùuan yài dəən thaang dûuai rót fai fáa",
+     "ja": "バンコクの人の多くは電車で移動する。",
+     "en": "Most Bangkok people get around by train.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52065",
+  "th": "ตีตนก่อนไข้",
+  "action": "add",
+  "ro": "tii ton kɔ̀ɔn khâi",
+  "kind": "expression",
+  "category": "一般語彙",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "取り越し苦労をする・まだ起きていないことを心配する",
+    "en": "to worry before there is any trouble",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "直訳は「熱が出る前に自分を打つ」。会話でもよく使うことわざ。",
+    "example": {
+     "th": "ยังไม่รู้ผลสอบเลย อย่าตีตนก่อนไข้",
+     "ro": "yang mâi rúu phǒn sɔ̀ɔp ləəi yàa tii ton kɔ̀ɔn khâi",
+     "ja": "まだ試験の結果も分からないんだから、取り越し苦労はやめなよ。",
+     "en": "You don't even know your exam results yet, so don't worry before there's anything to worry about.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52379",
+  "th": "พลิกล็อก",
+  "action": "add",
+  "ro": "phlík lɔ́k",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "番狂わせを起こす・予想を覆す",
+    "en": "to cause an upset",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "スポーツや選挙で予想外の結果になること。พลิกล็อค とも書く。",
+    "example": {
+     "th": "ทีมเล็กพลิกล็อกชนะแชมป์เก่า",
+     "ro": "thiim lék phlík lɔ́k chá ná chɛ́m kào",
+     "ja": "小さなチームが番狂わせで前回王者に勝った。",
+     "en": "The small team pulled off an upset and beat the former champions.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52418",
+  "th": "หรอย",
+  "action": "add",
+  "ro": "rɔ̌ɔi",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "うまい・おいしい（南部方言）",
+    "en": "delicious (Southern dialect)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "南部方言で อร่อย にあたる。「หรอยจังฮู้（すごくうまい）」が有名で、標準語の会話でもおどけて使う。",
+    "example": {
+     "th": "แกงส้มร้านนี้หรอยจริงๆ",
+     "ro": "kɛɛng sôm ráan níi rɔ̌ɔi cing cing",
+     "ja": "この店のゲーンソムは本当にうまい。",
+     "en": "The kaeng som at this place is really delicious.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52457",
+  "th": "เหยียดเพศ",
+  "action": "add",
+  "ro": "yìiat phêet",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "性別で差別する・性差別的だ",
+    "en": "to discriminate by gender, be sexist",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "名詞の「性差別」は การเหยียดเพศ。",
+    "example": {
+     "th": "โฆษณานี้ถูกวิจารณ์ว่าเหยียดเพศ",
+     "ro": "khoo sà naa níi thùuk wí caan wâa yìiat phêet",
+     "ja": "この広告は性差別的だと批判された。",
+     "en": "This ad was criticized as sexist.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52496",
+  "th": "วันไหว้",
+  "action": "add",
+  "ro": "wan wâai",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（中華系の行事で）祖先や神に供え物をする日",
+    "en": "day of offerings (Chinese festivals)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "特に春節前日の วันไหว้ตรุษจีน を指すことが多い。前日の買い出しの日は วันจ่าย。",
+    "example": {
+     "th": "วันไหว้ตรุษจีนแม่ทำอาหารเยอะมาก",
+     "ro": "wan wâai trùt ciin mɛ̂ɛ tham aa hǎan yə́ mâak",
+     "ja": "春節のお供えの日、母はたくさん料理を作る。",
+     "en": "On the Chinese New Year offering day, my mother cooks a lot of food.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52535",
+  "th": "ทรานซิท",
+  "action": "add",
+  "ro": "thraan sít",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（飛行機を）乗り継ぐ・トランジット",
+    "en": "to transit, change planes",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "英語 transit から。ทรานซิต とも書く。改まった言い方は เปลี่ยนเครื่อง（飛行機を乗り換える）。",
+    "example": {
+     "th": "เราต้องทรานซิทที่สิงคโปร์สองชั่วโมง",
+     "ro": "rao tɔ̂ɔng thraan sít thîi sǐng khá poo sɔ̌ɔng chûua moong",
+     "ja": "私たちはシンガポールで2時間乗り継ぎをしなければならない。",
+     "en": "We have to transit in Singapore for two hours.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52574",
+  "th": "วันเวย์",
+  "action": "add",
+  "ro": "wan wee",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "一方通行（の道）",
+    "en": "one-way (street)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "英語 one-way から。正式には เดินรถทางเดียว。",
+    "example": {
+     "th": "ถนนเส้นนี้เป็นวันเวย์ เลี้ยวเข้าไม่ได้",
+     "ro": "thà nǒn sên níi pen wan wee líiao khâo mâi dâai",
+     "ja": "この道は一方通行なので、曲がって入れません。",
+     "en": "This road is one-way, so you can't turn into it.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52613",
+  "th": "แบ็กอัป",
+  "action": "skip",
+  "skipReason": "同じバッチの แบ็กอัพ（tl-52819）と同じ語の綴り違いのため。"
+ },
+ {
+  "id": "tl-52652",
+  "th": "หารครึ่ง",
+  "action": "skip",
+  "skipReason": "既存の หาร の第2語義（割り勘にする）＋ครึ่ง（半分）の組み合わせで意味が分かるため。"
+ },
+ {
+  "id": "tl-52691",
+  "th": "ฝากเนื้อฝากตัว",
+  "action": "skip",
+  "skipReason": "既存の ขอฝากเนื้อฝากตัว（tl-52111）の短い形のため。"
+ },
+ {
+  "id": "tl-52730",
+  "th": "ทีมเวิร์ก",
+  "action": "add",
+  "ro": "thiim wə̂ək",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "チームワーク",
+    "en": "teamwork",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "英語 teamwork から。ทีมเวิร์ค とも書く。",
+    "example": {
+     "th": "งานนี้สำเร็จได้เพราะทีมเวิร์กที่ดี",
+     "ro": "ngaan níi sǎm rèt dâai phrɔ́ thiim wə̂ək thîi dii",
+     "ja": "この仕事が成功したのは良いチームワークのおかげだ。",
+     "en": "This job succeeded thanks to good teamwork.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52769",
+  "th": "ไลน์ผลิต",
+  "action": "skip",
+  "skipReason": "ไลน์＋ผลิต の組み合わせで、標準的には สายการผลิต・ไลน์การผลิต と言うことが多く、見出し形として確認できないため。"
+ },
+ {
+  "id": "tl-52808",
+  "th": "กราฟิก",
+  "action": "add",
+  "ro": "kraa fìk",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "グラフィック・グラフィックデザイン",
+    "en": "graphics, graphic design",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "英語 graphic から。กราฟฟิก とも書く。",
+    "example": {
+     "th": "เขาทำงานเป็นนักออกแบบกราฟิก",
+     "ro": "khǎo tham ngaan pen nák ɔ̀ɔk bɛ̀ɛp kraa fìk",
+     "ja": "彼はグラフィックデザイナーとして働いている。",
+     "en": "He works as a graphic designer.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52847",
+  "th": "เคลิบเคลิ้ม",
+  "action": "add",
+  "ro": "khlə̂əp khlə́əm",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "うっとりする・夢見心地になる",
+    "en": "to be enraptured, dreamy",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เพลงนี้ฟังแล้วเคลิบเคลิ้มไปเลย",
+     "ro": "phleeng níi fang lɛ́ɛo khlə̂əp khlə́əm pai ləəi",
+     "ja": "この歌を聴くとうっとりしてしまう。",
+     "en": "Listening to this song puts me in a dreamy mood.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52886",
+  "th": "คู่คี่",
+  "action": "add",
+  "ro": "khûu khîi",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "互角の・実力が拮抗した",
+    "en": "evenly matched",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "สูสี とほぼ同じ意味。直訳は「偶数と奇数」。",
+    "example": {
+     "th": "สองทีมนี้ฝีมือคู่คี่กันมาก",
+     "ro": "sɔ̌ɔng thiim níi fǐi mʉʉ khûu khîi kan mâak",
+     "ja": "この2チームは実力がほぼ互角だ。",
+     "en": "These two teams are very evenly matched.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52925",
+  "th": "หน้าฝรั่ง",
+  "action": "add",
+  "ro": "nâa fà ràng",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "西洋人っぽい顔立ち（の）",
+    "en": "Western-looking (face)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เด็กคนนี้หน้าฝรั่งเพราะพ่อเป็นคนอังกฤษ",
+     "ro": "dèk khon níi nâa fà ràng phrɔ́ phɔ̂ɔ pen khon ang krìt",
+     "ja": "この子は父親がイギリス人なので、西洋人っぽい顔をしている。",
+     "en": "This child looks Western because his father is English.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-52964",
+  "th": "คล่องคอ",
+  "action": "add",
+  "ro": "khlɔ̂ɔng khɔɔ",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（飲み物が）のどごしがよい・飲みやすい",
+    "en": "smooth to drink",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เบียร์ยี่ห้อนี้ดื่มง่ายคล่องคอ",
+     "ro": "biia yîi hɔ̂ɔ níi dʉ̀ʉm ngâai khlɔ̂ɔng khɔɔ",
+     "ja": "この銘柄のビールは飲みやすくてのどごしがいい。",
+     "en": "This brand of beer is easy to drink and goes down smoothly.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-55021",
+  "th": "มะเขือม่วง",
+  "action": "add",
+  "ro": "má khʉ̌ʉa mûuang",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "紫ナス（長ナス）",
+    "en": "purple eggplant",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "タイで単に มะเขือ と言うと緑の丸ナスなども含む。日本のナスに近いのはこれ。",
+    "example": {
+     "th": "มะเขือม่วงผัดกับหมูสับอร่อยมาก",
+     "ro": "má khʉ̌ʉa mûuang phàt kàp mǔu sàp à rɔ̀ɔi mâak",
+     "ja": "紫ナスとひき肉の炒め物はとてもおいしい。",
+     "en": "Purple eggplant stir-fried with minced pork is delicious.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-55060",
+  "th": "ต้มเค็ม",
+  "action": "add",
+  "ro": "tôm khem",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "トムケム（醤油で甘辛く煮込んだ料理）",
+    "en": "Thai soy-braised dish",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "豚肉・卵・魚などを醤油やパームシュガーで煮込んだ家庭料理。",
+    "example": {
+     "th": "เย็นนี้แม่ทำต้มเค็มปลาทู",
+     "ro": "yen níi mɛ̂ɛ tham tôm khem plaa thuu",
+     "ja": "今晩、母はプラートゥー（小さなサバ）のトムケムを作る。",
+     "en": "This evening my mother is making soy-braised mackerel.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-55099",
+  "th": "เต้าหู้ยี้",
+  "action": "add",
+  "ro": "tâo hûu yíi",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "腐乳（発酵させた豆腐）",
+    "en": "fermented bean curd",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ข้าวต้มกินกับเต้าหู้ยี้อร่อยดี",
+     "ro": "khâao tôm kin kàp tâo hûu yíi à rɔ̀ɔi dii",
+     "ja": "お粥は腐乳と一緒に食べるとおいしい。",
+     "en": "Rice porridge is tasty with fermented bean curd.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-55138",
+  "th": "รามยอน",
+  "action": "add",
+  "ro": "raam yɔɔn",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "韓国ラーメン（ラミョン）",
+    "en": "ramyeon (Korean instant noodles)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "韓国語「ラミョン」から。รามย็อน とも書く。",
+    "example": {
+     "th": "ดึกๆ หิวเลยต้มรามยอนกิน",
+     "ro": "dʉ̀k dʉ̀k hǐu ləəi tôm raam yɔɔn kin",
+     "ja": "夜遅くお腹がすいたので、韓国ラーメンを作って食べた。",
+     "en": "I got hungry late at night, so I made some ramyeon.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-55177",
+  "th": "สารอาหาร",
+  "action": "add",
+  "ro": "sǎan aa hǎan",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "栄養素",
+    "en": "nutrient",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผักมีสารอาหารที่ร่างกายต้องการ",
+     "ro": "phàk mii sǎan aa hǎan thîi râang kaai tɔ̂ɔng kaan",
+     "ja": "野菜には体が必要とする栄養素がある。",
+     "en": "Vegetables contain nutrients the body needs.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-55216",
+  "th": "ข้อเคลื่อน",
+  "action": "skip",
+  "skipReason": "実際には ข้อไหล่เคลื่อน・ข้อเท้าเคลื่อน のように部位名と組み合わせるのが普通で、単独の見出し語として教える根拠が弱いため。"
+ },
+ {
+  "id": "tl-55255",
+  "th": "ดูดไขมัน",
+  "action": "add",
+  "ro": "dùut khǎi man",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "脂肪吸引をする",
+    "en": "to have liposuction",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอไปดูดไขมันที่ต้นขามา",
+     "ro": "thəə pai dùut khǎi man thîi tôn khǎa maa",
+     "ja": "彼女は太ももの脂肪吸引をしてきた。",
+     "en": "She had liposuction on her thighs.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-55294",
+  "th": "ติดเตียง",
+  "action": "add",
+  "ro": "tìt tiiang",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "寝たきりの",
+    "en": "bedridden",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "「寝たきりの患者」は ผู้ป่วยติดเตียง。",
+    "example": {
+     "th": "คุณยายป่วยติดเตียงมาสองปีแล้ว",
+     "ro": "khun yaai pùuai tìt tiiang maa sɔ̌ɔng pii lɛ́ɛo",
+     "ja": "祖母は病気で寝たきりになって2年になる。",
+     "en": "Grandma has been sick and bedridden for two years.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-55908",
+  "th": "มิเตอร์น้ำ",
+  "action": "add",
+  "ro": "mí tə̂ə náam",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "水道メーター",
+    "en": "water meter",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "電気メーターは มิเตอร์ไฟ。",
+    "example": {
+     "th": "เจ้าหน้าที่มาจดมิเตอร์น้ำทุกเดือน",
+     "ro": "câo nâa thîi maa còt mí tə̂ə náam thúk dʉʉan",
+     "ja": "職員が毎月水道メーターを検針しに来る。",
+     "en": "A staff member comes every month to read the water meter.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-55947",
+  "th": "ผ้าเช็ดจาน",
+  "action": "add",
+  "ro": "phâa chét caan",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ふきん（食器拭き）",
+    "en": "dish towel",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วยหยิบผ้าเช็ดจานให้หน่อย",
+     "ro": "chûuai yìp phâa chét caan hâi nɔ̀ɔi",
+     "ja": "ふきんを取ってくれる？",
+     "en": "Could you hand me the dish towel?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-55986",
+  "th": "ฤกษ์งามยามดี",
+  "action": "add",
+  "ro": "rə̂ək ngaam yaam dii",
+  "kind": "expression",
+  "category": "社会・制度",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "縁起のよい日時・吉日吉時",
+    "en": "auspicious time",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "結婚・開店・引っ越しなどの日時について言う。冗談めかして「ちょうどいい時」の意味でも使う。",
+    "example": {
+     "th": "เขาเลือกฤกษ์งามยามดีเปิดร้านใหม่",
+     "ro": "khǎo lʉ̂ʉak rə̂ək ngaam yaam dii pə̀ət ráan mài",
+     "ja": "彼は縁起のよい日時を選んで新しい店を開いた。",
+     "en": "He chose an auspicious time to open his new shop.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-56595",
+  "th": "สายรหัส",
+  "action": "add",
+  "ro": "sǎai rá hàt",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（大学で）学籍番号でつながる先輩・後輩の系列",
+    "en": "line of seniors and juniors linked by student ID",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "学籍番号の末尾が同じ先輩と後輩が代々つながるタイの大学の習慣。พี่รหัส・น้องรหัส をまとめた言い方。",
+    "example": {
+     "th": "วันนี้สายรหัสเรานัดกินข้าวกัน",
+     "ro": "wan níi sǎai rá hàt rao nát kin khâao kan",
+     "ja": "今日は学籍番号でつながる先輩・後輩で集まって食事をする。",
+     "en": "Today our student-ID line is meeting up for a meal.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57549",
+  "th": "ข้ามวันข้ามคืน",
+  "action": "add",
+  "ro": "khâam wan khâam khʉʉn",
+  "kind": "expression",
+  "category": "時間",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "昼も夜も・何日もぶっ通しで",
+    "en": "day and night, around the clock",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาทำงานข้ามวันข้ามคืนเพื่อให้เสร็จทัน",
+     "ro": "khǎo tham ngaan khâam wan khâam khʉʉn phʉ̂ʉa hâi sèt than",
+     "ja": "彼は間に合わせるため、昼夜ぶっ通しで働いた。",
+     "en": "He worked day and night to finish in time.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57588",
+  "th": "คาร์บอมบ์",
+  "action": "add",
+  "ro": "khaa bɔm",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "自動車爆弾",
+    "en": "car bomb",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "英語 car bomb から。主にニュースで使う。",
+    "example": {
+     "th": "เกิดเหตุคาร์บอมบ์หน้าสถานีตำรวจ",
+     "ro": "kə̀ət hèet khaa bɔm nâa sà thǎa nii tam rùuat",
+     "ja": "警察署の前で自動車爆弾事件が起きた。",
+     "en": "A car bomb attack happened in front of the police station.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57902",
+  "th": "โรมมิ่ง",
+  "action": "add",
+  "ro": "room mîng",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（携帯電話の）ローミング",
+    "en": "(mobile) roaming",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "英語 roaming から。",
+    "example": {
+     "th": "ก่อนไปต่างประเทศอย่าลืมเปิดโรมมิ่ง",
+     "ro": "kɔ̀ɔn pai tàang prà thêet yàa lʉʉm pə̀ət room mîng",
+     "ja": "海外に行く前にローミングをオンにするのを忘れないで。",
+     "en": "Don't forget to turn on roaming before you go abroad.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57941",
+  "th": "ทางจักรยาน",
+  "action": "add",
+  "ro": "thaang càk krà yaan",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "自転車道・自転車レーン",
+    "en": "bike lane, cycle path",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สวนนี้มีทางจักรยานรอบบึง",
+     "ro": "sǔuan níi mii thaang càk krà yaan rɔ̂ɔp bʉng",
+     "ja": "この公園には池の周りに自転車道がある。",
+     "en": "This park has a bike path around the lake.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-57980",
+  "th": "ความกดอากาศต่ำ",
+  "action": "add",
+  "ro": "khwaam kòt aa kàat tàm",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "低気圧",
+    "en": "low (atmospheric) pressure",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "天気予報では หย่อมความกดอากาศต่ำ（低気圧域）の形が多い。高気圧は ความกดอากาศสูง。",
+    "example": {
+     "th": "ความกดอากาศต่ำทำให้ฝนตกหนักหลายวัน",
+     "ro": "khwaam kòt aa kàat tàm tham hâi fǒn tòk nàk lǎai wan",
+     "ja": "低気圧の影響で何日も大雨が降った。",
+     "en": "Low pressure brought heavy rain for several days.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58019",
+  "th": "มอส",
+  "action": "add",
+  "ro": "mɔ́ɔs",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "コケ",
+    "en": "moss",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "英語 moss から。水辺のぬめりや藻は ตะไคร่น้ำ と言う。",
+    "example": {
+     "th": "ก้อนหินในสวนมีมอสขึ้นเต็มไปหมด",
+     "ro": "kɔ̂ɔn hǐn nai sǔuan mii mɔ́ɔs khʉ̂n tem pai mòt",
+     "ja": "庭の石は一面にコケが生えている。",
+     "en": "The rocks in the garden are covered in moss.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58058",
+  "th": "เท้าเอว",
+  "action": "add",
+  "ro": "tháao eeo",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "腰に手を当てる",
+    "en": "to put one's hands on one's hips",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "怒っている・威張っている態度を表すことが多い。",
+    "example": {
+     "th": "แม่ยืนเท้าเอวรออยู่หน้าบ้าน",
+     "ro": "mɛ̂ɛ yʉʉn tháao eeo rɔɔ yùu nâa bâan",
+     "ja": "母は腰に手を当てて家の前で待っていた。",
+     "en": "Mom was waiting in front of the house with her hands on her hips.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58097",
+  "th": "พูดสวน",
+  "action": "add",
+  "ro": "phûut sǔuan",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "口答えする・すぐ言い返す",
+    "en": "to talk back, retort",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ผู้ใหญ่พูดอยู่ อย่าพูดสวน",
+     "ro": "phûu yài phûut yùu yàa phûut sǔuan",
+     "ja": "大人が話しているときに口答えしないの。",
+     "en": "Don't talk back while an adult is speaking.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58136",
+  "th": "คร่ำเคร่ง",
+  "action": "add",
+  "ro": "khrâm khrêng",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（勉強・仕事に）根を詰める・一心に打ち込む",
+    "en": "to be absorbed in, work intensely",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "กับ〜 を伴って「〜に打ち込む」の形で使うことが多い。",
+    "example": {
+     "th": "ช่วงใกล้สอบนักเรียนคร่ำเคร่งกับการอ่านหนังสือ",
+     "ro": "chûuang klâi sɔ̀ɔp nák riian khrâm khrêng kàp kaan àan nǎng sʉ̌ʉ",
+     "ja": "試験前、生徒たちは勉強に根を詰めている。",
+     "en": "Near exam time, students are absorbed in studying.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58175",
+  "th": "งานจร",
+  "action": "skip",
+  "skipReason": "既存の จร の第1語義（臨時の・行きずりの）の注記で他の語の後に付ける用法を教えており、งานจร 自体の使用頻度も高くないため。"
+ },
+ {
+  "id": "tl-58214",
+  "th": "บริษัทข้ามชาติ",
+  "action": "add",
+  "ro": "bɔɔ rí sàt khâam châat",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "多国籍企業",
+    "en": "multinational company",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พี่สาวผมทำงานที่บริษัทข้ามชาติ",
+     "ro": "phîi sǎao phǒm tham ngaan thîi bɔɔ rí sàt khâam châat",
+     "ja": "私の姉は多国籍企業で働いている。",
+     "en": "My older sister works at a multinational company.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58253",
+  "th": "กระบวย",
+  "action": "add",
+  "ro": "krà buuai",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 1,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ひしゃく（ヤシ殻などで作る）",
+    "en": "ladle, dipper",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "伝統的なヤシ殻製のものを指すことが多い。プラスチックの手桶は ขัน。",
+    "example": {
+     "th": "ยายใช้กระบวยตักน้ำจากโอ่ง",
+     "ro": "yaai chái krà buuai tàk náam càak òong",
+     "ja": "祖母はひしゃくで水がめから水をくむ。",
+     "en": "Grandma uses a dipper to scoop water from the jar.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58292",
+  "th": "นกเงือก",
+  "action": "skip",
+  "skipReason": "既存の เงือก の第2語義「サイチョウ（นกเงือก の形で）」で教えられているため。"
+ },
+ {
+  "id": "tl-58331",
+  "th": "อัมสเตอร์ดัม",
+  "action": "add",
+  "ro": "am sà təə dam",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 1,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "アムステルダム（オランダの首都）",
+    "en": "Amsterdam",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เราจะไปเที่ยวอัมสเตอร์ดัมช่วงหน้าร้อน",
+     "ro": "rao cà pai thîiao am sà təə dam chûuang nâa rɔ́ɔn",
+     "ja": "私たちは夏にアムステルダムへ旅行に行く。",
+     "en": "We are going on a trip to Amsterdam in the summer.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60129",
+  "th": "ชัวร์ป้าด",
+  "action": "add",
+  "ro": "chuua pâat",
+  "kind": "word",
+  "category": "スラング｜ほめる・反応",
+  "adult": false,
+  "tags": [
+   "colloquial",
+   "slang"
+  ],
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "絶対確実・間違いなし",
+    "pos": "形容詞・状態語",
+    "speechStyle": "口語・スラング",
+    "note": "ชัวร์（確かな）を強めたおどけた言い方。友人同士で使い、目上には使わない。",
+    "example": {
+     "th": "พรุ่งนี้ไปชัวร์ป้าด ไม่เทแน่นอน",
+     "ro": "phrûng níi pai chuua pâat mâi thee nɛ̂ɛ nɔɔn",
+     "ja": "明日は絶対行くよ、ドタキャンしないから。",
+     "context": "友人との約束",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60168",
+  "th": "เผางาน",
+  "action": "add",
+  "ro": "phǎo ngaan",
+  "kind": "word",
+  "category": "スラング｜友達の日常",
+  "adult": false,
+  "tags": [
+   "colloquial",
+   "slang"
+  ],
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（締め切り間際に）やっつけで仕上げる",
+    "pos": "動詞",
+    "speechStyle": "口語・スラング",
+    "note": "直訳は「仕事を焼く」。時間がなく雑に急いで仕上げること。学生や会社員が自嘲気味に使う。",
+    "example": {
+     "th": "ส่งพรุ่งนี้แล้ว คืนนี้ต้องเผางานแน่ๆ",
+     "ro": "sòng phrûng níi lɛ́ɛo khʉʉn níi tɔ̂ɔng phǎo ngaan nɛ̂ɛ nɛ̂ɛ",
+     "ja": "提出は明日だ。今夜はやっつけで仕上げるしかない。",
+     "context": "締め切り前の学生同士の会話",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60277",
+  "th": "ตัวแบก",
+  "action": "add",
+  "ro": "tuua bɛ̀ɛk",
+  "kind": "word",
+  "category": "スラング｜ネット・SNS",
+  "adult": false,
+  "tags": [
+   "colloquial",
+   "slang"
+  ],
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（ゲームなどで）一人でチームを勝たせるエース",
+    "pos": "名詞",
+    "speechStyle": "口語・スラング",
+    "note": "แบก（背負う）から。オンラインゲームでチームを背負って勝たせる人。グループ課題などで一人で頑張る人にも使う。",
+    "example": {
+     "th": "ตานี้มีเขาเป็นตัวแบก ชนะสบาย",
+     "ro": "taa níi mii khǎo pen tuua bɛ̀ɛk chá ná sà baai",
+     "ja": "この試合は彼がエースとして引っ張るから楽勝だ。",
+     "context": "オンラインゲーム仲間の会話",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60566",
+  "th": "ปัดสวะ",
+  "action": "add",
+  "ro": "pàt sà wà",
+  "kind": "expression",
+  "category": "スラング｜一般",
+  "adult": false,
+  "tags": [
+   "colloquial"
+  ],
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "厄介ごとを他へ押しつける・たらい回しにする",
+    "pos": "定型表現",
+    "speechStyle": "口語",
+    "note": "直訳は「浮き草を払いのける」。自分の責任を逃れて面倒を他人や他の部署に回すこと。役所や会社の対応を批判するときによく使う慣用句。",
+    "example": {
+     "th": "ทุกแผนกปัดสวะกันหมด ไม่มีใครรับผิดชอบ",
+     "ro": "thúk phà nɛ̀ɛk pàt sà wà kan mòt mâi mii khrai ráp phìt chɔ̂ɔp",
+     "ja": "どの部署もたらい回しで、誰も責任を取らない。",
+     "context": "会社の対応への不満",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60683",
+  "th": "เลียแข้ง",
+  "action": "skip",
+  "skipReason": "既存の เลียแข้งเลียขา（tl-53197）の短い形のため。"
+ }
+]

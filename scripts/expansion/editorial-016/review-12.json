@@ -1,0 +1,434 @@
+[
+ {
+  "id": "tl-50108",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50147",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50186",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50225",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50264",
+  "verdict": "reject",
+  "issues": [
+   "既存のเตย（tl-44495）の注記が「料理では主に ใบเตย（パンダンの葉）の形で使う」として既に教えており、เตย＋ใบ の組み合わせを別見出しにする必要がない"
+  ]
+ },
+ {
+  "id": "tl-50303",
+  "verdict": "reject",
+  "issues": [
+   "ห้อง＋ว่าง（語義2「空いている・使われていない」）の自由な組み合わせ。既存の定型表現 มีห้องว่างไหม（tl-51984）と例文もほぼ同じで、重複になる"
+  ]
+ },
+ {
+  "id": "tl-50342",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50381",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50420",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50459",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50498",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50537",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50576",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50615",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50654",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50693",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50732",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50771",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50810",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50849",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50888",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50927",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50966",
+  "verdict": "reject",
+  "issues": [
+   "既存のขั้นต่ำ（tl-56007）の例文が「บัตรนี้ต้องจ่ายขั้นต่ำเดือนละสองพันบาท」で、จ่าย＋ขั้นต่ำ（動詞＋目的語）の自由な組み合わせを既存語が同じ意味で教えている"
+  ]
+ },
+ {
+  "id": "tl-51763",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52045",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52084",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52398",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52437",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52476",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52515",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52554",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52593",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52632",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52671",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52710",
+  "verdict": "fix",
+  "issues": [
+   "読み：語末の -เก็ต は実際の発音・既存の ซูเปอร์มาร์เก็ต（maa kêt）に合わせて下降声 kêt に修正（見出し・例文）"
+  ],
+  "fixed": {
+   "id": "tl-52710",
+   "th": "ทาร์เก็ต",
+   "action": "add",
+   "ro": "thaa kêt",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（売上などの）目標・ターゲット",
+     "en": "target (sales goal, audience)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เดือนนี้ยอดขายยังไม่ถึงทาร์เก็ต",
+      "ro": "dʉʉan níi yɔ̂ɔt khǎai yang mâi thʉ̌ng thaa kêt",
+      "ja": "今月の売上はまだ目標に届いていない。",
+      "en": "Sales this month haven't reached the target yet.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "英語 target から。ทาร์เก็ท とも書く。改まった語は เป้าหมาย。"
+  }
+ },
+ {
+  "id": "tl-52749",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52788",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52827",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52866",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52905",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52944",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52983",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55040",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55079",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55118",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55157",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55196",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55235",
+  "verdict": "fix",
+  "issues": [
+   "読み：-ลาร์ は実際には下降声で発音され（ไบโพล่าร์ とも書く）、既存の ดอลลาร์（dɔn lâa）とも合わせて lâa に修正（見出し・例文）。注に異表記を追加"
+  ],
+  "fixed": {
+   "id": "tl-55235",
+   "th": "ไบโพลาร์",
+   "action": "add",
+   "ro": "bai phoo lâa",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "双極性障害",
+     "en": "bipolar disorder",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หมอวินิจฉัยว่าเขาเป็นไบโพลาร์",
+      "ro": "mɔ̌ɔ wí nít chǎi wâa khǎo pen bai phoo lâa",
+      "ja": "医者は彼を双極性障害と診断した。",
+      "en": "The doctor diagnosed him with bipolar disorder.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "英語 bipolar から。正式な病名は โรคอารมณ์สองขั้ว。発音に合わせて ไบโพล่าร์ とも書く。"
+  }
+ },
+ {
+  "id": "tl-55274",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55383",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55927",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55966",
+  "verdict": "reject",
+  "issues": [
+   "โอน＋บ้าน の自由な組み合わせで、既存のโอน（tl-01986）語義2「移す・譲渡する」がそのまま「เขาโอนบ้านให้ลูกสาวแล้ว」という例文で同じ用法を教えている"
+  ]
+ },
+ {
+  "id": "tl-56575",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57529",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57568",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57882",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57921",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57960",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57999",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58038",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58077",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58116",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58155",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58194",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58233",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58272",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58311",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60109",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60148",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60187",
+  "verdict": "reject",
+  "issues": [
+   "既存のスラング見出し แบ๊ว（tl-60718「幼くかわいらしい・ぶりっ子風の」）の長い形（แบ๊ว は บ้องแบ๊ว の短縮）で、意味もほぼ同じ。短い形・長い形の重複は登録しない規則"
+  ]
+ },
+ {
+  "id": "tl-60296",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60585",
+  "verdict": "ok",
+  "issues": []
+ }
+]

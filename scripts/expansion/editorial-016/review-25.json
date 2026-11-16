@@ -1,0 +1,427 @@
+[
+ {
+  "id": "tl-50121",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50160",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50199",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50238",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50277",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50316",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50355",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50394",
+  "verdict": "reject",
+  "issues": [
+   "既存のแก๊สหุงต้ม（tl-56248）と同じ語の別表記（ก๊าซ/แก๊ส）で、意味も同じ。表記揺れのため登録しない"
+  ]
+ },
+ {
+  "id": "tl-50433",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50472",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50511",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50550",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50589",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50628",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50667",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50706",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50745",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50784",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50823",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50862",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50901",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50940",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50979",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51776",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52058",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52097",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52411",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52450",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52489",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52528",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52567",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52606",
+  "verdict": "reject",
+  "issues": [
+   "既存のใต้（tl-00522）の第2語義「南」とทิศ（tl-02002）の組み合わせ。同じバッチのทิศตะวันออก・ทิศตะวันตกも同じ理由で除外されており、整合のため登録しない"
+  ]
+ },
+ {
+  "id": "tl-52645",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52684",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52723",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52762",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52801",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52840",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52879",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52918",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52957",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52996",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55053",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55092",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55131",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55170",
+  "verdict": "fix",
+  "issues": [
+   "สูติの読みはsǔu tì（สูติบัตร sǔu tì bàt と同じ。สูは高子音の平音節で上声）。見出しと例文のroを修正"
+  ],
+  "fixed": {
+   "id": "tl-55170",
+   "th": "หมอสูติ",
+   "action": "add",
+   "ro": "mɔ̌ɔ sǔu tì",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "産科医・産婦人科医",
+     "en": "obstetrician",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "正式にはสูติแพทย์。",
+     "example": {
+      "th": "ภรรยาไปฝากครรภ์กับหมอสูติทุกเดือน",
+      "ro": "phan rá yaa pai fàak khan kàp mɔ̌ɔ sǔu tì thúk dʉʉan",
+      "ja": "妻は毎月、産婦人科医の妊婦健診を受けている。",
+      "en": "My wife sees an obstetrician for prenatal care every month.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55209",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55248",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55287",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55396",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55940",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55979",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56588",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57542",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57581",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57895",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57934",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57973",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58012",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58051",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58090",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58129",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58168",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58207",
+  "verdict": "fix",
+  "issues": [
+   "品詞は動詞なのに例文（มีซ้อมหนีไฟ）が名詞用法だったため、動詞として使う例文に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-58207",
+   "th": "ซ้อมหนีไฟ",
+   "action": "add",
+   "ro": "sɔ́ɔm nǐi fai",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "火災避難訓練（をする）",
+     "en": "(to hold) a fire drill",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "บ่ายนี้บริษัทจะซ้อมหนีไฟ",
+      "ro": "bàai níi bɔɔ rí sàt cà sɔ́ɔm nǐi fai",
+      "ja": "今日の午後、会社で火災避難訓練をする。",
+      "en": "The company will hold a fire drill this afternoon.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-58246",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58285",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58324",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60122",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60161",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60200",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60559",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60598",
+  "verdict": "ok",
+  "issues": []
+ }
+]

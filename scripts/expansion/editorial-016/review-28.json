@@ -1,0 +1,391 @@
+[
+ {
+  "id": "tl-50124",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50163",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50202",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50241",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50280",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50319",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50358",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50397",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50436",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50475",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50514",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50553",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50592",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50631",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50670",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50709",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50748",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50787",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50826",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50865",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50904",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50943",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50982",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51779",
+  "verdict": "fix",
+  "issues": [
+   "例文の英訳 betrayed が「恩知らず」の意味とずれるため修正"
+  ],
+  "fixed": {
+   "id": "tl-51779",
+   "th": "เนรคุณ",
+   "action": "add",
+   "ro": "nee rá khun",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "恩を仇で返す・恩知らずな",
+     "en": "to be ungrateful, repay kindness with betrayal",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาเนรคุณคนที่เคยช่วยเหลือเขา",
+      "ro": "khǎo nee rá khun khon thîi khəəi chûuai lʉ̌ʉa khǎo",
+      "ja": "彼はかつて自分を助けてくれた人に恩を仇で返した。",
+      "en": "He was ungrateful to the person who had once helped him.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-52061",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52100",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52414",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52453",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52492",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52531",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52570",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52609",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52648",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52687",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52726",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52765",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52804",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52843",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52882",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52921",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52960",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52999",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55056",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55095",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55134",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55173",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55212",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55251",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55290",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55399",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55943",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55982",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56591",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57545",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57584",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57898",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57937",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57976",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58015",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58054",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58093",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58132",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58171",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58210",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58249",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58288",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58327",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60125",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60164",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60273",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60562",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60679",
+  "verdict": "ok",
+  "issues": []
+ }
+]

@@ -1,0 +1,410 @@
+[
+ {
+  "id": "tl-50103",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50142",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50181",
+  "verdict": "fix",
+  "issues": [
+   "語義の「水をはかせる」が不自然な日本語のため「水を流し出す」に修正"
+  ],
+  "fixed": {
+   "id": "tl-50181",
+   "th": "ระบายน้ำ",
+   "action": "add",
+   "ro": "rá baai náam",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "排水する・水を流し出す",
+     "en": "to drain water",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฝนตกหนักจนระบายน้ำไม่ทัน",
+      "ro": "fǒn tòk nàk con rá baai náam mâi than",
+      "ja": "雨がひどく降って、排水が追いつかない。",
+      "en": "It rained so hard that the drainage couldn't keep up.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ท่อระบายน้ำ（排水管・下水溝）、การระบายน้ำ（排水）の形でもよく使う。"
+  }
+ },
+ {
+  "id": "tl-50220",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50259",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50298",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50337",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50376",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50415",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50454",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50493",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50532",
+  "verdict": "reject",
+  "issues": [
+   "ผู้อำนวยการ の略語（短い形）で、既存見出し語 ผู้อำนวยการ（所長・校長）が同じ意味を教えているため。"
+  ]
+ },
+ {
+  "id": "tl-50571",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50610",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50649",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50688",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50727",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50766",
+  "verdict": "reject",
+  "issues": [
+   "เรื่อง（話）＋ผี（幽霊）の自由な組み合わせで、各語から意味が分かるため。"
+  ]
+ },
+ {
+  "id": "tl-50805",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50844",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50883",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50922",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50961",
+  "verdict": "reject",
+  "issues": [
+   "ของใช้（日用品）＋ในบ้าน（家の中の）の自由な組み合わせのため。"
+  ]
+ },
+ {
+  "id": "tl-51000",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51797",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52079",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52393",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52432",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52471",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52510",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52549",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52588",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52627",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52666",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52705",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52744",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52783",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52822",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52861",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52900",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52939",
+  "verdict": "reject",
+  "issues": [
+   "既存の ร้อย 語義2（糸を通す・数珠つなぎにする）＋既存の มาลัย の自由な組み合わせのため。"
+  ]
+ },
+ {
+  "id": "tl-52978",
+  "verdict": "reject",
+  "issues": [
+   "既存の ซาว（（米を）研ぐ）の語義と例文 ซาวข้าว… が同じ内容を教えているため。"
+  ]
+ },
+ {
+  "id": "tl-55035",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55074",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55113",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55152",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55191",
+  "verdict": "reject",
+  "issues": [
+   "รู（穴）＋หู（耳）の自由な組み合わせで、各語から意味が分かるため。"
+  ]
+ },
+ {
+  "id": "tl-55230",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55269",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55378",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55922",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55961",
+  "verdict": "reject",
+  "issues": [
+   "หอพักหญิง の短い形で、既存の หอ 語義2（寮）＋หญิง の自由な組み合わせのため。"
+  ]
+ },
+ {
+  "id": "tl-56000",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57524",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57563",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57877",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57916",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57955",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57994",
+  "verdict": "reject",
+  "issues": [
+   "既存の โคร่ง 語義2「トラ（เสือโคร่ง の形で）」が例文 เสือโคร่ง… とともに同じ内容を教えているため。"
+  ]
+ },
+ {
+  "id": "tl-58033",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58072",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58111",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58150",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58189",
+  "verdict": "reject",
+  "issues": [
+   "既存の เซ้ง（権利金付きで譲渡する）の語義と例文 เซ้งร้าน… が同じ内容を教えているため。"
+  ]
+ },
+ {
+  "id": "tl-58228",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58267",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58306",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60104",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60143",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60182",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60291",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60580",
+  "verdict": "ok",
+  "issues": []
+ }
+]

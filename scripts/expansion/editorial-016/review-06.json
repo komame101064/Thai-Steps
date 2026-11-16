@@ -1,0 +1,403 @@
+[
+ {
+  "id": "tl-50102",
+  "verdict": "reject",
+  "issues": [
+   "既存 หิว（tl-00875）語義1「おなかがすいた」がそのまま教えており、หิวข้าว は既存用例（tl-05064「ป๊า หนูหิวข้าว」）にも出ている。別見出しとして教える新しい意味がない"
+  ]
+ },
+ {
+  "id": "tl-50141",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50180",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50219",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50258",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50297",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50336",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50375",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50414",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50453",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50492",
+  "verdict": "reject",
+  "issues": [
+   "既存 อ่านหนังสือ（tl-02175）語義2「勉強する・試験勉強をする」が同じ意味を教えており、อ่านหนังสือ＋สอบ の組み合わせにすぎない"
+  ]
+ },
+ {
+  "id": "tl-50531",
+  "verdict": "reject",
+  "issues": [
+   "既存 เอกชน（tl-03048）語義1「民間」の用例がまさに「เขาทำงานอยู่ที่บริษัทเอกชน」で、บริษัท＋เอกชน の自由な組み合わせ。新しい内容がない"
+  ]
+ },
+ {
+  "id": "tl-50570",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50609",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50648",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50687",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50726",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50765",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50804",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50843",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50882",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50921",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50960",
+  "verdict": "fix",
+  "issues": [
+   "noteの「ของถูกและดีไม่มีในโลก という言い回しでよく使う」は一般的な形（ของดีราคาถูกไม่มีในโลก等）か確認できないため削除"
+  ],
+  "fixed": {
+   "id": "tl-50960",
+   "th": "ถูกและดี",
+   "action": "add",
+   "ro": "thùuk lɛ́ dii",
+   "kind": "expression",
+   "category": "お金・買い物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "安くて質が良い・お手頃で良い",
+     "en": "cheap and good",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ร้านนี้อาหารถูกและดี คนเลยเยอะ",
+      "ro": "ráan níi aa hǎan thùuk lɛ́ dii khon ləəi yə́",
+      "ja": "この店は料理が安くて良いので、客が多い。",
+      "en": "This restaurant's food is cheap and good, so it's crowded.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50999",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51796",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52078",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52392",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52431",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52470",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52509",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52548",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52587",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52626",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52665",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52704",
+  "verdict": "reject",
+  "issues": [
+   "既存 อั้น（tl-47040）語義1「（尿・息などを）こらえる・我慢する」が教える内容で、อั้น＋ฉี่ の自由な組み合わせ"
+  ]
+ },
+ {
+  "id": "tl-52743",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52782",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52821",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52860",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52899",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52938",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52977",
+  "verdict": "reject",
+  "issues": [
+   "既存 คด（tl-42813）語義2「（ご飯を）よそう」が同じ意味を教え、その公開用例もคดข้าวを使っている。同義のตักข้าว（tl-53047）も既存"
+  ]
+ },
+ {
+  "id": "tl-55034",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55073",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55112",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55151",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55190",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55229",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55268",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55377",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55921",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55960",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55999",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57523",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57562",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57876",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57915",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57954",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57993",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58032",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58071",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58110",
+  "verdict": "reject",
+  "issues": [
+   "既存 โว（tl-05089、口語）「自慢する・大きなことを言う」と同じ意味の長い形で、新しい内容がない。なお本項はโวと違い標準語表示になっており、登録域の扱いも食い違う"
+  ]
+ },
+ {
+  "id": "tl-58149",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58188",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58227",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58266",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58305",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60103",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60142",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60181",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60290",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60579",
+  "verdict": "ok",
+  "issues": []
+ }
+]
