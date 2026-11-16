@@ -198,8 +198,12 @@
     },
     {
       "batch": "editorial-017",
-      "candidates": 0,
-      "published": 0,
+      "candidates": 144,
+      "published": 141,
+      "acceptedAsWritten": 127,
+      "fixedByReviewer": 14,
+      "rejectedByReviewer": 1,
+      "skippedByAuthor": 2,
       "consistencyFlags": 0
     }
   ],
@@ -209,7 +213,7 @@
     "reviewedByHand": 32,
     "setForClosedSet": 12,
     "textbookFallback": 136,
-    "editorialFallback": 6400,
+    "editorialFallback": 6541,
     "thresholds": {
       "phupha": [
         3.946,
@@ -235,8 +239,8 @@
       ]
     }
   },
-  "published": 12036,
-  "general": 11269,
+  "published": 12177,
+  "general": 11410,
   "slang": 767,
-  "senses": 12959
+  "senses": 13116
 }

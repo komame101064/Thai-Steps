@@ -6,8 +6,37 @@
  },
  {
   "id": "tl-58347",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "例文の訳が ได้（〜できる）を反映していない。「完治させることができます」に修正"
+  ],
+  "fixed": {
+   "id": "tl-58347",
+   "th": "หายขาด",
+   "action": "add",
+   "ro": "hǎai khàat",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "完治する・すっかり治る",
+     "en": "to be completely cured",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "โรคนี้รักษาให้หายขาดได้",
+      "ro": "rôok níi rák sǎa hâi hǎai khàat dâai",
+      "ja": "この病気は治療で完治させることができます。",
+      "en": "This disease can be completely cured.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-58350",
@@ -81,8 +110,38 @@
  },
  {
   "id": "tl-58392",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "noteで海賊版＝ของเถื่อน（密輸品・違法品全般）・ละเมิดลิขสิทธิ์（動詞句）としていたのは不正確。ของละเมิดลิขสิทธิ์ に修正"
+  ],
+  "fixed": {
+   "id": "tl-58392",
+   "th": "โจรสลัด",
+   "action": "add",
+   "ro": "coon sà làt",
+   "kind": "word",
+   "category": "一般語彙",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "海賊",
+     "en": "pirate",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ลูกชายชอบดูการ์ตูนโจรสลัด",
+      "ro": "lûuk chaai chɔ̂ɔp duu kaa tuun coon sà làt",
+      "ja": "息子は海賊のアニメを見るのが好きだ。",
+      "en": "My son likes watching pirate cartoons.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "違法コピーの「海賊版」は ของละเมิดลิขสิทธิ์ と言うことが多い。"
+  }
  },
  {
   "id": "tl-58395",
@@ -153,8 +212,54 @@
  },
  {
   "id": "tl-58434",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "例文1のroで เงิน を ngən としているが、辞書（ro-lexicon）の表記は ngəən"
+  ],
+  "fixed": {
+   "id": "tl-58434",
+   "th": "สะพัด",
+   "action": "add",
+   "ro": "sà phát",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（お金が）大量に出回る",
+     "en": "(money) to circulate heavily",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ช่วงสงกรานต์มีเงินสะพัดหลายหมื่นล้านบาท",
+      "ro": "chûuang sǒng kraan mii ngəən sà phát lǎai mʉ̀ʉn láan bàat",
+      "ja": "ソンクラーンの時期には数百億バーツのお金が動く。",
+      "en": "Tens of billions of baht circulate during Songkran.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（うわさが）広まる",
+     "en": "(rumor) to spread widely",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "มีข่าวลือสะพัดว่าเขาจะลาออก",
+      "ro": "mii khàao lʉʉ sà phát wâa khǎo cà laa ɔ̀ɔk",
+      "ja": "彼が辞めるといううわさが広まっている。",
+      "en": "Rumors are spreading that he'll resign.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "主に報道で使う（เงินสะพัด・ข่าวสะพัด）。"
+  }
  },
  {
   "id": "tl-58437",
@@ -173,8 +278,37 @@
  },
  {
   "id": "tl-58446",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "例文のroで เงิน を ngən としているが、辞書の表記は ngəən"
+  ],
+  "fixed": {
+   "id": "tl-58446",
+   "th": "ใส่ความ",
+   "action": "add",
+   "ro": "sài khwaam",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "濡れ衣を着せる・罪をなすりつける",
+     "en": "to falsely accuse, frame",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาถูกใส่ความว่าขโมยเงินบริษัท",
+      "ro": "khǎo thùuk sài khwaam wâa khà mooi ngəən bɔɔ rí sàt",
+      "ja": "彼は会社のお金を盗んだと濡れ衣を着せられた。",
+      "en": "He was falsely accused of stealing company money.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-58449",
@@ -268,7 +402,57 @@
  },
  {
   "id": "tl-58485",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "語義2の例文roで หน่อย を nɔ̀i としているが、辞書の表記は nɔ̀ɔi"
+  ],
+  "fixed": {
+   "id": "tl-58485",
+   "th": "ลิสต์",
+   "action": "add",
+   "ro": "lít",
+   "kind": "word",
+   "category": "一般語彙",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "リスト・一覧",
+     "en": "list",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ทำลิสต์ของที่ต้องซื้อไว้แล้ว",
+      "ro": "tham lít khɔ̌ɔng thîi tɔ̂ɔng sʉ́ʉ wái lɛ́ɛo",
+      "ja": "買う物のリストはもう作ってある。",
+      "en": "I've already made a shopping list.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "リストにする・書き出す",
+     "en": "to list, make a list of",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ช่วยลิสต์ชื่อคนที่จะมางานให้หน่อย",
+      "ro": "chûuai lít chʉ̂ʉ khon thîi cà maa ngaan hâi nɔ̀ɔi",
+      "ja": "会に来る人の名前を書き出してくれる？",
+      "en": "Could you list the names of people coming to the event?",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "英語 list から。書き言葉では รายการ や รายชื่อ を使う。"
+  }
  }
 ]

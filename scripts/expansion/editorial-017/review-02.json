@@ -6,8 +6,38 @@
  },
  {
   "id": "tl-58348",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "例文の「ขับรถเมา」は不自然。定型の「เมาแล้วขับ」に変更"
+  ],
+  "fixed": {
+   "id": "tl-58348",
+   "th": "เอาผิด",
+   "action": "add",
+   "ro": "ao phìt",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（法的に）責任を問う・処罰する",
+     "en": "to hold legally responsible, take legal action against",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ตำรวจจะเอาผิดคนที่เมาแล้วขับ",
+      "ro": "tam rùuat cà ao phìt khon thîi mao lɛ́ɛo khàp",
+      "ja": "警察は飲酒運転をした人を処罰する。",
+      "en": "The police will take action against drunk drivers.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「เอาผิดกับ〜」の形でも使う。ニュースでよく聞く表現。"
+  }
  },
  {
   "id": "tl-58351",
@@ -206,8 +236,71 @@
  },
  {
   "id": "tl-58423",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "語義3の例文jaに「高圧洗浄」の意味が出ていない"
+  ],
+  "fixed": {
+   "id": "tl-58423",
+   "th": "อัดฉีด",
+   "action": "add",
+   "ro": "àt chìit",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（資金を）注入する・投入する",
+     "en": "to inject (money)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "รัฐบาลอัดฉีดเงินเข้าระบบเศรษฐกิจ",
+      "ro": "rát thà baan àt chìit ngəən khâo rá bòp sèet thà kìt",
+      "ja": "政府が経済に資金を注入した。",
+      "en": "The government injected money into the economy.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "報奨金（を出す）（選手などに）",
+     "en": "to give a cash bonus (to athletes)",
+     "pos": "動詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "นักกีฬาที่ได้เหรียญทองได้รับเงินอัดฉีด",
+      "ro": "nák kii laa thîi dâai rǐian thɔɔng dâai ráp ngəən àt chìit",
+      "ja": "金メダルを取った選手は報奨金をもらった。",
+      "en": "Athletes who won gold received a cash bonus.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 3,
+     "ja": "（車を）高圧洗浄する",
+     "en": "to pressure-wash (a car)",
+     "pos": "動詞",
+     "use": "少なめの用法",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เอารถไปล้างอัดฉีดที่ปั๊ม",
+      "ro": "ao rót pai láang àt chìit thîi pám",
+      "ja": "車をガソリンスタンドへ高圧洗車に持っていく。",
+      "en": "I'm taking the car to be pressure-washed at the gas station.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-58426",
