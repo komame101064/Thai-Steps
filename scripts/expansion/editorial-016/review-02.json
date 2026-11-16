@@ -1,0 +1,432 @@
+[
+ {
+  "id": "tl-50098",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50137",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50176",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50215",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50254",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50293",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50332",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50371",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50410",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50449",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50488",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50527",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50566",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50605",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50644",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50683",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50722",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50761",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50800",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50839",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50878",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50917",
+  "verdict": "reject",
+  "issues": [
+   "ยืด（伸ばす）＋กล้ามเนื้อ（筋肉）の透明な組み合わせで、「ストレッチする」は既存の ยืดเส้น（tl-53692）・ยืดเส้นยืดสาย（tl-53118）で学べるため"
+  ]
+ },
+ {
+  "id": "tl-50956",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50995",
+  "verdict": "reject",
+  "issues": [
+   "ขอ（〜をください）＋บิล（伝票）の自由な組み合わせで、同じ機能は既存の เช็คบิล（tl-02179）・เช็คบิลด้วย（tl-51877「お会計お願いします」）で学べるため"
+  ]
+ },
+ {
+  "id": "tl-51792",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52074",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52388",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52427",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52466",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52505",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52544",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52583",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52622",
+  "verdict": "reject",
+  "issues": [
+   "既存の กลัด（tl-47116「（ピン・ボタンなどで）留める」）の語義が「ボタンを留める」をそのまま教えており、กระดุม（ボタン）との透明な組み合わせのため"
+  ]
+ },
+ {
+  "id": "tl-52661",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52700",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52739",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52778",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52817",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52856",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52895",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52934",
+  "verdict": "fix",
+  "issues": [
+   "見出しroを既存の จิตวิทยา cìt tà wít thá yaa・จิตแพทย์ cìt tà phɛ̂ɛt（ro-lexicon）の連結音に合わせ cìt tà phí sǎi に統一（例文roも同様）。短い読みは注記に残した"
+  ],
+  "fixed": {
+   "id": "tl-52934",
+   "th": "จิตพิสัย",
+   "action": "add",
+   "ro": "cìt tà phí sǎi",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（学校の成績の）授業態度点",
+     "en": "marks for attitude and behavior (in school grading)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ถ้าขาดเรียนบ่อย คะแนนจิตพิสัยจะลดลง",
+      "ro": "thâa khàat riian bɔ̀ɔi khá nɛɛn cìt tà phí sǎi cà lót long",
+      "ja": "よく授業を休むと、授業態度点が下がる。",
+      "en": "If you miss class often, your attitude marks will go down.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "出席・態度・提出物などを評価する点。日常では cìt phí sǎi と短く読む人も多い。"
+  }
+ },
+ {
+  "id": "tl-52973",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55030",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55069",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55108",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55147",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55186",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55225",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55264",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55373",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55917",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55956",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55995",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57519",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57558",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57597",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57911",
+  "verdict": "reject",
+  "issues": [
+   "既存の กำแพง（tl-01522）の語義が「塀・城壁」で、เมือง との組み合わせは透明。別見出しとして教える意味が小さいため"
+  ]
+ },
+ {
+  "id": "tl-57950",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57989",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58028",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58067",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58106",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58145",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58184",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58223",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58262",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58301",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58340",
+  "verdict": "fix",
+  "issues": [
+   "語義：ทอดหุ่ย の中心的な意味は「（人が）何もせずのんびりだらだらする」（นอนทอดหุ่ย など）。「案件をわざと引き延ばす」という語義・例文・注記は根拠が弱いため、中心義に差し替えた"
+  ],
+  "fixed": {
+   "id": "tl-58340",
+   "th": "ทอดหุ่ย",
+   "action": "add",
+   "ro": "thɔ̂ɔt hùi",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "のんびりだらだらする・何もせずくつろぐ",
+     "en": "to lounge around, idle",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "วันหยุดฉันนอนทอดหุ่ยอยู่บ้านทั้งวัน",
+      "ro": "wan yùt chǎn nɔɔn thɔ̂ɔt hùi yùu bâan tháng wan",
+      "ja": "休みの日、私は一日中家でごろごろしていた。",
+      "en": "On my day off I lounged around at home all day.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "นอนทอดหุ่ย・นั่งทอดหุ่ย の形が多く、急がず怠けている様子を言う。"
+  }
+ },
+ {
+  "id": "tl-60138",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60177",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60286",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60575",
+  "verdict": "ok",
+  "issues": []
+ }
+]
