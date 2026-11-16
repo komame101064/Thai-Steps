@@ -1,0 +1,590 @@
+[
+ {
+  "id": "tl-50127",
+  "verdict": "reject",
+  "issues": [
+   "既存の ไข้（tl-01043「熱」）＋ขึ้น（tl-00049「上がる」）の意味どおりの組み合わせで、別見出しにする固有の意味がない（เกินงบ・ย้ายพรรค などを見送った基準と同じ）"
+  ]
+ },
+ {
+  "id": "tl-50166",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50205",
+  "verdict": "reject",
+  "issues": [
+   "既存の เข้า（入る）＋ออฟฟิศ（tl-01008・事務所）の意味どおりの組み合わせ。同じバッチで งานออฟฟิศ も同じ理由で見送られている"
+  ]
+ },
+ {
+  "id": "tl-50244",
+  "verdict": "fix",
+  "issues": [
+   "見出しの綴りを、タイ人が最も多く書き既存語 เช็ค（tl-01469）・เช็คอิน（tl-53174）とも揃う เช็คชื่อ に変更（เช็กชื่อ は注記へ）"
+  ],
+  "fixed": {
+   "id": "tl-50244",
+   "th": "เช็คชื่อ",
+   "action": "add",
+   "ro": "chék chʉ̂ʉ",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "出席を取る",
+     "en": "to take attendance, call the roll",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "辞書式の綴りは เช็กชื่อ。",
+     "example": {
+      "th": "อาจารย์เช็คชื่อทุกคาบ",
+      "ro": "aa caan chék chʉ̂ʉ thúk khâap",
+      "ja": "先生は毎回の授業で出席を取る。",
+      "en": "The teacher takes attendance every class.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50283",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50322",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50361",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50400",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50439",
+  "verdict": "fix",
+  "issues": [
+   "ท่องเที่ยว のroを公開済みの既存語（tl-02001 thɔ̂ɔng thîiao、นักท่องเที่ยว など）と同じ表記に統一（見出し・例文）"
+  ],
+  "fixed": {
+   "id": "tl-50439",
+   "th": "ตำรวจท่องเที่ยว",
+   "action": "add",
+   "ro": "tam rùuat thɔ̂ɔng thîiao",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "観光警察（旅行者向けの警察）",
+     "en": "tourist police",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "外国人旅行者の相談を受ける警察で、電話番号は1155。",
+     "example": {
+      "th": "ถ้าของหายให้แจ้งตำรวจท่องเที่ยว",
+      "ro": "thâa khɔ̌ɔng hǎai hâi cɛ̂ɛng tam rùuat thɔ̂ɔng thîiao",
+      "ja": "物をなくしたら観光警察に届け出てください。",
+      "en": "If you lose something, report it to the tourist police.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50478",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50517",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50556",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50595",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50634",
+  "verdict": "fix",
+  "issues": [
+   "見出しの綴りを、既存語 โปรเจค（tl-04997）と揃い最も多く書かれる โปรเจคจบ に変更（โปรเจกต์จบ は注記へ）"
+  ],
+  "fixed": {
+   "id": "tl-50634",
+   "th": "โปรเจคจบ",
+   "action": "add",
+   "ro": "proo cèk còp",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "卒業制作・卒業研究",
+     "en": "graduation project, senior project",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "大学生の口語。辞書式の綴りは โปรเจกต์จบ。",
+     "example": {
+      "th": "ปีนี้ฉันต้องทำโปรเจคจบให้เสร็จ",
+      "ro": "pii níi chǎn tɔ̂ɔng tham proo cèk còp hâi sèt",
+      "ja": "今年は卒業研究を仕上げなければならない。",
+      "en": "This year I have to finish my graduation project.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50673",
+  "verdict": "fix",
+  "issues": [
+   "見出しの綴りを、よく書かれ既存語 เช็คอิน（tl-53174）とも揃う จุดเช็คอิน に変更（จุดเช็กอิน は注記へ）"
+  ],
+  "fixed": {
+   "id": "tl-50673",
+   "th": "จุดเช็คอิน",
+   "action": "add",
+   "ro": "cùt chék in",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "写真映えスポット・人気の撮影スポット",
+     "en": "photo spot, Instagrammable spot",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "SNSで位置情報付きで投稿（チェックイン）する場所から。辞書式の綴りは จุดเช็กอิน。",
+     "example": {
+      "th": "คาเฟ่นี้มีจุดเช็คอินเยอะมาก",
+      "ro": "khaa fêe níi mii cùt chék in yə́ mâak",
+      "ja": "このカフェには写真映えスポットがたくさんある。",
+      "en": "This café has lots of photo spots.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50712",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50751",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50790",
+  "verdict": "reject",
+  "issues": [
+   "既存の กล่อง（箱）＋โฟม（tl-45369「発泡スチロール」）の意味どおりの組み合わせで、別見出しにする固有の意味がない"
+  ]
+ },
+ {
+  "id": "tl-50829",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50868",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50907",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50946",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50985",
+  "verdict": "reject",
+  "issues": [
+   "既存の กู้（tl-01718 語義3「借り入れる・融資を受ける」）＋ไม่＋ผ่าน（tl-00239 語義3「合格する・通過する（審査など）」）の否定形の自由な組み合わせで、固有の意味がない"
+  ]
+ },
+ {
+  "id": "tl-51782",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52064",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52378",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52417",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52456",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52495",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52534",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52573",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52612",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52651",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52690",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52729",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52768",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52807",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52846",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52885",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52924",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52963",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55020",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55059",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55098",
+  "verdict": "reject",
+  "issues": [
+   "既存の เต้าหู้（tl-51045）＋ทอด（揚げる）の意味どおりの料理名の組み合わせ（มะม่วงอบแห้ง・โรตีกล้วย を見送った基準と同じ）"
+  ]
+ },
+ {
+  "id": "tl-55137",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55176",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55215",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55254",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55293",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55907",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55946",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55985",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56594",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57548",
+  "verdict": "fix",
+  "issues": [
+   "例文の นักท่องเที่ยว のroを公開済みの既存語（nák thɔ̂ɔng thîiao）と同じ表記に統一"
+  ],
+  "fixed": {
+   "id": "tl-57548",
+   "th": "ทั่วทุกสารทิศ",
+   "action": "add",
+   "ro": "thûua thúk sǎa rá thít",
+   "kind": "expression",
+   "category": "一般語彙",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "四方八方・あらゆる所（から）",
+     "en": "from all directions, from everywhere",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "สารทิศ は「サーラティット」と読む。มาจากทั่วทุกสารทิศ の形が多い。",
+     "example": {
+      "th": "นักท่องเที่ยวมาจากทั่วทุกสารทิศ",
+      "ro": "nák thɔ̂ɔng thîiao maa càak thûua thúk sǎa rá thít",
+      "ja": "観光客が四方八方からやって来る。",
+      "en": "Tourists come from all over.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-57587",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57901",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57940",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57979",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58018",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58057",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58096",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58135",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58174",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58213",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58252",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで เงิน が ngən になっていた（辞書・既存表記は ngəən）"
+  ],
+  "fixed": {
+   "id": "tl-58252",
+   "th": "ขายฝาก",
+   "action": "add",
+   "ro": "khǎai fàak",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "買戻し特約付きで売る（土地などを担保にした資金調達）",
+     "en": "to sell with a right of redemption",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "期限内に代金と利息を払えば買い戻せるが、過ぎると所有権を失う契約。",
+     "example": {
+      "th": "เขาเอาที่ดินไปขายฝากเพื่อหาเงินมาใช้หนี้",
+      "ro": "khǎo ao thîi din pai khǎai fàak phʉ̂ʉa hǎa ngəən maa chái nîi",
+      "ja": "彼は借金を返すお金を作るため、土地を買戻し条件付きで売った。",
+      "en": "He sold his land with a right of redemption to raise money to pay off his debts.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-58291",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58330",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60128",
+  "verdict": "fix",
+  "issues": [
+   "単独の間投詞「ちくしょう」としての用法は確認しにくく、注記どおり普通の形の ไอ้เวรตะไล（人をののしる）に語義と例文を合わせた"
+  ],
+  "fixed": {
+   "id": "tl-60128",
+   "th": "เวรตะไล",
+   "action": "add",
+   "ro": "ween tà lai",
+   "kind": "word",
+   "category": "スラング｜粗い言葉",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "vulgar"
+   ],
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ろくでなし・くそったれ（人をののしる）",
+     "pos": "名詞",
+     "speechStyle": "粗い口語",
+     "note": "เวร（ちくしょう）を強めた言い方で、普通は「ไอ้เวรตะไล」の形で人をののしる。かなり乱暴で、親しくない相手に向けると失礼。",
+     "example": {
+      "th": "ไอ้เวรตะไล มาขโมยจักรยานฉันไปอีกแล้ว",
+      "ro": "âi ween tà lai maa khà mooi càk krà yaan chǎn pai ìik lɛ́ɛo",
+      "ja": "あのろくでなし、また私の自転車を盗んでいった。",
+      "context": "自転車を盗まれて怒る独り言",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60167",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60276",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60565",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60682",
+  "verdict": "ok",
+  "issues": []
+ }
+]
