@@ -14,8 +14,10 @@
     "en": "picky about food, a fussy eater",
     "pos": "形容詞・状態語",
     "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
     "example": {
      "th": "ลูกชายฉันกินยากมาก ไม่ชอบกินผัก",
      "ro": "lûuk chaai chǎn kin yâak mâak mâi chɔ̂ɔp kin phàk",
@@ -727,8 +729,8 @@
     "example": {
      "th": "ยายชอบทำทานให้คนยากจนทุกวันพระ",
      "ro": "yaai chɔ̂ɔp tham thaan hâi khon yâak con thúk wan phrá",
-     "ja": "祖母は仏日のたびに貧しい人に施しをする。",
-     "en": "Grandma gives alms to the poor on every Buddhist holy day.",
+     "ja": "祖母は仏日のたびに貧しい人によく施しをする。",
+     "en": "Grandma likes to give alms to the poor on every Buddhist holy day.",
      "origin": "authored"
     }
    }
@@ -744,7 +746,7 @@
   "id": "tl-52726",
   "th": "ส่งต่องาน",
   "action": "skip",
-  "skipReason": "既存のส่งต่อ（tl-03500 渡す・引き継ぐ）とงาน（仕事）の自由な組み合わせのため。"
+  "skipReason": "既存のส่งต่อ（tl-03500 渡す・転送する）とงาน（仕事）の自由な組み合わせのため。"
  },
  {
   "id": "tl-52765",
@@ -996,7 +998,7 @@
     "use": "よく使う意味",
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
-    "note": "読みは綴りどおりの形。実際には短く mók のように言う人も多い。มอคคาとも書く。",
+    "note": "มอคคาとも書く。",
     "example": {
      "th": "ขอมอคค่าเย็นแก้วหนึ่งค่ะ",
      "ro": "khɔ̌ɔ mɔ̂ɔk khâa yen kɛ̂ɛo nʉ̀ng khâ",
@@ -1214,8 +1216,8 @@
     "speechStyle": "改まった表現",
     "note": "控訴審はศาลอุทธรณ์、最高裁はศาลฎีกา。",
     "example": {
-     "th": "ศาลชั้นต้นพิพากษาให้จำเลยจำคุกสองปี",
-     "ro": "sǎan chán tôn phí phâak sǎa hâi cam ləəi cam khúk sɔ̌ɔng pii",
+     "th": "ศาลชั้นต้นพิพากษาจำคุกจำเลยสองปี",
+     "ro": "sǎan chán tôn phí phâak sǎa cam khúk cam ləəi sɔ̌ɔng pii",
      "ja": "一審は被告に懲役2年の判決を言い渡した。",
      "en": "The court of first instance sentenced the defendant to two years in prison.",
      "origin": "authored"
@@ -1388,7 +1390,7 @@
   "id": "tl-60125",
   "th": "หายจ้อย",
   "action": "skip",
-  "skipReason": "「หายจ้อย」が今よく使われる定着した言い方であることを確認できないため（ふつうはหายเงียบなどと言う）。"
+  "skipReason": "「หายจ้อย」の形と意味（跡形もなく消える・音沙汰がない）が今よく使われる定着した言い方であることを確認できなかったため。"
  },
  {
   "id": "tl-60164",
