@@ -334,7 +334,7 @@
     "note": "英語 tie-in から。出演者が劇中で商品を使って見せる宣伝。ไทอินสินค้า とも言う。",
     "example": {
      "th": "ละครเรื่องนี้มีไทอินเยอะเกินไป",
-     "ro": "lá khɔɔn rʉ̂ʉang níi mii thai in yə́ khəən pai",
+     "ro": "lá khɔɔn rʉ̂ʉang níi mii thai in yə́ kəən pai",
      "ja": "このドラマはタイアップ広告が多すぎる。",
      "en": "This drama has too much product placement.",
      "origin": "authored"
@@ -372,30 +372,8 @@
  {
   "id": "tl-50750",
   "th": "เย็บผ้า",
-  "action": "add",
-  "ro": "yép phâa",
-  "kind": "word",
-  "category": "日常の動作",
-  "frequency": 4,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "裁縫をする・布を縫う",
-    "en": "to sew",
-    "pos": "動詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "note": "ミシンは จักรเย็บผ้า。",
-    "example": {
-     "th": "ยายสอนฉันเย็บผ้าตั้งแต่เด็ก",
-     "ro": "yaai sɔ̌ɔn chǎn yép phâa tâng tɛ̀ɛ dèk",
-     "ja": "祖母は私が子どものころから裁縫を教えてくれた。",
-     "en": "My grandmother taught me to sew when I was a child.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "既存の เย็บ（縫う）と ผ้า（布）の自由な組み合わせで、既存語で足りるため。"
  },
  {
   "id": "tl-50789",
@@ -482,7 +460,7 @@
     "ja": "気分を害する・不快に思う",
     "en": "to be offended, displeased",
     "pos": "動詞",
-    "use": "よく使う別の意味",
+    "use": "少なめの用法",
     "registerTags": [
      "formal"
     ],
@@ -558,29 +536,8 @@
  {
   "id": "tl-50984",
   "th": "ยื่นกู้",
-  "action": "add",
-  "ro": "yʉ̂ʉn kûu",
-  "kind": "word",
-  "category": "お金・買い物",
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "ローンを申し込む・融資を申請する",
-    "en": "to apply for a loan",
-    "pos": "動詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "เราจะยื่นกู้ซื้อบ้านกับธนาคาร",
-     "ro": "rao cà yʉ̂ʉn kûu sʉ́ʉ bâan kàp thá naa khaan",
-     "ja": "私たちは銀行に住宅ローンを申し込むつもりだ。",
-     "en": "We are going to apply to the bank for a home loan.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "既存の ยื่น（提出する・届け出る）と กู้（借り入れる・融資を受ける）の組み合わせで、既存語の語義で足りるため。"
  },
  {
   "id": "tl-51781",
@@ -868,29 +825,8 @@
  {
   "id": "tl-52689",
   "th": "ขาดการติดต่อ",
-  "action": "add",
-  "ro": "khàat kaan tìt tɔ̀ɔ",
-  "kind": "word",
-  "category": "一般語彙",
-  "frequency": 4,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "連絡が途絶える・音信不通になる",
-    "en": "to lose contact",
-    "pos": "動詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "เราขาดการติดต่อกันไปหลายปี",
-     "ro": "rao khàat kaan tìt tɔ̀ɔ kan pai lǎai pii",
-     "ja": "私たちは何年も連絡が途絶えていた。",
-     "en": "We lost contact with each other for years.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "既存の ขาด（欠ける・途切れる）と ติดต่อ（連絡する）の組み合わせで、既存語で足りるため。"
  },
  {
   "id": "tl-52728",
@@ -1031,29 +967,8 @@
  {
   "id": "tl-52923",
   "th": "เลือนลาง",
-  "action": "add",
-  "ro": "lʉʉan laang",
-  "kind": "word",
-  "category": "性質・状態",
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "（記憶・姿が）おぼろげな・かすかな",
-    "en": "faint, dim, vague",
-    "pos": "形容詞・状態語",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "ฉันจำหน้าพ่อได้แค่เลือนลาง",
-     "ro": "chǎn cam nâa phɔ̂ɔ dâai khɛ̂ɛ lʉʉan laang",
-     "ja": "父の顔はぼんやりとしか覚えていない。",
-     "en": "I only vaguely remember my father's face.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "辞書の標準表記は เลือนราง とされ、この綴りは誤記の可能性がある。意味は既存の เลือน（記憶などが薄れる）でも学べるため。"
  },
  {
   "id": "tl-52962",
@@ -1270,6 +1185,7 @@
     "use": "よく使う意味",
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
+    "note": "สุข＋อนามัย の複合語。sùk khà à naa mai と ขะ を入れて読む人もいる。",
     "example": {
      "th": "ร้านอาหารต้องรักษาสุขอนามัยให้ดี",
      "ro": "ráan aa hǎan tɔ̂ɔng rák sǎa sùk à naa mai hâi dii",
@@ -1549,29 +1465,8 @@
  {
   "id": "tl-58017",
   "th": "เปลือกไม้",
-  "action": "add",
-  "ro": "plʉ̀ʉak máai",
-  "kind": "word",
-  "category": "自然・天気・色",
-  "frequency": 2,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "樹皮",
-    "en": "tree bark",
-    "pos": "名詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "เปลือกไม้ชนิดนี้ใช้ทำยาได้",
-     "ro": "plʉ̀ʉak máai chá nít níi chái tham yaa dâai",
-     "ja": "この種類の樹皮は薬を作るのに使える。",
-     "en": "This kind of bark can be used to make medicine.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "既存の เปลือก（殻・皮）と ไม้（木）の組み合わせで、既存語で足りるため。"
  },
  {
   "id": "tl-58056",
@@ -1610,29 +1505,8 @@
  {
   "id": "tl-58134",
   "th": "โหมงาน",
-  "action": "add",
-  "ro": "hǒom ngaan",
-  "kind": "word",
-  "category": "仕事・学習",
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "無理して働きすぎる・仕事を詰め込む",
-    "en": "to overwork",
-    "pos": "動詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "อย่าโหมงานหนักจนไม่ได้พักผ่อน",
-     "ro": "yàa hǒom ngaan nàk con mâi dâai phák phɔ̀ɔn",
-     "ja": "休めなくなるほど働きすぎないで。",
-     "en": "Don't overwork yourself to the point of getting no rest.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "既存の โหม（tl-46451「仕事・力などを一気につぎ込む」）の語義が งาน との組み合わせを既に教えているため。"
  },
  {
   "id": "tl-58173",
@@ -1709,7 +1583,7 @@
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
      "th": "ยาหม่องมีกลิ่นการบูร",
-     "ro": "yaa mɔ̀ng mii klìn kaa rá buun",
+     "ro": "yaa mɔ̀ɔng mii klìn kaa rá buun",
      "ja": "ヤーモン（タイの塗り薬）は樟脳のにおいがする。",
      "en": "Thai balm smells of camphor.",
      "origin": "authored"
@@ -1827,7 +1701,7 @@
     "ja": "チャンネル登録（する）",
     "pos": "動詞",
     "speechStyle": "口語・スラング",
-    "note": "英語 subscribe の「サブ」を ตะไคร้（レモングラス）にかけた言葉遊び。YouTuber などが動画の終わりに冗談めかして言う。普通は กดติดตาม・กดซับ。",
+    "note": "英語 subscribe の「サブ」を ตะไคร้（レモングラス）にかけた言葉遊び。YouTuber などが動画の終わりに冗談めかして言う、ここ数年広まった流行り言葉で、ふざけた響きがある。普通は กดติดตาม・กดซับ。",
     "example": {
      "th": "ชอบคลิปนี้ก็กดซับตะไคร้กันด้วยนะ",
      "ro": "chɔ̂ɔp khlíp níi kɔ̂ɔ kòt sáp tà khrái kan dûuai ná",
@@ -1862,7 +1736,7 @@
     "ja": "寄ってたかって一人をやっつける・袋だたきにする",
     "pos": "動詞",
     "speechStyle": "口語",
-    "note": "รุม（大勢で取り囲む）＋กินโต๊ะ（相手を圧倒する）。ケンカ・ゲーム・ネット上の批判などで、多数が一人を攻めることを不公平だとして言う。",
+    "note": "กินโต๊ะ だけでも「大勢で一人をやっつける」の意味があり、รุม（大勢で取り囲む）を付けて多数対一人を強調する。ケンカ・ゲーム・ネット上の批判などで、不公平だという気持ちを込めて言う。",
     "example": {
      "th": "ห้าคนรุมกินโต๊ะคนเดียว ไม่แฟร์เลย",
      "ro": "hâa khon rum kin tó khon diiao mâi fɛɛ ləəi",
