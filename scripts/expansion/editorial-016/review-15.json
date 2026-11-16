@@ -6,8 +6,10 @@
  },
  {
   "id": "tl-50150",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "既存の見出し語 เป็นไปได้（あり得る・可能だ）に ถ้า を付けただけの自由な組み合わせ。同じ理由で ในพริบตา も見送られている"
+  ]
  },
  {
   "id": "tl-50189",
@@ -173,8 +175,10 @@
  },
  {
   "id": "tl-52713",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "既存の見出し語 ร่าง の語義2「草案を作る・下書きする」と สัญญา（契約）の自由な組み合わせで、既存語義がそのまま教えている"
+  ]
  },
  {
   "id": "tl-52752",
@@ -243,8 +247,38 @@
  },
  {
   "id": "tl-55277",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "品詞が名詞なのに訳語に「（に入る）」が付き、例文 ไปอบสมุนไพรต่อ は動詞用法。品詞・訳語を例文に合わせて動詞にし、名詞用法は注記へ"
+  ],
+  "fixed": {
+   "id": "tl-55277",
+   "th": "อบสมุนไพร",
+   "action": "add",
+   "ro": "òp sà mǔn phrai",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ハーブサウナ（薬草の蒸し風呂）に入る",
+     "en": "to take a herbal steam sauna",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หลังนวดแล้วไปอบสมุนไพรต่อ",
+      "ro": "lǎng nûuat lɛ́ɛo pai òp sà mǔn phrai tɔ̀ɔ",
+      "ja": "マッサージの後、続けてハーブサウナに入る。",
+      "en": "After the massage, we go on to the herbal sauna.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "名詞として「ハーブサウナ」の意味でも使う。"
+  }
  },
  {
   "id": "tl-55386",
@@ -320,8 +354,10 @@
  },
  {
   "id": "tl-58197",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "หัวหน้า（長・リーダー）と ไลน์ の透明な組み合わせで、工場内の限られた言い方（頻度2）。独立見出しにする学習価値が低い"
+  ]
  },
  {
   "id": "tl-58236",
