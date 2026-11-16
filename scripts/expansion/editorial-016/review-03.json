@@ -76,8 +76,38 @@
  },
  {
   "id": "tl-50684",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "ro: 借用語の実際の発音（下降調）に合わせ kən→kə̂n（ro-lexicon の แอปเปิล ɛ́p pə̂n、part-20 の ซิงเกิ้ลมัม sing kə̂n と統一）"
+  ],
+  "fixed": {
+   "id": "tl-50684",
+   "th": "ซิงเกิล",
+   "action": "add",
+   "ro": "sing kə̂n",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（音楽の）シングル・シングル曲",
+     "en": "single (song release)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "วงนี้ปล่อยซิงเกิลใหม่เมื่อวาน",
+      "ro": "wong níi plɔ̀ɔi sing kə̂n mài mʉ̂ʉa waan",
+      "ja": "このバンドは昨日新しいシングルをリリースした。",
+      "en": "This band released a new single yesterday.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ซิงเกิ้ล とも書く。"
+  }
  },
  {
   "id": "tl-50723",

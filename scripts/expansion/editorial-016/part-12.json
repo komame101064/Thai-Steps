@@ -4,7 +4,7 @@
   "th": "น่ะสิ",
   "action": "add",
   "ro": "nâ sì",
-  "kind": "expression",
+  "kind": "word",
   "category": "助詞・語気",
   "frequency": 6,
   "senses": [
@@ -186,17 +186,17 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "成り行きに任せて・そのまま流れで",
-    "en": "to go with the flow, let it be",
+    "ja": "（こうなった以上）成り行きに任せる・もうそのままにする",
+    "en": "to let things take their course (since it has come to this)",
     "pos": "定型表現",
     "use": "よく使う意味",
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "ฝนตกหนัก เราเลยตามเลยนอนค้างที่บ้านเพื่อน",
-     "ro": "fǒn tòk nàk rao ləəi taam ləəi nɔɔn kháang thîi bâan phʉ̂ʉan",
-     "ja": "大雨だったので、そのまま流れで友人の家に泊まった。",
-     "en": "It rained heavily, so we just went with it and stayed over at a friend's place.",
+     "th": "ไหนๆ ก็มาถึงแล้ว ก็เลยตามเลยแล้วกัน",
+     "ro": "nǎi nǎi kɔ̂ɔ maa thʉ̌ng lɛ́ɛo kɔ̂ɔ ləəi taam ləəi lɛ́ɛo kan",
+     "ja": "せっかくここまで来たんだし、もう成り行きに任せよう。",
+     "en": "Since we've come this far anyway, let's just go with it.",
      "origin": "authored"
     }
    }
@@ -243,7 +243,7 @@
   "th": "เข้าโรงพยาบาล",
   "action": "add",
   "ro": "khâo roong phá yaa baan",
-  "kind": "expression",
+  "kind": "word",
   "category": "体・健康",
   "frequency": 6,
   "senses": [
@@ -407,7 +407,7 @@
   "th": "ตีเสมอ",
   "action": "add",
   "ro": "tii sà mə̌ə",
-  "kind": "expression",
+  "kind": "word",
   "category": "趣味・メディア",
   "frequency": 4,
   "senses": [
@@ -434,7 +434,7 @@
   "th": "งดแป้ง",
   "action": "add",
   "ro": "ngót pɛ̂ɛng",
-  "kind": "expression",
+  "kind": "word",
   "category": "体・健康",
   "frequency": 4,
   "senses": [
@@ -564,7 +564,7 @@
     "example": {
      "th": "นมแม่ดีที่สุดสำหรับลูก",
      "ro": "nom mɛ̂ɛ dii thîi sùt sǎm ràp lûuk",
-     "ja": "赤ちゃんには母乳がいちばんだ。",
+     "ja": "子どもには母乳がいちばんだ。",
      "en": "Breast milk is best for the baby.",
      "origin": "authored"
     }
@@ -576,7 +576,7 @@
   "th": "จ่ายขั้นต่ำ",
   "action": "add",
   "ro": "càai khân tàm",
-  "kind": "expression",
+  "kind": "word",
   "category": "お金・買い物",
   "frequency": 4,
   "senses": [
@@ -603,7 +603,7 @@
   "th": "รดน้ำสังข์",
   "action": "add",
   "ro": "rót nám sǎng",
-  "kind": "expression",
+  "kind": "word",
   "category": "社会・制度",
   "frequency": 3,
   "senses": [
@@ -643,8 +643,8 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "くだらない・取るに足りない",
-    "en": "trivial, worthless",
+    "ja": "取るに足りない・へぼい（ไม่ใช่ขี้ไก่ で「ばかにできない」）",
+    "en": "worthless, lousy (ไม่ใช่ขี้ไก่: no small thing)",
     "pos": "形容詞・状態語",
     "use": "よく使う意味",
     "registerTags": [
@@ -652,15 +652,15 @@
     ],
     "speechStyle": "口語",
     "example": {
-     "th": "เรื่องขี้ไก่แค่นี้ไม่ต้องทะเลาะกันหรอก",
-     "ro": "rʉ̂ʉang khîi kài khɛ̂ɛ níi mâi tɔ̂ɔng thá lɔ́ kan rɔ̀ɔk",
-     "ja": "こんなくだらないことでけんかする必要はないよ。",
-     "en": "No need to fight over something this trivial.",
+     "th": "ฝีมือเขาไม่ใช่ขี้ไก่นะ",
+     "ro": "fǐi mʉʉ khǎo mâi châi khîi kài ná",
+     "ja": "彼の腕前はばかにできないよ。",
+     "en": "His skill is no joke.",
      "origin": "authored"
     }
    }
   ],
-  "note": "字義は「鶏の糞」。เรื่องขี้ไก่（くだらないこと）の形でよく使う。品のよい言葉ではない。"
+  "note": "字義は「鶏の糞」。否定の ไม่ใช่ขี้ไก่（ばかにできない・相当なものだ）の形でよく使う。品のよい言葉ではない。"
  },
  {
   "id": "tl-52398",
@@ -1148,7 +1148,7 @@
   "th": "กัดสีผม",
   "action": "add",
   "ro": "kàt sǐi phǒm",
-  "kind": "expression",
+  "kind": "word",
   "category": "日常の動作",
   "frequency": 3,
   "senses": [
@@ -1230,7 +1230,7 @@
   "th": "โอนบ้าน",
   "action": "add",
   "ro": "oon bâan",
-  "kind": "expression",
+  "kind": "word",
   "category": "お金・買い物",
   "frequency": 3,
   "senses": [
@@ -1279,7 +1279,7 @@
     }
    }
   ],
-  "note": "字義は「父母が私をいじめる」。甘やかしが結局子どもを苦しめることを言う、ラーマ6世の戯曲の題名から。"
+  "note": "字義は「父母が私をいじめる」。甘やかしが結局子どもを苦しめるという意味で、昔の教訓話の題名から。"
  },
  {
   "id": "tl-57529",
@@ -1328,15 +1328,15 @@
     ],
     "speechStyle": "口語",
     "example": {
-     "th": "แอ่วเชียงใหม่ให้ม่วนเน้อ",
-     "ro": "ɛ̀ɛo chiiang mài hâi mûuan nə́ə",
-     "ja": "チェンマイ旅行を楽しんでね。",
-     "en": "Have fun in Chiang Mai, okay?",
+     "th": "พรุ่งนี้มาแต่เช้าเน้อ",
+     "ro": "phrûng níi maa tɛ̀ɛ cháao nə́ə",
+     "ja": "明日は朝早く来てね。",
+     "en": "Come early tomorrow, okay?",
      "origin": "authored"
     }
    }
   ],
-  "note": "北部方言（คำเมือง）の文末詞で、中部の นะ に当たる。例文の แอ่ว（遊びに行く）・ม่วน（楽しい）も北部方言。"
+  "note": "北部方言（คำเมือง）の文末詞で、中部の นะ に当たる。中部の話し手も、柔らかく親しみを込めるときに使うことがある。"
  },
  {
   "id": "tl-57882",
@@ -1464,7 +1464,7 @@
   "th": "เล่นชู้",
   "action": "add",
   "ro": "lên chúu",
-  "kind": "expression",
+  "kind": "word",
   "category": "人・家族",
   "frequency": 3,
   "senses": [
@@ -1648,7 +1648,7 @@
     "ja": "おしゃれ好き・ファッション通の人",
     "pos": "名詞",
     "speechStyle": "口語・スラング",
-    "note": "สาย（〜系・〜派）＋แฟ（แฟชั่นの略）。สายกิน（食べるの大好き派）と同じ作り。2010年代後半から広く使われ、ほめ言葉にもからかいにもなる。",
+    "note": "สาย（〜系・〜派）＋แฟ（แฟชั่นの略）。สายกิน（食べるの大好き派）と同じ作り。ほめ言葉にもからかいにもなる。",
     "example": {
      "th": "เธอเป็นสายแฟ แต่งตัวเก๋ทุกวัน",
      "ro": "thəə pen sǎai fɛɛ tɛ̀ng tuua kěe thúk wan",
@@ -1739,7 +1739,7 @@
     "example": {
      "th": "ผู้ชายคนนี้หน้าหม้อ เห็นสาวสวยไม่ได้",
      "ro": "phûu chaai khon níi nâa mɔ̂ɔ hěn sǎao sǔuai mâi dâai",
-     "ja": "この男は女好きで、きれいな子を見るとすぐ声をかける。",
+     "ja": "この男は女好きで、きれいな子を見ると放っておけない。",
      "context": "知り合いの男性のうわさ話",
      "origin": "authored"
     }
