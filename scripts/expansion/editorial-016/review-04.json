@@ -1,0 +1,564 @@
+[
+ {
+  "id": "tl-50100",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50139",
+  "verdict": "fix",
+  "issues": [
+   "noteの「配偶者の兄の妻を指すこともある」は確認できない主張なので削除"
+  ],
+  "fixed": {
+   "id": "tl-50139",
+   "th": "พี่สะใภ้",
+   "action": "add",
+   "ro": "phîi sà phái",
+   "kind": "word",
+   "category": "人・家族",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "義姉（兄の妻）",
+     "en": "sister-in-law (elder brother's wife)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "พี่สะใภ้ของฉันทำอาหารเก่งมาก",
+      "ro": "phîi sà phái khɔ̌ɔng chǎn tham aa hǎan kèng mâak",
+      "ja": "私の義姉（兄の妻）は料理がとても上手です。",
+      "en": "My elder brother's wife is a very good cook.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "弟の妻は น้องสะใภ้。"
+  }
+ },
+ {
+  "id": "tl-50178",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50217",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50256",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50295",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50334",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50373",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50412",
+  "verdict": "ok",
+  "issues": [
+   "รอง＋นายก の型だが、報道で常用される รองนายกรัฐมนตรี の短縮形で、副市長・団体の副会長も指す（既存の นายก は首相の語義のみ）ため採用。รองประธาน の前例とも整合"
+  ]
+ },
+ {
+  "id": "tl-50451",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50490",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50529",
+  "verdict": "reject",
+  "issues": [
+   "งาน＋ออฟฟิศ（tl-01008・事務所）の意味どおりの自由な組み合わせ。พนักงานออฟฟิศ も既存で、別見出しにする慣用的な意味がない"
+  ]
+ },
+ {
+  "id": "tl-50568",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50607",
+  "verdict": "reject",
+  "issues": [
+   "既存の มารยาทดี（tl-54408）が同じ語義「礼儀正しい・行儀がよい」で、มารยาท（tl-01778）の用例も「มีมารยาทดีมาก」。มี＋มารยาท の組み合わせで重複"
+  ]
+ },
+ {
+  "id": "tl-50646",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50685",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50724",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50763",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50802",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50841",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50880",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50919",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50958",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50997",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51794",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52076",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52390",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52429",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52468",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52507",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52546",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52585",
+  "verdict": "reject",
+  "issues": [
+   "既存の แข่ง（tl-01316）の語義「競う・レースをする」＋รถ で意味がそのまま出る組み合わせ"
+  ]
+ },
+ {
+  "id": "tl-52624",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52663",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52702",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52741",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52780",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52819",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52858",
+  "verdict": "reject",
+  "issues": [
+   "既存の ทำหน้า（tl-05187・〜な顔をする）と ทะเล้น（tl-60459・いたずらっぽい）の組み合わせで学べる。登録も既存の ทะเล้น（口語）と食い違う"
+  ]
+ },
+ {
+  "id": "tl-52897",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52936",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52975",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55032",
+  "verdict": "reject",
+  "issues": [
+   "มะม่วง＋อบ＋แห้ง の意味どおりの組み合わせ（ผลไม้อบแห้ง 等と同じ型）で、固有の意味がない"
+  ]
+ },
+ {
+  "id": "tl-55071",
+  "verdict": "fix",
+  "issues": [
+   "noteの「ラードで」は一般化できない主張なので削除"
+  ],
+  "fixed": {
+   "id": "tl-55071",
+   "th": "ก๋วยเตี๋ยวคั่วไก่",
+   "action": "add",
+   "ro": "kǔuai tǐiao khûua kài",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "クイッティアオ・クワ・ガイ（鶏肉と卵を合わせた米麺の焦がし炒め）",
+     "en": "stir-fried rice noodles with chicken and egg",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ร้านนี้ก๋วยเตี๋ยวคั่วไก่อร่อยมาก",
+      "ro": "ráan níi kǔuai tǐiao khûua kài à rɔ̀ɔi mâak",
+      "ja": "この店のクイッティアオ・クワ・ガイはとてもおいしい。",
+      "en": "This shop's stir-fried chicken noodles are delicious.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "太い米麺を鶏肉・卵と鍋で焦げ目がつくまで炒める屋台料理。"
+  }
+ },
+ {
+  "id": "tl-55110",
+  "verdict": "fix",
+  "issues": [
+   "noteの「ココナッツ殻」は外皮（กาบมะพร้าว）の灰なので表現を修正"
+  ],
+  "fixed": {
+   "id": "tl-55110",
+   "th": "ขนมเปียกปูน",
+   "action": "add",
+   "ro": "khà nǒm pìiak puun",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "カノム・ピアックプーン（米粉と椰子砂糖を練り固めたタイ菓子）",
+     "en": "khanom piak pun (Thai pudding-like sweet)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ขนมเปียกปูนโรยมะพร้าวขูดอร่อยมาก",
+      "ro": "khà nǒm pìiak puun rooi má phráao khùut à rɔ̀ɔi mâak",
+      "ja": "削ったココナッツをかけたカノム・ピアックプーンはとてもおいしい。",
+      "en": "Khanom piak pun topped with grated coconut is delicious.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ココナッツの外皮を焼いた灰で黒くしたものが代表的で、パンダンで緑にしたものもある。"
+  }
+ },
+ {
+  "id": "tl-55149",
+  "verdict": "fix",
+  "issues": [
+   "借用語の読み：ดอก は「花」の dɔ̀ɔk ではなく実際の発音 dɔ́k（noteの ฮ็อตด็อก と同じ）。既存の ฮอต hɔ́t・ฮอตสปอต pɔ́t の方式に合わせ見出し・例文を hɔ́t dɔ́k に修正"
+  ],
+  "fixed": {
+   "id": "tl-55149",
+   "th": "ฮอตดอก",
+   "action": "add",
+   "ro": "hɔ́t dɔ́k",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ホットドッグ",
+     "en": "hot dog",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันกินฮอตดอกเป็นมื้อเช้า",
+      "ro": "chǎn kin hɔ́t dɔ́k pen mʉ́ʉ cháao",
+      "ja": "私は朝食にホットドッグを食べる。",
+      "en": "I eat a hot dog for breakfast.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ฮ็อตด็อก とも書く。"
+  }
+ },
+ {
+  "id": "tl-55188",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55227",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55266",
+  "verdict": "reject",
+  "issues": [
+   "既存の ดัด（tl-04303・曲げる・形を整える）＋ ขนตา（tl-51333）で意味が出る組み合わせ。คาดเข็มขัด を見送った基準と同じ"
+  ]
+ },
+ {
+  "id": "tl-55375",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55919",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55958",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55997",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57521",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57560",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57599",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57913",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57952",
+  "verdict": "fix",
+  "issues": [
+   "例文訳の「止めて」/stopped はタイ語（เรียกให้）にない意味なので削除"
+  ],
+  "fixed": {
+   "id": "tl-57952",
+   "th": "เป่าแอลกอฮอล์",
+   "action": "add",
+   "ro": "pào ɛɛn kɔɔ hɔɔ",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（飲酒検問で）呼気のアルコール検査を受ける",
+     "en": "to take a breathalyzer test",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ตำรวจเรียกให้คนขับเป่าแอลกอฮอล์",
+      "ro": "tam rùuat rîiak hâi khon khàp pào ɛɛn kɔɔ hɔɔ",
+      "ja": "警察は運転手に呼気のアルコール検査を受けさせた。",
+      "en": "The police had the driver take a breathalyzer test.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "字義は「アルコール（検知器）に息を吹く」。"
+  }
+ },
+ {
+  "id": "tl-57991",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58030",
+  "verdict": "reject",
+  "issues": [
+   "既存の เผา（tl-01362・燃やす）＋ ฟาง（tl-42095・稲わら）の意味どおりの組み合わせ"
+  ]
+ },
+ {
+  "id": "tl-58069",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58108",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58147",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58186",
+  "verdict": "reject",
+  "issues": [
+   "既存の บัญชี（帳簿）＋ รายรับ（tl-53464）＋ รายจ่าย（tl-05232）の意味どおりの組み合わせで、固有の意味がない"
+  ]
+ },
+ {
+  "id": "tl-58225",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58264",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58303",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58342",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60140",
+  "verdict": "fix",
+  "issues": [
+   "noteの「2010年代半ば」という時期は確かめきれないので「2010年代」に緩めた"
+  ],
+  "fixed": {
+   "id": "tl-60140",
+   "th": "ไทยแลนด์โอนลี่",
+   "action": "add",
+   "ro": "thai lɛɛn oon lîi",
+   "kind": "expression",
+   "category": "スラング｜ネット・SNS",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "さすがタイ・タイならではの珍光景（Thailand only）",
+     "pos": "定型表現",
+     "speechStyle": "口語・スラング",
+     "note": "英語 Thailand only から。2010年代からSNSで広まり、今もよく使う。タイらしい奇妙な光景に、半ば自虐や皮肉を込めて言う。",
+     "example": {
+      "th": "มอเตอร์ไซค์ซ้อนห้าคน ไทยแลนด์โอนลี่",
+      "ro": "mɔɔ tə̂ə sai sɔ́ɔn hâa khon thai lɛɛn oon lîi",
+      "ja": "バイクに5人乗りなんて、さすがタイだね。",
+      "context": "SNSで変わった写真にコメントする",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-60179",
+  "verdict": "reject",
+  "issues": [
+   "既存の จะบ้าตาย（tl-56918・気が狂いそう）と同じ表現で、語義・例文とも จะบ้าตาย の形。短縮形の重複"
+  ]
+ },
+ {
+  "id": "tl-60288",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60577",
+  "verdict": "ok",
+  "issues": []
+ }
+]
