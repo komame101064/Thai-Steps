@@ -85,7 +85,7 @@
     }
    }
   ],
-  "note": "「เจ้าที่เจ้าทาง」とも言う。家の敷地の祠（ศาลพระภูมิ）に祀られる。"
+  "note": "「เจ้าที่เจ้าทาง」とも言う。家や土地を守る霊で、敷地に祠を建てて供え物をする。"
  },
  {
   "id": "tl-50223",
@@ -166,8 +166,10 @@
     "en": "if you don't mind",
     "pos": "定型表現",
     "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
     "example": {
      "th": "ถ้าไม่ว่าอะไร ขอนั่งตรงนี้ได้ไหม",
      "ro": "thâa mâi wâa à rai khɔ̌ɔ nâng trong níi dâai mǎi",
@@ -914,8 +916,8 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "マムアンマン（青いうちに食べる甘みのあるマンゴー）",
-    "en": "green mango eaten unripe, sweet and crunchy",
+    "ja": "マムアンマン（青いうちに食べる、酸味の少ないマンゴー）",
+    "en": "a mango variety eaten green, crunchy and not sour",
     "pos": "名詞",
     "use": "よく使う意味",
     "registerTags": [],
@@ -1081,8 +1083,10 @@
     "en": "to clip/shave hair with clippers",
     "pos": "動詞",
     "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
     "example": {
      "th": "ลูกชายไปไถผมสั้นก่อนเปิดเทอม",
      "ro": "lûuk chaai pai thǎi phǒm sân kɔ̀ɔn pə̀ət thəəm",

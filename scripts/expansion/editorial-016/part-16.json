@@ -19,10 +19,10 @@
     ],
     "speechStyle": "口語",
     "example": {
-     "th": "วันนี้เหมือนจะฝนตกนะ",
-     "ro": "wan níi mʉ̌ʉan cà fǒn tòk ná",
-     "ja": "今日は雨が降りそうだね。",
-     "en": "It looks like it's going to rain today.",
+     "th": "เขาเหมือนจะไม่ค่อยสบาย",
+     "ro": "khǎo mʉ̌ʉan cà mâi khɔ̂ɔi sà baai",
+     "ja": "彼はあまり具合がよくないみたいだ。",
+     "en": "He seems to be not feeling very well.",
      "origin": "authored"
     }
    }
@@ -77,7 +77,7 @@
     "example": {
      "th": "เรื่องนี้กลายเป็นกระแสในสังคมออนไลน์",
      "ro": "rʉ̂ʉang níi klaai pen krà sɛ̌ɛ nai sǎng khom ɔɔn lai",
-     "ja": "この件はネット上で大きな話題になった。",
+     "ja": "この件はネット上で話題になった。",
      "en": "This became a hot topic online.",
      "origin": "authored"
     }
@@ -562,8 +562,8 @@
     "speechStyle": "口語",
     "example": {
      "th": "แอร์เครื่องนี้เป็นเบอร์ห้า ประหยัดไฟ",
-     "ro": "ɛɛ khrʉ̂ang níi pen bəə hâa prà yàt fai",
-     "ja": "このエアコンは省エネ5級なので電気代が安く済む。",
+     "ro": "ɛɛ khrʉ̂ʉang níi pen bəə hâa prà yàt fai",
+     "ja": "このエアコンは省エネ5級で、節電になる。",
      "en": "This air conditioner has a No. 5 label, so it saves electricity.",
      "origin": "authored"
     }
@@ -775,7 +775,7 @@
   "id": "tl-52714",
   "th": "ค่ากะ",
   "action": "add",
-  "ro": "kâa kà",
+  "ro": "khâa kà",
   "kind": "word",
   "category": "仕事・学習",
   "frequency": 3,
@@ -790,7 +790,7 @@
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
      "th": "ทำกะดึกจะได้ค่ากะเพิ่ม",
-     "ro": "tham kà dʉ̀k cà dâai kâa kà phə̂əm",
+     "ro": "tham kà dʉ̀k cà dâai khâa kà phə̂əm",
      "ja": "夜勤をするとシフト手当が上乗せされる。",
      "en": "If you work the night shift, you get an extra shift allowance.",
      "origin": "authored"
@@ -1271,7 +1271,7 @@
      "th": "เขาเป็นลูกเสี้ยวไทยญี่ปุ่น",
      "ro": "khǎo pen lûuk sîiao thai yîi pùn",
      "ja": "彼はタイと日本のクォーターだ。",
-     "en": "He is a quarter Japanese, quarter Thai.",
+     "en": "He is a Thai-Japanese quarter (one-quarter Japanese).",
      "origin": "authored"
     }
    }
@@ -1403,21 +1403,38 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "（台風などが）上陸する",
-    "en": "(a storm) to make landfall",
+    "ja": "（船が）岸に戻る・岸に着く",
+    "en": "(a boat) to come in to shore",
     "pos": "動詞",
     "use": "よく使う意味",
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "พายุจะเข้าฝั่งคืนนี้",
-     "ro": "phaa yú cà khâo fàng khʉʉn níi",
-     "ja": "嵐は今夜上陸する。",
-     "en": "The storm will make landfall tonight.",
+     "th": "คลื่นแรงมาก เรือประมงต้องรีบเข้าฝั่ง",
+     "ro": "khlʉ̂ʉn rɛɛng mâak rʉʉa prà mong tɔ̂ɔng rîip khâo fàng",
+     "ja": "波がとても高いので、漁船は急いで岸に戻らなければならない。",
+     "en": "The waves are very strong, so the fishing boats must hurry back to shore.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（台風などが）沿岸に近づく・上陸する",
+    "en": "(a storm) to approach the coast, make landfall",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พายุกำลังเคลื่อนเข้าฝั่ง",
+     "ro": "phaa yú kam lang khlʉ̂ʉan khâo fàng",
+     "ja": "嵐が沿岸に向かって進んでいる。",
+     "en": "The storm is moving toward the coast.",
      "origin": "authored"
     }
    }
-  ]
+  ],
+  "note": "気象報道で「上陸する」ははっきり ขึ้นฝั่ง と言うことが多い。"
  },
  {
   "id": "tl-58003",
@@ -1780,31 +1797,7 @@
  {
   "id": "tl-60589",
   "th": "แหกโค้ง",
-  "action": "add",
-  "ro": "hɛ̀ɛk khóong",
-  "kind": "word",
-  "category": "スラング｜一般",
-  "adult": false,
-  "tags": [
-   "colloquial",
-   "slang"
-  ],
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "だます・期待を裏切る・約束をすっぽかす",
-    "pos": "動詞",
-    "speechStyle": "口語・スラング",
-    "note": "字義は「カーブを突き抜ける」。โดนแหกโค้ง（だまされた・肩すかしを食った）の形でよく使う。やや古めの言い方。",
-    "example": {
-     "th": "นึกว่าจะได้โบนัส โดนแหกโค้งซะแล้ว",
-     "ro": "nʉ́k wâa cà dâai boo nát doon hɛ̀ɛk khóong sá lɛ́ɛo",
-     "ja": "ボーナスがもらえると思ったのに、裏切られちゃった。",
-     "context": "職場での愚痴",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "字義の「（車が）カーブを曲がりきれず飛び出す」は確かだが、「だます・期待を裏切る」という俗語の意味と現在の使用頻度を確認できないため。"
  }
 ]
