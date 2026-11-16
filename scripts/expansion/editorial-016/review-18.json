@@ -1,0 +1,609 @@
+[
+ {
+  "id": "tl-50114",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50153",
+  "verdict": "reject",
+  "issues": [
+   "既存の「หายไวๆ นะ」(tl-51934)・「ขอให้หายไวๆ」(tl-52041) と同じ表現で重複"
+  ]
+ },
+ {
+  "id": "tl-50192",
+  "verdict": "fix",
+  "issues": [
+   "見出し語と例文のroで กล้อง を lexicon どおり klɔ̂ɔng に修正"
+  ],
+  "fixed": {
+   "id": "tl-50192",
+   "th": "กล้องหน้ารถ",
+   "action": "add",
+   "ro": "klɔ̂ɔng nâa rót",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ドライブレコーダー",
+     "en": "dashcam",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ตำรวจขอดูภาพจากกล้องหน้ารถ",
+      "ro": "tam rùuat khɔ̌ɔ duu phâap càak klɔ̂ɔng nâa rót",
+      "ja": "警察はドライブレコーダーの映像を見せてほしいと言った。",
+      "en": "The police asked to see the footage from the dashcam.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50231",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50270",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50309",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50348",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50387",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50426",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50465",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50504",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50543",
+  "verdict": "reject",
+  "issues": [
+   "เย็น＋ชื่นใจ（既存語）の自由な組み合わせで、一語としての固有の意味がない"
+  ]
+ },
+ {
+  "id": "tl-50582",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50621",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50660",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50699",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50738",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50777",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50816",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50855",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで ตัว を tuua に修正"
+  ],
+  "fixed": {
+   "id": "tl-50855",
+   "th": "แผ่นแปะลดไข้",
+   "action": "add",
+   "ro": "phɛ̀n pɛ̀ lót khâi",
+   "kind": "word",
+   "category": "体・健康",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "冷却シート（熱さまし用の貼るシート）",
+     "en": "fever cooling patch",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "เจลลดไข้ とも言う。",
+     "example": {
+      "th": "ลูกตัวร้อน แม่เลยแปะแผ่นแปะลดไข้ให้",
+      "ro": "lûuk tuua rɔ́ɔn mɛ̂ɛ ləəi pɛ̀ phɛ̀n pɛ̀ lót khâi hâi",
+      "ja": "子どもが熱っぽいので、母は冷却シートを貼ってあげた。",
+      "en": "The child felt feverish, so the mother put a cooling patch on him.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50894",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50933",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50972",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51769",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52051",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52090",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52404",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52443",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52482",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52521",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52560",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52599",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52638",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52677",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52716",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52755",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52794",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52833",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで อร่อย を à rɔ̀ɔi に修正"
+  ],
+  "fixed": {
+   "id": "tl-52833",
+   "th": "หนึบหนับ",
+   "action": "add",
+   "ro": "nʉ̀p nàp",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "もちもちした・弾力のある（歯ごたえ）",
+     "en": "chewy, springy",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เส้นก๋วยเตี๋ยวร้านนี้หนึบหนับ อร่อยมาก",
+      "ro": "sên kǔuai tǐiao ráan níi nʉ̀p nàp à rɔ̀ɔi mâak",
+      "ja": "この店の麺はもちもちしていてとてもおいしい。",
+      "en": "The noodles at this shop are nicely chewy and delicious.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-52872",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52911",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで ตัว を tuua に修正"
+  ],
+  "fixed": {
+   "id": "tl-52911",
+   "th": "หลงระเริง",
+   "action": "add",
+   "ro": "lǒng rá rəəng",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "浮かれて調子に乗る・我を忘れる",
+     "en": "to get carried away, be intoxicated (with success, pleasure)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "อย่าหลงระเริงกับความสำเร็จจนลืมตัว",
+      "ro": "yàa lǒng rá rəəng kàp khwaam sǎm rèt con lʉʉm tuua",
+      "ja": "成功に浮かれて我を忘れてはいけない。",
+      "en": "Don't get so carried away by success that you forget yourself.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-52950",
+  "verdict": "reject",
+  "issues": [
+   "既存の พันธุ์แท้ の第1語義が「（แฟนพันธุ์แท้）筋金入りの」で、例文も แฟนพันธุ์แท้ のため既存語で学べる"
+  ]
+ },
+ {
+  "id": "tl-52989",
+  "verdict": "fix",
+  "issues": [
+   "より一般的な言い方 หม้ออัดแรงดั を注記に追加"
+  ],
+  "fixed": {
+   "id": "tl-52989",
+   "th": "หม้อแรงดัน",
+   "action": "add",
+   "ro": "mɔ̂ɔ rɛɛng dan",
+   "kind": "word",
+   "category": "家・場所",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "圧力鍋",
+     "en": "pressure cooker",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ตุ๋นเนื้อด้วยหม้อแรงดันจะเร็วกว่า",
+      "ro": "tǔn nʉ́ʉa dûuai mɔ̂ɔ rɛɛng dan cà reo kwàa",
+      "ja": "圧力鍋で肉を煮込むほうが早い。",
+      "en": "Stewing beef in a pressure cooker is quicker.",
+      "origin": "authored"
+     },
+     "note": "หม้ออัดแรงดัน とも言い、そちらの方がよく使われる。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55046",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55085",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで อร่อย を à rɔ̀ɔi に修正"
+  ],
+  "fixed": {
+   "id": "tl-55085",
+   "th": "หอยเชลล์",
+   "action": "add",
+   "ro": "hɔ̌ɔi cheen",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ホタテ（貝）",
+     "en": "scallop",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ร้านนี้มีหอยเชลล์ย่างเนยอร่อยมาก",
+      "ro": "ráan níi mii hɔ̌ɔi cheen yâang nəəi à rɔ̀ɔi mâak",
+      "ja": "この店のホタテのバター焼きはとてもおいしい。",
+      "en": "This shop has delicious butter-grilled scallops.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55124",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55163",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55202",
+  "verdict": "reject",
+  "issues": [
+   "既存の พร่า の第1語義が「（目が）かすむ」で、ตาพร่า の用例も既存にあり既存語で学べる（作成者が ตาเหล่ を同じ理由で見送ったのと同様）"
+  ]
+ },
+ {
+  "id": "tl-55241",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55280",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55389",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55933",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55972",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56581",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57535",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57574",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57888",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57927",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57966",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58005",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで単独の เที่ยว（ไปเที่ยว）を lexicon どおり thîiao に修正"
+  ],
+  "fixed": {
+   "id": "tl-58005",
+   "th": "ปางช้าง",
+   "action": "add",
+   "ro": "paang cháang",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "象キャンプ（象を飼育し観光客に見せる施設）",
+     "en": "elephant camp",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "นักท่องเที่ยวไปเที่ยวปางช้างที่เชียงใหม่",
+      "ro": "nák thɔ̂ng thîao pai thîiao paang cháang thîi chiiang mài",
+      "ja": "観光客はチェンマイの象キャンプへ遊びに行く。",
+      "en": "Tourists visit elephant camps in Chiang Mai.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-58044",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58083",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58122",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58161",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58200",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58239",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58278",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58317",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60115",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60154",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60193",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60552",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60591",
+  "verdict": "fix",
+  "issues": [
+   "注記の時期を確実な範囲（2010年代）に弱めた"
+  ],
+  "fixed": {
+   "id": "tl-60591",
+   "th": "ตั๋วช้าง",
+   "action": "add",
+   "ro": "tǔua cháang",
+   "kind": "word",
+   "category": "スラング｜隠語・報道",
+   "adult": false,
+   "tags": [
+    "colloquial",
+    "slang"
+   ],
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（警察などの）有力者の推薦による裏口の人事・昇進",
+     "pos": "名詞",
+     "speechStyle": "口語・スラング",
+     "note": "直訳は「象のチケット」。有力者の推薦メモで警察などの人事・昇進が決まる慣行を指す隠語で、2010年代の報道で広く知られるようになった。",
+     "example": {
+      "th": "เขาได้ตำแหน่งนี้เพราะมีตั๋วช้าง",
+      "ro": "khǎo dâai tam nɛ̀ng níi phrɔ́ mii tǔua cháang",
+      "ja": "彼は有力者のコネ（象のチケット）でこのポストを得た。",
+      "context": "警察人事をめぐる報道",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ }
+]
