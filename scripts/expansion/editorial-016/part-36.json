@@ -367,7 +367,7 @@
     "example": {
      "th": "เขาเสียเงินกับตู้คีบไปห้าร้อยบาท",
      "ro": "khǎo sǐia ngəən kàp tûu khîip pai hâa rɔ́ɔi bàat",
-     "ja": "彼はクレーンゲームに500バーツも使った。",
+     "ja": "彼はクレーンゲームに500バーツ使ってしまった。",
      "en": "He spent 500 baht on the claw machine.",
      "origin": "authored"
     }
@@ -720,10 +720,10 @@
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "ยางรถแบนแล้ว ต้องไปเติมลมที่ปั๊ม",
-     "ro": "yaang rót bɛɛn lɛ́ɛo tɔ̂ɔng pai təəm lom thîi pám",
-     "ja": "タイヤがぺちゃんこだから、スタンドで空気を入れないと。",
-     "en": "The tyre is flat; I need to put air in at the gas station.",
+     "th": "ลมยางอ่อนแล้ว ต้องไปเติมลมที่ปั๊ม",
+     "ro": "lom yaang ɔ̀ɔn lɛ́ɛo tɔ̂ɔng pai təəm lom thîi pám",
+     "ja": "タイヤの空気が減ってきたから、スタンドで空気を入れないと。",
+     "en": "The tyre pressure is low; I need to put air in at the gas station.",
      "origin": "authored"
     }
    }
@@ -834,7 +834,7 @@
     }
    }
   ],
-  "note": "英語の略語ccをそのまま読んだもの。"
+  "note": "英語の略語ccをそのまま読んだもの。メールの意味では文字で書くときはふつうラテン文字のCCを使う。"
  },
  {
   "id": "tl-52773",
@@ -875,7 +875,7 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "保険の代理店・保険外交員",
+    "ja": "保険代理人・保険外交員",
     "en": "insurance agent",
     "pos": "名詞",
     "use": "よく使う意味",
@@ -1123,30 +1123,8 @@
  {
   "id": "tl-55220",
   "th": "กล้ามเนื้ออักเสบ",
-  "action": "add",
-  "ro": "klâam nʉ́ʉa àk sèep",
-  "kind": "word",
-  "category": "体・健康",
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "筋肉の炎症（筋肉を傷めた痛み）",
-    "en": "muscle inflammation, strained muscle",
-    "pos": "名詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "หมอบอกว่าฉันเป็นกล้ามเนื้ออักเสบ",
-     "ro": "mɔ̌ɔ bɔ̀ɔk wâa chǎn pen klâam nʉ́ʉa àk sèep",
-     "ja": "医者は私が筋肉の炎症だと言った。",
-     "en": "The doctor said I have muscle inflammation.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "デスクワークや運動による首・肩・腰の痛みの診断名として病院でよく聞く。"
+  "action": "skip",
+  "skipReason": "กล้ามเนื้อ（筋肉）＋既存のอักเสบ（tl-03317「炎症を起こす」）の自由な組み合わせで、〜อักเสบは体の部位に広く付くため。"
  },
  {
   "id": "tl-55259",
@@ -1320,8 +1298,7 @@
      "origin": "authored"
     }
    }
-  ],
-  "note": "日本語の「砂漠で針を探す」に近い。"
+  ]
  },
  {
   "id": "tl-57592",
@@ -1602,10 +1579,10 @@
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "คนแก่เชื่อว่าถ้านกแสกบินผ่านบ้านจะมีเรื่องไม่ดี",
-     "ro": "khon kɛ̀ɛ chʉ̂ʉa wâa thâa nók sɛ̀ɛk bin phàan bâan cà mii rʉ̂ʉang mâi dii",
-     "ja": "お年寄りは、メンフクロウが家の上を飛ぶと悪いことが起きると信じている。",
-     "en": "Old people believe that if a barn owl flies over the house, something bad will happen.",
+     "th": "ได้ยินเสียงนกแสกร้องตอนกลางคืน",
+     "ro": "dâai yin sǐiang nók sɛ̀ɛk rɔ́ɔng tɔɔn klaang khʉʉn",
+     "ja": "夜にメンフクロウの鳴き声が聞こえた。",
+     "en": "I heard a barn owl calling at night.",
      "origin": "authored"
     }
    }
