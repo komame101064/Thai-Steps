@@ -424,7 +424,7 @@
     "speechStyle": "口語",
     "note": "直訳は「こむら返りが食う」。ตะคริวกินขา（足がつる）のように後ろに部位を置く。เป็นตะคริว とも言う。",
     "example": {
-     "th": "ว่ายน้ำอยู่ดี ๆ ก็ตะคริวกินขา",
+     "th": "ว่ายน้ำอยู่ดีๆ ก็ตะคริวกินขา",
      "ro": "wâai náam yùu dii dii kɔ̂ɔ tà khriu kin khǎa",
      "ja": "普通に泳いでいたら、急に足がつった。",
      "en": "I was swimming along fine when I suddenly got a cramp in my leg.",
@@ -464,50 +464,8 @@
  {
   "id": "tl-50947",
   "th": "พอยต์",
-  "action": "add",
-  "ro": "phɔɔi",
-  "kind": "word",
-  "category": "お金・買い物",
-  "frequency": 4,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "（買い物・カードの）ポイント",
-    "en": "(reward) points",
-    "pos": "名詞",
-    "use": "よく使う意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "note": "英語 point から。พอยท์ とも書く。より一般的な語は แต้ม。",
-    "example": {
-     "th": "ใช้บัตรนี้ได้พอยต์ทุกครั้งที่ซื้อของ",
-     "ro": "chái bàt níi dâai phɔɔi thúk khráng thîi sʉ́ʉ khɔ̌ɔng",
-     "ja": "このカードを使うと、買い物のたびにポイントがつく。",
-     "en": "With this card you get points every time you shop.",
-     "origin": "authored"
-    }
-   },
-   {
-    "sourceSense": 2,
-    "ja": "要点・ポイント",
-    "en": "the point, gist",
-    "pos": "名詞",
-    "use": "よく使う別の意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "เขาพูดยาวแต่ไม่เข้าพอยต์สักที",
-     "ro": "khǎo phûut yaao tɛ̀ɛ mâi khâo phɔɔi sàk thii",
-     "ja": "彼は長々と話すが、なかなか要点に入らない。",
-     "en": "He talks at length but never gets to the point.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "綴り（พอยต์・พอยท์）と声調の揺れがあり読みを確定できないため。また「ポイント・得点」の意味は既存の แต้ม で教えられるため。"
  },
  {
   "id": "tl-50986",
@@ -528,7 +486,7 @@
     "speechStyle": "標準語（口語限定ではない）",
     "note": "貸す側の言い方。借りる側は กู้（กู้เงิน）。",
     "example": {
-     "th": "ธนาคารปล่อยกู้ให้ธุรกิจเล็ก ๆ มากขึ้น",
+     "th": "ธนาคารปล่อยกู้ให้ธุรกิจเล็กๆ มากขึ้น",
      "ro": "thá naa khaan plɔ̀ɔi kûu hâi thú rá kìt lék lék mâak khʉ̂n",
      "ja": "銀行は小さな事業への融資を増やしている。",
      "en": "Banks are lending more to small businesses.",
@@ -642,7 +600,7 @@
     "speechStyle": "口語",
     "note": "南部方言で อร่อย にあたる。「หรอยจังฮู้（すごくうまい）」が有名で、標準語の会話でもおどけて使う。",
     "example": {
-     "th": "แกงส้มร้านนี้หรอยจริง ๆ",
+     "th": "แกงส้มร้านนี้หรอยจริงๆ",
      "ro": "kɛɛng sôm ráan níi rɔ̌ɔi cing cing",
      "ja": "この店のゲーンソムは本当にうまい。",
      "en": "The kaeng som at this place is really delicious.",
@@ -722,9 +680,11 @@
     "en": "to transit, change planes",
     "pos": "動詞",
     "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "note": "英語 transit から。ทรานซิต とも書く。名詞として「トランジット」の意味でも使う。",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "英語 transit から。ทรานซิต とも書く。改まった言い方は เปลี่ยนเครื่อง（飛行機を乗り換える）。",
     "example": {
      "th": "เราต้องทรานซิทที่สิงคโปร์สองชั่วโมง",
      "ro": "rao tɔ̂ɔng thraan sít thîi sǐng khá poo sɔ̌ɔng chûua moong",
@@ -821,7 +781,7 @@
   "id": "tl-52808",
   "th": "กราฟิก",
   "action": "add",
-  "ro": "kraa fík",
+  "ro": "kraa fìk",
   "kind": "word",
   "category": "仕事・学習",
   "frequency": 4,
@@ -837,7 +797,7 @@
     "note": "英語 graphic から。กราฟฟิก とも書く。",
     "example": {
      "th": "เขาทำงานเป็นนักออกแบบกราฟิก",
-     "ro": "khǎo tham ngaan pen nák ɔ̀ɔk bɛ̀ɛp kraa fík",
+     "ro": "khǎo tham ngaan pen nák ɔ̀ɔk bɛ̀ɛp kraa fìk",
      "ja": "彼はグラフィックデザイナーとして働いている。",
      "en": "He works as a graphic designer.",
      "origin": "authored"
@@ -1058,7 +1018,7 @@
     "speechStyle": "標準語（口語限定ではない）",
     "note": "韓国語「ラミョン」から。รามย็อน とも書く。",
     "example": {
-     "th": "ดึก ๆ หิวเลยต้มรามยอนกิน",
+     "th": "ดึกๆ หิวเลยต้มรามยอนกิน",
      "ro": "dʉ̀k dʉ̀k hǐu ləəi tôm raam yɔɔn kin",
      "ja": "夜遅くお腹がすいたので、韓国ラーメンを作って食べた。",
      "en": "I got hungry late at night, so I made some ramyeon.",
@@ -1285,7 +1245,7 @@
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
      "th": "เขาทำงานข้ามวันข้ามคืนเพื่อให้เสร็จทัน",
-     "ro": "khǎo tham ngaan khâam wan khâam khʉʉn phʉ̂a hâi sèt than",
+     "ro": "khǎo tham ngaan khâam wan khâam khʉʉn phʉ̂ʉa hâi sèt than",
      "ja": "彼は間に合わせるため、昼夜ぶっ通しで働いた。",
      "en": "He worked day and night to finish in time.",
      "origin": "authored"
@@ -1630,7 +1590,7 @@
     "ja": "絶対確実・間違いなし",
     "pos": "形容詞・状態語",
     "speechStyle": "口語・スラング",
-    "note": "ชัวร์（確かな）を強めたおどけた言い方。友人同士で使い、目上には使わない。2000〜2010年代によく聞かれた言い方で、今は少し古く感じる人もいる。",
+    "note": "ชัวร์（確かな）を強めたおどけた言い方。友人同士で使い、目上には使わない。",
     "example": {
      "th": "พรุ่งนี้ไปชัวร์ป้าด ไม่เทแน่นอน",
      "ro": "phrûng níi pai chuua pâat mâi thee nɛ̂ɛ nɔɔn",
@@ -1662,7 +1622,7 @@
     "speechStyle": "口語・スラング",
     "note": "直訳は「仕事を焼く」。時間がなく雑に急いで仕上げること。学生や会社員が自嘲気味に使う。",
     "example": {
-     "th": "ส่งพรุ่งนี้แล้ว คืนนี้ต้องเผางานแน่ ๆ",
+     "th": "ส่งพรุ่งนี้แล้ว คืนนี้ต้องเผางานแน่ๆ",
      "ro": "sòng phrûng níi lɛ́ɛo khʉʉn níi tɔ̂ɔng phǎo ngaan nɛ̂ɛ nɛ̂ɛ",
      "ja": "提出は明日だ。今夜はやっつけで仕上げるしかない。",
      "context": "締め切り前の学生同士の会話",
