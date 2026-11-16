@@ -62,8 +62,30 @@
  {
   "id": "tl-50187",
   "th": "พนันออนไลน์",
-  "action": "skip",
-  "skipReason": "พนัน（賭博）＋ออนไลน์ の意味が透明な組み合わせで、別見出しにする差がないため。"
+  "action": "add",
+  "ro": "phá nan ɔɔn lai",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "オンライン賭博",
+    "en": "online gambling",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตำรวจปิดเว็บพนันออนไลน์หลายสิบเว็บ",
+     "ro": "tam rùuat pìt wép phá nan ɔɔn lai lǎai sìp wép",
+     "ja": "警察はオンライン賭博サイトを数十件閉鎖した。",
+     "en": "Police shut down dozens of online gambling websites.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "タイではオンライン賭博は違法で、ニュースによく出る。"
  },
  {
   "id": "tl-50226",
@@ -305,24 +327,6 @@
      "ro": "phleeng pɔ́p sà mǎi níi fang ngâai",
      "ja": "最近のポップスは聴きやすい。",
      "en": "Pop songs these days are easy to listen to.",
-     "origin": "authored"
-    }
-   },
-   {
-    "sourceSense": 2,
-    "ja": "大衆受けする・一般向けの",
-    "en": "mainstream, popular",
-    "pos": "形容詞・状態語",
-    "use": "少なめの用法",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "หนังเรื่องนี้ค่อนข้างป๊อป ดูได้ทุกคน",
-     "ro": "nǎng rʉ̂ʉang níi khɔ̂ɔn khâang pɔ́p duu dâai thúk khon",
-     "ja": "この映画はわりと大衆向けで、誰でも見られる。",
-     "en": "This film is fairly mainstream; anyone can enjoy it.",
      "origin": "authored"
     }
    }
@@ -571,8 +575,30 @@
  {
   "id": "tl-52438",
   "th": "ฝ่ายรัฐบาล",
-  "action": "skip",
-  "skipReason": "ฝ่าย（側）＋รัฐบาล（政府）の透明な組み合わせで、別見出しにする差がないため（既存の ฝ่ายค้าน は ค้าน の意味が独自なため別扱い）。"
+  "action": "add",
+  "ro": "fàai rát thà baan",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "政府側・与党側",
+    "en": "the government side, the governing coalition",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฝ่ายรัฐบาลกับฝ่ายค้านเถียงกันในสภา",
+     "ro": "fàai rát thà baan kàp fàai kháan thǐiang kan nai sà phaa",
+     "ja": "与党側と野党側が議会で言い争っている。",
+     "en": "The government and the opposition are arguing in parliament.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "野党側 ฝ่ายค้าน と対で使う。"
  },
  {
   "id": "tl-52477",
@@ -590,7 +616,7 @@
   "id": "tl-52555",
   "th": "บังกะโล",
   "action": "add",
-  "ro": "bang ká loo",
+  "ro": "bang kà loo",
   "kind": "word",
   "category": "家・場所",
   "frequency": 3,
@@ -605,7 +631,7 @@
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
      "th": "เราพักบังกะโลริมทะเล",
-     "ro": "rao phák bang ká loo rim thá lee",
+     "ro": "rao phák bang kà loo rim thá lee",
      "ja": "私たちは海辺のバンガローに泊まる。",
      "en": "We are staying in a bungalow by the sea.",
      "origin": "authored"
@@ -1102,8 +1128,8 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "誰にでも言い寄る浮気者・見境のない女たらし",
-    "en": "a shameless flirt, a womanizer",
+    "ja": "めかし込んで女性に言い寄って回る男・気取った女たらし",
+    "en": "a dandy who goes around wooing women",
     "pos": "定型表現",
     "use": "よく使う意味",
     "registerTags": [
@@ -1113,13 +1139,13 @@
     "example": {
      "th": "อย่าไปเชื่อเขา เขาเจ้าชู้ไก่แจ้",
      "ro": "yàa pai chʉ̂ʉa khǎo khǎo câo chúu kài cɛ̂ɛ",
-     "ja": "彼を信じちゃだめ。誰にでも言い寄る浮気者だから。",
-     "en": "Don't believe him. He flirts with everyone.",
+     "ja": "彼を信じちゃだめ。女性に言い寄って回る遊び人だから。",
+     "en": "Don't believe him. He's a show-off womanizer.",
      "origin": "authored"
     }
    }
   ],
-  "note": "チャボ（ไก่แจ้）の雄が羽を広げて雌の気を引くさまから。主に男性についていう。"
+  "note": "チャボ（ไก่แจ้）の雄が羽を広げて雌の気を引くさまから。男性についていう。"
  },
  {
   "id": "tl-57569",
@@ -1460,9 +1486,9 @@
   "id": "tl-60110",
   "th": "ดาร์ก",
   "action": "add",
-  "ro": "dâak",
+  "ro": "dàak",
   "kind": "word",
-  "category": "スラング｜一般",
+  "category": "スラング｜ほめる・反応",
   "adult": false,
   "tags": [
    "colloquial"
@@ -1477,7 +1503,7 @@
     "note": "英語 dark から。重く陰鬱な内容や、ブラックな冗談（มุกดาร์ก）に使う。ดาร์ค とも書く。",
     "example": {
      "th": "หนังเรื่องนี้ดาร์กมาก ดูแล้วจิตตก",
-     "ro": "nǎng rʉ̂ʉang níi dâak mâak duu lɛ́ɛo cìt tòk",
+     "ro": "nǎng rʉ̂ʉang níi dàak mâak duu lɛ́ɛo cìt tòk",
      "ja": "この映画はすごくダークで、見たら気分が沈んだ。",
      "context": "映画の感想を友人に話す",
      "origin": "authored"
