@@ -1,0 +1,398 @@
+[
+ {
+  "id": "tl-50112",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50151",
+  "verdict": "fix",
+  "issues": [
+   "例文の รถหาย（車が盗まれた・なくなった）と「人が無事」の組み合わせが不自然なため、รถพัง（車が壊れた）に変更"
+  ],
+  "fixed": {
+   "id": "tl-50151",
+   "th": "ยังดี",
+   "action": "add",
+   "ro": "yang dii",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "まだましだ・（〜だけでも）まだよかった",
+     "en": "it's lucky (that), at least",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "รถพังแต่ยังดีที่คนไม่เป็นอะไร",
+      "ro": "rót phang tɛ̀ɛ yang dii thîi khon mâi pen à rai",
+      "ja": "車は壊れたが、人が無事だったのはまだよかった。",
+      "en": "The car was wrecked, but at least nobody was hurt.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ยังดีที่〜（〜なのが不幸中の幸いだ）の形でよく使う。"
+  }
+ },
+ {
+  "id": "tl-50190",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50229",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50268",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50307",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50346",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50385",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50424",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50463",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50502",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50541",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50580",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50619",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50658",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50697",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50736",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50775",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50814",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50853",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50892",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50931",
+  "verdict": "reject",
+  "issues": [
+   "既存の ออมสิน の語義「貯蓄・貯金（กระปุกออมสิน「貯金箱」などの形で）」で既に教えているため（author が แดดเดียว を同じ理由で見送ったのと同じ扱い）"
+  ]
+ },
+ {
+  "id": "tl-50970",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51767",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52049",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52088",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52402",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52441",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52480",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52519",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52558",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52597",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52636",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52675",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52714",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52753",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52792",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52831",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52870",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52909",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52948",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52987",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55044",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55083",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55122",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55161",
+  "verdict": "reject",
+  "issues": [
+   "既存の อนามัย の語義2「保健所（สถานีอนามัยの略）」で既に教えている長い形のため（短形・長形の重複）"
+  ]
+ },
+ {
+  "id": "tl-55200",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55239",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55278",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55387",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55931",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55970",
+  "verdict": "reject",
+  "issues": [
+   "既存の ทะเบียนบ้าน の注記「住所の移転は ย้ายทะเบียนบ้าน と言う」で既に教えている組み合わせのため"
+  ]
+ },
+ {
+  "id": "tl-56579",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57533",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57572",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57886",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57925",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57964",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58003",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58042",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58081",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58120",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58159",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58198",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58237",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58276",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58315",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60113",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60152",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60191",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60300",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60589",
+  "verdict": "ok",
+  "issues": []
+ }
+]

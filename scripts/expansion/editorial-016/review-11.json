@@ -1,0 +1,398 @@
+[
+ {
+  "id": "tl-50107",
+  "verdict": "reject",
+  "issues": [
+   "既存の เกี่ยว（関係する）の否定形で、その見出しの用例 เรื่องนี้ไม่เกี่ยวกับฉัน ですでに学べる（同じ理由で ไม่รู้ตัว はスキップ済み）。用例も「言い返し」の定型表現ではなく通常の否定にすぎない。"
+  ]
+ },
+ {
+  "id": "tl-50146",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50185",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50224",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50263",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50302",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50341",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50380",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50419",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50458",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50497",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50536",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50575",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50614",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50653",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50692",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50731",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50770",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50809",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50848",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50887",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50926",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50965",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51762",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52044",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52083",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52397",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52436",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52475",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52514",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52553",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52592",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52631",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52670",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52709",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52748",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52787",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52826",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52865",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52904",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52943",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52982",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55039",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55078",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55117",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55156",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55195",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55234",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55273",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55382",
+  "verdict": "fix",
+  "issues": [
+   "語義の「すす」は誤り。หยากไย่ はほこりが絡んで垂れ下がった古いクモの巣で、すすの意味はない。"
+  ],
+  "fixed": {
+   "id": "tl-55382",
+   "th": "หยากไย่",
+   "action": "add",
+   "ro": "yàak yâi",
+   "kind": "word",
+   "category": "家・場所",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（ほこりのついた）古いクモの巣",
+     "en": "dusty old cobwebs",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เพดานห้องเก่ามีหยากไย่เต็มไปหมด",
+      "ro": "phee daan hɔ̂ɔng kào mii yàak yâi tem pai mòt",
+      "ja": "古い部屋の天井はほこりまみれのクモの巣だらけだ。",
+      "en": "The ceiling of the old room is full of dusty cobwebs.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ふつう ใยแมงมุม（クモの巣）にほこりが絡んだものを指し、掃除の話題で使う。"
+  }
+ },
+ {
+  "id": "tl-55926",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55965",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56574",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57528",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57567",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57881",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57920",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57959",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57998",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58037",
+  "verdict": "reject",
+  "issues": [
+   "既存の ดอน（高台・水につからない高い土地）の長い形で、ดอน の注記「ที่ดอน の形でよく使う」ですでに学べる。"
+  ]
+ },
+ {
+  "id": "tl-58076",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58115",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58154",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58193",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58232",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58271",
+  "verdict": "reject",
+  "issues": [
+   "ตรวจรับ（検収する）＋目的語の自由な組み合わせ（注記自身が ตรวจรับห้อง を挙げている）。頻度も低く、独立見出しにする必要がない。"
+  ]
+ },
+ {
+  "id": "tl-58310",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60108",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60147",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60186",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60295",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60584",
+  "verdict": "ok",
+  "issues": []
+ }
+]
