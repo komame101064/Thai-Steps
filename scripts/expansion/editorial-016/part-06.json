@@ -185,8 +185,7 @@
      "origin": "authored"
     }
    }
-  ],
-  "note": "大きなお札で買い物をしてお釣りをもらう（崩してしまう）場合にも言う。"
+  ]
  },
  {
   "id": "tl-50336",
@@ -228,7 +227,7 @@
     "sourceSense": 1,
     "ja": "予想どおり（に）",
     "en": "as expected",
-    "pos": "副詞",
+    "pos": "定型表現",
     "use": "よく使う意味",
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
@@ -633,7 +632,7 @@
     "example": {
      "th": "ร้านนี้อาหารถูกและดี คนเลยเยอะ",
      "ro": "ráan níi aa hǎan thùuk lɛ́ dii khon ləəi yə́",
-     "ja": "この店は料理が安くておいしいので、客が多い。",
+     "ja": "この店は料理が安くて良いので、客が多い。",
      "en": "This restaurant's food is cheap and good, so it's crowded.",
      "origin": "authored"
     }
@@ -656,8 +655,10 @@
     "en": "from a broken home",
     "pos": "形容詞・状態語",
     "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
     "example": {
      "th": "เด็กบ้านแตกหลายคนต้องอยู่กับยาย",
      "ro": "dèk bâan tɛ̀ɛk lǎai khon tɔ̂ɔng yùu kàp yaai",
@@ -741,7 +742,7 @@
     "sourceSense": 1,
     "ja": "見渡す限り・目の届く限り",
     "en": "as far as the eye can see",
-    "pos": "副詞",
+    "pos": "定型表現",
     "use": "よく使う意味",
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
@@ -1010,7 +1011,7 @@
     "sourceSense": 1,
     "ja": "晴れやかな顔をした・うれしそうにニコニコした",
     "en": "beaming, cheerful-looking",
-    "pos": "形容詞・状態語",
+    "pos": "定型表現",
     "use": "よく使う意味",
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
@@ -1427,7 +1428,7 @@
     "sourceSense": 1,
     "ja": "道を外れた・素行が悪い",
     "en": "going astray, off the right path",
-    "pos": "形容詞・状態語",
+    "pos": "定型表現",
     "use": "よく使う意味",
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
@@ -1455,7 +1456,7 @@
     "sourceSense": 1,
     "ja": "口を酸っぱくして（何度も言う）",
     "en": "(to tell) over and over until one's mouth is sore",
-    "pos": "副詞",
+    "pos": "定型表現",
     "use": "よく使う意味",
     "registerTags": [
      "colloquial"
@@ -1684,7 +1685,7 @@
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
      "th": "ฉันยังไม่ได้ว่าใครเลย ทำไมร้อนตัว",
-     "ro": "chǎn yang mâi dâi wâa khrai ləəi tham mai rɔ́ɔn tuua",
+     "ro": "chǎn yang mâi dâai wâa khrai ləəi tham mai rɔ́ɔn tuua",
      "ja": "まだ誰のことも言っていないのに、なんでむきになるの？",
      "en": "I haven't said anything about anyone, so why are you getting defensive?",
      "origin": "authored"
@@ -1913,7 +1914,7 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "素人くさい・我流で荒っぽい（やり方）",
+    "ja": "素人の荒っぽいやり方・我流の力任せ",
     "pos": "名詞",
     "speechStyle": "口語",
     "note": "もとは寺の祭りで行う素人ボクシング。技術や作戦がなく力任せなプレーやケンカ、雑な仕事ぶりを揶揄して言う。",
