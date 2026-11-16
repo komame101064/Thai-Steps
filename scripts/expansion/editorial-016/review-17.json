@@ -1,0 +1,434 @@
+[
+ {
+  "id": "tl-50113",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50152",
+  "verdict": "reject",
+  "issues": [
+   "วัน＋หนึ่ง（ある一つの）の自由な組み合わせ。「1日に」の語義も既存の วันละ で学べ、例文も วันละสองแก้ว の方が自然。"
+  ]
+ },
+ {
+  "id": "tl-50191",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50230",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50269",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50308",
+  "verdict": "reject",
+  "issues": [
+   "ของ＋ถูก（安い：既存語義）の自由な組み合わせで、固定した意味がない（ของแพง と同型）。"
+  ]
+ },
+ {
+  "id": "tl-50347",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50386",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50425",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50464",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50503",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50542",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50581",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50620",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50659",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50698",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50737",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50776",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50815",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50854",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50893",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50932",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50971",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51768",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52050",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52089",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52403",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52442",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52481",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52520",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52559",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52598",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52637",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52676",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52715",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52754",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52793",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52832",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52871",
+  "verdict": "fix",
+  "issues": [
+   "例文 คนจนตรอก… は「คนจน（貧しい人）」と読めて紛らわしいため、明確な例文に差し替え。"
+  ],
+  "fixed": {
+   "id": "tl-52871",
+   "th": "จนตรอก",
+   "action": "add",
+   "ro": "con trɔ̀ɔk",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "追い詰められた・窮地に陥った",
+     "en": "cornered, at the end of one's rope",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาจนตรอกจนต้องขายบ้าน",
+      "ro": "khǎo con trɔ̀ɔk con tɔ̂ɔng khǎai bâan",
+      "ja": "彼は追い詰められて、家を売るしかなくなった。",
+      "en": "He was so cornered that he had to sell his house.",
+      "origin": "authored"
+     },
+     "note": "字義は「路地で行き詰まる」。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-52910",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52949",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52988",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55045",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55084",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55123",
+  "verdict": "fix",
+  "issues": [
+   "注記の「最も一般的な氷の形」は確認できない断定のため弱めた。"
+  ],
+  "fixed": {
+   "id": "tl-55123",
+   "th": "น้ำแข็งหลอด",
+   "action": "add",
+   "ro": "nám khɛ̌ng lɔ̀ɔt",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "筒状の氷（中心に穴のある円筒形の氷）",
+     "en": "tube ice",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ร้านกาแฟนี้ใช้น้ำแข็งหลอด",
+      "ro": "ráan kaa fɛɛ níi chái nám khɛ̌ng lɔ̀ɔt",
+      "ja": "このカフェは筒状の氷を使っている。",
+      "en": "This café uses tube ice.",
+      "origin": "authored"
+     },
+     "note": "タイの飲食店でよく使われる氷。"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-55162",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55201",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55240",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55279",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55388",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55932",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55971",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56580",
+  "verdict": "reject",
+  "issues": [
+   "代父母の習慣はタイでは一般的でなく例文が不自然。現代の口語では女性への皮肉な呼びかけ（โอ๊ย แม่ทูนหัว）の用法もあり、第一語義を確信できない。"
+  ]
+ },
+ {
+  "id": "tl-57534",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57573",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57887",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57926",
+  "verdict": "reject",
+  "issues": [
+   "通常は「ชั้น G」とローマ字で書かれ、ชั้น＋文字名の自由な組み合わせ。タイ文字綴りの見出し語としての定着を確認できない。"
+  ]
+ },
+ {
+  "id": "tl-57965",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58004",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58043",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58082",
+  "verdict": "reject",
+  "issues": [
+   "既存の ควบ の語義3「兼ねる・続けて二つ引き受ける」の例文が วันนี้ผมควบกะกลางคืนด้วย で、すでにこの用法を教えている。"
+  ]
+ },
+ {
+  "id": "tl-58121",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58160",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58199",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58238",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58277",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58316",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60114",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60153",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60192",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60551",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60590",
+  "verdict": "reject",
+  "issues": [
+   "既存の กลิ่นเต่า（わきが・わきの臭い、口語）と教える内容が重なる。注記の「เต่า が口語でわきの下を指す・ขนเต่า＝わき毛」は確認できない。"
+  ]
+ }
+]

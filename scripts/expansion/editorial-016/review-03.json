@@ -31,8 +31,39 @@
  },
  {
   "id": "tl-50333",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "語域：会話でよく使う言い方（改まった言い方は ผู้สูงอายุ）なので 口語 に修正"
+  ],
+  "fixed": {
+   "id": "tl-50333",
+   "th": "คนเฒ่าคนแก่",
+   "action": "add",
+   "ro": "khon thâo khon kɛ̀ɛ",
+   "kind": "word",
+   "category": "人・家族",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "お年寄り・年配の人たち",
+     "en": "old folks, the elderly",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "คนเฒ่าคนแก่ในหมู่บ้านชอบมานั่งคุยกันที่วัด",
+      "ro": "khon thâo khon kɛ̀ɛ nai mùu bâan chɔ̂ɔp maa nâng khui kan thîi wát",
+      "ja": "村のお年寄りたちはお寺に来て座っておしゃべりするのが好きだ。",
+      "en": "The old folks in the village like to come and chat at the temple.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
  },
  {
   "id": "tl-50372",
@@ -166,8 +197,38 @@
  },
  {
   "id": "tl-52428",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "fix",
+  "issues": [
+   "語義・注記：วันพระใหญ่ は本来、満月・新月の仏日（陰暦8日の วันพระเล็ก に対する）。「重要な仏教祭日を指す」とした説明を修正"
+  ],
+  "fixed": {
+   "id": "tl-52428",
+   "th": "วันพระใหญ่",
+   "action": "add",
+   "ro": "wan phrá yài",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "大きな仏日（月に2回の満月・新月の仏日）",
+     "en": "major Buddhist holy day (full-moon / new-moon day)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "วันพระใหญ่คนไทยนิยมไปทำบุญที่วัด",
+      "ro": "wan phrá yài khon thai ní yom pai tham bun thîi wát",
+      "ja": "大きな仏日には、タイ人はよくお寺へ功徳を積みに行く。",
+      "en": "On major Buddhist holy days, Thais often go to make merit at temples.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "วันพระ のうち満月と新月の日を指し、上弦・下弦（陰暦8日）の日は วันพระเล็ก という。マーカブーチャーなどの仏教祭日を指して言うこともある。"
+  }
  },
  {
   "id": "tl-52467",
@@ -176,8 +237,10 @@
  },
  {
   "id": "tl-52506",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "既存の เลือกตั้ง・การเลือกตั้ง と ท้องถิ่น（地元の・地域の）の透明な組み合わせで、例文も การเลือกตั้งท้องถิ่น の形。กุญแจสำรอง 等のスキップ基準と同じく自由な組み合わせとして除外"
+  ]
  },
  {
   "id": "tl-52545",
@@ -366,8 +429,10 @@
  },
  {
   "id": "tl-58341",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "reject",
+  "issues": [
+   "語義1「サッカーで足を払って倒す」の用法が確認できない（足を払う意味は ตัดขา／ปัดขา、比喩の「足を引っ張る・出世を妨げる」は ตัดแข้งตัดขา が定着した形）。語形と両語義に確信が持てないため"
+  ]
  },
  {
   "id": "tl-60139",

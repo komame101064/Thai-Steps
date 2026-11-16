@@ -87,7 +87,7 @@
   "th": "หมดสนุก",
   "action": "add",
   "ro": "mòt sà nùk",
-  "kind": "expression",
+  "kind": "word",
   "category": "性質・状態",
   "frequency": 4,
   "senses": [
@@ -95,7 +95,7 @@
     "sourceSense": 1,
     "ja": "興ざめする・楽しくなくなる",
     "en": "to stop being fun, spoil the fun",
-    "pos": "定型表現",
+    "pos": "形容詞・状態語",
     "use": "よく使う意味",
     "registerTags": [
      "colloquial"
@@ -144,7 +144,7 @@
   "th": "เช็คยอด",
   "action": "add",
   "ro": "chék yɔ̂ɔt",
-  "kind": "expression",
+  "kind": "word",
   "category": "お金・買い物",
   "frequency": 4,
   "senses": [
@@ -207,7 +207,7 @@
   "th": "จัดตั้งรัฐบาล",
   "action": "add",
   "ro": "càt tâng rát thà baan",
-  "kind": "expression",
+  "kind": "word",
   "category": "社会・制度",
   "frequency": 4,
   "senses": [
@@ -235,7 +235,7 @@
   "th": "สองมาตรฐาน",
   "action": "add",
   "ro": "sɔ̌ɔng mâat trà thǎan",
-  "kind": "expression",
+  "kind": "word",
   "category": "社会・制度",
   "frequency": 4,
   "senses": [
@@ -262,7 +262,7 @@
   "th": "เข้าคิว",
   "action": "add",
   "ro": "khâo khiu",
-  "kind": "expression",
+  "kind": "word",
   "category": "日常の動作",
   "frequency": 6,
   "senses": [
@@ -481,7 +481,7 @@
   "th": "สร้างกล้าม",
   "action": "add",
   "ro": "sâang klâam",
-  "kind": "expression",
+  "kind": "word",
   "category": "体・健康",
   "frequency": 3,
   "senses": [
@@ -550,7 +550,7 @@
   "th": "ได้หน้า",
   "action": "add",
   "ro": "dâai nâa",
-  "kind": "expression",
+  "kind": "word",
   "category": "仕事・学習",
   "frequency": 3,
   "senses": [
@@ -607,7 +607,7 @@
   "th": "ปล่อยปลา",
   "action": "add",
   "ro": "plɔ̀ɔi plaa",
-  "kind": "expression",
+  "kind": "word",
   "category": "社会・制度",
   "frequency": 3,
   "senses": [
@@ -751,7 +751,7 @@
   "th": "คืนทุน",
   "action": "add",
   "ro": "khʉʉn thun",
-  "kind": "expression",
+  "kind": "word",
   "category": "お金・買い物",
   "frequency": 3,
   "senses": [
@@ -778,7 +778,7 @@
   "th": "ออกโรงพยาบาล",
   "action": "add",
   "ro": "ɔ̀ɔk roong phá yaa baan",
-  "kind": "expression",
+  "kind": "word",
   "category": "体・健康",
   "frequency": 3,
   "senses": [
@@ -806,7 +806,7 @@
   "th": "ปิดบัญชี",
   "action": "add",
   "ro": "pìt ban chii",
-  "kind": "expression",
+  "kind": "word",
   "category": "お金・買い物",
   "frequency": 3,
   "senses": [
@@ -855,7 +855,7 @@
   "th": "ลงโปรแกรม",
   "action": "add",
   "ro": "long proo krɛɛm",
-  "kind": "expression",
+  "kind": "word",
   "category": "仕事・学習",
   "frequency": 4,
   "senses": [
@@ -883,29 +883,8 @@
  {
   "id": "tl-52859",
   "th": "หน้ามน",
-  "action": "add",
-  "ro": "nâa mon",
-  "kind": "word",
-  "category": "性質・状態",
-  "frequency": 2,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "丸みのある愛嬌のある顔立ちの",
-    "en": "having a sweet, roundish face",
-    "pos": "形容詞・状態語",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "เธอเป็นคนหน้ามน ยิ้มเก่ง",
-     "ro": "thəə pen khon nâa mon yím kèng",
-     "ja": "彼女は愛嬌のある顔立ちで、よく笑う人だ。",
-     "en": "She has a sweet round face and smiles a lot.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "意味の細部（丸顔なのか、愛嬌のある顔立ち全般なのか）を確実に確認できないため。"
  },
  {
   "id": "tl-52898",
@@ -1023,7 +1002,7 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "クワイティアオ・ロート（米粉の皮で豚ひき肉などの具を巻いて蒸した料理）",
+    "ja": "クワイティアオ・ロート（具を巻いた米粉の蒸し麺）",
     "en": "rolled rice-noodle sheets with filling",
     "pos": "名詞",
     "use": "よく使う意味",
@@ -1038,7 +1017,7 @@
     }
    }
   ],
-  "note": "甘い醤油だれをかけて食べることが多い。"
+  "note": "米粉の皮で豚ひき肉・干しエビ・豆腐などを巻いて蒸し、甘い醤油だれをかけて食べる。"
  },
  {
   "id": "tl-55111",
@@ -1051,7 +1030,7 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "カノム・サイサイ（ココナッツ餡を米粉の生地で包み、バナナの葉にくるんで蒸したタイ菓子）",
+    "ja": "カノム・サイサイ（ココナッツ餡入りの蒸し菓子）",
     "en": "Thai steamed dessert with sweet coconut filling wrapped in banana leaf",
     "pos": "名詞",
     "use": "よく使う意味",
@@ -1065,13 +1044,14 @@
      "origin": "authored"
     }
    }
-  ]
+  ],
+  "note": "米粉の生地でココナッツ餡を包み、バナナの葉にくるんで蒸すタイ菓子。"
  },
  {
   "id": "tl-55150",
   "th": "เฟรนช์โทสต์",
   "action": "add",
-  "ro": "freen thóot",
+  "ro": "freen thóos",
   "kind": "word",
   "category": "食べ物・飲み物",
   "frequency": 2,
@@ -1086,7 +1066,7 @@
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
      "th": "เช้านี้ฉันทำเฟรนช์โทสต์กินกับกาแฟ",
-     "ro": "cháao níi chǎn tham freen thóot kin kàp kaa fɛɛ",
+     "ro": "cháao níi chǎn tham freen thóos kin kàp kaa fɛɛ",
      "ja": "今朝はフレンチトーストを作ってコーヒーと一緒に食べた。",
      "en": "This morning I made French toast and had it with coffee.",
      "origin": "authored"
@@ -1132,30 +1112,8 @@
  {
   "id": "tl-55267",
   "th": "เมคอัพ",
-  "action": "add",
-  "ro": "mêek àp",
-  "kind": "word",
-  "category": "一般語彙",
-  "frequency": 3,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "メイク・化粧（品）",
-    "en": "makeup",
-    "pos": "名詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "วันนี้เมคอัพของเธอสวยมาก",
-     "ro": "wan níi mêek àp khɔ̌ɔng thəə sǔuai mâak",
-     "ja": "今日の彼女のメイクはとてもきれいだ。",
-     "en": "Her makeup is really beautiful today.",
-     "origin": "authored"
-    }
-   }
-  ],
-  "note": "正書法ではเมกอัป。「化粧する」は普通แต่งหน้าを使う。"
+  "action": "skip",
+  "skipReason": "外来語の声調（เมค・อัพ）を確定できず、「化粧する」は既存のแต่งหน้าで教えられるため。"
  },
  {
   "id": "tl-55376",
@@ -1202,7 +1160,7 @@
   "th": "อยู่ไฟ",
   "action": "add",
   "ro": "yùu fai",
-  "kind": "expression",
+  "kind": "word",
   "category": "体・健康",
   "frequency": 2,
   "senses": [
@@ -1264,22 +1222,22 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "その場しのぎで何とか体裁を取り繕う・急場をしのぐ",
-    "en": "to scrape through and save face with a makeshift effort",
+    "ja": "大事なものを手放してでも体面を保つ・無理をして面目を守る",
+    "en": "to sacrifice what one needs in order to save face",
     "pos": "定型表現",
     "use": "よく使う意味",
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "รายงานนี้เขาทำแบบขายผ้าเอาหน้ารอด",
-     "ro": "raai ngaan níi khǎo tham bɛ̀ɛp khǎai phâa ao nâa rɔ̂ɔt",
-     "ja": "彼はこのレポートを、その場しのぎで何とか体裁だけ整えた。",
-     "en": "He just scraped this report together to save face.",
+     "th": "เขายอมขายรถเพื่อจัดงานแต่งให้ลูก แบบขายผ้าเอาหน้ารอด",
+     "ro": "khǎo yɔɔm khǎai rót phʉ̂ʉa càt ngaan tɛ̀ng hâi lûuk bɛ̀ɛp khǎai phâa ao nâa rɔ̂ɔt",
+     "ja": "彼は面目を保つために、車を売ってまで子どもの結婚式を挙げた。",
+     "en": "He even sold his car to hold his child's wedding, just to save face.",
      "origin": "authored"
     }
    }
   ],
-  "note": "字義は「着ている布を売ってでも顔（体面）を守る」。"
+  "note": "字義は「着ている布を売ってでも顔（体面）を守る」。口語では「その場しのぎで体裁を取り繕う」の意味でも使う。"
  },
  {
   "id": "tl-57600",
@@ -1610,7 +1568,7 @@
   "senses": [
    {
     "sourceSense": 1,
-    "ja": "（運悪く）悪いことに当たってしまう・貧乏くじを引く（โดนแจ็กพอต・ถูกแจ็กพอต）",
+    "ja": "（運悪く）悪いことに当たること・貧乏くじ（โดนแจ็กพอต・ถูกแจ็กพอตの形で）",
     "pos": "名詞",
     "speechStyle": "口語・スラング",
     "note": "宝くじの「ジャックポット（大当たり）」から。病気・予期せぬ妊娠・取り締まりなど悪いことに自分だけ当たったとき、冗談めかしてโดนแจ็กพอตと言う。本来の「大当たり」の意味でも使う。แจ็คพอตとも書く。",
