@@ -1,0 +1,454 @@
+[
+ {
+  "id": "tl-50125",
+  "verdict": "reject",
+  "issues": [
+   "既存のติดหวัด（tl-54350）・ติดเชื้อ（tl-02375）が教える「ติด＋病名＝うつる・感染する」の型に既存のโควิด（tl-54222）を入れただけの透明な組み合わせで、注記自体もその型だと認めているため"
+  ]
+ },
+ {
+  "id": "tl-50164",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50203",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50242",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50281",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50320",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50359",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50398",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50437",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50476",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50515",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50554",
+  "verdict": "fix",
+  "issues": [
+   "สาแก่ใจは主に「〜ให้สาแก่ใจ（気が済むまで・思う存分）」の形で使い、「ざまあみろ」の場面ではสะใจ（既存tl-60268）が自然。例文をその型に差し替え、注記を追加"
+  ],
+  "fixed": {
+   "id": "tl-50554",
+   "th": "สาแก่ใจ",
+   "action": "add",
+   "ro": "sǎa kɛ̀ɛ cai",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "胸がすく・気が済む（相手の失敗などに）",
+     "en": "satisfied, gratified (esp. seeing someone get their due)",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาร้องไห้ให้สาแก่ใจแล้วก็หลับไป",
+      "ro": "khǎo rɔ́ɔng hâi hâi sǎa kɛ̀ɛ cai lɛ́ɛo kɔ̂ɔ làp pai",
+      "ja": "彼は気が済むまで泣いてから眠った。",
+      "en": "He cried to his heart's content and then fell asleep.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "「〜ให้สาแก่ใจ（気が済むまで〜する）」の形が多い。人の失敗を見て「ざまあみろ」と思う口語はふつうสะใจ。"
+  }
+ },
+ {
+  "id": "tl-50593",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50632",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50671",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで เรื่อง をro-lexiconどおり rʉ̂ʉang に修正"
+  ],
+  "fixed": {
+   "id": "tl-50671",
+   "th": "ออนแอร์",
+   "action": "add",
+   "ro": "ɔɔn ɛɛ",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "放送される・オンエアする",
+     "en": "to be broadcast, go on air",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ละครเรื่องนี้จะออนแอร์เดือนหน้า",
+      "ro": "lá khɔɔn rʉ̂ʉang níi cà ɔɔn ɛɛ dʉʉan nâa",
+      "ja": "このドラマは来月から放送される。",
+      "en": "This drama will go on air next month.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-50710",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50749",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50788",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50827",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50866",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50905",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50944",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-50983",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-51780",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52062",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52376",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52415",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52454",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52493",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52532",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52571",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52610",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52649",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52688",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52727",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52766",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52805",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52844",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52883",
+  "verdict": "fix",
+  "issues": [
+   "例文のroで เรื่อง をro-lexiconどおり rʉ̂ʉang に修正"
+  ],
+  "fixed": {
+   "id": "tl-52883",
+   "th": "จบสวย",
+   "action": "add",
+   "ro": "còp sǔuai",
+   "kind": "word",
+   "category": "性質・状態",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "きれいに終わる・有終の美を飾る",
+     "en": "to end well, end on a high note",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ซีรีส์เรื่องนี้จบสวยมาก",
+      "ro": "sii rîi rʉ̂ʉang níi còp sǔuai mâak",
+      "ja": "このドラマはとてもきれいに終わった。",
+      "en": "This series had a really good ending.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-52922",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-52961",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-53000",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55057",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55096",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55135",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55174",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55213",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55252",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55291",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55400",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55944",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-55983",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-56592",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57546",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57585",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57899",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57938",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-57977",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58016",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58055",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58094",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58133",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58172",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58211",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58250",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58289",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58328",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60126",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60165",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60274",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60563",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-60680",
+  "verdict": "ok",
+  "issues": []
+ }
+]
