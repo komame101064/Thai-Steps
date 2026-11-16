@@ -1,0 +1,290 @@
+[
+ {
+  "id": "tl-58346",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58349",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58352",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58355",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58358",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58361",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58364",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58367",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58370",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58373",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58376",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58379",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58382",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58385",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58388",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58391",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58394",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58397",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58400",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58403",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58406",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58409",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58412",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58415",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58418",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58421",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58424",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58427",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58430",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58433",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58436",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58439",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58442",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58445",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58448",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58451",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58454",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58457",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58460",
+  "verdict": "fix",
+  "issues": [
+   "noteの「潮州語」由来は確証がない（閩南語 kun-su とする説明もある）ため「中国語の『軍師』に由来」に留めた"
+  ],
+  "fixed": {
+   "id": "tl-58460",
+   "th": "กุนซือ",
+   "action": "add",
+   "ro": "kun sʉʉ",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "参謀・ブレーン・相談役",
+     "en": "adviser, strategist, brains behind someone",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาเป็นกุนซือด้านเศรษฐกิจของพรรค",
+      "ro": "khǎo pen kun sʉʉ dâan sèet thà kìt khɔ̌ɔng phák",
+      "ja": "彼は党の経済面の参謀だ。",
+      "en": "He is the party's economic strategist.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "（スポーツ報道で）監督",
+     "en": "head coach (in sports news)",
+     "pos": "名詞",
+     "use": "よく使う別の意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "กุนซือทีมชาติไทยประกาศรายชื่อนักเตะ",
+      "ro": "kun sʉʉ thiim châat thai prà kàat raai chʉ̂ʉ nák tè",
+      "ja": "タイ代表の監督が選手リストを発表した。",
+      "en": "The Thai national team coach announced the squad.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "中国語の「軍師」に由来する語。"
+  }
+ },
+ {
+  "id": "tl-58463",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58466",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58469",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58472",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58475",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58478",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58481",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58484",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58487",
+  "verdict": "ok",
+  "issues": []
+ }
+]

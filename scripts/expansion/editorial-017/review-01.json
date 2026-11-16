@@ -1,0 +1,274 @@
+[
+ {
+  "id": "tl-58344",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58347",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58350",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58353",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58356",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58359",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58362",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58365",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58368",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58371",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58374",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58377",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58380",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58383",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58386",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58389",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58392",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58395",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58398",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58401",
+  "verdict": "reject",
+  "issues": [
+   "既存の見出し語 ดุลพินิจ（tl-45951「裁量・判断」）の綴りの異形で、意味も同じ。重複になるため登録しない"
+  ]
+ },
+ {
+  "id": "tl-58404",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58407",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58410",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58413",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58416",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58419",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58422",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58425",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58428",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58431",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58434",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58437",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58440",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58443",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58446",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58449",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58452",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58455",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58458",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58461",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58464",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58467",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58470",
+  "verdict": "fix",
+  "issues": [
+   "例文の訳「筋がとても読みやすい」は「読みやすい（文章が）」とも取れて曖昧。เดาง่าย＝予想しやすい に修正"
+  ],
+  "fixed": {
+   "id": "tl-58470",
+   "th": "พล็อต",
+   "action": "add",
+   "ro": "phlɔ́t",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（物語の）筋・プロット",
+     "en": "plot (of a story)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "หนังเรื่องนี้พล็อตเดาง่ายมาก",
+      "ro": "nǎng rʉ̂ʉang níi phlɔ́t dao ngâai mâak",
+      "ja": "この映画は筋書きがとても予想しやすい。",
+      "en": "This movie's plot is very predictable.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "英語 plot から。"
+  }
+ },
+ {
+  "id": "tl-58473",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58476",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58479",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58482",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58485",
+  "verdict": "ok",
+  "issues": []
+ }
+]
