@@ -114,7 +114,7 @@
     }
    }
   ],
-  "note": "英語 presenter から。正式な綴りは พรีเซ็นเตอร์ で、เซน は短く sen と発音する。"
+  "note": "英語 presenter から。พรีเซ็นเตอร์ とも書く。เซน は短く sen と発音する。"
  },
  {
   "id": "tl-50289",
@@ -310,13 +310,15 @@
     "en": "game console",
     "pos": "名詞",
     "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
     "example": {
      "th": "น้องอยากได้เครื่องเกมเป็นของขวัญวันเกิด",
      "ro": "nɔ́ɔng yàak dâai khrʉ̂ʉang keem pen khɔ̌ɔng khwǎn wan kə̀ət",
-     "ja": "弟は誕生日プレゼントにゲーム機を欲しがっている。",
-     "en": "My younger brother wants a game console for his birthday.",
+     "ja": "弟（妹）は誕生日プレゼントにゲーム機を欲しがっている。",
+     "en": "My younger sibling wants a game console for their birthday.",
      "origin": "authored"
     }
    }
@@ -349,7 +351,7 @@
     }
    }
   ],
-  "note": "「ดูไพ่ทาโรต์」で「タロット占いをする（してもらう）」。ไพ่ทาโร่ とも書き、その場合は rôo と下がる調子で読む。"
+  "note": "「ดูไพ่ทาโรต์」で「タロット占いをする（してもらう）」。ไพ่ทาโร่ とも書く。発音は thaa roo のほか thaa rôo とも聞かれる。"
  },
  {
   "id": "tl-50796",
@@ -690,29 +692,8 @@
  {
   "id": "tl-52696",
   "th": "เรียงลำดับ",
-  "action": "add",
-  "ro": "riiang lam dàp",
-  "kind": "word",
-  "category": "日常の動作",
-  "frequency": 4,
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "順番に並べる・並べ替える",
-    "en": "to arrange in order, sort",
-    "pos": "動詞",
-    "use": "よく使う意味",
-    "registerTags": [],
-    "speechStyle": "標準語（口語限定ではない）",
-    "example": {
-     "th": "ช่วยเรียงลำดับเอกสารตามวันที่ด้วย",
-     "ro": "chûuai riiang lam dàp èek kà sǎan taam wan thîi dûuai",
-     "ja": "書類を日付順に並べてください。",
-     "en": "Please sort the documents by date.",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "既存の เรียง（並べる・順番に配置する）と ลำดับ（順序をつける）の語義がそのまま教えている組み合わせのため。"
  },
  {
   "id": "tl-52735",
@@ -1038,7 +1019,7 @@
   "id": "tl-55260",
   "th": "บลัชออน",
   "action": "add",
-  "ro": "blàt ɔɔn",
+  "ro": "blát ɔɔn",
   "kind": "word",
   "category": "一般語彙",
   "frequency": 3,
@@ -1053,14 +1034,14 @@
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
      "th": "ปัดบลัชออนนิดหน่อยหน้าจะดูสดใสขึ้น",
-     "ro": "pàt blàt ɔɔn nít nɔ̀ɔi nâa cà duu sòt sǎi khʉ̂n",
+     "ro": "pàt blát ɔɔn nít nɔ̀ɔi nâa cà duu sòt sǎi khʉ̂n",
      "ja": "チークを少しのせると顔が明るく見える。",
      "en": "A little blush makes your face look brighter.",
      "origin": "authored"
     }
    }
   ],
-  "note": "英語 blush on から。「ปัดแก้ม（頬紅をはたく）」とも言う。"
+  "note": "英語 blush on から。綴りの規則どおりなら blàt だが、ふつう blát と高く発音する。「ปัดแก้ม（頬紅をはたく）」とも言う。"
  },
  {
   "id": "tl-55299",
@@ -1100,7 +1081,7 @@
     }
    }
   ],
-  "note": "直訳は「ベトナムのゆりかご」。เปล だけでは主にゆりかごを指す。"
+  "note": "直訳は「ベトナムのゆりかご」。เปล はゆりかご・ハンモック・担架を広く指し、ハンモックをはっきり言うときに เปลญวน と言う。"
  },
  {
   "id": "tl-55991",
@@ -1158,7 +1139,7 @@
     }
    }
   ],
-  "note": "ขอบใจ（ありがとう、目下・親しい相手に）に อก（胸）を添えて調子を整えた言い方。友人や年下に冗談めかして使う。"
+  "note": "ขอบใจ（ありがとう、親しい相手・目下に）を長くしたくだけた言い方。"
  },
  {
   "id": "tl-57554",
