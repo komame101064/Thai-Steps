@@ -50,10 +50,10 @@
     "registerTags": [],
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
-     "th": "ธนาคารเปิดเฉพาะวันทำงาน",
-     "ro": "thá naa khaan pə̀ət chà phɔ́ wan tham ngaan",
-     "ja": "銀行は平日しか開いていない。",
-     "en": "The bank is open only on working days.",
+     "th": "วันทำงานฉันต้องตื่นตีห้าครึ่ง",
+     "ro": "wan tham ngaan chǎn tɔ̂ɔng tʉ̀ʉn tii hâa khrʉ̂ng",
+     "ja": "勤務日は朝5時半に起きなければならない。",
+     "en": "On working days I have to get up at 5:30.",
      "origin": "authored"
     }
    }
@@ -449,24 +449,6 @@
      "ro": "thəə tham ngaan pen phii aa khɔ̌ɔng roong rɛɛm",
      "ja": "彼女はホテルの広報として働いている。",
      "en": "She works in PR for a hotel.",
-     "origin": "authored"
-    }
-   },
-   {
-    "sourceSense": 2,
-    "ja": "（イベント・店頭の）販促スタッフ・キャンペーンスタッフ",
-    "en": "promotional staff (at events, shops)",
-    "pos": "名詞",
-    "use": "よく使う別の意味",
-    "registerTags": [
-     "colloquial"
-    ],
-    "speechStyle": "口語",
-    "example": {
-     "th": "งานนี้รับสมัครพีอาร์หลายตำแหน่ง",
-     "ro": "ngaan níi ráp sà màk phii aa lǎai tam nɛ̀ng",
-     "ja": "このイベントでは販促スタッフを何人も募集している。",
-     "en": "This event is recruiting several promo staff.",
      "origin": "authored"
     }
    }
@@ -1037,7 +1019,7 @@
     "example": {
      "th": "เพื่อนชวนฉันไปทำขายตรง",
      "ro": "phʉ̂ʉan chuuan chǎn pai tham khǎai trong",
-     "ja": "友達に直販（ネットワークビジネス）の仕事に誘われた。",
+     "ja": "友達に直販の仕事に誘われた。",
      "en": "A friend invited me to do direct sales.",
      "origin": "authored"
     }
@@ -1691,7 +1673,7 @@
     "speechStyle": "標準語（口語限定ではない）",
     "example": {
      "th": "ช่วยส่งแฟกซ์เอกสารนี้ให้หน่อย",
-     "ro": "chûuai sòng fɛ́k èek kà sǎan níi hâi nɔ̀i",
+     "ro": "chûuai sòng fɛ́k èek kà sǎan níi hâi nɔ̀ɔi",
      "ja": "この書類をファックスで送ってください。",
      "en": "Please fax this document.",
      "origin": "authored"
@@ -1860,7 +1842,7 @@
     "ja": "すごくかっこいい・超イケメン",
     "pos": "形容詞・状態語",
     "speechStyle": "口語・スラング",
-    "note": "หล่อ（ハンサム）を強めたくだけた言い方。友人同士で冗談めかしてほめるときに使い、หล่อลากไส้ とも言う。",
+    "note": "หล่อ（ハンサム）を強めたくだけた言い方。友人同士で冗談めかしてほめるときに使う。さらに強めて หล่อลากดิน とも言う。",
     "example": {
      "th": "วันนี้แต่งตัวหล่อลากเลยนะ จะไปไหน",
      "ro": "wan níi tɛ̀ng tuua lɔ̀ɔ lâak ləəi ná cà pai nǎi",
@@ -1923,7 +1905,7 @@
     "note": "イサーン語（東北方言）の感嘆詞。東北出身の人の会話や、方言を交えたお笑い・ドラマでよく聞く。標準語の โห や อ้าว に近い。",
     "example": {
      "th": "ฮ่วย ลืมเอากระเป๋าเงินมาอีกแล้ว",
-     "ro": "hûuai lʉʉm ao krà pǎo ngən maa ìik lɛ́ɛo",
+     "ro": "hûuai lʉʉm ao krà pǎo ngəən maa ìik lɛ́ɛo",
      "ja": "うわっ、また財布を持ってくるのを忘れた。",
      "context": "東北出身の友人のひとりごと",
      "origin": "authored"
@@ -1934,31 +1916,7 @@
  {
   "id": "tl-60689",
   "th": "เรือผี",
-  "action": "add",
-  "ro": "rʉʉa phǐi",
-  "kind": "word",
-  "category": "スラング｜ネット・SNS",
-  "frequency": 2,
-  "adult": false,
-  "tags": [
-   "colloquial",
-   "slang"
-  ],
-  "senses": [
-   {
-    "sourceSense": 1,
-    "ja": "（根拠がほとんどないのに）ファンだけが推すカップリング",
-    "pos": "名詞",
-    "speechStyle": "口語・スラング",
-    "note": "ファン用語。เรือ（推しカップル・カップリング）に ผี（幽霊）を付け、本人同士の絡みや公式の後押しがほとんどないカップルを冗談めかして言う。",
-    "example": {
-     "th": "คู่นี้เป็นเรือผี สองคนแทบไม่รู้จักกันเลย",
-     "ro": "khûu níi pen rʉʉa phǐi sɔ̌ɔng khon thɛ̂ɛp mâi rúu càk kan ləəi",
-     "ja": "このカップリングは妄想カプで、二人はほとんど知り合いでもない。",
-     "context": "ファン同士のSNSでの会話",
-     "origin": "authored"
-    }
-   }
-  ]
+  "action": "skip",
+  "skipReason": "ファン用語としての意味（非公式カップリング）を確認できる資料が見つからず、語義を確定できないため。"
  }
 ]
