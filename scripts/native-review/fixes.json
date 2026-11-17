@@ -956,8 +956,8 @@
 "key": "tl-20451#3",
 "field": "example.ro",
 "from": "ngaan níi mǔu mǔu mâi tɔ̂ng hùang",
-"to": "ngaan níi mǔu mǔu mâi tɔ̂ɔng hùang",
-"reason": "‑้อง は長母音（約束）"
+"to": "ngaan níi mǔu mǔu mâi tɔ̂ɔng hùuang",
+"reason": "‑้อง は長母音（約束）／長い二重母音は iia/uua と書く（表記の約束）"
 },
 {
 "file": "slang-examples.json",
@@ -48785,5 +48785,297 @@
 "to": "本当か？",
 "reason": "「書き言葉」は文語ラベルで示す（AI精査 2026-11）",
 "sense": 1
+},
+{
+"file": "word-bank.json",
+"id": "tl-01443",
+"field": "sense.ja",
+"sense": 2,
+"from": "偶然",
+"to": "偶然の・たまたまの",
+"reason": "語義1（副詞「偶然」）と同じ訳だったため、形容詞の用法を区別"
+},
+{
+"file": "word-bank.json",
+"id": "tl-02317",
+"field": "sense.ja",
+"sense": 1,
+"from": "後に",
+"to": "後で・のちに",
+"reason": "語義2と同じ訳だったため区別"
+},
+{
+"file": "word-bank.json",
+"id": "tl-02317",
+"field": "sense.ja",
+"sense": 2,
+"from": "後に",
+"to": "〜の後で（ภายหลังจาก の形で）",
+"reason": "前置詞の用法を語義1と区別"
+},
+{
+"file": "word-bank.json",
+"id": "tl-01979",
+"field": "sense.ja",
+"sense": 2,
+"from": "見えない",
+"to": "目に見えない（もの）",
+"reason": "語義1（動詞「見えない」）と同じ訳だったため、形容詞の用法を区別"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-05010#1",
+"field": "example.ro",
+"from": "mɛ̂ɛ ao kài pai chúp pɛ̂ng lɛ́ɛo thɔ̂ɔt",
+"to": "mɛ̂ɛ ao kài pai chúp pɛ̂ɛng lɛ́ɛo thɔ̂ɔt",
+"reason": "辞書（見出し語・ro-lexicon）の読みに統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-45650#1",
+"field": "example.ro",
+"from": "khà nǒm pang tham càak pɛ̂ng khâao sǎa lii",
+"to": "khà nǒm pang tham càak pɛ̂ɛng khâao sǎa lii",
+"reason": "辞書（見出し語・ro-lexicon）の読みに統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-47525#1",
+"field": "example.ro",
+"from": "mɛ̂ɛ kháa môo pɛ̂ng thúk cháao",
+"to": "mɛ̂ɛ kháa môo pɛ̂ɛng thúk cháao",
+"reason": "辞書（見出し語・ro-lexicon）の読みに統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-48462#2",
+"field": "example.ro",
+"from": "mɛ̂ɛ kháa yɔ̀ɔt pɛ̂ng khà nǒm taan long thûuai tà lai",
+"to": "mɛ̂ɛ kháa yɔ̀ɔt pɛ̂ɛng khà nǒm taan long thûuai tà lai",
+"reason": "辞書（見出し語・ro-lexicon）の読みに統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-56546#1",
+"field": "example.ro",
+"from": "sài yíit long pai lɛ́ɛo phák pɛ̂ng wái nʉ̀ng chûua moong",
+"to": "sài yíit long pai lɛ́ɛo phák pɛ̂ɛng wái nʉ̀ng chûua moong",
+"reason": "辞書（見出し語・ro-lexicon）の読みに統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-56551#2",
+"field": "example.ro",
+"from": "chái máai phaai khon pɛ̂ng hâi khâo kan",
+"to": "chái máai phaai khon pɛ̂ɛng hâi khâo kan",
+"reason": "辞書（見出し語・ro-lexicon）の読みに統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-57210#1",
+"field": "example.ro",
+"from": "ráan níi khǎai khà nǒm pang sǎng khà yǎa à rɔ̀i mâak",
+"to": "ráan níi khǎai khà nǒm pang sǎng khà yǎa à rɔ̀ɔi mâak",
+"reason": "辞書（見出し語・ro-lexicon）の読みに統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-55019#1",
+"field": "example.ro",
+"from": "khâao tôm kin kàp phàk kàat dɔɔng à rɔ̀i mâak",
+"to": "khâao tôm kin kàp phàk kàat dɔɔng à rɔ̀ɔi mâak",
+"reason": "辞書（見出し語・ro-lexicon）の読みに統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-55058#1",
+"field": "example.ro",
+"from": "khâao krìiap pàak mɔ̂ɔ ráan níi à rɔ̀i mâak",
+"to": "khâao krìiap pàak mɔ̂ɔ ráan níi à rɔ̀ɔi mâak",
+"reason": "辞書（見出し語・ro-lexicon）の読みに統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-56714#1",
+"field": "example.ro",
+"from": "ráan níi à rɔ̀i tɛ̀ɛ raa khaa rɛɛng pai nɔ̀ɔi",
+"to": "ráan níi à rɔ̀ɔi tɛ̀ɛ raa khaa rɛɛng pai nɔ̀ɔi",
+"reason": "辞書（見出し語・ro-lexicon）の読みに統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-50773#1",
+"field": "example.ro",
+"from": "khǎo pen khon châang kin ráan à rɔ̀i thîi nǎi rúu mòt",
+"to": "khǎo pen khon châang kin ráan à rɔ̀ɔi thîi nǎi rúu mòt",
+"reason": "辞書（見出し語・ro-lexicon）の読みに統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-57628#1",
+"field": "example.ro",
+"from": "ngən khɛ̂ɛ níi sǎm ràp khǎo khǒn nâa khɛ̂ng mâi rûuang rɔ̀ɔk",
+"to": "ngəən khɛ̂ɛ níi sǎm ràp khǎo khǒn nâa khɛ̂ng mâi rûuang rɔ̀ɔk",
+"reason": "辞書（見出し語・ro-lexicon）の読みに統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-58424#1",
+"field": "example.ro",
+"from": "yàa chái ngən kəən tuua",
+"to": "yàa chái ngəən kəən tuua",
+"reason": "辞書（見出し語・ro-lexicon）の読みに統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-52611#1",
+"field": "example.ro",
+"from": "chûuai khrɔ́ɔp rûup níi hâi nɔ̀i",
+"to": "chûuai khrɔ́ɔp rûup níi hâi nɔ̀ɔi",
+"reason": "辞書（見出し語・ro-lexicon）の読みに統一"
+},
+{
+"file": "more-examples.json",
+"key": "tl-45563#1",
+"field": "example.ro",
+"from": "lǎng fǒn tòk mii ɛ̀ng náam yùu bon thà nǒn",
+"to": "lǎng fǒn tòk mii ɛ̀ɛng náam yùu bon thà nǒn",
+"reason": "辞書（見出し語・ro-lexicon）の読みに統一"
+},
+{
+"file": "word-bank.json",
+"id": "tl-03063",
+"field": "ro",
+"from": "dòot dìao",
+"to": "dòot dìiao",
+"reason": "เกี่ยว・เดี่ยว は長い二重母音 iia（表記の約束）"
+},
+{
+"file": "word-bank.json",
+"id": "tl-04215",
+"field": "ro",
+"from": "khwaam kìao khɔ̂ng",
+"to": "khwaam kìiao khɔ̂ng",
+"reason": "เกี่ยว・เดี่ยว は長い二重母音 iia（表記の約束）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-48184",
+"field": "ro",
+"from": "phûu kìao khɔ̂ng",
+"to": "phûu kìiao khɔ̂ng",
+"reason": "เกี่ยว・เดี่ยว は長い二重母音 iia（表記の約束）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51409",
+"field": "ro",
+"from": "bâan dìao",
+"to": "bâan dìiao",
+"reason": "เกี่ยว・เดี่ยว は長い二重母音 iia（表記の約束）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-53897",
+"field": "ro",
+"from": "tiiang dìao",
+"to": "tiiang dìiao",
+"reason": "เกี่ยว・เดี่ยว は長い二重母音 iia（表記の約束）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-54817",
+"field": "ro",
+"from": "mɛ̂ɛ líiang dìao",
+"to": "mɛ̂ɛ líiang dìiao",
+"reason": "เกี่ยว・เดี่ยว は長い二重母音 iia（表記の約束）"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-55982",
+"field": "ro",
+"from": "khrɔ̂ɔp khruua dìao",
+"to": "khrɔ̂ɔp khruua dìiao",
+"reason": "เกี่ยว・เดี่ยว は長い二重母音 iia（表記の約束）"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03063#1",
+"field": "example.ro",
+"from": "khǎo rúu sʉ̀k dòot dìao tâng tɛ̀ɛ yáai maa thîi nîi",
+"to": "khǎo rúu sʉ̀k dòot dìiao tâng tɛ̀ɛ yáai maa thîi nîi",
+"reason": "長い二重母音は iia/uua と書く（表記の約束）"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-03063#2",
+"field": "example.ro",
+"from": "dèk khon nán thùuk dòot dìao nai hɔ̂ɔng riian",
+"to": "dèk khon nán thùuk dòot dìiao nai hɔ̂ɔng riian",
+"reason": "長い二重母音は iia/uua と書く（表記の約束）"
+},
+{
+"file": "sense-examples.json",
+"key": "tl-04215#1",
+"field": "example.ro",
+"from": "sɔ̌ɔng khá dii níi mii khwaam kìao khɔ̂ng kan",
+"to": "sɔ̌ɔng khá dii níi mii khwaam kìiao khɔ̂ng kan",
+"reason": "長い二重母音は iia/uua と書く（表記の約束）"
+},
+{
+"file": "more-examples.json",
+"key": "tl-48184#1",
+"field": "example.ro",
+"from": "tam rùuat kam lang sɔ̀ɔp sǔuan phûu kìao khɔ̂ng thúk khon",
+"to": "tam rùuat kam lang sɔ̀ɔp sǔuan phûu kìiao khɔ̂ng thúk khon",
+"reason": "長い二重母音は iia/uua と書く（表記の約束）"
+},
+{
+"file": "more-examples.json",
+"key": "tl-51409#1",
+"field": "example.ro",
+"from": "khǎo sʉ́ʉ bâan dìao nai mùu bâan",
+"to": "khǎo sʉ́ʉ bâan dìiao nai mùu bâan",
+"reason": "長い二重母音は iia/uua と書く（表記の約束）"
+},
+{
+"file": "more-examples.json",
+"key": "tl-53897#1",
+"field": "example.ro",
+"from": "khɔ̌ɔ hɔ̂ɔng tiiang dìao nʉ̀ng hɔ̂ɔng khráp",
+"to": "khɔ̌ɔ hɔ̂ɔng tiiang dìiao nʉ̀ng hɔ̂ɔng khráp",
+"reason": "長い二重母音は iia/uua と書く（表記の約束）"
+},
+{
+"file": "more-examples.json",
+"key": "tl-54817#1",
+"field": "example.ro",
+"from": "thəə pen mɛ̂ɛ líiang dìao thîi tham ngaan nàk mâak",
+"to": "thəə pen mɛ̂ɛ líiang dìiao thîi tham ngaan nàk mâak",
+"reason": "長い二重母音は iia/uua と書く（表記の約束）"
+},
+{
+"file": "more-examples.json",
+"key": "tl-55377#1",
+"field": "example.ro",
+"from": "bâan fɛ̀ɛt raa khaa thùuk kwàa bâan dìao",
+"to": "bâan fɛ̀ɛt raa khaa thùuk kwàa bâan dìiao",
+"reason": "長い二重母音は iia/uua と書く（表記の約束）"
+},
+{
+"file": "more-examples.json",
+"key": "tl-50656#1",
+"field": "example.ro",
+"from": "khǎo rian còp pɔɔ wɔɔ sɔ̌ɔ sǎa khǎa fai fáa",
+"to": "khǎo riian còp pɔɔ wɔɔ sɔ̌ɔ sǎa khǎa fai fáa",
+"reason": "長い二重母音は iia/uua と書く（表記の約束）"
+},
+{
+"file": "more-examples.json",
+"key": "tl-55982#1",
+"field": "example.ro",
+"from": "pàt cù ban khon nai mʉʉang sùuan yài pen khrɔ̂ɔp khruua dìao",
+"to": "pàt cù ban khon nai mʉʉang sùuan yài pen khrɔ̂ɔp khruua dìiao",
+"reason": "長い二重母音は iia/uua と書く（表記の約束）"
 }
 ]
