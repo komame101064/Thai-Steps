@@ -49419,5 +49419,473 @@
 "from": "既存の ชิป（カップルを推す）をする人。BLドラマやアイドルのファンの間で使う。",
 "to": "ชิป（カップルを推す）をする人。BLドラマやアイドルのファンの間で使う。",
 "reason": "「既存の」はデータ編集上の言葉で、学習者向けの注記として不自然。"
+},
+{
+"file": "word-bank.json",
+"id": "tl-02156",
+"field": "sense.ja",
+"sense": 1,
+"from": "はい・承知しました（男性の丁寧な返答）",
+"to": "はい・承知しました（丁寧な返答）",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank.json",
+"id": "tl-02156",
+"field": "sense.en",
+"sense": 1,
+"from": "yes, sir (male)",
+"to": "yes, sir",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51801",
+"field": "sense.ja",
+"sense": 1,
+"from": "こんにちは・さようなら（男性の丁寧なあいさつ）",
+"to": "こんにちは・さようなら（丁寧なあいさつ）",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51801",
+"field": "sense.en",
+"sense": 1,
+"from": "hello / goodbye (male speaker, polite)",
+"to": "hello / goodbye (polite)",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51802",
+"field": "sense.ja",
+"sense": 1,
+"from": "こんにちは・さようなら（女性の丁寧なあいさつ）",
+"to": "こんにちは・さようなら（丁寧なあいさつ）",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51802",
+"field": "sense.en",
+"sense": 1,
+"from": "hello / goodbye (female speaker, polite)",
+"to": "hello / goodbye (polite)",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51803",
+"field": "sense.ja",
+"sense": 1,
+"from": "ありがとうございます（男性）",
+"to": "ありがとうございます",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51803",
+"field": "sense.en",
+"sense": 1,
+"from": "thank you (male speaker, polite)",
+"to": "thank you (polite)",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51804",
+"field": "sense.ja",
+"sense": 1,
+"from": "ありがとうございます（女性）",
+"to": "ありがとうございます",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51804",
+"field": "sense.en",
+"sense": 1,
+"from": "thank you (female speaker, polite)",
+"to": "thank you (polite)",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51807",
+"field": "sense.ja",
+"sense": 1,
+"from": "すみません・ごめんなさい（男性・謝罪）",
+"to": "すみません・ごめんなさい（謝罪）",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51807",
+"field": "sense.en",
+"sense": 1,
+"from": "sorry, I apologize (male speaker)",
+"to": "sorry, I apologize",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51807",
+"field": "sense.ja",
+"sense": 2,
+"from": "すみません（男性・呼びかけ）",
+"to": "すみません（呼びかけ）",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51807",
+"field": "sense.en",
+"sense": 2,
+"from": "excuse me (to get attention; male speaker)",
+"to": "excuse me (to get attention)",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51808",
+"field": "sense.ja",
+"sense": 1,
+"from": "すみません・ごめんなさい（女性・謝罪）",
+"to": "すみません・ごめんなさい（謝罪）",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51808",
+"field": "sense.en",
+"sense": 1,
+"from": "sorry, I apologize (female speaker)",
+"to": "sorry, I apologize",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51808",
+"field": "sense.ja",
+"sense": 2,
+"from": "すみません（女性・呼びかけ）",
+"to": "すみません（呼びかけ）",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51808",
+"field": "sense.en",
+"sense": 2,
+"from": "excuse me (to get attention or pass; female speaker)",
+"to": "excuse me (to get attention or pass)",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51810",
+"field": "sense.ja",
+"sense": 1,
+"from": "大丈夫です・気にしないでください・どういたしまして（男性）",
+"to": "大丈夫です・気にしないでください・どういたしまして",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51810",
+"field": "sense.en",
+"sense": 1,
+"from": "it’s okay, never mind, you’re welcome (male speaker)",
+"to": "it’s okay, never mind, you’re welcome",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51810",
+"field": "sense.ja",
+"sense": 2,
+"from": "いいえ、結構です（男性・申し出を断る）",
+"to": "いいえ、結構です（申し出を断る）",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51810",
+"field": "sense.en",
+"sense": 2,
+"from": "no, thank you (declining an offer; male speaker)",
+"to": "no, thank you (declining an offer)",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51811",
+"field": "sense.ja",
+"sense": 1,
+"from": "大丈夫です・気にしないでください・どういたしまして（女性）",
+"to": "大丈夫です・気にしないでください・どういたしまして",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51811",
+"field": "sense.en",
+"sense": 1,
+"from": "it’s okay, never mind, you’re welcome (female speaker)",
+"to": "it’s okay, never mind, you’re welcome",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51811",
+"field": "sense.ja",
+"sense": 2,
+"from": "いいえ、結構です（女性・申し出を断る）",
+"to": "いいえ、結構です（申し出を断る）",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51811",
+"field": "sense.en",
+"sense": 2,
+"from": "no, thank you (declining an offer; female speaker)",
+"to": "no, thank you (declining an offer)",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51832",
+"field": "sense.ja",
+"sense": 1,
+"from": "元気です（男性）",
+"to": "元気です",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51832",
+"field": "sense.en",
+"sense": 1,
+"from": "I’m fine (male speaker)",
+"to": "I’m fine",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51833",
+"field": "sense.ja",
+"sense": 1,
+"from": "元気です（女性）",
+"to": "元気です",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51833",
+"field": "sense.en",
+"sense": 1,
+"from": "I’m fine (female speaker)",
+"to": "I’m fine",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51860",
+"field": "sense.ja",
+"sense": 1,
+"from": "いくらですか（男性）",
+"to": "いくらですか",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51860",
+"field": "sense.en",
+"sense": 1,
+"from": "how much is it? (male speaker)",
+"to": "how much is it?",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51861",
+"field": "sense.ja",
+"sense": 1,
+"from": "いくらですか（女性）",
+"to": "いくらですか",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51861",
+"field": "sense.en",
+"sense": 1,
+"from": "how much is it? (female speaker)",
+"to": "how much is it?",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51945",
+"field": "sense.ja",
+"sense": 1,
+"from": "はい、いいですよ・かしこまりました（男性）",
+"to": "はい、いいですよ・かしこまりました",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51945",
+"field": "sense.en",
+"sense": 1,
+"from": "yes, sure (male speaker)",
+"to": "yes, sure",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51946",
+"field": "sense.ja",
+"sense": 1,
+"from": "はい、いいですよ・かしこまりました（女性）",
+"to": "はい、いいですよ・かしこまりました",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-51946",
+"field": "sense.en",
+"sense": 1,
+"from": "yes, sure (female speaker)",
+"to": "yes, sure",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52107",
+"field": "sense.ja",
+"sense": 1,
+"from": "どういたしまして・喜んで（男性）",
+"to": "どういたしまして・喜んで",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52107",
+"field": "sense.en",
+"sense": 1,
+"from": "you're welcome / my pleasure (male speaker)",
+"to": "you're welcome / my pleasure",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52108",
+"field": "sense.ja",
+"sense": 1,
+"from": "どういたしまして・喜んで（女性）",
+"to": "どういたしまして・喜んで",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52108",
+"field": "sense.en",
+"sense": 1,
+"from": "you're welcome / my pleasure (female speaker)",
+"to": "you're welcome / my pleasure",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52133",
+"field": "sense.ja",
+"sense": 1,
+"from": "もしもし（男性）",
+"to": "もしもし",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52133",
+"field": "sense.en",
+"sense": 1,
+"from": "hello (on the phone, male speaker)",
+"to": "hello (on the phone)",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52134",
+"field": "sense.ja",
+"sense": 1,
+"from": "もしもし（女性）",
+"to": "もしもし",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52134",
+"field": "sense.en",
+"sense": 1,
+"from": "hello (on the phone, female speaker)",
+"to": "hello (on the phone)",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52363",
+"field": "sense.ja",
+"sense": 1,
+"from": "わかりました・承知しました（男性）",
+"to": "わかりました・承知しました",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52363",
+"field": "sense.en",
+"sense": 1,
+"from": "OK, agreed (male speaker, polite)",
+"to": "OK, agreed (polite)",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52364",
+"field": "sense.ja",
+"sense": 1,
+"from": "かしこまりました・いいですよ（男性）",
+"to": "かしこまりました・いいですよ",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52364",
+"field": "sense.en",
+"sense": 1,
+"from": "sure, certainly (male speaker, polite)",
+"to": "sure, certainly (polite)",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52365",
+"field": "sense.ja",
+"sense": 1,
+"from": "かしこまりました・いいですよ（女性）",
+"to": "かしこまりました・いいですよ",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
+},
+{
+"file": "word-bank-more.json",
+"id": "tl-52365",
+"field": "sense.en",
+"sense": 1,
+"from": "sure, certainly (female speaker, polite)",
+"to": "sure, certainly (polite)",
+"reason": "利用者の要望：ครับ／ค่ะ の句に男性・女性の表記を付けない"
 }
 ]
