@@ -57,5 +57,29 @@ for w in words:
         rs=[readings(t) if KANJI.search(t) else [] for t in ts]
         if any(rs):per[str(m['sourceSense'])]=rs;terms+=sum(bool(r) for r in rs)
     if per:out.setdefault(w['id'],{}).update(per)
-(P/'dist/ja-readings.js').write_text('// Hiragana readings of Japanese glosses for dictionary search only (SudachiPy + pykakasi + everyday readings); not shown in the app.\nconst JA_READINGS='+json.dumps(out,ensure_ascii=False,separators=(',',':'))+';\n')
+# Kanji spellings of glosses written in kana (美味しい → おいしい, 沢山 → たくさん): a query typed in kanji also finds
+# the kana gloss. Single words only (Sudachi normalized form), plus a few everyday alternative spellings.
+ALT_KANJI={'綺麗':'きれい','奇麗':'きれい','可愛い':'かわいい','美味い':'うまい','旨い':'うまい','御免':'ごめん','有難う':'ありがとう','宜しく':'よろしく','下さい':'ください','頂く':'いただく','出来る':'できる','分かる':'わかる','解る':'わかる','判る':'わかる','御飯':'ごはん','煩い':'うるさい','五月蝿い':'うるさい','嫌い':'きらい','凄い':'すごい','素晴らしい':'すばらしい','易しい':'やさしい','優しい':'やさしい','面倒臭い':'めんどうくさい','駄目':'だめ','大丈夫':'だいじょうぶ'}
+kana_terms=set()
+for w in words:
+    for m in w['meanings']:
+        for t in ja_terms(m['ja']):
+            if re.fullmatch(r'[ぁ-ゖー]+',t):kana_terms.add(t)
+alias={}
+for t in sorted(kana_terms):
+    ms=SUDACHI.tokenize(t,MODE)
+    if len(ms)==1:
+        n=ms[0].normalized_form()
+        if n!=t and KANJI.search(n) and len(n)>=2 and len(t)>=3 and n not in alias:alias[n]=t
+for k,v in ALT_KANJI.items():
+    if v in kana_terms:alias.setdefault(k,v)
+# Japanese synonym groups for search (scripts/search/ja-synonyms.json, AI-made): kept when at least two members
+# are gloss terms in the dictionary, so each group links real entries.
+SYN=P/'scripts/search/ja-synonyms.json'
+cores={re.sub(r'(?:を|に)?する$','',t) for w in words for m in w['meanings'] for t in ja_terms(m['ja'])}
+synonyms=[]
+for g in (json.loads(SYN.read_text()) if SYN.exists() else []):
+    g=[x for x in dict.fromkeys(x.strip() for x in g) if x]
+    if 2<=len(g)<=12 and sum(x in cores for x in g)>=2:synonyms.append(g)
+(P/'dist/ja-readings.js').write_text('// Hiragana readings of Japanese glosses for dictionary search only (SudachiPy + pykakasi + everyday readings); not shown in the app.\nconst JA_READINGS='+json.dumps(out,ensure_ascii=False,separators=(',',':'))+';\nconst JA_KANJI_ALIAS='+json.dumps(alias,ensure_ascii=False,separators=(',',':'))+';\nconst JA_SYNONYMS='+json.dumps(synonyms,ensure_ascii=False,separators=(',',':'))+';\n')
 print(f'{len(out)} words, {terms} kanji terms with readings')

@@ -37,4 +37,8 @@ vm.runInContext('this.t={load:loadWordBank,results:dictionaryResults,setLevel:n=
  assert(top('ん？',3).includes('หืม'));assert(ths('ん？').length<20);
  // The dictionary ignores the study range and theme filters.
  t.setLevel(300);t.setTopic('food');assert.equal(ths('家族')[0],'ครอบครัว');assert(ths('ありがとう').includes('ขอบคุณ'));
+ // Same-meaning words: a partial query (性行) also lists words glossed セックス・性交・エッチ under 似た意味の語; an exact
+ // synonym (スマホ → 携帯電話) ranks with exact matches; a kanji spelling finds a kana gloss (美味しい → おいしい).
+ {const r=t.results('性行'),th=r.map(x=>x.w.th);assert(th.includes('ปี้')&&th.includes('เย็ด')&&th.includes('อึ๊บ'));assert(r.filter(x=>x.via==='similar').every(x=>x.score>8&&x.score<t.WEAK));
+  assert(top('スマホ',5).includes('มือถือ'));assert(top('美味しい',3).includes('อร่อย'));assert(top('エッチ',6).includes('เซ็กซ์'));assert(ths('to eat').length<100)}
  console.log('PASS: dictionary search ranks exact meanings/headwords first, then compounds, then theme-only matches; Thai, romanization, katakana, hiragana readings and English glosses; independent of study filters.')})().catch(e=>{console.error(e);process.exit(1)});
