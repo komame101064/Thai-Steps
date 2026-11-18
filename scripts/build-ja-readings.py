@@ -81,5 +81,12 @@ synonyms=[]
 for g in (json.loads(SYN.read_text()) if SYN.exists() else []):
     g=[x for x in dict.fromkeys(x.strip() for x in g) if x]
     if 2<=len(g)<=12 and sum(x in cores for x in g)>=2:synonyms.append(g)
+# Slang for sexual and bodily topics (ja-synonyms-adult.json, hand-made): learners type ちんこ・おっぱい・オナニー while
+# the glosses say 男性器・乳房・自慰. These groups also match glosses that contain a member (男性器を指す卑俗な語).
+ADULT=P/'scripts/search/ja-synonyms-adult.json'
+alltext=' '.join(m['ja'] for w in words for m in w['meanings'])
+for g in (json.loads(ADULT.read_text()) if ADULT.exists() else []):
+    ts=[x for x in dict.fromkeys(re.sub(r'（[^）]*）','',x).strip() for x in g['terms']) if len(x)>1]
+    if any(x in alltext for x in ts):synonyms.append({'c':1,'t':ts})
 (P/'dist/ja-readings.js').write_text('// Hiragana readings of Japanese glosses for dictionary search only (SudachiPy + pykakasi + everyday readings); not shown in the app.\nconst JA_READINGS='+json.dumps(out,ensure_ascii=False,separators=(',',':'))+';\nconst JA_KANJI_ALIAS='+json.dumps(alias,ensure_ascii=False,separators=(',',':'))+';\nconst JA_SYNONYMS='+json.dumps(synonyms,ensure_ascii=False,separators=(',',':'))+';\n')
 print(f'{len(out)} words, {terms} kanji terms with readings')

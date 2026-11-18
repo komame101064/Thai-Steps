@@ -236,21 +236,28 @@ function dictionaryMatch(w,raw){const t0=String(raw).trim(),q=THAI_RE.test(t0)?t
 const jaCore=t=>jaKey(String(t).replace(/(?:を|に)?(?:する|します|した)$/,''));
 const DICT_SIMILAR=12,EN_STOP=new Set(['be','do','make','get','have','go','come','take','give','put','say','thing','one','person','people','way','place','time','good','bad','very','some','other','also','again','well','yes','no','ok','okay','like','that','this','it','there','here','with','for','of','in','on','at','and','or','not','all','more','little','much','many','can','will','just','so','up','out','off','down','over','back']);
 const enKeys=w=>w._enKeys||(w._enKeys=new Set(w.meanings.flatMap(m=>String(m.en||'').split(/[,;\/]/).map(enTerm)).filter(t=>t.length>2&&!EN_STOP.has(t))));
-function similarExpand(scored,query){if(!JA_RE.test(query))return;const strong=scored.filter(x=>x.score<=8&&['ja','reading','en','th','latin'].includes(x.via)).sort((a,b)=>a.score-b.score).slice(0,8);
- const qk=JA_RE.test(query)?jaKey(String(query).normalize('NFKC')):'',ids=new Set(),keys=new Set(),jks=new Set();
+function similarExpand(scored,query){const qLatin=String(query).trim().normalize('NFKC');
+ // Latin queries join only when they are a member of a group as typed (AV, STD); English searches are otherwise left alone.
+ const inGroup=typeof JA_SYNONYMS!=='undefined'&&/^[A-Za-z0-9]+$/.test(qLatin)&&JA_SYNONYMS.some(g=>(Array.isArray(g)?g:g.t).includes(qLatin));if(!JA_RE.test(query)&&!inGroup)return;const strong=scored.filter(x=>x.score<=8&&['ja','reading','en','th','latin'].includes(x.via)).sort((a,b)=>a.score-b.score).slice(0,8);
+ const qk=JA_RE.test(query)||inGroup?jaKey(String(query).normalize('NFKC')):'',ids=new Set(),keys=new Set(),jks=new Set();
  // Japanese synonym groups (scripts/search/ja-synonyms.json): a query that is, or starts, one member brings in the
  // words glossed with the other members (性行 → 性行為 → セックス・性交・エッチ…).
- const jkx=new Set();let exactGroup=false;if(qk.length>1&&typeof JA_SYNONYMS!=='undefined')for(const g of JA_SYNONYMS){const hit=g.find(m=>{const k=jaKey(m);return k===qk||k.startsWith(qk)});if(hit){const ex=jaKey(hit)===qk;if(ex)exactGroup=true;g.forEach(m=>{const k=jaCore(m);if(k.length>1){jks.add(k);if(ex)jkx.add(k)}})}}
+ const jkx=new Set(),jkc=new Set(),jkcx=new Set();let exactGroup=false;if(qk.length>1&&typeof JA_SYNONYMS!=='undefined')for(const g0 of JA_SYNONYMS){const g=Array.isArray(g0)?g0:g0.t,hit=g.find(m=>jaKey(m)===qk)||g.find(m=>jaKey(m).startsWith(qk));if(hit){const ex=jaKey(hit)===qk;if(ex)exactGroup=true;if(!Array.isArray(g0))g.forEach(m=>{const k=jaKey(m);if(k.length>1&&/[\u3400-\u9fff]/.test(m)){jkc.add(k);if(ex)jkcx.add(k)}});g.forEach(m=>{const k=jaCore(m);if(k.length>1){jks.add(k);if(ex)jkx.add(k)}})}}
  if(exactGroup)for(const x of scored)if(x.via==='kana'&&x.score>=5)x.score+=8;
+ // A katakana query inside a longer katakana word (エロ in イエロー) is not that word.
+ if(exactGroup&&/^[ァ-ヶー]+$/.test(String(query).trim())){const q=String(query).trim(),re=new RegExp('[ァ-ヶー]'+q+'|'+q+'[ァ-ヶー]');for(const x of scored)if(x.via==='ja'&&x.score>=8&&x.w.meanings.every(m=>!jaTerms(m.ja).some(t=>t.includes(q)&&!re.test(t)))){x.score+=8;x.off=true}}
  for(const x of strong){for(const id of x.w.relations?.syn||[])ids.add(id);
   // Only the meaning that matched the query (ชอบ「好き」 does not pull in its legal sense).
   const ms=x.w.meanings.filter((m,i)=>qk?jaKey(m.ja).includes(qk):x.via==='en'?m.en===x.en:i===0);
   for(const m of ms){for(const t of jaTerms(m.ja)){const k=jaCore(t);if(k.length>1)jks.add(k)}String(m.en||'').split(/[,;\/]/).map(enTerm).filter(t=>t.length>2&&!EN_STOP.has(t)).forEach(t=>keys.add(t))}}
  // A word glossed exactly with a synonym of the query (スマホ → 携帯電話) ranks with the exact matches.
  if(jkx.size)for(const x of scored)if(x.score>3&&x.w.meanings.some(m=>{const t=jaTerms(m.ja)[0];return t&&jkx.has(jaCore(t))})){x.score=3;x.via='syn'}
+ // Slang groups for sexual and bodily words (ちんこ → 男性器を指す卑俗な語) also match a gloss that contains a member.
+ const has=(t,set)=>{const k=jaKey(t);for(const c of set)if(k.includes(c))return true;return false};
+ if(jkc.size)for(const x of scored){if(x.score<=3)continue;const t0=x.w.meanings.map(m=>jaTerms(m.ja)[0]).filter(Boolean);if(jkcx.size&&t0.some(t=>has(t,jkcx))){x.score=3;x.via='syn'}else if(x.score>DICT_SIMILAR&&!x.off&&x.w.meanings.some(m=>jaTerms(m.ja).some(t=>has(t,jkc)))){x.score=DICT_SIMILAR;x.via='similar'}}
  if(!strong.length&&!jks.size)return;
  // Cap the set so a common gloss does not flood the list.
- let added=0;for(const x of scored){if(x.score<=DICT_SIMILAR)continue;if(ids.has(x.w.id)||[...enKeys(x.w)].some(k=>keys.has(k))||x.w.meanings.some(m=>jaTerms(m.ja).some(t=>jks.has(jaCore(t))))){x.score=DICT_SIMILAR;x.via='similar';if(++added>=40)break}}}
+ let added=0;for(const x of scored){if(x.score<=DICT_SIMILAR||x.off)continue;if(ids.has(x.w.id)||[...enKeys(x.w)].some(k=>keys.has(k))||x.w.meanings.some(m=>jaTerms(m.ja).some(t=>jks.has(jaCore(t))))){x.score=DICT_SIMILAR;x.via='similar';if(++added>=40)break}}}
 function dictionaryScore(w,raw){return dictionaryMatch(w,raw).score}
 // Scores: 0-3 exact headword/meaning, 4-5 starts with, 6 Thai compound containing an exact match, 8-10 contains, 20 theme/category only.
 const DICT_WEAK=20;
