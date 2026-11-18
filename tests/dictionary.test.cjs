@@ -41,4 +41,7 @@ vm.runInContext('this.t={load:loadWordBank,results:dictionaryResults,setLevel:n=
  // synonym (スマホ → 携帯電話) ranks with exact matches; a kanji spelling finds a kana gloss (美味しい → おいしい).
  {const r=t.results('性行'),th=r.map(x=>x.w.th);assert(th.includes('ปี้')&&th.includes('เย็ด')&&th.includes('อึ๊บ'));assert(r.filter(x=>x.via==='similar').every(x=>x.score>8&&x.score<t.WEAK));
   assert(top('スマホ',5).includes('มือถือ'));assert(top('美味しい',3).includes('อร่อย'));assert(top('エッチ',6).includes('เซ็กซ์'));assert(ths('to eat').length<100)}
+ // Sexual and bodily slang typed by learners reaches the glosses (ちんこ → 男性器を指す卑俗な語, おっぱい → 乳房).
+ {for(const [q,th] of [['ちんこ','ควย'],['まんこ','หี'],['おっぱい','นม'],['オナニー','ช่วยตัวเอง'],['うんこ','ขี้'],['AV','หนังโป๊'],['ラブホ','ม่านรูด']])assert(top(q,8).includes(th),q+' → '+th);
+  assert(!top('エロ',8).includes('ใบเหลือง'),'エロ is not イエロー');assert(!ths('ちんこ').includes('หนังสติ๊ก'),'ちんこ is not パチンコ')}
  console.log('PASS: dictionary search ranks exact meanings/headwords first, then compounds, then theme-only matches; Thai, romanization, katakana, hiragana readings and English glosses; independent of study filters.')})().catch(e=>{console.error(e);process.exit(1)});
