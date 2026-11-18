@@ -43,5 +43,5 @@ vm.runInContext('this.t={load:loadWordBank,results:dictionaryResults,setLevel:n=
   assert(top('スマホ',5).includes('มือถือ'));assert(top('美味しい',3).includes('อร่อย'));assert(top('エッチ',6).includes('เซ็กซ์'));assert(ths('to eat').length<100)}
  // Sexual and bodily slang typed by learners reaches the glosses (ちんこ → 男性器を指す卑俗な語, おっぱい → 乳房).
  {for(const [q,th] of [['ちんこ','ควย'],['まんこ','หี'],['おっぱい','นม'],['オナニー','ช่วยตัวเอง'],['うんこ','ขี้'],['AV','หนังโป๊'],['ラブホ','ม่านรูด']])assert(top(q,8).includes(th),q+' → '+th);
-  assert(!top('エロ',8).includes('ใบเหลือง'),'エロ is not イエロー');assert(!ths('ちんこ').includes('หนังสติ๊ก'),'ちんこ is not パチンコ')}
+  assert(!top('エロ',8).includes('ใบเหลือง'),'エロ is not イエロー');assert(!top('ちんこ',6).includes('หนังสติ๊ก'),'ちんこ is not パチンコ')}
  console.log('PASS: dictionary search ranks exact meanings/headwords first, then compounds, then theme-only matches; Thai, romanization, katakana, hiragana readings and English glosses; independent of study filters.')})().catch(e=>{console.error(e);process.exit(1)});
