@@ -1128,3 +1128,16 @@ html body .f-tabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap
 .w-row2 .w-row-actions .w-audio{grid-column:1/3;width:40px;height:40px;border-radius:12px}
 .w-row2 .w-row-actions .w-iconbtn{width:32px;height:32px;min-width:32px;min-height:32px}
 .w-row2 .w-row-actions .w-iconbtn svg{width:17px;height:17px}
+
+/* Tone contours under each syllable, ★ pronunciation points, part-of-speech badge */
+.tone-ro{display:inline-flex;flex-wrap:wrap;align-items:flex-end;gap:2px 7px}
+.tone-syl{display:inline-flex;flex-direction:column;align-items:center;gap:1px}
+.tone-svg{width:34px;height:20px;overflow:visible}
+.tone-guide{stroke:#c9d3c0;stroke-width:1;stroke-dasharray:2 2;fill:none}
+.tone-line{stroke:#b4472f;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.tone-sep{align-self:flex-end;color:var(--x-muted)}
+.pron-tips{display:flex;flex-wrap:wrap;gap:2px 12px;margin:6px 0 2px;font-size:12px;line-height:1.5;color:var(--x-muted)}
+.pron-tips b{color:var(--x-green-2);font-family:'Steps Latin',system-ui,sans-serif}
+.w-pos-badge{display:inline-block;min-width:16px;margin-right:6px;padding:0 3px;border:1px solid #9fb08f;border-radius:3px;font-size:10px;line-height:15px;text-align:center;color:#4d633d;vertical-align:1px;font-weight:600}
+.w-flash-ro .tone-ro,.g-ro .tone-ro{justify-content:center}
+.w-row .tone-svg{width:26px;height:15px}
