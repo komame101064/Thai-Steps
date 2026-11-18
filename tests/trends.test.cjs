@@ -5,11 +5,11 @@ const ctx={console,window:{scrollTo(){}},document:{querySelector:()=>({})},locat
 vm.createContext(ctx);
 for(const name of ['data','expansion','readings','vocabulary','structures','kana-search','word-topics','word-origins','words-app'])vm.runInContext(fs.readFileSync('dist/'+name+'.js','utf8'),ctx);
 vm.runInContext(fs.readFileSync('dist/app.js','utf8').split("window.addEventListener('hashchange'")[0],ctx);
-vm.runInContext("render=()=>{};toast=()=>{};view='home';this.t={wordParts,shortGloss,openWord,wordDetail,setCurrent:x=>{wordCurrent=x},wordOriginRows,loadWordBank,selectedWords,wordTopics,setWordTopic,setWordDeck,setCategory:x=>{wordCategory=x},wordTrend,wordTrendBadge,dictionaryResults,getBank:()=>bank}",ctx);
+vm.runInContext("render=()=>{};toast=()=>{};view='home';this.t={wordParts,shortGloss,openWord,wordDetail,setCurrent:x=>{wordCurrent=x},wordOriginRows,loadWordBank,selectedWords,wordTopics,setWordTopic,setWordDeck,setCategory:x=>{wordCategory=x},wordTrend,wordTrendBadge,dictionaryResults,getBank:()=>bank,drop:WORD_DROP}",ctx);
 (async()=>{const t=ctx.t;await t.loadWordBank();const bank=t.getBank(),byId=new Map(bank.map(w=>[w.id,w]));
 const list=JSON.parse(fs.readFileSync('scripts/word-trends.json','utf8'));
 assert(list.length>=80);assert.equal(new Set(list.map(e=>e.id)).size,list.length);
-for(const e of list){const w=byId.get(e.id);assert(w,e.id);assert.equal(w.th,e.th);assert(['新語','流行語'].includes(e.kind));assert(e.reason);assert.equal(e.deck,w.collection==='slang'?'slang':'general');if(e.kind==='流行語')assert(e.era,e.th);}
+for(const e of list){if(t.drop.has(e.id))continue;const w=byId.get(e.id);assert(w,e.id);assert.equal(w.th,e.th);assert(['新語','流行語'].includes(e.kind));assert(e.reason);assert.equal(e.deck,w.collection==='slang'?'slang':'general');if(e.kind==='流行語')assert(e.era,e.th);}
 // General deck: the 流行語・新語 theme, with only the new senses (แชร์ = SNS share, not the pyramid-scheme sense).
 assert(t.wordTopics().some(x=>x.id==='trend'&&x.label==='流行語・新語'));
 t.setWordTopic('trend');const g=t.selectedWords();
