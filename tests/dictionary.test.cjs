@@ -9,6 +9,10 @@ vm.runInContext('this.t={load:loadWordBank,results:dictionaryResults,setLevel:n=
  assert.deepEqual(top('食べる',3).sort(),['กิน','ทาน','รับประทาน'].sort());
  // Compounds of an exact match rank above weak matches; "contains" alone is not a compound (เกิน is not กิน).
  const eat=ths('食べる');assert(eat.includes('ของกิน')&&eat.includes('หากิน'));assert(!eat.includes('เกิน'));
+ // The thing itself (警察官・警察署・日本人・日本語) ranks above glosses that only use the query in a phrase (警察に届け出る).
+ assert.deepEqual(top('警察',3).sort(),['ตำรวจ','โรงพัก','สถานีตำรวจ'].sort());assert.equal(ths('警察')[0],'ตำรวจ');assert.deepEqual(top('日本',3).sort(),['ญี่ปุ่น','คนญี่ปุ่น','ภาษาญี่ปุ่น'].sort());
+ // Word-for-word combinations in WORD_DROP (เรียกตำรวจ 警察を呼んで) are not in the dictionary.
+ assert(!ths('警察').includes('เรียกตำรวจ'));assert(!ths('เรียกตำรวจ').includes('เรียกตำรวจ'));
  assert.equal(ths('先生')[0],'ครู');assert.equal(ths('水')[0],'น้ำ');
  // Thai script must survive normalization (NFKC splits the vowel ำ).
  assert.equal(ths('น้ำ')[0],'น้ำ');assert.equal(ths('กิน')[0],'กิน');
@@ -29,7 +33,7 @@ vm.runInContext('this.t={load:loadWordBank,results:dictionaryResults,setLevel:n=
  // Kana matches respect mora boundaries: きゅうり must not match the reading of 給料 (きゅうりょう).
  assert(!ths('きゅうり').includes('เงินเดือน'));assert(!ths('キュウリ').includes('เงินเดือน'));
  // Neutral and slang ways to say 童貞 are both found.
- assert(ths('童貞').includes('ซิง'));assert(ths('童貞').includes('ยังไม่เคยมีเพศสัมพันธ์'));
+ assert(ths('童貞').includes('ซิง'));assert(ths('童貞').includes('ไม่เคยผ่านผู้หญิง'));
  // Compounds are pulled in only by a first-sense exact hit on a general word: 精液 matches the slang sense of น้ำ,
  // which must not bring in อาบน้ำ, แม่น้ำ and other น้ำ compounds.
  assert(!ths('精液').some(th=>th!=='น้ำ'&&th.startsWith('น้ำ')||/น้ำ$/.test(th)&&th!=='น้ำ'),'no น้ำ compounds for 精液');assert(ths('精液').includes('อสุจิ'));
