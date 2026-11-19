@@ -1153,3 +1153,14 @@ html body .w-quiz-card .w-flash-th,html body .w-flash-th{font-size:28px;line-hei
 .tone-legend{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:10px}
 .tone-legend>span{display:flex;flex-direction:column;align-items:center;gap:2px;font-weight:600;color:var(--x-ink)}
 .tone-legend small{font-size:11px;font-weight:400;color:var(--x-muted)}
+
+/* Support and recommended materials (shown only when dist/support-config.js is filled in) */
+.support-btn{display:inline-flex;align-items:center;gap:6px;margin-top:8px}
+.support-link{display:inline-flex;align-items:center;gap:4px;color:var(--x-green);font-weight:600}
+.support-link .ui-icon{width:15px;height:15px}
+.pr-badge{display:inline-block;margin-left:6px;padding:0 6px;border:1px solid #c9b27a;border-radius:4px;font-size:11px;font-weight:600;color:#7a5f22;vertical-align:2px}
+.material-list{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:8px}
+.material-list li{display:flex;flex-direction:column;gap:2px;padding:10px 12px;border:1px solid var(--x-line);border-radius:10px;background:#fbfcf8}
+.material-list a{font-weight:600;color:var(--x-green)}
+.material-list small{color:var(--x-muted);font-size:12px}
+.g-support{font-size:12px;color:var(--x-muted);margin:6px 0 10px}
