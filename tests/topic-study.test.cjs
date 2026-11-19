@@ -20,7 +20,7 @@ assert.equal((t.topicGrid().match(/<button class="x-tile/g)||[]).length,23);t.se
  t.setWordTopic('s:ほめる・反応');t.startGuidedStep('s:ほめる・反応');{const g=t.getStep();assert(g&&g.news.length>0);assert(g.news.every(id=>t.getBank().find(w=>w.id===id).category==='スラング｜ほめる・反応'));t.exitStepSession()}
  t.setWordTopic('s:差別的表現');assert(!t.topicHub().includes('x-step-go'));t.startGuidedStep('s:差別的表現');assert(!t.getStep()||t.getStep().topic!=='s:差別的表現');t.exitStepSession();
  // Phrase deck: set phrases only, all ranges, its own search, scenes, and the deck is kept when a phrase is opened.
- t.setWordDeck('phrase');t.setLevel(300);const ph=t.selectedWords();assert(ph.length>=70&&ph.every(w=>t.isPhrase(w)||["tl-01098","tl-01058","tl-01149","tl-01107"].includes(w.id)));for(const th of ['ไม่เป็นไร','ยินดีที่ได้รู้จัก','จริงเหรอ','กี่บาท','สบายดีไหม'])assert(ph.some(w=>w.th===th),th);// フレーズは2語以上の定型表現だけ：1語の挨拶・間投詞は単語欄
+ t.setWordDeck('phrase');t.setLevel(1000);const ph=t.selectedWords();assert(ph.length>=70&&ph.every(w=>t.isPhrase(w)||["tl-01098","tl-01058","tl-01149","tl-01107"].includes(w.id)));for(const th of ['ไม่เป็นไร','ยินดีที่ได้รู้จัก','จริงเหรอ','กี่บาท','สบายดีไหม'])assert(ph.some(w=>w.th===th),th);// フレーズは2語以上の定型表現だけ：1語の挨拶・間投詞は単語欄
 for(const th of ['สวัสดี','ขอบคุณ','ขอโทษ','เออ','ว้าว'])assert(!ph.some(w=>w.th===th),th);assert(!ph.some(w=>w.th==='เอา'));
  assert((t.topicGrid().match(/<button class="x-tile/g)||[]).length>=5);assert.equal(t.phraseScene(ph.find(w=>w.th==='ยินดีที่ได้รู้จัก')),'p:greet');assert.equal(t.phraseScene(ph.find(w=>w.th==='จริงเหรอ')),'p:ask');
  t.setPhrase('はじめまして');assert(t.selectedWords().some(w=>w.th==='ยินดีที่ได้รู้จัก')&&t.selectedWords().length<10);t.setPhrase('');
