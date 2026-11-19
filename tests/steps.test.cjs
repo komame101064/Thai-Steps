@@ -28,6 +28,6 @@ const okId=g.news.find(id=>id!==missedId);assert.equal(t.wordRec(okId).stage,1);
 // Steps take the first unseen words, so a change of order never re-teaches a seen word or skips one.
 {t.setLevel(0);const o=t.stepOrder(),seen=o.slice(0,40).filter((w,i)=>i%2===0);for(const w of seen)t.getState().records[w.id]={...t.wordRec(w.id),seen:1};const nx=t.nextStepWords();assert(nx.every(w=>!(t.wordRec(w.id).seen>0)));assert.equal(nx[0].id,o.find(w=>!(t.wordRec(w.id).seen>0)).id)}
 // A range's steps teach only that range (日常 = ranks 501-1,000) and the range is done when all its words are seen.
-t.setLevel(3000);t.startGuidedStep('lv:3000');{const g=t.getStep();assert(g.news.length===10&&g.news.every(id=>{const r=t.stepOrder().find(w=>w.id===id).studyRank;return r>1000&&r<=3000}))}
-t.setLevel(1000);for(const w of t.stepOrder().slice(0,1000))t.getState().records[w.id]={...t.wordRec(w.id),seen:1};assert(t.stepPanel().includes('この範囲は完了'));
+t.setLevel(2000);t.startGuidedStep('lv:2000');{const g=t.getStep();assert(g.news.length===10&&g.news.every(id=>{const r=t.stepOrder().find(w=>w.id===id).studyRank;return r>500&&r<=2000}))}
+t.setLevel(500);for(const w of t.stepOrder().slice(0,500))t.getState().records[w.id]={...t.wordRec(w.id),seen:1};assert(t.stepPanel().includes('この範囲は完了'));
 console.log('PASS: word steps — frequency order, 10 words per step, full marks advance, daily count and streak, backup-safe state; guided step with both-direction recall, in-session relearning and spaced follow-up.');})().catch(e=>{console.error(e);process.exit(1)});

@@ -1,18 +1,18 @@
 // Cumulative study ranges over the general deck, ordered by the source list's learning stage, then frequency.
 // 基本/日常/会話 are the original ranges. 発展 5,000 holds the whole original learner list, so 全 is the only range
 // that also contains the later, largely formal or literary additions.
-const WORD_LEVELS=[[1000,'入門'],[3000,'日常'],[8000,'発展'],[20000,'拡張']];
-// The ranges do not overlap: 入門 = study ranks 1-1,000, 日常 = 1,001-3,000, 発展 = 3,001-8,000, 拡張 = 8,001 and up,
-// so all ranges together = 全部. The saved value is each range's upper bound (20000 = 拡張);
-// 拡張 is not a ranked step sequence: it is studied by theme (startGuidedStep sends it to the theme grid).
+const WORD_LEVELS=[[500,'入門'],[2000,'初級'],[4000,'中級'],[8000,'上級']];
+// The ranges do not overlap: 入門 = study ranks 1-500, 初級 = 501-2,000, 中級 = 2,001-4,000, 上級 = 4,001-8,000 (user's request,
+// 2026-11-19). Words past 8,000 are studied in 全部 (and by theme). The saved value is each range's upper bound.
+// LEVEL_EXT (20000, the former theme-only 拡張 range) is no longer offered; a saved 20000 opens as 全部.
 const LEVEL_EXT=20000;
-function levelRange(n=wordState.level){const i=WORD_LEVELS.findIndex(([v])=>v===n);if(i<0)return [1,Infinity];return [i?WORD_LEVELS[i-1][0]+1:1,i===WORD_LEVELS.length-1?Infinity:n]}
+function levelRange(n=wordState.level){const i=WORD_LEVELS.findIndex(([v])=>v===n);if(i<0)return [1,Infinity];return [i?WORD_LEVELS[i-1][0]+1:1,n===LEVEL_EXT?Infinity:n]}
 function inLevelRange(rank,n=wordState.level){if(!n)return true;const [lo,hi]=levelRange(n);return rank>=lo&&rank<=hi}
 const LEVEL_TOPICS=WORD_LEVELS.map(([n,name])=>({id:'lv:'+n,label:name,description:'学習範囲「'+name+'」'}));
 function stepProgress(){if(!wordState.level){const all=stepOrder();return {done:all.filter(w=>wordRec(w.id).seen>0).length,limit:all.length}}const ws=bank.filter(w=>wordInDeck(w,'general')&&w.studyRank&&inLevelRange(w.studyRank));return {done:ws.filter(w=>wordRec(w.id).seen>0).length,limit:ws.length}}
 // 2,000 existed briefly (2026-11-11); a stored 2,000 opens as 日常 1,000.
-// Four ranges since 2026-11-19 (was 必須300・基本1000・日常2000・実用3000・発展5000・上級8000): old saved values open in the range that contains them.
-const migrateLevel=n=>({300:1000,500:1000,2000:3000,5000:8000})[n]??n;
+// Old saved ranges open in the new range that holds their start: 300/500/1000 → 入門, 2000/3000 → 初級, 5000 → 中級, 20000 → 全部.
+const migrateLevel=n=>({300:500,1000:500,3000:2000,5000:4000,20000:0})[n]??n;
 // Vocabulary has its own storage namespace; grammar progress remains compatible.
 const WORD_KEY='thai-steps-words-v1';
 const freshWordState=()=>({records:{},dailyGoal:10,level:0,autoplay:true,stepWords:0,stepsPerDay:1,today:{date:'',steps:0},streak:{last:'',days:0},history:[],favEx:[]});
