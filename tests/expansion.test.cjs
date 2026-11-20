@@ -19,7 +19,7 @@ function boot(withMore){const ctx={window:{},localStorage:{getItem:()=>null,setI
 (async()=>{const a=boot(false),b=boot(true);await a.load();await b.load();assert.equal(a.status,'ready');assert.equal(b.status,'ready');
  assert.equal(b.bank.length,a.bank.length+more.filter(w=>!b.drop.has(w.id)).length+slangMore.length);
  // Study order: words are placed by learning stage and frequency together, so frequent additions come early (ไทย, ญี่ปุ่น) and no frequent word is left in 発展.
- {const seen=new Set();let total=0;for(const n of [500,2000,4000,8000]){b.setLevel(n);const ids=b.selected().map(w=>w.id);assert(ids.every(id=>!seen.has(id)),'ranges do not overlap');ids.forEach(id=>seen.add(id));total+=ids.length}b.setLevel(0);const all0=b.selected();assert.equal(total+all0.filter(w=>!w.studyRank||w.studyRank>8000).length,all0.length,'入門＋初級＋中級＋上級＋8,001語目以降＝全部')}
+ {const seen=new Set();let total=0;for(const n of [500,2000,4000,8000,20000]){b.setLevel(n);const ids=b.selected().map(w=>w.id);assert(ids.every(id=>!seen.has(id)),'ranges do not overlap');ids.forEach(id=>seen.add(id));total+=ids.length}b.setLevel(0);assert.equal(total,b.selected().length,'入門＋初級＋中級＋上級＋発展＝全部')}
  b.setLevel(0);{const all=b.selected(),rk=th=>all.find(w=>w.th===th&&w.collection!=='slang').studyRank;
  assert(all.filter(w=>w.frequency>=9).every(w=>w.studyRank<=3000),'no frequency-9/10 word in 中級');assert(rk('ไทย')<=1000&&rk('ญี่ปุ่น')<=2000&&rk('จีน')<=2000);
  const months='มกราคม กุมภาพันธ์ มีนาคม เมษายน พฤษภาคม มิถุนายน กรกฎาคม สิงหาคม กันยายน ตุลาคม พฤศจิกายน ธันวาคม'.split(' ').map(rk),band=r=>r<=300?0:r<=1000?1:r<=2000?2:r<=3000?3:4;assert(Math.max(...months.map(band))-Math.min(...months.map(band))<=1,'months stay together');
