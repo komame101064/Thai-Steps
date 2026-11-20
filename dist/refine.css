@@ -1164,3 +1164,15 @@ html body .w-quiz-card .w-flash-th,html body .w-flash-th{font-size:28px;line-hei
 .material-list a{font-weight:600;color:var(--x-green)}
 .material-list small{color:var(--x-muted);font-size:12px}
 .g-support{font-size:12px;color:var(--x-muted);margin:6px 0 10px}
+
+/* 使い分けを深める (grammar lessons) */
+.deep-compare{display:grid;gap:8px;margin:12px 0 4px}
+.deep-form{border:1px solid var(--x-line);border-radius:10px;padding:10px 12px;background:#fbfcf8}
+.deep-form-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+.deep-form-head b{font-size:20px;font-weight:600;color:var(--x-ink)}
+.deep-ro{font-weight:700;color:var(--x-green-2)}
+.deep-style{font-size:11px;padding:0 6px;border:1px solid #cad6ba;border-radius:4px;color:#4d633d;background:#f0f4e7}
+.deep-form p{margin:4px 0 0;font-size:13px;line-height:1.65}
+.deep-sub{font-size:15px;margin:16px 0 6px}
+.deep-pitfalls li{line-height:1.7}
+.deep-form-head .deep-th{font-size:20px;font-weight:600;color:var(--x-ink);font-family:inherit}
