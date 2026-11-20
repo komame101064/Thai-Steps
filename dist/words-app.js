@@ -210,6 +210,10 @@ function englishMatch(w,q){const vs=enVariants(enTerm(q));if(!vs[0])return null;
   const plain=' '+String(m.en).toLowerCase().replace(/[^a-z'\s-]/g,' ').replace(/\s+/g,' ')+' ';if(vs.some(v=>v.length>2&&plain.includes(' '+v+' ')))take(6+(mi?1:0),m)});return best}
 // Romanization: whole reading, then syllable-aligned prefix/inside matches (so "go" does not hit ngəən).
 const syllables=r=>foldWord(r).split(/\s+/).map(foldRo).filter(Boolean);
+// Loose spelling of a reading as learners type it without the system (kop kun, sawatdi, aroi): no aspiration h,
+// plain vowels, c/j/ch alike. Used only as a fallback, after the exact reading.
+const looseRo=s=>foldRo(s).replace(/kh/g,'k').replace(/ph/g,'p').replace(/th/g,'t').replace(/ch|j/g,'c').replace(/ue/g,'u').replace(/oe/g,'e').replace(/ae/g,'e').replace(/y/g,'i').replace(/w(?=[^aeiou]|$)/g,'o').replace(/([aeiou])\1+/g,'$1');
+function looseRomanMatch(w,q){const f=looseRo(q);if(f.length<4)return Infinity;const r=w._loose||(w._loose=looseRo(w.ro));return r===f?3:r.startsWith(f)&&f.length>=5?7:Infinity}
 function romanMatch(w,q){const f=foldRo(q);if(!f)return Infinity;let best=Infinity;const take=n=>{if(n<best)best=n};const toned=TONE_RE.test(q),exactTone=x=>x.normalize('NFC').replace(/\s+/g,'')===q.normalize('NFC').replace(/\s+/g,'');
  const qs=' '+syllables(q).join(' ');
  for(const r of [w.ro,...w.meanings.map(m=>m.ro).filter(Boolean)]){const whole=foldRo(r),sy=' '+syllables(r).join(' ')+' ',alt=r===w.ro?0:1;
@@ -240,7 +244,7 @@ function dictionaryMatch(w,raw){const t0=String(raw).trim(),q=THAI_RE.test(t0)?t
  if(/^[a-z0-9\s.'’-]+$/i.test(q)){const ql=q.toLowerCase().replace(/\s+/g,' ');
   // Latin letters inside Japanese glosses (Z世代, AI, QRコード, PM2.5) are searchable as typed.
   w.meanings.forEach((m,mi)=>{const extra=mi?2:0;jaTerms(m.ja).forEach((term,ti)=>{const tk=term.normalize('NFKC').toLowerCase();if(!/^[a-z0-9]/.test(tk))return;if(tk===ql)take(extra+(ti?1:0),'latin');else if(tk.startsWith(ql)&&!/^[a-z]/.test(tk.slice(ql.length)))take(4+extra,'latin')})})}
- if(/^[a-z\s'’-]+$/i.test(foldWord(q))){const r=romanMatch(w,q);if(r<Infinity)take(r,'ro');if(!TONE_RE.test(q)){const e=englishMatch(w,q);if(e)take(e.score,'en',e.en)}}
+ if(/^[a-z\s'’-]+$/i.test(foldWord(q))){const r=romanMatch(w,q);if(r<Infinity)take(r,'ro');else{const lr=looseRomanMatch(w,q);if(lr<Infinity)take(lr,'ro')}if(!TONE_RE.test(q)){const e=englishMatch(w,q);if(e)take(e.score,'en',e.en)}}
  if(out.score===Infinity&&w.labelText===undefined)w.labelText=foldWord([w.category,...(wordTrend(w)?[wordTrend(w).kind,'流行語・新語']:[]),...wordTopics().filter(t=>wordTopicIds(w).includes(t.id)).map(t=>t.label),...wordOriginRows(w).flatMap(r=>[r.label,r.detailLabel||''])].join(' '));
  if(out.score===Infinity&&w.labelText.includes(foldWord(q)))take(20,'label');return out}
 // A gloss term without its verb ending (セックスする → セックス, 性行為をする → 性行為) for comparing meanings.
@@ -289,7 +293,8 @@ function dictionaryResults(query=wordQuery){const qn=String(query).trim().normal
  // Same-meaning words (セックス・性行為・エッチ…): words linked as synonyms to a strong hit, or sharing one of its
  // English glosses word for word, follow the direct hits under 「似た意味の語」 so near-synonyms are found together.
  similarExpand(scored,query);
- return scored.filter(x=>x.score<Infinity).sort((a,b)=>a.score-b.score||(a.w.collection==='slang')-(b.w.collection==='slang')||b.w.frequency-a.w.frequency||a.w.th.length-b.w.th.length||a.w.id.localeCompare(b.w.id))}
+ const seenTwin=new Set();
+ return scored.filter(x=>x.score<Infinity).sort((a,b)=>a.score-b.score||(a.w.collection==='slang')-(b.w.collection==='slang')||b.w.frequency-a.w.frequency||a.w.th.length-b.w.th.length||a.w.id.localeCompare(b.w.id)).filter(x=>{const k=x.w.th+'|'+x.w.meanings[0].ja;if(seenTwin.has(k))return false;seenTwin.add(k);return true})}
 // Thai has no spaces, so "contains" alone is not enough (เกิน contains กิน). A compound must split into registered
 // words around the headword, and the headword's syllables must appear in the compound's reading.
 let headwordSet=null,headwordBank=null;
@@ -390,7 +395,7 @@ function completeStep(s){if(wordState.stepWords!==s.step.from)return false;wordS
 function streakDays(){const y=new Date();y.setDate(y.getDate()-1);return [localDate(),localDate(y)].includes(wordState.streak.last)?wordState.streak.days:0}
 function stepPanel(){if(wordDeck!=='general'||bankStatus!=='ready')return '';const band=wordState.level?'lv:'+wordState.level:'',{limit,done}=stepProgress(),next=band?topicNextWords(band):nextStepWords(),finished=!next.length,today=stepsToday(),goalMet=today>=wordState.stepsPerDay,due=bank.filter(w=>wordInDeck(w,'general')&&dueWord(w)).length,streak=streakDays();
  const lvShort=esc(levelName().replace(/（.*?）/,'')),pct=Math.round(done/limit*100),label=`ステップ ${stepNumber()}`;
- return `<section class="x-step x-daily" aria-label="今日の学習"><div class="x-daily-head"><h2>今日の学習</h2>${wordState.level===LEVEL_EXT?'<span class="x-daily-count">テーマごとに練習</span>':goalMet?'<span class="x-daily-badge">✓ 今日の分は完了</span>':`<span class="x-daily-count">${today} / ${wordState.stepsPerDay}ステップ</span>`}</div>
+ return `<section class="x-step x-daily" aria-label="今日の学習"><div class="x-daily-head"><h2>今日の学習</h2>${wordState.level===LEVEL_EXT?'<span class="x-daily-count">テーマごとに練習</span>':goalMet?`<span class="x-daily-badge">✓ ${due?'今日のステップ完了 · 復習 '+due+'語':'今日の分は完了'}</span>`:`<span class="x-daily-count">${today} / ${wordState.stepsPerDay}ステップ</span>`}</div>
  ${finished?`<p class="x-daily-fin"><b>この範囲は完了</b>${band?'ほかの範囲を選ぶと続きに進めます。':'範囲を広げると続きに進めます。'}</p>`:`<div class="x-daily-tasks"><div class="x-task${due?'':' is-zero'}"><b>${due}</b><span>復習する語</span></div>${wordState.level===LEVEL_EXT?`<div class="x-task"><b>${(limit-done).toLocaleString()}</b><span>残りの語（テーマ別）</span></div>`:`<div class="x-task"><b>${next.length}</b><span>新しい語</span></div>`}</div>
  ${wordState.level===LEVEL_EXT?`<button class="btn x-step-go" onclick="const t=document.querySelector('.x-topics');if(t)t.scrollIntoView({behavior:'smooth'})">テーマを選んで掘り下げる ↓</button>`:`<button class="btn x-step-go" onclick="startGuidedStep('${band}')">${goalMet?'もう1ステップ進める →':'今日の学習をはじめる →'}</button>`}`}
  <div class="x-daily-meta"><span>${[band?'':label,streak?`連続${streak}日`:''].filter(Boolean).join(' · ')}</span><span>${lvShort} ${done.toLocaleString()} / ${limit.toLocaleString()}語</span></div><div class="x-daily-bar" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100" aria-label="${lvShort}の進み具合"><i style="width:${pct}%"></i></div>
