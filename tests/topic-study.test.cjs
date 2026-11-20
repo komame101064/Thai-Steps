@@ -30,7 +30,7 @@ for(const th of ['สวัสดี','ขอบคุณ','ขอโทษ','�
 const st=t.getState();st.stepWords=30;const next=t.topicNextWords('food');assert.equal(next.length,10);assert(next.every(w=>t.index[w.id].includes('food')));assert(next.every((w,i)=>i===0||next[i-1].studyRank<w.studyRank));
 const before=t.topicStats().get('food').seen;t.setWordTopic('food');assert(t.topicHub().includes('食べ物・飲み物'));t.startGuidedStep('food');let g=t.getStep();assert.equal(g.topic,'food');
 for(let k=0;k<300&&!g.done;k++){const task=g.tasks[g.i];if(task.type!=='learn')t.answerStepTask(task.id);t.nextStepTask()}
-assert(g.done);assert.equal(st.stepWords,30,'theme steps must not move the frequency step pointer');assert.equal(t.topicStats().get('food').seen,before+10);assert(t.stepSessionView().includes('食べ物・飲み物 完了'));
+assert(g.done);assert.equal(st.stepWords,30,'theme steps must not move the frequency step pointer');assert.equal(t.topicStats().get('food').seen,before+10);assert(t.stepSessionView().includes('食べ物・飲み物')&&t.stepSessionView().includes('ステップ完了'));
 assert(t.getState().today.steps>=1);assert.equal(t.topicNextWords('food').filter(w=>g.news.includes(w.id)).length,0);t.exitStepSession();
 // Theme progress survives a backup round trip (derived from word records, not a separate field).
 const copy=t.sanitizeWordState(JSON.parse(JSON.stringify(st)));assert.equal(g.news.filter(id=>copy.records[id]?.seen>0).length,10);
