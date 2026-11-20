@@ -1,0 +1,461 @@
+[
+ {
+  "id": "tl-59201",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59202",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59203",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59204",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59205",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59206",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59207",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59208",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59209",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59210",
+  "verdict": "fix",
+  "issues": [
+   "frequency 3 は構成語 ข้ามปี（2）を超えるので2に"
+  ],
+  "fixed": {
+   "id": "tl-59210",
+   "th": "สวดมนต์ข้ามปี",
+   "action": "add",
+   "ro": "sùuat mon khâam pii",
+   "kind": "expression",
+   "category": "社会・制度",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "年越しの読経をする（大みそかの夜に寺で）",
+     "en": "to chant prayers across the New Year (at a temple)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "คืนสิ้นปีแม่ชวนไปสวดมนต์ข้ามปีที่วัด",
+      "ro": "khʉʉn sîn pii mɛ̂ɛ chuuan pai sùuat mon khâam pii thîi wát",
+      "ja": "大みそかの夜、母がお寺での年越しの読経に誘ってくれました。",
+      "en": "On New Year's Eve my mother invited me to go chant prayers at the temple.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "大みそかの夜から年明けまで寺で経を唱える行事の名前で、ひとまとまりで使う。"
+  }
+ },
+ {
+  "id": "tl-59211",
+  "verdict": "reject",
+  "issues": [
+   "登録済みの วันปีใหม่（元日）の正式な長い形で、同じ意味。長短形の重複になる。"
+  ]
+ },
+ {
+  "id": "tl-59212",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59213",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59214",
+  "verdict": "reject",
+  "issues": [
+   "登録済みの ครบรอบ の語義「〜周年・記念日」がすでに教えており、วัน を付けただけの組み合わせ。"
+  ]
+ },
+ {
+  "id": "tl-59215",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59216",
+  "verdict": "reject",
+  "issues": [
+   "จันทร์＋ถึง＋ศุกร์ の自由な組み合わせ（曜日〜曜日は何でも作れる）。固定した単位ではない。"
+  ]
+ },
+ {
+  "id": "tl-59217",
+  "verdict": "reject",
+  "issues": [
+   "วัน＋ถัดไป（次の）の足し算。登録済みの ถัดไป で分かる自由な組み合わせ。"
+  ]
+ },
+ {
+  "id": "tl-59218",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59219",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59220",
+  "verdict": "reject",
+  "issues": [
+   "登録済みの ข้างหน้า の語義「将来・これから先（วันข้างหน้าなど）」がすでに教えている。"
+  ]
+ },
+ {
+  "id": "tl-59221",
+  "verdict": "reject",
+  "issues": [
+   "คราว＋ที่แล้ว の自由な組み合わせで、登録済みの ครั้งที่แล้ว（前回）と同じ意味。"
+  ]
+ },
+ {
+  "id": "tl-59222",
+  "verdict": "reject",
+  "issues": [
+   "เวลา＋ส่วนตัว の足し算で意味が分かる自由な組み合わせ。"
+  ]
+ },
+ {
+  "id": "tl-59223",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59224",
+  "verdict": "reject",
+  "issues": [
+   "登録済みの หาด の語義が「砂浜、ビーチ」で、ทราย を付けただけ。既存語義で足りる。"
+  ]
+ },
+ {
+  "id": "tl-59225",
+  "verdict": "reject",
+  "issues": [
+   "登録済みの ร่ม の語義「日陰」に ที่ を付けただけの組み合わせ。"
+  ]
+ },
+ {
+  "id": "tl-59226",
+  "verdict": "reject",
+  "issues": [
+   "กลาง＋แดด の自由な組み合わせ（กลางฝน・กลางถนน と同じ作り）。"
+  ]
+ },
+ {
+  "id": "tl-59227",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59228",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59229",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59230",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59231",
+  "verdict": "reject",
+  "issues": [
+   "登録済みの ช่อ の語義に「花束」があり、ดอกไม้ を付けただけ。"
+  ]
+ },
+ {
+  "id": "tl-59232",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59233",
+  "verdict": "reject",
+  "issues": [
+   "หูฟัง＋ไร้สาย の足し算（เมาส์ไร้สาย・ชาร์จไร้สาย と同じ作り）。"
+  ]
+ },
+ {
+  "id": "tl-59234",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59235",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59236",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59237",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59238",
+  "verdict": "fix",
+  "issues": [
+   "語義2（注文・配送の状況）はふつう สถานะ を使い、สเตตัส での用法が確認できないので削除"
+  ],
+  "fixed": {
+   "id": "tl-59238",
+   "th": "สเตตัส",
+   "action": "add",
+   "ro": "sà tee tát",
+   "kind": "word",
+   "category": "趣味・メディア",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ステータス・近況の投稿（SNSの）",
+     "en": "status, status post (on social media)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เขาโพสต์สเตตัสเศร้า ๆ เมื่อคืน",
+      "ro": "khǎo phóot sà tee tát sâo sâo mʉ̂ʉa khʉʉn",
+      "ja": "彼は昨夜、悲しげな投稿をしました。",
+      "en": "He posted a sad status last night.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "英語 status から。สเตตัส は会話やSNSの言い方で、改まった場面では สถานะ を使う。"
+  }
+ },
+ {
+  "id": "tl-59239",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59240",
+  "verdict": "reject",
+  "issues": [
+   "ข้อมูล＋หลุด の主語＋述語の自由な組み合わせ（คลิปหลุด・รูปหลุด と同じ作り）。"
+  ]
+ },
+ {
+  "id": "tl-59241",
+  "verdict": "reject",
+  "issues": [
+   "登録済みの ล่ม に語義「使えなくなる・ダウンする（システム）」があり、ระบบ を付けただけ。"
+  ]
+ },
+ {
+  "id": "tl-59242",
+  "verdict": "fix",
+  "issues": [
+   "報道でも普通に使う語なので口語ラベルを外し標準語に"
+  ],
+  "fixed": {
+   "id": "tl-59242",
+   "th": "ค่ายมือถือ",
+   "action": "add",
+   "ro": "khâai mʉʉ thʉ̌ʉ",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "携帯キャリア・携帯電話会社",
+     "en": "mobile carrier, mobile network operator",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันอยากย้ายค่ายมือถือ แต่ไม่อยากเปลี่ยนเบอร์",
+      "ro": "chǎn yàak yáai khâai mʉʉ thʉ̌ʉ tɛ̀ɛ mâi yàak plìian bəə",
+      "ja": "携帯キャリアを乗り換えたいけれど、番号は変えたくありません。",
+      "en": "I want to switch mobile carriers, but I don't want to change my number.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ค่าย はもともと「陣営・キャンプ」。会話や報道での言い方で、正式には ผู้ให้บริการ（事業者）と言う。"
+  }
+ },
+ {
+  "id": "tl-59243",
+  "verdict": "reject",
+  "issues": [
+   "登録済みの ค่าโทรศัพท์（電話代）の短い形で同じ意味。長短形の重複。"
+  ]
+ },
+ {
+  "id": "tl-59244",
+  "verdict": "reject",
+  "issues": [
+   "ช่องทาง＋ติดต่อ の足し算。サイトの項目名は ช่องทางการติดต่อ の形が多く、見出しとして固定していない。"
+  ]
+ },
+ {
+  "id": "tl-59245",
+  "verdict": "reject",
+  "issues": [
+   "ふつうは SMS とラテン文字で書き、タイ文字表記を見出しとして教える価値が低い。เอส の声調（èet か ét か）も確信できない。"
+  ]
+ },
+ {
+  "id": "tl-59246",
+  "verdict": "reject",
+  "issues": [
+   "登録済みの ถือสายรอ の短い形で、例文も ถือสายรอ をそのまま使っている。重複。"
+  ]
+ },
+ {
+  "id": "tl-59247",
+  "verdict": "reject",
+  "issues": [
+   "登録済みの ติด の語義「中毒になる・はまる」＋จอ の自由な組み合わせ（ติดมือถือ・ติดซีรีส์ と同じ作り）。"
+  ]
+ },
+ {
+  "id": "tl-59248",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59249",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59250",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59251",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59252",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59253",
+  "verdict": "reject",
+  "issues": [
+   "ตั๋ว＋หนัง の足し算（ตั๋วรถไฟ・ตั๋วเครื่องบิน と同じ作り）。"
+  ]
+ },
+ {
+  "id": "tl-59254",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59255",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59256",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59257",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59258",
+  "verdict": "reject",
+  "issues": [
+   "登録済みの มุก（ギャグ・冗談）の長い形で同じ意味。注でも短く มุก と言うとしている。"
+  ]
+ },
+ {
+  "id": "tl-59259",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59260",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59261",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59262",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59263",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59264",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59265",
+  "verdict": "ok",
+  "issues": []
+ }
+]
