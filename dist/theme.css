@@ -122,3 +122,8 @@ html body #main .deep-form-head .deep-th{font-size:15px;font-weight:400;color:va
 html body #main .w-relation button [lang="th"]{font-size:17px;color:var(--t-thai)}
 html body #main .w-relation button b{font-size:15px;font-weight:700;color:var(--t-green)}
 html body #main .f-role{white-space:nowrap}html body #main .formula{font-size:17px}
+/* missed words on a test result */
+html body #main .w-missed{list-style:none;margin:10px 0 4px;padding:0;text-align:left;border:1px solid var(--t-red-line);border-radius:10px;background:var(--t-red-bg)}
+html body #main .w-missed li{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px;padding:8px 12px;border-bottom:1px solid var(--t-red-line);font-size:15px}
+html body #main .w-missed li:last-child{border-bottom:0}
+html body #main .w-missed [lang="th"]{color:var(--t-thai)}html body #main .w-missed b{color:var(--t-green)}html body #main .w-missed small{flex-basis:100%;font-size:13px;color:var(--t-text)}
