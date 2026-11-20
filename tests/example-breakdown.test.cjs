@@ -9,7 +9,7 @@ vm.runInContext("render=()=>{};toast=()=>{};this.t={seg:segmentSentence,exampleB
 (async()=>{const t=ctx.t;await t.loadWordBank();await t.loadSenseExamples();
 // Every example: a split is offered only when complete; it almost always exists and keeps the headword whole.
 const ex={...data['sense-examples.json'],...data['more-examples.json'],...data['slang-examples.json']};let n=0,ok=0,head=0;
-for(const [k,e] of Object.entries(ex)){n++;const w=t.getMap().get(k.split('#')[0]);const toks=t.seg(e.th,e.ro,w?w.th:'');if(!toks)continue;ok++;
+for(const [k,e] of Object.entries(ex)){const w=t.getMap().get(k.split('#')[0]);if(!w)continue;/* examples of entries removed from the app are not shown */n++;const toks=t.seg(e.th,e.ro,w?w.th:'');if(!toks)continue;ok++;
  assert(toks.every(x=>x.kind!=='unknown'));{const strip=s=>s.replace(/[\s.,!?…"“”'‘’()「」:;\-]/g,'');assert.equal(strip(toks.map(x=>x.th).join('')),strip(e.th))};if(w&&toks.some(x=>x.th===w.th))head++}
 assert(ok/n>0.985,'coverage '+ok/n);assert(head/ok>0.99,'headword kept '+head/ok);
 const split=(th,ro,p='')=>t.seg(th,ro,p).map(x=>x.th).join('|');

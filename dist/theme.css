@@ -135,3 +135,13 @@ html body #main .x-lesson-row.is-next{background:var(--t-soft)}
 /* desktop lesson side list, and the zero count on the daily panel */
 html body #main .mini-lesson,html body #main .mini-lesson span,html body #main .mini-title-content{font-size:13px;color:var(--t-text)}
 html body #main .x-task.is-zero b{color:var(--t-sub)}
+
+/* 文法の例文：語を役割の色で分ける（文の組み立てと同じ色）。この課の形にはマーカー。 */
+html body #main .example .th.is-roles .rw,html body #main .example .ro.is-roles .rw{color:var(--rc,var(--t-ink))}
+html body #main .example .th.is-roles .rw{font-weight:600}
+html body #main .example .is-roles .rw.is-key{background:var(--c-mark);border-radius:3px;padding:0 2px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+html body #main .ex-legend{display:flex;flex-wrap:wrap;gap:4px 12px;margin:0 0 10px;font-size:12px;font-weight:700;line-height:1.5}
+html body #main .ex-legend>span{color:var(--rc,var(--t-ink))}
+html body #main .ex-legend>span::before{content:"";display:inline-block;width:9px;height:9px;border-radius:2px;background:currentColor;margin-right:4px}
+html body #main .ex-legend>.ex-legend-key{color:var(--t-ink);background:var(--c-mark);border-radius:3px;padding:0 5px}
+html body #main .ex-legend>.ex-legend-key::before{display:none}
