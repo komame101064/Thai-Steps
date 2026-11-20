@@ -1,0 +1,1746 @@
+[
+ {
+  "id": "tl-58553",
+  "th": "ไม่มีแรง",
+  "action": "add",
+  "ro": "mâi mii rɛɛng",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "力が出ない・体がだるい",
+    "en": "to have no strength, to feel weak",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "体調を言うときの決まった言い方で、「ไม่มีแรง＋動詞」で「〜する元気がない」とも言う。",
+    "example": {
+     "th": "วันนี้เป็นไข้ ไม่มีแรงเลย",
+     "ro": "wan níi pen khâi mâi mii rɛɛng ləəi",
+     "ja": "今日は熱があって、全然力が出ません。",
+     "en": "I have a fever today and have no strength at all.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58554",
+  "th": "มีแรง",
+  "action": "skip",
+  "skipReason": "「มี（ある）＋แรง（力）」の自由な組み合わせで、意味は部分の合計どおり。否定形の ไม่มีแรง を体調の決まった言い方として採用したため、こちらは見送り。"
+ },
+ {
+  "id": "tl-58555",
+  "th": "ตามไม่ทัน",
+  "action": "add",
+  "ro": "taam mâi than",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ついていけない・追いつけない",
+    "en": "to be unable to keep up or catch up",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ตามทัน（追いつく）の否定の形で、話・授業・流行などについてこの形でよく使う。",
+    "example": {
+     "th": "ครูพูดเร็วมาก ฉันตามไม่ทัน",
+     "ro": "khruu phûut reo mâak chǎn taam mâi than",
+     "ja": "先生はとても早口で、私はついていけません。",
+     "en": "The teacher speaks very fast and I can't keep up.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58556",
+  "th": "ตาบวม",
+  "action": "add",
+  "ro": "taa buuam",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "目が腫れる・まぶたが腫れている",
+    "en": "to have swollen eyes",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เมื่อคืนร้องไห้หนัก เช้านี้เลยตาบวม",
+     "ro": "mʉ̂ʉa khʉʉn rɔ́ɔng hâi nàk cháao níi ləəi taa buuam",
+     "ja": "昨夜ひどく泣いたので、今朝は目が腫れています。",
+     "en": "I cried hard last night, so my eyes are swollen this morning.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58557",
+  "th": "ดูเด็ก",
+  "action": "add",
+  "ro": "duu dèk",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "若く見える",
+    "en": "to look young",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "เด็ก はここでは「若い」の意味で、ほめ言葉としてよく使う。",
+    "example": {
+     "th": "คุณแม่ของเธอดูเด็กกว่าอายุจริง",
+     "ro": "khun mɛ̂ɛ khɔ̌ɔng thəə duu dèk kwàa aa yú cing",
+     "ja": "彼女のお母さんは実年齢より若く見えます。",
+     "en": "Her mother looks younger than her real age.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58558",
+  "th": "ดูแก่",
+  "action": "add",
+  "ro": "duu kɛ̀ɛ",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "老けて見える",
+    "en": "to look old",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "人に向かって言うと失礼になりやすい。",
+    "example": {
+     "th": "ใส่เสื้อสีนี้แล้วดูแก่",
+     "ro": "sài sʉ̂ʉa sǐi níi lɛ́ɛo duu kɛ̀ɛ",
+     "ja": "この色の服を着ると老けて見えます。",
+     "en": "Wearing this color makes you look old.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58559",
+  "th": "ผิวขาว",
+  "action": "add",
+  "ro": "phǐu khǎao",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "色白の・肌が白い",
+    "en": "fair-skinned",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "น้องสาวฉันผิวขาวเหมือนแม่",
+     "ro": "nɔ́ɔng sǎao chǎn phǐu khǎao mʉ̌ʉan mɛ̂ɛ",
+     "ja": "私の妹は母と同じように色白です。",
+     "en": "My younger sister is fair-skinned like our mother.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58560",
+  "th": "ใสๆ",
+  "action": "add",
+  "ro": "sǎi sǎi",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "透明感のある・ナチュラルな（肌・メイクが）",
+    "en": "clear, natural-looking (skin, makeup)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "วันนี้เธอแต่งหน้าใสๆ น่ารักดี",
+     "ro": "wan níi thəə tɛ̀ng nâa sǎi sǎi nâa rák dii",
+     "ja": "今日の彼女はナチュラルメイクで、かわいいです。",
+     "en": "She is wearing light, natural makeup today and looks cute.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "純真な・ピュアな（人・恋が）",
+    "en": "innocent, pure",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "หนังเรื่องนี้เป็นเรื่องรักใสๆ ของเด็กมัธยม",
+     "ro": "nǎng rʉ̂ʉang níi pen rʉ̂ʉang rák sǎi sǎi khɔ̌ɔng dèk mát thá yom",
+     "ja": "この映画は中高生のピュアな恋の話です。",
+     "en": "This movie is a story of innocent love between secondary-school kids.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58561",
+  "th": "เบื่อๆ",
+  "action": "add",
+  "ro": "bʉ̀ʉa bʉ̀ʉa",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "なんとなく退屈な・少しうんざりした",
+    "en": "kind of bored, a bit fed up",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "เบื่อ を繰り返して、はっきりしない「なんとなく」の気分を表す。",
+    "example": {
+     "th": "ช่วงนี้รู้สึกเบื่อๆ ไม่อยากทำอะไรเลย",
+     "ro": "chûuang níi rúu sʉ̀k bʉ̀ʉa bʉ̀ʉa mâi yàak tham à rai ləəi",
+     "ja": "最近なんとなく退屈で、何もしたくありません。",
+     "en": "Lately I feel kind of bored and don't want to do anything.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58562",
+  "th": "ยุ่งๆ",
+  "action": "add",
+  "ro": "yûng yûng",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "少し忙しい・ばたばたしている",
+    "en": "kind of busy, hectic",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "ยุ่ง を繰り返してやわらげた言い方で、近況を聞かれたときの返事によく使う。",
+    "example": {
+     "th": "ช่วงนี้งานยุ่งๆ เลยไม่ค่อยได้เจอเพื่อน",
+     "ro": "chûuang níi ngaan yûng yûng ləəi mâi khɔ̂ɔi dâai cəə phʉ̂ʉan",
+     "ja": "最近は仕事がばたばたしていて、あまり友達に会えていません。",
+     "en": "Work has been kind of hectic lately, so I haven't seen my friends much.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58563",
+  "th": "งานยุ่ง",
+  "action": "skip",
+  "skipReason": "「งาน（仕事）＋ยุ่ง（忙しい）」の主語＋述語の自由結合で、固定した一語ではない。既存の ยุ่ง で学べる。"
+ },
+ {
+  "id": "tl-58564",
+  "th": "ปกติดี",
+  "action": "add",
+  "ro": "pòk kà tì dii",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "異常がない・問題なくいつも通りだ",
+    "en": "normal, nothing wrong",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "検査結果や機械・体の状態を言うときの決まった言い方。",
+    "example": {
+     "th": "ผลตรวจเลือดออกมาปกติดีทุกอย่าง",
+     "ro": "phǒn trùuat lʉ̂ʉat ɔ̀ɔk maa pòk kà tì dii thúk yàang",
+     "ja": "血液検査の結果はすべて異常なしでした。",
+     "en": "The blood test results all came back normal.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58565",
+  "th": "หนักๆ",
+  "action": "add",
+  "ro": "nàk nàk",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "激しく・思いきり",
+    "en": "hard, heavily",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ฝนตกหนักๆ แบบนี้ออกไปไหนไม่ได้",
+     "ro": "fǒn tòk nàk nàk bɛ̀ɛp níi ɔ̀ɔk pai nǎi mâi dâai",
+     "ja": "こんなに激しく雨が降っていては、どこにも出かけられません。",
+     "en": "With it raining this hard, we can't go out anywhere.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "重めの・こってりした（食事などが）",
+    "en": "heavy (of a meal etc.)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ตอนเย็นไม่อยากกินอะไรหนักๆ",
+     "ro": "tɔɔn yen mâi yàak kin à rai nàk nàk",
+     "ja": "夕方は重いものを食べたくありません。",
+     "en": "I don't want to eat anything heavy in the evening.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58566",
+  "th": "เผ็ดๆ",
+  "action": "skip",
+  "skipReason": "既存の เผ็ด を繰り返しただけで、意味はほぼ同じ（独自の語義がない）。"
+ },
+ {
+  "id": "tl-58567",
+  "th": "กรอบๆ",
+  "action": "skip",
+  "skipReason": "既存の กรอบ（カリッとした）を繰り返しただけで、意味はほぼ同じ（独自の語義がない）。"
+ },
+ {
+  "id": "tl-58568",
+  "th": "น่าอร่อย",
+  "action": "add",
+  "ro": "nâa à rɔ̀ɔi",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "おいしそうな",
+    "en": "delicious-looking",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "会話では น่ากิน もよく使う。",
+    "example": {
+     "th": "เค้กร้านนี้ดูน่าอร่อยทุกชิ้น",
+     "ro": "khéek ráan níi duu nâa à rɔ̀ɔi thúk chín",
+     "ja": "この店のケーキはどれもおいしそうです。",
+     "en": "Every cake at this shop looks delicious.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58569",
+  "th": "น่าเที่ยว",
+  "action": "add",
+  "ro": "nâa thîiao",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "行ってみたくなる・観光によい（場所が）",
+    "en": "worth visiting, nice to travel to",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เชียงใหม่หน้าหนาวน่าเที่ยวมาก",
+     "ro": "chiiang mài nâa nǎao nâa thîiao mâak",
+     "ja": "冬のチェンマイは観光にとてもいいです。",
+     "en": "Chiang Mai in the cool season is a great place to visit.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58570",
+  "th": "น่าสนุก",
+  "action": "add",
+  "ro": "nâa sà nùk",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "楽しそうな・面白そうな",
+    "en": "fun-looking, looks like fun",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เกมนี้ดูน่าสนุก ลองเล่นกันไหม",
+     "ro": "keem níi duu nâa sà nùk lɔɔng lên kan mǎi",
+     "ja": "このゲームは面白そうです。一緒にやってみませんか。",
+     "en": "This game looks fun. Shall we try playing it?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58571",
+  "th": "คุยเก่ง",
+  "action": "add",
+  "ro": "khui kèng",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "話し上手な・よくしゃべる",
+    "en": "talkative, good at conversation",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "ほめる意味にも「おしゃべりだ」という意味にもなる。",
+    "example": {
+     "th": "เขาเป็นคนคุยเก่ง อยู่ด้วยแล้วไม่เบื่อ",
+     "ro": "khǎo pen khon khui kèng yùu dûuai lɛ́ɛo mâi bʉ̀ʉa",
+     "ja": "彼は話し上手な人で、一緒にいて退屈しません。",
+     "en": "He is a good talker; you never get bored with him.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58572",
+  "th": "มีความรับผิดชอบ",
+  "action": "add",
+  "ro": "mii khwaam ráp phìt chɔ̂ɔp",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "責任感がある",
+    "en": "responsible, having a sense of responsibility",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หัวหน้าชอบคนที่มีความรับผิดชอบ",
+     "ro": "hǔua nâa chɔ̂ɔp khon thîi mii khwaam ráp phìt chɔ̂ɔp",
+     "ja": "上司は責任感のある人が好きです。",
+     "en": "The boss likes people who are responsible.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58573",
+  "th": "ไม่รับผิดชอบ",
+  "action": "skip",
+  "skipReason": "既存の รับผิดชอบ に否定の ไม่ を付けただけの自由結合。"
+ },
+ {
+  "id": "tl-58574",
+  "th": "มีความสามารถ",
+  "action": "add",
+  "ro": "mii khwaam sǎa mâat",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "有能な・能力がある・才能がある",
+    "en": "capable, talented",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บริษัทต้องการคนที่มีความสามารถ",
+     "ro": "bɔɔ rí sàt tɔ̂ɔng kaan khon thîi mii khwaam sǎa mâat",
+     "ja": "会社は能力のある人を求めています。",
+     "en": "The company wants capable people.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58575",
+  "th": "มีความหมาย",
+  "action": "add",
+  "ro": "mii khwaam mǎai",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "大切な意味を持つ・意義がある",
+    "en": "to be meaningful, to mean a lot",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ของขวัญชิ้นนี้มีความหมายกับฉันมาก",
+     "ro": "khɔ̌ɔng khwǎn chín níi mii khwaam mǎai kàp chǎn mâak",
+     "ja": "この贈り物は私にとってとても大切な意味があります。",
+     "en": "This gift means a lot to me.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "〜という意味がある（語・名前が）",
+    "en": "to have a meaning, to mean",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ชื่อของเขามีความหมายว่าความสุข",
+     "ro": "chʉ̂ʉ khɔ̌ɔng khǎo mii khwaam mǎai wâa khwaam sùk",
+     "ja": "彼の名前には「幸せ」という意味があります。",
+     "en": "His name means \"happiness\".",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58576",
+  "th": "มีคุณภาพ",
+  "action": "add",
+  "ro": "mii khun ná phâap",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "質が高い・良質の",
+    "en": "of good quality",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "「品質がある」ではなく「品質が良い」の意味で使う。",
+    "example": {
+     "th": "ร้านนี้ขายแต่สินค้าที่มีคุณภาพ",
+     "ro": "ráan níi khǎai tɛ̀ɛ sǐn kháa thîi mii khun ná phâap",
+     "ja": "この店は質の高い商品だけを売っています。",
+     "en": "This shop sells only good-quality products.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58577",
+  "th": "มีสติ",
+  "action": "add",
+  "ro": "mii sà tì",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "冷静でいる・落ち着いて判断できる",
+    "en": "to stay calm, to keep one's wits",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เวลาเกิดปัญหาต้องมีสติก่อน",
+     "ro": "wee laa kə̀ət pan hǎa tɔ̂ɔng mii sà tì kɔ̀ɔn",
+     "ja": "問題が起きたときは、まず冷静でいなければなりません。",
+     "en": "When a problem comes up, you first have to stay calm.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58578",
+  "th": "ยอดฮิต",
+  "action": "add",
+  "ro": "yɔ̂ɔt hít",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "大人気の・定番人気の",
+    "en": "hugely popular, top-hit",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "名詞の後に置く。広告やランキングの見出しに多く、より硬い言い方は ยอดนิยม。",
+    "example": {
+     "th": "นี่คือเมนูยอดฮิตของร้านเรา",
+     "ro": "nîi khʉʉ mee nuu yɔ̂ɔt hít khɔ̌ɔng ráan rao",
+     "ja": "これは私たちの店の大人気メニューです。",
+     "en": "This is our shop's most popular dish.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58579",
+  "th": "พรีเมียม",
+  "action": "add",
+  "ro": "phrii miiam",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "プレミアムな・高級な",
+    "en": "premium, high-end",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "英語 premium から。実際の会話では2音節目を下がる調子（mîiam）で言うことが多い。",
+    "example": {
+     "th": "ร้านนี้ใช้วัตถุดิบระดับพรีเมียม",
+     "ro": "ráan níi chái wát thù dìp rá dàp phrii miiam",
+     "ja": "この店はプレミアム級の食材を使っています。",
+     "en": "This restaurant uses premium-grade ingredients.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58580",
+  "th": "ระดับโลก",
+  "action": "add",
+  "ro": "rá dàp lôok",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "世界レベルの・世界的な",
+    "en": "world-class",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "名詞の後に置いて使う。",
+    "example": {
+     "th": "เขาเป็นนักกีฬาระดับโลก",
+     "ro": "khǎo pen nák kii laa rá dàp lôok",
+     "ja": "彼は世界レベルのスポーツ選手です。",
+     "en": "He is a world-class athlete.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58581",
+  "th": "รุ่นใหม่",
+  "action": "add",
+  "ro": "rûn mài",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "新型・新しいモデル",
+    "en": "new model",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "มือถือรุ่นใหม่จะออกเดือนหน้า",
+     "ro": "mʉʉ thʉ̌ʉ rûn mài cà ɔ̀ɔk dʉʉan nâa",
+     "ja": "携帯の新型は来月出ます。",
+     "en": "The new phone model will come out next month.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "新世代の・若い世代の",
+    "en": "of the new generation",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พ่อแม่รุ่นใหม่เลี้ยงลูกไม่เหมือนสมัยก่อน",
+     "ro": "phɔ̂ɔ mɛ̂ɛ rûn mài líiang lûuk mâi mʉ̌ʉan sà mǎi kɔ̀ɔn",
+     "ja": "新しい世代の親の子育ては、昔と同じではありません。",
+     "en": "Parents of the new generation don't raise children the way people used to.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58582",
+  "th": "คมชัด",
+  "action": "add",
+  "ro": "khom chát",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "鮮明な・くっきりした（画像・画面が）",
+    "en": "sharp, crisp (of images)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กล้องตัวนี้ถ่ายรูปได้คมชัดมาก",
+     "ro": "klɔ̂ɔng tuua níi thàai rûup dâai khom chát mâak",
+     "ja": "このカメラはとても鮮明な写真が撮れます。",
+     "en": "This camera takes very sharp pictures.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58583",
+  "th": "เสร็จสมบูรณ์",
+  "action": "add",
+  "ro": "sèt sǒm buun",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "完了した・すべて完成した",
+    "en": "completed, fully finished",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "note": "アプリや手続きの完了表示によく出る。",
+    "example": {
+     "th": "การชำระเงินเสร็จสมบูรณ์แล้ว",
+     "ro": "kaan cham rá ngən sèt sǒm buun lɛ́ɛo",
+     "ja": "お支払いが完了しました。",
+     "en": "The payment has been completed.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58584",
+  "th": "เสร็จเรียบร้อย",
+  "action": "add",
+  "ro": "sèt rîiap rɔ́ɔi",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "すっかり済んだ・滞りなく終わった",
+    "en": "all done, finished without problems",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "完了を報告するときの決まった言い方。",
+    "example": {
+     "th": "งานที่สั่งไว้เสร็จเรียบร้อยแล้วครับ",
+     "ro": "ngaan thîi sàng wái sèt rîiap rɔ́ɔi lɛ́ɛo khráp",
+     "ja": "頼まれていた仕事はすべて終わりました。",
+     "en": "The work you asked for is all done.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58585",
+  "th": "ใช้งานได้",
+  "action": "skip",
+  "skipReason": "既存の ใช้งาน の語義「使える・作動する」と ใช้ได้「使える・有効な」ですでに学べる。ใช้งาน＋ได้ の自由結合。"
+ },
+ {
+  "id": "tl-58586",
+  "th": "ใช้ดี",
+  "action": "add",
+  "ro": "chái dii",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "使い心地がいい・使ってみて良い",
+    "en": "to work well, to be good to use",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "商品の感想や口コミで決まって使う言い方。",
+    "example": {
+     "th": "ครีมกันแดดตัวนี้ใช้ดีมาก ซื้อซ้ำหลายรอบแล้ว",
+     "ro": "khriim kan dɛ̀ɛt tuua níi chái dii mâak sʉ́ʉ sám lǎai rɔ̂ɔp lɛ́ɛo",
+     "ja": "この日焼け止めはとても使い心地がよくて、もう何回も買い直しています。",
+     "en": "This sunscreen is really good; I've already rebought it several times.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58587",
+  "th": "หาง่าย",
+  "action": "add",
+  "ro": "hǎa ngâai",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "手に入りやすい・見つけやすい",
+    "en": "easy to find, readily available",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "反対は หายาก（珍しい・見つけにくい）。",
+    "example": {
+     "th": "ผลไม้ชนิดนี้หาง่ายและราคาไม่แพง",
+     "ro": "phǒn lá máai chá nít níi hǎa ngâai lɛ́ raa khaa mâi phɛɛng",
+     "ja": "この種類の果物は手に入りやすく、値段は高くありません。",
+     "en": "This kind of fruit is easy to find and not expensive.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58588",
+  "th": "ทำง่าย",
+  "action": "add",
+  "ro": "tham ngâai",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "簡単に作れる・簡単にできる",
+    "en": "easy to make, easy to do",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "レシピや作り方の紹介の見出しで決まって使う言い方。",
+    "example": {
+     "th": "เมนูนี้ทำง่าย ใช้เวลาแค่สิบนาที",
+     "ro": "mee nuu níi tham ngâai chái wee laa khɛ̂ɛ sìp naa thii",
+     "ja": "このメニューは簡単に作れて、10分しかかかりません。",
+     "en": "This dish is easy to make and takes only ten minutes.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58589",
+  "th": "อ่านง่าย",
+  "action": "skip",
+  "skipReason": "「動詞＋ง่าย（〜しやすい）」の生産的な自由結合で、意味は部分の合計どおり。"
+ },
+ {
+  "id": "tl-58590",
+  "th": "พูดยาก",
+  "action": "add",
+  "ro": "phûut yâak",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何とも言えない・一概には言えない",
+    "en": "hard to say",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ใครจะชนะยังพูดยาก",
+     "ro": "khrai cà chá ná yang phûut yâak",
+     "ja": "誰が勝つかは、まだ何とも言えません。",
+     "en": "It's still hard to say who will win.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "言いにくい・切り出しにくい",
+    "en": "hard to bring up, awkward to say",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เรื่องนี้พูดยาก กลัวเขาเสียใจ",
+     "ro": "rʉ̂ʉang níi phûut yâak kluua khǎo sǐia cai",
+     "ja": "この話は言いにくいです。彼が悲しむのが怖いのです。",
+     "en": "This is hard to bring up; I'm afraid he'll be hurt.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58591",
+  "th": "ใกล้หมด",
+  "action": "add",
+  "ro": "klâi mòt",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "もうすぐなくなる・残りわずかだ",
+    "en": "to be almost out, running low",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "通販の在庫表示（สินค้าใกล้หมด）や電池残量の話でも決まって使う。",
+    "example": {
+     "th": "น้ำมันใกล้หมดแล้ว ต้องแวะปั๊มก่อน",
+     "ro": "nám man klâi mòt lɛ́ɛo tɔ̂ɔng wɛ́ pám kɔ̀ɔn",
+     "ja": "ガソリンがもうすぐなくなるので、先にスタンドに寄らなければなりません。",
+     "en": "We're almost out of gas, so we have to stop at a station first.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58592",
+  "th": "เหลือน้อย",
+  "action": "add",
+  "ro": "lʉ̌ʉa nɔ́ɔi",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "残りわずかだ・残りが少ない",
+    "en": "to have little left, running low",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "在庫・座席・電池残量などの表示にも使う。",
+    "example": {
+     "th": "ตั๋วรอบนี้เหลือน้อยแล้ว รีบจองนะ",
+     "ro": "tǔua rɔ̂ɔp níi lʉ̌ʉa nɔ́ɔi lɛ́ɛo rîip cɔɔng ná",
+     "ja": "この回のチケットは残りわずかです。急いで予約してね。",
+     "en": "There are only a few tickets left for this showing. Book quickly.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58593",
+  "th": "เต็มถัง",
+  "action": "add",
+  "ro": "tem thǎng",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "満タン（に）",
+    "en": "a full tank, (fill) to the top",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ガソリンスタンドで注文するときの決まった言い方。",
+    "example": {
+     "th": "เติมน้ำมันเต็มถังเลยครับ",
+     "ro": "təəm nám man tem thǎng ləəi khráp",
+     "ja": "ガソリンを満タンにしてください。",
+     "en": "Fill the tank up, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58594",
+  "th": "เต็มรูปแบบ",
+  "action": "add",
+  "ro": "tem rûup bɛ̀ɛp",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "本格的に・全面的に・完全な形で",
+    "en": "fully, on a full scale",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ニュースや告知でよく使う。名詞の後に置いて「本格的な」の意味にもなる。",
+    "example": {
+     "th": "ร้านจะเปิดให้บริการเต็มรูปแบบเดือนหน้า",
+     "ro": "ráan cà pə̀ət hâi bɔɔ rí kaan tem rûup bɛ̀ɛp dʉʉan nâa",
+     "ja": "店は来月、本格的に営業を始めます。",
+     "en": "The shop will open for full service next month.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58595",
+  "th": "ใกล้บ้าน",
+  "action": "skip",
+  "skipReason": "「ใกล้（近い）＋บ้าน（家）」の自由結合で、固定した一語ではない。"
+ },
+ {
+  "id": "tl-58596",
+  "th": "ตัวคนเดียว",
+  "action": "add",
+  "ro": "tuua khon diiao",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "独り身で・たった一人で",
+    "en": "all alone, on one's own",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "คนเดียว より「頼る人がいない・身ひとつ」という気持ちが強い。",
+    "example": {
+     "th": "ป้าอยู่ตัวคนเดียว ไม่มีลูกหลานดูแล",
+     "ro": "pâa yùu tuua khon diiao mâi mii lûuk lǎan duu lɛɛ",
+     "ja": "おばは独り身で、世話をしてくれる子や孫がいません。",
+     "en": "My aunt lives all alone, with no children or grandchildren to look after her.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58597",
+  "th": "ขึ้นๆลงๆ",
+  "action": "add",
+  "ro": "khʉ̂n khʉ̂n long long",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "上がったり下がったりする・安定しない",
+    "en": "to go up and down, to fluctuate",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ขึ้นๆ ลงๆ と間を空けて書くことも多い。",
+    "example": {
+     "th": "ช่วงนี้ราคาทองขึ้นๆลงๆ ทุกวัน",
+     "ro": "chûuang níi raa khaa thɔɔng khʉ̂n khʉ̂n long long thúk wan",
+     "ja": "最近、金の価格は毎日上がったり下がったりしています。",
+     "en": "Lately the price of gold has been going up and down every day.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58598",
+  "th": "ไปมา",
+  "action": "add",
+  "ro": "pai maa",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（動詞の後で）行ったり来たり・あちこちへ",
+    "en": "back and forth, to and fro (after a verb)",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาเดินไปมาอยู่หน้าห้องผ่าตัด",
+     "ro": "khǎo dəən pai maa yùu nâa hɔ̂ɔng phàa tàt",
+     "ja": "彼は手術室の前を行ったり来たり歩いています。",
+     "en": "He is pacing back and forth in front of the operating room.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "行き来する・往来する",
+    "en": "to come and go, to get around",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บ้านอยู่ใกล้รถไฟฟ้า ไปมาสะดวก",
+     "ro": "bâan yùu klâi rót fai fáa pai maa sà dùuak",
+     "ja": "家は電車に近くて、行き来が便利です。",
+     "en": "The house is near the train line, so getting around is easy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58599",
+  "th": "สองเท่า",
+  "action": "add",
+  "ro": "sɔ̌ɔng thâo",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "2倍",
+    "en": "double, twice as much",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "「数＋เท่า」で「〜倍」。その中で最もよく使う形。",
+    "example": {
+     "th": "ค่าเช่าที่นี่แพงกว่าที่เก่าสองเท่า",
+     "ro": "khâa châo thîi nîi phɛɛng kwàa thîi kào sɔ̌ɔng thâo",
+     "ja": "ここの家賃は前の所より2倍高いです。",
+     "en": "The rent here is twice as expensive as at my old place.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58600",
+  "th": "นิดๆหน่อยๆ",
+  "action": "add",
+  "ro": "nít nít nɔ̀ɔi nɔ̀ɔi",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ほんの少しばかり・ちょこちょこと",
+    "en": "just a little, a bit here and there",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "นิดหน่อย を繰り返した形。นิดๆ หน่อยๆ と間を空けて書くことも多い。",
+    "example": {
+     "th": "เขาช่วยงานบ้านนิดๆหน่อยๆ เท่านั้น",
+     "ro": "khǎo chûuai ngaan bâan nít nít nɔ̀ɔi nɔ̀ɔi thâo nán",
+     "ja": "彼は家事をほんの少し手伝うだけです。",
+     "en": "He only helps with the housework a little.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58601",
+  "th": "คนละคน",
+  "action": "add",
+  "ro": "khon lá khon",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "別人・別の人",
+    "en": "a different person",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "เหมือนคนละคน「まるで別人のようだ」の形でよく使う。",
+    "example": {
+     "th": "พอแต่งหน้าแล้วเธอดูเหมือนคนละคนเลย",
+     "ro": "phɔɔ tɛ̀ng nâa lɛ́ɛo thəə duu mʉ̌ʉan khon lá khon ləəi",
+     "ja": "メイクをすると、彼女はまるで別人のように見えます。",
+     "en": "Once she puts on makeup, she looks like a completely different person.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58602",
+  "th": "อันเดียวกัน",
+  "action": "add",
+  "ro": "an diiao kan",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "同じもの・同一のもの",
+    "en": "the same one, the same thing",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รหัสผ่านของสองแอปนี้เป็นอันเดียวกัน",
+     "ro": "rá hàt phàan khɔ̌ɔng sɔ̌ɔng ɛ́p níi pen an diiao kan",
+     "ja": "この2つのアプリのパスワードは同じものです。",
+     "en": "The passwords for these two apps are the same one.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58603",
+  "th": "เข้าที่",
+  "action": "add",
+  "ro": "khâo thîi",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "元の場所に収まる・定位置に戻る",
+    "en": "to be back in its place",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อ่านเสร็จแล้วเก็บหนังสือให้เข้าที่ด้วย",
+     "ro": "àan sèt lɛ́ɛo kèp nǎng sʉ̌ʉ hâi khâo thîi dûuai",
+     "ja": "読み終わったら、本を元の場所に片づけてください。",
+     "en": "When you finish reading, put the book back in its place.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "落ち着く・軌道に乗る（状況が）",
+    "en": "to settle down, to fall into place",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รออีกสักพัก ทุกอย่างจะเข้าที่เอง",
+     "ro": "rɔɔ ìik sàk phák thúk yàang cà khâo thîi eeng",
+     "ja": "もうしばらく待てば、すべて自然に落ち着きます。",
+     "en": "Wait a little longer and everything will fall into place by itself.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58604",
+  "th": "สภาพดี",
+  "action": "add",
+  "ro": "sà phâap dii",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "状態が良い（中古品などが）",
+    "en": "in good condition",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "中古品の出品や広告で決まって使う表示。",
+    "example": {
+     "th": "รถคันนี้เป็นมือสองแต่สภาพดีมาก",
+     "ro": "rót khan níi pen mʉʉ sɔ̌ɔng tɛ̀ɛ sà phâap dii mâak",
+     "ja": "この車は中古ですが、状態がとても良いです。",
+     "en": "This car is second-hand, but it is in very good condition.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58605",
+  "th": "เข้าใจยาก",
+  "action": "skip",
+  "skipReason": "「動詞＋ยาก（〜しにくい）」の生産的な自由結合で、意味は部分の合計どおり。"
+ },
+ {
+  "id": "tl-58606",
+  "th": "อ่านไม่ออก",
+  "action": "add",
+  "ro": "àan mâi ɔ̀ɔk",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "読めない・読み取れない",
+    "en": "to be unable to read or make out",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "字が汚くて読めない場合にも、その文字・言語を知らなくて読めない場合にも使う。",
+    "example": {
+     "th": "ลายมือหมออ่านไม่ออกเลย",
+     "ro": "laai mʉʉ mɔ̌ɔ àan mâi ɔ̀ɔk ləəi",
+     "ja": "医者の字は全然読めません。",
+     "en": "I can't read the doctor's handwriting at all.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58607",
+  "th": "คราวหลัง",
+  "action": "add",
+  "ro": "khraao lǎng",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "今度からは・この次は",
+    "en": "next time, from now on",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "注意や反省で「次からは」と言うときによく使う。",
+    "example": {
+     "th": "คราวหลังอย่ามาสายอีกนะ",
+     "ro": "khraao lǎng yàa maa sǎai ìik ná",
+     "ja": "今度からはもう遅刻しないでね。",
+     "en": "Don't come late again next time, okay?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58608",
+  "th": "ช่วงหลัง",
+  "action": "add",
+  "ro": "chûuang lǎng",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "最近は・このところ（以前と比べて）",
+    "en": "lately, in recent times",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ช่วงหลังๆ・ช่วงหลังมานี้ の形でも言う。",
+    "example": {
+     "th": "ช่วงหลังเขาไม่ค่อยมาออกกำลังกาย",
+     "ro": "chûuang lǎng khǎo mâi khɔ̂ɔi maa ɔ̀ɔk kam lang kaai",
+     "ja": "最近、彼はあまり運動しに来ません。",
+     "en": "Lately he hasn't been coming to exercise much.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "後半・後のほうの時期",
+    "en": "the latter part",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วงหลังของหนังสนุกกว่าช่วงแรก",
+     "ro": "chûuang lǎng khɔ̌ɔng nǎng sà nùk kwàa chûuang rɛ̂ɛk",
+     "ja": "映画の後半は前半より面白いです。",
+     "en": "The latter part of the movie is more fun than the first part.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58609",
+  "th": "ตามเดิม",
+  "action": "add",
+  "ro": "taam dəəm",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "元どおりに・従来どおりに",
+    "en": "as before, as it was",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านจะกลับมาเปิดตามเดิมในวันจันทร์",
+     "ro": "ráan cà klàp maa pə̀ət taam dəəm nai wan can",
+     "ja": "店は月曜日に元どおり営業を再開します。",
+     "en": "The shop will reopen as before on Monday.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58610",
+  "th": "ตามสะดวก",
+  "action": "add",
+  "ro": "taam sà dùuak",
+  "kind": "word",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ご都合のよいように・ご自由に",
+    "en": "as is convenient for you, as you like",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "相手に任せるときの丁寧な決まり文句。親しい相手には ตามสบาย も使う。",
+    "example": {
+     "th": "จะมากี่โมงก็ได้ ตามสะดวกเลยครับ",
+     "ro": "cà maa kìi moong kɔ̂ɔ dâai taam sà dùuak ləəi khráp",
+     "ja": "何時に来てもいいですよ。ご都合のよいようにどうぞ。",
+     "en": "You can come at any time. Whatever is convenient for you.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58611",
+  "th": "สักคำ",
+  "action": "skip",
+  "skipReason": "「สัก＋類別詞」の自由結合。既存の สัก の語義（否定と組んで「一つも〜ない」）と คำ で学べる。"
+ },
+ {
+  "id": "tl-58612",
+  "th": "แม้แต่น้อย",
+  "action": "add",
+  "ro": "mɛ́ɛ tɛ̀ɛ nɔ́ɔi",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（否定文で）少しも・みじんも",
+    "en": "(not) in the least, (not) at all",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "否定文の終わりに置く。やや書き言葉寄りで、会話では เลย をよく使う。",
+    "example": {
+     "th": "เขาไม่สนใจคำเตือนของหมอแม้แต่น้อย",
+     "ro": "khǎo mâi sǒn cai kham tʉʉan khɔ̌ɔng mɔ̌ɔ mɛ́ɛ tɛ̀ɛ nɔ́ɔi",
+     "ja": "彼は医者の忠告を少しも気にかけません。",
+     "en": "He doesn't pay the slightest attention to the doctor's warning.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58613",
+  "th": "จิ๊ดเดียว",
+  "action": "add",
+  "ro": "cít diiao",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ほんのちょっと・ちょびっと",
+    "en": "just a tiny bit",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "นิดเดียว のくだけた言い方。",
+    "example": {
+     "th": "ใส่พริกแค่จิ๊ดเดียวก็เผ็ดแล้ว",
+     "ro": "sài phrík khɛ̂ɛ cít diiao kɔ̂ɔ phèt lɛ́ɛo",
+     "ja": "唐辛子をほんのちょっと入れただけで、もう辛いです。",
+     "en": "Put in just a tiny bit of chili and it's already spicy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58614",
+  "th": "เข้าไปอีก",
+  "action": "add",
+  "ro": "khâo pai ìik",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（状態を表す語の後で）さらに・なおさら・一段と",
+    "en": "even more, all the more (after a state word)",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "すでにある程度そうである状態が、いっそう進むことを表す。",
+    "example": {
+     "th": "พอฝนตก รถก็ติดเข้าไปอีก",
+     "ro": "phɔɔ fǒn tòk rót kɔ̂ɔ tìt khâo pai ìik",
+     "ja": "雨が降ると、渋滞がさらにひどくなります。",
+     "en": "When it rains, the traffic gets even worse.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58615",
+  "th": "เข้าไปใหญ่",
+  "action": "add",
+  "ro": "khâo pai yài",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ますます・いっそうひどく",
+    "en": "all the more, even worse",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "ยิ่ง…เข้าไปใหญ่ の形が多く、望ましくない方向に進むときによく使う。",
+    "example": {
+     "th": "ยิ่งห้าม เด็กก็ยิ่งอยากทำเข้าไปใหญ่",
+     "ro": "yîng hâam dèk kɔ̂ɔ yîng yàak tham khâo pai yài",
+     "ja": "禁止すればするほど、子どもはますますやりたがります。",
+     "en": "The more you forbid it, the more the child wants to do it.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58616",
+  "th": "เกินเหตุ",
+  "action": "add",
+  "ro": "kəən hèet",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "度を越して・必要以上に",
+    "en": "excessively, beyond what is reasonable",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "เกินกว่าเหตุ とも言う。",
+    "example": {
+     "th": "เขาโกรธเกินเหตุกับเรื่องเล็กน้อย",
+     "ro": "khǎo kròot kəən hèet kàp rʉ̂ʉang lék nɔ́ɔi",
+     "ja": "彼は些細なことで度を越して怒ります。",
+     "en": "He gets excessively angry over small things.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58617",
+  "th": "สุดชีวิต",
+  "action": "add",
+  "ro": "sùt chii wít",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "命がけで・死に物狂いで・全力で",
+    "en": "with all one's might, for dear life",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เห็นหมาวิ่งมา เขาก็วิ่งหนีสุดชีวิต",
+     "ro": "hěn mǎa wîng maa khǎo kɔ̂ɔ wîng nǐi sùt chii wít",
+     "ja": "犬が走ってくるのを見て、彼は必死で走って逃げました。",
+     "en": "Seeing the dog running toward him, he ran for his life.",
+     "origin": "authored"
+    }
+   }
+  ]
+ }
+]

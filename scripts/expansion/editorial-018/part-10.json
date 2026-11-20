@@ -1,0 +1,1636 @@
+[
+ {
+  "id": "tl-59071",
+  "th": "ผมสั้น",
+  "action": "skip",
+  "skipReason": "ผม（髪）＋สั้น（短い）の自由な組み合わせで、意味は既存の2語の和そのまま。固定した単位としての独自の意味がないため。"
+ },
+ {
+  "id": "tl-59072",
+  "th": "นิ้วมือ",
+  "action": "add",
+  "ro": "níu mʉʉ",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "手の指",
+    "en": "finger",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "นิ้ว だけでも指を表すが、足の指（นิ้วเท้า）と区別するときにこの形を使う。",
+    "example": {
+     "th": "เขาโดนมีดบาดนิ้วมือตอนทำกับข้าว",
+     "ro": "khǎo doon mîit bàat níu mʉʉ tɔɔn tham kàp khâao",
+     "ja": "彼は料理をしているときに包丁で手の指を切りました。",
+     "en": "He cut his finger with a knife while cooking.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59073",
+  "th": "ผิวหน้า",
+  "action": "add",
+  "ro": "phǐu nâa",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "顔の肌",
+    "en": "facial skin",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "化粧品・スキンケアの表示や広告でよく見る語。",
+    "example": {
+     "th": "ครีมนี้ช่วยให้ผิวหน้าชุ่มชื้น",
+     "ro": "khriim níi chûuai hâi phǐu nâa chûm chʉ́ʉn",
+     "ja": "このクリームは顔の肌をしっとりさせてくれます。",
+     "en": "This cream helps keep your facial skin moisturized.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59074",
+  "th": "ทั้งตัว",
+  "action": "add",
+  "ro": "tháng tuua",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "全身・体じゅう",
+    "en": "the whole body, all over",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "動詞・状態語の後ろに置いて「全身〜だ」（เปียกทั้งตัว・ปวดทั้งตัว）の形でまとまって使う。",
+    "example": {
+     "th": "ฝนตกหนักจนฉันเปียกทั้งตัว",
+     "ro": "fǒn tòk nàk con chǎn pìiak tháng tuua",
+     "ja": "雨がひどく降って、私は全身ぬれてしまいました。",
+     "en": "It rained so hard that I got soaked all over.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59075",
+  "th": "ไข้สูง",
+  "action": "add",
+  "ro": "khâi sǔung",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "高熱",
+    "en": "high fever",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "มีไข้สูง（高熱がある）の形で、問診や症状の説明に決まって使う。",
+    "example": {
+     "th": "ลูกมีไข้สูงตั้งแต่เมื่อคืน",
+     "ro": "lûuk mii khâi sǔung tâng tɛ̀ɛ mʉ̂ʉa khʉʉn",
+     "ja": "子どもが昨夜から高熱を出しています。",
+     "en": "My child has had a high fever since last night.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59076",
+  "th": "เป็นเมนส์",
+  "action": "add",
+  "ro": "pen meen",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "生理中である・生理になる",
+    "en": "to be on one's period",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "くだけた言い方。改まった場面では มีประจำเดือน と言う。",
+    "example": {
+     "th": "วันนี้เป็นเมนส์ ปวดท้องมากเลย",
+     "ro": "wan níi pen meen pùuat thɔ́ɔng mâak ləəi",
+     "ja": "今日は生理で、お腹がすごく痛い。",
+     "en": "I'm on my period today and my stomach really hurts.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59077",
+  "th": "เหงื่อแตก",
+  "action": "add",
+  "ro": "ngʉ̀ʉa tɛ̀ɛk",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "汗が噴き出す・どっと汗をかく",
+    "en": "to break out in a sweat",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "暑さや運動のほか、緊張・恐怖による冷や汗にも使う。",
+    "example": {
+     "th": "เดินขึ้นบันไดแค่สามชั้นก็เหงื่อแตกแล้ว",
+     "ro": "dəən khʉ̂n ban dai khɛ̂ɛ sǎam chán kɔ̂ɔ ngʉ̀ʉa tɛ̀ɛk lɛ́ɛo",
+     "ja": "階段を3階分上っただけで、もう汗が噴き出しました。",
+     "en": "I broke out in a sweat after climbing just three flights of stairs.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59078",
+  "th": "ท้องร้อง",
+  "action": "add",
+  "ro": "thɔ́ɔng rɔ́ɔng",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "お腹が鳴る",
+    "en": "(of the stomach) to growl, rumble",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ยังไม่ได้กินข้าวเช้า ท้องร้องดังมาก",
+     "ro": "yang mâi dâai kin khâao cháao thɔ́ɔng rɔ́ɔng dang mâak",
+     "ja": "まだ朝ご飯を食べていなくて、お腹が大きな音で鳴っています。",
+     "en": "I haven't had breakfast yet, and my stomach is growling loudly.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59079",
+  "th": "เหนื่อยง่าย",
+  "action": "skip",
+  "skipReason": "เหนื่อย＋ง่าย（動詞の後ろで「〜しやすい」）の自由な組み合わせ。既存の ง่าย の第2語義で教えられ、โกรธง่าย・เบื่อง่าย と同じ生産的な型のため。"
+ },
+ {
+  "id": "tl-59080",
+  "th": "อาการปวด",
+  "action": "add",
+  "ro": "aa kaan pùuat",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "痛み（の症状）",
+    "en": "pain (as a symptom)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "薬の効能書きや診察で「痛み」を名詞として言うときの決まった形（บรรเทาอาการปวด）。",
+    "example": {
+     "th": "ยานี้ช่วยบรรเทาอาการปวดได้",
+     "ro": "yaa níi chûuai ban thao aa kaan pùuat dâai",
+     "ja": "この薬は痛みを和らげることができます。",
+     "en": "This medicine can help relieve pain.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59081",
+  "th": "อาการแพ้",
+  "action": "add",
+  "ro": "aa kaan phɛ́ɛ",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "アレルギー症状・アレルギー反応",
+    "en": "allergic reaction",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "薬・化粧品・食品の注意書きに決まって出る語。",
+    "example": {
+     "th": "ถ้ามีอาการแพ้ให้หยุดใช้ยาทันที",
+     "ro": "thâa mii aa kaan phɛ́ɛ hâi yùt chái yaa than thii",
+     "ja": "アレルギー症状が出たら、すぐに薬の使用をやめてください。",
+     "en": "If you have an allergic reaction, stop using the medicine immediately.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59082",
+  "th": "ยาแก้หวัด",
+  "action": "add",
+  "ro": "yaa kɛ̂ɛ wàt",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "風邪薬",
+    "en": "cold medicine",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันซื้อยาแก้หวัดที่ร้านขายยา",
+     "ro": "chǎn sʉ́ʉ yaa kɛ̂ɛ wàt thîi ráan khǎai yaa",
+     "ja": "私は薬局で風邪薬を買いました。",
+     "en": "I bought cold medicine at the pharmacy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59083",
+  "th": "ห้องตรวจ",
+  "action": "add",
+  "ro": "hɔ̂ɔng trùuat",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "診察室",
+    "en": "examination room, consulting room",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "病院・クリニックの案内表示や呼び出しで使う語。",
+    "example": {
+     "th": "เชิญคนไข้ที่ห้องตรวจหมายเลขสามค่ะ",
+     "ro": "chəən khon khâi thîi hɔ̂ɔng trùuat mǎai lêek sǎam khâ",
+     "ja": "患者さんは3番の診察室へどうぞ。",
+     "en": "Would the patient please come to examination room number three.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59084",
+  "th": "พบแพทย์",
+  "action": "add",
+  "ro": "phóp phɛ̂ɛt",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "医師の診察を受ける・受診する",
+    "en": "to see a doctor",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "note": "注意書きやニュースの言い方。会話では ไปหาหมอ と言う。",
+    "example": {
+     "th": "ถ้าอาการไม่ดีขึ้นควรไปพบแพทย์",
+     "ro": "thâa aa kaan mâi dii khʉ̂n khuuan pai phóp phɛ̂ɛt",
+     "ja": "症状が良くならなければ、医師の診察を受けたほうがいいです。",
+     "en": "If your symptoms don't improve, you should see a doctor.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59085",
+  "th": "ปรึกษาแพทย์",
+  "action": "add",
+  "ro": "prʉ̀k sǎa phɛ̂ɛt",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "医師に相談する",
+    "en": "to consult a doctor",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "note": "薬や健康食品の注意書き・広告に決まって出る表現（ควรปรึกษาแพทย์）。",
+    "example": {
+     "th": "ควรปรึกษาแพทย์ก่อนใช้ยานี้",
+     "ro": "khuuan prʉ̀k sǎa phɛ̂ɛt kɔ̀ɔn chái yaa níi",
+     "ja": "この薬を使う前に医師に相談してください。",
+     "en": "You should consult a doctor before using this medicine.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59086",
+  "th": "เรื้อรัง",
+  "action": "add",
+  "ro": "rʉ́ʉa rang",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "慢性の（病気・症状が）",
+    "en": "chronic (illness)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พ่อเป็นโรคเรื้อรังต้องกินยาทุกวัน",
+     "ro": "phɔ̂ɔ pen rôok rʉ́ʉa rang tɔ̂ɔng kin yaa thúk wan",
+     "ja": "父は慢性の病気で、毎日薬を飲まなければなりません。",
+     "en": "My father has a chronic illness and has to take medicine every day.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "長引いている・積年の（問題が）",
+    "en": "long-standing, persistent (problem)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รถติดเป็นปัญหาเรื้อรังของเมืองนี้",
+     "ro": "rót tìt pen pan hǎa rʉ́ʉa rang khɔ̌ɔng mʉʉang níi",
+     "ja": "渋滞はこの町の長年の問題です。",
+     "en": "Traffic jams are a long-standing problem in this city.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59087",
+  "th": "คัดกรอง",
+  "action": "add",
+  "ro": "khát krɔɔng",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "スクリーニングする・検査でふるい分ける",
+    "en": "to screen (for illness etc.)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โรงพยาบาลคัดกรองผู้ป่วยที่มีไข้ก่อนเข้าตึก",
+     "ro": "roong phá yaa baan khát krɔɔng phûu pùuai thîi mii khâi kɔ̀ɔn khâo tʉ̀k",
+     "ja": "病院は建物に入る前に熱のある患者をスクリーニングします。",
+     "en": "The hospital screens patients with a fever before they enter the building.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "選別する・ふるいにかける（応募者・情報を）",
+    "en": "to screen, sift (applicants, information)",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บริษัทคัดกรองผู้สมัครจากใบสมัครก่อน",
+     "ro": "bɔɔ rí sàt khát krɔɔng phûu sà màk càak bai sà màk kɔ̀ɔn",
+     "ja": "会社はまず応募書類で応募者をふるいにかけます。",
+     "en": "The company first screens applicants based on their application forms.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59088",
+  "th": "ตัดแว่น",
+  "action": "add",
+  "ro": "tàt wɛ̂n",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "眼鏡を作る（店であつらえる）",
+    "en": "to have glasses made",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "この ตัด は「切る」ではなく、ตัดเสื้อ（服を仕立てる）と同じ「あつらえる」の意味。",
+    "example": {
+     "th": "สายตาสั้นลง ต้องไปตัดแว่นใหม่",
+     "ro": "sǎai taa sân long tɔ̂ɔng pai tàt wɛ̂n mài",
+     "ja": "視力が落ちたので、新しく眼鏡を作りに行かなければなりません。",
+     "en": "My eyesight has gotten worse, so I need to go get new glasses made.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59089",
+  "th": "สร้อยทอง",
+  "action": "add",
+  "ro": "sɔ̂ɔi thɔɔng",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "金のネックレス",
+    "en": "gold necklace",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "タイでは贈り物や蓄えとして金製品を買う習慣があり、金行（ร้านทอง）やニュースでよく出る語。",
+    "example": {
+     "th": "แม่ให้สร้อยทองเป็นของขวัญวันเกิด",
+     "ro": "mɛ̂ɛ hâi sɔ̂ɔi thɔɔng pen khɔ̌ɔng khwǎn wan kə̀ət",
+     "ja": "母が誕生日プレゼントに金のネックレスをくれました。",
+     "en": "My mother gave me a gold necklace as a birthday present.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59090",
+  "th": "การแต่งกาย",
+  "action": "add",
+  "ro": "kaan tɛ̀ng kaai",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "服装・身なり",
+    "en": "dress, attire",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "note": "案内・規則・招待状などで使う改まった語。会話では การแต่งตัว と言う。",
+    "example": {
+     "th": "วัดนี้มีกฎเรื่องการแต่งกายของนักท่องเที่ยว",
+     "ro": "wát níi mii kòt rʉ̂ʉang kaan tɛ̀ng kaai khɔ̌ɔng nák thɔ̂ɔng thîiao",
+     "ja": "この寺には観光客の服装についての決まりがあります。",
+     "en": "This temple has rules about tourists' dress.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59091",
+  "th": "น้ำยาฆ่าเชื้อ",
+  "action": "add",
+  "ro": "nám yaa khâa chʉ́ʉa",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "消毒液",
+    "en": "disinfectant, antiseptic solution",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พยาบาลเช็ดแผลด้วยน้ำยาฆ่าเชื้อ",
+     "ro": "phá yaa baan chét phlɛ̌ɛ dûuai nám yaa khâa chʉ́ʉa",
+     "ja": "看護師は消毒液で傷を拭きました。",
+     "en": "The nurse wiped the wound with disinfectant.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59092",
+  "th": "กระเป๋าสะพาย",
+  "action": "add",
+  "ro": "krà pǎo sà phaai",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ショルダーバッグ・肩掛けかばん",
+    "en": "shoulder bag",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอซื้อกระเป๋าสะพายใบใหม่",
+     "ro": "thəə sʉ́ʉ krà pǎo sà phaai bai mài",
+     "ja": "彼女は新しいショルダーバッグを買いました。",
+     "en": "She bought a new shoulder bag.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59093",
+  "th": "โต๊ะอาหาร",
+  "action": "add",
+  "ro": "tó aa hǎan",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "食卓・ダイニングテーブル",
+    "en": "dining table",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "会話では โต๊ะกินข้าว とも言う。",
+    "example": {
+     "th": "ทุกคนนั่งรอที่โต๊ะอาหารแล้ว",
+     "ro": "thúk khon nâng rɔɔ thîi tó aa hǎan lɛ́ɛo",
+     "ja": "みんなもう食卓に座って待っています。",
+     "en": "Everyone is already sitting and waiting at the dining table.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59094",
+  "th": "เตียงนอน",
+  "action": "add",
+  "ro": "tiiang nɔɔn",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ベッド・寝台",
+    "en": "bed",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "เตียง だけでも通じる。病院のベッドなどと区別して、寝るためのベッドをはっきり言う形。",
+    "example": {
+     "th": "ห้องนี้มีเตียงนอนสองเตียง",
+     "ro": "hɔ̂ɔng níi mii tiiang nɔɔn sɔ̌ɔng tiiang",
+     "ja": "この部屋にはベッドが2台あります。",
+     "en": "This room has two beds.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59095",
+  "th": "สุขภาพแข็งแรง",
+  "action": "add",
+  "ro": "sùk khà phâap khɛ̌ng rɛɛng",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "健康で丈夫だ・元気でいる（願い事・挨拶で）",
+    "en": "to be in good health, healthy and strong",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "誕生日や新年の祝いの言葉で ขอให้สุขภาพแข็งแรง（ご健康をお祈りします）と決まって言う。",
+    "example": {
+     "th": "ขอให้คุณยายสุขภาพแข็งแรงนะคะ",
+     "ro": "khɔ̌ɔ hâi khun yaai sùk khà phâap khɛ̌ng rɛɛng ná khá",
+     "ja": "おばあさんが元気で丈夫でいますように。",
+     "en": "I wish you good health, Grandma.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59096",
+  "th": "หม้อแปลง",
+  "action": "add",
+  "ro": "mɔ̂ɔ plɛɛng",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "変圧器・トランス",
+    "en": "(electrical) transformer",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "正式には หม้อแปลงไฟฟ้า。電柱の上の変圧器の故障・爆発のニュースでよく出る。",
+    "example": {
+     "th": "หม้อแปลงระเบิดทำให้ไฟดับทั้งซอย",
+     "ro": "mɔ̂ɔ plɛɛng rá bə̀ət tham hâi fai dàp tháng sɔɔi",
+     "ja": "変圧器が爆発して、路地全体が停電しました。",
+     "en": "A transformer exploded and caused a blackout in the whole lane.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59097",
+  "th": "สมาร์ทวอทช์",
+  "action": "add",
+  "ro": "sà máat wɔ́t",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "スマートウォッチ",
+    "en": "smartwatch",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "英語 smartwatch から。王立学士院式の表記は สมาร์ตวอตช์ で、สมาร์ทวอช と書く人もいる。",
+    "example": {
+     "th": "เขาใช้สมาร์ทวอทช์นับก้าวเดินทุกวัน",
+     "ro": "khǎo chái sà máat wɔ́t náp kâao dəən thúk wan",
+     "ja": "彼は毎日スマートウォッチで歩数を数えています。",
+     "en": "He uses a smartwatch to count his steps every day.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59098",
+  "th": "คีโม",
+  "action": "add",
+  "ro": "khii moo",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "抗がん剤治療・化学療法",
+    "en": "chemo, chemotherapy",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "英語 chemo から。正式には เคมีบำบัด。ทำคีโม・ให้คีโม の形で使う。",
+    "example": {
+     "th": "แม่ต้องไปทำคีโมที่โรงพยาบาลทุกเดือน",
+     "ro": "mɛ̂ɛ tɔ̂ɔng pai tham khii moo thîi roong phá yaa baan thúk dʉʉan",
+     "ja": "母は毎月、病院へ抗がん剤治療を受けに行かなければなりません。",
+     "en": "My mother has to go to the hospital for chemo every month.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59099",
+  "th": "ระยะสุดท้าย",
+  "action": "add",
+  "ro": "rá yá sùt tháai",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "末期（病気の）",
+    "en": "terminal stage, final stage (of a disease)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หมอบอกว่าเป็นมะเร็งระยะสุดท้าย",
+     "ro": "mɔ̌ɔ bɔ̀ɔk wâa pen má reng rá yá sùt tháai",
+     "ja": "医者は末期のがんだと言いました。",
+     "en": "The doctor said it was terminal cancer.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "最終段階（計画・工事などの）",
+    "en": "the final phase",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โครงการเข้าสู่ระยะสุดท้ายแล้ว",
+     "ro": "khroong kaan khâo sùu rá yá sùt tháai lɛ́ɛo",
+     "ja": "プロジェクトはもう最終段階に入りました。",
+     "en": "The project has now entered its final phase.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59100",
+  "th": "ตอนไหน",
+  "action": "add",
+  "ro": "tɔɔn nǎi",
+  "kind": "word",
+  "category": "疑問詞",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "いつ・どのタイミングで",
+    "en": "when, at what point",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "会話で เมื่อไหร่ の代わりによく使う。一日の中の時間帯や、どの時点かを聞く感じが強い。",
+    "example": {
+     "th": "เธอจะกลับบ้านตอนไหน",
+     "ro": "thəə cà klàp bâan tɔɔn nǎi",
+     "ja": "あなたはいつ家に帰るの？",
+     "en": "When are you going home?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59101",
+  "th": "คนนี้",
+  "action": "skip",
+  "skipReason": "คน＋นี้（この）の自由な組み合わせ。指示詞を類別詞の後ろに置く普通の型で、既存の นี้ で教えられるため。"
+ },
+ {
+  "id": "tl-59102",
+  "th": "คนนั้น",
+  "action": "skip",
+  "skipReason": "คน＋นั้น（その・あの）の自由な組み合わせ。既存の นั้น で教えられるため。"
+ },
+ {
+  "id": "tl-59103",
+  "th": "ที่บ้าน",
+  "action": "add",
+  "ro": "thîi bâan",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "うち（では）・自宅（で）",
+    "en": "at home, at my place",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "「うち」「わが家」の意味で主語のようにも使う決まった言い方。",
+    "example": {
+     "th": "ที่บ้านมีหมาสองตัว",
+     "ro": "thîi bâan mii mǎa sɔ̌ɔng tuua",
+     "ja": "うちには犬が2匹います。",
+     "en": "We have two dogs at home.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "家の人・うちの家族",
+    "en": "one's family, the folks at home",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "場所の言い方で家族（親・配偶者など）を指す、会話の言い方。",
+    "example": {
+     "th": "ที่บ้านไม่ให้ฉันไปเที่ยวกลางคืน",
+     "ro": "thîi bâan mâi hâi chǎn pai thîiao klaang khʉʉn",
+     "ja": "うちの家族は私が夜遊びに行くのを許してくれません。",
+     "en": "My family doesn't let me go out at night.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59104",
+  "th": "ครึ่งชั่วโมง",
+  "action": "add",
+  "ro": "khrʉ̂ng chûua moong",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "30分・半時間",
+    "en": "half an hour",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "時間の単位として決まった形。語順が逆の ชั่วโมงครึ่ง は「1時間半」になるので注意。",
+    "example": {
+     "th": "จากที่นี่ไปสนามบินใช้เวลาครึ่งชั่วโมง",
+     "ro": "càak thîi nîi pai sà nǎam bin chái wee laa khrʉ̂ng chûua moong",
+     "ja": "ここから空港まで30分かかります。",
+     "en": "It takes half an hour to get from here to the airport.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59105",
+  "th": "หลายคน",
+  "action": "skip",
+  "skipReason": "หลาย＋คน（数量詞＋類別詞）の自由な組み合わせで、既存の หลาย で教えられるため。"
+ },
+ {
+  "id": "tl-59106",
+  "th": "คนส่วนใหญ่",
+  "action": "skip",
+  "skipReason": "คน＋ส่วนใหญ่（大部分）の自由な組み合わせで、意味は既存の2語の和そのままのため。"
+ },
+ {
+  "id": "tl-59107",
+  "th": "คนดี",
+  "action": "add",
+  "ro": "khon dii",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "良い人・善人",
+    "en": "a good person",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "「道徳的に立派な人」という決まった意味で、政治・社会の話題でもよく使われる。",
+    "example": {
+     "th": "เขาเป็นคนดี ชอบช่วยเหลือคนอื่น",
+     "ro": "khǎo pen khon dii chɔ̂ɔp chûuai lʉ̌ʉa khon ʉ̀ʉn",
+     "ja": "彼は良い人で、人を助けるのが好きです。",
+     "en": "He is a good person and likes helping others.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "いい子・ねえ（恋人や子どもへの優しい呼びかけ）",
+    "en": "dear, sweetie (affectionate address)",
+    "pos": "名詞",
+    "use": "少なめの用法",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "恋人や子どもをなだめるときの呼びかけ。歌詞やドラマでもよく聞く。",
+    "example": {
+     "th": "ไม่ต้องร้องไห้นะคนดี",
+     "ro": "mâi tɔ̂ɔng rɔ́ɔng hâi ná khon dii",
+     "ja": "泣かなくていいよ、いい子だから。",
+     "en": "Don't cry, sweetie.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59108",
+  "th": "คนรวย",
+  "action": "add",
+  "ro": "khon ruuai",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "金持ち・裕福な人",
+    "en": "rich person, the rich",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "คนจน（貧しい人）と対で、社会階層を言う語としても使う。",
+    "example": {
+     "th": "คนรวยบางคนก็ไม่มีความสุข",
+     "ro": "khon ruuai baang khon kɔ̂ɔ mâi mii khwaam sùk",
+     "ja": "金持ちの中にも幸せでない人がいます。",
+     "en": "Some rich people are not happy either.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59109",
+  "th": "คนแรก",
+  "action": "skip",
+  "skipReason": "คน（類別詞）＋แรก（最初の）の自由な組み合わせ。อันแรก・ครั้งแรก と同じ型で、既存の แรก で教えられるため。"
+ },
+ {
+  "id": "tl-59110",
+  "th": "ครั้งนี้",
+  "action": "skip",
+  "skipReason": "ครั้ง＋นี้ の自由な組み合わせで、意味は既存の2語の和そのまま。近い意味の คราวนี้ も登録済みのため。"
+ },
+ {
+  "id": "tl-59111",
+  "th": "ตอนเด็ก",
+  "action": "skip",
+  "skipReason": "既存の เด็ก の第2語義「幼い・若い／子どもの頃（ตอนเด็ก）」ですでにこの形を教えているため。"
+ },
+ {
+  "id": "tl-59112",
+  "th": "พรุ่งนี้เช้า",
+  "action": "add",
+  "ro": "phrûng níi cháao",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "明日の朝",
+    "en": "tomorrow morning",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "日＋時間帯の順で言う決まった形（เมื่อวานเย็น・คืนนี้ など）。เช้าพรุ่งนี้ とも言う。",
+    "example": {
+     "th": "พรุ่งนี้เช้าฉันมีประชุมตอนแปดโมง",
+     "ro": "phrûng níi cháao chǎn mii prà chum tɔɔn pɛ̀ɛt moong",
+     "ja": "明日の朝、私は8時に会議があります。",
+     "en": "I have a meeting at eight tomorrow morning.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59113",
+  "th": "บ่ายโมง",
+  "action": "add",
+  "ro": "bàai moong",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "午後1時",
+    "en": "one o'clock in the afternoon, 1 p.m.",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "数字を入れずにこれだけで午後1時を表す。午後2時は บ่ายสองโมง。",
+    "example": {
+     "th": "เจอกันบ่ายโมงที่หน้าร้านนะ",
+     "ro": "cəə kan bàai moong thîi nâa ráan ná",
+     "ja": "午後1時に店の前で会おうね。",
+     "en": "Let's meet at one in front of the shop.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59114",
+  "th": "ช่วงเวลา",
+  "action": "add",
+  "ro": "chûuang wee laa",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "時間帯・期間・時期",
+    "en": "period of time, time slot",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วงเวลานี้รถติดมาก",
+     "ro": "chûuang wee laa níi rót tìt mâak",
+     "ja": "この時間帯は渋滞がひどいです。",
+     "en": "Traffic is very bad during this time of day.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59115",
+  "th": "ฝนตกหนัก",
+  "action": "add",
+  "ro": "fǒn tòk nàk",
+  "kind": "expression",
+  "category": "自然・天気・色",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "大雨が降る・雨が激しく降る",
+    "en": "to rain heavily",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "天気予報・ニュース・防災の通知で決まって使う言い方。",
+    "example": {
+     "th": "เมื่อคืนฝนตกหนักจนน้ำท่วมถนน",
+     "ro": "mʉ̂ʉa khʉʉn fǒn tòk nàk con náam thûuam thà nǒn",
+     "ja": "昨夜は大雨が降って、道路が冠水しました。",
+     "en": "It rained so heavily last night that the road flooded.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59116",
+  "th": "เตะบอล",
+  "action": "add",
+  "ro": "tè bɔɔn",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "サッカーをする（ボールを蹴って遊ぶ）",
+    "en": "to play football (soccer)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "会話の言い方。標準的には เล่นฟุตบอล と言う。",
+    "example": {
+     "th": "ตอนเย็นพวกเราไปเตะบอลกันที่สนาม",
+     "ro": "tɔɔn yen phûuak rao pai tè bɔɔn kan thîi sà nǎam",
+     "ja": "夕方、私たちはグラウンドへサッカーをしに行きます。",
+     "en": "In the evening we go and play football at the field.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59117",
+  "th": "ทุกท่าน",
+  "action": "add",
+  "ro": "thúk thân",
+  "kind": "word",
+  "category": "代名詞・呼びかけ",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "皆様・ご列席の皆様",
+    "en": "everyone (honorific), ladies and gentlemen",
+    "pos": "代名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "note": "ทุกคน の丁寧な形。アナウンス・スピーチ・店や会社からのお知らせで使う。",
+    "example": {
+     "th": "ขอบคุณทุกท่านที่มาร่วมงานในวันนี้",
+     "ro": "khɔ̀ɔp khun thúk thân thîi maa rûuam ngaan nai wan níi",
+     "ja": "本日ご出席くださった皆様、ありがとうございます。",
+     "en": "Thank you all for joining us today.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59118",
+  "th": "คนเดียวกัน",
+  "action": "skip",
+  "skipReason": "คน＋เดียวกัน（同じ）の自由な組み合わせで、意味は既存の2語の和そのままのため。"
+ },
+ {
+  "id": "tl-59119",
+  "th": "คนข้างๆ",
+  "action": "skip",
+  "skipReason": "คน＋ข้างๆ（隣）の自由な組み合わせで、既存の ข้างๆ で教えられるため。"
+ },
+ {
+  "id": "tl-59120",
+  "th": "คนรอบข้าง",
+  "action": "skip",
+  "skipReason": "既存の รอบข้าง がすでに「周囲・周りの人々」の語義を教えており、คน を付けただけで新しく教える意味がないため。"
+ },
+ {
+  "id": "tl-59121",
+  "th": "คนทั่วไป",
+  "action": "add",
+  "ro": "khon thûua pai",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "一般の人・普通の人",
+    "en": "ordinary people, the general public",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "専門家・関係者・有名人などに対する「一般の人」として決まって使う。料金表などでは บุคคลทั่วไป と書く。",
+    "example": {
+     "th": "คนทั่วไปยังไม่รู้เรื่องนี้",
+     "ro": "khon thûua pai yang mâi rúu rʉ̂ʉang níi",
+     "ja": "一般の人はまだこのことを知りません。",
+     "en": "The general public does not know about this yet.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59122",
+  "th": "คนเก่ง",
+  "action": "add",
+  "ro": "khon kèng",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "優秀な人・できる人",
+    "en": "a capable person, talented person",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "子どもをほめる呼びかけ（เก่งมากคนเก่ง）としても使う。",
+    "example": {
+     "th": "บริษัทนี้มีคนเก่งเยอะมาก",
+     "ro": "bɔɔ rí sàt níi mii khon kèng yə́ mâak",
+     "ja": "この会社には優秀な人がとてもたくさんいます。",
+     "en": "This company has a lot of talented people.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59123",
+  "th": "คนทำงาน",
+  "action": "add",
+  "ro": "khon tham ngaan",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "働いている人・勤め人",
+    "en": "working people, workers",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "学生や退職者に対する「働いている層」を指す決まった言い方（วัยทำงาน とも）。",
+    "example": {
+     "th": "ร้านนี้ลูกค้าส่วนใหญ่เป็นคนทำงาน",
+     "ro": "ráan níi lûuk kháa sùuan yài pen khon tham ngaan",
+     "ja": "この店の客はほとんどが勤め人です。",
+     "en": "Most of this shop's customers are working people.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59124",
+  "th": "คนในครอบครัว",
+  "action": "add",
+  "ro": "khon nai khrɔ̂ɔp khruua",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "家族の者・身内",
+    "en": "family member(s)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "「家族の一員・身内」を言う普段の決まった言い方。書類などでは สมาชิกในครอบครัว。",
+    "example": {
+     "th": "เขาไม่เคยเล่าเรื่องนี้ให้คนในครอบครัวฟัง",
+     "ro": "khǎo mâi khəəi lâo rʉ̂ʉang níi hâi khon nai khrɔ̂ɔp khruua fang",
+     "ja": "彼はこの話を家族の者に話したことがありません。",
+     "en": "He has never told his family members about this.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59125",
+  "th": "คนที่บ้าน",
+  "action": "add",
+  "ro": "khon thîi bâan",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "うちの家族・家の者（配偶者を指すことも多い）",
+    "en": "the people at home, one's family (often one's spouse)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "夫・妻や親をはっきり言わずに指す、会話の言い方。",
+    "example": {
+     "th": "ขอถามคนที่บ้านก่อนนะ แล้วจะโทรไปบอก",
+     "ro": "khɔ̌ɔ thǎam khon thîi bâan kɔ̀ɔn ná lɛ́ɛo cà thoo pai bɔ̀ɔk",
+     "ja": "先に家の者に聞いてみるね。それから電話で知らせるよ。",
+     "en": "Let me ask my family first, then I'll call and let you know.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59126",
+  "th": "ทางบ้าน",
+  "action": "add",
+  "ro": "thaang bâan",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "実家・家の方（の家族）",
+    "en": "one's family back home, one's home side",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "家を離れている人から見た「家の側・実家の家族」。ปัญหาทางบ้าน（家庭の事情）の形でも使う。",
+    "example": {
+     "th": "ทางบ้านส่งเงินมาให้เขาทุกเดือน",
+     "ro": "thaang bâan sòng ngəən maa hâi khǎo thúk dʉʉan",
+     "ja": "実家は毎月彼にお金を送ってきます。",
+     "en": "His family sends him money every month.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "ご家庭の・お茶の間の（テレビ・ラジオの視聴者）",
+    "en": "at home (of TV/radio audiences)",
+    "pos": "名詞",
+    "use": "少なめの用法",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "番組の司会者が ผู้ชมทางบ้าน（ご家庭の視聴者）の形で使う。",
+    "example": {
+     "th": "ท่านผู้ชมทางบ้านร่วมสนุกกับเราได้นะคะ",
+     "ro": "thân phûu chom thaang bâan rûuam sà nùk kàp rao dâai ná khá",
+     "ja": "ご家庭でご覧の皆様も、私たちと一緒にお楽しみいただけます。",
+     "en": "Viewers at home can join in the fun with us too.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59127",
+  "th": "ทั้งบ้าน",
+  "action": "add",
+  "ro": "tháng bâan",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "家族全員・一家そろって",
+    "en": "the whole family, everyone in the house",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "家（บ้าน）で、そこに住む家族全員を指す言い方。",
+    "example": {
+     "th": "ทั้งบ้านเป็นหวัดกันหมดเลย",
+     "ro": "tháng bâan pen wàt kan mòt ləəi",
+     "ja": "家族全員が風邪をひいてしまいました。",
+     "en": "The whole family has caught a cold.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "家じゅう・家全体",
+    "en": "the whole house",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาทำความสะอาดทั้งบ้านในวันหยุด",
+     "ro": "khǎo tham khwaam sà àat tháng bâan nai wan yùt",
+     "ja": "彼は休みの日に家じゅうを掃除します。",
+     "en": "He cleans the whole house on his days off.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59128",
+  "th": "ปู่ย่าตายาย",
+  "action": "add",
+  "ro": "pùu yâa taa yaai",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "祖父母（父方・母方をまとめて）",
+    "en": "grandparents",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เด็กๆ ไปเยี่ยมปู่ย่าตายายที่ต่างจังหวัด",
+     "ro": "dèk dèk pai yîiam pùu yâa taa yaai thîi tàang cang wàt",
+     "ja": "子どもたちは地方にいる祖父母を訪ねました。",
+     "en": "The children went to visit their grandparents in the provinces.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "先祖・昔の人々",
+    "en": "ancestors, forefathers",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ประเพณีนี้สืบทอดมาตั้งแต่สมัยปู่ย่าตายาย",
+     "ro": "prà phee nii níi sʉ̀ʉp thɔ̂ɔt maa tâng tɛ̀ɛ sà mǎi pùu yâa taa yaai",
+     "ja": "この風習は先祖の時代から受け継がれてきました。",
+     "en": "This tradition has been handed down since our ancestors' time.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59129",
+  "th": "สามีภรรยา",
+  "action": "add",
+  "ro": "sǎa mii phan rá yaa",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "夫婦",
+    "en": "husband and wife, married couple",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "丁寧で標準的な言い方。ニュースや書類でも使う。くだけた会話では ผัวเมีย と言う。",
+    "example": {
+     "th": "ทั้งสองเป็นสามีภรรยากันมาสิบปีแล้ว",
+     "ro": "tháng sɔ̌ɔng pen sǎa mii phan rá yaa kan maa sìp pii lɛ́ɛo",
+     "ja": "二人は夫婦になってもう10年です。",
+     "en": "The two have been husband and wife for ten years now.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59130",
+  "th": "แฟนใหม่",
+  "action": "skip",
+  "skipReason": "แฟน＋ใหม่（新しい）の自由な組み合わせで、意味は既存の2語の和そのままのため。"
+ },
+ {
+  "id": "tl-59131",
+  "th": "เพื่อนเก่า",
+  "action": "add",
+  "ro": "phʉ̂ʉan kào",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "旧友・昔からの友達",
+    "en": "old friend",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "「年を取った友達」ではなく、昔からの・以前の友達を指す決まった語。",
+    "example": {
+     "th": "เมื่อวานฉันบังเอิญเจอเพื่อนเก่าที่ห้าง",
+     "ro": "mʉ̂ʉa waan chǎn bang əən cəə phʉ̂ʉan kào thîi hâang",
+     "ja": "昨日、デパートで偶然昔の友達に会いました。",
+     "en": "Yesterday I ran into an old friend at the mall.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59132",
+  "th": "เพื่อนใหม่",
+  "action": "skip",
+  "skipReason": "เพื่อน＋ใหม่（新しい）の自由な組み合わせで、意味は既存の2語の和そのままのため。"
+ },
+ {
+  "id": "tl-59133",
+  "th": "เพื่อนรัก",
+  "action": "add",
+  "ro": "phʉ̂ʉan rák",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "親友・大切な友達",
+    "en": "dear friend, best friend",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "เพื่อนสนิท より情のこもった言い方で、「ねえ親友」という呼びかけにも使う。",
+    "example": {
+     "th": "เราสองคนเป็นเพื่อนรักกันตั้งแต่ประถม",
+     "ro": "rao sɔ̌ɔng khon pen phʉ̂ʉan rák kan tâng tɛ̀ɛ prà thǒm",
+     "ja": "私たち二人は小学校のときからの親友です。",
+     "en": "The two of us have been best friends since primary school.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59134",
+  "th": "เพื่อนที่ทำงาน",
+  "action": "skip",
+  "skipReason": "เพื่อน＋ที่ทำงาน（職場）の自由な組み合わせで、「同僚」は既存の เพื่อนร่วมงาน が教えているため。"
+ },
+ {
+  "id": "tl-59135",
+  "th": "กลุ่มเพื่อน",
+  "action": "add",
+  "ro": "klùm phʉ̂ʉan",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "友達グループ・仲間内",
+    "en": "group of friends, circle of friends",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "いつも一緒にいる仲間のまとまりを指す決まった言い方（LINEなどの「友達グループ」にも）。",
+    "example": {
+     "th": "เขาเป็นคนที่ตลกที่สุดในกลุ่มเพื่อน",
+     "ro": "khǎo pen khon thîi tà lòk thîi sùt nai klùm phʉ̂ʉan",
+     "ja": "彼は友達グループの中でいちばん面白い人です。",
+     "en": "He is the funniest person in our group of friends.",
+     "origin": "authored"
+    }
+   }
+  ]
+ }
+]

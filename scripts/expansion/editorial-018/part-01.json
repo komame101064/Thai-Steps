@@ -1,0 +1,1244 @@
+[
+ {
+  "id": "tl-58488",
+  "th": "ที่แล้ว",
+  "action": "add",
+  "ro": "thîi lɛ́ɛo",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 8,
+  "note": "時を表す語の後ろに置く決まった形で、ปีที่แล้ว（去年）・อาทิตย์ที่แล้ว（先週）もこの形。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "この前の・先〜（前回・先週など）",
+    "en": "last, previous (after a time word)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ครั้งที่แล้วเราเจอกันที่ไหน",
+     "ro": "khráng thîi lɛ́ɛo rao cəə kan thîi nǎi",
+     "ja": "前回、私たちはどこで会いましたっけ？",
+     "en": "Where did we meet last time?",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "〜前（期間の後ろに置く）",
+    "en": "ago (after a length of time)",
+    "pos": "副詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันย้ายมาอยู่ที่นี่สามปีที่แล้ว",
+     "ro": "chǎn yáai maa yùu thîi nîi sǎam pii thîi lɛ́ɛo",
+     "ja": "私は3年前にここへ引っ越してきました。",
+     "en": "I moved here three years ago.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58489",
+  "th": "ไปหมด",
+  "action": "add",
+  "ro": "pai mòt",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 7,
+  "note": "形容詞や状態を表す動詞の後ろに付けて、その状態が全体に及ぶことを表す決まった形（ยุ่งไปหมด・เลอะไปหมด）。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何もかも〜だ・すっかり〜（状態を表す語の後ろに置く）",
+    "en": "all over, completely, everything is ... (after a stative word)",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ช่วงนี้ของแพงไปหมด",
+     "ro": "chûuang níi khɔ̌ɔng phɛɛng pai mòt",
+     "ja": "最近は何もかも高いです。",
+     "en": "Everything is expensive these days.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58490",
+  "th": "กว่านี้",
+  "action": "skip",
+  "skipReason": "กว่า（〜より）＋นี้（これ）の自由な組み合わせで、意味は部品の合計どおり。既存の見出し語 กว่า と นี้ で足りるため見送った。"
+ },
+ {
+  "id": "tl-58491",
+  "th": "หลายอย่าง",
+  "action": "skip",
+  "skipReason": "หลาย（多くの）＋類別詞 อย่าง の自由な組み合わせで、まとまった独自の意味がないため見送った。"
+ },
+ {
+  "id": "tl-58492",
+  "th": "หลายครั้ง",
+  "action": "skip",
+  "skipReason": "หลาย（多くの）＋類別詞 ครั้ง の自由な組み合わせで、意味は部品の合計どおりのため見送った。"
+ },
+ {
+  "id": "tl-58493",
+  "th": "ครั้งเดียว",
+  "action": "skip",
+  "skipReason": "ครั้ง（回）＋เดียว（一つだけ）の自由な組み合わせで、意味は部品の合計どおりのため見送った。"
+ },
+ {
+  "id": "tl-58494",
+  "th": "อีกรอบ",
+  "action": "add",
+  "ro": "ìik rɔ̂ɔp",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 7,
+  "note": "อีกครั้ง のくだけた言い方で、会話ではこちらをよく使う。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "もう一回・もう一度",
+    "en": "once more, one more time",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ขอดูอีกรอบได้ไหม",
+     "ro": "khɔ̌ɔ duu ìik rɔ̂ɔp dâai mǎi",
+     "ja": "もう一回見せてもらえる？",
+     "en": "Can I see it one more time?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58495",
+  "th": "เร็วๆนี้",
+  "action": "skip",
+  "skipReason": "既存の見出し語 เร็วๆ の語義「（เร็วๆ นี้ で）近いうちに」がすでにこの形を教えているため、重複を避けた。「最近」の意味は เมื่อเร็วๆนี้ の項で扱う。"
+ },
+ {
+  "id": "tl-58496",
+  "th": "ทุกที่",
+  "action": "add",
+  "ro": "thúk thîi",
+  "kind": "word",
+  "category": "場所・前置詞",
+  "frequency": 7,
+  "note": "「どこでも」を表す日常のひとまとまりの語。改まった文章では ทุกแห่ง も使う。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どこでも・どこへでも・至る所",
+    "en": "everywhere, anywhere",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แมวตัวนี้ตามฉันไปทุกที่",
+     "ro": "mɛɛo tuua níi taam chǎn pai thúk thîi",
+     "ja": "この猫は私にどこへでもついて来ます。",
+     "en": "This cat follows me everywhere.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58497",
+  "th": "ล่าช้า",
+  "action": "add",
+  "ro": "lâa cháa",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 5,
+  "note": "交通機関・配送・手続きなどの案内やニュースで使う語。人が約束に遅れるときはふつう มาสาย と言う。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "遅れる・遅延する（予定より）",
+    "en": "to be delayed, late",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "รถไฟล่าช้าประมาณสามสิบนาที",
+     "ro": "rót fai lâa cháa prà maan sǎam sìp naa thii",
+     "ja": "列車は約30分遅れています。",
+     "en": "The train is delayed by about thirty minutes.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58498",
+  "th": "พร้อมส่ง",
+  "action": "add",
+  "ro": "phrɔ́ɔm sòng",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "note": "ネット通販の商品ページで決まって使う表示。予約販売は พรีออเดอร์ と言う。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "在庫があってすぐ発送できる（通販の表示）",
+    "en": "in stock and ready to ship",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สินค้าตัวนี้พร้อมส่งไหมคะ",
+     "ro": "sǐn kháa tuua níi phrɔ́ɔm sòng mǎi khá",
+     "ja": "この商品はすぐ発送できますか？",
+     "en": "Is this item ready to ship?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58499",
+  "th": "อากาศดี",
+  "action": "skip",
+  "skipReason": "อากาศ（天気・空気）＋ดี（よい）の自由な組み合わせで、意味は部品の合計どおりのため見送った。"
+ },
+ {
+  "id": "tl-58500",
+  "th": "เข้าใจง่าย",
+  "action": "skip",
+  "skipReason": "เข้าใจ（理解する）＋ง่าย（〜しやすい）の自由な組み合わせ。「動詞＋ง่าย」は自由に作れる形で、独自の意味がないため見送った。"
+ },
+ {
+  "id": "tl-58501",
+  "th": "ใช้ง่าย",
+  "action": "skip",
+  "skipReason": "ใช้（使う）＋ง่าย（〜しやすい）の自由な組み合わせ。「動詞＋ง่าย」は自由に作れる形で、独自の意味がないため見送った。"
+ },
+ {
+  "id": "tl-58502",
+  "th": "สุขภาพดี",
+  "action": "skip",
+  "skipReason": "สุขภาพ（健康）＋ดี（よい）の自由な組み合わせで、意味は部品の合計どおりのため見送った。"
+ },
+ {
+  "id": "tl-58503",
+  "th": "อย่างกับ",
+  "action": "add",
+  "ro": "yàang kàp",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 6,
+  "note": "会話で大げさにたとえるときに使う。ยังกับ とも言い、書き言葉では ราวกับ を使う。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "まるで〜みたいに・〜のように（たとえ）",
+    "en": "just like, as if (comparison)",
+    "pos": "前置詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ห้องเขาสะอาดอย่างกับโรงแรม",
+     "ro": "hɔ̂ɔng khǎo sà àat yàang kàp roong rɛɛm",
+     "ja": "彼の部屋はまるでホテルみたいにきれいです。",
+     "en": "His room is as clean as a hotel.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58504",
+  "th": "แทบจะ",
+  "action": "skip",
+  "skipReason": "既存の見出し語 แทบ（ほとんど・今にも〜しそう）に จะ が付いただけで意味が同じため、重複を避けた。"
+ },
+ {
+  "id": "tl-58505",
+  "th": "แทบไม่",
+  "action": "add",
+  "ro": "thɛ̂ɛp mâi",
+  "kind": "word",
+  "category": "否定",
+  "frequency": 7,
+  "note": "แทบ＋ไม่ がひとまとまりで「ほとんど〜ない」を表す決まった形で、動詞の前に置く。文末に เลย を添えることが多い。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ほとんど〜ない",
+    "en": "hardly, scarcely",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เมื่อคืนฉันแทบไม่ได้นอนเลย",
+     "ro": "mʉ̂ʉa khʉʉn chǎn thɛ̂ɛp mâi dâai nɔɔn ləəi",
+     "ja": "ゆうべはほとんど眠れませんでした。",
+     "en": "I hardly slept at all last night.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58506",
+  "th": "ไม่พอ",
+  "action": "skip",
+  "skipReason": "既存の見出し語 พอ（十分だ・足りる）の否定形にすぎず、意味は部品の合計どおりのため見送った。"
+ },
+ {
+  "id": "tl-58507",
+  "th": "เล็กๆน้อยๆ",
+  "action": "add",
+  "ro": "lék lék nɔ́ɔi nɔ́ɔi",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 4,
+  "note": "เล็กน้อย を重ねた形で、細かいものがいくつもある感じを表す。เล็กๆ น้อยๆ と空けて書くことも多い。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ささいな・ちょっとした・細々とした",
+    "en": "small, minor, trivial",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อย่าทะเลาะกันเพราะเรื่องเล็กๆน้อยๆ",
+     "ro": "yàa thá lɔ́ kan phrɔ́ rʉ̂ʉang lék lék nɔ́ɔi nɔ́ɔi",
+     "ja": "ささいなことでけんかしないで。",
+     "en": "Don't fight over trivial things.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58508",
+  "th": "คุ้นๆ",
+  "action": "add",
+  "ro": "khún khún",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "note": "หน้าคุ้นๆ（顔に見覚えがある）・ชื่อคุ้นๆ（名前に聞き覚えがある）の形でよく使う。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "なんとなく見覚え・聞き覚えがある",
+    "en": "vaguely familiar",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ผู้ชายคนนั้นหน้าคุ้นๆ นะ",
+     "ro": "phûu chaai khon nán nâa khún khún ná",
+     "ja": "あの男の人、なんとなく顔に見覚えがあるね。",
+     "en": "That man looks kind of familiar.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58509",
+  "th": "เป็นพิเศษ",
+  "action": "add",
+  "ro": "pen phí sèet",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 6,
+  "note": "文末や述語の後ろに置く決まった副詞の形。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "特に・とりわけ・格別に",
+    "en": "especially, particularly",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วันนี้อาหารอร่อยเป็นพิเศษ",
+     "ro": "wan níi aa hǎan à rɔ̀ɔi pen phí sèet",
+     "ja": "今日は料理が格別においしいです。",
+     "en": "The food is especially good today.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（否定文で）特にこれといって",
+    "en": "(in negatives) in particular",
+    "pos": "副詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วันหยุดนี้ไม่ได้ทำอะไรเป็นพิเศษ",
+     "ro": "wan yùt níi mâi dâai tham à rai pen phí sèet",
+     "ja": "今度の休みは特に何もしませんでした。",
+     "en": "I didn't do anything in particular this holiday.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58510",
+  "th": "อันดับหนึ่ง",
+  "action": "add",
+  "ro": "an dàp nʉ̀ng",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 6,
+  "note": "ランキングや広告で決まって使う言い方で、อันดับ 1 と数字で書くことも多い。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "第1位・ナンバーワン",
+    "en": "first place, number one",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้ขายดีเป็นอันดับหนึ่งของประเทศ",
+     "ro": "ráan níi khǎai dii pen an dàp nʉ̀ng khɔ̌ɔng prà thêet",
+     "ja": "この店は売り上げが国内第1位です。",
+     "en": "This shop is the number one seller in the country.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58511",
+  "th": "ไปเรื่อยๆ",
+  "action": "add",
+  "ro": "pai rʉ̂ʉai rʉ̂ʉai",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 5,
+  "note": "動詞の後ろに置く決まった形。พูดไปเรื่อย は「適当なことを言う」という軽い非難にもなる。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "そのままずっと・どんどん（続く・進む）",
+    "en": "on and on, continuously",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ราคาน้ำมันขึ้นไปเรื่อยๆ",
+     "ro": "raa khaa nám man khʉ̂n pai rʉ̂ʉai rʉ̂ʉai",
+     "ja": "ガソリンの値段がどんどん上がり続けています。",
+     "en": "The price of fuel keeps going up.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "あてもなく・なんとなく（深く考えずに）",
+    "en": "aimlessly, without thinking much",
+    "pos": "副詞",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ผมไม่ได้คิดอะไร แค่พูดไปเรื่อยๆ",
+     "ro": "phǒm mâi dâai khít à rai khɛ̂ɛ phûut pai rʉ̂ʉai rʉ̂ʉai",
+     "ja": "僕は何も考えていなくて、ただなんとなく話しているだけです。",
+     "en": "I'm not thinking anything, just rambling.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58512",
+  "th": "เป็นครั้งแรก",
+  "action": "skip",
+  "skipReason": "既存の見出し語 ครั้งแรก（初めて・最初の一回）と意味が同じで、เป็น が付いただけの形のため重複を避けた。"
+ },
+ {
+  "id": "tl-58513",
+  "th": "แถวบ้าน",
+  "action": "add",
+  "ro": "thɛ̌ɛo bâan",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 6,
+  "note": "「近所」を表す会話の決まった言い方で、ร้านแถวบ้าน（近所の店）のように名詞の後ろにも置く。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "家の近所・うちの辺り",
+    "en": "around one's home, the neighborhood",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "แถวบ้านฉันมีร้านกาแฟเยอะมาก",
+     "ro": "thɛ̌ɛo bâan chǎn mii ráan kaa fɛɛ yə́ mâak",
+     "ja": "うちの近所にはカフェがとてもたくさんあります。",
+     "en": "There are lots of cafes around my place.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58514",
+  "th": "ไม่หยุด",
+  "action": "add",
+  "ro": "mâi yùt",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "note": "動詞の後ろに置いて「〜し続ける」を表す決まった形（พูดไม่หยุด・ไอไม่หยุด）。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "止まらずに・ひっきりなしに（動詞の後ろに置く）",
+    "en": "nonstop, without stopping (after a verb)",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฝนตกไม่หยุดมาสามวันแล้ว",
+     "ro": "fǒn tòk mâi yùt maa sǎam wan lɛ́ɛo",
+     "ja": "雨がもう3日も降り続いています。",
+     "en": "It has been raining nonstop for three days.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58515",
+  "th": "อยู่เหมือนกัน",
+  "action": "skip",
+  "skipReason": "既存の見出し語 อยู่（結構〜だ・かなり〜だ）と เหมือนกัน（結構〜だ・案外〜だ）の語義がすでに同じ内容を教えているため、重複を避けた。"
+ },
+ {
+  "id": "tl-58516",
+  "th": "ระดับหนึ่ง",
+  "action": "add",
+  "ro": "rá dàp nʉ̀ng",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 5,
+  "note": "ふつう ในระดับหนึ่ง または ได้ระดับหนึ่ง の形で使う決まった言い方。หนึ่ง は「1」ではなく「ある」の意味。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ある程度（ในระดับหนึ่ง の形で）",
+    "en": "to a certain extent, to some degree",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผมพูดภาษาไทยได้ในระดับหนึ่ง",
+     "ro": "phǒm phûut phaa sǎa thai dâai nai rá dàp nʉ̀ng",
+     "ja": "私はタイ語がある程度話せます。",
+     "en": "I can speak Thai to a certain extent.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58517",
+  "th": "ร้อยเปอร์เซ็นต์",
+  "action": "add",
+  "ro": "rɔ́ɔi pəə sen",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 6,
+  "note": "数値のほか「完全に・絶対に」という強調にも使う。100% と書くことも多い。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "100パーセント・完全に・間違いなく",
+    "en": "one hundred percent, completely",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผมมั่นใจร้อยเปอร์เซ็นต์",
+     "ro": "phǒm mân cai rɔ́ɔi pəə sen",
+     "ja": "僕は100パーセント自信があります。",
+     "en": "I'm one hundred percent sure.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58518",
+  "th": "สักเท่าไหร่",
+  "action": "skip",
+  "skipReason": "既存の見出し語 เท่าไหร่ の語義「それほど・あまり（否定と使う）」と ไม่เท่าไหร่ がすでに同じ内容を教えているため、重複を避けた。"
+ },
+ {
+  "id": "tl-58519",
+  "th": "สักอย่าง",
+  "action": "skip",
+  "skipReason": "既存の見出し語 สัก（〜くらい／否定で一つも〜ない）＋類別詞 อย่าง の自由な組み合わせで、สัก の語義がすでに教えているため見送った。"
+ },
+ {
+  "id": "tl-58520",
+  "th": "สักคน",
+  "action": "skip",
+  "skipReason": "既存の見出し語 สัก（〜くらい／否定で一つも〜ない）＋類別詞 คน の自由な組み合わせで、สัก の語義がすでに教えているため見送った。"
+ },
+ {
+  "id": "tl-58521",
+  "th": "สักครั้ง",
+  "action": "skip",
+  "skipReason": "既存の見出し語 สัก（〜くらい／否定で一つも〜ない）＋類別詞 ครั้ง の自由な組み合わせで、สัก の語義がすでに教えているため見送った。"
+ },
+ {
+  "id": "tl-58522",
+  "th": "ไม่เห็นจะ",
+  "action": "add",
+  "ro": "mâi hěn cà",
+  "kind": "word",
+  "category": "否定",
+  "frequency": 5,
+  "note": "人の意見や期待に反対して「そうは思えない」と言う会話の決まった形。文末に เลย を添えることが多い。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "別に〜とは思えない・ちっとも〜ない",
+    "en": "not ... at all (contrary to what was said or expected)",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "หนังเรื่องนี้ไม่เห็นจะสนุกเลย",
+     "ro": "nǎng rʉ̂ʉang níi mâi hěn cà sà nùk ləəi",
+     "ja": "この映画、ちっとも面白くないじゃない。",
+     "en": "This movie isn't fun at all.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58523",
+  "th": "กว่าที่คิด",
+  "action": "add",
+  "ro": "kwàa thîi khít",
+  "kind": "expression",
+  "category": "量・程度・比較",
+  "frequency": 6,
+  "note": "主語を言わずに形容詞の後ろへそのまま付ける決まった言い方。กว่าที่คิดไว้ とも言う。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "思ったより〜（形容詞の後ろに置く）",
+    "en": "than expected, than one thought",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ข้อสอบวันนี้ง่ายกว่าที่คิด",
+     "ro": "khɔ̂ɔ sɔ̀ɔp wan níi ngâai kwàa thîi khít",
+     "ja": "今日の試験は思ったより簡単でした。",
+     "en": "Today's exam was easier than I expected.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58524",
+  "th": "เกือบหมด",
+  "action": "skip",
+  "skipReason": "เกือบ（ほとんど）＋หมด（全部・尽きる）の自由な組み合わせで、意味は部品の合計どおりのため見送った。"
+ },
+ {
+  "id": "tl-58525",
+  "th": "เกือบทุก",
+  "action": "skip",
+  "skipReason": "เกือบ（ほとんど）＋ทุก（すべての）の自由な組み合わせで、意味は部品の合計どおりのため見送った。"
+ },
+ {
+  "id": "tl-58526",
+  "th": "ทุกเรื่อง",
+  "action": "skip",
+  "skipReason": "ทุก（すべての）＋เรื่อง（事）の自由な組み合わせで、意味は部品の合計どおりのため見送った。"
+ },
+ {
+  "id": "tl-58527",
+  "th": "ครึ่งวัน",
+  "action": "add",
+  "ro": "khrʉ̂ng wan",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 5,
+  "note": "ลาครึ่งวัน（半休）・ทำงานครึ่งวัน（半日勤務）・ทัวร์ครึ่งวัน（半日ツアー）など決まった形で使う単位。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "半日",
+    "en": "half a day, half-day",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พรุ่งนี้ฉันขอลาครึ่งวันนะคะ",
+     "ro": "phrûng níi chǎn khɔ̌ɔ laa khrʉ̂ng wan ná khá",
+     "ja": "明日は半日お休みをいただきますね。",
+     "en": "I'd like to take half a day off tomorrow.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58528",
+  "th": "เมื่อเร็วๆนี้",
+  "action": "add",
+  "ro": "mʉ̂ʉa reo reo níi",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 5,
+  "note": "過去のことだけに使い、ニュースでもよく見る。เมื่อเร็วๆ นี้ と空けて書くことも多い。เมื่อ のない เร็วๆ นี้ は「近いうちに」にも使う。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "最近・先ごろ・つい先日",
+    "en": "recently, not long ago",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาเพิ่งแต่งงานเมื่อเร็วๆนี้",
+     "ro": "khǎo phə̂əng tɛ̀ng ngaan mʉ̂ʉa reo reo níi",
+     "ja": "彼はつい最近結婚したばかりです。",
+     "en": "He got married just recently.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58529",
+  "th": "เมื่อสักครู่",
+  "action": "add",
+  "ro": "mʉ̂ʉa sàk khrûu",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 4,
+  "note": "仕事や接客で使う丁寧な言い方。ふだんの会話では เมื่อกี้ と言う。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "つい先ほど・たった今",
+    "en": "a moment ago, just now",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "เมื่อสักครู่มีลูกค้าโทรมาหาคุณค่ะ",
+     "ro": "mʉ̂ʉa sàk khrûu mii lûuk kháa thoo maa hǎa khun khâ",
+     "ja": "先ほどお客様からあなたにお電話がありました。",
+     "en": "A customer called for you a moment ago.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58530",
+  "th": "อีกสักพัก",
+  "action": "add",
+  "ro": "ìik sàk phák",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "note": "これから先の少しの時間を言う決まった形。อีกพักนึง とも言う。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "もうしばらくしたら・もう少ししたら",
+    "en": "in a little while",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อีกสักพักฝนคงจะหยุด",
+     "ro": "ìik sàk phák fǒn khong cà yùt",
+     "ja": "もうしばらくしたら雨はやむでしょう。",
+     "en": "The rain will probably stop in a little while.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58531",
+  "th": "ตั้งแต่เด็ก",
+  "action": "add",
+  "ro": "tâng tɛ̀ɛ dèk",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "note": "「子供だった時から」を縮めた決まった言い方。会話では ตั้งแต่เด็กๆ とも言う。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "子供の頃から・小さい時から",
+    "en": "since childhood",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันชอบวาดรูปมาตั้งแต่เด็ก",
+     "ro": "chǎn chɔ̂ɔp wâat rûup maa tâng tɛ̀ɛ dèk",
+     "ja": "私は子供の頃から絵を描くのが好きです。",
+     "en": "I have liked drawing since I was a child.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58532",
+  "th": "จนถึงตอนนี้",
+  "action": "skip",
+  "skipReason": "จนถึง（〜まで）＋ตอนนี้（今）の自由な組み合わせで、意味は部品の合計どおりのため見送った。"
+ },
+ {
+  "id": "tl-58533",
+  "th": "ยุคนี้",
+  "action": "skip",
+  "skipReason": "ยุค（時代）＋นี้（この）の自由な組み合わせで、意味は部品の合計どおり。近い意味の สมัยนี้ も既にあるため見送った。"
+ },
+ {
+  "id": "tl-58534",
+  "th": "อีกต่อไป",
+  "action": "add",
+  "ro": "ìik tɔ̀ɔ pai",
+  "kind": "word",
+  "category": "否定",
+  "frequency": 6,
+  "note": "ไม่…อีกต่อไป の形で文末に置く決まった言い方。会話では ไม่…แล้ว だけで済ませることも多い。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（否定文で）もう〜ない・これ以上〜ない",
+    "en": "(in negatives) any longer, anymore",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ที่นี่ไม่ปลอดภัยอีกต่อไปแล้ว",
+     "ro": "thîi nîi mâi plɔ̀ɔt phai ìik tɔ̀ɔ pai lɛ́ɛo",
+     "ja": "ここはもう安全ではありません。",
+     "en": "This place is no longer safe.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58535",
+  "th": "ได้เวลา",
+  "action": "add",
+  "ro": "dâai wee laa",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "note": "後ろに動詞を続ける決まった形で、文末に แล้ว を添えることが多い。ถึงเวลา とほぼ同じ意味。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "〜する時間だ・〜する時間になる",
+    "en": "it is time to (do something)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เด็กๆ ได้เวลาเข้านอนแล้วนะ",
+     "ro": "dèk dèk dâai wee laa khâo nɔɔn lɛ́ɛo ná",
+     "ja": "みんな、もう寝る時間だよ。",
+     "en": "Kids, it's time for bed.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58536",
+  "th": "เป็นหลัก",
+  "action": "add",
+  "ro": "pen làk",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 6,
+  "note": "文末や目的語の後ろに置く決まった副詞の形。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "主に・メインとして・中心に",
+    "en": "mainly, primarily",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ที่ทำงานเราใช้ภาษาอังกฤษเป็นหลัก",
+     "ro": "thîi tham ngaan rao chái phaa sǎa ang krìt pen làk",
+     "ja": "私たちの職場では主に英語を使います。",
+     "en": "At our workplace we mainly use English.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58537",
+  "th": "เป็นส่วนใหญ่",
+  "action": "add",
+  "ro": "pen sùuan yài",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 6,
+  "note": "文末に置く決まった副詞の形。文頭では ส่วนใหญ่ だけで使う。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "たいてい・大部分は（文末に置く）",
+    "en": "mostly, for the most part",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วันหยุดผมอยู่บ้านเป็นส่วนใหญ่",
+     "ro": "wan yùt phǒm yùu bâan pen sùuan yài",
+     "ja": "休みの日、僕はたいてい家にいます。",
+     "en": "On my days off I mostly stay home.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58538",
+  "th": "เป็นเรื่องปกติ",
+  "action": "skip",
+  "skipReason": "เป็น＋เรื่อง（事）＋ปกติ（普通の）の自由な組み合わせで、意味は部品の合計どおり。決まり文句としては近い意味の เป็นเรื่องธรรมดา を採ったため見送った。"
+ },
+ {
+  "id": "tl-58539",
+  "th": "เป็นเรื่องธรรมดา",
+  "action": "add",
+  "ro": "pen rʉ̂ʉang tham má daa",
+  "kind": "expression",
+  "category": "一般語彙",
+  "frequency": 6,
+  "note": "人を慰めたり物事を受け流したりするときの決まり文句。เป็นเรื่องปกติ もほぼ同じ意味で使う。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "当たり前のことだ・よくあることだ",
+    "en": "it is only natural, it is a normal thing",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ทำงานใหม่แล้วผิดพลาดบ้างเป็นเรื่องธรรมดา",
+     "ro": "tham ngaan mài lɛ́ɛo phìt phlâat bâang pen rʉ̂ʉang tham má daa",
+     "ja": "新しい仕事で少し失敗するのは当たり前のことです。",
+     "en": "Making a few mistakes in a new job is only natural.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58540",
+  "th": "เป็นธรรมชาติ",
+  "action": "add",
+  "ro": "pen tham má châat",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 6,
+  "note": "表情・演技・話し方などが「自然だ」と言うときは เป็น を付けたこの形を使う。ธรรมชาติ だけだとふつう名詞の「自然」。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "自然な・自然に（わざとらしくない）",
+    "en": "natural, naturally (not forced or artificial)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รูปนี้เธอยิ้มเป็นธรรมชาติดี",
+     "ro": "rûup níi thəə yím pen tham má châat dii",
+     "ja": "この写真、彼女の笑顔が自然でいいね。",
+     "en": "She smiles nicely and naturally in this photo.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58541",
+  "th": "เป็นปกติ",
+  "action": "skip",
+  "skipReason": "เป็น＋ปกติ（普通の・通常）の自由な組み合わせで、意味は既存の見出し語 ปกติ の語義どおりのため見送った。"
+ },
+ {
+  "id": "tl-58542",
+  "th": "เป็นชั่วโมง",
+  "action": "add",
+  "ro": "pen chûua moong",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 5,
+  "note": "「เป็น＋単位」で「〜もの長さ・量」と多さを強調する形の代表（เป็นวัน・เป็นปี・เป็นร้อย も同じ）。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何時間も・1時間ほども",
+    "en": "for an hour or more, for hours",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผมรอรถเมล์เป็นชั่วโมงแล้ว",
+     "ro": "phǒm rɔɔ rót mee pen chûua moong lɛ́ɛo",
+     "ja": "僕はもう1時間もバスを待っています。",
+     "en": "I've been waiting for the bus for a good hour.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58543",
+  "th": "อย่างดี",
+  "action": "add",
+  "ro": "yàang dii",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 6,
+  "note": "ของอย่างดี（上等な品）のように品質を言うのは部品からは分かりにくい決まった用法。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "上等な・質の良い（名詞の後ろに置く）",
+    "en": "high-quality, fine (after a noun)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นี่เป็นผ้าไหมอย่างดีจากเชียงใหม่",
+     "ro": "nîi pen phâa mǎi yàang dii càak chiiang mài",
+     "ja": "これはチェンマイ産の上等なシルクです。",
+     "en": "This is fine silk from Chiang Mai.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "しっかりと・きちんと・丁寧に",
+    "en": "well, properly, with care",
+    "pos": "副詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาดูแลลูกค้าอย่างดี",
+     "ro": "khǎo duu lɛɛ lûuk kháa yàang dii",
+     "ja": "彼はお客さんをしっかりもてなします。",
+     "en": "He takes good care of his customers.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58544",
+  "th": "อย่างต่ำ",
+  "action": "add",
+  "ro": "yàang tàm",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 5,
+  "note": "金額・人数・時間などの下限を見積もるときの決まった言い方。อย่างน้อย とほぼ同じで、会話でよく使う。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "最低でも・少なくとも（数量・金額）",
+    "en": "at the very least, at minimum",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ซ่อมรถครั้งนี้อย่างต่ำก็ห้าพันบาท",
+     "ro": "sɔ̂ɔm rót khráng níi yàang tàm kɔ̂ɔ hâa phan bàat",
+     "ja": "今回の車の修理は最低でも5千バーツかかります。",
+     "en": "This car repair will cost at least five thousand baht.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58545",
+  "th": "อย่างเต็มที่",
+  "action": "skip",
+  "skipReason": "既存の見出し語 เต็มที่ がすでに副詞の意味（存分に・思いきり・全力で）を教えており、อย่าง を付けただけの形のため重複を避けた。"
+ },
+ {
+  "id": "tl-58546",
+  "th": "อย่างจริงจัง",
+  "action": "skip",
+  "skipReason": "既存の見出し語 จริงจัง がすでに副詞の意味（真剣に・本気で）を教えており、อย่าง を付けただけの形のため重複を避けた。"
+ },
+ {
+  "id": "tl-58547",
+  "th": "อย่างรวดเร็ว",
+  "action": "skip",
+  "skipReason": "「อย่าง＋形容詞」で副詞を作る自由な組み合わせで、意味は既存の見出し語 รวดเร็ว（速い・迅速な）の合計どおりのため見送った。"
+ },
+ {
+  "id": "tl-58548",
+  "th": "อย่างชัดเจน",
+  "action": "skip",
+  "skipReason": "「อย่าง＋形容詞」で副詞を作る自由な組み合わせで、意味は既存の見出し語 ชัดเจน（明確な）の合計どおりのため見送った。"
+ },
+ {
+  "id": "tl-58549",
+  "th": "อย่างต่อเนื่อง",
+  "action": "skip",
+  "skipReason": "「อย่าง＋形容詞」で副詞を作る自由な組み合わせで、意味は既存の見出し語 ต่อเนื่อง（継続的）の合計どおりのため見送った。"
+ },
+ {
+  "id": "tl-58550",
+  "th": "อย่างเป็นทางการ",
+  "action": "skip",
+  "skipReason": "「อย่าง＋形容詞」で副詞を作る自由な組み合わせで、意味は既存の見出し語 เป็นทางการ（正式な・公的な）の合計どおりのため見送った。"
+ },
+ {
+  "id": "tl-58551",
+  "th": "โดยไม่รู้ตัว",
+  "action": "add",
+  "ro": "dooi mâi rúu tuua",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 5,
+  "note": "「自分で気づかないまま」を表す決まった副詞句。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "知らず知らずのうちに・無意識に",
+    "en": "without realizing it, unconsciously",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันเผลอหลับไปโดยไม่รู้ตัว",
+     "ro": "chǎn phlə̌ə làp pai dooi mâi rúu tuua",
+     "ja": "私は知らないうちについ眠ってしまいました。",
+     "en": "I dozed off without realizing it.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58552",
+  "th": "ไม่สบายใจ",
+  "action": "add",
+  "ro": "mâi sà baai cai",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 7,
+  "note": "心配事や悩みで気持ちが落ち着かないこと。体調が悪い ไม่สบาย とは別の語。",
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "気がかりだ・心が晴れない・もやもやする",
+    "en": "to feel uneasy, troubled",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ถ้ามีอะไรไม่สบายใจ บอกฉันได้นะ",
+     "ro": "thâa mii à rai mâi sà baai cai bɔ̀ɔk chǎn dâai ná",
+     "ja": "何か気がかりなことがあったら、私に言ってね。",
+     "en": "If something is troubling you, you can tell me.",
+     "origin": "authored"
+    }
+   }
+  ]
+ }
+]
