@@ -1,0 +1,427 @@
+[
+ {
+  "id": "tl-58878",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58879",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58880",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58881",
+  "verdict": "reject",
+  "issues": [
+   "既存の ถึงกับ（tl-41326「〜するほどまでに」）の単なる否定形で、意味は部分の合計（同回の否定形スキップと同じ扱い）。"
+  ]
+ },
+ {
+  "id": "tl-58882",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58883",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58884",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58885",
+  "verdict": "reject",
+  "issues": [
+   "อย่างที่＋動詞（อย่างที่บอก・อย่างที่เห็น など）の生産的な型に คิด が入っただけの自由な組み合わせ。"
+  ]
+ },
+ {
+  "id": "tl-58886",
+  "verdict": "reject",
+  "issues": [
+   "既存の รับ（tl-00160）の語義「受け入れる」＋可能の ได้ の自由な組み合わせで、意味は部分の合計。また口語限定の語でもない。"
+  ]
+ },
+ {
+  "id": "tl-58887",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58888",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58889",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58890",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58891",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58892",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58893",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58894",
+  "verdict": "fix",
+  "issues": [
+   "第1語義「よく分かっている」は รู้＋ดี（よく）の自由な組み合わせなので削除し、慣用的な「知ったかぶり」の語義だけを残した",
+   "第2語義の例文「อย่าทำเป็นรู้ดีไปหน่อยเลย」は ไปหน่อยเลย のつながりが不自然なため差し替え",
+   "frequency を5→4"
+  ],
+  "fixed": {
+   "id": "tl-58894",
+   "th": "รู้ดี",
+   "action": "add",
+   "ro": "rúu dii",
+   "kind": "expression",
+   "category": "一般語彙",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "知ったかぶりをする・分かったような口をきく（皮肉）",
+     "en": "to act like a know-it-all (sarcastic)",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เขาชอบทำเป็นรู้ดีทุกเรื่อง",
+      "ro": "khǎo chɔ̂ɔp tham pen rúu dii thúk rʉ̂ʉang",
+      "ja": "彼は何についても知ったかぶりをしたがる。",
+      "en": "He always acts like he knows everything.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ทำเป็นรู้ดี・อย่ามารู้ดี・รู้ดีนัก の形で相手を非難する。「よく分かっている（รู้ดีว่า〜）」は รู้＋ดี の文字通りの組み合わせ。"
+  }
+ },
+ {
+  "id": "tl-58895",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58896",
+  "verdict": "reject",
+  "issues": [
+   "既存の ฟัง（tl-00136）の第2語義「〜のように聞こえる」（en に「(ฟังดู) to sound」と明記）がすでに教えているため。"
+  ]
+ },
+ {
+  "id": "tl-58897",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58898",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58899",
+  "verdict": "reject",
+  "issues": [
+   "既存の เนี่ย（tl-00218）の強調・驚きの語義に文末詞 นะ が付いただけで、意味が同じ（厳守点1の文末詞付き重複）。"
+  ]
+ },
+ {
+  "id": "tl-58900",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58901",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58902",
+  "verdict": "reject",
+  "issues": [
+   "จะ＋บอก＋ว่า の文字通りの組み合わせで、前置きの用法も「言おうとしているのは」という部分の合計にすぎない。"
+  ]
+ },
+ {
+  "id": "tl-58903",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58904",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58905",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58906",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58907",
+  "verdict": "reject",
+  "issues": [
+   "พอ（十分）＋既存の ก่อน（tl-00084）の語義「とりあえず（動作の後ろ）」の組み合わせで、意味は部分の合計。"
+  ]
+ },
+ {
+  "id": "tl-58908",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58909",
+  "verdict": "reject",
+  "issues": [
+   "อะไร＋สัก＋อย่าง（何か一つ）の自由な組み合わせで、固定した単位とは言えない。"
+  ]
+ },
+ {
+  "id": "tl-58910",
+  "verdict": "reject",
+  "issues": [
+   "既存の มา（tl-00012）の語義「これまで（動作の継続）」＋ตลอด（ずっと）の組み合わせで、意味は部分の合計。"
+  ]
+ },
+ {
+  "id": "tl-58911",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58912",
+  "verdict": "reject",
+  "issues": [
+   "รอ（待つ）＋既存の ดู の語義「〜してみる（動詞の後ろ）」の組み合わせで、意味は部分の合計。"
+  ]
+ },
+ {
+  "id": "tl-58913",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58914",
+  "verdict": "reject",
+  "issues": [
+   "เอา＋既存の ตรงๆ（tl-42622「率直に」）の組み合わせ（เอาจริงๆ・เอาง่ายๆ と同じ型）で、ตรงๆ の語義で学べる。"
+  ]
+ },
+ {
+  "id": "tl-58915",
+  "verdict": "reject",
+  "issues": [
+   "ไม่ใช่（tl-00513）＋แค่（tl-00058「〜だけ」）の自由な組み合わせで、意味は部分の合計。"
+  ]
+ },
+ {
+  "id": "tl-58916",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58917",
+  "verdict": "reject",
+  "issues": [
+   "อะไร＋既存の แบบนี้（tl-54204「このような」）の組み合わせで、意味は部分の合計。"
+  ]
+ },
+ {
+  "id": "tl-58918",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58919",
+  "verdict": "reject",
+  "issues": [
+   "「大ごとになる・問題になる」は既存の เป็นเรื่องเป็นราว（tl-52074）の第2語義がすでに教えており、その短い形にあたる。それ以外は เป็น＋เรื่อง の自由な組み合わせ。"
+  ]
+ },
+ {
+  "id": "tl-58920",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58921",
+  "verdict": "fix",
+  "issues": [
+   "ขนาดไหน は報道・書き言葉でも普通に使う（รุนแรงขนาดไหน など）ため、口語ラベルを標準語に修正"
+  ],
+  "fixed": {
+   "id": "tl-58921",
+   "th": "ขนาดไหน",
+   "action": "add",
+   "ro": "khà nàat nǎi",
+   "kind": "expression",
+   "category": "疑問詞",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "どれほど・どのくらい（程度）",
+     "en": "how much, to what extent",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เธอรู้ไหมว่าฉันเป็นห่วงขนาดไหน",
+      "ro": "thəə rúu mǎi wâa chǎn pen hùuang khà nàat nǎi",
+      "ja": "私がどれほど心配しているか分かる？",
+      "en": "Do you know how worried I am?",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "แค่ไหน とほぼ同じ意味で、程度の大きさを強調して尋ねる。ニュースなどの書き言葉でも使う。"
+  }
+ },
+ {
+  "id": "tl-58922",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58923",
+  "verdict": "reject",
+  "issues": [
+   "ทำได้（できる）＋ไง（tl-00099「どう」）の自由な組み合わせで、「どうしてそんなことができるの」という部分の合計の意味。"
+  ]
+ },
+ {
+  "id": "tl-58924",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58925",
+  "verdict": "reject",
+  "issues": [
+   "เกี่ยว（関係する）＋อะไร（何）の自由な組み合わせで、反語の用法も部分の合計から分かる。"
+  ]
+ },
+ {
+  "id": "tl-58926",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58927",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58928",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58929",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-61042",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58930",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58931",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58932",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58933",
+  "verdict": "reject",
+  "issues": [
+   "พูด＋既存の ไปเรื่อย（tl-54399「気ままに・あてもなく〜し続ける」）の組み合わせで、意味は部分の合計。"
+  ]
+ },
+ {
+  "id": "tl-58934",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58935",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58936",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58937",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58938",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58939",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58940",
+  "verdict": "reject",
+  "issues": [
+   "เรื่องของ＋人（เรื่องของเขา・เรื่องของฉัน）の生産的な型に มัน が入っただけの自由な組み合わせ。"
+  ]
+ },
+ {
+  "id": "tl-58941",
+  "verdict": "ok",
+  "issues": []
+ }
+]
