@@ -1185,3 +1185,10 @@ html body .w-quiz-card .w-flash-th,html body .w-flash-th{font-size:28px;line-hei
 .deep-panel[open]>summary{margin-bottom:8px}
 .w-more-senses{margin:6px 0 4px;border-top:1px dashed var(--x-line);padding-top:8px}
 .w-more-senses>summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--x-green);padding:4px 0}
+.deep-form-head .deep-ro{font-size:18px;font-weight:700;color:var(--x-ink)}
+.deep-form-head .deep-th{font-size:14px;font-weight:400;color:var(--x-muted)}
+/* Small text raised to a readable size (persona review 2026-11-20); spacing unchanged */
+.w-session-top,.w-session-top .textbtn{font-size:13px}
+.w-session-bottom .btn,.g-card .w-session-bottom .btn,.w-quiz-next .btn{font-size:15px}
+.textbtn{font-size:13px}
+.w-results-caption{font-size:12px}

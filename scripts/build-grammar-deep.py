@@ -69,6 +69,20 @@ for f in sorted(D.glob('[0-9][0-9][0-9].json')):
             r,_=reading(m)
             if r and len(m)>1:need[m]=r
     deep[i]={k:d[k] for k in ('lead','compare','cases','pitfalls')}
+# Thai inside the grammar check questions (dist/lesson-quizzes.js: questions and explanations) is shown as romanization
+# too; give every run a reading so none shows as boxes (□).
+lq=(P/'dist/lesson-quizzes.js').read_text();j=lq.index('{');lqd=json.loads(lq[j:lq.rindex('}')+1])
+def strings(x):
+    if isinstance(x,str):yield x
+    elif isinstance(x,dict):
+        for v in x.values():yield from strings(v)
+    elif isinstance(x,list):
+        for v in x:yield from strings(v)
+for t in strings(lqd):
+    for m in re.findall(r'[\u0E00-\u0E7F]+',t):
+        r,bad=reading(m)
+        if r is None:errors.append(f'lesson-quizzes: Thai without a registered reading: {bad!r}');continue
+        need.setdefault(m,r)
 for w in warns:print('warn',w)
 for e in errors:print('ERROR',e)
 print(f'{len(deep)} lessons, {len(errors)} errors, {len(warns)} reading warnings')

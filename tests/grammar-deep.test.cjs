@@ -10,3 +10,7 @@ for(const l of lessons){const d=GRAMMAR_DEEP[l.id];assert(d,'deep section for le
 // The passive lesson covers โดน as well as ถูก (user's request).
 assert(GRAMMAR_DEEP[29].compare.some(c=>c.form==='โดน')&&GRAMMAR_DEEP[29].compare.some(c=>c.form==='ถูก'));
 console.log(`PASS: 使い分けを深める for all ${lessons.length} grammar lessons — near forms, contrast examples with readings, pitfalls; passive covers ถูก and โดน.`);
+// Thai inside the grammar check questions is shown as romanization: none may fall back to boxes (□).
+{vm.runInContext(fs.readFileSync('dist/lesson-quizzes.js','utf8')+';this.LQ=LESSON_QUIZZES',ctx);const walk=x=>typeof x==='string'?[x]:Array.isArray(x)?x.flatMap(walk):x&&typeof x==='object'?Object.values(x).flatMap(walk):[];
+ const bad=walk(ctx.LQ).flatMap(t=>[...t.matchAll(/[฀-๿]+/g)].map(m=>m[0])).filter(t=>romanizeThai(t).includes('□'));assert.deepEqual(bad,[],'readings missing in check questions');
+ console.log('PASS: every Thai word in the grammar check questions has a reading.')}
