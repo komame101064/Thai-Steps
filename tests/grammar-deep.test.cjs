@@ -8,7 +8,7 @@ for(const l of lessons){const d=GRAMMAR_DEEP[l.id];assert(d,'deep section for le
  for(const t of [d.lead,...d.compare.map(c=>c.use),...d.cases.flatMap(c=>[c.ja,c.note]),...d.pitfalls])for(const m of String(t).matchAll(/[฀-๿]+/g))assert(!romanizeThai(m[0]).includes('□'),'reading for '+m[0]+' in lesson '+l.id);
  assert(!/SVO|\bS\b|\bV\b/.test(JSON.stringify(d)),'no S/V/O symbols in '+l.id)}
 // The passive lesson covers โดน as well as ถูก (user's request).
-assert(GRAMMAR_DEEP[29].compare.some(c=>c.form==='โดน')&&GRAMMAR_DEEP[29].compare.some(c=>c.form==='ถูก'));
+assert(GRAMMAR_DEEP[29].compare.some(c=>c.form==='โดน')&&GRAMMAR_DEEP[29].compare.some(c=>c.form==='ถูก'));{const l=lessons[28];assert(l.head.includes('โดน')&&l.intro.includes('โดน')&&l.examples.filter(e=>e.th.includes('โดน')).length>=2,'the passive lesson itself teaches โดน')}
 console.log(`PASS: 使い分けを深める for all ${lessons.length} grammar lessons — near forms, contrast examples with readings, pitfalls; passive covers ถูก and โดน.`);
 // Thai inside the grammar check questions is shown as romanization: none may fall back to boxes (□).
 {vm.runInContext(fs.readFileSync('dist/lesson-quizzes.js','utf8')+';this.LQ=LESSON_QUIZZES',ctx);const walk=x=>typeof x==='string'?[x]:Array.isArray(x)?x.flatMap(walk):x&&typeof x==='object'?Object.values(x).flatMap(walk):[];

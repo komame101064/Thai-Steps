@@ -7,6 +7,7 @@ const wordRows=[
 ];
 wordRows.push(['อาหาร','aa hǎan','料理・食べ物','名詞'],['ใกล้','klâi','近い','状態']);
 wordRows.push(['โทร','thoo','電話する','動詞'],['หา','hǎa','〜に向かって','対象を導く語'],['ภาษา','phaa sǎa','言語','名詞'],['อื่น','ʉ̀ʉn','他の','修飾語'],['ติด','tìt','詰まる・くっつく','動詞']);
+wordRows.push(['โดน','doon','〜される','受け身の語','会話でよく使う受け身。迷惑・被害の出来事が中心。'],['แม่','mɛ̂ɛ','母','名詞']);
 wordRows.forEach(r=>W(...r));
 readingKeys.splice(0,readingKeys.length,...Object.keys(readingLexicon).sort((a,b)=>b.length-a.length));
 const vocabularyKeys=Object.keys(vocabulary).sort((a,b)=>b.length-a.length);

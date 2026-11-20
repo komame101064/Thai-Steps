@@ -1192,3 +1192,7 @@ html body .w-quiz-card .w-flash-th,html body .w-flash-th{font-size:28px;line-hei
 .w-session-bottom .btn,.g-card .w-session-bottom .btn,.w-quiz-next .btn{font-size:15px}
 .textbtn{font-size:13px}
 .w-results-caption{font-size:12px}
+/* 似た言い方との使い分け: comparison always visible, examples and pitfalls one tap away */
+.deep-more{margin-top:12px;border-top:1px solid var(--x-line);padding-top:10px}
+.deep-more>summary{cursor:pointer;font-size:14px;font-weight:600;color:var(--x-green);padding:4px 0}
+.deep-more[open]>summary{margin-bottom:6px}
