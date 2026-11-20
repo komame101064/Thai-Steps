@@ -65,6 +65,9 @@ for f in sorted(D.glob('[0-9][0-9][0-9].json')):
                 s=seg(p)
                 if s is None:errors.append(f'{f.name}: Thai without a registered reading: {p!r} (in: {t[:40]}…)');continue
                 for tok in s:need[tok]=lex[tok]
+            # the whole run too: the app's reader matches greedily, so a run it would split wrongly still reads right
+            r,_=reading(m)
+            if r and len(m)>1:need[m]=r
     deep[i]={k:d[k] for k in ('lead','compare','cases','pitfalls')}
 for w in warns:print('warn',w)
 for e in errors:print('ERROR',e)
