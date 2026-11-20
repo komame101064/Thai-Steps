@@ -1176,3 +1176,12 @@ html body .w-quiz-card .w-flash-th,html body .w-flash-th{font-size:28px;line-hei
 .deep-sub{font-size:15px;margin:16px 0 6px}
 .deep-pitfalls li{line-height:1.7}
 .deep-form-head .deep-th{font-size:20px;font-weight:600;color:var(--x-ink);font-family:inherit}
+.deep-panel>summary{list-style:none;cursor:pointer;display:flex;flex-direction:column;gap:2px;position:relative;padding-right:28px}
+.deep-panel>summary::-webkit-details-marker{display:none}
+.deep-panel>summary::after{content:"＋";position:absolute;right:0;top:50%;transform:translateY(-50%);font-size:18px;color:var(--x-green)}
+.deep-panel[open]>summary::after{content:"－"}
+.deep-summary-title{font-size:18px;font-weight:700;color:var(--x-ink)}
+.deep-summary-forms{font-size:13px;color:var(--x-muted)}
+.deep-panel[open]>summary{margin-bottom:8px}
+.w-more-senses{margin:6px 0 4px;border-top:1px dashed var(--x-line);padding-top:8px}
+.w-more-senses>summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--x-green);padding:4px 0}

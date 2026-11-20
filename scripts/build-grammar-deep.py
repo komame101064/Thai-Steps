@@ -30,6 +30,7 @@ def seg(s):
         best[i]=cand
     return best[0]
 def reading(th):
+    th=re.sub(r'\s+ๆ','ๆ',th)  # ช้า ๆ is ช้าๆ
     out=[]
     for chunk in re.split(r'[^฀-๿]+',th):
         if not chunk:continue
