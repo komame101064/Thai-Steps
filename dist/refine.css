@@ -908,7 +908,7 @@ html body .x-seg.f-tabs{grid-template-columns:repeat(5,minmax(0,1fr));margin-bot
 /* 単語一覧の行：メタ情報を小さく、操作ボタンを軽く */
 .w-row{padding:12px 12px;gap:6px}
 .w-meta{gap:3px 6px;margin-top:5px}
-.w-meta>span{font-size:10.5px!important;line-height:1.5}
+.w-meta>span{line-height:1.5}
 .w-meta .w-freq,.w-meta .w-formal{padding:0 5px!important;border-radius:5px}
 .w-term>span{font-size:20px}
 .w-row-actions{gap:4px}

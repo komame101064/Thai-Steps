@@ -1,0 +1,124 @@
+/* Thai Steps — the one visual contract (2026-11-20). Loaded last; every screen follows these tokens.
+   Older sheets (style, polish, words, workspace, clarity, refine) keep layout; colours, sizes and shared
+   components are decided here. See docs/STYLE_JA.md.
+
+   COLOUR — one colour, one meaning
+     深緑 (--t-green)   primary: buttons, links, the reading (ローマ字) of Thai
+     アイボリー (--t-bg)  page; --t-surface cards
+     赤 (--t-red)        重要・注意・不正解、声調の線
+     黄マーカー (--t-mark) 補足のポイント
+     真鍮 (--t-brass)    言葉づかい（口語・改まった表現・文語…）と由来の札
+     緑の濃淡            頻度（最高＝濃い … 低＝枠だけ）
+     役割・子音の種類      --c-s 緑 / --c-v 橙 / --c-o 青 / --c-adj 紫 / --c-tl 青緑 / --c-fn 茶（文法と文字の課の中だけ）
+   TYPE — h1 22 / h2 17 / h3 15 / 本文 15 / 補足 13 / ラベル 12（12px 未満は使わない）
+   SHAPE — カード: 角丸12・枠1px・内側16〜18px ／ ボタン: 角丸10・高さ44・15px（小 36・13px）
+   THAI + 読み — タイ文字を上（または左）にやや小さく濃い色で、読みを下（右）に太字で。文字の課だけはタイ文字が主役。 */
+:root{
+ --t-bg:#f5f4ec;--t-surface:#fffefa;--t-soft:#e9efe0;--t-line:#c9d4bf;
+ --t-ink:#16261d;--t-text:#1d2f27;--t-sub:#33463a;
+ --t-green:#1f4a3c;--t-green-2:#2c6350;
+ --t-red:#c22a2a;--t-red-bg:#fdf1ee;--t-red-line:#efc5bc;--t-ok:#1c6b46;--t-ok-bg:#e4f1e5;
+ --t-mark:#ffe58a;--t-brass:#6f5310;--t-brass-bg:#f7f0df;--t-brass-line:#dfcfaa;
+ --t-thai:#2b3d31;
+ /* aliases: every older variable set resolves to the same palette */
+ --ink:var(--t-ink);--muted:var(--t-sub);--bg:var(--t-bg);--line:var(--t-line);--red:var(--t-red);
+ --x-ink:var(--t-ink);--x-text:var(--t-text);--x-muted:var(--t-sub);--x-green:var(--t-green);--x-green-2:var(--t-green-2);
+ --x-bg:var(--t-bg);--x-surface:var(--t-surface);--x-soft:var(--t-soft);--x-line:var(--t-line);--x-brass:var(--t-brass);
+ --c-key:var(--t-red);--c-mark:var(--t-mark)}
+
+/* ---------- type scale ---------- */
+html body #main h1{font-size:22px;font-weight:700;line-height:1.4;color:var(--t-ink)}
+html body #main h2{font-size:17px;font-weight:700;line-height:1.5;color:var(--t-ink)}
+html body #main h3{font-size:15px;font-weight:700;line-height:1.5;color:var(--t-ink)}
+html body #main p,html body #main li{color:var(--t-text)}
+html body #main .subtext,html body #main .x-next{color:var(--t-sub)}
+html body #main .subtext{font-size:13px;line-height:1.75}
+html body #main .eyebrow,html body #main .panel-kicker{font-size:12px;font-weight:700;letter-spacing:.04em;color:#2f5a44}
+html body #main .textbtn{font-size:13px;font-weight:600;color:var(--t-green)}
+html body #main .x-inventory,html body #main .section-head>span,html body #main .x-section-head>span{font-size:13px;color:var(--t-sub)}
+
+/* ---------- cards and buttons ---------- */
+html body #main .panel,html body #main .x-card,html body #main .w-detail,html body #main .w-flashcard,html body #main .x-step,html body #main .x-topic-hub,html body #main .w-result,html body #main .quiz-wrap .empty,html body #main .w-list,html body #main .x-lessons,html body #main .r-panel{border-radius:12px;border:1px solid var(--t-line);background:var(--t-surface)}
+html body #main .btn{font-size:15px;font-weight:700;min-height:44px;border-radius:10px;padding:10px 16px;line-height:1.3}
+html body #main .btn:not(.light){background:var(--t-green);border-color:var(--t-green);color:#fff}
+html body #main .btn.light{background:#fff;border:1px solid var(--t-line);color:var(--t-green)}
+html body #main .btn[disabled]{opacity:.45}
+html body #main .w-pagination .btn,html body #main .r-actions .btn,html body #main .h-backup-actions .btn,html body #main .x-topic-sub .btn,html body #main .s-write-actions .btn,html body #main .ex-sec .btn.light{font-size:13px;min-height:36px;padding:6px 12px}
+html body #main .option{font-size:15px;min-height:48px;border-radius:10px;border:1px solid var(--t-line);background:#fff;color:var(--t-ink)}
+html body #main .option.correct,html body #main .option.is-right{border-color:var(--t-ok);background:var(--t-ok-bg)}
+html body #main .option.wrong,html body #main .option.is-wrong{border-color:var(--t-red);background:var(--t-red-bg)}
+html body #main .feedback{border-radius:10px;border:1px solid var(--t-line);color:var(--t-text);font-size:14px}
+html body #main .feedback.bad{border-color:var(--t-red-line);background:var(--t-red-bg)}
+html body #main .feedback strong{color:var(--t-ok)}html body #main .feedback.bad strong{color:var(--t-red)}
+
+/* ---------- Thai + reading: Thai above (smaller, dark), reading below (bold) ---------- */
+/* word list rows */
+html body #main .w-row2 .w-term>span{font-size:17px;line-height:1.45;font-weight:400;color:var(--t-thai);order:1}
+html body #main .w-row2 .w-term>b{font-size:19px;line-height:1.35;font-weight:700;color:var(--t-green);order:2}
+/* detail, cards, word test, step faces */
+html body #main .w-detail-head h1{font-size:19px;font-weight:400;color:var(--t-thai)}
+html body #main .w-detail-ro{font-size:30px;font-weight:700;color:var(--t-green)}
+html body #main .w-flash-th,html body #main .w-quiz-card .w-flash-th{display:block;font-size:19px;line-height:1.5;font-weight:400;color:var(--t-thai);text-align:center;margin:2px 0 0}
+html body #main .w-flash-ro,html body #main .w-quiz-card>.w-flash-ro{display:block;font-size:30px;line-height:1.35;font-weight:700;color:var(--t-green);text-align:center}
+html body #main .g-face{display:flex;flex-direction:column;align-items:center}
+html body #main .g-face .g-th{order:-1;font-size:19px;color:var(--t-thai)}
+html body #main .g-face .g-ro{font-size:30px;font-weight:700;color:var(--t-green)}
+html body #main .g-face.is-large .g-ro{font-size:34px}
+html body #main .g-face.is-small{align-items:flex-start}
+html body #main .g-face.is-small .g-th{font-size:14px}html body #main .g-face.is-small .g-ro{font-size:18px}
+/* examples everywhere */
+html body #main .example .th,html body #main .w-example-th{font-size:16px;line-height:1.6;font-weight:400;color:var(--t-thai)}
+html body #main .example .ro,html body #main .w-example-ro{font-size:19px;line-height:1.45;font-weight:700;color:var(--t-green)}
+html body #main .example .translation,html body #main .w-example-ja{font-size:15px;color:var(--t-ink)}
+/* grammar check test options: Thai above, reading below */
+html body #main .option .quiz-th{order:-1;font-size:15px;color:var(--t-thai)}
+html body #main .option .quiz-ro{font-size:18px;font-weight:700;color:var(--t-green)}
+/* inline pairs in rows (review, favourites, feedback, relations) */
+html body #main .r-term b,html body #main .f-term b,html body #main .w-feedback-term b{font-size:15px;font-weight:700;color:var(--t-green)}
+html body #main .r-term [lang="th"],html body #main .f-term [lang="th"],html body #main .w-feedback-term [lang="th"]{font-size:15px;color:var(--t-thai)}
+html body #main .inline-ro{color:var(--t-green);font-weight:700}
+/* the script course teaches the letters: Thai is the main line there */
+html body #main .s-reading-th{font-size:26px;color:var(--t-ink)}
+html body #main .s-reading-ro{font-size:17px;font-weight:700;color:var(--t-green)}
+
+/* ---------- badges: frequency (green scale), register and origin (brass), part of speech ---------- */
+html body #main .w-meta{font-size:12px;gap:4px 8px;color:var(--t-sub)}
+html body #main .w-meta span{font-size:12px;color:var(--t-sub)}
+html body #main .w-meta .w-freq{font-size:12px;font-weight:700;padding:0 7px!important;border-radius:999px;border:1px solid var(--t-green);line-height:1.6}
+html body #main .w-meta .w-freq.f-top{background:var(--t-green);color:#fff;border-color:var(--t-green)}
+html body #main .w-meta .w-freq.f-high{background:#cfe3cf;color:#123d2a;border-color:#7fae8a}
+html body #main .w-meta .w-freq.f-mid{background:#fff;color:#1f4a3c;border-color:#7fae8a}
+html body #main .w-meta .w-freq.f-low{background:#fff;color:#4a5c4e;border-color:#b9c4b4;font-weight:600}
+html body #main .w-speech-style,html body #main .w-origin-badge,html body #main .w-trend-badge,html body #main .w-card-style,html body #main .deep-style,html body #main .w-example-style{font-size:12px;font-weight:600;line-height:1.6;color:var(--t-brass);background:var(--t-brass-bg);border:1px solid var(--t-brass-line);border-radius:4px;padding:0 6px}
+html body #main .w-speech-style::before,html body #main .w-meta span+span::before{content:none}
+html body #main .w-meta .w-formal{border:1px solid var(--t-line);border-radius:4px;padding:0 6px!important;background:#fff}
+html body #main .w-pos-badge{font-size:12px;line-height:17px;min-width:18px;color:var(--t-green);border-color:#7fae8a}
+
+/* ---------- small text raised to the scale (label 12, secondary 13) ---------- */
+html body #main .w-results-caption span,html body #main .w-pagination span,html body #main .x-practice-head span,html body #main .x-tile-count,html body #main .w-example-top span,html body #main .w-sense-meta span,html body #main .w-memory span,html body #main .w-seg-note,html body #main .w-card-meaning-no,html body #main .w-relation-context,html body #main .x-dict-history-label,html body #main .s-order-note,html body #main .bq-ln,html body #main .x-passed,html body #main .w-sources summary,html body #main .r-due summary,html body #main .s-write-tip summary{font-size:12px;color:var(--t-sub)}
+html body #main .w2-ja small,html body #main .w-en,html body #main .w-seg-chip span,html body #main .w-seg-chip small,html body #main .g-meaning small,html body #main .word-toggle small,html body #main .w-sources p,html body #main .w-sources a,html body #main .ex-set-item small,html body #main .bq-lv small,html body #main th small,html body #main .w-relation button small{font-size:12px;color:var(--t-sub)}
+html body #main button small,html body #main span>small{font-size:12px}
+html body #main .w-session-top,html body #main .w-session-top span,html body #main .w-session-top .textbtn,html body #main .g-phase{font-size:13px}
+html body #main .w-relation h3{font-size:13px;color:var(--t-sub)}
+html body #main .w-history b,html body #main .w-history span,html body #main .r-hist-main em,html body #main .r-term b{font-size:13px}
+html body #main .w-sense-no{color:var(--t-green);font-weight:700}
+html body #main .s-write-tip,html body #main .s-write-tip b{color:var(--t-text);font-size:13px}
+html body #main .x-levels button span,html body #main .x-levels button b,html body #main .x-chips button{font-size:13px}html body #main .x-levels button small{font-size:12px}
+html body #main summary span{font-size:12px}
+
+/* ---------- result screens ---------- */
+html body #main .w-result h1{font-size:30px;color:var(--t-ink)}html body #main .w-result h1 small{font-size:17px;color:var(--t-sub)}
+html body #main .w-result h2{font-size:15px;color:var(--t-sub)}html body #main .w-result p{font-size:13px;color:var(--t-text)}
+html body #main .bq-lv b span{color:#b98a12}
+
+/* tone contour lines use the same red as other marks */
+html body .tone-line{stroke:var(--t-red)}
+html body #main .x-pr small{font-size:12px}
+html body #main .bq-lv b span{color:#8a6408}
+html body #main .g-face .g-th{order:0}html body #main .option .quiz-th{order:0}
+html body #main .g-answer [lang="th"]{color:var(--t-thai)}html body #main .g-answer b{color:var(--t-green)}
+html body #main .deep-form-head .deep-th{font-size:15px;font-weight:400;color:var(--t-thai)}html body #main .deep-form-head .deep-ro{font-size:18px;font-weight:700;color:var(--t-green)}
+/* relation chips in word detail: same pair rule */
+html body #main .w-relation button [lang="th"]{font-size:17px;color:var(--t-thai)}
+html body #main .w-relation button b{font-size:15px;font-weight:700;color:var(--t-green)}
+html body #main .f-role{white-space:nowrap}html body #main .formula{font-size:17px}
