@@ -1,5 +1,5 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert');
-const root=process.cwd(),store={},ctx={console,window:{},location:{hash:''},localStorage:{getItem:k=>store[k]||null,setItem:(k,v)=>store[k]=v},input:fs.readFileSync('dist/word-bank.json','utf8'),setTimeout,clearTimeout,Date,Math,document:{querySelector:()=>({})}};vm.createContext(ctx);
+const root=process.cwd(),store={'thai-steps-words-v1':'{"records":{},"level":0}'},ctx={console,window:{},location:{hash:''},localStorage:{getItem:k=>store[k]||null,setItem:(k,v)=>store[k]=v},input:fs.readFileSync('dist/word-bank.json','utf8'),setTimeout,clearTimeout,Date,Math,document:{querySelector:()=>({})}};vm.createContext(ctx);
 for(const name of ['data','expansion','readings','vocabulary','structures','words-app'])vm.runInContext(fs.readFileSync(`dist/${name}.js`,'utf8'),ctx);
 vm.runInContext(fs.readFileSync('dist/app.js','utf8').split("window.addEventListener('hashchange'")[0],ctx);
 vm.runInContext(`bank=JSON.parse(input);bankMap=new Map(bank.map(w=>[w.id,w]));bankStatus='ready';this.test={bank,wordRec,applyWordResult,selectedWords,makeWordQuestion,pickSessionWords,sanitizeWordState,wordState,relationPresentation,startWords,setScope:x=>wordScope=x,setSort:x=>wordSort=x,setPos:x=>wordPos=x,setCategory:x=>wordCategory=x};`,ctx);

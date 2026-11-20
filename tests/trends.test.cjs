@@ -1,7 +1,7 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert');
 const names=['word-bank.json','slang-bank.json','word-bank-more.json','slang-bank-more.json','more-examples.json'];
 const data=Object.fromEntries(names.map(n=>[n,JSON.parse(fs.readFileSync('dist/'+n,'utf8'))]));
-const ctx={console,window:{scrollTo(){}},document:{querySelector:()=>({})},location:{hash:''},localStorage:{getItem:()=>null,setItem(){}},Date,Math,setTimeout,clearTimeout,fetch:async u=>data[u]?{ok:true,json:async()=>data[u]}:{ok:false}};
+const ctx={console,window:{scrollTo(){}},document:{querySelector:()=>({})},location:{hash:''},localStorage:{getItem:k=>k==='thai-steps-words-v1'?'{"records":{},"level":0}':null,setItem(){}},Date,Math,setTimeout,clearTimeout,fetch:async u=>data[u]?{ok:true,json:async()=>data[u]}:{ok:false}};
 vm.createContext(ctx);
 for(const name of ['data','expansion','readings','vocabulary','structures','kana-search','word-topics','word-origins','words-app'])vm.runInContext(fs.readFileSync('dist/'+name+'.js','utf8'),ctx);
 vm.runInContext(fs.readFileSync('dist/app.js','utf8').split("window.addEventListener('hashchange'")[0],ctx);
