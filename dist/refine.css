@@ -1196,3 +1196,71 @@ html body .w-quiz-card .w-flash-th,html body .w-flash-th{font-size:28px;line-hei
 .deep-more{margin-top:12px;border-top:1px solid var(--x-line);padding-top:10px}
 .deep-more>summary{cursor:pointer;font-size:14px;font-weight:600;color:var(--x-green);padding:4px 0}
 .deep-more[open]>summary{margin-bottom:6px}
+
+/* ===== Readability pass 2026-11-20 (grammar and script lessons): stronger contrast, clear colour coding, red and
+   marker for the important parts. Base stays deep green on ivory; colours below are accents. ===== */
+:root{--c-s:#17694a;--c-v:#9a4706;--c-o:#1d5fa3;--c-adj:#7a3fa0;--c-tl:#0e6f7a;--c-fn:#5d5330;--c-key:#c22a2a;--c-mark:#ffe58a}
+/* text sizes and colours */
+html body .eyebrow,html body .panel-kicker{font-size:12px;font-weight:700;letter-spacing:.04em;color:#2f5a44}
+html body .lessonhead .textbtn,html body .syntax-heading .textbtn,html body .section-head .textbtn,html body .s-panel-head .textbtn{font-size:13px;color:var(--x-green);font-weight:600}
+html body .intro{font-size:15px;line-height:1.9;color:#16261d}
+html body .points li{font-size:14px;line-height:1.85;color:#16261d}
+html body .points li::marker{color:var(--c-key)}
+html body .syntax-note{font-size:14px;line-height:1.8;color:#1f3228}
+html body .syntax-panel details>summary,html body #role-guide summary{font-size:13px;color:var(--x-green);font-weight:600}
+html body .role-legend b{font-size:13px}html body .role-legend small{font-size:12px;color:#3d4f43}
+html body .example-number{font-size:12px;font-weight:700;color:#2f5a44;letter-spacing:.04em}
+html body .example .th,html body .anatomy-th,html body .quiz-th,html body .s-name{color:#2b3d31}
+html body .example .th{font-size:17px}
+html body .example .translation{font-size:15px;color:#16261d}
+html body .example-note{font-size:13px;line-height:1.75;color:#33463a}
+html body .deeper-grammar p{font-size:14px;line-height:1.85;color:#1f3228}
+html body .word-toggle span{font-size:13px}html body .word-toggle small{font-size:11px;color:#3d4f43}html body .word-chevron{color:var(--x-green)}
+html body .lesson-layout .btn,html body .bottom-actions .btn,html body .settings-row .btn{font-size:14px}
+html body .subtext{color:#33463a}
+/* pattern line and role cards: one colour per role, solid headers */
+html body .formula{font-size:18px;font-weight:700;color:#16261d}
+html body .formula .inline-ro{font-size:17px;color:var(--c-key)}
+html body .f-role{color:var(--rc,#16261d)}
+html body .anatomy-chunk{border:2px solid var(--rc,#8a9a80);background:#fff}
+html body .anatomy-chunk .role-tag{background:var(--rc,#5d5330);color:#fff;font-size:12px;font-weight:700;min-height:28px;padding:4px 9px}
+html body .anatomy-th{font-size:15px}
+html body .anatomy-ro{font-size:17px;color:#16261d}
+html body .role-legend>div b{color:var(--rc,#16261d)}
+.role-S,.role-N,.role-IO{--rc:var(--c-s)}
+.role-V,.role-Aux,.role-Asp{--rc:var(--c-v)}
+.role-O,.role-C,.role-Result,.role-Clause{--rc:var(--c-o)}
+.role-Adj,.role-Adv,.role-Comp{--rc:var(--c-adj)}
+.role-T,.role-Loc,.role-Num,.role-Clf{--rc:var(--c-tl)}
+.role-Neg,.role-Q,.role-Part,.role-Link,.role-Cond,.role-Rel{--rc:var(--c-fn)}
+/* important parts: red text, yellow marker, key forms in examples */
+.hl-red{color:var(--c-key);font-style:normal;font-weight:700}
+.hl-red .inline-ro,.hl-mark .inline-ro{color:inherit}
+.hl-mark{background:linear-gradient(transparent 55%,var(--c-mark) 55%);color:inherit;font-weight:600;padding:0 1px}
+html body .example .th b.key{color:var(--c-key);font-weight:600}
+html body .example .ro b.key{color:var(--c-key);font-weight:800}
+/* 似た言い方: register chips in colour; pitfalls as a red-edged caution box */
+html body .deep-form{border-left:4px solid var(--x-green)}
+html body .deep-form p{font-size:14px;color:#16261d}
+html body .deep-style{font-size:12px;font-weight:700;border:0;color:#fff;background:var(--c-s);padding:1px 8px;border-radius:999px}
+html body .deep-style.st-col{background:var(--c-v)}html body .deep-style.st-frm{background:var(--c-o)}html body .deep-style.st-lit{background:var(--c-adj)}
+html body .deep-sub{color:#16261d}
+html body .deep-warn{color:var(--c-key)}html body .deep-warn::before{content:"⚠ "}
+html body .deep-pitfalls{background:#fdf1ee;border:1px solid #efc5bc;border-left:4px solid var(--c-key);border-radius:8px;padding:10px 12px 10px 30px}
+/* script lessons: consonant classes in three clear colours (中子音 green, 高子音 orange, 低子音 blue); vowels purple; tone marks red */
+html body .s-card{border-width:2px}
+html body .s-mid{border-color:var(--c-s)}html body .s-high{border-color:var(--c-v)}html body .s-low{border-color:var(--c-o)}html body .s-vowel{border-color:var(--c-adj)}html body .s-mark{border-color:var(--c-key)}
+html body .s-card .s-class{font-size:12px;color:#fff;background:var(--c-s);padding:2px 8px}
+html body .s-high .s-class{background:var(--c-v);color:#fff}html body .s-low .s-class{background:var(--c-o);color:#fff}html body .s-vowel .s-class{background:var(--c-adj)}html body .s-mark .s-class{background:var(--c-key)}html body .s-digit .s-class{background:var(--c-fn)}
+html body .s-mid .s-glyph{color:var(--c-s);background:#eaf4ee}html body .s-high .s-glyph{color:var(--c-v);background:#fbefe2}html body .s-low .s-glyph{color:var(--c-o);background:#e8f0f9}html body .s-vowel .s-glyph{color:var(--c-adj);background:#f3ecf8}html body .s-mark .s-glyph{color:var(--c-key);background:#fdeeee}
+html body .s-name{font-size:14px}html body .s-name-ja,html body .s-note{font-size:13px;color:#33463a}
+html body .s-sounds{font-size:13px;color:#16261d}html body .s-sounds b{color:var(--c-key)}
+html body .s-reading-th{color:#16261d}
+html body .s-class-legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin:8px 0 2px;font-size:13px;color:#16261d}
+html body .s-class-legend i{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+html body .hl-red .inline-ro,html body .hl-red .thai-reading{color:var(--c-key)}
+html body .hl-mark .inline-ro{color:inherit}
+html body .quiz-wrap .eyebrow,html body .quiz-wrap .subtext small{font-size:12px}
+html body .lessonhead .eyebrow,html body .syntax-heading .eyebrow,html body main>.eyebrow{font-size:12px;font-weight:700;color:#2f5a44;letter-spacing:.04em}
+html body .option .quiz-th{color:#2b3d31;font-size:14px}
+html body .sg-mode .btn{font-size:14px}
