@@ -1,0 +1,474 @@
+[
+ {
+  "id": "tl-59071",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59072",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59073",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59074",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59075",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59076",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59077",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59078",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59079",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59080",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59081",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59082",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59083",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59084",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59085",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59086",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59087",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59088",
+  "verdict": "fix",
+  "issues": [
+   "例文の สายตาสั้นลง は不自然（近視が進むのは สั้นขึ้น）。例文と訳を修正"
+  ],
+  "fixed": {
+   "id": "tl-59088",
+   "th": "ตัดแว่น",
+   "action": "add",
+   "ro": "tàt wɛ̂n",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "眼鏡を作る（店であつらえる）",
+     "en": "to have glasses made",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "この ตัด は「切る」ではなく、ตัดเสื้อ（服を仕立てる）と同じ「あつらえる」の意味。",
+     "example": {
+      "th": "สายตาสั้นขึ้น ต้องไปตัดแว่นใหม่",
+      "ro": "sǎai taa sân khʉ̂n tɔ̂ɔng pai tàt wɛ̂n mài",
+      "ja": "近視が進んだので、新しく眼鏡を作りに行かなければなりません。",
+      "en": "My nearsightedness has gotten worse, so I need to go get new glasses made.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-59089",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59090",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59091",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59092",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59093",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59094",
+  "verdict": "fix",
+  "issues": [
+   "noteの「病院のベッドと区別して」という根拠のない説明を削除"
+  ],
+  "fixed": {
+   "id": "tl-59094",
+   "th": "เตียงนอน",
+   "action": "add",
+   "ro": "tiiang nɔɔn",
+   "kind": "word",
+   "category": "家・場所",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ベッド・寝台",
+     "en": "bed",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "เตียง だけでも同じ意味で通じる。",
+     "example": {
+      "th": "ห้องนี้มีเตียงนอนสองเตียง",
+      "ro": "hɔ̂ɔng níi mii tiiang nɔɔn sɔ̌ɔng tiiang",
+      "ja": "この部屋にはベッドが2台あります。",
+      "en": "This room has two beds.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-59095",
+  "verdict": "fix",
+  "issues": [
+   "例文のjaが三人称の願望になっていたため、祖母への呼びかけ（enと同じ）に修正"
+  ],
+  "fixed": {
+   "id": "tl-59095",
+   "th": "สุขภาพแข็งแรง",
+   "action": "add",
+   "ro": "sùk khà phâap khɛ̌ng rɛɛng",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "健康で丈夫だ・元気でいる（願い事・挨拶で）",
+     "en": "to be in good health, healthy and strong",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "誕生日や新年の祝いの言葉で ขอให้สุขภาพแข็งแรง（ご健康をお祈りします）と決まって言う。",
+     "example": {
+      "th": "ขอให้คุณยายสุขภาพแข็งแรงนะคะ",
+      "ro": "khɔ̌ɔ hâi khun yaai sùk khà phâap khɛ̌ng rɛɛng ná khá",
+      "ja": "おばあちゃん、いつまでも元気で丈夫でいてくださいね。",
+      "en": "I wish you good health, Grandma.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-59096",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59097",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59098",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59099",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59100",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59101",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59102",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59103",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59104",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59105",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59106",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59107",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59108",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59109",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59110",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59111",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59112",
+  "verdict": "reject",
+  "issues": [
+   "พรุ่งนี้＋เช้า の自由な組み合わせ。noteにある通り「日＋時間帯」の生産的な型で、固定した単位ではない"
+  ]
+ },
+ {
+  "id": "tl-59113",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59114",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59115",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59116",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59117",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59118",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59119",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59120",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59121",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59122",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59123",
+  "verdict": "reject",
+  "issues": [
+   "คน＋ทำงาน の自由な組み合わせで意味は和そのまま。社会層の意味は既存の วัยทำงาน が教えている"
+  ]
+ },
+ {
+  "id": "tl-59124",
+  "verdict": "reject",
+  "issues": [
+   "คน＋ใน＋ครอบครัว の3語の自由な句で、固定した単位ではない"
+  ]
+ },
+ {
+  "id": "tl-59125",
+  "verdict": "reject",
+  "issues": [
+   "คน＋ที่บ้าน の組み合わせ。「うちの家族（配偶者も）」は同じパートの ที่บ้าน 第2語義・ทางบ้าน と重なり、新しく教える意味がない"
+  ]
+ },
+ {
+  "id": "tl-59126",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59127",
+  "verdict": "reject",
+  "issues": [
+   "ทั้ง＋บ้าน の自由な組み合わせ（ทั้ง の第1語義と บ้าน「家・家庭」の和）。ทั้งวัน のような固定した単位ではない"
+  ]
+ },
+ {
+  "id": "tl-59128",
+  "verdict": "fix",
+  "issues": [
+   "frequency 5 は構成語 ปู่ย่า（4）・ตายาย（4）を超えるため 4 に修正"
+  ],
+  "fixed": {
+   "id": "tl-59128",
+   "th": "ปู่ย่าตายาย",
+   "action": "add",
+   "ro": "pùu yâa taa yaai",
+   "kind": "word",
+   "category": "人・家族",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "祖父母（父方・母方をまとめて）",
+     "en": "grandparents",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เด็กๆ ไปเยี่ยมปู่ย่าตายายที่ต่างจังหวัด",
+      "ro": "dèk dèk pai yîiam pùu yâa taa yaai thîi tàang cang wàt",
+      "ja": "子どもたちは地方にいる祖父母を訪ねました。",
+      "en": "The children went to visit their grandparents in the provinces.",
+      "origin": "authored"
+     }
+    },
+    {
+     "sourceSense": 2,
+     "ja": "先祖・昔の人々",
+     "en": "ancestors, forefathers",
+     "pos": "名詞",
+     "use": "よく使う別の意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ประเพณีนี้สืบทอดมาตั้งแต่สมัยปู่ย่าตายาย",
+      "ro": "prà phee nii níi sʉ̀ʉp thɔ̂ɔt maa tâng tɛ̀ɛ sà mǎi pùu yâa taa yaai",
+      "ja": "この風習は先祖の時代から受け継がれてきました。",
+      "en": "This tradition has been handed down since our ancestors' time.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-59129",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59130",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59131",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59132",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59133",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59134",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59135",
+  "verdict": "reject",
+  "issues": [
+   "กลุ่ม＋เพื่อน の自由な組み合わせで意味は2語の和そのまま（固定した表示・定型句ではない）"
+  ]
+ }
+]
