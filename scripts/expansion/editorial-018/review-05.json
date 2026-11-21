@@ -1,0 +1,772 @@
+[
+ {
+  "id": "tl-58748",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58749",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58750",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58751",
+  "verdict": "fix",
+  "issues": [
+   "頻度4が構成語ซีซั่น（2）を上回るため2に修正（厳格点3）"
+  ],
+  "fixed": {
+   "id": "tl-58751",
+   "th": "ไฮซีซั่น",
+   "action": "add",
+   "ro": "hai sii sân",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ハイシーズン・観光の繁忙期",
+     "en": "high season, peak tourist season",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ช่วงไฮซีซั่นโรงแรมแพงขึ้นเกือบเท่าตัว",
+      "ro": "chûuang hai sii sân roong rɛɛm phɛɛng khʉ̂n kʉ̀ʉap thâo tuua",
+      "ja": "ハイシーズンの時期はホテルが倍近く高くなる。",
+      "en": "During high season, hotels get almost twice as expensive.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "公式の表記はไฮซีซันだが、ไฮซีซั่นと書く人が多い。閑散期はโลว์ซีซั่น。"
+  }
+ },
+ {
+  "id": "tl-58752",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58753",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58754",
+  "verdict": "fix",
+  "issues": [
+   "頻度4が構成語กรุ๊ป（3）を上回るため3に修正（厳格点3）"
+  ],
+  "fixed": {
+   "id": "tl-58754",
+   "th": "กรุ๊ปทัวร์",
+   "action": "add",
+   "ro": "krúp thuua",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "団体ツアー・ツアーの団体",
+     "en": "tour group, group tour",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ไปกับกรุ๊ปทัวร์สะดวกดี ไม่ต้องวางแผนเอง",
+      "ro": "pai kàp krúp thuua sà dùuak dii mâi tɔ̂ɔng waang phɛ̌ɛn eeng",
+      "ja": "団体ツアーで行くと便利で、自分で計画しなくていい。",
+      "en": "Going with a tour group is convenient; you don't have to plan it yourself.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-58755",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58756",
+  "verdict": "reject",
+  "issues": [
+   "ห้องคู่は部屋タイプの表示として定着した語か確認できない（ホテルではふつうห้องเตียงคู่・ทวิน・ดับเบิลと言う）。ツインかダブルかも曖昧なため見送り"
+  ]
+ },
+ {
+  "id": "tl-58757",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58758",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58759",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58760",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58761",
+  "verdict": "fix",
+  "issues": [
+   "頻度4が構成語โดยสาร（2）を上回るため2に修正（厳格点3）"
+  ],
+  "fixed": {
+   "id": "tl-58761",
+   "th": "รถโดยสาร",
+   "action": "add",
+   "ro": "rót dooi sǎan",
+   "kind": "word",
+   "category": "移動・道案内",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "旅客用の車両・乗合バス",
+     "en": "passenger vehicle, bus",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "รถโดยสารคันนี้รับผู้โดยสารได้สี่สิบคน",
+      "ro": "rót dooi sǎan khan níi ráp phûu dooi sǎan dâai sìi sìp khon",
+      "ja": "このバスは乗客を40人乗せられる。",
+      "en": "This bus can carry forty passengers.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ニュースや公的な文書で使う語。日常会話ではรถเมล์・รถทัวร์・รถตู้など具体的に言う。"
+  }
+ },
+ {
+  "id": "tl-58762",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58763",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58764",
+  "verdict": "fix",
+  "issues": [
+   "頻度4が構成語กู้ภัย（2）を上回るため2に修正（厳格点3）"
+  ],
+  "fixed": {
+   "id": "tl-58764",
+   "th": "รถกู้ภัย",
+   "action": "add",
+   "ro": "rót kûu phai",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "救助隊の車・レスキュー車",
+     "en": "rescue vehicle, rescue truck",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "รถกู้ภัยมาถึงที่เกิดเหตุภายในสิบนาที",
+      "ro": "rót kûu phai maa thʉ̌ng thîi kə̀ət hèet phaai nai sìp naa thii",
+      "ja": "レスキュー車は10分以内に現場に着いた。",
+      "en": "The rescue vehicle arrived at the scene within ten minutes.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "タイでは民間の救助団体（มูลนิธิ）の車が事故現場に駆けつけることが多い。"
+  }
+ },
+ {
+  "id": "tl-58765",
+  "verdict": "reject",
+  "issues": [
+   "รถ（車）＋ส่งของ（配達する、登録済み）の自由な組み合わせで、意味は部分の合計のまま（editorial-018の厳格点2）"
+  ]
+ },
+ {
+  "id": "tl-58766",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58767",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58768",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58769",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58770",
+  "verdict": "reject",
+  "issues": [
+   "ริม（〜の縁、登録済み）＋หน้าต่าง（窓）の自由な組み合わせ。固定した単位はที่นั่งริมหน้าต่าง（窓側の席）の方で、ริมหน้าต่าง単独は部分の合計（厳格点2）"
+  ]
+ },
+ {
+  "id": "tl-58771",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58772",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58773",
+  "verdict": "reject",
+  "issues": [
+   "รถ（車）＋หรู（豪華な、登録済み）の自由な組み合わせで、意味は部分の合計のまま。見出しでよく見るだけでは固定した単位とは言えない（厳格点2）"
+  ]
+ },
+ {
+  "id": "tl-58774",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58775",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58776",
+  "verdict": "fix",
+  "issues": [
+   "頻度4が構成要素เทศ（2）を上回るため2に修正（厳格点3）"
+  ],
+  "fixed": {
+   "id": "tl-58776",
+   "th": "เทศกิจ",
+   "action": "add",
+   "ro": "thêet sà kìt",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 2,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "（区や市の）取り締まり職員・条例の監視員",
+     "en": "city/municipal enforcement officer",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เทศกิจมาไล่แม่ค้าที่ขายของบนทางเท้า",
+      "ro": "thêet sà kìt maa lâi mɛ̂ɛ kháa thîi khǎai khɔ̌ɔng bon thaang tháao",
+      "ja": "取り締まりの職員が来て、歩道で物を売っている女性たちを追い払った。",
+      "en": "The city officers came and chased away the women selling things on the sidewalk.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "警察ではなく、区役所・市役所の職員。露店や歩道の違反などを取り締まる。"
+  }
+ },
+ {
+  "id": "tl-58777",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58778",
+  "verdict": "reject",
+  "issues": [
+   "登録済みのปริญญาโท（修士）の短縮形。editorial-016の規則（既存見出し語の短縮形・長形は登録しない）により見送り。頻度4も元の語（3）を上回る"
+  ]
+ },
+ {
+  "id": "tl-58779",
+  "verdict": "fix",
+  "issues": [
+   "頻度4が構成語วิทย์（1）を上回るため1に修正（厳格点3）"
+  ],
+  "fixed": {
+   "id": "tl-58779",
+   "th": "สายวิทย์",
+   "action": "add",
+   "ro": "sǎai wít",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 1,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "理系コース（高校の）",
+     "en": "science track (in high school)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "ตอน ม.ปลายฉันเรียนสายวิทย์",
+      "ro": "tɔɔn mɔɔ plaai chǎn riian sǎai wít",
+      "ja": "高校のとき、私は理系コースだった。",
+      "en": "In high school I was in the science track.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "วิทย์はวิทยาศาสตร์の短縮。正式にはสายวิทย์-คณิต（理数系）と言う。"
+  }
+ },
+ {
+  "id": "tl-58780",
+  "verdict": "fix",
+  "issues": [
+   "頻度4が構成語ศิลป์（3）を上回るため3に修正（厳格点3）"
+  ],
+  "fixed": {
+   "id": "tl-58780",
+   "th": "สายศิลป์",
+   "action": "add",
+   "ro": "sǎai sǐn",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "文系コース（高校の）",
+     "en": "arts/humanities track (in high school)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "เขาเลือกเรียนสายศิลป์เพราะชอบภาษา",
+      "ro": "khǎo lʉ̂ʉak riian sǎai sǐn phrɔ́ chɔ̂ɔp phaa sǎa",
+      "ja": "彼は語学が好きなので文系コースを選んだ。",
+      "en": "He chose the arts track because he likes languages.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "สายศิลป์-ภาษา（言語系）、สายศิลป์-คำนวณ（数学系）などに分かれる。"
+  }
+ },
+ {
+  "id": "tl-58781",
+  "verdict": "reject",
+  "issues": [
+   "登録済みのคณิตศาสตร์（数学）の短縮形。editorial-016の規則（既存見出し語の短縮形は登録しない）により見送り。頻度4も元の語（3）を上回る"
+  ]
+ },
+ {
+  "id": "tl-58782",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58783",
+  "verdict": "fix",
+  "issues": [
+   "部分の合計に近い組み合わせのため、固定した単位として使われる旨をnoteに追加（厳格点2）"
+  ],
+  "fixed": {
+   "id": "tl-58783",
+   "th": "ห้องสอบ",
+   "action": "add",
+   "ro": "hɔ̂ɔng sɔ̀ɔp",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "試験室・試験会場の教室",
+     "en": "exam room",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ห้ามนำโทรศัพท์เข้าห้องสอบ",
+      "ro": "hâam nam thoo rá sàp khâo hɔ̂ɔng sɔ̀ɔp",
+      "ja": "試験室への電話の持ち込みは禁止です。",
+      "en": "Bringing phones into the exam room is prohibited.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ห้อง（部屋）＋สอบ（試験）だが、試験の座席表や掲示で「ห้องสอบ」として決まって使う単位。"
+  }
+ },
+ {
+  "id": "tl-58784",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58785",
+  "verdict": "fix",
+  "issues": [
+   "頻度4が構成語วุฒิ（1）を上回るため1に修正（厳格点3）"
+  ],
+  "fixed": {
+   "id": "tl-58785",
+   "th": "วุฒิการศึกษา",
+   "action": "add",
+   "ro": "wút thí kaan sʉ̀k sǎa",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 1,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "学歴・最終学歴（資格としての）",
+     "en": "educational qualification, level of education",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "example": {
+      "th": "งานนี้รับวุฒิการศึกษาปริญญาตรีขึ้นไป",
+      "ro": "ngaan níi ráp wút thí kaan sʉ̀k sǎa pà rin yaa trii khʉ̂n pai",
+      "ja": "この仕事は学歴が学士以上の人を採用する。",
+      "en": "This job accepts applicants with a bachelor's degree or higher.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "求人や申込書の項目名として使う。会話ではวุฒิだけでも言う。"
+  }
+ },
+ {
+  "id": "tl-58786",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58787",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58788",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58789",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58790",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58791",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58792",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58793",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58794",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58795",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58796",
+  "verdict": "fix",
+  "issues": [
+   "部分の合計に近い組み合わせのため、固定した単位として使われる旨をnoteに追加（厳格点2）"
+  ],
+  "fixed": {
+   "id": "tl-58796",
+   "th": "บัตรพนักงาน",
+   "action": "add",
+   "ro": "bàt phá nák ngaan",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "社員証・従業員証",
+     "en": "employee ID card, staff card",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ต้องแตะบัตรพนักงานก่อนเข้าออฟฟิศ",
+      "ro": "tɔ̂ɔng tɛ̀ bàt phá nák ngaan kɔ̀ɔn khâo ɔ́ɔp fís",
+      "ja": "オフィスに入る前に社員証をタッチしないといけない。",
+      "en": "You have to tap your employee card before entering the office.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "บัตร（カード）＋พนักงาน（従業員）だが、会社が発行する身分証の名前として決まって使う。"
+  }
+ },
+ {
+  "id": "tl-58797",
+  "verdict": "reject",
+  "issues": [
+   "งาน（仕事）＋ด่วน（急ぎの、登録済み）の自由な組み合わせで、意味は部分の合計のまま（厳格点2）"
+  ]
+ },
+ {
+  "id": "tl-58798",
+  "verdict": "reject",
+  "issues": [
+   "งาน（仕事）＋ค้าง（完成していない、登録済みの語義）の自由な組み合わせで、意味は部分の合計のまま（厳格点2）"
+  ]
+ },
+ {
+  "id": "tl-58799",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58800",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58801",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58802",
+  "verdict": "fix",
+  "issues": [
+   "部分の合計に近い組み合わせのため、固定した単位として使われる旨をnoteに追加（厳格点2）"
+  ],
+  "fixed": {
+   "id": "tl-58802",
+   "th": "ลูกค้าประจำ",
+   "action": "add",
+   "ro": "lûuk kháa prà cam",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "常連客・得意先",
+     "en": "regular customer",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ร้านนี้มีลูกค้าประจำเยอะมาก",
+      "ro": "ráan níi mii lûuk kháa prà cam yə́ mâak",
+      "ja": "この店は常連客がとても多い。",
+      "en": "This shop has a lot of regular customers.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ลูกค้า（客）＋ประจำ（いつもの）だが、店や会社で「常連客」を表す決まった言い方として使う。"
+  }
+ },
+ {
+  "id": "tl-58803",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58804",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58805",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58806",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58807",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58808",
+  "verdict": "fix",
+  "issues": [
+   "頻度4が構成語ทำผม（3）を上回るため3に修正（厳格点3）"
+  ],
+  "fixed": {
+   "id": "tl-58808",
+   "th": "ช่างทำผม",
+   "action": "add",
+   "ro": "châang tham phǒm",
+   "kind": "word",
+   "category": "仕事・学習",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "美容師・ヘアスタイリスト",
+     "en": "hairdresser, hairstylist",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ช่างทำผมร้านนี้ตัดผมเก่งมาก",
+      "ro": "châang tham phǒm ráan níi tàt phǒm kèng mâak",
+      "ja": "この店の美容師はカットがとても上手だ。",
+      "en": "The hairdresser at this salon is very good at cutting hair.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "男性向けの理髪師はช่างตัดผมと言うことが多い。"
+  }
+ },
+ {
+  "id": "tl-58809",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58810",
+  "verdict": "reject",
+  "issues": [
+   "กระดาษ（紙）＋เอสี่（A4、登録済み）の自由な組み合わせ。頻度4も構成語เอสี่（2）を上回る（厳格点2・3）"
+  ]
+ },
+ {
+  "id": "tl-58811",
+  "verdict": "fix",
+  "issues": [
+   "頻度4が構成語ชดเชย（3）を上回るため3に修正（厳格点3）"
+  ],
+  "fixed": {
+   "id": "tl-58811",
+   "th": "วันหยุดชดเชย",
+   "action": "add",
+   "ro": "wan yùt chót chəəi",
+   "kind": "word",
+   "category": "時間",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "振替休日",
+     "en": "substitute holiday, compensatory day off",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "วันจันทร์นี้เป็นวันหยุดชดเชยวันแม่",
+      "ro": "wan can níi pen wan yùt chót chəəi wan mɛ̂ɛ",
+      "ja": "今度の月曜日は母の日の振替休日だ。",
+      "en": "This Monday is the substitute holiday for Mother's Day.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "祝日が土日に重なったとき、次の平日が休みになる。カレンダーやニュースの表記。"
+  }
+ },
+ {
+  "id": "tl-58812",
+  "verdict": "fix",
+  "issues": [
+   "頻度4が構成語เงินฝาก（3）を上回るため3に修正（厳格点3）"
+  ],
+  "fixed": {
+   "id": "tl-58812",
+   "th": "บัญชีเงินฝาก",
+   "action": "add",
+   "ro": "ban chii ngəən fàak",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "預金口座",
+     "en": "deposit account, bank account",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ฉันอยากเปิดบัญชีเงินฝากออมทรัพย์ค่ะ",
+      "ro": "chǎn yàak pə̀ət ban chii ngəən fàak ɔɔm sáp khâ",
+      "ja": "普通預金の口座を開きたいのですが。",
+      "en": "I would like to open a savings deposit account.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "銀行の書類やアプリでの言い方。会話ではบัญชีだけで言うことが多い。"
+  }
+ }
+]

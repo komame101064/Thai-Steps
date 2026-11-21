@@ -1,0 +1,393 @@
+[
+ {
+  "id": "tl-59266",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59267",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59268",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59269",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59270",
+  "verdict": "reject",
+  "issues": [
+   "กัปตัน（キャプテン）＋ทีม の自由な組み合わせで、既存の กัปตัน の語義「キャプテン」がすでに教えている。"
+  ]
+ },
+ {
+  "id": "tl-59271",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59272",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59273",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59274",
+  "verdict": "fix",
+  "issues": [
+   "語義2「上がっていく」は ขึ้น（上へ）＋ไป の自由な組み合わせで、既存の ขึ้น の語義4がすでに教えているため削除"
+  ],
+  "fixed": {
+   "id": "tl-59274",
+   "th": "ขึ้นไป",
+   "action": "add",
+   "ro": "khʉ̂n pai",
+   "kind": "word",
+   "category": "量・程度・比較",
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "〜以上（数量・年齢などの後に置く）",
+     "en": "and above, or more, upward (after a quantity)",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เด็กอายุสิบสองปีขึ้นไปต้องซื้อตั๋ว",
+      "ro": "dèk aa yú sìp sɔ̌ɔng pii khʉ̂n pai tɔ̂ɔng sʉ́ʉ tǔua",
+      "ja": "12歳以上の子どもは切符を買わなければなりません。",
+      "en": "Children aged twelve and over must buy a ticket.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "数量・年齢・金額の後に置くと「〜以上」の意味になる（掲示や案内でよく見る）。"
+  }
+ },
+ {
+  "id": "tl-59275",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59276",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59277",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59278",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59279",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59280",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59281",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59282",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59283",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59284",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59285",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59286",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59287",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59288",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59289",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59290",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59291",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59292",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59293",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59294",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59295",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59296",
+  "verdict": "reject",
+  "issues": [
+   "ขึ้น（乗る）＋ทางด่วน（既存語）の意味がそのまま足し算の自由な組み合わせ。既存の ขึ้น・ทางด่วน の語義で足りる。"
+  ]
+ },
+ {
+  "id": "tl-59297",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59298",
+  "verdict": "reject",
+  "issues": [
+   "หน่วยงาน＋ที่เกี่ยวข้อง（関係節）の自由な組み合わせで、既存の หน่วยงาน・เกี่ยวข้อง で意味が分かる。見出し語として固定した単位とは言いにくい。"
+  ]
+ },
+ {
+  "id": "tl-59299",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59300",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59301",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59302",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59303",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59304",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59305",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59306",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59307",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59308",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59309",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59310",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59311",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59312",
+  "verdict": "fix",
+  "issues": [
+   "ค้ายา はニュース見出しでも普通に使う語で口語限定ではないため、標準語に変更"
+  ],
+  "fixed": {
+   "id": "tl-59312",
+   "th": "ค้ายา",
+   "action": "add",
+   "ro": "kháa yaa",
+   "kind": "word",
+   "category": "社会・制度",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "麻薬を密売する",
+     "en": "to deal drugs",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เขาถูกจับข้อหาค้ายาเมื่อปีที่แล้ว",
+      "ro": "khǎo thùuk càp khɔ̂ɔ hǎa kháa yaa mʉ̂ʉa pii thîi lɛ́ɛo",
+      "ja": "彼は去年、麻薬密売の容疑で逮捕されました。",
+      "en": "He was arrested on drug-dealing charges last year.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "ยา はここでは ยาเสพติด（麻薬）のこと。改まった言い方は ค้ายาเสพติด。"
+  }
+ },
+ {
+  "id": "tl-59313",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59314",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59315",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59316",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59317",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59318",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59319",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59320",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59321",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59322",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59323",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59324",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59325",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59326",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59327",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59328",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59329",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59330",
+  "verdict": "ok",
+  "issues": []
+ }
+]

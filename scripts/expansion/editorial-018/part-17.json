@@ -1,0 +1,852 @@
+[
+ {
+  "id": "tl-59526",
+  "th": "ใช้แทน",
+  "action": "add",
+  "ro": "chái thɛɛn",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "代わりに使う・代用する",
+    "en": "to use instead, substitute",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "น้ำผึ้งใช้แทนน้ำตาลได้",
+     "ro": "nám phʉ̂ng chái thɛɛn nám taan dâai",
+     "ja": "はちみつは砂糖の代わりに使えます。",
+     "en": "Honey can be used instead of sugar.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ใช้แทนกันได้（互いに代用できる）の形でもよく使うまとまった言い方。ใช้ A แทน B（Bの代わりにAを使う）のように間に目的語を挟むこともある。"
+ },
+ {
+  "id": "tl-59527",
+  "th": "เก็บได้",
+  "action": "add",
+  "ro": "kèp dâai",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "拾う・見つける（落とし物を）",
+    "en": "to find, pick up (a lost item)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กระเป๋าเงินใบนี้ผมเก็บได้ที่ป้ายรถเมล์",
+     "ro": "krà pǎo ngəən bai níi phǒm kèp dâai thîi pâai rót mee",
+     "ja": "この財布は私がバス停で拾いました。",
+     "en": "I found this wallet at the bus stop.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "「拾うことができる」ではなく「落ちていた物を拾った・見つけた」という決まった意味で使う。เก็บกระเป๋าเงินได้のように目的語を間に挟むことも多い。"
+ },
+ {
+  "id": "tl-59528",
+  "th": "จับได้",
+  "action": "add",
+  "ro": "càp dâai",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "見破る・気づく（うそ・不正・浮気などに）",
+    "en": "to catch someone out, find out (a lie, cheating)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "แม่จับได้ว่าเขาโกหก",
+     "ro": "mɛ̂ɛ càp dâai wâa khǎo koo hòk",
+     "ja": "母は彼がうそをついていると見破った。",
+     "en": "His mother found out that he was lying.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "捕まえる（犯人・逃げたものを）",
+    "en": "to catch, manage to arrest",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คนร้ายถูกตำรวจจับได้เมื่อคืน",
+     "ro": "khon ráai thùuk tam rùuat càp dâai mʉ̂ʉa khʉʉn",
+     "ja": "犯人は昨夜警察に捕まった。",
+     "en": "The culprit was caught by the police last night.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "จับได้ว่า〜（〜だと見破る）の形が会話でとても多い。目的語を挟んでจับคนร้ายได้とも言う。"
+ },
+ {
+  "id": "tl-59529",
+  "th": "แบ่งครึ่ง",
+  "action": "add",
+  "ro": "bɛ̀ng khrʉ̂ng",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "半分に分ける・折半する",
+    "en": "to divide in half, split fifty-fifty",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ค่าแท็กซี่แบ่งครึ่งกันนะ",
+     "ro": "khâa thɛ́k sîi bɛ̀ng khrʉ̂ng kan ná",
+     "ja": "タクシー代は半分ずつにしようね。",
+     "en": "Let's split the taxi fare in half.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59530",
+  "th": "แบ่งกิน",
+  "action": "skip",
+  "skipReason": "แบ่ง（分ける）＋กิน（食べる）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59531",
+  "th": "กินอิ่ม",
+  "action": "skip",
+  "skipReason": "กิน（食べる）＋อิ่ม（満腹）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59532",
+  "th": "กินหมด",
+  "action": "skip",
+  "skipReason": "กิน（食べる）＋หมด（全部・なくなる）の生産的な「動詞＋結果」の組み合わせで、独立した語とは言えないため。"
+ },
+ {
+  "id": "tl-59533",
+  "th": "กินด้วยกัน",
+  "action": "skip",
+  "skipReason": "กิน（食べる）＋ด้วยกัน（一緒に）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59534",
+  "th": "กินข้างนอก",
+  "action": "skip",
+  "skipReason": "既存のกินข้าวนอกบ้าน（外食する）が同じ内容を教えており、กิน＋ข้างนอกの自由な組み合わせでもあるため。"
+ },
+ {
+  "id": "tl-59535",
+  "th": "กินกับ",
+  "action": "skip",
+  "skipReason": "กิน＋前置詞กับで終わる断片で、後ろに名詞がないと成り立たない自由な組み合わせのため。"
+ },
+ {
+  "id": "tl-59536",
+  "th": "ลองชิม",
+  "action": "skip",
+  "skipReason": "ลอง（試す）＋ชิม（味見する）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59537",
+  "th": "ล้างผัก",
+  "action": "skip",
+  "skipReason": "ล้าง（洗う）＋ผัก（野菜）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59538",
+  "th": "ทอดไข่",
+  "action": "skip",
+  "skipReason": "ทอด（揚げる）＋ไข่（卵）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。料理名のไข่ดาว・ไข่เจียวは収録済み。"
+ },
+ {
+  "id": "tl-59539",
+  "th": "ปอกเปลือก",
+  "action": "add",
+  "ro": "pɔ̀ɔk plʉ̀ʉak",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "皮をむく（果物・野菜・卵などの）",
+    "en": "to peel (fruit, vegetables, eggs)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วยปอกเปลือกมะม่วงให้หน่อย",
+     "ro": "chûuai pɔ̀ɔk plʉ̀ʉak má mûuang hâi nɔ̀ɔi",
+     "ja": "マンゴーの皮をむいてくれる？",
+     "en": "Could you peel the mango for me?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59540",
+  "th": "ใส่น้ำแข็ง",
+  "action": "skip",
+  "skipReason": "ใส่（入れる）＋น้ำแข็ง（氷）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59541",
+  "th": "ใส่พริก",
+  "action": "skip",
+  "skipReason": "ใส่（入れる）＋พริก（唐辛子）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59542",
+  "th": "ใส่ไข่",
+  "action": "skip",
+  "skipReason": "ใส่（入れる）＋ไข่（卵）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59543",
+  "th": "ใส่น้ำตาล",
+  "action": "skip",
+  "skipReason": "ใส่（入れる）＋น้ำตาล（砂糖）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59544",
+  "th": "เทน้ำ",
+  "action": "skip",
+  "skipReason": "เท（注ぐ・あける）＋น้ำ（水）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59545",
+  "th": "แช่เย็น",
+  "action": "add",
+  "ro": "chɛ̂ɛ yen",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "冷やす・冷蔵する（冷蔵庫や氷で）",
+    "en": "to chill, refrigerate",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นมกล่องนี้เปิดแล้วต้องแช่เย็น",
+     "ro": "nom klɔ̀ɔng níi pə̀ət lɛ́ɛo tɔ̂ɔng chɛ̂ɛ yen",
+     "ja": "この牛乳は開けたら冷蔵しなければなりません。",
+     "en": "Once opened, this carton of milk must be refrigerated.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "食品の表示や、冷やした飲み物（เบียร์แช่เย็นなど）の説明にも使う。冷凍はแช่แข็ง。"
+ },
+ {
+  "id": "tl-59546",
+  "th": "เก็บจาน",
+  "action": "skip",
+  "skipReason": "เก็บ（片付ける）＋จาน（皿）の自由な組み合わせで、食卓を片付ける意味は既存のเก็บโต๊ะが教えているため。"
+ },
+ {
+  "id": "tl-59547",
+  "th": "เช็ดโต๊ะ",
+  "action": "skip",
+  "skipReason": "เช็ด（拭く）＋โต๊ะ（テーブル）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59548",
+  "th": "เช็ดมือ",
+  "action": "skip",
+  "skipReason": "เช็ด（拭く）＋มือ（手）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59549",
+  "th": "กวาดพื้น",
+  "action": "skip",
+  "skipReason": "กวาด（掃く）＋พื้น（床）の自由な組み合わせで、既存のกวาดบ้าน（家の床を掃く）が同じ内容を教えているため。"
+ },
+ {
+  "id": "tl-59550",
+  "th": "เก็บขยะ",
+  "action": "add",
+  "ro": "kèp khà yà",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ごみを拾う",
+    "en": "to pick up litter",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อาสาสมัครช่วยกันเก็บขยะที่ชายหาด",
+     "ro": "aa sǎa sà màk chûuai kan kèp khà yà thîi chaai hàat",
+     "ja": "ボランティアがみんなで砂浜のごみを拾った。",
+     "en": "Volunteers picked up litter on the beach together.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "ごみを回収する・収集する",
+    "en": "to collect garbage",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รถเก็บขยะมาทุกเช้าวันจันทร์",
+     "ro": "rót kèp khà yà maa thúk cháao wan can",
+     "ja": "ごみ収集車は毎週月曜日の朝に来ます。",
+     "en": "The garbage truck comes every Monday morning.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ごみを「捨てる」はทิ้งขยะ。รถเก็บขยะ（ごみ収集車）のように決まった形で使う。"
+ },
+ {
+  "id": "tl-59551",
+  "th": "เก็บบ้าน",
+  "action": "add",
+  "ro": "kèp bâan",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "家を片付ける",
+    "en": "to tidy up the house",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "วันเสาร์นี้ว่าจะเก็บบ้านสักหน่อย",
+     "ro": "wan sǎo níi wâa cà kèp bâan sàk nɔ̀ɔi",
+     "ja": "今度の土曜日は家を少し片付けようと思う。",
+     "en": "I'm thinking of tidying up the house a bit this Saturday.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "เก็บ（しまう）＋บ้าน（家）で「家の中を片付ける」という決まった言い方。会話でよく使い、จัดบ้านよりくだけた響きがある。"
+ },
+ {
+  "id": "tl-59552",
+  "th": "จัดของ",
+  "action": "add",
+  "ro": "càt khɔ̌ɔng",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "物を整理する・荷物を片付けて並べる",
+    "en": "to arrange, organize one's things",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ย้ายบ้านมาแล้วแต่ยังจัดของไม่เสร็จ",
+     "ro": "yáai bâan maa lɛ́ɛo tɛ̀ɛ yang càt khɔ̌ɔng mâi sèt",
+     "ja": "引っ越してきたが、まだ荷物の整理が終わっていない。",
+     "en": "I've moved in, but I haven't finished organizing my things yet.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "荷物をまとめる・荷造りする",
+    "en": "to pack one's things",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พรุ่งนี้ไปเชียงใหม่ คืนนี้ต้องจัดของ",
+     "ro": "phrûng níi pai chiiang mài khʉʉn níi tɔ̂ɔng càt khɔ̌ɔng",
+     "ja": "明日チェンマイに行くので、今夜は荷造りをしなければならない。",
+     "en": "I'm going to Chiang Mai tomorrow, so I have to pack tonight.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59553",
+  "th": "ซักรีด",
+  "action": "add",
+  "ro": "sák rîit",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "洗濯とアイロンがけをする・クリーニングする",
+    "en": "to wash and iron, do laundry (as a service)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โรงแรมนี้มีบริการซักรีด",
+     "ro": "roong rɛɛm níi mii bɔɔ rí kaan sák rîit",
+     "ja": "このホテルにはランドリーサービスがあります。",
+     "en": "This hotel has a laundry service.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ร้านซักรีด（クリーニング店）、บริการซักรีด（ランドリーサービス）のように店やホテルの表示でよく見る。"
+ },
+ {
+  "id": "tl-59554",
+  "th": "รดน้ำ",
+  "action": "add",
+  "ro": "rót náam",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "水をやる（植物に）",
+    "en": "to water (plants)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กุหลาบต้องรดน้ำทุกวัน",
+     "ro": "kù làap tɔ̂ɔng rót náam thúk wan",
+     "ja": "バラは毎日水をやらなければならない。",
+     "en": "Roses need to be watered every day.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "水をかける（ソンクラーンや結婚式で祝福として）",
+    "en": "to pour water (as a blessing at Songkran or a wedding)",
+    "pos": "動詞",
+    "use": "少なめの用法",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วันสงกรานต์ลูกหลานรดน้ำขอพรผู้ใหญ่",
+     "ro": "wan sǒng kraan lûuk lǎan rót náam khɔ̌ɔ phɔɔn phûu yài",
+     "ja": "ソンクラーンの日、子や孫は年長者に水をかけて祝福を願う。",
+     "en": "On Songkran, children and grandchildren pour water on their elders and ask for their blessing.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59555",
+  "th": "ให้อาหาร",
+  "action": "add",
+  "ro": "hâi aa hǎan",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "えさをやる（動物に）",
+    "en": "to feed (an animal)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ก่อนออกจากบ้านอย่าลืมให้อาหารแมว",
+     "ro": "kɔ̀ɔn ɔ̀ɔk càak bâan yàa lʉʉm hâi aa hǎan mɛɛo",
+     "ja": "家を出る前に猫にえさをやるのを忘れないで。",
+     "en": "Don't forget to feed the cat before you leave the house.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "公園や寺の「ห้ามให้อาหารสัตว์（動物にえさをやらないでください）」という掲示でもよく見る。"
+ },
+ {
+  "id": "tl-59556",
+  "th": "อาบน้ำแต่งตัว",
+  "action": "add",
+  "ro": "àap náam tɛ̀ng tuua",
+  "kind": "expression",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "シャワーを浴びて身支度する",
+    "en": "to shower and get dressed",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รอแป๊บนะ ขออาบน้ำแต่งตัวก่อน",
+     "ro": "rɔɔ pɛ́p ná khɔ̌ɔ àap náam tɛ̀ng tuua kɔ̀ɔn",
+     "ja": "ちょっと待ってね、先にシャワーを浴びて支度するから。",
+     "en": "Hold on a moment, let me shower and get dressed first.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "出かける前の支度をまとめて言う決まった言い方で、ひと続きに発音する。"
+ },
+ {
+  "id": "tl-59557",
+  "th": "ล้างหน้าแปรงฟัน",
+  "action": "add",
+  "ro": "láang nâa prɛɛng fan",
+  "kind": "expression",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "顔を洗って歯を磨く",
+    "en": "to wash one's face and brush one's teeth",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตื่นแล้วรีบไปล้างหน้าแปรงฟันเลย",
+     "ro": "tʉ̀ʉn lɛ́ɛo rîip pai láang nâa prɛɛng fan ləəi",
+     "ja": "起きたらすぐに顔を洗って歯を磨きなさい。",
+     "en": "Now that you're up, go wash your face and brush your teeth right away.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "朝起きたとき・寝る前の身支度をまとめて言う決まった言い方で、ひと続きに発音する。"
+ },
+ {
+  "id": "tl-59558",
+  "th": "ใส่กางเกง",
+  "action": "skip",
+  "skipReason": "ใส่（身につける）＋กางเกง（ズボン）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59559",
+  "th": "ใส่แว่น",
+  "action": "skip",
+  "skipReason": "ใส่（身につける）＋แว่น（眼鏡）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59560",
+  "th": "ใส่หมวก",
+  "action": "skip",
+  "skipReason": "ใส่（身につける）＋หมวก（帽子）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59561",
+  "th": "ใส่หมวกกันน็อก",
+  "action": "skip",
+  "skipReason": "ใส่（身につける）＋既存のหมวกกันน็อก（ヘルメット）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59562",
+  "th": "ใส่หน้ากาก",
+  "action": "skip",
+  "skipReason": "ใส่（身につける）＋หน้ากาก（マスク）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59563",
+  "th": "ใส่ชุด",
+  "action": "skip",
+  "skipReason": "ใส่（着る）＋ชุด（服・衣装）の自由な組み合わせで、後ろに種類を表す語が続かないと意味が定まらないため。"
+ },
+ {
+  "id": "tl-59564",
+  "th": "ถอดเสื้อ",
+  "action": "skip",
+  "skipReason": "ถอด（脱ぐ）＋เสื้อ（シャツ・上着）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59565",
+  "th": "เปลี่ยนเสื้อ",
+  "action": "skip",
+  "skipReason": "既存のเปลี่ยนเสื้อผ้า（着替える）の短い形にあたり、同じ内容を教えているため。"
+ },
+ {
+  "id": "tl-59566",
+  "th": "เปิดน้ำ",
+  "action": "skip",
+  "skipReason": "เปิด（開ける・つける）＋น้ำ（水）の自由な組み合わせで、เปิดの既存の語義（栓・スイッチを開ける）で理解できるため。"
+ },
+ {
+  "id": "tl-59567",
+  "th": "ปิดน้ำ",
+  "action": "skip",
+  "skipReason": "ปิด（閉める・止める）＋น้ำ（水）の自由な組み合わせで、ปิดの既存の語義で理解できるため。"
+ },
+ {
+  "id": "tl-59568",
+  "th": "เปิดพัดลม",
+  "action": "skip",
+  "skipReason": "เปิด（つける）＋พัดลม（扇風機）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59569",
+  "th": "เปิดหน้าต่าง",
+  "action": "skip",
+  "skipReason": "เปิด（開ける）＋หน้าต่าง（窓）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59570",
+  "th": "เปิดฝา",
+  "action": "skip",
+  "skipReason": "เปิด（開ける）＋ฝา（ふた）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59571",
+  "th": "ปิดฝา",
+  "action": "skip",
+  "skipReason": "ปิด（閉める）＋ฝา（ふた）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59572",
+  "th": "เปิดคอม",
+  "action": "skip",
+  "skipReason": "เปิด（つける）＋既存のคอม（パソコンの口語形）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59573",
+  "th": "เสียบชาร์จ",
+  "action": "add",
+  "ro": "sìiap cháat",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "充電器につなぐ・コンセントに挿して充電する",
+    "en": "to plug in to charge",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "แบตจะหมดแล้ว ขอเสียบชาร์จหน่อย",
+     "ro": "bɛ̀t cà mòt lɛ́ɛo khɔ̌ɔ sìiap cháat nɔ̀ɔi",
+     "ja": "バッテリーが切れそうだから、ちょっと充電させて。",
+     "en": "My battery is about to die; let me plug it in to charge.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "เสียบ（差し込む）＋ชาร์จ（充電する）。携帯電話やパソコンについて会話で言う。"
+ },
+ {
+  "id": "tl-59574",
+  "th": "ชาร์จมือถือ",
+  "action": "skip",
+  "skipReason": "ชาร์จ（充電する）＋มือถือ（携帯電話）の自由な組み合わせで、充電の言い方は既存のชาร์จ・ชาร์จแบตが教えているため。"
+ },
+ {
+  "id": "tl-59575",
+  "th": "ใส่หูฟัง",
+  "action": "skip",
+  "skipReason": "ใส่（つける）＋หูฟัง（イヤホン）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59576",
+  "th": "ลดเสียง",
+  "action": "add",
+  "ro": "lót sǐiang",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "音量を下げる・声を小さくする",
+    "en": "to turn down the volume, lower one's voice",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วยลดเสียงทีวีหน่อยได้ไหม",
+     "ro": "chûuai lót sǐiang thii wii nɔ̀ɔi dâai mǎi",
+     "ja": "テレビの音を少し下げてくれませんか。",
+     "en": "Could you turn the TV down a little?",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "反対はเพิ่มเสียง（音量を上げる）。スマートフォンやリモコンの音量操作の表示にも使われる。"
+ },
+ {
+  "id": "tl-59577",
+  "th": "เปิดเสียง",
+  "action": "add",
+  "ro": "pə̀ət sǐiang",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "音を出す・ミュートを解除する",
+    "en": "to turn the sound on, unmute",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ดูคลิปนี้ต้องเปิดเสียงด้วยนะ",
+     "ro": "duu khlíp níi tɔ̂ɔng pə̀ət sǐiang dûuai ná",
+     "ja": "この動画は音も出して見てね。",
+     "en": "You need to turn the sound on when you watch this clip.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ปิดเสียง（消音にする）の対で、アプリや動画の表示にも使われる。"
+ },
+ {
+  "id": "tl-59578",
+  "th": "กดส่ง",
+  "action": "skip",
+  "skipReason": "กด（押す）＋ส่ง（送信）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59579",
+  "th": "กดเข้าไป",
+  "action": "skip",
+  "skipReason": "กด（押す）＋方向を表すเข้าไปの生産的な組み合わせで、独立した語とは言えないため。"
+ },
+ {
+  "id": "tl-59580",
+  "th": "กดดู",
+  "action": "skip",
+  "skipReason": "กด（押す）＋ดู（見る）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59581",
+  "th": "กดลิงก์",
+  "action": "add",
+  "ro": "kòt líng",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "リンクを押す・タップする",
+    "en": "to click or tap a link",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อย่ากดลิงก์ที่ส่งมาจากคนแปลกหน้า",
+     "ro": "yàa kòt líng thîi sòng maa càak khon plɛ̀ɛk nâa",
+     "ja": "知らない人から送られてきたリンクを押してはいけません。",
+     "en": "Don't click on links sent by strangers.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "詐欺への注意喚起（อย่ากดลิงก์）でひとまとまりの言い方としてよく見聞きする。คลิกลิงก์とも言う。"
+ },
+ {
+  "id": "tl-59582",
+  "th": "กดผิด",
+  "action": "skip",
+  "skipReason": "กด（押す）＋ผิด（間違って）の生産的な「動詞＋ผิด」の組み合わせで、独立した語とは言えないため。"
+ },
+ {
+  "id": "tl-59583",
+  "th": "กดรหัส",
+  "action": "skip",
+  "skipReason": "กด（押す）＋รหัส（暗証番号）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59584",
+  "th": "เปลี่ยนรหัส",
+  "action": "skip",
+  "skipReason": "เปลี่ยน（変える）＋รหัส（暗証番号・コード）の自由な組み合わせで、画面表示として定着しているのはเปลี่ยนรหัสผ่านのほうであるため。"
+ },
+ {
+  "id": "tl-59585",
+  "th": "เข้าระบบ",
+  "action": "skip",
+  "skipReason": "既存のเข้าสู่ระบบ（ログインする）の短い形にあたり、同じ内容を教えているため。"
+ },
+ {
+  "id": "tl-59586",
+  "th": "เข้าแอป",
+  "action": "skip",
+  "skipReason": "เข้า（入る）＋แอป（アプリ）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59587",
+  "th": "เข้าเว็บ",
+  "action": "skip",
+  "skipReason": "เข้า（入る）＋เว็บ（ウェブサイト）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59588",
+  "th": "เซฟรูป",
+  "action": "skip",
+  "skipReason": "เซฟ（保存する）＋รูป（画像）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ },
+ {
+  "id": "tl-59589",
+  "th": "ถ่ายวิดีโอ",
+  "action": "skip",
+  "skipReason": "ถ่าย（撮る）＋วิดีโอ（動画）の自由な組み合わせで、動画を撮る言い方は既存のถ่ายคลิปが教えているため。"
+ },
+ {
+  "id": "tl-59590",
+  "th": "โพสต์รูป",
+  "action": "skip",
+  "skipReason": "โพสต์（投稿する）＋รูป（写真）の自由な組み合わせで、意味は部分の合計のまま。定型の表示・決まり文句として使われるわけでもないため。"
+ }
+]

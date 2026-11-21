@@ -1,0 +1,1542 @@
+[
+ {
+  "id": "tl-59977",
+  "th": "ดร.",
+  "action": "skip",
+  "skipReason": "「ดอกเตอร์」の略記号で、読み方（声調）を確実に示せないうえ、略号は見出し語として学習価値が低いため見送り。"
+ },
+ {
+  "id": "tl-59978",
+  "th": "พ้นโทษ",
+  "action": "add",
+  "ro": "phón thôot",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "刑期を終える・出所する",
+    "en": "to complete one's sentence, be released from prison",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาเพิ่งพ้นโทษออกมาจากคุกเมื่อเดือนที่แล้ว",
+     "ro": "khǎo phə̂əng phón thôot ɔ̀ɔk maa càak khúk mʉ̂ʉa dʉʉan thîi lɛ́ɛo",
+     "ja": "彼は先月、刑期を終えて刑務所から出てきたばかりです。",
+     "en": "He was just released from prison last month after serving his sentence.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59979",
+  "th": "วางดาวน์",
+  "action": "add",
+  "ro": "waang daao",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "頭金を払う（ローン購入で）",
+    "en": "to make a down payment",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันวางดาวน์รถไปห้าหมื่นบาท",
+     "ro": "chǎn waang daao rót pai hâa mʉ̀ʉn bàat",
+     "ja": "私は車の頭金として5万バーツ払いました。",
+     "en": "I made a down payment of 50,000 baht on the car.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ดาวน์ は英語 down (payment) から。頭金そのものは เงินดาวน์ と言う。"
+ },
+ {
+  "id": "tl-59980",
+  "th": "ของเปรี้ยว",
+  "action": "skip",
+  "skipReason": "ของ（物）＋เปรี้ยว（酸っぱい）の自由な組み合わせで、意味が部分の和にすぎないため見送り。"
+ },
+ {
+  "id": "tl-59981",
+  "th": "คาร์ดิแกน",
+  "action": "add",
+  "ro": "khaa dì kɛɛn",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "カーディガン",
+    "en": "cardigan",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ห้องนี้แอร์เย็น เอาคาร์ดิแกนมาด้วยนะ",
+     "ro": "hɔ̂ɔng níi ɛɛ yen ao khaa dì kɛɛn maa dûuai ná",
+     "ja": "この部屋はエアコンが効いて寒いから、カーディガンを持ってきてね。",
+     "en": "The air conditioning in this room is cold, so bring a cardigan.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "英語 cardigan から。会話では เสื้อคลุม（羽織るもの）と言うことも多い。"
+ },
+ {
+  "id": "tl-59982",
+  "th": "เป็นว่าเล่น",
+  "action": "add",
+  "ro": "pen wâa lên",
+  "kind": "expression",
+  "category": "量・程度・比較",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "湯水のように・やたらと（惜しげもなく）",
+    "en": "lavishly, freely, as if it were nothing",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วงนี้เขาใช้เงินเป็นว่าเล่น",
+     "ro": "chûuang níi khǎo cháai ngəən pen wâa lên",
+     "ja": "最近、彼は湯水のようにお金を使っている。",
+     "en": "Lately he has been spending money like water.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "直訳は「遊びであるかのように」。金・物・言葉を軽々しく使うことを批判的に言う。"
+ },
+ {
+  "id": "tl-59983",
+  "th": "ของขึ้นชื่อ",
+  "action": "add",
+  "ro": "khɔ̌ɔng khʉ̂n chʉ̂ʉ",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "名物・名産品",
+    "en": "local specialty, famous product",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ของขึ้นชื่อของจังหวัดนี้คือผ้าไหม",
+     "ro": "khɔ̌ɔng khʉ̂n chʉ̂ʉ khɔ̌ɔng cang wàt níi khʉʉ phâa mǎi",
+     "ja": "この県の名物は絹織物です。",
+     "en": "This province's famous product is silk.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "旅行や土産の話で「その土地の名物」という一つのまとまりとして使う。"
+ },
+ {
+  "id": "tl-59984",
+  "th": "วิ่งเต้น",
+  "action": "add",
+  "ro": "wîng tên",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（目的のために）裏で働きかける・奔走する",
+    "en": "to lobby, pull strings, run around to get something done",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาวิ่งเต้นจนลูกได้เข้าโรงเรียนดัง",
+     "ro": "khǎo wîng tên con lûuk dâai khâo roong riian dang",
+     "ja": "彼は奔走して、子どもを有名校に入れた。",
+     "en": "He pulled strings until his child got into a famous school.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "コネや人脈を使って根回しする、というやや否定的な響きで使うことが多い。"
+ },
+ {
+  "id": "tl-59985",
+  "th": "ร้อนเงิน",
+  "action": "add",
+  "ro": "rɔ́ɔn ngəən",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "急いでお金が要る・金に困っている",
+    "en": "to be in urgent need of money",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ช่วงนี้เขาร้อนเงิน เลยขายรถทิ้ง",
+     "ro": "chûuang níi khǎo rɔ́ɔn ngəən ləəi khǎai rót thíng",
+     "ja": "最近お金に困っていたので、彼は車を売ってしまった。",
+     "en": "He has been short of cash lately, so he sold his car.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59986",
+  "th": "ของดิบ",
+  "action": "skip",
+  "skipReason": "ของ（物）＋ดิบ（生の）の自由な組み合わせで、ดิบ の語義で学べるため見送り。"
+ },
+ {
+  "id": "tl-59987",
+  "th": "เสื้อโค้ท",
+  "action": "add",
+  "ro": "sʉ̂ʉa khóot",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "コート（防寒用の上着）",
+    "en": "coat, overcoat",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ไปญี่ปุ่นหน้าหนาวต้องเอาเสื้อโค้ทไปด้วย",
+     "ro": "pai yîi pùn nâa nǎao tɔ̂ɔng ao sʉ̂ʉa khóot pai dûuai",
+     "ja": "冬に日本へ行くなら、コートを持っていかないといけない。",
+     "en": "If you go to Japan in winter, you need to take a coat.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "เสื้อโค้ต とも書く。単に โค้ท とも言う。"
+ },
+ {
+  "id": "tl-59988",
+  "th": "เป็นปลิดทิ้ง",
+  "action": "add",
+  "ro": "pen plìt thíng",
+  "kind": "expression",
+  "category": "性質・状態",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（痛み・症状などが）嘘のように・きれいさっぱり（消える）",
+    "en": "completely, instantly (of pain or symptoms disappearing)",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กินยานี้แล้วหายปวดเป็นปลิดทิ้ง",
+     "ro": "kin yaa níi lɛ́ɛo hǎai pùuat pen plìt thíng",
+     "ja": "この薬を飲んだら、痛みが嘘のように消えた。",
+     "en": "After taking this medicine, the pain vanished completely.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ほぼ หาย〜เป็นปลิดทิ้ง（〜がきれいに治る）の形で使う。直訳は「摘み取って捨てたように」。"
+ },
+ {
+  "id": "tl-59989",
+  "th": "คนพื้นที่",
+  "action": "add",
+  "ro": "khon phʉ́ʉn thîi",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "地元の人・その土地の住民",
+    "en": "local people, locals",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ถามทางจากคนพื้นที่ดีกว่า",
+     "ro": "thǎam thaang càak khon phʉ́ʉn thîi dii kwàa",
+     "ja": "地元の人に道を聞いたほうがいい。",
+     "en": "It's better to ask the locals for directions.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "คนในพื้นที่ とも言う。"
+ },
+ {
+  "id": "tl-59990",
+  "th": "เงื่อนงำ",
+  "action": "add",
+  "ro": "ngʉ̂ʉan ngam",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "謎・裏の事情（はっきりしない怪しい点）",
+    "en": "hidden circumstances, mystery, suspicious point",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คดีนี้ยังมีเงื่อนงำอีกหลายอย่าง",
+     "ro": "khá dii níi yang mii ngʉ̂ʉan ngam ìik lǎai yàang",
+     "ja": "この事件にはまだ謎がいくつもある。",
+     "en": "There are still many mysteries in this case.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "事件・死亡などの報道で มีเงื่อนงำ（裏がありそうだ）の形でよく使う。"
+ },
+ {
+  "id": "tl-59991",
+  "th": "ใช้เงินเกินตัว",
+  "action": "skip",
+  "skipReason": "ใช้เงิน（金を使う）＋既存語 เกินตัว（分不相応な）の組み合わせで、เกินตัว の語義で学べるため見送り。"
+ },
+ {
+  "id": "tl-59992",
+  "th": "ของเย็น",
+  "action": "skip",
+  "skipReason": "ของ（物）＋เย็น（冷たい）の自由な組み合わせで、意味が部分の和にすぎないため見送り。"
+ },
+ {
+  "id": "tl-59993",
+  "th": "เสื้อผ้ามือสอง",
+  "action": "skip",
+  "skipReason": "既存語 เสื้อผ้า（服）＋มือสอง（中古の）の自由な組み合わせのため見送り。"
+ },
+ {
+  "id": "tl-59994",
+  "th": "ลงล็อก",
+  "action": "add",
+  "ro": "long lɔ́k",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ぴったりはまる・思惑どおりに収まる",
+    "en": "to fit perfectly, fall into place, turn out as planned",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ทุกอย่างลงล็อกพอดี ไม่ต้องแก้อะไรเลย",
+     "ro": "thúk yàang long lɔ́k phɔɔ dii mâi tɔ̂ɔng kɛ̂ɛ à rai ləəi",
+     "ja": "すべてがぴったり収まって、何も直す必要がない。",
+     "en": "Everything fell into place, so nothing needs fixing.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ลงล็อค とも書く。試合結果などが「予想どおりになる」意味でも使う。"
+ },
+ {
+  "id": "tl-59995",
+  "th": "แถวหลัง",
+  "action": "skip",
+  "skipReason": "แถว（列）＋หลัง（後ろ）の自由な組み合わせで、意味が部分の和にすぎないため見送り。"
+ },
+ {
+  "id": "tl-59996",
+  "th": "ไม่ชอบมาพากล",
+  "action": "add",
+  "ro": "mâi chɔ̂ɔp maa phaa kon",
+  "kind": "expression",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "怪しい・どこかおかしい",
+    "en": "suspicious, fishy",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เรื่องนี้มีอะไรไม่ชอบมาพากลแน่ๆ",
+     "ro": "rʉ̂ʉang níi mii à rai mâi chɔ̂ɔp maa phaa kon nɛ̂ɛ nɛ̂ɛ",
+     "ja": "この件には何か怪しいところがあるに違いない。",
+     "en": "There is definitely something fishy about this.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59997",
+  "th": "เป็นหนี้เป็นสิน",
+  "action": "add",
+  "ro": "pen nîi pen sǐn",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "借金を抱える・借金まみれになる",
+    "en": "to be in debt",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เขาเป็นหนี้เป็นสินเพราะเล่นการพนัน",
+     "ro": "khǎo pen nîi pen sǐn phrɔ́ lên kaan phá nan",
+     "ja": "彼はギャンブルのせいで借金を抱えている。",
+     "en": "He is in debt because of gambling.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "เป็นหนี้（借金がある）を強めた言い方。"
+ },
+ {
+  "id": "tl-59998",
+  "th": "ของแช่แข็ง",
+  "action": "skip",
+  "skipReason": "ของ（物）＋既存語 แช่แข็ง（冷凍する）の自由な組み合わせのため見送り。"
+ },
+ {
+  "id": "tl-59999",
+  "th": "ปกเสื้อ",
+  "action": "skip",
+  "skipReason": "既存語 ปก の語義「服の襟」で既に教えている内容と同じため見送り。"
+ },
+ {
+  "id": "tl-60000",
+  "th": "ย่อมเยา",
+  "action": "add",
+  "ro": "yɔ̂ɔm yao",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（値段が）手頃な・安い",
+    "en": "reasonable, affordable (price)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้อาหารอร่อย ราคาย่อมเยา",
+     "ro": "ráan níi aa hǎan à rɔ̀i raa khaa yɔ̂ɔm yao",
+     "ja": "この店は料理がおいしく、値段が手頃だ。",
+     "en": "This restaurant has good food at reasonable prices.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ほぼ ราคาย่อมเยา の形で、広告や紹介文によく出る。"
+ },
+ {
+  "id": "tl-60001",
+  "th": "สถานีต่อไป",
+  "action": "add",
+  "ro": "sà thǎa nii tɔ̀ɔ pai",
+  "kind": "expression",
+  "category": "移動・道案内",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "次の駅（は）（車内アナウンス）",
+    "en": "next station",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สถานีต่อไปคือสถานีสยาม",
+     "ro": "sà thǎa nii tɔ̀ɔ pai khʉʉ sà thǎa nii sà yǎam",
+     "ja": "次の駅はサイアム駅です。",
+     "en": "The next station is Siam.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "BTS・MRTの車内アナウンスで決まって流れる言い方として登録。"
+ },
+ {
+  "id": "tl-60002",
+  "th": "นอมินี",
+  "action": "add",
+  "ro": "nɔɔ mí nii",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "名義人・名義貸しの代理人",
+    "en": "nominee, front person",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาใช้ญาติเป็นนอมินีถือหุ้นบริษัท",
+     "ro": "khǎo cháai yâat pen nɔɔ mí nii thʉ̌ʉ hûn bɔɔ rí sàt",
+     "ja": "彼は親族を名義人にして会社の株を持たせている。",
+     "en": "He uses a relative as a nominee to hold company shares.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "英語 nominee から。外国人の土地・会社保有や政治の「傀儡」の話で否定的に使う。"
+ },
+ {
+  "id": "tl-60003",
+  "th": "แก้ปัญหาเฉพาะหน้า",
+  "action": "add",
+  "ro": "kɛ̂ɛ pan hǎa chà phɔ́ nâa",
+  "kind": "expression",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "その場の問題に対処する・応急的に解決する",
+    "en": "to deal with an immediate problem, improvise a fix",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พนักงานต้องแก้ปัญหาเฉพาะหน้าให้ได้",
+     "ro": "phá nák ngaan tɔ̂ɔng kɛ̂ɛ pan hǎa chà phɔ́ nâa hâi dâai",
+     "ja": "社員はその場で起きた問題に対処できなければならない。",
+     "en": "Staff must be able to deal with problems on the spot.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "求人の条件や仕事の能力を言うときの決まった言い方。根本解決ではない「その場しのぎ」の意味にもなる。"
+ },
+ {
+  "id": "tl-60004",
+  "th": "มื้อหนัก",
+  "action": "skip",
+  "skipReason": "มื้อ（食事）＋หนัก（重い）の自由な組み合わせで、意味が部分の和にすぎないため見送り。"
+ },
+ {
+  "id": "tl-60005",
+  "th": "ตะเข็บ",
+  "action": "add",
+  "ro": "tà khèp",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "縫い目",
+    "en": "seam",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กางเกงตัวนี้ตะเข็บขาดแล้ว",
+     "ro": "kaang keeng tuua níi tà khèp khàat lɛ́ɛo",
+     "ja": "このズボンは縫い目が裂けてしまった。",
+     "en": "The seam of these trousers has split.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "国境沿いの地帯（ตะเข็บชายแดน）",
+    "en": "border strip, borderland",
+    "pos": "名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หมู่บ้านนี้อยู่ตามตะเข็บชายแดน",
+     "ro": "mùu bâan níi yùu taam tà khèp chaai dɛɛn",
+     "ja": "この村は国境沿いにある。",
+     "en": "This village lies along the border.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60006",
+  "th": "เก๊",
+  "action": "add",
+  "ro": "kée",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "偽の・まがい物の",
+    "en": "fake, counterfeit",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "นาฬิกาเรือนนี้เป็นของเก๊",
+     "ro": "naa lí kaa rʉʉan níi pen khɔ̌ɔng kée",
+     "ja": "この時計は偽物だ。",
+     "en": "This watch is a fake.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ของเก๊（偽物）の形でよく使う。改まった言い方は ปลอม。"
+ },
+ {
+  "id": "tl-60007",
+  "th": "ขบวนแห่",
+  "action": "add",
+  "ro": "khà buuan hɛ̀ɛ",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（祭りなどの）パレード・行列",
+    "en": "procession, parade",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขบวนแห่จะผ่านถนนเส้นนี้ตอนบ่ายสามโมง",
+     "ro": "khà buuan hɛ̀ɛ cà phàan thà nǒn sên níi tɔɔn bàai sǎam moong",
+     "ja": "パレードは午後3時にこの通りを通ります。",
+     "en": "The procession will pass along this road at 3 p.m.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60008",
+  "th": "ดีเบต",
+  "action": "add",
+  "ro": "dii bèet",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "討論会・ディベート",
+    "en": "debate",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คืนนี้มีดีเบตของผู้สมัครทางทีวี",
+     "ro": "khʉʉn níi mii dii bèet khɔ̌ɔng phûu sà màk thaang thii wii",
+     "ja": "今夜テレビで候補者の討論会がある。",
+     "en": "There is a candidates' debate on TV tonight.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "英語 debate から。ดีเบท とも書く。動詞的に「討論する」とも使う。"
+ },
+ {
+  "id": "tl-60009",
+  "th": "ตามเรื่อง",
+  "action": "add",
+  "ro": "taam rʉ̂ʉang",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（手続き・件の）進み具合を確認する・催促する",
+    "en": "to follow up on a matter",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ส่งเอกสารไปนานแล้ว ต้องโทรไปตามเรื่องหน่อย",
+     "ro": "sòng èek kà sǎan pai naan lɛ́ɛo tɔ̂ɔng thoo pai taam rʉ̂ʉang nɔ̀i",
+     "ja": "書類を送ってからだいぶ経つので、電話して進み具合を確かめないと。",
+     "en": "I sent the documents a long time ago, so I need to call and follow up.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60010",
+  "th": "มื้อหลัก",
+  "action": "skip",
+  "skipReason": "มื้อ（食事）＋หลัก（主な）の組み合わせで、意味が部分の和にすぎないため見送り。"
+ },
+ {
+  "id": "tl-60011",
+  "th": "เนื้อผ้า",
+  "action": "add",
+  "ro": "nʉ́ʉa phâa",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "生地（の質・風合い）",
+    "en": "fabric, texture of cloth",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เสื้อตัวนี้เนื้อผ้านุ่มมาก",
+     "ro": "sʉ̂ʉa tuua níi nʉ́ʉa phâa nûm mâak",
+     "ja": "このシャツは生地がとても柔らかい。",
+     "en": "The fabric of this shirt is very soft.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60012",
+  "th": "เอาแน่เอานอนไม่ได้",
+  "action": "add",
+  "ro": "ao nɛ̂ɛ ao nɔɔn mâi dâai",
+  "kind": "expression",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "当てにならない・気まぐれな",
+    "en": "unpredictable, unreliable",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "อากาศช่วงนี้เอาแน่เอานอนไม่ได้เลย",
+     "ro": "aa kàat chûuang níi ao nɛ̂ɛ ao nɔɔn mâi dâai ləəi",
+     "ja": "最近の天気は全く当てにならない。",
+     "en": "The weather these days is totally unpredictable.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "人の態度や予定、天気などに使う。"
+ },
+ {
+  "id": "tl-60013",
+  "th": "บ่อน้ำร้อน",
+  "action": "add",
+  "ro": "bɔ̀ɔ nám rɔ́ɔn",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "温泉",
+    "en": "hot spring",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เราไปแช่บ่อน้ำร้อนที่เชียงใหม่",
+     "ro": "rao pai chɛ̂ɛ bɔ̀ɔ nám rɔ́ɔn thîi chiiang mài",
+     "ja": "私たちはチェンマイの温泉に浸かりに行った。",
+     "en": "We went to soak in a hot spring in Chiang Mai.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "日本式の温泉は ออนเซ็น とも言う。"
+ },
+ {
+  "id": "tl-60014",
+  "th": "ซื้อสิทธิขายเสียง",
+  "action": "add",
+  "ro": "sʉ́ʉ sìt thí khǎai sǐiang",
+  "kind": "expression",
+  "category": "社会・制度",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "票を売買する（選挙の買収）",
+    "en": "to buy and sell votes",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "การซื้อสิทธิขายเสียงเป็นเรื่องผิดกฎหมาย",
+     "ro": "kaan sʉ́ʉ sìt thí khǎai sǐiang pen rʉ̂ʉang phìt kòt mǎai",
+     "ja": "票の売買は違法だ。",
+     "en": "Buying and selling votes is illegal.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "選挙報道の決まった言い方。名詞的に การซื้อสิทธิขายเสียง の形が多い。"
+ },
+ {
+  "id": "tl-60015",
+  "th": "โทรตาม",
+  "action": "add",
+  "ro": "thoo taam",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "電話で呼び出す・電話で催促する",
+    "en": "to call someone to come, chase up by phone",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เขายังไม่มา ลองโทรตามดูหน่อย",
+     "ro": "khǎo yang mâi maa lɔɔng thoo taam duu nɔ̀i",
+     "ja": "彼がまだ来ないから、電話して呼んでみて。",
+     "en": "He hasn't come yet; try calling him.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60016",
+  "th": "มื้อแรก",
+  "action": "skip",
+  "skipReason": "มื้อ（食事）＋แรก（最初の）の自由な組み合わせで、意味が部分の和にすぎないため見送り。"
+ },
+ {
+  "id": "tl-60017",
+  "th": "ผ้าไทย",
+  "action": "add",
+  "ro": "phâa thai",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "タイの伝統的な布（手織りの絹・綿など）",
+    "en": "traditional Thai fabric",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วันศุกร์พนักงานที่นี่ใส่ผ้าไทยมาทำงาน",
+     "ro": "wan sùk phá nák ngaan thîi nîi sài phâa thai maa tham ngaan",
+     "ja": "ここの職員は金曜日にタイの伝統布の服を着て出勤する。",
+     "en": "Staff here wear traditional Thai fabric to work on Fridays.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "役所などで「ผ้าไทยの日」として伝統布の服を着る習慣がある。"
+ },
+ {
+  "id": "tl-60018",
+  "th": "ร่อแร่",
+  "action": "add",
+  "ro": "rɔ̂ɔ rɛ̂ɛ",
+  "kind": "word",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "瀕死の・危篤状態の",
+    "en": "on the verge of death, critically ill",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ตอนมาถึงโรงพยาบาล เขาอาการร่อแร่แล้ว",
+     "ro": "tɔɔn maa thʉ̌ng roong phá yaa baan khǎo aa kaan rɔ̂ɔ rɛ̂ɛ lɛ́ɛo",
+     "ja": "病院に着いたとき、彼はもう危篤状態だった。",
+     "en": "By the time he reached the hospital, he was critically ill.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（店・会社などが）つぶれかけの",
+    "en": "on its last legs (of a business)",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ธุรกิจของเขาร่อแร่มาหลายเดือนแล้ว",
+     "ro": "thú rá kìt khɔ̌ɔng khǎo rɔ̂ɔ rɛ̂ɛ maa lǎai dʉʉan lɛ́ɛo",
+     "ja": "彼の商売はもう何か月もつぶれかけている。",
+     "en": "His business has been on its last legs for months.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60019",
+  "th": "จุดถ่ายรูป",
+  "action": "add",
+  "ro": "cùt thàai rûup",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "写真スポット・撮影ポイント",
+    "en": "photo spot",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตรงนี้เป็นจุดถ่ายรูปที่สวยที่สุด",
+     "ro": "trong níi pen cùt thàai rûup thîi sǔuai thîi sùt",
+     "ja": "ここが一番きれいな写真スポットです。",
+     "en": "This is the most beautiful photo spot.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "観光地の案内板や旅行記事で決まって使う言い方。"
+ },
+ {
+  "id": "tl-60020",
+  "th": "ถอดถอน",
+  "action": "add",
+  "ro": "thɔ̀ɔt thɔ̌ɔn",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（公職者を）罷免する・解任する",
+    "en": "to remove from office, impeach",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "สภามีมติถอดถอนรัฐมนตรีคนนั้น",
+     "ro": "sà phaa mii má tì thɔ̀ɔt thɔ̌ɔn rát thà mon trii khon nán",
+     "ja": "議会はその大臣を罷免することを決議した。",
+     "en": "Parliament voted to remove that minister from office.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60021",
+  "th": "ไม่พูดไม่จา",
+  "action": "add",
+  "ro": "mâi phûut mâi caa",
+  "kind": "expression",
+  "category": "日常の動作",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "黙りこくる・ひと言もしゃべらない",
+    "en": "to not say a word, keep silent",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ลูกกลับมาถึงบ้านแล้วนั่งเงียบ ไม่พูดไม่จา",
+     "ro": "lûuk klàp maa thʉ̌ng bâan lɛ́ɛo nâng ngîiap mâi phûut mâi caa",
+     "ja": "子どもは家に帰ってくると、黙って座ったままひと言もしゃべらない。",
+     "en": "My child came home and sat in silence without a word.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "จา は単独では使わず、พูดจา・ไม่พูดไม่จา の中で使う。"
+ },
+ {
+  "id": "tl-60022",
+  "th": "สูตรลับ",
+  "action": "skip",
+  "skipReason": "既存語 สูตร（レシピ）＋ลับ（秘密の）の自由な組み合わせのため見送り。"
+ },
+ {
+  "id": "tl-60023",
+  "th": "หนังแท้",
+  "action": "add",
+  "ro": "nǎng thɛ́ɛ",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "本革",
+    "en": "genuine leather",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กระเป๋าใบนี้ทำจากหนังแท้",
+     "ro": "krà pǎo bai níi tham càak nǎng thɛ́ɛ",
+     "ja": "このかばんは本革でできている。",
+     "en": "This bag is made of genuine leather.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "商品の表示や売り場で決まって使う言い方。合成皮革は หนังเทียม。"
+ },
+ {
+  "id": "tl-60024",
+  "th": "ลูกผีลูกคน",
+  "action": "add",
+  "ro": "lûuk phǐi lûuk khon",
+  "kind": "expression",
+  "category": "性質・状態",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どちらに転ぶか分からない・生きるか死ぬかの瀬戸際の",
+    "en": "touch and go, hanging in the balance",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เกมนี้ยังลูกผีลูกคนอยู่",
+     "ro": "keem níi yang lûuk phǐi lûuk khon yùu",
+     "ja": "この試合はまだどちらに転ぶか分からない。",
+     "en": "This game is still hanging in the balance.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "直訳は「幽霊の子か人の子か」。もとは出産や重病で生死が分からない状態を言う。"
+ },
+ {
+  "id": "tl-60025",
+  "th": "น้องใหม่",
+  "action": "add",
+  "ro": "nɔ́ɔng mài",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "新入生・新入り",
+    "en": "freshman, newcomer",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "น้องใหม่ปีนี้มีเกือบห้าร้อยคน",
+     "ro": "nɔ́ɔng mài pii níi mii kʉ̀ʉap hâa rɔ́ɔi khon",
+     "ja": "今年の新入生は500人近くいる。",
+     "en": "There are nearly 500 freshmen this year.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "大学の新入生のほか、職場やグループの新人にも使う。"
+ },
+ {
+  "id": "tl-60026",
+  "th": "พ้นตำแหน่ง",
+  "action": "add",
+  "ro": "phón tam nɛ̀ng",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "退任する・職を離れる",
+    "en": "to leave office, step down",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "เขาจะพ้นตำแหน่งสิ้นเดือนนี้",
+     "ro": "khǎo cà phón tam nɛ̀ng sîn dʉʉan níi",
+     "ja": "彼は今月末で退任する。",
+     "en": "He will leave office at the end of this month.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60027",
+  "th": "ตอบไม่ถูก",
+  "action": "add",
+  "ro": "tɔ̀ɔp mâi thùuk",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どう答えていいか分からない",
+    "en": "to not know how to answer",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ถูกถามแบบนี้ ฉันก็ตอบไม่ถูกเหมือนกัน",
+     "ro": "thùuk thǎam bɛ̀ɛp níi chǎn kɔ̂ɔ tɔ̀ɔp mâi thùuk mʉ̌ʉan kan",
+     "ja": "こう聞かれると、私もどう答えていいか分からない。",
+     "en": "When asked like this, I don't know how to answer either.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "พูดไม่ถูก・บอกไม่ถูก と同じ「〜しようがない」の形。文脈により「正しく答えられない」の意味にもなる。"
+ },
+ {
+  "id": "tl-60028",
+  "th": "สูตรเด็ด",
+  "action": "skip",
+  "skipReason": "既存語 สูตร（レシピ）＋เด็ด（抜群の）の自由な組み合わせのため見送り。"
+ },
+ {
+  "id": "tl-60029",
+  "th": "ถุงน่อง",
+  "action": "add",
+  "ro": "thǔng nɔ̂ɔng",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ストッキング",
+    "en": "stockings, pantyhose",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผู้หญิงหลายคนใส่ถุงน่องไปทำงาน",
+     "ro": "phûu yǐng lǎai khon sài thǔng nɔ̂ɔng pai tham ngaan",
+     "ja": "ストッキングをはいて仕事に行く女性は多い。",
+     "en": "Many women wear stockings to work.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60030",
+  "th": "จิ๋วแต่แจ๋ว",
+  "action": "add",
+  "ro": "cǐu tɛ̀ɛ cɛ̌o",
+  "kind": "expression",
+  "category": "性質・状態",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "小さいけれど優秀な",
+    "en": "small but excellent",
+    "pos": "形容詞・状態語",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "รถคันนี้จิ๋วแต่แจ๋ว ประหยัดน้ำมันมาก",
+     "ro": "rót khan níi cǐu tɛ̀ɛ cɛ̌o prà yàt nám man mâak",
+     "ja": "この車は小さいけれど優秀で、とても燃費がいい。",
+     "en": "This car is small but great, and very fuel-efficient.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "韻を踏んだ決まり文句。物や人をほめるときに使う。"
+ },
+ {
+  "id": "tl-60031",
+  "th": "วัยเรียน",
+  "action": "add",
+  "ro": "wai riian",
+  "kind": "word",
+  "category": "人・家族",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "学齢期・学生の年頃",
+    "en": "school age, student years",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เด็กวัยเรียนควรนอนให้พอ",
+     "ro": "dèk wai riian khuuan nɔɔn hâi phɔɔ",
+     "ja": "学齢期の子どもは十分に眠るべきだ。",
+     "en": "School-age children should get enough sleep.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60032",
+  "th": "ผู้แพ้",
+  "action": "add",
+  "ro": "phûu phɛ́ɛ",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "敗者・負けた人",
+    "en": "loser (of a contest)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผู้แพ้ต้องเลี้ยงข้าวทุกคน",
+     "ro": "phûu phɛ́ɛ tɔ̂ɔng líiang khâao thúk khon",
+     "ja": "負けた人がみんなにご飯をおごらなければならない。",
+     "en": "The loser has to treat everyone to a meal.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "反対は ผู้ชนะ（勝者）。"
+ },
+ {
+  "id": "tl-60033",
+  "th": "เรียนนอก",
+  "action": "add",
+  "ro": "riian nɔ̂ɔk",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "海外留学する",
+    "en": "to study abroad",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ลูกสาวเขาไปเรียนนอกที่อังกฤษ",
+     "ro": "lûuk sǎao khǎo pai riian nɔ̂ɔk thîi ang krìt",
+     "ja": "彼の娘はイギリスに留学している。",
+     "en": "His daughter is studying abroad in England.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "เรียนต่างประเทศ の口語的な言い方。"
+ },
+ {
+  "id": "tl-60034",
+  "th": "เจ้าเก่า",
+  "action": "add",
+  "ro": "câo kào",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "昔からある店・元祖の店",
+    "en": "the original shop, long-established vendor",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ร้านนี้เป็นเจ้าเก่า ขายมาสามสิบปีแล้ว",
+     "ro": "ráan níi pen câo kào khǎai maa sǎam sìp pii lɛ́ɛo",
+     "ja": "この店は老舗で、30年前から商売を続けている。",
+     "en": "This is the original shop; it has been selling for thirty years.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "เจ้า は「（店の）主・店」の意味。看板の「เจ้าเก่า」は「元祖」の意味で使う。"
+ },
+ {
+  "id": "tl-60035",
+  "th": "รองเท้าหุ้มส้น",
+  "action": "add",
+  "ro": "rɔɔng tháao hûm sôn",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "かかとを覆う靴（サンダル不可の服装規定で言う）",
+    "en": "closed-heel shoes",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "นักศึกษาต้องใส่รองเท้าหุ้มส้นมาเรียน",
+     "ro": "nák sʉ̀k sǎa tɔ̂ɔng sài rɔɔng tháao hûm sôn maa riian",
+     "ja": "大学生はかかとの覆われた靴を履いて授業に来なければならない。",
+     "en": "University students must wear closed-heel shoes to class.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "大学・職場の服装規定でよく使う言い方。"
+ },
+ {
+  "id": "tl-60036",
+  "th": "ทั้งดุ้น",
+  "action": "skip",
+  "skipReason": "既存語 ดุ้น の語義「丸ごと・そっくりそのまま（ทั้งดุ้น の形で）」で既に教えているため見送り。"
+ },
+ {
+  "id": "tl-60037",
+  "th": "เพื่อนร่วมทีม",
+  "action": "add",
+  "ro": "phʉ̂ʉan rûuam thiim",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "チームメイト",
+    "en": "teammate",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาส่งบอลให้เพื่อนร่วมทีมยิงประตู",
+     "ro": "khǎo sòng bɔɔn hâi phʉ̂ʉan rûuam thiim ying prà tuu",
+     "ja": "彼はチームメイトにパスを出してシュートさせた。",
+     "en": "He passed the ball to his teammate to shoot.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60038",
+  "th": "จวก",
+  "action": "add",
+  "ro": "cùuak",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "激しく批判する・こき下ろす",
+    "en": "to slam, lash out at, harshly criticize",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ชาวเน็ตจวกนักการเมืองคนนี้อย่างหนัก",
+     "ro": "chaao nét cùuak nák kaan mʉʉang khon níi yàang nàk",
+     "ja": "ネットユーザーはこの政治家を激しく批判した。",
+     "en": "Netizens harshly criticized this politician.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "主にニュースの見出しで使う、くだけた言い方。"
+ },
+ {
+  "id": "tl-60039",
+  "th": "ทำเวร",
+  "action": "add",
+  "ro": "tham ween",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（学校の）掃除当番をする",
+    "en": "to do one's cleaning duty (at school)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วันนี้ฉันต้องอยู่ทำเวรทำความสะอาดห้องเรียน",
+     "ro": "wan níi chǎn tɔ̂ɔng yùu tham ween tham khwaam sà àat hɔ̂ɔng riian",
+     "ja": "今日は残って教室の掃除当番をしなければならない。",
+     "en": "Today I have to stay for cleaning duty in the classroom.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-60040",
+  "th": "เจ้าดัง",
+  "action": "add",
+  "ro": "câo dang",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "有名な店・人気店",
+    "en": "famous shop, well-known vendor",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ร้านก๋วยเตี๋ยวเจ้าดังย่านนี้คนต่อคิวยาว",
+     "ro": "ráan kǔuai tǐiao câo dang yâan níi khon tɔ̀ɔ khiu yaao",
+     "ja": "この辺りの有名なクイッティアオ店は長い行列ができる。",
+     "en": "The famous noodle shop in this area has long queues.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ร้าน〜เจ้าดัง（有名な〜店）の形でグルメ記事によく出る。"
+ },
+ {
+  "id": "tl-60041",
+  "th": "พื้นรองเท้า",
+  "action": "add",
+  "ro": "phʉ́ʉn rɔɔng tháao",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "靴底",
+    "en": "sole (of a shoe)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พื้นรองเท้าคู่นี้สึกหมดแล้ว",
+     "ro": "phʉ́ʉn rɔɔng tháao khûu níi sʉ̀k mòt lɛ́ɛo",
+     "ja": "この靴の靴底はすっかりすり減ってしまった。",
+     "en": "The soles of these shoes are completely worn out.",
+     "origin": "authored"
+    }
+   }
+  ]
+ }
+]

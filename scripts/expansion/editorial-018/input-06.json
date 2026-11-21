@@ -1,0 +1,457 @@
+[
+ {
+  "id": "tl-58813",
+  "th": "ชื่อบัญชี",
+  "deck": "general",
+  "hint": "口座名義（名）",
+  "freqGuess": 6
+ },
+ {
+  "id": "tl-58814",
+  "th": "บุ๊คแบงก์",
+  "deck": "general",
+  "hint": "預金通帳（名）[口語]",
+  "freqGuess": 6
+ },
+ {
+  "id": "tl-58815",
+  "th": "ยอดชำระ",
+  "deck": "general",
+  "hint": "支払額（名）",
+  "freqGuess": 6
+ },
+ {
+  "id": "tl-58816",
+  "th": "หนี้บัตรเครดิต",
+  "deck": "general",
+  "hint": "クレジットカードの借金（名）",
+  "freqGuess": 6
+ },
+ {
+  "id": "tl-58817",
+  "th": "เงินคืน",
+  "deck": "general",
+  "hint": "返金・キャッシュバック（名）",
+  "freqGuess": 6
+ },
+ {
+  "id": "tl-58818",
+  "th": "เงินส่วนตัว",
+  "deck": "general",
+  "hint": "自分のお金・ポケットマネー（名）",
+  "freqGuess": 6
+ },
+ {
+  "id": "tl-58819",
+  "th": "เงินติดตัว",
+  "deck": "general",
+  "hint": "手持ちのお金（名）",
+  "freqGuess": 6
+ },
+ {
+  "id": "tl-58820",
+  "th": "แบงก์ยี่สิบ",
+  "deck": "general",
+  "hint": "20バーツ札（名）[口語]",
+  "freqGuess": 6
+ },
+ {
+  "id": "tl-58821",
+  "th": "แบงก์ห้าร้อย",
+  "deck": "general",
+  "hint": "500バーツ札（名）[口語]",
+  "freqGuess": 6
+ },
+ {
+  "id": "tl-58822",
+  "th": "คิดว่า",
+  "deck": "general",
+  "hint": "～と思う（表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58823",
+  "th": "ได้ไหม",
+  "deck": "general",
+  "hint": "～してもいい？／～できる？（疑問表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58824",
+  "th": "บอกว่า",
+  "deck": "general",
+  "hint": "～と言う、～と伝える（表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58825",
+  "th": "อันนี้",
+  "deck": "general",
+  "hint": "これ（代名詞）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58826",
+  "th": "คืออะไร",
+  "deck": "general",
+  "hint": "～って何？、～とは何か（疑問表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58827",
+  "th": "ดีไหม",
+  "deck": "general",
+  "hint": "～しようか、～はどう？（疑問表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58828",
+  "th": "อันนั้น",
+  "deck": "general",
+  "hint": "それ、あれ（代名詞）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58829",
+  "th": "เอาจริงๆ",
+  "deck": "general",
+  "hint": "正直なところ、ぶっちゃけ（副詞）[口語]",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58830",
+  "th": "ทำยังไง",
+  "deck": "general",
+  "hint": "どうやって、どうすれば（疑問表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58831",
+  "th": "รู้สึกว่า",
+  "deck": "general",
+  "hint": "～と感じる、～な気がする（表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58832",
+  "th": "อะไรบ้าง",
+  "deck": "general",
+  "hint": "何と何、どんなもの（複数の答えを求める）（疑問表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58833",
+  "th": "มีอะไรบ้าง",
+  "deck": "general",
+  "hint": "何がありますか（疑問表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58834",
+  "th": "แค่ไหน",
+  "deck": "general",
+  "hint": "どのくらい、どれほど（疑問詞）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58835",
+  "th": "ทำไมถึง",
+  "deck": "general",
+  "hint": "どうして～なの（疑問表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58836",
+  "th": "รู้ไหม",
+  "deck": "general",
+  "hint": "知ってる？／ねえ聞いて（疑問表現）[口語]",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58837",
+  "th": "โอเคไหม",
+  "deck": "general",
+  "hint": "大丈夫？、それでいい？（疑問表現）[口語]",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58838",
+  "th": "เอาไหม",
+  "deck": "general",
+  "hint": "いる？、欲しい？（疑問表現）[口語]",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58839",
+  "th": "รับไม่ได้",
+  "deck": "general",
+  "hint": "受け入れられない、許せない（表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58840",
+  "th": "ไม่จำเป็น",
+  "deck": "general",
+  "hint": "必要ない（表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58841",
+  "th": "อย่าเพิ่ง",
+  "deck": "general",
+  "hint": "まだ～しないで（表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58842",
+  "th": "ไม่น่า",
+  "deck": "general",
+  "hint": "～するんじゃなかった／～のはずがない（表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58843",
+  "th": "แล้วค่อย",
+  "deck": "general",
+  "hint": "それから～する、～してから（接続表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58844",
+  "th": "ที่สำคัญ",
+  "deck": "general",
+  "hint": "何より、大事なのは（接続表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58845",
+  "th": "ได้ไง",
+  "deck": "general",
+  "hint": "どうして～できるの／それはダメでしょ（疑問表現）[口語]",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58846",
+  "th": "จะได้",
+  "deck": "general",
+  "hint": "そうすれば～できる、～するように（接続表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58847",
+  "th": "รู้อยู่แล้ว",
+  "deck": "general",
+  "hint": "もう知っている、分かりきっている（表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58848",
+  "th": "ไม่คิดว่า",
+  "deck": "general",
+  "hint": "～とは思わなかった／～とは思わない（表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58849",
+  "th": "มีโอกาส",
+  "deck": "general",
+  "hint": "機会がある、可能性がある（表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58850",
+  "th": "หวังว่า",
+  "deck": "general",
+  "hint": "～だといいな、～を願う（表現）",
+  "freqGuess": 8
+ },
+ {
+  "id": "tl-58851",
+  "th": "เพราะอะไร",
+  "deck": "general",
+  "hint": "なぜ、何が原因で（疑問表現）",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58852",
+  "th": "ตั้งแต่เมื่อไหร่",
+  "deck": "general",
+  "hint": "いつから（疑問表現）",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58853",
+  "th": "นานแค่ไหน",
+  "deck": "general",
+  "hint": "どのくらい長く（疑問表現）",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58854",
+  "th": "แถวไหน",
+  "deck": "general",
+  "hint": "どの辺（疑問表現）",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58855",
+  "th": "ทางไหน",
+  "deck": "general",
+  "hint": "どっち（の道・方向）（疑問表現）",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58856",
+  "th": "ใครบ้าง",
+  "deck": "general",
+  "hint": "誰と誰、どんな人たち（疑問表現）",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58857",
+  "th": "พร้อมยัง",
+  "deck": "general",
+  "hint": "準備できた？（疑問表現）[口語]",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58858",
+  "th": "ทันไหม",
+  "deck": "general",
+  "hint": "間に合う？（疑問表現）",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58859",
+  "th": "สะดวกไหม",
+  "deck": "general",
+  "hint": "都合はいい？（疑問表現）",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58860",
+  "th": "ปรากฏว่า",
+  "deck": "general",
+  "hint": "ふたを開けてみると～だった、結局～と分かった（接続表現）",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58861",
+  "th": "ถึงว่า",
+  "deck": "general",
+  "hint": "道理で、どうりでね（感動詞）[口語]",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58862",
+  "th": "ไม่ใช่ว่า",
+  "deck": "general",
+  "hint": "～というわけではない（表現）",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58863",
+  "th": "ไม่น่าจะ",
+  "deck": "general",
+  "hint": "～ではなさそうだ、～のはずがない（表現）",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58864",
+  "th": "แน่อยู่แล้ว",
+  "deck": "general",
+  "hint": "当たり前だ、もちろん（表現）[口語]",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58865",
+  "th": "เพิ่งรู้",
+  "deck": "general",
+  "hint": "今初めて知った（表現）[口語]",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58866",
+  "th": "รู้ได้ไง",
+  "deck": "general",
+  "hint": "どうして分かったの（疑問表現）[口語]",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58867",
+  "th": "บอกไม่ถูก",
+  "deck": "general",
+  "hint": "うまく言えない、説明しにくい（表現）",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58868",
+  "th": "ไม่ดีกว่า",
+  "deck": "general",
+  "hint": "やめておく（やんわり断る）（表現）[口語]",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58869",
+  "th": "อย่าดีกว่า",
+  "deck": "general",
+  "hint": "やめたほうがいい（表現）[口語]",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58870",
+  "th": "ว่ามา",
+  "deck": "general",
+  "hint": "言ってみて、どうぞ話して（表現）[口語]",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58871",
+  "th": "อะไรก็ไม่รู้",
+  "deck": "general",
+  "hint": "何だかよく分からない（もの）（表現）[口語]",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58872",
+  "th": "มากไป",
+  "deck": "general",
+  "hint": "多すぎる、やりすぎ（表現）[口語]",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58873",
+  "th": "ที่ไหนก็ได้",
+  "deck": "general",
+  "hint": "どこでもいい（表現）",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58874",
+  "th": "อันไหนก็ได้",
+  "deck": "general",
+  "hint": "どれでもいい（表現）",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58875",
+  "th": "ถึงได้",
+  "deck": "general",
+  "hint": "だから～なのだ、道理で～（接続表現）",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58876",
+  "th": "คืองี้",
+  "deck": "general",
+  "hint": "つまりこういうこと（説明を切り出す）（表現）[口語]",
+  "freqGuess": 7
+ },
+ {
+  "id": "tl-58877",
+  "th": "ประเด็นคือ",
+  "deck": "general",
+  "hint": "要点は、問題は（接続表現）",
+  "freqGuess": 7
+ }
+]

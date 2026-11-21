@@ -1,0 +1,1131 @@
+[
+ {
+  "id": "tl-58813",
+  "th": "ชื่อบัญชี",
+  "action": "add",
+  "ro": "chʉ̂ʉ ban chii",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "口座名義・口座名",
+    "en": "account name, account holder name",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วยเช็คชื่อบัญชีก่อนโอนเงินด้วยนะ",
+     "ro": "chûuai chék chʉ̂ʉ ban chii kɔ̀ɔn oon ngəən dûuai ná",
+     "ja": "振り込む前に口座名義を確認してね。",
+     "en": "Please check the account name before you transfer the money.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "銀行アプリの振込画面や申込書で、เลขที่บัญชี（口座番号）と並んで出る項目名。"
+ },
+ {
+  "id": "tl-58814",
+  "th": "บุ๊คแบงก์",
+  "action": "add",
+  "ro": "búk bɛ́ng",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "預金通帳",
+    "en": "bankbook, passbook",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "สมัครงานต้องใช้สำเนาบุ๊คแบงก์ด้วย",
+     "ro": "sà màk ngaan tɔ̂ɔng chái sǎm nao búk bɛ́ng dûuai",
+     "ja": "仕事の応募には通帳のコピーも必要です。",
+     "en": "You also need a copy of your bankbook to apply for the job.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "英語 book bank から。正式には สมุดบัญชี（สมุดบัญชีเงินฝาก）。บุ๊กแบงก์ とも書く。"
+ },
+ {
+  "id": "tl-58815",
+  "th": "ยอดชำระ",
+  "action": "add",
+  "ro": "yɔ̂ɔt cham rá",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "支払額・請求額",
+    "en": "amount due, payment amount",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "formal"
+    ],
+    "speechStyle": "改まった表現",
+    "example": {
+     "th": "ยอดชำระเดือนนี้สามพันบาท",
+     "ro": "yɔ̂ɔt cham rá dʉʉan níi sǎam phan bàat",
+     "ja": "今月の支払額は3,000バーツです。",
+     "en": "The amount due this month is 3,000 baht.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "請求書・決済アプリ・カード明細などの表示に使う語。会話では ยอดที่ต้องจ่าย などと言うことが多い。"
+ },
+ {
+  "id": "tl-58816",
+  "th": "หนี้บัตรเครดิต",
+  "action": "skip",
+  "skipReason": "หนี้（借金）＋บัตรเครดิต（クレジットカード）の自由な組み合わせで、意味は部品の合計どおり。どちらも登録済み。"
+ },
+ {
+  "id": "tl-58817",
+  "th": "เงินคืน",
+  "action": "add",
+  "ro": "ngəən khʉʉn",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "返金・戻ってくるお金（払い戻し・キャッシュバックなど）",
+    "en": "refund, money back, cashback",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เงินคืนจะเข้าบัญชีภายในเจ็ดวัน",
+     "ro": "ngəən khʉʉn cà khâo ban chii phaai nai cèt wan",
+     "ja": "返金は7日以内に口座に入ります。",
+     "en": "The refund will be credited to your account within seven days.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "動詞「返金する」は คืนเงิน。クレジットカードのキャッシュバックや税金の還付（เงินคืนภาษี）にも使う。"
+ },
+ {
+  "id": "tl-58818",
+  "th": "เงินส่วนตัว",
+  "action": "skip",
+  "skipReason": "เงิน（お金）＋ส่วนตัว（個人的な）の自由な組み合わせで、意味は部品の合計どおり。ส่วนตัว は登録済み。"
+ },
+ {
+  "id": "tl-58819",
+  "th": "เงินติดตัว",
+  "action": "add",
+  "ro": "ngəən tìt tuua",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "手持ちのお金・所持金",
+    "en": "money one has on one, cash on hand",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วันนี้ฉันมีเงินติดตัวแค่ร้อยเดียว",
+     "ro": "wan níi chǎn mii ngəən tìt tuua khɛ̂ɛ rɔ́ɔi diiao",
+     "ja": "今日は手持ちのお金が100バーツしかありません。",
+     "en": "I only have a hundred baht on me today.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "「いま身につけて持っているお金」をまとめて言う決まった言い方（มีเงินติดตัว／ไม่มีเงินติดตัว）。"
+ },
+ {
+  "id": "tl-58820",
+  "th": "แบงก์ยี่สิบ",
+  "action": "add",
+  "ro": "bɛ́ng yîi sìp",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "20バーツ札",
+    "en": "20-baht note",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "มีแบงก์ยี่สิบไหม ขอแลกหน่อย",
+     "ro": "mii bɛ́ng yîi sìp mǎi khɔ̌ɔ lɛ̂ɛk nɔ̀ɔi",
+     "ja": "20バーツ札ある？ちょっと両替して。",
+     "en": "Do you have any 20-baht notes? Let me change some money.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "แบงก์＋額面で「〜バーツ札」と言う口語。正式な「紙幣」は ธนบัตร。"
+ },
+ {
+  "id": "tl-58821",
+  "th": "แบงก์ห้าร้อย",
+  "action": "add",
+  "ro": "bɛ́ng hâa rɔ́ɔi",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "500バーツ札",
+    "en": "500-baht note",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "จ่ายด้วยแบงก์ห้าร้อย แต่แม่ค้าไม่มีเงินทอน",
+     "ro": "càai dûuai bɛ́ng hâa rɔ́ɔi tɛ̀ɛ mɛ̂ɛ kháa mâi mii ngəən thɔɔn",
+     "ja": "500バーツ札で払ったけれど、売り子さんにお釣りがありませんでした。",
+     "en": "I paid with a 500-baht note, but the vendor had no change.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "แบงก์＋額面で「〜バーツ札」と言う口語。正式な「紙幣」は ธนบัตร。"
+ },
+ {
+  "id": "tl-58822",
+  "th": "คิดว่า",
+  "action": "add",
+  "ro": "khít wâa",
+  "kind": "expression",
+  "category": "日常の動作",
+  "frequency": 9,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "〜と思う・〜と考える",
+    "en": "to think that ...",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผมคิดว่าพรุ่งนี้ฝนน่าจะตก",
+     "ro": "phǒm khít wâa phrûng níi fǒn nâa cà tòk",
+     "ja": "明日はおそらく雨が降ると思います。",
+     "en": "I think it will probably rain tomorrow.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "คิด（考える）＋ว่า（〜と）。意見や推測を述べるときの決まった形で、後ろに文を続ける。"
+ },
+ {
+  "id": "tl-58823",
+  "th": "ได้ไหม",
+  "action": "skip",
+  "skipReason": "登録済みの ได้（できる・〜してよい）に疑問の ไหม を付けただけで、意味は同じ（editorial-018 の厳守事項1）。"
+ },
+ {
+  "id": "tl-58824",
+  "th": "บอกว่า",
+  "action": "add",
+  "ro": "bɔ̀ɔk wâa",
+  "kind": "expression",
+  "category": "日常の動作",
+  "frequency": 9,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "〜と言う・〜と伝える",
+    "en": "to say that ..., to tell (someone) that ...",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หมอบอกว่าต้องพักผ่อนเยอะๆ",
+     "ro": "mɔ̌ɔ bɔ̀ɔk wâa tɔ̂ɔng phák phɔ̀ɔn yə́ yə́",
+     "ja": "医者はたくさん休まないといけないと言いました。",
+     "en": "The doctor said I need to get plenty of rest.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "บอก（言う）＋ว่า（〜と）。聞いた話や人の発言を伝える決まった形。相手を入れるときは บอก＋人＋ว่า。"
+ },
+ {
+  "id": "tl-58825",
+  "th": "อันนี้",
+  "action": "add",
+  "ro": "an níi",
+  "kind": "word",
+  "category": "指示表現",
+  "frequency": 9,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "これ・こっち（物を指して）",
+    "en": "this one, this",
+    "pos": "代名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อันนี้อร่อยมาก ลองชิมดูสิ",
+     "ro": "an níi à rɔ̀ɔi mâak lɔɔng chim duu sì",
+     "ja": "これ、すごくおいしいよ。食べてみて。",
+     "en": "This one is really good. Try it.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "この件・このこと（話題を指して）",
+    "en": "this matter, this point",
+    "pos": "代名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อันนี้ผมไม่แน่ใจครับ",
+     "ro": "an níi phǒm mâi nɛ̂ɛ cai khráp",
+     "ja": "この件は、私にははっきり分かりません。",
+     "en": "I am not sure about this one.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "会話で物を指す「これ」は นี่ より อันนี้ をよく使う。人には使わない。"
+ },
+ {
+  "id": "tl-58826",
+  "th": "คืออะไร",
+  "action": "skip",
+  "skipReason": "คือ（〜である）＋อะไร（何）の自由な組み合わせで、意味は部品の合計どおり。"
+ },
+ {
+  "id": "tl-58827",
+  "th": "ดีไหม",
+  "action": "skip",
+  "skipReason": "登録済みの ดี に疑問の ไหม を付けた形で、相談・提案の用法も ดี の語義（〜するとよい・〜したらいい）で扱っている（厳守事項1）。"
+ },
+ {
+  "id": "tl-58828",
+  "th": "อันนั้น",
+  "action": "add",
+  "ro": "an nán",
+  "kind": "word",
+  "category": "指示表現",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "それ・あれ（物を指して）",
+    "en": "that one, that",
+    "pos": "代名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขอดูอันนั้นหน่อยได้ไหมคะ",
+     "ro": "khɔ̌ɔ duu an nán nɔ̀ɔi dâai mǎi khá",
+     "ja": "それをちょっと見せてもらえますか。",
+     "en": "Could I have a look at that one, please?",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "その件・そのこと（話題を指して）",
+    "en": "that matter, that point",
+    "pos": "代名詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อันนั้นไว้คุยกันทีหลังนะ",
+     "ro": "an nán wái khui kan thii lǎng ná",
+     "ja": "その件はまた後で話そうね。",
+     "en": "Let's talk about that later.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "少し離れた物や、いま話に出た事柄を指す。人には使わない。"
+ },
+ {
+  "id": "tl-58829",
+  "th": "เอาจริงๆ",
+  "action": "skip",
+  "skipReason": "登録済みの เอาจริง の語義2「正直なところ・実際には（เอาจริงๆ）」ですでに教えている。"
+ },
+ {
+  "id": "tl-58830",
+  "th": "ทำยังไง",
+  "action": "skip",
+  "skipReason": "ทำ（する）＋ยังไง（どう）の自由な組み合わせで、意味は部品の合計どおり。定型の「どうしよう」は ทำไงดี が登録済み。"
+ },
+ {
+  "id": "tl-58831",
+  "th": "รู้สึกว่า",
+  "action": "add",
+  "ro": "rúu sʉ̀k wâa",
+  "kind": "expression",
+  "category": "日常の動作",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "〜と感じる・〜な気がする",
+    "en": "to feel that ..., to have a feeling that ...",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันรู้สึกว่าช่วงนี้เขาเปลี่ยนไป",
+     "ro": "chǎn rúu sʉ̀k wâa chûuang níi khǎo plìian pai",
+     "ja": "最近、彼は変わった気がします。",
+     "en": "I feel that he has changed lately.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "รู้สึก（感じる）＋ว่า（〜と）。はっきり言い切らずに印象や意見を述べる決まった形で、後ろに文を続ける。"
+ },
+ {
+  "id": "tl-58832",
+  "th": "อะไรบ้าง",
+  "action": "skip",
+  "skipReason": "อะไร＋บ้าง の組み合わせで、登録済みの บ้าง の語義2「どんな〜・何と何（疑問文で複数の答えを求める）」ですでに教えている。"
+ },
+ {
+  "id": "tl-58833",
+  "th": "มีอะไรบ้าง",
+  "action": "skip",
+  "skipReason": "มี＋อะไร＋บ้าง の自由な組み合わせ。บ้าง の語義2（複数の答えを求める）ですでに教えている。"
+ },
+ {
+  "id": "tl-58834",
+  "th": "แค่ไหน",
+  "action": "add",
+  "ro": "khɛ̂ɛ nǎi",
+  "kind": "word",
+  "category": "疑問詞",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どのくらい・どれほど（程度を尋ねる）",
+    "en": "how (much / far / long), to what extent",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "จากที่นี่ไปสนามบินไกลแค่ไหน",
+     "ro": "càak thîi nîi pai sà nǎam bin klai khɛ̂ɛ nǎi",
+     "ja": "ここから空港までどのくらい遠いですか？",
+     "en": "How far is it from here to the airport?",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "どんなに〜ても（ไม่ว่า…แค่ไหน などの形で）",
+    "en": "no matter how ...",
+    "pos": "副詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ไม่ว่าจะเหนื่อยแค่ไหน เขาก็ไม่เคยบ่น",
+     "ro": "mâi wâa cà nʉ̀ʉai khɛ̂ɛ nǎi khǎo kɔ̂ɔ mâi khəəi bòn",
+     "ja": "どんなに疲れていても、彼は愚痴を言ったことがありません。",
+     "en": "No matter how tired he is, he never complains.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "形容詞・動詞の後ろに置く。数量や値段を尋ねるときは เท่าไหร่ が普通。"
+ },
+ {
+  "id": "tl-58835",
+  "th": "ทำไมถึง",
+  "action": "skip",
+  "skipReason": "ทำไม＋ถึง の組み合わせで、登録済みの ถึง の語義3「それで〜する・どうして〜なのかを示す語」ですでに教えている。"
+ },
+ {
+  "id": "tl-58836",
+  "th": "รู้ไหม",
+  "action": "skip",
+  "skipReason": "登録済みの รู้（知っている）に疑問の ไหม を付けただけで、意味は同じ（厳守事項1）。"
+ },
+ {
+  "id": "tl-58837",
+  "th": "โอเคไหม",
+  "action": "skip",
+  "skipReason": "登録済みの โอเค に疑問の ไหม を付けただけで、意味は同じ（厳守事項1）。"
+ },
+ {
+  "id": "tl-58838",
+  "th": "เอาไหม",
+  "action": "skip",
+  "skipReason": "登録済みの เอา（〜が欲しい・〜にする）に疑問の ไหม を付けただけで、意味は同じ（厳守事項1）。"
+ },
+ {
+  "id": "tl-58839",
+  "th": "รับไม่ได้",
+  "action": "add",
+  "ro": "ráp mâi dâai",
+  "kind": "expression",
+  "category": "性質・状態",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "受け入れられない・我慢できない・許せない",
+    "en": "cannot accept, cannot stand",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ฉันรับไม่ได้กับคนที่ชอบโกหก",
+     "ro": "chǎn ráp mâi dâai kàp khon thîi chɔ̂ɔp koo hòk",
+     "ja": "うそばかりつく人は受け入れられません。",
+     "en": "I can't stand people who are always lying.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "人の言動や状況が自分の許容範囲を超えていると言うときの決まった言い方。反対は รับได้（受け入れられる・平気だ）。"
+ },
+ {
+  "id": "tl-58840",
+  "th": "ไม่จำเป็น",
+  "action": "skip",
+  "skipReason": "否定の ไม่＋登録済みの จำเป็น（必要である）で、意味は部品の合計どおり。"
+ },
+ {
+  "id": "tl-58841",
+  "th": "อย่าเพิ่ง",
+  "action": "add",
+  "ro": "yàa phə̂əng",
+  "kind": "expression",
+  "category": "否定",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "まだ〜しないで・〜するのは待って",
+    "en": "do not ... yet, hold off on ...",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อย่าเพิ่งไปนะ รอฉันก่อน",
+     "ro": "yàa phə̂əng pai ná rɔɔ chǎn kɔ̀ɔn",
+     "ja": "まだ行かないでね。私を待ってて。",
+     "en": "Don't go yet. Wait for me.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "เพิ่ง は単独では「〜したばかり」だが、อย่าเพิ่ง＋動詞で「今はまだ〜するな」という意味になる。"
+ },
+ {
+  "id": "tl-58842",
+  "th": "ไม่น่า",
+  "action": "skip",
+  "skipReason": "登録済みの น่า の語義3「〜しなければよかった（ไม่น่า…）」ですでに教えている。"
+ },
+ {
+  "id": "tl-58843",
+  "th": "แล้วค่อย",
+  "action": "skip",
+  "skipReason": "แล้ว＋ค่อย の組み合わせで、登録済みの ค่อย の語義1「それから〜する・あとで〜する」ですでに教えている（定型文 แล้วค่อยคุยกัน も登録済み）。"
+ },
+ {
+  "id": "tl-58844",
+  "th": "ที่สำคัญ",
+  "action": "add",
+  "ro": "thîi sǎm khan",
+  "kind": "expression",
+  "category": "接続表現",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何より・そして大事なのは（付け加えて強調する）",
+    "en": "most importantly, what matters most is",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ร้านนี้อร่อย ราคาถูก และที่สำคัญอยู่ใกล้บ้าน",
+     "ro": "ráan níi à rɔ̀ɔi raa khaa thùuk lɛ́ thîi sǎm khan yùu klâi bâan",
+     "ja": "この店はおいしくて安いし、何より家から近いです。",
+     "en": "This place is tasty and cheap, and most importantly, it is close to home.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "文頭や และ の後に置いて、いちばん言いたい点を付け加える決まった言い方。ที่สำคัญคือ…（大事なのは〜だ）の形も多い。"
+ },
+ {
+  "id": "tl-58845",
+  "th": "ได้ไง",
+  "action": "add",
+  "ro": "dâai ngai",
+  "kind": "expression",
+  "category": "疑問詞",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どうして〜できるの・〜なんてあり得ない（動詞の後。あきれ・非難）",
+    "en": "how could (you) ...?, how can that be?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ลืมวันเกิดแฟนได้ไง",
+     "ro": "lʉʉm wan kə̀ət fɛɛn dâai ngai",
+     "ja": "恋人の誕生日を忘れるなんて、あり得ないでしょ。",
+     "en": "How could you forget your partner's birthday?",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "どうやって〜できたの（驚いて尋ねる）",
+    "en": "how did (you) manage to ...?",
+    "pos": "定型表現",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เธอรู้ได้ไงว่าฉันอยู่ที่นี่",
+     "ro": "thəə rúu dâai ngai wâa chǎn yùu thîi nîi",
+     "ja": "どうして私がここにいるって分かったの？",
+     "en": "How did you know I was here?",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ได้ยังไง のくだけた形。単独で ได้ไง と言うと「そんなのだめでしょ」という反対になる。"
+ },
+ {
+  "id": "tl-58846",
+  "th": "จะได้",
+  "action": "add",
+  "ro": "cà dâai",
+  "kind": "expression",
+  "category": "接続表現",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "そうすれば〜できる・〜するように（目的・結果を続ける）",
+    "en": "so that ..., then (you) can ...",
+    "pos": "接続詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รีบนอนเถอะ พรุ่งนี้จะได้ตื่นเช้า",
+     "ro": "rîip nɔɔn thə̀ phrûng níi cà dâai tʉ̀ʉn cháao",
+     "ja": "早く寝なよ。そうすれば明日早く起きられるから。",
+     "en": "Go to bed early so that you can get up early tomorrow.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（これから）〜できる・〜することになる",
+    "en": "will get to ..., will be able to ...",
+    "pos": "定型表現",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อีกสองวันจะได้กลับบ้านแล้ว",
+     "ro": "ìik sɔ̌ɔng wan cà dâai klàp bâan lɛ́ɛo",
+     "ja": "あと2日で家に帰れます。",
+     "en": "In two more days I'll get to go home.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "前の文を受けて「そうすれば〜」と目的や良い結果を続ける用法は、จะ と ได้ を足しただけでは分かりにくいので、ひとまとまりで覚えるとよい。"
+ },
+ {
+  "id": "tl-58847",
+  "th": "รู้อยู่แล้ว",
+  "action": "skip",
+  "skipReason": "รู้（知っている）＋登録済みの อยู่แล้ว（もともと・すでに）の自由な組み合わせで、意味は部品の合計どおり。"
+ },
+ {
+  "id": "tl-58848",
+  "th": "ไม่คิดว่า",
+  "action": "skip",
+  "skipReason": "否定の ไม่＋คิดว่า（〜と思う）で、意味は部品の合計どおり。คิดว่า を登録すれば足りる。"
+ },
+ {
+  "id": "tl-58849",
+  "th": "มีโอกาส",
+  "action": "skip",
+  "skipReason": "มี（ある）＋โอกาส（機会）の自由な組み合わせで、意味は部品の合計どおり。โอกาส は登録済み。"
+ },
+ {
+  "id": "tl-58850",
+  "th": "หวังว่า",
+  "action": "add",
+  "ro": "wǎng wâa",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "〜だといいな・〜であることを願う",
+    "en": "to hope that ...",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หวังว่าพรุ่งนี้ฝนจะไม่ตกนะ",
+     "ro": "wǎng wâa phrûng níi fǒn cà mâi tòk ná",
+     "ja": "明日、雨が降らないといいね。",
+     "en": "I hope it won't rain tomorrow.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "หวัง（望む）＋ว่า（〜と）。主語を省いて文頭に置き、後ろに จะ を伴う文を続けることが多い。"
+ },
+ {
+  "id": "tl-58851",
+  "th": "เพราะอะไร",
+  "action": "skip",
+  "skipReason": "เพราะ（〜のせいで）＋อะไร（何）の自由な組み合わせで、意味は部品の合計どおり。"
+ },
+ {
+  "id": "tl-58852",
+  "th": "ตั้งแต่เมื่อไหร่",
+  "action": "skip",
+  "skipReason": "ตั้งแต่（〜から）＋เมื่อไหร่（いつ）の自由な組み合わせで、意味は部品の合計どおり。"
+ },
+ {
+  "id": "tl-58853",
+  "th": "นานแค่ไหน",
+  "action": "skip",
+  "skipReason": "นาน（長い間）＋แค่ไหน（どのくらい）の自由な組み合わせ。แค่ไหน を登録すれば足りる。"
+ },
+ {
+  "id": "tl-58854",
+  "th": "แถวไหน",
+  "action": "skip",
+  "skipReason": "แถว（〜の辺り）＋ไหน（どの）の自由な組み合わせで、意味は部品の合計どおり。"
+ },
+ {
+  "id": "tl-58855",
+  "th": "ทางไหน",
+  "action": "skip",
+  "skipReason": "ทาง（道・方向）＋ไหน（どの）の自由な組み合わせで、意味は部品の合計どおり。定型文 ไปทางไหน は登録済み。"
+ },
+ {
+  "id": "tl-58856",
+  "th": "ใครบ้าง",
+  "action": "skip",
+  "skipReason": "ใคร＋บ้าง の組み合わせで、登録済みの บ้าง の語義2（疑問文で複数の答えを求める）ですでに教えている。"
+ },
+ {
+  "id": "tl-58857",
+  "th": "พร้อมยัง",
+  "action": "skip",
+  "skipReason": "登録済みの พร้อม（準備ができた）に文末の ยัง（もう〜した？）を付けただけで、意味は同じ（厳守事項1）。"
+ },
+ {
+  "id": "tl-58858",
+  "th": "ทันไหม",
+  "action": "skip",
+  "skipReason": "登録済みの ทัน（間に合う）に疑問の ไหม を付けただけで、意味は同じ（厳守事項1）。"
+ },
+ {
+  "id": "tl-58859",
+  "th": "สะดวกไหม",
+  "action": "skip",
+  "skipReason": "登録済みの สะดวก（都合がよい）に疑問の ไหม を付けただけで、意味は同じ（厳守事項1）。"
+ },
+ {
+  "id": "tl-58860",
+  "th": "ปรากฏว่า",
+  "action": "skip",
+  "skipReason": "登録済みの ปรากฏ の語義2「〜だと分かる・〜ということになる（組み合わせ）」ですでに教えている。"
+ },
+ {
+  "id": "tl-58861",
+  "th": "ถึงว่า",
+  "action": "add",
+  "ro": "thʉ̌ng wâa",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "道理で・どうりで（理由を知って納得する）",
+    "en": "no wonder, that explains it",
+    "pos": "間投詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เขาเคยอยู่ญี่ปุ่นสิบปีเหรอ ถึงว่าพูดญี่ปุ่นเก่ง",
+     "ro": "khǎo khəəi yùu yîi pùn sìp pii rə̌ə thʉ̌ng wâa phûut yîi pùn kèng",
+     "ja": "彼は日本に10年いたの？道理で日本語が上手なわけだ。",
+     "en": "He lived in Japan for ten years? No wonder he speaks Japanese so well.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "単独で ถึงว่า／ถึงว่าสิ（どうりでね）とも言う。มิน่า とほぼ同じ意味。"
+ },
+ {
+  "id": "tl-58862",
+  "th": "ไม่ใช่ว่า",
+  "action": "add",
+  "ro": "mâi châi wâa",
+  "kind": "expression",
+  "category": "否定",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "〜というわけではない",
+    "en": "it is not that ...",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ไม่ใช่ว่าไม่อยากไป แต่ไม่มีเวลาจริงๆ",
+     "ro": "mâi châi wâa mâi yàak pai tɛ̀ɛ mâi mii wee laa cing cing",
+     "ja": "行きたくないわけじゃないけれど、本当に時間がないんです。",
+     "en": "It's not that I don't want to go, but I really don't have time.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "文をまるごと打ち消して誤解を防ぐ決まった形。後ろに แต่（でも）で本当の事情を続けることが多い。"
+ },
+ {
+  "id": "tl-58863",
+  "th": "ไม่น่าจะ",
+  "action": "skip",
+  "skipReason": "否定の ไม่＋登録済みの น่าจะ（おそらく〜だろう）で、意味は部品の合計どおり。"
+ },
+ {
+  "id": "tl-58864",
+  "th": "แน่อยู่แล้ว",
+  "action": "skip",
+  "skipReason": "แน่（確かに）＋登録済みの อยู่แล้ว（もちろん・当然）の組み合わせで、อยู่แล้ว の語義1と意味が重なる。"
+ },
+ {
+  "id": "tl-58865",
+  "th": "เพิ่งรู้",
+  "action": "skip",
+  "skipReason": "เพิ่ง（〜したばかり）＋รู้（知る）の自由な組み合わせで、意味は部品の合計どおり。"
+ },
+ {
+  "id": "tl-58866",
+  "th": "รู้ได้ไง",
+  "action": "skip",
+  "skipReason": "รู้（知る）＋ได้ไง の自由な組み合わせ。ได้ไง を登録し、その用例で扱えば足りる。"
+ },
+ {
+  "id": "tl-58867",
+  "th": "บอกไม่ถูก",
+  "action": "add",
+  "ro": "bɔ̀ɔk mâi thùuk",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "うまく言えない・何と言えばいいか分からない",
+    "en": "cannot quite put it into words, hard to say",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "รู้สึกแปลกๆ แต่บอกไม่ถูกว่าเพราะอะไร",
+     "ro": "rúu sʉ̀k plɛ̀ɛk plɛ̀ɛk tɛ̀ɛ bɔ̀ɔk mâi thùuk wâa phrɔ́ à rai",
+     "ja": "何か変な感じがするけれど、なぜなのかうまく言えません。",
+     "en": "Something feels off, but I can't quite say why.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "「正しく言えない」ではなく、動詞＋ไม่ถูก（どうしてよいか分からず〜できない）の型。気持ちや感覚を説明しにくいときに言う。"
+ },
+ {
+  "id": "tl-58868",
+  "th": "ไม่ดีกว่า",
+  "action": "add",
+  "ro": "mâi dii kwàa",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "やめておく・遠慮しておく（やんわり断る）",
+    "en": "I'd rather not, better not",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ไปดื่มต่อไหม ไม่ดีกว่า พรุ่งนี้ต้องตื่นเช้า",
+     "ro": "pai dʉ̀ʉm tɔ̀ɔ mǎi mâi dii kwàa phrûng níi tɔ̂ɔng tʉ̀ʉn cháao",
+     "ja": "「もう一軒飲みに行く？」「やめておくよ。明日は朝早いから。」",
+     "en": "\"Shall we go for another drink?\" \"I'd rather not. I have to get up early tomorrow.\"",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "「より良くない」ではなく、「しないほうがいい」と自分の判断としてやわらかく断る言い方。ไม่ไปดีกว่า のように間に動詞を入れることも多い。"
+ },
+ {
+  "id": "tl-58869",
+  "th": "อย่าดีกว่า",
+  "action": "add",
+  "ro": "yàa dii kwàa",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "やめたほうがいい・やめておこう",
+    "en": "better not, you had better not",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "บอกเขาดีไหม อย่าดีกว่า เดี๋ยวเขาเสียใจ",
+     "ro": "bɔ̀ɔk khǎo dii mǎi yàa dii kwàa dǐiao khǎo sǐia cai",
+     "ja": "「彼に言おうか？」「やめたほうがいいよ。悲しむから。」",
+     "en": "\"Should we tell him?\" \"Better not. He'll be upset.\"",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "相手の提案や自分たちの行動を、やわらかく止める言い方。自分が誘いを断るときは ไม่ดีกว่า が普通。"
+ },
+ {
+  "id": "tl-58870",
+  "th": "ว่ามา",
+  "action": "add",
+  "ro": "wâa maa",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "言ってみて・さあ話して（用件を促す）",
+    "en": "go ahead, say it, out with it",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "มีอะไรก็ว่ามาเลย ไม่ต้องเกรงใจ",
+     "ro": "mii à rai kɔ̂ɔ wâa maa ləəi mâi tɔ̂ɔng kreeng cai",
+     "ja": "何かあるなら言ってよ。遠慮しなくていいから。",
+     "en": "If there's something, just say it. No need to hold back.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "親しい相手や目下に使うくだけた言い方で、ぶっきらぼうに聞こえることがある。目上には使わない。"
+ },
+ {
+  "id": "tl-58871",
+  "th": "อะไรก็ไม่รู้",
+  "action": "add",
+  "ro": "à rai kɔ̂ɔ mâi rúu",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何だかよく分からないもの・得体の知れない何か",
+    "en": "something or other, who knows what",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ในกล่องมีอะไรก็ไม่รู้เต็มไปหมด",
+     "ro": "nai klɔ̀ɔng mii à rai kɔ̂ɔ mâi rúu tem pai mòt",
+     "ja": "箱の中は何だかよく分からない物でいっぱいです。",
+     "en": "The box is full of who knows what.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（動詞の後で）何を〜しているんだか・わけが分からない（あきれ・不満）",
+    "en": "(doing) who knows what, I can't make sense of it",
+    "pos": "定型表現",
+    "use": "よく使う別の意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เขาพูดอะไรก็ไม่รู้ ฟังไม่เข้าใจเลย",
+     "ro": "khǎo phûut à rai kɔ̂ɔ mâi rúu fang mâi khâo cai ləəi",
+     "ja": "彼は何を言っているんだか、聞いても全然分かりません。",
+     "en": "I have no idea what he's talking about; I can't follow it at all.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-58872",
+  "th": "มากไป",
+  "action": "skip",
+  "skipReason": "มาก＋ไป（〜すぎる）は形容詞＋ไป の生産的な型で、同じ意味の เกินไป・มากเกินไป が登録済み。"
+ },
+ {
+  "id": "tl-58873",
+  "th": "ที่ไหนก็ได้",
+  "action": "skip",
+  "skipReason": "登録済みの ไหนก็ได้ の語義1「どこでも（ที่ไหนก็ได้ の形で）」ですでに教えている。"
+ },
+ {
+  "id": "tl-58874",
+  "th": "อันไหนก็ได้",
+  "action": "skip",
+  "skipReason": "登録済みの ไหนก็ได้ の語義2「どれでも・いつでも（名詞の後）」と อันไหน ですでに教えている。"
+ },
+ {
+  "id": "tl-58875",
+  "th": "ถึงได้",
+  "action": "add",
+  "ro": "thʉ̌ng dâai",
+  "kind": "expression",
+  "category": "接続表現",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "だから〜なのだ・それで〜するわけだ（理由を受けて結果を言う）",
+    "en": "that's why ..., and so ...",
+    "pos": "接続詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เมื่อคืนนอนดึก วันนี้ถึงได้ง่วงทั้งวัน",
+     "ro": "mʉ̂ʉa khʉʉn nɔɔn dʉ̀k wan níi thʉ̌ng dâai ngûuang tháng wan",
+     "ja": "ゆうべ夜更かししたから、今日は一日中眠いわけです。",
+     "en": "I stayed up late last night; that's why I've been sleepy all day.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "この ได้ に「できる」の意味はなく、ถึง（それで）を強める。ทำไมถึงได้…（どうしてまた〜なの）の形でも使う。"
+ },
+ {
+  "id": "tl-58876",
+  "th": "คืองี้",
+  "action": "add",
+  "ro": "khʉʉ ngíi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "実はね・つまりこういうこと（説明を切り出す）",
+    "en": "here's the thing, it's like this",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "คืองี้นะ เมื่อวานฉันลืมกระเป๋าไว้ที่ร้าน",
+     "ro": "khʉʉ ngíi ná mʉ̂ʉa waan chǎn lʉʉm krà pǎo wái thîi ráan",
+     "ja": "実はね、昨日お店にかばんを忘れてきちゃったんだ。",
+     "en": "Here's the thing: I left my bag at the shop yesterday.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "คืออย่างนี้ のくだけた形。事情を説明し始めるときに、たいてい นะ を付けて言う。"
+ },
+ {
+  "id": "tl-58877",
+  "th": "ประเด็นคือ",
+  "action": "skip",
+  "skipReason": "ประเด็น（要点）＋คือ（〜は…だ）の自由な組み合わせで、意味は部品の合計どおり。ประเด็น は登録済み。"
+ }
+]

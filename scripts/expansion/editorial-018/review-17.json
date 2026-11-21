@@ -1,0 +1,365 @@
+[
+ {
+  "id": "tl-59526",
+  "verdict": "reject",
+  "issues": [
+   "ใช้（使う）＋แทน（代わりに）の自由な組み合わせで、意味は部分の合計のまま。ใช้ A แทน B と間に目的語が入るのが普通で、固定した一語とは言えない（editorial-018の厳格点2）。"
+  ]
+ },
+ {
+  "id": "tl-59527",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59528",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59529",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59530",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59531",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59532",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59533",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59534",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59535",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59536",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59537",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59538",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59539",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59540",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59541",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59542",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59543",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59544",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59545",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59546",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59547",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59548",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59549",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59550",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59551",
+  "verdict": "fix",
+  "issues": [
+   "頻度4は高すぎる。同じ型の既存語 เก็บห้อง が3、จัดบ้าน が2なので3に下げた。読み・語義・例文は問題なし。"
+  ],
+  "fixed": {
+   "id": "tl-59551",
+   "th": "เก็บบ้าน",
+   "action": "add",
+   "ro": "kèp bâan",
+   "kind": "word",
+   "category": "日常の動作",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "家を片付ける",
+     "en": "to tidy up the house",
+     "pos": "動詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "example": {
+      "th": "วันเสาร์นี้ว่าจะเก็บบ้านสักหน่อย",
+      "ro": "wan sǎo níi wâa cà kèp bâan sàk nɔ̀ɔi",
+      "ja": "今度の土曜日は家を少し片付けようと思う。",
+      "en": "I'm thinking of tidying up the house a bit this Saturday.",
+      "origin": "authored"
+     }
+    }
+   ],
+   "note": "เก็บ（しまう）＋บ้าน（家）で「家の中を片付ける」という決まった言い方。会話でよく使い、จัดบ้านよりくだけた響きがある。"
+  }
+ },
+ {
+  "id": "tl-59552",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59553",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59554",
+  "verdict": "reject",
+  "issues": [
+   "既存の รดน้ำต้นไม้（植物に水をやる）と รด（水をやる・かける）、รดน้ำดำหัว・รดน้ำสังข์ が同じ内容を教えており、既存見出しの短い形にあたる。著者が เปลี่ยนเสื้อ を同じ理由で見送ったのと扱いをそろえる。"
+  ]
+ },
+ {
+  "id": "tl-59555",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59556",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59557",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59558",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59559",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59560",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59561",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59562",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59563",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59564",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59565",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59566",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59567",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59568",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59569",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59570",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59571",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59572",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59573",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59574",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59575",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59576",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59577",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59578",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59579",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59580",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59581",
+  "verdict": "reject",
+  "issues": [
+   "กด（押す）＋ลิงก์（リンク）の自由な組み合わせで、意味は部分の合計のまま。著者が見送った กดส่ง・กดรหัส と同じ型で、注意喚起の文によく出るというだけでは固定した語とは言えない（厳格点2）。"
+  ]
+ },
+ {
+  "id": "tl-59582",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59583",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59584",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59585",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59586",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59587",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59588",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59589",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-59590",
+  "verdict": "ok",
+  "issues": []
+ }
+]

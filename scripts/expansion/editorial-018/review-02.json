@@ -1,0 +1,411 @@
+[
+ {
+  "id": "tl-58553",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58554",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58555",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58556",
+  "verdict": "reject",
+  "issues": [
+   "「ตา（目）＋บวม（腫れる）」の主語＋述語の自由結合（著者が見送った งานยุ่ง と同じ型）。また頻度4が構成語 บวม（3）を超えている。"
+  ]
+ },
+ {
+  "id": "tl-58557",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58558",
+  "verdict": "reject",
+  "issues": [
+   "「ดู（〜に見える）＋แก่（年をとった）」の自由結合で、意味は部分の合計どおり（ดูเด็ก は เด็ก を形容詞的に使う慣用として採るが、こちらは足し算のみ）。"
+  ]
+ },
+ {
+  "id": "tl-58559",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58560",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58561",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58562",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58563",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58564",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58565",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58566",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58567",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58568",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58569",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58570",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58571",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58572",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58573",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58574",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58575",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58576",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58577",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58578",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58579",
+  "verdict": "fix",
+  "issues": [
+   "noteの「会話では2音節目を下降調（mîiam）で言うことが多い」は裏付けできないため削除し、表記ゆれ พรีเมี่ยม の注記に差し替え。"
+  ],
+  "fixed": {
+   "id": "tl-58579",
+   "th": "พรีเมียม",
+   "action": "add",
+   "ro": "phrii miiam",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "プレミアムな・高級な",
+     "en": "premium, high-end",
+     "pos": "形容詞・状態語",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "英語 premium から。พรีเมี่ยม とも書く。",
+     "example": {
+      "th": "ร้านนี้ใช้วัตถุดิบระดับพรีเมียม",
+      "ro": "ráan níi chái wát thù dìp rá dàp phrii miiam",
+      "ja": "この店はプレミアム級の食材を使っています。",
+      "en": "This restaurant uses premium-grade ingredients.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-58580",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58581",
+  "verdict": "reject",
+  "issues": [
+   "既存 รุ่น の語義「型・モデル」「世代」＋ใหม่ の自由結合。新世代の意味は既存の คนรุ่นใหม่ でも学べる。"
+  ]
+ },
+ {
+  "id": "tl-58582",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58583",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58584",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58585",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58586",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58587",
+  "verdict": "reject",
+  "issues": [
+   "「หา＋ง่าย（〜しやすい）」の生産的な自由結合。著者が見送った อ่านง่าย・เข้าใจยาก と同じ型。反対語の หายาก は既存。"
+  ]
+ },
+ {
+  "id": "tl-58588",
+  "verdict": "reject",
+  "issues": [
+   "「ทำ＋ง่าย（〜しやすい）」の生産的な自由結合。著者が見送った อ่านง่าย・เข้าใจยาก と同じ型。"
+  ]
+ },
+ {
+  "id": "tl-58589",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58590",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58591",
+  "verdict": "reject",
+  "issues": [
+   "既存 ใกล้ の語義「もうすぐ〜する」＋既存 หมด「なくなる」の自由結合で、意味は部分の合計どおり。"
+  ]
+ },
+ {
+  "id": "tl-58592",
+  "verdict": "reject",
+  "issues": [
+   "「เหลือ（残る）＋น้อย（少ない）」の自由結合で、意味は部分の合計どおり。"
+  ]
+ },
+ {
+  "id": "tl-58593",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58594",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58595",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58596",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58597",
+  "verdict": "reject",
+  "issues": [
+   "既存の見出し語 ขึ้นๆ（tl-44160）が「主に ขึ้นๆ ลงๆ の形で使う・上がったり下がったり」をすでに教えており重複。"
+  ]
+ },
+ {
+  "id": "tl-58598",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58599",
+  "verdict": "reject",
+  "issues": [
+   "既存 เท่า の語義「〜倍」に数詞を付けただけの自由結合（note自身が「数＋เท่า」と説明）。"
+  ]
+ },
+ {
+  "id": "tl-58600",
+  "verdict": "fix",
+  "issues": [
+   "頻度5が構成要素の既存見出し語 นิดๆ（3）を超えるため3に修正。"
+  ],
+  "fixed": {
+   "id": "tl-58600",
+   "th": "นิดๆหน่อยๆ",
+   "action": "add",
+   "ro": "nít nít nɔ̀ɔi nɔ̀ɔi",
+   "kind": "word",
+   "category": "量・程度・比較",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ほんの少しばかり・ちょこちょこと",
+     "en": "just a little, a bit here and there",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "นิดหน่อย を繰り返した形。นิดๆ หน่อยๆ と間を空けて書くことも多い。",
+     "example": {
+      "th": "เขาช่วยงานบ้านนิดๆหน่อยๆ เท่านั้น",
+      "ro": "khǎo chûuai ngaan bâan nít nít nɔ̀ɔi nɔ̀ɔi thâo nán",
+      "ja": "彼は家事をほんの少し手伝うだけです。",
+      "en": "He only helps with the housework a little.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-58601",
+  "verdict": "reject",
+  "issues": [
+   "既存 คนละ（別々の・異なる）＋คน の自由結合。「まるで別人」の意味は เหมือน との組み合わせで、คนละ で学べる。"
+  ]
+ },
+ {
+  "id": "tl-58602",
+  "verdict": "reject",
+  "issues": [
+   "類別詞 อัน＋既存 เดียวกัน（同じ）の自由結合。著者が見送った สักคำ と同じ型。"
+  ]
+ },
+ {
+  "id": "tl-58603",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58604",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58605",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58606",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58607",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58608",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58609",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58610",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58611",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58612",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58613",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58614",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58615",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58616",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-58617",
+  "verdict": "ok",
+  "issues": []
+ }
+]

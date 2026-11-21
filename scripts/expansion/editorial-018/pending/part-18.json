@@ -1,0 +1,1610 @@
+[
+ {
+  "id": "tl-59591",
+  "th": "ส่งลิงก์",
+  "action": "skip",
+  "skipReason": "自由な組み合わせで、意味は構成語の足し算どおり（ส่ง 送る＋ลิงก์ リンク）。固定した単位としての独自の意味がないため見送り。"
+ },
+ {
+  "id": "tl-59592",
+  "th": "ส่งไฟล์",
+  "action": "skip",
+  "skipReason": "自由な組み合わせで、意味は構成語の足し算どおり（ส่ง 送る＋ไฟล์ ファイル）。固定した単位としての独自の意味がないため見送り。"
+ },
+ {
+  "id": "tl-59593",
+  "th": "เล่นโทรศัพท์",
+  "action": "skip",
+  "skipReason": "登録済みの เล่นมือถือ（スマホをいじる）と同じ言い方で、名詞を同義語に替えただけ。既存の見出しで学べるため見送り。"
+ },
+ {
+  "id": "tl-59594",
+  "th": "ก๊อป",
+  "action": "skip",
+  "skipReason": "登録済みの ก๊อปปี้ の短縮形（同項目の note で ก๊อป に言及済み）。既存見出しの短縮形は登録しない方針のため見送り。"
+ },
+ {
+  "id": "tl-59595",
+  "th": "ติ๊ก",
+  "action": "add",
+  "ro": "tík",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "チェックを入れる・印をつける（✓を）",
+    "en": "to tick, check (a box)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "ติ๊กช่องนี้ถ้าต้องการใบเสร็จ",
+     "ro": "tík chɔ̂ɔng níi thâa tɔ̂ɔng kaan bai sèt",
+     "ja": "領収書が必要なら、この欄にチェックを入れてください。",
+     "en": "Tick this box if you need a receipt.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "英語 tick から。ติ๊กถูก（✓をつける）の形でもよく使う。"
+ },
+ {
+  "id": "tl-59596",
+  "th": "วัดอุณหภูมิ",
+  "action": "skip",
+  "skipReason": "自由な組み合わせで、意味は構成語の足し算どおり（วัด 測る＋อุณหภูมิ 温度）。固定した単位としての独自の意味がないため見送り。体温については วัดไข้ が登録済み。"
+ },
+ {
+  "id": "tl-59597",
+  "th": "จับเวลา",
+  "action": "add",
+  "ro": "càp wee laa",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "時間を計る・タイムを計る",
+    "en": "to time, clock (with a timer)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ครูจับเวลาตอนนักเรียนวิ่งรอบสนาม",
+     "ro": "khruu càp wee laa tɔɔn nák riian wîng rɔ̂ɔp sà nǎam",
+     "ja": "先生は生徒がグラウンドを走るときにタイムを計りました。",
+     "en": "The teacher timed the students as they ran around the field.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59598",
+  "th": "นับถอยหลัง",
+  "action": "add",
+  "ro": "náp thɔ̌ɔi lǎng",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "カウントダウンする・秒読みする",
+    "en": "to count down",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ทุกคนนับถอยหลังรอปีใหม่ด้วยกัน",
+     "ro": "thúk khon náp thɔ̌ɔi lǎng rɔɔ pii mài dûuai kan",
+     "ja": "みんなで一緒にカウントダウンして新年を待ちました。",
+     "en": "Everyone counted down together waiting for the New Year.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59599",
+  "th": "ดูเวลา",
+  "action": "skip",
+  "skipReason": "自由な組み合わせで、意味は構成語の足し算どおり（ดู 見る＋เวลา 時間）。固定した単位としての独自の意味がないため見送り。"
+ },
+ {
+  "id": "tl-59600",
+  "th": "หายใจเข้า",
+  "action": "add",
+  "ro": "hǎai cai khâo",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "息を吸う",
+    "en": "to breathe in, inhale",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หายใจเข้าลึกๆ แล้วกลั้นไว้นะคะ",
+     "ro": "hǎai cai khâo lʉ́k lʉ́k lɛ́ɛo klân wái ná khá",
+     "ja": "深く息を吸って、そのまま止めてくださいね。",
+     "en": "Breathe in deeply and hold it, please.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "診察や運動の指示で หายใจออก（息を吐く）と対で使う決まった言い方。"
+ },
+ {
+  "id": "tl-59601",
+  "th": "หายใจออก",
+  "action": "add",
+  "ro": "hǎai cai ɔ̀ɔk",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "息を吐く",
+    "en": "to breathe out, exhale",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หายใจออกช้าๆ ทางปาก",
+     "ro": "hǎai cai ɔ̀ɔk cháa cháa thaang pàak",
+     "ja": "口からゆっくり息を吐いてください。",
+     "en": "Breathe out slowly through your mouth.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "診察や運動の指示で หายใจเข้า（息を吸う）と対で使う決まった言い方。"
+ },
+ {
+  "id": "tl-59602",
+  "th": "มีดบาด",
+  "action": "add",
+  "ro": "mîit bàat",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "刃物で切る・切り傷を負う（けがとして）",
+    "en": "to get cut by a knife",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตอนหั่นผัก ฉันโดนมีดบาดนิ้ว",
+     "ro": "tɔɔn hàn phàk chǎn doon mîit bàat níu",
+     "ja": "野菜を切っているとき、包丁で指を切ってしまいました。",
+     "en": "I cut my finger with the knife while chopping vegetables.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "直訳は「刃物が切る」。โดนมีดบาด・ถูกมีดบาด の形で使うことが多い。"
+ },
+ {
+  "id": "tl-59603",
+  "th": "พกติดตัว",
+  "action": "add",
+  "ro": "phók tìt tuua",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "身につけて持ち歩く・常に携帯する",
+    "en": "to carry on one's person",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ยานี้ควรพกติดตัวไว้ตลอด",
+     "ro": "yaa níi khuuan phók tìt tuua wái tà lɔ̀ɔt",
+     "ja": "この薬はいつも身につけて持ち歩いたほうがいいです。",
+     "en": "You should always carry this medicine with you.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59604",
+  "th": "พกพา",
+  "action": "add",
+  "ro": "phók phaa",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "携帯する・持ち運ぶ",
+    "en": "to carry around; portable",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พัดลมตัวนี้เล็กและพกพาสะดวก",
+     "ro": "phát lom tuua níi lék lɛ́ phók phaa sà dùuak",
+     "ja": "この扇風機は小さくて持ち運びに便利です。",
+     "en": "This fan is small and easy to carry around.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "พกพาสะดวก（持ち運びに便利）、แบบพกพา（携帯用）のように商品の説明でよく使う。"
+ },
+ {
+  "id": "tl-59605",
+  "th": "หิ้วของ",
+  "action": "skip",
+  "skipReason": "自由な組み合わせで、意味は構成語の足し算どおり（หิ้ว 提げる＋ของ 物）。固定した単位としての独自の意味がないため見送り。"
+ },
+ {
+  "id": "tl-59606",
+  "th": "ถือของ",
+  "action": "skip",
+  "skipReason": "自由な組み合わせで、意味は構成語の足し算どおり（ถือ 持つ＋ของ 物）。固定した単位としての独自の意味がないため見送り。"
+ },
+ {
+  "id": "tl-59607",
+  "th": "ฝากของ",
+  "action": "add",
+  "ro": "fàak khɔ̌ɔng",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "荷物を預ける・物を預ける",
+    "en": "to leave one's things (in someone's care), check bags",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เราฝากของไว้ที่โรงแรมแล้วออกไปเที่ยว",
+     "ro": "rao fàak khɔ̌ɔng wái thîi roong rɛɛm lɛ́ɛo ɔ̀ɔk pai thîiao",
+     "ja": "私たちはホテルに荷物を預けてから遊びに出かけました。",
+     "en": "We left our things at the hotel and went out sightseeing.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "店や施設の จุดฝากของ（荷物預かり所）の表示でよく見る決まった言い方。"
+ },
+ {
+  "id": "tl-59608",
+  "th": "ส่งคืน",
+  "action": "add",
+  "ro": "sòng khʉʉn",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "返送する・返却する",
+    "en": "to send back, return",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ถ้าสินค้ามีปัญหา ส่งคืนได้ภายในเจ็ดวัน",
+     "ro": "thâa sǐn kháa mii pan hǎa sòng khʉʉn dâai phaai nai cèt wan",
+     "ja": "商品に問題があれば、7日以内に返品できます。",
+     "en": "If there is a problem with the product, you can return it within seven days.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59609",
+  "th": "จองที่",
+  "action": "add",
+  "ro": "cɔɔng thîi",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "席・場所を取る・予約する",
+    "en": "to save or reserve a seat/spot",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ไปถึงก่อนช่วยจองที่ให้ด้วยนะ",
+     "ro": "pai thʉ̌ng kɔ̀ɔn chûuai cɔɔng thîi hâi dûuai ná",
+     "ja": "先に着いたら席を取っておいてね。",
+     "en": "If you get there first, save a seat for me.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ที่ は「席・場所」。จองที่นั่ง（座席を予約する）、จองที่จอดรถ（駐車場所を取る）の形も多い。"
+ },
+ {
+  "id": "tl-59610",
+  "th": "ได้มา",
+  "action": "add",
+  "ro": "dâai maa",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "手に入れる・もらってくる",
+    "en": "to get, obtain, acquire",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กระเป๋าใบนี้ได้มาจากไหน",
+     "ro": "krà pǎo bai níi dâai maa càak nǎi",
+     "ja": "このかばんはどこで手に入れたのですか。",
+     "en": "Where did you get this bag?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59611",
+  "th": "นำไปใช้",
+  "action": "add",
+  "ro": "nam pai chái",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "活用する・利用する（得たものを）",
+    "en": "to put to use, apply",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ความรู้นี้นำไปใช้ในงานจริงได้",
+     "ro": "khwaam rúu níi nam pai chái nai ngaan cing dâai",
+     "ja": "この知識は実際の仕事に活かせます。",
+     "en": "This knowledge can be applied in real work.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "説明文やニュースで多い言い方。会話では เอาไปใช้ と言うことが多い。"
+ },
+ {
+  "id": "tl-59612",
+  "th": "อยู่นิ่งๆ",
+  "action": "add",
+  "ro": "yùu nîng nîng",
+  "kind": "expression",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "じっとしている・動かずにいる",
+    "en": "to stay still, keep still",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อยู่นิ่งๆ นะ เดี๋ยวหมอจะฉีดยา",
+     "ro": "yùu nîng nîng ná dǐiao mɔ̌ɔ cà chìit yaa",
+     "ja": "じっとしていてね、もうすぐお医者さんが注射するから。",
+     "en": "Stay still, the doctor is about to give you a shot.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "子どもなどに「じっとして」と言うときの決まった言い方。อยู่นิ่ง ๆ と書くことも多い。"
+ },
+ {
+  "id": "tl-59613",
+  "th": "ดูข่าว",
+  "action": "skip",
+  "skipReason": "自由な組み合わせで、意味は構成語の足し算どおり（ดู 見る＋ข่าว ニュース）。固定した単位としての独自の意味がないため見送り。"
+ },
+ {
+  "id": "tl-59614",
+  "th": "สะดุดล้ม",
+  "action": "add",
+  "ro": "sà dùt lóm",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "つまずいて転ぶ",
+    "en": "to trip and fall",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คุณยายสะดุดล้มตรงบันไดหน้าบ้าน",
+     "ro": "khun yaai sà dùt lóm trong ban dai nâa bâan",
+     "ja": "おばあさんは家の前の階段でつまずいて転びました。",
+     "en": "Grandma tripped and fell on the steps in front of the house.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59615",
+  "th": "ทำหล่น",
+  "action": "add",
+  "ro": "tham lòn",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（うっかり）落とす",
+    "en": "to drop (by accident)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กุญแจหายไป ไม่รู้ว่าทำหล่นที่ไหน",
+     "ro": "kun cɛɛ hǎai pai mâi rúu wâa tham lòn thîi nǎi",
+     "ja": "鍵がなくなりました。どこで落としたのかわかりません。",
+     "en": "My keys are gone. I don't know where I dropped them.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "目的語はふつう ทำ と หล่น の間に入る（例：ทำกุญแจหล่น 鍵を落とす）。ทำตก とほぼ同じ意味。"
+ },
+ {
+  "id": "tl-59616",
+  "th": "หลุดมือ",
+  "action": "add",
+  "ro": "lùt mʉʉ",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "手から滑り落ちる",
+    "en": "to slip out of one's hand",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โทรศัพท์หลุดมือตกลงพื้น",
+     "ro": "thoo rá sàp lùt mʉʉ tòk long phʉ́ʉn",
+     "ja": "電話が手から滑って床に落ちました。",
+     "en": "The phone slipped out of my hand and fell to the floor.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（機会などを）逃す・手放してしまう",
+    "en": "to slip away (of a chance), lose hold of",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อย่าปล่อยให้โอกาสดีๆ หลุดมือไป",
+     "ro": "yàa plɔ̀ɔi hâi oo kàat dii dii lùt mʉʉ pai",
+     "ja": "良い機会を逃してはいけません。",
+     "en": "Don't let a good opportunity slip away.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59617",
+  "th": "หล่นหาย",
+  "action": "add",
+  "ro": "lòn hǎai",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "落としてなくす・落ちてなくなる",
+    "en": "to drop and lose; to fall out and get lost",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ต่างหูข้างหนึ่งหล่นหายตอนไปเที่ยว",
+     "ro": "tàang hǔu khâang nʉ̀ng lòn hǎai tɔɔn pai thîiao",
+     "ja": "旅行中にイヤリングの片方を落としてなくしました。",
+     "en": "One of my earrings fell off and got lost during the trip.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59618",
+  "th": "หกใส่",
+  "action": "skip",
+  "skipReason": "自由な組み合わせで、意味は構成語の足し算どおり（หก こぼれる＋ใส่ 〜に向けて）。固定した単位としての独自の意味がないため見送り。「動詞＋ใส่」は自由に作れる型。"
+ },
+ {
+  "id": "tl-59619",
+  "th": "งีบหลับ",
+  "action": "add",
+  "ro": "ngîip làp",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "うたた寝する・仮眠する",
+    "en": "to doze off, take a nap",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขางีบหลับบนรถไฟฟ้าจนเลยสถานี",
+     "ro": "khǎo ngîip làp bon rót fai fáa con ləəi sà thǎa nii",
+     "ja": "彼は電車でうたた寝をして駅を乗り過ごしました。",
+     "en": "He dozed off on the train and missed his station.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59620",
+  "th": "หลับสนิท",
+  "action": "add",
+  "ro": "làp sà nìt",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ぐっすり眠る・熟睡する",
+    "en": "to sleep soundly",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เมื่อคืนหลับสนิทจนไม่ได้ยินเสียงฝน",
+     "ro": "mʉ̂ʉa khʉʉn làp sà nìt con mâi dâai yin sǐiang fǒn",
+     "ja": "昨夜はぐっすり眠っていて雨の音が聞こえませんでした。",
+     "en": "Last night I slept so soundly that I didn't hear the rain.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59621",
+  "th": "ลุกไม่ขึ้น",
+  "action": "add",
+  "ro": "lúk mâi khʉ̂n",
+  "kind": "expression",
+  "category": "体・健康",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "起き上がれない・立ち上がれない",
+    "en": "to be unable to get up",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เช้านี้ปวดหลังมากจนลุกไม่ขึ้น",
+     "ro": "cháao níi pùuat lǎng mâak con lúk mâi khʉ̂n",
+     "ja": "今朝は腰がひどく痛くて起き上がれませんでした。",
+     "en": "This morning my back hurt so much that I couldn't get up.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "「動詞＋ไม่＋ขึ้น」で「〜しようとしてもできない」。寝床から起きられない場合にも、立ち上がれない場合にも言う。"
+ },
+ {
+  "id": "tl-59622",
+  "th": "ล้างไม่ออก",
+  "action": "add",
+  "ro": "láang mâi ɔ̀ɔk",
+  "kind": "expression",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "洗っても落ちない（汚れ・色が）",
+    "en": "won't wash off",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สีย้อมผมติดมือ ล้างไม่ออกเลย",
+     "ro": "sǐi yɔ́ɔm phǒm tìt mʉʉ láang mâi ɔ̀ɔk ləəi",
+     "ja": "ヘアカラーが手について、洗っても全然落ちません。",
+     "en": "The hair dye got on my hands and won't wash off at all.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "手・食器・床などを水で洗う場合。衣類の洗濯なら ซักไม่ออก。"
+ },
+ {
+  "id": "tl-59623",
+  "th": "ซักไม่ออก",
+  "action": "add",
+  "ro": "sák mâi ɔ̀ɔk",
+  "kind": "expression",
+  "category": "日常の動作",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "洗濯しても落ちない（しみ・汚れが）",
+    "en": "won't come out in the wash",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คราบกาแฟบนเสื้อขาวซักไม่ออก",
+     "ro": "khrâap kaa fɛɛ bon sʉ̂ʉa khǎao sák mâi ɔ̀ɔk",
+     "ja": "白い服についたコーヒーのしみは洗濯しても落ちません。",
+     "en": "The coffee stain on the white shirt won't come out in the wash.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "衣類・布の洗濯に限る。手や食器などは ล้างไม่ออก。"
+ },
+ {
+  "id": "tl-59624",
+  "th": "ปิดไม่สนิท",
+  "action": "add",
+  "ro": "pìt mâi sà nìt",
+  "kind": "expression",
+  "category": "家・場所",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "きちんと閉まらない・ぴったり閉まっていない",
+    "en": "to not close properly",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ประตูตู้เย็นปิดไม่สนิท ของเลยไม่เย็น",
+     "ro": "prà tuu tûu yen pìt mâi sà nìt khɔ̌ɔng ləəi mâi yen",
+     "ja": "冷蔵庫のドアがきちんと閉まらず、それで中の物が冷えません。",
+     "en": "The fridge door doesn't close properly, so the food isn't cold.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59625",
+  "th": "สตาร์ทไม่ติด",
+  "action": "add",
+  "ro": "sà táat mâi tìt",
+  "kind": "expression",
+  "category": "移動・道案内",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "エンジンがかからない",
+    "en": "(of an engine) won't start",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "แบตหมด รถเลยสตาร์ทไม่ติด",
+     "ro": "bɛ̀t mòt rót ləəi sà táat mâi tìt",
+     "ja": "バッテリーが上がって、車のエンジンがかかりません。",
+     "en": "The battery is dead, so the car won't start.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "車・バイクの故障を言う決まった言い方。ติด は「（エンジンが）かかる」。"
+ },
+ {
+  "id": "tl-59626",
+  "th": "ชาร์จไม่เข้า",
+  "action": "add",
+  "ro": "cháat mâi khâo",
+  "kind": "expression",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "充電できない・充電されない",
+    "en": "won't charge",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "มือถือชาร์จไม่เข้า น่าจะเป็นที่สายชาร์จ",
+     "ro": "mʉʉ thʉ̌ʉ cháat mâi khâo nâa cà pen thîi sǎai cháat",
+     "ja": "スマホが充電できません。たぶん充電ケーブルのせいです。",
+     "en": "My phone won't charge. It's probably the cable.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "直訳は「充電しても（電気が）入らない」。スマホや電池の不調を言う決まった言い方。"
+ },
+ {
+  "id": "tl-59627",
+  "th": "ติดๆดับๆ",
+  "action": "add",
+  "ro": "tìt tìt dàp dàp",
+  "kind": "expression",
+  "category": "性質・状態",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ついたり消えたりする（明かり・エンジン・電波などが）",
+    "en": "to flicker; to keep cutting in and out",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หลอดไฟในห้องน้ำติดๆดับๆ มาสองวันแล้ว",
+     "ro": "lɔ̀ɔt fai nai hɔ̂ɔng náam tìt tìt dàp dàp maa sɔ̌ɔng wan lɛ́ɛo",
+     "ja": "トイレの電球が二日前からついたり消えたりしています。",
+     "en": "The light bulb in the bathroom has been flickering for two days.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ติด ๆ ดับ ๆ と間を空けて書くことも多い。エンジンや機械の調子が安定しないときにも言う。"
+ },
+ {
+  "id": "tl-59628",
+  "th": "กดค้าง",
+  "action": "add",
+  "ro": "kòt kháang",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "長押しする・押したままにする",
+    "en": "to press and hold, long-press",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กดค้างที่ข้อความ แล้วเลือกคัดลอก",
+     "ro": "kòt kháang thîi khɔ̂ɔ khwaam lɛ́ɛo lʉ̂ʉak khát lɔ̂ɔk",
+     "ja": "メッセージを長押しして、「コピー」を選びます。",
+     "en": "Press and hold the message, then choose \"Copy\".",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "スマホやアプリの操作説明で使う言い方。กดค้างไว้ の形も多い。"
+ },
+ {
+  "id": "tl-59629",
+  "th": "ก๊อปวาง",
+  "action": "add",
+  "ro": "kɔ́p waang",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "コピペする",
+    "en": "to copy and paste",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "เขาแค่ก๊อปวางจากเน็ต ไม่ได้เขียนเอง",
+     "ro": "khǎo khɛ̂ɛ kɔ́p waang càak nét mâi dâai khǐian eeng",
+     "ja": "彼はネットからコピペしただけで、自分で書いていません。",
+     "en": "He just copied and pasted it from the internet; he didn't write it himself.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ก๊อป は ก๊อปปี้（コピーする）の略、วาง は「貼り付ける」。"
+ },
+ {
+  "id": "tl-59630",
+  "th": "ซูมเข้า",
+  "action": "add",
+  "ro": "suum khâo",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ズームインする・拡大する",
+    "en": "to zoom in",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลองซูมเข้าดูสิ ตัวหนังสือเล็กมาก",
+     "ro": "lɔɔng suum khâo duu sì tuua nǎng sʉ̌ʉ lék mâak",
+     "ja": "拡大して見てみて、文字がとても小さいから。",
+     "en": "Try zooming in; the text is really small.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "カメラ・地図・画面の操作で ซูมออก（ズームアウト）と対で使う。"
+ },
+ {
+  "id": "tl-59631",
+  "th": "ซูมออก",
+  "action": "add",
+  "ro": "suum ɔ̀ɔk",
+  "kind": "word",
+  "category": "趣味・メディア",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ズームアウトする・縮小する",
+    "en": "to zoom out",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ซูมออกอีกนิด จะได้เห็นทั้งแผนที่",
+     "ro": "suum ɔ̀ɔk ìik nít cà dâai hěn tháng phɛ̌ɛn thîi",
+     "ja": "もう少し縮小すれば、地図全体が見えます。",
+     "en": "Zoom out a little more so you can see the whole map.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "カメラ・地図・画面の操作で ซูมเข้า（ズームイン）と対で使う。"
+ },
+ {
+  "id": "tl-59632",
+  "th": "เลื่อนลง",
+  "action": "add",
+  "ro": "lʉ̂ʉan long",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "下へスクロールする・下へずらす",
+    "en": "to scroll down, move down",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เลื่อนลงไปข้างล่างสุด จะเจอปุ่มสมัคร",
+     "ro": "lʉ̂ʉan long pai khâang lâang sùt cà cəə pùm sà màk",
+     "ja": "一番下までスクロールすると、登録ボタンがあります。",
+     "en": "Scroll down to the very bottom and you'll find the sign-up button.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "画面操作の説明で เลื่อนขึ้น（上へスクロール）と対で使う言い方。"
+ },
+ {
+  "id": "tl-59633",
+  "th": "เลื่อนขึ้น",
+  "action": "add",
+  "ro": "lʉ̂ʉan khʉ̂n",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "上へスクロールする・上へずらす",
+    "en": "to scroll up, move up",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เลื่อนขึ้นไปดูข้อความเก่าได้",
+     "ro": "lʉ̂ʉan khʉ̂n pai duu khɔ̂ɔ khwaam kào dâai",
+     "ja": "上にスクロールして古いメッセージを見られます。",
+     "en": "You can scroll up to see the old messages.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "画面操作の説明で เลื่อนลง（下へスクロール）と対で使う言い方。"
+ },
+ {
+  "id": "tl-59634",
+  "th": "เว้นวรรค",
+  "action": "add",
+  "ro": "wén wák",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "スペースを空ける・間を空けて書く",
+    "en": "to leave a space (in writing)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ภาษาไทยไม่เว้นวรรคระหว่างคำ",
+     "ro": "phaa sǎa thai mâi wén wák rá wàang kham",
+     "ja": "タイ語は単語の間にスペースを空けません。",
+     "en": "Thai does not put spaces between words.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "（活動を）一時休む・間を置く",
+    "en": "to take a break, step back for a while",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาขอเว้นวรรคจากการเมืองสักพัก",
+     "ro": "khǎo khɔ̌ɔ wén wák càak kaan mʉʉang sàk phák",
+     "ja": "彼はしばらく政治活動を休みたいとしています。",
+     "en": "He wants to take a break from politics for a while.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59635",
+  "th": "ขีดเส้นใต้",
+  "action": "add",
+  "ro": "khìit sên tâi",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "下線を引く",
+    "en": "to underline",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขีดเส้นใต้คำที่ไม่รู้ความหมายไว้",
+     "ro": "khìit sên tâi kham thîi mâi rúu khwaam mǎai wái",
+     "ja": "意味がわからない単語に下線を引いておきます。",
+     "en": "Underline the words whose meaning you don't know.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "比喩的に「強調しておく」の意味でも使う。"
+ },
+ {
+  "id": "tl-59636",
+  "th": "กากบาท",
+  "action": "add",
+  "ro": "kaa kà bàat",
+  "kind": "word",
+  "category": "仕事・学習",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "×印・バツ印",
+    "en": "cross mark (×)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ทำเครื่องหมายกากบาทหน้าข้อที่ถูก",
+     "ro": "tham khrʉ̂ʉang mǎai kaa kà bàat nâa khɔ̂ɔ thîi thùuk",
+     "ja": "正しい選択肢の前に×印をつけます。",
+     "en": "Put a cross in front of the correct item.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "×印をつける",
+    "en": "to mark with a cross",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กากบาทเลือกคำตอบเพียงข้อเดียว",
+     "ro": "kaa kà bàat lʉ̂ʉak kham tɔ̀ɔp phiiang khɔ̂ɔ diiao",
+     "ja": "×印をつけて答えを一つだけ選びます。",
+     "en": "Mark a cross to choose only one answer.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "タイでは試験や投票で、選んだものに×印をつける（日本の○に当たり、「間違い」の意味ではない）。"
+ },
+ {
+  "id": "tl-59637",
+  "th": "มัดปากถุง",
+  "action": "skip",
+  "skipReason": "自由な組み合わせで、意味は構成語の足し算どおり（มัด 縛る＋ปากถุง 袋の口）。固定した単位としての独自の意味がないため見送り。"
+ },
+ {
+  "id": "tl-59638",
+  "th": "ตั้งไฟ",
+  "action": "add",
+  "ro": "tâng fai",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "火にかける（鍋・フライパンを）",
+    "en": "to put (a pan) on the heat",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ตั้งไฟกลาง ใส่น้ำมันลงในกระทะ",
+     "ro": "tâng fai klaang sài nám man long nai krà thá",
+     "ja": "中火にかけて、フライパンに油を入れます。",
+     "en": "Put the pan over medium heat and add oil.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "レシピの決まった言い方。ตั้งกระทะบนไฟ のようにも言う。"
+ },
+ {
+  "id": "tl-59639",
+  "th": "เบาไฟ",
+  "action": "add",
+  "ro": "bao fai",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "火を弱める",
+    "en": "to turn down the heat",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พอน้ำเดือดแล้วให้เบาไฟลง",
+     "ro": "phɔɔ náam dʉ̀ʉat lɛ́ɛo hâi bao fai long",
+     "ja": "お湯が沸いたら火を弱めます。",
+     "en": "Once the water boils, turn the heat down.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "料理の説明でよく使う。หรี่ไฟ・ลดไฟ も同じ意味。"
+ },
+ {
+  "id": "tl-59640",
+  "th": "หรี่ไฟ",
+  "action": "add",
+  "ro": "rìi fai",
+  "kind": "word",
+  "category": "家・場所",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "火を弱める（料理で）",
+    "en": "to turn the flame down",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หรี่ไฟแล้วเคี่ยวต่ออีกสิบนาที",
+     "ro": "rìi fai lɛ́ɛo khîiao tɔ̀ɔ ìik sìp naa thii",
+     "ja": "火を弱めてさらに10分煮込みます。",
+     "en": "Turn the heat down and simmer for another ten minutes.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "明かりを暗くする・照明を落とす",
+    "en": "to dim the lights",
+    "pos": "動詞",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ช่วยหรี่ไฟหน่อย ลูกหลับแล้ว",
+     "ro": "chûuai rìi fai nɔ̀ɔi lûuk làp lɛ́ɛo",
+     "ja": "明かりを少し暗くして、子どもが寝たから。",
+     "en": "Dim the lights a little, please; the baby is asleep.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59641",
+  "th": "กลับด้าน",
+  "action": "add",
+  "ro": "klàp dâan",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "裏返す・ひっくり返す",
+    "en": "to turn over, flip",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ย่างปลาสักห้านาทีแล้วกลับด้าน",
+     "ro": "yâang plaa sàk hâa naa thii lɛ́ɛo klàp dâan",
+     "ja": "魚を5分ほど焼いてから裏返します。",
+     "en": "Grill the fish for about five minutes, then turn it over.",
+     "origin": "authored"
+    }
+   },
+   {
+    "sourceSense": 2,
+    "ja": "裏表が逆の・向きが逆になった",
+    "en": "inside out, the wrong way round",
+    "pos": "形容詞・状態語",
+    "use": "よく使う別の意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เธอใส่เสื้อกลับด้านหรือเปล่า",
+     "ro": "thəə sài sʉ̂ʉa klàp dâan rʉ̌ʉ plàao",
+     "ja": "あなた、服を裏返しに着ていませんか。",
+     "en": "Are you wearing your shirt inside out?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59642",
+  "th": "คนให้เข้ากัน",
+  "action": "add",
+  "ro": "khon hâi khâo kan",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "よく混ぜ合わせる（全体がなじむまで）",
+    "en": "to stir until well combined",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ใส่น้ำตาลกับน้ำปลา แล้วคนให้เข้ากัน",
+     "ro": "sài nám taan kàp nám plaa lɛ́ɛo khon hâi khâo kan",
+     "ja": "砂糖とナンプラーを入れて、よく混ぜ合わせます。",
+     "en": "Add sugar and fish sauce, then stir until well combined.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "レシピの決まり文句。คน は「かき混ぜる」、ให้เข้ากัน は「なじむように」。"
+ },
+ {
+  "id": "tl-59643",
+  "th": "แช่ฟรีซ",
+  "action": "add",
+  "ro": "chɛ̂ɛ fríit",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "冷凍する・冷凍室に入れる",
+    "en": "to freeze, put in the freezer",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "example": {
+     "th": "หมูที่ซื้อมาเยอะ แบ่งแช่ฟรีซไว้ได้",
+     "ro": "mǔu thîi sʉ́ʉ maa yə́ bɛ̀ng chɛ̂ɛ fríit wái dâai",
+     "ja": "たくさん買った豚肉は、小分けにして冷凍しておけます。",
+     "en": "If you bought a lot of pork, you can divide it up and freeze it.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ฟรีซ は英語 freeze から。改まった言い方は แช่แข็ง。"
+ },
+ {
+  "id": "tl-59644",
+  "th": "โรยหน้า",
+  "action": "add",
+  "ro": "rooi nâa",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "上に振りかける・トッピングする",
+    "en": "to sprinkle on top, garnish",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "โรยหน้าด้วยผักชีและกระเทียมเจียว",
+     "ro": "rooi nâa dûuai phàk chii lɛ́ krà thiiam ciiao",
+     "ja": "パクチーと揚げにんにくを上に散らします。",
+     "en": "Sprinkle coriander and fried garlic on top.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59645",
+  "th": "รองท้อง",
+  "action": "add",
+  "ro": "rɔɔng thɔ́ɔng",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "小腹を満たす・とりあえず少し食べておく",
+    "en": "to have a bite to tide oneself over",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "กินขนมปังรองท้องก่อนไปกินข้าวเย็น",
+     "ro": "kin khà nǒm pang rɔɔng thɔ́ɔng kɔ̀ɔn pai kin khâao yen",
+     "ja": "夕食に行く前に、パンを食べて小腹を満たしておきます。",
+     "en": "I'll have some bread to tide me over before going to dinner.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "直訳は「胃に敷く」。食事の前や、薬を飲む前に軽く食べることを言う。"
+ },
+ {
+  "id": "tl-59646",
+  "th": "สั่งน้ำมูก",
+  "action": "add",
+  "ro": "sàng nám mûuk",
+  "kind": "word",
+  "category": "体・健康",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "鼻をかむ",
+    "en": "to blow one's nose",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เขาหยิบทิชชู่มาสั่งน้ำมูก",
+     "ro": "khǎo yìp thít chûu maa sàng nám mûuk",
+     "ja": "彼はティッシュを取って鼻をかみました。",
+     "en": "He took a tissue and blew his nose.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-59647",
+  "th": "ส่ายหัว",
+  "action": "add",
+  "ro": "sàai hǔua",
+  "kind": "word",
+  "category": "日常の動作",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "首を横に振る（否定・あきれ）",
+    "en": "to shake one's head",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ถามว่าเหนื่อยไหม เขาก็ส่ายหัว",
+     "ro": "thǎam wâa nʉ̀ʉai mǎi khǎo kɔ̂ɔ sàai hǔua",
+     "ja": "疲れたかと聞くと、彼は首を横に振りました。",
+     "en": "When I asked if he was tired, he shook his head.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "ส่ายหน้า と同じ意味で、会話では ส่ายหัว もよく言う。"
+ },
+ {
+  "id": "tl-59648",
+  "th": "จับราว",
+  "action": "add",
+  "ro": "càp raao",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "手すりにつかまる",
+    "en": "to hold the handrail",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขึ้นลงบันไดเลื่อน กรุณาจับราวให้แน่น",
+     "ro": "khʉ̂n long ban dai lʉ̂ʉan kà rú naa càp raao hâi nɛ̂n",
+     "ja": "エスカレーターの乗り降りの際は、手すりにしっかりおつかまりください。",
+     "en": "When getting on and off the escalator, please hold the handrail firmly.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "駅・バス・エスカレーターの掲示やアナウンスで使う決まった言い方（จับราวบันได とも）。"
+ },
+ {
+  "id": "tl-59649",
+  "th": "นั่งขัดสมาธิ",
+  "action": "skip",
+  "skipReason": "登録済みの ขัดสมาธิ（あぐらをかく）に นั่ง を付けた長い形。同項目の用例と note がすでに นั่งขัดสมาธิ を教えているため見送り。"
+ },
+ {
+  "id": "tl-59650",
+  "th": "ชิดขวา",
+  "action": "add",
+  "ro": "chít khwǎa",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "右に寄る・右側に寄せる",
+    "en": "to keep right, move over to the right",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อีกร้อยเมตรชิดขวาเตรียมกลับรถ",
+     "ro": "ìik rɔ́ɔi méet chít khwǎa triiam klàp rót",
+     "ja": "あと100メートルで右に寄って、Uターンの準備をしてください。",
+     "en": "In a hundred meters, keep right and get ready to make a U-turn.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "道路標識やナビ、エスカレーターの案内（ยืนชิดขวา 右側に立つ）で使う決まった言い方。対は ชิดซ้าย。"
+ },
+ {
+  "id": "tl-59651",
+  "th": "จอดซ้อนคัน",
+  "action": "add",
+  "ro": "cɔ̀ɔt sɔ́ɔn khan",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "二重駐車する（他の車の前をふさいで停める）",
+    "en": "to double-park",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "จอดซ้อนคันต้องปลดเบรกมือไว้ด้วย",
+     "ro": "cɔ̀ɔt sɔ́ɔn khan tɔ̂ɔng plòt brèek mʉʉ wái dûuai",
+     "ja": "二重駐車するときは、ハンドブレーキを外しておかなければなりません。",
+     "en": "If you double-park, you have to leave the handbrake off.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "タイの駐車場では、押して動かせるようにハンドブレーキを外して二重駐車することがある。"
+ },
+ {
+  "id": "tl-59652",
+  "th": "วกกลับ",
+  "action": "add",
+  "ro": "wók klàp",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "引き返す・ぐるっと戻る",
+    "en": "to turn back, double back",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เราขับเลยซอยไปแล้ว ต้องวกกลับ",
+     "ro": "rao khàp ləəi sɔɔi pai lɛ́ɛo tɔ̂ɔng wók klàp",
+     "ja": "路地を通り過ぎてしまったので、引き返さなければなりません。",
+     "en": "We've driven past the lane, so we have to turn back.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "話題を元に戻す意味でも使う（วกกลับมาเรื่องเดิม）。"
+ },
+ {
+  "id": "tl-59653",
+  "th": "ขับย้อนศร",
+  "action": "skip",
+  "skipReason": "登録済みの ย้อนศร（逆走する）に ขับ を付けただけの形で、同項目の用例も ขับย้อนศร。既存の見出しで学べるため見送り。"
+ },
+ {
+  "id": "tl-59654",
+  "th": "พุ่งชน",
+  "action": "add",
+  "ro": "phûng chon",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "突っ込んで衝突する・激突する",
+    "en": "to crash into, ram into",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "รถกระบะเสียหลักพุ่งชนเสาไฟฟ้า",
+     "ro": "rót krà bà sǐia làk phûng chon sǎo fai fáa",
+     "ja": "ピックアップトラックがコントロールを失い、電柱に突っ込みました。",
+     "en": "The pickup truck lost control and crashed into a utility pole.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "事故のニュースでよく使う。"
+ },
+ {
+  "id": "tl-59655",
+  "th": "พลัดตก",
+  "action": "add",
+  "ro": "phlát tòk",
+  "kind": "word",
+  "category": "社会・制度",
+  "frequency": 2,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "誤って転落する・足を滑らせて落ちる",
+    "en": "to fall accidentally (from a height)",
+    "pos": "動詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คนงานพลัดตกจากนั่งร้านได้รับบาดเจ็บ",
+     "ro": "khon ngaan phlát tòk càak nâng ráan dâai ráp bàat cèp",
+     "ja": "作業員が足場から転落してけがをしました。",
+     "en": "A worker fell from the scaffolding and was injured.",
+     "origin": "authored"
+    }
+   }
+  ],
+  "note": "事故のニュースや注意書きでよく使う。"
+ }
+]
