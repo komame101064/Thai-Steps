@@ -5,7 +5,7 @@ for(const n of ['kana-search','word-topics','word-origins','ja-readings','words-
 vm.runInContext('this.t={load:loadWordBank,results:dictionaryResults,setLevel:n=>{wordState.level=n},setTopic:t=>{wordTopic=t},WEAK:DICT_WEAK}',ctx);
 (async()=>{const t=ctx.t;await t.load();const ths=q=>t.results(q).map(x=>x.w.th),top=(q,n)=>ths(q).slice(0,n);
  // Exact meaning first; theme-label-only matches come after every real match.
- assert.equal(ths('家族')[0],'ครอบครัว');const fam=t.results('家族');assert(fam.findIndex(x=>x.score>=t.WEAK)>0);assert(fam.every((x,i)=>i===0||fam[i-1].score<=x.score));
+ assert.equal(ths('家族')[0],'ครอบครัว');const fam=t.results('家族');assert(fam.findIndex(x=>x.score>=t.WEAK)>0);{const g=x=>x.score>=t.WEAK?3:x.score>12?2:x.via==='similar'?1:0;assert(fam.every((x,i)=>i===0||g(fam[i-1])<=g(x)))}
  assert.deepEqual(top('食べる',3).sort(),['กิน','ทาน','รับประทาน'].sort());
  // Compounds of an exact match rank above weak matches; "contains" alone is not a compound (เกิน is not กิน).
  const eat=ths('食べる');assert(eat.includes('ของกิน')&&eat.includes('หากิน'));assert(!eat.includes('เกิน'));
