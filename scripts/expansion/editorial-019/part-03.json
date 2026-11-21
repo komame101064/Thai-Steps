@@ -1,0 +1,836 @@
+[
+ {
+  "id": "tl-70117",
+  "th": "เชื่อเขาเลย",
+  "action": "add",
+  "ro": "chʉ̂ʉa khǎo ləəi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "まったく、あきれた・信じられない（皮肉で）",
+    "en": "unbelievable (exasperated)",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "相手のとんでもない言動にあきれて言う口語で、半ば感心して「恐れ入った」の意味になることもある。เขา は特定の人を指さず、目の前の相手に言ってもよい（チャットでは เชื่อเค้าเลย とも書く）。似た反応のスラングに ยอมใจ がある。",
+    "example": {
+     "th": "ลืมกุญแจไว้ในรถอีกแล้ว เชื่อเขาเลย",
+     "ro": "lʉʉm kun cɛɛ wái nai rót ìik lɛ́ɛo chʉ̂ʉa khǎo ləəi",
+     "ja": "また車の中に鍵を忘れたの？まったく、あきれた。",
+     "en": "Left the keys in the car again? Unbelievable.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70118",
+  "th": "มีอย่างที่ไหน",
+  "action": "add",
+  "ro": "mii yàang thîi nǎi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "そんなのありえない・そんなのあり？（抗議）",
+    "en": "that's outrageous; how can that be okay?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "理不尽な扱い・話に抗議するくだけた言い方で、字義は「そんなやり方がどこにある」。",
+    "example": {
+     "th": "จ่ายเงินแล้วยังไม่ได้ของ มีอย่างที่ไหน",
+     "ro": "càai ngəən lɛ́ɛo yang mâi dâai khɔ̌ɔng mii yàang thîi nǎi",
+     "ja": "お金を払ったのにまだ品物が来ないなんて、ありえない。",
+     "en": "I paid and still haven't got the goods. That's outrageous.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70119",
+  "th": "นึกว่าใคร",
+  "action": "add",
+  "ro": "nʉ́k wâa khrai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "誰かと思ったら（なんだ、あなたか）",
+    "en": "oh, it's you (I wondered who it was)",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "知り合いに不意に声をかけられたとき・相手が知人だとわかったときに言う。身構えたのに大したことでなかった นึกว่าอะไร（何かと思った）とは別。",
+    "example": {
+     "th": "อ้าว นึกว่าใคร มาทำอะไรแถวนี้",
+     "ro": "âao nʉ́k wâa khrai maa tham à rai thɛ̌ɛo níi",
+     "ja": "あれ、誰かと思ったら。この辺で何してるの？",
+     "en": "Oh, it's you! What are you doing around here?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70120",
+  "th": "เพื่อนกัน",
+  "action": "add",
+  "ro": "phʉ̂ʉan kan",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "友達じゃん（気にしないで）",
+    "en": "we're friends (don't mention it)",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "友人のお礼・謝罪・遠慮に「友達なんだから」と返す口語で、เพื่อนกันนะ とも言う。字義どおり「友達同士だ」（เราเป็นเพื่อนกัน）の意味でも使う。",
+    "example": {
+     "th": "ไม่ต้องเกรงใจ เพื่อนกัน",
+     "ro": "mâi tɔ̂ɔng kreeng cai phʉ̂ʉan kan",
+     "ja": "遠慮しないで、友達じゃん。",
+     "en": "Don't be shy about it, we're friends.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70121",
+  "th": "ตกลงยังไง",
+  "action": "skip",
+  "skipReason": "登録済みの ตกลง の第2語義（結局・それで、用例「ตกลงเราจะกินอะไร」）に ยังไง（どう）を付けただけの組み合わせで、同じ使い方をすでに学べるため。"
+ },
+ {
+  "id": "tl-70122",
+  "th": "เรื่องของเรื่อง",
+  "action": "add",
+  "ro": "rʉ̂ʉang khɔ̌ɔng rʉ̂ʉang",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "事の次第は・実はね（いきさつを話し始める）",
+    "en": "the thing is; what happened was",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "多く เรื่องของเรื่องคือ… の形で、出来事のいきさつや本当の原因を説明し始めるときに言う。คืองี้（実はね）よりも「いきさつ」を語る感じが強い。",
+    "example": {
+     "th": "เรื่องของเรื่องคือเขาลืมจองโต๊ะ",
+     "ro": "rʉ̂ʉang khɔ̌ɔng rʉ̂ʉang khʉʉ khǎo lʉʉm cɔɔng tó",
+     "ja": "事の次第はね、彼が席の予約を忘れたんだ。",
+     "en": "What happened was, he forgot to book a table.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70123",
+  "th": "ซื้อมาฝาก",
+  "action": "skip",
+  "skipReason": "登録済みの ซื้อฝาก（tl-52650、土産に買ってあげる）に มา（〜してくる）を入れただけの形で、意味も場面も同じため。"
+ },
+ {
+  "id": "tl-70124",
+  "th": "รับเงินมา",
+  "action": "add",
+  "ro": "ráp ngəən maa",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（レジで）〜バーツお預かりします",
+    "en": "(cashier) received ... baht",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "コンビニ・スーパーの店員が客から受け取った金額を確かめるときの決まった言い方で、後ろに金額が続く（〜の部分）。客の側は言わない。",
+    "example": {
+     "th": "รับเงินมาห้าร้อยบาท ทอนสามสิบบาทค่ะ",
+     "ro": "ráp ngəən maa hâa rɔ́ɔi bàat thɔɔn sǎam sìp bàat khâ",
+     "ja": "500バーツお預かりします。30バーツのお返しです。",
+     "en": "Received 500 baht; your change is 30 baht.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70125",
+  "th": "เสร็จกัน",
+  "action": "skip",
+  "skipReason": "登録済みの จบกัน（tl-57021「もうおしまいだ・終わった（失敗して）」）と場面・意味が同じで、別に教える違いがないため。"
+ },
+ {
+  "id": "tl-70126",
+  "th": "เรื่องจิ๊บๆ",
+  "action": "skip",
+  "skipReason": "登録済みの เรื่องเล็ก（tl-56716「大したことない・お安い御用」）と同じ場面の返事で、別に教える違いが小さいため。จิ๊บ の語感は既存の จิ๊บจ๊อย でも学べる。"
+ },
+ {
+  "id": "tl-70127",
+  "th": "พูดเป็นเล่น",
+  "action": "add",
+  "ro": "phûut pen lên",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "冗談でしょ・冗談言わないで",
+    "en": "you're kidding; don't be silly",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "相手の言ったことを本気にしない・受け入れないときの言い方で、พูดเป็นเล่นน่า とも言う。自分の発言を「冗談だよ」と打ち消すのは ล้อเล่น・พูดเล่น。",
+    "example": {
+     "th": "พูดเป็นเล่น ราคานี้ใครจะซื้อ",
+     "ro": "phûut pen lên raa khaa níi khrai cà sʉ́ʉ",
+     "ja": "冗談でしょ。この値段で誰が買うの。",
+     "en": "You're kidding. Who would buy it at this price?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70128",
+  "th": "ดีออก",
+  "action": "add",
+  "ro": "dii ɔ̀ɔk",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "いいじゃない（むしろ良い）",
+    "en": "it's actually good",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "相手が悪いと思っていることを「むしろ良い」と打ち消す口語。形容詞の後の ออก は「かえって・むしろ」の意味で、สวยออก・น่ารักออก のようにも言う。",
+    "example": {
+     "th": "ผมสั้นก็ดีออก ดูสดใสดี",
+     "ro": "phǒm sân kɔ̂ɔ dii ɔ̀ɔk duu sòt sǎi dii",
+     "ja": "ショートヘアもいいじゃない。明るく見えるよ。",
+     "en": "Short hair is actually nice. It looks fresh.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70129",
+  "th": "ห้าสิบห้าสิบ",
+  "action": "skip",
+  "skipReason": "登録済みの ครึ่งต่อครึ่ง（tl-56907「半々・五分五分」）と意味・場面が重なり、別に教える違いが小さいため。"
+ },
+ {
+  "id": "tl-70130",
+  "th": "มาก่อนได้ก่อน",
+  "action": "add",
+  "ro": "maa kɔ̀ɔn dâai kɔ̀ɔn",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "早い者勝ち・先着順",
+    "en": "first come, first served",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "セール・無料配布・席取りの告知や呼び込みで使い、店の貼り紙などの文字でもよく見る。",
+    "example": {
+     "th": "ของแถมมีจำนวนจำกัด มาก่อนได้ก่อน",
+     "ro": "khɔ̌ɔng thɛ̌ɛm mii cam nuuan cam kàt maa kɔ̀ɔn dâai kɔ̀ɔn",
+     "ja": "おまけは数に限りがあります。先着順です。",
+     "en": "Free gifts are limited. First come, first served.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70131",
+  "th": "ว่าไงว่าตามกัน",
+  "action": "add",
+  "ro": "wâa ngai wâa taam kan",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "みんなに合わせるよ",
+    "en": "I'll go along with whatever everyone decides",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "誘い・決めごとで自分の意見を出さず、皆の決定に従うときの口語。แล้วแต่（お任せ）よりも「皆が決めたとおりにする」の意味。",
+    "example": {
+     "th": "จะไปกินที่ไหนก็ได้ ว่าไงว่าตามกัน",
+     "ro": "cà pai kin thîi nǎi kɔ̂ɔ dâai wâa ngai wâa taam kan",
+     "ja": "どこに食べに行ってもいいよ。みんなに合わせる。",
+     "en": "Anywhere is fine to eat. I'll go with whatever you all decide.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70132",
+  "th": "ไม่ไหวก็บอก",
+  "action": "add",
+  "ro": "mâi wǎi kɔ̂ɔ bɔ̀ɔk",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "無理なら言ってね",
+    "en": "tell me if it's too much",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "疲れている人・辛い料理を食べている人・体調が悪い人などにかける気づかいの言葉で、末尾に นะ を付けることが多い。",
+    "example": {
+     "th": "เผ็ดไหม ไม่ไหวก็บอกนะ",
+     "ro": "phèt mǎi mâi wǎi kɔ̂ɔ bɔ̀ɔk ná",
+     "ja": "辛い？無理だったら言ってね。",
+     "en": "Is it spicy? Tell me if it's too much.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70133",
+  "th": "ขอบคุณสำหรับข้อมูล",
+  "action": "add",
+  "ro": "khɔ̀ɔp khun sǎm ràp khɔ̂ɔ muun",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "情報ありがとうございます・教えてくれてありがとう",
+    "en": "thanks for the information",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "質問に答えてもらったとき・道や店を教えてもらったときのお礼で、SNSやメールでもよく使う。話すときは男性は ครับ、女性は ค่ะ を付ける。",
+    "example": {
+     "th": "ขอบคุณสำหรับข้อมูลครับ เดี๋ยวลองไปดู",
+     "ro": "khɔ̀ɔp khun sǎm ràp khɔ̂ɔ muun khráp dǐiao lɔɔng pai duu",
+     "ja": "情報ありがとうございます。行ってみます。",
+     "en": "Thanks for the information. I'll go and have a look.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70134",
+  "th": "หายเหนื่อย",
+  "action": "add",
+  "ro": "hǎai nʉ̀ʉai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "疲れが吹き飛ぶ",
+    "en": "all my tiredness is gone",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "うれしいこと・好きな人・おいしいものなどで元気が戻ったときに言う。字義どおり休んで疲れが取れる意味でも使う。",
+    "example": {
+     "th": "เห็นหน้าลูกแล้วหายเหนื่อยเลย",
+     "ro": "hěn nâa lûuk lɛ́ɛo hǎai nʉ̀ʉai ləəi",
+     "ja": "子どもの顔を見たら疲れが吹き飛んだ。",
+     "en": "Seeing my child's face, all my tiredness disappeared.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70135",
+  "th": "สู้ชีวิต",
+  "action": "add",
+  "ro": "sûu chii wít",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "たくましく生きる・人生に負けずにがんばる",
+    "en": "to struggle on bravely in life",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "苦労して働く人をほめる・自分を励ます口語で、คนสู้ชีวิต（たくましく生きる人）の形でもよく使う。応援の สู้ๆ（がんばれ）とは別。",
+    "example": {
+     "th": "ป้าคนนี้สู้ชีวิตมาก ขายของตั้งแต่ตีสี่",
+     "ro": "pâa khon níi sûu chii wít mâak khǎai khɔ̌ɔng tâng tɛ̀ɛ tii sìi",
+     "ja": "このおばさんは本当にたくましい。朝4時から物を売っている。",
+     "en": "This auntie really battles on in life. She sells things from 4 a.m.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70136",
+  "th": "พูดถึงก็มา",
+  "action": "add",
+  "ro": "phûut thʉ̌ng kɔ̂ɔ maa",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "噂をすれば（本人が来た）",
+    "en": "speak of the devil",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "話題にしていた人がちょうど現れた・連絡してきたときの決まり文句。",
+    "example": {
+     "th": "พูดถึงก็มาพอดี นั่งก่อนสิ",
+     "ro": "phûut thʉ̌ng kɔ̂ɔ maa phɔɔ dii nâng kɔ̀ɔn sì",
+     "ja": "噂をすれば、ちょうど来た。まあ座って。",
+     "en": "Speak of the devil, here you are. Have a seat.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70137",
+  "th": "ทำไปได้",
+  "action": "add",
+  "ro": "tham pai dâai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "よくやるよ（あきれ・苦笑）",
+    "en": "I can't believe you did that (amused)",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "相手の突飛な・無駄に思える行動に、笑いながらあきれて言う口語。",
+    "example": {
+     "th": "ต่อคิวสามชั่วโมงเพื่อกินขนม ทำไปได้",
+     "ro": "tɔ̀ɔ khiu sǎam chûua moong phʉ̂ʉa kin khà nǒm tham pai dâai",
+     "ja": "お菓子のために3時間並んだなんて、よくやるよ。",
+     "en": "Queuing three hours for a snack? I can't believe you.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70138",
+  "th": "พูดเข้าไป",
+  "action": "add",
+  "ro": "phûut khâo pai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "よく言うよ・はいはい、言ってなさい（皮肉）",
+    "en": "yeah, right; keep talking",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "実現しそうにないこと・調子のいいことを言う相手を軽く冷やかす口語。เข้าไป は「もっとやれ」と皮肉る言い方。",
+    "example": {
+     "th": "พรุ่งนี้จะตื่นตีห้าไปวิ่ง พูดเข้าไป",
+     "ro": "phrûng níi cà tʉ̀ʉn tii hâa pai wîng phûut khâo pai",
+     "ja": "明日は朝5時に起きて走るって？よく言うよ。",
+     "en": "You'll get up at five tomorrow to go running? Yeah, right.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70139",
+  "th": "เอาเข้าไป",
+  "action": "add",
+  "ro": "ao khâo pai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "まだやるの・やりすぎだよ（あきれ・皮肉）",
+    "en": "go on, keep it up (sarcastic)",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "度を越して食べる・買う・遊ぶなどを続ける相手を「もっとやれ」と皮肉ってあきれる口語。同じ失敗が繰り返されたときの เอาอีกแล้ว（また始まった）とは別。",
+    "example": {
+     "th": "ซื้อรองเท้าอีกคู่แล้วเหรอ เอาเข้าไป",
+     "ro": "sʉ́ʉ rɔɔng tháao ìik khûu lɛ́ɛo rə̌ə ao khâo pai",
+     "ja": "また靴を買ったの？まだやるの。",
+     "en": "Another pair of shoes? Go on, keep it up.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70140",
+  "th": "มาจนได้",
+  "action": "skip",
+  "skipReason": "登録済みの จนได้（結局・とうとう）に มา を付けただけの組み合わせで、「とうとうそうなった」の意味は จนได้ と จนได้เรื่อง で学べるため。"
+ },
+ {
+  "id": "tl-70141",
+  "th": "แล้วจะทำไม",
+  "action": "skip",
+  "skipReason": "登録済みの แล้วไง（tl-56667）・แล้วยังไง（tl-50166）が同じ「だから何？・それがどうした（開き直り）」を教えており、別に教える違いが小さいため。"
+ },
+ {
+  "id": "tl-70142",
+  "th": "ทำไมจะไม่ได้",
+  "action": "skip",
+  "skipReason": "登録済みの ทำไมจะไม่（tl-58998、〜ないわけがない）の型に ได้ を入れた形で、その見出しの注記が後ろに動詞を置く反語の型として教えているため。"
+ },
+ {
+  "id": "tl-70143",
+  "th": "ไม่ได้ก็ต้องได้",
+  "action": "add",
+  "ro": "mâi dâai kɔ̂ɔ tɔ̂ɔng dâai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何としてもやるしかない",
+    "en": "it has to work, no matter what",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "自分や仲間を奮い立たせる・無理を承知でやり遂げると言うときの決まった言い方。",
+    "example": {
+     "th": "งานนี้ไม่ได้ก็ต้องได้ เพราะลูกค้ารออยู่",
+     "ro": "ngaan níi mâi dâai kɔ̂ɔ tɔ̂ɔng dâai phrɔ́ lûuk kháa rɔɔ yùu",
+     "ja": "この仕事は何としてもやり遂げるしかない。お客さんが待っているから。",
+     "en": "This job has to get done no matter what, because the client is waiting.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70144",
+  "th": "ไม่ใช่คนอื่นคนไกล",
+  "action": "add",
+  "ro": "mâi châi khon ʉ̀ʉn khon klai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "他人じゃないんだから（遠慮しないで）",
+    "en": "we're like family",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "親戚や親しい人が遠慮するときに、身内同然だと言って安心させる決まり文句。",
+    "example": {
+     "th": "มาค้างบ้านเราได้เลย ไม่ใช่คนอื่นคนไกล",
+     "ro": "maa kháang bâan rao dâai ləəi mâi châi khon ʉ̀ʉn khon klai",
+     "ja": "うちに泊まっていいよ。他人じゃないんだから。",
+     "en": "You can stay at our place. You're practically family.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70145",
+  "th": "สอนไม่จำ",
+  "action": "add",
+  "ro": "sɔ̌ɔn mâi cam",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何度言ってもわからない・懲りない",
+    "en": "never learns",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "同じ失敗を繰り返す子ども・部下・友人にあきれて言う。สอนไม่จำสักที とも言う。",
+    "example": {
+     "th": "บอกแล้วว่าอย่าเล่นมือถือตอนกินข้าว สอนไม่จำ",
+     "ro": "bɔ̀ɔk lɛ́ɛo wâa yàa lên mʉʉ thʉ̌ʉ tɔɔn kin khâao sɔ̌ɔn mâi cam",
+     "ja": "食事中にスマホをいじらないでと言ったのに。何度言ってもわからないんだから。",
+     "en": "I told you not to play on your phone while eating. You never learn.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70146",
+  "th": "รู้แล้วรู้รอด",
+  "action": "add",
+  "ro": "rúu lɛ́ɛo rúu rɔ̂ɔt",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "さっさと済ませてしまう・ひと思いに片付ける",
+    "en": "to get it over with",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "気の進まないこと・先延ばしにしていることを一気に片付けるときに、ให้รู้แล้วรู้รอด（ไป）の形でよく言う。",
+    "example": {
+     "th": "ไปหาหมอฟันให้รู้แล้วรู้รอดไปเลย",
+     "ro": "pai hǎa mɔ̌ɔ fan hâi rúu lɛ́ɛo rúu rɔ̂ɔt pai ləəi",
+     "ja": "さっさと歯医者に行って済ませてしまおう。",
+     "en": "Let's just go to the dentist and get it over with.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70147",
+  "th": "เผื่อเหลือเผื่อขาด",
+  "action": "add",
+  "ro": "phʉ̀ʉa lʉ̌ʉa phʉ̀ʉa khàat",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "念のため多めに・余裕をみて",
+    "en": "to allow some extra, just in case",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "買い物・準備・時間で余裕をみるときの決まった言い回し。",
+    "example": {
+     "th": "ซื้อน้ำไปเผื่อเหลือเผื่อขาดดีกว่า",
+     "ro": "sʉ́ʉ náam pai phʉ̀ʉa lʉ̌ʉa phʉ̀ʉa khàat dii kwàa",
+     "ja": "念のため水は多めに買っていこう。",
+     "en": "Better buy extra water, just in case.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70148",
+  "th": "กินง่ายอยู่ง่าย",
+  "action": "add",
+  "ro": "kin ngâai yùu ngâai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "好き嫌いがなくどこでも暮らせる（気取らない）",
+    "en": "easygoing, not fussy about food or lodging",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "人柄をほめる・自己紹介で自分を気取らないと言うときの決まった言い回し。前半の กินง่าย（好き嫌いがない）は単独でも使う。",
+    "example": {
+     "th": "เขาเป็นคนกินง่ายอยู่ง่าย ไปเที่ยวด้วยสบาย",
+     "ro": "khǎo pen khon kin ngâai yùu ngâai pai thîiao dûuai sà baai",
+     "ja": "彼は好き嫌いがなくどこでも平気な人だから、一緒に旅行すると楽だ。",
+     "en": "He's easygoing about food and lodging, so he's easy to travel with.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70149",
+  "th": "ตาจะปิด",
+  "action": "skip",
+  "skipReason": "ตา＋จะ＋ปิด（目が閉じそう）の自由な描写で、ง่วงจนตาจะปิด・ตาจะปิดอยู่แล้ว など形が一定せず、決まった一言として週に一度以上聞くとは確認できないため。眠さは登録済みの ง่วง で学べる。"
+ },
+ {
+  "id": "tl-70150",
+  "th": "ชีวิตก็งี้",
+  "action": "add",
+  "ro": "chii wít kɔ̂ɔ ngíi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "人生そんなもんだよ",
+    "en": "that's life",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "うまくいかないことを受け流す・慰める口語で、多く末尾に แหละ を付ける。งี้ は อย่างนี้ のくだけた形。",
+    "example": {
+     "th": "ฝนตกวันหยุดอีกแล้ว ชีวิตก็งี้แหละ",
+     "ro": "fǒn tòk wan yùt ìik lɛ́ɛo chii wít kɔ̂ɔ ngíi lɛ̀",
+     "ja": "休みの日にまた雨か。人生そんなもんだよ。",
+     "en": "Rain on my day off again. That's life.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70151",
+  "th": "ไม่ซื้อไม่ว่า",
+  "action": "add",
+  "ro": "mâi sʉ́ʉ mâi wâa",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "見るだけでもどうぞ（買わなくても構いません）",
+    "en": "just looking is fine; no obligation to buy",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "市場や露店の売り手が客を呼び込む決まり文句。ここでの ว่า は「とがめる」の意味（ไม่ว่ากัน と同じ）。",
+    "example": {
+     "th": "เชิญชมก่อนได้ค่ะ ไม่ซื้อไม่ว่า",
+     "ro": "chəən chom kɔ̀ɔn dâai khâ mâi sʉ́ʉ mâi wâa",
+     "ja": "どうぞ見ていってください。買わなくても構いませんよ。",
+     "en": "Please have a look. No need to buy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70152",
+  "th": "ตามที่คุยกันไว้",
+  "action": "skip",
+  "skipReason": "登録済みの ตามที่（〜のとおり）に節を続ける型（ตามที่ตกลงกันไว้・ตามที่แจ้งไว้ など）の一例で、決まった別の意味がなく ตามที่ の見出しで学べるため。"
+ }
+]
