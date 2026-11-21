@@ -1,0 +1,1054 @@
+[
+ {
+  "id": "tl-70059",
+  "th": "เดี๋ยวบอกอีกที",
+  "action": "add",
+  "ro": "dǐiao bɔ̀ɔk ìik thii",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "また（決まったら）知らせるね・あとで連絡する",
+    "en": "I'll let you know later",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "予定や返事がまだ決まっていないとき、友人や同僚に言う。丁寧にはครับ／ค่ะを付ける。",
+    "example": {
+     "th": "ยังไม่แน่ใจเลย เดี๋ยวบอกอีกทีนะ",
+     "ro": "yang mâi nɛ̂ɛ cai ləəi dǐiao bɔ̀ɔk ìik thii ná",
+     "ja": "まだはっきりしないんだ。決まったらまた知らせるね。",
+     "en": "I'm not sure yet. I'll let you know later.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70060",
+  "th": "เดี๋ยวดูก่อน",
+  "action": "skip",
+  "skipReason": "返事を保留する言い方は既存の ขอคิดดูก่อน（tl-52222「ちょっと考えさせて」）・ลองดูก่อน で学べ、เดี๋ยว＋ดูก่อน の組み合わせで別に教える違いが小さいため（editorial-018 の เดี๋ยวตามไป と同じ扱い）。"
+ },
+ {
+  "id": "tl-70061",
+  "th": "เผ็ดกี่เม็ด",
+  "action": "add",
+  "ro": "phèt kìi mét",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "辛さはどのくらい？（唐辛子は何粒？）",
+    "en": "how spicy? (how many chilies?)",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "ソムタム屋などで店員が、辛さを入れる唐辛子の粒の数で聞く。答えは「สองเม็ด（2粒）」「ไม่เผ็ด」など。",
+    "example": {
+     "th": "ได้ค่ะ ส้มตำไทยหนึ่ง เผ็ดกี่เม็ดคะ",
+     "ro": "dâai khâ sôm tam thai nʉ̀ng phèt kìi mét khá",
+     "ja": "はい、ソムタムタイ一つですね。唐辛子は何粒入れますか？",
+     "en": "Sure, one Thai papaya salad. How many chilies?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70062",
+  "th": "กินเผ็ดไม่ได้",
+  "action": "add",
+  "ro": "kin phèt mâi dâai",
+  "kind": "expression",
+  "category": "食べ物・飲み物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "辛いものは食べられません",
+    "en": "I can't eat spicy food",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "注文のときなどに客が言う。自分のことなので ผม／ฉัน を前に付けることが多い。",
+    "example": {
+     "th": "ขอไม่เผ็ดนะครับ ผมกินเผ็ดไม่ได้",
+     "ro": "khɔ̌ɔ mâi phèt ná khráp phǒm kin phèt mâi dâai",
+     "ja": "辛くしないでください。辛いものが食べられないので。",
+     "en": "No spice, please. I can't eat spicy food.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70063",
+  "th": "นั่งตรงไหนก็ได้",
+  "action": "add",
+  "ro": "nâng trong nǎi kɔ̂ɔ dâai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "お好きな席にどうぞ",
+    "en": "sit anywhere you like",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "食堂やカフェで店員が客に席を案内するときの決まり文句。",
+    "example": {
+     "th": "เชิญค่ะ นั่งตรงไหนก็ได้เลยค่ะ",
+     "ro": "chəən khâ nâng trong nǎi kɔ̂ɔ dâai ləəi khâ",
+     "ja": "どうぞ、お好きな席にお座りください。",
+     "en": "Please, sit anywhere you like.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70064",
+  "th": "จ่ายตรงไหน",
+  "action": "add",
+  "ro": "càai trong nǎi",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どこで払えばいいですか・お会計はどこ？",
+    "en": "where do I pay?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "フードコートや病院など、会計の場所が分からないときに客が聞く。丁寧にはครับ／คะを付ける。",
+    "example": {
+     "th": "ขอโทษครับ จ่ายตรงไหนครับ",
+     "ro": "khɔ̌ɔ thôot khráp càai trong nǎi khráp",
+     "ja": "すみません、お会計はどこですか？",
+     "en": "Excuse me, where do I pay?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70065",
+  "th": "รับบัตรไหม",
+  "action": "skip",
+  "skipReason": "カードが使えるか聞く既存の定型表現 จ่ายด้วยบัตรได้ไหม（tl-51873）と同じ用途で、別に教える違いがないため（editorial-007 の บัตรเครดิตได้ไหม を除外した方針と同じ）。"
+ },
+ {
+  "id": "tl-70066",
+  "th": "สแกนตรงนี้",
+  "action": "skip",
+  "skipReason": "สแกน＋ตรงนี้（ここ）の自由な組み合わせで、決まった言い回しではない。QR払いの場面は既存の สแกนได้ไหม（tl-52229）・สแกนจ่าย で学べるため。"
+ },
+ {
+  "id": "tl-70067",
+  "th": "เงินไม่พอ",
+  "action": "skip",
+  "skipReason": "เงิน＋ไม่พอ（足りない）の普通の文で、会計・送金・家計など場面も言う人も決まらず、ไม่พอ の用例で学べるため（แอร์ไม่เย็น は部屋やタクシーで苦情を言うときの決まった一言として追加した）。"
+ },
+ {
+  "id": "tl-70068",
+  "th": "อันละเท่าไร",
+  "action": "add",
+  "ro": "an lá thâo rai",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "1個いくら？",
+    "en": "how much is one?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "市場や屋台で単価を聞く。物によって ลูกละ（果物）・ชิ้นละ・ไม้ละ（串）とも言う。",
+    "example": {
+     "th": "อันละเท่าไรครับ ถ้าซื้อสามอันลดได้ไหม",
+     "ro": "an lá thâo rai khráp thâa sʉ́ʉ sǎam an lót dâai mǎi",
+     "ja": "1個いくらですか？3個買ったら安くなりますか？",
+     "en": "How much is one? Can you give a discount if I buy three?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70069",
+  "th": "มีบัตรสมาชิกไหม",
+  "action": "add",
+  "ro": "mii bàt sà maa chík mǎi",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 3,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "会員カードはお持ちですか",
+    "en": "do you have a membership card?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "コンビニ・スーパー・チェーン店のレジで店員が聞く。持っていなければ ไม่มี と答える。",
+    "example": {
+     "th": "มีบัตรสมาชิกไหมคะ ไม่มีครับ",
+     "ro": "mii bàt sà maa chík mǎi khá mâi mii khráp",
+     "ja": "「会員カードはお持ちですか？」「いいえ、持っていません。」",
+     "en": "Do you have a membership card? No, I don't.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70070",
+  "th": "อุ่นให้ด้วย",
+  "action": "skip",
+  "skipReason": "コンビニでは店員の「อุ่นไหม」と客の「อุ่นด้วย」が普通の形で、อุ่นให้ด้วย はその動詞＋ให้ด้วย の自由な言い方。この形を決まった一言として確かめられないため。"
+ },
+ {
+  "id": "tl-70071",
+  "th": "กดมิเตอร์ด้วย",
+  "action": "add",
+  "ro": "kòt mí tə̂ə dûuai",
+  "kind": "expression",
+  "category": "移動・道案内",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "メーターを使ってください（タクシーで）",
+    "en": "please turn on the meter",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "タクシーに乗った客が運転手に言う。メーターを使わずに料金を決められるのを防ぐ一言。",
+    "example": {
+     "th": "ไปสนามบินครับ กดมิเตอร์ด้วยนะครับ",
+     "ro": "pai sà nǎam bin khráp kòt mí tə̂ə dûuai ná khráp",
+     "ja": "空港までお願いします。メーターを使ってくださいね。",
+     "en": "To the airport, please. Turn on the meter, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70072",
+  "th": "ไปถูกไหม",
+  "action": "add",
+  "ro": "pai thùuk mǎi",
+  "kind": "expression",
+  "category": "移動・道案内",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（道は）分かりますか・行き方分かる？",
+    "en": "do you know the way?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "タクシーやバイクタクシーの運転手に、目的地への道を知っているか確かめる。答えは ไปถูก／ไปไม่ถูก。",
+    "example": {
+     "th": "ไปโรงแรมนี้ครับ พี่ไปถูกไหมครับ",
+     "ro": "pai roong rɛɛm níi khráp phîi pai thùuk mǎi khráp",
+     "ja": "このホテルまでお願いします。道は分かりますか？",
+     "en": "To this hotel, please. Do you know the way?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70073",
+  "th": "เข้าซอยได้ไหม",
+  "action": "skip",
+  "skipReason": "เข้าซอย（路地に入る）＋ได้ไหม の組み合わせの質問で、同じ型の โทรได้ไหม・เดินไปได้ไหม を除外した方針と合わせる。運転手への頼み方としての頻度も週に一度以上とは言いにくいため。"
+ },
+ {
+  "id": "tl-70074",
+  "th": "อยู่ไม่ไกล",
+  "action": "skip",
+  "skipReason": "อยู่＋ไม่ไกล（遠くない）の自由な組み合わせの文で、定型表現ではない（editorial-014 の อยู่ตรงไหน と同じ扱い）。"
+ },
+ {
+  "id": "tl-70075",
+  "th": "เดินไปได้ไหม",
+  "action": "skip",
+  "skipReason": "เดินไป（歩いて行く）＋ได้ไหม の自由な組み合わせの質問で、決まった別の意味がない（editorial-014 の เลื่อนได้ไหม と同じ扱い）。"
+ },
+ {
+  "id": "tl-70076",
+  "th": "ตรงไปเรื่อยๆ",
+  "action": "add",
+  "ro": "trong pai rʉ̂ʉai rʉ̂ʉai",
+  "kind": "expression",
+  "category": "移動・道案内",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ずっとまっすぐ行って",
+    "en": "keep going straight",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "道案内でよく聞く。タクシーで運転手に「このまま真っすぐ」と言うときにも使う。",
+    "example": {
+     "th": "ตรงไปเรื่อยๆ แล้วเลี้ยวซ้ายที่ไฟแดง",
+     "ro": "trong pai rʉ̂ʉai rʉ̂ʉai lɛ́ɛo líiao sáai thîi fai dɛɛng",
+     "ja": "ずっとまっすぐ行って、信号を左に曲がってください。",
+     "en": "Keep going straight, then turn left at the traffic light.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70077",
+  "th": "รออยู่ข้างล่าง",
+  "action": "skip",
+  "skipReason": "รออยู่（待っている）＋ข้างล่าง（下）の自由な組み合わせの文で、場所を変えて言うだけのため。"
+ },
+ {
+  "id": "tl-70078",
+  "th": "กำลังลงไป",
+  "action": "skip",
+  "skipReason": "กำลัง（〜している）＋ลงไป（降りて行く）の自由な組み合わせの文で、定型表現として独立させる違いがない。配達の場面は ลงมารับของ の注記で扱う。"
+ },
+ {
+  "id": "tl-70079",
+  "th": "รอตรงไหน",
+  "action": "skip",
+  "skipReason": "待ち合わせでは อยู่ตรงไหน（editorial-014 で自由な組み合わせとして除外）・เจอกันที่ไหน など言い方が一定せず、この形が決まった一言とは言えないため。会計の จ่ายตรงไหน・降車の ลงตรงไหน・診察の เจ็บตรงไหน は決まった場面で決まった人が言う質問として追加した。"
+ },
+ {
+  "id": "tl-70080",
+  "th": "แอร์ไม่เย็น",
+  "action": "add",
+  "ro": "ɛɛ mâi yen",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "エアコンが効かない・冷えない",
+    "en": "the air conditioner isn't cooling",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ホテルの部屋やタクシー、店などで苦情を言ったり修理を頼んだりするときの決まった言い方。",
+    "example": {
+     "th": "ห้องนี้แอร์ไม่เย็นเลย ช่วยมาดูหน่อยได้ไหมคะ",
+     "ro": "hɔ̂ɔng níi ɛɛ mâi yen ləəi chûuai maa duu nɔ̀ɔi dâai mǎi khá",
+     "ja": "この部屋、エアコンが全然効かないんです。ちょっと見に来てもらえますか？",
+     "en": "The air conditioner in this room isn't cooling at all. Could you come and take a look?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70081",
+  "th": "เป็นอะไรมา",
+  "action": "add",
+  "ro": "pen à rai maa",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どうされましたか・どこが悪いの？",
+    "en": "what seems to be the problem?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "薬局の薬剤師や医者が来た客・患者に症状を聞く決まった質問。けがをした友人に「どうしたの？」と聞くときにも使う。",
+    "example": {
+     "th": "เป็นอะไรมาครับ ไอมาสามวันแล้วค่ะ",
+     "ro": "pen à rai maa khráp ai maa sǎam wan lɛ́ɛo khâ",
+     "ja": "「どうされましたか？」「3日前から咳が出ています。」",
+     "en": "What seems to be the problem? I've had a cough for three days.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70082",
+  "th": "กินหลังอาหาร",
+  "action": "skip",
+  "skipReason": "既存の หลังอาหาร（食後）に กิน を付けただけで、薬の飲み方は หลังอาหาร の見出しで学べるため。"
+ },
+ {
+  "id": "tl-70083",
+  "th": "ดื่มน้ำเยอะๆ",
+  "action": "skip",
+  "skipReason": "ดื่มน้ำ＋เยอะๆ の自由な組み合わせの助言で、会話では กินน้ำเยอะๆ の形も多く一つの定型文に定まらないため。"
+ },
+ {
+  "id": "tl-70084",
+  "th": "เดี๋ยวเช็คให้",
+  "action": "add",
+  "ro": "dǐiao chék hâi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "確認しますね・調べてみます",
+    "en": "I'll check for you",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "店員・受付・同僚が在庫や予約などを調べてあげるときに言う。公式の綴りは เช็ก だが เช็ค と書く人が多い。",
+    "example": {
+     "th": "รอสักครู่นะคะ เดี๋ยวเช็คให้ค่ะ",
+     "ro": "rɔɔ sàk khrûu ná khá dǐiao chék hâi khâ",
+     "ja": "少々お待ちください。確認しますね。",
+     "en": "Please wait a moment. I'll check for you.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70085",
+  "th": "เดี๋ยวถามให้",
+  "action": "skip",
+  "skipReason": "เดี๋ยว＋ถาม＋ให้ の自由な組み合わせで、同じ型の เดี๋ยวเช็คให้（この part で追加）や既存の เดี๋ยวส่งให้ で型を学べるため（editorial-014 の เดี๋ยวไปรับ と同じ扱い）。"
+ },
+ {
+  "id": "tl-70086",
+  "th": "รับแต่เงินสด",
+  "action": "add",
+  "ro": "ráp tɛ̀ɛ ngəən sòt",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "現金のみです",
+    "en": "cash only",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "屋台や小さな店が、カードやQR払いを断るときに言う。張り紙では รับเฉพาะเงินสด とも書く。",
+    "example": {
+     "th": "ขอโทษค่ะ ร้านเรารับแต่เงินสดนะคะ",
+     "ro": "khɔ̌ɔ thôot khâ ráan rao ráp tɛ̀ɛ ngəən sòt ná khá",
+     "ja": "すみません、うちは現金のみなんです。",
+     "en": "Sorry, we only take cash.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70087",
+  "th": "ขอถุงด้วย",
+  "action": "skip",
+  "skipReason": "袋をもらいたいときの既存の定型表現 มีถุงไหม（tl-52214、店で袋をもらいたいとき）と同じ依頼で、別に教える違いがないため。"
+ },
+ {
+  "id": "tl-70088",
+  "th": "ไปเท่าไร",
+  "action": "skip",
+  "skipReason": "実際の言い方は「ไปสยามเท่าไร」のように ไป と เท่าไร の間に行き先が入る型で、ไปเท่าไร のままの決まった一言とは言いにくい。値段の聞き方は既存の เท่าไร・ราคาเท่าไร で学べるため。"
+ },
+ {
+  "id": "tl-70089",
+  "th": "สะดวกคุยไหม",
+  "action": "add",
+  "ro": "sà dùuak khui mǎi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "今話せる？・今お電話大丈夫ですか",
+    "en": "is it a good time to talk?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "電話をかけたときや通話の前に、相手の都合を聞く。都合が悪ければ คุยไม่สะดวก と答える。",
+    "example": {
+     "th": "ตอนนี้สะดวกคุยไหมครับ มีเรื่องจะถามนิดหน่อย",
+     "ro": "tɔɔn níi sà dùuak khui mǎi khráp mii rʉ̂ʉang cà thǎam nít nɔ̀ɔi",
+     "ja": "今お話しして大丈夫ですか？少しお聞きしたいことがあって。",
+     "en": "Is now a good time to talk? I have a quick question.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70090",
+  "th": "โทรได้ไหม",
+  "action": "skip",
+  "skipReason": "โทร（電話する）＋ได้ไหม の自由な組み合わせの質問で、決まった別の意味がない（editorial-014 の เลื่อนได้ไหม と同じ扱い）。"
+ },
+ {
+  "id": "tl-70091",
+  "th": "เดี๋ยวโทรไป",
+  "action": "skip",
+  "skipReason": "เดี๋ยว＋โทรไป の自由な組み合わせで、既存の เดี๋ยวโทรกลับ（tl-52136）・เดี๋ยวทักไป と動詞の向きが違うだけのため（editorial-014 の เดี๋ยวไปรับ と同じ扱い）。"
+ },
+ {
+  "id": "tl-70092",
+  "th": "ไปไหนต่อ",
+  "action": "add",
+  "ro": "pai nǎi tɔ̀ɔ",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "このあとどこ行く？",
+    "en": "where are you going next?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "食事のあとや別れ際に、友人同士で次の予定を聞く。",
+    "example": {
+     "th": "กินเสร็จแล้ว ไปไหนต่อ",
+     "ro": "kin sèt lɛ́ɛo pai nǎi tɔ̀ɔ",
+     "ja": "食べ終わったけど、このあとどこ行く？",
+     "en": "We're done eating. Where to next?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70093",
+  "th": "ซอยอะไร",
+  "action": "add",
+  "ro": "sɔɔi à rai",
+  "kind": "expression",
+  "category": "移動・道案内",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何番のソイ（路地）？",
+    "en": "which soi?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "タクシーやバイクタクシーの運転手、配達員が行き先の路地を確かめる決まった質問。",
+    "example": {
+     "th": "ซอยอะไรครับ ซอยสิบห้าค่ะ",
+     "ro": "sɔɔi à rai khráp sɔɔi sìp hâa khâ",
+     "ja": "「何番のソイですか？」「15番です。」",
+     "en": "Which soi? Soi 15.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70094",
+  "th": "สั่งไปแล้ว",
+  "action": "skip",
+  "skipReason": "สั่ง（注文する）＋ไปแล้ว（もう〜した）の自由な組み合わせの文で、定型表現ではないため。"
+ },
+ {
+  "id": "tl-70095",
+  "th": "อันนี้ใส่อะไร",
+  "action": "skip",
+  "skipReason": "อันนี้＋ใส่อะไร の自由な組み合わせの質問で、会話では ใส่อะไรบ้าง の形も多く一つの定型文に定まらないため。"
+ },
+ {
+  "id": "tl-70096",
+  "th": "ต้องรอนานไหม",
+  "action": "skip",
+  "skipReason": "ต้อง＋รอ＋นาน＋ไหม の自由な組み合わせの質問で、editorial-014 で除外した นานไหม と同じ扱いのため。"
+ },
+ {
+  "id": "tl-70097",
+  "th": "รออีกกี่คิว",
+  "action": "add",
+  "ro": "rɔɔ ìik kìi khiu",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "あと何人（何組）待ちですか",
+    "en": "how many more are ahead of me?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "番号札のある店や役所、病院で、客が自分の順番まであとどのくらいか聞く。",
+    "example": {
+     "th": "ตอนนี้ต้องรออีกกี่คิวคะ",
+     "ro": "tɔɔn níi tɔ̂ɔng rɔɔ ìik kìi khiu khá",
+     "ja": "今、あと何組待ちですか？",
+     "en": "How many more groups are ahead of us now?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70098",
+  "th": "แถมให้",
+  "action": "skip",
+  "skipReason": "既存の แถม（おまけする）に ให้（〜してあげる）を付けただけの組み合わせで、editorial-018 の หยิบให้・ยื่นให้ と同じ扱いのため。"
+ },
+ {
+  "id": "tl-70099",
+  "th": "เดี๋ยวมาใหม่",
+  "action": "add",
+  "ro": "dǐiao maa mài",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "また来ます（今は買わずに立ち去るとき）",
+    "en": "I'll come back later",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "店で買わずに離れるときのやわらかい言い方で、実際には戻らないことも多い。すぐ戻る意味の เดี๋ยวมา とは別。",
+    "example": {
+     "th": "วันนี้ยังไม่ซื้อนะคะ เดี๋ยวมาใหม่ค่ะ",
+     "ro": "wan níi yang mâi sʉ́ʉ ná khá dǐiao maa mài khâ",
+     "ja": "今日はまだ買わないでおきます。また来ますね。",
+     "en": "I won't buy it today. I'll come back later.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70100",
+  "th": "ลงตรงไหน",
+  "action": "add",
+  "ro": "long trong nǎi",
+  "kind": "expression",
+  "category": "移動・道案内",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どこで降りますか・どこで降りればいい？",
+    "en": "where do you get off?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "バイクタクシーやソンテウの運転手が客に聞くほか、客がバスや電車で降りる場所を聞くときにも使う。",
+    "example": {
+     "th": "ลงตรงไหนครับ ข้างหน้าโรงเรียนค่ะ",
+     "ro": "long trong nǎi khráp khâang nâa roong riian khâ",
+     "ja": "「どこで降りますか？」「学校の前でお願いします。」",
+     "en": "Where are you getting off? In front of the school, please.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70101",
+  "th": "ลงมารับของ",
+  "action": "add",
+  "ro": "long maa ráp khɔ̌ɔng",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（下まで）受け取りに来てください",
+    "en": "please come down to pick up your order",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "配達員が電話でマンションの住人に言う。住人は กำลังลงไป（今行きます）などと答える。",
+    "example": {
+     "th": "ของมาส่งแล้วครับ ลงมารับของด้วยนะครับ",
+     "ro": "khɔ̌ɔng maa sòng lɛ́ɛo khráp long maa ráp khɔ̌ɔng dûuai ná khráp",
+     "ja": "お届けに来ました。下まで受け取りに来てください。",
+     "en": "Your delivery is here. Please come down to pick it up.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70102",
+  "th": "วางไว้หน้าห้อง",
+  "action": "skip",
+  "skipReason": "วางไว้（置いておく）＋หน้าห้อง（部屋の前）の自由な組み合わせの指示で、置く場所を変えて言うだけのため。"
+ },
+ {
+  "id": "tl-70103",
+  "th": "ยังเปิดอยู่ไหม",
+  "action": "skip",
+  "skipReason": "ยัง〜อยู่ไหม（まだ〜している？）の型に เปิด を入れただけの自由な組み合わせの質問のため。"
+ },
+ {
+  "id": "tl-70104",
+  "th": "เสียงขาดๆ หายๆ",
+  "action": "add",
+  "ro": "sǐiang khàat khàat hǎai hǎai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "声が途切れ途切れです",
+    "en": "your voice keeps cutting out",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "電話やビデオ通話で電波が悪いときに言う。",
+    "example": {
+     "th": "ฮัลโหล เสียงขาดๆ หายๆ ได้ยินไม่ชัดเลย",
+     "ro": "han lǒo sǐiang khàat khàat hǎai hǎai dâai yin mâi chát ləəi",
+     "ja": "もしもし、声が途切れ途切れで、よく聞こえないよ。",
+     "en": "Hello? You keep cutting out, I can't hear you clearly.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70105",
+  "th": "เห็นข้อความยัง",
+  "action": "add",
+  "ro": "hěn khɔ̂ɔ khwaam yang",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "メッセージ見た？",
+    "en": "did you see my message?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "送った連絡を相手が読んだか確かめる。答えは เห็นแล้ว／ยังไม่เห็น。",
+    "example": {
+     "th": "ส่งรูปไปให้แล้ว เห็นข้อความยัง",
+     "ro": "sòng rûup pai hâi lɛ́ɛo hěn khɔ̂ɔ khwaam yang",
+     "ja": "写真を送ったよ。メッセージ見た？",
+     "en": "I sent you the photos. Did you see my message?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70106",
+  "th": "เป็นมากี่วันแล้ว",
+  "action": "add",
+  "ro": "pen maa kìi wan lɛ́ɛo",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "（その症状は）何日前からですか",
+    "en": "how many days have you had it?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "薬剤師や医者が、症状が続いている日数を聞く決まった質問。",
+    "example": {
+     "th": "เจ็บคอ เป็นมากี่วันแล้วครับ สองวันค่ะ",
+     "ro": "cèp khɔɔ pen maa kìi wan lɛ́ɛo khráp sɔ̌ɔng wan khâ",
+     "ja": "「喉の痛みは何日前からですか？」「2日です。」",
+     "en": "How many days have you had a sore throat? Two days.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70107",
+  "th": "แพ้ยาอะไรไหม",
+  "action": "skip",
+  "skipReason": "既存の แพ้ยา（tl-52169）の注記と用例がこの質問「แพ้ยาอะไรไหมครับ」そのものを教えているため。"
+ },
+ {
+  "id": "tl-70108",
+  "th": "หมอว่ายังไง",
+  "action": "add",
+  "ro": "mɔ̌ɔ wâa yang ngai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "お医者さんは何て言ってた？",
+    "en": "what did the doctor say?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "病院に行ってきた家族や友人に、診察の結果を聞く。",
+    "example": {
+     "th": "ไปหาหมอมาแล้วใช่ไหม หมอว่ายังไงบ้าง",
+     "ro": "pai hǎa mɔ̌ɔ maa lɛ́ɛo châi mǎi mɔ̌ɔ wâa yang ngai bâang",
+     "ja": "病院に行ってきたんでしょ？お医者さんは何て言ってた？",
+     "en": "You went to the doctor, right? What did the doctor say?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70109",
+  "th": "ไม่ต้องตกใจ",
+  "action": "add",
+  "ro": "mâi tɔ̂ɔng tòk cai",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "驚かないで・慌てないで",
+    "en": "don't be alarmed",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "予想外のことが起きたとき、相手を落ち着かせる。อย่าตกใจ とも言う。",
+    "example": {
+     "th": "ไม่ต้องตกใจนะ แค่ไฟดับเฉยๆ",
+     "ro": "mâi tɔ̂ɔng tòk cai ná khɛ̂ɛ fai dàp chə̌əi chə̌əi",
+     "ja": "びっくりしないで。ただの停電だから。",
+     "en": "Don't be alarmed. It's just a power cut.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70110",
+  "th": "เจ็บตรงไหน",
+  "action": "add",
+  "ro": "cèp trong nǎi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "どこが痛いの？",
+    "en": "where does it hurt?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "けがをした人を気づかって聞くほか、医者が痛む場所を聞くときにも使う。",
+    "example": {
+     "th": "เจ็บตรงไหนครับ ตรงนี้ค่ะ ปวดมาก",
+     "ro": "cèp trong nǎi khráp trong níi khâ pùuat mâak",
+     "ja": "「どこが痛いですか？」「ここです。すごく痛いです。」",
+     "en": "Where does it hurt? Right here. It hurts a lot.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70111",
+  "th": "ขอคุยด้วยหน่อย",
+  "action": "add",
+  "ro": "khɔ̌ɔ khui dûuai nɔ̀ɔi",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ちょっと話があるんだけど・少しお話しできますか",
+    "en": "can I have a word with you?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "上司・同僚・家族などに、改まった話を切り出すときに言う。丁寧には ได้ไหมครับ／คะ を続ける。",
+    "example": {
+     "th": "ว่างไหม ขอคุยด้วยหน่อย",
+     "ro": "wâang mǎi khɔ̌ɔ khui dûuai nɔ̀ɔi",
+     "ja": "今ひま？ちょっと話があるんだけど。",
+     "en": "Are you free? I'd like to have a word with you.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70112",
+  "th": "แยกถุง",
+  "action": "add",
+  "ro": "yɛ̂ɛk thǔng",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "袋を分けてください・別の袋にしてください",
+    "en": "separate bags, please",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "コンビニやスーパーのレジで、温かい物と冷たい物などを別の袋に入れてもらうとき。店員が แยกถุงไหม と聞くこともある。",
+    "example": {
+     "th": "อันนี้ร้อน แยกถุงให้ด้วยนะคะ",
+     "ro": "an níi rɔ́ɔn yɛ̂ɛk thǔng hâi dûuai ná khá",
+     "ja": "これは温かいので、袋を分けてくださいね。",
+     "en": "This one is hot, so please bag it separately.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70113",
+  "th": "จ่ายรวมหรือแยก",
+  "action": "add",
+  "ro": "càai ruuam rʉ̌ʉ yɛ̂ɛk",
+  "kind": "expression",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "お会計はご一緒ですか、別々ですか",
+    "en": "paying together or separately?",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "飲食店で店員が複数の客に聞く。客は จ่ายรวม／แยกจ่าย と答える。",
+    "example": {
+     "th": "จ่ายรวมหรือแยกคะ แยกครับ",
+     "ro": "càai ruuam rʉ̌ʉ yɛ̂ɛk khá yɛ̂ɛk khráp",
+     "ja": "「お会計はご一緒ですか、別々ですか？」「別々で。」",
+     "en": "Together or separately? Separately.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70114",
+  "th": "ขอเวลาอีกนิด",
+  "action": "add",
+  "ro": "khɔ̌ɔ wee laa ìik nít",
+  "kind": "expression",
+  "category": "挨拶・会話",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "もう少し時間をください",
+    "en": "give me a little more time",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "仕事の締め切りや返事を少し待ってもらうときに言う。その場で「少々お待ちください」と言う ขอเวลาสักครู่ とは違う。",
+    "example": {
+     "th": "เรื่องนี้ขอเวลาอีกนิดนะครับ ยังตัดสินใจไม่ได้",
+     "ro": "rʉ̂ʉang níi khɔ̌ɔ wee laa ìik nít ná khráp yang tàt sǐn cai mâi dâai",
+     "ja": "この件はもう少し時間をください。まだ決められなくて。",
+     "en": "Please give me a little more time on this. I can't decide yet.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70115",
+  "th": "ขึ้นตรงไหน",
+  "action": "skip",
+  "skipReason": "ขึ้น（乗る）＋ตรงไหน の自由な組み合わせで、乗り物の名前を入れて ขึ้นรถตรงไหน などと言うのが普通。同じ型の ลงตรงไหน（この part で追加）で学べるため。"
+ },
+ {
+  "id": "tl-70116",
+  "th": "ขอตัวไปเข้าห้องน้ำ",
+  "action": "skip",
+  "skipReason": "既存の ขอตัว（その場を失礼する）と เข้าห้องน้ำ（トイレに行く）を続けただけの組み合わせで、それぞれの見出しで学べるため。"
+ }
+]

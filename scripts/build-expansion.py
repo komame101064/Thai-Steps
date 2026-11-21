@@ -6,7 +6,7 @@ Input per batch (scripts/expansion/batch-XXX/):
 Only entries the reviewer accepted (ok, or fix with a corrected entry that passes validation)
 are published. Skipped, rejected and unreviewed entries stay out and are listed in the report.
 Two kinds of batch: batch-XXX (frequency-list candidates, ids tl-2xxxx published as tl-4xxxx) and
-editorial-XXX (words chosen by the editors, see EDITORIAL.md; ids tl-5xxxx general, tl-6xxxx slang,
+editorial-XXX (words chosen by the editors, see EDITORIAL.md; ids tl-5xxxx general (tl-7xxxx once tl-5xxxx ran out, from editorial-019), tl-6xxxx slang,
 published as is). word-bank.json and slang-bank.json are never modified. Afterwards run
 build-word-topics.py, build-ja-readings.py and build-kana-search.py.
 """

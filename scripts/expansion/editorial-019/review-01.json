@@ -1,0 +1,399 @@
+[
+ {
+  "id": "tl-70000",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70001",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70002",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70003",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70004",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70005",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70006",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70007",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70008",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70009",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70010",
+  "verdict": "reject",
+  "issues": [
+   "กลับบ้าน（帰宅する）と กี่โมง（何時）という登録済みの見出し語をそのまま並べた自由な疑問文で、意味は部品の合計どおり。同じ理由で作者は นัดกี่โมง・เสาร์อาทิตย์ทำอะไร を除外しており、それと一貫させる。"
+  ]
+ },
+ {
+  "id": "tl-70011",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70012",
+  "verdict": "reject",
+  "issues": [
+   "既存の見出し語 เข้า（tl-00067）の語義2「さあ・もっと〜して（促しを強める）」がまさに (เร็วเข้า) hurry up として教えており、用例も同一の「เร็วเข้า รถจะออกแล้ว」。既存の語義がすでに教えている。"
+  ]
+ },
+ {
+  "id": "tl-70013",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70014",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70015",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70016",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70017",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70018",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70019",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70020",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70021",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70022",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70023",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70024",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70025",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70026",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70027",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70028",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70029",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70030",
+  "verdict": "fix",
+  "issues": [
+   "構成語の กี่นาที（頻度4）より高い頻度5になっていたため4に"
+  ],
+  "fixed": {
+   "id": "tl-70030",
+   "th": "อีกกี่นาทีถึง",
+   "action": "add",
+   "ro": "ìik kìi naa thii thʉ̌ng",
+   "kind": "expression",
+   "category": "移動・道案内",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "あと何分で着く？",
+     "en": "how many more minutes till you get here?",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "待ち合わせの相手に電話やLINEで聞く。ถึงไหนแล้ว（今どこ？）と並んでよく使う。",
+     "example": {
+      "th": "อีกกี่นาทีถึง รออยู่หน้าร้านนะ",
+      "ro": "ìik kìi naa thii thʉ̌ng rɔɔ yùu nâa ráan ná",
+      "ja": "あと何分で着く？店の前で待ってるね。",
+      "en": "How many more minutes till you get here? I'm waiting in front of the shop.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70031",
+  "verdict": "fix",
+  "issues": [
+   "構成語の มีอารมณ์（頻度4）より高い頻度5になっていたため4に"
+  ],
+  "fixed": {
+   "id": "tl-70031",
+   "th": "ไม่มีอารมณ์",
+   "action": "add",
+   "ro": "mâi mii aa rom",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "その気になれない・気分じゃない",
+     "en": "not in the mood",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [
+      "colloquial"
+     ],
+     "speechStyle": "口語",
+     "note": "親しい相手に、何かをする気が起きないときに言う。恋人同士では性的な誘いを断る意味にもなる（肯定の มีอารมณ์ は性的な意味が強い）。",
+     "example": {
+      "th": "วันนี้ไม่มีอารมณ์ทำงานเลย",
+      "ro": "wan níi mâi mii aa rom tham ngaan ləəi",
+      "ja": "今日は全然仕事をする気になれない。",
+      "en": "I'm not in the mood to work at all today.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70032",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70033",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70034",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70035",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70036",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70037",
+  "verdict": "fix",
+  "issues": [
+   "構成語の นอนดึก（頻度4）より高い頻度5になっていたため4に"
+  ],
+  "fixed": {
+   "id": "tl-70037",
+   "th": "อย่านอนดึก",
+   "action": "add",
+   "ro": "yàa nɔɔn dʉ̀k",
+   "kind": "expression",
+   "category": "挨拶・会話",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "夜更かししないでね",
+     "en": "don't stay up too late",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "家族や恋人が、夜のメッセージや別れ際の気づかいとして言う。",
+     "example": {
+      "th": "ฝันดีนะ อย่านอนดึก",
+      "ro": "fǎn dii ná yàa nɔɔn dʉ̀k",
+      "ja": "おやすみ。夜更かししないでね。",
+      "en": "Sweet dreams. Don't stay up too late.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70038",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70039",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70040",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70041",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70042",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70043",
+  "verdict": "reject",
+  "issues": [
+   "登録済みの ไม่ได้ の語義2「〜していない（動詞の前）」＋ โกรธ の自由な組み合わせで、注記自体が文法として説明している。決まった一言としての独自性がない。"
+  ]
+ },
+ {
+  "id": "tl-70044",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70045",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70046",
+  "verdict": "reject",
+  "issues": [
+   "登録済みの ใครจะไปรู้（誰にも分からないよ）と ได้ไง（どうして〜できるの）を組み合わせただけの反語で、同じ理由で作者は มาได้ไง を除外している。新しく教えることが少ない。"
+  ]
+ },
+ {
+  "id": "tl-70047",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70048",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70049",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70050",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70051",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70052",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70053",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70054",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70055",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70056",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70057",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70058",
+  "verdict": "ok",
+  "issues": []
+ }
+]
