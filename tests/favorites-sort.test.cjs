@@ -6,7 +6,7 @@ const ctx={console,window:{scrollTo(){}},document:{querySelector:()=>({}),getEle
 vm.createContext(ctx);
 for(const n of ['data','expansion','readings','vocabulary','structures','kana-search','word-topics','words-app'])vm.runInContext(fs.readFileSync('dist/'+n+'.js','utf8'),ctx);
 vm.runInContext(fs.readFileSync('dist/app.js','utf8').split("window.addEventListener('hashchange'")[0],ctx);
-vm.runInContext("render=()=>{};toast=()=>{};refreshWordScreen=()=>{};this.t={loadWordBank,getBank:()=>bank,favoriteWord,wordRec,favorites,setFavSort,sortFavWords,favWords,sanitizeWordState,getState:()=>wordState,setTab:d=>{favTab=d;view='favorites'},getSort:()=>favSort}",ctx);
+vm.runInContext("render=()=>{};toast=()=>{};refreshWordScreen=()=>{};this.t={loadWordBank,getBank:()=>bank,favoriteWord,wordRec,favorites,setFavSort,sortFavWords,favWords,sanitizeWordState,getState:()=>wordState,setTab:d=>{favTab=d;view='favorites'},getSort:()=>favSort,setFavPos,favPosGroups,favPosOf,startFavPractice,getSession:()=>wordSession}",ctx);
 (async()=>{const t=ctx.t;await t.loadWordBank();const b=t.getBank();
  const pick=th=>b.find(w=>w.th===th&&w.collection!=='slang');const ws=['สวัสดี','กิน','ทุเรียน','บ้าน'].map(pick);
  for(const w of ws)t.favoriteWord(w.id);
@@ -26,5 +26,10 @@ vm.runInContext("render=()=>{};toast=()=>{};refreshWordScreen=()=>{};this.t={loa
  t.favoriteWord(ws[0].id);assert(!t.wordRec(ws[0].id).favorite&&!('favAt' in t.wordRec(ws[0].id)));
  const s=t.sanitizeWordState({records:{[ws[1].id]:{favorite:true,favAt:5},[ws[0].id]:{favorite:false,favAt:9}}});
  assert.equal(s.records[ws[1].id].favAt,5);assert(!('favAt' in s.records[ws[0].id]));
- console.log('PASS: favorites sort by added (new/old), frequency, weakness, Thai and Japanese order; added time recorded and saved; choice remembered per device.');
+ // 品詞で分ける: 「すべて」は品詞ごとの見出し（名詞→動詞の順）、品詞を選ぶとその品詞だけ、練習もその品詞から。
+ {for(const th of ['ไป','มา'])t.favoriteWord(pick(th).id);const g=t.favPosGroups(t.favWords('general')).map(([p])=>p);assert(g.indexOf('名詞')<g.indexOf('動詞'));
+  let h=t.favorites();assert(h.includes('品詞で分ける')&&/f-pos-head">名詞/.test(h)&&/f-pos-head">動詞/.test(h));
+  t.setFavPos('動詞');h=t.favorites();assert(!h.includes('f-pos-head'));const rows=(h.match(/openFavWord\('([^']+)'\)/g)||[]).map(x=>x.slice(13,-2));assert(rows.length>0&&rows.every(id=>t.favPosOf(t.getBank().find(w=>w.id===id))==='動詞'));
+  t.startFavPractice('cards');assert(t.getSession().ids.every(id=>t.favPosOf(t.getBank().find(w=>w.id===id))==='動詞'));t.setFavPos('')}
+ console.log('PASS: favorites sort by added (new/old), frequency, weakness, Thai and Japanese order; added time recorded and saved; choice remembered per device; grouped and filtered by part of speech, practice follows the filter.');
 })().catch(e=>{console.error(e);process.exit(1)});

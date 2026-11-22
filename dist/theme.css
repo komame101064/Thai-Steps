@@ -145,3 +145,10 @@ html body #main .ex-legend>span{color:var(--rc,var(--t-ink))}
 html body #main .ex-legend>span::before{content:"";display:inline-block;width:9px;height:9px;border-radius:2px;background:currentColor;margin-right:4px}
 html body #main .ex-legend>.ex-legend-key{color:var(--t-ink);background:var(--c-mark);border-radius:3px;padding:0 5px}
 html body #main .ex-legend>.ex-legend-key::before{display:none}
+
+/* お気に入り：品詞で分ける（絞り込みチップ＋品詞ごとの見出し） */
+html body #main .f-pos{flex-wrap:wrap;gap:6px;margin:0 0 10px}
+html body #main .f-pos button{flex:0 0 auto;height:32px;padding:0 11px;font-size:13px}
+html body #main .f-pos button small{display:inline;font-size:12px;margin-left:3px}
+html body #main .f-pos-head{display:flex;align-items:baseline;gap:6px;margin:14px 2px 6px;font-size:15px;color:var(--t-green)}
+html body #main .f-pos-head small{font-size:12px;color:var(--t-sub);font-weight:400}
