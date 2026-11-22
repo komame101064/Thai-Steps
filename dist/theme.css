@@ -152,3 +152,22 @@ html body #main .f-pos button{flex:0 0 auto;height:32px;padding:0 11px;font-size
 html body #main .f-pos button small{display:inline;font-size:12px;margin-left:3px}
 html body #main .f-pos-head{display:flex;align-items:baseline;gap:6px;margin:14px 2px 6px;font-size:15px;color:var(--t-green)}
 html body #main .f-pos-head small{font-size:12px;color:var(--t-sub);font-weight:400}
+
+/* お気に入りの余白（2026-11-22 利用者の要望「詰まってるとこは余白だいじに」）：区切りごとに間をあけ、行は押しやすい高さに */
+html body #main .f-page{max-width:880px}
+html body #main .f-page .f-tabs{margin-bottom:18px}
+html body #main .f-page .f-tabs button small{font-size:12px}
+html body #main .f-page .x-practice{margin-bottom:22px}
+html body #main .f-tools{display:flex;flex-direction:column;gap:12px;margin:0 0 6px;padding:14px;border:1px solid var(--x-line);border-radius:12px;background:#fffefa}
+html body #main .f-tools:empty{display:none}
+html body #main .f-tools .f-sort{display:flex;align-items:center;gap:10px}
+html body #main .f-tools .f-sort .x-label{position:static;width:auto;height:auto;overflow:visible;clip-path:none;flex:0 0 auto;font-size:13px}
+html body #main .f-tools .f-sort .field{flex:1;max-width:280px;height:40px}
+html body #main .f-tools .f-pos{margin:0;gap:8px}
+html body #main .f-pos-head{margin:24px 4px 8px}
+html body #main .f-tools + .f-list{margin-top:16px}
+html body #main .f-page .f-list li{gap:8px;padding:8px 12px 8px 0;min-height:68px}
+html body #main .f-page .f-main{gap:4px;padding:6px 16px}
+html body #main .f-page .f-term [lang="th"]{font-size:17px}
+html body #main .f-page .f-term b{font-size:15px;margin-left:4px}
+html body #main .f-page .f-main small{font-size:13px;line-height:1.5}
