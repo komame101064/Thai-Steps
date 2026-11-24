@@ -7,6 +7,10 @@ bank = {}
 for f in ['word-bank.json', 'word-bank-more.json']:
     for w in json.loads((ROOT / 'dist' / f).read_text()):
         bank[w['id']] = w
+slang = set()
+for f in ['slang-bank.json', 'slang-bank-more.json']:
+    for w in json.loads((ROOT / 'dist' / f).read_text()):
+        slang.add(w['id'])
 errs = []; n = ok = 0
 for f in sorted(R.glob('part-*.json')):
     nn = f.stem.split('-')[1]
@@ -22,15 +26,16 @@ for f in sorted(R.glob('part-*.json')):
         ids = [w['id'] for w in inp[gid]['words']]
         keep, add = g.get('keep', []), g.get('add', [])
         if any(i not in ids for i in keep): e('keep has an id outside the group')
-        if len(add) > 2 or any(i not in bank or bank[i].get('collection') == 'slang' for i in add): e('bad add')
+        if len(add) > 3 or any(i not in bank or i in slang or all(m.get('isSlang') for m in bank[i].get('meanings', [])) for i in add): e('bad add')
         allw = keep + add
         if len(set(allw)) < 2: e('fewer than 2 words')
         items = g.get('items', [])
         if sorted(i.get('id') for i in items) != sorted(set(allw)): e('items must cover keep+add exactly')
         for i in items:
-            if not i.get('use') or len(i['use']) > 60: e(f"use length {i.get('id')}")
-        if not g.get('lead') or len(g['lead']) > 70: e('lead missing/too long')
-        if g.get('tip') and len(g['tip']) > 70: e('tip too long')
+            if not i.get('use') or len(i['use']) > 36: e(f"use length {i.get('id')}")
+            if re.search(r'[a-z]{2,}[\u0300-\u036f]', i.get('use','')): e(f"romanization written into use {i.get('id')}")
+        if not g.get('lead') or len(g['lead']) > 45: e('lead missing/too long')
+        if g.get('tip') and len(g['tip']) > 45: e('tip too long')
         for x in g.get('examples', [])[:5]:
             if not all(x.get(k) for k in ('th', 'ro', 'ja')): e('example needs th/ro/ja')
             elif not any(bank[i]['th'] in x['th'] for i in allw if i in bank): e('example lacks a compared word')
