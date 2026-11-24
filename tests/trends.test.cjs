@@ -36,7 +36,7 @@ assert(t.dictionaryResults('QR').some(x=>x.w.th==='คิวอาร์โค�
 {const W=th=>bank.find(w=>w.th===th),P=th=>t.wordParts(W(th)).map(x=>x.th).join('+');
  assert.equal(P('รถไฟ'),'รถ+ไฟ');assert.equal(P('น้ำแข็ง'),'น้ำ+แข็ง');assert.equal(P('อะไร'),'');assert.equal(P('โล่งอก'),'');
  assert.equal(t.shortGloss(W('หน้า'),W('ก้าวหน้า')),'前');t.setCurrent(W('รถไฟ').id);const h=t.wordDetail();assert(h.includes('成り立ち')&&h.includes(`openWord('${W('รถ').id}')`))}
-// Sanskrit, Pali and Khmer origins are not shown; other sources (中国由来, 英語由来) still are.
+// Sanskrit, Pali, Khmer and Chinese origins are not shown (owner's request); other sources (英語由来) still are.
 const labels=new Set(bank.flatMap(w=>t.wordOriginRows(w).map(r=>r.label)));
-assert(![...labels].some(l=>/サンスクリット|パーリ|クメール|モン語/.test(l)));assert(labels.has('中国由来')&&labels.has('英語由来'));
-console.log(`PASS: ${list.length} curated recent words (新語/流行語); trend theme uses only new senses; slang 分類 filter; badges; Latin gloss search (Z, AI); Sanskrit/Pali/Khmer origins hidden.`);})().catch(e=>{console.error(e);process.exit(1)});
+assert(![...labels].some(l=>/サンスクリット|パーリ|クメール|モン語|中国/.test(l)));assert(labels.has('英語由来'));
+console.log(`PASS: ${list.length} curated recent words (新語/流行語); trend theme uses only new senses; slang 分類 filter; badges; Latin gloss search (Z, AI); Sanskrit/Pali/Khmer/Chinese origins hidden.`);})().catch(e=>{console.error(e);process.exit(1)});
