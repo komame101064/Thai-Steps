@@ -19,6 +19,9 @@ for name in ('WORD_DROP', 'PHRASE_PADDED', 'PHRASE_ENDING'):
     m = re.search(r'const ' + name + r'=new Set\(\[(.*?)\]\)', app, re.S)
     if m: hidden |= set(re.findall(r'tl-\d+', m.group(1)))
 bank = {k: v for k, v in bank.items() if k not in hidden and not v.get('generalHidden')}
+pairs = {}
+for f in sorted((R / 'scripts/word-usage').glob('pairs-*.json')):
+    pairs.update(json.loads(f.read_text()))
 g, by = {}, {}
 for f in sorted((R / 'scripts/word-usage').glob('part-*.json')):
     for x in json.loads(f.read_text()):
@@ -29,7 +32,8 @@ for f in sorted((R / 'scripts/word-usage').glob('part-*.json')):
             continue
         use = {i['id']: i['use'] for i in x.get('items', []) if i.get('id') in ids}
         g[x['gid']] = {'w': ids, 'lead': x['lead'], 'use': use, **({'tip': x['tip']} if x.get('tip') else {}),
-                       **({'ex': x['examples'][:2]} if x.get('examples') else {})}
+                       **({'ex': x['examples'][:2]} if x.get('examples') else {}),
+                       **({'pr': [p for p in pairs[x['gid']] if p.get('id') in ids][:3]} if len([p for p in pairs.get(x['gid'], []) if p.get('id') in ids]) >= 2 else {})}
         for i in ids:
             by.setdefault(i, []).append(x['gid'])
 # Near-duplicate groups (the same words compared in several places, e.g. แค่／เท่านั้น／เพียง／เฉยๆ) are merged:
