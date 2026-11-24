@@ -172,22 +172,24 @@ html body #main .f-page .f-term [lang="th"]{font-size:17px}
 html body #main .f-page .f-term b{font-size:15px;margin-left:4px}
 html body #main .f-page .f-main small{font-size:13px;line-height:1.5}
 
-/* 似た言葉との使い分け（単語詳細） */
-html body #main .w-usage{margin-top:22px}
-html body #main .w-usage-group{background:#fffefa;border:1px solid var(--x-line);border-radius:12px;padding:14px 16px;margin-top:10px}
-html body #main .w-usage-group+.w-usage-group{margin-top:12px}
-html body #main .w-usage-lead{margin:0 0 10px;font-size:15px;font-weight:700;color:var(--t-ink);line-height:1.6}
-html body #main .w-usage-list{list-style:none;margin:0;padding:0;display:grid;gap:8px}
-html body #main .w-usage-list li{padding:8px 10px;border-radius:8px;background:#f6f8f1}
-html body #main .w-usage-list li.is-current{background:#e8f0e2;box-shadow:inset 3px 0 0 var(--t-green)}
-html body #main .w-usage-term{display:inline-flex;align-items:baseline;gap:6px;border:0;background:none;padding:0;font:inherit;color:inherit;cursor:pointer;text-align:left}
+/* 似た言葉との使い分け（単語詳細）— コンパクト版（2026-11-24 利用者の要望） */
+html body #main .w-usage{margin-top:18px}
+html body #main .w-usage-group{background:#fffefa;border:1px solid var(--x-line);border-radius:12px;padding:12px 14px;margin-top:8px}
+html body #main .w-usage-lead{margin:0 0 8px;font-size:14px;font-weight:700;color:var(--t-ink);line-height:1.65}
+html body #main .w-usage-list{list-style:none;margin:0;padding:0}
+html body #main .w-usage-list li{display:grid;grid-template-columns:minmax(88px,auto) 1fr;gap:2px 12px;align-items:baseline;padding:7px 0 7px 8px;border-top:1px solid #e9eee1}
+html body #main .w-usage-list li.is-current{box-shadow:inset 3px 0 0 var(--t-green);background:#f1f6ec}
+html body #main .w-usage-term{display:inline-flex;flex-wrap:wrap;align-items:baseline;gap:0 5px;border:0;background:none;padding:0;font:inherit;color:inherit;cursor:pointer;text-align:left}
+html body #main .w-usage-term [lang="th"]{font-size:16px;color:var(--t-thai)}
 html body #main button.w-usage-term [lang="th"]{text-decoration:underline;text-underline-offset:3px;text-decoration-color:#9fb59a}
-html body #main .w-usage-term [lang="th"]{font-size:17px;color:var(--t-thai)}
-html body #main .w-usage-term b{font-size:14px;color:var(--t-green)}
-html body #main .w-usage-list p{margin:3px 0 0;font-size:14px;line-height:1.6;color:var(--t-text)}
-html body #main .w-usage-tip{margin:10px 0 0;font-size:13px;line-height:1.6;color:var(--t-ink);padding-left:10px;border-left:3px solid var(--t-brass)}
-html body #main .w-usage-ex{margin-top:10px;display:grid;gap:2px}
-html body #main .w-usage-ex [lang="th"]{font-size:16px;color:var(--t-thai)}
-html body #main .w-usage-ex b{font-size:14px;color:var(--t-green)}
+html body #main .w-usage-term b{font-size:13px;color:var(--t-green)}
+html body #main .w-usage-use{font-size:13px;line-height:1.6;color:var(--t-text)}
+html body #main .w-usage-tip{margin:8px 0 0;font-size:13px;line-height:1.6;color:var(--t-ink);padding-left:9px;border-left:3px solid var(--t-brass)}
+html body #main .w-usage-ex{margin-top:8px;padding:7px 10px;border-radius:8px;background:#f6f8f1;display:grid;gap:1px}
+html body #main .w-usage-ex [lang="th"]{font-size:15px;color:var(--t-thai)}
+html body #main .w-usage-ex b{font-size:13px;color:var(--t-green)}
 html body #main .w-usage-ex small{font-size:13px;color:var(--t-sub)}
-html body #main .w-usage-note-ai{margin:8px 2px 0;font-size:12px;color:var(--t-sub)}
+html body #main .w-usage-note-ai{margin:6px 2px 0;font-size:12px;color:var(--t-sub)}
+html body #main .th-in{color:var(--t-thai)}
+html body #main .th-in-ro{margin:0 2px 0 3px;font-size:.88em;font-weight:700;color:var(--t-green)}
+@media (max-width:420px){html body #main .w-usage-list li{grid-template-columns:1fr;gap:1px}}
