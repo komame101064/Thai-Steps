@@ -172,36 +172,40 @@ html body #main .f-page .f-term [lang="th"]{font-size:17px}
 html body #main .f-page .f-term b{font-size:15px;margin-left:4px}
 html body #main .f-page .f-main small{font-size:13px;line-height:1.5}
 
-/* 似た言葉との使い分け（単語詳細）— 「同じ文で比べる」版（2026-11-24 利用者の要望「情報量多すぎ。見やすく」）
-   比べる語ごとに色（uc-1〜6）。一言の違い → 語のチップ → 同じ文で比べる → 詳しく（たたむ）。 */
-html body #main .w-usage{margin-top:18px}
-html body #main .w-usage-group{background:#fffefa;border:1px solid var(--x-line);border-radius:12px;padding:14px 14px 8px;margin-top:8px}
+/* 似た言葉との使い分け（単語詳細）— 「同じ文で比べる」版・すっきり（2026-11-24 利用者の要望「もっと見やすく」）
+   枠の入れ子をやめ、区切り線と余白で。比べる語ごとに色（uc-1〜6）。 */
+html body #main .w-usage{margin-top:20px}
+html body #main .w-usage-group{padding:2px 0 4px}
+html body #main .w-usage-group+.w-usage-group{margin-top:14px;padding-top:14px;border-top:1px solid var(--x-line)}
 html body #main .uc-1{--uc:var(--c-s)}html body #main .uc-2{--uc:var(--c-o)}html body #main .uc-3{--uc:var(--c-v)}html body #main .uc-4{--uc:var(--c-adj)}html body #main .uc-5{--uc:var(--c-tl)}html body #main .uc-6{--uc:var(--c-fn)}
-html body #main b.uc{color:var(--uc);font-weight:700}
-html body #main .w-usage-lead{margin:0 0 10px;font-size:15px;font-weight:600;color:var(--t-ink);line-height:1.7}
-html body #main .w-usage-chips{display:flex;flex-wrap:wrap;gap:6px}
-html body #main .w-usage-chip{display:inline-flex;align-items:center;gap:2px;padding:2px 2px 2px 9px;border:1.5px solid var(--uc);border-radius:999px;background:#fff}
+html body #main b.uc,html body #main .uc.w-usage-link{color:var(--uc);font-weight:700}
+html body #main .w-usage-lead{margin:0 0 10px;font-size:15px;font-weight:700;color:var(--t-ink);line-height:1.7}
+html body #main .w-usage-chips{display:flex;flex-wrap:wrap;gap:6px 8px;margin-bottom:12px}
+html body #main .w-usage-chip{display:inline-flex;align-items:center;gap:0;padding:1px 2px 1px 10px;border:1.5px solid var(--uc);border-radius:999px;background:#fff}
 html body #main .w-usage-chip.is-current{background:#f1f6ec}
 html body #main .w-usage-term{display:inline-flex;align-items:baseline;gap:5px;border:0;background:none;padding:0;font:inherit;cursor:pointer;color:var(--uc)}
-html body #main .w-usage-term [lang="th"]{font-size:15px;font-weight:700;color:var(--uc)}
+html body #main .w-usage-term [lang="th"]{font-size:16px;font-weight:700;color:var(--uc)}
 html body #main .w-usage-term b{font-size:12px;font-weight:700;color:var(--t-green)}
-html body #main .w-usage .w-audio.is-icon{width:28px;height:28px;min-width:28px;padding:0;flex:0 0 auto}
-html body #main .w-usage-chip .w-audio.is-icon{width:26px;height:26px;min-width:26px}
-html body #main .w-usage .w-audio.is-icon svg{width:16px;height:16px}
-html body #main .w-usage-pairs{margin-top:14px}
-html body #main .w-usage-pairs h3{margin:0 0 6px;font-size:13px;color:var(--t-sub);font-weight:700}
-html body #main .w-usage-pair{padding:8px 0 10px 12px;border-left:3px solid var(--uc,#cfd8c8);display:grid;gap:1px}
-html body #main .w-usage-pair+.w-usage-pair{margin-top:6px}
-html body #main .w-usage-ex-th{display:flex;align-items:center;justify-content:space-between;gap:8px}
-html body #main .w-usage-ex-th>span{font-size:17px;color:var(--t-thai);line-height:1.5}
-html body #main .w-usage-pair>b{font-size:13px;color:var(--t-green);font-weight:600}
-html body #main .w-usage-pair>small{font-size:14px;color:var(--t-ink)}
-html body #main .w-usage-pair>em{font-style:normal;font-size:12px;font-weight:700;color:var(--uc,var(--t-sub));margin-top:2px}
-html body #main .w-usage-more{margin-top:10px;border-top:1px solid #e9eee1}
-html body #main .w-usage-more summary{cursor:pointer;padding:8px 0;font-size:13px;font-weight:700;color:var(--t-green)}
-html body #main .w-usage-list{list-style:none;margin:0 0 6px;padding:0;display:grid;gap:4px}
+html body #main .w-usage-say{display:inline-grid;place-items:center;width:30px;height:30px;border:0;background:none;border-radius:50%;color:var(--t-green);cursor:pointer;padding:0;flex:0 0 auto}
+html body #main .w-usage-say:hover{background:#eef3e8}
+html body #main .w-usage-say svg{width:17px;height:17px}
+html body #main .w-usage-pairs{list-style:none;margin:0;padding:0;background:#fffefa;border:1px solid var(--x-line);border-radius:12px}
+html body #main .w-usage-pairs li{padding:10px 12px 11px 14px;display:grid;gap:1px;position:relative}
+html body #main .w-usage-pairs li::before{content:"";position:absolute;left:0;top:12px;bottom:12px;width:4px;border-radius:0 3px 3px 0;background:var(--uc,#cfd8c8)}
+html body #main .w-usage-pairs li+li{border-top:1px solid #edf0e8}
+html body #main .w-usage-point{justify-self:start;font-size:12px;font-weight:700;color:var(--uc,var(--t-sub));margin-bottom:2px}
+html body #main .w-usage-ex-th{display:flex;align-items:center;justify-content:space-between;gap:6px}
+html body #main .w-usage-ex-th>span{font-size:18px;color:var(--t-thai);line-height:1.45}
+html body #main .w-usage-pairs li>b{font-size:13px;color:var(--t-green);font-weight:600}
+html body #main .w-usage-pairs small{font-size:14px;color:var(--t-ink);line-height:1.55}
+html body #main .w-usage-more{margin-top:8px}
+html body #main .w-usage-more summary{cursor:pointer;padding:6px 0;font-size:13px;font-weight:700;color:var(--t-green)}
+html body #main .w-usage-list{list-style:none;margin:2px 0 6px;padding:0;display:grid;gap:6px}
 html body #main .w-usage-list li{font-size:13px;line-height:1.6;color:var(--t-text);padding-left:10px;border-left:3px solid var(--uc)}
-html body #main .w-usage-tip{margin:8px 0 6px;font-size:13px;line-height:1.6;color:var(--t-ink);padding:6px 10px;border-radius:8px;background:#fbf6e6}
-html body #main .w-usage-note-ai{margin:6px 2px 0;font-size:12px;color:var(--t-sub)}
+html body #main .w-usage-link{border:0;background:none;padding:0;font:inherit;font-size:15px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+html body #main .w-usage-list b.uc{font-size:15px}
+html body #main .w-usage-ro{font-size:12px;font-weight:700;color:var(--t-green)}
+html body #main .w-usage-tip{margin:8px 0 4px;font-size:13px;line-height:1.6;color:var(--t-ink);padding:6px 10px;border-radius:8px;background:#fbf6e6}
+html body #main .w-usage-note-ai{margin:8px 2px 0;font-size:12px;color:var(--t-sub)}
 html body #main .th-in{color:var(--t-thai)}
-html body #main .th-in-ro{margin:0 2px 0 3px;font-size:.88em;font-weight:700;color:var(--t-green)}
+html body #main .th-in-ro{margin:0 2px 0 3px;font-size:max(12px,.88em);font-weight:700;color:var(--t-green)}
