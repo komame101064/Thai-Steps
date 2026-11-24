@@ -7,6 +7,10 @@ bank = {}
 for f in ['word-bank.json', 'word-bank-more.json']:
     for w in json.loads((ROOT / 'dist' / f).read_text()):
         bank[w['id']] = w
+slang = set()
+for f in ['slang-bank.json', 'slang-bank-more.json']:
+    for w in json.loads((ROOT / 'dist' / f).read_text()):
+        slang.add(w['id'])
 errs = []; n = ok = 0
 for f in sorted(R.glob('part-*.json')):
     nn = f.stem.split('-')[1]
@@ -22,7 +26,7 @@ for f in sorted(R.glob('part-*.json')):
         ids = [w['id'] for w in inp[gid]['words']]
         keep, add = g.get('keep', []), g.get('add', [])
         if any(i not in ids for i in keep): e('keep has an id outside the group')
-        if len(add) > 3 or any(i not in bank or bank[i].get('collection') == 'slang' for i in add): e('bad add')
+        if len(add) > 3 or any(i not in bank or i in slang or all(m.get('isSlang') for m in bank[i].get('meanings', [])) for i in add): e('bad add')
         allw = keep + add
         if len(set(allw)) < 2: e('fewer than 2 words')
         items = g.get('items', [])
