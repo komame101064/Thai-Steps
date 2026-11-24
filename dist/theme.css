@@ -180,12 +180,13 @@ html body #main .uc-1{--uc:var(--c-s)}html body #main .uc-2{--uc:var(--c-o)}html
 html body #main b.uc{color:var(--uc);font-weight:700}
 html body #main .w-usage-lead{margin:0 0 10px;font-size:15px;font-weight:600;color:var(--t-ink);line-height:1.7}
 html body #main .w-usage-chips{display:flex;flex-wrap:wrap;gap:6px}
-html body #main .w-usage-chip{display:inline-flex;align-items:center;gap:4px;padding:3px 3px 3px 10px;border:1.5px solid var(--uc);border-radius:999px;background:#fff}
-html body #main .w-usage-chip.is-current{background:color-mix(in srgb,var(--uc) 10%,#fff)}
+html body #main .w-usage-chip{display:inline-flex;align-items:center;gap:2px;padding:2px 2px 2px 9px;border:1.5px solid var(--uc);border-radius:999px;background:#fff}
+html body #main .w-usage-chip.is-current{background:#f1f6ec}
 html body #main .w-usage-term{display:inline-flex;align-items:baseline;gap:5px;border:0;background:none;padding:0;font:inherit;cursor:pointer;color:var(--uc)}
-html body #main .w-usage-term [lang="th"]{font-size:16px;font-weight:700;color:var(--uc)}
+html body #main .w-usage-term [lang="th"]{font-size:15px;font-weight:700;color:var(--uc)}
 html body #main .w-usage-term b{font-size:12px;font-weight:700;color:var(--t-green)}
-html body #main .w-usage .w-audio.is-icon{width:30px;height:30px;min-width:30px;padding:0;flex:0 0 auto}
+html body #main .w-usage .w-audio.is-icon{width:28px;height:28px;min-width:28px;padding:0;flex:0 0 auto}
+html body #main .w-usage-chip .w-audio.is-icon{width:26px;height:26px;min-width:26px}
 html body #main .w-usage .w-audio.is-icon svg{width:16px;height:16px}
 html body #main .w-usage-pairs{margin-top:14px}
 html body #main .w-usage-pairs h3{margin:0 0 6px;font-size:13px;color:var(--t-sub);font-weight:700}
