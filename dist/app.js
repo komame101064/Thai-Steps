@@ -185,6 +185,6 @@ window.addEventListener('popstate',e=>{const n=e.state&&e.state.nav;if(!n)return
  render();navKey=navKeyOf(navSnapshot());const y=e.state.scroll||0;setTimeout(()=>window.scrollTo(0,y),0)}finally{navRestoring=false}});
 render();
 // Load the remaining lookup data in the background once the first screen is up; re-render so counts and origins appear.
-if(typeof loadLazyScript==='function')setTimeout(()=>Promise.all(['lesson-quizzes.js','reorder-items.js','word-origins.js','ja-readings.js'].map(loadLazyScript)).then(()=>{if(view==='lesson'||view==='course'||view==='build'||(view==='words'&&typeof wordCurrent!=='undefined'&&wordCurrent))render()}),300);
+if(typeof loadLazyScript==='function')setTimeout(()=>Promise.all(['lesson-quizzes.js','reorder-items.js','word-origins.js','ja-readings.js','word-usage.js'].map(loadLazyScript)).then(()=>{if(view==='lesson'||view==='course'||view==='build'||(view==='words'&&typeof wordCurrent!=='undefined'&&wordCurrent))render()}),300);
 
 if('serviceWorker' in navigator&&location.protocol==='https:')window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
