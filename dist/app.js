@@ -14,7 +14,11 @@ function nextLesson(){return orderedLessons.find(l=>!state.done.includes(l.id))|
 function speaker(id,i){return `<div><button class="speak is-icon" aria-label="例文${i+1}をタイ語で再生" title="発音" onclick="speak(${id},${i})">${icon('audio')}</button></div>`}
 function loadVoices(){if('speechSynthesis'in window)voices=speechSynthesis.getVoices()}
 loadVoices();if('speechSynthesis'in window)speechSynthesis.addEventListener('voiceschanged',()=>{loadVoices();if(view==='settings')render()});
-function speakThaiText(text,slow=false,quiet=false){if(!('speechSynthesis'in window)){if(quiet)return;toast('このブラウザは音声再生に対応していません。ChromeやSafariで開いてください。');return}loadVoices();speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='th-TH';const v=voices.find(v=>v.voiceURI===state.voice&&/^th/i.test(v.lang))||voices.find(v=>/^th/i.test(v.lang));if(v)u.voice=v;u.rate=slow?0.65:Number(state.speed);u.onerror=e=>{if(!quiet&&!['interrupted','canceled','not-allowed'].includes(e.error))toast('音声を再生できませんでした。端末のタイ語音声・通信状態を確認してください。')};speechSynthesis.speak(u);if(!v&&!quiet)toast('端末にタイ語音声を要求しました。聞こえない場合は「音声設定」を確認してください。')}
+// 端末のタイ語音声が区切りを読み違える語は、音声に渡すときだけ音節で区切る（表示は変えない）。
+// 例：ทีละนิด が不自然に読まれる（利用者の指摘 2026-11-25）→「ที ละ」。ทีละคน・ทีละน้อย など ทีละ を含む語・文すべてに効く。
+const SPEECH_FIX=[[/ทีละ/g,'ที ละ ']];
+function speechFix(text){let t=String(text||'');for(const [re,to] of SPEECH_FIX)t=t.replace(re,to);return t.replace(/ {2,}/g,' ').trim()}
+function speakThaiText(text,slow=false,quiet=false){if(!('speechSynthesis'in window)){if(quiet)return;toast('このブラウザは音声再生に対応していません。ChromeやSafariで開いてください。');return}loadVoices();speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(speechFix(text));u.lang='th-TH';const v=voices.find(v=>v.voiceURI===state.voice&&/^th/i.test(v.lang))||voices.find(v=>/^th/i.test(v.lang));if(v)u.voice=v;u.rate=slow?0.65:Number(state.speed);u.onerror=e=>{if(!quiet&&!['interrupted','canceled','not-allowed'].includes(e.error))toast('音声を再生できませんでした。端末のタイ語音声・通信状態を確認してください。')};speechSynthesis.speak(u);if(!v&&!quiet)toast('端末にタイ語音声を要求しました。聞こえない場合は「音声設定」を確認してください。')}
 function speak(id,i,slow=false){speakThaiText(lessons.find(l=>l.id===id).examples[i].th,slow)}
 
 function go(v){if(typeof pauseStep==='function'&&!(typeof navRestoring!=='undefined'&&navRestoring))pauseStep();view=v;quiz=null;if($('#toast'))$('#toast').style.display='none';if(v!=='words'){wordCurrent=null;wordSession=null}render();window.scrollTo(0,0);
