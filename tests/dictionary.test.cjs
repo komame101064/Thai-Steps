@@ -50,4 +50,6 @@ vm.runInContext('this.t={load:loadWordBank,results:dictionaryResults,setLevel:n=
   assert(!top('エロ',8).includes('ใบเหลือง'),'エロ is not イエロー');assert(!top('ちんこ',6).includes('หนังสติ๊ก'),'ちんこ is not パチンコ')}
  // Loose spellings typed without the romanization system, and one row per word (no general + slang twin).
  {assert.equal(ths('kop kun')[0],'ขอบคุณ');assert(top('sawatdi',3).includes('สวัสดี'));assert.equal(ths('aroi')[0],'อร่อย');const r=ths('食べる');assert.equal(r.filter(x=>x==='แดก').length,1,'แดก listed once')}
+ // Katakana typed exactly beats a match that only works with voicing folded (ティー → ที・ตี, not ดี ディー first).
+ {const t=top('ティー',4);assert(t.includes('ที')&&t.includes('ตี')&&!t.includes('ดี'),'ティー: '+t);assert.equal(ths('ディー')[0],'ดี')}
  console.log('PASS: dictionary search ranks exact meanings/headwords first, then compounds, then theme-only matches; Thai, romanization, katakana, hiragana readings and English glosses; independent of study filters.')})().catch(e=>{console.error(e);process.exit(1)});
