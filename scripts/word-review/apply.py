@@ -45,7 +45,11 @@ def apply(only=None):
     # Vetted part-of-speech corrections (scripts/word-review/pos-approved.json, POS_GUIDE.md): {id: {senses: {sourceSense: pos}, reason}}.
     # The entry's own pos follows its first sense. Added 2026-11-26 (owner: 「ทำไม が代名詞？ 他の品詞も見直して」).
     PA=W/'pos-approved.json'
-    for i,x in (json.loads(PA.read_text()) if PA.exists() else {}).items():
+    # Second, full review (POS_GUIDE.md 第2版, 2026-11-26 「品詞を徹底的に見直して」): pos2/approved.json, checked twice (reviewer + verifier) and vetted.
+    P2=W/'pos2'/'approved.json'
+    PA_ALL={**(json.loads(P2.read_text()) if P2.exists() else {})}
+    for i,x in (json.loads(PA.read_text()) if PA.exists() else {}).items():PA_ALL[i]={**PA_ALL.get(i,{}),'senses':{**PA_ALL.get(i,{}).get('senses',{}),**x['senses']}}
+    for i,x in PA_ALL.items():
         w=by.get(i)
         if not w:continue
         for m in w['meanings']:
