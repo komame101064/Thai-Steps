@@ -103,7 +103,7 @@ const FAV_SORTS=[['pos','品詞ごと（見出しで分ける）'],['added-desc'
 let favSort=(()=>{try{const v=localStorage.getItem('thai-steps-fav-sort');return FAV_SORTS.some(([k])=>k===v)?v:'pos'}catch{return 'pos'}})();
 function setFavSort(v){if(!FAV_SORTS.some(([k])=>k===v))return;favSort=v;try{localStorage.setItem('thai-steps-fav-sort',v)}catch{}render()}
 // お気に入りの品詞別表示：「すべて」は品詞ごとの見出しで分け、品詞を選ぶとその品詞だけ（練習もその品詞から出す）。
-const FAV_POS_ORDER=['名詞','動詞','形容詞・状態語','副詞','代名詞','類別詞','数詞','前置詞','接続詞','助詞','間投詞','定型表現'];
+const FAV_POS_ORDER=['名詞','代名詞','疑問詞','動詞','助動詞','形容詞・状態語','副詞','指示詞','限定詞','類別詞','数詞','前置詞','接続詞','助詞','間投詞','接頭辞','定型表現'];
 let favPos='';
 const favPosOf=w=>{const p=String(w.pos||w.meanings?.[0]?.pos||'その他');return p==='副詞・強調語'?'副詞':p};
 function favPosGroups(xs){const m=new Map();for(const w of xs){const p=favPosOf(w);if(!m.has(p))m.set(p,[]);m.get(p).push(w)}const rank=p=>{const i=FAV_POS_ORDER.indexOf(p);return i<0?FAV_POS_ORDER.length:i};return [...m].sort((a,b)=>rank(a[0])-rank(b[0])||b[1].length-a[1].length)}
