@@ -42,6 +42,16 @@ def apply(only=None):
     for i,x in (json.loads(FA.read_text()) if FA.exists() else {}).items():
         w=by.get(i)
         if w and w['frequency']!=x['to']:w.setdefault('frequencyMeasured',w['frequency']);w['frequency']=x['to'];w['frequencyReview']=x['reason']  # keep the measured value for calibration;stat['freq']=stat.get('freq',0)+1
+    # Vetted part-of-speech corrections (scripts/word-review/pos-approved.json, POS_GUIDE.md): {id: {senses: {sourceSense: pos}, reason}}.
+    # The entry's own pos follows its first sense. Added 2026-11-26 (owner: 「ทำไม が代名詞？ 他の品詞も見直して」).
+    PA=W/'pos-approved.json'
+    for i,x in (json.loads(PA.read_text()) if PA.exists() else {}).items():
+        w=by.get(i)
+        if not w:continue
+        for m in w['meanings']:
+            to=x['senses'].get(str(m['sourceSense']))
+            if to and m['pos']!=to:m['pos']=to;stat['pos']=stat.get('pos',0)+1
+        w['pos']=w['meanings'][0]['pos']
     # Senses used mainly in writing (scripts/word-review/literary-extra.json): shown as 文語. Royal, dated and colloquial styles are kept.
     LX=W/'literary-extra.json'
     for i,x in (json.loads(LX.read_text()) if LX.exists() else {}).items():
