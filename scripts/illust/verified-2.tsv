@@ -25,7 +25,7 @@ tl-03660#1	KEEP
 tl-03678#3	KEEP	
 tl-03685#1	KEEP	
 tl-03692#1	KEEP	
-tl-03712#1	KEEP	
+tl-03712#1	DROP	🔔は洋風のベル。寺の鐘には合わない
 tl-03714#2	KEEP	
 tl-03716#1	KEEP	
 tl-03722#1	KEEP	
@@ -97,7 +97,7 @@ tl-04404#1	KEEP
 tl-04418#1	KEEP	
 tl-04419#2	KEEP	
 tl-04431#1	KEEP	
-tl-04440#1	KEEP	
+tl-04440#1	DROP	🎭は演劇（ละครเวที）の絵。劇場（建物）とは区別できない
 tl-04444#1	KEEP	
 tl-04451#1	KEEP	
 tl-04455#1	KEEP	
@@ -106,17 +106,17 @@ tl-04476#3	KEEP
 tl-04508#1	KEEP	
 tl-04576#1	KEEP	
 tl-04577#1	KEEP	
-tl-04582#1	KEEP	
+tl-04582#1	DROP	🦅はワシ（อินทรี）の絵。鷹と区別できない
 tl-04608#1	KEEP	
 tl-04650#1	KEEP	
 tl-04675#1	KEEP	
 tl-04690#1	KEEP	
 tl-04695#1	KEEP	
-tl-04750#1	KEEP	
-tl-04752#1	KEEP	
+tl-04750#1	DROP	🍳は目玉焼き（ไข่ดาว）・料理の絵。フライパン・中華鍋とは区別しにくい
+tl-04752#1	DROP	💄は口紅（ลิปสติก）の絵。化粧品とは区別できない
 tl-04759#1	KEEP	
 tl-04795#1	KEEP	
-tl-04798#1	KEEP	
+tl-04798#1	DROP	🍗は鶏肉（เนื้อไก่）の絵。フライドチキンとは区別できない
 tl-04937#1	KEEP	
 tl-04939#1	KEEP	
 tl-04941#1	KEEP	
@@ -146,14 +146,14 @@ tl-05233#1	KEEP
 tl-05253#1	KEEP	
 tl-40634#1	KEEP	
 tl-40792#1	KEEP	
-tl-41150#2	KEEP	
+tl-41150#2	DROP	🐢は亀一般。タイマイとは分からない
 tl-41218#1	KEEP	
 tl-41421#1	KEEP	
 tl-41526#1	KEEP	
 tl-41580#1	KEEP	
 tl-41636#1	KEEP	
 tl-41883#1	KEEP	
-tl-41968#1	KEEP	
+tl-41968#1	DROP	🪵は丸太（ซุง・ขอน）の絵。薪とは区別できない
 tl-42027#1	KEEP	
 tl-42085#2	KEEP	
 tl-42152#1	KEEP	
@@ -200,7 +200,7 @@ tl-43567#1	KEEP
 tl-43638#1	KEEP	
 tl-43647#2	KEEP	
 tl-43649#1	KEEP	
-tl-43650#1	KEEP	
+tl-43650#1	DROP	🔔は鈴・ベル（กระดิ่ง）の絵。呼び鈴とは区別できない
 tl-43678#1	KEEP	
 tl-43684#1	KEEP	
 tl-43757#1	KEEP	
@@ -227,7 +227,7 @@ tl-44307#1	KEEP
 tl-44320#1	KEEP	
 tl-44321#1	KEEP	
 tl-44323#1	KEEP	
-tl-44344#2	KEEP	
+tl-44344#2	DROP	🕷️は蜘蛛（แมงมุม）の絵。タランチュラは近いだけ
 tl-44356#1	KEEP	
 tl-44372#1	KEEP	
 tl-44395#1	KEEP	
@@ -255,7 +255,7 @@ tl-44794#1	KEEP
 tl-44795#1	KEEP	
 tl-44811#1	KEEP	
 tl-44819#1	KEEP	
-tl-44820#1	KEEP	
+tl-44820#1	DROP	🎣は釣りの絵。漁業（産業）には近いだけ
 tl-44839#1	KEEP	
 tl-44862#1	KEEP	
 tl-44919#1	KEEP	
@@ -263,7 +263,7 @@ tl-44929#1	KEEP
 tl-44983#1	KEEP	
 tl-44985#1	KEEP	
 tl-45003#1	KEEP	
-tl-45007#1	KEEP	
+tl-45007#1	DROP	⛰️は山の絵。山脈と区別できない
 tl-45010#1	KEEP	
 tl-45038#1	KEEP	
 tl-45056#1	KEEP	
@@ -280,10 +280,10 @@ tl-45387#1	KEEP
 tl-45398#1	KEEP	
 tl-45474#1	KEEP	
 tl-45475#1	KEEP	
-tl-45508#1	KEEP	
+tl-45508#1	DROP	🥛はコップの牛乳。母乳・乳には合わない
 tl-45519#1	KEEP	
 tl-45540#1	KEEP	
-tl-45542#1	KEEP	
+tl-45542#1	DROP	🐌は陸のカタツムリ。水生のリンゴガイには近いだけ
 tl-45549#1	KEEP	
 tl-45562#1	KEEP	
 tl-45572#1	KEEP	
@@ -293,8 +293,8 @@ tl-45730#1	KEEP
 tl-45751#1	KEEP	
 tl-45863#1	KEEP	
 tl-45890#1	KEEP	
-tl-45927#1	KEEP	
-tl-45962#1	DROP	🏢はビル・オフィスの絵で、職場（勤め先一般）には近いだけ
+tl-45927#1	DROP	🔭は望遠鏡。主な意味の双眼鏡とは違う
+tl-45962#1	DROP	🏢はオフィスビルの絵で、職場一般には近いだけ
 tl-46056#1	KEEP	
 tl-46070#1	KEEP	
 tl-46085#1	KEEP	
@@ -327,7 +327,7 @@ tl-46605#1	KEEP
 tl-46607#1	KEEP	
 tl-46617#1	KEEP	
 tl-46626#1	KEEP	
-tl-46712#1	KEEP	
+tl-46712#1	DROP	🔩はボルトとナット。ねじ（สกรู）とは区別できない
 tl-46799#1	KEEP	
 tl-46821#1	KEEP	
 tl-46822#1	KEEP	
@@ -341,7 +341,7 @@ tl-47014#1	KEEP
 tl-47034#1	KEEP	
 tl-47070#1	KEEP	
 tl-47107#1	KEEP	
-tl-47141#1	KEEP	
+tl-47141#1	DROP	🦎はトカゲ（กิ้งก่า）の絵。ヤモリと区別できない
 tl-47154#1	KEEP	
 tl-47173#1	KEEP	
 tl-47190#1	KEEP	
@@ -354,14 +354,14 @@ tl-47497#1	KEEP
 tl-47528#1	KEEP	
 tl-47602#1	KEEP	
 tl-47616#1	KEEP	
-tl-47625#1	KEEP	
+tl-47625#1	DROP	🥃はウイスキー（วิสกี้）の絵。酒一般とは区別できない
 tl-47655#1	KEEP	
 tl-47658#1	KEEP	
 tl-47668#1	KEEP	
 tl-47671#1	KEEP	
-tl-47674#1	KEEP	
+tl-47674#1	DROP	🗑️はゴミ箱（ถังขยะ）の絵で、ごみそのものではない
 tl-47679#1	KEEP	
-tl-47720#1	KEEP	
+tl-47720#1	DROP	♟️は歩（เบี้ย）の絵。タイの将棋（หมากรุก）とは区別できない
 tl-47792#1	KEEP	
 tl-47828#1	KEEP	
 tl-47834#1	KEEP	
@@ -369,11 +369,11 @@ tl-47852#1	KEEP
 tl-47877#1	KEEP	
 tl-47964#1	KEEP	
 tl-47981#2	KEEP	
-tl-48057#1	KEEP	
+tl-48057#1	DROP	🔔は鈴・ベル（กระดิ่ง）の絵。牛の鈴とは区別できない
 tl-48070#1	KEEP	
 tl-48092#1	KEEP	
 tl-48108#1	KEEP	
-tl-48117#1	KEEP	
+tl-48117#1	DROP	🐢は亀一般。アオウミガメとは分からない
 tl-48171#1	KEEP	
 tl-48178#1	KEEP	
 tl-48203#1	KEEP	
@@ -403,10 +403,10 @@ tl-48729#1	KEEP
 tl-48733#1	KEEP	
 tl-48752#1	KEEP	
 tl-48781#1	KEEP	
-tl-48847#1	DROP	👑は王冠（มงกุฎ）の絵。国王は比喩で、王冠と区別できない
+tl-48847#1	DROP	👑は王冠（มงกุฎ）の絵。国王とは区別できない
 tl-48865#1	KEEP	
 tl-48872#1	KEEP	
-tl-48876#1	KEEP	
+tl-48876#1	DROP	🐒は猿の絵。申年とは分からない
 tl-48900#1	KEEP	
 tl-48909#1	KEEP	
 tl-48931#1	KEEP	
@@ -427,7 +427,7 @@ tl-50682#2	KEEP
 tl-50709#1	KEEP	
 tl-50712#1	KEEP	
 tl-50716#1	KEEP	
-tl-50719#1	DROP	🎲はさいころ（ลูกเต๋า）の絵で、ボードゲームには近いだけ
+tl-50719#1	DROP	🎲はさいころ（ลูกเต๋า）の絵。ボードゲームには近いだけ
 tl-50723#1	KEEP	
 tl-50725#1	KEEP	
 tl-50735#1	KEEP	
