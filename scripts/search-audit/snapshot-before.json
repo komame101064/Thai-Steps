@@ -1,23 +1,23 @@
 {
  "summary": {
   "queries": 184,
-  "pass": 170,
-  "passRate": 0.924,
+  "pass": 166,
+  "passRate": 0.902,
   "byType": {
    "ja": {
-    "pass": 30,
+    "pass": 29,
     "total": 32
    },
    "hira": {
-    "pass": 29,
+    "pass": 28,
     "total": 30
    },
    "kana": {
-    "pass": 26,
+    "pass": 25,
     "total": 30
    },
    "ro": {
-    "pass": 25,
+    "pass": 24,
     "total": 32
    },
    "th": {
@@ -2727,7 +2727,14 @@
      "inBank": true
     }
    ],
-   "order": [],
+   "order": [
+    {
+     "a": "หลับ",
+     "b": "มีอะไรกัน",
+     "ra": 3,
+     "rb": 2
+    }
+   ],
    "top": [
     {
      "th": "นอน",
@@ -2804,8 +2811,8 @@
     }
    ],
    "missingFromBank": [],
-   "orderOk": true,
-   "pass": true
+   "orderOk": false,
+   "pass": false
   },
   {
    "q": "見る",
@@ -4364,7 +4371,14 @@
      "inBank": true
     }
    ],
-   "order": [],
+   "order": [
+    {
+     "a": "ชอบ",
+     "b": "สุกี้",
+     "ra": 2,
+     "rb": 1
+    }
+   ],
    "top": [
     {
      "th": "สุกี้",
@@ -4440,8 +4454,8 @@
     }
    ],
    "missingFromBank": [],
-   "orderOk": true,
-   "pass": true
+   "orderOk": false,
+   "pass": false
   },
   {
    "q": "いえ",
@@ -7023,7 +7037,14 @@
      "inBank": true
     }
    ],
-   "order": [],
+   "order": [
+    {
+     "a": "น้ำ",
+     "b": "นำ",
+     "ra": 2,
+     "rb": 1
+    }
+   ],
    "top": [
     {
      "th": "นำ",
@@ -7100,8 +7121,8 @@
     }
    ],
    "missingFromBank": [],
-   "orderOk": true,
-   "pass": true
+   "orderOk": false,
+   "pass": false
   },
   {
    "q": "カーオ",
@@ -8872,7 +8893,14 @@
      "inBank": true
     }
    ],
-   "order": [],
+   "order": [
+    {
+     "a": "กินข้าว",
+     "b": "ญาติพี่น้อง",
+     "ra": 3,
+     "rb": 2
+    }
+   ],
    "top": [
     {
      "th": "กิน",
@@ -8948,8 +8976,8 @@
     }
    ],
    "missingFromBank": [],
-   "orderOk": true,
-   "pass": true
+   "orderOk": false,
+   "pass": false
   },
   {
    "q": "aroi",
@@ -9763,7 +9791,7 @@
     "ข้าว",
     "เก้า"
    ],
-   "note": "",
+   "note": "loose spelling of khâao (rice) / kâao (nine); ข้าว currently absent",
    "total": 46,
    "viaCounts": {
     "ro": 46

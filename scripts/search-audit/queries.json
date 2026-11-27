@@ -237,7 +237,13 @@
    "นอน",
    "หลับ"
   ],
-  "note": "sleep sense before the sexual euphemism"
+  "note": "sleep sense before the sexual euphemism",
+  "before": [
+   [
+    "หลับ",
+    "มีอะไรกัน"
+   ]
+  ]
  },
  {
   "q": "見る",
@@ -378,7 +384,13 @@
   "expect": [
    "ชอบ"
   ],
-  "note": "好き in kana: Japanese meaning before the Thai pronunciation スキ (สุกี้)"
+  "note": "好き in kana: Japanese meaning before the Thai pronunciation スキ (สุกี้)",
+  "before": [
+   [
+    "ชอบ",
+    "สุกี้"
+   ]
+  ]
  },
  {
   "q": "いえ",
@@ -623,7 +635,13 @@
   "expect": [
    "น้ำ"
   ],
-  "note": "long ー: น้ำ (náam) before นำ (nam)"
+  "note": "long ー: น้ำ (náam) before นำ (nam)",
+  "before": [
+   [
+    "น้ำ",
+    "นำ"
+   ]
+  ]
  },
  {
   "q": "カーオ",
@@ -785,7 +803,13 @@
    "กิน",
    "กินข้าว"
   ],
-  "note": "home chip; English \"kin\" (relatives) should not split กิน and its compounds"
+  "note": "home chip; English \"kin\" (relatives) should not split กิน and its compounds",
+  "before": [
+   [
+    "กินข้าว",
+    "ญาติพี่น้อง"
+   ]
+  ]
  },
  {
   "q": "aroi",
@@ -888,10 +912,10 @@
   "q": "kao",
   "type": "ro",
   "expect": [
-   "เก่า",
+   "ข้าว",
    "เก้า"
   ],
-  "note": "exact readings first; ข้าว (khâao) typed without h should still appear (loose spelling)"
+  "note": "loose spelling of khâao (rice) / kâao (nine); ข้าว currently absent"
  },
  {
   "q": "khaw",
