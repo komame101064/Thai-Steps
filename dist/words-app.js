@@ -195,14 +195,24 @@ function dueWord(w){const r=wordRec(w.id);return r.manual||(r.seen>0&&r.due<=Dat
 // Dictionary search: whole bank (general and slang), independent of the study range/theme filters.
 // Lower score = better. Exact headword / exact meaning first, then words that contain the query, then weak matches
 // that only hit a theme or category label.
-const JA_RE=/[぀-ヿ㐀-鿿]/,THAI_RE=/[฀-๿]/;
-const jaKey=s=>String(s).normalize('NFKC').replace(/[?!。、.,・\s「」『』〜~]/g,'');
+const JA_RE=/[぀-ヿ\u3400-\u9fff]/,THAI_RE=/[฀-๿]/;
+// Search helpers run once per word for every query: pure string helpers keep their results.
+const memoStr=f=>{const c=new Map();return s=>{let v=c.get(s);if(v===undefined){if(c.size>500000)c.clear();v=f(s);c.set(s,v)}return v}};
+const jaKey=memoStr(s=>String(s).normalize('NFKC').replace(/[?!。、.,・\s「」『』〜~]/g,''));
 // A kana match must not cut a mora in half: きゅうり is not the start of きゅうりょう (給料).
 const SPLIT_MORA=/^[ゃゅょぁぃぅぇぉゎー]/;
 function kanaContains(c,h){for(let i=c.indexOf(h);i>=0;i=c.indexOf(h,i+1))if(!SPLIT_MORA.test(c.slice(i+h.length)))return true;return false}
 const toHiragana=s=>String(s).normalize('NFKC').replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-0x60));
-function jaTerms(ja){return String(ja).replace(/（[^）]*）|\([^)]*\)/g,'').split(/[・／\/、，,；;]/).map(t=>t.replace(/[〜～]/g,'').trim()).filter(Boolean)}
-const foldRo=s=>foldWord(s).replace(/[\s'’-]/g,'').replace(/([aeiou])\1+/g,'$1');
+// A gloss with the copula or the na ending (好きだ, きれいな) is that word itself: 好き, きれい. Kana-only nouns (おとな, みんな),
+// past forms (済んだ) and negative imperatives (心配するな) are left out.
+const daStem=t=>t.length>2&&/[だな]$/.test(t)&&!/んだ$|[うくすつぬふむゆる]な$/.test(t)&&(/[\u3400-\u9fff]/.test(t)||/い[だな]$/.test(t))?t.slice(0,-1):'';
+// Nouns listed before a phrase that continues (仕事・授業などが終わる) share its predicate; they are not standalone meanings,
+// so they are not exact terms. Indices follow jaTerms. 寝る・横になる is two meanings (寝る is not a bare noun).
+const jaListedOnly=memoStr(ja=>jaListedOnly0(ja));function jaListedOnly0(ja){const parts=String(ja).replace(/（[^）]*）|\([^)]*\)/g,'').split(/([・／\/、，,；;])/),out=new Set();let idx=-1,group=[];
+ const flush=()=>{if(group.length>1){const last=group[group.length-1].t,etc=/など/.test(last),pred=/[\u3400-\u9fffァ-ヶー][をが][^を]*[うくぐすつぬぶむるい]$/.test(last)&&!/ない$|よう$/.test(last);if(etc||pred)group.slice(0,-1).forEach(g=>{if(/[\u3400-\u9fffァ-ヶー]$/.test(g.t)&&(etc||![...g.t].some(c=>/[\u3400-\u9fffァ-ヶ]/.test(c)&&last.includes(c))))out.add(g.i)})}group=[]};
+ for(let k=0;k<parts.length;k+=2){const t=parts[k].replace(/[〜～]/g,'').trim();if(t){idx++;group.push({t,i:idx})}if(parts[k+1]!=='・')flush()}flush();return out}
+const jaTerms=memoStr(ja=>jaTerms0(ja));function jaTerms0(ja){return String(ja).replace(/（[^）]*）|\([^)]*\)/g,'').split(/[・／\/、，,；;]/).map(t=>t.replace(/[〜～]/g,'').trim()).filter(Boolean)}
+const foldQ=memoStr(s=>foldWord(s)),toHiraQ=memoStr(s=>toHiragana(s).replace(/\s+/g,'')),normalizeKanaQ=memoStr(s=>normalizeKana(s)),strictKanaQ=memoStr(s=>strictKana(s)),foldRo=s=>foldWord(s).replace(/[\s'’-]/g,'').replace(/([aeiou])\1+/g,'$1');
 // English glosses are compared as whole terms ("to eat", "a dog" -> "eat", "dog"); simple inflections are tried too.
 const enTerm=t=>String(t).toLowerCase().replace(/\([^)]*\)/g,' ').replace(/^\s*(?:to be|to|a|an|the)\s+/,'').replace(/[.!?]+$/,'').replace(/\s+/g,' ').trim();
 function enVariants(q){const v=new Set([q]);const add=x=>{if(x.length>1)v.add(x)};
@@ -210,21 +220,25 @@ function enVariants(q){const v=new Set([q]);const add=x=>{if(x.length>1)v.add(x)
  if(/ing$/.test(q)){const b=q.slice(0,-3);add(b);add(b+'e');if(/(.)\1$/.test(b))add(b.slice(0,-1))}
  if(/ed$/.test(q)){const b=q.slice(0,-2);add(b);add(b+'e');add(q.slice(0,-1));if(/(.)\1$/.test(b))add(b.slice(0,-1))}
  return [...v]}
-function englishMatch(w,q){const vs=enVariants(enTerm(q));if(!vs[0])return null;let best=null;const take=(score,m)=>{if(!best||score<best.score)best={score,en:m.en}};
- w.meanings.forEach((m,mi)=>{if(!m.en)return;const terms=String(m.en).split(/[,;\/]/).map(enTerm).filter(Boolean);
+const enQuery=memoStr(q=>enVariants(enTerm(q)));
+function englishMatch(w,q){const vs=enQuery(q);if(!vs[0])return null;let best=null;const take=(score,m)=>{if(!best||score<best.score)best={score,en:m.en}};
+ w.meanings.forEach((m,mi)=>{if(!m.en)return;const terms=m._enTerms||(m._enTerms=String(m.en).split(/[,;\/]/).map(enTerm).filter(Boolean));
   terms.forEach((t,ti)=>vs.forEach((v,vi)=>{if(t===v)take((mi?1:0)+(ti?1:0)+(vi?1:0),m)}));
-  const plain=' '+String(m.en).toLowerCase().replace(/[^a-z'\s-]/g,' ').replace(/\s+/g,' ')+' ';if(vs.some(v=>v.length>2&&plain.includes(' '+v+' ')))take(6+(mi?1:0),m)});return best}
+  const plain=m._enPlain||(m._enPlain=' '+String(m.en).toLowerCase().replace(/[^a-z'\s-]/g,' ').replace(/\s+/g,' ')+' ');if(vs.some(v=>v.length>2&&plain.includes(' '+v+' ')))take(6+(mi?1:0),m)});return best}
 // Romanization: whole reading, then syllable-aligned prefix/inside matches (so "go" does not hit ngəən).
 const syllables=r=>foldWord(r).split(/\s+/).map(foldRo).filter(Boolean);
 // Loose spelling of a reading as learners type it without the system (kop kun, sawatdi, aroi): no aspiration h,
 // plain vowels, c/j/ch alike. Used only as a fallback, after the exact reading.
-const looseRo=s=>foldRo(s).replace(/kh/g,'k').replace(/ph/g,'p').replace(/th/g,'t').replace(/ch|j/g,'c').replace(/ue/g,'u').replace(/oe/g,'e').replace(/ae/g,'e').replace(/y/g,'i').replace(/w(?=[^aeiou]|$)/g,'o').replace(/([aeiou])\1+/g,'$1');
-function looseRomanMatch(w,q){const f=looseRo(q);if(f.length<4)return Infinity;const r=w._loose||(w._loose=looseRo(w.ro));return r===f?3:r.startsWith(f)&&f.length>=5?7:Infinity}
-function romanMatch(w,q){const f=foldRo(q);if(!f)return Infinity;let best=Infinity;const take=n=>{if(n<best)best=n};const toned=TONE_RE.test(q),exactTone=x=>x.normalize('NFC').replace(/\s+/g,'')===q.normalize('NFC').replace(/\s+/g,'');
- const qs=' '+syllables(q).join(' ');
- for(const r of [w.ro,...w.meanings.map(m=>m.ro).filter(Boolean)]){const whole=foldRo(r),sy=' '+syllables(r).join(' ')+' ',alt=r===w.ro?0:1;
+const looseRo=s=>foldRo(s).replace(/kh/g,'k').replace(/ph/g,'p').replace(/th/g,'t').replace(/ch|j/g,'c').replace(/ue/g,'u').replace(/oe/g,'e').replace(/ae/g,'e').replace(/y/g,'i').replace(/w(?=[^aeiou]|$)/g,'o').replace(/([aeiou])\1+/g,'$1').replace(/td/g,'d');
+// Query side only: spellings learners carry over from English (sawasdee, khob khun): ee = ii, a final s/d = t, a final b = p.
+const looseQuery=s=>looseRo(foldWord(s).replace(/ee/g,'i').replace(/(?<=[aeiou])[sd](?=[^aeiou]|$)/g,'t').replace(/(?<=[aeiou])b(?=[^aeiou]|$)/g,'p'));
+function looseRomanMatch(w,q){const f=looseQuery(q);if(f.length<4)return Infinity;const r=w._loose||(w._loose=looseRo(w.ro));return r===f?3:r.startsWith(f)&&f.length>=5?7:Infinity}
+const foldRoQ=memoStr(s=>foldRo(s)),syllablesQ=memoStr(s=>' '+syllables(s).join(' '));
+function romanMatch(w,q){const f=foldRoQ(q);if(!f)return Infinity;let best=Infinity;const take=n=>{if(n<best)best=n};const toned=TONE_RE.test(q),exactTone=x=>x.normalize('NFC').replace(/\s+/g,'')===q.normalize('NFC').replace(/\s+/g,'');
+ const qs=syllablesQ(q);
+ for(const {r,whole,s,sy} of w._roC||(w._roC=[w.ro,...w.meanings.map(m=>m.ro).filter(Boolean)].map(r=>{const s=syllables(r);return {r,whole:foldRo(r),s,sy:' '+s.join(' ')+' '}}))){const alt=r===w.ro?0:1;
   // With tone marks typed, the exact toned reading wins over readings that only match without tones.
-  if(whole===f)take((toned&&!exactTone(r)?1:0)+alt);else if(whole.startsWith(f))take(4);else if(f.length>2&&sy.includes(qs))take(8)}
+  if(whole===f)take((toned&&!exactTone(r)?1:0)+alt);else if(whole.startsWith(f)){/* a prefix that ends on a syllable boundary (kin → kin khâao) keeps 4; one that cuts a syllable (rak → raa khaa, kin → kìng) is typing in progress */let aligned=false;for(let i=1;i<s.length&&!aligned;i++)aligned=foldRo(s.slice(0,i).join(''))===f;take(aligned?4:7)}else if(f.length>2&&sy.includes(qs))take(8)}
  return best}
 const TONE_RE=/[̀-̌]|[àáâǎèéêěìíîǐòóôǒùúûǔ]/i;
 // A gloss that starts with the query and then a particle (雷が鳴る, 雷を…) is about that very thing, so it ranks
@@ -236,23 +250,27 @@ const PARTICLE_AFTER=/^[がをにはのでともへやか](?![ぁ-ゖ])/;
 // left out (大+人, 電+車 are different words).
 const NAME_SUFFIX=new Set([...'官署員者所局館室店屋場庁省院士師係人語']);
 function prefixScore(term,q){const rest=term.slice(q.length);return q.length>1&&rest.length===1&&NAME_SUFFIX.has(rest)?1:PARTICLE_AFTER.test(rest)?2:/^[\u3400-\u9fffァ-ヶ]/.test(rest)?5:4}
-function dictionaryMatch(w,raw){const t0=String(raw).trim(),q=THAI_RE.test(t0)?t0:t0.normalize('NFKC');const out={score:Infinity,en:null,via:''};if(!q)return {...out,score:0};
- const take=(n,via,en=null)=>{if(n<out.score){out.score=n;out.via=via;out.en=en}};
+// Per-meaning gloss data that does not depend on the query, kept on the meaning.
+function jaInfo(m){if(m._ji)return m._ji;const raw=String(m.ja).replace(/（[^）]*）|\([^)]*\)/g,'').split(/[・／\/、，,；;]/),terms=jaTerms(m.ja);
+ return m._ji={terms,keys:terms.map(jaKey),lo:jaListedOnly(m.ja),affix:raw.map(t=>/[〜～]/.test(t)),pieces:raw.map(t=>t.normalize('NFKC').trim()),all:jaKey(m.ja),ds:terms.map(t=>daStem(t.normalize('NFKC'))),kana:terms.map(t=>/^[ぁ-ゖァ-ヶー]+$/.test(t)?toHiragana(t):null)}}
+function dictionaryMatch(w,raw){const t0=String(raw).trim(),q=THAI_RE.test(t0)?t0:t0.normalize('NFKC');const out={score:Infinity,en:null,via:'',sub:false,ns:null};if(!q)return {...out,score:0};
+ // sub: katakana found only inside a longer spelling or reading; ns keeps the best other match in case those are dropped.
+ const take=(n,via,en=null,sub=false)=>{if(n<out.score){out.score=n;out.via=via;out.en=en;out.sub=sub}if(!sub&&(!out.ns||n<out.ns.score))out.ns={score:n,via,en}};
  if(THAI_RE.test(q)){const t=q.replace(/\s+/g,'');if(w.th===t)take(0,'th');else if(w.th.startsWith(t))take(4,'th');else if(w.th.includes(t))take(8,'th')}
- if(JA_RE.test(q)){const qk=jaKey(q);w.meanings.forEach((m,mi)=>{const extra=mi?2:0,affix=String(m.ja).replace(/（[^）]*）|\([^)]*\)/g,'').split(/[・／\/、，,；;]/).map(t=>/[〜～]/.test(t));jaTerms(m.ja).forEach((term,ti)=>{const tk=jaKey(term);if(tk&&tk===qk)take(extra+(affix[ti]?1:0),'ja');else if(qk&&tk.startsWith(qk))take(prefixScore(tk,qk)+extra,'ja')});if((qk.length>1||/[\u3400-\u9fff]/.test(qk))&&jaKey(m.ja).includes(qk))take(8+(mi?1:0),'ja');
+ if(JA_RE.test(q)){const qk=jaKey(q);w.meanings.forEach((m,mi)=>{const extra=mi?2:0,J=jaInfo(m),affix=J.affix,lo=J.lo;J.keys.forEach((tk,ti)=>{if(tk===qk&&lo.has(ti))return;if(tk&&(tk===qk||qk.length>1&&daStem(tk)===qk))take(extra+(affix[ti]?1:0),'ja');else if(qk&&tk.startsWith(qk))take(/^[ぁ-ゖー]+$/.test(qk)&&/^[ぁ-ゖー]+$/.test(tk)&&!/^[をにがはでともへの]/.test(tk.slice(qk.length))?7+extra:prefixScore(tk,qk)+extra,'ja')});if((qk.length>1||/[\u3400-\u9fff]/.test(qk))&&J.all.includes(qk))take(8+(mi?1:0),'ja');
    /* a gloss that is a pattern of the query (もし〜なら for もし) is that word itself, so it ranks with the exact matches */
-   if(qk)String(m.ja).replace(/（[^）]*）|\([^)]*\)/g,'').split(/[・／\/、，,；;]/).forEach(t=>{t=t.normalize('NFKC').trim();if(t.startsWith(qk)&&/^[〜～~]/.test(t.slice(qk.length)))take(extra,'ja')})});
-  if(/^[ぁ-ゖァ-ヶー\s]+$/.test(q)){const h=toHiragana(q).replace(/\s+/g,''),hira=/[ぁ-ゖ]/.test(q),lift=hira?0:2,rd=typeof JA_READINGS==='undefined'?null:JA_READINGS[w.id];
+   if(qk)J.pieces.forEach(t=>{if(t.startsWith(qk)&&/^[〜～~]/.test(t.slice(qk.length)))take(extra,'ja')})});
+  if(/^[ぁ-ゖァ-ヶー\s]+$/.test(q)){const h=toHiraQ(q),hira=/[ぁ-ゖ]/.test(q),lift=hira?0:2,rd=typeof JA_READINGS==='undefined'?null:JA_READINGS[w.id];
    // Readings of the Japanese gloss (あさって → 明後日). Hiragana input reads as Japanese first; katakana input stays a Thai pronunciation search first.
-   w.meanings.forEach((m,mi)=>{const rs=rd?.[m.sourceSense]||[],extra=mi?2:0;jaTerms(m.ja).forEach((term,ti)=>{const cands=[...(rs[ti]||[]),...(/^[ぁ-ゖァ-ヶー]+$/.test(term)?[toHiragana(term)]:[])];
-    for(const c of cands){if(c===h)take(lift+extra+(ti?1:0),'reading');else if(c.startsWith(h)&&!SPLIT_MORA.test(c.slice(h.length)))take(lift+prefixScore(c,h)+extra,'reading');else if(h.length>1&&kanaContains(c,h))take(lift+8+(mi?1:0),'reading')}})});
-   const k=normalizeKana(q),ks=strictKana(q);if(k)w.kanaKeys.forEach((key,i)=>{const sk=w.kanaStrict[i];/* a spelling typed exactly (ティー = ที・ตี) beats one that only matches with voicing folded (ディー = ดี) */if(sk===ks)take(0,'kana');else if(key===k)take(5,'kana');else if(sk.startsWith(ks))take(4,'kana');else if(key.startsWith(k))take(7,'kana');else if(sk.includes(ks))take(9,'kana');else if(key.includes(k))take(10,'kana')})}}
+   w.meanings.forEach((m,mi)=>{const rs=rd?.[m.sourceSense]||[],extra=mi?2:0,J=jaInfo(m),lo=J.lo;J.terms.forEach((term,ti)=>{const cands=J.kana[ti]?[...(rs[ti]||[]),J.kana[ti]]:rs[ti]||[];
+    const ds=J.ds[ti];for(const c of cands){if(c===h&&lo.has(ti))take(lift+8+(mi?1:0),'reading');else if(c===h||ds&&h.length>1&&c.slice(0,-1)===h&&c.slice(-1)===term.slice(-1))take(lift+extra+(ti?1:0),'reading');else if(c.startsWith(h)&&!SPLIT_MORA.test(c.slice(h.length)))take(hira&&!/^[をにがはでともへの]/.test(c.slice(h.length))?7+extra:lift+prefixScore(c,h)+extra,'reading');else if(h.length>1&&kanaContains(c,h))take(lift+8+(mi?1:0),'reading',null,!hira)}})});
+   const k=normalizeKanaQ(q),ks=strictKanaQ(q);if(k)w.kanaKeys.forEach((key,i)=>{const sk=w.kanaStrict[i];/* a spelling typed exactly (ティー = ที・ตี) beats one that only matches with voicing folded (ディー = ดี) */if(sk===ks)take(0,'kana');else if(key===k)take(5,'kana');else if(sk.startsWith(ks))take(4,'kana');else if(key.startsWith(k))take(7,'kana');else if(sk.includes(ks))take(9,'kana',null,true);else if(key.includes(k))take(10,'kana',null,true)})}}
  if(/^[a-z0-9\s.'’-]+$/i.test(q)){const ql=q.toLowerCase().replace(/\s+/g,' ');
   // Latin letters inside Japanese glosses (Z世代, AI, QRコード, PM2.5) are searchable as typed.
   w.meanings.forEach((m,mi)=>{const extra=mi?2:0;jaTerms(m.ja).forEach((term,ti)=>{const tk=term.normalize('NFKC').toLowerCase();if(!/^[a-z0-9]/.test(tk))return;if(tk===ql)take(extra+(ti?1:0),'latin');else if(tk.startsWith(ql)&&!/^[a-z]/.test(tk.slice(ql.length)))take(4+extra,'latin')})})}
- if(/^[a-z\s'’-]+$/i.test(foldWord(q))){const r=romanMatch(w,q);if(r<Infinity)take(r,'ro');else{const lr=looseRomanMatch(w,q);if(lr<Infinity)take(lr,'ro')}if(!TONE_RE.test(q)){const e=englishMatch(w,q);if(e)take(e.score,'en',e.en)}}
+ if(/^[a-z\s'’-]+$/i.test(foldQ(q))){const r=romanMatch(w,q);if(r<Infinity)take(r,'ro');else{const lr=looseRomanMatch(w,q);if(lr<Infinity)take(lr,'ro')}if(!TONE_RE.test(q)){const e=englishMatch(w,q);if(e)take(e.score,'en',e.en)}}
  if(out.score===Infinity&&w.labelText===undefined)w.labelText=foldWord([w.category,...(wordTrend(w)?[wordTrend(w).kind,'流行語・新語']:[]),...wordTopics().filter(t=>wordTopicIds(w).includes(t.id)).map(t=>t.label),...wordOriginRows(w).flatMap(r=>[r.label,r.detailLabel||''])].join(' '));
- if(out.score===Infinity&&w.labelText.includes(foldWord(q)))take(20,'label');return out}
+ if(out.score===Infinity&&w.labelText.includes(foldQ(q)))take(20,'label');return out}
 // A gloss term without its verb ending (セックスする → セックス, 性行為をする → 性行為) for comparing meanings.
 const jaCore=t=>jaKey(String(t).replace(/(?:を|に)?(?:する|します|した)$/,''));
 const DICT_SIMILAR=12,EN_STOP=new Set(['be','do','make','get','have','go','come','take','give','put','say','thing','one','person','people','way','place','time','good','bad','very','some','other','also','again','well','yes','no','ok','okay','like','that','this','it','there','here','with','for','of','in','on','at','and','or','not','all','more','little','much','many','can','will','just','so','up','out','off','down','over','back']);
@@ -263,22 +281,28 @@ function similarExpand(scored,query){const qLatin=String(query).trim().normalize
  const qk=JA_RE.test(query)||inGroup?jaKey(String(query).normalize('NFKC')):'',ids=new Set(),keys=new Set(),jks=new Set();
  // Japanese synonym groups (scripts/search/ja-synonyms.json): a query that is, or starts, one member brings in the
  // words glossed with the other members (性行 → 性行為 → セックス・性交・エッチ…).
- const jkx=new Set(),jkc=new Set(),jkcx=new Set();let exactGroup=false;if(qk.length>1&&typeof JA_SYNONYMS!=='undefined')for(const g0 of JA_SYNONYMS){const g=Array.isArray(g0)?g0:g0.t,hit=g.find(m=>jaKey(m)===qk)||g.find(m=>jaKey(m).startsWith(qk));if(hit){const ex=jaKey(hit)===qk;if(ex)exactGroup=true;if(!Array.isArray(g0))g.forEach(m=>{const k=jaKey(m);if(k.length>1&&/[\u3400-\u9fff]/.test(m)){jkc.add(k);if(ex)jkcx.add(k)}});g.forEach(m=>{const k=jaCore(m);if(k.length>1){jks.add(k);if(ex)jkx.add(k)}})}}
+ // A hiragana query also uses the kanji spellings it reads exactly (たかい → 高い), so it reaches the same groups.
+  const hq=String(query).trim().normalize('NFKC'),hk=new Set();if(/^[ぁ-ゖー]+$/.test(hq)&&typeof JA_READINGS!=='undefined')for(const x of scored){if(x.via!=='reading'||x.score>3)continue;const rd=JA_READINGS[x.w.id];if(rd)for(const m of x.w.meanings)jaTerms(m.ja).forEach((t,ti)=>{if(/[\u3400-\u9fff]/.test(t)&&(rd[m.sourceSense]?.[ti]||[]).includes(hq))hk.add(jaKey(t))})}
+  const jkx=new Set(),jkc=new Set(),jkcx=new Set();let exactGroup=false;if(qk.length>1&&typeof JA_SYNONYMS!=='undefined')for(const g0 of JA_SYNONYMS){const g=Array.isArray(g0)?g0:g0.t,hit=g.find(m=>jaKey(m)===qk||hk.has(jaKey(m)))||g.find(m=>jaKey(m).startsWith(qk));if(hit){const ex=jaKey(hit)===qk||hk.has(jaKey(hit));if(ex)exactGroup=true;if(!Array.isArray(g0))g.forEach(m=>{const k=jaKey(m);if(k.length>1&&/[\u3400-\u9fff]/.test(m)){jkc.add(k);if(ex)jkcx.add(k)}});g.forEach(m=>{const k=jaCore(m);if(k.length>1){jks.add(k);if(ex)jkx.add(k)}})}}
  if(exactGroup)for(const x of scored)if(x.via==='kana'&&x.score>=5)x.score+=8;
  // A katakana query inside a longer katakana word (エロ in イエロー) is not that word.
  if(exactGroup&&/^[ァ-ヶー]+$/.test(String(query).trim())){const q=String(query).trim(),re=new RegExp('[ァ-ヶー]'+q+'|'+q+'[ァ-ヶー]');for(const x of scored)if(x.via==='ja'&&x.score>=8&&x.w.meanings.every(m=>!jaTerms(m.ja).some(t=>t.includes(q)&&!re.test(t)))){x.score+=8;x.off=true}}
  for(const x of strong){for(const id of x.w.relations?.syn||[])ids.add(id);
   // Only the meaning that matched the query (ชอบ「好き」 does not pull in its legal sense).
-  const ms=x.w.meanings.filter((m,i)=>qk?jaKey(m.ja).includes(qk):x.via==='en'?m.en===x.en:i===0);
+  const ms=x.w.meanings.filter((m,i)=>qk?jaKey(m.ja).includes(qk)||[...hk].some(k=>jaKey(m.ja).includes(k)):x.via==='en'?m.en===x.en:i===0);
   for(const m of ms){for(const t of jaTerms(m.ja)){const k=jaCore(t);if(k.length>1)jks.add(k)}String(m.en||'').split(/[,;\/]/).map(enTerm).filter(t=>t.length>2&&!EN_STOP.has(t)).forEach(t=>keys.add(t))}}
  // A word glossed exactly with a synonym of the query (スマホ → 携帯電話) ranks with the exact matches.
- if(jkx.size)for(const x of scored)if(x.score>3&&x.w.meanings.some(m=>{const t=jaTerms(m.ja)[0];return t&&jkx.has(jaCore(t))})){x.score=3;x.via='syn'}
+ if(jkx.size)for(const x of scored)if(x.score>3&&x.w.meanings.some(m=>{const t=jaTerms(m.ja)[0];return t&&jkx.has(jaCore(t))&&!jaListedOnly(m.ja).has(0)})){x.score=3;x.via='syn'}
  // Slang groups for sexual and bodily words (ちんこ → 男性器を指す卑俗な語) also match a gloss that contains a member.
  const has=(t,set)=>{const k=jaKey(t);for(const c of set)if(k.includes(c))return true;return false};
  if(jkc.size)for(const x of scored){if(x.score<=3)continue;const t0=x.w.meanings.map(m=>jaTerms(m.ja)[0]).filter(Boolean);if(jkcx.size&&t0.some(t=>has(t,jkcx))){x.score=3;x.via='syn'}else if(x.score>DICT_SIMILAR&&!x.off&&x.w.meanings.some(m=>jaTerms(m.ja).some(t=>has(t,jkc)))){x.score=DICT_SIMILAR;x.via='similar'}}
  if(!strong.length&&!jks.size)return;
  // Cap the set so a common gloss does not flood the list.
  let added=0;for(const x of scored){if(x.score<=DICT_SIMILAR||x.off)continue;if(ids.has(x.w.id)||[...enKeys(x.w)].some(k=>keys.has(k))||x.w.meanings.some(m=>jaTerms(m.ja).some(t=>jks.has(jaCore(t))))){x.score=DICT_SIMILAR;x.via='similar';if(++added>=40)break}}}
+// Glosses share a kanji, a katakana word or an English content word.
+const GLOSS_STOP=new Set(['the','and','for','with','from','into','about','someone','something','one\'s','etc','such','used','kind','type','form','being','not','very','that','this','there','here','can','will','also','some','all','more','much','many','well','just','out','off','over']);
+const glossBits=w=>w._gb||(w._gb={k:new Set(w.meanings.flatMap(m=>String(m.ja).match(/[\u3400-\u9fff]/g)||[])),kt:new Set(w.meanings.flatMap(m=>String(m.ja).match(/[ァ-ヶー]{2,}/g)||[])),en:new Set(w.meanings.flatMap(m=>String(m.en||'').toLowerCase().match(/[a-z']{3,}/g)||[]).filter(t=>!GLOSS_STOP.has(t)))});
+function glossRelated(a,b){const x=glossBits(a),y=glossBits(b),any=(s,t)=>{for(const v of s)if(t.has(v))return true;return false};return any(x.k,y.k)||any(x.kt,y.kt)||any(x.en,y.en)}
 function dictionaryScore(w,raw){return dictionaryMatch(w,raw).score}
 // Scores: 0-3 exact headword/meaning, 4-5 starts with, 6 Thai compound containing an exact match, 8-10 contains, 20 theme/category only.
 const DICT_WEAK=20,DICT_FREQ_WEIGHT=0.45;
@@ -287,15 +311,23 @@ function dictionaryResults(query=wordQuery){const qn=String(query).trim().normal
  // A polite ending typed with the phrase (コップンカー, サワディークラップ, khop khun khrap) also searches the phrase without it.
  const politeBase=(()=>{const m=String(query).trim().match(/^(.{2,}?)\s*(?:クラップ|クラッ|カップ|カー|khrap|khráp|krap|kha|khâ|khá|ka)$/i);return m&&m[1].trim()})();
  const scored=bank.map(w=>{const a={w,...dictionaryMatch(w,query)};if(alias){const b=dictionaryMatch(w,alias);if(b.score<a.score)Object.assign(a,b)}if(politeBase){const c=dictionaryMatch(w,politeBase);if(c.score+1<a.score)Object.assign(a,c,{score:c.score+1})}return a});
+ // A short katakana query (ティー, カイ) or one with plenty of close hits does not list every word that merely contains it.
+ {const qk=String(query).trim().normalize('NFKC');if(/^[ァ-ヶー\s]+$/.test(qk)&&(qk.replace(/[\sァィゥェォャュョヮ]/g,'').length<=3||scored.filter(x=>x.score<=7).length>=20))for(const x of scored)if(x.sub){if(x.ns)Object.assign(x,x.ns);else{x.score=Infinity;x.via=''}x.sub=false}}
+ // Theme and category labels (家 → every word in 住まい) only help when the query has almost no real match.
+ if(scored.filter(x=>x.score<Infinity&&x.via!=='label').length>=5)for(const x of scored)if(x.via==='label'){x.score=Infinity;x.via=''}
  // A query that is exactly the first English gloss of some word ("man", "eat") is read as English first.
- if(scored.some(x=>x.via==='en'&&x.score===0))for(const x of scored)if(x.via==='ro')x.score+=6;
+ if(scored.some(x=>x.via==='en'&&x.score===0)){for(const x of scored)if(x.via==='ro')x.score+=6}
+  // And the mirror: a query that is exactly a reading ("kin" = กิน) but no first English gloss is read as romanization first (not ญาติพี่น้อง "relatives, kin").
+  else if(scored.some(x=>x.via==='ro'&&x.score===0))for(const x of scored)if(x.via==='en')x.score+=4;
  // Capitals (AI, DM, EV) are read as the abbreviation in a gloss first, before romanization (ไอ ai).
  if(/^[A-Z0-9.]{2,}$/.test(String(query).trim().normalize('NFKC'))&&scored.some(x=>x.via==='latin'&&x.score===0))for(const x of scored)if(x.via==='ro')x.score+=6;
- if(/[ぁ-ゖ]/.test(query)&&scored.some(x=>(x.via==='reading'||x.via==='ja')&&x.score<=1))for(const x of scored)if(x.via==='kana')x.score+=4;
+ // Hiragana is Japanese first: with a close Japanese match, Thai sound-alikes (すき → สุกี้, のむ → นม) go well below it.
+ if(/[ぁ-ゖ]/.test(query)&&scored.some(x=>(x.via==='reading'||x.via==='ja')&&x.score<=4))for(const x of scored)if(x.via==='kana')x.score+=8;
  // Words built on an exact match (e.g. ครอบครัว → ครอบครัวใหญ่) rank right after the exact matches.
  const isHead=x=>x.score===0&&x.via!=='kana'&&x.via!=='label'&&x.w.collection!=='slang';
  const heads=[...new Set(scored.filter(isHead).map(x=>x.w.th))].filter(th=>th.length>1);
- if(heads.length){const byTh=new Map(scored.filter(isHead).map(x=>[x.w.th,x.w]));for(const x of scored)if(x.score>6&&heads.some(h=>isCompoundOf(x.w,byTh.get(h))))x.score=6}
+ // Only compounds related in meaning (ห้องนอน 寝室 under 寝る, ลูกหมา 子犬 under 犬); แน่นอน "certainly" is not about sleeping.
+ if(heads.length){const byTh=new Map(scored.filter(isHead).map(x=>[x.w.th,x.w]));for(const x of scored)if(x.score>6&&heads.some(h=>isCompoundOf(x.w,byTh.get(h))&&glossRelated(x.w,byTh.get(h))))x.score=6}
  // Same-meaning words (セックス・性行為・エッチ…): words linked as synonyms to a strong hit, or sharing one of its
  // English glosses word for word, follow the direct hits under 「似た意味の語」 so near-synonyms are found together.
  similarExpand(scored,query);
@@ -304,8 +336,19 @@ function dictionaryResults(query=wordQuery){const qn=String(query).trim().normal
  // together (a very common word glossed slightly less directly beats a rare exact gloss: 高い → สูง, แพง before สูงๆ).
  // A Thai headword, reading or abbreviation typed exactly stays first; 「似た意味の語」 and theme-only matches keep their own sections below.
  // A doubled form (สูงๆ, งามๆ) follows its plain word, which is the one to learn first.
- const redup=w=>/ๆ$/.test(w.th)&&headwordSetHas(w.th.replace(/\s*ๆ$/,'')),grp=x=>x.score>=DICT_WEAK?3:x.score>DICT_SIMILAR?2:x.via==='similar'?1:0,rank=x=>x.score===0&&['th','ro','latin'].includes(x.via)?-10+(10-(x.w.frequency||1))*.1:x.score+(10-(x.w.frequency||1))*DICT_FREQ_WEIGHT+(x.w.collection==='slang'?1:0)+(redup(x.w)?2:0);
- return scored.filter(x=>x.score<Infinity).sort((a,b)=>grp(a)-grp(b)||(grp(a)?a.score-b.score:rank(a)-rank(b))||(a.w.collection==='slang')-(b.w.collection==='slang')||b.w.frequency-a.w.frequency||a.w.th.length-b.w.th.length||a.w.id.localeCompare(b.w.id)).filter(x=>{const k=x.w.th+'|'+x.w.meanings[0].ja;if(seenTwin.has(k))return false;seenTwin.add(k);return true})}
+ // A long-vowel mark typed in katakana (ナーム, カーオ) prefers a reading with a long vowel (náam over nam).
+ // Everyday words before slang, sexual or rough words and before royal, literary or archaic ones (寝る → หลับ before มีอะไรกัน, 水 → ชล last),
+ // unless the query is that word's own Thai, reading or katakana spelling.
+ const rough=w=>w.collection==='slang'||!!w.adult||(w.meanings[0].registerTags||[]).includes('vulgar')||/性的|粗い|罵|差別/.test(w.speechStyle||''),lofty=w=>w.meanings.every(m=>(m.registerTags||[]).some(t=>['royal','literary','archaic','dated'].includes(t))||/王室|文語|古め|古風|古い/.test(m.speechStyle||'')),register=x=>x.score===0&&x.via==='kana'?(x.w.collection==='slang'?1:0):(rough(x.w)?2:0)+(lofty(x.w)?2:0);
+ // An idiom or set phrase whose gloss only starts with the query plus a particle (猫に小判 for 猫) is not the word itself:
+ // it follows the plain compounds (ลูกแมว) instead of sitting right under the exact match.
+ const idiomHit=x=>(x.via==='ja'||x.via==='reading')&&x.score>=2&&x.score<=4&&x.w.meanings[0].pos==='定型表現';
+ // Hiragana typed as Japanese that only meets a katakana transliteration in a gloss (さむい → サムイ島) is a sound-alike, like a kana match.
+ // A reading that only contains the query in the middle (ねころぶ for ねこ) stays below compounds of the word itself (ลูกแมว), even when it is very frequent.
+ const hq=String(query).trim(),kataQ=/^[ぁ-ゖー]+$/.test(hq)?hq.replace(/[ぁ-ゖ]/g,c=>String.fromCharCode(c.charCodeAt(0)+0x60)):'',kataEcho=x=>!!kataQ&&x.via==='reading'&&x.score>0&&x.w.meanings.some(m=>String(m.ja).startsWith(kataQ));
+ const longQ=/ー/.test(query),shortRo=w=>w._short??(w._short=!/([aeiouɛɔəʉ])\1/.test(String(w.ro).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase()));
+ const redup=w=>/ๆ$/.test(w.th)&&headwordSetHas(w.th.replace(/\s*ๆ$/,'')),grp=x=>x.score>=DICT_WEAK?3:x.score>DICT_SIMILAR?2:x.via==='similar'?1:0,rank=x=>x.score===0&&['th','ro','latin'].includes(x.via)?-10+(10-(x.w.frequency||1))*.1:x.score+(10-(x.w.frequency||1))*DICT_FREQ_WEIGHT+register(x)+(redup(x.w)?2:0)+(longQ&&x.via==='kana'&&shortRo(x.w)?.5:0)+(idiomHit(x)?4:0)+(kataEcho(x)?8:0)+(x.via==='reading'&&x.score>=8?2:0);
+ return scored.filter(x=>x.score<Infinity).sort((a,b)=>grp(a)-grp(b)||(grp(a)?a.score-b.score:rank(a)-rank(b))||(a.w.collection==='slang')-(b.w.collection==='slang')||b.w.frequency-a.w.frequency||(a.w.studyRank||1e9)-(b.w.studyRank||1e9)||a.w.th.length-b.w.th.length||a.w.id.localeCompare(b.w.id)).filter(x=>{const k=x.w.th+'|'+x.w.meanings[0].ja;if(seenTwin.has(k))return false;seenTwin.add(k);return true})}
 // Thai has no spaces, so "contains" alone is not enough (เกิน contains กิน). A compound must split into registered
 // words around the headword, and the headword's syllables must appear in the compound's reading.
 let headwordSet=null,headwordBank=null;
