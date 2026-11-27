@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+<defs>
+<path id="u" d="M30 92C32 62 54 44 80 44C106 44 128 62 130 92C124 86 116 86 110 92C104 86 96 86 90 92C84 86 76 86 70 92C64 86 56 86 50 92C44 86 36 86 30 92Z"/>
+<g id="d"><path d="M0-9C3-4 5-1 5 2A5 5 0 0 1-5 2C-5-1-3-4 0-9Z"/></g>
+<g id="rs">
+<use href="#d" x="22" y="24"/><use href="#d" x="44" y="14"/><use href="#d" x="66" y="28"/><use href="#d" x="92" y="16"/><use href="#d" x="116" y="26"/><use href="#d" x="138" y="14"/>
+<use href="#d" x="34" y="50"/><use href="#d" x="84" y="70"/><use href="#d" x="104" y="50"/><use href="#d" x="60" y="62"/><use href="#d" x="128" y="50"/>
+<use href="#d" x="18" y="104"/><use href="#d" x="140" y="110"/><use href="#d" x="26" y="134"/><use href="#d" x="134" y="138"/><use href="#d" x="112" y="124"/>
+</g>
+<clipPath id="c"><use href="#u"/></clipPath>
+</defs>
+<use href="#u" fill="#e8674a" transform="translate(2.5 2)"/>
+<use href="#rs" fill="#24483d"/>
+<g clip-path="url(#c)"><use href="#rs" fill="#7a3b2e"/></g>
+<g transform="translate(2.5 2)" fill="none" stroke="#e8674a" stroke-width="4" stroke-linecap="round"><path d="M80 44V36"/><path d="M80 90V130C80 138 68 138 68 130"/></g>
+<path d="M80 52C70 60 66 74 66 88M80 52C90 60 94 74 94 88" stroke="#f7f8f3" stroke-width="2" fill="none" opacity=".85"/>
+<path d="M40 140C50 136 60 136 70 140C80 144 90 144 100 140C110 136 120 136 128 140" stroke="#24483d" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>
