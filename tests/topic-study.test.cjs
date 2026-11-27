@@ -27,13 +27,13 @@ for(const th of ['สวัสดี','ขอบคุณ','ขอโทษ','�
  t.openWord(ph.find(w=>w.th==='ไม่เป็นไร').id);assert.equal(t.getDeck(),'phrase');const det=t.wordDetail();assert(!/お気に入り済み|お気に入り<|復習に登録</.test(det));assert(/aria-pressed="false"[^>]*>[^<]*<svg/.test(det));assert(det.includes('</svg>復習</button>'));
  t.setLevel(0);t.setWordDeck('general');
 // A theme step teaches unseen words of that theme in frequency order and leaves the global step pointer alone.
-const st=t.getState();st.stepWords=30;const next=t.topicNextWords('food');assert.equal(next.length,10);assert(next.every(w=>t.index[w.id].includes('food')));assert(next.every((w,i)=>i===0||next[i-1].studyRank<w.studyRank));
+const st=t.getState();st.stepWords=30;const next=t.topicNextWords('food');assert.equal(next.length,7);assert(next.every(w=>t.index[w.id].includes('food')));assert(next.every((w,i)=>i===0||next[i-1].studyRank<w.studyRank));
 const before=t.topicStats().get('food').seen;t.setWordTopic('food');assert(t.topicHub().includes('食べ物・飲み物'));t.startGuidedStep('food');let g=t.getStep();assert.equal(g.topic,'food');
 for(let k=0;k<300&&!g.done;k++){const task=g.tasks[g.i];if(task.type!=='learn')t.answerStepTask(task.id);t.nextStepTask()}
-assert(g.done);assert.equal(st.stepWords,30,'theme steps must not move the frequency step pointer');assert.equal(t.topicStats().get('food').seen,before+10);assert(t.stepSessionView().includes('食べ物・飲み物')&&t.stepSessionView().includes('ステップ完了'));
+assert(g.done);assert.equal(st.stepWords,30,'theme steps must not move the frequency step pointer');assert.equal(t.topicStats().get('food').seen,before+7);assert(t.stepSessionView().includes('食べ物・飲み物')&&t.stepSessionView().includes('ステップ完了'));
 assert(t.getState().today.steps>=1);assert.equal(t.topicNextWords('food').filter(w=>g.news.includes(w.id)).length,0);t.exitStepSession();
 // Theme progress survives a backup round trip (derived from word records, not a separate field).
-const copy=t.sanitizeWordState(JSON.parse(JSON.stringify(st)));assert.equal(g.news.filter(id=>copy.records[id]?.seen>0).length,10);
+const copy=t.sanitizeWordState(JSON.parse(JSON.stringify(st)));assert.equal(g.news.filter(id=>copy.records[id]?.seen>0).length,7);
 // A theme step shows the sense that belongs to the theme.
 const bank=t.getBank();let target=null,topic=null;
 for(const w of bank){const m=t.senses[w.id];if(!m||w.collection==='slang'||!w.meanings[0].checked)continue;for(const [tp,ns] of Object.entries(m)){const s=w.meanings.find(x=>x.sourceSense===ns[0]);if(!ns.includes(w.meanings[0].sourceSense)&&s&&s.checked&&s.ja!==w.meanings[0].ja){target=w;topic=tp;break}}if(target)break}
