@@ -80,6 +80,14 @@ def apply(only=None):
             if 'colloquial' not in tags:tags.append('colloquial')
         w['speechStyle']='口語';stat['colloquial']=stat.get('colloquial',0)+1
         if isinstance(w.get('formality'),int) and w['formality']>=5:w['formality']=3
+    # Word pictures (scripts/illust/approved.json {"id#sense": emoji}, 2026-11-27): one emoji on senses a single picture shows literally.
+    IL=P/'scripts/illust/approved.json'
+    pics=json.loads(IL.read_text()) if IL.exists() else {}
+    for w in by.values():
+        for m in w['meanings']:
+            e=pics.get(f"{w['id']}#{m['sourceSense']}")
+            if e and not m.get('isSlang'):m['pic']=e;stat['pic']=stat.get('pic',0)+1
+            elif 'pic' in m:del m['pic']
     # Slang deck review (scripts/slang-review/results-*.json): category and frequency judged for everyday native use.
     for f in sorted((P/'scripts/slang-review').glob('results-*.json')):
         for x in json.loads(f.read_text()):
