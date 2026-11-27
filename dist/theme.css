@@ -222,3 +222,74 @@ html body #main .w-miss-ex{margin-top:8px;padding-top:8px;border-top:1px solid v
 html body #main .w-miss-ex p{margin:0}
 html body #main .w-miss-ex .w-example-th{font-size:15px;line-height:1.5}html body #main .w-miss-ex .w-example-ro{font-size:17px;line-height:1.4}html body #main .w-miss-ex .w-example-ja{font-size:13px;line-height:1.5}
 html body #main .r-reset{display:block;font-size:13px;color:var(--t-sub)}
+
+/* ---------- 2026-11-28 layout pass: denser lists, tap targets, readable nav (PR B) ---------- */
+/* word / dictionary / phrase rows: Thai / [品詞] reading / Japanese ＋N / chips + English on one line */
+html body #main .w-row2{grid-template-columns:minmax(0,1fr) auto;column-gap:8px;padding:10px 8px 10px 14px}
+html body #main .w-row2 .w-row-meaning{margin-top:2px}
+html body #main .w-row2 .w2-tail{white-space:nowrap}
+html body #main .w-row2 .w-row-foot{display:flex;flex-wrap:wrap;align-items:center;column-gap:8px;row-gap:2px;margin-top:4px;min-width:0}
+html body #main .w-row2 .w-row-foot .w-meta{margin:0;flex:none;max-width:100%}
+html body #main .w-row2 .w-row-foot .w-en{flex:1 1 64px;min-width:0;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* row buttons: 40×40 hit boxes, 8px apart (the icons keep their size) */
+html body #main .w-row2 .w-row-actions{grid-template-columns:40px 40px;gap:8px;justify-items:center;align-content:center}
+html body #main .w-row2 .w-row-actions .w-iconbtn{width:40px;height:40px;min-width:40px;min-height:40px;padding:0;justify-content:center;align-items:center}
+/* the dictionary card while a query is active: one small label row, 「検索をやめる」 beside the input */
+html body #main .x-dict.is-query{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:8px;padding:8px 10px;margin-bottom:8px}
+html body #main .x-dict.is-query .x-dict-label{grid-column:1/-1;font-size:13px;line-height:20px;margin:0 0 6px;gap:6px}
+html body #main .x-dict.is-query .x-dict-mark{width:20px;height:20px;border-radius:6px}
+html body #main .x-dict.is-query .x-dict-mark .ui-icon{width:13px;height:13px}
+html body #main .x-dict.is-query .x-search{min-height:44px;margin:0}
+html body #main .x-dict.is-query .x-search input{height:42px}
+html body #main .x-dict.is-query .x-dict-close{align-self:center;margin:0;padding:0 4px;white-space:nowrap}
+html body #main .x-dict.is-query~#word-results .w-results-caption{padding-top:6px;padding-bottom:6px}
+/* home search: the button sits centred in the box */
+html body #main form.x-search{align-items:center;padding-right:4px}
+/* 日本語→タイ語 choices: Thai in the dark ink, as on the step faces */
+html body #main .w-choices .option [lang="th"]{color:var(--t-thai)}
+/* お気に入り › 用例 */
+html body #main .f-ex .f-main{min-width:0}
+html body #main .f-ex .f-main small{white-space:normal;overflow-wrap:anywhere}
+html body #main .f-ex li>.w-audio{width:40px;height:40px;min-width:40px;min-height:40px;padding:0;justify-content:center}
+/* 復習の履歴: the word and meaning wrap instead of being cut; the meaning uses the full width under the word and kind · time */
+html body #main .r-history .r-hist-main{grid-template-columns:28px minmax(0,1fr) auto;grid-template-areas:"m t e" "m s s";row-gap:2px}
+html body #main .r-history .r-hist-main .r-term,html body #main .r-history .r-hist-main small{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere}
+html body #main .r-history .r-hist-main em{align-self:center;justify-self:end;white-space:nowrap}
+html body #main .r-history .r-hist li{gap:8px;padding-right:4px;align-items:center}
+html body #main .r-history .r-hist .r-star{width:40px;height:40px;min-width:40px;min-height:40px;padding:0;justify-content:center}
+html body #main .r-history .r-hist .r-hist-del{width:40px;height:40px;min-width:40px;min-height:40px;padding:0;flex:none}
+/* home */
+html body #main .h-task-body small{white-space:normal;word-break:keep-all;overflow-wrap:anywhere;text-overflow:clip;overflow:visible}
+html body #main .h-backup-actions .btn{min-height:40px}
+html body #main .h-backup-actions .textbtn{min-width:44px;justify-content:center}
+html body header .compact-brand{min-height:40px}
+/* usage panel: 36px tap height without a heavier look */
+html body #main .w-usage-chip{padding-top:0;padding-bottom:0}
+html body #main .w-usage-term{min-height:36px;margin:-2px 0;align-items:center}
+html body #main .w-usage-say{width:36px;height:36px;min-width:36px;margin:-3px}
+html body #main .w-usage-link{display:inline;padding:6px 0}
+html body #main .w-usage-more>summary{padding-top:7px;padding-bottom:7px}
+/* chips and tabs */
+html body #main .f-pos button{min-height:36px}
+html body #main .x-levels .x-chips button{min-height:36px}
+html body #main .x-seg{padding:3px}
+html body #main .x-seg button{min-height:40px}
+/* grammar lesson toggles: 40px hit boxes, the layout keeps its height (padding taken back by margin) */
+html body #main #role-guide>summary{padding-top:9px;padding-bottom:9px;margin:-9px 0}
+html body #main .deep-more>summary{padding-top:8px;padding-bottom:8px;margin:-4px 0}
+html body #main .word-toggle{min-height:40px;margin-top:-1px;margin-bottom:-1px}
+/* つながりで覚える: equal 2-column cards; a shared sense tag sits by the heading */
+html body #main .w-relation .w-related{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+html body #main .w-relation .w-related>button{width:100%;min-width:0;margin:0}
+html body #main .w-relation h3 .w-relation-context.is-shared{display:inline;margin:0 0 0 4px;font-weight:400}
+html body #main .w-related-more{margin-top:8px}
+html body #main .w-related-more>summary{padding:9px 0;font-size:13px;line-height:22px;font-weight:600;color:var(--t-green);cursor:pointer}
+html body #main .w-related-more>.w-related{margin-top:4px}
+@media (max-width:339px){html body #main .w-relation .w-related{grid-template-columns:minmax(0,1fr)}}
+/* bottom nav (phones): equal tabs, 11px labels, readable due badge */
+@media (max-width:650px){
+ html body #nav{gap:2px;padding-left:6px;padding-right:6px}
+ html body #nav .navbtn{flex:1 1 0;min-width:0;padding-left:0;padding-right:0;overflow:visible}
+ html body #nav .navbtn span:not(.count){font-size:11px;letter-spacing:0;white-space:nowrap}
+ html body #nav .navbtn .count{font-size:12px;line-height:15px;height:19px;min-width:19px;right:calc(50% - 26px);color:var(--t-ink);font-weight:700}
+}
