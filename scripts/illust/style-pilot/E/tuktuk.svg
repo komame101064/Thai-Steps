@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 160 160">
+<defs>
+<filter id="f" filterUnits="userSpaceOnUse" x="0" y="0" width="160" height="160">
+<feTurbulence type="fractalNoise" baseFrequency=".045" numOctaves="2" seed="4" result="w"/>
+<feDisplacementMap in="SourceGraphic" in2="w" scale="2.4" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="9" result="n"/>
+<feColorMatrix in="n" type="matrix" values="0 0 0 0 .24 0 0 0 0 .17 0 0 0 0 .14 0 0 0 -1.6 .9" result="g"/>
+<feComposite in="g" in2="d" operator="in" result="gi"/>
+<feMerge><feMergeNode in="d"/><feMergeNode in="gi"/></feMerge>
+</filter>
+<style>.l{fill:none;stroke:#3d2c26;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.t{fill:none;stroke:#3d2c26;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.o{transform:translate(1.1px,-.9px)}</style>
+<path id="body" d="M20 116 C18 104 24 94 36 92 L56 90 C60 96 62 101 67 102 L142 102 C147 106 147 116 145 122 L133 122 C133 108 103 108 103 122 L51 122 C51 108 21 108 20 116Z"/>
+<path id="roof" d="M28 46 C28 37 38 32 54 32 L138 32 C144 32 148 36 148 42 L148 48 L28 48Z"/>
+<path id="fringe" d="M32 48 L148 48 L148 52 C146 56 142 56 140 52 C138 56 134 56 132 52 C130 56 126 56 124 52 C122 56 118 56 116 52 C114 56 110 56 108 52 C106 56 102 56 100 52 C98 56 94 56 92 52 C90 56 86 56 84 52 C82 56 78 56 76 52 C74 56 70 56 68 52 C66 56 62 56 60 52 C58 56 54 56 52 52 C50 56 46 56 44 52 C42 56 38 56 36 52 C34 54 32 54 32 52Z"/>
+<path id="seat" d="M96 88 L130 88 C134 88 136 92 136 102 L94 102 C92 94 92 88 96 88Z"/>
+<path id="back" d="M128 62 C134 60 140 62 140 68 L140 102 L130 102 C128 90 126 72 128 62Z"/>
+<path id="head" d="M60 64 C60 56 66 51 72 51 C79 51 84 56 84 64 C84 71 79 76 72 76 C65 76 60 71 60 64Z"/>
+<path id="hair" d="M60 62 C58 52 66 47 73 47 C81 47 86 53 84 61 C80 57 76 56 72 58 C68 55 63 57 60 62Z"/>
+<path id="torso" d="M64 80 C68 76 80 76 84 80 L88 104 L62 104Z"/>
+<path id="wheel" d="M-13 0 C-13 -8 -7 -13 0 -13 C8 -13 13 -8 13 0 C13 8 7 13 0 13 C-7 13 -13 8 -13 0Z"/>
+</defs>
+<ellipse cx="82" cy="84" rx="72" ry="62" fill="#e3f3d6"/>
+<ellipse cx="82" cy="138" rx="66" ry="5" fill="#cfe3bd"/>
+<g filter="url(#f)">
+<!-- motion + exhaust -->
+<g fill="none" stroke="#3d2c26" stroke-width="1.8" stroke-linecap="round"><path d="M150 66h8M152 78h6M150 90h8"/></g>
+<g fill="#e6e1d8" stroke="#3d2c26" stroke-width="1.5"><circle cx="152" cy="118" r="4"/><circle cx="157" cy="111" r="2.6"/></g>
+<!-- rear pillar + passenger -->
+<path d="M140 48v54" stroke="#3d2c26" stroke-width="5.4" stroke-linecap="round"/><path d="M140 48v54" stroke="#c8d0d8" stroke-width="2.2"/>
+<use xlink:href="#back" class="o" fill="#45a866"/><path d="M134 64c3 0 5 2 5 6v30h-4z" fill="#36874f"/><use xlink:href="#back" class="l"/>
+<use xlink:href="#seat" class="o" fill="#45a866"/><path class="t" d="M106 90v10M118 90v10"/><use xlink:href="#seat" class="l"/>
+<!-- driver -->
+<use xlink:href="#torso" class="o" fill="#ffffff"/><path d="M70 78l4 12 4-12" fill="none" stroke="#f0563f" stroke-width="2.4"/><use xlink:href="#torso" class="l"/>
+<path d="M66 86 L54 90 L44 84" fill="none" stroke="#3d2c26" stroke-width="8.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M66 86 L54 90 L44 84" fill="none" stroke="#e2a377" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" class="o"/>
+<path d="M82 82 L94 72 L96 58" fill="none" stroke="#3d2c26" stroke-width="8.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M82 82 L94 72 L96 58" fill="none" stroke="#e2a377" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" class="o"/>
+<path d="M92 56c-1-4 0-8 2-8l1 4 1-6c2 0 3 2 2 6l2-4c2 1 2 3 0 6-1 3-2 5-5 5-2 0-3-1-3-3z" fill="#e2a377" stroke="#3d2c26" stroke-width="1.6" stroke-linejoin="round"/>
+<g class="t"><path d="M101 46l3-3M104 54l4 0M98 42l0-4"/></g>
+<use xlink:href="#head" class="o" fill="#e2a377"/>
+<ellipse cx="66" cy="68" rx="3.4" ry="2.2" fill="#f0563f" opacity=".6"/>
+<use xlink:href="#head" class="l"/>
+<use xlink:href="#hair" class="o" fill="#3a2a24"/><use xlink:href="#hair" class="l"/>
+<path d="M60 60 C62 52 68 49 74 50 L86 54 L84 58 C78 56 66 56 60 60Z" fill="#f0563f" stroke="#3d2c26" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="66" cy="63" r="1.6" fill="#3d2c26"/><path class="t" d="M63 59l4 0"/>
+<path class="t" d="M61 66l-2 2 2 1"/>
+<path d="M63 70c2 3 6 3 8 1-2 0-6 0-8-1z" fill="#c23a3a" stroke="#3d2c26" stroke-width="1.4" stroke-linejoin="round"/>
+<path class="t" d="M80 64c2-1 3 2 1 3"/>
+<!-- wheels -->
+<g transform="translate(36 124)"><use xlink:href="#wheel" fill="#3a2a24"/><use xlink:href="#wheel" class="l"/><circle r="5" fill="#d7dde3" stroke="#3d2c26" stroke-width="1.6"/></g>
+<g transform="translate(118 124)"><use xlink:href="#wheel" fill="#3a2a24"/><use xlink:href="#wheel" class="l"/><circle r="5" fill="#d7dde3" stroke="#3d2c26" stroke-width="1.6"/></g>
+<!-- body -->
+<use xlink:href="#body" class="o" fill="#f0563f"/>
+<path d="M26 104 L142 104 L144 110 L24 110Z" fill="#ffc93c"/>
+<path d="M60 112 L102 112 L102 122 L58 122Z" fill="#c63d2e"/>
+<path d="M30 98c4-3 10-4 18-4" fill="none" stroke="#ff9a85" stroke-width="2.6" stroke-linecap="round"/>
+<use xlink:href="#body" class="l"/>
+<circle cx="24" cy="104" r="5" fill="#ffe68a" stroke="#3d2c26" stroke-width="1.8"/>
+<g class="t" stroke="#ff9a3d"><path d="M14 100l-5-2M14 106l-6 0M14 112l-5 2"/></g>
+<path class="t" d="M136 116l8 0"/>
+<!-- front pillar, handlebar, garland -->
+<path d="M36 92 L40 48" stroke="#3d2c26" stroke-width="5.4" stroke-linecap="round"/><path d="M36 92 L40 48" stroke="#c8d0d8" stroke-width="2.2"/>
+<path d="M46 82 L38 86" stroke="#3d2c26" stroke-width="4" stroke-linecap="round"/>
+<path d="M40 84c-3-2-2-6 2-7 4 0 6 3 5 6-1 3-4 3-7 1z" fill="#e2a377" stroke="#3d2c26" stroke-width="1.6"/>
+<path d="M40 58c-2 6-1 10 2 12M40 58c4 4 5 9 2 12" fill="none" stroke="#3d2c26" stroke-width="1"/>
+<g fill="#fffbe8" stroke="#3d2c26" stroke-width=".9"><circle cx="39" cy="62" r="1.6"/><circle cx="40" cy="66" r="1.6"/><circle cx="44" cy="64" r="1.6"/></g>
+<circle cx="42" cy="71" r="2" fill="#ff8a9b" stroke="#3d2c26" stroke-width="1"/>
+<!-- roof -->
+<use xlink:href="#roof" class="o" fill="#45aee0"/>
+<path d="M28 44h120v4H28z" fill="#2f8ec4"/>
+<path d="M40 37c10-3 30-3 50-3" fill="none" stroke="#a8dcf4" stroke-width="2.6" stroke-linecap="round"/>
+<use xlink:href="#roof" class="l"/>
+<use xlink:href="#fringe" class="o" fill="#ffc93c"/><use xlink:href="#fringe" class="t"/>
+</g>
+</svg>
