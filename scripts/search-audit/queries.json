@@ -1,0 +1,1526 @@
+[
+ {
+  "q": "ありがとう",
+  "type": "ja",
+  "expect": [
+   "ขอบคุณ"
+  ],
+  "note": "home chip"
+ },
+ {
+  "q": "食べる",
+  "type": "ja",
+  "expect": [
+   "กิน",
+   "ทาน"
+  ],
+  "note": "home chip"
+ },
+ {
+  "q": "美味しい",
+  "type": "ja",
+  "expect": [
+   "อร่อย"
+  ],
+  "note": "kanji spelling of a kana gloss (alias)"
+ },
+ {
+  "q": "高い",
+  "type": "ja",
+  "expect": [
+   "สูง",
+   "แพง"
+  ],
+  "note": "past complaint: base words before สูงๆ",
+  "before": [
+   [
+    "สูง",
+    "สูงๆ"
+   ],
+   [
+    "แพง",
+    "สูงๆ"
+   ]
+  ]
+ },
+ {
+  "q": "水",
+  "type": "ja",
+  "expect": [
+   "น้ำ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "駅",
+  "type": "ja",
+  "expect": [
+   "สถานี"
+  ],
+  "note": ""
+ },
+ {
+  "q": "病院",
+  "type": "ja",
+  "expect": [
+   "โรงพยาบาล"
+  ],
+  "note": ""
+ },
+ {
+  "q": "かわいい",
+  "type": "ja",
+  "expect": [
+   "น่ารัก"
+  ],
+  "note": ""
+ },
+ {
+  "q": "行く",
+  "type": "ja",
+  "expect": [
+   "ไป"
+  ],
+  "note": ""
+ },
+ {
+  "q": "来る",
+  "type": "ja",
+  "expect": [
+   "มา"
+  ],
+  "note": ""
+ },
+ {
+  "q": "飲む",
+  "type": "ja",
+  "expect": [
+   "ดื่ม"
+  ],
+  "note": ""
+ },
+ {
+  "q": "安い",
+  "type": "ja",
+  "expect": [
+   "ถูก"
+  ],
+  "note": ""
+ },
+ {
+  "q": "暑い",
+  "type": "ja",
+  "expect": [
+   "ร้อน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "寒い",
+  "type": "ja",
+  "expect": [
+   "หนาว"
+  ],
+  "note": ""
+ },
+ {
+  "q": "辛い",
+  "type": "ja",
+  "expect": [
+   "เผ็ด"
+  ],
+  "note": ""
+ },
+ {
+  "q": "好き",
+  "type": "ja",
+  "expect": [
+   "ชอบ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "家",
+  "type": "ja",
+  "expect": [
+   "บ้าน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "犬",
+  "type": "ja",
+  "expect": [
+   "หมา"
+  ],
+  "note": ""
+ },
+ {
+  "q": "猫",
+  "type": "ja",
+  "expect": [
+   "แมว"
+  ],
+  "note": ""
+ },
+ {
+  "q": "お金",
+  "type": "ja",
+  "expect": [
+   "เงิน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "時間",
+  "type": "ja",
+  "expect": [
+   "เวลา",
+   "ชั่วโมง"
+  ],
+  "note": ""
+ },
+ {
+  "q": "今日",
+  "type": "ja",
+  "expect": [
+   "วันนี้"
+  ],
+  "note": ""
+ },
+ {
+  "q": "明日",
+  "type": "ja",
+  "expect": [
+   "พรุ่งนี้"
+  ],
+  "note": ""
+ },
+ {
+  "q": "友達",
+  "type": "ja",
+  "expect": [
+   "เพื่อน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "先生",
+  "type": "ja",
+  "expect": [
+   "ครู",
+   "อาจารย์"
+  ],
+  "note": ""
+ },
+ {
+  "q": "学校",
+  "type": "ja",
+  "expect": [
+   "โรงเรียน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "仕事",
+  "type": "ja",
+  "expect": [
+   "งาน",
+   "ทำงาน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "寝る",
+  "type": "ja",
+  "expect": [
+   "นอน",
+   "หลับ"
+  ],
+  "note": "sleep sense before the sexual euphemism"
+ },
+ {
+  "q": "見る",
+  "type": "ja",
+  "expect": [
+   "ดู",
+   "เห็น"
+  ],
+  "note": ""
+ },
+ {
+  "q": "大きい",
+  "type": "ja",
+  "expect": [
+   "ใหญ่"
+  ],
+  "note": ""
+ },
+ {
+  "q": "小さい",
+  "type": "ja",
+  "expect": [
+   "เล็ก"
+  ],
+  "note": ""
+ },
+ {
+  "q": "トイレ",
+  "type": "ja",
+  "expect": [
+   "ห้องน้ำ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "たべる",
+  "type": "hira",
+  "expect": [
+   "กิน",
+   "ทาน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "おいしい",
+  "type": "hira",
+  "expect": [
+   "อร่อย"
+  ],
+  "note": "home chip"
+ },
+ {
+  "q": "みず",
+  "type": "hira",
+  "expect": [
+   "น้ำ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "いく",
+  "type": "hira",
+  "expect": [
+   "ไป"
+  ],
+  "note": ""
+ },
+ {
+  "q": "くる",
+  "type": "hira",
+  "expect": [
+   "มา"
+  ],
+  "note": ""
+ },
+ {
+  "q": "のむ",
+  "type": "hira",
+  "expect": [
+   "ดื่ม"
+  ],
+  "note": ""
+ },
+ {
+  "q": "たかい",
+  "type": "hira",
+  "expect": [
+   "สูง",
+   "แพง"
+  ],
+  "note": "same as 高い",
+  "before": [
+   [
+    "สูง",
+    "สูงๆ"
+   ],
+   [
+    "แพง",
+    "สูงๆ"
+   ]
+  ]
+ },
+ {
+  "q": "やすい",
+  "type": "hira",
+  "expect": [
+   "ถูก"
+  ],
+  "note": ""
+ },
+ {
+  "q": "あつい",
+  "type": "hira",
+  "expect": [
+   "ร้อน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "さむい",
+  "type": "hira",
+  "expect": [
+   "หนาว"
+  ],
+  "note": ""
+ },
+ {
+  "q": "からい",
+  "type": "hira",
+  "expect": [
+   "เผ็ด"
+  ],
+  "note": ""
+ },
+ {
+  "q": "すき",
+  "type": "hira",
+  "expect": [
+   "ชอบ"
+  ],
+  "note": "好き in kana: Japanese meaning before the Thai pronunciation スキ (สุกี้)"
+ },
+ {
+  "q": "いえ",
+  "type": "hira",
+  "expect": [
+   "บ้าน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "いぬ",
+  "type": "hira",
+  "expect": [
+   "หมา"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ねこ",
+  "type": "hira",
+  "expect": [
+   "แมว"
+  ],
+  "note": ""
+ },
+ {
+  "q": "おかね",
+  "type": "hira",
+  "expect": [
+   "เงิน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "じかん",
+  "type": "hira",
+  "expect": [
+   "เวลา"
+  ],
+  "note": ""
+ },
+ {
+  "q": "きょう",
+  "type": "hira",
+  "expect": [
+   "วันนี้"
+  ],
+  "note": ""
+ },
+ {
+  "q": "あした",
+  "type": "hira",
+  "expect": [
+   "พรุ่งนี้"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ともだち",
+  "type": "hira",
+  "expect": [
+   "เพื่อน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "せんせい",
+  "type": "hira",
+  "expect": [
+   "ครู"
+  ],
+  "note": ""
+ },
+ {
+  "q": "がっこう",
+  "type": "hira",
+  "expect": [
+   "โรงเรียน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "しごと",
+  "type": "hira",
+  "expect": [
+   "งาน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ねる",
+  "type": "hira",
+  "expect": [
+   "นอน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "みる",
+  "type": "hira",
+  "expect": [
+   "ดู"
+  ],
+  "note": ""
+ },
+ {
+  "q": "おおきい",
+  "type": "hira",
+  "expect": [
+   "ใหญ่"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ちいさい",
+  "type": "hira",
+  "expect": [
+   "เล็ก"
+  ],
+  "note": ""
+ },
+ {
+  "q": "えき",
+  "type": "hira",
+  "expect": [
+   "สถานี"
+  ],
+  "note": ""
+ },
+ {
+  "q": "びょういん",
+  "type": "hira",
+  "expect": [
+   "โรงพยาบาล"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ごはん",
+  "type": "hira",
+  "expect": [
+   "ข้าว"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ティー",
+  "type": "kana",
+  "expect": [
+   "ที",
+   "ตี"
+  ],
+  "note": "past complaint: ที/ตี before ดี",
+  "before": [
+   [
+    "ที",
+    "ดี"
+   ],
+   [
+    "ตี",
+    "ดี"
+   ]
+  ]
+ },
+ {
+  "q": "ディー",
+  "type": "kana",
+  "expect": [
+   "ดี"
+  ],
+  "note": ""
+ },
+ {
+  "q": "サワディー",
+  "type": "kana",
+  "expect": [
+   "สวัสดี"
+  ],
+  "note": "home chip"
+ },
+ {
+  "q": "コップンカー",
+  "type": "kana",
+  "expect": [
+   "ขอบคุณ"
+  ],
+  "note": "polite ending stripped"
+ },
+ {
+  "q": "コップンクラップ",
+  "type": "kana",
+  "expect": [
+   "ขอบคุณ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "アロイ",
+  "type": "kana",
+  "expect": [
+   "อร่อย"
+  ],
+  "note": ""
+ },
+ {
+  "q": "マイペンライ",
+  "type": "kana",
+  "expect": [
+   "ไม่เป็นไร"
+  ],
+  "note": ""
+ },
+ {
+  "q": "タオライ",
+  "type": "kana",
+  "expect": [
+   "เท่าไหร่",
+   "เท่าไร"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ガイ",
+  "type": "kana",
+  "expect": [
+   "ไก่"
+  ],
+  "note": "ไก่ is written ガイ in Japanese (ガイヤーン, ガイトート)"
+ },
+ {
+  "q": "カイ",
+  "type": "kana",
+  "expect": [
+   "ไก่",
+   "ไข่"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ナーム",
+  "type": "kana",
+  "expect": [
+   "น้ำ"
+  ],
+  "note": "long ー: น้ำ (náam) before นำ (nam)"
+ },
+ {
+  "q": "カーオ",
+  "type": "kana",
+  "expect": [
+   "ข้าว"
+  ],
+  "note": ""
+ },
+ {
+  "q": "キン",
+  "type": "kana",
+  "expect": [
+   "กิน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "パイ",
+  "type": "kana",
+  "expect": [
+   "ไป"
+  ],
+  "note": ""
+ },
+ {
+  "q": "マー",
+  "type": "kana",
+  "expect": [
+   "มา",
+   "หมา"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ペット",
+  "type": "kana",
+  "expect": [
+   "เผ็ด"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ローン",
+  "type": "kana",
+  "expect": [
+   "ร้อน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ナーオ",
+  "type": "kana",
+  "expect": [
+   "หนาว"
+  ],
+  "note": ""
+ },
+ {
+  "q": "スワイ",
+  "type": "kana",
+  "expect": [
+   "สวย"
+  ],
+  "note": "common Japanese spelling of สวย"
+ },
+ {
+  "q": "スアイ",
+  "type": "kana",
+  "expect": [
+   "สวย"
+  ],
+  "note": ""
+ },
+ {
+  "q": "チョープ",
+  "type": "kana",
+  "expect": [
+   "ชอบ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ラック",
+  "type": "kana",
+  "expect": [
+   "รัก"
+  ],
+  "note": ""
+ },
+ {
+  "q": "バーン",
+  "type": "kana",
+  "expect": [
+   "บ้าน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "サバーイ",
+  "type": "kana",
+  "expect": [
+   "สบาย"
+  ],
+  "note": ""
+ },
+ {
+  "q": "サバイディー",
+  "type": "kana",
+  "expect": [
+   "สบายดี"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ポム",
+  "type": "kana",
+  "expect": [
+   "ผม"
+  ],
+  "note": ""
+ },
+ {
+  "q": "チャイ",
+  "type": "kana",
+  "expect": [
+   "ใช่"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ロットファイ",
+  "type": "kana",
+  "expect": [
+   "รถไฟ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ホンナーム",
+  "type": "kana",
+  "expect": [
+   "ห้องน้ำ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ガパオ",
+  "type": "kana",
+  "expect": [
+   "กะเพรา"
+  ],
+  "note": "food name as written on Japanese menus"
+ },
+ {
+  "q": "kin",
+  "type": "ro",
+  "expect": [
+   "กิน",
+   "กินข้าว"
+  ],
+  "note": "home chip; English \"kin\" (relatives) should not split กิน and its compounds"
+ },
+ {
+  "q": "aroi",
+  "type": "ro",
+  "expect": [
+   "อร่อย"
+  ],
+  "note": ""
+ },
+ {
+  "q": "aroy",
+  "type": "ro",
+  "expect": [
+   "อร่อย"
+  ],
+  "note": ""
+ },
+ {
+  "q": "sawatdi",
+  "type": "ro",
+  "expect": [
+   "สวัสดี"
+  ],
+  "note": ""
+ },
+ {
+  "q": "sawasdee",
+  "type": "ro",
+  "expect": [
+   "สวัสดี"
+  ],
+  "note": "most common sign/menu spelling"
+ },
+ {
+  "q": "sawadee",
+  "type": "ro",
+  "expect": [
+   "สวัสดี"
+  ],
+  "note": ""
+ },
+ {
+  "q": "kop kun",
+  "type": "ro",
+  "expect": [
+   "ขอบคุณ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "khob khun",
+  "type": "ro",
+  "expect": [
+   "ขอบคุณ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "khop khun khrap",
+  "type": "ro",
+  "expect": [
+   "ขอบคุณ",
+   "ขอบคุณครับ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "mai pen rai",
+  "type": "ro",
+  "expect": [
+   "ไม่เป็นไร"
+  ],
+  "note": ""
+ },
+ {
+  "q": "pai",
+  "type": "ro",
+  "expect": [
+   "ไป"
+  ],
+  "note": ""
+ },
+ {
+  "q": "nam",
+  "type": "ro",
+  "expect": [
+   "น้ำ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "khao",
+  "type": "ro",
+  "expect": [
+   "ข้าว"
+  ],
+  "note": ""
+ },
+ {
+  "q": "kao",
+  "type": "ro",
+  "expect": [
+   "ข้าว",
+   "เก้า"
+  ],
+  "note": ""
+ },
+ {
+  "q": "khaw",
+  "type": "ro",
+  "expect": [
+   "ข้าว"
+  ],
+  "note": ""
+ },
+ {
+  "q": "khâao",
+  "type": "ro",
+  "expect": [
+   "ข้าว"
+  ],
+  "note": "tone-marked, system spelling"
+ },
+ {
+  "q": "thao rai",
+  "type": "ro",
+  "expect": [
+   "เท่าไหร่",
+   "เท่าไร"
+  ],
+  "note": ""
+ },
+ {
+  "q": "tao rai",
+  "type": "ro",
+  "expect": [
+   "เท่าไหร่",
+   "เท่าไร"
+  ],
+  "note": ""
+ },
+ {
+  "q": "kai",
+  "type": "ro",
+  "expect": [
+   "ไก่"
+  ],
+  "note": ""
+ },
+ {
+  "q": "phet",
+  "type": "ro",
+  "expect": [
+   "เผ็ด"
+  ],
+  "note": ""
+ },
+ {
+  "q": "pet",
+  "type": "ro",
+  "expect": [
+   "เผ็ด"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ron",
+  "type": "ro",
+  "expect": [
+   "ร้อน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "nao",
+  "type": "ro",
+  "expect": [
+   "หนาว"
+  ],
+  "note": ""
+ },
+ {
+  "q": "suay",
+  "type": "ro",
+  "expect": [
+   "สวย"
+  ],
+  "note": ""
+ },
+ {
+  "q": "chop",
+  "type": "ro",
+  "expect": [
+   "ชอบ"
+  ],
+  "note": "trade-off: \"chop\" is also an English gloss"
+ },
+ {
+  "q": "rak",
+  "type": "ro",
+  "expect": [
+   "รัก"
+  ],
+  "note": ""
+ },
+ {
+  "q": "baan",
+  "type": "ro",
+  "expect": [
+   "บ้าน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "maa",
+  "type": "ro",
+  "expect": [
+   "มา"
+  ],
+  "note": ""
+ },
+ {
+  "q": "sabai",
+  "type": "ro",
+  "expect": [
+   "สบาย"
+  ],
+  "note": ""
+ },
+ {
+  "q": "rot fai",
+  "type": "ro",
+  "expect": [
+   "รถไฟ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "hong nam",
+  "type": "ro",
+  "expect": [
+   "ห้องน้ำ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "kin khao",
+  "type": "ro",
+  "expect": [
+   "กินข้าว"
+  ],
+  "note": ""
+ },
+ {
+  "q": "กิน",
+  "type": "th",
+  "expect": [
+   "กิน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "อร่อย",
+  "type": "th",
+  "expect": [
+   "อร่อย"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ไป",
+  "type": "th",
+  "expect": [
+   "ไป"
+  ],
+  "note": "home chip"
+ },
+ {
+  "q": "น้ำ",
+  "type": "th",
+  "expect": [
+   "น้ำ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ข้าว",
+  "type": "th",
+  "expect": [
+   "ข้าว"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ขอบคุณ",
+  "type": "th",
+  "expect": [
+   "ขอบคุณ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "สวัสดี",
+  "type": "th",
+  "expect": [
+   "สวัสดี"
+  ],
+  "note": ""
+ },
+ {
+  "q": "เท่าไร",
+  "type": "th",
+  "expect": [
+   "เท่าไร"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ไก่",
+  "type": "th",
+  "expect": [
+   "ไก่"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ไข่",
+  "type": "th",
+  "expect": [
+   "ไข่"
+  ],
+  "note": ""
+ },
+ {
+  "q": "เผ็ด",
+  "type": "th",
+  "expect": [
+   "เผ็ด"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ร้อน",
+  "type": "th",
+  "expect": [
+   "ร้อน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "หนาว",
+  "type": "th",
+  "expect": [
+   "หนาว"
+  ],
+  "note": ""
+ },
+ {
+  "q": "สวย",
+  "type": "th",
+  "expect": [
+   "สวย"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ชอบ",
+  "type": "th",
+  "expect": [
+   "ชอบ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "รัก",
+  "type": "th",
+  "expect": [
+   "รัก"
+  ],
+  "note": ""
+ },
+ {
+  "q": "บ้าน",
+  "type": "th",
+  "expect": [
+   "บ้าน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "มา",
+  "type": "th",
+  "expect": [
+   "มา"
+  ],
+  "note": ""
+ },
+ {
+  "q": "สบาย",
+  "type": "th",
+  "expect": [
+   "สบาย"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ผม",
+  "type": "th",
+  "expect": [
+   "ผม"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ใช่",
+  "type": "th",
+  "expect": [
+   "ใช่"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ไม่",
+  "type": "th",
+  "expect": [
+   "ไม่"
+  ],
+  "note": ""
+ },
+ {
+  "q": "รถไฟ",
+  "type": "th",
+  "expect": [
+   "รถไฟ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ห้องน้ำ",
+  "type": "th",
+  "expect": [
+   "ห้องน้ำ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ดี",
+  "type": "th",
+  "expect": [
+   "ดี"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ที่",
+  "type": "th",
+  "expect": [
+   "ที่"
+  ],
+  "note": ""
+ },
+ {
+  "q": "สูง",
+  "type": "th",
+  "expect": [
+   "สูง"
+  ],
+  "note": ""
+ },
+ {
+  "q": "แพง",
+  "type": "th",
+  "expect": [
+   "แพง",
+   "แพงไป"
+  ],
+  "note": ""
+ },
+ {
+  "q": "ถูก",
+  "type": "th",
+  "expect": [
+   "ถูก"
+  ],
+  "note": ""
+ },
+ {
+  "q": "นอน",
+  "type": "th",
+  "expect": [
+   "นอน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "eat",
+  "type": "en",
+  "expect": [
+   "กิน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "water",
+  "type": "en",
+  "expect": [
+   "น้ำ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "hot",
+  "type": "en",
+  "expect": [
+   "ร้อน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "thank you",
+  "type": "en",
+  "expect": [
+   "ขอบคุณ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "how much",
+  "type": "en",
+  "expect": [
+   "เท่าไหร่",
+   "เท่าไร"
+  ],
+  "note": ""
+ },
+ {
+  "q": "chicken",
+  "type": "en",
+  "expect": [
+   "ไก่"
+  ],
+  "note": ""
+ },
+ {
+  "q": "egg",
+  "type": "en",
+  "expect": [
+   "ไข่"
+  ],
+  "note": ""
+ },
+ {
+  "q": "spicy",
+  "type": "en",
+  "expect": [
+   "เผ็ด"
+  ],
+  "note": ""
+ },
+ {
+  "q": "cold",
+  "type": "en",
+  "expect": [
+   "หนาว",
+   "เย็น"
+  ],
+  "note": ""
+ },
+ {
+  "q": "beautiful",
+  "type": "en",
+  "expect": [
+   "สวย"
+  ],
+  "note": ""
+ },
+ {
+  "q": "like",
+  "type": "en",
+  "expect": [
+   "ชอบ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "love",
+  "type": "en",
+  "expect": [
+   "รัก"
+  ],
+  "note": ""
+ },
+ {
+  "q": "house",
+  "type": "en",
+  "expect": [
+   "บ้าน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "come",
+  "type": "en",
+  "expect": [
+   "มา"
+  ],
+  "note": ""
+ },
+ {
+  "q": "go",
+  "type": "en",
+  "expect": [
+   "ไป"
+  ],
+  "note": ""
+ },
+ {
+  "q": "rice",
+  "type": "en",
+  "expect": [
+   "ข้าว"
+  ],
+  "note": ""
+ },
+ {
+  "q": "delicious",
+  "type": "en",
+  "expect": [
+   "อร่อย"
+  ],
+  "note": ""
+ },
+ {
+  "q": "toilet",
+  "type": "en",
+  "expect": [
+   "ห้องน้ำ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "train",
+  "type": "en",
+  "expect": [
+   "รถไฟ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "expensive",
+  "type": "en",
+  "expect": [
+   "แพง"
+  ],
+  "note": ""
+ },
+ {
+  "q": "cheap",
+  "type": "en",
+  "expect": [
+   "ถูก"
+  ],
+  "note": ""
+ },
+ {
+  "q": "tall",
+  "type": "en",
+  "expect": [
+   "สูง"
+  ],
+  "note": ""
+ },
+ {
+  "q": "dog",
+  "type": "en",
+  "expect": [
+   "หมา"
+  ],
+  "note": ""
+ },
+ {
+  "q": "cat",
+  "type": "en",
+  "expect": [
+   "แมว"
+  ],
+  "note": ""
+ },
+ {
+  "q": "money",
+  "type": "en",
+  "expect": [
+   "เงิน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "friend",
+  "type": "en",
+  "expect": [
+   "เพื่อน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "teacher",
+  "type": "en",
+  "expect": [
+   "ครู"
+  ],
+  "note": ""
+ },
+ {
+  "q": "school",
+  "type": "en",
+  "expect": [
+   "โรงเรียน"
+  ],
+  "note": ""
+ },
+ {
+  "q": "sleep",
+  "type": "en",
+  "expect": [
+   "นอน",
+   "หลับ"
+  ],
+  "note": ""
+ },
+ {
+  "q": "big",
+  "type": "en",
+  "expect": [
+   "ใหญ่"
+  ],
+  "note": ""
+ }
+]
