@@ -34,7 +34,8 @@ function boot(withMore){const ctx={window:{},localStorage:{getItem:()=>null,setI
 // one-syllable added words stay low unless checked, and the base 5,000 keep their measured values.
 {const byTh=new Map(),all=[...core,...more].filter(w=>w.collection!=='slang');for(const w of all){const c=byTh.get(w.th);if(!c||w.frequency>c.frequency)byTh.set(w.th,w)}
  const f=th=>byTh.get(th).frequency;assert(f('ไทย')>=f('ประเทศไทย'));assert(f('ไทย')>=9);assert(f('ภาษาไทย')<=f('ไทย'));assert(f('ญี่ปุ่น')>=7);
- assert(more.filter(w=>!/\s/.test(w.ro)&&!['ไทย','จีน','ลาว','นึง'].includes(w.th)).every(w=>w.frequency<=4));
+ // รึ・มั่ง: casual spellings of หรือ・บ้าง, frequent in speech and chat (usage review 2026-11-27, subtitle and SNS counts).
+ assert(more.filter(w=>!/\s/.test(w.ro)&&!['ไทย','จีน','ลาว','นึง','รึ','มั่ง'].includes(w.th)).every(w=>w.frequency<=4));
  assert(more.filter(w=>/ๆ/.test(w.th)).every(w=>{const b=byTh.get(w.th.replace(/ๆ/g,'').trim());return !b||w.frequency<=b.frequency}));
  assert(report.frequency&&report.frequency.corpus>4000);}
 console.log(`PASS: ${more.length.toLocaleString('en')} reviewed additions, ${senses.toLocaleString('en')} senses with examples; original 5,000 records and 500-3,000 ranges unchanged; 5,000 = all originals + top additions in study order; ${b.lib.unique.toLocaleString('en')} unique headwords; AI-reviewed, not native-verified.`)})().catch(e=>{console.error(e);process.exit(1)});
