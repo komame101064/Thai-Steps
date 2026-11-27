@@ -11,70 +11,61 @@
 <feMerge><feMergeNode in="sh"/><feMergeNode in="wh"/><feMergeNode in="SourceGraphic"/></feMerge>
 </filter>
 </defs>
-<g filter="url(#fEleSt)" stroke="#2a211e" stroke-linejoin="round" stroke-linecap="round"><g transform="translate(7 9) scale(.9)">
-<!-- water spray -->
-<g stroke-width="2" transform="translate(-6 4) translate(139 38) scale(1.25) translate(-139 -38)">
-<path d="M139 38 C134 24 122 18 110 22 C122 22 130 28 133 38 Z" fill="#3aa7e8"/>
-<path d="M145 36 C150 22 146 12 138 8 C143 16 143 26 139 36 Z" fill="#3aa7e8"/>
-<path d="M150 40 C160 34 160 24 156 18 C156 26 153 32 146 38 Z" fill="#3aa7e8"/>
-<path d="M112 26 q-3 6 0 8 q3 -2 0 -8z" fill="#3aa7e8"/>
-<path d="M131 10 q-3 6 0 8 q3 -2 0 -8z" fill="#3aa7e8"/>
-<path d="M152 10 q-2.5 5 0 7 q2.5 -2 0 -7z" fill="#3aa7e8"/>
-</g>
-<g fill="#fff" stroke="none" transform="translate(-6 4) translate(139 38) scale(1.25) translate(-139 -38)"><path d="M126 23 c-4 0-8 2-10 4" stroke="#fff" stroke-width="1.6" fill="none"/><circle cx="141" cy="21" r="1.4"/></g>
+<g filter="url(#fEleSt)" stroke="#2a211e" stroke-linejoin="round" stroke-linecap="round"><g transform="translate(-2 2) scale(.96)">
 <!-- tail -->
-<path d="M30 104 C20 102 18 92 22 86" fill="none" stroke-width="3"/>
-<path d="M22 86 l-4-5 l5 1 l1-5 l2 5 l4-2 z" fill="#33241f" stroke-width="2"/>
-<!-- back legs -->
-<path d="M36 118 L34 146 Q42 150 50 146 L52 120 Z" fill="#8492ab" stroke-width="3"/>
-<path d="M36 146 q2 -3 4 0 M43 147 q2 -3 4 0" fill="none" stroke-width="1.6"/>
+<path d="M24 92 C16 96 14 104 18 110" fill="none" stroke-width="3"/>
+<path d="M18 110 l-5 3 l5 1 l-2 5 l5 -3 l2 4 l1 -6 z" fill="#33241f" stroke-width="2"/>
+<!-- far legs -->
+<path d="M30 116 L30 144 Q37 149 44 144 L44 116 Z" fill="#8492ab" stroke-width="3"/>
+<path d="M82 116 L82 144 Q89 149 96 144 L96 116 Z" fill="#8492ab" stroke-width="3"/>
 <!-- body -->
-<path d="M30 112 C26 88 46 76 70 78 C92 80 102 96 100 116 C98 134 82 142 62 141 C42 140 32 128 30 112 Z" fill="#a4b2c9" stroke-width="3.2"/>
-<path d="M34 120 C40 134 58 140 80 136 C92 132 98 124 99 116 C92 128 70 134 52 130 C44 128 38 124 34 120 Z" fill="#8492ab" stroke="none"/>
-<path d="M44 90 C50 84 60 82 68 83" fill="none" stroke="#dfe6f0" stroke-width="3"/>
-<!-- near legs -->
-<path d="M52 128 L50 148 Q60 153 68 148 L68 130 Z" fill="#a4b2c9" stroke-width="3"/>
-<path d="M53 148 q2.5-3 5 0 M60 149 q2.5-3 5 0" fill="none" stroke-width="1.6"/>
-<!-- raised dancing front leg -->
-<path d="M84 122 C92 128 98 136 108 136 L112 124 C104 122 98 116 92 112 Z" fill="#a4b2c9" stroke-width="3"/>
-<path d="M110 123 Q117 129 112 137" fill="#8492ab" stroke-width="2.4"/>
-<!-- garland (phuang malai) -->
-<path d="M70 92 C78 104 96 106 106 98" fill="none" stroke="#2a211e" stroke-width="7"/>
-<path d="M70 92 C78 104 96 106 106 98" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="0.1 5.2"/>
-<g stroke-width="1.6"><circle cx="76" cy="99" r="3" fill="#fff"/><circle cx="83" cy="102.5" r="3" fill="#fff"/><circle cx="98" cy="102" r="3" fill="#fff"/><circle cx="104" cy="99" r="3" fill="#fff"/></g>
-<circle cx="90.5" cy="104" r="5.4" fill="#f04e3e" stroke-width="2"/>
-<circle cx="90.5" cy="104" r="2.2" fill="#ffcf33" stroke-width="1.2"/>
-<path d="M88 109 l-2 8 M93 109 l2 8" stroke="#ff9433" stroke-width="2.4"/>
-<!-- ear -->
-<path d="M80 56 C66 52 58 66 60 80 C62 92 72 98 82 94 Z" fill="#a4b2c9" stroke-width="3"/>
-<path d="M78 62 C70 62 66 72 68 80 C70 87 75 90 80 88 Z" fill="#ff9fb2" stroke-width="1.8"/>
+<path d="M22 98 C20 74 40 62 66 64 C88 66 100 78 100 94 L100 116 C100 126 92 130 82 130 L36 130 C27 130 22 124 22 112 Z" fill="#a4b2c9" stroke-width="3.2"/>
+<path d="M23 112 C24 122 30 128 38 128 L84 128 C92 128 98 124 99 116 C90 122 60 124 40 120 C32 118 26 116 23 112 Z" fill="#8492ab" stroke="none"/>
+<path d="M34 76 C42 70 54 68 64 69" fill="none" stroke="#dfe6f0" stroke-width="3.2"/>
+<!-- near legs (front foot lifted in a happy step) -->
+<path d="M40 118 L40 147 Q48 152 56 147 L56 118 Z" fill="#a4b2c9" stroke-width="3"/>
+<path d="M88 118 L94 143 Q102 148 109 141 L102 116 Z" fill="#a4b2c9" stroke-width="3"/>
+<g fill="#fff5e0" stroke-width="1.5"><path d="M42 147 a2.6 2.6 0 0 1 5.2 0z M48.8 147.6 a2.6 2.6 0 0 1 5.2 0z M95.5 143.5 a2.6 2.6 0 0 1 5.2 -0.8z M102 142 a2.6 2.6 0 0 1 5 -1.6z"/></g>
 <!-- head with twin dome -->
-<path d="M80 74 C76 52 86 36 100 36 C106 30 118 30 124 38 C134 46 136 62 130 76 C126 86 122 90 116 92 L100 94 C88 94 82 86 80 74 Z" fill="#a4b2c9" stroke-width="3.2"/>
-<path d="M104 40 C108 44 110 48 110 52" fill="none" stroke-width="1.8"/>
-<path d="M90 44 C94 40 98 38 102 39" fill="none" stroke="#dfe6f0" stroke-width="3"/>
-<path d="M114 36 C118 35 121 37 123 40" fill="none" stroke="#dfe6f0" stroke-width="2.6"/>
-<path d="M82 78 C86 88 94 92 104 92 C96 88 88 84 82 78 Z" fill="#8492ab" stroke="none"/>
-<!-- mouth -->
-<path d="M100 82 C100 92 106 98 112 96 C116 94 116 88 114 84 Z" fill="#8f2a2a" stroke-width="2.4"/>
-<path d="M104 92 C106 96 111 97 113 94 C111 90 106 89 104 92 Z" fill="#ff7d95" stroke="none"/>
-<!-- trunk raised -->
-<path d="M114 84 C128 92 138 82 136 70 C134 60 128 54 132 44" fill="none" stroke="#2a211e" stroke-width="16"/>
-<path d="M114 84 C128 92 138 82 136 70 C134 60 128 54 132 44" fill="none" stroke="#a4b2c9" stroke-width="10.4"/>
-<path d="M120 86 C126 87 131 84 132 78" fill="none" stroke="#8492ab" stroke-width="3"/>
-<g fill="none" stroke-width="1.5"><path d="M130 66 q3 -1 5 1 M129 59 q3 -1 5 1 M129 52 q3 -1 5 1"/></g>
-<ellipse cx="132.5" cy="42.5" rx="5.6" ry="3.4" transform="rotate(-8 132.5 42.5)" fill="#8492ab" stroke-width="2.4"/>
-<ellipse cx="132.5" cy="42.5" rx="2.6" ry="1.3" transform="rotate(-8 132.5 42.5)" fill="#2a211e" stroke="none"/>
-<!-- eyes -->
-<path d="M96 60 C96 53 104 53 104 60 C104 67 96 67 96 60 Z" fill="#2a211e" stroke-width="1.2"/>
-<path d="M113 58 C113 51 121 51 121 58 C121 65 113 65 113 58 Z" fill="#2a211e" stroke-width="1.2"/>
-<circle cx="101.6" cy="57.5" r="2" fill="#fff" stroke="none"/><circle cx="98.4" cy="62.6" r="0.9" fill="#fff" stroke="none"/>
-<circle cx="118.6" cy="55.5" r="2" fill="#fff" stroke="none"/><circle cx="115.4" cy="60.6" r="0.9" fill="#fff" stroke="none"/>
-<path d="M95 47 Q99 42 103 45 M113 44 Q117 39 121 42" fill="none" stroke-width="2.2"/>
-<ellipse cx="94" cy="72" rx="4.5" ry="2.8" fill="#ff7d95" stroke="none" opacity=".85"/>
-<ellipse cx="124" cy="68" rx="3.6" ry="2.4" fill="#ff7d95" stroke="none" opacity=".85"/>
+<path d="M80 68 C76 44 90 26 106 26 C112 20 125 22 131 32 C137 42 137 60 133 72 C129 82 122 88 114 90 L96 92 C86 90 82 80 80 68 Z" fill="#a4b2c9" stroke-width="3.2"/>
+<path d="M106 28 C110 32 112 36 112 40" fill="none" stroke-width="1.8"/>
+<path d="M88 40 C92 34 98 31 104 31" fill="none" stroke="#dfe6f0" stroke-width="3.2"/>
+<path d="M116 28 C121 27 125 29 127 33" fill="none" stroke="#dfe6f0" stroke-width="2.8"/>
+<path d="M82 76 C86 86 94 90 104 90 C96 86 88 82 82 76 Z" fill="#8492ab" stroke="none"/>
+<!-- ear (smaller Asian ear, pink inside) -->
+<path d="M93 44 C76 40 66 54 68 70 C70 84 82 92 95 86 Z" fill="#a4b2c9" stroke-width="3"/>
+<path d="M90 50 C80 50 74 60 76 70 C78 79 84 83 91 81 Z" fill="#ff9fb2" stroke-width="1.8"/>
+<path d="M88 84 C84 80 80 74 79 68" fill="none" stroke="#8492ab" stroke-width="2.4"/>
+<!-- open smiling mouth -->
+<path d="M100 80 C100 92 107 97 113 94 C117 91 117 85 115 81 Z" fill="#8f2a2a" stroke-width="2.4"/>
+<path d="M103 89 C105 94 110 95 113 92 C111 88 106 87 103 89 Z" fill="#ff7d95" stroke="none"/>
+<!-- trunk: smooth S curled up -->
+<path d="M116 78 C122 96 142 96 145 80 C147 66 140 50 146 36" fill="none" stroke="#2a211e" stroke-width="15"/>
+<path d="M116 78 C122 96 142 96 145 80 C147 66 140 50 146 36" fill="none" stroke="#a4b2c9" stroke-width="9.6"/>
+<path d="M124 92 C130 96 138 94 142 88" fill="none" stroke="#8492ab" stroke-width="3"/>
+<g fill="none" stroke-width="1.6"><path d="M140 44 q3.5 -1.2 6.5 0.8 M139.5 50 q3.5 -1.2 6.5 0.8"/></g>
+<ellipse cx="146.2" cy="35" rx="5.4" ry="3.2" transform="rotate(-12 146.2 35)" fill="#8492ab" stroke-width="2.4"/>
+<ellipse cx="146.2" cy="35" rx="2.4" ry="1.2" transform="rotate(-12 146.2 35)" fill="#2a211e" stroke="none"/>
+<!-- small tusk -->
+<path d="M113 92 C113 99 118 103 124 101 C120 99 117 95 117 90 Z" fill="#fff8e6" stroke-width="2"/>
+<!-- happy eyes -->
+<path d="M102 54 Q108 46 114 54 M119 52 Q125 44 131 52" fill="none" stroke-width="3.2"/>
+<path d="M103 44 Q107 42 111 43 M121 41 Q125 39 129 40" fill="none" stroke-width="1.8"/>
+<ellipse cx="103" cy="63" rx="5" ry="3" fill="#ff7d95" stroke="none" opacity=".9"/>
+<ellipse cx="131" cy="60" rx="3.6" ry="2.6" fill="#ff7d95" stroke="none" opacity=".9"/>
+<!-- garland (phuang malai) -->
+<path d="M80 82 C88 98 104 102 116 94" fill="none" stroke="#2a211e" stroke-width="7"/>
+<path d="M80 82 C88 98 104 102 116 94" fill="none" stroke="#fff" stroke-width="4"/>
+<g stroke-width="1.6" fill="#fff"><circle cx="84" cy="90" r="3.2"/><circle cx="90" cy="95.5" r="3.2"/><circle cx="104" cy="99" r="3.2"/><circle cx="111" cy="97" r="3.2"/></g>
+<circle cx="97" cy="99.5" r="5.6" fill="#f04e3e" stroke-width="2"/>
+<circle cx="97" cy="99.5" r="2.2" fill="#ffcf33" stroke-width="1.2"/>
+<path d="M94.5 105 l-2 8 M99.5 105 l2 8" stroke="#ff9433" stroke-width="2.4"/>
+<!-- water spray fan from the trunk tip -->
+<g fill="#3aa7e8" stroke-width="2"><path d="M122 29.4 c-2.8 4.1 -2.8 7.2 0 7.2 c2.8 0 2.8 -3.1 0 -7.2z" transform="rotate(-62 122 33)"/><path d="M127 18.0 c-2.8 4.6 -2.8 8.0 0 8.0 c2.8 0 2.8 -3.4 0 -8.0z" transform="rotate(-42 127 22)"/><path d="M136 10.6 c-2.8 5.1 -2.8 8.8 0 8.8 c2.8 0 2.8 -3.7 0 -8.8z" transform="rotate(-20 136 15)"/><path d="M146 8.6 c-2.8 5.1 -2.8 8.8 0 8.8 c2.8 0 2.8 -3.7 0 -8.8z" transform="rotate(0 146 13)"/><path d="M154 15.4 c-2.8 4.1 -2.8 7.2 0 7.2 c2.8 0 2.8 -3.1 0 -7.2z" transform="rotate(22 154 19)"/><circle cx="132" cy="29" r="2"/><circle cx="142" cy="23" r="1.8"/><circle cx="120" cy="23" r="1.6"/></g>
+<path d="M140 31 C134 27 128 27 124 29 M144 29 C142 23 138 19 134 17" fill="none" stroke="#3aa7e8" stroke-width="2.6"/>
 <!-- sparkles -->
-<path d="M20 52 l2.4 6 6 2.4 -6 2.4 -2.4 6 -2.4 -6 -6 -2.4 6 -2.4z" fill="#ffcf33" stroke-width="1.8"/>
-<path d="M44 34 l1.6 4 4 1.6 -4 1.6 -1.6 4 -1.6 -4 -4 -1.6 4 -1.6z" fill="#ff7d95" stroke-width="1.5"/>
-<path d="M60 40 l3 -6 M66 46 l6 -3 M56 36 l-1 -6" fill="none" stroke="#2a211e" stroke-width="2"/>
+<path d="M26 44 l2.4 6 6 2.4 -6 2.4 -2.4 6 -2.4 -6 -6 -2.4 6 -2.4z" fill="#ffcf33" stroke-width="1.8"/>
+<path d="M52 30 l1.6 4 4 1.6 -4 1.6 -1.6 4 -1.6 -4 -4 -1.6 4 -1.6z" fill="#ff7d95" stroke-width="1.5"/>
+<path d="M64 48 l-3 -6 M58 54 l-6 -2" fill="none" stroke-width="2"/>
 </g></g>
 </svg>

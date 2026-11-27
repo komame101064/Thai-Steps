@@ -4,93 +4,94 @@
 <feTurbulence type="fractalNoise" baseFrequency=".045" numOctaves="2" seed="4" result="w"/>
 <feDisplacementMap in="SourceGraphic" in2="w" scale="2.4" xChannelSelector="R" yChannelSelector="G" result="d"/>
 <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="9" result="n"/>
-<feColorMatrix in="n" type="matrix" values="0 0 0 0 .24 0 0 0 0 .17 0 0 0 0 .14 0 0 0 -1.6 .9" result="g"/>
+<feColorMatrix in="n" type="matrix" values="0 0 0 0 .24 0 0 0 0 .17 0 0 0 0 .14 0 0 0 -1 .56" result="g"/>
 <feComposite in="g" in2="d" operator="in" result="gi"/>
 <feMerge><feMergeNode in="d"/><feMergeNode in="gi"/></feMerge>
 </filter>
-<style>.l{fill:none;stroke:#3d2c26;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.t{fill:none;stroke:#3d2c26;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.o{transform:translate(1.1px,-.9px)}</style>
+<style>.l{fill:none;stroke:#3d2c26;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.t{fill:none;stroke:#3d2c26;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.o{transform:translate(1.6px,-1.3px)}.g{stroke-dasharray:52 3.5 80 3 36 4}</style>
 <path id="hairb" d="M57 64 C51 40 62 25 80 25 C98 25 109 40 103 64 C100 71 95 67 96 59 L64 59 C65 67 60 71 57 64Z"/>
 <path id="face" d="M58 49 C58 35 68 28 80 28 C92 28 102 35 102 49 C102 63 93 72 80 72 C67 72 58 63 58 49Z"/>
 <path id="bang" d="M59 46 C58 33 68 26 80 26 C93 26 102 33 101 46 C97 41 93 39 89 43 C85 38 79 37 75 41 C70 38 64 40 59 46Z"/>
 <path id="mouth" d="M73 60 C73 57 87 57 87 60 C87 67 83 70 80 70 C77 70 73 67 73 60Z"/>
 <path id="torso" d="M56 80 C64 74 96 74 104 80 C112 86 114 100 115 116 L45 116 C46 100 48 86 56 80Z"/>
-<path id="table" d="M8 112 L152 112 L152 126 L8 126Z"/>
-<path id="plate" d="M42 121 C42 112 118 112 118 121 C118 131 42 131 42 121Z"/>
-<path id="rice" d="M52 120 C52 106 64 100 78 101 C92 100 106 106 106 120 C96 124 62 124 52 120Z"/>
-<path id="egg" d="M70 106 C66 102 72 98 78 100 C84 97 90 101 88 106 C88 110 72 111 70 106Z"/>
-<path id="glass" d="M126 84 L146 84 L143 120 C143 123 129 123 129 120Z"/>
+<path id="table" d="M12 110 L148 110 L156 152 L4 152Z"/>
+<path id="plate" d="M38 128 C38 116 122 116 122 128 C122 140 38 140 38 128Z"/>
+<path id="rice" d="M50 126 C50 110 62 103 78 104 C94 103 108 110 108 126 C96 131 62 131 50 126Z"/>
+<path id="egg" d="M68 110 C64 105 71 101 78 103 C85 100 92 105 89 110 C88 114 70 115 68 110Z"/>
+<path id="glass" d="M128 90 L148 90 L145 126 C145 129 131 129 131 126Z"/>
 <path id="fistR" d="M53 75 C53 70 59 68 63 70 C67 72 67 79 63 81 C59 83 53 80 53 75Z"/>
-<path id="fistL" d="M98 113 C98 108 104 106 108 108 C112 110 112 117 108 119 C104 121 98 118 98 113Z"/>
-<path id="spoon" d="M67 66 C67 62 76 60 78 63 C79 67 72 70 68 69 C67 68 67 67 67 66Z"/>
+<path id="fistL" d="M106 108 C106 103 112 101 116 103 C120 105 120 112 116 114 C112 116 106 113 106 108Z"/>
+<path id="spoon" d="M65 66 C65 60 77 58 80 62 C81 67 73 71 67 70 C65 69 65 67 65 66Z"/>
 </defs>
 <circle cx="80" cy="74" r="66" fill="#ffe8b8"/>
 <g filter="url(#f)">
 <!-- steam -->
-<g class="t" stroke="#b9a99a"><path d="M40 98c-4-5 4-8 0-13s4-8 0-12M30 104c-3-4 3-6 0-10"/></g>
+
 <!-- hair back -->
 <use xlink:href="#hairb" class="o" fill="#3a2a24"/><use xlink:href="#hairb" class="l"/>
 <!-- neck + torso -->
 <path d="M74 66h12v14h-12z" fill="#e2a377"/><path class="l" d="M74 68v10M86 68v10"/>
 <use xlink:href="#torso" class="o" fill="#45aee0"/>
 <path d="M98 82c8 6 11 18 12 32l5 2c-1-16-3-30-11-36z" fill="#2f8ec4"/>
-<g fill="#fff8e6"><circle cx="64" cy="92" r="1.8"/><circle cx="76" cy="100" r="1.8"/><circle cx="90" cy="92" r="1.8"/><circle cx="98" cy="104" r="1.8"/><circle cx="60" cy="106" r="1.8"/><circle cx="84" cy="108" r="1.8"/></g>
+<g fill="#ffc93c"><circle cx="66" cy="90" r="2.4"/><circle cx="78" cy="98" r="2.4"/><circle cx="92" cy="90" r="2.4"/><circle cx="98" cy="102" r="2.4"/><circle cx="58" cy="104" r="2.4"/><circle cx="86" cy="106" r="2.4"/></g>
 <use xlink:href="#torso" class="l"/>
 <path class="t" d="M72 78c4 5 12 5 16 0"/>
 <!-- face -->
 <use xlink:href="#face" class="o" fill="#f3c19a"/>
 <path d="M60 56c4 10 14 16 26 15 8-1 13-6 15-12-6 8-18 11-28 8-6-2-10-6-13-11z" fill="#e2a377"/>
-<use xlink:href="#face" class="l"/>
+<use xlink:href="#face" class="l g"/>
 <use xlink:href="#bang" class="o" fill="#3a2a24"/>
 <path d="M68 32c4-3 10-4 15-3" fill="none" stroke="#6b5348" stroke-width="2" stroke-linecap="round"/>
 <use xlink:href="#bang" class="l"/>
 <!-- flower clip -->
 <g fill="#ff8a9b"><circle cx="97" cy="32" r="3"/><circle cx="102" cy="35" r="3"/><circle cx="100" cy="40" r="3"/><circle cx="94" cy="38" r="3"/></g><circle cx="98" cy="36" r="2" fill="#ffc93c"/><path class="t" d="M95 30c3-2 6-1 8 2"/>
 <!-- eyes / brows / cheeks / mouth -->
-<path class="l" stroke-width="2.6" d="M65 51c2-4 7-4 9 0M86 51c2-4 7-4 9 0"/>
+<path style="stroke-width:2.6" class="l" d="M65 51c2-4 7-4 9 0M86 51c2-4 7-4 9 0"/>
 <path class="t" d="M65 44c3-2 6-2 9-1M86 43c3-1 6-1 9 1"/>
 <path class="t" d="M80 52c1 2 1 3-1 4"/>
 <ellipse cx="66" cy="59" rx="4.5" ry="3" fill="#ff8a9b" opacity=".9"/><ellipse cx="94" cy="59" rx="4.5" ry="3" fill="#ff8a9b" opacity=".9"/>
 <use xlink:href="#mouth" class="o" fill="#c23a3a"/><path d="M75 66c2-3 8-3 10 0-2 3-8 3-10 0z" fill="#ff8a9b"/><use xlink:href="#mouth" class="t"/>
 <!-- joy marks -->
-<g class="t" stroke="#f0563f"><path d="M50 30l-6-4M48 38l-7-1M110 30l6-4M112 38l7-1"/></g>
+<g style="stroke:#f0563f" class="t"><path d="M50 30l-6-4M48 38l-7-1M110 30l6-4M112 38l7-1"/></g>
 <!-- table -->
 <use xlink:href="#table" class="o" fill="#ff9a3d"/>
-<path d="M8 121h144v5H8z" fill="#e07a24"/>
-<g fill="#fff3dc"><path d="M14 114h8v4h-8zM34 114h8v4h-8zM118 114h8v4h-8zM138 114h8v4h-8z"/></g>
+<path d="M8 140 L152 140 L156 152 L4 152Z" fill="#e07a24"/><g fill="none" stroke="#e07a24" stroke-width="1.6" stroke-linecap="round"><path d="M18 118h20M124 122h18M14 132h16M132 134h14"/></g>
+
 <use xlink:href="#table" class="l"/>
 <!-- glass of thai tea -->
 <use xlink:href="#glass" class="o" fill="#ff9a3d"/>
-<path d="M127 92h18l-1 8h-16z" fill="#ffd9a8"/>
-<path d="M131 86h5v5h-5zM138 88h5v5h-5z" fill="#e8f6fd" stroke="#3d2c26" stroke-width="1.2"/>
+<path d="M129 98h18l-1 8h-16z" fill="#ffd9a8"/>
+<path d="M133 92h5v5h-5zM140 94h5v5h-5z" fill="#e8f6fd" stroke="#3d2c26" stroke-width="1.2"/>
 <use xlink:href="#glass" class="l"/>
-<path d="M139 84l6-14h5" class="l" stroke="#f0563f" stroke-width="2.6"/><path d="M139 84l6-14h5" class="t" stroke-width="1"/>
-<path d="M130 96l1 18" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+<path d="M141 90l5-14h5" style="stroke-width:3;stroke:#f0563f;" class="l"/>
+<path d="M132 102l1 18" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".7"/>
 <!-- plate + rice -->
 <use xlink:href="#plate" class="o" fill="#ffffff"/>
-<path d="M46 124c10 6 58 6 68 0-6 5-60 6-68 0z" fill="#cfe7f4"/>
+<path d="M42 131c12 7 64 7 76 0-6 6-68 7-76 0z" fill="#cfe7f4"/>
 <use xlink:href="#plate" class="l"/>
 <use xlink:href="#rice" class="o" fill="#ffd77a"/>
-<path d="M92 104c8 4 13 9 14 16-6 2-14 3-20 3 6-4 8-12 6-19z" fill="#f2b64e"/>
+<path d="M92 107c8 4 15 10 16 19-6 2-14 3-20 3 6-5 8-14 4-22z" fill="#f2b64e"/>
 <use xlink:href="#rice" class="l"/>
-<g class="t" stroke-width="1.1"><path d="M60 114l2 1M66 110l2 1M94 112l2 1M86 116l2 1M74 117l2 1M58 118l2-1"/></g>
-<use xlink:href="#egg" class="o" fill="#ffffff"/><circle cx="79" cy="105" r="3.6" fill="#ffc93c"/><use xlink:href="#egg" class="t"/>
-<g><circle cx="99" cy="117" r="4" fill="#45a866" stroke="#3d2c26" stroke-width="1.5"/><circle cx="99" cy="117" r="2" fill="#bfe6a8"/><path d="M56 112l8 6-9 2z" fill="#9ed35a" stroke="#3d2c26" stroke-width="1.5" stroke-linejoin="round"/></g>
+<g class="t" style="stroke-width:1.1"><path d="M60 118l2 1M66 114l2 1M94 116l2 1M86 120l2 1M74 121l2 1M58 123l2-1"/></g>
+<use xlink:href="#egg" class="o" fill="#ffffff"/><circle cx="79" cy="108" r="3.8" fill="#ffc93c"/><use xlink:href="#egg" class="t"/>
+<g><circle cx="60" cy="130" r="4" fill="#45a866" stroke="#3d2c26" stroke-width="1.5"/><circle cx="60" cy="130" r="2" fill="#bfe6a8"/><path d="M54 116l9 6-10 2z" fill="#9ed35a" stroke="#3d2c26" stroke-width="1.5" stroke-linejoin="round"/></g>
+<g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".9"><path d="M72 100c-3-4 3-6 0-10s3-6 0-9M86 100c-3-4 3-6 0-10"/></g>
 <!-- left arm (holding fork on plate) -->
-<path d="M101 84 L116 100 L106 112" fill="none" stroke="#3d2c26" stroke-width="11.4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M101 84 L116 100 L106 112" fill="none" stroke="#e2a377" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" class="o"/>
+<path d="M101 84 L120 98 L112 108" fill="none" stroke="#3d2c26" stroke-width="11.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M101 84 L120 98 L112 108" fill="none" stroke="#f3c19a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" class="o"/>
 <path d="M97 82c6-4 12 0 12 6l-4 4c-2-4-6-6-10-6z" fill="#45aee0" stroke="#3d2c26" stroke-width="2" stroke-linejoin="round"/>
-<path d="M104 112 L92 122" stroke="#3d2c26" stroke-width="4.4" stroke-linecap="round"/><path d="M104 112 L92 122" stroke="#d7dde3" stroke-width="2" stroke-linecap="round"/>
-<path class="t" d="M93 121l-4 3M91 119l-5 3M95 123l-3 4"/>
-<use xlink:href="#fistL" class="o" fill="#e2a377"/><use xlink:href="#fistL" class="l"/>
-<path class="t" d="M101 109c2-2 5-2 7 0"/>
+<path d="M112 108 L100 116" stroke="#3d2c26" stroke-width="5" stroke-linecap="round"/><path d="M112 108 L100 116" stroke="#d7dde3" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M101 115 L96 112 L86 118 L88 120 L95 117 L88 122 L90 124 L97 119 L91 126 L93 127 L100 121 L102 118Z" fill="#d7dde3" stroke="#3d2c26" stroke-width="1.5" stroke-linejoin="round"/>
+<use xlink:href="#fistL" class="o" fill="#f3c19a"/><use xlink:href="#fistL" class="l"/>
+<path d="M104 106c0-3 4-4 6-2 1 2-1 4-4 4z" fill="#f3c19a" stroke="#3d2c26" stroke-width="1.5"/>
 <!-- right arm (spoon to mouth) -->
 <path d="M59 85 L42 100 L56 78" fill="none" stroke="#3d2c26" stroke-width="11.4" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M59 85 L42 100 L56 78" fill="none" stroke="#f3c19a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" class="o"/>
 <path d="M63 82c-6-4-12 0-12 6l4 4c2-4 6-6 10-6z" fill="#45aee0" stroke="#3d2c26" stroke-width="2" stroke-linejoin="round"/>
 <path d="M60 74 L69 67" stroke="#3d2c26" stroke-width="4.4" stroke-linecap="round"/><path d="M60 74 L69 67" stroke="#d7dde3" stroke-width="2" stroke-linecap="round"/>
 <use xlink:href="#spoon" class="o" fill="#d7dde3"/><use xlink:href="#spoon" class="t"/>
-<path d="M68 64c1-4 8-5 9-2-1 2-6 3-9 2z" fill="#ffd77a" stroke="#3d2c26" stroke-width="1"/>
+<path d="M66 64c1-5 11-6 13-2-2 3-9 4-13 2z" fill="#ffd77a" stroke="#3d2c26" stroke-width="1"/>
 <use xlink:href="#fistR" class="o" fill="#f3c19a"/><use xlink:href="#fistR" class="l"/>
-<path class="t" d="M58 71c2-2 5-2 7 0"/>
+<path d="M61 72c-1-3 2-5 5-4 2 1 1 4-2 5z" fill="#f3c19a" stroke="#3d2c26" stroke-width="1.5"/>
 </g>
 </svg>

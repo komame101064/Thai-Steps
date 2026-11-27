@@ -4,71 +4,84 @@
 <feTurbulence type="fractalNoise" baseFrequency=".045" numOctaves="2" seed="4" result="w"/>
 <feDisplacementMap in="SourceGraphic" in2="w" scale="2.4" xChannelSelector="R" yChannelSelector="G" result="d"/>
 <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="9" result="n"/>
-<feColorMatrix in="n" type="matrix" values="0 0 0 0 .24 0 0 0 0 .17 0 0 0 0 .14 0 0 0 -1.6 .9" result="g"/>
+<feColorMatrix in="n" type="matrix" values="0 0 0 0 .24 0 0 0 0 .17 0 0 0 0 .14 0 0 0 -1 .56" result="g"/>
 <feComposite in="g" in2="d" operator="in" result="gi"/>
 <feMerge><feMergeNode in="d"/><feMergeNode in="gi"/></feMerge>
 </filter>
-<style>.l{fill:none;stroke:#3d2c26;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.t{fill:none;stroke:#3d2c26;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.o{transform:translate(1.1px,-.9px)}</style>
-<path id="body" d="M20 116 C18 104 24 94 36 92 L56 90 C60 96 62 101 67 102 L142 102 C147 106 147 116 145 122 L133 122 C133 108 103 108 103 122 L51 122 C51 108 21 108 20 116Z"/>
-<path id="roof" d="M28 46 C28 37 38 32 54 32 L138 32 C144 32 148 36 148 42 L148 48 L28 48Z"/>
-<path id="fringe" d="M32 48 L148 48 L148 52 C146 56 142 56 140 52 C138 56 134 56 132 52 C130 56 126 56 124 52 C122 56 118 56 116 52 C114 56 110 56 108 52 C106 56 102 56 100 52 C98 56 94 56 92 52 C90 56 86 56 84 52 C82 56 78 56 76 52 C74 56 70 56 68 52 C66 56 62 56 60 52 C58 56 54 56 52 52 C50 56 46 56 44 52 C42 56 38 56 36 52 C34 54 32 54 32 52Z"/>
-<path id="seat" d="M96 88 L130 88 C134 88 136 92 136 102 L94 102 C92 94 92 88 96 88Z"/>
-<path id="back" d="M128 62 C134 60 140 62 140 68 L140 102 L130 102 C128 90 126 72 128 62Z"/>
-<path id="head" d="M60 64 C60 56 66 51 72 51 C79 51 84 56 84 64 C84 71 79 76 72 76 C65 76 60 71 60 64Z"/>
-<path id="hair" d="M60 62 C58 52 66 47 73 47 C81 47 86 53 84 61 C80 57 76 56 72 58 C68 55 63 57 60 62Z"/>
-<path id="torso" d="M64 80 C68 76 80 76 84 80 L88 104 L62 104Z"/>
-<path id="wheel" d="M-13 0 C-13 -8 -7 -13 0 -13 C8 -13 13 -8 13 0 C13 8 7 13 0 13 C-7 13 -13 8 -13 0Z"/>
+<style>.l{fill:none;stroke:#3d2c26;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.t{fill:none;stroke:#3d2c26;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.o{transform:translate(1.6px,-1.3px)}.g{stroke-dasharray:52 3.5 80 3 36 4}</style>
+<path id="tub" d="M82 114 L82 96 C82 88 88 84 96 84 C104 84 108 86 114 82 C122 74 134 68 144 70 C150 74 150 100 148 114Z"/>
+<path id="cowl" d="M28 108 C24 98 26 86 34 78 C38 74 46 74 50 76 L56 112 L30 112Z"/>
+<path id="floor" d="M48 104 L86 104 L86 114 L50 114Z"/>
+<path id="roof" d="M34 46 C34 38 42 33 56 33 L142 33 C148 33 152 37 152 43 L152 50 L34 50Z"/>
+<path id="fringe" d="M38 50 L152 50 L152 53 C150 57 146 57 144 53 C142 57 138 57 136 53 C134 57 130 57 128 53 C126 57 122 57 120 53 C118 57 114 57 112 53 C110 57 106 57 104 53 C102 57 98 57 96 53 C94 57 90 57 88 53 C86 57 82 57 80 53 C78 57 74 57 72 53 C70 57 66 57 64 53 C62 57 58 57 56 53 C54 57 50 57 48 53 C46 57 42 57 40 53 C39 55 38 55 38 53Z"/>
+<path id="glass" d="M38 76 L42 50 L50 50 L48 76Z"/>
+<path id="cush" d="M126 66 C132 62 142 62 144 68 L144 92 L128 92 C126 84 124 74 126 66Z"/>
+<path id="head" d="M58 66 C58 58 63 53 70 53 C77 53 82 58 82 66 C82 73 77 78 70 78 C63 78 58 73 58 66Z"/>
+<path id="hair" d="M58 64 C56 54 63 49 71 49 C79 49 84 55 82 63 C78 59 74 58 70 60 C66 57 61 59 58 64Z"/>
+<path id="torso" d="M62 82 C66 78 78 78 82 82 L84 106 L60 106Z"/>
+<path id="wheel" d="M-12 0 C-12 -7 -7 -12 0 -12 C7 -12 12 -7 12 0 C12 7 7 12 0 12 C-7 12 -12 7 -12 0Z"/>
+<path id="guard" d="M20 122 C20 110 28 104 36 104 C44 104 50 110 50 120 L45 120 C45 113 41 109 36 109 C30 109 25 113 25 122Z"/>
+<path id="hand" d="M86 66 C84 62 86 57 89 57 L90 61 L91 55 C93 55 94 57 93 61 L95 57 C97 58 97 60 95 63 C94 67 92 69 89 69 C87 69 86 68 86 66Z"/>
 </defs>
-<ellipse cx="82" cy="84" rx="72" ry="62" fill="#e3f3d6"/>
-<ellipse cx="82" cy="138" rx="66" ry="5" fill="#cfe3bd"/>
+<ellipse cx="84" cy="86" rx="70" ry="60" fill="#e3f3d6"/>
+<ellipse cx="86" cy="139" rx="64" ry="4.5" fill="#cfe3bd"/>
 <g filter="url(#f)">
 <!-- motion + exhaust -->
-<g fill="none" stroke="#3d2c26" stroke-width="1.8" stroke-linecap="round"><path d="M150 66h8M152 78h6M150 90h8"/></g>
-<g fill="#e6e1d8" stroke="#3d2c26" stroke-width="1.5"><circle cx="152" cy="118" r="4"/><circle cx="157" cy="111" r="2.6"/></g>
-<!-- rear pillar + passenger -->
-<path d="M140 48v54" stroke="#3d2c26" stroke-width="5.4" stroke-linecap="round"/><path d="M140 48v54" stroke="#c8d0d8" stroke-width="2.2"/>
-<use xlink:href="#back" class="o" fill="#45a866"/><path d="M134 64c3 0 5 2 5 6v30h-4z" fill="#36874f"/><use xlink:href="#back" class="l"/>
-<use xlink:href="#seat" class="o" fill="#45a866"/><path class="t" d="M106 90v10M118 90v10"/><use xlink:href="#seat" class="l"/>
+<g class="t" style="stroke-width:1.8"><path d="M146 80h7M148 92h5M8 66h7M6 78h8"/></g>
+<g fill="#e6e1d8" stroke="#3d2c26" stroke-width="1.5"><circle cx="150" cy="122" r="3.6"/><circle cx="153" cy="114" r="2.4"/></g>
+<!-- far rear wheel -->
+<g transform="translate(108 124)"><use xlink:href="#wheel" fill="#2a1e1a"/><use xlink:href="#wheel" class="l"/></g>
+<!-- rear pillar, cushion -->
+<path d="M146 50v24" stroke="#3d2c26" stroke-width="5.4" stroke-linecap="round"/><path d="M146 50v24" stroke="#d7dde3" stroke-width="2.2"/>
+<use xlink:href="#cush" class="o" fill="#45a866"/><path class="t" d="M130 72c4-2 10-2 14 0M129 80c4-2 10-2 15 0"/><use xlink:href="#cush" class="l"/>
 <!-- driver -->
-<use xlink:href="#torso" class="o" fill="#ffffff"/><path d="M70 78l4 12 4-12" fill="none" stroke="#f0563f" stroke-width="2.4"/><use xlink:href="#torso" class="l"/>
-<path d="M66 86 L54 90 L44 84" fill="none" stroke="#3d2c26" stroke-width="8.4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M66 86 L54 90 L44 84" fill="none" stroke="#e2a377" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" class="o"/>
-<path d="M82 82 L94 72 L96 58" fill="none" stroke="#3d2c26" stroke-width="8.4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M82 82 L94 72 L96 58" fill="none" stroke="#e2a377" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" class="o"/>
-<path d="M92 56c-1-4 0-8 2-8l1 4 1-6c2 0 3 2 2 6l2-4c2 1 2 3 0 6-1 3-2 5-5 5-2 0-3-1-3-3z" fill="#e2a377" stroke="#3d2c26" stroke-width="1.6" stroke-linejoin="round"/>
-<g class="t"><path d="M101 46l3-3M104 54l4 0M98 42l0-4"/></g>
+<use xlink:href="#torso" class="o" fill="#ffffff"/><path d="M68 80l4 10 4-10" fill="none" stroke="#f0563f" stroke-width="2.4"/><path d="M78 84c2 6 4 14 4 22h2l-2-24z" fill="#dcd6cc"/><use xlink:href="#torso" class="l"/>
+<path d="M64 88 L54 90 L47 80" fill="none" stroke="#3d2c26" stroke-width="8.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M64 88 L54 90 L47 80" fill="none" stroke="#e2a377" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" class="o"/>
+<path d="M78 84 L88 80 L90 68" fill="none" stroke="#3d2c26" stroke-width="8.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M78 84 L88 80 L90 68" fill="none" stroke="#e2a377" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" class="o"/>
+<use xlink:href="#hand" class="o" fill="#e2a377"/><use xlink:href="#hand" class="t"/>
+<g class="t"><path d="M99 60l4-2M99 66l4 1M97 54l2-3"/></g>
 <use xlink:href="#head" class="o" fill="#e2a377"/>
-<ellipse cx="66" cy="68" rx="3.4" ry="2.2" fill="#f0563f" opacity=".6"/>
+<ellipse cx="64" cy="71" rx="3.4" ry="2.2" fill="#f0563f" opacity=".55"/>
 <use xlink:href="#head" class="l"/>
 <use xlink:href="#hair" class="o" fill="#3a2a24"/><use xlink:href="#hair" class="l"/>
-<path d="M60 60 C62 52 68 49 74 50 L86 54 L84 58 C78 56 66 56 60 60Z" fill="#f0563f" stroke="#3d2c26" stroke-width="1.8" stroke-linejoin="round"/>
-<circle cx="66" cy="63" r="1.6" fill="#3d2c26"/><path class="t" d="M63 59l4 0"/>
-<path class="t" d="M61 66l-2 2 2 1"/>
-<path d="M63 70c2 3 6 3 8 1-2 0-6 0-8-1z" fill="#c23a3a" stroke="#3d2c26" stroke-width="1.4" stroke-linejoin="round"/>
-<path class="t" d="M80 64c2-1 3 2 1 3"/>
-<!-- wheels -->
-<g transform="translate(36 124)"><use xlink:href="#wheel" fill="#3a2a24"/><use xlink:href="#wheel" class="l"/><circle r="5" fill="#d7dde3" stroke="#3d2c26" stroke-width="1.6"/></g>
-<g transform="translate(118 124)"><use xlink:href="#wheel" fill="#3a2a24"/><use xlink:href="#wheel" class="l"/><circle r="5" fill="#d7dde3" stroke="#3d2c26" stroke-width="1.6"/></g>
-<!-- body -->
-<use xlink:href="#body" class="o" fill="#f0563f"/>
-<path d="M26 104 L142 104 L144 110 L24 110Z" fill="#ffc93c"/>
-<path d="M60 112 L102 112 L102 122 L58 122Z" fill="#c63d2e"/>
-<path d="M30 98c4-3 10-4 18-4" fill="none" stroke="#ff9a85" stroke-width="2.6" stroke-linecap="round"/>
-<use xlink:href="#body" class="l"/>
-<circle cx="24" cy="104" r="5" fill="#ffe68a" stroke="#3d2c26" stroke-width="1.8"/>
-<g class="t" stroke="#ff9a3d"><path d="M14 100l-5-2M14 106l-6 0M14 112l-5 2"/></g>
-<path class="t" d="M136 116l8 0"/>
-<!-- front pillar, handlebar, garland -->
-<path d="M36 92 L40 48" stroke="#3d2c26" stroke-width="5.4" stroke-linecap="round"/><path d="M36 92 L40 48" stroke="#c8d0d8" stroke-width="2.2"/>
-<path d="M46 82 L38 86" stroke="#3d2c26" stroke-width="4" stroke-linecap="round"/>
-<path d="M40 84c-3-2-2-6 2-7 4 0 6 3 5 6-1 3-4 3-7 1z" fill="#e2a377" stroke="#3d2c26" stroke-width="1.6"/>
-<path d="M40 58c-2 6-1 10 2 12M40 58c4 4 5 9 2 12" fill="none" stroke="#3d2c26" stroke-width="1"/>
-<g fill="#fffbe8" stroke="#3d2c26" stroke-width=".9"><circle cx="39" cy="62" r="1.6"/><circle cx="40" cy="66" r="1.6"/><circle cx="44" cy="64" r="1.6"/></g>
-<circle cx="42" cy="71" r="2" fill="#ff8a9b" stroke="#3d2c26" stroke-width="1"/>
+<circle cx="65" cy="65" r="1.7" fill="#3d2c26"/><path class="t" d="M62 61l5-1"/>
+<path class="t" d="M59 68l-2 2 2 1"/>
+<path d="M61 73c2 3 7 3 9 0-3 1-6 1-9 0z" fill="#c23a3a" stroke="#3d2c26" stroke-width="1.4" stroke-linejoin="round"/>
+<path class="t" d="M78 66c2-1 3 2 1 3"/>
+<!-- floor + tub -->
+<use xlink:href="#floor" class="o" fill="#c63d2e"/><use xlink:href="#floor" class="l"/>
+<use xlink:href="#tub" class="o" fill="#f0563f"/>
+<path d="M84 100 L148 100 L148 106 L84 106Z" fill="#ffc93c"/>
+<path d="M126 78c8-4 16-4 20-2 1 10 1 24 0 36h-6c2-12 2-24-2-32z" fill="#c63d2e"/>
+<path d="M90 90c6-3 14-3 20-5" fill="none" stroke="#ff9a85" stroke-width="2.6" stroke-linecap="round"/>
+<use xlink:href="#tub" class="l"/>
+<path class="t" d="M86 100h60M86 106h60"/>
+<!-- near rear wheel -->
+<g transform="translate(122 126)"><use xlink:href="#wheel" fill="#3a2a24"/><use xlink:href="#wheel" class="l"/><circle r="5" fill="#d7dde3" stroke="#3d2c26" stroke-width="1.6"/><path class="t" d="M-2 0h4"/></g>
+<!-- front: fork, wheel, guard, cowl -->
+<path d="M36 126 L48 96" stroke="#3d2c26" stroke-width="5.4" stroke-linecap="round"/><path d="M36 126 L48 96" stroke="#d7dde3" stroke-width="2.4" stroke-linecap="round"/>
+<g transform="translate(36 126)"><use xlink:href="#wheel" fill="#3a2a24" transform="scale(.9)"/><use xlink:href="#wheel" class="l" transform="scale(.9)"/><circle r="4.4" fill="#d7dde3" stroke="#3d2c26" stroke-width="1.6"/></g>
+<use xlink:href="#guard" class="o" fill="#f0563f"/><use xlink:href="#guard" class="t"/>
+<use xlink:href="#cowl" class="o" fill="#f0563f"/>
+<path d="M28 100 C28 104 29 108 30 112 L56 112 L55 104Z" fill="#ffc93c"/>
+<path d="M46 78c4 8 6 20 7 32l3 2-6-36z" fill="#c63d2e"/>
+<use xlink:href="#cowl" class="l"/>
+<path d="M30 84 C24 84 22 92 28 94 C31 94 33 90 32 86Z" fill="#ffe68a" stroke="#3d2c26" stroke-width="1.8" stroke-linejoin="round"/>
+<g class="t" style="stroke:#ff9a3d"><path d="M20 84l-6-2M20 90h-7M20 96l-6 2"/></g>
+<!-- windscreen, handlebar, garland -->
+<use xlink:href="#glass" class="o" fill="#bfe6f7"/><path d="M42 72l3-18" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/><use xlink:href="#glass" class="t"/>
+<path d="M44 78 L52 76" stroke="#3d2c26" stroke-width="3.6" stroke-linecap="round"/>
+<path d="M44 82c-2-3 0-7 3-7 4 0 5 3 4 6-1 3-5 4-7 1z" fill="#e2a377" stroke="#3d2c26" stroke-width="1.6"/>
+<path d="M45 76c1-2 4-2 5 0" class="t"/>
+<path d="M45 52c-3 6-2 11 1 13M45 52c4 4 5 9 1 13" fill="none" stroke="#3d2c26" stroke-width="1"/>
+<g fill="#fffbe8" stroke="#3d2c26" stroke-width=".9"><circle cx="43" cy="57" r="1.6"/><circle cx="44" cy="61" r="1.6"/><circle cx="48" cy="59" r="1.6"/></g>
+<circle cx="46" cy="66" r="2" fill="#ff8a9b" stroke="#3d2c26" stroke-width="1"/>
 <!-- roof -->
 <use xlink:href="#roof" class="o" fill="#45aee0"/>
-<path d="M28 44h120v4H28z" fill="#2f8ec4"/>
-<path d="M40 37c10-3 30-3 50-3" fill="none" stroke="#a8dcf4" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M34 46h118v4H34z" fill="#2f8ec4"/>
+<path d="M44 38c10-2 30-3 50-3" fill="none" stroke="#a8dcf4" stroke-width="2.6" stroke-linecap="round"/>
 <use xlink:href="#roof" class="l"/>
 <use xlink:href="#fringe" class="o" fill="#ffc93c"/><use xlink:href="#fringe" class="t"/>
 </g>
