@@ -340,8 +340,14 @@ function dictionaryResults(query=wordQuery){const qn=String(query).trim().normal
  // Everyday words before slang, sexual or rough words and before royal, literary or archaic ones (寝る → หลับ before มีอะไรกัน, 水 → ชล last),
  // unless the query is that word's own Thai, reading or katakana spelling.
  const rough=w=>w.collection==='slang'||!!w.adult||(w.meanings[0].registerTags||[]).includes('vulgar')||/性的|粗い|罵|差別/.test(w.speechStyle||''),lofty=w=>w.meanings.every(m=>(m.registerTags||[]).some(t=>['royal','literary','archaic','dated'].includes(t))||/王室|文語|古め|古風|古い/.test(m.speechStyle||'')),register=x=>x.score===0&&x.via==='kana'?(x.w.collection==='slang'?1:0):(rough(x.w)?2:0)+(lofty(x.w)?2:0);
+ // An idiom or set phrase whose gloss only starts with the query plus a particle (猫に小判 for 猫) is not the word itself:
+ // it follows the plain compounds (ลูกแมว) instead of sitting right under the exact match.
+ const idiomHit=x=>(x.via==='ja'||x.via==='reading')&&x.score>=2&&x.score<=4&&x.w.meanings[0].pos==='定型表現';
+ // Hiragana typed as Japanese that only meets a katakana transliteration in a gloss (さむい → サムイ島) is a sound-alike, like a kana match.
+ // A reading that only contains the query in the middle (ねころぶ for ねこ) stays below compounds of the word itself (ลูกแมว), even when it is very frequent.
+ const hq=String(query).trim(),kataQ=/^[ぁ-ゖー]+$/.test(hq)?hq.replace(/[ぁ-ゖ]/g,c=>String.fromCharCode(c.charCodeAt(0)+0x60)):'',kataEcho=x=>!!kataQ&&x.via==='reading'&&x.score>0&&x.w.meanings.some(m=>String(m.ja).startsWith(kataQ));
  const longQ=/ー/.test(query),shortRo=w=>w._short??(w._short=!/([aeiouɛɔəʉ])\1/.test(String(w.ro).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase()));
- const redup=w=>/ๆ$/.test(w.th)&&headwordSetHas(w.th.replace(/\s*ๆ$/,'')),grp=x=>x.score>=DICT_WEAK?3:x.score>DICT_SIMILAR?2:x.via==='similar'?1:0,rank=x=>x.score===0&&['th','ro','latin'].includes(x.via)?-10+(10-(x.w.frequency||1))*.1:x.score+(10-(x.w.frequency||1))*DICT_FREQ_WEIGHT+register(x)+(redup(x.w)?2:0)+(longQ&&x.via==='kana'&&shortRo(x.w)?.5:0);
+ const redup=w=>/ๆ$/.test(w.th)&&headwordSetHas(w.th.replace(/\s*ๆ$/,'')),grp=x=>x.score>=DICT_WEAK?3:x.score>DICT_SIMILAR?2:x.via==='similar'?1:0,rank=x=>x.score===0&&['th','ro','latin'].includes(x.via)?-10+(10-(x.w.frequency||1))*.1:x.score+(10-(x.w.frequency||1))*DICT_FREQ_WEIGHT+register(x)+(redup(x.w)?2:0)+(longQ&&x.via==='kana'&&shortRo(x.w)?.5:0)+(idiomHit(x)?4:0)+(kataEcho(x)?8:0)+(x.via==='reading'&&x.score>=8?2:0);
  return scored.filter(x=>x.score<Infinity).sort((a,b)=>grp(a)-grp(b)||(grp(a)?a.score-b.score:rank(a)-rank(b))||(a.w.collection==='slang')-(b.w.collection==='slang')||b.w.frequency-a.w.frequency||(a.w.studyRank||1e9)-(b.w.studyRank||1e9)||a.w.th.length-b.w.th.length||a.w.id.localeCompare(b.w.id)).filter(x=>{const k=x.w.th+'|'+x.w.meanings[0].ja;if(seenTwin.has(k))return false;seenTwin.add(k);return true})}
 // Thai has no spaces, so "contains" alone is not enough (เกิน contains กิน). A compound must split into registered
 // words around the headword, and the headword's syllables must appear in the compound's reading.
