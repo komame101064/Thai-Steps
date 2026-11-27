@@ -12,6 +12,10 @@ B={w['id']:w for f in ['word-bank','word-bank-more'] for w in json.loads((P/'dis
 by_th={}
 for w in B.values():by_th[w['th']]=max(by_th.get(w['th'],0),w['frequency'])
 fa=json.loads((P/'scripts/word-review/freq-approved.json').read_text())
+import re
+_js=(P/'dist/words-app.js').read_text()
+_pi=set(json.loads(re.search(r'PHRASE_IDS=new Set\((\[[^\]]*\])\)',_js).group(1)));_px=set(json.loads(re.search(r'PHRASE_EXCLUDE=new Set\((\[[^\]]*\])\)',_js).group(1)))
+def is_phrase(i):w=B[i];return (i in _pi or re.match(r'^editorial-0(0[67]|19)$',w.get('expansion') or '')) and i not in _px  # phrase-deck frequencies were set for learners (フレーズの実生活での頻度); left as they are
 band=lambda f:3 if f>=9 else 2 if f>=7 else 1 if f>=4 else 0
 def parts_cap(th):
     """Lowest frequency among the parts, for the split into registered words with the fewest parts (None if no split)."""
@@ -33,6 +37,7 @@ for inp in sorted((H/'input').glob('*.tsv')):
         g+=['']*(5-len(g));i=r[0];cur=int(r[4]);to=int(g[1]);style=g[2].strip()
         assert 1<=to<=10 and style in('','口語','文語'),(i,g)
         if i in fa:stat['locked']+=1;continue
+        if is_phrase(i):stat['phrase deck']+=1;continue
         if to!=cur and band(to)==band(cur):stat['same band']+=1;to=cur
         cap=parts_cap(B[i]['th'])
         if to>cur and cap is not None and to>cap:

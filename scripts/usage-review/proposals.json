@@ -1,0 +1,7210 @@
+[
+ {
+  "id": "tl-41180",
+  "th": "บิดามารดา",
+  "from": 4,
+  "to": 4,
+  "style": "文語",
+  "reason": "公文書・書類・式辞の語。会話では พ่อแม่ を使う",
+  "note": "低（3）へ下げる余地もあるが書類・申込書で目にするため据え置き",
+  "evidence": {
+   "subs": "1",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "0.3",
+   "social_pm": "0.0"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-50109",
+  "th": "รู้งี้",
+  "from": 4,
+  "to": 4,
+  "style": "口語",
+  "reason": "งี้ を含むくだけた会話の言い方",
+  "note": "",
+  "evidence": {
+   "subs": "1",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "1.18",
+   "social_pm": "9.83"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50115",
+  "th": "ปริ้น",
+  "from": 4,
+  "to": 4,
+  "style": "口語",
+  "reason": "พิมพ์ の口語的な外来語表記",
+  "note": "",
+  "evidence": {
+   "subs": "1",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "0.54",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50156",
+  "th": "อะไรประมาณนี้",
+  "from": 4,
+  "to": 4,
+  "style": "口語",
+  "reason": "話をぼかすくだけた会話の締め",
+  "note": "",
+  "evidence": {
+   "subs": "1",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "0.64",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-51001",
+  "th": "ประเทศไทย",
+  "from": 6,
+  "to": 7,
+  "style": "",
+  "reason": "国名として報道・看板・SNSで非常に多い（social 184/百万）。字幕は外国作品の翻訳で少ない",
+  "note": "web/writtenの0は複合語の区切りによる下限",
+  "evidence": {
+   "subs": "1",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "1.65",
+   "social_pm": "184.82"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56601",
+  "th": "อะไรงี้",
+  "from": 5,
+  "to": 5,
+  "style": "口語",
+  "reason": "くだけた会話で文末をぼかす言い方",
+  "note": "",
+  "evidence": {
+   "subs": "1",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "0.27",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56603",
+  "th": "มอไซค์",
+  "from": 4,
+  "to": 4,
+  "style": "口語",
+  "reason": "มอเตอร์ไซค์の会話での縮約形",
+  "note": "",
+  "evidence": {
+   "subs": "1",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "1.53",
+   "social_pm": "15.73"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56621",
+  "th": "อีกแป๊บ",
+  "from": 5,
+  "to": 5,
+  "style": "口語",
+  "reason": "แป๊บはくだけた会話の語",
+  "note": "",
+  "evidence": {
+   "subs": "1",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "2.15",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56638",
+  "th": "ถามจริง",
+  "from": 5,
+  "to": 5,
+  "style": "口語",
+  "reason": "くだけた会話・SNSの前置き",
+  "note": "",
+  "evidence": {
+   "subs": "2",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "4.78",
+   "social_pm": "21.63"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56680",
+  "th": "ปวดฉี่",
+  "from": 4,
+  "to": 4,
+  "style": "口語",
+  "reason": "ฉี่はくだけた語",
+  "note": "",
+  "evidence": {
+   "subs": "1",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "2.69",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56693",
+  "th": "ทำไรอยู่",
+  "from": 5,
+  "to": 5,
+  "style": "口語",
+  "reason": "ไร（อะไรの縮約）を含む会話表現",
+  "note": "",
+  "evidence": {
+   "subs": "2",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "2.86",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56724",
+  "th": "เอาดิ",
+  "from": 4,
+  "to": 4,
+  "style": "口語",
+  "reason": "ดิはくだけた文末詞",
+  "note": "",
+  "evidence": {
+   "subs": "1",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "0.69",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56730",
+  "th": "โรงบาล",
+  "from": 4,
+  "to": 4,
+  "style": "口語",
+  "reason": "โรงพยาบาลの会話での縮約形",
+  "note": "",
+  "evidence": {
+   "subs": "1",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "2.24",
+   "social_pm": "33.42"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56813",
+  "th": "สรุปเอาไง",
+  "from": 4,
+  "to": 4,
+  "style": "口語",
+  "reason": "くだけた会話の問いかけ",
+  "note": "",
+  "evidence": {
+   "subs": "0",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "0.0",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56845",
+  "th": "พูดไทยได้นิดหน่อย",
+  "from": 4,
+  "to": 3,
+  "style": "",
+  "reason": "タイ人自身はほぼ言わない学習者向けの定型句。手がかりもすべて0",
+  "note": "学習者には有用な表現なので、表示順で配慮するなら別途検討",
+  "evidence": {
+   "subs": "0",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "0.0",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56858",
+  "th": "เรื่องเยอะ",
+  "from": 4,
+  "to": 4,
+  "style": "口語",
+  "reason": "くだけた会話で人を評する言い方",
+  "note": "",
+  "evidence": {
+   "subs": "1",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "0.18",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-00928",
+  "th": "ธนาคาร",
+  "from": 6,
+  "to": 7,
+  "style": "",
+  "reason": "全手がかりが高く、日常でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "9",
+   "written": "9",
+   "subs_pm": "61.79",
+   "social_pm": "88.48"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-00946",
+  "th": "กรุณา",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "掲示・案内放送で日常的に目にする。字幕の高さは翻訳調も含むが、ウェブも高い",
+  "note": "字幕10は翻訳の「please」で多め",
+  "evidence": {
+   "subs": "10",
+   "web": "8",
+   "written": "6",
+   "subs_pm": "180.87",
+   "social_pm": "21.63"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-01092",
+  "th": "บัตรเครดิต",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "字幕・ウェブとも中程度。買い物で使う（書きことば0は複合語の区切りによる下限）",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "7",
+   "written": "0",
+   "subs_pm": "14.65",
+   "social_pm": "29.49"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-01303",
+  "th": "ทางเลือก",
+  "from": 6,
+  "to": 7,
+  "style": "",
+  "reason": "全手がかりが高く、会話でも使う",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "8",
+   "written": "7",
+   "subs_pm": "106.37",
+   "social_pm": "82.58"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-01510",
+  "th": "ยกเลิก",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "全手がかりが高く、予約・注文の取消しで日常的に使う",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "7",
+   "written": "8",
+   "subs_pm": "75.0",
+   "social_pm": "60.95"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-01742",
+  "th": "แผนก",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "字幕・ウェブ高く、職場・病院・店で日常的に使う",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "8",
+   "written": "6",
+   "subs_pm": "62.48",
+   "social_pm": "25.56"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-02069",
+  "th": "เที่ยวบิน",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "字幕・ウェブとも中程度。旅行・ニュースで使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "6",
+   "written": "2",
+   "subs_pm": "15.88",
+   "social_pm": "3.93"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-02204",
+  "th": "สิทธิ",
+  "from": 6,
+  "to": 7,
+  "style": "",
+  "reason": "全手がかりが高く、ใช้สิทธิ์など日常の手続きでよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "10",
+   "written": "10",
+   "subs_pm": "60.36",
+   "social_pm": "131.73"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-03493",
+  "th": "เลขา",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "字幕・ウェブとも中程度。เลขานุการの会話での短縮形として普通に使う",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "6",
+   "written": "3",
+   "subs_pm": "29.88",
+   "social_pm": "1.97"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-03505",
+  "th": "รับประกัน",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "ウェブ8・SNS33/百万。買い物の保証で日常的に目にする",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "8",
+   "written": "2",
+   "subs_pm": "14.8",
+   "social_pm": "33.42"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-03620",
+  "th": "ไวรัส",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "字幕・ウェブとも中程度。感染症や端末の話題で一般化",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "6",
+   "written": "3",
+   "subs_pm": "20.8",
+   "social_pm": "7.86"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-03675",
+  "th": "เรียนต่อ",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "字幕・ウェブ中程度（書きことば0は区切りによる下限）。進学の話題で日常的に使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "5",
+   "written": "0",
+   "subs_pm": "14.13",
+   "social_pm": "3.93"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-03692",
+  "th": "รถบัส",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "字幕・ウェブ中程度。รถเมล์と並んで使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "5",
+   "written": "0",
+   "subs_pm": "18.1",
+   "social_pm": "9.83"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-03740",
+  "th": "เช่นเดียวกับ",
+  "from": 3,
+  "to": 3,
+  "style": "文語",
+  "reason": "改まった文章・演説で使う接続表現。会話ではเหมือนกับを使う",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "6",
+   "written": "0",
+   "subs_pm": "23.75",
+   "social_pm": "11.8"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-04093",
+  "th": "ภาพลักษณ์",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "字幕・ウェブ・書きことばすべて中程度。ニュース・仕事でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "5",
+   "written": "5",
+   "subs_pm": "11.6",
+   "social_pm": "29.49"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-04106",
+  "th": "โรมัน",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "อักษรโรมัน など一般に使う。ウェブ・書きことばとも中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "4",
+   "written": "5",
+   "subs_pm": "11.15",
+   "social_pm": "0.0"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-04119",
+  "th": "ข้อสงสัย",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "「หากมีข้อสงสัย」など案内文で頻出。全資料が中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "6",
+   "written": "3",
+   "subs_pm": "10.75",
+   "social_pm": "13.76"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-04177",
+  "th": "นำพา",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "歌・宣伝・ニュースでよく見る。資料も中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "4",
+   "written": "3",
+   "subs_pm": "10.22",
+   "social_pm": "3.93"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-04190",
+  "th": "นางแบบ",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "芸能・ファッションで一般的。字幕・ウェブ中程度",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "5",
+   "written": "0",
+   "subs_pm": "16.92",
+   "social_pm": "3.93"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-04214",
+  "th": "พระราชวัง",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "タイ固有の日常語（観光・ニュース）。全資料中程度",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "4",
+   "written": "5",
+   "subs_pm": "17.3",
+   "social_pm": "7.86"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-04227",
+  "th": "ออกอากาศ",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "テレビ・ラジオで日常的。字幕中程度",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "4",
+   "written": "2",
+   "subs_pm": "14.85",
+   "social_pm": "3.93"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-04232",
+  "th": "นำไปสู่",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "ニュース・説明文で頻出。複合語のため書きことば0は分割の影響",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "6",
+   "written": "0",
+   "subs_pm": "13.81",
+   "social_pm": "13.76"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-04325",
+  "th": "คำเตือน",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "注意書き・ニュースで一般的。字幕・ウェブ中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "4",
+   "written": "2",
+   "subs_pm": "11.02",
+   "social_pm": "3.93"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-04344",
+  "th": "ถ่ายทำ",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "映画・ドラマ・動画撮影で一般的。資料中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "4",
+   "written": "3",
+   "subs_pm": "13.29",
+   "social_pm": "1.97"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-04449",
+  "th": "โกดัง",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "倉庫として日常的。字幕・ウェブ・SNSとも中程度",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "5",
+   "written": "1",
+   "subs_pm": "15.74",
+   "social_pm": "25.56"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-04537",
+  "th": "สตูดิโอ",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "写真館・収録など日常でも使う。字幕・ウェブ中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "5",
+   "written": "2",
+   "subs_pm": "10.29",
+   "social_pm": "3.93"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-04620",
+  "th": "อมตะ",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "「เพลงอมตะ」など一般的。字幕・ウェブ中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "5",
+   "written": "3",
+   "subs_pm": "11.59",
+   "social_pm": "7.86"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-05081",
+  "th": "คิง",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "王者の意味の口語・トランプで一般的。全資料中程度",
+  "note": "人名（Stephen King など）の混入あり",
+  "evidence": {
+   "subs": "6",
+   "web": "5",
+   "written": "5",
+   "subs_pm": "16.6",
+   "social_pm": "41.29"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-05103",
+  "th": "บัณฑิต",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "卒業式・大卒者として日常的。ウェブ・書きことば中〜高",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "7",
+   "written": "6",
+   "subs_pm": "12.06",
+   "social_pm": "1.97"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-05110",
+  "th": "พยากรณ์",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "พยากรณ์อากาศ（天気予報）で日常的。全資料中程度",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "5",
+   "written": "4",
+   "subs_pm": "8.09",
+   "social_pm": "3.93"
+  },
+  "basis": "base"
+ },
+ {
+  "id": "tl-40343",
+  "th": "เด็กๆ",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "会話で非常によく使う。字幕最高・SNS多（ๆのためウェブ・書きことば0）",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "171.25",
+   "social_pm": "55.05"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-40355",
+  "th": "เช่นนี้",
+  "from": 5,
+  "to": 5,
+  "style": "文語",
+  "reason": "主に書きことば・改まった話しことば。会話では แบบนี้",
+  "note": "字幕9は翻訳調",
+  "evidence": {
+   "subs": "9",
+   "web": "5",
+   "written": "9",
+   "subs_pm": "67.54",
+   "social_pm": "9.83"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-40364",
+  "th": "เล็กๆ",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "「เรื่องเล็กๆ」など会話で頻出。字幕高・SNS多",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "97.67",
+   "social_pm": "49.15"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-40403",
+  "th": "เหล่านี้",
+  "from": 6,
+  "to": 7,
+  "style": "",
+  "reason": "書きことば・ニュースで頻出。全資料高",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "9",
+   "written": "10",
+   "subs_pm": "98.28",
+   "social_pm": "47.19"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-40411",
+  "th": "เช่นนั้น",
+  "from": 5,
+  "to": 5,
+  "style": "文語",
+  "reason": "主に書きことば・改まった話しことば。会話では แบบนั้น",
+  "note": "字幕9は翻訳調",
+  "evidence": {
+   "subs": "9",
+   "web": "5",
+   "written": "8",
+   "subs_pm": "75.12",
+   "social_pm": "3.93"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-40425",
+  "th": "เสด็จ",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "王室ニュースで日常的に聞くタイ固有語。字幕・書きことば高",
+  "note": "รับสั่ง と同系",
+  "evidence": {
+   "subs": "9",
+   "web": "5",
+   "written": "9",
+   "subs_pm": "67.92",
+   "social_pm": "9.83"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-40512",
+  "th": "เพื่อนๆ",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "呼びかけ・SNSで頻出。字幕高・SNS非常に多",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "40.34",
+   "social_pm": "114.03"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-40700",
+  "th": "ก็ตาม",
+  "from": 6,
+  "to": 7,
+  "style": "",
+  "reason": "อย่างไรก็ตาม・ไม่ว่า…ก็ตาม で頻出。全資料高",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "9",
+   "written": "9",
+   "subs_pm": "130.64",
+   "social_pm": "37.36"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-40703",
+  "th": "ก็ดี",
+  "from": 6,
+  "to": 7,
+  "style": "",
+  "reason": "「ก็ดีนะ」など会話で頻出。字幕高・SNS多",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "6",
+   "written": "8",
+   "subs_pm": "120.26",
+   "social_pm": "104.2"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-40780",
+  "th": "ใกล้ๆ",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "「อยู่ใกล้ๆ」など会話で頻出。字幕高",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "60.05",
+   "social_pm": "29.49"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-40845",
+  "th": "ทั้งนั้น",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "「เหมือนกันทั้งนั้น」など会話で頻出。字幕・SNS高",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "5",
+   "written": "8",
+   "subs_pm": "127.31",
+   "social_pm": "84.54"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-40961",
+  "th": "นึกถึง",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "会話・SNSで頻出。字幕・書きことば高",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "5",
+   "written": "8",
+   "subs_pm": "52.47",
+   "social_pm": "98.31"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41069",
+  "th": "คนเรา",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "「คนเราต้อง…」など会話でよく使う。字幕・書きことば高",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "4",
+   "written": "8",
+   "subs_pm": "43.44",
+   "social_pm": "25.56"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41081",
+  "th": "รับสั่ง",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "王室ニュースで聞く。字幕・書きことば中程度",
+  "note": "เสด็จ と同系",
+  "evidence": {
+   "subs": "5",
+   "web": "3",
+   "written": "5",
+   "subs_pm": "10.22",
+   "social_pm": "0.0"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41149",
+  "th": "เท่าไร",
+  "from": 6,
+  "to": 8,
+  "style": "",
+  "reason": "基本の疑問詞（口語は เท่าไหร่ 綴りが多い）。SNS非常に多",
+  "note": "เท่าไหร่ 綴りと合わせて扱う",
+  "evidence": {
+   "subs": "8",
+   "web": "6",
+   "written": "7",
+   "subs_pm": "58.29",
+   "social_pm": "243.8"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41158",
+  "th": "เมื่อไร",
+  "from": 3,
+  "to": 8,
+  "style": "",
+  "reason": "基本の疑問詞「いつ」（口語は เมื่อไหร่ 綴り）。字幕高・SNS多",
+  "note": "เมื่อไหร่ 綴りと合わせて扱う",
+  "evidence": {
+   "subs": "8",
+   "web": "3",
+   "written": "5",
+   "subs_pm": "50.32",
+   "social_pm": "53.09"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41161",
+  "th": "มากๆ",
+  "from": 4,
+  "to": 8,
+  "style": "",
+  "reason": "会話・SNSで非常に多い。字幕最高・SNS最多級",
+  "note": "มาก より上にしない",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "191.71",
+   "social_pm": "497.43"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-41167",
+  "th": "รอบๆ",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "「รอบๆ บ้าน」など日常的。字幕高",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "71.42",
+   "social_pm": "9.83"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-41190",
+  "th": "รึ",
+  "from": 4,
+  "to": 7,
+  "style": "口語",
+  "reason": "รึเปล่า など会話で頻出のくだけた疑問。字幕最高・SNS多",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "9",
+   "written": "8",
+   "subs_pm": "637.92",
+   "social_pm": "241.83"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41249",
+  "th": "ที่จริง",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "「ที่จริงแล้ว」など会話で頻出。字幕高",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "5",
+   "written": "7",
+   "subs_pm": "101.26",
+   "social_pm": "25.56"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41267",
+  "th": "น้อยๆ",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "「หวานน้อยๆ」など注文・会話で頻出。字幕高・SNS多",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "30.1",
+   "social_pm": "39.32"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-41378",
+  "th": "พูดถึง",
+  "from": 7,
+  "to": 9,
+  "style": "",
+  "reason": "会話・ニュースの中心語。字幕最高・全資料高",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "8",
+   "written": "8",
+   "subs_pm": "255.47",
+   "social_pm": "66.85"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41406",
+  "th": "ซัก",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "ซักผ้า（洗濯）は毎日の語。ウェブ・書きことば高",
+  "note": "字幕の数は สัก の誤記（ซักครู่）が多い",
+  "evidence": {
+   "subs": "10",
+   "web": "7",
+   "written": "8",
+   "subs_pm": "380.72",
+   "social_pm": "153.36"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41416",
+  "th": "ใหม่ๆ",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "会話・SNSで頻出。字幕高・SNS多",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "25.18",
+   "social_pm": "74.71"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-41444",
+  "th": "ที่อยู่",
+  "from": 6,
+  "to": 7,
+  "style": "",
+  "reason": "住所として日常（配送・書類）で頻出。全資料高",
+  "note": "数は ที่+อยู่ の連続も含む",
+  "evidence": {
+   "subs": "10",
+   "web": "9",
+   "written": "10",
+   "subs_pm": "275.68",
+   "social_pm": "88.48"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41462",
+  "th": "แทนที่",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "会話・書きことばとも一般的。全資料高",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "7",
+   "written": "8",
+   "subs_pm": "27.03",
+   "social_pm": "13.76"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41530",
+  "th": "หลายๆ",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "会話・SNSで頻出。字幕高・SNS多",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "29.28",
+   "social_pm": "88.48"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-41559",
+  "th": "สั้นๆ",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "「สรุปสั้นๆ」など会話で頻出。字幕高・SNS多",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "22.35",
+   "social_pm": "37.36"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-41583",
+  "th": "ช้าๆ",
+  "from": 3,
+  "to": 7,
+  "style": "",
+  "reason": "「พูดช้าๆ」など会話で頻出。字幕高",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "3",
+   "written": "0",
+   "subs_pm": "40.97",
+   "social_pm": "7.86"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41612",
+  "th": "อาจารย์ใหญ่",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "校長として学校で一般的。字幕中程度（複合語で他資料は少なめ）",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "1",
+   "written": "1",
+   "subs_pm": "13.05",
+   "social_pm": "0.0"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41640",
+  "th": "ขณะนี้",
+  "from": 6,
+  "to": 7,
+  "style": "",
+  "reason": "ニュース・案内放送で頻出。全資料高",
+  "note": "会話では ตอนนี้",
+  "evidence": {
+   "subs": "8",
+   "web": "7",
+   "written": "8",
+   "subs_pm": "51.73",
+   "social_pm": "25.56"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41722",
+  "th": "ยังงั้น",
+  "from": 1,
+  "to": 4,
+  "style": "口語",
+  "reason": "อย่างนั้น のくだけた形で会話で使う。字幕高",
+  "note": "งั้น の方が多い",
+  "evidence": {
+   "subs": "8",
+   "web": "1",
+   "written": "3",
+   "subs_pm": "56.0",
+   "social_pm": "1.97"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41730",
+  "th": "ทั้งที่",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "「ทั้งที่รู้」など一般的。字幕・書きことば・SNS高",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "5",
+   "written": "8",
+   "subs_pm": "29.92",
+   "social_pm": "74.71"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41813",
+  "th": "เข้าสู่",
+  "from": 6,
+  "to": 7,
+  "style": "",
+  "reason": "ニュース・宣伝で頻出。全資料高",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "10",
+   "written": "9",
+   "subs_pm": "35.18",
+   "social_pm": "47.19"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41851",
+  "th": "คุณนาย",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "ドラマ・会話で聞く呼び方。字幕高（翻訳のMadam含む）",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "2",
+   "written": "4",
+   "subs_pm": "95.1",
+   "social_pm": "3.93"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41859",
+  "th": "ละก็",
+  "from": 5,
+  "to": 5,
+  "style": "口語",
+  "reason": "くだけた会話でだけ使う取り立て",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "5",
+   "subs_pm": "48.92",
+   "social_pm": "25.56"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-41961",
+  "th": "เค้า",
+  "from": 4,
+  "to": 9,
+  "style": "",
+  "reason": "口語の代名詞として会話・SNSで非常に多い。字幕・SNS最多級",
+  "note": "代名詞の語義は口語。兆しの語義は別",
+  "evidence": {
+   "subs": "10",
+   "web": "7",
+   "written": "8",
+   "subs_pm": "1534.17",
+   "social_pm": "1047.94"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-42115",
+  "th": "มั่ง",
+  "from": 3,
+  "to": 7,
+  "style": "口語",
+  "reason": "บ้าง のくだけた形で会話で頻出。字幕高・SNS多",
+  "note": "มั่งมี の混入あり",
+  "evidence": {
+   "subs": "9",
+   "web": "6",
+   "written": "6",
+   "subs_pm": "72.41",
+   "social_pm": "82.58"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-42164",
+  "th": "ที่มา",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "「ที่มา:」など出典表示・会話で頻出。全資料高",
+  "note": "ที่+มา の連続も含む",
+  "evidence": {
+   "subs": "9",
+   "web": "9",
+   "written": "9",
+   "subs_pm": "116.22",
+   "social_pm": "190.71"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-42249",
+  "th": "เก่าๆ",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "「ของเก่าๆ」など会話で使う。字幕高",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "3",
+   "written": "0",
+   "subs_pm": "26.84",
+   "social_pm": "21.63"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-42260",
+  "th": "สวยๆ",
+  "from": 3,
+  "to": 7,
+  "style": "",
+  "reason": "「รูปสวยๆ」など会話・SNSで頻出。字幕高・SNS多",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "22.0",
+   "social_pm": "70.78"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-42384",
+  "th": "ที่นั่ง",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "乗り物・予約で日常的。全資料高・SNS多",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "7",
+   "written": "8",
+   "subs_pm": "36.86",
+   "social_pm": "100.27"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-42449",
+  "th": "โดยที่",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "会話・書きことばとも一般的。全資料高",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "7",
+   "written": "9",
+   "subs_pm": "44.88",
+   "social_pm": "31.46"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-42491",
+  "th": "ไกลๆ",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "「ไปไกลๆ」など会話で使う。字幕高",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "2",
+   "written": "0",
+   "subs_pm": "22.99",
+   "social_pm": "11.8"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-42507",
+  "th": "แปลกๆ",
+  "from": 3,
+  "to": 7,
+  "style": "",
+  "reason": "「รู้สึกแปลกๆ」など会話で頻出。字幕最高級",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "101.22",
+   "social_pm": "35.39"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-42612",
+  "th": "ปา",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "投げる・ปาเข้าไป など会話・SNSで使う",
+  "note": "数は ปาก・ป่า 等の混入あり",
+  "evidence": {
+   "subs": "9",
+   "web": "10",
+   "written": "8",
+   "subs_pm": "60.88",
+   "social_pm": "198.58"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-42622",
+  "th": "ตรงๆ",
+  "from": 3,
+  "to": 7,
+  "style": "",
+  "reason": "「พูดตรงๆ」など会話で頻出。字幕高・SNS多",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "3",
+   "written": "0",
+   "subs_pm": "33.0",
+   "social_pm": "53.09"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-42661",
+  "th": "หลังจากนั้น",
+  "from": 6,
+  "to": 7,
+  "style": "",
+  "reason": "会話・文章で頻出。字幕・書きことば高",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "6",
+   "written": "8",
+   "subs_pm": "81.51",
+   "social_pm": "31.46"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-42665",
+  "th": "แค่นี้",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "「แค่นี้เอง」など会話で頻出。字幕高・SNS多",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "4",
+   "written": "6",
+   "subs_pm": "97.96",
+   "social_pm": "110.1"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-42815",
+  "th": "คล้ายๆ",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "「คล้ายๆ กัน」など会話で頻繁。字幕・SNSとも裏付け",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "3",
+   "written": "0",
+   "subs_pm": "17.07",
+   "social_pm": "49.15"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-42966",
+  "th": "ดังๆ",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "「พูดดังๆ」など会話で日常的に使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "13.0",
+   "social_pm": "13.76"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-43063",
+  "th": "สนุกๆ",
+  "from": 3,
+  "to": 4,
+  "style": "口語",
+  "reason": "「เล่นสนุกๆ」など会話で使う。字幕も中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.66",
+   "social_pm": "19.66"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-43065",
+  "th": "ห่างๆ",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "「อยู่ห่างๆ」など会話でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.12",
+   "social_pm": "0.0"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-43103",
+  "th": "นิดๆ",
+  "from": 3,
+  "to": 5,
+  "style": "口語",
+  "reason": "「นิดๆ หน่อยๆ」「หวานนิดๆ」など会話で頻繁。SNSも多い",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "3",
+   "written": "0",
+   "subs_pm": "13.69",
+   "social_pm": "43.25"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-43143",
+  "th": "หนุ่มๆ",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "呼びかけ・会話で使う。字幕7",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "22.99",
+   "social_pm": "5.9"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-43513",
+  "th": "ปิศาจ",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "物語・アニメでよく知られた語（異綴りปีศาจも多い）。字幕6",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "3",
+   "written": "1",
+   "subs_pm": "17.88",
+   "social_pm": "0.0"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-43926",
+  "th": "เอาเรื่อง",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "「เอาเรื่องอยู่」「เอาเรื่องให้ถึงที่สุด」と会話・ニュースで使う。字幕6・SNSあり",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "2",
+   "written": "4",
+   "subs_pm": "16.88",
+   "social_pm": "17.7"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-43985",
+  "th": "ของดี",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "「ของดีประจำจังหวัด」など日常的。web・字幕・SNSとも中",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "5",
+   "written": "3",
+   "subs_pm": "12.14",
+   "social_pm": "55.05"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-44051",
+  "th": "วันๆ",
+  "from": 2,
+  "to": 4,
+  "style": "口語",
+  "reason": "「วันๆ เอาแต่〜」と会話でよく使う。SNSも多い",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "8.36",
+   "social_pm": "31.46"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-44258",
+  "th": "เป็นไป",
+  "from": 6,
+  "to": 7,
+  "style": "",
+  "reason": "「เป็นไปไม่ได้」「เป็นไปตามแผน」など非常によく使う。字幕・web 8",
+  "note": "数にเป็นไปได้の分も混ざる可能性",
+  "evidence": {
+   "subs": "8",
+   "web": "8",
+   "written": "0",
+   "subs_pm": "45.2",
+   "social_pm": "23.59"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-44273",
+  "th": "คนๆ",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "「คนๆ หนึ่ง」「คนๆ นี้」と会話でよく使う。字幕9",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "61.65",
+   "social_pm": "11.8"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-44343",
+  "th": "นิ่งๆ",
+  "from": 2,
+  "to": 5,
+  "style": "",
+  "reason": "「อยู่นิ่งๆ」など会話で日常的",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "18.6",
+   "social_pm": "5.9"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-44387",
+  "th": "คนตาย",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "「มีคนตาย」とニュース・会話で使う。字幕8",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "2",
+   "written": "4",
+   "subs_pm": "48.52",
+   "social_pm": "23.59"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-44625",
+  "th": "ผิดๆ",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "「ข้อมูลผิดๆ」「เข้าใจผิดๆ」とよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "9.57",
+   "social_pm": "5.9"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-44946",
+  "th": "ตั๊กแตน",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "身近な昆虫で、揚げ虫（ตั๊กแตนทอด）としても日常語。字幕の少なさはタイ固有語の偏り",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "1",
+   "written": "1",
+   "subs_pm": "7.99",
+   "social_pm": "1.97"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-45095",
+  "th": "โง่ๆ",
+  "from": 2,
+  "to": 4,
+  "style": "口語",
+  "reason": "「อย่าทำอะไรโง่ๆ」など会話でよく使う。字幕8",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "36.95",
+   "social_pm": "13.76"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-45259",
+  "th": "เรียกหา",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "「ร่างกายเรียกหา〜」など日常・広告で使う。字幕5",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "1",
+   "written": "1",
+   "subs_pm": "10.12",
+   "social_pm": "1.97"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-45263",
+  "th": "แค่นั้น",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "「แค่นั้นเอง」など会話の決まった言い方。字幕9・web 6",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "6",
+   "written": "4",
+   "subs_pm": "85.06",
+   "social_pm": "43.25"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-45344",
+  "th": "อร่อยๆ",
+  "from": 2,
+  "to": 5,
+  "style": "口語",
+  "reason": "「ของอร่อยๆ」と会話・SNSで頻繁",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "12.33",
+   "social_pm": "15.73"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-45745",
+  "th": "พระราชินี",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "タイのニュース・行事で頻繁に言及される（สมเด็จพระราชินี）。字幕4",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "2",
+   "written": "1",
+   "subs_pm": "8.09",
+   "social_pm": "0.0"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-45962",
+  "th": "ที่ทำงาน",
+  "from": 6,
+  "to": 7,
+  "style": "",
+  "reason": "職場は日常会話の基本語。字幕9・SNSも多い",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "6",
+   "written": "0",
+   "subs_pm": "63.75",
+   "social_pm": "76.68"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-46179",
+  "th": "ก็เถอะ",
+  "from": 2,
+  "to": 4,
+  "style": "口語",
+  "reason": "「ถึงจะ〜ก็เถอะ」と会話で使う。字幕8",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "2",
+   "subs_pm": "36.68",
+   "social_pm": "15.73"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-46236",
+  "th": "พ่อครัว",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "職業名として一般的（พ่อครัวแม่ครัว）。字幕5",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "2",
+   "written": "2",
+   "subs_pm": "10.01",
+   "social_pm": "3.93"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-46297",
+  "th": "เอ็น",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "「เอ็นอักเสบ」「เอ็นไก่」など健康・料理で使う。web・書きことば7",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "7",
+   "written": "7",
+   "subs_pm": "21.22",
+   "social_pm": "39.32"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-46352",
+  "th": "ธรรมดาๆ",
+  "from": 2,
+  "to": 4,
+  "style": "口語",
+  "reason": "「ธรรมดาๆ」と会話で使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "2",
+   "written": "0",
+   "subs_pm": "13.22",
+   "social_pm": "5.9"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-46406",
+  "th": "หายตัว",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "「หายตัวไป」は行方不明のニュースで頻繁。字幕9",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "2",
+   "written": "2",
+   "subs_pm": "60.81",
+   "social_pm": "1.97"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-46577",
+  "th": "เช่นไร",
+  "from": 2,
+  "to": 2,
+  "style": "文語",
+  "reason": "",
+  "note": "「เป็นเช่นไร」など書きことば・改まった文で使う",
+  "evidence": {
+   "subs": "4",
+   "web": "3",
+   "written": "2",
+   "subs_pm": "8.21",
+   "social_pm": "5.9"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-46635",
+  "th": "ชัดๆ",
+  "from": 2,
+  "to": 4,
+  "style": "口語",
+  "reason": "「โกหกชัดๆ」など文末の強調で会話・SNSに多い",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "41.12",
+   "social_pm": "62.92"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-46848",
+  "th": "ลึกๆ",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "「ลึกๆ แล้ว」と会話でよく使う。字幕6",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "19.24",
+   "social_pm": "3.93"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-46918",
+  "th": "ข่าวร้าย",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "「มีข่าวร้าย」と会話・ニュースで使う。字幕6",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "1",
+   "written": "1",
+   "subs_pm": "14.95",
+   "social_pm": "5.9"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-47277",
+  "th": "เหมือนว่า",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "「เหมือนว่า〜」と会話でよく使う。字幕8",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "4",
+   "written": "1",
+   "subs_pm": "47.61",
+   "social_pm": "3.93"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-47313",
+  "th": "ก้มหัว",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "「ก้มหัว（ให้）」は日常の動作・比喩で使う",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "1",
+   "written": "1",
+   "subs_pm": "8.48",
+   "social_pm": "0.0"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-47387",
+  "th": "ปล่อยมือ",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "「ปล่อยมือ」は日常的な言い方",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "1",
+   "written": "2",
+   "subs_pm": "9.08",
+   "social_pm": "1.97"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-47587",
+  "th": "ชิ้นๆ",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "「เป็นชิ้นๆ」は日常でよく言う。字幕も中程度",
+  "note": "重複形のため回数は下限",
+  "evidence": {
+   "subs": "5",
+   "web": "1",
+   "written": "0",
+   "subs_pm": "12.06",
+   "social_pm": "1.97"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-47657",
+  "th": "ฟรีๆ",
+  "from": 2,
+  "to": 4,
+  "style": "口語",
+  "reason": "「ได้ฟรีๆ」など会話・SNSで時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "7.5",
+   "social_pm": "13.76"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-47874",
+  "th": "นักสู้",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "字幕・SNSとも中程度。日常でも時々聞く",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "1",
+   "subs_pm": "11.97",
+   "social_pm": "7.86"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-47920",
+  "th": "พ่อบ้าน",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "字幕中程度。執事・家庭の夫の意で時々使う",
+  "note": "แม่บ้าน(6)と釣り合う",
+  "evidence": {
+   "subs": "6",
+   "web": "2",
+   "written": "2",
+   "subs_pm": "16.62",
+   "social_pm": "11.8"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-47932",
+  "th": "ระยำ",
+  "from": 1,
+  "to": 4,
+  "style": "口語",
+  "reason": "罵り語として会話・ドラマで時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "1",
+   "written": "1",
+   "subs_pm": "21.34",
+   "social_pm": "9.83"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-47946",
+  "th": "ล้มเลิก",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "「ล้มเลิกความตั้งใจ」など時々使う。字幕中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "1",
+   "written": "1",
+   "subs_pm": "11.22",
+   "social_pm": "3.93"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-48029",
+  "th": "แคน",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "東北タイの楽器としてタイ人には身近。字幕・ウェブ・書きことばとも中程度",
+  "note": "回数にแคนาดา等の分割による混入の可能性あり",
+  "evidence": {
+   "subs": "7",
+   "web": "6",
+   "written": "6",
+   "subs_pm": "25.63",
+   "social_pm": "53.09"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-48092",
+  "th": "จิ้งจอก",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "キツネは一般に知られた動物名。字幕・ウェブとも中程度",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "3",
+   "written": "1",
+   "subs_pm": "8.71",
+   "social_pm": "0.0"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-48207",
+  "th": "พ่ะย่ะค่ะ",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "王室ニュース・時代劇で頻繁に耳にする。字幕高め",
+  "note": "話すのは限られた場面のみ",
+  "evidence": {
+   "subs": "8",
+   "web": "1",
+   "written": "1",
+   "subs_pm": "47.86",
+   "social_pm": "0.0"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-48623",
+  "th": "อันธพาล",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "「อันธพาล」は不良・いじめっ子の意で一般的。字幕中程度",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "1",
+   "written": "1",
+   "subs_pm": "14.23",
+   "social_pm": "0.0"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-48709",
+  "th": "ได้แต่",
+  "from": 1,
+  "to": 7,
+  "style": "",
+  "reason": "「ได้แต่〜」は会話・SNSでよく使う。字幕・SNSとも高い",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "60.14",
+   "social_pm": "151.39"
+  },
+  "basis": "textbook"
+ },
+ {
+  "id": "tl-48712",
+  "th": "ไม่เชิง",
+  "from": 1,
+  "to": 4,
+  "style": "口語",
+  "reason": "「ก็ไม่เชิง」の形で会話で時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "1",
+   "written": "1",
+   "subs_pm": "20.85",
+   "social_pm": "0.0"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-50101",
+  "th": "ไม่มีทาง",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "会話の決まった言い方。字幕で非常に多い",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "235.12",
+   "social_pm": "21.63"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50103",
+  "th": "ไม่เป็นอะไร",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "「ไม่เป็นอะไรใช่ไหม」など会話でよく使う。字幕高い",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "52.35",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50104",
+  "th": "เห็นว่า",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "伝聞の「เห็นว่า」は会話・SNSでよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "93.74",
+   "social_pm": "58.98"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50108",
+  "th": "น่ะสิ",
+  "from": 4,
+  "to": 7,
+  "style": "口語",
+  "reason": "会話の文末でよく使う。字幕高い",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "108.79",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50112",
+  "th": "เหมือนจะ",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "会話・SNSでよく使う推量表現。SNSでも多い",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "29.35",
+   "social_pm": "51.12"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50113",
+  "th": "ว่าไงนะ",
+  "from": 4,
+  "to": 7,
+  "style": "口語",
+  "reason": "聞き返しの決まった言い方。字幕高い",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "65.03",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50117",
+  "th": "เป็นผู้ใหญ่",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "「เป็นผู้ใหญ่แล้ว」など時々使う。字幕やや高い",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "24.64",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50142",
+  "th": "มีครอบครัว",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "「มีครอบครัวแล้ว」は日常でよく言う。字幕やや高い",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "22.96",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50148",
+  "th": "ก็นะ",
+  "from": 3,
+  "to": 4,
+  "style": "口語",
+  "reason": "会話・チャットの相づちとして時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "18.26",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50151",
+  "th": "ยังดี",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "「ยังดีที่〜」は会話・SNSで時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "20.2",
+   "social_pm": "33.42"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50157",
+  "th": "ไม่มีวัน",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "「ไม่มีวัน〜」は会話でよく使う。字幕で非常に多い",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "104.28",
+   "social_pm": "17.7"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50159",
+  "th": "ไม่อยากจะเชื่อ",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "驚きの言い方として時々使う。字幕高いが翻訳調の分を割り引く",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "47.84",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50163",
+  "th": "เป็นอะไรไป",
+  "from": 4,
+  "to": 7,
+  "style": "口語",
+  "reason": "様子を尋ねる決まった言い方。字幕高い",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "50.62",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50167",
+  "th": "ใครว่า",
+  "from": 3,
+  "to": 4,
+  "style": "口語",
+  "reason": "反論の言い方として会話・SNSで時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.33",
+   "social_pm": "17.7"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50170",
+  "th": "ขอบอก",
+  "from": 3,
+  "to": 4,
+  "style": "口語",
+  "reason": "「ขอบอกเลยว่า」などSNS・会話で時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "13.39",
+   "social_pm": "23.59"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50184",
+  "th": "เจ้าที่",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "タイ固有の日常語（ศาลเจ้าที่）。字幕でも中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "12.18",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50225",
+  "th": "มีเสน่ห์",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "人・場所の魅力を言うのに時々使う。字幕中程度",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "18.62",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50257",
+  "th": "เล่นเป็น",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "芸能の話題で「เล่นเป็น〜」は時々使う",
+  "note": "「เล่นเป็น（遊び方を知っている）」の混入あり",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "13.45",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50327",
+  "th": "จากไป",
+  "from": 3,
+  "to": 7,
+  "style": "",
+  "reason": "婉曲の「จากไป」はニュース・ドラマ・歌でよく使う。字幕で非常に多い",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "98.53",
+   "social_pm": "19.66"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50330",
+  "th": "ฮันนีมูน",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "「ไปฮันนีมูน」は日常で時々使う外来語",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "9.11",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50348",
+  "th": "อันดับแรก",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "手順や理由を挙げるときに時々使う。SNSでも見る",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "11.12",
+   "social_pm": "17.7"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50370",
+  "th": "กลับกัน",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "「ในทางกลับกัน」の形で時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "17.3",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50423",
+  "th": "มือปืน",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "タイのニュースで頻出。字幕中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "12.38",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50432",
+  "th": "มาเฟีย",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "タイでは地元の顔役の意でも時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "9.11",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50461",
+  "th": "ไปนอก",
+  "from": 2,
+  "to": 4,
+  "style": "口語",
+  "reason": "「เคยไปนอกไหม」など会話で時々使う",
+  "note": "「外へ行く」の連続も混入",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "7.75",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50486",
+  "th": "มองหน้า",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "会話・ドラマで時々使う。字幕中程度",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "15.74",
+   "social_pm": "9.83"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50488",
+  "th": "ทำธุระ",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "「ไปทำธุระ」は日常で時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.01",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50510",
+  "th": "เด็กใหม่",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "学校・職場で時々使う。字幕中程度",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "14.13",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50670",
+  "th": "ทำเงิน",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "ビジネス・芸能ニュースで時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "8.51",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50760",
+  "th": "นักเต้น",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "字幕中程度。一般的な職業名",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "7.85",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-50833",
+  "th": "พาสต้า",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "メニュー・飲食店で時々目にする外来語。字幕中程度",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "14.87",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-51003",
+  "th": "เกาหลี",
+  "from": 6,
+  "to": 7,
+  "style": "",
+  "reason": "韓流・韓国料理などでタイでよく使う。字幕・ウェブ・SNSとも高い",
+  "note": "国名は仲間語ではないが ญี่ปุ่น9・จีน9 との釣り合いも確認",
+  "evidence": {
+   "subs": "9",
+   "web": "8",
+   "written": "6",
+   "subs_pm": "104.6",
+   "social_pm": "141.56"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-51010",
+  "th": "โตเกียว",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "字幕・ウェブとも中程度。旅行の話題で時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "5",
+   "written": "3",
+   "subs_pm": "32.63",
+   "social_pm": "5.9"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-51097",
+  "th": "การแข่งขัน",
+  "from": 6,
+  "to": 7,
+  "style": "",
+  "reason": "字幕・ウェブとも高い。ニュース・スポーツで頻出",
+  "note": "書きことば0は分割の影響と思われる",
+  "evidence": {
+   "subs": "9",
+   "web": "9",
+   "written": "0",
+   "subs_pm": "74.13",
+   "social_pm": "108.14"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-51107",
+  "th": "ลูกหมา",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "日常で時々使う。字幕やや高い",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "22.62",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-51127",
+  "th": "เกาหลีเหนือ",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "ニュースで時々使う。字幕・書きことばとも中程度",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "2",
+   "written": "3",
+   "subs_pm": "9.65",
+   "social_pm": "1.97"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-51185",
+  "th": "คนอเมริกัน",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "日常で時々使う言い方。複合語のため回数は下限",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "7.58",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-51369",
+  "th": "เจ้าของร้าน",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "日常で時々使う。SNSでも見る",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "3",
+   "written": "0",
+   "subs_pm": "10.83",
+   "social_pm": "15.73"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-51377",
+  "th": "นามบัตร",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "仕事の場面で時々使う。字幕・ウェブとも中程度",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "3",
+   "written": "1",
+   "subs_pm": "9.33",
+   "social_pm": "0.0"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-51382",
+  "th": "ฟิสิกส์",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "学校の教科名として時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "4",
+   "written": "2",
+   "subs_pm": "7.65",
+   "social_pm": "1.97"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-51462",
+  "th": "ฉลาม",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "一般に知られた動物名。字幕中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "3",
+   "written": "2",
+   "subs_pm": "10.29",
+   "social_pm": "3.93"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-51772",
+  "th": "เป็นสาว",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "「เป็นสาวแล้ว」など日常で時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "13.22",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-51796",
+  "th": "ไอ้หนุ่ม",
+  "from": 2,
+  "to": 4,
+  "style": "口語",
+  "reason": "年上からの呼びかけとして時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "11.32",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-52677",
+  "th": "ฝากข้อความ",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "電話・留守電で時々使う。字幕中程度",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "20.03",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53009",
+  "th": "กินข้าว",
+  "from": 7,
+  "to": 9,
+  "style": "",
+  "reason": "日常の決まった言い方。字幕・SNSとも多い",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "60.64",
+   "social_pm": "70.78"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53019",
+  "th": "ขึ้นรถ",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "日常でよく使う。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "35.84",
+   "social_pm": "19.66"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53031",
+  "th": "จุดไฟ",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "ろうそく・線香・調理などでときどき使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "11.49",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53032",
+  "th": "จ่ายเงิน",
+  "from": 6,
+  "to": 7,
+  "style": "",
+  "reason": "買い物・支払いで日常的",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "40.97",
+   "social_pm": "45.22"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53129",
+  "th": "ลุกขึ้น",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "字幕に多く（命令形で映画寄りの面あり）、日常でも普通に使う",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "84.35",
+   "social_pm": "11.8"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53156",
+  "th": "หางาน",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "求職の話題でときどき使う。SNSも多い",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "20.42",
+   "social_pm": "29.49"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53159",
+  "th": "หาเงิน",
+  "from": 3,
+  "to": 6,
+  "style": "",
+  "reason": "会話でよく言う。字幕・SNSとも中程度以上",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "32.57",
+   "social_pm": "27.53"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53170",
+  "th": "เก็บของ",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "片付け・荷造りで日常的に使う",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "29.61",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53229",
+  "th": "ขี้โกง",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "子どもや遊びの場面でよく言う（くだけた語）",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "8.31",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53272",
+  "th": "หมดหวัง",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "字幕に一定数。一般的な語",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "11.64",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53275",
+  "th": "น่าตื่นเต้น",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "会話でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "16.7",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53276",
+  "th": "น่าอาย",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "会話でよく使う。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "32.17",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53277",
+  "th": "น่าสงสาร",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "会話で非常によく使う。字幕・SNSとも多い",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "55.33",
+   "social_pm": "13.76"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53278",
+  "th": "น่าประทับใจ",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "感想・レビューでときどき使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "20.26",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53285",
+  "th": "น่าสงสัย",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "会話でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "26.64",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53289",
+  "th": "น่ารังเกียจ",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "字幕に多いが翻訳調の面あり。中程度",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "24.01",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53385",
+  "th": "เข้ากัน",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "相性・味の話でよく使う。SNSも多い",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "12.14",
+   "social_pm": "25.56"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53442",
+  "th": "การลงทุน",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "ニュース・広告でよく見る。SNSも一定数",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "14.21",
+   "social_pm": "15.73"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53463",
+  "th": "ล้มละลาย",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "ニュース・会話でときどき使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.56",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53498",
+  "th": "เซ็นสัญญา",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "ニュース（契約・移籍）などでときどき使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.39",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53600",
+  "th": "ย้ายออก",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "賃貸の場面でときどき使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "20.26",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53677",
+  "th": "ศัลยกรรม",
+  "from": 2,
+  "to": 5,
+  "style": "",
+  "reason": "美容整形の話題が多い。SNSも一定数",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.76",
+   "social_pm": "17.7"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-53682",
+  "th": "สปา",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "観光・看板でよく見る",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "15.42",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54017",
+  "th": "การทดลอง",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "学校・ニュースでときどき使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "19.73",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54031",
+  "th": "จบการศึกษา",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "卒業式などでときどき使う（会話では เรียนจบ が多い）",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "12.87",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54042",
+  "th": "ฐานข้อมูล",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "IT・ニュースでときどき見る",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "8.98",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54052",
+  "th": "ตัวร้าย",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "ドラマの話題でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "7.75",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54061",
+  "th": "ความเชื่อ",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "信仰・言い伝えの話題でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "16.09",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54068",
+  "th": "ความอดทน",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "ときどき使う一般語",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "13.69",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54070",
+  "th": "ความเป็นไปได้",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "ときどき使う一般語",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "17.1",
+   "social_pm": "11.8"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54074",
+  "th": "ความเครียด",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "SNSで多い。日常でもよく言う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.73",
+   "social_pm": "21.63"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54077",
+  "th": "ความกลัว",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "字幕に多い一般語",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "29.93",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54078",
+  "th": "ความโกรธ",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "字幕に一定数の一般語",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "19.39",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54080",
+  "th": "การตัดสินใจ",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "字幕に多く、日常でも使う",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "48.67",
+   "social_pm": "11.8"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54081",
+  "th": "การพัฒนา",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "ニュース・公的な場でよく使う。SNSも多い",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "16.14",
+   "social_pm": "43.25"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54082",
+  "th": "การเปลี่ยนแปลง",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "ニュース・SNSでよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "28.3",
+   "social_pm": "58.98"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54118",
+  "th": "สอบเข้า",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "入試の話題で日常的に使う",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "7.6",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54120",
+  "th": "เพื่อนร่วมห้อง",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "寮・学校の話題でときどき使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.83",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54128",
+  "th": "ความซื่อสัตย์",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "よく知られた一般語",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "9.91",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54130",
+  "th": "ความสนใจ",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "字幕に多い一般語",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "35.38",
+   "social_pm": "9.83"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54166",
+  "th": "แต่งเพลง",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "音楽の話題でときどき使う",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "8.39",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54192",
+  "th": "เลิกเรียน",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "学生の日常語",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "12.14",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54201",
+  "th": "ดีขึ้น",
+  "from": 6,
+  "to": 9,
+  "style": "",
+  "reason": "字幕・SNSとも非常に多い日常語",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "173.55",
+   "social_pm": "163.19"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54202",
+  "th": "ลดลง",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "ニュース・SNSで多い",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "26.94",
+   "social_pm": "57.02"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54203",
+  "th": "กลับมา",
+  "from": 7,
+  "to": 10,
+  "style": "",
+  "reason": "会話の中心的な言い方。字幕・SNSとも極めて多い",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "799.65",
+   "social_pm": "348.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54204",
+  "th": "แบบนี้",
+  "from": 7,
+  "to": 10,
+  "style": "",
+  "reason": "会話の中心的な言い方。字幕・SNSとも極めて多い",
+  "note": "แบบนั้น と同系",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "1028.21",
+   "social_pm": "833.63"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54205",
+  "th": "หายไป",
+  "from": 6,
+  "to": 9,
+  "style": "",
+  "reason": "字幕・SNSとも非常に多い",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "224.29",
+   "social_pm": "137.63"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54206",
+  "th": "แย่ลง",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "字幕・SNSに一定数。日常でも使う",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "23.7",
+   "social_pm": "23.59"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54208",
+  "th": "ใช้เวลา",
+  "from": 6,
+  "to": 8,
+  "style": "",
+  "reason": "字幕に非常に多く、日常でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "149.82",
+   "social_pm": "39.32"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54209",
+  "th": "เสียเวลา",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "会話でよく言う。SNSも多い",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "56.96",
+   "social_pm": "72.75"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54211",
+  "th": "มาถึง",
+  "from": 6,
+  "to": 8,
+  "style": "",
+  "reason": "字幕に非常に多い。日常でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "205.89",
+   "social_pm": "100.27"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54212",
+  "th": "กลับไป",
+  "from": 6,
+  "to": 9,
+  "style": "",
+  "reason": "字幕に極めて多い会話の基本表現",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "434.23",
+   "social_pm": "121.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54213",
+  "th": "ออกไป",
+  "from": 6,
+  "to": 10,
+  "style": "",
+  "reason": "字幕に極めて多い会話の基本表現",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "866.01",
+   "social_pm": "141.56"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54214",
+  "th": "เข้ามา",
+  "from": 6,
+  "to": 9,
+  "style": "",
+  "reason": "字幕・SNSとも非常に多い",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "503.87",
+   "social_pm": "257.56"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54215",
+  "th": "ไปรับ",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "送迎・受け取りで日常的",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "34.64",
+   "social_pm": "37.36"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54216",
+  "th": "แก้ปัญหา",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "日常・ニュースでよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "40.08",
+   "social_pm": "66.85"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54218",
+  "th": "โทรหา",
+  "from": 6,
+  "to": 8,
+  "style": "",
+  "reason": "字幕に非常に多い日常表現",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "201.33",
+   "social_pm": "13.76"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54219",
+  "th": "แบบนั้น",
+  "from": 6,
+  "to": 9,
+  "style": "",
+  "reason": "字幕に極めて多い会話表現",
+  "note": "แบบนี้ と同系",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "652.02",
+   "social_pm": "51.12"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54220",
+  "th": "อยู่แล้ว",
+  "from": 6,
+  "to": 9,
+  "style": "",
+  "reason": "字幕・SNSとも非常に多い会話表現",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "276.71",
+   "social_pm": "190.71"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54221",
+  "th": "คนเดียว",
+  "from": 6,
+  "to": 9,
+  "style": "",
+  "reason": "字幕・SNSとも非常に多い",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "426.65",
+   "social_pm": "196.61"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54226",
+  "th": "ไปถึง",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "字幕・SNSとも多い日常表現",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "105.12",
+   "social_pm": "74.71"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54227",
+  "th": "มารับ",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "送迎で日常的。SNSも多い",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "36.76",
+   "social_pm": "53.09"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54228",
+  "th": "พาไป",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "日常でよく使う。SNSも多い",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "24.81",
+   "social_pm": "298.85"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54230",
+  "th": "คบกัน",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "恋愛の話題で日常的に使う",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "29.8",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54233",
+  "th": "รถชน",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "事故の話題でときどき使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.66",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54234",
+  "th": "เป็นหนี้",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "会話でよく使う。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "25.14",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54237",
+  "th": "หาข้อมูล",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "調べ物でときどき使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "11.54",
+   "social_pm": "11.8"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54238",
+  "th": "ทำตาม",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "字幕に多い日常表現",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "76.32",
+   "social_pm": "39.32"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54239",
+  "th": "ทำผิด",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "字幕に多い日常表現",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "44.65",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54241",
+  "th": "ดูแลตัวเอง",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "あいさつ的によく言う決まった言い方",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "37.8",
+   "social_pm": "17.7"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54242",
+  "th": "โทรกลับ",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "「เดี๋ยวโทรกลับ」など日常でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "28.89",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54244",
+  "th": "ด้วยตัวเอง",
+  "from": 3,
+  "to": 7,
+  "style": "",
+  "reason": "字幕に多い。日常でもよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "75.74",
+   "social_pm": "25.56"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54245",
+  "th": "นานแล้ว",
+  "from": 5,
+  "to": 8,
+  "style": "",
+  "reason": "字幕・SNSとも多い会話表現",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "92.17",
+   "social_pm": "110.1"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54246",
+  "th": "ปกติแล้ว",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "会話でよく使う前置き",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.54",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54249",
+  "th": "เสียงดัง",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "日常でよく言う。字幕・SNSとも多い",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "36.14",
+   "social_pm": "37.36"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54250",
+  "th": "ครั้งหน้า",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "会話でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "21.78",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54251",
+  "th": "มีประโยชน์",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "日常・SNSでよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "54.45",
+   "social_pm": "62.92"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54255",
+  "th": "ออกเดินทาง",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "旅行の話題でときどき使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "14.43",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54266",
+  "th": "ถูกจับ",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "字幕に多い（警察物で多め）。会話では โดนจับ も多い",
+  "note": "โดนจับ と合わせて検討可",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "57.28",
+   "social_pm": "9.83"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54269",
+  "th": "ได้งาน",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "就職の話題でときどき使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "18.52",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54273",
+  "th": "รับงาน",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "仕事の場面でときどき使う。SNSにも出る",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.09",
+   "social_pm": "9.83"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54275",
+  "th": "เข้าเรียน",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "学校の日常語",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "18.72",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54276",
+  "th": "ทำเอง",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "字幕に多い日常表現",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "47.64",
+   "social_pm": "25.56"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54277",
+  "th": "ทำพลาด",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "字幕に一定数。日常でも使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "17.88",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54278",
+  "th": "คิดออก",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "「คิดไม่ออก」など日常会話で頻用・字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "18.33",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54279",
+  "th": "ทำต่อ",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "「ทำต่อเลย」など日常でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.43",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54285",
+  "th": "เปลี่ยนเสื้อผ้า",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "日常の動作として時々使う・字幕も中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.66",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54304",
+  "th": "มีประสบการณ์",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "求人・自己紹介などでよく使う・字幕/SNSとも中以上",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "21.26",
+   "social_pm": "13.76"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54305",
+  "th": "มีเหตุผล",
+  "from": 3,
+  "to": 6,
+  "style": "",
+  "reason": "「มีเหตุผลหน่อย」など会話で頻出・字幕が高い",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "126.3",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54318",
+  "th": "ตั้งนาน",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "会話の決まった言い方・SNSでも多い",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "31.89",
+   "social_pm": "43.25"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54323",
+  "th": "ครั้งสุดท้าย",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "「ครั้งสุดท้าย」は日常的な言い方・字幕で高頻度",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "86.88",
+   "social_pm": "13.76"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54325",
+  "th": "ตลอดชีวิต",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "日常・ニュースで時々使う・字幕/SNSとも中以上",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "36.41",
+   "social_pm": "27.53"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54328",
+  "th": "ความมั่นคง",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "仕事・生活の安定やニュースで時々使う",
+  "note": "written 0は分かち書きの影響か",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "15.71",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54354",
+  "th": "ช่วยชีวิต",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "救助の話題で時々使う（字幕は映画寄りで高め）",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "76.13",
+   "social_pm": "9.83"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54372",
+  "th": "สังเกตเห็น",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "時々使う・字幕も中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "12.5",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54380",
+  "th": "ทำผม",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "美容院など日常の話題・SNSでも多い",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "19.12",
+   "social_pm": "25.56"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54387",
+  "th": "เคาะประตู",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "日常の動作・字幕で中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "11.42",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54397",
+  "th": "ถึงยังไง",
+  "from": 2,
+  "to": 4,
+  "style": "口語",
+  "reason": "会話でよく使う譲歩表現",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "14.46",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54398",
+  "th": "แถมยัง",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "会話・SNSでよく使う（SNS高い）",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "23.26",
+   "social_pm": "66.85"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54402",
+  "th": "น่าดู",
+  "from": 2,
+  "to": 5,
+  "style": "",
+  "reason": "「น่าดู」は会話・SNSでよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "24.59",
+   "social_pm": "27.53"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54420",
+  "th": "คราวก่อน",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "「คราวก่อน」は日常会話で普通に使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "11.79",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54430",
+  "th": "ดีเยี่ยม",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "評価・ほめ言葉で時々使う・SNSも中程度",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "9.99",
+   "social_pm": "17.7"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54440",
+  "th": "ไม่เพียงแต่",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "書きことば・スピーチで時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "7.77",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54441",
+  "th": "โดยเร็ว",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "案内・通知で時々使う（โดยเร็วที่สุด）",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "13.55",
+   "social_pm": "13.76"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54492",
+  "th": "การแพทย์",
+  "from": 2,
+  "to": 5,
+  "style": "",
+  "reason": "ニュース・SNSで時々使う（ทางการแพทย์）",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "8.68",
+   "social_pm": "60.95"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54596",
+  "th": "ทันใดนั้น",
+  "from": 1,
+  "to": 1,
+  "style": "文語",
+  "reason": "物語の語りで使う書きことば",
+  "note": "ทันใด(3)より上げられないため据え置き。上げるなら仲間で",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.71",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54602",
+  "th": "ซะเลย",
+  "from": 4,
+  "to": 4,
+  "style": "口語",
+  "reason": "くだけた会話の文末表現",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "23.86",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54626",
+  "th": "ผู้อพยพ",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "ニュースで時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.43",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54680",
+  "th": "นิวเคลียร์",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "ニュースで時々使う（原発・核）",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "17.0",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54755",
+  "th": "โดนัท",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "身近な食べ物・店で見かける",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "7.62",
+   "social_pm": "9.83"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54845",
+  "th": "กิมจิ",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "韓国文化の流行で身近な食べ物（字幕は韓国ドラマで多め）",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "27.4",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54851",
+  "th": "แสดงความยินดี",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "「ขอแสดงความยินดี」は看板・SNSで頻出",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.28",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-54852",
+  "th": "แอบดู",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "日常会話で時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "8.63",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-55305",
+  "th": "โซจู",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "韓国文化の流行で身近・SNSでも中程度",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "8.37",
+   "social_pm": "15.73"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-55401",
+  "th": "ไม่ว่า",
+  "from": 5,
+  "to": 8,
+  "style": "",
+  "reason": "「ไม่ว่า〜」は会話・文章で頻出・字幕/SNSとも最上位級",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "352.4",
+   "social_pm": "192.68"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-55402",
+  "th": "ตามที่",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "「ตามที่」は会話・文章でよく使う・字幕高い",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "137.61",
+   "social_pm": "70.78"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-55405",
+  "th": "จริงๆแล้ว",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "「จริงๆแล้ว」は会話で頻出",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "154.11",
+   "social_pm": "21.63"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-55416",
+  "th": "ตัวเล็ก",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "体格の言い方として日常で使う",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "33.42",
+   "social_pm": "19.66"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-55429",
+  "th": "ว่ากันว่า",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "伝聞の言い方として文章・会話で時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "13.87",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-55436",
+  "th": "คุณหนู",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "ドラマ・日常で時々使う（字幕はドラマで多め）",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "68.66",
+   "social_pm": "11.8"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-55440",
+  "th": "ทำเรื่อง",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "役所・職場の手続きで時々使う",
+  "note": "字幕の数は「ทำเรื่อง〜（〜をする）」の別用法が混ざる",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "97.56",
+   "social_pm": "19.66"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-55441",
+  "th": "มีเรื่อง",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "「มีเรื่องกับ〜」はくだけた会話で時々使う",
+  "note": "字幕の数は「มีเรื่อง（話・用事がある）」の別用法が大半",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "210.9",
+   "social_pm": "33.42"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-55474",
+  "th": "ซีเรียส",
+  "from": 3,
+  "to": 5,
+  "style": "口語",
+  "reason": "「ไม่ต้องซีเรียส」など会話で普通に使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "11.03",
+   "social_pm": "9.83"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-55490",
+  "th": "ตั้งชื่อ",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "名付けの話題で時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "16.4",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-55566",
+  "th": "ดีกัน",
+  "from": 2,
+  "to": 4,
+  "style": "口語",
+  "reason": "仲直りの言い方として会話で使う",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "8.63",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-55887",
+  "th": "ออดิชั่น",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "芸能・アイドルの話題で時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "13.92",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56006",
+  "th": "มีผล",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "「มีผลต่อ」「มีผลบังคับใช้」でよく使う・SNSも中以上",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "20.15",
+   "social_pm": "27.53"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56077",
+  "th": "ว่าที่",
+  "from": 2,
+  "to": 5,
+  "style": "",
+  "reason": "「ว่าที่เจ้าสาว」「ว่าที่นายก」などニュース・SNSでよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "50.48",
+   "social_pm": "41.29"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56196",
+  "th": "เฮลิคอปเตอร์",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "一般名詞として時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "13.22",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56213",
+  "th": "ห้องผ่าตัด",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "病院の話題で時々使う（構成語ห้องผ่าตัด≦ผ่าตัด6）",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "9.6",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56383",
+  "th": "โคม่า",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "「อาการโคม่า」など時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "7.85",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56587",
+  "th": "อริ",
+  "from": 1,
+  "to": 5,
+  "style": "",
+  "reason": "「คู่อริ」はニュース・SNSで時々使う・字幕/webとも中以上",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "7",
+   "written": "1",
+   "subs_pm": "26.3",
+   "social_pm": "43.25"
+  },
+  "basis": "corpus"
+ },
+ {
+  "id": "tl-56594",
+  "th": "แม่หนู",
+  "from": 1,
+  "to": 1,
+  "style": "口語",
+  "reason": "年長者が女の子に呼びかける話しことば",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "17.17",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56612",
+  "th": "รอเดี๋ยว",
+  "from": 6,
+  "to": 8,
+  "style": "",
+  "reason": "会話で頻出の決まり文句",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "56.37",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56614",
+  "th": "เอาไป",
+  "from": 6,
+  "to": 8,
+  "style": "",
+  "reason": "「เอาไป」は日常会話で頻出・字幕/SNSとも最上位級",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "147.35",
+   "social_pm": "161.22"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56618",
+  "th": "เอาน่า",
+  "from": 4,
+  "to": 7,
+  "style": "口語",
+  "reason": "なだめる・促す会話表現で頻出",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "127.0",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56619",
+  "th": "ว่าแล้ว",
+  "from": 3,
+  "to": 5,
+  "style": "口語",
+  "reason": "「ว่าแล้ว」は会話で普通に使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "17.54",
+   "social_pm": "25.56"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56630",
+  "th": "เดี๋ยวนะ",
+  "from": 6,
+  "to": 8,
+  "style": "口語",
+  "reason": "会話で頻出の決まり文句",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "58.2",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56634",
+  "th": "ไม่ใช่เหรอ",
+  "from": 5,
+  "to": 8,
+  "style": "口語",
+  "reason": "確認の言い方として会話で頻出",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "172.41",
+   "social_pm": "11.8"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56636",
+  "th": "ไม่รู้เหมือนกัน",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "会話でよく使う返答",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "32.54",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56639",
+  "th": "รู้แล้ว",
+  "from": 5,
+  "to": 8,
+  "style": "",
+  "reason": "「รู้แล้ว」は会話で頻出",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "161.24",
+   "social_pm": "27.53"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56640",
+  "th": "ดีแล้ว",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "「ดีแล้ว」は会話でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "136.66",
+   "social_pm": "27.53"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56647",
+  "th": "อะไรเนี่ย",
+  "from": 5,
+  "to": 7,
+  "style": "口語",
+  "reason": "驚き・あきれの会話表現でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "97.46",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56648",
+  "th": "ทำไงดี",
+  "from": 5,
+  "to": 7,
+  "style": "口語",
+  "reason": "「ทำไงดี」は会話・SNSでよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "30.32",
+   "social_pm": "21.63"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56651",
+  "th": "ไปละ",
+  "from": 4,
+  "to": 4,
+  "style": "口語",
+  "reason": "くだけた会話の別れのあいさつ",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "24.96",
+   "social_pm": "41.29"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56654",
+  "th": "ไปเลย",
+  "from": 5,
+  "to": 8,
+  "style": "",
+  "reason": "「ไปเลย」は会話で頻出・字幕/SNSとも最上位級",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "295.16",
+   "social_pm": "344.07"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56655",
+  "th": "มาเลย",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "「มาเลย」は会話でよく使う・SNSも高い",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "83.23",
+   "social_pm": "110.1"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56656",
+  "th": "มานี่",
+  "from": 5,
+  "to": 7,
+  "style": "口語",
+  "reason": "呼び寄せる会話表現でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "237.05",
+   "social_pm": "19.66"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56667",
+  "th": "แล้วไง",
+  "from": 4,
+  "to": 7,
+  "style": "口語",
+  "reason": "「แล้วไง」は会話でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "149.82",
+   "social_pm": "25.56"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56668",
+  "th": "หมายความว่าไง",
+  "from": 4,
+  "to": 4,
+  "style": "口語",
+  "reason": "聞き返しの決まり文句としてよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "89.79",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56669",
+  "th": "อีกแล้ว",
+  "from": 5,
+  "to": 8,
+  "style": "",
+  "reason": "「อีกแล้ว」は会話・SNSで頻出",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "341.54",
+   "social_pm": "171.05"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56677",
+  "th": "ช่วยกัน",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "「ช่วยกัน」は日常・標語でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "34.53",
+   "social_pm": "47.19"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56707",
+  "th": "ไม่ธรรมดา",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "会話・SNSで時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "11.47",
+   "social_pm": "9.83"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56708",
+  "th": "ออกจะ",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "会話で時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "27.28",
+   "social_pm": "11.8"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56709",
+  "th": "ยิ่งกว่า",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "会話・SNSで時々使う（SNS高い）",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "44.85",
+   "social_pm": "58.98"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56735",
+  "th": "ดีจัง",
+  "from": 4,
+  "to": 7,
+  "style": "口語",
+  "reason": "「ดีจัง」は会話でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "59.36",
+   "social_pm": "11.8"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56737",
+  "th": "คงงั้น",
+  "from": 3,
+  "to": 4,
+  "style": "口語",
+  "reason": "くだけた相づちとして使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "13.42",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56741",
+  "th": "ก็ใช่",
+  "from": 4,
+  "to": 7,
+  "style": "口語",
+  "reason": "会話の相づちとしてよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "48.21",
+   "social_pm": "19.66"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56743",
+  "th": "บ้าไปแล้ว",
+  "from": 4,
+  "to": 4,
+  "style": "口語",
+  "reason": "くだけた会話の感嘆表現",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "44.92",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56750",
+  "th": "ไม่ล่ะ",
+  "from": 4,
+  "to": 4,
+  "style": "口語",
+  "reason": "くだけた会話で軽く断る言い方",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "39.0",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56753",
+  "th": "ไว้ก่อน",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "「ไว้ก่อน」は日常会話でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "38.01",
+   "social_pm": "21.63"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56759",
+  "th": "รอก่อน",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "「รอก่อน」は日常会話でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "51.61",
+   "social_pm": "17.7"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56765",
+  "th": "อะไรกัน",
+  "from": 3,
+  "to": 7,
+  "style": "口語",
+  "reason": "驚き・不満の会話表現でよく使う",
+  "note": "字幕の数は「อะไรกันแน่」など他の言い方を含み多め",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "384.42",
+   "social_pm": "21.63"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56808",
+  "th": "นั่งก่อน",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "客を迎える会話で使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "19.64",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56809",
+  "th": "เข้ามาเลย",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "客を迎える会話で使う（เข้ามา6以下）",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "14.9",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56818",
+  "th": "เรื่องอะไร",
+  "from": 3,
+  "to": 5,
+  "style": "口語",
+  "reason": "反語の「เรื่องอะไรจะ〜」はくだけた会話で使う",
+  "note": "字幕の数は「何の話」の文字どおりの用法が大半",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "194.27",
+   "social_pm": "11.8"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56831",
+  "th": "เห็นไหม",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "「เห็นไหม/เห็นมั้ย」は会話でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "39.08",
+   "social_pm": "13.76"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56918",
+  "th": "จะบ้าตาย",
+  "from": 3,
+  "to": 5,
+  "style": "口語",
+  "reason": "いらだちの会話表現で時々使う",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "15.24",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56948",
+  "th": "ซูเปอร์",
+  "from": 3,
+  "to": 4,
+  "style": "口語",
+  "reason": "ซูเปอร์มาร์เก็ต の口語の略として日常的に使う。字幕・SNSとも多い",
+  "note": "「スーパー（超）」の用法も回数に混ざる",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.51",
+   "social_pm": "47.19"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-56980",
+  "th": "พอได้",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "「พอได้ๆ」は会話で頻出。字幕も多い",
+  "note": "回数には「พอได้แล้ว（もういい）」も混ざる。上げ幅はまあまあの語義の実感による",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "44.92",
+   "social_pm": "35.39"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-57009",
+  "th": "ตายแน่",
+  "from": 3,
+  "to": 4,
+  "style": "口語",
+  "reason": "会話の決まった言い方で字幕にも多い",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "35.1",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-57021",
+  "th": "จบกัน",
+  "from": 2,
+  "to": 4,
+  "style": "口語",
+  "reason": "「จบกัน」は会話でよく使う。字幕・SNSにも出る",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "12.71",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-57035",
+  "th": "หลอกใช้",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "ドラマ・会話でよく聞く語。字幕も中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "12.33",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-57037",
+  "th": "คนพิเศษ",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "恋愛の話題でよく使う。字幕も中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "11.54",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-57040",
+  "th": "พวกแก",
+  "from": 3,
+  "to": 6,
+  "style": "口語",
+  "reason": "友人間の会話・チャットで頻出。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "67.15",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-57041",
+  "th": "อย่ามายุ่ง",
+  "from": 3,
+  "to": 4,
+  "style": "口語",
+  "reason": "会話の決まった言い方。字幕も中程度",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "17.71",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-57054",
+  "th": "ให้เกียรติ",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "日常・式典ともによく使う。字幕・SNSに出る",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "13.05",
+   "social_pm": "13.76"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-57093",
+  "th": "แยกกัน",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "「แยกกัน」は日常会話で多い。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "21.86",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-57147",
+  "th": "จัดให้",
+  "from": 3,
+  "to": 5,
+  "style": "口語",
+  "reason": "引き受ける返事として会話・SNSで頻出",
+  "note": "回数には「手配する」の用法も混ざる。SNSの多さは返事の用法による",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "14.71",
+   "social_pm": "76.68"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-57492",
+  "th": "ซัมเมอร์",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "学生がよく使う語。字幕・SNSに出る",
+  "note": "回数は季節の「夏」や人名にも混ざる",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "17.22",
+   "social_pm": "39.32"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-57757",
+  "th": "ไอ้หนู",
+  "from": 2,
+  "to": 4,
+  "style": "口語",
+  "reason": "子どもへの呼びかけとして日常的。字幕も多い",
+  "note": "字幕は呼びかけで多めに出るが、タイの日常でも大人が普通に使う",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "34.73",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58228",
+  "th": "ดีเจ",
+  "from": 1,
+  "to": 4,
+  "style": "",
+  "reason": "「ดีเจ」は一般によく知られ、SNSで多い",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "7.53",
+   "social_pm": "133.7"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58388",
+  "th": "ก่อกวน",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "ニュース・会話で使う。字幕も中程度",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "7.99",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58488",
+  "th": "ที่แล้ว",
+  "from": 6,
+  "to": 8,
+  "style": "",
+  "reason": "「อาทิตย์ที่แล้ว・ปีที่แล้ว」など毎日使う。字幕・SNSとも多い",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "185.49",
+   "social_pm": "108.14"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58489",
+  "th": "ไปหมด",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "会話で頻出。字幕・SNSとも多い",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "107.23",
+   "social_pm": "119.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58503",
+  "th": "อย่างกับ",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "たとえの言い方として会話で多い。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "47.36",
+   "social_pm": "27.53"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58522",
+  "th": "ไม่เห็นจะ",
+  "from": 3,
+  "to": 5,
+  "style": "口語",
+  "reason": "会話でよく使う言い方。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "23.44",
+   "social_pm": "9.83"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58535",
+  "th": "ได้เวลา",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "「ได้เวลา…แล้ว」は日常で頻出。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "57.63",
+   "social_pm": "11.8"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58543",
+  "th": "อย่างดี",
+  "from": 3,
+  "to": 6,
+  "style": "",
+  "reason": "「อย่างดี」は日常・広告でよく使う。字幕・SNSとも多い",
+  "note": "「เป็นอย่างดี」の用法も回数に混ざる",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "59.04",
+   "social_pm": "47.19"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58562",
+  "th": "ยุ่งๆ",
+  "from": 3,
+  "to": 5,
+  "style": "口語",
+  "reason": "「ช่วงนี้ยุ่งๆ」など会話でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.9",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58564",
+  "th": "ปกติดี",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "日常でよく使う言い方。字幕も中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "13.08",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58568",
+  "th": "น่าอร่อย",
+  "from": 2,
+  "to": 5,
+  "style": "",
+  "reason": "食べ物の話で日常的に使う（字幕では少なめに出る）",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "8.29",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58570",
+  "th": "น่าสนุก",
+  "from": 2,
+  "to": 5,
+  "style": "",
+  "reason": "日常的な言い方。字幕も中程度",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "15.2",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58574",
+  "th": "มีความสามารถ",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "よく使う言い方。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "34.53",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58575",
+  "th": "มีความหมาย",
+  "from": 3,
+  "to": 6,
+  "style": "",
+  "reason": "日常でよく使う。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "63.62",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58577",
+  "th": "มีสติ",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "「มีสติหน่อย」など日常的。字幕・SNSに出る",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "15.0",
+   "social_pm": "13.76"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58596",
+  "th": "ตัวคนเดียว",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "「อยู่ตัวคนเดียว」など日常で使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "10.09",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58598",
+  "th": "ไปมา",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "「เดินไปมา・ไปๆมาๆ」など日常的。字幕・SNSに出る",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "26.32",
+   "social_pm": "53.09"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58603",
+  "th": "เข้าที่",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "「เข้าที่เข้าทาง」など日常で使う",
+  "note": "「เข้าที่เข้าทาง」の形が多い",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "13.07",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58795",
+  "th": "โรงเรียนมัธยม",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "学校の話でよく使う語。字幕も中程度",
+  "note": "",
+  "evidence": {
+   "subs": "4",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "9.94",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58805",
+  "th": "ห้องทำงาน",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "日常的な語。字幕も中程度",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "16.46",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58822",
+  "th": "คิดว่า",
+  "from": 7,
+  "to": 10,
+  "style": "",
+  "reason": "会話の中心語。字幕・SNSとも非常に多い",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "2006.36",
+   "social_pm": "357.83"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58825",
+  "th": "อันนี้",
+  "from": 7,
+  "to": 9,
+  "style": "",
+  "reason": "物を指して毎日使う。SNSで非常に多い",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "76.06",
+   "social_pm": "365.7"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58834",
+  "th": "แค่ไหน",
+  "from": 6,
+  "to": 8,
+  "style": "",
+  "reason": "程度を尋ねる言い方として頻出。字幕も非常に多い",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "256.56",
+   "social_pm": "129.76"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58841",
+  "th": "อย่าเพิ่ง",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "「อย่าเพิ่ง」は会話で頻出。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "50.85",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58844",
+  "th": "ที่สำคัญ",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "話し言葉・書き言葉ともによく使う。字幕・SNSとも多い",
+  "note": "回数には関係節の「重要な〜」も混ざる",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "89.94",
+   "social_pm": "100.27"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58845",
+  "th": "ได้ไง",
+  "from": 4,
+  "to": 7,
+  "style": "口語",
+  "reason": "会話で頻出。字幕・SNSとも多い",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "156.38",
+   "social_pm": "100.27"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58846",
+  "th": "จะได้",
+  "from": 6,
+  "to": 8,
+  "style": "",
+  "reason": "目的を表す言い方として毎日使う。字幕・SNSとも非常に多い",
+  "note": "回数には「〜を得るだろう」も混ざるため9ではなく8",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "542.35",
+   "social_pm": "497.43"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58861",
+  "th": "ถึงว่า",
+  "from": 3,
+  "to": 5,
+  "style": "口語",
+  "reason": "納得の言い方として会話でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "29.63",
+   "social_pm": "11.8"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58870",
+  "th": "ว่ามา",
+  "from": 2,
+  "to": 4,
+  "style": "口語",
+  "reason": "用件を促す決まった言い方。字幕・SNSとも中程度",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "30.76",
+   "social_pm": "29.49"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58898",
+  "th": "สินะ",
+  "from": 2,
+  "to": 5,
+  "style": "口語",
+  "reason": "会話の文末で使う。字幕・SNSとも多い",
+  "note": "字幕は翻訳調（アニメ等）で多めに出ている",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "179.07",
+   "social_pm": "29.49"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58906",
+  "th": "ไม่เห็นต้อง",
+  "from": 3,
+  "to": 4,
+  "style": "口語",
+  "reason": "「ไม่เห็นต้อง…เลย」は会話でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "11.35",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58911",
+  "th": "คอยดู",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "「คอยดูนะ」など会話でよく使う。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "37.18",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58916",
+  "th": "ไม่ทราบว่า",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "丁寧な質問の前置きとして接客などで多い",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "26.13",
+   "social_pm": "33.42"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58921",
+  "th": "ขนาดไหน",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "程度を尋ねる言い方として会話でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "43.05",
+   "social_pm": "37.36"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58922",
+  "th": "ใครบอก",
+  "from": 3,
+  "to": 5,
+  "style": "口語",
+  "reason": "反論の決まった言い方として会話でよく使う",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "32.39",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58941",
+  "th": "ไม่ใช่เรื่อง",
+  "from": 2,
+  "to": 4,
+  "style": "口語",
+  "reason": "非難の言い方として会話でよく使う",
+  "note": "回数には「ไม่ใช่เรื่องของ…（〜には関係ない）」が多く混ざる",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "81.24",
+   "social_pm": "21.63"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58969",
+  "th": "นี่นา",
+  "from": 2,
+  "to": 4,
+  "style": "口語",
+  "reason": "会話の文末で使う。字幕も多い",
+  "note": "字幕は翻訳調で多めに出ている",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "75.48",
+   "social_pm": "11.8"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58970",
+  "th": "ล่ะสิ",
+  "from": 2,
+  "to": 4,
+  "style": "口語",
+  "reason": "会話の文末で使う。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "40.66",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-58998",
+  "th": "ทำไมจะไม่",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "「ทำไมจะไม่ได้」など会話で使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "13.57",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59103",
+  "th": "ที่บ้าน",
+  "from": 5,
+  "to": 8,
+  "style": "",
+  "reason": "毎日のように使う言い方。字幕・SNSとも非常に多い",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "184.43",
+   "social_pm": "163.19"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59107",
+  "th": "คนดี",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "日常でよく使う。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "84.94",
+   "social_pm": "33.42"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59114",
+  "th": "ช่วงเวลา",
+  "from": 5,
+  "to": 7,
+  "style": "",
+  "reason": "日常・書き言葉ともによく使う。字幕・SNSとも多い",
+  "note": "",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "91.45",
+   "social_pm": "62.92"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59122",
+  "th": "คนเก่ง",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "ほめ言葉として日常で使う。SNSにも出る",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "12.31",
+   "social_pm": "17.7"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59131",
+  "th": "เพื่อนเก่า",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "日常的な語。字幕も中程度",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "15.42",
+   "social_pm": "0.0"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59133",
+  "th": "เพื่อนรัก",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "日常的な語。字幕・SNSに出る",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "20.48",
+   "social_pm": "15.73"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59138",
+  "th": "พวกนี้",
+  "from": 4,
+  "to": 8,
+  "style": "",
+  "reason": "会話で頻出。字幕・SNSとも非常に多い",
+  "note": "",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "329.6",
+   "social_pm": "98.31"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59139",
+  "th": "พวกนั้น",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "会話で頻出。字幕も非常に多い",
+  "note": "字幕は「あいつら」の翻訳で多めに出る",
+  "evidence": {
+   "subs": "10",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "386.68",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59150",
+  "th": "ทั้งชีวิต",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "日常で使う言い方。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "22.65",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59158",
+  "th": "เดือนก่อน",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "日常会話で普通に使う",
+  "note": "อาทิตย์ก่อน と一緒に動かす（時の語の仲間）",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "18.35",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59159",
+  "th": "อาทิตย์ก่อน",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "日常会話で普通に使う",
+  "note": "เดือนก่อน と一緒に動かす（時の語の仲間）",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "11.57",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59160",
+  "th": "ครั้งต่อไป",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "日常的な言い方。字幕も中程度",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "14.31",
+   "social_pm": "9.83"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59168",
+  "th": "คนดู",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "日常的な語。字幕も中程度",
+  "note": "",
+  "evidence": {
+   "subs": "6",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "16.33",
+   "social_pm": "5.9"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59169",
+  "th": "เรื่องตลก",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "日常でよく使う。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "7",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "26.0",
+   "social_pm": "1.97"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59274",
+  "th": "ขึ้นไป",
+  "from": 4,
+  "to": 7,
+  "style": "",
+  "reason": "「18ปีขึ้นไป」など日常・掲示で頻出。字幕・SNSとも多い",
+  "note": "回数には方向の「上がって行く」も混ざる。「〜以上」の用法も掲示・規定で非常に多い",
+  "evidence": {
+   "subs": "9",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "102.32",
+   "social_pm": "165.15"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59494",
+  "th": "หันมา",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "「หันมาใช้…」など日常・ニュースでよく使う。SNSに多い",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "13.91",
+   "social_pm": "64.88"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59510",
+  "th": "ขวางทาง",
+  "from": 2,
+  "to": 4,
+  "style": "",
+  "reason": "日常で使う語。字幕も中程度",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "12.7",
+   "social_pm": "3.93"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59528",
+  "th": "จับได้",
+  "from": 3,
+  "to": 5,
+  "style": "",
+  "reason": "日常でよく使う。字幕も多い",
+  "note": "",
+  "evidence": {
+   "subs": "8",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "53.51",
+   "social_pm": "7.86"
+  },
+  "basis": "editorial"
+ },
+ {
+  "id": "tl-59555",
+  "th": "ให้อาหาร",
+  "from": 3,
+  "to": 4,
+  "style": "",
+  "reason": "日常や掲示（ห้ามให้อาหาร）で使う",
+  "note": "",
+  "evidence": {
+   "subs": "5",
+   "web": "0",
+   "written": "0",
+   "subs_pm": "11.3",
+   "social_pm": "13.76"
+  },
+  "basis": "editorial"
+ }
+]

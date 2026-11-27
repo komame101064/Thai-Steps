@@ -69,6 +69,17 @@ def apply(only=None):
         if all('literary' in (m.get('registerTags') or []) for m in w['meanings']) and (not w.get('speechStyle') or w['speechStyle'].startswith('標準') or w['speechStyle']=='改まった表現'):
             w['speechStyle']='文語'
             if 'literary' not in w.setdefault('tags',[]):w['tags'].append('literary')
+    # Words used mainly in casual speech (scripts/usage-review/colloquial-extra.json, usage review 2026-11-27): shown as 口語.
+    # Only entries whose senses are all standard are relabelled, so a word with a formal or written sense keeps it.
+    CX=P/'scripts/usage-review/colloquial-extra.json'
+    for i,x in (json.loads(CX.read_text()) if CX.exists() else {}).items():
+        w=by.get(i)
+        if not w or not all((m.get('speechStyle') or '標準').startswith('標準') for m in w['meanings']):continue
+        for m in w['meanings']:
+            m['speechStyle']='口語';tags=m.setdefault('registerTags',[])
+            if 'colloquial' not in tags:tags.append('colloquial')
+        w['speechStyle']='口語';stat['colloquial']=stat.get('colloquial',0)+1
+        if isinstance(w.get('formality'),int) and w['formality']>=5:w['formality']=3
     # Slang deck review (scripts/slang-review/results-*.json): category and frequency judged for everyday native use.
     for f in sorted((P/'scripts/slang-review').glob('results-*.json')):
         for x in json.loads(f.read_text()):
