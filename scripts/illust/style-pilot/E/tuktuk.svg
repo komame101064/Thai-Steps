@@ -27,10 +27,10 @@
 <ellipse cx="86" cy="139" rx="64" ry="4.5" fill="#cfe3bd"/>
 <g filter="url(#f)">
 <!-- motion + exhaust -->
-<g class="t" style="stroke-width:1.8"><path d="M146 80h7M148 92h5M8 66h7M6 78h8"/></g>
+<g class="t" style="stroke-width:1.8"><path d="M146 80h8M148 92h6M150 104h4"/></g>
 <g fill="#e6e1d8" stroke="#3d2c26" stroke-width="1.5"><circle cx="150" cy="122" r="3.6"/><circle cx="153" cy="114" r="2.4"/></g>
 <!-- far rear wheel -->
-<g transform="translate(108 124)"><use xlink:href="#wheel" fill="#2a1e1a"/><use xlink:href="#wheel" class="l"/></g>
+<g transform="translate(103 123)"><use xlink:href="#wheel" fill="#2a1e1a"/><use xlink:href="#wheel" class="l"/></g>
 <!-- rear pillar, cushion -->
 <path d="M146 50v24" stroke="#3d2c26" stroke-width="5.4" stroke-linecap="round"/><path d="M146 50v24" stroke="#d7dde3" stroke-width="2.2"/>
 <use xlink:href="#cush" class="o" fill="#45a866"/><path class="t" d="M130 72c4-2 10-2 14 0M129 80c4-2 10-2 15 0"/><use xlink:href="#cush" class="l"/>
@@ -62,7 +62,7 @@
 <g transform="translate(122 126)"><use xlink:href="#wheel" fill="#3a2a24"/><use xlink:href="#wheel" class="l"/><circle r="5" fill="#d7dde3" stroke="#3d2c26" stroke-width="1.6"/><path class="t" d="M-2 0h4"/></g>
 <!-- front: fork, wheel, guard, cowl -->
 <path d="M36 126 L48 96" stroke="#3d2c26" stroke-width="5.4" stroke-linecap="round"/><path d="M36 126 L48 96" stroke="#d7dde3" stroke-width="2.4" stroke-linecap="round"/>
-<g transform="translate(36 126)"><use xlink:href="#wheel" fill="#3a2a24" transform="scale(.9)"/><use xlink:href="#wheel" class="l" transform="scale(.9)"/><circle r="4.4" fill="#d7dde3" stroke="#3d2c26" stroke-width="1.6"/></g>
+<g transform="translate(36 126)"><use xlink:href="#wheel" fill="#3a2a24"/><use xlink:href="#wheel" class="l"/><circle r="4.4" fill="#d7dde3" stroke="#3d2c26" stroke-width="1.6"/></g>
 <use xlink:href="#guard" class="o" fill="#f0563f"/><use xlink:href="#guard" class="t"/>
 <use xlink:href="#cowl" class="o" fill="#f0563f"/>
 <path d="M28 100 C28 104 29 108 30 112 L56 112 L55 104Z" fill="#ffc93c"/>

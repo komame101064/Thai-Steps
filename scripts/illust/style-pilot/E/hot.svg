@@ -21,7 +21,7 @@
 </defs>
 <circle cx="88" cy="88" r="66" fill="#ffe1bd"/>
 <g filter="url(#f)">
-<!-- sun -->
+<!-- sun --><g transform="translate(4 5)">
 <use xlink:href="#rays" class="o" fill="#ff9a3d"/><use xlink:href="#rays" class="t"/>
 <use xlink:href="#sun" class="o" fill="#ffc93c"/>
 <path d="M18 36c4 8 14 12 22 9 4-2 7-5 8-9-2 9-10 12-17 12-6 0-11-5-13-12z" fill="#ff9a3d"/>
@@ -29,12 +29,12 @@
 <path d="M20 26h9c1 6-8 6-9 0zM33 26h9c1 6-8 6-9 0z" fill="#3a2a24" stroke="#3d2c26" stroke-width="1.4" stroke-linejoin="round"/><path class="t" d="M29 27h4"/>
 <path d="M23 37c4 4 12 4 16 0" style="stroke-width:1.8" class="t"/>
 <path d="M22 27l3-1M35 27l3-1" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/>
+</g>
 <!-- heat waves -->
-<g fill="none" stroke="#f0563f" stroke-width="2" stroke-linecap="round"><path d="M50 52c3 2 3 5 6 6s5 0 6 3M46 62c3 2 3 5 6 6s5 0 6 3"/></g>
 <g fill="none" stroke="#ff9a3d" stroke-width="2" stroke-linecap="round"><path d="M18 150c4-3 8 3 12 0s8 3 12 0M118 150c4-3 8 3 12 0s8 3 12 0M56 154c4-3 8 3 12 0"/></g>
 <!-- legs -->
 <path d="M81 126l-2 18M103 126l2 18" stroke="#3d2c26" stroke-width="9.4" stroke-linecap="round"/>
-<path d="M81 126l-2 18M103 126l2 18" stroke="#e2a377" stroke-width="5.2" stroke-linecap="round" class="o"/>
+<path d="M81 126l-2 18M103 126l2 18" stroke="#f3b38f" stroke-width="5.2" stroke-linecap="round" class="o"/>
 <path d="M70 147c0-4 14-4 14 0 0 2-14 2-14 0zM100 147c0-4 14-4 14 0 0 2-14 2-14 0z" fill="#f0563f" stroke="#3d2c26" stroke-width="1.6"/>
 <!-- shorts -->
 <use xlink:href="#shorts" class="o" fill="#45aee0"/><path d="M104 112l9-3 3 18-8 1z" fill="#2f8ec4"/><use xlink:href="#shorts" class="l"/>
@@ -47,26 +47,27 @@
 <path class="t" d="M86 74c3 4 9 4 12 0"/>
 <!-- left arm with fan -->
 <path d="M108 80 L124 94 L132 74" fill="none" stroke="#3d2c26" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M108 80 L124 94 L132 74" fill="none" stroke="#e2a377" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" class="o"/>
+<path d="M108 80 L124 94 L132 74" fill="none" stroke="#f3b38f" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" class="o"/>
 <path d="M104 76c6-4 13-1 14 5l-6 4c-1-4-4-6-8-6z" fill="#ffc93c" stroke="#3d2c26" stroke-width="2" stroke-linejoin="round"/>
 <path d="M132 76 L136 62" stroke="#3d2c26" stroke-width="4" stroke-linecap="round"/><path d="M132 76 L136 62" stroke="#c98a4b" stroke-width="1.8" stroke-linecap="round"/>
-<use xlink:href="#fan" class="o" fill="#f0563f"/>
-<g fill="#ffc93c"><circle cx="138" cy="50" r="4"/><circle cx="146" cy="58" r="2.6"/><circle cx="131" cy="59" r="2.6"/></g>
-<path d="M136 62l2-20M136 62l10-14M136 62l-8-14" stroke="#ffd9a8" stroke-width="1.2" fill="none"/>
+<use xlink:href="#fan" class="o" fill="#fff3dc"/><path d="M128 70 C120 60 124 42 138 38 C152 36 158 52 150 62 C144 70 134 74 128 70Z" fill="none" stroke="#f0563f" stroke-width="3.4" class="o"/>
+<circle cx="140" cy="52" r="6" fill="#f0563f"/>
+<path d="M136 64l2-24M136 64l11-18M136 64l15-8M136 64l-9-18M136 64l-12-8" stroke="#3d2c26" stroke-width="1" fill="none"/>
 <use xlink:href="#fan" class="l"/>
 <g style="stroke-width:1.8" class="t"><path d="M154 40c4 6 4 14 0 20M120 38c-2-4-1-8 2-11"/></g>
-<path d="M128 78c-3-3-2-8 2-9 4 0 6 3 5 7-1 3-4 4-7 2z" fill="#e2a377" stroke="#3d2c26" stroke-width="2"/>
+<path d="M128 78c-3-3-2-8 2-9 4 0 6 3 5 7-1 3-4 4-7 2z" fill="#f3b38f" stroke="#3d2c26" stroke-width="2"/>
 <!-- head -->
-<path d="M71 56c-4-1-5 6 0 7M113 56c4-1 5 6 0 7" fill="#e2a377" stroke="#3d2c26" stroke-width="2"/>
+<path d="M71 56c-4-1-5 6 0 7M113 56c4-1 5 6 0 7" fill="#e89f7c" stroke="#3d2c26" stroke-width="2"/>
 <use xlink:href="#face" class="o" fill="#f3b38f"/>
 <path d="M76 40c8-6 24-6 32 2v8c-10-4-22-4-32 0z" fill="#f0563f" opacity=".5"/>
 <ellipse cx="80" cy="60" rx="6" ry="4" fill="#f0563f" opacity=".75"/><ellipse cx="104" cy="60" rx="6" ry="4" fill="#f0563f" opacity=".75"/>
-<use xlink:href="#face" class="l"/>
+<use xlink:href="#face" class="l g"/>
 <use xlink:href="#hair" class="o" fill="#3a2a24"/><use xlink:href="#hair" class="l"/>
 <!-- face details -->
 <path style="stroke-width:2.4" class="l" d="M80 50l6 3-6 3M104 50l-6 3 6 3"/>
 <path class="t" d="M78 45l7 2M106 45l-7 2"/>
 <use xlink:href="#mouth" class="o" fill="#c23a3a"/><path d="M88 67c1 4 7 6 8 1-2-2-6-2-8-1z" fill="#ff8a9b"/><use xlink:href="#mouth" class="t"/>
+<path d="M91 56c2 1 3 3 0 5" class="t" style="stroke-width:1.7"/>
 <!-- right arm with towel on forehead -->
 <path d="M77 80 L58 66 L74 44" fill="none" stroke="#3d2c26" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M77 80 L58 66 L74 44" fill="none" stroke="#f3b38f" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" class="o"/>
@@ -80,6 +81,6 @@
 <path d="M116 32c3 3 5 6 3 8-2 2-5 0-4-3z"/><path d="M118 46c3 2 6 4 4 7-2 2-5 0-5-3z"/><path d="M62 30c-3 2-5 5-3 7 2 2 5 0 4-3z"/>
 <path d="M108 64c1 3 2 5 0 6-2 1-3-1-2-3z"/><path d="M76 66c-1 3-2 5 0 6 2 1 3-1 2-3z"/><path d="M98 24c2-3 2-6 0-7-2 0-3 3-1 5z"/>
 </g>
-<g style="stroke:#1d6f9e" class="t"><path d="M122 36l5-2M124 50l5 0M58 36l-5-1M100 18l1-5"/></g>
+<g style="stroke:#1d6f9e" class="t"><path d="M122 36l5-2M124 50l5 0M58 36l-5-1"/></g>
 </g>
 </svg>

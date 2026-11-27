@@ -14,7 +14,7 @@
 <path id="bang" d="M59 46 C58 33 68 26 80 26 C93 26 102 33 101 46 C97 41 93 39 89 43 C85 38 79 37 75 41 C70 38 64 40 59 46Z"/>
 <path id="mouth" d="M73 60 C73 57 87 57 87 60 C87 67 83 70 80 70 C77 70 73 67 73 60Z"/>
 <path id="torso" d="M56 80 C64 74 96 74 104 80 C112 86 114 100 115 116 L45 116 C46 100 48 86 56 80Z"/>
-<path id="table" d="M12 110 L148 110 L156 152 L4 152Z"/>
+<path id="table" d="M14 110 L146 110 L152 146 L8 146Z"/>
 <path id="plate" d="M38 128 C38 116 122 116 122 128 C122 140 38 140 38 128Z"/>
 <path id="rice" d="M50 126 C50 110 62 103 78 104 C94 103 108 110 108 126 C96 131 62 131 50 126Z"/>
 <path id="egg" d="M68 110 C64 105 71 101 78 103 C85 100 92 105 89 110 C88 114 70 115 68 110Z"/>
@@ -54,8 +54,8 @@
 <!-- joy marks -->
 <g style="stroke:#f0563f" class="t"><path d="M50 30l-6-4M48 38l-7-1M110 30l6-4M112 38l7-1"/></g>
 <!-- table -->
-<use xlink:href="#table" class="o" fill="#ff9a3d"/>
-<path d="M8 140 L152 140 L156 152 L4 152Z" fill="#e07a24"/><g fill="none" stroke="#e07a24" stroke-width="1.6" stroke-linecap="round"><path d="M18 118h20M124 122h18M14 132h16M132 134h14"/></g>
+<use xlink:href="#table" class="o" fill="#ffb867"/>
+<path d="M9 140 L151 140 L152 146 L8 146Z" fill="#e8893a"/><g fill="none" stroke="#e8893a" stroke-width="1.6" stroke-linecap="round"><path d="M18 118h20M124 122h18M14 132h16M132 134h14"/></g>
 
 <use xlink:href="#table" class="l"/>
 <!-- glass of thai tea -->
