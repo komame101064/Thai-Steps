@@ -293,3 +293,15 @@ html body #main .w-related-more>.w-related{margin-top:4px}
  html body #nav .navbtn span:not(.count){font-size:11px;letter-spacing:0;white-space:nowrap}
  html body #nav .navbtn .count{font-size:12px;line-height:15px;height:19px;min-width:19px;right:calc(50% - 26px);color:var(--t-ink);font-weight:700}
 }
+/* 文字から声調を決めるしくみ: one card per consonant class, condition → tone (the 7-column table did not fit a phone). */
+.ex-tone-rules{display:grid;gap:10px;margin:10px 0 12px}
+@media(min-width:760px){.ex-tone-rules{grid-template-columns:repeat(3,1fr)}}
+.ex-tr-card{border:1px solid var(--t-line);border-radius:12px;background:var(--t-surface);padding:12px 14px}
+.ex-tr-card h3{margin:0 0 6px;font-size:15px;color:var(--t-ink);display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.ex-tr-card h3 small{font-size:13px;font-weight:400;color:var(--t-sub)}
+.ex-tr-card dl{margin:0}
+.ex-tr-card dl>div{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:4px 0;border-top:1px solid var(--t-line)}
+.ex-tr-card dt{font-size:13px;color:var(--t-text)}
+.ex-tr-card dd{margin:0;font-size:15px;font-weight:700;color:var(--t-green);text-align:right}
+.ex-tr-card .ex-mark{display:inline-block;min-width:1.6em;margin-right:4px;font-size:18px;line-height:1.3;color:var(--t-ink)}
+.ex-tr-note{margin:6px 0 0;font-size:13px;color:var(--t-sub)}
