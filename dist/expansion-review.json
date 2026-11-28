@@ -233,15 +233,25 @@
       "acceptedAsWritten": 7,
       "fixedByReviewer": 4,
       "consistencyFlags": 0
+    },
+    {
+      "batch": "editorial-021",
+      "candidates": 49,
+      "published": 47,
+      "acceptedAsWritten": 34,
+      "skippedByAuthor": 1,
+      "fixedByReviewer": 13,
+      "rejectedByReviewer": 1,
+      "consistencyFlags": 0
     }
   ],
   "frequency": {
     "method": "追加の一般語はコーパス出現数（Phupha・TNC）を基本語5,000語の会話頻度の目盛りに合わせて推定。書き言葉寄りの語・結合形は上限あり。複合語は構成語より高くしない。基本語とスラングは変更なし。",
-    "corpus": 4733,
+    "corpus": 4736,
     "reviewedByHand": 32,
     "setForClosedSet": 12,
     "textbookFallback": 136,
-    "editorialFallback": 7048,
+    "editorialFallback": 7092,
     "thresholds": {
       "phupha": [
         3.946,
@@ -267,8 +277,8 @@
       ]
     }
   },
-  "published": 12686,
-  "general": 11917,
+  "published": 12733,
+  "general": 11964,
   "slang": 769,
-  "senses": 13665
+  "senses": 13712
 }

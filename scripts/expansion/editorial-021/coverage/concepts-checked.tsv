@@ -1,0 +1,1984 @@
+domain	ja	th	en	covered	match_type	matched	sense_check
+numbers	0|ゼロ|零	ศูนย์	zero	yes	th-main	tl-00854	
+numbers	1|一	หนึ่ง	one	yes	th-main	tl-00079	
+numbers	2|二	สอง	two	yes	th-main	tl-00118	
+numbers	3|三	สาม	three	yes	th-main	tl-00213	
+numbers	4|四	สี่	four	yes	th-main	tl-00402	
+numbers	5|五	ห้า	five	yes	th-main	tl-00419	
+numbers	6|六	หก	six	yes	th-main	tl-00661	
+numbers	7|七	เจ็ด	seven	yes	th-main	tl-00873	
+numbers	8|八	แปด	eight	yes	th-main	tl-00894	
+numbers	9|九	เก้า	nine	yes	th-main	tl-00967	
+numbers	10|十	สิบ	ten	yes	th-main	tl-00417	
+numbers	11|十一	สิบเอ็ด	eleven	yes	th-main	tl-01115	
+numbers	12|十二	สิบสอง	twelve	yes	th-main	tl-04181	
+numbers	13|十三	สิบสาม	thirteen	no			
+numbers	14|十四	สิบสี่	fourteen	no			
+numbers	15|十五	สิบห้า	fifteen	no			
+numbers	16|十六	สิบหก	sixteen	no			
+numbers	17|十七	สิบเจ็ด	seventeen	no			
+numbers	18|十八	สิบแปด	eighteen	no			
+numbers	19|十九	สิบเก้า	nineteen	no			
+numbers	20|二十	ยี่สิบ	twenty	yes	th-main	tl-01039	
+numbers	21|二十一	ยี่สิบเอ็ด	twenty-one	no			
+numbers	30|三十	สามสิบ	thirty	yes	th-main	tl-03092	
+numbers	40|四十	สี่สิบ	forty	no			
+numbers	50|五十	ห้าสิบ	fifty	no			
+numbers	60|六十	หกสิบ	sixty	no			
+numbers	70|七十	เจ็ดสิบ	seventy	no			
+numbers	80|八十	แปดสิบ	eighty	no			
+numbers	90|九十	เก้าสิบ	ninety	no			
+numbers	100|百	ร้อย|หนึ่งร้อย	hundred	yes	th-main	tl-00669	
+numbers	200|二百	สองร้อย	two hundred	no			
+numbers	500|五百	ห้าร้อย	five hundred	no			
+numbers	1000|千	พัน|หนึ่งพัน	thousand	yes	th-main	tl-00729	check: 1,000/巻く・絡む
+numbers	2000|二千	สองพัน	two thousand	no			
+numbers	10000|一万|万	หมื่น|หนึ่งหมื่น	ten thousand	yes	th-main	tl-01002	check: 10,000
+numbers	100000|十万	แสน|หนึ่งแสน	hundred thousand	yes	th-main	tl-00647	check: 非常に・とても/100,000
+numbers	100万|百万	ล้าน|หนึ่งล้าน	million	yes	th-main	tl-00676	check: 1,000,000/頭髪がない・はげている
+numbers	1000万|千万	สิบล้าน	ten million	no			
+numbers	1億|億	ร้อยล้าน	hundred million	no			
+numbers	10億	พันล้าน	billion	yes	th-main	tl-04035	
+numbers	半分|半	ครึ่ง	half	yes	th-main	tl-00598	
+numbers	4分の1	หนึ่งในสี่	quarter	excluded	hand:transparent (หนึ่ง+ใน+สี่)		
+numbers	倍|〜倍	เท่า	times (multiple)	yes	th-main	tl-00343	
+numbers	パーセント|％	เปอร์เซ็นต์	percent	yes	th-main	tl-01706	
+numbers	小数点|点	จุด	point (decimal)	yes	th-main	tl-01170	
+numbers	数字	ตัวเลข	numeral	yes	th-main	tl-01705	
+numbers	番号	หมายเลข|เบอร์	number (identifier)	yes	th-main	tl-01515	
+numbers	数|数量	จำนวน	quantity	yes	th-main	tl-01179	
+numbers	第一|一番目|1番目	ที่หนึ่ง	first	no			
+numbers	第二|二番目|2番目	ที่สอง	second	no			
+numbers	三番目|3番目	ที่สาม	third	no			
+numbers	最初|最初の|初め	แรก|ครั้งแรก	first (initial)	yes	th-main	tl-00231	
+numbers	最後|最後の	สุดท้าย	last	yes	th-main	tl-00310	
+numbers	〜番目|第〜	ที่	ordinal marker	yes	th-main	tl-00002	
+numbers	1回目	ครั้งแรก	first time	yes	th-main	tl-00441	check: 初めて・最初の一回
+numbers	偶数	เลขคู่	even number	yes	hand	tl-00530:คู่	
+numbers	奇数	เลขคี่	odd number	no			
+numbers	足す|足し算	บวก	plus	yes	th-main	tl-01953	
+numbers	引く|引き算	ลบ	minus	yes	th-main	tl-01441	
+numbers	掛ける|掛け算	คูณ	multiply	yes	th-main	tl-03763	
+numbers	割る|割り算	หาร	divide	yes	th-main	tl-04695	
+numbers	数える	นับ	count	yes	th-main	tl-00559	
+numbers	およそ|約	ประมาณ	about	yes	th-main	tl-00457	
+numbers	いくつ	กี่	how many	yes	th-main	tl-00570	
+numbers	1つ|ひとつ	อันหนึ่ง|หนึ่งอัน	one item	excluded	hand:transparent		
+numbers	ペア|組	คู่	pair	yes	th-main	tl-00530	
+numbers	ダース	โหล	dozen	yes	th-main	tl-02072	
+time	時間	เวลา	time	yes	th-main	tl-00094	
+time	〜時間	ชั่วโมง	hour	yes	th-main	tl-00420	
+time	分|〜分	นาที	minute	yes	th-main	tl-00395	
+time	秒	วินาที	second	yes	th-main	tl-00920	
+time	日|〜日	วัน	day	yes	th-main	tl-00112	
+time	週|〜週間	สัปดาห์|อาทิตย์	week	yes	th-main	tl-00731	
+time	月|〜か月	เดือน	month	yes	th-main	tl-00295	
+time	年|〜年	ปี	year	yes	th-main	tl-00128	
+time	今日	วันนี้	today	yes	th-main	tl-00229	
+time	明日	พรุ่งนี้	tomorrow	yes	th-main	tl-00388	
+time	昨日	เมื่อวาน|เมื่อวานนี้	yesterday	yes	th-main	tl-00795	
+time	あさって|明後日	มะรืน|มะรืนนี้	day after tomorrow	yes	th-main	tl-01119	
+time	おととい|一昨日	เมื่อวานซืน	day before yesterday	yes	th-main	tl-51476	
+time	今週	สัปดาห์นี้|อาทิตย์นี้	this week	yes	th-alt	tl-01142	
+time	来週	สัปดาห์หน้า|อาทิตย์หน้า	next week	yes	th-main	tl-02172	
+time	先週	สัปดาห์ที่แล้ว|อาทิตย์ที่แล้ว	last week	yes	th-main	tl-51116	
+time	今月	เดือนนี้	this month	yes	th-main	tl-00502	
+time	来月	เดือนหน้า	next month	yes	th-main	tl-00503	
+time	先月	เดือนที่แล้ว	last month	yes	th-main	tl-00501	
+time	今年	ปีนี้	this year	yes	th-main	tl-00490	
+time	来年	ปีหน้า	next year	yes	th-main	tl-01054	
+time	去年|昨年	ปีที่แล้ว|ปีก่อน	last year	yes	th-main	tl-00489	
+time	毎日	ทุกวัน	every day	yes	th-main	tl-00747	
+time	毎週	ทุกสัปดาห์|ทุกอาทิตย์	every week	no			
+time	毎月	ทุกเดือน	every month	no			
+time	毎年	ทุกปี	every year	no			
+time	毎朝	ทุกเช้า	every morning	no			
+time	朝	เช้า|ตอนเช้า	morning	yes	th-main	tl-00521	
+time	昼|昼間	กลางวัน|ตอนกลางวัน	daytime	yes	th-main	tl-00992	
+time	正午|お昼	เที่ยง|เที่ยงวัน	noon	yes	th-main	tl-01015	
+time	午後	บ่าย|ตอนบ่าย	afternoon	yes	th-main	tl-00919	
+time	夕方	เย็น|ตอนเย็น	evening	yes	th-main	tl-00583	
+time	夜	กลางคืน|ตอนกลางคืน	night	yes	th-main	tl-00943	
+time	今夜|今晩	คืนนี้	tonight	yes	th-main	tl-00387	
+time	今朝	เช้านี้	this morning	yes	th-main	tl-51114	
+time	真夜中|夜中	เที่ยงคืน	midnight	yes	th-main	tl-01062	
+time	夜明け	รุ่งเช้า	dawn	yes	th-main	tl-42771	
+time	深夜|夜遅く	ดึก	late at night	yes	th-main	tl-00976	
+time	今	ตอนนี้|เดี๋ยวนี้	now	yes	th-main	tl-00116	
+time	さっき	เมื่อกี้|เมื่อกี้นี้	a moment ago	yes	th-main	tl-00893	
+time	あとで|後で	ทีหลัง|เดี๋ยว	later	yes	th-main	tl-00945	check: 後に/次回は
+time	すぐに|すぐ	ทันที|เดี๋ยวนี้	immediately	yes	th-main	tl-00413	
+time	もうすぐ	ใกล้แล้ว	soon	yes	gloss	tl-02351:อีกไม่นาน	
+time	最近	เร็วๆ นี้|ช่วงนี้|เมื่อเร็วๆ นี้	recently	yes	th-alt	tl-05172	
+time	将来|未来	อนาคต	future	yes	th-main	tl-00679	
+time	過去|昔	อดีต	past	yes	th-main	tl-00678	
+time	昔	สมัยก่อน|แต่ก่อน	long ago	yes	th-main	tl-02171	
+time	前|以前	ก่อน	before	yes	th-main	tl-00084	
+time	後|〜の後	หลัง|หลังจาก	after	yes	th-main	tl-00232	
+time	〜の間|間	ระหว่าง	during	yes	th-main	tl-00260	
+time	いつも	เสมอ|ตลอด	always	yes	th-main	tl-00352	
+time	時々|ときどき	บางครั้ง|บางที	sometimes	yes	th-main	tl-00765	
+time	よく|しばしば	บ่อย	often	yes	th-main	tl-00713	check: 頻繁に
+time	たまに	นานๆ ครั้ง	occasionally	yes	gloss	tl-05139:นานๆ	
+time	決して〜ない|全然	ไม่เคย	never	yes	th-main	tl-00512	check: 一度も〜したことがない
+time	まだ	ยัง	still/not yet	yes	th-main	tl-00060	
+time	もう|すでに	แล้ว	already	yes	th-main	tl-00011	
+time	早く|早い	เร็ว	early/fast	yes	th-main	tl-00163	
+time	遅い|遅く	สาย|ช้า	late/slow	yes	th-main	tl-00336	
+time	遅刻する|遅れる	มาสาย	be late	yes	th-main	tl-54117	
+time	時計	นาฬิกา	clock	yes	th-main	tl-00960	
+time	〜時|時	โมง	o'clock	yes	th-main	tl-00892	
+time	〜時半|半	ครึ่ง	half past	yes	th-main	tl-00598	
+time	週末	สุดสัปดาห์|เสาร์อาทิตย์	weekend	yes	th-main	tl-02010	
+time	平日	วันธรรมดา	weekday	yes	th-main	tl-02170	
+time	休日|休みの日	วันหยุด	holiday	yes	th-main	tl-01004	
+time	祝日	วันหยุดนักขัตฤกษ์	public holiday	yes	th-main	tl-51735	
+time	誕生日	วันเกิด	birthday	yes	th-main	tl-00773	
+time	記念日	วันครบรอบ	anniversary	yes	gloss	tl-02651:ครบรอบ	
+time	月曜日	วันจันทร์	Monday	yes	th-main	tl-01090	
+time	火曜日	วันอังคาร	Tuesday	yes	th-main	tl-01106	
+time	水曜日	วันพุธ	Wednesday	yes	th-main	tl-01113	
+time	木曜日	วันพฤหัสบดี|วันพฤหัส	Thursday	yes	th-main	tl-51112	
+time	金曜日	วันศุกร์	Friday	yes	th-main	tl-01071	
+time	土曜日	วันเสาร์	Saturday	yes	th-main	tl-01082	
+time	日曜日	วันอาทิตย์	Sunday	yes	th-main	tl-01052	
+time	曜日|何曜日	วันอะไร	day of week	yes	hand	tl-51982:วันนี้วันอะไร	
+time	1月	มกราคม|เดือนมกราคม	January	yes	th-main	tl-43735	
+time	2月	กุมภาพันธ์	February	yes	th-main	tl-44660	
+time	3月	มีนาคม	March	yes	th-main	tl-45324	
+time	4月	เมษายน	April	yes	th-main	tl-43978	
+time	5月	พฤษภาคม	May	yes	th-main	tl-44411	
+time	6月	มิถุนายน	June	yes	th-main	tl-43268	
+time	7月	กรกฎาคม	July	yes	th-main	tl-44211	
+time	8月	สิงหาคม	August	yes	th-main	tl-45537	
+time	9月	กันยายน	September	yes	th-main	tl-44455	
+time	10月	ตุลาคม	October	yes	th-main	tl-44560	
+time	11月	พฤศจิกายน	November	yes	th-main	tl-44045	
+time	12月	ธันวาคม	December	yes	th-main	tl-44282	
+calendar	カレンダー	ปฏิทิน	calendar	yes	th-main	tl-04937	
+calendar	日付	วันที่	date	yes	th-main	tl-05174	
+calendar	季節	ฤดู|หน้า	season	yes	th-main	tl-01036	
+calendar	春	ฤดูใบไม้ผลิ	spring	yes	th-main	tl-04576	
+calendar	夏	ฤดูร้อน|หน้าร้อน	summer	yes	th-main	tl-01903	
+calendar	秋	ฤดูใบไม้ร่วง	autumn	yes	gloss	tl-51464:ใบไม้ร่วง	
+calendar	冬	ฤดูหนาว|หน้าหนาว	winter	yes	th-main	tl-02037	
+calendar	雨季	ฤดูฝน|หน้าฝน	rainy season	yes	th-main	tl-51111	
+calendar	乾季	ฤดูแล้ง	dry season	yes	gloss	tl-50472:หน้าแล้ง	
+calendar	新年|正月	ปีใหม่	New Year	yes	th-main	tl-03376	
+calendar	ソンクラーン|タイ正月	สงกรานต์	Songkran	yes	th-main	tl-05214	
+calendar	ロイクラトン	ลอยกระทง	Loy Krathong	yes	th-main	tl-44705	
+calendar	仏暦	พุทธศักราช|พ.ศ.	Buddhist Era	yes	th-main	tl-43956	
+calendar	西暦	คริสต์ศักราช|ค.ศ.	AD	yes	th-alt	tl-51486	
+calendar	世紀	ศตวรรษ	century	yes	th-main	tl-02518	
+calendar	クリスマス	คริสต์มาส	Christmas	yes	th-main	tl-02342	
+calendar	祭り|フェスティバル	เทศกาล	festival	yes	th-main	tl-02788	
+calendar	年齢|歳	อายุ	age	yes	th-main	tl-00330	
+calendar	スケジュール|予定	ตารางเวลา|กำหนดการ	schedule	yes	th-main	tl-58771	check: 時刻表・タイムテーブル
+calendar	締め切り	กำหนดส่ง|เดดไลน์	deadline	yes	th-main	tl-53419	
+people	家族	ครอบครัว	family	yes	th-main	tl-00292	
+people	父|お父さん	พ่อ	father	yes	th-main	tl-00098	
+people	母|お母さん	แม่	mother	yes	th-main	tl-00097	
+people	両親	พ่อแม่	parents	yes	th-main	tl-00548	
+people	兄	พี่ชาย	older brother	yes	th-main	tl-00816	
+people	姉	พี่สาว	older sister	yes	th-main	tl-00899	
+people	弟	น้องชาย	younger brother	yes	th-main	tl-00935	
+people	妹	น้องสาว	younger sister	yes	th-main	tl-00754	
+people	兄弟|きょうだい	พี่น้อง	siblings	yes	th-main	tl-00886	
+people	年上のきょうだい|年上	พี่	elder	yes	th-main	tl-00204	
+people	年下のきょうだい|年下	น้อง	younger	yes	th-main	tl-00451	
+people	息子	ลูกชาย	son	yes	th-main	tl-00594	
+people	娘	ลูกสาว	daughter	yes	th-main	tl-00596	
+people	子ども|子供	ลูก|เด็ก	child	yes	th-main	tl-00108	
+people	祖父|おじいさん	ปู่|ตา	grandfather	yes	th-main	tl-01549	
+people	祖母|おばあさん	ย่า|ยาย	grandmother	yes	th-main	tl-01461	
+people	父方の祖父	ปู่	paternal grandfather	yes	th-main	tl-01549	
+people	父方の祖母	ย่า	paternal grandmother	yes	th-main	tl-01461	
+people	母方の祖父	ตา	maternal grandfather	yes	th-main	tl-00248	
+people	母方の祖母	ยาย	maternal grandmother	yes	th-main	tl-00761	
+people	孫	หลาน	grandchild	yes	th-main	tl-00833	
+people	おじ|伯父|叔父	ลุง|อา|น้า	uncle	yes	th-main	tl-00780	
+people	おば|伯母|叔母	ป้า|อา|น้า	aunt	yes	th-main	tl-00839	
+people	いとこ	ลูกพี่ลูกน้อง	cousin	yes	th-main	tl-02099	
+people	甥|姪|甥・姪	หลาน	nephew/niece	yes	th-main	tl-00833	
+people	夫	สามี	husband	yes	th-main	tl-00615	
+people	妻	ภรรยา|เมีย	wife	yes	th-main	tl-00639	
+people	夫婦	สามีภรรยา|ผัวเมีย	married couple	yes	th-main	tl-59129	
+people	親戚	ญาติ	relatives	yes	th-main	tl-00871	
+people	赤ちゃん	ทารก|เด็กอ่อน|เบบี๋	baby	yes	th-main	tl-02402	check: 乳児・赤ん坊
+people	男	ผู้ชาย	man	yes	th-main	tl-00314	
+people	女	ผู้หญิง	woman	yes	th-main	tl-00242	
+people	男の子	เด็กผู้ชาย	boy	yes	th-main	tl-02832	
+people	女の子	เด็กผู้หญิง	girl	yes	th-main	tl-02355	
+people	大人	ผู้ใหญ่	adult	yes	th-main	tl-00781	
+people	老人|お年寄り	คนแก่|ผู้สูงอายุ	elderly	yes	th-main	tl-01028	
+people	若者	วัยรุ่น|คนหนุ่มสาว	young people	yes	th-main	tl-01834	
+people	人	คน	person	yes	th-main	tl-00029	
+people	友達|友人	เพื่อน	friend	yes	th-main	tl-00164	
+people	親友	เพื่อนสนิท	best friend	yes	th-main	tl-02426	
+people	恋人	แฟน	partner	yes	th-main	tl-00458	
+people	彼氏	แฟน|แฟนผู้ชาย	boyfriend	yes	th-main	tl-00458	
+people	彼女	แฟน|แฟนผู้หญิง	girlfriend	yes	th-main	tl-00458	
+people	婚約者	คู่หมั้น	fiance	yes	th-main	tl-03196	
+people	隣人|近所の人	เพื่อนบ้าน	neighbor	yes	th-main	tl-01000	
+people	客|お客さん	ลูกค้า|แขก	customer/guest	yes	th-main	tl-00832	
+people	外国人	ชาวต่างชาติ|คนต่างชาติ|ฝรั่ง	foreigner	yes	th-main	tl-02128	
+people	日本人	คนญี่ปุ่น	Japanese person	yes	th-main	tl-51020	
+people	タイ人	คนไทย	Thai person	yes	th-main	tl-51019	
+people	名前	ชื่อ	name	yes	th-main	tl-00176	
+people	あだ名|ニックネーム	ชื่อเล่น	nickname	yes	th-main	tl-56604	
+people	苗字|姓	นามสกุล	surname	yes	th-main	tl-02969	
+people	独身	โสด	single	yes	th-main	tl-02844	
+people	結婚する	แต่งงาน	marry	yes	th-main	tl-00418	
+people	離婚する	หย่า	divorce	yes	th-main	tl-02382	
+people	双子	ฝาแฝด	twins	yes	th-main	tl-04312	
+body	体	ร่างกาย|ตัว	body	yes	th-main	tl-00621	
+body	頭	หัว|ศีรษะ	head	yes	th-main	tl-00318	
+body	髪|髪の毛	ผม	hair	yes	th-main	tl-00015	
+body	顔	หน้า|ใบหน้า	face	yes	th-main	tl-00148	
+body	目	ตา	eye	yes	th-main	tl-00248	
+body	耳	หู	ear	yes	th-main	tl-00821	
+body	鼻	จมูก	nose	yes	th-main	tl-00972	
+body	口	ปาก	mouth	yes	th-main	tl-00524	
+body	唇	ริมฝีปาก	lips	yes	th-main	tl-03272	
+body	歯	ฟัน	tooth	yes	th-main	tl-00909	
+body	舌	ลิ้น	tongue	yes	th-main	tl-01025	
+body	首	คอ	neck	yes	th-main	tl-00708	
+body	喉|のど	คอ|ลำคอ	throat	yes	th-main	tl-00708	
+body	肩	ไหล่	shoulder	yes	th-main	tl-01021	
+body	腕	แขน	arm	yes	th-main	tl-00785	
+body	手	มือ	hand	yes	th-main	tl-00265	
+body	指	นิ้ว	finger	yes	th-main	tl-00844	
+body	爪	เล็บ	nail	yes	th-main	tl-02009	
+body	胸	หน้าอก	chest	yes	th-main	tl-02588	
+body	お腹|腹	ท้อง	belly	yes	th-main	tl-00748	
+body	背中	หลัง	back	yes	th-main	tl-00232	
+body	腰	เอว	waist	yes	th-main	tl-02064	
+body	お尻	ก้น	buttocks	yes	th-main	tl-01568	
+body	足|脚	ขา	leg	yes	th-main	tl-00599	
+body	足（足首から先）|足	เท้า	foot	yes	th-main	tl-00760	
+body	膝|ひざ	เข่า	knee	yes	th-main	tl-01050	
+body	ひじ	ข้อศอก	elbow	yes	th-main	tl-47804	
+body	足首	ข้อเท้า	ankle	yes	th-main	tl-04037	
+body	手首	ข้อมือ	wrist	yes	th-main	tl-02856	
+body	皮膚|肌	ผิว|ผิวหนัง	skin	yes	th-main	tl-00769	
+body	骨	กระดูก	bone	yes	th-main	tl-01598	
+body	血|血液	เลือด	blood	yes	th-main	tl-00551	
+body	心臓	หัวใจ	heart	yes	th-main	tl-00532	
+body	肺	ปอด	lung	yes	th-main	tl-02704	
+body	胃	กระเพาะ|กระเพาะอาหาร	stomach	yes	th-main	tl-04442	
+body	腸	ลำไส้	intestine	yes	th-main	tl-05086	
+body	肝臓	ตับ	liver	yes	th-main	tl-03187	
+body	腎臓	ไต	kidney	yes	th-main	tl-03436	
+body	脳	สมอง	brain	yes	th-main	tl-00693	
+body	眉|眉毛	คิ้ว	eyebrow	yes	th-main	tl-02052	
+body	まつげ	ขนตา	eyelash	yes	th-main	tl-51333	
+body	ひげ	หนวด	mustache/beard	yes	th-main	tl-02030	
+body	頬|ほお	แก้ม	cheek	yes	th-main	tl-02034	
+body	あご	คาง	chin	yes	th-main	tl-04265	
+body	額|おでこ	หน้าผาก	forehead	yes	th-main	tl-03851	
+body	親指	นิ้วโป้ง	thumb	yes	th-main	tl-51335	
+body	筋肉	กล้ามเนื้อ	muscle	yes	th-main	tl-02611	
+body	汗	เหงื่อ	sweat	yes	th-main	tl-02504	
+body	涙	น้ำตา	tears	yes	th-main	tl-01640	
+body	身長|背	ส่วนสูง	height	yes	th-main	tl-02132	
+body	体重	น้ำหนัก	weight	yes	th-main	tl-00958	
+health	病気	ป่วย|โรค	illness	yes	th-main	tl-00870	
+health	病気になる|体調が悪い	ไม่สบาย	be unwell	yes	th-main	tl-01149	
+health	風邪	หวัด|ไข้หวัด	cold	yes	th-main	tl-01083	
+health	熱	ไข้	fever	yes	th-main	tl-01043	
+health	咳|せき	ไอ	cough	yes	th-main	tl-01286	
+health	くしゃみ	จาม	sneeze	yes	th-main	tl-02112	
+health	鼻水	น้ำมูก	runny nose	yes	th-main	tl-51338	
+health	頭痛	ปวดหัว	headache	yes	th-main	tl-01058	
+health	腹痛|お腹が痛い	ปวดท้อง	stomachache	yes	th-main	tl-01098	
+health	歯痛|歯が痛い	ปวดฟัน	toothache	yes	th-main	tl-50128	
+health	喉が痛い	เจ็บคอ	sore throat	yes	th-main	tl-53614	
+health	痛い	เจ็บ|ปวด	painful	yes	th-main	tl-00618	
+health	けが|怪我	แผล|บาดเจ็บ	injury	yes	th-main	tl-01465	check: 傷
+health	傷	แผล	wound	yes	th-main	tl-01465	
+health	やけど	แผลไฟไหม้|ไฟลวก	burn	yes	th-main	tl-51661	
+health	下痢	ท้องเสีย|ท้องร่วง	diarrhea	yes	th-main	tl-02133	
+health	便秘	ท้องผูก	constipation	yes	th-main	tl-53602	
+health	吐き気	คลื่นไส้	nausea	yes	th-main	tl-53606	
+health	吐く	อาเจียน|อ้วก	vomit	yes	th-main	tl-04268	
+health	めまい	เวียนหัว|วิงเวียน	dizziness	yes	th-main	tl-05204	
+health	かゆい	คัน	itchy	yes	th-main	tl-00727	
+health	アレルギー	ภูมิแพ้|แพ้	allergy	yes	th-main	tl-51340	
+health	疲れる|疲れた	เหนื่อย	tired	yes	th-main	tl-00752	
+health	眠い	ง่วง|ง่วงนอน	sleepy	yes	th-main	tl-01091	
+health	薬	ยา	medicine	yes	th-main	tl-00298	
+health	薬局	ร้านขายยา	pharmacy	yes	th-main	tl-02137	
+health	病院	โรงพยาบาล	hospital	yes	th-main	tl-00686	
+health	医者	หมอ|แพทย์	doctor	yes	th-main	tl-00297	check: 医師/こいつ・あいつ（複合した呼び方で）
+health	看護師	พยาบาล	nurse	yes	th-main	tl-01470	
+health	歯医者	หมอฟัน|ทันตแพทย์	dentist	yes	th-main	tl-51075	
+health	診療所|クリニック	คลินิก	clinic	yes	th-main	tl-02086	
+health	救急車	รถพยาบาล	ambulance	yes	th-main	tl-02833	
+health	注射	ฉีดยา	injection	yes	th-main	tl-04354	
+health	手術	ผ่าตัด	surgery	yes	th-main	tl-01615	
+health	入院する	นอนโรงพยาบาล	be hospitalized	yes	th-main	tl-53084	
+health	ワクチン	วัคซีน	vaccine	yes	th-main	tl-51352	
+health	健康	สุขภาพ	health	yes	th-main	tl-00906	
+health	健康な|元気	แข็งแรง	healthy	yes	th-main	tl-01373	
+health	治る	หาย	recover	yes	th-main	tl-00291	
+health	休む|休憩する	พัก|พักผ่อน	rest	yes	th-main	tl-00381	
+health	感染	ติดเชื้อ	infection	yes	th-main	tl-02375	
+health	虫歯	ฟันผุ	cavity	yes	th-main	tl-51342	
+health	血圧	ความดัน|ความดันโลหิต	blood pressure	yes	th-main	tl-02699	
+health	糖尿病	เบาหวาน	diabetes	yes	th-main	tl-51343	
+health	がん	มะเร็ง	cancer	yes	th-main	tl-02526	check: 癌
+health	妊娠する	ตั้งครรภ์|ท้อง	pregnant	yes	th-main	tl-03440	
+health	包帯	ผ้าพันแผล	bandage	yes	th-main	tl-51664	
+health	絆創膏	พลาสเตอร์	plaster	yes	gloss	tl-53652:พลาสเตอร์ยา	
+health	マスク	หน้ากากอนามัย|แมสก์	mask	yes	th-main	tl-51073	
+health	保険	ประกัน	insurance	yes	th-main	tl-01879	
+health	デング熱	ไข้เลือดออก	dengue	yes	th-main	tl-51337	
+health	食中毒	อาหารเป็นพิษ	food poisoning	yes	th-main	tl-51339	
+health	ストレス	ความเครียด|เครียด	stress	yes	th-main	tl-54074	
+health	運動	ออกกำลังกาย	exercise	yes	th-main	tl-01040	
+food	食べ物	อาหาร|ของกิน	food	yes	th-main	tl-00251	check: 料理／食事
+food	ご飯|米	ข้าว	rice	yes	th-main	tl-00552	
+food	もち米	ข้าวเหนียว	sticky rice	yes	th-main	tl-02151	
+food	白米|ご飯	ข้าวสวย	steamed rice	yes	th-main	tl-46919	
+food	お粥|おかゆ	โจ๊ก|ข้าวต้ม	rice porridge	yes	th-main	tl-47774	
+food	麺|ヌードル	ก๋วยเตี๋ยว|เส้น	noodles	yes	th-main	tl-01111	
+food	パン	ขนมปัง	bread	yes	th-main	tl-01022	
+food	肉	เนื้อ	meat	yes	th-main	tl-00654	
+food	豚肉	หมู|เนื้อหมู	pork	yes	th-main	tl-00934	
+food	牛肉	เนื้อวัว	beef	yes	th-main	tl-51038	
+food	鶏肉	ไก่|เนื้อไก่	chicken	yes	th-main	tl-00895	
+food	魚	ปลา	fish	yes	th-main	tl-00663	
+food	エビ	กุ้ง	shrimp	yes	th-main	tl-01044	
+food	カニ	ปู	crab	yes	th-main	tl-01802	
+food	イカ	ปลาหมึก	squid	yes	th-main	tl-05032	
+food	貝	หอย	shellfish	yes	th-main	tl-03002	
+food	卵	ไข่	egg	yes	th-main	tl-00908	
+food	目玉焼き	ไข่ดาว	fried egg	yes	th-main	tl-47528	
+food	卵焼き|オムレツ	ไข่เจียว	omelet	yes	th-main	tl-51029	
+food	豆腐	เต้าหู้	tofu	yes	th-main	tl-51045	
+food	野菜	ผัก	vegetable	yes	th-main	tl-00980	
+food	果物	ผลไม้	fruit	yes	th-main	tl-01013	
+food	キャベツ	กะหล่ำปลี	cabbage	yes	th-main	tl-51053	
+food	トマト	มะเขือเทศ	tomato	yes	th-main	tl-47668	
+food	ナス	มะเขือ|มะเขือยาว	eggplant	yes	th-main	tl-42976	
+food	キュウリ	แตงกวา	cucumber	yes	th-main	tl-45362	
+food	玉ねぎ	หัวหอม|หอมใหญ่	onion	yes	th-main	tl-45890	
+food	ニンニク	กระเทียม	garlic	yes	th-main	tl-02093	
+food	唐辛子	พริก	chili	yes	th-main	tl-01084	
+food	ショウガ|生姜	ขิง	ginger	no	slang:tl-10056		
+food	にんじん	แครอท	carrot	yes	th-main	tl-51056	
+food	じゃがいも	มันฝรั่ง	potato	yes	th-main	tl-04577	
+food	とうもろこし	ข้าวโพด	corn	yes	th-main	tl-03599	
+food	キノコ	เห็ด	mushroom	yes	th-main	tl-02091	
+food	パクチー	ผักชี	coriander	yes	th-main	tl-46975	
+food	バジル|ホーリーバジル	กะเพรา|โหระพา	basil	yes	th-main	tl-46912	
+food	レモングラス	ตะไคร้	lemongrass	yes	th-main	tl-43814	
+food	ライム|レモン	มะนาว	lime	yes	th-main	tl-01088	
+food	もやし	ถั่วงอก	bean sprouts	yes	th-main	tl-51272	
+food	豆	ถั่ว	beans	yes	th-main	tl-01989	
+food	ピーナッツ	ถั่วลิสง	peanut	yes	th-main	tl-51273	
+food	バナナ	กล้วย	banana	yes	th-main	tl-02040	
+food	マンゴー	มะม่วง	mango	yes	th-main	tl-02113	
+food	パパイヤ	มะละกอ	papaya	yes	th-main	tl-02145	
+food	ココナッツ|ヤシの実	มะพร้าว	coconut	yes	th-main	tl-02088	
+food	スイカ	แตงโม	watermelon	yes	th-main	tl-02123	
+food	パイナップル	สับปะรด	pineapple	yes	th-main	tl-02122	
+food	ドリアン	ทุเรียน	durian	yes	th-main	tl-02149	
+food	マンゴスチン	มังคุด	mangosteen	yes	th-main	tl-46242	
+food	ランブータン	เงาะ	rambutan	yes	th-main	tl-42108	
+food	リンゴ	แอปเปิล|แอปเปิ้ล	apple	yes	th-main	tl-02095	
+food	オレンジ|みかん	ส้ม	orange	yes	th-main	tl-02003	
+food	ぶどう	องุ่น	grape	yes	th-main	tl-02101	
+food	いちご	สตรอว์เบอร์รี	strawberry	yes	gloss	tl-51265:สตรอเบอร์รี่	
+food	グアバ	ฝรั่ง	guava	yes	th-main	tl-01074	
+food	ロンガン|竜眼	ลำไย	longan	yes	th-main	tl-45235	
+food	ライチ	ลิ้นจี่	lychee	yes	th-main	tl-46706	
+food	塩	เกลือ	salt	yes	th-main	tl-01053	
+food	砂糖	น้ำตาล	sugar	yes	th-main	tl-00987	
+food	ナンプラー|魚醤	น้ำปลา	fish sauce	yes	th-main	tl-01128	
+food	醤油	ซีอิ๊ว	soy sauce	yes	th-main	tl-51247	
+food	酢	น้ำส้มสายชู	vinegar	yes	th-main	tl-51249	
+food	油	น้ำมัน	oil	yes	th-main	tl-00887	
+food	こしょう	พริกไทย	pepper	yes	th-main	tl-47908	
+food	調味料	เครื่องปรุง	seasoning	yes	th-main	tl-46145	
+food	ソース|たれ	ซอส|น้ำจิ้ม	sauce	yes	th-main	tl-02089	
+food	スープ	ซุป|น้ำซุป	soup	yes	th-main	tl-02027	
+food	カレー	แกง	curry	yes	th-main	tl-01102	
+food	サラダ	สลัด	salad	yes	th-main	tl-02018	
+food	お菓子|デザート	ขนม|ของหวาน	sweets	yes	th-main	tl-00922	
+food	アイスクリーム	ไอศกรีม|ไอติม	ice cream	yes	th-main	tl-02055	
+food	ケーキ	เค้ก	cake	yes	th-main	tl-01011	
+food	チョコレート	ช็อกโกแลต	chocolate	yes	th-main	tl-03497	
+food	朝ごはん|朝食	อาหารเช้า|ข้าวเช้า	breakfast	yes	th-main	tl-01017	
+food	昼ごはん|昼食	อาหารกลางวัน|ข้าวเที่ยง	lunch	yes	th-main	tl-01073	
+food	晩ごはん|夕食	อาหารเย็น|ข้าวเย็น	dinner	yes	th-main	tl-01041	
+food	おやつ|軽食	ของว่าง	snack	yes	th-main	tl-02120	
+food	屋台	แผงลอย|รถเข็น|ร้านริมทาง	street stall	yes	th-main	tl-48357	
+food	トムヤムクン	ต้มยำกุ้ง	tom yum kung	yes	th-main	tl-51032	
+food	トムヤム	ต้มยำ	tom yum	yes	th-main	tl-04948	
+food	パッタイ	ผัดไทย	pad thai	yes	th-main	tl-01127	
+food	ガパオライス|ガパオ	ผัดกะเพรา|ข้าวกะเพรา	pad krapow	yes	th-main	tl-51026	
+food	グリーンカレー	แกงเขียวหวาน	green curry	yes	th-main	tl-51033	
+food	ソムタム|パパイヤサラダ	ส้มตำ	som tam	yes	th-main	tl-01129	
+food	カオマンガイ	ข้าวมันไก่	chicken rice	yes	th-main	tl-51028	
+food	チャーハン|炒飯	ข้าวผัด	fried rice	yes	th-main	tl-01124	
+food	ガイヤーン|焼き鳥	ไก่ย่าง	grilled chicken	yes	th-main	tl-51034	
+food	トムカーガイ	ต้มข่าไก่	tom kha kai	yes	th-main	tl-51207	
+food	マッサマンカレー	แกงมัสมั่น	massaman curry	yes	th-main	tl-51209	
+food	カオソーイ	ข้าวซอย	khao soi	yes	th-main	tl-53828	
+food	ラープ	ลาบ	larb	yes	th-main	tl-42897	
+food	ムーピン	หมูปิ้ง	grilled pork skewer	yes	th-main	tl-51035	
+food	カオパット	ข้าวผัด	fried rice	yes	th-main	tl-01124	check: チャーハン
+food	パッシーユ	ผัดซีอิ๊ว	pad see ew	yes	th-main	tl-51202	
+food	バミー|中華麺	บะหมี่	egg noodles	yes	th-main	tl-51025	
+food	センレック	เส้นเล็ก	thin rice noodles	yes	th-main	tl-51253	
+food	センヤイ	เส้นใหญ่	wide rice noodles	yes	th-main	tl-51252	
+food	春雨	วุ้นเส้น	glass noodles	yes	th-main	tl-51255	
+food	マンゴーもち米	ข้าวเหนียวมะม่วง	mango sticky rice	yes	th-main	tl-51241	check: カオニャオマムアン（マンゴーともち米のデザート）
+food	ムーガタ	หมูกระทะ	moo kratha	yes	th-main	tl-51036	
+food	スキ|タイスキ	สุกี้	suki	yes	th-main	tl-51212	
+food	カイジャオ	ไข่เจียว	omelet	yes	th-main	tl-51029	check: タイ風の卵焼き（揚げ焼きオムレツ）
+food	ジョーク|粥	โจ๊ก	jok	yes	th-main	tl-47774	
+food	ルークチン|つみれ	ลูกชิ้น	meatball	yes	th-main	tl-51037	
+food	ソーセージ	ไส้กรอก	sausage	yes	th-main	tl-04222	
+food	ハム	แฮม	ham	yes	th-main	tl-04203	
+food	インスタントラーメン	บะหมี่กึ่งสำเร็จรูป|มาม่า	instant noodles	yes	th-main	tl-51200	
+drinks_taste	飲み物	เครื่องดื่ม	drink	yes	th-main	tl-02435	
+drinks_taste	水	น้ำ|น้ำเปล่า	water	yes	th-main	tl-00234	
+drinks_taste	お湯	น้ำร้อน	hot water	yes	th-main	tl-03380	
+drinks_taste	氷	น้ำแข็ง	ice	yes	th-main	tl-01009	
+drinks_taste	お茶	ชา|น้ำชา	tea	yes	th-main	tl-01234	
+drinks_taste	コーヒー	กาแฟ	coffee	yes	th-main	tl-00874	
+drinks_taste	牛乳|ミルク	นม	milk	yes	th-main	tl-00939	
+drinks_taste	ジュース	น้ำผลไม้	juice	yes	th-main	tl-02074	
+drinks_taste	ソフトドリンク|炭酸飲料	น้ำอัดลม	soda	yes	th-main	tl-02116	
+drinks_taste	ビール	เบียร์	beer	yes	th-main	tl-00989	
+drinks_taste	酒|お酒	เหล้า	liquor	yes	th-main	tl-00868	
+drinks_taste	ワイン	ไวน์	wine	yes	th-main	tl-01762	
+drinks_taste	タイティー|チャーイェン	ชาเย็น	Thai iced tea	yes	th-main	tl-51048	
+drinks_taste	ココナッツジュース	น้ำมะพร้าว	coconut water	yes	th-main	tl-51256	
+drinks_taste	豆乳	น้ำเต้าหู้|นมถั่วเหลือง	soy milk	yes	th-main	tl-53852	
+drinks_taste	甘い	หวาน	sweet	yes	th-main	tl-00911	
+drinks_taste	辛い	เผ็ด	spicy	yes	th-main	tl-01095	
+drinks_taste	しょっぱい|塩辛い	เค็ม	salty	yes	th-main	tl-01103	
+drinks_taste	酸っぱい	เปรี้ยว	sour	yes	th-main	tl-01100	
+drinks_taste	苦い	ขม	bitter	yes	th-main	tl-02104	
+drinks_taste	おいしい	อร่อย	delicious	yes	th-main	tl-00736	
+drinks_taste	まずい	ไม่อร่อย	not tasty	excluded	hand:judgement: ไม่+อร่อย; note gloss まずい points to แย่แล้ว	tl-51957:แย่แล้ว	
+drinks_taste	味	รส|รสชาติ	taste	yes	th-main	tl-00956	
+drinks_taste	味が薄い|薄い	จืด	bland	yes	th-main	tl-02126	
+drinks_taste	油っこい	มัน|เลี่ยน	oily	yes	hand	tl-05088:เลี่ยน	
+drinks_taste	香り|におい	กลิ่น	smell	yes	th-main	tl-00700	
+drinks_taste	いい香り|いいにおい	หอม	fragrant	yes	th-main	tl-01535	check: よい香りがする・香ばしい/エシャロット・タマネギ/頬にキスする・頬に鼻を寄せてキスする
+drinks_taste	臭い	เหม็น	smelly	yes	th-main	tl-01980	
+drinks_taste	お腹がすいた|空腹	หิว|หิวข้าว	hungry	yes	th-main	tl-00875	check: おなかがすいた/喉が渇く（組み合わせ）
+drinks_taste	喉が渇いた	หิวน้ำ|กระหายน้ำ	thirsty	no			
+drinks_taste	お腹いっぱい|満腹	อิ่ม	full	yes	th-main	tl-01032	
+drinks_taste	生の|生	ดิบ	raw	yes	th-main	tl-02061	
+drinks_taste	熟した|熟れた	สุก	ripe/cooked	yes	th-main	tl-02035	
+drinks_taste	新鮮な	สด	fresh	yes	th-main	tl-01423	
+cooking	料理する	ทำอาหาร|ทำกับข้าว	cook	yes	th-main	tl-00480	
+cooking	料理|おかず	กับข้าว	dish	yes	th-main	tl-02045	
+cooking	炒める	ผัด	stir-fry	yes	th-main	tl-01093	
+cooking	揚げる	ทอด	deep-fry	yes	th-main	tl-01005	
+cooking	焼く	ย่าง|ปิ้ง	grill	yes	th-main	tl-01848	
+cooking	煮る|ゆでる	ต้ม	boil	yes	th-main	tl-01027	
+cooking	蒸す	นึ่ง	steam	yes	th-main	tl-02125	
+cooking	切る	หั่น|ตัด	cut	yes	th-main	tl-03017	
+cooking	混ぜる	ผสม|คน	mix	yes	th-main	tl-01605	
+cooking	洗う	ล้าง	wash	yes	th-main	tl-00849	
+cooking	皮をむく|むく	ปอก	peel	yes	th-main	tl-44887	
+cooking	味見する	ชิม	taste	yes	th-main	tl-01997	
+cooking	注ぐ	เท	pour	yes	th-main	tl-01533	
+cooking	温める	อุ่น	heat up	yes	th-main	tl-01925	
+cooking	オーブンで焼く	อบ	bake	yes	th-main	tl-02549	check: オーブンなどで焼く
+cooking	レシピ	สูตรอาหาร	recipe	yes	gloss	tl-02352:สูตร	
+cooking	材料	วัตถุดิบ|ส่วนผสม	ingredient	yes	th-main	tl-04090	
+kitchen	台所|キッチン	ห้องครัว|ครัว	kitchen	yes	th-main	tl-01085	
+kitchen	皿	จาน	plate	yes	th-main	tl-00974	
+kitchen	茶わん|ボウル|お椀	ถ้วย|ชาม	bowl	yes	th-main	tl-00995	
+kitchen	コップ|グラス	แก้ว	glass	yes	th-main	tl-00636	
+kitchen	カップ|マグカップ	ถ้วย|แก้วมัค	cup	yes	th-main	tl-00995	
+kitchen	箸	ตะเกียบ	chopsticks	yes	th-main	tl-01118	
+kitchen	スプーン	ช้อน	spoon	yes	th-main	tl-01057	
+kitchen	フォーク	ส้อม	fork	yes	th-main	tl-01104	
+kitchen	ナイフ|包丁	มีด	knife	yes	th-main	tl-00941	
+kitchen	鍋	หม้อ	pot	yes	th-main	tl-02730	
+kitchen	フライパン	กระทะ	frying pan	yes	th-main	tl-04750	
+kitchen	まな板	เขียง	cutting board	yes	th-main	tl-44371	
+kitchen	やかん	กาน้ำ	kettle	yes	th-main	tl-48067	
+kitchen	炊飯器	หม้อหุงข้าว	rice cooker	yes	th-main	tl-51060	
+kitchen	冷蔵庫	ตู้เย็น	refrigerator	yes	th-main	tl-01067	
+kitchen	電子レンジ	ไมโครเวฟ	microwave	yes	th-main	tl-51059	
+kitchen	コンロ|ガスコンロ	เตา|เตาแก๊ส	stove	yes	th-main	tl-02970	
+kitchen	オーブン	เตาอบ	oven	yes	th-main	tl-51285	
+kitchen	瓶	ขวด	bottle	yes	th-main	tl-00937	
+kitchen	缶	กระป๋อง	can	yes	th-main	tl-02710	
+kitchen	箱	กล่อง	box	yes	th-main	tl-00907	
+kitchen	袋|ビニール袋	ถุง	bag	yes	th-main	tl-00931	
+kitchen	ストロー	หลอด	straw	yes	th-main	tl-04030	
+kitchen	ナプキン|ティッシュ	กระดาษทิชชู|ทิชชู	tissue	yes	gloss	tl-51064:ทิชชู่	
+kitchen	栓抜き	ที่เปิดขวด	bottle opener	yes	th-main	tl-51648	
+kitchen	トレイ|お盆	ถาด	tray	yes	th-main	tl-03974	
+kitchen	食器	ภาชนะ|จานชาม	tableware	yes	th-main	tl-42722	check: 容器・器・入れ物
+kitchen	弁当箱	กล่องข้าว|ปิ่นโต	lunch box	yes	th-main	tl-51306	
+house	家	บ้าน	house	yes	th-main	tl-00122	
+house	部屋	ห้อง	room	yes	th-main	tl-00210	
+house	寝室	ห้องนอน	bedroom	yes	th-main	tl-01019	
+house	居間|リビング	ห้องนั่งเล่น	living room	yes	th-main	tl-02107	
+house	トイレ	ห้องน้ำ|ส้วม	toilet	yes	th-main	tl-00912	
+house	浴室|風呂場	ห้องน้ำ	bathroom	yes	th-main	tl-00912	
+house	台所	ครัว	kitchen	yes	th-main	tl-00968	
+house	玄関	ประตูหน้าบ้าน|ทางเข้า	entrance	yes	th-alt	tl-02033	check: 入口
+house	ドア|扉	ประตู	door	yes	th-main	tl-00346	
+house	窓	หน้าต่าง	window	yes	th-main	tl-00938	
+house	壁	ผนัง|กำแพง	wall	yes	th-main	tl-01946	
+house	床	พื้น	floor	yes	th-main	tl-00698	
+house	天井	เพดาน	ceiling	yes	th-main	tl-03323	
+house	屋根	หลังคา	roof	yes	th-main	tl-01956	
+house	階段	บันได	stairs	yes	th-main	tl-01546	
+house	階|〜階	ชั้น	floor/story	yes	th-main	tl-00344	
+house	庭	สวน|สนาม	garden	yes	th-main	tl-00764	
+house	ベランダ|バルコニー	ระเบียง	balcony	yes	th-main	tl-03051	
+house	鍵	กุญแจ	key	yes	th-main	tl-00904	
+house	マンション|コンドミニアム	คอนโด	condominium	yes	th-main	tl-01116	
+house	アパート	อพาร์ตเมนต์|หอพัก	apartment	yes	th-main	tl-02109	
+house	家賃	ค่าเช่า	rent	yes	th-main	tl-02025	
+house	引っ越す	ย้ายบ้าน	move house	yes	th-main	tl-53120	
+house	机	โต๊ะ	desk	yes	th-main	tl-00656	check: テーブル
+house	テーブル	โต๊ะ	table	yes	th-main	tl-00656	
+house	椅子|いす	เก้าอี้	chair	yes	th-main	tl-00966	
+house	ソファ	โซฟา	sofa	yes	th-main	tl-02059	
+house	ベッド	เตียง	bed	yes	th-main	tl-00846	
+house	布団|毛布	ผ้าห่ม	blanket	yes	th-main	tl-02019	
+house	枕	หมอน	pillow	yes	th-main	tl-02039	
+house	シーツ	ผ้าปูที่นอน	sheet	yes	th-main	tl-51278	
+house	マットレス	ที่นอน	mattress	yes	th-main	tl-41910	
+house	たんす|クローゼット	ตู้เสื้อผ้า	wardrobe	yes	th-main	tl-03872	
+house	棚	ชั้นวาง|ชั้น	shelf	yes	th-alt	tl-00344	check: 私（くだけた一人称の表記）/階・層・段/学年・等級・ランク
+house	引き出し	ลิ้นชัก	drawer	yes	th-main	tl-04104	
+house	鏡	กระจก	mirror	yes	th-main	tl-01610	
+house	カーテン	ผ้าม่าน	curtain	yes	th-main	tl-51279	
+house	カーペット|じゅうたん	พรม	carpet	yes	th-main	tl-03267	
+house	電灯|電気|明かり	ไฟ	light	yes	th-main	tl-00461	
+house	電球	หลอดไฟ	light bulb	yes	th-main	tl-51283	
+house	扇風機	พัดลม	fan	yes	th-main	tl-01117	
+house	エアコン	แอร์|เครื่องปรับอากาศ	air conditioner	yes	th-main	tl-01063	
+house	テレビ	ทีวี|โทรทัศน์	TV	yes	th-main	tl-00971	
+house	洗濯機	เครื่องซักผ้า	washing machine	yes	th-main	tl-04947	
+house	掃除機	เครื่องดูดฝุ่น	vacuum cleaner	yes	th-main	tl-51288	
+house	アイロン	เตารีด	iron	yes	th-main	tl-51289	
+house	ドライヤー	ไดร์เป่าผม	hair dryer	yes	th-main	tl-51290	
+house	シャワー	ฝักบัว|ชาวเวอร์	shower	yes	th-main	tl-47396	
+house	石けん	สบู่	soap	yes	th-main	tl-02084	
+house	シャンプー	แชมพู	shampoo	yes	th-main	tl-04945	
+house	歯ブラシ	แปรงสีฟัน	toothbrush	yes	th-main	tl-02138	
+house	歯磨き粉	ยาสีฟัน	toothpaste	yes	th-main	tl-02141	
+house	タオル	ผ้าเช็ดตัว	towel	yes	th-main	tl-02124	
+house	トイレットペーパー	กระดาษชำระ|ทิชชู	toilet paper	yes	th-main	tl-51297	
+house	ごみ	ขยะ	garbage	yes	th-main	tl-00953	
+house	ごみ箱	ถังขยะ	trash can	yes	th-main	tl-03716	
+house	ほうき	ไม้กวาด	broom	yes	th-main	tl-51291	
+house	バケツ	ถัง	bucket	yes	th-main	tl-01597	
+house	コンセント	ปลั๊ก	outlet	yes	th-main	tl-51057	
+house	スイッチ	สวิตช์	switch	yes	th-main	tl-51284	
+house	電気（電力）	ไฟฟ้า	electricity	yes	th-main	tl-01530	
+house	水道	น้ำประปา	tap water	yes	th-main	tl-57265	
+house	蛇口	ก๊อกน้ำ	faucet	yes	th-main	tl-53820	
+house	傘	ร่ม	umbrella	yes	th-main	tl-02667	
+house	はさみ	กรรไกร	scissors	yes	th-main	tl-44323	
+house	ペン	ปากกา	pen	yes	th-main	tl-01065	
+house	鉛筆	ดินสอ	pencil	yes	th-main	tl-02094	
+house	紙	กระดาษ	paper	yes	th-main	tl-00910	
+house	ハンガー	ไม้แขวนเสื้อ	hanger	yes	th-main	tl-51293	
+house	懐中電灯	ไฟฉาย	flashlight	yes	th-main	tl-44272	
+house	電池	ถ่าน|แบตเตอรี่	battery	yes	th-main	tl-04304	
+house	ろうそく	เทียน	candle	yes	th-main	tl-01895	
+house	蚊帳	มุ้ง	mosquito net	yes	th-main	tl-42134	
+clothes	服	เสื้อผ้า	clothes	yes	th-main	tl-00776	
+clothes	シャツ|上着	เสื้อ	shirt	yes	th-main	tl-00632	
+clothes	Tシャツ	เสื้อยืด	T-shirt	yes	th-main	tl-04299	
+clothes	ズボン	กางเกง	trousers	yes	th-main	tl-00957	
+clothes	半ズボン	กางเกงขาสั้น	shorts	yes	th-main	tl-51068	
+clothes	ジーンズ	กางเกงยีนส์	jeans	yes	th-main	tl-51067	
+clothes	スカート	กระโปรง	skirt	yes	th-main	tl-02899	
+clothes	ワンピース|ドレス	ชุดกระโปรง|เดรส	dress	no			
+clothes	制服	เครื่องแบบ|ชุดนักเรียน	uniform	yes	th-main	tl-02927	
+clothes	スーツ	ชุดสูท	suit	yes	gloss	tl-03108:สูท	
+clothes	ジャケット|上着	เสื้อแจ็กเก็ต|เสื้อคลุม	jacket	yes	th-main	tl-51307	
+clothes	コート	เสื้อโค้ท	coat	yes	gloss	tl-03963:เสื้อคลุม	
+clothes	セーター	เสื้อกันหนาว	sweater	yes	th-main	tl-51066	
+clothes	下着	ชุดชั้นใน|กางเกงใน	underwear	yes	th-main	tl-51314	
+clothes	パジャマ	ชุดนอน	pajamas	yes	th-main	tl-04674	
+clothes	水着	ชุดว่ายน้ำ	swimsuit	yes	th-main	tl-51313	
+clothes	靴	รองเท้า	shoes	yes	th-main	tl-00890	
+clothes	サンダル	รองเท้าแตะ	sandals	yes	th-main	tl-51069	
+clothes	靴下	ถุงเท้า	socks	yes	th-main	tl-03102	
+clothes	帽子	หมวก	hat	yes	th-main	tl-01731	
+clothes	眼鏡|メガネ	แว่นตา|แว่น	glasses	yes	th-main	tl-04418	
+clothes	サングラス	แว่นกันแดด	sunglasses	yes	th-main	tl-51321	
+clothes	ベルト	เข็มขัด	belt	yes	th-main	tl-04062	
+clothes	ネクタイ	เนกไท	necktie	yes	th-main	tl-51324	
+clothes	かばん	กระเป๋า	bag	yes	th-main	tl-00670	
+clothes	財布	กระเป๋าสตางค์	wallet	yes	th-main	tl-05202	
+clothes	腕時計	นาฬิกาข้อมือ	wristwatch	yes	th-main	tl-51323	
+clothes	指輪	แหวน	ring	yes	th-main	tl-01796	
+clothes	ネックレス	สร้อยคอ	necklace	yes	th-main	tl-04685	
+clothes	イヤリング|ピアス	ต่างหู	earring	yes	th-main	tl-04370	
+clothes	ブレスレット	สร้อยข้อมือ|กำไล	bracelet	yes	th-main	tl-53883	
+clothes	手袋	ถุงมือ	gloves	yes	th-main	tl-04221	
+clothes	マフラー|スカーフ	ผ้าพันคอ	scarf	yes	th-main	tl-51325	
+clothes	ポケット	กระเป๋า|กระเป๋าเสื้อ	pocket	yes	th-main	tl-00670	
+clothes	ボタン	กระดุม	button	yes	th-main	tl-48058	
+clothes	サイズ	ไซซ์|ขนาด	size	yes	th-alt	tl-00253	
+clothes	着る	ใส่|สวม	wear	yes	th-main	tl-00212	
+clothes	脱ぐ	ถอด	take off	yes	th-main	tl-00905	
+clothes	着替える	เปลี่ยนเสื้อผ้า	change clothes	yes	th-main	tl-54285	
+clothes	試着する	ลอง|ลองใส่	try on	yes	th-main	tl-00264	check: 試す、試しにやる
+clothes	化粧	แต่งหน้า	makeup	yes	th-main	tl-03554	
+clothes	口紅	ลิปสติก	lipstick	yes	th-main	tl-48872	
+clothes	香水	น้ำหอม	perfume	yes	th-main	tl-03948	
+clothes	布	ผ้า	cloth	yes	th-main	tl-00762	
+clothes	綿	ผ้าฝ้าย|ฝ้าย	cotton	yes	th-main	tl-51655	
+clothes	絹	ผ้าไหม|ไหม	silk	yes	th-main	tl-51331	
+colours	色	สี	colour	yes	th-main	tl-00257	
+colours	赤|赤い	แดง|สีแดง	red	yes	th-main	tl-00566	
+colours	青|青い	น้ำเงิน|สีน้ำเงิน	blue	yes	th-main	tl-01094	
+colours	水色	ฟ้า|สีฟ้า	light blue	yes	th-main	tl-00779	check: 空/ライトブルー/天・天命・運命
+colours	黄色|黄色い	เหลือง|สีเหลือง	yellow	yes	th-main	tl-02006	
+colours	緑	เขียว|สีเขียว	green	yes	th-main	tl-00936	
+colours	黒|黒い	ดำ|สีดำ	black	yes	th-main	tl-00608	
+colours	白|白い	ขาว|สีขาว	white	yes	th-main	tl-00589	
+colours	茶色	น้ำตาล|สีน้ำตาล	brown	yes	th-main	tl-00987	
+colours	ピンク	ชมพู|สีชมพู	pink	yes	th-main	tl-01099	
+colours	紫	ม่วง|สีม่วง	purple	yes	th-main	tl-01068	
+colours	オレンジ色	สีส้ม	orange	yes	th-main	tl-70158	
+colours	灰色|グレー	เทา|สีเทา	grey	yes	th-main	tl-02100	
+colours	金色	สีทอง	gold	yes	th-main	tl-70159	
+colours	銀色	สีเงิน	silver	yes	th-main	tl-70160	
+colours	紺|紺色	สีกรมท่า	navy	yes	hand	tl-47788:กรมท่า	
+colours	ベージュ	สีเบจ	beige	yes	th-main	tl-56536	
+colours	クリーム色	สีครีม	cream	yes	th-main	tl-70161	
+colours	黄緑	สีเขียวอ่อน	yellow-green	yes	th-main	tl-70162	
+colours	濃い色|濃い	เข้ม	dark (colour)	yes	hand	tl-02581:เข้ม	
+colours	薄い色|淡い	อ่อน	light (colour)	yes	th-main	tl-01348	
+colours	カラフル	หลากสี|สีสัน	colourful	yes	th-main	tl-53393	check: 色とりどりの
+colours	透明	ใส	transparent	yes	th-main	tl-01711	
+shapes	形	รูปร่าง|รูปทรง	shape	yes	th-main	tl-02311	
+shapes	丸|円	วงกลม	circle	yes	th-main	tl-03470	
+shapes	丸い	กลม	round	yes	th-main	tl-02808	
+shapes	四角|四角形	สี่เหลี่ยม	square	yes	th-main	tl-44712	
+shapes	三角|三角形	สามเหลี่ยม	triangle	yes	th-main	tl-46400	
+shapes	線	เส้น	line	yes	th-main	tl-00721	
+shapes	点	จุด	dot	yes	th-main	tl-01170	
+shapes	大きい	ใหญ่	big	yes	th-main	tl-00178	
+shapes	小さい	เล็ก	small	yes	th-main	tl-00288	
+shapes	長い	ยาว	long	yes	th-main	tl-00549	
+shapes	短い	สั้น	short	yes	th-main	tl-00794	
+shapes	高い（高さ）	สูง	tall	yes	th-main	tl-00285	
+shapes	低い	ต่ำ|เตี้ย	low/short	yes	th-main	tl-00675	
+shapes	広い	กว้าง	wide	yes	th-main	tl-00915	
+shapes	狭い	แคบ	narrow	yes	th-main	tl-01047	
+shapes	厚い	หนา	thick	yes	th-main	tl-01772	
+shapes	薄い（厚さ）	บาง	thin	yes	th-main	tl-00311	
+shapes	太い	ใหญ่|อ้วน	thick/fat	yes	th-main	tl-00178	check: 大きい/年上の・上位の（人）/激しく・大いに（動作を強める）
+shapes	細い	ผอม|เรียว	slim	yes	th-main	tl-01061	check: 痩せた
+shapes	重い	หนัก	heavy	yes	th-main	tl-00449	
+shapes	軽い	เบา	light	yes	th-main	tl-00815	
+shapes	深い	ลึก	deep	yes	th-main	tl-00732	
+shapes	浅い	ตื้น	shallow	yes	th-main	tl-03976	
+shapes	大きさ|サイズ	ขนาด	size	yes	th-main	tl-00253	
+shapes	長さ	ความยาว	length	no			
+shapes	幅	ความกว้าง	width	no			
+shapes	高さ	ความสูง	height	no			
+shapes	メートル	เมตร	metre	yes	th-main	tl-01913	
+shapes	センチ	เซนติเมตร|เซนต์	centimetre	yes	th-main	tl-44535	
+shapes	キロ（距離）|キロメートル	กิโลเมตร	kilometre	yes	th-main	tl-02041	
+shapes	キログラム|キロ	กิโลกรัม|กิโล	kilogram	yes	th-main	tl-44603	
+shapes	グラム	กรัม	gram	yes	th-main	tl-05033	
+shapes	リットル	ลิตร	litre	yes	th-main	tl-58345	
+weather	天気	อากาศ|สภาพอากาศ	weather	yes	th-main	tl-00650	
+weather	天気予報	พยากรณ์อากาศ	forecast	yes	th-main	tl-51125	
+weather	晴れ|晴れる	แดดออก|ท้องฟ้าแจ่มใส	sunny	yes	th-main	tl-59164	check: 日が出る・日が差してくる
+weather	雨	ฝน	rain	yes	th-main	tl-00913	
+weather	雨が降る	ฝนตก	rain falls	yes	th-main	tl-01034	
+weather	雲	เมฆ	cloud	yes	th-main	tl-02011	
+weather	曇り	ฟ้าครึ้ม|เมฆมาก	cloudy	yes	hand	tl-43497:ครึ้ม	
+weather	風	ลม	wind	yes	th-main	tl-00723	
+weather	嵐	พายุ	storm	yes	th-main	tl-01988	
+weather	雷	ฟ้าร้อง|ฟ้าผ่า	thunder	yes	th-main	tl-45056	
+weather	雪	หิมะ	snow	yes	th-main	tl-02014	
+weather	暑い	ร้อน	hot	yes	th-main	tl-00588	
+weather	寒い	หนาว	cold	yes	th-main	tl-00896	
+weather	涼しい	เย็นสบาย|เย็น	cool	yes	th-main	tl-53330	
+weather	暖かい	อุ่น	warm	yes	th-main	tl-01925	
+weather	湿気|湿度	ความชื้น	humidity	yes	th-main	tl-51502	
+weather	蒸し暑い	ร้อนอบอ้าว	muggy	yes	gloss	tl-44839:อบอ้าว	
+weather	洪水	น้ำท่วม	flood	yes	th-main	tl-02050	
+weather	地震	แผ่นดินไหว	earthquake	yes	th-main	tl-04423	
+weather	温度|気温	อุณหภูมิ	temperature	yes	th-main	tl-02032	
+weather	度（温度）	องศา	degree	yes	th-main	tl-03161	
+weather	太陽	ดวงอาทิตย์|พระอาทิตย์	sun	yes	th-main	tl-02012	
+weather	日光|日差し	แดด|แสงแดด	sunlight	yes	th-main	tl-01045	
+weather	月（天体）	ดวงจันทร์|พระจันทร์	moon	yes	th-main	tl-02008	
+weather	星	ดาว	star	yes	th-main	tl-00793	
+weather	空	ฟ้า|ท้องฟ้า	sky	yes	th-main	tl-00779	
+weather	虹	รุ้ง|สายรุ้ง	rainbow	yes	th-main	tl-43014	
+weather	霧	หมอก	fog	yes	th-main	tl-02081	
+weather	大気汚染|PM2.5	ฝุ่น|มลพิษทางอากาศ	air pollution	yes	th-main	tl-02791	check: ほこり・塵
+weather	自然	ธรรมชาติ	nature	yes	th-main	tl-01228	
+weather	山	ภูเขา	mountain	yes	th-main	tl-01743	
+weather	川	แม่น้ำ	river	yes	th-main	tl-01454	
+weather	海	ทะเล	sea	yes	th-main	tl-00720	
+weather	海岸|ビーチ	ชายหาด|หาด	beach	yes	th-main	tl-02036	check: 砂浜
+weather	島	เกาะ	island	yes	th-main	tl-00777	
+weather	湖	ทะเลสาบ	lake	yes	th-main	tl-03225	
+weather	森	ป่า	forest	yes	th-main	tl-00659	
+weather	滝	น้ำตก	waterfall	yes	th-main	tl-02108	
+weather	洞窟	ถ้ำ	cave	yes	th-main	tl-02494	
+weather	石|岩	หิน	stone	yes	th-main	tl-01317	
+weather	砂	ทราย	sand	yes	th-main	tl-01841	
+weather	土	ดิน	soil	yes	th-main	tl-01309	
+weather	火	ไฟ	fire	yes	th-main	tl-00461	
+weather	地球	โลก	earth	yes	th-main	tl-00198	
+weather	世界	โลก	world	yes	th-main	tl-00198	
+weather	空気	อากาศ	air	yes	th-main	tl-00650	
+weather	波	คลื่น	wave	yes	th-main	tl-01627	
+weather	田んぼ	นา|ทุ่งนา	rice field	yes	th-main	tl-00516	
+weather	池	บ่อ|สระ	pond	yes	th-main	tl-02742	
+animals	動物	สัตว์	animal	yes	th-main	tl-00576	
+animals	犬	หมา|สุนัข	dog	yes	th-main	tl-00642	
+animals	猫	แมว	cat	yes	th-main	tl-00940	
+animals	鳥	นก	bird	yes	th-main	tl-00695	
+animals	牛	วัว	cow	yes	th-main	tl-01695	
+animals	水牛	ควาย	buffalo	yes	th-main	tl-02068	
+animals	豚	หมู	pig	yes	th-main	tl-00934	
+animals	鶏	ไก่	chicken	yes	th-main	tl-00895	
+animals	アヒル	เป็ด	duck	yes	th-main	tl-02029	
+animals	馬	ม้า	horse	yes	th-main	tl-00751	
+animals	象	ช้าง	elephant	yes	th-main	tl-01958	
+animals	猿	ลิง	monkey	yes	th-main	tl-01877	
+animals	虎	เสือ	tiger	yes	th-main	tl-01791	
+animals	ライオン	สิงโต	lion	yes	th-main	tl-03814	
+animals	熊	หมี	bear	yes	th-main	tl-02472	
+animals	へび|蛇	งู	snake	yes	th-main	tl-01932	
+animals	ネズミ	หนู	mouse	yes	th-main	tl-00173	
+animals	ウサギ	กระต่าย	rabbit	yes	th-main	tl-02774	check: 兎
+animals	ヤギ	แพะ	goat	yes	th-main	tl-03364	
+animals	羊	แกะ	sheep	yes	th-main	tl-01714	
+animals	ワニ	จระเข้	crocodile	yes	th-main	tl-42027	
+animals	カメ	เต่า	turtle	yes	th-main	tl-02875	check: 亀
+animals	カエル	กบ	frog	yes	th-main	tl-02054	check: 蛙
+animals	トカゲ|ヤモリ	จิ้งจก	gecko	yes	th-main	tl-47141	
+animals	オオトカゲ	ตัวเงินตัวทอง|เหี้ย	monitor lizard	yes	th-main	tl-53767	
+animals	虫	แมลง	insect	yes	th-main	tl-01999	
+animals	蚊	ยุง	mosquito	yes	th-main	tl-01108	
+animals	ハエ	แมลงวัน	fly	yes	th-main	tl-43047	
+animals	アリ	มด	ant	yes	th-main	tl-02080	
+animals	ゴキブリ	แมลงสาบ	cockroach	yes	th-main	tl-51110	
+animals	蝶	ผีเสื้อ	butterfly	yes	th-main	tl-02077	
+animals	蜂	ผึ้ง	bee	yes	th-main	tl-03534	check: ミツバチ
+animals	クモ	แมงมุม	spider	yes	th-main	tl-04238	check: 蜘蛛
+animals	イルカ	โลมา	dolphin	yes	th-main	tl-53770	
+animals	クジラ	วาฬ|ปลาวาฬ	whale	yes	th-alt	tl-40634	
+animals	サメ	ฉลาม|ปลาฉลาม	shark	yes	th-main	tl-51462	
+animals	ペット	สัตว์เลี้ยง	pet	yes	th-main	tl-03665	
+animals	しっぽ|尾	หาง	tail	yes	th-main	tl-01965	
+animals	羽	ขน|ปีก	feather/wing	yes	th-main	tl-00756	check: 運ぶ・運搬する/体毛・毛皮
+plants	植物	พืช|ต้นไม้	plant	yes	th-main	tl-02315	
+plants	木	ต้นไม้	tree	yes	th-main	tl-00818	
+plants	花	ดอกไม้	flower	yes	th-main	tl-00840	
+plants	草	หญ้า	grass	yes	th-main	tl-01813	
+plants	葉|葉っぱ	ใบไม้	leaf	yes	th-main	tl-02890	
+plants	根	ราก	root	yes	th-main	tl-02971	
+plants	種	เมล็ด	seed	yes	th-main	tl-02893	
+plants	枝	กิ่ง|กิ่งไม้	branch	yes	th-main	tl-04709	
+plants	バラ	ดอกกุหลาบ|กุหลาบ	rose	yes	th-main	tl-51466	
+plants	ハス|蓮	ดอกบัว|บัว	lotus	yes	th-main	tl-42453	
+plants	ジャスミン	มะลิ	jasmine	yes	th-main	tl-43190	
+plants	竹	ไผ่	bamboo	yes	th-main	tl-05069	
+plants	ヤシ	ต้นมะพร้าว|ปาล์ม	palm	yes	th-main	tl-51733	
+plants	蘭	กล้วยไม้	orchid	yes	th-main	tl-48726	
+plants	植える	ปลูก	plant	yes	th-main	tl-01516	
+places	場所	สถานที่|ที่	place	yes	th-main	tl-01207	
+places	町|街	เมือง	town	yes	th-main	tl-00240	
+places	村	หมู่บ้าน	village	yes	th-main	tl-00901	
+places	田舎	ต่างจังหวัด|ชนบท	countryside	yes	th-main	tl-02130	check: 地方・バンコク以外の県/地方の・町の外の
+places	都市	เมือง|เมืองใหญ่	city	yes	th-main	tl-00240	
+places	国	ประเทศ	country	yes	th-main	tl-00307	
+places	県	จังหวัด	province	yes	th-main	tl-01087	
+places	道	ถนน|ทาง	road	yes	th-main	tl-00542	
+places	路地|ソイ	ซอย	lane	yes	th-main	tl-02048	
+places	橋	สะพาน	bridge	yes	th-main	tl-01800	
+places	駅	สถานี	station	yes	th-main	tl-00921	
+places	空港	สนามบิน	airport	yes	th-main	tl-01055	
+places	バス停	ป้ายรถเมล์	bus stop	yes	th-main	tl-02139	
+places	港	ท่าเรือ	port	yes	th-main	tl-03016	
+places	学校	โรงเรียน	school	yes	th-main	tl-00378	
+places	大学	มหาวิทยาลัย	university	yes	th-main	tl-00857	
+places	会社	บริษัท	company	yes	th-main	tl-00531	
+places	事務所|オフィス	สำนักงาน|ออฟฟิศ	office	yes	th-main	tl-00900	
+places	銀行	ธนาคาร	bank	yes	th-main	tl-00928	
+places	郵便局	ไปรษณีย์	post office	yes	th-main	tl-01089	
+places	警察署	สถานีตำรวจ|โรงพัก	police station	yes	th-main	tl-02078	
+places	寺|お寺	วัด	temple	yes	th-main	tl-00813	
+places	教会	โบสถ์	church	yes	th-main	tl-01805	
+places	公園	สวนสาธารณะ	park	yes	th-main	tl-02057	
+places	図書館	ห้องสมุด	library	yes	th-main	tl-02752	
+places	博物館	พิพิธภัณฑ์	museum	yes	th-main	tl-03003	
+places	映画館	โรงหนัง	cinema	yes	th-main	tl-02092	
+places	ホテル	โรงแรม	hotel	yes	th-main	tl-00836	
+places	レストラン	ร้านอาหาร	restaurant	yes	th-main	tl-00963	
+places	市場	ตลาด	market	yes	th-main	tl-00819	
+places	ナイトマーケット	ตลาดนัด|ตลาดกลางคืน	night market	yes	th-main	tl-02140	check: 定期的に開かれる市・露店市場
+places	工場	โรงงาน	factory	yes	th-main	tl-01648	
+places	大使館	สถานทูต	embassy	yes	th-main	tl-04425	
+places	宮殿|王宮	วัง|พระราชวัง	palace	yes	th-main	tl-02348	
+places	動物園	สวนสัตว์	zoo	yes	th-main	tl-03471	
+places	プール	สระว่ายน้ำ	swimming pool	yes	th-main	tl-04942	
+places	ジム	ฟิตเนส|ยิม	gym	yes	th-main	tl-51406	
+places	ガソリンスタンド	ปั๊มน้ำมัน	gas station	yes	th-main	tl-02131	
+places	駐車場	ที่จอดรถ	parking lot	yes	th-main	tl-02097	
+places	入口	ทางเข้า	entrance	yes	th-main	tl-02033	
+places	出口	ทางออก	exit	yes	th-main	tl-01836	
+places	首都	เมืองหลวง	capital	yes	th-main	tl-03456	
+places	バンコク	กรุงเทพ|กรุงเทพฯ	Bangkok	yes	th-alt	tl-51011	
+places	日本	ญี่ปุ่น|ประเทศญี่ปุ่น	Japan	yes	th-main	tl-42764	
+places	タイ	ไทย|ประเทศไทย	Thailand	yes	th-main	tl-40106	
+places	中国	จีน	China	yes	th-main	tl-40657	
+places	アメリカ	อเมริกา	America	yes	th-main	tl-51002	
+places	韓国	เกาหลี|เกาหลีใต้	Korea	yes	th-main	tl-51003	
+places	イギリス	อังกฤษ	England	yes	th-main	tl-51004	
+places	チェンマイ	เชียงใหม่	Chiang Mai	yes	th-main	tl-42190	
+places	プーケット	ภูเก็ต	Phuket	yes	th-main	tl-51012	
+places	東京	โตเกียว	Tokyo	yes	th-main	tl-51010	
+places	英語	ภาษาอังกฤษ	English	yes	th-main	tl-01675	
+places	日本語	ภาษาญี่ปุ่น	Japanese language	yes	th-main	tl-51015	
+places	タイ語	ภาษาไทย	Thai language	yes	th-main	tl-51014	
+places	言語|言葉	ภาษา	language	yes	th-main	tl-00429	
+shops	店	ร้าน	shop	yes	th-main	tl-00340	
+shops	コンビニ	ร้านสะดวกซื้อ|เซเว่น	convenience store	yes	th-main	tl-02148	
+shops	スーパー	ซูเปอร์มาร์เก็ต|ซูเปอร์	supermarket	yes	th-main	tl-04946	
+shops	デパート|ショッピングモール	ห้าง|ห้างสรรพสินค้า	department store	yes	th-main	tl-01064	
+shops	カフェ|喫茶店	ร้านกาแฟ|คาเฟ่	cafe	yes	th-main	tl-51082	
+shops	本屋	ร้านหนังสือ	bookstore	yes	th-main	tl-51084	
+shops	美容院	ร้านทำผม	hair salon	yes	th-main	tl-57229	
+shops	床屋	ร้านตัดผม	barber	yes	th-main	tl-51085	
+shops	洗濯屋|クリーニング店	ร้านซักรีด	laundry	yes	th-main	tl-51399	
+shops	マッサージ店|マッサージ	ร้านนวด|นวด	massage	yes	th-main	tl-51086	
+shops	屋台（食べ物）	ร้านข้างทาง	street food stall	yes	gloss	tl-48357:แผงลอย	
+shops	服屋	ร้านเสื้อผ้า	clothing store	yes	th-main	tl-51396	
+shops	携帯ショップ	ร้านมือถือ	phone shop	yes	th-main	tl-57226	
+shops	金物屋	ร้านฮาร์ดแวร์	hardware store	excluded	hand:not basic		
+shops	両替所	ร้านแลกเงิน|ที่แลกเงิน	exchange booth	yes	th-main	tl-51489	
+shops	パン屋	ร้านเบเกอรี่	bakery	yes	th-main	tl-51688	
+transport	車	รถ|รถยนต์	car	yes	th-main	tl-00209	
+transport	バス	รถเมล์|รถบัส	bus	yes	th-main	tl-01075	
+transport	電車	รถไฟ	train	yes	th-main	tl-00954	
+transport	スカイトレイン|BTS	รถไฟฟ้า	skytrain	yes	th-main	tl-01123	check: 都市鉄道・電車/電気自動車
+transport	地下鉄	รถไฟใต้ดิน	subway	yes	th-main	tl-51090	
+transport	タクシー	แท็กซี่	taxi	yes	th-main	tl-01048	
+transport	バイク	มอเตอร์ไซค์	motorbike	yes	th-main	tl-01097	
+transport	バイクタクシー	มอเตอร์ไซค์รับจ้าง|วินมอเตอร์ไซค์	motorbike taxi	yes	th-main	tl-51419	
+transport	トゥクトゥク	ตุ๊กตุ๊ก	tuk-tuk	yes	th-main	tl-02152	
+transport	ソンテウ	สองแถว	songthaew	yes	th-main	tl-53907	
+transport	自転車	จักรยาน	bicycle	yes	th-main	tl-01033	
+transport	飛行機	เครื่องบิน	airplane	yes	th-main	tl-00948	
+transport	船|ボート	เรือ	boat	yes	th-main	tl-00423	
+transport	トラック	รถบรรทุก	truck	yes	th-main	tl-03133	
+transport	バン|ロットゥー	รถตู้	van	yes	th-main	tl-02056	
+transport	運転する	ขับ|ขับรถ	drive	yes	th-main	tl-00541	
+transport	乗る	ขึ้น|นั่ง	get on	yes	th-main	tl-00049	
+transport	降りる	ลง	get off	yes	th-main	tl-00103	
+transport	乗り換える	เปลี่ยน|ต่อรถ	transfer	yes	hand	tl-53059:ต่อรถ	
+transport	切符|チケット	ตั๋ว	ticket	yes	th-main	tl-01023	
+transport	運賃	ค่าโดยสาร	fare	yes	th-main	tl-02147	
+transport	運転手	คนขับ|คนขับรถ	driver	yes	th-main	tl-01046	
+transport	渋滞	รถติด	traffic jam	yes	th-main	tl-01107	
+transport	信号	ไฟแดง|สัญญาณไฟ	traffic light	yes	th-main	tl-51087	
+transport	交差点	สี่แยก|ทางแยก	intersection	yes	th-main	tl-01120	check: 四つ角
+transport	角	มุม|หัวมุม	corner	yes	th-main	tl-01314	
+transport	横断歩道	ทางม้าลาย	crosswalk	yes	th-main	tl-51411	
+transport	歩道	ทางเท้า|ฟุตบาท	sidewalk	yes	th-main	tl-47612	
+transport	歩道橋	สะพานลอย	footbridge	yes	th-main	tl-47960	
+transport	高速道路	ทางด่วน	expressway	yes	th-main	tl-51095	
+transport	左	ซ้าย	left	yes	th-main	tl-00858	
+transport	右	ขวา	right	yes	th-main	tl-00897	
+transport	左に曲がる	เลี้ยวซ้าย	turn left	yes	th-main	tl-01147	check: 左折する
+transport	右に曲がる	เลี้ยวขวา	turn right	yes	th-main	tl-01146	check: 右折する
+transport	曲がる	เลี้ยว	turn	yes	th-main	tl-01030	
+transport	まっすぐ	ตรงไป|ตรง	straight	yes	th-main	tl-00473	
+transport	戻る|Uターン	กลับรถ|ยูเทิร์น	U-turn	yes	th-main	tl-02127	
+transport	止まる|停まる	หยุด|จอด	stop	yes	th-main	tl-00185	
+transport	近い	ใกล้	near	yes	th-main	tl-00333	
+transport	遠い	ไกล	far	yes	th-main	tl-00431	
+transport	前	หน้า|ข้างหน้า	front	yes	th-main	tl-00148	
+transport	後ろ	หลัง|ข้างหลัง	behind	yes	th-main	tl-00232	
+transport	上	บน|ข้างบน	above	yes	th-main	tl-00168	
+transport	下	ล่าง|ข้างล่าง|ใต้	below	yes	th-main	tl-01010	
+transport	中	ใน|ข้างใน	inside	yes	th-main	tl-00017	
+transport	外	นอก|ข้างนอก	outside	yes	th-main	tl-00455	
+transport	横|そば	ข้าง|ข้างๆ	beside	yes	th-main	tl-00328	
+transport	隣	ข้างๆ|ติดกับ	next to	yes	th-main	tl-00464	
+transport	向かい	ตรงข้าม	opposite	yes	th-main	tl-00996	check: 逆/反対側(場所)
+transport	間	ระหว่าง	between	yes	th-main	tl-00260	
+transport	北	เหนือ|ทิศเหนือ	north	yes	th-main	tl-00572	
+transport	南	ใต้|ทิศใต้	south	yes	th-main	tl-00522	
+transport	東	ตะวันออก	east	yes	th-main	tl-00986	
+transport	西	ตะวันตก	west	yes	th-main	tl-00979	
+transport	地図	แผนที่	map	yes	th-main	tl-00964	
+transport	道に迷う	หลงทาง	get lost	yes	th-main	tl-01821	
+transport	距離	ระยะทาง	distance	yes	th-main	tl-03433	
+transport	方向	ทิศทาง|ทาง	direction	yes	th-main	tl-02371	
+transport	ここ	ที่นี่	here	yes	th-main	tl-00482	
+transport	そこ	ที่นั่น	there	yes	th-main	tl-00481	
+transport	あそこ	ที่โน่น	over there	yes	th-main	tl-02164	
+transport	こちら|こっち	ทางนี้	this way	yes	th-main	tl-00479	
+transport	ヘルメット	หมวกกันน็อค	helmet	yes	gloss	tl-51320:หมวกกันน็อก	
+transport	免許|運転免許	ใบขับขี่	driver's license	yes	th-main	tl-03671	
+transport	ガソリン	น้ำมัน	gasoline	yes	th-main	tl-00887	
+transport	事故	อุบัติเหตุ	accident	yes	th-main	tl-01495	
+travel	旅行	การท่องเที่ยว|เที่ยว	travel	yes	th-main	tl-53584	check: 観光・観光業
+travel	旅行する|遊びに行く	เที่ยว|ท่องเที่ยว	travel	yes	th-main	tl-00611	
+travel	観光客	นักท่องเที่ยว	tourist	yes	th-main	tl-02058	
+travel	パスポート	หนังสือเดินทาง|พาสปอร์ต	passport	yes	th-main	tl-51092	
+travel	ビザ	วีซ่า	visa	yes	th-main	tl-51093	
+travel	予約する	จอง	reserve	yes	th-main	tl-01625	
+travel	予約	การจอง	reservation	yes	th-main	tl-51428	
+travel	荷物	กระเป๋า|สัมภาระ	luggage	yes	th-main	tl-00670	check: かばん・バッグ・スーツケース/ポケット
+travel	スーツケース	กระเป๋าเดินทาง	suitcase	yes	th-main	tl-51072	
+travel	チェックイン	เช็คอิน	check in	yes	th-main	tl-53174	
+travel	チェックアウト	เช็คเอาท์	check out	yes	th-main	tl-53175	
+travel	フロント|受付	แผนกต้อนรับ|เคาน์เตอร์	reception	yes	th-main	tl-53900	
+travel	シングルルーム	ห้องเดี่ยว	single room	yes	th-main	tl-58755	
+travel	ツインルーム	ห้องเตียงคู่	twin room	excluded	hand:transparent (ห้อง+เตียงคู่)		
+travel	朝食付き	รวมอาหารเช้า	breakfast included	excluded	hand:transparent phrase		
+travel	観光	การท่องเที่ยว|ชมวิว	sightseeing	yes	th-main	tl-53584	
+travel	ガイド	ไกด์|มัคคุเทศก์	guide	yes	th-main	tl-51078	
+travel	写真	รูป|รูปถ่าย	photo	yes	th-main	tl-00349	
+travel	写真を撮る	ถ่ายรูป	take photo	yes	th-main	tl-01730	
+travel	お土産	ของฝาก|ของที่ระลึก	souvenir	yes	th-main	tl-51094	
+travel	入場料	ค่าเข้า|ค่าเข้าชม	admission fee	yes	th-main	tl-58737	
+travel	出発する	ออกเดินทาง|ออก	depart	yes	th-main	tl-54255	
+travel	到着する	ถึง|มาถึง	arrive	yes	th-main	tl-00063	
+travel	便（飛行機）	เที่ยวบิน	flight	yes	th-main	tl-02069	
+travel	入国	เข้าประเทศ	entry	yes	gloss	tl-58355:ขาเข้า	
+travel	税関	ศุลกากร	customs	yes	th-main	tl-51704	
+travel	海外	ต่างประเทศ	abroad	yes	th-main	tl-00947	
+travel	休暇|休み	วันหยุด|ลาพัก	vacation	yes	th-main	tl-01004	check: 休日
+travel	宿	ที่พัก	accommodation	yes	th-main	tl-05173	
+travel	ゲストハウス	เกสต์เฮาส์	guesthouse	yes	th-main	tl-51415	
+money	お金	เงิน	money	yes	th-main	tl-00169	
+money	バーツ	บาท	baht	yes	th-main	tl-02070	
+money	サタン	สตางค์	satang	yes	th-main	tl-02043	
+money	円（通貨）	เยน	yen	yes	hand	tl-51487:เงินเยน	
+money	現金	เงินสด	cash	yes	th-main	tl-01059	
+money	おつり	เงินทอน	change	yes	th-main	tl-02146	check: お釣り
+money	小銭	เหรียญ|เศษสตางค์	coins	yes	th-main	tl-01302	check: ドル/コイン/メダル
+money	お札|紙幣	แบงก์|ธนบัตร	banknote	yes	th-main	tl-48681	
+money	クレジットカード	บัตรเครดิต	credit card	yes	th-main	tl-01092	
+money	値段|価格	ราคา	price	yes	th-main	tl-00535	
+money	いくら	เท่าไร|เท่าไหร่	how much	yes	th-main	tl-41149	
+money	高い（値段）	แพง	expensive	yes	th-main	tl-00933	
+money	安い	ถูก	cheap	yes	th-main	tl-00101	
+money	割引	ส่วนลด|ลดราคา	discount	yes	th-main	tl-51120	
+money	値引きする|まける	ลด|ต่อราคา	reduce price	yes	th-main	tl-00528	check: 減らす・下げる・減る/下がる・減る
+money	セール	ลดราคา|เซล	sale	yes	th-main	tl-01139	check: 値下げする・割り引く/値下げ中の・割引された
+money	無料|ただ	ฟรี	free	yes	th-main	tl-00993	
+money	買う	ซื้อ	buy	yes	th-main	tl-00269	
+money	売る	ขาย	sell	yes	th-main	tl-00305	
+money	払う	จ่าย	pay	yes	th-main	tl-00425	
+money	支払い	การชำระเงิน|การจ่ายเงิน	payment	yes	hand	tl-54235:ชำระเงิน	
+money	会計|お勘定	เช็คบิล|เก็บเงิน	bill	yes	th-main	tl-02179	
+money	レシート|領収書	ใบเสร็จ	receipt	yes	th-main	tl-02110	
+money	買い物	ช้อปปิ้ง|ซื้อของ	shopping	yes	th-main	tl-02142	
+money	品物|商品	สินค้า|ของ	goods	yes	th-main	tl-00770	
+money	もの|物	ของ|สิ่ง	thing	yes	th-main	tl-00013	
+money	両替する	แลกเงิน	exchange money	yes	th-main	tl-02185	
+money	振り込む|送金する	โอน|โอนเงิน	transfer	yes	th-main	tl-01986	
+money	ATM	เอทีเอ็ม|ตู้เอทีเอ็ม	ATM	yes	th-main	tl-51118	
+money	口座	บัญชี|บัญชีธนาคาร	account	yes	th-main	tl-01336	
+money	QRコード	คิวอาร์โค้ด	QR code	yes	th-main	tl-50081	
+money	税金	ภาษี	tax	yes	th-main	tl-02270	
+money	給料	เงินเดือน	salary	yes	th-main	tl-01014	
+money	借りる	ยืม	borrow	yes	th-main	tl-01649	
+money	貸す	ให้ยืม	lend	yes	th-main	tl-56676	
+money	借金	หนี้	debt	yes	th-main	tl-01414	
+money	貯金する	เก็บเงิน|ออมเงิน	save money	yes	th-main	tl-02176	check: お金を貯める・ためておく/料金を集める・精算する
+money	チップ	ทิป	tip	yes	th-main	tl-51497	
+money	費用	ค่าใช้จ่าย	cost	yes	th-main	tl-01919	
+school	学校で勉強する|勉強する	เรียน|เรียนหนังสือ	study	yes	th-main	tl-00273	
+school	復習する	ทบทวน	review	yes	th-main	tl-02401	
+school	練習する	ฝึก|ซ้อม	practise	yes	th-main	tl-00712	
+school	教える	สอน	teach	yes	th-main	tl-00377	
+school	学ぶ|習う	เรียน|เรียนรู้	learn	yes	th-main	tl-00273	
+school	先生	ครู|อาจารย์	teacher	yes	th-main	tl-00444	
+school	学生|生徒	นักเรียน|นักศึกษา	student	yes	th-main	tl-00725	
+school	クラス|授業	ชั้นเรียน|คาบ	class	yes	th-main	tl-03298	
+school	教室	ห้องเรียน	classroom	yes	th-main	tl-01077	
+school	宿題	การบ้าน	homework	yes	th-main	tl-01076	
+school	試験|テスト	สอบ|ข้อสอบ	exam	yes	th-main	tl-00898	
+school	試験を受ける	สอบ	take exam	yes	th-main	tl-00898	
+school	合格する	สอบได้|สอบผ่าน	pass	yes	th-main	tl-54006	check: 試験に受かる・試験で（資格・順位を）得る
+school	不合格|落ちる	สอบตก	fail	yes	th-main	tl-53141	
+school	質問	คำถาม	question	yes	th-main	tl-00545	
+school	答え	คำตอบ	answer	yes	th-main	tl-00665	
+school	答える	ตอบ	answer	yes	th-main	tl-00354	
+school	質問する|聞く	ถาม	ask	yes	th-main	tl-00180	check: 尋ねる
+school	本	หนังสือ	book	yes	th-main	tl-00316	
+school	教科書	ตำรา|หนังสือเรียน	textbook	yes	th-main	tl-02479	
+school	ノート	สมุด	notebook	yes	th-main	tl-01035	
+school	辞書	พจนานุกรม	dictionary	yes	th-main	tl-42342	
+school	単語	คำศัพท์|ศัพท์	vocabulary	yes	th-main	tl-04935	
+school	文	ประโยค	sentence	yes	th-main	tl-00927	
+school	意味	ความหมาย	meaning	yes	th-main	tl-00539	
+school	文法	ไวยากรณ์	grammar	yes	th-main	tl-44210	
+school	発音	การออกเสียง	pronunciation	yes	th-main	tl-54023	
+school	文字	ตัวอักษร|ตัวหนังสือ	letter	yes	th-main	tl-02023	
+school	声調	วรรณยุกต์|เสียงวรรณยุกต์	tone	yes	th-main	tl-40764	
+school	卒業する	เรียนจบ|จบ	graduate	yes	th-main	tl-54217	
+school	入学する	เข้าเรียน	enter school	yes	th-main	tl-54275	
+school	小学校	ประถม|โรงเรียนประถม	primary school	yes	th-main	tl-04433	
+school	中学・高校	มัธยม	secondary school	yes	th-main	tl-03241	
+school	科目	วิชา	subject	yes	th-main	tl-00888	
+school	数学	คณิตศาสตร์|เลข	math	yes	th-main	tl-03864	
+school	科学	วิทยาศาสตร์	science	yes	th-main	tl-02242	
+school	歴史	ประวัติศาสตร์	history	yes	th-main	tl-02202	
+school	知識	ความรู้	knowledge	yes	th-main	tl-01408	
+school	成績	เกรด|คะแนน	grades	yes	th-main	tl-02898	
+school	点数	คะแนน	score	yes	th-main	tl-01472	
+school	間違い	ผิด|ข้อผิดพลาด	mistake	yes	th-main	tl-00220	
+school	正しい	ถูก|ถูกต้อง	correct	yes	th-main	tl-00101	
+school	奨学金	ทุน|ทุนการศึกษา	scholarship	yes	th-main	tl-01664	
+school	留学する	เรียนต่างประเทศ	study abroad	excluded	hand:transparent (เรียนต่อ exists)		
+school	消しゴム	ยางลบ	eraser	yes	th-main	tl-48851	
+school	定規	ไม้บรรทัด	ruler	yes	th-main	tl-47107	
+school	黒板	กระดาน	blackboard	yes	th-main	tl-03115	
+work	仕事	งาน	work	yes	th-main	tl-00139	
+work	働く	ทำงาน	work	yes	th-main	tl-00177	
+work	職業	อาชีพ	occupation	yes	th-main	tl-00811	
+work	会社員	พนักงานบริษัท	office worker	yes	th-main	tl-51077	
+work	社員|従業員	พนักงาน	employee	yes	th-main	tl-00925	
+work	上司	หัวหน้า|เจ้านาย	boss	yes	th-main	tl-00590	
+work	同僚	เพื่อนร่วมงาน	colleague	yes	th-main	tl-02046	
+work	社長	ประธานบริษัท|ผู้จัดการ	president	yes	th-main	tl-53538	
+work	店員	พนักงานขาย|คนขาย	shop staff	yes	th-main	tl-51357	check: 販売員・営業担当
+work	警察官|警察	ตำรวจ	police	yes	th-main	tl-00372	
+work	兵士|軍人	ทหาร	soldier	yes	th-main	tl-00556	
+work	弁護士	ทนาย|ทนายความ	lawyer	yes	th-main	tl-01424	
+work	エンジニア	วิศวกร	engineer	yes	th-main	tl-04368	
+work	料理人|コック	พ่อครัว|เชฟ	cook	yes	th-main	tl-46236	
+work	農家|農民	ชาวนา|เกษตรกร	farmer	yes	th-main	tl-02042	
+work	漁師	ชาวประมง	fisherman	yes	th-main	tl-51676	
+work	運転手（職業）	คนขับรถ	driver	yes	th-main	tl-03135	
+work	商人|商売人	พ่อค้า|แม่ค้า	merchant	yes	th-main	tl-01996	
+work	公務員	ข้าราชการ	civil servant	yes	th-main	tl-03320	
+work	僧侶|お坊さん	พระ	monk	yes	th-main	tl-00323	
+work	歌手	นักร้อง	singer	yes	th-main	tl-02022	
+work	俳優	นักแสดง|ดารา	actor	yes	th-main	tl-02641	
+work	記者	นักข่าว	reporter	yes	th-main	tl-02517	
+work	秘書	เลขา|เลขานุการ	secretary	yes	th-main	tl-03493	
+work	通訳	ล่าม	interpreter	yes	th-main	tl-04364	
+work	主婦	แม่บ้าน	housewife	yes	th-main	tl-02031	
+work	会議	ประชุม|การประชุม	meeting	yes	th-main	tl-00526	
+work	出張	ไปทำงานต่างจังหวัด|เดินทางไปทำงาน	business trip	yes	gloss	tl-03905:ทริป	
+work	残業	ทำงานล่วงเวลา|โอที	overtime	yes	th-main	tl-53537	
+work	休暇を取る	ลา|ลางาน	take leave	yes	th-main	tl-00616	
+work	面接	สัมภาษณ์	interview	yes	th-main	tl-01315	
+work	応募する	สมัคร|สมัครงาน	apply	yes	th-main	tl-01686	
+work	辞める	ลาออก	quit	yes	th-main	tl-01710	check: 辞職する・退職する／退学する
+work	雇う	จ้าง	hire	yes	th-main	tl-00860	
+work	名刺	นามบัตร	business card	yes	th-main	tl-51377	
+work	書類	เอกสาร	documents	yes	th-main	tl-00820	
+work	契約	สัญญา	contract	yes	th-main	tl-00368	
+work	仕事を探す	หางาน	look for job	yes	th-main	tl-53156	
+work	商売|ビジネス	ธุรกิจ	business	yes	th-main	tl-00681	
+work	経験	ประสบการณ์	experience	yes	th-main	tl-01275	
+work	責任	ความรับผิดชอบ	responsibility	yes	th-main	tl-01697	
+tech	電話	โทรศัพท์	telephone	yes	th-main	tl-00605	
+tech	携帯電話|スマホ	มือถือ|โทรศัพท์มือถือ	mobile phone	yes	th-main	tl-00834	
+tech	電話する|電話をかける	โทร|โทรศัพท์	call	yes	th-main	tl-00245	
+tech	電話番号	เบอร์โทร|เบอร์โทรศัพท์	phone number	yes	th-main	tl-51103	
+tech	メッセージ	ข้อความ	message	yes	th-main	tl-00586	
+tech	メッセージを送る	ส่งข้อความ	send message	yes	th-main	tl-53146	
+tech	メール	อีเมล	email	yes	th-main	tl-01079	
+tech	アプリ	แอป|แอพ|แอปพลิเคชัน	app	yes	th-main	tl-04966	
+tech	インターネット|ネット	อินเทอร์เน็ต|เน็ต	internet	yes	th-main	tl-02000	
+tech	Wi-Fi	ไวไฟ	wifi	yes	th-main	tl-51105	
+tech	パスワード	รหัสผ่าน|พาสเวิร์ด	password	yes	th-main	tl-04573	
+tech	充電する	ชาร์จ|ชาร์จแบต	charge	yes	th-main	tl-02105	
+tech	充電器	ที่ชาร์จ|สายชาร์จ	charger	yes	th-main	tl-51100	
+tech	バッテリー	แบต|แบตเตอรี่	battery	yes	th-main	tl-02119	
+tech	パソコン|コンピュータ	คอมพิวเตอร์|คอม	computer	yes	th-main	tl-00962	
+tech	ノートパソコン	โน้ตบุ๊ก	laptop	yes	th-main	tl-51099	
+tech	画面	หน้าจอ|จอ	screen	yes	th-main	tl-04417	
+tech	カメラ	กล้อง	camera	yes	th-main	tl-01436	
+tech	動画|ビデオ	วิดีโอ|คลิป	video	yes	th-main	tl-01766	
+tech	ダウンロードする	ดาวน์โหลด|โหลด	download	yes	th-main	tl-53041	
+tech	インストール	ติดตั้ง	install	yes	th-main	tl-02945	check: 設置する・取り付ける
+tech	ログイン	เข้าสู่ระบบ|ล็อกอิน	log in	yes	th-main	tl-54040	
+tech	登録する	ลงทะเบียน|สมัคร	register	yes	th-main	tl-03906	
+tech	アカウント	บัญชี|แอคเคาท์	account	yes	th-main	tl-01336	check: 口座(銀行)/名簿・帳簿・一覧
+tech	ウェブサイト|サイト	เว็บไซต์|เว็บ	website	yes	th-main	tl-02075	
+tech	検索する	ค้นหา|เสิร์ช	search	yes	th-main	tl-01446	
+tech	SNS|ソーシャルメディア	โซเชียล|โซเชียลมีเดีย	social media	yes	th-main	tl-04968	
+tech	フォローする	ติดตาม|ฟอลโลว์	follow	yes	th-main	tl-01318	
+tech	いいね	ไลก์	like	yes	th-main	tl-05002	
+tech	投稿する	โพสต์	post	yes	th-main	tl-03467	
+tech	シェアする	แชร์	share	yes	th-main	tl-04604	check: 共有する/ねずみ講・連鎖型の出資詐欺（組み合わせ）
+tech	写真を送る	ส่งรูป	send photo	yes	hand	tl-52140:ส่งรูปมาหน่อย	
+tech	電波	สัญญาณ	signal	yes	th-main	tl-01264	check: 信号・合図
+tech	電源を入れる|オンにする	เปิด	turn on	yes	th-main	tl-00241	
+tech	電源を切る|オフにする	ปิด	turn off	yes	th-main	tl-00369	check: 閉める・閉じる/消す/閉まっている・休業する
+tech	押す	กด	press	yes	th-main	tl-01306	
+tech	ボタン（機械）	ปุ่ม	button	yes	th-main	tl-02745	
+tech	プリンター	เครื่องพิมพ์|ปริ้นเตอร์	printer	yes	th-main	tl-51379	
+tech	印刷する	พิมพ์|ปริ้น	print	yes	th-main	tl-01520	
+tech	入力する|打つ	พิมพ์	type	yes	th-main	tl-01520	
+tech	保存する	บันทึก|เซฟ	save	yes	th-main	tl-01222	
+tech	削除する|消す	ลบ	delete	yes	th-main	tl-01441	
+tech	更新する|アップデート	อัปเดต	update	yes	th-main	tl-04969	
+tech	キーボード	คีย์บอร์ด|แป้นพิมพ์	keyboard	yes	th-main	tl-51443	
+tech	マウス（PC）	เมาส์	mouse	yes	th-main	tl-51444	
+tech	イヤホン	หูฟัง	earphones	yes	th-main	tl-05034	
+tech	スピーカー	ลำโพง	speaker	yes	th-main	tl-05029	
+tech	ファイル	ไฟล์	file	yes	th-main	tl-03613	
+tech	データ	ข้อมูล	data	yes	th-main	tl-01162	
+tech	オンライン	ออนไลน์	online	yes	th-main	tl-03283	
+tech	ビデオ通話	วิดีโอคอล	video call	yes	th-main	tl-54046	
+tech	壊れる|故障する	เสีย|พัง	break down	yes	th-main	tl-00188	check: 失う・費やす・無駄にする（時間・お金など）/動作を促したり完了を強めたりする語/故障している／腐っている（食べ物）/亡くなる（婉曲な言い方）
+tech	修理する|直す	ซ่อม	repair	yes	th-main	tl-01590	
+tech	技術	เทคโนโลยี	technology	yes	th-main	tl-02260	check: テクノロジー
+tech	ロボット	หุ่นยนต์	robot	yes	th-main	tl-03526	
+tech	AI|人工知能	เอไอ|ปัญญาประดิษฐ์	AI	yes	th-main	tl-50068	
+hobbies	趣味	งานอดิเรก	hobby	yes	th-main	tl-03988	
+hobbies	スポーツ	กีฬา	sport	yes	th-main	tl-01655	
+hobbies	サッカー	ฟุตบอล|บอล	football	yes	th-main	tl-01031	
+hobbies	バスケットボール	บาสเกตบอล|บาส	basketball	yes	th-main	tl-51429	
+hobbies	バレーボール	วอลเลย์บอล	volleyball	yes	th-main	tl-51430	
+hobbies	テニス	เทนนิส	tennis	yes	th-main	tl-04333	
+hobbies	バドミントン	แบดมินตัน	badminton	yes	th-main	tl-51431	
+hobbies	ムエタイ	มวยไทย	Muay Thai	yes	th-main	tl-51096	
+hobbies	ボクシング	มวย|ชกมวย	boxing	yes	th-main	tl-03476	
+hobbies	水泳	ว่ายน้ำ	swimming	yes	th-main	tl-01024	
+hobbies	泳ぐ	ว่ายน้ำ	swim	yes	th-main	tl-01024	
+hobbies	走る|ジョギング	วิ่ง	run	yes	th-main	tl-00364	
+hobbies	ゴルフ	กอล์ฟ	golf	yes	th-main	tl-03731	
+hobbies	ヨガ	โยคะ	yoga	yes	th-main	tl-05230	
+hobbies	試合	การแข่งขัน|แมตช์	match	yes	th-main	tl-51097	
+hobbies	選手	นักกีฬา	athlete	yes	th-main	tl-02726	
+hobbies	チーム	ทีม	team	yes	th-main	tl-00453	
+hobbies	勝つ	ชนะ	win	yes	th-main	tl-00581	
+hobbies	負ける	แพ้	lose	yes	th-main	tl-00763	
+hobbies	音楽	เพลง|ดนตรี	music	yes	th-main	tl-00403	check: 歌・曲/曲を数える類別詞
+hobbies	歌	เพลง	song	yes	th-main	tl-00403	
+hobbies	歌う	ร้อง|ร้องเพลง	sing	yes	th-main	tl-00563	
+hobbies	踊る|ダンス	เต้น|เต้นรำ	dance	yes	th-main	tl-00718	
+hobbies	映画	หนัง|ภาพยนตร์	movie	yes	th-main	tl-00562	
+hobbies	映画を見る	ดูหนัง	watch movie	yes	th-main	tl-02160	
+hobbies	ドラマ	ละคร|ซีรีส์	drama	yes	th-main	tl-01349	
+hobbies	読書	อ่านหนังสือ	reading	yes	th-main	tl-02175	check: 本を読む/勉強する・試験勉強をする
+hobbies	絵	ภาพ|รูป|ภาพวาด	picture	yes	th-main	tl-00321	
+hobbies	絵を描く	วาดรูป	draw	yes	th-main	tl-02015	
+hobbies	ゲーム	เกม	game	yes	th-main	tl-00653	
+hobbies	ゲームをする	เล่นเกม	play games	yes	th-main	tl-02182	
+hobbies	遊ぶ	เล่น	play	yes	th-main	tl-00192	
+hobbies	釣り	ตกปลา	fishing	yes	th-main	tl-04014	check: 魚を釣る
+hobbies	キャンプ	แคมป์ปิ้ง|ตั้งแคมป์	camping	yes	th-main	tl-51722	
+hobbies	楽器	เครื่องดนตรี	instrument	yes	th-main	tl-44719	
+hobbies	ギター	กีตาร์	guitar	yes	th-main	tl-04795	
+hobbies	ピアノ	เปียโน	piano	yes	th-main	tl-03627	
+hobbies	コンサート	คอนเสิร์ต	concert	yes	th-main	tl-02065	
+hobbies	カラオケ	คาราโอเกะ	karaoke	yes	th-main	tl-51440	
+hobbies	パーティー	ปาร์ตี้|งานเลี้ยง	party	yes	th-main	tl-01313	
+hobbies	散歩する	เดินเล่น	stroll	yes	th-main	tl-53180	
+hobbies	旅行好き	ชอบเที่ยว	likes travel	excluded	hand:transparent		
+hobbies	料理（趣味）	ทำอาหาร	cooking	yes	th-main	tl-00480	
+hobbies	ボール	ลูกบอล|บอล	ball	yes	th-main	tl-04210	
+emotions	うれしい	ดีใจ	glad	yes	th-main	tl-00396	
+emotions	楽しい	สนุก	fun	yes	th-main	tl-00357	
+emotions	幸せ	มีความสุข|สุข	happy	yes	th-main	tl-00493	
+emotions	悲しい	เสียใจ|เศร้า	sad	yes	th-main	tl-00371	
+emotions	怒る	โกรธ	angry	yes	th-main	tl-00568	
+emotions	怖い	กลัว|น่ากลัว	scared/scary	yes	th-main	tl-00276	check: 怖がる
+emotions	心配する	เป็นห่วง|กังวล	worry	yes	th-main	tl-00778	
+emotions	寂しい	เหงา	lonely	yes	th-main	tl-01029	
+emotions	恥ずかしい	อาย	embarrassed	yes	th-main	tl-01463	
+emotions	驚く|びっくりする	ตกใจ	surprised	yes	th-main	tl-00787	
+emotions	退屈|つまらない	เบื่อ|น่าเบื่อ	bored/boring	yes	th-main	tl-00903	
+emotions	好き	ชอบ	like	yes	th-main	tl-00134	
+emotions	嫌い	ไม่ชอบ|เกลียด	dislike	yes	th-main	tl-51990	check: 好きじゃない・気に入らない
+emotions	愛する|愛している	รัก	love	yes	th-main	tl-00144	
+emotions	恋しい|会いたい	คิดถึง	miss	yes	th-main	tl-00391	
+emotions	緊張する	ตื่นเต้น|ประหม่า	nervous	yes	th-main	tl-00744	
+emotions	興奮する|わくわく	ตื่นเต้น	excited	yes	th-main	tl-00744	
+emotions	感動する	ประทับใจ|ซึ้ง	moved	yes	th-main	tl-01582	check: 感銘を受ける・強く心に残る
+emotions	がっかり	ผิดหวัง	disappointed	yes	th-main	tl-01478	
+emotions	満足	พอใจ	satisfied	yes	th-main	tl-00699	
+emotions	後悔する	เสียใจ|เสียดาย	regret	yes	th-main	tl-00371	check: 悲しい・申し訳ない/お気の毒に・残念だったね（共感・お悔やみ）
+emotions	もったいない|残念	เสียดาย	what a waste	yes	th-main	tl-01536	
+emotions	うらやましい	อิจฉา	envious	yes	th-main	tl-01899	
+emotions	嫉妬	หึง	jealous (romantic)	yes	th-main	tl-03871	check: やきもちを焼く（恋愛）
+emotions	安心する	สบายใจ|โล่งใจ	relieved	yes	th-main	tl-01439	
+emotions	イライラする	หงุดหงิด	irritated	yes	th-main	tl-01894	check: いらいらした・不機嫌な
+emotions	感情|気持ち	ความรู้สึก	feeling	yes	th-main	tl-00404	
+emotions	気分	อารมณ์	mood	yes	th-main	tl-00567	
+emotions	笑う	หัวเราะ	laugh	yes	th-main	tl-00674	
+emotions	ほほえむ|笑顔	ยิ้ม	smile	yes	th-main	tl-00634	
+emotions	泣く	ร้องไห้	cry	yes	th-main	tl-00784	
+emotions	性格	นิสัย	personality	yes	th-main	tl-01339	
+emotions	優しい	ใจดี	kind	yes	th-main	tl-00991	
+emotions	親切	ใจดี|มีน้ำใจ	kind	yes	th-main	tl-00991	
+emotions	賢い|頭がいい	ฉลาด	smart	yes	th-main	tl-00660	
+emotions	ばか	โง่	stupid	yes	th-main	tl-00412	check: 馬鹿な・愚かな
+emotions	怠け者|怠惰	ขี้เกียจ	lazy	yes	th-main	tl-01070	
+emotions	勤勉|まじめ	ขยัน	diligent	yes	th-main	tl-01060	
+emotions	まじめ（性格）	จริงจัง	serious	yes	th-main	tl-01364	check: 真剣な・本気の/真剣に・本気で
+emotions	面白い	ตลก|น่าสนใจ	funny/interesting	yes	th-main	tl-00637	
+emotions	面白い（興味深い）	น่าสนใจ	interesting	yes	th-main	tl-00829	check: 興味深い
+emotions	おもしろい人	ตลก	funny	yes	th-main	tl-00637	check: 面白い/お笑い芸人・コメディアン
+emotions	恥ずかしがり|内気	ขี้อาย	shy	yes	th-main	tl-02111	
+emotions	けち	ขี้เหนียว|งก	stingy	yes	th-main	tl-47125	
+emotions	わがまま	เอาแต่ใจ	selfish	yes	th-main	tl-54298	
+emotions	明るい（性格）	ร่าเริง	cheerful	yes	th-main	tl-03099	check: 陽気な・快活な
+emotions	正直	ซื่อสัตย์	honest	yes	th-main	tl-01912	
+emotions	うそ	โกหก	lie	yes	th-main	tl-00406	check: 嘘をつく/嘘・偽りの話
+emotions	礼儀正しい|丁寧	สุภาพ	polite	yes	th-main	tl-01998	
+emotions	失礼	เสียมารยาท	rude	yes	th-main	tl-54302	
+emotions	忍耐|我慢する	อดทน	endure	yes	th-main	tl-01513	
+emotions	自信	ความมั่นใจ|มั่นใจ	confidence	yes	th-main	tl-02593	
+emotions	美しい|きれい	สวย	beautiful	yes	th-main	tl-00304	
+emotions	かっこいい|ハンサム	หล่อ	handsome	yes	th-main	tl-00944	
+emotions	かわいい	น่ารัก	cute	yes	th-main	tl-00613	
+emotions	醜い|ぶさいく	ขี้เหร่	ugly	yes	th-main	tl-47557	check: 不細工な・見た目が悪い
+emotions	気楽|のんびり	สบายๆ	relaxed	yes	th-main	tl-45768	
+emotions	気にしない|大丈夫	ไม่เป็นไร	never mind	yes	th-main	tl-00207	
+emotions	マイペンライ	ไม่เป็นไร	never mind	yes	th-main	tl-00207	check: 大丈夫・気にしないで/結構です・大丈夫です（丁寧に断る）/無事である・けががない・大丈夫だ
+verbs	行く	ไป	go	yes	th-main	tl-00006	
+verbs	来る	มา	come	yes	th-main	tl-00012	
+verbs	帰る	กลับ|กลับบ้าน	return	yes	th-main	tl-00080	
+verbs	戻る	กลับ|กลับมา	come back	yes	th-main	tl-00080	
+verbs	食べる	กิน|ทาน|รับประทาน	eat	yes	th-main	tl-00158	
+verbs	飲む	ดื่ม|กิน	drink	yes	th-main	tl-00315	
+verbs	見る	ดู|เห็น	look	yes	th-main	tl-00061	
+verbs	見える|見かける	เห็น	see	yes	th-main	tl-00069	
+verbs	聞く	ฟัง	listen	yes	th-main	tl-00136	
+verbs	聞こえる	ได้ยิน	hear	yes	th-main	tl-00199	
+verbs	話す	พูด	speak	yes	th-main	tl-00062	
+verbs	しゃべる|おしゃべりする	คุย	chat	yes	th-main	tl-00161	
+verbs	言う	บอก|ว่า|พูด	say/tell	yes	th-main	tl-00045	
+verbs	読む	อ่าน	read	yes	th-main	tl-00277	
+verbs	書く	เขียน	write	yes	th-main	tl-00282	
+verbs	寝る	นอน	sleep	yes	th-main	tl-00267	
+verbs	眠る	หลับ|นอนหลับ	fall asleep	yes	th-main	tl-00575	
+verbs	起きる	ตื่น|ตื่นนอน	wake up	yes	th-main	tl-00585	check: 起床する/驚く・おびえる／興奮する（複合語で）
+verbs	座る	นั่ง	sit	yes	th-main	tl-00205	
+verbs	立つ	ยืน	stand	yes	th-main	tl-00375	
+verbs	歩く	เดิน	walk	yes	th-main	tl-00190	
+verbs	する	ทำ	do	yes	th-main	tl-00033	
+verbs	作る	ทำ|สร้าง	make	yes	th-main	tl-00033	
+verbs	使う	ใช้	use	yes	th-main	tl-00076	
+verbs	持つ	ถือ|มี	hold	yes	th-main	tl-00383	
+verbs	持っていく	เอาไป	take along	yes	th-main	tl-56614	
+verbs	持ってくる	เอามา	bring	yes	gloss	tl-00074:เอา	
+verbs	ある|持っている	มี	have	yes	th-main	tl-00009	
+verbs	いる|ある（存在）	อยู่	be (at)	yes	th-main	tl-00024	
+verbs	〜である	เป็น|คือ	be	yes	th-main	tl-00008	
+verbs	なる	กลายเป็น|เป็น	become	yes	th-main	tl-00359	
+verbs	あげる|与える	ให้	give	yes	th-main	tl-00014	
+verbs	もらう|受け取る	ได้|ได้รับ|รับ	receive	yes	th-main	tl-00005	
+verbs	取る	เอา|หยิบ	take	yes	th-main	tl-00074	
+verbs	置く	วาง	put	yes	th-main	tl-00366	
+verbs	入れる	ใส่	put in	yes	th-main	tl-00212	
+verbs	出す	เอาออก	take out	yes	gloss	tl-02888:เสิร์ฟ	
+verbs	開ける	เปิด	open	yes	th-main	tl-00241	
+verbs	閉める	ปิด	close	yes	th-main	tl-00369	
+verbs	待つ	รอ	wait	yes	th-main	tl-00181	
+verbs	会う	เจอ|พบ	meet	yes	th-main	tl-00106	
+verbs	探す	หา	search	yes	th-main	tl-00093	
+verbs	見つける	เจอ|พบ	find	yes	th-main	tl-00106	
+verbs	知る|知っている	รู้|รู้จัก	know	yes	th-main	tl-00036	
+verbs	わかる|理解する	เข้าใจ	understand	yes	th-main	tl-00149	
+verbs	思う|考える	คิด	think	yes	th-main	tl-00055	
+verbs	覚える|記憶する	จำ	remember	yes	th-main	tl-00236	
+verbs	忘れる	ลืม	forget	yes	th-main	tl-00303	
+verbs	欲しい	อยาก|อยากได้|ต้องการ	want	yes	th-main	tl-00046	check: 〜したい
+verbs	〜したい	อยาก	want to	yes	th-main	tl-00046	
+verbs	できる	ได้|เป็น	can	yes	th-main	tl-00005	
+verbs	始める|始まる	เริ่ม	begin	yes	th-main	tl-00194	
+verbs	終わる	จบ|เสร็จ	end	yes	th-main	tl-00281	
+verbs	続ける	ต่อ|ทำต่อ	continue	yes	th-main	tl-00133	
+verbs	やめる	เลิก|หยุด	quit	yes	th-main	tl-00332	
+verbs	手伝う|助ける	ช่วย	help	yes	th-main	tl-00088	
+verbs	頼む	ขอ	request	yes	th-main	tl-00115	
+verbs	送る	ส่ง	send	yes	th-main	tl-00170	
+verbs	受ける	รับ	receive	yes	th-main	tl-00160	
+verbs	呼ぶ	เรียก	call	yes	th-main	tl-00226	
+verbs	説明する	อธิบาย	explain	yes	th-main	tl-00520	
+verbs	教える（伝える）	บอก	tell	yes	th-main	tl-00045	check: 言う・伝える
+verbs	信じる	เชื่อ	believe	yes	th-main	tl-00186	
+verbs	決める	ตัดสินใจ	decide	yes	th-main	tl-00422	
+verbs	選ぶ	เลือก	choose	yes	th-main	tl-00279	
+verbs	比べる	เปรียบเทียบ	compare	yes	th-main	tl-02286	check: 比較する
+verbs	試す|やってみる	ลอง	try	yes	th-main	tl-00264	
+verbs	準備する	เตรียม	prepare	yes	th-main	tl-00558	
+verbs	片付ける	เก็บ|จัด	tidy	yes	th-main	tl-00255	check: しまう・保管する/集める・収穫する/消す・殺す（隠語）
+verbs	掃除する	ทำความสะอาด	clean	yes	th-main	tl-01007	
+verbs	洗濯する	ซักผ้า	do laundry	yes	th-main	tl-03847	
+verbs	シャワーを浴びる|水浴びする	อาบน้ำ	bathe	yes	th-main	tl-00942	
+verbs	歯を磨く	แปรงฟัน	brush teeth	yes	th-main	tl-01110	
+verbs	住む	อยู่|อาศัย	live	yes	th-main	tl-00024	
+verbs	生まれる	เกิด	be born	yes	th-main	tl-00111	
+verbs	死ぬ	ตาย|เสียชีวิต	die	yes	th-main	tl-00121	
+verbs	生きる	มีชีวิต|อยู่	live	yes	th-alt	tl-00024	check: いる・ある・住む（居場所・生存）/〜している（進行・継続）/結構〜だ・かなり〜だ（状態の後ろ）/〜次第だ・〜による
+verbs	育てる	เลี้ยง	raise	yes	th-main	tl-00436	
+verbs	飼う	เลี้ยง	keep (pet)	yes	th-main	tl-00436	
+verbs	乗る（車）	นั่ง|ขึ้น	ride	yes	th-main	tl-00205	check: 座る/乗り物に乗って行く
+verbs	運ぶ	ขน|ยก	carry	yes	th-main	tl-00756	
+verbs	持ち上げる	ยก	lift	yes	th-main	tl-00393	
+verbs	落とす	ทำตก	drop	yes	th-main	tl-53071	
+verbs	落ちる	ตก	fall	yes	th-main	tl-00424	
+verbs	倒れる	ล้ม	fall over	yes	th-main	tl-01389	
+verbs	壊す	ทำพัง|ทำเสีย	break	yes	th-main	tl-53072	check: 壊してしまう
+verbs	割れる	แตก	crack	yes	th-main	tl-00753	
+verbs	なくす	ทำหาย	lose	yes	th-main	tl-53074	
+verbs	消える|なくなる	หาย	disappear	yes	th-main	tl-00291	
+verbs	残る	เหลือ	remain	yes	th-main	tl-00347	
+verbs	増える	เพิ่ม|เพิ่มขึ้น	increase	yes	th-main	tl-00348	
+verbs	減る	ลด|ลดลง	decrease	yes	th-main	tl-00528	
+verbs	変わる|変える	เปลี่ยน	change	yes	th-main	tl-00259	
+verbs	動く	ขยับ|เคลื่อนที่	move	yes	th-main	tl-00848	check: 動かす・少し移動する
+verbs	押す	ผลัก|ดัน	push	yes	th-main	tl-02349	
+verbs	引く	ดึง	pull	yes	th-main	tl-00690	check: 引っ張る
+verbs	投げる	โยน|ขว้าง	throw	yes	th-main	tl-01378	
+verbs	打つ|叩く	ตี	hit	yes	th-main	tl-00624	
+verbs	蹴る	เตะ	kick	yes	th-main	tl-01874	
+verbs	つかむ	จับ	grab	yes	th-main	tl-00262	
+verbs	触る	จับ|แตะ	touch	yes	th-main	tl-00262	
+verbs	抱きしめる	กอด	hug	yes	th-main	tl-01440	
+verbs	キスする	จูบ	kiss	yes	th-main	tl-01418	
+verbs	吸う	สูบ|ดูด	smoke/suck	yes	th-main	tl-01824	
+verbs	たばこを吸う	สูบบุหรี่	smoke	yes	th-main	tl-02621	
+verbs	噛む	เคี้ยว|กัด	chew/bite	yes	th-main	tl-03401	
+verbs	切る（紙・髪）	ตัด	cut	yes	th-main	tl-00460	
+verbs	結ぶ|縛る	ผูก|มัด	tie	yes	th-main	tl-01637	
+verbs	包む	ห่อ	wrap	yes	th-main	tl-01905	
+verbs	掛ける|つるす	แขวน	hang	yes	th-main	tl-02421	
+verbs	貼る	ติด|แปะ	stick	yes	th-main	tl-00290	check: くっつく・動けなくなる/中毒になる・はまる/取り付ける・設置する
+verbs	集める	เก็บ|รวบรวม	collect	yes	th-main	tl-00255	
+verbs	分ける	แบ่ง|แยก	divide	yes	th-main	tl-00714	
+verbs	並ぶ	เข้าคิว|ต่อแถว	line up	yes	th-main	tl-50491	
+verbs	注文する	สั่ง	order	yes	th-main	tl-00374	
+verbs	勧める	แนะนำ	recommend	yes	th-main	tl-00640	
+verbs	紹介する	แนะนำ	introduce	yes	th-main	tl-00640	
+verbs	招待する	เชิญ	invite	yes	th-main	tl-00527	
+verbs	約束する	สัญญา	promise	yes	th-main	tl-00368	
+verbs	断る	ปฏิเสธ	refuse	yes	th-main	tl-01243	check: 拒否する/否定する
+verbs	許す	ยกโทษ|อภัย	forgive	yes	th-main	tl-02346	
+verbs	謝る	ขอโทษ	apologize	yes	th-main	tl-00155	
+verbs	感謝する	ขอบคุณ	thank	yes	th-main	tl-00130	
+verbs	褒める	ชม	praise	yes	th-main	tl-00689	check: 見る・鑑賞する/ほめる・称賛する
+verbs	叱る	ดุ	scold	yes	th-main	tl-02685	
+verbs	怒鳴る	ตะโกน	shout	yes	th-main	tl-01499	check: 叫ぶ・大声を出す
+verbs	冗談を言う	พูดเล่น	joke	yes	th-main	tl-03120	
+verbs	うそをつく	โกหก	lie	yes	th-main	tl-00406	check: 嘘をつく/嘘・偽りの話
+verbs	けんかする	ทะเลาะ	quarrel	yes	th-main	tl-01485	
+verbs	戦う	สู้	fight	yes	th-main	tl-00555	
+verbs	守る	ปกป้อง|รักษา	protect	yes	th-main	tl-01202	
+verbs	守る（規則）	ทำตาม|ปฏิบัติตาม	follow (rule)	yes	th-main	tl-54238	check: （指示・言われた通りに）従う・その通りにする/まねる・同じようにする
+verbs	従う|ついていく	ตาม	follow	yes	th-main	tl-00087	
+verbs	案内する	พาไป|นำทาง	guide	yes	th-main	tl-54228	check: 連れて行く
+verbs	連れていく	พาไป	take (someone)	yes	th-main	tl-54228	check: 連れて行く
+verbs	迎えに行く	ไปรับ	pick up	yes	th-main	tl-54215	
+verbs	送っていく	ไปส่ง	drop off	yes	hand	tl-52178:ไปส่งหน่อย	
+verbs	訪ねる	ไปหา|เยี่ยม	visit	yes	th-alt	tl-00317	
+verbs	泊まる	พัก|ค้าง	stay overnight	yes	th-main	tl-00381	check: 休む・休憩する/しばらくの間・時期（พักนี้で「最近」）/宿泊する
+verbs	出かける	ออกไปข้างนอก|ไปข้างนอก	go out	yes	gloss	tl-54213:ออกไป	
+verbs	入る	เข้า	enter	yes	th-main	tl-00067	
+verbs	出る	ออก	exit	yes	th-main	tl-00065	
+verbs	上がる|登る	ขึ้น	go up	yes	th-main	tl-00049	
+verbs	下りる	ลง	go down	yes	th-main	tl-00103	
+verbs	登る（山）	ปีน	climb	yes	th-main	tl-01971	
+verbs	渡る	ข้าม	cross	yes	th-main	tl-00682	
+verbs	通る	ผ่าน	pass	yes	th-main	tl-00239	check: 通り過ぎる・通過する/過ぎる・経過する（時間）/合格する・通過する（試験・選考など）
+verbs	着く	ถึง	arrive	yes	th-main	tl-00063	check: 〜に・〜について（動詞の後ろ）/到着する・達する/それで〜する・どうして〜なのかを示す語
+verbs	急ぐ	รีบ	hurry	yes	th-main	tl-00322	
+verbs	遅れる	สาย|ช้า	be late	yes	th-main	tl-00336	check: 遅い・遅刻している/ひも・ケーブル・線/本・系統（道路・川）を数える類別詞
+verbs	間に合う	ทัน	be in time	yes	th-main	tl-00692	
+verbs	過ごす	ใช้เวลา	spend time	yes	th-main	tl-54208	check: （時間が）かかる/時間を使う・時間をかける
+verbs	使う（金）	ใช้เงิน	spend money	yes	gloss	tl-00076:ใช้	
+verbs	節約する	ประหยัด	save	yes	th-main	tl-01990	
+verbs	もうける|稼ぐ	หาเงิน	earn	yes	th-main	tl-53159	
+verbs	貸す（家）	ให้เช่า	rent out	yes	th-main	tl-53479	
+verbs	借りる（家）	เช่า	rent	yes	th-main	tl-00984	
+verbs	返す	คืน	return (thing)	yes	th-main	tl-00268	
+verbs	交換する	แลก|เปลี่ยน	exchange	yes	th-main	tl-01646	
+verbs	配達する	ส่ง|จัดส่ง	deliver	yes	th-main	tl-00170	check: 送る/届ける・送り届ける
+verbs	届く	ถึง|มาถึง	reach	yes	th-main	tl-00063	check: 〜に・〜について（動詞の後ろ）/到着する・達する/それで〜する・どうして〜なのかを示す語
+verbs	確認する	ตรวจสอบ|เช็ก	check	yes	th-main	tl-01258	check: 確認・検査する
+verbs	調べる	ตรวจ|ค้นหา	investigate	yes	th-main	tl-00557	check: 検査する
+verbs	直す（誤り）	แก้	fix	yes	th-main	tl-00593	
+verbs	計る|測る	วัด	measure	yes	th-main	tl-00813	
+verbs	重さを量る	ชั่ง	weigh	yes	th-main	tl-42737	
+verbs	計算する	คำนวณ|คิด	calculate	yes	th-main	tl-02341	
+verbs	翻訳する	แปล	translate	yes	th-main	tl-00975	
+verbs	通訳する	แปล	interpret	yes	th-main	tl-00975	check: 翻訳する/意味する・解釈する
+verbs	意味する	หมายความว่า|แปลว่า	mean	yes	th-main	tl-00384	check: 〜という意味だ・つまり〜だ
+verbs	発音する	ออกเสียง	pronounce	yes	th-main	tl-02007	
+verbs	繰り返す	พูดซ้ำ|ทำซ้ำ	repeat	yes	hand	tl-01323:ซ้ำ	
+verbs	練習する（スポーツ）	ซ้อม	practise	yes	th-main	tl-01539	
+verbs	覚える（暗記）	ท่อง	memorize	yes	th-main	tl-02629	
+verbs	気をつける	ระวัง	be careful	yes	th-main	tl-00536	
+verbs	注意する	ระวัง|เตือน	caution	yes	th-main	tl-00536	
+verbs	心配する	ห่วง	worry	yes	th-main	tl-00459	
+verbs	困る	ลำบาก|มีปัญหา	be in trouble	yes	th-main	tl-00822	check: 苦しい・困難な（暮らしなど）/〜しづらい・苦労して（動詞の後）
+verbs	迷う	ลังเล	hesitate	yes	th-main	tl-02673	check: 躊躇する
+verbs	失敗する	ล้มเหลว|พลาด	fail	yes	th-main	tl-01859	
+verbs	成功する	สำเร็จ	succeed	yes	th-main	tl-00646	
+verbs	頑張る	พยายาม|สู้	try hard	yes	th-main	tl-00200	check: 努力する
+verbs	慣れる	ชิน|คุ้น	get used to	yes	th-main	tl-02228	
+verbs	似ている	เหมือน|คล้าย	resemble	yes	th-main	tl-00114	
+verbs	合う（サイズ）	พอดี	fit	yes	th-main	tl-00668	check: ちょうどその時・折よく/ちょうどよい・ぴったりの
+verbs	足りる	พอ	be enough	yes	th-main	tl-00138	
+verbs	足りない	ไม่พอ|ขาด	insufficient	yes	th-alt	tl-00561	
+verbs	必要だ	ต้องการ|จำเป็น	need	yes	th-main	tl-00141	
+verbs	〜しなければならない	ต้อง	must	yes	th-main	tl-00032	
+verbs	〜してもいい	ได้	may	yes	th-main	tl-00005	check: できる・〜してよい/〜した・〜する機会を得た（動詞の前）/得る・受け取る・手に入れる/いいよ・承知した（返答）/〜してから…になる（経過時間）
+verbs	〜しないで	อย่า	don't	yes	th-main	tl-00100	
+verbs	〜させる	ให้	let/make	yes	th-main	tl-00014	
+verbs	〜される	ถูก|โดน	passive	yes	th-main	tl-00101	
+verbs	始まる（イベント）	เริ่ม	start	yes	th-main	tl-00194	check: 始める
+verbs	開く（店）	เปิด	open	yes	th-main	tl-00241	
+verbs	閉まる（店）	ปิด	close	yes	th-main	tl-00369	
+verbs	売り切れる	หมด	sold out	yes	th-main	tl-00196	check: 全部・すっかり/なくなる・尽きる
+verbs	なくなる（使い切る）	หมด	run out	yes	th-main	tl-00196	
+verbs	燃える	ไหม้	burn	yes	th-main	tl-01810	
+verbs	沸く|沸騰する	เดือด	boil	yes	th-main	tl-03445	
+verbs	冷える|冷やす	เย็น|แช่เย็น	chill	yes	th-main	tl-00583	check: 冷たい・涼しい/夕方/穏やかで落ち着いた
+verbs	凍る	แข็ง|แช่แข็ง	freeze	yes	th-main	tl-00985	check: 硬い/強い・たくましい・しっかりした
+verbs	溶ける	ละลาย	melt	yes	th-main	tl-02750	
+verbs	乾く	แห้ง	dry	yes	th-main	tl-01596	check: 乾いた
+verbs	濡れる	เปียก	wet	yes	th-main	tl-02004	
+verbs	咲く	บาน	bloom	yes	th-main	tl-01917	
+verbs	光る	ส่องแสง	shine	yes	gloss	tl-42601:เรือง	
+verbs	鳴る	ดัง	ring	yes	th-main	tl-00327	
+verbs	響く|音がする	มีเสียง	sound	yes	gloss	tl-03987:ก้อง	
+verbs	撮る	ถ่าย	shoot (photo)	yes	th-main	tl-00884	
+verbs	描く	วาด	draw	yes	th-main	tl-01471	
+verbs	塗る	ทา	paint/apply	yes	th-main	tl-01279	
+verbs	建てる	สร้าง	build	yes	th-main	tl-00225	check: 作る・建設する/生み出す・引き起こす
+verbs	育つ|成長する	โต|เติบโต	grow	yes	th-main	tl-00394	
+verbs	太る	อ้วน|อ้วนขึ้น	gain weight	yes	th-main	tl-00983	check: 太った
+verbs	やせる	ผอม|ผอมลง	lose weight	yes	th-main	tl-01061	check: 痩せた
+verbs	休憩する	พักผ่อน	take a break	yes	th-main	tl-01456	check: 休息する
+verbs	祈る	ภาวนา|อธิษฐาน	pray	yes	th-main	tl-02672	
+verbs	お参りする|拝む	ไหว้|ไหว้พระ	pay respects	yes	th-main	tl-04936	
+verbs	合掌する|ワイする	ไหว้	wai	yes	th-main	tl-04936	check: 拝む・お参りする/合掌してあいさつする・ワイをする/お願いだ・頼むよ（組み合わせ）
+verbs	寄付する|施す	บริจาค|ทำบุญ	donate/make merit	yes	th-main	tl-01837	
+verbs	タンブンする	ทำบุญ	make merit	yes	th-main	tl-05005	check: 徳を積む・善行や寄進をする/寄付する・慈善にお金を出す
+verbs	マッサージする	นวด	massage	yes	th-main	tl-02013	check: マッサージをする、揉む
+verbs	値切る	ต่อราคา	bargain	yes	th-main	tl-02161	
+verbs	試食する	ชิม	sample	yes	th-main	tl-01997	
+verbs	貯める	เก็บ|สะสม	accumulate	yes	th-main	tl-00255	check: しまう・保管する/集める・収穫する/消す・殺す（隠語）
+verbs	選挙する|投票する	เลือกตั้ง|โหวต	vote	yes	th-main	tl-02337	
+verbs	反対する	คัดค้าน|ไม่เห็นด้วย	oppose	yes	th-main	tl-02632	
+verbs	賛成する	เห็นด้วย	agree	yes	th-main	tl-00749	
+verbs	話し合う|相談する	ปรึกษา	consult	yes	th-main	tl-01623	
+verbs	議論する	อภิปราย|ถกเถียง	discuss	yes	th-main	tl-03742	check: 討論する・論じ合う
+verbs	伝える	บอก|แจ้ง	inform	yes	th-main	tl-00045	
+verbs	知らせる	แจ้ง	notify	yes	th-main	tl-00554	
+verbs	連絡する	ติดต่อ	contact	yes	th-main	tl-00560	
+verbs	キャンセルする	ยกเลิก	cancel	yes	th-main	tl-01510	
+verbs	延期する	เลื่อน	postpone	yes	th-main	tl-01448	
+verbs	待ち合わせる	นัด	arrange to meet	yes	th-main	tl-00737	check: 会う約束をする/会う約束・予約・デート/試合・発（試合・射撃など）を数える類別詞
+verbs	デートする	เดท	date	yes	th-main	tl-50037	
+verbs	付き合う	คบ|คบกัน	go out with	yes	th-main	tl-01375	
+verbs	別れる	เลิกกัน|แยกกัน	break up	yes	th-main	tl-02420	
+verbs	引退する	เกษียณ	retire	yes	th-main	tl-03582	
+verbs	寝坊する	ตื่นสาย	oversleep	yes	th-main	tl-53054	
+verbs	昼寝する	งีบ|นอนกลางวัน	nap	yes	th-main	tl-46626	
+verbs	夢を見る	ฝัน	dream	yes	th-main	tl-00617	
+verbs	運動する	ออกกำลังกาย	exercise	yes	th-main	tl-01040	
+adjectives	良い|いい	ดี	good	yes	th-main	tl-00039	
+adjectives	悪い	เลว|ไม่ดี	bad	yes	th-main	tl-00807	
+adjectives	新しい	ใหม่	new	yes	th-main	tl-00159	
+adjectives	古い	เก่า	old (thing)	yes	th-main	tl-00439	
+adjectives	年をとった|老いた	แก่	old (person)	yes	th-main	tl-00294	
+adjectives	若い	หนุ่ม|สาว|อายุน้อย	young	yes	th-main	tl-00525	
+adjectives	多い|たくさん	มาก|เยอะ	many	yes	th-main	tl-00044	
+adjectives	少ない|少し	น้อย	few	yes	th-main	tl-00227	
+adjectives	全部|すべて	ทั้งหมด	all	yes	th-main	tl-00246	
+adjectives	簡単|易しい	ง่าย	easy	yes	th-main	tl-00306	
+adjectives	難しい	ยาก	difficult	yes	th-main	tl-00326	
+adjectives	便利	สะดวก	convenient	yes	th-main	tl-01452	
+adjectives	不便	ไม่สะดวก	inconvenient	excluded	hand:judgement: transparent negation ไม่+สะดวก		
+adjectives	忙しい	ยุ่ง|ไม่ว่าง	busy	yes	th-main	tl-00428	
+adjectives	暇	ว่าง	free	yes	th-main	tl-00808	
+adjectives	大切|重要	สำคัญ	important	yes	th-main	tl-00215	
+adjectives	有名	มีชื่อเสียง|ดัง	famous	yes	th-main	tl-54306	
+adjectives	静か	เงียบ	quiet	yes	th-main	tl-00580	
+adjectives	うるさい|にぎやか	เสียงดัง|หนวกหู	noisy	yes	th-main	tl-54249	
+adjectives	にぎやか	คึกคัก	lively	yes	th-main	tl-44276	check: にぎわう・活気がある/元気いっぱいの・はしゃいだ
+adjectives	きれい（清潔）	สะอาด	clean	yes	th-main	tl-00917	check: 清潔な
+adjectives	汚い	สกปรก	dirty	yes	th-main	tl-00998	
+adjectives	明るい	สว่าง	bright	yes	th-main	tl-01890	
+adjectives	暗い	มืด	dark	yes	th-main	tl-00885	
+adjectives	速い	เร็ว	fast	yes	th-main	tl-00163	
+adjectives	遅い（速度）	ช้า	slow	yes	th-main	tl-00553	
+adjectives	強い	แข็งแรง|แรง	strong	yes	th-main	tl-01373	
+adjectives	弱い	อ่อนแอ	weak	yes	th-main	tl-01746	
+adjectives	硬い	แข็ง	hard	yes	th-main	tl-00985	
+adjectives	柔らかい	นุ่ม|นิ่ม	soft	yes	th-main	tl-02026	
+adjectives	熱い	ร้อน	hot	yes	th-main	tl-00588	
+adjectives	冷たい	เย็น	cold (touch)	yes	th-main	tl-00583	
+adjectives	ぬるい	อุ่นๆ	lukewarm	yes	th-main	tl-47046	check: （ほどよく）温かい
+adjectives	乾いた	แห้ง	dry	yes	th-main	tl-01596	
+adjectives	濡れた	เปียก	wet	yes	th-main	tl-02004	
+adjectives	いっぱい|満員	เต็ม	full	yes	th-main	tl-00390	
+adjectives	空いている|空の	ว่าง|โล่ง	empty/vacant	yes	th-main	tl-00808	
+adjectives	同じ	เหมือน|เหมือนกัน|เดียวกัน	same	yes	th-main	tl-00114	
+adjectives	違う|異なる	ต่าง|ไม่เหมือน	different	yes	th-main	tl-00221	
+adjectives	特別	พิเศษ	special	yes	th-main	tl-00392	
+adjectives	普通	ธรรมดา|ปกติ	ordinary	yes	th-main	tl-00683	
+adjectives	間違った	ผิด	wrong	yes	th-main	tl-00220	
+adjectives	本当	จริง	true	yes	th-main	tl-00064	
+adjectives	危ない|危険	อันตราย	dangerous	yes	th-main	tl-00569	
+adjectives	安全	ปลอดภัย	safe	yes	th-main	tl-00546	
+adjectives	大丈夫	ไม่เป็นไร|โอเค	okay	yes	th-main	tl-00207	
+adjectives	元気	สบายดี	well	yes	th-main	tl-00619	
+adjectives	気持ちいい|快適	สบาย	comfortable	yes	th-main	tl-00564	
+adjectives	素晴らしい|すごい	เยี่ยม|สุดยอด|เก่ง	wonderful	yes	th-main	tl-00317	
+adjectives	上手	เก่ง	skilled	yes	th-main	tl-00367	
+adjectives	下手	ไม่เก่ง	unskilled	excluded	hand:judgement: transparent negation ไม่+เก่ง		
+adjectives	嫌な|ひどい	แย่	terrible	yes	th-main	tl-00271	
+adjectives	可哀想	น่าสงสาร	pitiful	yes	th-main	tl-53277	check: かわいそうな・気の毒な
+adjectives	貧しい|貧乏	จน	poor	yes	th-main	tl-00175	
+adjectives	金持ち|裕福	รวย	rich	yes	th-main	tl-00982	
+adjectives	太っている	อ้วน	fat	yes	th-main	tl-00983	check: 太った
+adjectives	やせている	ผอม	thin	yes	th-main	tl-01061	check: 痩せた
+adjectives	背が高い	สูง	tall	yes	th-main	tl-00285	
+adjectives	背が低い	เตี้ย	short	yes	th-main	tl-01080	
+adjectives	きつい	คับ|แน่น	tight	yes	th-main	tl-04666	
+adjectives	緩い	หลวม	loose	yes	th-main	tl-53328	check: （服・靴などが）ゆるい・ぶかぶかの/（ひも・ねじなどが）ゆるんだ
+adjectives	まっすぐな	ตรง	straight	yes	th-main	tl-00157	
+adjectives	曲がった	โค้ง|งอ	curved	yes	th-main	tl-02671	
+adjectives	真剣	จริงจัง	serious	yes	th-main	tl-01364	
+adjectives	自由	อิสระ|เสรี	free	yes	th-main	tl-01308	
+adjectives	可能	เป็นไปได้	possible	yes	th-main	tl-05128	
+adjectives	必要	จำเป็น	necessary	yes	th-main	tl-00331	
+adjectives	十分	พอ|เพียงพอ	enough	yes	th-main	tl-00138	
+adjectives	完璧	สมบูรณ์แบบ|เพอร์เฟกต์	perfect	yes	th-main	tl-02274	
+adjectives	人気がある	ได้รับความนิยม|ฮิต	popular	yes	th-alt	tl-04621	check: 人気になる
+adjectives	珍しい	หายาก|แปลก	rare	yes	th-main	tl-05208	
+adjectives	変な|奇妙な	แปลก	strange	yes	th-main	tl-00432	
+adjectives	面倒	ยุ่งยาก	troublesome	yes	th-main	tl-02527	
+adjectives	複雑	ซับซ้อน	complicated	yes	th-main	tl-01583	
+adjectives	有名な（話題）	ดัง	well-known	yes	th-main	tl-00327	
+adjectives	古い（昔の）	โบราณ	ancient	yes	th-main	tl-01484	check: 古代の・昔ながらの・伝統的な/古くさい・時代遅れの
+adjectives	現代の	ทันสมัย|สมัยใหม่	modern	yes	th-main	tl-03149	
+adjectives	早い（時間）	เช้า|เร็ว	early	yes	th-main	tl-00521	
+adjectives	いっしょ	ด้วยกัน	together	yes	th-main	tl-00293	check: 一緒に
+adjectives	別々	แยก|ต่างหาก	separate	yes	th-main	tl-00626	check: 分ける・分離する/区別する/交差点・分岐点
+adjectives	主な	หลัก	main	yes	th-main	tl-01182	check: 主要な・中心となる/原則・根拠
+adjectives	簡単な仕事|楽	สบาย	easy-going	yes	th-main	tl-00564	
+adjectives	眩しい	แสบตา|จ้า	dazzling	yes	th-main	tl-53391	check: 目がしみる・目がひりひりする/（光・色が）目に痛いほどまぶしい
+adjectives	甘い（性格）	ใจอ่อน	soft-hearted	yes	th-main	tl-04541	check: 情にもろい・心が優しい/情にほだされる・折れる
+adjectives	怖い（性格）	ดุ	fierce	yes	th-main	tl-02685	
+adjectives	若々しい	ดูเด็ก	youthful	yes	th-main	tl-58557	check: 若く見える
+adjectives	有用|役に立つ	มีประโยชน์	useful	yes	th-main	tl-54251	
+adjectives	無駄	เปล่าประโยชน์|เสียเปล่า	wasteful	yes	th-main	tl-03697	
+adjectives	いっぱいの（ガラガラ反対）	แน่น	crowded	yes	th-main	tl-01467	check: きつい・しっかりした・密な/ぎっしり詰まった・混雑した
+adjectives	混んでいる	คนเยอะ|แน่น	crowded	yes	th-alt	tl-01467	check: きつい・しっかりした・密な/ぎっしり詰まった・混雑した
+adjectives	すいている	คนน้อย|ว่าง	uncrowded	yes	th-alt	tl-00808	check: 暇だ・空いている/空いている・使われていない
+adverbs	とても	มาก	very	yes	th-main	tl-00044	
+adverbs	本当に	จริงๆ	really	yes	th-main	tl-00468	
+adverbs	少し|ちょっと	นิดหน่อย|หน่อย	a little	yes	th-main	tl-00606	
+adverbs	もっと	อีก|มากกว่า	more	yes	th-main	tl-00054	check: さらに・もう一つ・あと〜/もう一度・これ以上/さらに〜（比較を強める）
+adverbs	最も|一番	ที่สุด	most	yes	th-main	tl-00162	
+adverbs	〜すぎる|あまりに	เกินไป	too	yes	th-main	tl-00398	
+adverbs	全然〜ない	ไม่...เลย	not at all	excluded	hand:grammar pattern	tl-00483:ที่ไหน	
+adverbs	あまり〜ない	ไม่ค่อย	not very	yes	th-main	tl-00445	check: あまり〜ない
+adverbs	もう一度	อีกครั้ง|อีกที	once more	yes	th-main	tl-00497	
+adverbs	また	อีก	again	yes	th-main	tl-00054	check: さらに・もう一つ・あと〜/もう一度・これ以上/さらに〜（比較を強める）
+adverbs	も	ด้วย|ก็	also	yes	th-main	tl-00041	
+adverbs	だけ	เท่านั้น|แค่	only	yes	th-main	tl-00301	
+adverbs	ほとんど	เกือบ	almost	yes	th-main	tl-00421	
+adverbs	たぶん|おそらく	คง|อาจจะ	probably	yes	th-main	tl-00110	
+adverbs	きっと|必ず	แน่นอน	surely	yes	th-main	tl-00270	check: 確実な、間違いない
+adverbs	ゆっくり	ช้าๆ	slowly	yes	th-main	tl-41583	
+adverbs	一緒に	ด้วยกัน	together	yes	th-main	tl-00293	
+adverbs	一人で	คนเดียว	alone	yes	th-main	tl-54221	
+adverbs	自分で	เอง	oneself	yes	th-main	tl-00113	
+adverbs	特に	โดยเฉพาะ	especially	yes	th-main	tl-00643	
+adverbs	ちょうど	พอดี	exactly	yes	th-main	tl-00668	
+adverbs	突然|急に	ทันใด|อยู่ๆ	suddenly	yes	th-main	tl-03478	
+adverbs	ついに|とうとう	ในที่สุด	finally	yes	th-main	tl-00851	check: 最後に・結局
+adverbs	まず|最初に	ก่อน|อันดับแรก	first	yes	th-main	tl-00084	check: 〜より前に・以前に/先に・とりあえず（動作の後ろ）/〜前に（期間の後ろ）
+adverbs	それから|次に	แล้วก็|ต่อไป	then	yes	th-main	tl-00249	
+adverbs	結局	สุดท้าย	in the end	yes	th-main	tl-00310	
+adverbs	実は	ที่จริง|จริงๆ แล้ว	actually	yes	th-main	tl-41249	
+adverbs	例えば	เช่น|ยกตัวอย่าง	for example	yes	th-main	tl-00261	
+adverbs	多分（推量）	มั้ง	maybe	yes	th-main	tl-00755	check: たぶん、〜かも
+adverbs	ずっと	ตลอด	all along	yes	th-main	tl-00256	
+adverbs	まだ〜ない	ยังไม่	not yet	yes	th-main	tl-00494	check: まだ〜ない
+adverbs	もう〜ない	ไม่...แล้ว	no longer	excluded	hand:grammar pattern		
+adverbs	早く	เร็วๆ	quickly	yes	th-main	tl-41380	
+adverbs	だんだん	ค่อยๆ	gradually	yes	th-main	tl-05117	check: 少しずつ・徐々に/ゆっくりと
+adverbs	すぐ（近く）	ใกล้ๆ	nearby	yes	th-main	tl-40780	
+conjunctions	そして|と	และ|กับ	and	yes	th-main	tl-00021	
+conjunctions	でも|しかし	แต่	but	yes	th-main	tl-00034	
+conjunctions	または|それとも	หรือ	or	yes	th-main	tl-00052	
+conjunctions	なぜなら|〜から	เพราะ|เพราะว่า	because	yes	th-main	tl-00075	
+conjunctions	だから	ดังนั้น|เลย	so	yes	th-main	tl-00365	
+conjunctions	もし	ถ้า	if	yes	th-main	tl-00048	
+conjunctions	〜とき	เมื่อ|ตอน	when	yes	th-main	tl-00107	
+conjunctions	〜けれども	ถึงแม้ว่า	although	yes	th-main	tl-02503	
+conjunctions	それで	แล้ว|เลย	then	yes	th-main	tl-00011	
+conjunctions	〜ので	เลย	so	yes	th-main	tl-00030	check: 全く・本当に・ちっとも（強調、否定と使うと「全く〜ない」）/すぐに・そのまま〜する/だから・それで（結果）
+conjunctions	〜ために	เพื่อ	in order to	yes	th-main	tl-00082	
+conjunctions	〜まで	จนถึง|ถึง	until	yes	th-main	tl-00673	
+conjunctions	〜から（起点）	จาก|ตั้งแต่	from	yes	th-main	tl-00043	
+conjunctions	〜と（一緒）	กับ	with	yes	th-main	tl-00031	
+conjunctions	〜より	กว่า	than	yes	th-main	tl-00083	
+conjunctions	〜の（所有）	ของ	of	yes	th-main	tl-00013	
+conjunctions	〜に（場所）	ที่	at	yes	th-main	tl-00002	
+conjunctions	〜で（手段）	ด้วย|โดย	by	yes	th-main	tl-00041	
+conjunctions	〜へ	ไปที่|สู่	to	yes	th-alt	tl-01161	
+conjunctions	〜について	เกี่ยวกับ	about	yes	th-main	tl-00243	
+conjunctions	〜のような	เหมือน	like	yes	th-main	tl-00114	
+questions	何	อะไร	what	yes	th-main	tl-00023	
+questions	誰	ใคร	who	yes	th-main	tl-00071	
+questions	どこ	ที่ไหน	where	yes	th-main	tl-00483	
+questions	いつ	เมื่อไร|เมื่อไหร่	when	yes	th-main	tl-41158	
+questions	なぜ|どうして	ทำไม	why	yes	th-main	tl-00081	
+questions	どう|どのように	อย่างไร|ยังไง	how	yes	th-main	tl-40155	
+questions	どれ	อันไหน	which	yes	th-main	tl-00496	
+questions	どの	ไหน	which	yes	th-main	tl-00070	
+questions	いくつ（年齢）	กี่ขวบ|อายุเท่าไร	how old	yes	th-alt	tl-51842	check: 何歳ですか
+questions	何時	กี่โมง	what time	yes	th-main	tl-01130	
+questions	何人	กี่คน	how many people	no			
+questions	〜か（疑問）	ไหม|มั้ย	question particle	yes	th-main	tl-00053	
+questions	〜ですか（はい/いいえ）	หรือ|หรือเปล่า|ไหม	question particle	yes	th-main	tl-00052	check: または・それとも/〜なの？（疑問・確認）
+questions	〜でしょう？	ใช่ไหม	right?	yes	th-main	tl-00150	check: 〜だよね？（確認）
+pronouns	私	ฉัน|ผม|ดิฉัน	I	yes	th-main	tl-00003	
+pronouns	私（男性）	ผม	I (male)	yes	th-main	tl-00015	
+pronouns	あなた	คุณ	you	yes	th-main	tl-00010	
+pronouns	彼|彼女|あの人	เขา	he/she	yes	th-main	tl-00022	
+pronouns	私たち	เรา|พวกเรา	we	yes	th-main	tl-00018	
+pronouns	彼ら	พวกเขา	they	yes	th-main	tl-00090	
+pronouns	あなたたち	พวกคุณ	you all	yes	th-main	tl-00491	
+pronouns	これ	นี่|อันนี้	this	yes	th-main	tl-00027	
+pronouns	それ	นั่น|อันนั้น	that	yes	th-main	tl-00073	
+pronouns	あれ	โน่น|อันโน้น	that over there	yes	th-main	tl-00999	
+pronouns	この	นี้	this	yes	th-main	tl-00025	
+pronouns	その	นั้น	that	yes	th-main	tl-00038	
+pronouns	あの	โน้น	that (far)	yes	th-main	tl-01001	
+pronouns	自分	ตัวเอง	self	yes	th-main	tl-00156	
+pronouns	みんな	ทุกคน	everyone	yes	th-main	tl-00146	
+pronouns	誰か	ใครสักคน|ใคร	someone	yes	th-alt	tl-00071	
+pronouns	何か	อะไรบ้าง|อะไรสักอย่าง	something	yes	gloss	tl-00278:บางอย่าง	
+pronouns	どこか	ที่ไหนสักแห่ง	somewhere	excluded	hand:low priority/transparent	tl-00483:ที่ไหน	
+pronouns	それぞれ|各	แต่ละ	each	yes	th-main	tl-00578	
+pronouns	全部の|すべての	ทุก	every	yes	th-main	tl-00132	
+pronouns	他の	อื่น	other	yes	th-main	tl-00172	
+particles	〜です（男性）	ครับ	polite male	yes	th-main	tl-00051	check: 丁寧な文末表現（男性話者）/はい（男性話者）
+particles	〜です（女性）	ค่ะ|คะ	polite female	yes	th-main	tl-00085	check: 丁寧な文末表現（女性話者）/はい（女性話者）
+particles	〜ね	นะ	sentence particle na	yes	th-main	tl-00019	
+particles	〜よ	นะ|เลย	sentence particle	yes	th-main	tl-00019	
+particles	〜しよう	กันเถอะ|เถอะ	let's	yes	th-alt	tl-00137	
+particles	〜してください	กรุณา|ช่วย...หน่อย	please	yes	th-main	tl-00946	
+particles	〜ている（進行）	กำลัง	progressive	yes	th-main	tl-00095	
+particles	〜した（完了）	แล้ว	perfective	yes	th-main	tl-00011	
+particles	〜したことがある	เคย	have ever	yes	th-main	tl-00091	
+particles	〜するつもり|〜だろう	จะ	will	yes	th-main	tl-00004	
+particles	〜しか	แค่	only	yes	th-main	tl-00058	check: 〜だけ・たった/どれほど・どのくらい（程度を尋ねる表現の一部）
+particles	類別詞	ลักษณนาม	classifier	yes	th-main	tl-42724	
+particles	〜個|〜つ	อัน	clf things	yes	th-main	tl-00195	check: 小さな物・事柄を数える類別詞/〜する・〜した（関係節を導く）
+particles	〜匹|〜頭	ตัว	clf animals	yes	th-main	tl-00086	check: 体・自分自身/動物・服・文字などの類別詞/生き物・物語の登場人物
+particles	〜台	คัน	clf vehicles	yes	th-main	tl-00727	
+particles	〜冊	เล่ม	clf books	yes	th-main	tl-00809	
+particles	〜枚	แผ่น|ใบ	clf sheets	yes	th-main	tl-00918	
+particles	〜本（瓶）	ขวด	clf bottles	yes	th-main	tl-00937	
+particles	〜杯	แก้ว	clf glasses	yes	th-main	tl-00636	
+particles	〜回	ครั้ง	times	yes	th-main	tl-00127	
+particles	〜軒|〜棟	หลัง	clf houses	yes	th-main	tl-00232	check: 家・建物を数える類別詞/〜の後に（時間）/背中・後ろ
+particles	〜着	ตัว	clf clothes	yes	th-main	tl-00086	check: 体・自分自身/動物・服・文字などの類別詞/生き物・物語の登場人物
+phrases	こんにちは	สวัสดี|สวัสดีครับ|สวัสดีค่ะ	hello	yes	th-main	tl-00235	
+phrases	さようなら	ลาก่อน	goodbye	yes	th-main	tl-00930	
+phrases	またね	แล้วเจอกัน|เจอกันใหม่	see you	yes	th-main	tl-00507	
+phrases	ありがとう	ขอบคุณ	thank you	yes	th-main	tl-00130	
+phrases	どういたしまして	ยินดี|ไม่เป็นไร	you're welcome	yes	th-main	tl-00427	
+phrases	すみません|ごめんなさい	ขอโทษ	sorry	yes	th-main	tl-00155	
+phrases	はい	ใช่|ครับ|ค่ะ	yes	yes	th-main	tl-00037	
+phrases	いいえ	ไม่ใช่|ไม่	no	yes	th-main	tl-00513	check: 〜ではない・違う/そうじゃない
+phrases	お元気ですか	สบายดีไหม	how are you	yes	th-main	tl-01140	
+phrases	元気です	สบายดี	I'm fine	yes	th-main	tl-00619	check: 元気だ
+phrases	はじめまして|お会いできてうれしい	ยินดีที่ได้รู้จัก	nice to meet you	yes	th-main	tl-01042	
+phrases	お願いします	ขอ|ช่วยด้วย|รบกวน	please	yes	th-main	tl-00115	check: 〜をください・〜させて/頼む・求める/〜でありますように・〜を願う
+phrases	いただきます	ทานแล้วนะ|กินข้าวกัน	let's eat	excluded	hand:no fixed Thai equivalent		
+phrases	おやすみ|おやすみなさい	ฝันดี|ราตรีสวัสดิ์	good night	yes	th-main	tl-51814	
+phrases	おめでとう	ยินดีด้วย	congratulations	yes	th-main	tl-51812	
+phrases	誕生日おめでとう	สุขสันต์วันเกิด	happy birthday	yes	th-main	tl-02073	
+phrases	新年おめでとう	สวัสดีปีใหม่	happy new year	yes	th-main	tl-52020	check: あけましておめでとう
+phrases	気をつけて	ระวังนะ|ดูแลตัวเองนะ	take care	yes	th-main	tl-51923	
+phrases	助けて	ช่วยด้วย	help!	yes	th-main	tl-00929	
+phrases	わかりました	เข้าใจแล้ว|ได้|โอเค	understood	yes	th-main	tl-51848	check: 分かりました
+phrases	わかりません	ไม่เข้าใจ	I don't understand	yes	th-main	tl-51847	check: 分かりません（理解できない）
+phrases	知りません	ไม่รู้	I don't know	yes	th-main	tl-51849	check: 知らない・分からない
+phrases	もう一度言ってください	พูดอีกครั้ง|พูดอีกที	say again	yes	hand	tl-51850:พูดอีกทีได้ไหม	
+phrases	ゆっくり話してください	พูดช้าๆ	speak slowly	yes	hand	tl-51851:พูดช้าๆ หน่อย	
+phrases	いくらですか	เท่าไร|ราคาเท่าไร	how much	yes	th-main	tl-41149	check: いくら・どれくらい/あまり〜ない（ไม่…เท่าไร の形で）
+phrases	トイレはどこですか	ห้องน้ำอยู่ที่ไหน	where is toilet	yes	th-main	tl-51891	
+phrases	これをください	เอาอันนี้	I'll take this	yes	th-main	tl-51869	
+phrases	お会計お願いします	เช็คบิล|เก็บเงินด้วย	check please	yes	th-main	tl-02179	check: 会計を頼む/仕返しする・落とし前をつける
+phrases	辛くしないで	ไม่เผ็ด|ไม่เอาเผ็ด	not spicy	yes	th-main	tl-51881	
+phrases	少し辛く	เผ็ดนิดหน่อย	a little spicy	yes	hand	tl-51882:เผ็ดน้อย	
+phrases	おいしい！	อร่อย	delicious	yes	th-main	tl-00736	
+phrases	いいですよ|OK	ได้|โอเค	okay	yes	th-main	tl-00005	check: できる・〜してよい/〜した・〜する機会を得た（動詞の前）/得る・受け取る・手に入れる/いいよ・承知した（返答）/〜してから…になる（経過時間）
+phrases	だめ	ไม่ได้	no good	yes	th-main	tl-00514	check: できない(動詞の後)/〜しなかった・〜していない（動詞の前）
+phrases	ちょっと待って	รอเดี๋ยว|เดี๋ยวก่อน	wait a moment	yes	th-main	tl-56612	
+phrases	ようこそ|いらっしゃいませ	ยินดีต้อนรับ	welcome	yes	th-main	tl-00932	
+phrases	どうぞ	เชิญ	please (go ahead)	yes	th-main	tl-00527	
+phrases	もしもし	ฮัลโหล	hello (phone)	yes	th-main	tl-00866	
+phrases	お疲れさま	เหนื่อยไหม	good work	yes	th-main	tl-52147	check: 疲れた？・疲れていませんか
+phrases	おはよう	อรุณสวัสดิ์	good morning	yes	th-main	tl-01497	
+phrases	頑張って	สู้ๆ|โชคดี	good luck	yes	th-main	tl-51929	check: がんばれ・がんばって
+phrases	幸運を	โชคดี	good luck	yes	th-main	tl-00446	
+phrases	本当？	จริงเหรอ	really?	yes	th-main	tl-00467	
+phrases	そうです	ใช่	that's right	yes	th-main	tl-00037	check: そのとおり・はい/〜ではない（否定と組み合わせる）
+phrases	そうですね|そうだね	นั่นสิ|ใช่	indeed	yes	th-main	tl-01304	
+phrases	お大事に	หายไวๆ	get well	yes	gloss	tl-51934:หายไวๆ นะ	
+phrases	いってきます	ไปก่อนนะ	I'm off	yes	th-main	tl-51819	check: 先に行くね・じゃあね
+phrases	ただいま	กลับมาแล้ว	I'm home	yes	th-main	tl-52298	
+phrases	ご飯食べた？	กินข้าวหรือยัง	have you eaten	yes	th-main	tl-51825	
+phrases	大丈夫ですか	เป็นอะไรไหม|โอเคไหม	are you ok	yes	th-main	tl-51931	check: 大丈夫？（けがや具合を気づかって）
+phrases	問題ない	ไม่มีปัญหา	no problem	yes	th-main	tl-05200	
+time	毎晩	ทุกคืน	every night	no			
+time	毎回	ทุกครั้ง	every time	yes	th-main	tl-00484	
+time	何日	กี่วัน	how many days	no			
+time	何時間	กี่ชั่วโมง	how many hours	no			
+time	何分	กี่นาที	how many minutes	yes	th-main	tl-51900	
+time	何月	เดือนอะไร	what month	excluded	hand:transparent noun+อะไร (cf. วันนี้วันอะไร)		
+time	何年	ปีอะไร|กี่ปี	what year	excluded	hand:see 何年間 (กี่ปี)		
+time	1時間半	ชั่วโมงครึ่ง	an hour and a half	excluded	hand:transparent		
+time	30分	ครึ่งชั่วโมง	half an hour	yes	th-main	tl-59104	
+time	午前7時|朝7時	เจ็ดโมงเช้า|โมงเช้า	7 a.m.	no			
+time	午後1時	บ่ายโมง	1 p.m.	yes	th-main	tl-59113	
+time	午後2時	บ่ายสองโมง|บ่ายสอง	2 p.m.	excluded	hand:transparent (บ่าย+สอง+โมง; บ่ายโมง exists)		
+time	夕方5時|午後5時	ห้าโมงเย็น	5 p.m.	no			
+time	夜8時|午後8時	สองทุ่ม	8 p.m.	excluded	hand:transparent (สอง+ทุ่ม; ทุ่ม exists)		
+time	午前1時|夜中の1時	ตีหนึ่ง	1 a.m.	excluded	hand:transparent (ตี+หนึ่ง; ตี exists)		
+time	〜時（夜）	ทุ่ม	night hour	yes	th-main	tl-00970	
+time	朝早く	เช้าตรู่|แต่เช้า	early morning	yes	th-main	tl-42982	check: 早朝・明け方
+time	今日中	ภายในวันนี้	within today	excluded	hand:transparent		
+time	数日	หลายวัน|สองสามวัน	several days	excluded	hand:transparent (หลาย+วัน)		
+time	来週の月曜日	วันจันทร์หน้า	next Monday	excluded	hand:transparent		
+time	週に一回	อาทิตย์ละครั้ง|สัปดาห์ละครั้ง	once a week	excluded	hand:transparent		
+time	一日中	ทั้งวัน	all day	yes	th-main	tl-00774	
+time	一晩中	ทั้งคืน	all night	yes	th-main	tl-54324	
+numbers	一番	ที่หนึ่ง|อันดับหนึ่ง	number one	no	gloss-secondary	tl-50348:อันดับแรก	
+numbers	二倍	สองเท่า	double	excluded	hand:transparent (เท่า exists)		
+numbers	何番	เบอร์อะไร	which number	excluded	hand:transparent		
+food	卵焼きご飯|カイジャオライス	ข้าวไข่เจียว	omelet on rice	yes	th-main	tl-51205	check: カオカイチアオ（タイ風卵焼きのせご飯）
+food	ゆで卵	ไข่ต้ม	boiled egg	yes	th-main	tl-51031	
+food	バーベキュー|焼肉	บาร์บีคิว|ปิ้งย่าง	barbecue	yes	th-main	tl-50806	
+food	揚げ物|フライドチキン	ไก่ทอด	fried chicken	yes	th-main	tl-04798	
+food	焼き魚	ปลาเผา|ปลาย่าง	grilled fish	yes	th-main	tl-51599	
+food	春巻き	ปอเปี๊ยะ	spring roll	yes	th-main	tl-51216	
+food	餃子	เกี๊ยว	dumpling	yes	hand	tl-54000:เกี๊ยวซ่า	
+food	クイッティアオ|米麺スープ	ก๋วยเตี๋ยว	noodle soup	yes	th-main	tl-01111	check: クイティアオ（米粉の麺料理）
+food	ガパオムーサップ	กะเพราหมูสับ	minced pork basil	excluded	hand:dish variant (ผัดกะเพรา, หมูสับ exist)		
+food	タイ風サラダ|ヤム	ยำ	yam salad	yes	th-main	tl-02121	check: 殴りつける・袋だたきにする/辛くて酸味のあるタイのあえ物/あえる・混ぜ合わせる
+food	グリーンパパイヤ	มะละกอดิบ	green papaya	excluded	hand:transparent		
+food	ナムプリック	น้ำพริก	chili paste	yes	th-main	tl-43262	
+food	カオニャオ	ข้าวเหนียว	sticky rice	yes	th-main	tl-02151	check: もち米ご飯
+food	ピザ	พิซซ่า	pizza	yes	th-main	tl-03028	
+food	ハンバーガー	แฮมเบอร์เกอร์	hamburger	yes	th-main	tl-51230	
+food	フライドポテト	เฟรนช์ฟราย|มันฝรั่งทอด	fries	yes	th-alt	tl-51243	
+food	寿司	ซูชิ	sushi	yes	th-main	tl-05053	
+food	ラーメン	ราเมน|ราเม็ง	ramen	yes	th-main	tl-51229	
+food	ポテトチップス	มันฝรั่งทอด	chips	yes	th-main	tl-51243	
+food	クッキー|ビスケット	คุกกี้|ขนมปังกรอบ	cookie	yes	th-main	tl-04095	
+food	ヨーグルト	โยเกิร์ต	yogurt	yes	th-main	tl-51244	
+food	チーズ	ชีส	cheese	yes	th-main	tl-02911	
+food	バター	เนย	butter	yes	th-main	tl-03517	
+food	ジャム	แยม	jam	yes	th-main	tl-47285	
+food	はちみつ	น้ำผึ้ง	honey	yes	th-main	tl-04049	check: 蜂蜜
+food	小麦粉	แป้ง	flour	yes	th-main	tl-02506	
+food	カボチャ	ฟักทอง	pumpkin	yes	th-main	tl-46105	
+food	ほうれん草|空心菜	ผักบุ้ง	morning glory	yes	th-main	tl-45408	
+food	ネギ	ต้นหอม	spring onion	yes	th-main	tl-51055	
+food	レタス	ผักกาดหอม	lettuce	yes	th-main	tl-54761	
+food	ブロッコリー	บรอกโคลี	broccoli	yes	gloss	tl-51271:บร็อคโคลี่	
+food	タマリンド	มะขาม	tamarind	yes	th-main	tl-43330	
+food	ジャックフルーツ	ขนุน	jackfruit	yes	th-main	tl-42927	
+food	ドラゴンフルーツ	แก้วมังกร	dragon fruit	yes	th-main	tl-51264	
+food	メロン	เมลอน|แตงไทย	melon	yes	th-alt	tl-55042	check: タイウリ（甘い香りのある瓜）
+food	梨	สาลี่	pear	no			
+food	桃	ลูกพีช|พีช	peach	yes	th-main	tl-51621	
+food	ナッツ|カシューナッツ	มะม่วงหิมพานต์	cashew	yes	gloss	tl-01989:ถั่ว	
+food	ガランガル|カー	ข่า	galangal	yes	th-main	tl-43201	
+food	コブミカンの葉	ใบมะกรูด	kaffir lime leaf	yes	th-main	tl-53844	check: コブミカン（バイマックルー）の葉
+food	ココナッツミルク	กะทิ	coconut milk	yes	th-main	tl-02150	
+food	オイスターソース	น้ำมันหอย	oyster sauce	yes	th-main	tl-54837	
+food	ケチャップ	ซอสมะเขือเทศ	ketchup	yes	th-main	tl-51246	
+food	マヨネーズ	มายองเนส	mayonnaise	no			
+food	化学調味料|味の素	ผงชูรส	MSG	yes	th-main	tl-51251	
+drinks_taste	緑茶	ชาเขียว	green tea	yes	th-main	tl-51049	
+drinks_taste	ミルクティー	ชานม	milk tea	yes	th-main	tl-51050	
+drinks_taste	タピオカミルクティー	ชานมไข่มุก	bubble tea	yes	th-main	tl-51258	
+drinks_taste	アイスコーヒー	กาแฟเย็น	iced coffee	yes	th-main	tl-51051	
+drinks_taste	ホットコーヒー	กาแฟร้อน	hot coffee	yes	th-main	tl-51259	
+drinks_taste	オレンジジュース	น้ำส้ม	orange juice	yes	th-main	tl-51046	
+drinks_taste	レモネード|ライムジュース	น้ำมะนาว	lime juice	yes	th-main	tl-54753	
+drinks_taste	飲料水|ミネラルウォーター	น้ำดื่ม|น้ำแร่	drinking water	yes	th-main	tl-44746	
+drinks_taste	かき氷	น้ำแข็งใส	shaved ice	yes	th-main	tl-51611	
+drinks_taste	シェイク|スムージー	ปั่น|น้ำปั่น	smoothie	yes	hand	tl-51262:น้ำปั่น	
+drinks_taste	砂糖なし|甘さ控えめ	หวานน้อย|ไม่หวาน	less sweet	yes	th-main	tl-56664	
+house	会議室	ห้องประชุม	meeting room	yes	th-main	tl-51081	
+house	客室	ห้องพัก	guest room	yes	th-main	tl-02954	check: 部屋(ホテル・宿泊施設)/休憩室・控室
+house	食堂|ダイニング	ห้องอาหาร	dining room	yes	th-main	tl-52986	
+house	電気代	ค่าไฟ	electricity bill	yes	th-main	tl-51124	
+house	水道代	ค่าน้ำ	water bill	yes	th-main	tl-51123	
+house	エレベーター	ลิฟต์	elevator	yes	th-main	tl-02085	
+house	エスカレーター	บันไดเลื่อน	escalator	yes	th-main	tl-51277	
+house	ゴミを捨てる	ทิ้งขยะ	throw away trash	yes	th-main	tl-53079	
+house	捨てる	ทิ้ง	throw away	yes	th-main	tl-00258	
+house	家具	เฟอร์นิเจอร์	furniture	yes	th-main	tl-50304	
+house	家電	เครื่องใช้ไฟฟ้า	appliances	yes	th-main	tl-47484	
+house	目覚まし時計	นาฬิกาปลุก	alarm clock	yes	th-main	tl-51282	
+house	リモコン	รีโมท	remote control	yes	gloss	tl-51058:รีโมต	
+house	ハンカチ	ผ้าเช็ดหน้า	handkerchief	yes	th-main	tl-43665	
+house	くし	หวี	comb	yes	th-main	tl-04726	
+house	爪切り	กรรไกรตัดเล็บ	nail clipper	yes	th-main	tl-50905	
+house	ひげそり|カミソリ	มีดโกน	razor	yes	th-main	tl-51298	
+house	洗剤	ผงซักฟอก|น้ำยาล้างจาน	detergent	yes	th-main	tl-48517	
+house	蚊取り線香|虫よけ	ยากันยุง	mosquito repellent	yes	th-main	tl-51295	
+clothes	長ズボン	กางเกงขายาว	long trousers	yes	th-main	tl-51316	
+clothes	長袖	แขนยาว	long sleeves	yes	th-main	tl-53887	
+clothes	半袖	แขนสั้น	short sleeves	yes	th-main	tl-53886	
+clothes	ブラジャー	เสื้อชั้นใน|ยกทรง	bra	yes	th-alt	tl-54953	
+clothes	スニーカー|運動靴	รองเท้าผ้าใบ	sneakers	yes	th-main	tl-51070	
+clothes	ハイヒール	รองเท้าส้นสูง	high heels	yes	th-main	tl-51318	
+clothes	リュック	กระเป๋าเป้	backpack	yes	th-main	tl-51071	
+clothes	ハンドバッグ	กระเป๋าถือ	handbag	yes	th-main	tl-48383	
+colours	真っ赤	แดงแจ๊ด|แดงก่ำ	bright red	yes	th-main	tl-55804	
+colours	真っ白	ขาวจั๊วะ|ขาวโพลน	pure white	yes	th-main	tl-55803	
+colours	真っ黒	ดำปี๋|ดำสนิท	jet black	excluded	hand:intensifier form, low		
+colours	濃い青|紺色	สีน้ำเงินเข้ม|สีกรมท่า	navy	yes	gloss	tl-02753:สีน้ำเงิน	
+colours	空色	สีฟ้า	sky blue	yes	th-main	tl-70156	
+colours	赤ワイン色|えんじ	สีเลือดหมู	maroon	yes	th-main	tl-56535	
+colours	カーキ	สีกากี	khaki	excluded	hand:low priority		
+transport	バスターミナル	สถานีขนส่ง|บขส.	bus terminal	yes	th-main	tl-51421	
+transport	駅（電車）	สถานีรถไฟ	train station	yes	th-main	tl-02114	
+transport	空港行き|〜行き	ไป	bound for	yes	th-main	tl-00006	check: 行く/向こうへ・離れて（動作の方向）/去ってしまう・なくなってしまう/〜しながら進む・経過する/〜しながら〜する（動詞の繰り返し）
+transport	往復	ไปกลับ	round trip	yes	th-main	tl-50194	
+transport	片道	เที่ยวเดียว	one way	yes	hand	tl-51703:ตั๋วเที่ยวเดียว	
+transport	時刻表	ตารางเวลา	timetable	yes	th-main	tl-58771	
+transport	座席	ที่นั่ง	seat	yes	th-main	tl-42384	
+transport	窓側	ริมหน้าต่าง	window seat	excluded	hand:transparent		
+transport	通路	ทางเดิน	aisle	yes	th-main	tl-01914	check: 廊下・歩道/（人生の）道・進む道
+transport	ここで停めて	จอดตรงนี้	stop here	yes	th-main	tl-51896	check: ここで止めてください
+transport	メーター（タクシー）	มิเตอร์	meter	yes	th-main	tl-51427	
+transport	グラブ|配車アプリ	แกร็บ	Grab	yes	gloss	tl-53910:แอปเรียกรถ	
+transport	この辺	แถวนี้	around here	yes	th-main	tl-01148	
+transport	〜の近く	ใกล้ๆ	near	yes	th-main	tl-40780	check: すぐ近く（に）
+transport	道を渡る	ข้ามถนน	cross road	yes	th-main	tl-53020	check: 道路を渡る
+transport	突き当たり	สุดทาง|สุดซอย	end of road	no	slang:tl-60757		
+tech	スクリーンショット	แคปหน้าจอ|แคป	screenshot	yes	th-alt	tl-05054	
+tech	LINE（アプリ）|ライン	ไลน์	LINE	excluded	hand:judgement: brand name	tl-05000:ซีรีส์	
+tech	自撮り	เซลฟี่	selfie	yes	th-main	tl-51454	
+tech	通知	การแจ้งเตือน|แจ้งเตือน	notification	yes	th-alt	tl-54047	
+tech	データ通信|モバイルデータ	เน็ตมือถือ	mobile data	yes	th-main	tl-57270	
+tech	SIMカード	ซิม|ซิมการ์ด	SIM	yes	th-main	tl-51102	
+tech	モバイルバッテリー	พาวเวอร์แบงก์|แบตสำรอง	power bank	yes	th-main	tl-51447	
+tech	コピーする	ก๊อป|คัดลอก	copy	yes	th-alt	tl-53021	
+tech	送金アプリ|プロンプトペイ	พร้อมเพย์	PromptPay	yes	th-main	tl-50080	
+tech	電話を切る	วางสาย	hang up	yes	th-main	tl-02955	
+tech	電話に出る	รับสาย	answer phone	yes	th-main	tl-01542	
+tech	折り返し電話する	โทรกลับ	call back	yes	th-main	tl-54242	
+shops	屋台街|フードコート	ศูนย์อาหาร|ฟู้ดคอร์ท	food court	yes	th-main	tl-53867	
+shops	薬屋	ร้านขายยา	drugstore	yes	th-main	tl-02137	check: 薬局
+shops	ATMコーナー	ตู้เอทีเอ็ม	ATM	yes	th-main	tl-01125	check: ATM・現金自動預払機
+shops	花屋	ร้านดอกไม้	florist	yes	th-main	tl-54783	
+phrases	大丈夫？	ไหวไหม	can you manage?	yes	th-main	tl-56694	
+phrases	どうしたの	เป็นอะไร	what's wrong	yes	gloss	tl-52265:ว่าไง	
+phrases	久しぶり	ไม่ได้เจอกันนาน|นานแล้วนะ	long time no see	yes	th-main	tl-51829	
+phrases	よろしく|よろしくお願いします	ฝากตัวด้วย|ฝากด้วย	please treat me well	yes	th-main	tl-52110	
+phrases	失礼します	ขออนุญาต	excuse me	yes	th-main	tl-02155	check: 許可を求める/〜してもよろしいですか（許可の依頼）
+phrases	すみません（呼びかけ）	ขอโทษนะ|น้อง|พี่	excuse me	yes	th-main	tl-51809	check: ごめんね
+phrases	ちょっと通してください	ขอทางหน่อย	let me through	yes	th-main	tl-51912	check: 道をあけてください
+phrases	いりません	ไม่เอา	I don't want it	yes	th-main	tl-51870	check: 要らない
+phrases	袋いりません	ไม่เอาถุง	no bag	excluded	hand:transparent phrase		
+phrases	おいくつですか	อายุเท่าไร	how old	yes	th-main	tl-51842	check: 何歳ですか
+phrases	お名前は？	ชื่ออะไร	what's your name	yes	th-main	tl-51835	check: 名前は何？（人・物の名前を尋ねる）
+phrases	どこから来ましたか	มาจากไหน	where from	yes	th-main	tl-51839	
+phrases	日本から来ました	มาจากญี่ปุ่น	from Japan	yes	th-main	tl-51840	
+phrases	タイ語が少し話せます	พูดไทยได้นิดหน่อย	speak a little Thai	yes	th-main	tl-56845	
+phrases	英語を話せますか	พูดภาษาอังกฤษได้ไหม	speak English?	yes	th-main	tl-51845	check: 英語が話せますか
+phrases	おいしかった	อร่อยมาก	was delicious	yes	th-main	tl-51885	check: とてもおいしい
+phrases	乾杯	ชนแก้ว	cheers	yes	th-main	tl-03659	
+phrases	ご注文は	รับอะไรดี	what would you like	yes	th-main	tl-56661	check: 何になさいますか（店員が注文を聞く）
+phrases	持ち帰り	ใส่ถุง|กลับบ้าน	takeaway	yes	hand	tl-53161:ห่อกลับบ้าน	
+phrases	店内で	ทานที่นี่	eat here	excluded	hand:transparent phrase		
+numbers	何回	กี่ครั้ง	how many times	no			
+transport	黄信号	ไฟเหลือง	amber light	no			
+transport	大通り	ถนนใหญ่	main road	no			
+numbers	300|三百	สามร้อย	three hundred	no			
+numbers	400|四百	สี่ร้อย	four hundred	no			
+numbers	600|六百	หกร้อย	six hundred	no			
+numbers	700|七百	เจ็ดร้อย	seven hundred	no			
+numbers	800|八百	แปดร้อย	eight hundred	no			
+numbers	900|九百	เก้าร้อย	nine hundred	no			
+numbers	3000|三千	สามพัน	three thousand	no			
+numbers	4000|四千	สี่พัน	four thousand	no			
+numbers	5000|五千	ห้าพัน	five thousand	no			
+numbers	6000|六千	หกพัน	six thousand	no			
+numbers	7000|七千	เจ็ดพัน	seven thousand	no			
+numbers	8000|八千	แปดพัน	eight thousand	no			
+numbers	9000|九千	เก้าพัน	nine thousand	no			
+numbers	2万|二万	สองหมื่น	twenty thousand	no			
+numbers	20万|二十万	สองแสน	two hundred thousand	no			
+time	何か月	กี่เดือน	how many months	no			
+time	何年間	กี่ปี	how many years	no			
+time	何週間	กี่สัปดาห์|กี่อาทิตย์	how many weeks	no			
+questions	何個|いくつ（物）	กี่อัน	how many pieces	yes	gloss	tl-00570:กี่	
+questions	何歳（子ども）	กี่ขวบ	how old (child)	no			
+shapes	深さ	ความลึก	depth	no			
+shapes	厚さ	ความหนา	thickness	no			
+shapes	重さ	น้ำหนัก	weight	yes	th-main	tl-00958	
+money	ユーロ	ยูโร	euro	no			
+money	特別価格	ราคาพิเศษ	special price	excluded	hand:transparent		
+colours	赤色	สีแดง	red colour	yes	th-main	tl-70152	
+colours	青色	สีน้ำเงิน	blue colour	yes	th-main	tl-02753	check: 青・紺色（濃い青）
+colours	黄色（色名）	สีเหลือง	yellow colour	yes	th-main	tl-02640	
+colours	緑色	สีเขียว	green colour	yes	th-main	tl-70155	
+colours	黒色	สีดำ	black colour	yes	th-main	tl-70153	
+colours	白色	สีขาว	white colour	yes	th-main	tl-70154	
+colours	茶色（色名）	สีน้ำตาล	brown colour	yes	th-main	tl-02895	
+colours	ピンク色	สีชมพู	pink colour	yes	th-main	tl-02719	
+colours	紫色	สีม่วง	purple colour	yes	th-main	tl-70157	
+colours	灰色（色名）	สีเทา	grey colour	yes	th-main	tl-03479	
+colours	水色（色名）	สีฟ้า	light blue colour	yes	th-main	tl-70156	
+colours	濃い色	สีเข้ม	dark colour	yes	hand	tl-02581:เข้ม	
+colours	淡い色|薄い色	สีอ่อน	pale colour	yes	hand	tl-01348:อ่อน	
+colours	紺色	สีกรมท่า|กรมท่า	navy	yes	hand	tl-47788:กรมท่า	
+health	ぜんそく	หอบหืด|โรคหืด	asthma	yes	hand	tl-53617:หอบหืด	
+health	高血圧	ความดันสูง|ความดันโลหิตสูง	hypertension	yes	hand	tl-51344:ความดันโลหิตสูง	
+health	足首をひねる|捻挫	ข้อเท้าแพลง|แพลง	sprain	yes	hand	tl-56011:แพลง	
+health	声がかすれる	เสียงแหบ	hoarse	yes	hand	tl-46168:แหบ	
+health	下痢止め	ยาแก้ท้องเสีย	antidiarrheal	excluded	hand:transparent (ยาแก้+ท้องเสีย)		
+house	断水|水が出ない	น้ำไม่ไหล	no water	excluded	hand:transparent		
+transport	電車の切符	ตั๋วรถไฟ	train ticket	excluded	hand:transparent (ตั๋ว+รถไฟ)		
+transport	バスの路線	สายรถเมล์	bus line	yes	hand	tl-00336:สาย	
+transport	地下鉄（MRT）	รถไฟฟ้าใต้ดิน|เอ็มอาร์ที	MRT	yes	hand	tl-51090:รถไฟใต้ดิน	
+transport	向こう側|向かい側	ฝั่งตรงข้าม	other side	yes	hand	tl-00996:ตรงข้าม	
+transport	この先|〜を過ぎて	เลยไป	past	excluded	hand:transparent (เลย+ไป)	tl-42711:เบื้องหน้า	
+transport	〜の手前	ก่อนถึง	before reaching	excluded	hand:transparent (ก่อน+ถึง)		
+weather	風が強い	ลมแรง	windy	excluded	hand:transparent		
+weather	日陰	ร่มเงา|ในร่ม|ที่ร่ม	shade	yes	hand	tl-02667:ร่ม	
+shops	食料雑貨店	ร้านขายของชำ|ร้านชำ	grocery	yes	hand	tl-57225:ร้านชำ	
+shops	コインランドリー|洗濯屋	ร้านซักผ้า	laundromat	yes	hand	tl-51399:ร้านซักรีด	
+school	ホッチキスの針	ลวดเย็บ	staples	yes	gloss	tl-55018:ลวดเย็บกระดาษ	
+school	クリップ	คลิปหนีบ|คลิป	clip	yes	hand	tl-03086:คลิป	
+school	はがき	โปสการ์ด|ไปรษณียบัตร	postcard	yes	hand	tl-44542:ไปรษณียบัตร	

@@ -1,0 +1,639 @@
+[
+ {
+  "id": "tl-70163",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70164",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70165",
+  "verdict": "fix",
+  "issues": [
+   "構成語 สัปดาห์（tl-00731）が 改まった表現/[\"formal\"] なのに 標準語 になっていた。note（会話では ทุกอาทิตย์）とも合うよう 改まった表現/[\"formal\"] に"
+  ],
+  "fixed": {
+   "id": "tl-70165",
+   "th": "ทุกสัปดาห์",
+   "action": "add",
+   "ro": "thúk sàp daa",
+   "kind": "word",
+   "category": "時間",
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "毎週",
+     "en": "every week",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [
+      "formal"
+     ],
+     "speechStyle": "改まった表現",
+     "note": "会話では ทุกอาทิตย์ のほうがよく使われる。",
+     "example": {
+      "th": "เราประชุมทุกสัปดาห์",
+      "ro": "rao prà chum thúk sàp daa",
+      "ja": "私たちは毎週会議をします。",
+      "en": "We have a meeting every week.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70166",
+  "verdict": "fix",
+  "issues": [
+   "構成語 อาทิตย์（tl-00652）は 標準語/[] で、ทุกอาทิตย์ も書き言葉で普通に使うため 口語/[\"colloquial\"] は不正確。標準語/[] にし、noteで会話ではこちらがふつうと説明"
+  ],
+  "fixed": {
+   "id": "tl-70166",
+   "th": "ทุกอาทิตย์",
+   "action": "add",
+   "ro": "thúk aa thít",
+   "kind": "word",
+   "category": "時間",
+   "frequency": 7,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "毎週",
+     "en": "every week",
+     "pos": "副詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "会話ではこちらがふつう（書き言葉・ニュースでは ทุกสัปดาห์）。อาทิตย์ には「日曜日」の意味もあり、ทุกวันอาทิตย์ は「毎週日曜日」。",
+     "example": {
+      "th": "ฉันไปตลาดทุกอาทิตย์",
+      "ro": "chǎn pai tà làat thúk aa thít",
+      "ja": "私は毎週市場へ行きます。",
+      "en": "I go to the market every week.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70167",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70168",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70169",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70170",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70171",
+  "verdict": "fix",
+  "issues": [
+   "品詞 定型表現 の 疑問詞＋類別詞の決まった聞き方。既存の กี่นาที・กี่ท่าน（editorial）と bank の定型表現（ほぼ全件 expression）に合わせて kind を word から expression に"
+  ],
+  "fixed": {
+   "id": "tl-70171",
+   "th": "กี่คน",
+   "action": "add",
+   "ro": "kìi khon",
+   "kind": "expression",
+   "category": "疑問詞",
+   "frequency": 8,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "何人",
+     "en": "how many people",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "店で人数を聞くときの決まった言い方が มากี่คน（何名様ですか）。",
+     "example": {
+      "th": "มากี่คนครับ",
+      "ro": "maa kìi khon khráp",
+      "ja": "何名様ですか？",
+      "en": "How many people are in your party?",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70172",
+  "verdict": "fix",
+  "issues": [
+   "品詞 定型表現 の 疑問詞＋類別詞の決まった聞き方。既存の กี่นาที・กี่ท่าน（editorial）と bank の定型表現（ほぼ全件 expression）に合わせて kind を word から expression に"
+  ],
+  "fixed": {
+   "id": "tl-70172",
+   "th": "กี่วัน",
+   "action": "add",
+   "ro": "kìi wan",
+   "kind": "expression",
+   "category": "時間",
+   "frequency": 7,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "何日（間）",
+     "en": "how many days",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "日数・期間を聞く。日付は วันที่เท่าไหร่ で聞く。",
+     "example": {
+      "th": "คุณจะอยู่เมืองไทยกี่วัน",
+      "ro": "khun cà yùu mʉʉang thai kìi wan",
+      "ja": "タイには何日間いますか？",
+      "en": "How many days will you stay in Thailand?",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70173",
+  "verdict": "fix",
+  "issues": [
+   "品詞 定型表現 の 疑問詞＋類別詞の決まった聞き方。既存の กี่นาที・กี่ท่าน（editorial）と bank の定型表現（ほぼ全件 expression）に合わせて kind を word から expression に"
+  ],
+  "fixed": {
+   "id": "tl-70173",
+   "th": "กี่ครั้ง",
+   "action": "add",
+   "ro": "kìi khráng",
+   "kind": "expression",
+   "category": "疑問詞",
+   "frequency": 7,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "何回",
+     "en": "how many times",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ยานี้ต้องกินวันละกี่ครั้ง",
+      "ro": "yaa níi tɔ̂ɔng kin wan lá kìi khráng",
+      "ja": "この薬は1日に何回飲めばいいですか？",
+      "en": "How many times a day should I take this medicine?",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70174",
+  "verdict": "fix",
+  "issues": [
+   "品詞 定型表現 の 疑問詞＋類別詞の決まった聞き方。既存の กี่นาที・กี่ท่าน（editorial）と bank の定型表現（ほぼ全件 expression）に合わせて kind を word から expression に"
+  ],
+  "fixed": {
+   "id": "tl-70174",
+   "th": "กี่ชั่วโมง",
+   "action": "add",
+   "ro": "kìi chûua moong",
+   "kind": "expression",
+   "category": "時間",
+   "frequency": 7,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "何時間",
+     "en": "how many hours",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "จากกรุงเทพฯไปเชียงใหม่ใช้เวลากี่ชั่วโมง",
+      "ro": "càak krung thêep pai chiiang mài chái wee laa kìi chûua moong",
+      "ja": "バンコクからチェンマイまで何時間かかりますか？",
+      "en": "How many hours does it take from Bangkok to Chiang Mai?",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70175",
+  "verdict": "fix",
+  "issues": [
+   "品詞 定型表現 の 疑問詞＋類別詞の決まった聞き方。既存の กี่นาที・กี่ท่าน（editorial）と bank の定型表現（ほぼ全件 expression）に合わせて kind を word から expression に"
+  ],
+  "fixed": {
+   "id": "tl-70175",
+   "th": "กี่เดือน",
+   "action": "add",
+   "ro": "kìi dʉʉan",
+   "kind": "expression",
+   "category": "時間",
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "何か月",
+     "en": "how many months",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ลูกอายุกี่เดือนแล้ว",
+      "ro": "lûuk aa yú kìi dʉʉan lɛ́ɛo",
+      "ja": "お子さんは生後何か月ですか？",
+      "en": "How many months old is your baby?",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70176",
+  "verdict": "fix",
+  "issues": [
+   "品詞 定型表現 の 疑問詞＋類別詞の決まった聞き方。既存の กี่นาที・กี่ท่าน（editorial）と bank の定型表現（ほぼ全件 expression）に合わせて kind を word から expression に"
+  ],
+  "fixed": {
+   "id": "tl-70176",
+   "th": "กี่ปี",
+   "action": "add",
+   "ro": "kìi pii",
+   "kind": "expression",
+   "category": "時間",
+   "frequency": 7,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "何年（間）・何歳",
+     "en": "how many years; how old",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "อายุกี่ปี で年齢を聞くこともできる。小さい子どもには กี่ขวบ を使う。",
+     "example": {
+      "th": "คุณอยู่ที่นี่มากี่ปีแล้ว",
+      "ro": "khun yùu thîi nîi maa kìi pii lɛ́ɛo",
+      "ja": "ここに住んで何年になりますか？",
+      "en": "How many years have you lived here?",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70177",
+  "verdict": "fix",
+  "issues": [
+   "品詞 定型表現 の 疑問詞＋類別詞の決まった聞き方。既存の กี่นาที・กี่ท่าน（editorial）と bank の定型表現（ほぼ全件 expression）に合わせて kind を word から expression に"
+  ],
+  "fixed": {
+   "id": "tl-70177",
+   "th": "กี่ขวบ",
+   "action": "add",
+   "ro": "kìi khùuap",
+   "kind": "expression",
+   "category": "疑問詞",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "何歳（子どもの年齢）",
+     "en": "how old (of a child)",
+     "pos": "定型表現",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "12歳くらいまでの子どもに使う。大人には อายุเท่าไหร่ や อายุกี่ปี。",
+     "example": {
+      "th": "ลูกสาวอายุกี่ขวบแล้ว",
+      "ro": "lûuk sǎao aa yú kìi khùuap lɛ́ɛo",
+      "ja": "娘さんは何歳になりましたか？",
+      "en": "How old is your daughter now?",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70178",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70179",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70180",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70181",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70182",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70183",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70184",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70185",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70186",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70187",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70188",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70189",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70190",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70191",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70192",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70193",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70194",
+  "verdict": "reject",
+  "issues": [
+   "editorial-018 の点検（tl-58719）と同じ判断で不採用。既存の ที่ に「第〜（順序）」の語義があり、ที่＋数（ที่สอง・ที่สาม…）の生産的な型。ได้ที่หนึ่ง の「1位」も ได้ที่สอง と同じ構造で、独自の意味を持つ語彙ではない。必要なら ที่ の順序の語義の用例に ได้ที่หนึ่ง を加えるほうがよい。品詞 数詞 も不適切（順位名詞）"
+  ]
+ },
+ {
+  "id": "tl-70195",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70196",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70197",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70198",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70199",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70200",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70201",
+  "verdict": "fix",
+  "issues": [
+   "ローマ字 drét は維持（綴りは長母音だが、英語由来の語末を高声・短く言うのがふつうで、ฟิตเนส fít nét・ดราฟต์ dráap と同じ扱い。辞書に声調の根拠はなく、異説として drèet もありうる）",
+   "เดรส は通販サイト・ファッション記事でも普通に書かれる服の名前で、会話限定ではないため 口語/[\"colloquial\"] を 標準語/[] に"
+  ],
+  "fixed": {
+   "id": "tl-70201",
+   "th": "เดรส",
+   "action": "add",
+   "ro": "drét",
+   "kind": "word",
+   "category": "一般語彙",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "ワンピース・ドレス",
+     "en": "dress",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "英語 dress から。数えるときは ตัว。ชุดเดรส とも言う。",
+     "example": {
+      "th": "เดรสตัวนี้สวยมาก",
+      "ro": "drét tuua níi sǔuai mâak",
+      "ja": "このワンピースはとてもきれいです。",
+      "en": "This dress is very pretty.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70202",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70203",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70204",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70205",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70206",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70207",
+  "verdict": "fix",
+  "issues": [
+   "既存の ลูกแพร์（西洋梨, note で「丸い梨は สาลี่」）と相互に分かるよう、noteに ลูกแพร์ との違いを追記"
+  ],
+  "fixed": {
+   "id": "tl-70207",
+   "th": "สาลี่",
+   "action": "add",
+   "ro": "sǎa lîi",
+   "kind": "word",
+   "category": "食べ物・飲み物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "梨・ナシ",
+     "en": "(Asian) pear",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "タイでは主に中国産などの丸くて白っぽい梨を指す。西洋梨は ลูกแพร์（登録済み）。数えるときは ลูก。",
+     "example": {
+      "th": "สาลี่ลูกนี้หวานมาก",
+      "ro": "sǎa lîi lûuk níi wǎan mâak",
+      "ja": "この梨はとても甘いです。",
+      "en": "This pear is very sweet.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70208",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70209",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70210",
+  "verdict": "fix",
+  "issues": [
+   "既存の เงินเยน（tl-51487 日本円, 頻度2）と同じ内容の用例（両替）だったため、単位として数の後ろに付く使い方の用例に替え、noteで เงินเยน との使い分けを示した（ดอลลาร์ の扱いと同じ）"
+  ],
+  "fixed": {
+   "id": "tl-70210",
+   "th": "เยน",
+   "action": "add",
+   "ro": "yeen",
+   "kind": "word",
+   "category": "お金・買い物",
+   "frequency": 4,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "円（日本の通貨・単位）",
+     "en": "yen",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "値段を言うときは数の後ろに付ける（สามพันเยน＝3,000円）。通貨そのもの・為替の話では เงินเยน（登録済み）とも言う。",
+     "example": {
+      "th": "ตั๋วรถไฟใบนี้ราคาสามพันเยน",
+      "ro": "tǔua rót fai bai níi raa khaa sǎam phan yeen",
+      "ja": "この電車の切符は3,000円です。",
+      "en": "This train ticket costs 3,000 yen.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70211",
+  "verdict": "fix",
+  "issues": [
+   "頻度1は低すぎる。色の意味ではふつう สีกรมท่า の形で言い（กรมท่า tl-47788 のnoteもそう説明）、制服・ズボン・スーツの色として日常的に聞く。基本色（สีแดง等7、สีม่วง6）より明らかに少ないため3に。構成語 กรมท่า（tl-47788）の頻度1も統合時に3へ上げて揃える必要がある（本ファイル外のため未変更）"
+  ],
+  "fixed": {
+   "id": "tl-70211",
+   "th": "สีกรมท่า",
+   "action": "add",
+   "ro": "sǐi krom thâa",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "frequency": 3,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "紺色",
+     "en": "navy blue",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "note": "สีน้ำเงิน より暗い紺。学校の制服や作業服によく使われる色。",
+     "example": {
+      "th": "เขาใส่กางเกงสีกรมท่าไปทำงาน",
+      "ro": "khǎo sài kaang keeng sǐi krom thâa pai tham ngaan",
+      "ja": "彼は紺色のズボンをはいて仕事に行きます。",
+      "en": "He wears navy-blue trousers to work.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ }
+]
