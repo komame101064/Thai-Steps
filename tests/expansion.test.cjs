@@ -2,7 +2,9 @@ const fs=require('fs'),vm=require('vm'),assert=require('assert');const read=n=>J
 const core=read('word-bank.json'),slang=read('slang-bank.json'),more=read('word-bank-more.json'),slangMore=fs.existsSync('dist/slang-bank-more.json')?read('slang-bank-more.json'):[],moreEx=read('more-examples.json'),report=read('expansion-review.json');
 // Additions never touch the original records, ids or headwords.
 assert.equal(core.length,5000);const ids=new Set([...core,...slang].map(w=>w.id)),ths=new Set([...core,...slang].map(w=>w.th));
-let senses=0;for(const w of more){assert(/^tl-\d{5}$/.test(w.id)&&!ids.has(w.id),w.id);ids.add(w.id);assert(!ths.has(w.th),w.th+' already registered');ths.add(w.th);
+// A general word spelled like an unrelated slang-only entry (ขิง ginger vs slang ขิง 自慢する) is a separate headword.
+const HOMOGRAPH_OK=new Set(['ขิง']);
+let senses=0;for(const w of more){assert(/^tl-\d{5}$/.test(w.id)&&!ids.has(w.id),w.id);ids.add(w.id);assert(!ths.has(w.th)||HOMOGRAPH_OK.has(w.th),w.th+' already registered');ths.add(w.th);
  const ed=w.source==='thai-steps-editorial';assert.equal(w.frequencyEstimated,true);assert(['corpus',ed?'editorial':'textbook'].includes(w.frequencyBasis),w.id+' '+w.frequencyBasis);assert(Number.isInteger(w.frequency)&&w.frequency>=1&&w.frequency<=10);assert(Number.isInteger(w.frequencyPrior));assert(ed?/^tl-[57]/.test(w.id):/^tl-4/.test(w.id),w.id);assert.equal(w.bucket,20000);assert(w.expansion&&w.source);
  for(const m of w.meanings){senses++;const e=moreEx[w.id+'#'+m.sourceSense];assert(e&&e.th.includes(w.th)&&e.ro&&e.ja&&e.en,w.id);assert.equal(m.reviewStatus,'reviewed');assert(/AI/.test(m.reviewMethod));assert(['newthai-v2.4','thai-steps-'+w.expansion].includes(e.sourceExample))}}
 // Editorial slang additions: their own id range, slang-list fields, a scene for every example, no duplicate of an existing slang item.
