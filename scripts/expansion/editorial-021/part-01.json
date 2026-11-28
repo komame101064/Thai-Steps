@@ -1,0 +1,1330 @@
+[
+ {
+  "id": "tl-70163",
+  "th": "ขิง",
+  "action": "add",
+  "ro": "khǐng",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ショウガ（生姜）",
+    "en": "ginger",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "น้ำขิง（ショウガ湯）・ผัดขิง（ショウガ炒め）などにも使う。ネットのスラングの ขิง（自慢する）とは別。",
+    "example": {
+     "th": "แม่ใส่ขิงในต้มไก่",
+     "ro": "mɛ̂ɛ sài khǐng nai tôm kài",
+     "ja": "母は鶏のスープにショウガを入れます。",
+     "en": "My mother puts ginger in the chicken soup.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70164",
+  "th": "หิวน้ำ",
+  "action": "skip",
+  "skipReason": "既存の หิว（tl-00875）の語義2「喉が渇く（組み合わせ）」が note「หิวน้ำの形で「喉が渇く」」付きでこの意味を教えている。同じ理由で หิวข้าว（tl-50102）も editorial-016 の点検で不採用になっているため、別見出しにしない。"
+ },
+ {
+  "id": "tl-70165",
+  "th": "ทุกสัปดาห์",
+  "action": "add",
+  "ro": "thúk sàp daa",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "毎週",
+    "en": "every week",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "会話では ทุกอาทิตย์ のほうがよく使われる。",
+    "example": {
+     "th": "เราประชุมทุกสัปดาห์",
+     "ro": "rao prà chum thúk sàp daa",
+     "ja": "私たちは毎週会議をします。",
+     "en": "We have a meeting every week.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70166",
+  "th": "ทุกอาทิตย์",
+  "action": "add",
+  "ro": "thúk aa thít",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "毎週",
+    "en": "every week",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "อาทิตย์ には「日曜日」の意味もあり、ทุกวันอาทิตย์ は「毎週日曜日」。",
+    "example": {
+     "th": "ฉันไปตลาดทุกอาทิตย์",
+     "ro": "chǎn pai tà làat thúk aa thít",
+     "ja": "私は毎週市場へ行きます。",
+     "en": "I go to the market every week.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70167",
+  "th": "ทุกเดือน",
+  "action": "add",
+  "ro": "thúk dʉʉan",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "毎月",
+    "en": "every month",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผมต้องจ่ายค่าเช่าทุกเดือน",
+     "ro": "phǒm tɔ̂ɔng càai khâa châo thúk dʉʉan",
+     "ja": "私は毎月家賃を払わなければなりません。",
+     "en": "I have to pay rent every month.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70168",
+  "th": "ทุกปี",
+  "action": "add",
+  "ro": "thúk pii",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "毎年",
+    "en": "every year",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ทุกปีเรากลับบ้านช่วงสงกรานต์",
+     "ro": "thúk pii rao klàp bâan chûuang sǒng kraan",
+     "ja": "毎年、私たちはソンクラーンの時期に実家へ帰ります。",
+     "en": "Every year we go back home during Songkran.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70169",
+  "th": "ทุกเช้า",
+  "action": "add",
+  "ro": "thúk cháao",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "毎朝",
+    "en": "every morning",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "พ่อดื่มกาแฟทุกเช้า",
+     "ro": "phɔ̂ɔ dʉ̀ʉm kaa fɛɛ thúk cháao",
+     "ja": "父は毎朝コーヒーを飲みます。",
+     "en": "My father drinks coffee every morning.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70170",
+  "th": "ทุกคืน",
+  "action": "add",
+  "ro": "thúk khʉʉn",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "毎晩",
+    "en": "every night",
+    "pos": "副詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลูกอ่านหนังสือก่อนนอนทุกคืน",
+     "ro": "lûuk àan nǎng sʉ̌ʉ kɔ̀ɔn nɔɔn thúk khʉʉn",
+     "ja": "子どもは毎晩寝る前に本を読みます。",
+     "en": "My child reads a book before bed every night.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70171",
+  "th": "กี่คน",
+  "action": "add",
+  "ro": "kìi khon",
+  "kind": "word",
+  "category": "疑問詞",
+  "frequency": 8,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何人",
+    "en": "how many people",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "店で人数を聞くときの決まった言い方が มากี่คน（何名様ですか）。",
+    "example": {
+     "th": "มากี่คนครับ",
+     "ro": "maa kìi khon khráp",
+     "ja": "何名様ですか？",
+     "en": "How many people are in your party?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70172",
+  "th": "กี่วัน",
+  "action": "add",
+  "ro": "kìi wan",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何日（間）",
+    "en": "how many days",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "日数・期間を聞く。日付は วันที่เท่าไหร่ で聞く。",
+    "example": {
+     "th": "คุณจะอยู่เมืองไทยกี่วัน",
+     "ro": "khun cà yùu mʉʉang thai kìi wan",
+     "ja": "タイには何日間いますか？",
+     "en": "How many days will you stay in Thailand?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70173",
+  "th": "กี่ครั้ง",
+  "action": "add",
+  "ro": "kìi khráng",
+  "kind": "word",
+  "category": "疑問詞",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何回",
+    "en": "how many times",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ยานี้ต้องกินวันละกี่ครั้ง",
+     "ro": "yaa níi tɔ̂ɔng kin wan lá kìi khráng",
+     "ja": "この薬は1日に何回飲めばいいですか？",
+     "en": "How many times a day should I take this medicine?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70174",
+  "th": "กี่ชั่วโมง",
+  "action": "add",
+  "ro": "kìi chûua moong",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何時間",
+    "en": "how many hours",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "จากกรุงเทพฯไปเชียงใหม่ใช้เวลากี่ชั่วโมง",
+     "ro": "càak krung thêep pai chiiang mài chái wee laa kìi chûua moong",
+     "ja": "バンコクからチェンマイまで何時間かかりますか？",
+     "en": "How many hours does it take from Bangkok to Chiang Mai?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70175",
+  "th": "กี่เดือน",
+  "action": "add",
+  "ro": "kìi dʉʉan",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何か月",
+    "en": "how many months",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลูกอายุกี่เดือนแล้ว",
+     "ro": "lûuk aa yú kìi dʉʉan lɛ́ɛo",
+     "ja": "お子さんは生後何か月ですか？",
+     "en": "How many months old is your baby?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70176",
+  "th": "กี่ปี",
+  "action": "add",
+  "ro": "kìi pii",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 7,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何年（間）・何歳",
+    "en": "how many years; how old",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "อายุกี่ปี で年齢を聞くこともできる。小さい子どもには กี่ขวบ を使う。",
+    "example": {
+     "th": "คุณอยู่ที่นี่มากี่ปีแล้ว",
+     "ro": "khun yùu thîi nîi maa kìi pii lɛ́ɛo",
+     "ja": "ここに住んで何年になりますか？",
+     "en": "How many years have you lived here?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70177",
+  "th": "กี่ขวบ",
+  "action": "add",
+  "ro": "kìi khùuap",
+  "kind": "word",
+  "category": "疑問詞",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "何歳（子どもの年齢）",
+    "en": "how old (of a child)",
+    "pos": "定型表現",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "12歳くらいまでの子どもに使う。大人には อายุเท่าไหร่ や อายุกี่ปี。",
+    "example": {
+     "th": "ลูกสาวอายุกี่ขวบแล้ว",
+     "ro": "lûuk sǎao aa yú kìi khùuap lɛ́ɛo",
+     "ja": "娘さんは何歳になりましたか？",
+     "en": "How old is your daughter now?",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70178",
+  "th": "โมงเช้า",
+  "action": "add",
+  "ro": "moong cháao",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "午前〜時（朝6〜11時の言い方）",
+    "en": "o'clock in the morning (6–11 a.m.)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "「เจ็ดโมงเช้า＝午前7時」のように数の後ろに付ける。7〜11時は เช้า を省いて แปดโมง のようにも言う。",
+    "example": {
+     "th": "ผมตื่นเจ็ดโมงเช้าทุกวัน",
+     "ro": "phǒm tʉ̀ʉn cèt moong cháao thúk wan",
+     "ja": "私は毎日午前7時に起きます。",
+     "en": "I get up at seven in the morning every day.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70179",
+  "th": "โมงเย็น",
+  "action": "add",
+  "ro": "moong yen",
+  "kind": "word",
+  "category": "時間",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "午後〜時（夕方4〜6時の言い方）",
+    "en": "o'clock in the late afternoon (4–6 p.m.)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "「ห้าโมงเย็น＝午後5時」のように数の後ろに付ける。午後1〜3時は บ่ายโมง・บ่ายสองโมง…、7時以降は ทุ่ม を使う。",
+    "example": {
+     "th": "ร้านปิดห้าโมงเย็น",
+     "ro": "ráan pìt hâa moong yen",
+     "ja": "店は午後5時に閉まります。",
+     "en": "The shop closes at five in the afternoon.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70180",
+  "th": "สิบสาม",
+  "action": "add",
+  "ro": "sìp sǎam",
+  "kind": "word",
+  "category": "数字",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "13（十三）",
+    "en": "thirteen",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ห้องของฉันอยู่ชั้นสิบสาม",
+     "ro": "hɔ̂ɔng khɔ̌ɔng chǎn yùu chán sìp sǎam",
+     "ja": "私の部屋は13階にあります。",
+     "en": "My room is on the thirteenth floor.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70181",
+  "th": "สิบสี่",
+  "action": "add",
+  "ro": "sìp sìi",
+  "kind": "word",
+  "category": "数字",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "14（十四）",
+    "en": "fourteen",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ลูกชายผมอายุสิบสี่ปี",
+     "ro": "lûuk chaai phǒm aa yú sìp sìi pii",
+     "ja": "私の息子は14歳です。",
+     "en": "My son is fourteen years old.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70182",
+  "th": "สิบห้า",
+  "action": "add",
+  "ro": "sìp hâa",
+  "kind": "word",
+  "category": "数字",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "15（十五）",
+    "en": "fifteen",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "อีกสิบห้านาทีรถเมล์จะมา",
+     "ro": "ìik sìp hâa naa thii rót mee cà maa",
+     "ja": "あと15分でバスが来ます。",
+     "en": "The bus will come in fifteen minutes.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70183",
+  "th": "สิบหก",
+  "action": "add",
+  "ro": "sìp hòk",
+  "kind": "word",
+  "category": "数字",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "16（十六）",
+    "en": "sixteen",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "บ้านผมเลขที่สิบหก",
+     "ro": "bâan phǒm lêek thîi sìp hòk",
+     "ja": "私の家は16番地です。",
+     "en": "My house is number sixteen.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70184",
+  "th": "สิบเจ็ด",
+  "action": "add",
+  "ro": "sìp cèt",
+  "kind": "word",
+  "category": "数字",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "17（十七）",
+    "en": "seventeen",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "วันนี้วันที่สิบเจ็ด",
+     "ro": "wan níi wan thîi sìp cèt",
+     "ja": "今日は17日です。",
+     "en": "Today is the seventeenth.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70185",
+  "th": "สิบแปด",
+  "action": "add",
+  "ro": "sìp pɛ̀ɛt",
+  "kind": "word",
+  "category": "数字",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "18（十八）",
+    "en": "eighteen",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ต้องอายุสิบแปดปีขึ้นไป",
+     "ro": "tɔ̂ɔng aa yú sìp pɛ̀ɛt pii khʉ̂n pai",
+     "ja": "18歳以上でなければなりません。",
+     "en": "You must be eighteen or older.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70186",
+  "th": "สิบเก้า",
+  "action": "add",
+  "ro": "sìp kâao",
+  "kind": "word",
+  "category": "数字",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "19（十九）",
+    "en": "nineteen",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ขนมนี้ราคาสิบเก้าบาท",
+     "ro": "khà nǒm níi raa khaa sìp kâao bàat",
+     "ja": "このお菓子は19バーツです。",
+     "en": "This snack costs nineteen baht.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70187",
+  "th": "ยี่สิบเอ็ด",
+  "action": "add",
+  "ro": "yîi sìp èt",
+  "kind": "word",
+  "category": "数字",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "21（二十一）",
+    "en": "twenty-one",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "一の位の1は หนึ่ง ではなく เอ็ด と言う（ยี่สิบเอ็ด・สามสิบเอ็ด）。",
+    "example": {
+     "th": "เขาเพิ่งอายุยี่สิบเอ็ด",
+     "ro": "khǎo phə̂əng aa yú yîi sìp èt",
+     "ja": "彼は21歳になったばかりです。",
+     "en": "He just turned twenty-one.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70188",
+  "th": "สี่สิบ",
+  "action": "add",
+  "ro": "sìi sìp",
+  "kind": "word",
+  "category": "数字",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "40（四十）",
+    "en": "forty",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "จากบ้านไปที่ทำงานใช้เวลาสี่สิบนาที",
+     "ro": "càak bâan pai thîi tham ngaan chái wee laa sìi sìp naa thii",
+     "ja": "家から職場まで40分かかります。",
+     "en": "It takes forty minutes from home to work.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70189",
+  "th": "ห้าสิบ",
+  "action": "add",
+  "ro": "hâa sìp",
+  "kind": "word",
+  "category": "数字",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "50（五十）",
+    "en": "fifty",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ค่ารถห้าสิบบาท",
+     "ro": "khâa rót hâa sìp bàat",
+     "ja": "運賃は50バーツです。",
+     "en": "The fare is fifty baht.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70190",
+  "th": "หกสิบ",
+  "action": "add",
+  "ro": "hòk sìp",
+  "kind": "word",
+  "category": "数字",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "60（六十）",
+    "en": "sixty",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หนึ่งชั่วโมงมีหกสิบนาที",
+     "ro": "nʉ̀ng chûua moong mii hòk sìp naa thii",
+     "ja": "1時間は60分です。",
+     "en": "One hour has sixty minutes.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70191",
+  "th": "เจ็ดสิบ",
+  "action": "add",
+  "ro": "cèt sìp",
+  "kind": "word",
+  "category": "数字",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "70（七十）",
+    "en": "seventy",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "คุณยายอายุเจ็ดสิบปีแล้ว",
+     "ro": "khun yaai aa yú cèt sìp pii lɛ́ɛo",
+     "ja": "祖母はもう70歳です。",
+     "en": "My grandmother is already seventy.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70192",
+  "th": "แปดสิบ",
+  "action": "add",
+  "ro": "pɛ̀ɛt sìp",
+  "kind": "word",
+  "category": "数字",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "80（八十）",
+    "en": "eighty",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "เสื้อตัวนี้ลดเหลือแปดสิบบาท",
+     "ro": "sʉ̂ʉa tuua níi lót lʉ̌ʉa pɛ̀ɛt sìp bàat",
+     "ja": "このシャツは80バーツに値下げされています。",
+     "en": "This shirt is marked down to eighty baht.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70193",
+  "th": "เก้าสิบ",
+  "action": "add",
+  "ro": "kâao sìp",
+  "kind": "word",
+  "category": "数字",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "90（九十）",
+    "en": "ninety",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ผมสอบได้เก้าสิบคะแนน",
+     "ro": "phǒm sɔ̀ɔp dâai kâao sìp khá nɛɛn",
+     "ja": "私は試験で90点を取りました。",
+     "en": "I got ninety points on the test.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70194",
+  "th": "ที่หนึ่ง",
+  "action": "add",
+  "ro": "thîi nʉ̀ng",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "1位・一番",
+    "en": "first place, number one",
+    "pos": "数詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "ได้ที่หนึ่ง（1位になる）の形でよく使う。",
+    "example": {
+     "th": "ลูกสาวได้ที่หนึ่งในห้อง",
+     "ro": "lûuk sǎao dâai thîi nʉ̀ng nai hɔ̂ɔng",
+     "ja": "娘はクラスで1番になりました。",
+     "en": "My daughter came first in her class.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70195",
+  "th": "ความสูง",
+  "action": "add",
+  "ro": "khwaam sǔung",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 6,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "高さ・身長",
+    "en": "height",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "人の身長を聞くときは สูงเท่าไหร่ と言うのがふつう。",
+    "example": {
+     "th": "ตึกนี้มีความสูงห้าสิบเมตร",
+     "ro": "tʉ̀k níi mii khwaam sǔung hâa sìp méet",
+     "ja": "このビルは高さが50メートルあります。",
+     "en": "This building is fifty meters high.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70196",
+  "th": "ความยาว",
+  "action": "add",
+  "ro": "khwaam yaao",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "長さ",
+    "en": "length",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สะพานนี้มีความยาวหนึ่งกิโลเมตร",
+     "ro": "sà phaan níi mii khwaam yaao nʉ̀ng kì loo méet",
+     "ja": "この橋は長さが1キロメートルあります。",
+     "en": "This bridge is one kilometer long.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70197",
+  "th": "ความกว้าง",
+  "action": "add",
+  "ro": "khwaam kwâang",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "幅・広さ",
+    "en": "width, breadth",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ห้องนี้มีความกว้างสี่เมตร",
+     "ro": "hɔ̂ɔng níi mii khwaam kwâang sìi méet",
+     "ja": "この部屋は幅が4メートルあります。",
+     "en": "This room is four meters wide.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70198",
+  "th": "ความลึก",
+  "action": "add",
+  "ro": "khwaam lʉ́k",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "深さ",
+    "en": "depth",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "สระว่ายน้ำนี้มีความลึกสองเมตร",
+     "ro": "sà wâai náam níi mii khwaam lʉ́k sɔ̌ɔng méet",
+     "ja": "このプールは深さが2メートルあります。",
+     "en": "This pool is two meters deep.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70199",
+  "th": "ความหนา",
+  "action": "add",
+  "ro": "khwaam nǎa",
+  "kind": "word",
+  "category": "量・程度・比較",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "厚さ",
+    "en": "thickness",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ไม้แผ่นนี้มีความหนาสองเซนติเมตร",
+     "ro": "máai phɛ̀n níi mii khwaam nǎa sɔ̌ɔng sen tì méet",
+     "ja": "この板は厚さが2センチあります。",
+     "en": "This board is two centimeters thick.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70200",
+  "th": "ชุดกระโปรง",
+  "action": "add",
+  "ro": "chút krà proong",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ワンピース",
+    "en": "dress (one-piece)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "会話では เดรส とも言う。",
+    "example": {
+     "th": "เธอใส่ชุดกระโปรงสีขาว",
+     "ro": "thəə sài chút krà proong sǐi khǎao",
+     "ja": "彼女は白いワンピースを着ています。",
+     "en": "She is wearing a white dress.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70201",
+  "th": "เดรส",
+  "action": "add",
+  "ro": "drét",
+  "kind": "word",
+  "category": "一般語彙",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ワンピース・ドレス",
+    "en": "dress",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [
+     "colloquial"
+    ],
+    "speechStyle": "口語",
+    "note": "英語 dress から。数えるときは ตัว。ชุดเดรส とも言う。",
+    "example": {
+     "th": "เดรสตัวนี้สวยมาก",
+     "ro": "drét tuua níi sǔuai mâak",
+     "ja": "このワンピースはとてもきれいです。",
+     "en": "This dress is very pretty.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70202",
+  "th": "ไฟเหลือง",
+  "action": "add",
+  "ro": "fai lʉ̌ʉang",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "黄信号",
+    "en": "yellow (amber) light",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "赤信号は ไฟแดง、青信号は ไฟเขียว。",
+    "example": {
+     "th": "ไฟเหลืองแล้วขับช้าลงหน่อย",
+     "ro": "fai lʉ̌ʉang lɛ́ɛo khàp cháa long nɔ̀ɔi",
+     "ja": "黄信号だから、少しスピードを落として。",
+     "en": "The light is yellow, slow down a bit.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70203",
+  "th": "ถนนใหญ่",
+  "action": "add",
+  "ro": "thà nǒn yài",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "大通り・表通り",
+    "en": "main road",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "路地（ซอย）に対して表の大通りを指す。「ออกไปถนนใหญ่＝大通りに出る」。",
+    "example": {
+     "th": "ร้านอยู่ติดถนนใหญ่",
+     "ro": "ráan yùu tìt thà nǒn yài",
+     "ja": "店は大通り沿いにあります。",
+     "en": "The shop is right on the main road.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70204",
+  "th": "สุดซอย",
+  "action": "add",
+  "ro": "sùt sɔɔi",
+  "kind": "word",
+  "category": "移動・道案内",
+  "frequency": 5,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "路地の突き当たり・路地の奥",
+    "en": "end of the lane (soi)",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "反対は ปากซอย（路地の入口）。若者言葉の「とことん（遊ぶ）」の意味は スラング欄を参照。",
+    "example": {
+     "th": "บ้านฉันอยู่สุดซอย",
+     "ro": "bâan chǎn yùu sùt sɔɔi",
+     "ja": "私の家は路地の突き当たりにあります。",
+     "en": "My house is at the end of the lane.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70205",
+  "th": "เลขคี่",
+  "action": "add",
+  "ro": "lêek khîi",
+  "kind": "word",
+  "category": "数字",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "奇数",
+    "en": "odd number",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "หนึ่งสามและห้าเป็นเลขคี่",
+     "ro": "nʉ̀ng sǎam lɛ́ hâa pen lêek khîi",
+     "ja": "1と3と5は奇数です。",
+     "en": "One, three and five are odd numbers.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70206",
+  "th": "เลขคู่",
+  "action": "add",
+  "ro": "lêek khûu",
+  "kind": "word",
+  "category": "数字",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "偶数",
+    "en": "even number",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "คู่ だけでも「偶数」の意味になるが、ふつうは เลขคู่ と言う。",
+    "example": {
+     "th": "สองสี่และหกเป็นเลขคู่",
+     "ro": "sɔ̌ɔng sìi lɛ́ hòk pen lêek khûu",
+     "ja": "2と4と6は偶数です。",
+     "en": "Two, four and six are even numbers.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70207",
+  "th": "สาลี่",
+  "action": "add",
+  "ro": "sǎa lîi",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ナシ（梨）",
+    "en": "(Asian) pear",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "タイでは主に中国産の白っぽい梨を指す。数えるときは ลูก。",
+    "example": {
+     "th": "สาลี่ลูกนี้หวานมาก",
+     "ro": "sǎa lîi lûuk níi wǎan mâak",
+     "ja": "この梨はとても甘いです。",
+     "en": "This pear is very sweet.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70208",
+  "th": "มายองเนส",
+  "action": "add",
+  "ro": "maa yɔɔng néet",
+  "kind": "word",
+  "category": "食べ物・飲み物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "マヨネーズ",
+    "en": "mayonnaise",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "英語 mayonnaise から。",
+    "example": {
+     "th": "ใส่มายองเนสในสลัดนิดหน่อย",
+     "ro": "sài maa yɔɔng néet nai sà làt nít nɔ̀ɔi",
+     "ja": "サラダにマヨネーズを少し入れます。",
+     "en": "Put a little mayonnaise in the salad.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70209",
+  "th": "ยูโร",
+  "action": "add",
+  "ro": "yuu roo",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "ユーロ（通貨）",
+    "en": "euro",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "example": {
+     "th": "ที่ยุโรปใช้เงินยูโร",
+     "ro": "thîi yú ròop chái ngəən yuu roo",
+     "ja": "ヨーロッパではユーロを使います。",
+     "en": "In Europe they use the euro.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70210",
+  "th": "เยน",
+  "action": "add",
+  "ro": "yeen",
+  "kind": "word",
+  "category": "お金・買い物",
+  "frequency": 4,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "円（日本の通貨）",
+    "en": "yen",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "เงินเยน とも言う。",
+    "example": {
+     "th": "ผมแลกเงินบาทเป็นเยน",
+     "ro": "phǒm lɛ̂ɛk ngəən bàat pen yeen",
+     "ja": "私はバーツを円に両替しました。",
+     "en": "I exchanged baht for yen.",
+     "origin": "authored"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tl-70211",
+  "th": "สีกรมท่า",
+  "action": "add",
+  "ro": "sǐi krom thâa",
+  "kind": "word",
+  "category": "自然・天気・色",
+  "frequency": 1,
+  "senses": [
+   {
+    "sourceSense": 1,
+    "ja": "紺色",
+    "en": "navy blue",
+    "pos": "名詞",
+    "use": "よく使う意味",
+    "registerTags": [],
+    "speechStyle": "標準語（口語限定ではない）",
+    "note": "สีน้ำเงิน より暗い紺。学校の制服や作業服によく使われる色。",
+    "example": {
+     "th": "เขาใส่กางเกงสีกรมท่าไปทำงาน",
+     "ro": "khǎo sài kaang keeng sǐi krom thâa pai tham ngaan",
+     "ja": "彼は紺色のズボンをはいて仕事に行きます。",
+     "en": "He wears navy-blue trousers to work.",
+     "origin": "authored"
+    }
+   }
+  ]
+ }
+]
