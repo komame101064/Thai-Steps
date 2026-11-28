@@ -1,0 +1,173 @@
+[
+ {
+  "id": "tl-70152",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70153",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70154",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70155",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70156",
+  "verdict": "fix",
+  "issues": [
+   "用例ローマ字の ตัว が tua になっていた。登録済み見出し語 ตัว（tuua）に合わせて tuua に"
+  ],
+  "fixed": {
+   "id": "tl-70156",
+   "th": "สีฟ้า",
+   "action": "add",
+   "ro": "sǐi fáa",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "frequency": 7,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "水色・空色（明るい青）",
+     "en": "light blue, sky blue",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เสื้อสีฟ้าตัวนี้สวยมาก",
+      "ro": "sʉ̂ʉa sǐi fáa tuua níi sǔuai mâak",
+      "ja": "この水色のシャツはとてもきれいです。",
+      "en": "This light-blue shirt is very pretty.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70157",
+  "verdict": "fix",
+  "issues": [
+   "構成語 ม่วง（頻度6）より高い頻度7になっていたため6に"
+  ],
+  "fixed": {
+   "id": "tl-70157",
+   "th": "สีม่วง",
+   "action": "add",
+   "ro": "sǐi mûuang",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "frequency": 6,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "紫・紫色",
+     "en": "purple",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "เธอชอบดอกไม้สีม่วง",
+      "ro": "thəə chɔ̂ɔp dɔ̀ɔk máai sǐi mûuang",
+      "ja": "彼女は紫の花が好きです。",
+      "en": "She likes purple flowers.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70158",
+  "verdict": "fix",
+  "issues": [
+   "用例 พระสงฆ์ห่มจีวรสีส้ม は จีวร（頻度1）・ห่ม など日常的でない語を含み、タイでは僧衣を ผ้าเหลือง/สีเหลือง とも言うため色の説明として紛らわしい。日常的な用例 แมวตัวนี้มีขนสีส้ม に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-70158",
+   "th": "สีส้ม",
+   "action": "add",
+   "ro": "sǐi sôm",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "frequency": 7,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "オレンジ色・だいだい色",
+     "en": "orange (color)",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "แมวตัวนี้มีขนสีส้ม",
+      "ro": "mɛɛo tuua níi mii khǒn sǐi sôm",
+      "ja": "この猫は毛がオレンジ色です。",
+      "en": "This cat has orange fur.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "tl-70159",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70160",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70161",
+  "verdict": "ok",
+  "issues": []
+ },
+ {
+  "id": "tl-70162",
+  "verdict": "fix",
+  "issues": [
+   "用例 ใบไม้อ่อนเป็นสีเขียวอ่อน は อ่อน が重なりぎこちない（若葉は普通 ใบอ่อน）。自然な用例 ห้องนอนลูกทาสีเขียวอ่อน に差し替え"
+  ],
+  "fixed": {
+   "id": "tl-70162",
+   "th": "สีเขียวอ่อน",
+   "action": "add",
+   "ro": "sǐi khǐiao ɔ̀ɔn",
+   "kind": "word",
+   "category": "自然・天気・色",
+   "frequency": 5,
+   "senses": [
+    {
+     "sourceSense": 1,
+     "ja": "黄緑・薄い緑",
+     "en": "light green, yellowish green",
+     "pos": "名詞",
+     "use": "よく使う意味",
+     "registerTags": [],
+     "speechStyle": "標準語（口語限定ではない）",
+     "example": {
+      "th": "ห้องนอนลูกทาสีเขียวอ่อน",
+      "ro": "hɔ̂ɔng nɔɔn lûuk thaa sǐi khǐiao ɔ̀ɔn",
+      "ja": "子ども部屋は薄い緑色に塗ってあります。",
+      "en": "My child's bedroom is painted light green.",
+      "origin": "authored"
+     }
+    }
+   ]
+  }
+ }
+]
